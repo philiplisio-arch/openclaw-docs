@@ -39,8 +39,8 @@ Single tracking document for Phase 7 gate criteria. Each gate must be fully met 
 
 | Item | Description | Status |
 |------|-------------|--------|
-| Step 2A | VPS documentation repository created; Git initialised; system docs migrated; baseline commit verified restorable | PENDING |
-| Step 2B | CoWork permission boundary configured; read/write limits enforced structurally; operator confirmed | PENDING |
+| Step 2A | VPS documentation repository created; Git initialised; system docs migrated; baseline commit verified restorable | ✔ COMPLETE — 2026-05-09 (commit f791138) |
+| Step 2B | CoWork permission boundary configured; read/write limits enforced structurally; operator confirmed | ✔ COMPLETE — 2026-05-09 |
 | Step 3 | client_config.yaml drafted and approved | PENDING |
 | Step 4 | CoWork daily report format (11-field template) drafted and approved | PENDING |
 | Step 5 | Multi-client test harness design document approved | PENDING |

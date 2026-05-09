@@ -61,6 +61,16 @@ paid pilot. No runtime pipeline changes authorized.
 Phase A trust gate: 4 of 5 consecutive clean runs confirmed (2026-05-06,
 2026-05-07, 2026-05-08, 2026-05-09). One further clean run closes gate.
 
+Step 2A complete (2026-05-09): /root/openclaw_docs/ and /root/openclaw_cowork/
+created; Git repo initialised; 21 system documents migrated; baseline commit
+f791138 made and rollback verified.
+
+Step 2B complete (2026-05-09): openclaw_cowork system user created (uid=999);
+permission boundary enforced structurally — read: openclaw_docs/, openclaw_logs/,
+openclaw_phase5/data/, openclaw_phase6/validation/; write: openclaw_cowork/ only;
+phase5/ and phase6/ root listing blocked; docs write blocked. All 7 verification
+tests passed. Step 3 now open.
+
 Known Phase 6 citation-control issues appear resolved based on the latest
 validated runs. Observed fabrication rate 0% across the latest validated run
 set. Chinese-language sources surfacing in delivery; authority calibration and
@@ -119,8 +129,9 @@ source diversity remain Phase 7 editorial-quality workstreams.
 
 1. Monitor 2026-05-10 cron run — one further clean delivery closes the Phase A
    five-consecutive-run trust gate (4 of 5 confirmed)
-2. Run find command on VPS to verify scrubber_report.json path (T-06 — low urgency)
-3. Proceed to Step 2A — VPS documentation repository setup (operator-confirmed)
+2. Proceed to Step 3 — client_config.yaml schema draft (operator-confirmed)
+3. Run find command on VPS to verify scrubber_report.json path (T-06 — low urgency)
+4. Sync updated documents to VPS git repo (scp + git commit on VPS)
 
 ---
 
