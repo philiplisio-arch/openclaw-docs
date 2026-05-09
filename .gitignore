@@ -1,0 +1,25 @@
+# Secrets and credentials
+*.env
+.env
+*.key
+*.pem
+*.secret
+
+# Runtime scripts
+*.sh
+*.py
+
+# Logs and data
+*.log
+*.json
+*.bak
+
+# Python artifacts
+__pycache__/
+*.pyc
+venv/
+relay-venv/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
