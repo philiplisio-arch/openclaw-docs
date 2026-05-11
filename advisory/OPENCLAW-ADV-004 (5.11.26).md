@@ -1,0 +1,200 @@
+---
+document_id: OPENCLAW-ADV-004
+date: 2026-05-11
+to: OpenClaw Project Operator
+from: Claude CoWork
+re: Permission Request — Phase A & Phase B Gate Closure / Daily Status Correction
+status: PENDING OPERATOR APPROVAL
+---
+
+# OPENCLAW — Advisory Memorandum
+## Permission Request: Gate Closures and Document Corrections
+
+---
+
+## Why This Memo Exists
+
+During session preparation for today's work, CoWork reviewed all active
+project documents — the Daily Status, Gate Checklist, and Phase B design
+documents — to establish the true current state before proceeding.
+
+That review revealed two things that require operator decision before any
+further work or document updates proceed:
+
+1. An error in the Daily Status document CoWork wrote earlier in this
+   session (04_DAILY_STATUS 5.11.26).
+
+2. A more significant finding: Phase B is fully complete as of 2026-05-09,
+   not partially complete as the erroneous Daily Status implied.
+
+Both items require corrected documents. Per the Operating Protocol
+(Section 5, Step 5), no document update takes effect without explicit
+operator approval. This memo sets out what happened, what the correct
+state is, and what CoWork is requesting permission to do.
+
+---
+
+## Section 1 — What Happened: The Error
+
+Earlier in this session, CoWork produced a new Daily Status
+(04_DAILY_STATUS 5.11.26). The Next Step section of that document stated:
+
+> 1. Proceed to Step 3 — client_config.yaml schema draft (operator-confirmed,
+>    Phase B in-scope)
+
+This was incorrect. Step 3 was completed and operator-approved on 2026-05-09.
+
+### How the error occurred
+
+CoWork used the 5.9.26 Daily Status as its source document when drafting
+the 5.11.26 update. The 5.9.26 Daily Status listed Step 3 as the next
+step — which was accurate at the moment that document was written. However,
+Steps 3, 4, and 5 were all completed during the same session on 2026-05-09,
+after the 5.9.26 Daily Status was drafted.
+
+CoWork checked the run results and Phase A gate status from the 5.9.26
+document but did not cross-reference the Gate Checklist (OPENCLAW-P7-GATE-001)
+before writing the Next Step section. The Gate Checklist is the authoritative
+record of Phase B completion status. CoWork should have read it. It did not
+do so until this session's planning stage.
+
+### What the error caused
+
+The 5.11.26 Daily Status, as currently written on disk, contains a Next Step
+that points to work already done. If used as a reference for future sessions
+without correction, it would misdirect work back to Step 3 and obscure the
+fact that Phase B is complete and Phase C is ready to open.
+
+No other system documents were affected. The Issues Log (5.11.26) is correct.
+The run analyses for 2026-05-10 and 2026-05-11 are correct.
+
+---
+
+## Section 2 — The True Current State
+
+A complete review of the Gate Checklist and the five Phase B design documents
+confirms the following:
+
+### Phase A Gate
+
+| Run | Date | Status |
+|-----|------|--------|
+| Run 1 | 2026-05-06 | ✔ CONFIRMED |
+| Run 2 | 2026-05-07 | ✔ CONFIRMED |
+| Run 3 | 2026-05-08 06:32 | ✔ CONFIRMED (23/23) |
+| Run 4 | 2026-05-09 | ✔ CONFIRMED (26/26) |
+| Run 5 | 2026-05-10 | ✔ CONFIRMED (clean delivery, per today's analysis) |
+
+Five consecutive clean deliveries confirmed. The operator verbally confirmed
+Phase A gate closure earlier in this session. The Gate Checklist has not yet
+been updated to reflect this.
+
+### Phase B Gate
+
+| Step | Item | Document | Date |
+|------|------|----------|------|
+| Step 2A | VPS documentation repository setup | — | 2026-05-09 |
+| Step 2B | CoWork permission boundary | — | 2026-05-09 |
+| Step 3 | Client config schema | client_config_china_monitor_001.yaml | 2026-05-09 |
+| Step 4 | CoWork daily report format | OPENCLAW-COWORK-REPORT-TEMPLATE | 2026-05-09 |
+| Step 5 | Multi-client test harness design | OPENCLAW-TEST-HARNESS-DESIGN v1.1 | 2026-05-09 |
+
+All five items are present on disk, carry APPROVED status, and are dated
+2026-05-09. The Gate Checklist records Steps 3 and 4 as complete but still
+shows Step 5 as PENDING. This is a Gate Checklist recording lag — the
+OPENCLAW-TEST-HARNESS-DESIGN document itself is marked APPROVED. The Gate
+Checklist requires updating to reflect the true state.
+
+Phase B gate is ready to close. This is an operator decision.
+
+### What comes next (Phase C)
+
+Closing Phase B gate opens Step 6: Brain Lite implementation. Per the
+Phase 7 Execution Plan and ADV-002, Phase C begins with a mandatory
+pre-implementation audit before any code is touched — a grep pass across
+the live VPS codebase to identify every hardcoded artifact path that will
+need to be parameterised for multi-client use. That audit is a Claude Code
+job, not a CoWork job. CoWork will flag this explicitly when Phase C opens.
+
+---
+
+## Section 3 — What CoWork Is Requesting Permission to Do
+
+CoWork is requesting operator approval for the following three actions,
+each of which involves updating a document on disk.
+
+### Action 1 — Correct 04_DAILY_STATUS (5.11.26)
+
+Overwrite the current 5.11.26 Daily Status with a corrected version.
+The following sections change:
+
+**Current Position:** Add a closing paragraph confirming all five Phase B
+steps are complete and the gate is ready to close.
+
+**Status block:** Add three confirmation lines:
+- Step 3 complete — client_config_china_monitor_001.yaml approved 2026-05-09
+- Step 4 complete — OPENCLAW-COWORK-REPORT-TEMPLATE approved 2026-05-09
+- Step 5 complete — OPENCLAW-TEST-HARNESS-DESIGN v1.1 approved 2026-05-09
+
+**Next Step:** Replace the erroneous Step 3 reference with:
+1. Operator to confirm Phase B gate closure (all five items complete)
+2. Phase C opens: Brain Lite implementation (Step 6)
+   — Pre-implementation hardcoded-filename audit required first
+     (VPS grep across pipeline codebase — Claude Code on VPS)
+3. Run find command on VPS to verify scrubber_report.json path
+   (T-06 — low urgency, can be folded into Phase C audit)
+4. Sync updated documents to VPS git repo (scp + git commit on VPS)
+
+All other sections of the Daily Status remain unchanged.
+
+---
+
+### Action 2 — Update OPENCLAW-P7-GATE-001
+
+Update the Gate Checklist to reflect current confirmed state:
+
+- Phase A Gate: mark Run 5 CONFIRMED; update gate status to CLOSED;
+  record closure date as 2026-05-11, confirmed by operator.
+
+- Phase B Gate: mark Step 5 COMPLETE; update gate status from OPEN to
+  CLOSED (pending operator confirmation in this memo).
+
+- Gate Closure Log: record Phase A closure (2026-05-11, operator) and
+  Phase B closure (2026-05-11, pending this approval).
+
+---
+
+### Action 3 — No further documents
+
+No other documents require changes at this time. The Issues Log (5.11.26),
+the Operating Protocol, the Advisory Roadmap, and all Phase B design
+documents are accurate as they stand.
+
+---
+
+## Section 4 — What CoWork Is Not Requesting
+
+- No pipeline changes of any kind.
+- No Phase C work to begin before operator explicitly opens it.
+- No Brain Lite design, schema, or implementation work at this stage.
+- No changes to the Brain Lite design or schema documents already on disk.
+- No changes to the test harness design or client config documents.
+
+Phase C is not open until the operator says so. The gate closure recorded
+in the Gate Checklist is a record of completed planning work — it does not
+authorize implementation to begin. A separate operator instruction opens
+Phase C.
+
+---
+
+## Section 5 — Compliance Confirmation
+
+> ✓ No architecture changes are proposed.
+> ✓ No phase drift is present in this memo.
+> ✓ No scope expansion is introduced.
+> ✓ All proposed updates are held in PROPOSED state pending operator approval.
+
+---
+
+*OPENCLAW-ADV-004 | Claude CoWork | 2026-05-11 | PENDING OPERATOR APPROVAL*
+*No document update takes effect without explicit operator approval.*

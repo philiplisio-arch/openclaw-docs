@@ -1,0 +1,62 @@
+# client_config.yaml
+# Client: China Monitoring Brief (Default / Internal Client)
+# Schema: Phase B approved field set (Section 13, Phase 7 Execution Plan)
+# Status: APPROVED — 2026-05-09
+# ─────────────────────────────────────────────────────────────────────
+
+# Identity
+client_id: china_monitor_001
+client_name: "China Monitoring Brief"
+
+# Namespace — must equal client_id for full artifact traceability
+artifact_namespace: china_monitor_001
+
+# Topic focus — drives retrieval query construction
+# Maps to query_template_set at runtime
+topic_focus:
+  - "US-China economic relations and trade policy"
+  - "China regulatory and legal environment for multinationals"
+  - "European-China trade and business relations"
+  - "Middle East energy and regional dynamics — China linkage only"
+  - "Chinese financial markets and macroeconomic conditions"
+
+# Geographic coverage
+regions:
+  - "us_china"
+  - "europe"
+  - "middle_east"
+
+# Query and output configuration
+query_template_set: "china_monitor_v1"         # references SYS_Retrieval_Query_Templates
+report_template:    "china_monitoring_brief_v1" # section structure, tone, length
+
+# Delivery channel
+delivery_channel:
+  type: lark
+  credentials_ref: "/root/openclaw_secrets/lark_webhook_china_monitor_001"
+  # NOTE: credentials currently inline in run_light_to_lark.sh
+  # Migration to /root/openclaw_secrets/ is not authorized as a Phase B
+  # runtime change. To be handled when Phase C implementation opens,
+  # or through a separate operator-approved secrets-migration step.
+
+# Schedule — VPS clock is Asia/Shanghai (CST, +0800)
+schedule: "30 06 * * *"   # 06:30 Shanghai daily
+
+# Retrieval providers (in priority order)
+source_preferences:
+  priority_providers:
+    - brave
+    - baidu
+
+# Brain Lite context injection
+brain_context: false   # Set true when Brain Lite is active (Phase C)
+
+# Output sections
+output_sections:
+  executive_take:       true
+  advisory_layer:       true
+  linkedin_draft:       false   # Future — Phase F
+  regional_source_list: false   # Future — Phase F
+
+# Pilot gate
+pilot_mode: false   # Internal/default client — no external delivery gate required
