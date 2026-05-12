@@ -1,9 +1,9 @@
 ---
 document_id: OPENCLAW-OPS-001
 status: LOCKED
-version: 2.1
+version: 2.3
 created: 2026-05-01
-last_updated: 2026-05-08
+last_updated: 2026-05-11
 classification: GOVERNANCE — SYSTEM CONTROL DOCUMENT
 ---
 
@@ -49,25 +49,30 @@ written modification by the operator.
 ### Active Phase
 
 ```
-Phase 7 Entry — Phase B (Infrastructure & Planning)
+Phase 7 Entry — Phase C (Brain Lite & Client Config Implementation)
 ```
 
 *Phase 6 Soft Layer (6.1–6.8) closed 2026-05-07 — operator authorized.*
 *Advisory roadmap OPENCLAW-ADV-002 approved 2026-05-08 — operator confirmed.*
-*Accepted direction: Phase A gate closure → VPS doc/repo setup (Steps 2A/2B) →*
-*CoWork reporting layer → Brain Lite → client config/namespace isolation → controlled pilot.*
+*Phase A gate closed 2026-05-11 — operator confirmed.*
+*Phase B gate closed 2026-05-11 — operator confirmed (all five Phase B*
+*deliverables complete as of 2026-05-09).*
+*Phase C authorized 2026-05-11 — operator confirmed.*
 
 The **Daily Status document is the single source of truth** for the active phase. In any conflict between documents, the Daily Status governs. All documents must be updated to match Daily Status when a phase advances.
 
 ### IN SCOPE
 
-- VPS documentation repository setup (Steps 2A/2B) — directory structure,
-  Git initialisation, system document migration, CoWork permission boundary
+- Pre-implementation hardcoded-filename audit (VPS grep across pipeline
+  codebase — Claude Code; classification table submitted for operator
+  approval before implementation proceeds)
+- Brain Lite implementation — 14-field run_summary.json schema (locked);
+  7-day digest injection into agent input; 5-run stability confirmation
+- Client config loader implementation
+- Synthetic second client end-to-end test
+- Cross-contamination verification per OPENCLAW-TEST-HARNESS-DESIGN protocol
 - Post-run analysis per the Analysis Contract (Section 4)
 - Drafting system document updates
-- Client config schema drafting (design only — no implementation)
-- CoWork daily report format definition (design only)
-- Multi-client test harness design (design only — no implementation)
 
 ### OUT OF SCOPE
 
@@ -76,10 +81,9 @@ may proceed:
 
 - Any changes to retrieval, scrubber, validator, agent, or delivery gate
 - Runtime script or cron modifications of any kind
-- Brain Lite implementation (opens after Phase B critical-path exit)
-- Client configuration implementation (opens after Brain Lite confirmed)
+- Any Brain Lite feature beyond the locked 14-field schema
 - Phase advancement without operator approval
-- Any work beyond Phase B planning scope
+- Any work beyond Phase C implementation scope
 
 Any request, suggestion, or action that touches out-of-scope components
 constitutes a protocol violation and must be flagged immediately.
@@ -257,6 +261,18 @@ All proposed document updates must be held in a **proposed** state. No document
 is considered updated until the operator explicitly approves. Claude CoWork must
 not represent a document as updated prior to receiving that approval.
 
+### Step 6 — Archive Superseded Versions
+
+After operator approval of updated documents, move all superseded versions to
+`old/`. A superseded version is any dated file in the main project folder or
+subfolders for which a newer version now exists. This step must be completed
+before the session is considered closed.
+
+Rules:
+- `old/` is append-only — files moved there are never deleted
+- Only the current version of each document remains in the active folder
+- The `00_Master_Document_Index` must reflect the current version filename
+
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 ## SECTION 6 — HARD SAFETY RULES
@@ -350,8 +366,12 @@ decision.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-*OPENCLAW-OPS-001 | Version 2.1 | Created: 2026-05-01 | Last updated: 2026-05-08 | Status: LOCKED*
+*OPENCLAW-OPS-001 | Version 2.3 | Created: 2026-05-01 | Last updated: 2026-05-11 | Status: LOCKED*
 
 *Version 2.0 changes (operator approved 2026-05-07): Phase lock updated to 6.6; Permanent Architectural Rule added (Section 7); VPS Co-Location Model and Content Isolation Rule added (Section 3); Brain Lite Scope Lock added (Section 2); Phase 7 Execution Plan designated as canonical roadmap (Section 8).*
 
 *Version 2.1 changes (operator approved 2026-05-08): Phase lock updated to Phase 7 Entry — Phase B; Section 2 IN SCOPE and OUT OF SCOPE updated to reflect Phase B planning scope; advisory roadmap OPENCLAW-ADV-002 accepted direction recorded.*
+
+*Version 2.2 changes (operator approved 2026-05-11): Phase lock updated to Phase 7 Entry — Phase C; Phase A and Phase B gate closures recorded; Section 2 IN SCOPE and OUT OF SCOPE updated to reflect Phase C implementation scope.*
+
+*Version 2.3 changes (operator approved 2026-05-11): Section 5 Step 6 added — Archive Superseded Versions as a standing session closeout requirement; old/ append-only rule and current-version-only rule codified.*

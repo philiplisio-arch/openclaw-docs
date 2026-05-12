@@ -55,7 +55,7 @@ Single tracking document for Phase 7 gate criteria. Each gate must be fully met 
 
 | Item | Description | Status |
 |------|-------------|--------|
-| Step 6 | Brain Lite implemented; 14-field run_summary.json; 7-day digest injected; 5 consecutive non-disruptive runs confirmed | IN PROGRESS — scripts deployed 2026-05-11; Run 1/5 confirmed 2026-05-11; Runs 2–5 pending via daily cron |
+| Step 6 | Brain Lite implemented; 14-field run_summary.json; 7-day digest injected; 5 consecutive non-disruptive runs confirmed | IN PROGRESS — scripts deployed 2026-05-11; Run 1 confirmed 2026-05-11; Run 2 confirmed 2026-05-12 06:31; Runs 3–5 pending via daily cron |
 | Step 7 | Client config loader implemented; synthetic second client run end-to-end; zero cross-contamination confirmed | NOT OPEN |
 
 **Gate status: OPEN — operator-authorized 2026-05-11**
