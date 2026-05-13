@@ -2,7 +2,7 @@
 
 ---
 document_id: OPENCLAW-SYNC-001
-version: 1.1
+version: 1.2
 created: 2026-05-13
 last_updated: 2026-05-13
 ---
@@ -17,12 +17,18 @@ local side each session.
 
 ---
 
-## ⚠ SESSION-START REQUIREMENT
+## ⚠ SESSION-START CHECKLIST (run in PowerShell before opening CoWork)
 
-**Run the sync block below in Windows PowerShell before beginning any CoWork
-session that involves pipeline review, Brain Lite status, or daily report work.**
+**Step 1 — Pull latest doc changes from GitHub:**
+```powershell
+cd "C:\Users\phil\Documents\OpenClaw project"
+git pull
+```
 
-Without this step, CoWork will be reading stale files from the previous sync.
+**Step 2 — Pull latest VPS runtime artifacts:**
+
+Run the scp block below. Without this step, CoWork will be reading stale
+pipeline files from the previous sync.
 
 ---
 
@@ -91,9 +97,26 @@ set changes.
 
 ---
 
+## ⚠ SESSION-CLOSE CHECKLIST
+
+**Step 1 — Commit and push doc changes from local (PowerShell):**
+```powershell
+cd "C:\Users\phil\Documents\OpenClaw project"
+git add -A
+git commit -m "YYYY-MM-DD session close: [brief description]"
+git push
+```
+
+**Step 2 — Pull on VPS (root terminal):**
+```bash
+cd /root/openclaw_docs && git pull
+```
+
+---
+
 ## ARCHITECTURE NOTE
 
-Claude Code runs on the VPS (152.42.195.186) — it cannot push files to the
-local machine. CoWork runs locally — its bash sandbox cannot reach the VPS.
-The sync is a local pull: the operator runs the scp block in local PowerShell,
-files land in `config/vps_sync/`, and CoWork reads from there.
+GitHub is the shared remote between local workspace and VPS.
+- Doc edits flow: CoWork edits locally → git push → VPS git pull
+- Runtime artifacts flow: VPS pipeline writes → scp pull to local vps_sync/
+- CoWork reads docs from local workspace; reads artifacts from config/vps_sync/
