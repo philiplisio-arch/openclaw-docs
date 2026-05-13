@@ -2,7 +2,7 @@
 
 ---
 document_id: OPENCLAW-MDI-001
-version: v4.0
+version: v4.1
 last_updated: 2026-05-13
 status: ACTIVE
 ---
@@ -87,6 +87,7 @@ documents listed as GOVERNING, LOCKED, or ACTIVE are authoritative.
 | Brain Lite Run Summary Schema | OPENCLAW-BRAIN-LITE-SCHEMA-v1 | `governance/OPENCLAW-BRAIN-LITE-SCHEMA-v1_2026-05-09.md` | governance/ | LOCKED | 14-field locked run_summary schema; no fields may be added without operator approval |
 | CoWork Daily Report Template | OPENCLAW-COWORK-REPORT-TEMPLATE | `governance/OPENCLAW-COWORK-REPORT-TEMPLATE_2026-05-09.md` | governance/ | ACTIVE | 11-field CoWork daily report format |
 | Multi-Client Test Harness Design | OPENCLAW-TEST-HARNESS-DESIGN | `governance/OPENCLAW-TEST-HARNESS-DESIGN_2026-05-09.md` | governance/ | ACTIVE | Test harness design for multi-client namespace isolation validation |
+| Client Config Loader Spec | OPENCLAW-SPEC-CONFIG-LOADER-001 | `specs/OPENCLAW-SPEC-CONFIG-LOADER-001.md` | specs/ | CONSULTANT APPROVED | Step 7 loader design — config loader, artifact namespacing, synthetic second client, isolation verification; awaiting operator approval |
 | Document Versions Index | — | `governance/Document_Versions_Index.md` | governance/ | ACTIVE | Version history tracker for all core operational documents |
 
 ---
@@ -161,6 +162,8 @@ Updates require operator approval per Hard Safety Rule R-01.
 
 ---
 
-*OPENCLAW-MDI-001 | Version v4.0 | Last updated: 2026-05-13 | Status: ACTIVE*
+*OPENCLAW-MDI-001 | Version v4.1 | Last updated: 2026-05-13 | Status: ACTIVE*
+
+*v4.1 changes (2026-05-13): OPENCLAW-SPEC-CONFIG-LOADER-001 added to Tier 5 (consultant approved 2026-05-13; awaiting operator approval).*
 
 *v4.0 changes (2026-05-13): Full migration to OPENCLAW-SYS-FILENAME-002 filename standard. All filenames updated to remove dates, spaces, and parentheses. OPENCLAW_COWORK_OPERATING_PROTOCOL.md renamed from 05_OPERATING_PROTOCOL. Tier 1 now references filename standard. VPS Sync Protocol added to Tier 6. Document Versions Index added to Tier 5. File Organization Convention section replaced with File Naming Convention per new standard.*

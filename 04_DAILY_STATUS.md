@@ -2,7 +2,7 @@
 
 ---
 document_id: 04_DAILY_STATUS
-version: v1.2
+version: v1.4
 last_updated: 2026-05-13
 status: OPERATIONAL
 ---
@@ -94,7 +94,9 @@ operator-confirmed 2026-05-11.
 06:32 cron run (2026-05-13) — clean delivery confirmed (pipeline operational;
   Brain Lite Run 3 confirmed — JSON 1721 bytes; three BRAIN_LITE markers
   present in cron log; sources_indexed=26; validator GREEN 30/30/0).
-  metrics_unavailable pattern recurring — logged as T-10.
+  metrics_unavailable pattern identified as T-10 and resolved same session
+  (write_run_summary.py patched; metrics now read from validation_result.json
+  summary block; manual verification 30/30/0; py_compile OK).
 
 Step 2A complete (2026-05-09): /root/openclaw_docs/ and /root/openclaw_cowork/
 created; Git repo initialised; 21 system documents migrated; baseline commit
@@ -190,8 +192,10 @@ diversity remain Phase 7 editorial-quality workstreams.
 ⚠ T-07 — LinkedIn Draft non-refresh: identical output across 2026-05-10 and
   2026-05-11 runs despite differing content — agent prompt behavior; Phase 7
   editorial workstream
-⚠ T-10 OPEN — Brain Lite metrics_unavailable: ids_seen/ids_kept/ids_removed
-  showing 0 in run_summary JSON; must resolve before brain_context activation
+✔ T-10 RESOLVED — Brain Lite metrics now read from validation_result.json
+  summary block; ids_seen/ids_kept/ids_removed populated correctly (verified
+  2026-05-13 manual test: 30/30/0); patch deployed to write_run_summary.py;
+  backup at write_run_summary.py.bak_20260513; confirms on Run 4 cron
 ✔ Pre-activation blocker RESOLVED — client_config_china_monitor_001.yaml
   deployed to VPS /root/openclaw_docs/ 2026-05-13 (2287 bytes, mode 644)
 ✔ Filename migration complete — OPENCLAW-SYS-FILENAME-002 applied to all
@@ -211,6 +215,9 @@ diversity remain Phase 7 editorial-quality workstreams.
 ✔ GitHub sync setup COMPLETE — private repo philiplisio-arch/openclaw-docs;
   VPS history pushed; local workspace git-initialized; all 2026-05-13 doc
   updates committed and pushed; VPS pulled current
+✔ OPENCLAW-SPEC-CONFIG-LOADER-001 v1.1 — CONSULTANT APPROVED 2026-05-13
+  (9/10 rating; eval risk removed; retrieval scope constrained; Phase C gate
+  language corrected; implementation gates explicit); awaiting operator approval
 
 ---
 
@@ -220,7 +227,7 @@ diversity remain Phase 7 editorial-quality workstreams.
 |---|-------|--------|------------|
 | #43 | Agent fabrication rate ~48% | RESOLVED | Phase 6.8 — 2026-05-07 |
 | #44 | 3 Sina Finance sources not in delivered output | RESOLVED | Log-confirmed 2026-05-08 — validator 23/23, substitutions_made=23, missing_ids=0 |
-| T-10 | Brain Lite metrics_unavailable — ids_seen/ids_kept/ids_removed = 0 in run_summary | OPEN | Must resolve before brain_context: true activation |
+| T-10 | Brain Lite metrics_unavailable — ids_seen/ids_kept/ids_removed = 0 in run_summary | RESOLVED 2026-05-13 | Patch deployed to write_run_summary.py; metrics read from validation_result.json summary block; confirmed 30/30/0 |
 
 ---
 
@@ -253,11 +260,15 @@ SESSION START: Run PowerShell scp block from config/VPS_SYNC_PROTOCOL.md
 
 2. ✔ Brain Lite confirmation Run 3 — CONFIRMED 2026-05-13
 3. Brain Lite confirmation Runs 4–5 — daily cron monitoring (2026-05-14,
-   2026-05-15); add new run_summary file to scp block after each run
+   2026-05-15); add run_summary_china_monitor_001_YYYYMMDD.json to scp block
+   after each run; also first live confirmation of T-04 (advisory language
+   calibration) and T-10 patch on Run 4
 4. ✔ client_config_china_monitor_001.yaml deployed to VPS /root/openclaw_docs/ — 2026-05-13
-5. After Run 5 confirmed — separate operator approval to set brain_context: true
-6. After brain_context: true stable — Step 7 (client config loader +
-   synthetic second client test)
+5. Operator approval of OPENCLAW-SPEC-CONFIG-LOADER-001 v1.1 (consultant
+   approved 2026-05-13) — gates Step 7 implementation
+6. After Run 5 confirmed — separate operator approval to set brain_context: true
+7. After brain_context: true stable — Step 7 implementation begins per
+   OPENCLAW-SPEC-CONFIG-LOADER-001 (hardcoded-filename audit first)
 
 ---
 
