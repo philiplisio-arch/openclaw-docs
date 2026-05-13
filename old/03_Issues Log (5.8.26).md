@@ -2,9 +2,8 @@
 
 ---
 document_id: OPENCLAW-ISSUES-001
-version: v1.5
-last_updated: 2026-05-13
-status: OPERATIONAL
+version: 5.8.26
+last_updated: 2026-05-08
 ---
 
 ## CONTEXT
@@ -16,9 +15,7 @@ and recently resolved issues.
 
 ## OPEN ISSUES SUMMARY
 
-| # | Title | Status |
-|---|-------|--------|
-| T-10 | Brain Lite metrics_unavailable — ids_seen/ids_kept/ids_removed = 0 in run_summary | OPEN — must resolve before brain_context activation |
+No open issues.
 
 ## TRACKED INPUTS — FUTURE PHASE
 
@@ -29,11 +26,7 @@ and recently resolved issues.
 | T-03 | Chinese-source diversity — not yet consistently rich across categories | Advisory note 2026-05-08 |
 | T-04 | Advisory language calibration — claim strength exceeds evidence in places | Advisory note 2026-05-08 |
 | T-05 | Middle East content drift — coverage not consistently anchored to China linkage | Advisory note 2026-05-08 |
-| T-06 | scrubber_report.json not found at expected path on 2026-05-08 06:32 run | ✅ RESOLVED — 2026-05-11 |
-| T-07 | LinkedIn Draft non-refresh — identical output across consecutive runs | Content observation 2026-05-11 |
-| T-08 | Double [BRAIN_LITE] summary_write_started on first confirmation run | ✅ RESOLVED — 2026-05-11 |
-| T-09 | CoWork VPS direct access not implemented — daily post-run report not operational | ✅ RESOLVED — 2026-05-13 |
-| T-10 | Brain Lite metrics_unavailable — ids_seen/ids_kept/ids_removed = 0 in run_summary | 🔴 OPEN — 2026-05-13 |
+| T-06 | scrubber_report.json not found at expected path on 2026-05-08 06:32 run | Log observation 2026-05-08 |
 
 ## RESOLVED ISSUES SUMMARY
 
@@ -154,29 +147,8 @@ Rather than:
 
 ### Scope
 
-Agent prompt guidance — advisory language calibration. Phase 7 editorial
-workstream.
-
-### Resolution
-
-Deployed 2026-05-13. Two additions made to
-/root/openclaw_phase5/orchestrator/build_agent_input_slim.py:
-
-1. ADVISORY LANGUAGE CALIBRATION block added to system_rules — prohibits
-   imperative constructions ("must", "must immediately", "urgently",
-   "immediately accelerate") and alarm-grade superlatives ("unprecedented",
-   "extreme", "crisis-level", "heightened and prolonged") unless that exact
-   framing appears in a cited retained source; mandates conditional advisory
-   framing with PREFERRED/NOT ALLOWED examples.
-
-2. Advisory language rules block added to output_format — explicit
-   per-section framing constraints; match advisory strength to evidential
-   strength; one implication per bullet.
-
-py_compile exit 0 — syntax valid. Validates on next cron run (2026-05-14).
-
-### Status
-DEPLOYED — 2026-05-13. Pending cron validation.
+Agent prompt guidance — advisory language calibration. Phase 6.9–6.11 or
+Phase 7 territory.
 
 ---
 
@@ -203,237 +175,34 @@ Phase 6.9–6.11 or Phase 7 territory.
 
 ---
 
-## Tracked Input T-08 — Double [BRAIN_LITE] summary_write_started
-
-### Status
-✅ RESOLVED — 2026-05-11
-
-### Origin
-Brain Lite confirmation Run 1, 2026-05-11
-
-### Description
-
-First manual confirmation run of run_light_to_lark.sh produced two
-`[BRAIN_LITE] summary_write_started` markers per run. The shell script
-(run_light_to_lark.sh line 290) echoed `[BRAIN_LITE] summary_write_started`
-immediately before invoking write_run_summary.py, which also emitted the same
-marker via `log("summary_write_started")` at line 132. Both fired on every run.
-
-### Root Cause
-
-Implementation brief specified the shell script echo as a log tag, and
-write_run_summary.py was independently implemented to also emit summary_write_started
-at the top of main(). Duplicate not caught in Step 7 testing (test ran
-write_run_summary.py directly, not via run_light_to_lark.sh).
-
-### Resolution
-
-Removed `log("summary_write_started")` from write_run_summary.py line 132.
-Shell script retains the echo (owns started/failed markers). Python retains
-metrics_unavailable and summary_write_completed. Expected sequence after fix:
-`[BRAIN_LITE] summary_write_started` (shell) →
-`[BRAIN_LITE] metrics_unavailable` (python) →
-`[BRAIN_LITE] summary_write_completed` (python).
-
-Second confirmation run verified: correct single-marker sequence confirmed.
-
----
-
 ## Tracked Input T-06 — scrubber_report.json Not Found at Expected Path
-
-### Status
-✅ RESOLVED — 2026-05-11
 
 ### Origin
 Log observation 2026-05-08
 
-### Root Cause Confirmed
-
-Claude Code audit of /root/openclaw_phase6/validation/scrub_result_ids.py
-(2026-05-11, Phase C pre-implementation hardcoded-filename audit):
-
-scrubber_report.json was never implemented. scrub_result_ids.py writes
-exactly two artifacts — final_output_scrubbed.txt (line 112) and
-conflict_log.json (line 119). No JSON scrubber report is produced or
-expected anywhere in the pipeline. Scrubber metrics (ids_seen, ids_kept,
-ids_removed, unsupported_groups) are emitted to stdout and captured by
-the cron log only.
-
-No pipeline gap — system functions correctly without a JSON scrubber
-report. No namespacing action required for Phase C implementation.
-
-### Secondary Finding
-
-scrub_result_ids.py lives at /root/openclaw_phase6/validation/, not
-/root/openclaw_phase5/data/ as previously assumed. Future audit scope
-should include /root/openclaw_phase6/validation/ alongside phase5/.
-
----
-
-## Tracked Input T-09 — CoWork VPS Direct Access Not Implemented
-
-### Origin
-Execution Plan Sections 10.2 and 10.3 — gap identified 2026-05-13
-
 ### Description
 
-The Phase 7 Execution Plan specifies that CoWork should have direct SSH
-access to the VPS as the openclaw_cowork non-root user, and should produce
-daily post-run reports automatically written to
-/root/openclaw_cowork/reports/run_review_YYYYMMDD.md after each 06:30 cron
-run.
-
-Current state: CoWork has no SSH connection to the VPS. All VPS interaction
-this session required the operator to run commands manually and paste output
-into chat. The daily post-run report has never been written. CoWork is
-operating in relay mode — not in the co-located model the plan specifies.
-
-### What Was Completed (Step 2B, 2026-05-09)
-- openclaw_cowork system user created (uid=999)
-- Filesystem permission boundary configured structurally
-
-### What Is Missing
-- SSH keypair not generated for openclaw_cowork user
-- CoWork has no credentials to authenticate to VPS as openclaw_cowork
-- Daily post-run report not operational
-- Section 10.3 safeguard completion status unclear:
-    1. SerpAPI key moved to secrets location outside CoWork read path — status unknown
-    2. Git pre-commit hook installed in openclaw_docs/ and openclaw_cowork/ — status unknown
-    3. Written access control model reviewed and signed off — status unknown
-
-### Why It Matters
-Section 7.1 of the Execution Plan lists "VPS Phase B active: CoWork
-co-located with read access to logs and validation outputs; daily post-run
-report operational" as a hard prerequisite for Phase D (controlled pilot).
-This gap must be closed before pilot begins.
-
-### Scope
-VPS configuration + CoWork SSH setup. Two parts:
-1. Verify/complete the three Section 10.3 safeguards (Claude Code)
-2. Generate SSH keypair for openclaw_cowork; configure CoWork access;
-   test connection and daily report write (Claude Code + one session)
-
-### Resolution
-
-Completed 2026-05-13 across two sessions:
-
-**Section 10.3 safeguards — all three complete:**
-1. SerpAPI key moved from hardcoded run_light_to_lark.sh to
-   /root/.secrets/openclaw.env (mode 600, root-owned); run_light_to_lark.sh
-   line 4 updated to `source /root/.secrets/openclaw.env`.
-2. Git pre-commit hooks installed in both /root/openclaw_docs/.git/hooks/
-   and /root/openclaw_cowork/.git/hooks/ — require commit messages before
-   applying to production.
-3. Access control model: openclaw_cowork (uid=999) permission boundary
-   enforced structurally per Step 2B. Shell changed from /usr/sbin/nologin
-   to /bin/bash to allow SSH.
-
-**SSH keypair:**
-- ed25519 keypair generated; public key installed in
-  /home/openclaw_cowork/.ssh/authorized_keys (chmod 600).
-- Private key saved to workspace at config/cowork_key; shredded from VPS.
-- pubkeyauthentication yes confirmed in sshd.
-
-**VPS sync pattern (replaces direct SSH from CoWork):**
-- CoWork bash sandbox is fully network-isolated — direct SSH not achievable.
-- Resolution: operator runs PowerShell scp block at session start to pull
-  VPS artifacts to config/vps_sync/ on local machine.
-- CoWork reads from config/vps_sync/ locally. No networking required from
-  CoWork side.
-- Pattern tested and confirmed 2026-05-13: light_to_lark.log (88KB),
-  validation_result.json (5.9KB), two run_summary JSONs all verified readable.
-- Protocol documented at config/VPS_SYNC_PROTOCOL.md.
-
-### Status
-✅ RESOLVED — 2026-05-13
-
----
-
-## Tracked Input T-10 — Brain Lite metrics_unavailable
-
-### Origin
-Brain Lite confirmation Run 2 (2026-05-12), confirmed Run 3 (2026-05-13)
-
-### Status
-🔴 OPEN — identified 2026-05-13. Must resolve before brain_context: true activation.
-
-### Description
-
-write_run_summary.py cannot read validator metrics at write time. The fields
-ids_seen, ids_kept, and ids_removed in the run_summary JSON default to 0 on
-every run. The `[BRAIN_LITE] metrics_unavailable` marker is emitted by the
-Python script on every execution, confirming this is a structural gap rather
-than a transient failure.
-
-Actual validator metrics are correct and available in validation_result.json
-and the cron log. The gap is exclusively in what Brain Lite writes to the
-run_summary.
-
-### Evidence
-
-Run 2 (2026-05-12): `[BRAIN_LITE] metrics_unavailable` in cron log; run_summary
-ids_seen=0, ids_kept=0, ids_removed=0.
-Run 3 (2026-05-13): same pattern. validation_result.json confirms actual values
-were 30/30/0.
+On the 2026-05-08 06:32 cron run, `cat /root/openclaw_phase5/data/scrubber_report.json`
+returned `No such file or directory`. Scrubber counters (`ids_removed`,
+`valid_ids_loaded`, `ids_seen`, `ids_kept`, `unsupported_groups`) were also
+absent from the cron log grep output.
 
 ### Impact
 
-Low while brain_context=false — the digest is not injected into the agent.
-High if brain_context is activated without resolution: the agent digest will
-report 0 fabricated IDs regardless of actual validator results, removing any
-signal value from the memory layer for citation health monitoring.
+Low urgency. The 2026-05-08 run was clean — validator 23/23 PASS, delivered,
+substitutions_made=23, missing_ids=0. No delivery risk. However, the scrubber
+report path should be verified to maintain full observability across runs.
 
-### Root Cause (preliminary)
+### Possible Causes
 
-write_run_summary.py likely runs before validation_result.json is written, or
-does not know its path. Requires Claude Code inspection of write_run_summary.py
-to confirm whether it attempts to read validation_result.json and where the
-failure occurs.
+- scrubber_report.json is written to a different path on live cron runs
+- Report generation step has a silent path bug
+- Log format changed and counters are written elsewhere
 
 ### Scope
 
-write_run_summary.py on VPS. Read-only path to validation_result.json
-(/root/openclaw_phase6/validation/validation_result.json) is within
-openclaw_cowork permission boundary. Fix requires Claude Code inspection
-and patch — operator authorization required before any code change.
-
-### Proposed Resolution Path
-
-1. Claude Code: inspect write_run_summary.py — confirm whether it reads
-   validation_result.json and identify failure point
-2. Draft patch: read validation_result.json at write time; populate ids_seen,
-   ids_kept, ids_removed from summary block
-3. Operator approval → deploy → confirm on Run 4 or Run 5
-
----
-
-## Tracked Input T-07 — LinkedIn Draft Non-Refresh Across Consecutive Runs
-
-### Origin
-Content observation 2026-05-11 (two-run comparison)
-
-### Description
-
-The LinkedIn Draft section of the 2026-05-10 and 2026-05-11 delivered outputs
-is word-for-word identical, despite meaningfully different EXECUTIVE TAKE and
-ADVISORY LAYER bullet content across the two runs. The LinkedIn section did not
-update to reflect the specific sourced content of each run.
-
-### Context
-
-The LinkedIn Draft is generated by the agent as part of the same output pass
-as EXECUTIVE TAKE and ADVISORY LAYER. The non-refresh pattern suggests the
-agent is producing a generic synthesis for the LinkedIn section rather than a
-daily-refreshed summary grounded in the specific run's sourced bullets.
-
-This is related in nature to T-04 (advisory language calibration) and T-01
-(freshness signaling) — all are agent prompt behavior patterns affecting
-output quality rather than pipeline correctness.
-
-### Scope
-
-Agent prompt guidance — LinkedIn section grounding instructions. Phase 7
-editorial-quality workstream. Does not require retrieval or pipeline changes.
+Observability verification. Confirm the correct path for scrubber_report.json
+on live cron runs before Phase 7. Low priority.
 
 ---
 

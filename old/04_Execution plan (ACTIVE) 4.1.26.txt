@@ -1,0 +1,58 @@
+# 🚀 ACTIVE EXECUTION PLAN (PHASE 4 — CURRENT WORK)
+
+---
+
+## 🎯 MISSION (ONE ONLY)
+Fix stale / duplicate output and validate fresh daily runs end-to-end
+
+---
+
+## ✅ TASKS (MAX 3)
+
+1. Validate cron output freshness
+   - Confirm timestamp changes  
+   - Confirm content differs from previous run  
+
+2. Trace data source of output
+   - Check logs for actual new generation  
+   - Confirm no cached / reused output  
+
+3. Enforce freshness check
+   - Add or confirm timestamp / validation rule in prompt or script  
+   - Ensure failure triggers if output is stale  
+
+---
+
+## 🔍 VALIDATION (SUCCESS CRITERIA)
+
+- Output contains:
+  - New timestamp  
+  - New content (not identical to prior run)  
+
+- Logs confirm:
+  - New agent execution  
+  - No reuse of prior output  
+
+---
+
+## 🐞 RELATED ISSUES
+
+- Stale output duplication  
+- Cron producing identical content  
+- Retrieval not clearly invoked  
+
+---
+
+## ⛔ OUT OF SCOPE (DO NOT TOUCH)
+
+- China API integration  
+- Messaging workflows  
+- SOUL.md / memory  
+- Output optimization  
+- New features  
+
+---
+
+## ▶️ NEXT MISSION (ONLY AFTER THIS IS SOLVED)
+
+Validate retrieval usage (confirm Brave search is being invoked and affecting output)

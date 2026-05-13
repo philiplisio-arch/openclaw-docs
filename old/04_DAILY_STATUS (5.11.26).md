@@ -1,13 +1,6 @@
 # OPENCLAW — DAILY STATUS
 
----
-document_id: 04_DAILY_STATUS
-version: v1.2
-last_updated: 2026-05-13
-status: OPERATIONAL
----
-
-DATE: 2026-05-13
+DATE: 2026-05-11
 PHASE: Phase 7 Entry — Phase C (Brain Lite & Client Config Implementation)
 
 ---
@@ -38,7 +31,7 @@ Phase 7 Entry — Phase C: ACTIVE — Brain Lite & Client Config Implementation,
 
 ## GOVERNING DOCUMENTS
 
-* Operating Protocol: OPENCLAW_COWORK_OPERATING_PROTOCOL.md (v2.3, updated 2026-05-11)
+* Operating Protocol: OPENCLAW_COWORK_OPERATING_PROTOCOL.md (v2.2, updated 2026-05-11)
   Phase lock updated to Phase 7 Entry — Phase C
 * Advisory Roadmap: OPENCLAW-ADV-002 (5.8.26).md (operator-approved 2026-05-08 — ACTIVE)
 * Phase 7 Execution Plan: OpenClaw_Phase7_Execution_Plan.docx (approved 2026-05-07 — CANONICAL)
@@ -87,15 +80,6 @@ operator-confirmed 2026-05-11.
 - LinkedIn Draft identical to 2026-05-10 output despite differing content —
   logged as T-07 (operator-confirmed 2026-05-11)
 
-06:31 cron run (2026-05-12) — clean delivery confirmed (pipeline operational;
-  Brain Lite Run 2 confirmed — JSON 1853 bytes; three BRAIN_LITE markers
-  present in cron log).
-
-06:32 cron run (2026-05-13) — clean delivery confirmed (pipeline operational;
-  Brain Lite Run 3 confirmed — JSON 1721 bytes; three BRAIN_LITE markers
-  present in cron log; sources_indexed=26; validator GREEN 30/30/0).
-  metrics_unavailable pattern recurring — logged as T-10.
-
 Step 2A complete (2026-05-09): /root/openclaw_docs/ and /root/openclaw_cowork/
 created; Git repo initialised; 21 system documents migrated; baseline commit
 f791138 made and rollback verified.
@@ -119,18 +103,10 @@ artifact field-name discrepancies found during audit and corrected before
 deployment (validator severity field, timestamp date field, conflicts_raw key).
 Post-deployment issue T-08 (double summary_write_started) found and fixed
 same session. Confirmation Run 1 confirmed 2026-05-11 (manual trigger).
-Run 2 confirmed 2026-05-12 06:31 (JSON 1853 bytes). Run 3 confirmed 2026-05-13
-06:32 (JSON 1721 bytes). Runs 4–5 monitoring via daily cron. Pre-activation
-blocker RESOLVED — client_config_china_monitor_001.yaml deployed to VPS
-/root/openclaw_docs/ 2026-05-13 (2287 bytes, mode 644).
-
-T-04 (advisory language calibration) deployed 2026-05-13. Two additions made
-to /root/openclaw_phase5/orchestrator/build_agent_input_slim.py: ADVISORY
-LANGUAGE CALIBRATION block added to system_rules (prohibits imperative
-constructions and alarm-grade superlatives; mandates conditional framing);
-Advisory language rules block added to output_format (explicit examples of
-permitted and prohibited framing). py_compile exit 0 — syntax valid. Validates
-on next cron run.
+Runs 2–5 monitoring via daily cron. Pre-activation blocker: 
+client_config_china_monitor_001.yaml not yet deployed to VPS
+(/root/openclaw_docs/); dormant block safe without it (defaults to
+brain_context=false). Must be deployed before brain_context: true activation.
 
 Known Phase 6 citation-control issues appear resolved based on validated run
 sequence. Observed fabrication rate 0% across all post-Phase-6.8 runs.
@@ -154,7 +130,7 @@ diversity remain Phase 7 editorial-quality workstreams.
 ✔ Dual-provider retrieval operational — Brave + Baidu
 ✔ Phase 6 Soft Layer complete — all phases 6.1–6.8 closed
 ✔ Phase 7 Execution Plan approved as canonical roadmap — 2026-05-07
-✔ Operating Protocol v2.3 — 2026-05-11
+✔ Operating Protocol v2.1 — 2026-05-08
 ✔ Issue #43 resolved — fabrication rate 0% (Phase 6.8, 2026-05-07)
 ✔ Issue #44 resolved — Sina Finance present in 2026-05-08 06:32 delivery;
   validator 23/23 PASS; substitutions_made=23, missing_ids=0 confirmed
@@ -170,47 +146,17 @@ diversity remain Phase 7 editorial-quality workstreams.
 ✔ run_light_to_lark.sh modified — post-delivery Brain Lite call (non-blocking)
 ✔ build_agent_input_slim.py modified — dormant digest injection (brain_context=false)
 ✔ Brain Lite confirmation Run 1 — CONFIRMED 2026-05-11 (manual trigger)
-✔ Brain Lite confirmation Run 2 — CONFIRMED 2026-05-12 06:31 (JSON 1853 bytes;
-  three BRAIN_LITE markers in cron log)
-✔ T-04 DEPLOYED — advisory language calibration; ADVISORY LANGUAGE CALIBRATION
-  block added to system_rules; Advisory language rules block added to
-  output_format; py_compile exit 0; validates on next cron run (2026-05-14)
 ✔ T-06 RESOLVED — scrubber_report.json never implemented; scrub_result_ids.py
   at /root/openclaw_phase6/validation/; writes only final_output_scrubbed.txt
   and conflict_log.json
 ✔ T-08 RESOLVED — double summary_write_started found and fixed 2026-05-11;
   log("summary_write_started") removed from write_run_summary.py line 132
-✔ Brain Lite confirmation Run 3 — CONFIRMED 2026-05-13 06:32 (JSON 1721 bytes;
-  three BRAIN_LITE markers in cron log; sources_indexed=26; validator GREEN 30/30/0)
-⚠ Brain Lite confirmation Run 4 — PENDING (2026-05-14 06:31)
-✔ T-09 RESOLVED — VPS sync pattern confirmed 2026-05-13; SSH keypair deployed;
-  Section 10.3 safeguards complete; sync protocol documented at
-  config/VPS_SYNC_PROTOCOL.md; operator runs PowerShell scp block at session
-  start; CoWork reads from config/vps_sync/ locally
 ⚠ T-07 — LinkedIn Draft non-refresh: identical output across 2026-05-10 and
   2026-05-11 runs despite differing content — agent prompt behavior; Phase 7
   editorial workstream
-⚠ T-10 OPEN — Brain Lite metrics_unavailable: ids_seen/ids_kept/ids_removed
-  showing 0 in run_summary JSON; must resolve before brain_context activation
-✔ Pre-activation blocker RESOLVED — client_config_china_monitor_001.yaml
-  deployed to VPS /root/openclaw_docs/ 2026-05-13 (2287 bytes, mode 644)
-✔ Filename migration complete — OPENCLAW-SYS-FILENAME-002 applied to all
-  workspace files (spaces/parentheses/dates removed from filenames; underscores;
-  live docs undated; archives suffixed); governance doc created at
-  governance/OPENCLAW-SYS-FILENAME-002_2026-05-13.md
-✔ ADV-011 COMPLETE — targeted doc cleanup implemented 2026-05-13; subfolder
-  review findings applied; advisory/OPENCLAW-ADV-011_2026-05-13.md created
-✔ Specs cleanup complete — 10-item cleanup list applied 2026-05-13: Resolver
-  step added to pipeline; scrubber_report.json references removed/corrected;
-  Phase 6.4 snapshot warning added to Structure Defense; Control Layer delivery
-  authority language corrected; Validator spec updated to Phase 6.8; Brain
-  Lite Design corrected (T-06 noted); Architecture Map corrected
-✔ Document_Versions_Index.md created at governance/Document_Versions_Index.md
-✔ 00_Master_Document_Index.md rebuilt at v4.0 — all new filenames; Tier 1
-  updated; next advisory counter: ADV-012
-✔ GitHub sync setup COMPLETE — private repo philiplisio-arch/openclaw-docs;
-  VPS history pushed; local workspace git-initialized; all 2026-05-13 doc
-  updates committed and pushed; VPS pulled current
+⚠ Pre-activation blocker — client_config_china_monitor_001.yaml not deployed
+  to VPS /root/openclaw_docs/; must be created before brain_context: true
+  activation; dormant block safe without it
 
 ---
 
@@ -220,7 +166,6 @@ diversity remain Phase 7 editorial-quality workstreams.
 |---|-------|--------|------------|
 | #43 | Agent fabrication rate ~48% | RESOLVED | Phase 6.8 — 2026-05-07 |
 | #44 | 3 Sina Finance sources not in delivered output | RESOLVED | Log-confirmed 2026-05-08 — validator 23/23, substitutions_made=23, missing_ids=0 |
-| T-10 | Brain Lite metrics_unavailable — ids_seen/ids_kept/ids_removed = 0 in run_summary | OPEN | Must resolve before brain_context: true activation |
 
 ---
 
@@ -240,24 +185,14 @@ diversity remain Phase 7 editorial-quality workstreams.
 
 ## NEXT STEP
 
-SESSION START: Run PowerShell scp block from config/VPS_SYNC_PROTOCOL.md
-  before any pipeline review or Brain Lite work — pulls latest VPS artifacts
-  to config/vps_sync/ for CoWork to read locally.
-
-1. ✔ GitHub sync setup (Option B) — COMPLETE 2026-05-13
-   - Private repo philiplisio-arch/openclaw-docs created
-   - VPS history pushed to GitHub (74 objects, main branch)
-   - Local workspace git-initialized; 2026-05-13 doc updates committed and pushed
-   - VPS pulled current via git pull
-   - Future workflow: CoWork edits locally → git push → VPS git pull at session close
-
-2. ✔ Brain Lite confirmation Run 3 — CONFIRMED 2026-05-13
-3. Brain Lite confirmation Runs 4–5 — daily cron monitoring (2026-05-14,
-   2026-05-15); add new run_summary file to scp block after each run
-4. ✔ client_config_china_monitor_001.yaml deployed to VPS /root/openclaw_docs/ — 2026-05-13
-5. After Run 5 confirmed — separate operator approval to set brain_context: true
-6. After brain_context: true stable — Step 7 (client config loader +
+1. Brain Lite confirmation Runs 2–5 — daily cron monitoring; paste
+   [BRAIN_LITE] grep output after each 06:31 run for CoWork log confirmation
+2. Deploy client_config_china_monitor_001.yaml to VPS /root/openclaw_docs/
+   (Claude Code) — pre-activation blocker; required before brain_context: true
+3. After Run 5 confirmed — separate operator approval to set brain_context: true
+4. After brain_context: true stable — Step 7 (client config loader +
    synthetic second client test)
+5. Sync updated documents to VPS git repo (Claude Code — scp + git commit)
 
 ---
 

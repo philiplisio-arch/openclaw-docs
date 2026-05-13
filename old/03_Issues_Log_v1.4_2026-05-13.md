@@ -2,9 +2,8 @@
 
 ---
 document_id: OPENCLAW-ISSUES-001
-version: v1.5
+version: 5.13.26
 last_updated: 2026-05-13
-status: OPERATIONAL
 ---
 
 ## CONTEXT
@@ -16,9 +15,7 @@ and recently resolved issues.
 
 ## OPEN ISSUES SUMMARY
 
-| # | Title | Status |
-|---|-------|--------|
-| T-10 | Brain Lite metrics_unavailable — ids_seen/ids_kept/ids_removed = 0 in run_summary | OPEN — must resolve before brain_context activation |
+No open issues.
 
 ## TRACKED INPUTS — FUTURE PHASE
 
@@ -33,7 +30,6 @@ and recently resolved issues.
 | T-07 | LinkedIn Draft non-refresh — identical output across consecutive runs | Content observation 2026-05-11 |
 | T-08 | Double [BRAIN_LITE] summary_write_started on first confirmation run | ✅ RESOLVED — 2026-05-11 |
 | T-09 | CoWork VPS direct access not implemented — daily post-run report not operational | ✅ RESOLVED — 2026-05-13 |
-| T-10 | Brain Lite metrics_unavailable — ids_seen/ids_kept/ids_removed = 0 in run_summary | 🔴 OPEN — 2026-05-13 |
 
 ## RESOLVED ISSUES SUMMARY
 
@@ -346,64 +342,6 @@ Completed 2026-05-13 across two sessions:
 
 ### Status
 ✅ RESOLVED — 2026-05-13
-
----
-
-## Tracked Input T-10 — Brain Lite metrics_unavailable
-
-### Origin
-Brain Lite confirmation Run 2 (2026-05-12), confirmed Run 3 (2026-05-13)
-
-### Status
-🔴 OPEN — identified 2026-05-13. Must resolve before brain_context: true activation.
-
-### Description
-
-write_run_summary.py cannot read validator metrics at write time. The fields
-ids_seen, ids_kept, and ids_removed in the run_summary JSON default to 0 on
-every run. The `[BRAIN_LITE] metrics_unavailable` marker is emitted by the
-Python script on every execution, confirming this is a structural gap rather
-than a transient failure.
-
-Actual validator metrics are correct and available in validation_result.json
-and the cron log. The gap is exclusively in what Brain Lite writes to the
-run_summary.
-
-### Evidence
-
-Run 2 (2026-05-12): `[BRAIN_LITE] metrics_unavailable` in cron log; run_summary
-ids_seen=0, ids_kept=0, ids_removed=0.
-Run 3 (2026-05-13): same pattern. validation_result.json confirms actual values
-were 30/30/0.
-
-### Impact
-
-Low while brain_context=false — the digest is not injected into the agent.
-High if brain_context is activated without resolution: the agent digest will
-report 0 fabricated IDs regardless of actual validator results, removing any
-signal value from the memory layer for citation health monitoring.
-
-### Root Cause (preliminary)
-
-write_run_summary.py likely runs before validation_result.json is written, or
-does not know its path. Requires Claude Code inspection of write_run_summary.py
-to confirm whether it attempts to read validation_result.json and where the
-failure occurs.
-
-### Scope
-
-write_run_summary.py on VPS. Read-only path to validation_result.json
-(/root/openclaw_phase6/validation/validation_result.json) is within
-openclaw_cowork permission boundary. Fix requires Claude Code inspection
-and patch — operator authorization required before any code change.
-
-### Proposed Resolution Path
-
-1. Claude Code: inspect write_run_summary.py — confirm whether it reads
-   validation_result.json and identify failure point
-2. Draft patch: read validation_result.json at write time; populate ids_seen,
-   ids_kept, ids_removed from summary block
-3. Operator approval → deploy → confirm on Run 4 or Run 5
 
 ---
 

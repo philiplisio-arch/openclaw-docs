@@ -23,3 +23,7 @@ relay-venv/
 # OS artifacts
 .DS_Store
 Thumbs.db
+config/cowork_key
+config/vps_sync/
+*.pem
+*.key
