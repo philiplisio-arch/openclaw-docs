@@ -2,12 +2,12 @@
 
 ---
 document_id: 04_DAILY_STATUS
-version: v1.4
-last_updated: 2026-05-13
+version: v1.5
+last_updated: 2026-05-14
 status: OPERATIONAL
 ---
 
-DATE: 2026-05-13
+DATE: 2026-05-14
 PHASE: Phase 7 Entry — Phase C (Brain Lite & Client Config Implementation)
 
 ---
@@ -184,7 +184,12 @@ diversity remain Phase 7 editorial-quality workstreams.
   log("summary_write_started") removed from write_run_summary.py line 132
 ✔ Brain Lite confirmation Run 3 — CONFIRMED 2026-05-13 06:32 (JSON 1721 bytes;
   three BRAIN_LITE markers in cron log; sources_indexed=26; validator GREEN 30/30/0)
-⚠ Brain Lite confirmation Run 4 — PENDING (2026-05-14 06:31)
+✔ Brain Lite confirmation Run 4 — CONFIRMED 2026-05-14 06:32 (two BRAIN_LITE markers
+  in cron log — metrics_unavailable absent; T-10 patch confirmed; ids_seen/ids_kept/
+  ids_removed=36/36/0; validator GREEN 36/36/0)
+⚠ Brain Lite confirmation Run 5 — PENDING (2026-05-15 06:31)
+⚠ T-04 advisory language compliance — UNVERIFIED Run 4 (final_output_scrubbed.txt
+  not synced); assessment deferred to Run 5
 ✔ T-09 RESOLVED — VPS sync pattern confirmed 2026-05-13; SSH keypair deployed;
   Section 10.3 safeguards complete; sync protocol documented at
   config/VPS_SYNC_PROTOCOL.md; operator runs PowerShell scp block at session
@@ -218,6 +223,15 @@ diversity remain Phase 7 editorial-quality workstreams.
 ✔ OPENCLAW-SPEC-CONFIG-LOADER-001 v1.1 — CONSULTANT APPROVED 2026-05-13
   (9/10 rating; eval risk removed; retrieval scope constrained; Phase C gate
   language corrected; implementation gates explicit); awaiting operator approval
+✔ OPENCLAW-DOC-GOV-001 created and LOCKED — document governance protocol;
+  advisory notes are reference only; system changes require explicit operator
+  instruction; locked 2026-05-14
+✔ OPENCLAW-ADV-012 approved — Phase D Editorial Quality & Product
+  Transformation; reference document; Phase D begins after Phase C closes
+✔ Operating Protocol updated to v2.4 — Document Governance note added
+  to Section 5; reference to DOC-GOV-001
+✔ Master Document Index updated to v4.2 — DOC-GOV-001 in Tier 1;
+  ADV-012 in Tier 7
 
 ---
 
@@ -259,10 +273,10 @@ SESSION START: Run PowerShell scp block from config/VPS_SYNC_PROTOCOL.md
    - Future workflow: CoWork edits locally → git push → VPS git pull at session close
 
 2. ✔ Brain Lite confirmation Run 3 — CONFIRMED 2026-05-13
-3. Brain Lite confirmation Runs 4–5 — daily cron monitoring (2026-05-14,
-   2026-05-15); add run_summary_china_monitor_001_YYYYMMDD.json to scp block
-   after each run; also first live confirmation of T-04 (advisory language
-   calibration) and T-10 patch on Run 4
+3. Brain Lite confirmation Run 4 — CONFIRMED 2026-05-14. T-10 patch verified.
+   Run 5 pending (2026-05-15 06:31) — final Brain Lite stability gate.
+   Add final_output_scrubbed.txt to scp block before Run 5 to enable T-04
+   advisory language compliance assessment.
 4. ✔ client_config_china_monitor_001.yaml deployed to VPS /root/openclaw_docs/ — 2026-05-13
 5. Operator approval of OPENCLAW-SPEC-CONFIG-LOADER-001 v1.1 (consultant
    approved 2026-05-13) — gates Step 7 implementation

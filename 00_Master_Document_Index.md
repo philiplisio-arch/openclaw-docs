@@ -2,8 +2,8 @@
 
 ---
 document_id: OPENCLAW-MDI-001
-version: v4.1
-last_updated: 2026-05-13
+version: v4.2
+last_updated: 2026-05-14
 status: ACTIVE
 ---
 
@@ -43,6 +43,7 @@ documents listed as GOVERNING, LOCKED, or ACTIVE are authoritative.
 | Phase 7 Detailed Execution Plan | — | `OpenClaw_Phase7_Execution_Plan.docx` | [root] | GOVERNING | Canonical Phase 7 roadmap — phase gates, Brain Lite scope, VPS model, pilot prerequisites (approved 2026-05-07) |
 | Phase 7 Gate Checklist | OPENCLAW-P7-GATE-001 | `06_PHASE_GATE_CHECKLIST.md` | [root] | ACTIVE | Phase A/B/C/D gate tracking — trust runs, VPS setup, Brain Lite confirmation |
 | Filename & Version Control Standard | OPENCLAW-SYS-FILENAME-002 | `governance/OPENCLAW-SYS-FILENAME-002_2026-05-13.md` | governance/ | GOVERNING | Approved filename convention, version control process, archive rules |
+| Document Governance Protocol | OPENCLAW-DOC-GOV-001 | `governance/OPENCLAW-DOC-GOV-001_2026-05-14.md` | governance/ | LOCKED | Advisory note vs. system document boundary; advisory notes are reference only; system changes require explicit operator instruction |
 
 ---
 
@@ -115,7 +116,9 @@ documents listed as GOVERNING, LOCKED, or ACTIVE are authoritative.
 | Advisory Memo 010 | OPENCLAW-ADV-010 | `advisory/OPENCLAW-ADV-010_2026-05-11.md` | advisory/ | ACTIVE | Documentation improvement plan — rename convention, stale dates, changelog footers, version standardization, archive index |
 | Advisory Memo 011 | OPENCLAW-ADV-011 | `advisory/OPENCLAW-ADV-011_2026-05-13.md` | advisory/ | COMPLETE | Targeted documentation-control cleanup — 4 items; implemented 2026-05-13 |
 
-Next advisory memo: ADV-012
+| Advisory Memo 012 | OPENCLAW-ADV-012 | `advisory/OPENCLAW-ADV-012_2026-05-14.md` | advisory/ | ACTIVE | Phase D — Editorial Quality & Product Transformation; operator-approved 2026-05-14 |
+
+Next advisory memo: ADV-013
 
 ---
 
@@ -163,6 +166,8 @@ Updates require operator approval per Hard Safety Rule R-01.
 ---
 
 *OPENCLAW-MDI-001 | Version v4.1 | Last updated: 2026-05-13 | Status: ACTIVE*
+
+*v4.2 changes (2026-05-14): OPENCLAW-DOC-GOV-001 added to Tier 1 (locked 2026-05-14); ADV-012 added to Tier 7 (operator approved 2026-05-14).*
 
 *v4.1 changes (2026-05-13): OPENCLAW-SPEC-CONFIG-LOADER-001 added to Tier 5 (consultant approved 2026-05-13; awaiting operator approval).*
 

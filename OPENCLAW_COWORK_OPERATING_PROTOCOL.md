@@ -228,6 +228,13 @@ run, and the proposed updated content in full. Must specify:
 At the end of every session, Claude CoWork **must** perform the following steps
 in sequence before the session is considered closed:
 
+### Document Governance
+
+All advisory notes are reference documents only. Approval of an advisory note
+does not authorise any system change. System documents are updated only on
+explicit operator instruction. See OPENCLAW-DOC-GOV-001 for the full boundary
+definition and hard rules.
+
 ### Step 1 — Session Summary
 
 Produce a factual summary of all system changes that occurred during the
@@ -366,7 +373,7 @@ decision.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-*OPENCLAW-OPS-001 | Version 2.3 | Created: 2026-05-01 | Last updated: 2026-05-11 | Status: LOCKED*
+*OPENCLAW-OPS-001 | Version 2.4 | Created: 2026-05-01 | Last updated: 2026-05-14 | Status: LOCKED*
 
 *Version 2.0 changes (operator approved 2026-05-07): Phase lock updated to 6.6; Permanent Architectural Rule added (Section 7); VPS Co-Location Model and Content Isolation Rule added (Section 3); Brain Lite Scope Lock added (Section 2); Phase 7 Execution Plan designated as canonical roadmap (Section 8).*
 
@@ -375,3 +382,5 @@ decision.
 *Version 2.2 changes (operator approved 2026-05-11): Phase lock updated to Phase 7 Entry — Phase C; Phase A and Phase B gate closures recorded; Section 2 IN SCOPE and OUT OF SCOPE updated to reflect Phase C implementation scope.*
 
 *Version 2.3 changes (operator approved 2026-05-11): Section 5 Step 6 added — Archive Superseded Versions as a standing session closeout requirement; old/ append-only rule and current-version-only rule codified.*
+
+*Version 2.4 changes (operator approved 2026-05-14): Document Governance note added to Section 5 — advisory notes are reference only; system changes require explicit operator instruction; reference to OPENCLAW-DOC-GOV-001.*
