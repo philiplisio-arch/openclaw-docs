@@ -1,9 +1,9 @@
 # FAILURE HANDLING — FULL PIPELINE
-OpenClaw (updated 2026-05-01 — covers Retrieval + Phase 6 Validation Chain)
+OpenClaw — covers Retrieval + Phase 6 Validation Chain
 
 ---
 document_id: OPENCLAW-FH-001
-version: 4.7.26 (updated 2026-05-01)
+version: v5.0
 status: ACTIVE
 ---
 

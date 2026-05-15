@@ -2,8 +2,8 @@
 
 ---
 document_id: OPENCLAW-FOUND-001
-version: 5.8.26a
-last_updated: 2026-05-08
+version: v6.0
+last_updated: 2026-05-14
 status: ACTIVE
 ---
 

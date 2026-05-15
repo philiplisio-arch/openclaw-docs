@@ -38,7 +38,7 @@ Phase 7 Entry — Phase C: ACTIVE — Brain Lite & Client Config Implementation,
 
 ## GOVERNING DOCUMENTS
 
-* Operating Protocol: OPENCLAW_COWORK_OPERATING_PROTOCOL.md (v2.3, updated 2026-05-11)
+* Operating Protocol: OPENCLAW_COWORK_OPERATING_PROTOCOL.md (v2.4, updated 2026-05-14)
   Phase lock updated to Phase 7 Entry — Phase C
 * Advisory Roadmap: OPENCLAW-ADV-002 (5.8.26).md (operator-approved 2026-05-08 — ACTIVE)
 * Phase 7 Execution Plan: OpenClaw_Phase7_Execution_Plan.docx (approved 2026-05-07 — CANONICAL)
@@ -122,9 +122,11 @@ deployment (validator severity field, timestamp date field, conflicts_raw key).
 Post-deployment issue T-08 (double summary_write_started) found and fixed
 same session. Confirmation Run 1 confirmed 2026-05-11 (manual trigger).
 Run 2 confirmed 2026-05-12 06:31 (JSON 1853 bytes). Run 3 confirmed 2026-05-13
-06:32 (JSON 1721 bytes). Runs 4–5 monitoring via daily cron. Pre-activation
-blocker RESOLVED — client_config_china_monitor_001.yaml deployed to VPS
-/root/openclaw_docs/ 2026-05-13 (2287 bytes, mode 644).
+06:32 (JSON 1721 bytes). Run 4 confirmed 2026-05-14 06:32. Run 5 confirmed
+2026-05-15 06:31. Brain Lite 5-run stability gate COMPLETE. T-04 advisory
+language compliance confirmed on Run 5 — COMPLIANT. brain_context: true
+activated 2026-05-15 (operator approved). Digest rebuilt covering all 5 runs
+(3.4K, May 15 12:10). First Brain Lite injection run expected 2026-05-16 06:31.
 
 T-04 (advisory language calibration) deployed 2026-05-13. Two additions made
 to /root/openclaw_phase5/orchestrator/build_agent_input_slim.py: ADVISORY
@@ -187,9 +189,12 @@ diversity remain Phase 7 editorial-quality workstreams.
 ✔ Brain Lite confirmation Run 4 — CONFIRMED 2026-05-14 06:32 (two BRAIN_LITE markers
   in cron log — metrics_unavailable absent; T-10 patch confirmed; ids_seen/ids_kept/
   ids_removed=36/36/0; validator GREEN 36/36/0)
-⚠ Brain Lite confirmation Run 5 — PENDING (2026-05-15 06:31)
-⚠ T-04 advisory language compliance — UNVERIFIED Run 4 (final_output_scrubbed.txt
-  not synced); assessment deferred to Run 5
+✔ Brain Lite confirmation Run 5 — CONFIRMED 2026-05-15 06:31 (two BRAIN_LITE markers
+  in cron log — metrics_unavailable absent; T-10 patch holding; ids_seen/ids_kept/
+  ids_removed=42/42/0; validator GREEN 42/42/0)
+✔ T-04 advisory language compliance — VERIFIED Run 5 (2026-05-15); all 5 AL bullets
+  use conditional/hedged modal framing; no imperative constructions; no alarm-grade
+  superlatives; COMPLIANT
 ✔ T-09 RESOLVED — VPS sync pattern confirmed 2026-05-13; SSH keypair deployed;
   Section 10.3 safeguards complete; sync protocol documented at
   config/VPS_SYNC_PROTOCOL.md; operator runs PowerShell scp block at session
@@ -203,6 +208,12 @@ diversity remain Phase 7 editorial-quality workstreams.
   backup at write_run_summary.py.bak_20260513; confirms on Run 4 cron
 ✔ Pre-activation blocker RESOLVED — client_config_china_monitor_001.yaml
   deployed to VPS /root/openclaw_docs/ 2026-05-13 (2287 bytes, mode 644)
+✔ brain_context: true — activated in client_config_china_monitor_001.yaml
+  on VPS and local workspace 2026-05-15; operator approved
+✔ Brain Lite digest rebuilt — build_brain_digest.py --client_id china_monitor_001
+  run 2026-05-15 12:10; digest updated to 3.4K covering all 5 runs (Runs 1–5);
+  fabrication=0 confirmed across Runs 3–5 in digest context
+⚠ Brain Lite injection Run 1 — PENDING (2026-05-16 06:31 first injection run)
 ✔ Filename migration complete — OPENCLAW-SYS-FILENAME-002 applied to all
   workspace files (spaces/parentheses/dates removed from filenames; underscores;
   live docs undated; archives suffixed); governance doc created at
@@ -273,14 +284,14 @@ SESSION START: Run PowerShell scp block from config/VPS_SYNC_PROTOCOL.md
    - Future workflow: CoWork edits locally → git push → VPS git pull at session close
 
 2. ✔ Brain Lite confirmation Run 3 — CONFIRMED 2026-05-13
-3. Brain Lite confirmation Run 4 — CONFIRMED 2026-05-14. T-10 patch verified.
-   Run 5 pending (2026-05-15 06:31) — final Brain Lite stability gate.
-   Add final_output_scrubbed.txt to scp block before Run 5 to enable T-04
-   advisory language compliance assessment.
+3. ✔ Brain Lite confirmation Run 5 — CONFIRMED 2026-05-15. Brain Lite 5-run
+   stability gate COMPLETE. T-04 advisory language compliance VERIFIED.
+   → Awaiting separate operator approval to set brain_context: true.
 4. ✔ client_config_china_monitor_001.yaml deployed to VPS /root/openclaw_docs/ — 2026-05-13
 5. Operator approval of OPENCLAW-SPEC-CONFIG-LOADER-001 v1.1 (consultant
    approved 2026-05-13) — gates Step 7 implementation
-6. After Run 5 confirmed — separate operator approval to set brain_context: true
+6. ✔ brain_context: true activated 2026-05-15 — operator approved. Digest rebuilt
+   (all 5 runs). First injection run: 2026-05-16 06:31.
 7. After brain_context: true stable — Step 7 implementation begins per
    OPENCLAW-SPEC-CONFIG-LOADER-001 (hardcoded-filename audit first)
 

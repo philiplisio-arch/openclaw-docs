@@ -1,8 +1,8 @@
 ---
 document_id: OPENCLAW-P7-GATE-001
-version: 1.0
+version: 1.1
 created: 2026-05-08
-last_updated: 2026-05-11
+last_updated: 2026-05-14
 status: ACTIVE
 classification: OPERATIONAL — PHASE GATE TRACKER
 ---
@@ -55,7 +55,7 @@ Single tracking document for Phase 7 gate criteria. Each gate must be fully met 
 
 | Item | Description | Status |
 |------|-------------|--------|
-| Step 6 | Brain Lite implemented; 14-field run_summary.json; 7-day digest injected; 5 consecutive non-disruptive runs confirmed | IN PROGRESS — scripts deployed 2026-05-11; Run 1 confirmed 2026-05-11; Run 2 confirmed 2026-05-12 06:31; Runs 3–5 pending via daily cron |
+| Step 6 | Brain Lite implemented; 14-field run_summary.json; 7-day digest injected; 5 consecutive non-disruptive runs confirmed | COMPLETE — Run 1 confirmed 2026-05-11; Run 2 confirmed 2026-05-12 06:31; Run 3 confirmed 2026-05-13 06:32 (30/30/0); Run 4 confirmed 2026-05-14 06:32 (36/36/0; T-10 verified); Run 5 confirmed 2026-05-15 06:31 (42/42/0; T-04 compliant); brain_context: true activated 2026-05-15 (operator approved); digest rebuilt covering all 5 runs (3.4K) |
 | Step 7 | Client config loader implemented; synthetic second client run end-to-end; zero cross-contamination confirmed | NOT OPEN |
 
 **Gate status: OPEN — operator-authorized 2026-05-11**
@@ -91,4 +91,8 @@ Single tracking document for Phase 7 gate criteria. Each gate must be fully met 
 
 ---
 
-*OPENCLAW-P7-GATE-001 | Version 1.0 | Created: 2026-05-08 | Last Updated: 2026-05-11 | Status: ACTIVE*
+*OPENCLAW-P7-GATE-001 | Version 1.2 | Created: 2026-05-08 | Last Updated: 2026-05-15 | Status: ACTIVE*
+
+*v1.2 changes (2026-05-15): Step 6 marked COMPLETE — Run 5 confirmed 2026-05-15 06:31 (42/42/0; T-04 compliant); brain_context: true activated; digest rebuilt (3.4K, all 5 runs).*
+
+*v1.1 changes (2026-05-14): Step 6 updated — Runs 3 and 4 confirmed; Run 5 pending (2026-05-15 06:31).*

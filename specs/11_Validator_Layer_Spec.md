@@ -2,7 +2,7 @@
 
 ---
 document_id: OPENCLAW-VAL-001
-version: phase6_v2 (updated 2026-05-08 — Phase 6.8)
+version: v2.0
 status: LOCKED — Phase 6.8 complete; spec reflects implemented behavior
 ---
 

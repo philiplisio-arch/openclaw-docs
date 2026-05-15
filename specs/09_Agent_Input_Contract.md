@@ -3,7 +3,7 @@ OpenClaw Retrieval Orchestration Layer
 
 ---
 document_id: OPENCLAW-AIC-001
-version: updated 2026-05-08 (Phase 6.8 — Numbered-Source Architecture)
+version: v1.0
 status: LOCKED
 ---
 
@@ -657,3 +657,19 @@ Citations must be selected, not generated.
 ---
 
 END
+
+---
+
+## PHASE D FORWARD NOTE
+
+This contract governs agent input and output format through Phase C.
+
+Phase D (Editorial Quality & Product Transformation) will introduce output format changes — including revised section structure, naming conventions, and the "China Exposure Brief" product format. Any changes to this contract required by Phase D will be implemented as a formal update with operator approval, per Hard Safety Rule R-02.
+
+No Phase D changes may be applied to this contract prior to Phase C gate closure and explicit operator instruction.
+
+---
+
+*OPENCLAW-AIC-001 | Version v1.0 | Last updated: 2026-05-14 | Status: LOCKED*
+
+*v1.0 changes (2026-05-14): Version format standardised. Phase D forward note added. Content unchanged from Phase 6.8 implementation.*

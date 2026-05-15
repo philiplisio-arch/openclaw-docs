@@ -3,7 +3,7 @@ OpenClaw Project
 
 ---
 document_id: OPENCLAW-RQP-001
-version: 5.8.26 (updated 2026-05-08)
+version: v5.0
 status: ACTIVE — reflects implemented behavior
 ---
 

@@ -62,6 +62,10 @@ scp -i "C:\Users\phil\Documents\OpenClaw project\config\cowork_key" `
     "C:\Users\phil\Documents\OpenClaw project\config\vps_sync\run_summary_china_monitor_001_20260514.json"
 
 scp -i "C:\Users\phil\Documents\OpenClaw project\config\cowork_key" `
+    openclaw_cowork@152.42.195.186:/root/openclaw_phase7/brain_lite/run_summaries/run_summary_china_monitor_001_20260515.json `
+    "C:\Users\phil\Documents\OpenClaw project\config\vps_sync\run_summary_china_monitor_001_20260515.json"
+
+scp -i "C:\Users\phil\Documents\OpenClaw project\config\cowork_key" `
     openclaw_cowork@152.42.195.186:/root/openclaw_phase5/data/final_output_scrubbed.txt `
     "C:\Users\phil\Documents\OpenClaw project\config\vps_sync\final_output_scrubbed.txt"
 
@@ -103,6 +107,7 @@ set changes.
 | run_summary_china_monitor_001_20260512.json | /root/openclaw_phase7/brain_lite/run_summaries/ | Brain Lite Run 2 |
 | run_summary_china_monitor_001_20260513.json | /root/openclaw_phase7/brain_lite/run_summaries/ | Brain Lite Run 3 |
 | run_summary_china_monitor_001_20260514.json | /root/openclaw_phase7/brain_lite/run_summaries/ | Brain Lite Run 4 |
+| run_summary_china_monitor_001_20260515.json | /root/openclaw_phase7/brain_lite/run_summaries/ | Brain Lite Run 5 |
 | final_output_scrubbed.txt | /root/openclaw_phase5/data/ | Delivered output — T-04 advisory language compliance review |
 
 ---

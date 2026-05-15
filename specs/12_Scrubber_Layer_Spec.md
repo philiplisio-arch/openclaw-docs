@@ -4,7 +4,7 @@ OPENCLAW — SCRUBBER LAYER SPEC (LOCKED)
 
 ---
 document_id: OPENCLAW-SCR-001
-version: phase6_v2 (updated 2026-05-08 — Phase 6.8)
+version: v2.0
 status: LOCKED
 ━━━━━━━━━━━━━━━━━━━━━━
 

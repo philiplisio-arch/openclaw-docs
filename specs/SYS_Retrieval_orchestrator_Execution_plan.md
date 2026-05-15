@@ -3,7 +3,7 @@ OpenClaw Project
 
 ---
 document_id: OPENCLAW-OEP-001
-version: 5.2 (updated 2026-05-01 for Phase 6 steps)
+version: v5.0
 status: ACTIVE — reflects implemented pipeline
 ---
 

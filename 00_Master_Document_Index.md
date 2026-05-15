@@ -2,7 +2,7 @@
 
 ---
 document_id: OPENCLAW-MDI-001
-version: v4.2
+version: v4.3
 last_updated: 2026-05-14
 status: ACTIVE
 ---
@@ -20,6 +20,7 @@ documents listed as GOVERNING, LOCKED, or ACTIVE are authoritative.
 - **OPERATIONAL** — tracks current state; updated each session
 - **TEMPLATE** — blank form for recurring documents
 - **REFERENCE** — informational; not governing
+- **CONSULTANT APPROVED** — reviewed and approved by consultant; awaiting operator approval before governing
 - **ARCHIVED** — superseded; retained for history only
 
 **Location key:**
@@ -53,7 +54,7 @@ documents listed as GOVERNING, LOCKED, or ACTIVE are authoritative.
 |----------|-------------|----------|----------|--------|---------|
 | Foundation Document | OPENCLAW-FOUND-001 | `01_Foundation_Doc.md` | [root] | ACTIVE | System architecture, strategy, tolerance model, guarantees |
 | Architecture Map | OPENCLAW-ARCH-001 | `specs/08_Architecture_Map.md` | specs/ | ACTIVE | Pipeline diagram, layer responsibilities, key runtime files |
-| Architecture Philosophy | OPENCLAW-PHIL-001 | `specs/07_OpenClaw_Structure_Defense.txt` | specs/ | REFERENCE | Layering strategy and design rationale |
+| Architecture Philosophy | OPENCLAW-PHIL-001 | `specs/07_OpenClaw_Structure_Defense.md` | specs/ | REFERENCE | Layering strategy and design rationale |
 
 ---
 
@@ -62,7 +63,7 @@ documents listed as GOVERNING, LOCKED, or ACTIVE are authoritative.
 | Document | Document ID | Filename | Location | Status | Purpose |
 |----------|-------------|----------|----------|--------|---------|
 | Agent Input Contract | OPENCLAW-AIC-001 | `specs/09_Agent_Input_Contract.md` | specs/ | LOCKED | Agent input rules, locked output format, citation schema |
-| Control Layer Spec | OPENCLAW-CLS-001 | `specs/10_Control_Layer_Spec.txt` | specs/ | LOCKED | Structural completeness evaluation and delivery decision rules |
+| Control Layer Spec | OPENCLAW-CLS-001 | `specs/10_Control_Layer_Spec.md` | specs/ | LOCKED | Structural completeness evaluation and delivery decision rules |
 | Validator Layer Spec | OPENCLAW-VAL-001 | `specs/11_Validator_Layer_Spec.md` | specs/ | LOCKED | Evidence integrity verification, PASS/WARN/FAIL classification |
 | Scrubber Layer Spec | OPENCLAW-SCR-001 | `specs/12_Scrubber_Layer_Spec.md` | specs/ | LOCKED | Deterministic citation cleanup, invalid ID removal |
 
@@ -83,10 +84,10 @@ documents listed as GOVERNING, LOCKED, or ACTIVE are authoritative.
 
 | Document | Document ID | Filename | Location | Status | Purpose |
 |----------|-------------|----------|----------|--------|---------|
-| Advisory Roadmap | OPENCLAW-ADV-002 | `advisory/OPENCLAW-ADV-002_2026-05-08.md` | advisory/ | ACTIVE | Operator-approved Phase 7 execution roadmap — 10-step sequential plan (2026-05-08) |
+| Advisory Roadmap | OPENCLAW-ADV-002 | `advisory/OPENCLAW-ADV-002_2026-05-08.md` | advisory/ | REFERENCE | Phase 7 execution roadmap — reference only per DOC-GOV-001 |
 | Brain Lite Implementation Design | OPENCLAW-BRAIN-LITE-DESIGN | `governance/OPENCLAW-BRAIN-LITE-DESIGN_2026-05-09.md` | governance/ | ACTIVE | Architecture, triggering model, failure model, injection point, digest budget |
 | Brain Lite Run Summary Schema | OPENCLAW-BRAIN-LITE-SCHEMA-v1 | `governance/OPENCLAW-BRAIN-LITE-SCHEMA-v1_2026-05-09.md` | governance/ | LOCKED | 14-field locked run_summary schema; no fields may be added without operator approval |
-| CoWork Daily Report Template | OPENCLAW-COWORK-REPORT-TEMPLATE | `governance/OPENCLAW-COWORK-REPORT-TEMPLATE_2026-05-09.md` | governance/ | ACTIVE | 11-field CoWork daily report format |
+| CoWork Daily Report Template | OPENCLAW-COWORK-REPORT-TEMPLATE | `governance/OPENCLAW-COWORK-REPORT-TEMPLATE_2026-05-09.md` | governance/ | REFERENCE | CoWork report format reference — superseded by OPS-001 Section 4 Analysis Contract as governing format |
 | Multi-Client Test Harness Design | OPENCLAW-TEST-HARNESS-DESIGN | `governance/OPENCLAW-TEST-HARNESS-DESIGN_2026-05-09.md` | governance/ | ACTIVE | Test harness design for multi-client namespace isolation validation |
 | Client Config Loader Spec | OPENCLAW-SPEC-CONFIG-LOADER-001 | `specs/OPENCLAW-SPEC-CONFIG-LOADER-001.md` | specs/ | CONSULTANT APPROVED | Step 7 loader design — config loader, artifact namespacing, synthetic second client, isolation verification; awaiting operator approval |
 | Document Versions Index | — | `governance/Document_Versions_Index.md` | governance/ | ACTIVE | Version history tracker for all core operational documents |
@@ -99,7 +100,7 @@ documents listed as GOVERNING, LOCKED, or ACTIVE are authoritative.
 |----------|-------------|----------|----------|--------|---------|
 | Issues Log | OPENCLAW-ISSUES-001 | `03_Issues_Log.md` | [root] | OPERATIONAL | Active and recently resolved issues; numbered cumulatively |
 | Daily Status | — | `04_DAILY_STATUS.md` | [root] | OPERATIONAL | Current position, system health, next step; **single source of truth for active phase** |
-| Client Config — china_monitor_001 | — | `config/client_config_china_monitor_001.yaml` | config/ | ACTIVE | Client configuration for china_monitor_001; brain_context=false (dormant) |
+| Client Config — china_monitor_001 | — | `config/client_config_china_monitor_001.yaml` | config/ | ACTIVE | Client configuration for china_monitor_001; brain_context=true (activated 2026-05-15) |
 | VPS Sync Protocol | OPENCLAW-SYNC-001 | `config/VPS_SYNC_PROTOCOL.md` | config/ | ACTIVE | Session-start PowerShell scp block; CoWork local read pattern |
 
 ---
@@ -108,14 +109,12 @@ documents listed as GOVERNING, LOCKED, or ACTIVE are authoritative.
 
 | Document | Document ID | Filename | Location | Status | Purpose |
 |----------|-------------|----------|----------|--------|---------|
-| Advisory Memo 002 | OPENCLAW-ADV-002 | `advisory/OPENCLAW-ADV-002_2026-05-08.md` | advisory/ | ACTIVE | Phase 7 roadmap (see Tier 5) |
+| Advisory Memo 002 | OPENCLAW-ADV-002 | `advisory/OPENCLAW-ADV-002_2026-05-08.md` | advisory/ | REFERENCE | Phase 7 roadmap — reference only per DOC-GOV-001 |
 | Advisory Memo 003 | OPENCLAW-ADV-003 | `advisory/OPENCLAW-ADV-003_2026-05-09.md` | advisory/ | REFERENCE | Brain Lite options analysis |
 | Operator Reply to ADV-003 | — | `advisory/OPENCLAW-REPLY-ADV-003_2026-05-09.md` | advisory/ | REFERENCE | Operator response selecting Option A for Brain Lite |
 | Advisory Memo 004 | OPENCLAW-ADV-004 | `advisory/OPENCLAW-ADV-004_2026-05-11.md` | advisory/ | REFERENCE | Daily Status correction — Phase B steps confirmed complete |
-| Advisory Memo 009 | OPENCLAW-ADV-009 | `advisory/OPENCLAW-ADV-009_2026-05-11.md` | advisory/ | ACTIVE | File organization system — approved convention (2026-05-11) |
-| Advisory Memo 010 | OPENCLAW-ADV-010 | `advisory/OPENCLAW-ADV-010_2026-05-11.md` | advisory/ | ACTIVE | Documentation improvement plan — rename convention, stale dates, changelog footers, version standardization, archive index |
-| Advisory Memo 011 | OPENCLAW-ADV-011 | `advisory/OPENCLAW-ADV-011_2026-05-13.md` | advisory/ | COMPLETE | Targeted documentation-control cleanup — 4 items; implemented 2026-05-13 |
-
+| Advisory Memo 009 | OPENCLAW-ADV-009 | `advisory/OPENCLAW-ADV-009_2026-05-11.md` | advisory/ | REFERENCE | File organization system — convention captured in OPENCLAW-SYS-FILENAME-002; reference only per DOC-GOV-001 |
+| Advisory Memo 010 | OPENCLAW-ADV-010 | `advisory/OPENCLAW-ADV-010_2026-05-11.md` | advisory/ | REFERENCE | Documentation improvement proposals — reference only per DOC-GOV-001 |
 | Advisory Memo 012 | OPENCLAW-ADV-012 | `advisory/OPENCLAW-ADV-012_2026-05-14.md` | advisory/ | ACTIVE | Phase D — Editorial Quality & Product Transformation; operator-approved 2026-05-14 |
 
 Next advisory memo: ADV-013
@@ -136,6 +135,7 @@ Next advisory memo: ADV-013
 |----------|-------------|----------|------|
 | System Audit (2026-05-01) | — | old/ | Point-in-time audit; superseded |
 | Phase 6 Execution Plan | OPENCLAW-EXEC-001 | old/ | Superseded by Phase 7 Execution Plan (2026-05-07) |
+| Advisory Memo 011 | OPENCLAW-ADV-011 | old/ | Targeted doc cleanup — 4 items implemented 2026-05-13; moved to old/ 2026-05-14 |
 | All prior dated versions | — | old/ | Superseded versions; retained for history only. See governance/Document_Versions_Index.md |
 
 ---
@@ -165,7 +165,11 @@ Updates require operator approval per Hard Safety Rule R-01.
 
 ---
 
-*OPENCLAW-MDI-001 | Version v4.1 | Last updated: 2026-05-13 | Status: ACTIVE*
+*OPENCLAW-MDI-001 | Version v4.4 | Last updated: 2026-05-15 | Status: ACTIVE*
+
+*v4.4 changes (2026-05-15): Client Config entry updated — brain_context=true (activated 2026-05-15).*
+
+*v4.3 changes (2026-05-14): Remediation plan executed — CONSULTANT APPROVED status added to legend; Control Layer Spec and Architecture Philosophy filenames updated to .md; ADV-002, ADV-009, ADV-010 status updated to REFERENCE; ADV-011 moved to old/ and added to Tier 9.*
 
 *v4.2 changes (2026-05-14): OPENCLAW-DOC-GOV-001 added to Tier 1 (locked 2026-05-14); ADV-012 added to Tier 7 (operator approved 2026-05-14).*
 

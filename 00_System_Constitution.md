@@ -2,8 +2,8 @@
 
 ---
 document_id: OPENCLAW-CONST-001
-version: 5.3.26a
-last_updated: 2026-05-03
+version: v6.0
+last_updated: 2026-05-14
 status: GOVERNING — highest authority document in the corpus
 ---
 
@@ -100,4 +100,6 @@ See `00_Master_Document_Index.md` for the full index of all active, locked, temp
 
 ---
 
-*OPENCLAW-CONST-001 | Version 5.3.26a | Created: 2026-05-03 | Status: GOVERNING*
+*OPENCLAW-CONST-001 | Version v6.0 | Last updated: 2026-05-14 | Status: GOVERNING*
+
+*v6.0 changes (2026-05-14): Version format standardised from 5.3.26a. Content unchanged.*

@@ -1,9 +1,9 @@
 ---
 document_id: OPENCLAW-OPS-001
 status: LOCKED
-version: 2.3
+version: 2.4
 created: 2026-05-01
-last_updated: 2026-05-11
+last_updated: 2026-05-14
 classification: GOVERNANCE — SYSTEM CONTROL DOCUMENT
 ---
 

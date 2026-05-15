@@ -49,7 +49,7 @@ source_preferences:
     - baidu
 
 # Brain Lite context injection
-brain_context: false   # Set true when Brain Lite is active (Phase C)
+brain_context: true    # Activated 2026-05-15 — operator approved
 
 # Output sections
 output_sections:

@@ -2,7 +2,7 @@
 document_id: OPENCLAW-COWORK-REPORT-TEMPLATE
 version: 1.0
 date: 2026-05-09
-status: APPROVED — 2026-05-09 (Step 4)
+status: REFERENCE — superseded by OPS-001 Section 4 Analysis Contract as governing CoWork report format (2026-05-14)
 source: Phase 7 Execution Plan, Section 10.2
 ---
 
