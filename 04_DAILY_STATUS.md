@@ -98,6 +98,20 @@ operator-confirmed 2026-05-11.
   (write_run_summary.py patched; metrics now read from validation_result.json
   summary block; manual verification 30/30/0; py_compile OK).
 
+06:32 cron run (2026-05-16) — Brain Lite Injection Run 1 — clean delivery
+  confirmed (delivered; validator GREEN 33/33/0; uncited_claims_removed=0;
+  no conflicts; brain_context=true active). No Chinese-language sources in
+  delivered output (Baidu returned 45 results). light_to_lark.log gap
+  identified — log not updated since May 15; log rotation suspected; under
+  investigation.
+
+06:31 cron run (2026-05-17) — Brain Lite Injection Run 2 — clean delivery
+  confirmed (delivered; validator GREEN 36/36/0; uncited_claims_removed=0;
+  no conflicts; brain_context=true active). No Chinese-language sources in
+  delivered output (Baidu returned 54 results). Two-run absence pattern
+  flagged for monitoring. T-04 advisory language compliance confirmed — all
+  5 AL bullets conditional/hedged framing; COMPLIANT.
+
 Step 2A complete (2026-05-09): /root/openclaw_docs/ and /root/openclaw_cowork/
 created; Git repo initialised; 21 system documents migrated; baseline commit
 f791138 made and rollback verified.
@@ -213,7 +227,19 @@ diversity remain Phase 7 editorial-quality workstreams.
 ✔ Brain Lite digest rebuilt — build_brain_digest.py --client_id china_monitor_001
   run 2026-05-15 12:10; digest updated to 3.4K covering all 5 runs (Runs 1–5);
   fabrication=0 confirmed across Runs 3–5 in digest context
-⚠ Brain Lite injection Run 1 — PENDING (2026-05-16 06:31 first injection run)
+✔ Brain Lite Injection Run 1 — CONFIRMED 2026-05-16 06:32
+  (delivered; validator GREEN 33/33/0; uncited_claims_removed=0; no
+  conflicts; brain_context=true active; no pipeline disruption)
+✔ Brain Lite Injection Run 2 — CONFIRMED 2026-05-17 06:31
+  (delivered; validator GREEN 36/36/0; uncited_claims_removed=0; no
+  conflicts; brain_context=true active; no pipeline disruption)
+✔ T-04 advisory language compliance — VERIFIED 2026-05-17 (Injection
+  Run 2); all 5 AL bullets conditional/hedged framing; COMPLIANT
+⚠ light_to_lark.log gap — log not written since 2026-05-15; log
+  rotation suspected; openclaw_cowork read path under investigation
+⚠ Chinese-language source absence — 0 Chinese-language publishers in
+  May 16 and May 17 delivered output despite Baidu returning 45 and 54
+  results respectively; monitoring across next 2 runs before action
 ✔ Filename migration complete — OPENCLAW-SYS-FILENAME-002 applied to all
   workspace files (spaces/parentheses/dates removed from filenames; underscores;
   live docs undated; archives suffixed); governance doc created at
@@ -276,24 +302,22 @@ SESSION START: Run PowerShell scp block from config/VPS_SYNC_PROTOCOL.md
   before any pipeline review or Brain Lite work — pulls latest VPS artifacts
   to config/vps_sync/ for CoWork to read locally.
 
-1. ✔ GitHub sync setup (Option B) — COMPLETE 2026-05-13
-   - Private repo philiplisio-arch/openclaw-docs created
-   - VPS history pushed to GitHub (74 objects, main branch)
-   - Local workspace git-initialized; 2026-05-13 doc updates committed and pushed
-   - VPS pulled current via git pull
-   - Future workflow: CoWork edits locally → git push → VPS git pull at session close
+1. Investigate light_to_lark.log gap — from VPS root terminal:
+   ls -la /root/openclaw_logs/
+   Confirm whether log is being written, whether rotation occurred, and
+   whether openclaw_cowork still has read access to the active log path.
+   Update VPS_SYNC_PROTOCOL.md if log path has changed.
 
-2. ✔ Brain Lite confirmation Run 3 — CONFIRMED 2026-05-13
-3. ✔ Brain Lite confirmation Run 5 — CONFIRMED 2026-05-15. Brain Lite 5-run
-   stability gate COMPLETE. T-04 advisory language compliance VERIFIED.
-   → Awaiting separate operator approval to set brain_context: true.
-4. ✔ client_config_china_monitor_001.yaml deployed to VPS /root/openclaw_docs/ — 2026-05-13
-5. Operator approval of OPENCLAW-SPEC-CONFIG-LOADER-001 v1.1 (consultant
-   approved 2026-05-13) — gates Step 7 implementation
-6. ✔ brain_context: true activated 2026-05-15 — operator approved. Digest rebuilt
-   (all 5 runs). First injection run: 2026-05-16 06:31.
-7. After brain_context: true stable — Step 7 implementation begins per
-   OPENCLAW-SPEC-CONFIG-LOADER-001 (hardcoded-filename audit first)
+2. Monitor Chinese-language source absence — if pattern holds through
+   May 18 and May 19, bring Brain Lite digest content and agent input
+   into scope for review to assess whether injection is influencing
+   source selection. No action this session — two runs is an observation,
+   not a confirmed pattern.
+
+3. Operator approval of OPENCLAW-SPEC-CONFIG-LOADER-001 v1.1 (consultant
+   approved 2026-05-13) — gates Step 7 implementation. After Brain Lite
+   injection confirmed stable, Step 7 begins per spec (hardcoded-filename
+   audit first).
 
 ---
 
