@@ -2,7 +2,7 @@
 
 ---
 document_id: 04_DAILY_STATUS
-version: v1.6
+version: v1.7
 last_updated: 2026-05-18
 status: OPERATIONAL
 ---
@@ -166,6 +166,16 @@ sequence. Observed fabrication rate 0% across all post-Phase-6.8 runs.
 Chinese-language sources surfacing consistently. Authority calibration and source
 diversity remain Phase 7 editorial-quality workstreams.
 
+Config Loader implementation — Steps 9.2 and 9.3 complete 2026-05-18:
+  - load_client_config.py deployed to
+    /root/openclaw_phase7/config_loader/load_client_config.py
+  - Runtime output: /root/openclaw_runtime/{client_id}/loader.env and
+    client_context.json
+  - run_light_to_lark.sh updated — argument parsing, loader call, env
+    read, artifact namespacing (8 paths), Brain Lite client_id fix
+  - Backup: run_light_to_lark.sh.bak_20260518_pre_config_loader
+  - Implementation paused at Step 9.4 — Python script namespacing
+
 ---
 
 ## STATUS
@@ -183,7 +193,7 @@ diversity remain Phase 7 editorial-quality workstreams.
 ✔ Dual-provider retrieval operational — Brave + Baidu
 ✔ Phase 6 Soft Layer complete — all phases 6.1–6.8 closed
 ✔ Phase 7 Execution Plan approved as canonical roadmap — 2026-05-07
-✔ Operating Protocol v2.3 — 2026-05-11
+✔ Operating Protocol v2.4 — 2026-05-14
 ✔ Issue #43 resolved — fabrication rate 0% (Phase 6.8, 2026-05-07)
 ✔ Issue #44 resolved — Sina Finance present in 2026-05-08 06:32 delivery;
   validator 23/23 PASS; substitutions_made=23, missing_ids=0 confirmed
@@ -232,7 +242,7 @@ diversity remain Phase 7 editorial-quality workstreams.
   2026-05-13 manual test: 30/30/0); patch deployed to write_run_summary.py;
   backup at write_run_summary.py.bak_20260513; confirms on Run 4 cron
 ✔ Pre-activation blocker RESOLVED — client_config_china_monitor_001.yaml
-  deployed to VPS /root/openclaw_docs/ 2026-05-13 (2287 bytes, mode 644)
+  deployed to VPS /root/openclaw_docs/config/ 2026-05-13 (2287 bytes, mode 644)
 ✔ brain_context: true — activated in client_config_china_monitor_001.yaml
   on VPS and local workspace 2026-05-15; operator approved
 ✔ Brain Lite digest rebuilt — build_brain_digest.py --client_id china_monitor_001
@@ -287,6 +297,21 @@ diversity remain Phase 7 editorial-quality workstreams.
   to Section 5; reference to DOC-GOV-001
 ✔ Master Document Index updated to v4.2 — DOC-GOV-001 in Tier 1;
   ADV-012 in Tier 7
+✔ Brain Lite digest rebuilt 2026-05-18 — brain_digest_china_monitor_001.txt
+  4.5K, covering 7 most recent runs (May 12–18); all GREEN, fabrication=0;
+  Injection Runs 1–3 confirmed in digest context
+✔ Hardcoded-filename audit COMPLETE — 2026-05-18; classification table
+  operator-approved; 7 artifact paths classified YES (namespace required);
+  build_agent_input.py and run_phase5_offline.sh classified NO
+✔ Step 9.2 COMPLETE — load_client_config.py deployed and tested 2026-05-18;
+  /root/openclaw_phase7/config_loader/load_client_config.py; smoke test PASS
+✔ Step 9.3 COMPLETE — run_light_to_lark.sh updated 2026-05-18; argument
+  parsing + loader call + artifact namespacing (8 paths) + Brain Lite client_id
+  fix; backup at run_light_to_lark.sh.bak_20260518_pre_config_loader; syntax OK
+✔ OPENCLAW-SPEC-CONFIG-LOADER-001 updated to v1.2 — config path and runtime
+  path corrected to match deployed implementation; operator approved 2026-05-18
+⚠ Step 9.4 IN PROGRESS — Python script artifact namespacing not yet applied;
+  pipeline not yet end-to-end namespace-safe; resume next session
 
 ---
 
@@ -317,19 +342,25 @@ diversity remain Phase 7 editorial-quality workstreams.
 ## NEXT STEP
 
 SESSION START: Run PowerShell scp block from config/VPS_SYNC_PROTOCOL.md
-  before any pipeline review or Brain Lite work — pulls latest VPS artifacts
-  to config/vps_sync/ for CoWork to read locally.
+  before any pipeline review or implementation work.
 
-1. Begin Step 7 — hardcoded-filename audit (VPS grep across pipeline
-   codebase via Claude Code). Per OPENCLAW-SPEC-CONFIG-LOADER-001 v1.1
-   Section 9.1: audit scope covers all scripts in /root/openclaw_phase5/
-   and /root/openclaw_phase6/ for hardcoded filenames that will require
-   namespacing under client_id. Classification table produced and submitted
-   to operator for approval before implementation proceeds.
+NOTE: After Step 9.4 deploys, update config/VPS_SYNC_PROTOCOL.md — scp path
+  for validation_result.json must change to validation_result_china_monitor_001.json.
 
-2. Update Brain Lite digest — build_brain_digest.py should be rerun to
-   incorporate Injection Runs 1–3 (May 16–18) before Step 7 implementation
-   begins, so Brain Lite context reflects the current injection run record.
+1. Step 9.4 — Artifact namespacing: update Python pipeline scripts to read
+   artifact paths from OPENCLAW_ARTIFACT_NAMESPACE environment variable.
+   Scripts: package_builder.py, build_agent_input_slim.py,
+   resolve_source_numbers.py, scrub_result_ids.py, validator.py,
+   citation_sub.py. Each script patched and py_compile verified before
+   deployment. Submit as single patch for operator approval.
+
+2. Step 9.5 — Deploy test_client_002.yaml to VPS /root/openclaw_docs/config/.
+
+3. Step 9.6 — Write and deploy verify_isolation.py.
+
+4. Step 9.7 — Synthetic second client manual run; verify_isolation.py pass.
+
+5. Step 9.8 — Operator Phase C gate confirmation.
 
 ---
 

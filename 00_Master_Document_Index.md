@@ -89,7 +89,7 @@ documents listed as GOVERNING, LOCKED, or ACTIVE are authoritative.
 | Brain Lite Run Summary Schema | OPENCLAW-BRAIN-LITE-SCHEMA-v1 | `governance/OPENCLAW-BRAIN-LITE-SCHEMA-v1_2026-05-09.md` | governance/ | LOCKED | 14-field locked run_summary schema; no fields may be added without operator approval |
 | CoWork Daily Report Template | OPENCLAW-COWORK-REPORT-TEMPLATE | `governance/OPENCLAW-COWORK-REPORT-TEMPLATE_2026-05-09.md` | governance/ | REFERENCE | CoWork report format reference — superseded by OPS-001 Section 4 Analysis Contract as governing format |
 | Multi-Client Test Harness Design | OPENCLAW-TEST-HARNESS-DESIGN | `governance/OPENCLAW-TEST-HARNESS-DESIGN_2026-05-09.md` | governance/ | ACTIVE | Test harness design for multi-client namespace isolation validation |
-| Client Config Loader Spec | OPENCLAW-SPEC-CONFIG-LOADER-001 | `specs/OPENCLAW-SPEC-CONFIG-LOADER-001.md` | specs/ | CONSULTANT APPROVED | Step 7 loader design — config loader, artifact namespacing, synthetic second client, isolation verification; awaiting operator approval |
+| Client Config Loader Spec | OPENCLAW-SPEC-CONFIG-LOADER-001 | `specs/OPENCLAW-SPEC-CONFIG-LOADER-001.md` | specs/ | OPERATOR APPROVED | Step 7 loader design — config loader, artifact namespacing, synthetic second client, isolation verification; operator approved 2026-05-18 |
 | Document Versions Index | — | `governance/Document_Versions_Index.md` | governance/ | ACTIVE | Version history tracker for all core operational documents |
 
 ---
@@ -165,7 +165,9 @@ Updates require operator approval per Hard Safety Rule R-01.
 
 ---
 
-*OPENCLAW-MDI-001 | Version v4.4 | Last updated: 2026-05-15 | Status: ACTIVE*
+*OPENCLAW-MDI-001 | Version v4.5 | Last updated: 2026-05-18 | Status: ACTIVE*
+
+*v4.5 changes (2026-05-18): OPENCLAW-SPEC-CONFIG-LOADER-001 status updated from CONSULTANT APPROVED to OPERATOR APPROVED (approved 2026-05-18).*
 
 *v4.4 changes (2026-05-15): Client Config entry updated — brain_context=true (activated 2026-05-15).*
 

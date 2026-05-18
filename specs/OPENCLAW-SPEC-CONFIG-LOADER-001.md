@@ -2,7 +2,7 @@
 
 ---
 document_id: OPENCLAW-SPEC-CONFIG-LOADER-001
-version: v1.1
+version: v1.2
 created: 2026-05-13
 last_updated: 2026-05-18
 status: OPERATOR APPROVED — 2026-05-18
@@ -99,7 +99,7 @@ preserving identical behavior for the existing cron entry.
 ### 3.3 Config File Path Convention
 
 ```
-/root/openclaw_docs/client_config_{client_id}.yaml
+/root/openclaw_docs/config/client_config_{client_id}.yaml
 ```
 
 The loader constructs this path from the supplied `client_id`. If the file
@@ -116,7 +116,7 @@ The shell script reads individual named keys from this file — it does not
 eval the file as a whole.
 
 ```
-Loader output path: /tmp/openclaw_loader_{client_id}.env
+Loader output path: /root/openclaw_runtime/{client_id}/loader.env
 Format: one KEY=value per line, no shell syntax, no subshells, no quotes
         with embedded commands. Values are validated as alphanumeric,
         path-safe strings before write.
@@ -390,10 +390,14 @@ explicitly approves this spec. Upon approval:
 
 ---
 
-*OPENCLAW-SPEC-CONFIG-LOADER-001 | v1.1 | 2026-05-13 | CONSULTANT APPROVED*
+*OPENCLAW-SPEC-CONFIG-LOADER-001 | v1.2 | 2026-05-13 | CONSULTANT APPROVED*
 *v1.1 changes: shell eval eliminated (Point 3 — env file + named key reads);*
 *retrieval scope constraint added to Section 6 (Point 4); Phase C gate*
 *language corrected in Section 8.2 (Point 5); implementation gates added*
 *to status header (Points 1, 2). All changes per consultant review.*
 *Consultant sign-off: APPROVED 2026-05-13. Rating 9/10. Audit scope*
 *expanded in Section 9.1 per consultant final note.*
+*v1.2 changes (operator approved 2026-05-18): Section 3.3 config path*
+*corrected to /root/openclaw_docs/config/ (actual VPS location); Section 3.4*
+*loader output path corrected to /root/openclaw_runtime/{client_id}/loader.env*
+*(updated from /tmp/ per operator approval — improved durability and auditability).*
