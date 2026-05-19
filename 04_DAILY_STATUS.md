@@ -2,12 +2,12 @@
 
 ---
 document_id: 04_DAILY_STATUS
-version: v1.7
-last_updated: 2026-05-18
+version: v1.8
+last_updated: 2026-05-19
 status: OPERATIONAL
 ---
 
-DATE: 2026-05-18
+DATE: 2026-05-19
 PHASE: Phase 7 Entry — Phase C (Brain Lite & Client Config Implementation)
 
 ---
@@ -123,6 +123,18 @@ operator-confirmed 2026-05-11.
   resolver pass in four runs. T-04 advisory language compliance confirmed —
   all 5 AL bullets conditional/hedged framing; COMPLIANT.
 
+06:30 cron run (2026-05-19) — DELIVERY FAILED. Config loader executed
+  successfully (client_id=china_monitor_001, artifact_namespace confirmed).
+  Resolver and scrubber ran against non-namespaced artifacts (Step 9.4 not
+  yet deployed). run_light_to_lark.sh (Step 9.3) attempted cp of
+  final_output_scrubbed_china_monitor_001.txt — file did not exist because
+  scrub_result_ids.py still wrote to non-namespaced path. Script aborted;
+  validator and delivery gate not reached; Brain Lite not written.
+  Root cause: Step 9.3 shell script deployed 2026-05-18 without Step 9.4
+  Python script namespacing — partial deployment. Rollback executed
+  same session: run_light_to_lark.sh restored to pre-config-loader backup.
+  Logged as Issue #45 (resolved same session). See Issues Log.
+
 Step 2A complete (2026-05-09): /root/openclaw_docs/ and /root/openclaw_cowork/
 created; Git repo initialised; 21 system documents migrated; baseline commit
 f791138 made and rollback verified.
@@ -158,8 +170,9 @@ to /root/openclaw_phase5/orchestrator/build_agent_input_slim.py: ADVISORY
 LANGUAGE CALIBRATION block added to system_rules (prohibits imperative
 constructions and alarm-grade superlatives; mandates conditional framing);
 Advisory language rules block added to output_format (explicit examples of
-permitted and prohibited framing). py_compile exit 0 — syntax valid. Validates
-on next cron run.
+permitted and prohibited framing). py_compile exit 0 — syntax valid. Validated
+on cron runs 2026-05-14 through 2026-05-18 — COMPLIANT all five runs.
+T-04 CLOSED 2026-05-19.
 
 Known Phase 6 citation-control issues appear resolved based on validated run
 sequence. Observed fabrication rate 0% across all post-Phase-6.8 runs.
@@ -174,7 +187,18 @@ Config Loader implementation — Steps 9.2 and 9.3 complete 2026-05-18:
   - run_light_to_lark.sh updated — argument parsing, loader call, env
     read, artifact namespacing (8 paths), Brain Lite client_id fix
   - Backup: run_light_to_lark.sh.bak_20260518_pre_config_loader
-  - Implementation paused at Step 9.4 — Python script namespacing
+
+Step 9.4 COMPLETE — 2026-05-19 (operator approved):
+  - Six Python scripts patched: package_builder.py, build_agent_input_slim.py,
+    resolve_source_numbers.py, scrub_result_ids.py, validator.py, citation_sub.py
+  - All artifact paths now read OPENCLAW_ARTIFACT_NAMESPACE from env
+    (default: china_monitor_001)
+  - run_light_to_lark.sh re-deployed with Steps 9.3+9.4 combined
+    (set -e-safe loader exit capture; all 8 artifact paths namespaced;
+    Brain Lite --client_id fix)
+  - 7 backups created: .bak_20260519_pre_ns suffix
+  - py_compile exit 0 all six Python scripts; bash -n exit 0 shell script
+  - Confirmation run expected 2026-05-20 06:30
 
 ---
 
@@ -227,9 +251,9 @@ Config Loader implementation — Steps 9.2 and 9.3 complete 2026-05-18:
 ✔ Brain Lite confirmation Run 5 — CONFIRMED 2026-05-15 06:31 (two BRAIN_LITE markers
   in cron log — metrics_unavailable absent; T-10 patch holding; ids_seen/ids_kept/
   ids_removed=42/42/0; validator GREEN 42/42/0)
-✔ T-04 advisory language compliance — VERIFIED Run 5 (2026-05-15); all 5 AL bullets
-  use conditional/hedged modal framing; no imperative constructions; no alarm-grade
-  superlatives; COMPLIANT
+✔ T-04 advisory language compliance — VERIFIED Runs 5–8 (2026-05-15 to 2026-05-18);
+  all 5 AL bullets conditional/hedged framing; no imperative constructions; no
+  alarm-grade superlatives; COMPLIANT — T-04 CLOSED 2026-05-19
 ✔ T-09 RESOLVED — VPS sync pattern confirmed 2026-05-13; SSH keypair deployed;
   Section 10.3 safeguards complete; sync protocol documented at
   config/VPS_SYNC_PROTOCOL.md; operator runs PowerShell scp block at session
@@ -310,8 +334,13 @@ Config Loader implementation — Steps 9.2 and 9.3 complete 2026-05-18:
   fix; backup at run_light_to_lark.sh.bak_20260518_pre_config_loader; syntax OK
 ✔ OPENCLAW-SPEC-CONFIG-LOADER-001 updated to v1.2 — config path and runtime
   path corrected to match deployed implementation; operator approved 2026-05-18
-⚠ Step 9.4 IN PROGRESS — Python script artifact namespacing not yet applied;
-  pipeline not yet end-to-end namespace-safe; resume next session
+✔ Issue #45 RESOLVED — 2026-05-19 delivery failure (Step 9.3/9.4 deployment
+  sequence); rollback executed; Steps 9.3+9.4 re-deployed as combined unit
+✔ Step 9.4 COMPLETE — 2026-05-19 (operator approved); six Python scripts patched
+  with OPENCLAW_ARTIFACT_NAMESPACE env var; run_light_to_lark.sh re-deployed
+  (Steps 9.3+9.4 combined); all 7 files py_compile/bash -n exit 0;
+  7 backups at .bak_20260519_pre_ns
+⚠ Step 9.4 confirmation run pending — 2026-05-20 06:30 cron
 
 ---
 
@@ -321,6 +350,7 @@ Config Loader implementation — Steps 9.2 and 9.3 complete 2026-05-18:
 |---|-------|--------|------------|
 | #43 | Agent fabrication rate ~48% | RESOLVED | Phase 6.8 — 2026-05-07 |
 | #44 | 3 Sina Finance sources not in delivered output | RESOLVED | Log-confirmed 2026-05-08 — validator 23/23, substitutions_made=23, missing_ids=0 |
+| #45 | 2026-05-19 delivery failure — Step 9.3/9.4 deployment sequence | RESOLVED 2026-05-19 | Rollback executed; Steps 9.3+9.4 re-deployed combined |
 | T-10 | Brain Lite metrics_unavailable — ids_seen/ids_kept/ids_removed = 0 in run_summary | RESOLVED 2026-05-13 | Patch deployed to write_run_summary.py; metrics read from validation_result.json summary block; confirmed 30/30/0 |
 
 ---
@@ -344,15 +374,12 @@ Config Loader implementation — Steps 9.2 and 9.3 complete 2026-05-18:
 SESSION START: Run PowerShell scp block from config/VPS_SYNC_PROTOCOL.md
   before any pipeline review or implementation work.
 
-NOTE: After Step 9.4 deploys, update config/VPS_SYNC_PROTOCOL.md — scp path
-  for validation_result.json must change to validation_result_china_monitor_001.json.
+NOTE: VPS_SYNC_PROTOCOL.md updated — validation_result scp path now uses
+  namespaced filename validation_result_china_monitor_001.json.
 
-1. Step 9.4 — Artifact namespacing: update Python pipeline scripts to read
-   artifact paths from OPENCLAW_ARTIFACT_NAMESPACE environment variable.
-   Scripts: package_builder.py, build_agent_input_slim.py,
-   resolve_source_numbers.py, scrub_result_ids.py, validator.py,
-   citation_sub.py. Each script patched and py_compile verified before
-   deployment. Submit as single patch for operator approval.
+1. Step 9.4 confirmation — verify 2026-05-20 06:30 cron run: CONFIG_LOADER
+   markers present, all namespaced artifacts written, validator GREEN,
+   Brain Lite run_summary_china_monitor_001_20260520.json written.
 
 2. Step 9.5 — Deploy test_client_002.yaml to VPS /root/openclaw_docs/config/.
 

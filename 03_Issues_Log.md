@@ -2,8 +2,8 @@
 
 ---
 document_id: OPENCLAW-ISSUES-001
-version: v1.6
-last_updated: 2026-05-13
+version: v1.7
+last_updated: 2026-05-19
 status: OPERATIONAL
 ---
 
@@ -25,7 +25,7 @@ No open issues.
 | T-01 | Freshness signaling not distinguished in output | Advisory note 2026-05-08 |
 | T-02 | Source authority classification — lower-authority sources uncalibrated | Advisory note 2026-05-08 |
 | T-03 | Chinese-source diversity — not yet consistently rich across categories | Advisory note 2026-05-08 |
-| T-04 | Advisory language calibration — claim strength exceeds evidence in places | Advisory note 2026-05-08 |
+| T-04 | Advisory language calibration — claim strength exceeds evidence in places | ✅ CLOSED — 2026-05-19 |
 | T-05 | Middle East content drift — coverage not consistently anchored to China linkage | Advisory note 2026-05-08 |
 | T-06 | scrubber_report.json not found at expected path on 2026-05-08 06:32 run | ✅ RESOLVED — 2026-05-11 |
 | T-07 | LinkedIn Draft non-refresh — identical output across consecutive runs | Content observation 2026-05-11 |
@@ -174,7 +174,10 @@ Deployed 2026-05-13. Two additions made to
 py_compile exit 0 — syntax valid. Validates on next cron run (2026-05-14).
 
 ### Status
-DEPLOYED — 2026-05-13. Pending cron validation.
+✅ CLOSED — 2026-05-19. Validated across five consecutive cron runs
+(2026-05-14 through 2026-05-18). All 5 AL bullets confirmed conditional/
+hedged framing on each run. No imperative constructions or alarm-grade
+superlatives observed. Compliance confirmed by CoWork post-run analysis.
 
 ---
 
@@ -807,3 +810,43 @@ Dependent resolution of Issue #43 (Phase 6.8, 2026-05-07).
 
 ### Identified
 2026-05-06
+
+---
+
+## Issue #45 — 2026-05-19 Delivery Failure — Step 9.3/9.4 Deployment Sequence
+
+### Status
+✅ RESOLVED — 2026-05-19
+
+### Origin
+2026-05-19 06:30 cron run analysis
+
+### Description
+
+The 2026-05-19 06:30 cron run failed to deliver. The config loader executed
+successfully (client_id=china_monitor_001, artifact_namespace=china_monitor_001
+confirmed). The resolver and scrubber ran but wrote to non-namespaced artifact
+paths (Step 9.4 not yet deployed). run_light_to_lark.sh (Step 9.3) then
+attempted to cp final_output_scrubbed_china_monitor_001.txt — which did not
+exist because scrub_result_ids.py still wrote to the non-namespaced filename.
+The script aborted. Validator and delivery gate were not reached. Brain Lite
+run_summary was not written.
+
+### Root Cause
+
+Step 9.3 (shell script namespacing) was deployed on 2026-05-18 without Step
+9.4 (Python script namespacing). The shell script expected namespaced artifact
+filenames that the Python scripts were not yet producing. Partial deployment
+created a broken handoff at the scrubber output step.
+
+### Resolution
+
+Rollback executed same session: run_light_to_lark.sh restored from
+run_light_to_lark.sh.bak_20260518_pre_config_loader. Steps 9.3 and 9.4
+prepared as a combined patch set, reviewed by CoWork, operator-approved, and
+deployed as a single unit on 2026-05-19. All 7 files (6 Python scripts +
+shell script) verified: py_compile exit 0 / bash -n exit 0. Step 9.4
+confirmation run expected 2026-05-20 06:30.
+
+### Identified
+2026-05-19

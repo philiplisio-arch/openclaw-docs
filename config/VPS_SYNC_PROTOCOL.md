@@ -2,9 +2,9 @@
 
 ---
 document_id: OPENCLAW-SYNC-001
-version: 1.3
+version: 1.4
 created: 2026-05-13
-last_updated: 2026-05-18
+last_updated: 2026-05-19
 ---
 
 ## PURPOSE
@@ -37,49 +37,15 @@ pipeline files from the previous sync.
 Copy and run in PowerShell on your local machine:
 
 ```powershell
-scp -i "C:\Users\phil\Documents\OpenClaw project\config\cowork_key" `
-    openclaw_cowork@152.42.195.186:/root/openclaw_logs/light_to_lark.log `
-    "C:\Users\phil\Documents\OpenClaw project\config\vps_sync\light_to_lark.log"
+scp -i "C:\Users\phil\Documents\OpenClaw project\config\cowork_key" openclaw_cowork@152.42.195.186:/root/openclaw_logs/light_to_lark.log "C:\Users\phil\Documents\OpenClaw project\config\vps_sync\light_to_lark.log"
 
-scp -i "C:\Users\phil\Documents\OpenClaw project\config\cowork_key" `
-    openclaw_cowork@152.42.195.186:/root/openclaw_phase6/validation/validation_result.json `
-    "C:\Users\phil\Documents\OpenClaw project\config\vps_sync\validation_result.json"
+scp -i "C:\Users\phil\Documents\OpenClaw project\config\cowork_key" openclaw_cowork@152.42.195.186:/root/openclaw_phase6/validation/validation_result_china_monitor_001.json "C:\Users\phil\Documents\OpenClaw project\config\vps_sync\validation_result_china_monitor_001.json"
 
-scp -i "C:\Users\phil\Documents\OpenClaw project\config\cowork_key" `
-    openclaw_cowork@152.42.195.186:/root/openclaw_phase7/brain_lite/run_summaries/run_summary_china_monitor_001_20260511.json `
-    "C:\Users\phil\Documents\OpenClaw project\config\vps_sync\run_summary_china_monitor_001_20260511.json"
+scp -i "C:\Users\phil\Documents\OpenClaw project\config\cowork_key" openclaw_cowork@152.42.195.186:/root/openclaw_phase7/brain_lite/run_summaries/run_summary_china_monitor_001_20260519.json "C:\Users\phil\Documents\OpenClaw project\config\vps_sync\run_summary_china_monitor_001_20260519.json"
 
-scp -i "C:\Users\phil\Documents\OpenClaw project\config\cowork_key" `
-    openclaw_cowork@152.42.195.186:/root/openclaw_phase7/brain_lite/run_summaries/run_summary_china_monitor_001_20260512.json `
-    "C:\Users\phil\Documents\OpenClaw project\config\vps_sync\run_summary_china_monitor_001_20260512.json"
+scp -i "C:\Users\phil\Documents\OpenClaw project\config\cowork_key" openclaw_cowork@152.42.195.186:/root/openclaw_phase7/brain_lite/run_summaries/run_summary_china_monitor_001_20260520.json "C:\Users\phil\Documents\OpenClaw project\config\vps_sync\run_summary_china_monitor_001_20260520.json"
 
-scp -i "C:\Users\phil\Documents\OpenClaw project\config\cowork_key" `
-    openclaw_cowork@152.42.195.186:/root/openclaw_phase7/brain_lite/run_summaries/run_summary_china_monitor_001_20260513.json `
-    "C:\Users\phil\Documents\OpenClaw project\config\vps_sync\run_summary_china_monitor_001_20260513.json"
-
-scp -i "C:\Users\phil\Documents\OpenClaw project\config\cowork_key" `
-    openclaw_cowork@152.42.195.186:/root/openclaw_phase7/brain_lite/run_summaries/run_summary_china_monitor_001_20260514.json `
-    "C:\Users\phil\Documents\OpenClaw project\config\vps_sync\run_summary_china_monitor_001_20260514.json"
-
-scp -i "C:\Users\phil\Documents\OpenClaw project\config\cowork_key" `
-    openclaw_cowork@152.42.195.186:/root/openclaw_phase7/brain_lite/run_summaries/run_summary_china_monitor_001_20260515.json `
-    "C:\Users\phil\Documents\OpenClaw project\config\vps_sync\run_summary_china_monitor_001_20260515.json"
-
-scp -i "C:\Users\phil\Documents\OpenClaw project\config\cowork_key" `
-    openclaw_cowork@152.42.195.186:/root/openclaw_phase7/brain_lite/run_summaries/run_summary_china_monitor_001_20260516.json `
-    "C:\Users\phil\Documents\OpenClaw project\config\vps_sync\run_summary_china_monitor_001_20260516.json"
-
-scp -i "C:\Users\phil\Documents\OpenClaw project\config\cowork_key" `
-    openclaw_cowork@152.42.195.186:/root/openclaw_phase7/brain_lite/run_summaries/run_summary_china_monitor_001_20260517.json `
-    "C:\Users\phil\Documents\OpenClaw project\config\vps_sync\run_summary_china_monitor_001_20260517.json"
-
-scp -i "C:\Users\phil\Documents\OpenClaw project\config\cowork_key" `
-    openclaw_cowork@152.42.195.186:/root/openclaw_phase7/brain_lite/run_summaries/run_summary_china_monitor_001_20260518.json `
-    "C:\Users\phil\Documents\OpenClaw project\config\vps_sync\run_summary_china_monitor_001_20260518.json"
-
-scp -i "C:\Users\phil\Documents\OpenClaw project\config\cowork_key" `
-    openclaw_cowork@152.42.195.186:/root/openclaw_phase5/data/final_output_scrubbed.txt `
-    "C:\Users\phil\Documents\OpenClaw project\config\vps_sync\final_output_scrubbed.txt"
+scp -i "C:\Users\phil\Documents\OpenClaw project\config\cowork_key" openclaw_cowork@152.42.195.186:/root/openclaw_phase5/data/final_output_scrubbed_china_monitor_001.txt "C:\Users\phil\Documents\OpenClaw project\config\vps_sync\final_output_scrubbed_china_monitor_001.txt"
 
 echo "VPS sync complete"
 ```
@@ -102,10 +68,9 @@ echo "VPS sync complete"
 
 ## ADDING NEW FILES TO THE SYNC
 
-As new artifacts are added to the VPS (e.g., new run_summary files after
-Brain Lite Runs 3–5, client_config yaml after Step 6), add a corresponding
-`scp` line to the block above. Update this document when the standard sync
-set changes.
+As new artifacts are added to the VPS (e.g., new run_summary files, additional
+client artifacts), add a corresponding `scp` line to the block above. Update
+this document when the standard sync set changes.
 
 ---
 
@@ -114,16 +79,10 @@ set changes.
 | File | VPS Source | Purpose |
 |------|-----------|---------|
 | light_to_lark.log | /root/openclaw_logs/ | Full pipeline cron log |
-| validation_result.json | /root/openclaw_phase6/validation/ | Latest validator result |
-| run_summary_china_monitor_001_20260511.json | /root/openclaw_phase7/brain_lite/run_summaries/ | Brain Lite Run 1 |
-| run_summary_china_monitor_001_20260512.json | /root/openclaw_phase7/brain_lite/run_summaries/ | Brain Lite Run 2 |
-| run_summary_china_monitor_001_20260513.json | /root/openclaw_phase7/brain_lite/run_summaries/ | Brain Lite Run 3 |
-| run_summary_china_monitor_001_20260514.json | /root/openclaw_phase7/brain_lite/run_summaries/ | Brain Lite Run 4 |
-| run_summary_china_monitor_001_20260515.json | /root/openclaw_phase7/brain_lite/run_summaries/ | Brain Lite Run 5 |
-| run_summary_china_monitor_001_20260516.json | /root/openclaw_phase7/brain_lite/run_summaries/ | Brain Lite Injection Run 1 |
-| run_summary_china_monitor_001_20260517.json | /root/openclaw_phase7/brain_lite/run_summaries/ | Brain Lite Injection Run 2 |
-| run_summary_china_monitor_001_20260518.json | /root/openclaw_phase7/brain_lite/run_summaries/ | Brain Lite Injection Run 3 |
-| final_output_scrubbed.txt | /root/openclaw_phase5/data/ | Delivered output — T-04 advisory language compliance review |
+| validation_result_china_monitor_001.json | /root/openclaw_phase6/validation/ | Latest validator result (namespaced — Step 9.4) |
+| run_summary_china_monitor_001_20260519.json | /root/openclaw_phase7/brain_lite/run_summaries/ | Brain Lite — 2026-05-19 (missed delivery) |
+| run_summary_china_monitor_001_20260520.json | /root/openclaw_phase7/brain_lite/run_summaries/ | Brain Lite — 2026-05-20 (Step 9.4 confirmation run) |
+| final_output_scrubbed_china_monitor_001.txt | /root/openclaw_phase5/data/ | Delivered output (namespaced — Step 9.4) |
 
 ---
 
