@@ -1,8 +1,8 @@
 ---
 document_id: OPENCLAW-P7-GATE-001
-version: 1.1
+version: 1.3
 created: 2026-05-08
-last_updated: 2026-05-14
+last_updated: 2026-05-19
 status: ACTIVE
 classification: OPERATIONAL — PHASE GATE TRACKER
 ---
@@ -56,9 +56,9 @@ Single tracking document for Phase 7 gate criteria. Each gate must be fully met 
 | Item | Description | Status |
 |------|-------------|--------|
 | Step 6 | Brain Lite implemented; 14-field run_summary.json; 7-day digest injected; 5 consecutive non-disruptive runs confirmed | COMPLETE — Run 1 confirmed 2026-05-11; Run 2 confirmed 2026-05-12 06:31; Run 3 confirmed 2026-05-13 06:32 (30/30/0); Run 4 confirmed 2026-05-14 06:32 (36/36/0; T-10 verified); Run 5 confirmed 2026-05-15 06:31 (42/42/0; T-04 compliant); brain_context: true activated 2026-05-15 (operator approved); digest rebuilt covering all 5 runs (3.4K) |
-| Step 7 | Client config loader implemented; synthetic second client run end-to-end; zero cross-contamination confirmed | NOT OPEN |
+| Step 7 | Client config loader implemented; synthetic second client run end-to-end; zero cross-contamination confirmed | IN PROGRESS — Steps 9.2, 9.3, and 9.4 complete (2026-05-19); Step 9.4 confirmation run pending 2026-05-20; Steps 9.5–9.8 remain open |
 
-**Gate status: OPEN — operator-authorized 2026-05-11**
+**Gate status: OPEN — Phase C active; Step 6 complete; Step 7 in progress; Phase C not eligible for closure until client namespace isolation is confirmed**
 
 ---
 
@@ -91,7 +91,9 @@ Single tracking document for Phase 7 gate criteria. Each gate must be fully met 
 
 ---
 
-*OPENCLAW-P7-GATE-001 | Version 1.2 | Created: 2026-05-08 | Last Updated: 2026-05-15 | Status: ACTIVE*
+*OPENCLAW-P7-GATE-001 | Version 1.3 | Created: 2026-05-08 | Last Updated: 2026-05-19 | Status: ACTIVE*
+
+*v1.3 changes (2026-05-19): Step 7 updated from NOT OPEN to IN PROGRESS — Steps 9.2, 9.3, and 9.4 complete; Step 9.4 confirmation run pending 2026-05-20; Steps 9.5–9.8 remain open. Phase C gate status wording updated to reflect Step 7 active progress. Frontmatter metadata corrected to match footer (v1.3 / 2026-05-19).*
 
 *v1.2 changes (2026-05-15): Step 6 marked COMPLETE — Run 5 confirmed 2026-05-15 06:31 (42/42/0; T-04 compliant); brain_context: true activated; digest rebuilt (3.4K, all 5 runs).*
 

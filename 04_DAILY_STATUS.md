@@ -2,7 +2,7 @@
 
 ---
 document_id: 04_DAILY_STATUS
-version: v1.8
+version: v1.9
 last_updated: 2026-05-19
 status: OPERATIONAL
 ---
@@ -40,7 +40,7 @@ Phase 7 Entry — Phase C: ACTIVE — Brain Lite & Client Config Implementation,
 
 * Operating Protocol: OPENCLAW_COWORK_OPERATING_PROTOCOL.md (v2.4, updated 2026-05-14)
   Phase lock updated to Phase 7 Entry — Phase C
-* Advisory Roadmap: OPENCLAW-ADV-002 (5.8.26).md (operator-approved 2026-05-08 — ACTIVE)
+* Advisory Roadmap: OPENCLAW-ADV-002 — operator-approved strategic reference; not independently governing; implementation requires system-document authority and explicit operator approval
 * Phase 7 Execution Plan: OpenClaw_Phase7_Execution_Plan.docx (approved 2026-05-07 — CANONICAL)
 * Phase Exit Criteria: 03_Phase_Exit_Criteria (5.6.26).md
 * Phase 7 Gate Checklist: OPENCLAW-P7-GATE-001.md (ACTIVE)
@@ -52,10 +52,11 @@ Phase 7 Entry — Phase C: ACTIVE — Brain Lite & Client Config Implementation,
 Phase 6 Soft Layer (6.1–6.8) complete. Phase 7 Entry active — Phase C
 (Brain Lite & Client Config Implementation), operator-authorized 2026-05-11.
 
-Advisory roadmap OPENCLAW-ADV-002 operator-approved 2026-05-08. Accepted
-direction: Phase A gate closure → VPS doc/repo setup (Steps 2A/2B) → CoWork
-reporting layer → Brain Lite → client config/namespace isolation → controlled
-paid pilot. No runtime pipeline changes authorized.
+Advisory roadmap OPENCLAW-ADV-002 operator-approved 2026-05-08 as strategic
+reference (not independently governing). Accepted direction: Phase A gate
+closure → VPS doc/repo setup (Steps 2A/2B) → CoWork reporting layer →
+Brain Lite → client config/namespace isolation → controlled paid pilot.
+No runtime pipeline changes authorized.
 
 Phase A trust gate: CLOSED. Five consecutive clean deliveries confirmed
 (2026-05-06, 2026-05-07, 2026-05-08, 2026-05-09, 2026-05-10). Gate closure

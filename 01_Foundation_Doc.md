@@ -2,8 +2,8 @@
 
 ---
 document_id: OPENCLAW-FOUND-001
-version: v6.0
-last_updated: 2026-05-14
+version: v6.1
+last_updated: 2026-05-19
 status: ACTIVE
 ---
 
@@ -15,17 +15,26 @@ Build a trusted, client-grade PR intelligence system that produces accurate, ver
 
 ## 🏗 SYSTEM ARCHITECTURE
 
-### Pipeline
+### Canonical Pipeline
 
 Trigger
 → Retrieval (Brave + Baidu)
 → Orchestrator (normalize, dedup, filter)
 → Agent (signal generation, source-number citations)
-→ **Resolver (resolve_source_numbers.py — maps source numbers → result_ids)**
 → **Scrubber (deterministic cleanup, uncited bullet removal)**
+→ **Control Layer (structural completeness evaluation)**
 → Validator (strict verification)
 → **Delivery Gate (PASS/WARN/FAIL)**
-→ Lark (result_ids substituted with publisher/date by citation_sub.py)
+→ Lark
+
+This sequence matches the System Constitution (OPENCLAW-CONST-001) canonical pipeline. The Constitution is the authoritative source for the top-level pipeline sequence.
+
+### Pipeline Subcomponents
+
+The following deterministic components run within the canonical pipeline stages:
+
+- **Resolver (resolve_source_numbers.py):** Runs after Agent and before Scrubber. Maps source-number citations ([source_numbers: N]) to result_id citations. Required precondition for Scrubber operation.
+- **citation_sub.py:** Runs after Delivery Gate approval and before Lark output. Substitutes result_id tokens with publisher/date display strings for Lark formatting.
 
 ---
 

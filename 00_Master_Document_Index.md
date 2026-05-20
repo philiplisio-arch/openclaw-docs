@@ -2,8 +2,8 @@
 
 ---
 document_id: OPENCLAW-MDI-001
-version: v4.3
-last_updated: 2026-05-14
+version: v4.6
+last_updated: 2026-05-19
 status: ACTIVE
 ---
 
@@ -21,6 +21,7 @@ documents listed as GOVERNING, LOCKED, or ACTIVE are authoritative.
 - **TEMPLATE** — blank form for recurring documents
 - **REFERENCE** — informational; not governing
 - **CONSULTANT APPROVED** — reviewed and approved by consultant; awaiting operator approval before governing
+- **OPERATOR APPROVED** — explicitly approved by the operator for use or implementation; governing force depends on document class and location
 - **ARCHIVED** — superseded; retained for history only
 
 **Location key:**
@@ -165,7 +166,9 @@ Updates require operator approval per Hard Safety Rule R-01.
 
 ---
 
-*OPENCLAW-MDI-001 | Version v4.5 | Last updated: 2026-05-18 | Status: ACTIVE*
+*OPENCLAW-MDI-001 | Version v4.6 | Last updated: 2026-05-19 | Status: ACTIVE*
+
+*v4.6 changes (2026-05-19): OPERATOR APPROVED added to formal status definitions. Frontmatter corrected to v4.6/2026-05-19 (previously mismatched vs footer at v4.5/2026-05-18).*
 
 *v4.5 changes (2026-05-18): OPENCLAW-SPEC-CONFIG-LOADER-001 status updated from CONSULTANT APPROVED to OPERATOR APPROVED (approved 2026-05-18).*
 
