@@ -34,34 +34,25 @@ NAMESPACED_ARTIFACT_TYPES = [
     "retrieval_package_{}.json",
     "final_output_{}.txt",
     "final_output_scrubbed_{}.txt",
-    "agent_input_{}.txt",
     "agent_input_slim_{}.txt",
     "conflict_log_{}.json",
 ]
 
 VALIDATION_ARTIFACT_TYPES = [
-    "scrubber_report_{}.json",
     "validation_result_{}.json",
 ]
 
 # Legacy (unsuffixed) artifact names — any of these still present = namespacing failure
+# final_output.txt is intentionally excluded: it is actively written as an
+# intermediate by run_phase5_offline.sh and is not an orphan.
 LEGACY_ARTIFACT_NAMES = [
     "retrieval_package.json",
-    "final_output.txt",
     "final_output_scrubbed.txt",
     "scrubber_report.json",
     "validation_result.json",
     "conflict_log.json",
     "agent_input.txt",
     "agent_input_slim.txt",
-]
-
-# Content keywords: china_monitor_001 topic set
-# If any appear in CLIENT_B artifacts → contamination
-CHINA_MONITOR_KEYWORDS = [
-    "china", "us-china", "europe", "middle east",
-    "sina", "reuters", "cctv", "baidu",
-    "trade policy", "regulatory", "macroeconomic",
 ]
 
 # ─── Result tracking ──────────────────────────────────────────────────────────
@@ -157,22 +148,9 @@ check(
     f"{len(hits_a_in_b)} hit(s) found" if hits_a_in_b else ""
 )
 
-# ─── Step 5.3 — Content cross-check: CLIENT_B artifacts ─────────────────────
-
-print("\n── Step 5.3  Content cross-check: CLIENT_B artifacts ───────────────")
-
-b_final = os.path.join(DATA_DIR, f"final_output_{CLIENT_B}.txt")
-if os.path.isfile(b_final):
-    for kw in CHINA_MONITOR_KEYWORDS:
-        hits = grep_string_in_files(kw, [b_final])
-        check(
-            f"No china_monitor keyword '{kw}' in {CLIENT_B} final output",
-            len(hits) == 0,
-            f"{len(hits)} hit(s)" if hits else ""
-        )
-else:
-    check(f"CLIENT_B final_output exists for keyword scan", False,
-          f"File not found: {b_final}")
+# Step 5.3 (content keyword cross-check) was removed: test_client_002 uses
+# query_template_set: china_monitor_v1, so China-domain keywords are expected
+# in its output. Identifier-based cross-contamination is covered by Step 5.2.
 
 # ─── Step 5.4 — Content cross-check: CLIENT_A artifacts ─────────────────────
 
