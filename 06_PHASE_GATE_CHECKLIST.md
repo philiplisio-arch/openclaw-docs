@@ -1,6 +1,6 @@
 ---
 document_id: OPENCLAW-P7-GATE-001
-version: 1.4
+version: 1.5
 created: 2026-05-08
 last_updated: 2026-05-20
 status: ACTIVE
@@ -56,9 +56,9 @@ Single tracking document for Phase 7 gate criteria. Each gate must be fully met 
 | Item | Description | Status |
 |------|-------------|--------|
 | Step 6 | Brain Lite implemented; 14-field run_summary.json; 7-day digest injected; 5 consecutive non-disruptive runs confirmed | COMPLETE — Run 1 confirmed 2026-05-11; Run 2 confirmed 2026-05-12 06:31; Run 3 confirmed 2026-05-13 06:32 (30/30/0); Run 4 confirmed 2026-05-14 06:32 (36/36/0; T-10 verified); Run 5 confirmed 2026-05-15 06:31 (42/42/0; T-04 compliant); brain_context: true activated 2026-05-15 (operator approved); digest rebuilt covering all 5 runs (3.4K) |
-| Step 7 | Client config loader implemented; synthetic second client run end-to-end; zero cross-contamination confirmed | IN PROGRESS — Steps 9.2, 9.3, and 9.4 complete; Step 9.4 confirmation run CONFIRMED 2026-05-20 06:31 (GREEN 30/30/0; namespaced artifacts verified); Steps 9.5–9.8 remain open |
+| Step 7 | Client config loader implemented; synthetic second client run end-to-end; zero cross-contamination confirmed | COMPLETE — Steps 9.2–9.8 complete; client_config_test_client_002.yaml deployed; verify_isolation.py EXIT 0, 42/42 PASS; pilot_mode delivery gate confirmed; operator-confirmed 2026-05-20 |
 
-**Gate status: OPEN — Phase C active; Step 6 complete; Step 7 in progress; Phase C not eligible for closure until client namespace isolation is confirmed**
+**Gate status: CLOSED — operator-confirmed 2026-05-20**
 
 ---
 
@@ -66,7 +66,7 @@ Single tracking document for Phase 7 gate criteria. Each gate must be fully met 
 
 **Requirement:** Operator review gate on every delivery for first two weeks or ten deliveries. Ten consecutive clean external deliveries with client confirmation.
 
-**Gate status: NOT OPEN — opens after Phase C gate closes**
+**Gate status: OPEN — Phase C closed 2026-05-20; Phase D eligible to begin**
 
 ---
 
@@ -86,12 +86,14 @@ Single tracking document for Phase 7 gate criteria. Each gate must be fully met 
 |------|--------|--------------|
 | Phase A | 2026-05-11 | Operator |
 | Phase B | 2026-05-11 | Operator |
-| Phase C | — | — |
+| Phase C | 2026-05-20 | Operator |
 | Phase D | — | — |
 
 ---
 
-*OPENCLAW-P7-GATE-001 | Version 1.4 | Created: 2026-05-08 | Last Updated: 2026-05-20 | Status: ACTIVE*
+*OPENCLAW-P7-GATE-001 | Version 1.5 | Created: 2026-05-08 | Last Updated: 2026-05-20 | Status: ACTIVE*
+
+*v1.5 changes (2026-05-20): Step 7 marked COMPLETE — Steps 9.5–9.8 completed; verify_isolation.py EXIT 0 42/42 PASS; pilot_mode delivery gate confirmed; Phase C gate CLOSED operator-confirmed 2026-05-20; Phase D gate OPEN.*
 
 *v1.4 changes (2026-05-20): Step 7 updated — Step 9.4 confirmation run CONFIRMED 2026-05-20 06:31 (GREEN 30/30/0; namespaced artifacts verified); Steps 9.5–9.8 remain open.*
 

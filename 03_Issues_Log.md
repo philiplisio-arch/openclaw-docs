@@ -2,8 +2,8 @@
 
 ---
 document_id: OPENCLAW-ISSUES-001
-version: v1.7
-last_updated: 2026-05-19
+version: v2.0
+last_updated: 2026-05-20
 status: OPERATIONAL
 ---
 
@@ -16,7 +16,12 @@ and recently resolved issues.
 
 ## OPEN ISSUES SUMMARY
 
-No open issues.
+| # | Title | Status |
+|---|-------|--------|
+| 46 | OPENCLAW_ARTIFACT_NAMESPACE not propagating to scrubber subprocess | ✅ RESOLVED — 2026-05-20 |
+| 47 | Intermediate retrieval artifacts not client-namespaced | 🟡 OPEN — operator decision required |
+| 48 | Delivery relay not client-namespaced — test runs deliver to live channel | ✅ RESOLVED — 2026-05-20 |
+| 49 | run_light_to_lark.sh — OPENCLAW_CLIENT_ID and other loader vars assigned without export | 🟡 OPEN — pre-production tightening required |
 
 ## TRACKED INPUTS — FUTURE PHASE
 
@@ -47,6 +52,169 @@ No open issues.
 | 42 | SerpAPI Key Invalid — Baidu Retrieval Failure | ✅ RESOLVED (2026-05-06) |
 | 43 | Agent Result ID Fabrication Rate Elevated | ✅ RESOLVED (2026-05-07) |
 | 44 | Valid Sources Not Surfacing in Delivered Output | ✅ RESOLVED (2026-05-08) |
+| 45 | 2026-05-19 delivery failure — Step 9.3/9.4 deployment sequence | ✅ RESOLVED (2026-05-19) |
+
+---
+
+## Issue #48 — Delivery Relay Not Client-Namespaced
+
+### Status
+🔴 OPEN — Phase C gate decision required
+
+### Discovered
+2026-05-20 — Step 9.7 manual test run
+
+### Description
+
+The delivery relay at `http://127.0.0.1:8787/push` is not client-aware. The curl
+call in `run_light_to_lark.sh` (line 283) posts to the relay with no `client_id`
+or webhook parameter. The relay delivers to a single hardcoded Lark channel
+regardless of which client triggered the run. `pilot_mode: true` in
+`client_config_test_client_002.yaml` has no effect — the delivery gate does not
+read `pilot_mode` from the client config.
+
+During the Step 9.7 test run, `test_client_002` content was delivered to the live
+china_monitor_001 Lark channel at 10:10 Shanghai. The content was real China
+Monitor content (not synthetic garbage) because `test_client_002` used
+`query_template_set: china_monitor_v1`, which ran live Brave/Baidu queries and
+retrieved current China news. The subscriber received an unscheduled second brief.
+
+### Impact
+
+Any manual test run on any non-default client will deliver to the live channel
+until resolved. This is a live client experience issue if real subscribers are
+present.
+
+### Phase C Gate Implication
+
+Namespace isolation at the delivery layer is not confirmed. Phase C gate requires
+operator decision: is delivery-layer namespacing in scope for Phase C, or does
+Phase C close on artifact-layer isolation only with delivery namespacing deferred?
+
+### Resolution
+
+Resolved 2026-05-20 — operator confirmed delivery namespacing in Phase C scope.
+Two patches applied to `run_light_to_lark.sh`:
+1. `export OPENCLAW_PILOT_MODE=$(grep '^OPENCLAW_PILOT_MODE=' "$LOADER_ENV_FILE" | cut -d= -f2)` added at line 21.
+2. Pilot mode delivery gate added at line 285: if `OPENCLAW_PILOT_MODE=true`, print `[SKIP]` and `exit 0` before curl call.
+Backup: `run_light_to_lark.sh.bak_20260520_pre_pilot_mode`.
+Confirmed: Step 9.7 re-run shows `[SKIP] pilot_mode=true — delivery blocked for client_id=test_client_002`. Live Lark channel not touched.
+
+---
+
+## Issue #49 — run_light_to_lark.sh Loader Variables Not Fully Exported
+
+### Status
+🟡 OPEN — pre-production tightening required
+
+### Discovered
+2026-05-20 — Claude Code side observation during Fix 1 investigation
+
+### Description
+
+`run_light_to_lark.sh` lines 19–22 read variables from `loader.env` (CLIENT_ID,
+ARTIFACT_NAMESPACE, PILOT_MODE, etc.) via grep/cut assignment. Only
+`OPENCLAW_ARTIFACT_NAMESPACE` and `OPENCLAW_PILOT_MODE` have been explicitly
+exported (patches applied 2026-05-20). Other variables (e.g. `OPENCLAW_CLIENT_ID`)
+are assigned as shell variables only and are not visible to child processes.
+Child subprocesses that need CLIENT_ID may fall back to hardcoded defaults
+rather than the loader.env value.
+
+### Impact
+
+Not currently blocking — confirmed test_client_002 run produced correct namespaced
+artifacts with current export set. Risk increases when additional clients and
+pipeline components are added in production.
+
+### Resolution Required
+
+Audit all loader.env variables read in `run_light_to_lark.sh` lines 19–22 and
+confirm each is either exported or not needed by child processes. Add `export`
+to any that are consumed by subprocesses. Pre-production requirement before
+second real client goes live.
+
+---
+
+## Issue #46 — OPENCLAW_ARTIFACT_NAMESPACE Not Propagating to Scrubber Subprocess
+
+### Status
+✅ RESOLVED — 2026-05-20
+
+### Discovered
+2026-05-20 — Step 9.7 manual test run
+
+### Description
+
+During the Step 9.7 manual test run (`./run_light_to_lark.sh --client_id test_client_002`),
+the config loader correctly set `artifact_namespace=test_client_002` and the [CONFIG] log
+line confirmed `client_id=test_client_002 artifact_namespace=test_client_002`. However,
+the scrubber (`scrub_result_ids.py`) defaulted to `china_monitor_001`, writing its output
+to `final_output_scrubbed_china_monitor_001.txt` instead of `final_output_scrubbed_test_client_002.txt`.
+The subsequent `cp` in `run_light_to_lark.sh` failed with "cannot stat
+final_output_scrubbed_test_client_002.txt". The pipeline aborted before reaching delivery.
+
+### Impact
+
+`final_output_scrubbed_china_monitor_001.txt` was overwritten with degraded content
+(ids_removed=17 vs confirmed 0 from morning cron). Morning delivery was unaffected
+(completed at 06:31, three hours prior). Tomorrow's 06:30 cron will regenerate all
+artifacts from scratch — no live client impact.
+
+### Root Cause (working hypothesis)
+
+`OPENCLAW_ARTIFACT_NAMESPACE` is exported by `run_light_to_lark.sh` after sourcing
+`loader.env`, but is not being inherited by the `scrub_result_ids.py` subprocess.
+Python subprocess env inheritance or the source/export sequence in the shell script
+is the likely fault location. Requires VPS investigation.
+
+### Resolution
+
+Two bugs found and patched 2026-05-20:
+1. Line 20: `OPENCLAW_ARTIFACT_NAMESPACE` assigned but not exported — fixed with `export`.
+2. Line 191: typo `${OPENCLAW_ARTIFACT_NAMESPAC}` (missing `E`) — fixed via sed.
+Backup: `run_light_to_lark.sh.bak_20260520_pre_ns_export`.
+Re-run of Step 9.7 confirmed scrubber wrote to correct namespace (test_client_002).
+Note: lines 190 and 193 have a further typo `${OPENCLAW_ARTIFACTNAMESPACE}` (missing
+underscore) — did not block this run but requires a follow-up patch.
+
+---
+
+## Issue #47 — Intermediate Retrieval Artifacts Not Client-Namespaced
+
+### Status
+🟡 OPEN — operator decision required
+
+### Discovered
+2026-05-20 — Step 9.7 investigation
+
+### Description
+
+Intermediate retrieval artifacts (`brave_raw.json`, `baidu_raw.json`,
+`query_bundle.json`, `normalized/`, `filtered_results.json`) are written to
+shared paths with no client_id suffix. Two concurrent client runs would overwrite
+each other's retrieval data silently. Confirmed during the Step 9.7 investigation:
+two sequential `test_client_002` runs both wrote to the same intermediate paths,
+producing a mixed artifact state in the data directory.
+
+### Impact
+
+Not a current operational risk — cron runs only one client (china_monitor_001) on
+a fixed schedule. Concurrent manual runs are the only exposure path, and those are
+operator-controlled. Becomes a real risk when a second client is added to cron or
+when parallel manual testing is conducted.
+
+### Scope Note
+
+The hardcoded-filename audit (2026-05-18) classified `build_agent_input.py` and
+`run_phase5_offline.sh` as NO (no namespacing required). The intermediate retrieval
+files were not explicitly classified in that audit. This may require a scope
+decision before Phase C closes.
+
+### Resolution Required
+
+Operator decision: are intermediate retrieval artifacts in scope for Phase C
+namespacing, or deferred to a later phase? If in scope, classification table
+must be updated and implementation authorized before Phase C gate closes.
 
 ---
 

@@ -2,7 +2,7 @@
 
 ---
 document_id: 04_DAILY_STATUS
-version: v2.0
+version: v2.1
 last_updated: 2026-05-20
 status: OPERATIONAL
 ---
@@ -211,6 +211,42 @@ Step 9.4 COMPLETE — 2026-05-19 (operator approved):
   - py_compile exit 0 all six Python scripts; bash -n exit 0 shell script
   - Confirmation run expected 2026-05-20 06:30
 
+Step 9.5 COMPLETE — 2026-05-20: client_config_test_client_002.yaml deployed
+  to VPS /root/openclaw_docs/config/ (naming convention confirmed:
+  client_config_{client_id}.yaml). Synthetic client: pilot_mode=true,
+  brain_context=false, query_template_set=china_monitor_v1.
+
+Step 9.6 COMPLETE — 2026-05-20: verify_isolation.py written and deployed to
+  VPS /root/openclaw_docs/ and /root/. Implements OPENCLAW-TEST-HARNESS-DESIGN
+  v1.1 Steps 5.1–5.6 including result_id cross-check (Step 5.5, deferred to
+  Phase C per spec). SUMMARIES_DIR corrected to
+  /root/openclaw_phase7/brain_lite/run_summaries (spec path was stale).
+
+Step 9.7 COMPLETE — 2026-05-20 (multiple patches required before PASS):
+  - Issue #46 RESOLVED: OPENCLAW_ARTIFACT_NAMESPACE not exported to scrubber
+    subprocess — export added line 20; typo ${OPENCLAW_ARTIFACT_NAMESPAC}
+    fixed line 191. Backup: .bak_20260520_pre_ns_export.
+  - Issue #48 RESOLVED: pilot_mode delivery gate implemented —
+    OPENCLAW_PILOT_MODE exported (line 21); guard before curl (line 285);
+    exit 0 for pilot_mode=true. Confirmed [SKIP] on test_client_002 run.
+    Backup: .bak_20260520_pre_pilot_mode.
+  - build_agent_input_slim.py OUTPUT_PATH namespaced (line 14 patched;
+    run_phase5_offline.sh updated to reference namespaced path).
+  - Pre-namespacing orphan files deleted (data/retrieval_package.json,
+    data/final_output_scrubbed.txt, data/conflict_log.json,
+    data/agent_input.txt, data/agent_input_slim.txt,
+    validation/validation_result.json).
+  - verify_isolation.py updated: scrubber_report checks removed (T-06);
+    agent_input_{}.txt removed (build_agent_input.py orphaned); Step 5.3
+    keyword checks removed (test_client_002 uses china_monitor_v1 template).
+  - verify_isolation.py: EXIT 0 — 42/42 PASS. Zero cross-contamination
+    confirmed across all artifact types.
+
+Step 9.8 COMPLETE — 2026-05-20: Isolation verification results presented to
+  operator. Phase C gate confirmed CLOSED — operator-confirmed 2026-05-20.
+  Namespace isolation confirmed with zero cross-contamination across all
+  artifact types. Phase D gate now OPEN.
+
 ---
 
 ## STATUS
@@ -353,6 +389,13 @@ Step 9.4 COMPLETE — 2026-05-19 (operator approved):
   7 backups at .bak_20260519_pre_ns
 ✔ Step 9.4 confirmation run — CONFIRMED 2026-05-20 06:31 (GREEN 30/30/0;
   namespaced artifacts confirmed; delivery confirmed; Brain Lite written)
+✔ Step 9.5 COMPLETE — client_config_test_client_002.yaml deployed to VPS 2026-05-20
+✔ Step 9.6 COMPLETE — verify_isolation.py deployed to VPS 2026-05-20
+✔ Step 9.7 COMPLETE — verify_isolation.py EXIT 0; 42/42 PASS; zero cross-contamination
+  confirmed; pilot_mode delivery gate confirmed; Issues #46 and #48 resolved
+✔ Step 9.8 COMPLETE — Phase C gate CLOSED; operator-confirmed 2026-05-20
+✔ Phase C gate: CLOSED — operator-confirmed 2026-05-20
+✔ Phase D gate: OPEN — controlled pilot eligible to begin
 
 ---
 
@@ -363,6 +406,10 @@ Step 9.4 COMPLETE — 2026-05-19 (operator approved):
 | #43 | Agent fabrication rate ~48% | RESOLVED | Phase 6.8 — 2026-05-07 |
 | #44 | 3 Sina Finance sources not in delivered output | RESOLVED | Log-confirmed 2026-05-08 — validator 23/23, substitutions_made=23, missing_ids=0 |
 | #45 | 2026-05-19 delivery failure — Step 9.3/9.4 deployment sequence | RESOLVED 2026-05-19 | Rollback executed; Steps 9.3+9.4 re-deployed combined |
+| #46 | OPENCLAW_ARTIFACT_NAMESPACE not propagating to scrubber | RESOLVED 2026-05-20 | export added line 20; typo fixed line 191 |
+| #47 | Intermediate retrieval artifacts not client-namespaced | OPEN | Operator decision required — pre-production |
+| #48 | Delivery relay not client-namespaced | RESOLVED 2026-05-20 | pilot_mode guard added; OPENCLAW_PILOT_MODE exported |
+| #49 | run_light_to_lark.sh loader vars not fully exported | OPEN | Pre-production tightening required before second real client |
 | T-10 | Brain Lite metrics_unavailable — ids_seen/ids_kept/ids_removed = 0 in run_summary | RESOLVED 2026-05-13 | Patch deployed to write_run_summary.py; metrics read from validation_result.json summary block; confirmed 30/30/0 |
 
 ---
@@ -386,24 +433,18 @@ Step 9.4 COMPLETE — 2026-05-19 (operator approved):
 SESSION START: Run PowerShell scp block from config/VPS_SYNC_PROTOCOL.md
   before any pipeline review or implementation work.
 
-NOTE: VPS_SYNC_PROTOCOL.md updated — validation_result scp path now uses
-  namespaced filename validation_result_china_monitor_001.json.
+Phase C gate CLOSED — 2026-05-20. Phase D gate OPEN.
 
-Step 9.4 CONFIRMED. Next: Steps 9.5–9.8 (namespace isolation verification).
+Next: Phase D — Controlled Pilot (Step 8).
+  Per Phase 7 Execution Plan and OPENCLAW-ADV-012: operator review gate on
+  every delivery for first two weeks or ten deliveries. Ten consecutive clean
+  external deliveries with client confirmation required to close Phase D gate.
 
-1. Step 9.5 — Deploy test_client_002.yaml to VPS /root/openclaw_docs/config/.
-
-2. Step 9.6 — Write and deploy verify_isolation.py.
-
-3. Step 9.7 — Synthetic second client manual run; verify_isolation.py pass.
-
-4. Step 9.8 — Operator Phase C gate confirmation.
-
-NOTE: Cron target confirmed as /root/run_light_to_lark.sh (top-level /root/),
-not /root/openclaw_phase5/. VPS_SYNC_PROTOCOL path reference should be
-verified against this. Minor cleanup item: scrub_result_ids.py success
-print message shows stale non-namespaced path string — log cosmetic only,
-no functional impact; safe to patch when convenient.
+Open pre-production items to resolve before or during Phase D:
+  - Issue #47: intermediate retrieval artifacts not namespaced (operator decision)
+  - Issue #49: loader variable export audit (pre-production requirement)
+  - scrub_result_ids.py success print message — cosmetic stale path string
+    (safe to patch when convenient)
 
 ---
 
