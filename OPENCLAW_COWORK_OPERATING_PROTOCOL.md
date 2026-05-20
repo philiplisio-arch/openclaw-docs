@@ -1,7 +1,7 @@
 ---
 document_id: OPENCLAW-OPS-001
 status: LOCKED
-version: 2.5
+version: 2.6
 created: 2026-05-01
 last_updated: 2026-05-20
 classification: GOVERNANCE — SYSTEM CONTROL DOCUMENT
@@ -72,6 +72,9 @@ The **Daily Status document is the single source of truth** for the active phase
 - Validated Sources Appendix — design, implementation plan, and rollback-safe deployment
 - Post-run analysis per the Analysis Contract (Section 4)
 - Drafting system document updates
+- Browser Retrieval Phase 1 — reading article_cache/ output and producing
+  findings report (research-only parallel track; CoWork has no implementation
+  role; findings report is advisory only)
 
 ### OUT OF SCOPE
 
@@ -83,6 +86,8 @@ may proceed:
 - Onboarding a second real client (blocked until Issues #47 and #49 resolved)
 - Phase advancement without operator approval
 - Any work beyond Phase D controlled pilot scope
+- Browser Retrieval Phase 2 integration (not authorized; requires separate
+  operator decision after Phase 1 findings are reviewed)
 
 Any request, suggestion, or action that touches out-of-scope components
 constitutes a protocol violation and must be flagged immediately.
@@ -372,7 +377,7 @@ decision.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-*OPENCLAW-OPS-001 | Version 2.5 | Created: 2026-05-01 | Last updated: 2026-05-20 | Status: LOCKED*
+*OPENCLAW-OPS-001 | Version 2.6 | Created: 2026-05-01 | Last updated: 2026-05-20 | Status: LOCKED*
 
 *Version 2.0 changes (operator approved 2026-05-07): Phase lock updated to 6.6; Permanent Architectural Rule added (Section 7); VPS Co-Location Model and Content Isolation Rule added (Section 3); Brain Lite Scope Lock added (Section 2); Phase 7 Execution Plan designated as canonical roadmap (Section 8).*
 
@@ -385,3 +390,5 @@ decision.
 *Version 2.4 changes (operator approved 2026-05-14): Document Governance note added to Section 5 — advisory notes are reference only; system changes require explicit operator instruction; reference to OPENCLAW-DOC-GOV-001.*
 
 *Version 2.5 changes (operator approved 2026-05-20): Phase lock updated to Phase D — Controlled Pilot; Phase C gate closure recorded; Phase D authorized; Section 2 IN SCOPE and OUT OF SCOPE updated to reflect Phase D scope.*
+
+*Version 2.6 changes (operator approved 2026-05-20): Browser Retrieval Phase 1 added to IN SCOPE (CoWork role: reading article_cache/ output and producing findings report only); Browser Retrieval Phase 2 integration added to OUT OF SCOPE.*

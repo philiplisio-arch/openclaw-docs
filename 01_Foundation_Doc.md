@@ -2,8 +2,8 @@
 
 ---
 document_id: OPENCLAW-FOUND-001
-version: v6.1
-last_updated: 2026-05-19
+version: v6.2
+last_updated: 2026-05-20
 status: ACTIVE
 ---
 
@@ -50,7 +50,8 @@ Phase 6.6: COMPLETE (operator approved 2026-05-07)
 Phase 6.7: COMPLETE (operator approved 2026-05-07)
 Phase 6.8: COMPLETE (operator approved 2026-05-07)
 Phase 6.9–6.11: SUPERSEDED — not required
-Phase 7 Entry: ACTIVE — Phase C (Brain Lite & Client Config Implementation), operator-authorized 2026-05-11
+Phase 7 Entry — Phase C: COMPLETE — gate closed 2026-05-20
+Phase 7 Entry — Phase D: ACTIVE — Controlled Pilot, operator-authorized 2026-05-20
 
 ---
 
@@ -186,5 +187,6 @@ Final authority on correctness.
 * Citation substitution active — result_ids replaced with publisher/date strings in Lark delivery
 * Conflict detection active — three tiers (⚠/↔/~) operational
 * Phase 6 Soft Layer (6.1–6.8) complete — 2026-05-07
-* Phase 7 Entry active — Phase C (Brain Lite & Client Config Implementation), operator-authorized 2026-05-11
+* Phase 7 Entry — Phase C: COMPLETE — gate closed 2026-05-20
+* Phase 7 Entry — Phase D: ACTIVE — Controlled Pilot, operator-authorized 2026-05-20
 * Content quality (source authority calibration, freshness signalling, advisory tone) — Phase 7 editorial workstream

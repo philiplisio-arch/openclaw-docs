@@ -1,6 +1,6 @@
 ---
 document_id: OPENCLAW-PHASE-D-CP-TEMPLATE
-version: 1.0
+version: 1.1
 created: 2026-05-20
 classification: TEMPLATE — PHASE D CONTENT CHANGE PACKET
 ---
@@ -21,7 +21,8 @@ classification: TEMPLATE — PHASE D CONTENT CHANGE PACKET
 | Raised by | Operator |
 | Client ID | china_monitor_001 |
 | Feedback items addressed | [Feedback IDs from Register] |
-| Affected layer | [Single layer only — see Scope Compliance below] |
+| Feedback recurrence threshold met? | Yes / No — confirmed across [N] reviewed deliveries |
+| Implementation layer | [Select one: Agent prompt/output format / Presentation formatting / Source appendix formatting / Client config / Documentation only] |
 | Status | PROPOSED / APPROVED / IMPLEMENTED / VALIDATED / CLOSED |
 
 ---
@@ -88,13 +89,19 @@ How to confirm no regression was introduced:
 
 ## SECTION 5 — SCOPE COMPLIANCE CHECK
 
-Before this packet may proceed to operator approval, all four must be confirmed:
+Before this packet may proceed to operator approval, all items must be confirmed:
 
 - [ ] Change is confined to one pipeline layer
-- [ ] Change does not weaken citation validation, scrubber behavior,
-      delivery-gate behavior, or client namespace isolation
 - [ ] Rollback path exists and is documented above
 - [ ] Change is within Phase D scope
+
+**Forbidden change check — all must be confirmed NO:**
+
+- [ ] Does NOT alter retrieval behavior (query logic, provider config, freshness params)
+- [ ] Does NOT weaken validator strictness (thresholds, PASS/WARN/FAIL logic)
+- [ ] Does NOT weaken scrubber behavior (citation removal, uncited bullet removal)
+- [ ] Does NOT bypass or modify the Delivery Gate decision
+- [ ] Does NOT affect client namespace isolation
 
 ---
 
@@ -126,4 +133,6 @@ Before this packet may proceed to operator approval, all four must be confirmed:
 
 ---
 
-*OPENCLAW-PHASE-D-CP-TEMPLATE | Version 1.0 | Created: 2026-05-20*
+*OPENCLAW-PHASE-D-CP-TEMPLATE | Version 1.1 | Created: 2026-05-20*
+
+*v1.1 changes (2026-05-20): Feedback recurrence threshold met? and Implementation layer (controlled values) added to Packet Header. Forbidden change check (5 items) added to Section 5 Scope Compliance.*

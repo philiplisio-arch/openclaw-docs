@@ -2,8 +2,8 @@
 
 ---
 document_id: OPENCLAW-MDI-001
-version: v4.6
-last_updated: 2026-05-19
+version: v4.8
+last_updated: 2026-05-20
 status: ACTIVE
 ---
 
@@ -32,6 +32,7 @@ documents listed as GOVERNING, LOCKED, or ACTIVE are authoritative.
 - `templates/` — blank templates
 - `config/` — client configuration and VPS sync files
 - `old/` — archived versions
+- `phase_d/` — Phase D controlled pilot operational documents
 
 ---
 
@@ -102,7 +103,11 @@ documents listed as GOVERNING, LOCKED, or ACTIVE are authoritative.
 | Issues Log | OPENCLAW-ISSUES-001 | `03_Issues_Log.md` | [root] | OPERATIONAL | Active and recently resolved issues; numbered cumulatively |
 | Daily Status | — | `04_DAILY_STATUS.md` | [root] | OPERATIONAL | Current position, system health, next step; **single source of truth for active phase** |
 | Client Config — china_monitor_001 | — | `config/client_config_china_monitor_001.yaml` | config/ | ACTIVE | Client configuration for china_monitor_001; brain_context=true (activated 2026-05-15) |
+| Client Config — test_client_002 | — | `config/client_config_test_client_002.yaml` | config/ | ACTIVE | Synthetic test client config; pilot_mode=true, brain_context=false, query_template_set=china_monitor_v1; deployed VPS 2026-05-20 |
 | VPS Sync Protocol | OPENCLAW-SYNC-001 | `config/VPS_SYNC_PROTOCOL.md` | config/ | ACTIVE | Session-start PowerShell scp block; CoWork local read pattern |
+| Phase D Feedback Register | — | `phase_d/OPENCLAW_PHASE_D_FEEDBACK_REGISTER.md` | phase_d/ | OPERATIONAL | Cumulative append-only log of all operator/client feedback; classifies feedback categories A–E per ADV-012 |
+| Phase D Content Scorecard | — | `phase_d/OPENCLAW_PHASE_D_CONTENT_SCORECARD.md` | phase_d/ | OPERATIONAL | Per-delivery scoring across 10 dimensions; tracks rolling averages toward Phase D gate threshold |
+| Phase D Operator Review Procedure | OPENCLAW-PHASE-D-ORP-001 | `phase_d/OPENCLAW_PHASE_D_OPERATOR_REVIEW_PROCEDURE.md` | phase_d/ | ACTIVE | Standard post-delivery review prompt, CoWork output format, feedback ID convention, severity scale, disposition rules, and change packet threshold |
 
 ---
 
@@ -127,6 +132,7 @@ Next advisory memo: ADV-013
 | Document | Document ID | Filename | Location | Status | Purpose |
 |----------|-------------|----------|----------|--------|---------|
 | Daily Status Template | OPENCLAW-TPL-001 | `templates/TPL_DAILY_STATUS_TEMPLATE.md` | templates/ | TEMPLATE | Blank template for producing daily status documents |
+| Phase D Content Change Packet Template | — | `phase_d/OPENCLAW_PHASE_D_CHANGE_PACKET_TEMPLATE.md` | phase_d/ | TEMPLATE | Blank form for proposing content changes; requires recurrence evidence, single-layer scope, rollback plan, and operator approval before implementation |
 
 ---
 
@@ -166,7 +172,11 @@ Updates require operator approval per Hard Safety Rule R-01.
 
 ---
 
-*OPENCLAW-MDI-001 | Version v4.6 | Last updated: 2026-05-19 | Status: ACTIVE*
+*OPENCLAW-MDI-001 | Version v4.8 | Last updated: 2026-05-20 | Status: ACTIVE*
+
+*v4.8 changes (2026-05-20): Phase D Operator Review Procedure (OPENCLAW-PHASE-D-ORP-001) added to Tier 6. Feedback Register updated to v1.2; Scorecard updated to v1.2 (cross-references to procedure document added).*
+
+*v4.7 changes (2026-05-20): phase_d/ added to location key. Phase D Feedback Register and Content Scorecard added to Tier 6 (OPERATIONAL). Phase D Content Change Packet Template added to Tier 8 (TEMPLATE). client_config_test_client_002.yaml added to Tier 6 (ACTIVE). CoWork Operating Protocol now at v2.6 (updated 2026-05-20, phase lock Phase D).*
 
 *v4.6 changes (2026-05-19): OPERATOR APPROVED added to formal status definitions. Frontmatter corrected to v4.6/2026-05-19 (previously mismatched vs footer at v4.5/2026-05-18).*
 

@@ -1,6 +1,6 @@
 ---
 document_id: OPENCLAW-PHASE-D-SCORECARD-001
-version: 1.0
+version: 1.1
 created: 2026-05-20
 last_updated: 2026-05-20
 status: ACTIVE
@@ -12,8 +12,12 @@ classification: OPERATIONAL — PHASE D CONTENT SCORECARD
 ## PURPOSE
 
 Per-delivery content quality scoring for Phase D controlled pilot. One
-entry per delivery. Operator completes scoring after reviewing each run.
-Scores inform the Phase D gate closure decision.
+entry per delivery. Scorecard rows are proposed by CoWork and
+operator-confirmed. Scores inform the Phase D gate closure decision.
+
+The operator review workflow — including the standard delivery review prompt
+and CoWork output format — is defined in:
+`OPENCLAW_PHASE_D_OPERATOR_REVIEW_PROCEDURE.md`
 
 ---
 
@@ -49,9 +53,9 @@ Scores inform the Phase D gate closure decision.
 
 ## SCORECARD
 
-| Delivery # | Date | Run Timestamp | Validator | Relevance | Freshness clarity | Source authority | China linkage | Advisory usefulness | Claim calibration | Readability | Source accessibility | LinkedIn usefulness | Overall client readiness | Top 3 strengths | Top 3 weaknesses | Delivery-blocking issues | Recommended action |
-|-----------|------|---------------|-----------|-----------|-------------------|-----------------|---------------|--------------------|--------------------|-------------|----------------------|--------------------|--------------------------|-----------------|-----------------|--------------------------|--------------------|
-| — | — | — | — | — | — | — | — | — | — | — | N/A | — | — | — | — | None | — |
+| Delivery # | Date | Run Timestamp | Scored by | Validator | Relevance | Freshness clarity | Source authority | China linkage | Advisory usefulness | Claim calibration | Readability | Source accessibility | LinkedIn usefulness | Overall client readiness | Client reviewed? | Client usefulness confirmation | Top 3 strengths | Top 3 weaknesses | Delivery-blocking issues | Recommended action |
+|-----------|------|---------------|-----------|-----------|-----------|-------------------|-----------------|---------------|--------------------|--------------------|-------------|----------------------|--------------------|--------------------------|-----------------|---------------------------------|-----------------|-----------------|--------------------------|--------------------|
+| — | — | — | — | — | — | — | — | — | — | — | — | N/A | — | — | — | — | — | — | None | — |
 
 ---
 
@@ -70,6 +74,10 @@ Required across the final 10 scored deliveries to close Phase D gate:
 
 ## ROLLING AVERAGES (updated per delivery)
 
+Rolling averages are manually maintained by the operator after each scored
+delivery. Update the Average column by recalculating the mean across all
+scored (non-N/A) entries for that dimension.
+
 | Dimension | Deliveries scored | Average |
 |-----------|-----------------|---------|
 | Relevance | 0 | — |
@@ -85,4 +93,8 @@ Required across the final 10 scored deliveries to close Phase D gate:
 
 ---
 
-*OPENCLAW-PHASE-D-SCORECARD-001 | Version 1.0 | Created: 2026-05-20 | Status: ACTIVE*
+*OPENCLAW-PHASE-D-SCORECARD-001 | Version 1.2 | Created: 2026-05-20 | Status: ACTIVE*
+
+*v1.2 changes (2026-05-20): Cross-reference to OPENCLAW_PHASE_D_OPERATOR_REVIEW_PROCEDURE.md added to PURPOSE section. Clarified that scorecard rows are proposed by CoWork and operator-confirmed.*
+
+*v1.1 changes (2026-05-20): Scored by, Client reviewed?, and Client usefulness confirmation columns added to scorecard table. Rolling averages maintenance rule added (manually maintained by operator per delivery).*

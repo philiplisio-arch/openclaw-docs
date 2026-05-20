@@ -2,7 +2,7 @@
 
 ---
 document_id: 04_DAILY_STATUS
-version: v2.1
+version: v2.2
 last_updated: 2026-05-20
 status: OPERATIONAL
 ---
@@ -38,8 +38,8 @@ Phase 7 Entry — Phase D: ACTIVE — Controlled Pilot, operator-authorized 2026
 
 ## GOVERNING DOCUMENTS
 
-* Operating Protocol: OPENCLAW_COWORK_OPERATING_PROTOCOL.md (v2.4, updated 2026-05-14)
-  Phase lock updated to Phase 7 Entry — Phase C
+* Operating Protocol: OPENCLAW_COWORK_OPERATING_PROTOCOL.md (v2.6, updated 2026-05-20)
+  Phase lock updated to Phase 7 Entry — Phase D
 * Advisory Roadmap: OPENCLAW-ADV-002 — operator-approved strategic reference; not independently governing; implementation requires system-document authority and explicit operator approval
 * Phase 7 Execution Plan: OpenClaw_Phase7_Execution_Plan.docx (approved 2026-05-07 — CANONICAL)
 * Phase Exit Criteria: 03_Phase_Exit_Criteria (5.6.26).md
@@ -49,8 +49,9 @@ Phase 7 Entry — Phase D: ACTIVE — Controlled Pilot, operator-authorized 2026
 
 ## CURRENT POSITION
 
-Phase 6 Soft Layer (6.1–6.8) complete. Phase 7 Entry active — Phase C
-(Brain Lite & Client Config Implementation), operator-authorized 2026-05-11.
+Phase 6 Soft Layer (6.1–6.8) complete. Phase 7 Entry — Phase C (Brain Lite &
+Client Config Implementation) COMPLETE — gate closed 2026-05-20. Phase D
+(Controlled Pilot) ACTIVE — operator-authorized 2026-05-20.
 
 Advisory roadmap OPENCLAW-ADV-002 operator-approved 2026-05-08 as strategic
 reference (not independently governing). Accepted direction: Phase A gate
@@ -270,7 +271,7 @@ Step 9.8 COMPLETE — 2026-05-20: Isolation verification results presented to
 ✔ Dual-provider retrieval operational — Brave + Baidu
 ✔ Phase 6 Soft Layer complete — all phases 6.1–6.8 closed
 ✔ Phase 7 Execution Plan approved as canonical roadmap — 2026-05-07
-✔ Operating Protocol v2.4 — 2026-05-14
+✔ Operating Protocol v2.6 — 2026-05-20
 ✔ Issue #43 resolved — fabrication rate 0% (Phase 6.8, 2026-05-07)
 ✔ Issue #44 resolved — Sina Finance present in 2026-05-08 06:32 delivery;
   validator 23/23 PASS; substitutions_made=23, missing_ids=0 confirmed
@@ -402,6 +403,8 @@ Step 9.8 COMPLETE — 2026-05-20: Isolation verification results presented to
 ✔ Step 9.8 COMPLETE — Phase C gate CLOSED; operator-confirmed 2026-05-20
 ✔ Phase C gate: CLOSED — operator-confirmed 2026-05-20
 ✔ Phase D gate: OPEN — controlled pilot eligible to begin
+✔ Browser Retrieval Phase 1 — authorized 2026-05-20 as parallel research track
+  alongside Phase D; implementation session pending (Claude Code)
 
 ---
 
@@ -444,11 +447,28 @@ Phase D ACTIVE — Controlled Pilot (Step 8).
   Ten consecutive clean external deliveries with operator/client confirmation
   required to close Phase D gate.
 
-  Immediate Phase D preparation items:
-  - Draft OPENCLAW_PHASE_D_FEEDBACK_REGISTER.md (operator approval required)
-  - Draft OPENCLAW_PHASE_D_CONTENT_SCORECARD.md (operator approval required)
-  - Draft PHASE_D_CONTENT_CHANGE_PACKET template (operator approval required)
-  - Validated Sources Appendix — implementation plan (Section XI, ADV-012)
+  Phase D preparation items (COMPLETE 2026-05-20):
+  ✔ OPENCLAW_PHASE_D_FEEDBACK_REGISTER.md — written to phase_d/
+  ✔ OPENCLAW_PHASE_D_CONTENT_SCORECARD.md — written to phase_d/
+  ✔ OPENCLAW_PHASE_D_CHANGE_PACKET_TEMPLATE.md — written to phase_d/
+
+  Phase D ongoing:
+  - Daily run reviews, feedback register, scorecard scoring
+  - Step 1 verification (retrieval_package.json field check for Validated
+    Sources Appendix) — pending tomorrow VPS sync
+  - First Content Change Packet after 3–5 reviewed deliveries
+
+  Browser Retrieval Phase 1 — parallel research track (authorized 2026-05-20):
+  - Days 1–2: Claude Code installs Playwright + Chromium on VPS;
+    builds fetch_article_text.py under /root/openclaw_phase7/
+  - Days 3–7: Test against historical retrieval packages; Western sources first
+  - Days 8–11: Chinese-source accessibility testing (VPS geographic access
+    is the key structural question — test this explicitly)
+  - Days 12–14: CoWork reads article_cache/; drafts findings report
+  Output path: /root/openclaw_phase7/article_cache/article_{result_id}.json
+  Hard constraints: no pipeline integration; no retrieval_package.json
+    modification; no agent input injection; no Validated Sources Appendix use;
+    no modification of any core pipeline directory or script
 
   Open pre-production items (do not block Phase D; must clear before second
   real client goes live):

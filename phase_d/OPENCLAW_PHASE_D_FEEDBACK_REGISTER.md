@@ -1,6 +1,6 @@
 ---
 document_id: OPENCLAW-PHASE-D-FEEDBACK-001
-version: 1.0
+version: 1.1
 created: 2026-05-20
 last_updated: 2026-05-20
 status: ACTIVE
@@ -15,6 +15,17 @@ Central repository for operator and client feedback on delivered output
 during Phase D controlled pilot. Every feedback item must be logged here
 before action is taken. Entries are cumulative and append-only.
 
+The operator review workflow — including the standard delivery review prompt,
+CoWork output format, and change packet threshold — is defined in:
+`OPENCLAW_PHASE_D_OPERATOR_REVIEW_PROCEDURE.md`
+
+---
+
+## FEEDBACK ID FORMAT
+
+Feedback items are assigned sequential IDs in the format `D-FB-NNN` (e.g.,
+D-FB-001, D-FB-002). IDs are assigned in order of logging and never reused.
+
 ---
 
 ## FEEDBACK CLASSIFICATION
@@ -27,6 +38,22 @@ before action is taken. Entries are cumulative and append-only.
 | D | Format / user experience |
 | E | Client preference |
 
+## SEVERITY SCALE
+
+| Level | Meaning |
+|-------|---------|
+| 1 | Minor — noticeable but does not materially affect usefulness |
+| 2 | Moderate — affects quality; change packet warranted after recurrence |
+| 3 | Material — meaningfully degrades client-grade output |
+| 4 | Delivery-blocking — must be resolved before next delivery |
+
+## BATCHING RULE
+
+One-off feedback should not generate a Content Change Packet unless the
+operator explicitly marks it delivery-blocking (Severity 4). Non-blocking
+feedback (Severity 1–3) should be batched after recurring pattern
+confirmation across 3–5 reviewed deliveries.
+
 ## STATUS VALUES
 
 New → Accepted / Rejected → Batched → Implemented → Validated / Reopened → Closed / Deferred
@@ -35,9 +62,9 @@ New → Accepted / Rejected → Batched → Implemented → Validated / Reopened
 
 ## REGISTER
 
-| Feedback ID | Date | Run ID | Client ID | Section | Severity | Comment | Example from output | Why it matters | Classification | Proposed fix type | Status | Validation rule | Owner | Notes |
-|------------|------|--------|-----------|---------|----------|---------|---------------------|----------------|----------------|-------------------|--------|-----------------|-------|-------|
-| — | — | — | — | — | — | No entries yet | — | — | — | — | — | — | — | — |
+| Feedback ID | Date | Run ID | Client ID | Section | Severity | Comment | Example from output | Why it matters | Classification | Proposed fix type | Client confirmed? | Disposition rationale | Status | Validation rule | Owner | Notes |
+|------------|------|--------|-----------|---------|----------|---------|---------------------|----------------|----------------|-------------------|-------------------|-----------------------|--------|-----------------|-------|-------|
+| — | — | — | — | — | — | No entries yet | — | — | — | — | — | — | — | — | — | — |
 
 ---
 
@@ -54,4 +81,8 @@ New → Accepted / Rejected → Batched → Implemented → Validated / Reopened
 
 ---
 
-*OPENCLAW-PHASE-D-FEEDBACK-001 | Version 1.0 | Created: 2026-05-20 | Status: ACTIVE*
+*OPENCLAW-PHASE-D-FEEDBACK-001 | Version 1.2 | Created: 2026-05-20 | Status: ACTIVE*
+
+*v1.2 changes (2026-05-20): Cross-reference to OPENCLAW_PHASE_D_OPERATOR_REVIEW_PROCEDURE.md added to PURPOSE section.*
+
+*v1.1 changes (2026-05-20): Feedback ID format added. Severity scale (1–4) defined. Batching rule added. Client confirmed? and Disposition rationale columns added to register table.*

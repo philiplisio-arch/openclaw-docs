@@ -2,7 +2,7 @@
 
 ---
 document_id: OPENCLAW-ISSUES-001
-version: v2.0
+version: v2.1
 last_updated: 2026-05-20
 status: OPERATIONAL
 ---
@@ -59,7 +59,7 @@ and recently resolved issues.
 ## Issue #48 — Delivery Relay Not Client-Namespaced
 
 ### Status
-🔴 OPEN — Phase C gate decision required
+✅ RESOLVED — 2026-05-20
 
 ### Discovered
 2026-05-20 — Step 9.7 manual test run
@@ -182,7 +182,7 @@ underscore) — did not block this run but requires a follow-up patch.
 ## Issue #47 — Intermediate Retrieval Artifacts Not Client-Namespaced
 
 ### Status
-🟡 OPEN — operator decision required
+🟡 OPEN — deferred from Phase C closure; pre-production blocker before second real client or concurrent multi-client operation.
 
 ### Discovered
 2026-05-20 — Step 9.7 investigation
@@ -207,14 +207,15 @@ when parallel manual testing is conducted.
 
 The hardcoded-filename audit (2026-05-18) classified `build_agent_input.py` and
 `run_phase5_offline.sh` as NO (no namespacing required). The intermediate retrieval
-files were not explicitly classified in that audit. This may require a scope
-decision before Phase C closes.
+files were not explicitly classified in that audit. Phase C has now closed.
+Issue #47 does not gate Phase C retroactively.
 
 ### Resolution Required
 
-Operator decision: are intermediate retrieval artifacts in scope for Phase C
-namespacing, or deferred to a later phase? If in scope, classification table
-must be updated and implementation authorized before Phase C gate closes.
+Operator decision required on whether intermediate retrieval artifacts should be
+namespaced immediately or whether concurrency should remain prohibited until a
+later implementation step. Resolution required before onboarding a second real
+client, enabling concurrent client runs, or adding a second scheduled cron client.
 
 ---
 
