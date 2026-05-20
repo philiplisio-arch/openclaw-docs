@@ -1,9 +1,9 @@
 ---
 document_id: OPENCLAW-OPS-001
 status: LOCKED
-version: 2.4
+version: 2.5
 created: 2026-05-01
-last_updated: 2026-05-14
+last_updated: 2026-05-20
 classification: GOVERNANCE — SYSTEM CONTROL DOCUMENT
 ---
 
@@ -49,28 +49,27 @@ written modification by the operator.
 ### Active Phase
 
 ```
-Phase 7 Entry — Phase C (Brain Lite & Client Config Implementation)
+Phase 7 Entry — Phase D (Controlled Pilot)
 ```
 
 *Phase 6 Soft Layer (6.1–6.8) closed 2026-05-07 — operator authorized.*
 *Advisory roadmap OPENCLAW-ADV-002 approved 2026-05-08 — operator confirmed.*
 *Phase A gate closed 2026-05-11 — operator confirmed.*
-*Phase B gate closed 2026-05-11 — operator confirmed (all five Phase B*
-*deliverables complete as of 2026-05-09).*
-*Phase C authorized 2026-05-11 — operator confirmed.*
+*Phase B gate closed 2026-05-11 — operator confirmed.*
+*Phase C gate closed 2026-05-20 — operator confirmed.*
+*Phase D authorized 2026-05-20 — operator confirmed.*
 
 The **Daily Status document is the single source of truth** for the active phase. In any conflict between documents, the Daily Status governs. All documents must be updated to match Daily Status when a phase advances.
 
 ### IN SCOPE
 
-- Pre-implementation hardcoded-filename audit (VPS grep across pipeline
-  codebase — Claude Code; classification table submitted for operator
-  approval before implementation proceeds)
-- Brain Lite implementation — 14-field run_summary.json schema (locked);
-  7-day digest injection into agent input; 5-run stability confirmation
-- Client config loader implementation
-- Synthetic second client end-to-end test
-- Cross-contamination verification per OPENCLAW-TEST-HARNESS-DESIGN protocol
+- Operator review of every delivery for first two weeks or ten deliveries
+- Structured feedback capture per Phase D Feedback Register
+- Feedback classification (categories A–E per OPENCLAW-ADV-012)
+- Content scoring per Phase D Content Scorecard
+- Batched content change packets (every 3–5 runs) for operator approval
+- Single-layer implementation of approved change packets
+- Validated Sources Appendix — design, implementation plan, and rollback-safe deployment
 - Post-run analysis per the Analysis Contract (Section 4)
 - Drafting system document updates
 
@@ -79,11 +78,11 @@ The **Daily Status document is the single source of truth** for the active phase
 The following require a separate phase advancement decision before any work
 may proceed:
 
-- Any changes to retrieval, scrubber, validator, agent, or delivery gate
-- Runtime script or cron modifications of any kind
-- Any Brain Lite feature beyond the locked 14-field schema
+- Any changes to retrieval, scrubber, validator, or delivery-gate behavior outside an approved change packet
+- Brain Lite feature additions beyond the locked 14-field schema
+- Onboarding a second real client (blocked until Issues #47 and #49 resolved)
 - Phase advancement without operator approval
-- Any work beyond Phase C implementation scope
+- Any work beyond Phase D controlled pilot scope
 
 Any request, suggestion, or action that touches out-of-scope components
 constitutes a protocol violation and must be flagged immediately.
@@ -373,7 +372,7 @@ decision.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-*OPENCLAW-OPS-001 | Version 2.4 | Created: 2026-05-01 | Last updated: 2026-05-14 | Status: LOCKED*
+*OPENCLAW-OPS-001 | Version 2.5 | Created: 2026-05-01 | Last updated: 2026-05-20 | Status: LOCKED*
 
 *Version 2.0 changes (operator approved 2026-05-07): Phase lock updated to 6.6; Permanent Architectural Rule added (Section 7); VPS Co-Location Model and Content Isolation Rule added (Section 3); Brain Lite Scope Lock added (Section 2); Phase 7 Execution Plan designated as canonical roadmap (Section 8).*
 
@@ -384,3 +383,5 @@ decision.
 *Version 2.3 changes (operator approved 2026-05-11): Section 5 Step 6 added — Archive Superseded Versions as a standing session closeout requirement; old/ append-only rule and current-version-only rule codified.*
 
 *Version 2.4 changes (operator approved 2026-05-14): Document Governance note added to Section 5 — advisory notes are reference only; system changes require explicit operator instruction; reference to OPENCLAW-DOC-GOV-001.*
+
+*Version 2.5 changes (operator approved 2026-05-20): Phase lock updated to Phase D — Controlled Pilot; Phase C gate closure recorded; Phase D authorized; Section 2 IN SCOPE and OUT OF SCOPE updated to reflect Phase D scope.*

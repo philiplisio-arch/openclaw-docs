@@ -8,7 +8,7 @@ status: OPERATIONAL
 ---
 
 DATE: 2026-05-20
-PHASE: Phase 7 Entry — Phase C (Brain Lite & Client Config Implementation)
+PHASE: Phase 7 Entry — Phase D (Controlled Pilot)
 
 ---
 
@@ -31,8 +31,8 @@ Phase 6.7: COMPLETE (operator approved 2026-05-07)
 Phase 6.8: COMPLETE (operator approved 2026-05-07)
 Phase 6.9–6.11: SUPERSEDED — not required; project advancing to Phase 7
 Phase 7 Entry — Phase B: COMPLETE — gate closed 2026-05-11
-Phase 7 Entry — Phase C: ACTIVE — Brain Lite & Client Config Implementation,
-  operator-authorized 2026-05-11
+Phase 7 Entry — Phase C: COMPLETE — gate closed 2026-05-20
+Phase 7 Entry — Phase D: ACTIVE — Controlled Pilot, operator-authorized 2026-05-20
 
 ---
 
@@ -158,6 +158,12 @@ tests passed.
 
 Phase B deliverables: all five steps complete and operator-approved
 (2026-05-09). Phase B gate closed — operator-confirmed 2026-05-11.
+
+Phase D authorized 2026-05-20 — operator confirmed. Controlled pilot active.
+china_monitor_001 is the Phase D pilot client. Operator review gate on every
+delivery for first two weeks or ten deliveries. Issues #47 and #49 remain open
+as logged pre-production items — must be resolved before second real client
+goes live.
 
 Phase C (Brain Lite implementation, Step 6) authorized 2026-05-11. Brain Lite
 scripts deployed to VPS 2026-05-11 (write_run_summary.py, build_brain_digest.py,
@@ -433,18 +439,22 @@ Step 9.8 COMPLETE — 2026-05-20: Isolation verification results presented to
 SESSION START: Run PowerShell scp block from config/VPS_SYNC_PROTOCOL.md
   before any pipeline review or implementation work.
 
-Phase C gate CLOSED — 2026-05-20. Phase D gate OPEN.
+Phase D ACTIVE — Controlled Pilot (Step 8).
+  Pilot client: china_monitor_001. Operator review required on every delivery.
+  Ten consecutive clean external deliveries with operator/client confirmation
+  required to close Phase D gate.
 
-Next: Phase D — Controlled Pilot (Step 8).
-  Per Phase 7 Execution Plan and OPENCLAW-ADV-012: operator review gate on
-  every delivery for first two weeks or ten deliveries. Ten consecutive clean
-  external deliveries with client confirmation required to close Phase D gate.
+  Immediate Phase D preparation items:
+  - Draft OPENCLAW_PHASE_D_FEEDBACK_REGISTER.md (operator approval required)
+  - Draft OPENCLAW_PHASE_D_CONTENT_SCORECARD.md (operator approval required)
+  - Draft PHASE_D_CONTENT_CHANGE_PACKET template (operator approval required)
+  - Validated Sources Appendix — implementation plan (Section XI, ADV-012)
 
-Open pre-production items to resolve before or during Phase D:
-  - Issue #47: intermediate retrieval artifacts not namespaced (operator decision)
+  Open pre-production items (do not block Phase D; must clear before second
+  real client goes live):
+  - Issue #47: intermediate retrieval artifacts not namespaced (operator decision required)
   - Issue #49: loader variable export audit (pre-production requirement)
-  - scrub_result_ids.py success print message — cosmetic stale path string
-    (safe to patch when convenient)
+  - run_light_to_lark.sh lines 190/193: OPENCLAW_ARTIFACTNAMESPACE typo — missing underscore
 
 ---
 
