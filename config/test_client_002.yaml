@@ -1,0 +1,53 @@
+# client_config.yaml
+# Client: Test Client 002 (Synthetic — Namespace Isolation Testing)
+# Schema: Phase B approved field set (Section 13, Phase 7 Execution Plan)
+# Status: SYNTHETIC — created for Phase C namespace isolation verification
+# ─────────────────────────────────────────────────────────────────────
+
+# Identity
+client_id: test_client_002
+client_name: "Test Client 002"
+
+# Namespace — must equal client_id for full artifact traceability
+artifact_namespace: test_client_002
+
+# Topic focus — synthetic placeholder; not used in live retrieval
+topic_focus:
+  - "Synthetic test topic — namespace isolation only"
+
+# Geographic coverage
+regions:
+  - "us_china"
+
+# Query and output configuration
+query_template_set: "china_monitor_v1"          # reuse existing template set for test run
+report_template:    "china_monitoring_brief_v1"  # reuse existing template for test run
+
+# Delivery channel
+delivery_channel:
+  type: lark
+  credentials_ref: "/root/openclaw_secrets/lark_webhook_test_client_002"
+  # NOTE: Synthetic client — no live delivery credential exists.
+  # Delivery gate will not be reached in isolation test run.
+
+# Schedule — no schedule for synthetic test client
+schedule: null
+
+# Retrieval providers
+source_preferences:
+  priority_providers:
+    - brave
+    - baidu
+
+# Brain Lite context injection
+brain_context: false   # Disabled for synthetic test client
+
+# Output sections
+output_sections:
+  executive_take:       true
+  advisory_layer:       false
+  linkedin_draft:       false
+  regional_source_list: false
+
+# Pilot gate
+pilot_mode: true   # Synthetic client — pilot gate enforced; no live delivery
