@@ -2,12 +2,12 @@
 
 ---
 document_id: 04_DAILY_STATUS
-version: v1.9
-last_updated: 2026-05-19
+version: v2.0
+last_updated: 2026-05-20
 status: OPERATIONAL
 ---
 
-DATE: 2026-05-19
+DATE: 2026-05-20
 PHASE: Phase 7 Entry — Phase C (Brain Lite & Client Config Implementation)
 
 ---
@@ -135,6 +135,16 @@ operator-confirmed 2026-05-11.
   Python script namespacing — partial deployment. Rollback executed
   same session: run_light_to_lark.sh restored to pre-config-loader backup.
   Logged as Issue #45 (resolved same session). See Issues Log.
+
+06:31 cron run (2026-05-20) — Step 9.4 CONFIRMATION RUN — GREEN.
+  Config loader active; OPENCLAW_ARTIFACT_NAMESPACE exported; all artifact
+  paths namespaced. Scrubber wrote final_output_scrubbed_china_monitor_001.txt
+  (confirmed fresh 06:31); validator GREEN 30/30/0; delivery confirmed;
+  Brain Lite run_summary_china_monitor_001_20260520.json written (1808 bytes).
+  ids_seen/ids_kept/ids_removed=30/30/0; uncited_claims_removed=0; no
+  conflicts; 12 sources cited across 3 topics; CCTV and Sina Finance present.
+  Cron target confirmed as /root/run_light_to_lark.sh (top-level /root/).
+  Step 9.4 CONFIRMED — namespace isolation operational for china_monitor_001.
 
 Step 2A complete (2026-05-09): /root/openclaw_docs/ and /root/openclaw_cowork/
 created; Git repo initialised; 21 system documents migrated; baseline commit
@@ -341,7 +351,8 @@ Step 9.4 COMPLETE — 2026-05-19 (operator approved):
   with OPENCLAW_ARTIFACT_NAMESPACE env var; run_light_to_lark.sh re-deployed
   (Steps 9.3+9.4 combined); all 7 files py_compile/bash -n exit 0;
   7 backups at .bak_20260519_pre_ns
-⚠ Step 9.4 confirmation run pending — 2026-05-20 06:30 cron
+✔ Step 9.4 confirmation run — CONFIRMED 2026-05-20 06:31 (GREEN 30/30/0;
+  namespaced artifacts confirmed; delivery confirmed; Brain Lite written)
 
 ---
 
@@ -378,17 +389,21 @@ SESSION START: Run PowerShell scp block from config/VPS_SYNC_PROTOCOL.md
 NOTE: VPS_SYNC_PROTOCOL.md updated — validation_result scp path now uses
   namespaced filename validation_result_china_monitor_001.json.
 
-1. Step 9.4 confirmation — verify 2026-05-20 06:30 cron run: CONFIG_LOADER
-   markers present, all namespaced artifacts written, validator GREEN,
-   Brain Lite run_summary_china_monitor_001_20260520.json written.
+Step 9.4 CONFIRMED. Next: Steps 9.5–9.8 (namespace isolation verification).
 
-2. Step 9.5 — Deploy test_client_002.yaml to VPS /root/openclaw_docs/config/.
+1. Step 9.5 — Deploy test_client_002.yaml to VPS /root/openclaw_docs/config/.
 
-3. Step 9.6 — Write and deploy verify_isolation.py.
+2. Step 9.6 — Write and deploy verify_isolation.py.
 
-4. Step 9.7 — Synthetic second client manual run; verify_isolation.py pass.
+3. Step 9.7 — Synthetic second client manual run; verify_isolation.py pass.
 
-5. Step 9.8 — Operator Phase C gate confirmation.
+4. Step 9.8 — Operator Phase C gate confirmation.
+
+NOTE: Cron target confirmed as /root/run_light_to_lark.sh (top-level /root/),
+not /root/openclaw_phase5/. VPS_SYNC_PROTOCOL path reference should be
+verified against this. Minor cleanup item: scrub_result_ids.py success
+print message shows stale non-namespaced path string — log cosmetic only,
+no functional impact; safe to patch when convenient.
 
 ---
 
