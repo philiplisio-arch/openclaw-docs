@@ -1,8 +1,8 @@
 ---
 document_id: OPENCLAW-PHASE-D-SCORECARD-001
-version: 1.1
+version: 1.3
 created: 2026-05-20
-last_updated: 2026-05-20
+last_updated: 2026-05-21
 status: ACTIVE
 classification: OPERATIONAL — PHASE D CONTENT SCORECARD
 ---
@@ -46,6 +46,10 @@ and CoWork output format — is defined in:
 | Claim calibration | Delivery 1 | |
 | Readability | Delivery 1 | |
 | Source accessibility | Pending | N/A until Validated Sources Appendix implemented |
+| Source specificity | Delivery 1 | Do bullets include concrete details — dollar amounts, dates, named entities, specific policies? Added 2026-05-21 based on pilot client interview |
+| Source provenance clarity | Delivery 1 | Is it clear which insights derive from Chinese-language sources vs. international media? Core differentiator of product. Added 2026-05-21 |
+| Industry coverage breadth | Delivery 1 | Does the brief surface sector-specific developments (AI, semiconductors, agriculture, etc.) relevant to company decision-making — not restricted to predetermined sectors. Added 2026-05-21 |
+| Full retrieval transparency | Pending | N/A until full retrieved + validated source list implemented at bottom of brief. Added 2026-05-21 |
 | LinkedIn usefulness | Delivery 1 | |
 | Overall client readiness | Delivery 1 | Operator holistic score |
 
@@ -53,9 +57,9 @@ and CoWork output format — is defined in:
 
 ## SCORECARD
 
-| Delivery # | Date | Run Timestamp | Scored by | Validator | Relevance | Freshness clarity | Source authority | China linkage | Advisory usefulness | Claim calibration | Readability | Source accessibility | LinkedIn usefulness | Overall client readiness | Client reviewed? | Client usefulness confirmation | Top 3 strengths | Top 3 weaknesses | Delivery-blocking issues | Recommended action |
-|-----------|------|---------------|-----------|-----------|-----------|-------------------|-----------------|---------------|--------------------|--------------------|-------------|----------------------|--------------------|--------------------------|-----------------|---------------------------------|-----------------|-----------------|--------------------------|--------------------|
-| — | — | — | — | — | — | — | — | — | — | — | — | N/A | — | — | — | — | — | — | None | — |
+| Delivery # | Date | Run Timestamp | Scored by | Validator | Relevance | Freshness clarity | Source authority | China linkage | Advisory usefulness | Claim calibration | Readability | Source accessibility | Source specificity | Source provenance clarity | Industry coverage breadth | Full retrieval transparency | LinkedIn usefulness | Overall client readiness | Client reviewed? | Client usefulness confirmation | Top 3 strengths | Top 3 weaknesses | Delivery-blocking issues | Recommended action |
+|-----------|------|---------------|-----------|-----------|-----------|-------------------|-----------------|---------------|--------------------|--------------------|-------------|----------------------|--------------------|--------------------------|--------------------------|----------------------------|--------------------|--------------------------|-----------------|---------------------------------|-----------------|-----------------|--------------------------|--------------------|
+| 1 | 2026-05-21 | 06:31 | CoWork / Operator | GREEN 8/8/0 | 3 | 2 | 2 | 3 | 2 | 4 | 3 | N/A | 2 | 2 | 2 | N/A | 2 | 2 | Yes — PM interview | Relevant but too generic; sourcing not visible; advisory not actionable; no dollar amounts or dates | Citation discipline (0% fabrication, T-04 compliant); China linkage on all delivered bullets; Chinese-language sources present | Sourcing not visible to reader; bullets too generic (no dollar amounts/dates); advisory layer too generic to be actionable | Yes — thin retrieval (Issue #50, 4/8 bullets); sourcing not visible; external send not recommended | Hold from external send; implement CP-002/003/004; resolve Issue #50 before counting toward gate streak |
 
 ---
 
@@ -80,20 +84,26 @@ scored (non-N/A) entries for that dimension.
 
 | Dimension | Deliveries scored | Average |
 |-----------|-----------------|---------|
-| Relevance | 0 | — |
-| Freshness clarity | 0 | — |
-| Source authority | 0 | — |
-| China linkage | 0 | — |
-| Advisory usefulness | 0 | — |
-| Claim calibration | 0 | — |
-| Readability | 0 | — |
+| Relevance | 1 | 3.0 |
+| Freshness clarity | 1 | 2.0 |
+| Source authority | 1 | 2.0 |
+| China linkage | 1 | 3.0 |
+| Advisory usefulness | 1 | 2.0 |
+| Claim calibration | 1 | 4.0 |
+| Readability | 1 | 3.0 |
 | Source accessibility | N/A | N/A |
-| LinkedIn usefulness | 0 | — |
-| Overall client readiness | 0 | — |
+| Source specificity | 1 | 2.0 |
+| Source provenance clarity | 1 | 2.0 |
+| Industry coverage breadth | 1 | 2.0 |
+| Full retrieval transparency | N/A | N/A |
+| LinkedIn usefulness | 1 | 2.0 |
+| Overall client readiness | 1 | 2.0 |
 
 ---
 
-*OPENCLAW-PHASE-D-SCORECARD-001 | Version 1.2 | Created: 2026-05-20 | Status: ACTIVE*
+*OPENCLAW-PHASE-D-SCORECARD-001 | Version 1.3 | Created: 2026-05-20 | Status: ACTIVE*
+
+*v1.3 changes (2026-05-21): Four new dimensions added based on pilot client PM interview: Source specificity, Source provenance clarity, Industry coverage breadth, Full retrieval transparency. Delivery 1 scored and entered. Rolling averages updated.*
 
 *v1.2 changes (2026-05-20): Cross-reference to OPENCLAW_PHASE_D_OPERATOR_REVIEW_PROCEDURE.md added to PURPOSE section. Clarified that scorecard rows are proposed by CoWork and operator-confirmed.*
 

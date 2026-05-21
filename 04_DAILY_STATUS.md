@@ -2,8 +2,8 @@
 
 ---
 document_id: 04_DAILY_STATUS
-version: v2.2
-last_updated: 2026-05-20
+version: v2.3
+last_updated: 2026-05-21
 status: OPERATIONAL
 ---
 
@@ -254,6 +254,22 @@ Step 9.8 COMPLETE — 2026-05-20: Isolation verification results presented to
   Namespace isolation confirmed with zero cross-contamination across all
   artifact types. Phase D gate now OPEN.
 
+06:31 cron run (2026-05-21) — Phase D Delivery 1 — DELIVERED, DEGRADED.
+  Config loader active; artifact_namespace=china_monitor_001 confirmed.
+  Delivery confirmed (final_decision=delivered); Lark output received.
+  Significant content degradation: mapping_size=7 (vs norm 14–15);
+  source_numbers_dropped=12 (out_of_range=12); unsupported_groups=4;
+  uncited_claims_removed=4; 4 of 8 bullets removed by scrubber; delivered
+  output 2 ET + 2 AL bullets only. Validator GREEN 8/8/0 on delivered
+  citations. Chinese-language sources present (eastmoney, CCTV, Sina Finance).
+  T-04 COMPLIANT — all AL bullets conditional/hedged framing.
+  T-10 regression: [BRAIN_LITE] metrics_unavailable — ids_seen/ids_kept/
+  ids_removed=0 in run_summary; validator_status=UNKNOWN. Patch from
+  2026-05-13 may not cover the scrubber WARN path. Investigation pending.
+  Double CONFIG_LOADER completion line observed (new pattern; did not affect
+  delivery). Brave=44, Baidu=54. Root cause of thin package pending
+  retrieval_package_china_monitor_001.json investigation.
+
 ---
 
 ## STATUS
@@ -405,6 +421,13 @@ Step 9.8 COMPLETE — 2026-05-20: Isolation verification results presented to
 ✔ Phase D gate: OPEN — controlled pilot eligible to begin
 ✔ Browser Retrieval Phase 1 — authorized 2026-05-20 as parallel research track
   alongside Phase D; implementation session pending (Claude Code)
+⚠ Phase D Delivery 1 — DEGRADED (2026-05-21): mapping_size=7; 4 bullets
+  removed; 2 ET + 2 AL delivered; held from external send; scored
+✔ CP-001 deployed — Brain Lite validation path namespaced; py_compile exit 0
+✔ CP-002 deployed — ET/AL content specificity instruction; py_compile exit 0
+✔ CP-003 deployed — LinkedIn format rewrite; py_compile exit 0
+✔ CP-004 deployed — source provenance [CN]/[INTL]/[CN+INTL] labelling; py_compile exit 0
+✔ Scorecard v1.3 — 4 new dimensions; Delivery 1 scored
 
 ---
 
@@ -419,7 +442,8 @@ Step 9.8 COMPLETE — 2026-05-20: Isolation verification results presented to
 | #47 | Intermediate retrieval artifacts not client-namespaced | OPEN | Operator decision required — pre-production |
 | #48 | Delivery relay not client-namespaced | RESOLVED 2026-05-20 | pilot_mode guard added; OPENCLAW_PILOT_MODE exported |
 | #49 | run_light_to_lark.sh loader vars not fully exported | OPEN | Pre-production tightening required before second real client |
-| T-10 | Brain Lite metrics_unavailable — ids_seen/ids_kept/ids_removed = 0 in run_summary | RESOLVED 2026-05-13 | Patch deployed to write_run_summary.py; metrics read from validation_result.json summary block; confirmed 30/30/0 |
+| T-10 | Brain Lite metrics_unavailable — ids_seen/ids_kept/ids_removed = 0 in run_summary | PATCH DEPLOYED 2026-05-21 — validation pending | Root cause: write_run_summary.py read non-namespaced path after Step 9.4; patch reads OPENCLAW_ARTIFACT_NAMESPACE env var; py_compile exit 0; confirms on 2026-05-22 cron |
+| #50 | Thin retrieval package — mapping_size=7 (2026-05-21); 12 out-of-range source numbers; 4 bullets removed; Phase D Delivery 1 degraded | OPEN | Root cause investigation pending — retrieval_package_china_monitor_001.json |
 
 ---
 
@@ -453,10 +477,20 @@ Phase D ACTIVE — Controlled Pilot (Step 8).
   ✔ OPENCLAW_PHASE_D_CHANGE_PACKET_TEMPLATE.md — written to phase_d/
 
   Phase D ongoing:
+  - Phase D Delivery 1 reviewed (2026-05-21) — DEGRADED; D-FB-001 logged;
+    Scorecard entry complete; held from external send
+  - Issue #50 root cause confirmed — thin retrieval (no precision query
+    results passed freshness filter); architectural characteristic; documented
+  - T-10 patch deployed 2026-05-21 (CP-001) — confirm on 2026-05-22 cron
+  - CP-002/003/004 deployed 2026-05-21 — content specificity, LinkedIn
+    format, source provenance labelling; all in build_agent_input_slim.py;
+    py_compile exit 0; validation pending 2026-05-22 cron
+  - Scorecard updated v1.3 — 4 new dimensions added (source specificity,
+    source provenance clarity, industry coverage breadth, full retrieval
+    transparency)
   - Daily run reviews, feedback register, scorecard scoring
-  - Step 1 verification (retrieval_package.json field check for Validated
-    Sources Appendix) — pending tomorrow VPS sync
-  - First Content Change Packet after 3–5 reviewed deliveries
+  - Validated Sources Appendix CP — pending; design confirmed viable
+    (retrieval_package.json has required fields)
 
   Browser Retrieval Phase 1 — parallel research track (authorized 2026-05-20):
   - Days 1–2: Claude Code installs Playwright + Chromium on VPS;

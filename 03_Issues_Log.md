@@ -2,8 +2,8 @@
 
 ---
 document_id: OPENCLAW-ISSUES-001
-version: v2.1
-last_updated: 2026-05-20
+version: v2.2
+last_updated: 2026-05-21
 status: OPERATIONAL
 ---
 
@@ -22,6 +22,7 @@ and recently resolved issues.
 | 47 | Intermediate retrieval artifacts not client-namespaced | 🟡 OPEN — operator decision required |
 | 48 | Delivery relay not client-namespaced — test runs deliver to live channel | ✅ RESOLVED — 2026-05-20 |
 | 49 | run_light_to_lark.sh — OPENCLAW_CLIENT_ID and other loader vars assigned without export | 🟡 OPEN — pre-production tightening required |
+| 50 | Thin retrieval package — mapping_size=7 on 2026-05-21 run; 4 bullets removed | 🟡 OPEN — investigation pending |
 
 ## TRACKED INPUTS — FUTURE PHASE
 
@@ -36,7 +37,7 @@ and recently resolved issues.
 | T-07 | LinkedIn Draft non-refresh — identical output across consecutive runs | Content observation 2026-05-11 |
 | T-08 | Double [BRAIN_LITE] summary_write_started on first confirmation run | ✅ RESOLVED — 2026-05-11 |
 | T-09 | CoWork VPS direct access not implemented — daily post-run report not operational | ✅ RESOLVED — 2026-05-13 |
-| T-10 | Brain Lite metrics_unavailable — ids_seen/ids_kept/ids_removed = 0 in run_summary | ✅ RESOLVED — 2026-05-13 |
+| T-10 | Brain Lite metrics_unavailable — ids_seen/ids_kept/ids_removed = 0 in run_summary | 🔧 PATCH DEPLOYED 2026-05-21 — validation pending |
 
 ## RESOLVED ISSUES SUMMARY
 
@@ -53,6 +54,47 @@ and recently resolved issues.
 | 43 | Agent Result ID Fabrication Rate Elevated | ✅ RESOLVED (2026-05-07) |
 | 44 | Valid Sources Not Surfacing in Delivered Output | ✅ RESOLVED (2026-05-08) |
 | 45 | 2026-05-19 delivery failure — Step 9.3/9.4 deployment sequence | ✅ RESOLVED (2026-05-19) |
+
+---
+
+## Issue #50 — Thin Retrieval Package (2026-05-21)
+
+### Status
+🟡 OPEN — investigation pending
+
+### Discovered
+2026-05-21 — Phase D Delivery 1 post-run analysis
+
+### Description
+
+The 2026-05-21 06:31 cron run produced a retrieval package with only 7 mapped
+sources (mapping_size=7), compared to a recent norm of 14–15. Retrieval counts
+were within normal range (Brave=44, Baidu=54), indicating the problem is not a
+fetching failure but a collapse somewhere in the packaging or filtering step that
+builds retrieval_package_china_monitor_001.json from raw results.
+
+Downstream impact:
+- source_numbers_seen=20; source_numbers_resolved=8; source_numbers_dropped=12
+- out_of_range_numbers=12 (agent cited source numbers beyond mapping_size=7)
+- unsupported_groups=4; uncited_claims_removed=4
+- Delivered output: 2 ET + 2 AL bullets (4 of 8 bullets removed)
+- Phase D Delivery 1 arrived at client materially shorter than expected
+
+### Impact
+
+Material content degradation on the first Phase D client delivery. Client
+received a 4-bullet brief instead of the standard 8-bullet brief. Citation
+integrity is intact (8/8 matched, 0 failures), but volume and topic coverage
+are significantly reduced.
+
+### Resolution Required
+
+Read retrieval_package_china_monitor_001.json on VPS to determine how many
+sources are present and which filtering or deduplication step reduced 44+54
+raw results to 7 packaged sources. Diagnose before the 2026-05-22 cron run
+if possible.
+
+Path: /root/openclaw_phase5/data/retrieval_package_china_monitor_001.json
 
 ---
 
@@ -525,7 +567,29 @@ Completed 2026-05-13 across two sessions:
 Brain Lite confirmation Run 2 (2026-05-12), confirmed Run 3 (2026-05-13)
 
 ### Status
-✅ RESOLVED — 2026-05-13
+🔄 REOPENED — 2026-05-21
+
+Regression observed on 2026-05-21 cron run. [BRAIN_LITE] metrics_unavailable
+emitted; run_summary ids_seen/ids_kept/ids_removed=0; validator_status=UNKNOWN.
+
+Root cause confirmed (Claude Code audit 2026-05-21): write_run_summary.py
+get_validator_metrics() read from hardcoded non-namespaced path
+(/root/openclaw_phase6/validation/validation_result.json). After Step 9.4,
+validator.py writes to the namespaced path (validation_result_china_monitor_001.json).
+Non-namespaced file is stale — get_validator_metrics() found no valid summary
+block and returned (0, 0, 0). No scrubber WARN branch involved; the WARN path
+was a red herring — root cause is purely the path mismatch from Step 9.4.
+
+Patch deployed 2026-05-21 (OPENCLAW-D-CP-001, operator approved):
+- get_validator_metrics() now reads OPENCLAW_ARTIFACT_NAMESPACE env var
+  (default: "china_monitor_001") to construct the namespaced path
+- Lines 40–42 of write_run_summary.py: namespace + validator_path inserted;
+  load_json call updated to use validator_path
+- Backup: write_run_summary.py.bak_20260521_pre_ns_path
+- py_compile exit 0 confirmed
+
+Validation: next cron run (2026-05-22 06:31) — expect no metrics_unavailable,
+ids_seen/ids_kept > 0, validator_status="GREEN" in run_summary.
 
 ### Description
 

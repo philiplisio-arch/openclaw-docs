@@ -2,8 +2,8 @@
 
 ---
 document_id: OPENCLAW-MDI-001
-version: v4.8
-last_updated: 2026-05-20
+version: v5.0
+last_updated: 2026-05-21
 status: ACTIVE
 ---
 
@@ -108,6 +108,10 @@ documents listed as GOVERNING, LOCKED, or ACTIVE are authoritative.
 | Phase D Feedback Register | — | `phase_d/OPENCLAW_PHASE_D_FEEDBACK_REGISTER.md` | phase_d/ | OPERATIONAL | Cumulative append-only log of all operator/client feedback; classifies feedback categories A–E per ADV-012 |
 | Phase D Content Scorecard | — | `phase_d/OPENCLAW_PHASE_D_CONTENT_SCORECARD.md` | phase_d/ | OPERATIONAL | Per-delivery scoring across 10 dimensions; tracks rolling averages toward Phase D gate threshold |
 | Phase D Operator Review Procedure | OPENCLAW-PHASE-D-ORP-001 | `phase_d/OPENCLAW_PHASE_D_OPERATOR_REVIEW_PROCEDURE.md` | phase_d/ | ACTIVE | Standard post-delivery review prompt, CoWork output format, feedback ID convention, severity scale, disposition rules, and change packet threshold |
+| Change Packet 001 — Brain Lite Validation Path | OPENCLAW-D-CP-001 | `phase_d/OPENCLAW_PHASE_D_CP_001_brain_lite_validation_path.md` | phase_d/ | IMPLEMENTED | Brain Lite get_validator_metrics() namespace path fix; resolves T-10 regression; validation pending 2026-05-22 cron |
+| Change Packet 002 — Content Specificity | OPENCLAW-D-CP-002 | `phase_d/OPENCLAW_PHASE_D_CP_002_content_specificity.md` | phase_d/ | IMPLEMENTED | ET/AL specificity requirements (dollar amounts, named entities, dates); addresses D-FB-001 F-02/F-03; validation pending |
+| Change Packet 003 — LinkedIn Draft Format | OPENCLAW-D-CP-003 | `phase_d/OPENCLAW_PHASE_D_CP_003_linkedin_format.md` | phase_d/ | IMPLEMENTED | LinkedIn Draft instruction rewrite — specific, historically grounded, single-story; addresses D-FB-001 F-05 and T-07; validation pending |
+| Change Packet 004 — Source Provenance Labelling | OPENCLAW-D-CP-004 | `phase_d/OPENCLAW_PHASE_D_CP_004_source_provenance.md` | phase_d/ | IMPLEMENTED | [CN]/[INTL]/[CN+INTL] provenance tags per ET/AL bullet; addresses D-FB-001 F-06; validation pending |
 
 ---
 
@@ -122,6 +126,9 @@ documents listed as GOVERNING, LOCKED, or ACTIVE are authoritative.
 | Advisory Memo 009 | OPENCLAW-ADV-009 | `advisory/OPENCLAW-ADV-009_2026-05-11.md` | advisory/ | REFERENCE | File organization system — convention captured in OPENCLAW-SYS-FILENAME-002; reference only per DOC-GOV-001 |
 | Advisory Memo 010 | OPENCLAW-ADV-010 | `advisory/OPENCLAW-ADV-010_2026-05-11.md` | advisory/ | REFERENCE | Documentation improvement proposals — reference only per DOC-GOV-001 |
 | Advisory Memo 012 | OPENCLAW-ADV-012 | `advisory/OPENCLAW-ADV-012_2026-05-14.md` | advisory/ | ACTIVE | Phase D — Editorial Quality & Product Transformation; operator-approved 2026-05-14 |
+| Strategic Vision Memo | — | `advisory/OPENCLAW_Strategic_Vision_Memo_2026-05-15.md` | advisory/ | REFERENCE | Long-term product vision — AE exoskeleton, five-layer architecture, query layer, corpus/entity model; speculative discussion only |
+| Strategic Recap Memo | OPENCLAW-RECAP-001 | `advisory/OPENCLAW_Strategic_Recap_Memo_2026-05-18.md` | advisory/ | REFERENCE | Phase-by-phase project history and forward roadmap; operator-reviewed 2026-05-18; reference only |
+| Strategy Memo (external) | — | `advisory/Strategy Memo 6.8.26.txt` | advisory/ | REFERENCE | External strategy discussion document; reference only |
 
 Next advisory memo: ADV-013
 
@@ -136,7 +143,15 @@ Next advisory memo: ADV-013
 
 ---
 
-## TIER 9 — ARCHIVED
+## TIER 9 — OTHER REFERENCE
+
+| Document | Document ID | Filename | Location | Status | Purpose |
+|----------|-------------|----------|----------|--------|---------|
+| Isolation Verification Script | — | `other_ref/verify_isolation.py` | other_ref/ | REFERENCE | Multi-client namespace isolation test harness; implements OPENCLAW-TEST-HARNESS-DESIGN v1.1; production copy lives at /root/ on VPS |
+
+---
+
+## TIER 10 — ARCHIVED
 
 | Document | Original ID | Location | Note |
 |----------|-------------|----------|------|
@@ -144,6 +159,7 @@ Next advisory memo: ADV-013
 | Phase 6 Execution Plan | OPENCLAW-EXEC-001 | old/ | Superseded by Phase 7 Execution Plan (2026-05-07) |
 | Advisory Memo 011 | OPENCLAW-ADV-011 | old/ | Targeted doc cleanup — 4 items implemented 2026-05-13; moved to old/ 2026-05-14 |
 | All prior dated versions | — | old/ | Superseded versions; retained for history only. See governance/Document_Versions_Index.md |
+
 
 ---
 
@@ -172,7 +188,11 @@ Updates require operator approval per Hard Safety Rule R-01.
 
 ---
 
-*OPENCLAW-MDI-001 | Version v4.8 | Last updated: 2026-05-20 | Status: ACTIVE*
+*OPENCLAW-MDI-001 | Version v5.0 | Last updated: 2026-05-21 | Status: ACTIVE*
+
+*v5.0 changes (2026-05-21): Four Phase D Change Packets added to Tier 6 — CP-001 (Brain Lite validation path fix, OPENCLAW-D-CP-001), CP-002 (content specificity, OPENCLAW-D-CP-002), CP-003 (LinkedIn Draft format, OPENCLAW-D-CP-003), CP-004 (source provenance labelling, OPENCLAW-D-CP-004). All status: IMPLEMENTED; validation pending 2026-05-22 cron run. IMPLEMENTED added to status definitions. "IMPLEMENTED" status: change packet applied to VPS; awaiting validation runs.*
+
+*v4.9 changes (2026-05-20): Root folder cleanup — three strategic memo files moved from [root] to advisory/ (REFERENCE status); verify_isolation.py moved from [root] to other_ref/. Tier 9 (Other Reference) added. Former Tier 9 (Archived) renumbered to Tier 10. Strategy Memo 6.8.26.txt noted as filename convention exception (spaces) — operator to rename if desired.*
 
 *v4.8 changes (2026-05-20): Phase D Operator Review Procedure (OPENCLAW-PHASE-D-ORP-001) added to Tier 6. Feedback Register updated to v1.2; Scorecard updated to v1.2 (cross-references to procedure document added).*
 
