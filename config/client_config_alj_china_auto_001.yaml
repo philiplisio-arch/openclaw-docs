@@ -1,0 +1,82 @@
+# client_config_alj_china_auto_001.yaml
+# Client: ALJ China Auto Weekly Brief
+# Schema: Phase B approved field set + Phase D ALJ extensions (marked NEW FIELD)
+# Status: APPROVED — 2026-05-22
+# ─────────────────────────────────────────────────────────────────────
+
+# Identity
+client_id: alj_china_auto_001
+client_name: "ALJ China Auto Weekly Brief"
+
+# Namespace — must equal client_id for full artifact traceability
+artifact_namespace: alj_china_auto_001
+
+# Topic focus — drives retrieval query construction
+topic_focus:
+  - "Chinese automobile market weekly developments"
+  - "Toyota and Lexus positioning in China"
+  - "Chinese OEM competition and export strategy — Saudi Arabia and GCC"
+  - "NEV, hybrid, and battery technology developments in China"
+  - "Chinese auto dealer and distributor economics"
+  - "China auto policy, regulation, and government incentives"
+  - "Chinese OEM expansion into Middle East and Africa"
+
+# Geographic coverage
+regions:
+  - "china"
+  - "middle_east"
+
+# Query and output configuration
+query_template_set: "alj_china_auto_weekly_v1"   # NEW — to be drafted
+report_template:    "alj_china_auto_weekly_v1"    # NEW — to be drafted
+
+# Delivery channel
+delivery_channel:
+  type: lark
+  credentials_ref: "/root/openclaw_secrets/lark_webhook_alj_china_auto_001"
+  # NOTE: pilot client — no live delivery credential exists yet.
+  # pilot_mode=true means delivery gate will hold all output for operator review.
+
+# Schedule
+schedule: null   # Manual trigger only — never added to cron
+
+# Retrieval providers
+source_preferences:
+  priority_providers:
+    - baidu              # Baidu only for this client
+  # NEW FIELD
+  brave_enabled: false   # Brave disabled for this client profile only
+  # NOTE: If retrieval orchestrator requires implementation change to support
+  # baidu-only, this must be handled as a scoped Phase D change packet.
+
+# Source filtering                                # NEW FIELD block
+source_filter:
+  chinese_only: true       # Chinese / China-market sources only
+  source_region: china
+  source_language: zh
+
+# Lookback windows                                # NEW FIELD block
+lookback_days: 7           # Primary window — last 7 days
+context_days: 30           # Secondary context window — major strategic developments only
+
+# Brain Lite context injection
+brain_context: false   # Disabled — no run history exists yet for this client
+
+# Output sections
+output_sections:
+  executive_take:             true
+  advisory_layer:             true
+  linkedin_draft:             false   # Not required for this product
+  regional_source_list:       false   # Replaced by complete source appendix below
+
+# Source appendix requirement                     # NEW FIELD
+require_complete_source_appendix: true
+# This is a non-negotiable product requirement. A report without a complete
+# Chinese Source Appendix must not be approved for external delivery.
+# Appendix must include: source number, Chinese title, English title,
+# publisher, date, full URL, blurb/snippet, ALJ relevance note,
+# used in report (yes/no), related section/bullet.
+
+# Pilot gate
+pilot_mode: true   # All output held for operator review — no external delivery
+                   # until operator explicitly approves each delivery

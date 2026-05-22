@@ -201,6 +201,4 @@ criterion unmet. CP-005 required before T-10 can close.
 
 ---
 
-*OPENCLAW-D-CP-001 | Version 1.0 | Created: 2026-05-21 | Status: PARTIALLY VALIDATED — CP-005 required to close T-10*
-
-*Implementation note (2026-05-21): The original file had the validation_result.json path inlined directly inside load_json(...) with no validator_path variable. Claude Code correctly adapted: inserted namespace + validator_path lines and updated the load_json call to use validator_path. Functionally identical to the specified change. py_compile exit 0 confirmed.*
+*OPENC
