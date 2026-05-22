@@ -1,8 +1,8 @@
 ---
 document_id: OPENCLAW-PHASE-D-SCORECARD-001
-version: 1.3
+version: 1.4
 created: 2026-05-20
-last_updated: 2026-05-21
+last_updated: 2026-05-22
 status: ACTIVE
 classification: OPERATIONAL — PHASE D CONTENT SCORECARD
 ---
@@ -60,6 +60,7 @@ and CoWork output format — is defined in:
 | Delivery # | Date | Run Timestamp | Scored by | Validator | Relevance | Freshness clarity | Source authority | China linkage | Advisory usefulness | Claim calibration | Readability | Source accessibility | Source specificity | Source provenance clarity | Industry coverage breadth | Full retrieval transparency | LinkedIn usefulness | Overall client readiness | Client reviewed? | Client usefulness confirmation | Top 3 strengths | Top 3 weaknesses | Delivery-blocking issues | Recommended action |
 |-----------|------|---------------|-----------|-----------|-----------|-------------------|-----------------|---------------|--------------------|--------------------|-------------|----------------------|--------------------|--------------------------|--------------------------|----------------------------|--------------------|--------------------------|-----------------|---------------------------------|-----------------|-----------------|--------------------------|--------------------|
 | 1 | 2026-05-21 | 06:31 | CoWork / Operator | GREEN 8/8/0 | 3 | 2 | 2 | 3 | 2 | 4 | 3 | N/A | 2 | 2 | 2 | N/A | 2 | 2 | Yes — PM interview | Relevant but too generic; sourcing not visible; advisory not actionable; no dollar amounts or dates | Citation discipline (0% fabrication, T-04 compliant); China linkage on all delivered bullets; Chinese-language sources present | Sourcing not visible to reader; bullets too generic (no dollar amounts/dates); advisory layer too generic to be actionable | Yes — thin retrieval (Issue #50, 4/8 bullets); sourcing not visible; external send not recommended | Hold from external send; implement CP-002/003/004; resolve Issue #50 before counting toward gate streak |
+| 2 | 2026-05-22 | 06:32 | CoWork | GREEN 25/25/0 | 4 | 3 | 4 | 4 | 3 | 5 | 4 | N/A | 4 | 5 | 3 | N/A | 4 | 4 | No — pending | Pending | Full 8-bullet brief; [CN]/[INTL]/[CN+INTL] labels on all bullets; concrete figures in every ET/AL bullet | Industry coverage narrow (no tech/AI/semiconductors); freshness signaling absent; two AL action clauses generic | None — T-10 residual is Brain Lite only; not delivery-blocking | External send pending operator review; CP-005 deploy for T-10 validator_status fix |
 
 ---
 
@@ -84,24 +85,26 @@ scored (non-N/A) entries for that dimension.
 
 | Dimension | Deliveries scored | Average |
 |-----------|-----------------|---------|
-| Relevance | 1 | 3.0 |
-| Freshness clarity | 1 | 2.0 |
-| Source authority | 1 | 2.0 |
-| China linkage | 1 | 3.0 |
-| Advisory usefulness | 1 | 2.0 |
-| Claim calibration | 1 | 4.0 |
-| Readability | 1 | 3.0 |
+| Relevance | 2 | 3.5 |
+| Freshness clarity | 2 | 2.5 |
+| Source authority | 2 | 3.0 |
+| China linkage | 2 | 3.5 |
+| Advisory usefulness | 2 | 2.5 |
+| Claim calibration | 2 | 4.5 |
+| Readability | 2 | 3.5 |
 | Source accessibility | N/A | N/A |
-| Source specificity | 1 | 2.0 |
-| Source provenance clarity | 1 | 2.0 |
-| Industry coverage breadth | 1 | 2.0 |
+| Source specificity | 2 | 3.0 |
+| Source provenance clarity | 2 | 3.5 |
+| Industry coverage breadth | 2 | 2.5 |
 | Full retrieval transparency | N/A | N/A |
-| LinkedIn usefulness | 1 | 2.0 |
-| Overall client readiness | 1 | 2.0 |
+| LinkedIn usefulness | 2 | 3.0 |
+| Overall client readiness | 2 | 3.0 |
 
 ---
 
 *OPENCLAW-PHASE-D-SCORECARD-001 | Version 1.3 | Created: 2026-05-20 | Status: ACTIVE*
+
+*v1.4 changes (2026-05-22): Delivery 2 scored and entered (overall readiness: 4). Rolling averages updated to 2 deliveries.*
 
 *v1.3 changes (2026-05-21): Four new dimensions added based on pilot client PM interview: Source specificity, Source provenance clarity, Industry coverage breadth, Full retrieval transparency. Delivery 1 scored and entered. Rolling averages updated.*
 

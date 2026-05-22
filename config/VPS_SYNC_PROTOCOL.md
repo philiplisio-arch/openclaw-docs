@@ -2,9 +2,9 @@
 
 ---
 document_id: OPENCLAW-SYNC-001
-version: 1.4
+version: 1.5
 created: 2026-05-13
-last_updated: 2026-05-19
+last_updated: 2026-05-22
 ---
 
 ## PURPOSE
@@ -41,9 +41,7 @@ scp -i "C:\Users\phil\Documents\OpenClaw project\config\cowork_key" openclaw_cow
 
 scp -i "C:\Users\phil\Documents\OpenClaw project\config\cowork_key" openclaw_cowork@152.42.195.186:/root/openclaw_phase6/validation/validation_result_china_monitor_001.json "C:\Users\phil\Documents\OpenClaw project\config\vps_sync\validation_result_china_monitor_001.json"
 
-scp -i "C:\Users\phil\Documents\OpenClaw project\config\cowork_key" openclaw_cowork@152.42.195.186:/root/openclaw_phase7/brain_lite/run_summaries/run_summary_china_monitor_001_20260519.json "C:\Users\phil\Documents\OpenClaw project\config\vps_sync\run_summary_china_monitor_001_20260519.json"
-
-scp -i "C:\Users\phil\Documents\OpenClaw project\config\cowork_key" openclaw_cowork@152.42.195.186:/root/openclaw_phase7/brain_lite/run_summaries/run_summary_china_monitor_001_20260520.json "C:\Users\phil\Documents\OpenClaw project\config\vps_sync\run_summary_china_monitor_001_20260520.json"
+scp -i "C:\Users\phil\Documents\OpenClaw project\config\cowork_key" openclaw_cowork@152.42.195.186:/root/openclaw_phase7/brain_lite/run_summaries/run_summary_china_monitor_001_20260522.json "C:\Users\phil\Documents\OpenClaw project\config\vps_sync\run_summary_china_monitor_001_20260522.json"
 
 scp -i "C:\Users\phil\Documents\OpenClaw project\config\cowork_key" openclaw_cowork@152.42.195.186:/root/openclaw_phase5/data/final_output_scrubbed_china_monitor_001.txt "C:\Users\phil\Documents\OpenClaw project\config\vps_sync\final_output_scrubbed_china_monitor_001.txt"
 
@@ -80,8 +78,7 @@ this document when the standard sync set changes.
 |------|-----------|---------|
 | light_to_lark.log | /root/openclaw_logs/ | Full pipeline cron log |
 | validation_result_china_monitor_001.json | /root/openclaw_phase6/validation/ | Latest validator result (namespaced — Step 9.4) |
-| run_summary_china_monitor_001_20260519.json | /root/openclaw_phase7/brain_lite/run_summaries/ | Brain Lite — 2026-05-19 (missed delivery) |
-| run_summary_china_monitor_001_20260520.json | /root/openclaw_phase7/brain_lite/run_summaries/ | Brain Lite — 2026-05-20 (Step 9.4 confirmation run) |
+| run_summary_china_monitor_001_20260522.json | /root/openclaw_phase7/brain_lite/run_summaries/ | Brain Lite — 2026-05-22 (Phase D Delivery 2) |
 | final_output_scrubbed_china_monitor_001.txt | /root/openclaw_phase5/data/ | Delivered output (namespaced — Step 9.4) |
 
 ---

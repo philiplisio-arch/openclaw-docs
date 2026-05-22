@@ -2,12 +2,12 @@
 
 ---
 document_id: 04_DAILY_STATUS
-version: v2.3
-last_updated: 2026-05-21
+version: v2.4
+last_updated: 2026-05-22
 status: OPERATIONAL
 ---
 
-DATE: 2026-05-20
+DATE: 2026-05-22
 PHASE: Phase 7 Entry — Phase D (Controlled Pilot)
 
 ---
@@ -254,6 +254,23 @@ Step 9.8 COMPLETE — 2026-05-20: Isolation verification results presented to
   Namespace isolation confirmed with zero cross-contamination across all
   artifact types. Phase D gate now OPEN.
 
+06:32 cron run (2026-05-22) — Phase D Delivery 2 — DELIVERED, CLEAN.
+  Config loader active; artifact_namespace=china_monitor_001 confirmed.
+  Delivery confirmed (final_decision=delivered); full brief: 3 ET + 5 AL bullets.
+  Validator GREEN 25/25/0; uncited_claims_removed=0; unsupported_groups=0.
+  Issue #50 (thin retrieval) DID NOT RECUR — full 8-bullet delivery and 25-citation
+  validator pass confirm normal retrieval volume.
+  CP-001 partial validation: ids_seen=25/ids_kept=25/ids_removed=0 confirmed;
+  validator_status=UNKNOWN — T-10 not fully resolved; CP-005 raised and approved.
+  CP-002/003/004 CONFIRMED WORKING — content specificity improved (concrete figures
+  throughout: $17B agricultural, 200 Boeing planes, 2.5% global growth);
+  source provenance [CN]/[INTL]/[CN+INTL] labels on all 8 bullets; LinkedIn section
+  specific to today's content. T-04 COMPLIANT — all AL bullets conditional/hedged
+  framing. Brave=39, Baidu=45. Chinese-language sources present (CCTV).
+  LOG GAP: 2026-05-22 run absent from light_to_lark.log (1525 lines; ends with
+  2026-05-21 run). Pipeline completion confirmed by three independent artifacts.
+  Possible log rotation at midnight. Logged as Issue #51. VPS investigation pending.
+
 06:31 cron run (2026-05-21) — Phase D Delivery 1 — DELIVERED, DEGRADED.
   Config loader active; artifact_namespace=china_monitor_001 confirmed.
   Delivery confirmed (final_decision=delivered); Lark output received.
@@ -428,6 +445,11 @@ Step 9.8 COMPLETE — 2026-05-20: Isolation verification results presented to
 ✔ CP-003 deployed — LinkedIn format rewrite; py_compile exit 0
 ✔ CP-004 deployed — source provenance [CN]/[INTL]/[CN+INTL] labelling; py_compile exit 0
 ✔ Scorecard v1.3 — 4 new dimensions; Delivery 1 scored
+✔ CP-001/002/003/004 CONFIRMED WORKING — Phase D Delivery 2 (2026-05-22); full brief; 25/25 citations; provenance labels active; LinkedIn refreshed
+✔ CP-005 DEPLOYED 2026-05-22 — Brain Lite validator_status field; py_compile exit 0; confirms 2026-05-23 cron
+✔ Scorecard v1.4 — Delivery 2 scored (overall readiness: 4); rolling averages updated
+✔ Issue #51 RESOLVED 2026-05-22 — not reproduced; snapshot timing artefact; 2026-05-22 run confirmed at log lines 1526–1559
+⚠ Phase D Delivery 2 — CLEAN (2026-05-22): full 8-bullet brief; 25/25; HELD — operator decision 2026-05-22; external send deferred
 
 ---
 
@@ -442,8 +464,9 @@ Step 9.8 COMPLETE — 2026-05-20: Isolation verification results presented to
 | #47 | Intermediate retrieval artifacts not client-namespaced | OPEN | Operator decision required — pre-production |
 | #48 | Delivery relay not client-namespaced | RESOLVED 2026-05-20 | pilot_mode guard added; OPENCLAW_PILOT_MODE exported |
 | #49 | run_light_to_lark.sh loader vars not fully exported | OPEN | Pre-production tightening required before second real client |
-| T-10 | Brain Lite metrics_unavailable — ids_seen/ids_kept/ids_removed = 0 in run_summary | PATCH DEPLOYED 2026-05-21 — validation pending | Root cause: write_run_summary.py read non-namespaced path after Step 9.4; patch reads OPENCLAW_ARTIFACT_NAMESPACE env var; py_compile exit 0; confirms on 2026-05-22 cron |
-| #50 | Thin retrieval package — mapping_size=7 (2026-05-21); 12 out-of-range source numbers; 4 bullets removed; Phase D Delivery 1 degraded | OPEN | Root cause investigation pending — retrieval_package_china_monitor_001.json |
+| T-10 | Brain Lite metrics_unavailable — ids_seen/ids_kept/ids_removed = 0 in run_summary | CP-001 PARTIALLY VALIDATED 2026-05-22 — metrics now populated (25/25/0); validator_status still UNKNOWN; CP-005 approved 2026-05-22; confirms on 2026-05-23 cron | Root cause residual: severity field not read from validation_result; CP-005 adds severity read to get_validator_metrics() |
+| #50 | Thin retrieval package — mapping_size=7 (2026-05-21); 12 out-of-range source numbers; 4 bullets removed; Phase D Delivery 1 degraded | MONITORING — did not recur 2026-05-22 Delivery 2 (full 8-bullet brief; 25/25 citations); one clean run insufficient to close | Architectural characteristic (thin package when precision query results fail freshness filter); monitoring continues |
+| #51 | light_to_lark.log gap — 2026-05-22 run absent from local snapshot | RESOLVED 2026-05-22 — snapshot timing artefact; run confirmed at log lines 1526–1559 | |
 
 ---
 
@@ -476,18 +499,20 @@ Phase D ACTIVE — Controlled Pilot (Step 8).
   ✔ OPENCLAW_PHASE_D_CONTENT_SCORECARD.md — written to phase_d/
   ✔ OPENCLAW_PHASE_D_CHANGE_PACKET_TEMPLATE.md — written to phase_d/
 
+  Phase D delivery history:
+  - Delivery 1 (2026-05-21): DEGRADED — held from external send; 4/8 bullets;
+    Issue #50 (thin retrieval); CP-001/002/003/004 deployed same session;
+    D-FB-001 logged; Scorecard entry complete
+  - Delivery 2 (2026-05-22): CLEAN — full 8-bullet brief; 25/25 citations;
+    CP-002/003/004 confirmed working; T-04 compliant; HELD from external send
+    (operator decision 2026-05-22); does not count toward gate streak
+
   Phase D ongoing:
-  - Phase D Delivery 1 reviewed (2026-05-21) — DEGRADED; D-FB-001 logged;
-    Scorecard entry complete; held from external send
-  - Issue #50 root cause confirmed — thin retrieval (no precision query
-    results passed freshness filter); architectural characteristic; documented
-  - T-10 patch deployed 2026-05-21 (CP-001) — confirm on 2026-05-22 cron
-  - CP-002/003/004 deployed 2026-05-21 — content specificity, LinkedIn
-    format, source provenance labelling; all in build_agent_input_slim.py;
-    py_compile exit 0; validation pending 2026-05-22 cron
-  - Scorecard updated v1.3 — 4 new dimensions added (source specificity,
-    source provenance clarity, industry coverage breadth, full retrieval
-    transparency)
+  - CP-005 approved 2026-05-22 — T-10 validator_status field fix;
+    deploy via Claude Code; confirms on 2026-05-23 cron
+  - Issue #51 RESOLVED — snapshot timing artefact; no log rotation; scp sync
+    should run after 06:35 to avoid mid-run pulls
+  - Issue #50 monitoring — did not recur Delivery 2; continue watching
   - Daily run reviews, feedback register, scorecard scoring
   - Validated Sources Appendix CP — pending; design confirmed viable
     (retrieval_package.json has required fields)

@@ -2,8 +2,8 @@
 
 ---
 document_id: OPENCLAW-ISSUES-001
-version: v2.2
-last_updated: 2026-05-21
+version: v2.3
+last_updated: 2026-05-22
 status: OPERATIONAL
 ---
 
@@ -22,7 +22,8 @@ and recently resolved issues.
 | 47 | Intermediate retrieval artifacts not client-namespaced | 🟡 OPEN — operator decision required |
 | 48 | Delivery relay not client-namespaced — test runs deliver to live channel | ✅ RESOLVED — 2026-05-20 |
 | 49 | run_light_to_lark.sh — OPENCLAW_CLIENT_ID and other loader vars assigned without export | 🟡 OPEN — pre-production tightening required |
-| 50 | Thin retrieval package — mapping_size=7 on 2026-05-21 run; 4 bullets removed | 🟡 OPEN — investigation pending |
+| 50 | Thin retrieval package — mapping_size=7 on 2026-05-21 run; 4 bullets removed | 🟡 MONITORING — did not recur 2026-05-22 Delivery 2; one clean run insufficient to close |
+| 51 | light_to_lark.log gap — 2026-05-22 run absent from log; pipeline confirmed complete via artifacts | ✅ RESOLVED 2026-05-22 — not reproduced; snapshot timing artefact |
 
 ## TRACKED INPUTS — FUTURE PHASE
 
@@ -37,7 +38,7 @@ and recently resolved issues.
 | T-07 | LinkedIn Draft non-refresh — identical output across consecutive runs | Content observation 2026-05-11 |
 | T-08 | Double [BRAIN_LITE] summary_write_started on first confirmation run | ✅ RESOLVED — 2026-05-11 |
 | T-09 | CoWork VPS direct access not implemented — daily post-run report not operational | ✅ RESOLVED — 2026-05-13 |
-| T-10 | Brain Lite metrics_unavailable — ids_seen/ids_kept/ids_removed = 0 in run_summary | 🔧 PATCH DEPLOYED 2026-05-21 — validation pending |
+| T-10 | Brain Lite metrics_unavailable — ids_seen/ids_kept/ids_removed = 0 in run_summary | 🔧 CP-001 PARTIALLY VALIDATED 2026-05-22 — metrics populated; validator_status UNKNOWN; CP-005 approved, pending deployment |
 
 ## RESOLVED ISSUES SUMMARY
 
@@ -57,10 +58,55 @@ and recently resolved issues.
 
 ---
 
+## Issue #51 — light_to_lark.log Gap (2026-05-22)
+
+### Status
+🟡 OPEN — VPS investigation required
+
+### Discovered
+2026-05-22 — session start VPS sync and post-run analysis
+
+### Description
+
+The 2026-05-22 06:32 cron run is absent from light_to_lark.log. The log file
+has exactly 1525 lines and ends with the 2026-05-21 degraded run. Pipeline
+completion is confirmed by three independent artifacts:
+- run_summary_china_monitor_001_20260522.json (run_date=2026-05-22, delivery_status=delivered)
+- validation_result_china_monitor_001.json (run_id: run_20260521T223002Z = 06:30 Shanghai)
+- final_output_scrubbed_china_monitor_001.txt (header: 2026-05-22 06:32)
+
+### Impact
+
+Post-run analysis for Delivery 2 relies on artifact files rather than the cron
+log. Resolver metrics (mapping_size, source_numbers_dropped) and scrubber metrics
+(unsupported_groups) are not available from logs for this run. All pipeline health
+indicators are confirmed from artifacts; no quality gap in the analysis for this
+run. Future runs: if log rotation continues, scp sync must be updated.
+
+### Resolution
+
+Resolved 2026-05-22 — Claude Code VPS audit confirmed:
+
+- Live log has 1559 lines, mtime 2026-05-22 06:32:11. No rotation, no
+  companion files. Single append-only file via crontab redirect.
+- 2026-05-22 run IS present at lines 1526–1559. Validator GREEN 25/25,
+  Brain Lite summary_write_completed confirmed at line 1559.
+- Root cause: scp sync was pulled mid-run (between cron launch at ~06:30
+  and run completion at ~06:32). The 1525-line snapshot was taken before
+  run_light_to_lark.sh finished appending. Not a log gap — a snapshot
+  timing artefact.
+- No logrotate configured for this file. /etc/logrotate.d/ contains no
+  openclaw entry. File will grow indefinitely; logrotate setup recommended
+  before file becomes unwieldy (minor, non-blocking).
+- Mitigation: run scp sync at least 5 minutes after cron fires (06:35+)
+  to ensure the run has fully completed before pulling the log.
+
+---
+
 ## Issue #50 — Thin Retrieval Package (2026-05-21)
 
 ### Status
-🟡 OPEN — investigation pending
+🟡 MONITORING — did not recur on 2026-05-22 Delivery 2
 
 ### Discovered
 2026-05-21 — Phase D Delivery 1 post-run analysis
@@ -588,8 +634,12 @@ Patch deployed 2026-05-21 (OPENCLAW-D-CP-001, operator approved):
 - Backup: write_run_summary.py.bak_20260521_pre_ns_path
 - py_compile exit 0 confirmed
 
-Validation: next cron run (2026-05-22 06:31) — expect no metrics_unavailable,
-ids_seen/ids_kept > 0, validator_status="GREEN" in run_summary.
+CP-001 validation result (2026-05-22 06:32 cron run):
+- ids_seen=25, ids_kept=25, ids_removed=0 — metrics path fix CONFIRMED ✓
+- [BRAIN_LITE] metrics_unavailable: ABSENT ✓
+- validator_status="UNKNOWN" — severity field still not populated ✗
+- CP-005 raised and approved 2026-05-22 to add severity field read.
+  T-10 remains open pending CP-005 deployment and validation.
 
 ### Description
 

@@ -184,21 +184,23 @@ and this change touches only the file read path. Cron log sequence should remain
 
 ## SECTION 7 — POST-IMPLEMENTATION RESULTS
 
-*Completed after the validation run window closes.*
-
 | Run # | Date | Timestamp | Outcome vs. validation criteria |
 |-------|------|-----------|----------------------------------|
-| 1 | | | |
+| 1 | 2026-05-22 | 06:32 | PARTIAL — ids_seen=25/ids_kept=25/ids_removed=0 ✓ (criteria 1–2 met); validator_status="UNKNOWN" ✗ (criterion 3 not met); metrics_unavailable absent ✓ |
 | 2 | | | |
 | 3 | | | |
 
-**Overall outcome:** —
+**Overall outcome:** Partial fix confirmed. CP-001 resolved the metrics path issue
+(ids_seen/ids_kept now correctly populated). validator_status remains UNKNOWN —
+root cause is a separate gap in the same function (severity field not read).
+CP-005 raised to address the validator_status field. T-10 remains open pending
+CP-005 validation.
 
-**Feedback Register update:** T-10 marked RESOLVED (second time) after Run 1
-confirmed clean.
+**Feedback Register update:** T-10 not yet marked RESOLVED — validator_status
+criterion unmet. CP-005 required before T-10 can close.
 
 ---
 
-*OPENCLAW-D-CP-001 | Version 1.0 | Created: 2026-05-21 | Status: IMPLEMENTED — validation pending 2026-05-22 cron run*
+*OPENCLAW-D-CP-001 | Version 1.0 | Created: 2026-05-21 | Status: PARTIALLY VALIDATED — CP-005 required to close T-10*
 
 *Implementation note (2026-05-21): The original file had the validation_result.json path inlined directly inside load_json(...) with no validator_path variable. Claude Code correctly adapted: inserted namespace + validator_path lines and updated the load_json call to use validator_path. Functionally identical to the specified change. py_compile exit 0 confirmed.*
