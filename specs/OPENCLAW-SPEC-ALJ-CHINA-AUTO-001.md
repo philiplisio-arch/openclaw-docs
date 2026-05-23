@@ -5,7 +5,7 @@
 document_id: OPENCLAW-SPEC-ALJ-CHINA-AUTO-001
 version: v1.0
 created: 2026-05-22
-status: PROPOSED — awaiting operator approval
+status: APPROVED — operator approved 2026-05-23
 client_id: alj_china_auto_001
 classification: Phase D Controlled Pilot — Workstream 2
 author: CoWork (drafted for operator review)
@@ -505,11 +505,11 @@ Operator-approved steps before and during pilot:
 | Step | Action | Status |
 |------|--------|--------|
 | 1 | Operator approval of product concept (ALJ memo) | Pending |
-| 2 | Product specification (this document) | Proposed |
-| 3 | client_config_alj_china_auto_001.yaml | Proposed |
-| 4 | Query template set alj_china_auto_weekly_v1 | Proposed |
-| 5 | Confirm Baidu-only implementation path | Pending |
-| 6 | Confirm source appendix field availability | Pending |
+| 2 | Product specification (this document) | APPROVED 2026-05-23 |
+| 3 | client_config_alj_china_auto_001.yaml | APPROVED 2026-05-23 |
+| 4 | Query template set alj_china_auto_weekly_v1 | APPROVED 2026-05-23 |
+| 5 | Confirm Baidu-only implementation path | COMPLETE — CP-006 implemented 2026-05-23 |
+| 6 | Confirm source appendix field availability | COMPLETE — CP-006 Appendix confirmed 2026-05-22 |
 | 7 | First manual pilot run — internal only | Pending |
 | 8 | Score output against ALJ scorecard | Pending |
 | 9 | Iterate 2–3 weekly pilot runs via approved change packets | Pending |
@@ -517,7 +517,7 @@ Operator-approved steps before and during pilot:
 
 ---
 
-*OPENCLAW-SPEC-ALJ-CHINA-AUTO-001 | v1.0 | 2026-05-22 | PROPOSED*
+*OPENCLAW-SPEC-ALJ-CHINA-AUTO-001 | v1.0 | 2026-05-22 | APPROVED 2026-05-23*
 *Client: alj_china_auto_001 | Phase D Workstream 2*
 *Drafted by: Claude CoWork | No system changes — proposed document only*
 *No implementation step may begin until operator explicitly approves this spec.*

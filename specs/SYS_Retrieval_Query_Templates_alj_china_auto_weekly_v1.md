@@ -4,7 +4,7 @@ OpenClaw Project
 ---
 document_id: OPENCLAW-RQT-002
 version: v1.0
-status: PROPOSED — awaiting operator approval
+status: APPROVED — operator approved 2026-05-23
 client: alj_china_auto_001
 created: 2026-05-22
 ---
@@ -393,6 +393,6 @@ approval before deployment.
 
 END
 
-*OPENCLAW-RQT-002 | v1.0 | 2026-05-22 | PROPOSED — operator approval required*
+*OPENCLAW-RQT-002 | v1.0 | 2026-05-22 | APPROVED — operator approved 2026-05-23*
 *Client: alj_china_auto_001 | Baidu-only | Weekly cadence*
 *Drafted by: Claude CoWork | No system changes — proposed document only*

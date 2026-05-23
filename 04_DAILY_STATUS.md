@@ -2,7 +2,7 @@
 
 ---
 document_id: 04_DAILY_STATUS
-version: v2.6
+version: v2.7
 last_updated: 2026-05-23
 status: OPERATIONAL
 ---
@@ -460,6 +460,10 @@ Step 9.8 COMPLETE — 2026-05-20: Isolation verification results presented to
 ✔ CP-006 IMPLEMENTED 2026-05-23 — Baidu-only retrieval for ALJ client; 3-file change (load_client_config.py +10, run_light_to_lark.sh +12, run_phase5_offline.sh +5); both-paths stub (brave_raw.json + namespaced); WS1 unaffected; all syntax checks pass; validates on first ALJ pilot run + next WS1 cron
 ✔ Issue #49 RESOLVED 2026-05-23 — 6 missing loader var exports added to run_light_to_lark.sh; all 9 loader vars confirmed in subshell smoke test; pre-production blocker cleared
 ✔ ARTIFACTNAMESPACE typo — NOT PRESENT; spec line numbers were stale (Issue #53 exec redirect shifted line numbering); zero grep matches confirmed; no edit required
+✔ OPENCLAW-SPEC-ALJ-CHINA-AUTO-001 v1.0 — APPROVED 2026-05-23 (operator); governance steps 2, 5, 6 closed
+✔ OPENCLAW-RQT-002 v1.0 (query templates alj_china_auto_weekly_v1) — APPROVED 2026-05-23
+✔ client_config_alj_china_auto_001.yaml — APPROVED 2026-05-23 (operator confirmed); governance step 3 closed
+✔ CP-009 DRAFTED 2026-05-23 — ALJ-specific agent output format; conditional on OPENCLAW_REPORT_TEMPLATE; 8-section ALJ structure + Complete Chinese Source Appendix; WS1 unaffected; APPROVED — implementation pending
 ⚠ Phase D Delivery 2 — CLEAN (2026-05-22): full 8-bullet brief; 25/25; HELD — operator decision 2026-05-22; external send deferred
 ✔ CP-005 CONFIRMED 2026-05-23 — validator_status=GREEN in run_summary; T-10 fully resolved
 06:32 cron run (2026-05-23) — Phase D Delivery 3 — DELIVERED, CLEAN.
@@ -611,6 +615,12 @@ Phase D ACTIVE — Controlled Pilot (Step 8).
   - Issue #49: RESOLVED 2026-05-23
   - ARTIFACTNAMESPACE typo: NOT PRESENT — confirmed resolved (no-op)
   - CP-006 validation: pending first ALJ pilot run + next WS1 cron (regression check)
+
+  WS2 (alj_china_auto_001) governance sequence:
+  - Steps 2, 3, 4, 5, 6: COMPLETE (spec, config, query templates approved; Baidu-only confirmed; appendix fields confirmed)
+  - Step 1 (product concept memo): pending
+  - Step 7 (first pilot run): BLOCKED on CP-009 implementation
+  - CP-009 approved — Claude Code implementation required before Step 7
 
 ---
 
