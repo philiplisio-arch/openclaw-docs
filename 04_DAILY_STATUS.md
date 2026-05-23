@@ -2,7 +2,7 @@
 
 ---
 document_id: 04_DAILY_STATUS
-version: v2.5
+version: v2.6
 last_updated: 2026-05-23
 status: OPERATIONAL
 ---
@@ -457,6 +457,9 @@ Step 9.8 COMPLETE — 2026-05-20: Isolation verification results presented to
 ✔ Baidu 48h freshness filter DEPLOYED 2026-05-23 — filter_results.py; strict cutoff; py_compile exit 0; confirms 2026-05-24 cron
 ⚠ Issue #54 OPEN — broadcaster dedup gap (CCTV slot duplicates); operator decision pending
 ⚠ D-FB-004 Part B — Brave 3-day rule stays as-is (operator confirmed 2026-05-23)
+✔ CP-006 IMPLEMENTED 2026-05-23 — Baidu-only retrieval for ALJ client; 3-file change (load_client_config.py +10, run_light_to_lark.sh +12, run_phase5_offline.sh +5); both-paths stub (brave_raw.json + namespaced); WS1 unaffected; all syntax checks pass; validates on first ALJ pilot run + next WS1 cron
+✔ Issue #49 RESOLVED 2026-05-23 — 6 missing loader var exports added to run_light_to_lark.sh; all 9 loader vars confirmed in subshell smoke test; pre-production blocker cleared
+✔ ARTIFACTNAMESPACE typo — NOT PRESENT; spec line numbers were stale (Issue #53 exec redirect shifted line numbering); zero grep matches confirmed; no edit required
 ⚠ Phase D Delivery 2 — CLEAN (2026-05-22): full 8-bullet brief; 25/25; HELD — operator decision 2026-05-22; external send deferred
 ✔ CP-005 CONFIRMED 2026-05-23 — validator_status=GREEN in run_summary; T-10 fully resolved
 06:32 cron run (2026-05-23) — Phase D Delivery 3 — DELIVERED, CLEAN.
@@ -531,7 +534,7 @@ Broadcaster dedup gap identified 2026-05-23 — Claude Code Bc assessment:
 | #46 | OPENCLAW_ARTIFACT_NAMESPACE not propagating to scrubber | RESOLVED 2026-05-20 | export added line 20; typo fixed line 191 |
 | #47 | Intermediate retrieval artifacts not client-namespaced | OPEN | Operator decision required — pre-production |
 | #48 | Delivery relay not client-namespaced | RESOLVED 2026-05-20 | pilot_mode guard added; OPENCLAW_PILOT_MODE exported |
-| #49 | run_light_to_lark.sh loader vars not fully exported | OPEN | Pre-production tightening required before second real client |
+| #49 | run_light_to_lark.sh loader vars not fully exported | RESOLVED 2026-05-23 | 6 missing exports added (OPENCLAW_CLIENT_ID, OPENCLAW_BRAIN_CONTEXT, OPENCLAW_DELIVERY_TYPE, OPENCLAW_CREDENTIALS_REF, OPENCLAW_QUERY_TEMPLATE, OPENCLAW_REPORT_TEMPLATE); all 9 loader vars confirmed in subshell smoke test |
 | T-10 | Brain Lite metrics_unavailable — ids_seen/ids_kept/ids_removed = 0 in run_summary | RESOLVED 2026-05-23 — CP-005 confirmed on 2026-05-23 cron; validator_status=GREEN in run_summary | CP-005 added severity read to get_validator_metrics(); confirmed working |
 | #50 | Thin retrieval package — mapping_size=7 (2026-05-21); 12 out-of-range source numbers; 4 bullets removed; Phase D Delivery 1 degraded | MONITORING — did not recur Delivery 2 or Delivery 3; two consecutive clean runs | Baidu 48h freshness filter deployed 2026-05-23 addresses one contributing factor; continue monitoring |
 | #51 | light_to_lark.log gap — 2026-05-22 run absent from local snapshot | RESOLVED 2026-05-22 — snapshot timing artefact; run confirmed at log lines 1526–1559 | |
@@ -605,8 +608,9 @@ Phase D ACTIVE — Controlled Pilot (Step 8).
   Open pre-production items (do not block Phase D; must clear before second
   real client goes live):
   - Issue #47: intermediate retrieval artifacts not namespaced (operator decision required)
-  - Issue #49: loader variable export audit (pre-production requirement)
-  - run_light_to_lark.sh lines 190/193: OPENCLAW_ARTIFACTNAMESPACE typo — missing underscore
+  - Issue #49: RESOLVED 2026-05-23
+  - ARTIFACTNAMESPACE typo: NOT PRESENT — confirmed resolved (no-op)
+  - CP-006 validation: pending first ALJ pilot run + next WS1 cron (regression check)
 
 ---
 

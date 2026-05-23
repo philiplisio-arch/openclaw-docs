@@ -21,7 +21,7 @@ classification: PHASE D IMPLEMENTATION CHANGE PACKET — ALJ CLIENT RETRIEVAL
 | Feedback items addressed | N/A — new client capability, not a content feedback item |
 | Feedback recurrence threshold met? | N/A |
 | Implementation layer | Client config + config loader schema + orchestrator shell script |
-| Status | PROPOSED |
+| Status | IMPLEMENTED — validation pending (first ALJ pilot run + next china_monitor_001 cron) |
 
 **Note:** This is an implementation change packet, not a content change packet.
 It enables a new per-client retrieval provider configuration capability.
@@ -259,11 +259,11 @@ client.
 
 | Field | Value |
 |-------|-------|
-| Approved by | |
-| Approval date | |
+| Approved by | Operator |
+| Approval date | 2026-05-23 |
 | Implementation assigned to | Claude Code / VPS operator |
-| Implementation confirmed date | |
-| Backup confirmed | |
+| Implementation confirmed date | 2026-05-23 |
+| Backup confirmed | Yes — load_client_config.py.bak_20260523_cp006 (5,533 bytes); run_light_to_lark.sh.bak_20260523_cp006 (12,437 bytes); run_phase5_offline.sh.bak_20260523_cp006 (2,167 bytes) |
 
 **Pre-implementation check required before Claude Code begins:**
 Claude Code must grep for all references to brave_raw.json (un-namespaced
@@ -312,6 +312,7 @@ present.
 
 ---
 
-*OPENCLAW-D-CP-006 | v1.0 | 2026-05-22 | PROPOSED — operator approval required*
+*OPENCLAW-D-CP-006 | v1.0 | 2026-05-22 | IMPLEMENTED 2026-05-23 — validation pending*
+*Implementation note (2026-05-23): Pre-check confirmed brave_raw.json is non-namespaced in normalize.py and write_run_summary.py; operator decision: write BOTH paths in Edit C stub (brave_raw.json + brave_raw_${NS}.json). Edit A: +10 lines; providers_csv emitted from source_preferences.priority_providers; WS1 emits brave,baidu, WS2 emits baidu; py_compile exit 0. Edit B: +3 lines; read + fallback + export in loader block; bash -n exit 0. Edit C: +5 lines; conditional block with two-path stub; bash -n exit 0. Issue #49 resolved in same session: 6 missing exports added (OPENCLAW_CLIENT_ID, OPENCLAW_BRAIN_CONTEXT, OPENCLAW_DELIVERY_TYPE, OPENCLAW_CREDENTIALS_REF, OPENCLAW_QUERY_TEMPLATE, OPENCLAW_REPORT_TEMPLATE); all 9 loader vars confirmed in subshell smoke test. ARTIFACTNAMESPACE typo: NOT PRESENT in current file — zero grep matches; spec line numbers were stale (Issue #53 exec redirect shifted lines); no edit required. Final line counts: load_client_config.py 131→141, run_light_to_lark.sh 328→340, run_phase5_offline.sh 57→62.*
 *Client scope: alj_china_auto_001 only | china_monitor_001 unaffected*
 *Drafted by: Claude CoWork | Implementation: Claude Code / VPS operator*
