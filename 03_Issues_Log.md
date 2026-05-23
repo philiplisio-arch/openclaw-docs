@@ -984,4 +984,152 @@ account; this outage was an env var not loaded by cron.
 
 ### Impact
 
-Baidu absent from 06:30 delivery. Chi
+Baidu absent from 06:30 delivery. Chinese-perspective sourcing not represented.
+Brave-only run. Validator GREEN PASS — 8/8 citations matched. Clean delivery,
+no pipeline failure.
+
+### Diagnostic Note
+
+During investigation, `validation_result.json` was confirmed to write to
+`/root/openclaw_phase6/validation/` — not `/root/openclaw_phase5/data/` where
+other run artifacts live. Path discrepancy should be kept in mind for future
+diagnostics.
+
+### Resolution
+
+Operator authorized 2026-05-06. `run_light_to_lark.sh` line 4 updated to
+hardcode the active SerpAPI key directly, removing the env var fallback
+pattern. Manual test confirmed Baidu restored: result_count=46, error_count=1.
+Validator GREEN PASS, 9/9 citations matched, clean delivery.
+
+### Status
+✅ RESOLVED — 2026-05-06, operator authorized
+
+---
+
+## Issue #43 — Agent Result ID Fabrication Rate Elevated
+
+### Status
+✅ RESOLVED — 2026-05-07, operator approved
+
+### Description
+
+Despite VALID_RESULT_IDS injection (Phase 6.3a), the agent continued to
+fabricate result_ids at a significant rate. In the 2026-05-06 10:13 Shanghai
+run: ids_seen=21, ids_kept=11, ids_removed=10 — a 48% fabrication rate. The
+agent was generating ID-shaped strings rather than selecting exact codes from
+the approved list it was given.
+
+### Impact
+
+- Claims in EXECUTIVE TAKE and ADVISORY LAYER lost citations when fabricated
+  IDs were scrubbed, appearing in the delivered report without source attribution
+- Valid sources available in the retrieval package went uncited (see Issue #44)
+- Elevated ids_removed rate in every scrubber report
+
+### Root Cause
+
+Partial recurrence of Issue #35. VALID_RESULT_IDS injection reduced fabrication
+from ~100% to ~48%, but agent prompt instruction was insufficient to prevent
+approximate ID generation. The agent treated result_ids as generative text
+rather than exact strings to be copied.
+
+### Resolution
+
+Phase 6.8 — Numbered-Source Architecture. Three files modified/created:
+- `build_agent_input_slim.py`: results rendered as SOURCE 1..N blocks; agent
+  cites [source_numbers: N] / [based_on_sources: N]
+- `resolve_source_numbers.py` (new): deterministic source number → result_id
+  mapping; inserted before scrubber in pipeline
+- `run_light_to_lark.sh`: resolver call inserted between agent output and scrubber
+
+Test #1: source_numbers_resolved=16/16, ids_removed=0, validator PASS 16/16.
+Test #2: source_numbers_resolved=17/17, ids_removed=0, validator PASS 17/17.
+Fabrication rate: 0% across two consecutive runs.
+
+### Status
+✅ RESOLVED — 2026-05-07, operator approved (Phase 6.8)
+
+### Identified
+2026-05-06
+
+---
+
+## Issue #44 — Valid Sources Not Surfacing in Delivered Output
+
+### Status
+✅ RESOLVED — 2026-05-08, log-confirmed
+
+### Description
+
+In the 2026-05-06 10:13 Shanghai run, 6 Baidu sources were present in
+retrieval_package.json. Only 3 (all CCTV) were cited in the delivered output.
+The 3 Sina Finance sources were not cited and their content did not appear
+in any bullet point:
+
+- Sina Finance (2026-05-06): China blocking injunction — legal angle
+- Sina Finance (2026-05-03): US-China high-level diplomatic contacts surge
+- finance.sina.cn (2026-05-05): Chips, Strait of Hormuz, three-department
+  policy deployment
+
+### Root Cause
+
+Issue #43 (agent fabrication). The agent attempted to cite these sources using
+fabricated result_ids, which were then scrubbed. Confirmed by resolution
+pattern: Phase 6.8 fix brought fabrication rate to 0%, and Sina Finance /
+finance.sina.cn sources surfaced in the subsequent 2026-05-08 06:32 delivery.
+
+### Resolution Confirmation
+
+2026-05-08 06:32 cron run:
+- Sina Finance and finance.sina.cn cited in multiple bullets across both
+  EXECUTIVE TAKE and ADVISORY LAYER
+- validator 23/23 PASS, substitutions_made=23, missing_ids=0
+- Root cause (Issue #43) confirmed resolved; surface behavior confirmed resolved
+
+### Status
+✅ RESOLVED — 2026-05-08, log-confirmed
+Dependent resolution of Issue #43 (Phase 6.8, 2026-05-07).
+
+### Identified
+2026-05-06
+
+---
+
+## Issue #45 — 2026-05-19 Delivery Failure — Step 9.3/9.4 Deployment Sequence
+
+### Status
+✅ RESOLVED — 2026-05-19
+
+### Origin
+2026-05-19 06:30 cron run analysis
+
+### Description
+
+The 2026-05-19 06:30 cron run failed to deliver. The config loader executed
+successfully (client_id=china_monitor_001, artifact_namespace=china_monitor_001
+confirmed). The resolver and scrubber ran but wrote to non-namespaced artifact
+paths (Step 9.4 not yet deployed). run_light_to_lark.sh (Step 9.3) then
+attempted to cp final_output_scrubbed_china_monitor_001.txt — which did not
+exist because scrub_result_ids.py still wrote to the non-namespaced filename.
+The script aborted. Validator and delivery gate were not reached. Brain Lite
+run_summary was not written.
+
+### Root Cause
+
+Step 9.3 (shell script namespacing) was deployed on 2026-05-18 without Step
+9.4 (Python script namespacing). The shell script expected namespaced artifact
+filenames that the Python scripts were not yet producing. Partial deployment
+created a broken handoff at the scrubber output step.
+
+### Resolution
+
+Rollback executed same session: run_light_to_lark.sh restored from
+run_light_to_lark.sh.bak_20260518_pre_config_loader. Steps 9.3 and 9.4
+prepared as a combined patch set, reviewed by CoWork, operator-approved, and
+deployed as a single unit on 2026-05-19. All 7 files (6 Python scripts +
+shell script) verified: py_compile exit 0 / bash -n exit 0. Step 9.4
+confirmation run expected 2026-05-20 06:30.
+
+### Identified
+2026-05-19

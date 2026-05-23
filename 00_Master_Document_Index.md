@@ -196,4 +196,18 @@ Updates require operator approval per Hard Safety Rule R-01.
 
 *v4.8 changes (2026-05-20): Phase D Operator Review Procedure (OPENCLAW-PHASE-D-ORP-001) added to Tier 6. Feedback Register updated to v1.2; Scorecard updated to v1.2 (cross-references to procedure document added).*
 
-*v4.7 changes (2026-05-20): phase_d/ added to location key. Phase D Feedback Register and Content Scorecard added to Tier 6 (OPERATIONAL). Phase D Content Change Packet Template added to Tier 8 (TEMPLATE).
+*v4.7 changes (2026-05-20): phase_d/ added to location key. Phase D Feedback Register and Content Scorecard added to Tier 6 (OPERATIONAL). Phase D Content Change Packet Template added to Tier 8 (TEMPLATE). client_config_test_client_002.yaml added to Tier 6 (ACTIVE). CoWork Operating Protocol now at v2.6 (updated 2026-05-20, phase lock Phase D).*
+
+*v4.6 changes (2026-05-19): OPERATOR APPROVED added to formal status definitions. Frontmatter corrected to v4.6/2026-05-19 (previously mismatched vs footer at v4.5/2026-05-18).*
+
+*v4.5 changes (2026-05-18): OPENCLAW-SPEC-CONFIG-LOADER-001 status updated from CONSULTANT APPROVED to OPERATOR APPROVED (approved 2026-05-18).*
+
+*v4.4 changes (2026-05-15): Client Config entry updated — brain_context=true (activated 2026-05-15).*
+
+*v4.3 changes (2026-05-14): Remediation plan executed — CONSULTANT APPROVED status added to legend; Control Layer Spec and Architecture Philosophy filenames updated to .md; ADV-002, ADV-009, ADV-010 status updated to REFERENCE; ADV-011 moved to old/ and added to Tier 9.*
+
+*v4.2 changes (2026-05-14): OPENCLAW-DOC-GOV-001 added to Tier 1 (locked 2026-05-14); ADV-012 added to Tier 7 (operator approved 2026-05-14).*
+
+*v4.1 changes (2026-05-13): OPENCLAW-SPEC-CONFIG-LOADER-001 added to Tier 5 (consultant approved 2026-05-13; awaiting operator approval).*
+
+*v4.0 changes (2026-05-13): Full migration to OPENCLAW-SYS-FILENAME-002 filename standard. All filenames updated to remove dates, spaces, and parentheses. OPENCLAW_COWORK_OPERATING_PROTOCOL.md renamed from 05_OPERATING_PROTOCOL. Tier 1 now references filename standard. VPS Sync Protocol added to Tier 6. Document Versions Index added to Tier 5. File Organization Convention section replaced with File Naming Convention per new standard.*

@@ -2,12 +2,12 @@
 
 ---
 document_id: 04_DAILY_STATUS
-version: v2.4
-last_updated: 2026-05-22
+version: v2.5
+last_updated: 2026-05-23
 status: OPERATIONAL
 ---
 
-DATE: 2026-05-22
+DATE: 2026-05-23
 PHASE: Phase 7 Entry — Phase D (Controlled Pilot)
 
 ---
@@ -446,10 +446,78 @@ Step 9.8 COMPLETE — 2026-05-20: Isolation verification results presented to
 ✔ CP-004 deployed — source provenance [CN]/[INTL]/[CN+INTL] labelling; py_compile exit 0
 ✔ Scorecard v1.3 — 4 new dimensions; Delivery 1 scored
 ✔ CP-001/002/003/004 CONFIRMED WORKING — Phase D Delivery 2 (2026-05-22); full brief; 25/25 citations; provenance labels active; LinkedIn refreshed
-✔ CP-005 DEPLOYED 2026-05-22 — Brain Lite validator_status field; py_compile exit 0; confirms 2026-05-23 cron
+✔ CP-005 DEPLOYED 2026-05-22 — Brain Lite validator_status field; py_compile exit 0; confirmed 2026-05-23 cron
 ✔ Scorecard v1.4 — Delivery 2 scored (overall readiness: 4); rolling averages updated
 ✔ Issue #51 RESOLVED 2026-05-22 — not reproduced; snapshot timing artefact; 2026-05-22 run confirmed at log lines 1526–1559
+✔ Brain Lite digest rebuilt 2026-05-23 — 3,715 bytes; covers all Phase D runs D1–D3
+✔ CP-007 DEPLOYED 2026-05-23 — FRESHNESS RULE + TOPIC DIFFERENTIATION RULE in system_rules; py_compile exit 0; confirms 2026-05-24 cron
+✔ CP-008 DEPLOYED 2026-05-23 — SOURCES appendix in citation_sub.py; publisher|date|url; non-blocking; py_compile exit 0; confirms 2026-05-24 cron
+✔ Issue #52 RESOLVED 2026-05-23 — log format root cause; deliveries not missing; per-run sidecars are timestamped record
+✔ Issue #53 RESOLVED 2026-05-23 — ISO timestamps deployed to log emitter; active from 2026-05-24 cron
+✔ Baidu 48h freshness filter DEPLOYED 2026-05-23 — filter_results.py; strict cutoff; py_compile exit 0; confirms 2026-05-24 cron
+⚠ Issue #54 OPEN — broadcaster dedup gap (CCTV slot duplicates); operator decision pending
+⚠ D-FB-004 Part B — Brave 3-day rule stays as-is (operator confirmed 2026-05-23)
 ⚠ Phase D Delivery 2 — CLEAN (2026-05-22): full 8-bullet brief; 25/25; HELD — operator decision 2026-05-22; external send deferred
+✔ CP-005 CONFIRMED 2026-05-23 — validator_status=GREEN in run_summary; T-10 fully resolved
+06:32 cron run (2026-05-23) — Phase D Delivery 3 — DELIVERED, CLEAN.
+  Config loader active; artifact_namespace=china_monitor_001 confirmed.
+  delivery_status=delivered; full brief: 3 ET + 5 AL bullets.
+  Validator GREEN 19/19/0; uncited_claims_removed=0; unsupported_groups=0.
+  CP-005 CONFIRMED — validator_status=GREEN in run_summary; T-10 fully resolved.
+  Brave=40, Baidu=54. Provenance labels on all 8 bullets. T-04 COMPLIANT.
+  Concrete figures: 200 Boeing planes, agricultural imports (beef/poultry),
+  2.5% global growth, Strait of Hormuz effectively closed.
+  LOG GAP: 2026-05-23 run absent from light_to_lark.log local sync (1525
+  lines; ends with 2026-05-21 run). Root cause identified same session:
+  light_to_lark.log has no timestamp prefixes — grep for dates returns zero
+  by construction; deliveries not missing. Per-run sidecar logs intact.
+  Logged as Issue #52; resolved same session as Issue #53 (see below).
+  D-FB-003, D-FB-004, D-FB-005 logged — topic repetition, old articles,
+  no source URLs; CP-007 and CP-008 drafted and approved same session.
+Brain Lite digest rebuilt 2026-05-23 10:22 —
+  build_brain_digest.py --client_id china_monitor_001; 3,715 bytes;
+  covers all runs including Phase D D1–D3 (2026-05-21, 2026-05-22, 2026-05-23).
+CP-007 DEPLOYED 2026-05-23 — FRESHNESS RULE + TOPIC DIFFERENTIATION RULE
+  added to build_agent_input_slim.py system_rules block (+31 lines; after
+  ADVISORY LANGUAGE CALIBRATION at line 66); py_compile exit 0; backup
+  build_agent_input_slim.py.bak_20260523_cp007. Confirms 2026-05-24 cron.
+CP-008 DEPLOYED 2026-05-23 — SOURCES appendix added to
+  /root/openclaw_phase6/citation_sub.py (path corrected from spec — no
+  validation/ subdirectory). result_ids extracted pre-substitution; publisher|
+  date|url appended as SOURCES section; try/except wrapper — non-blocking;
+  +28 lines; py_compile exit 0; backup citation_sub.py.bak_20260523_cp008.
+  Confirms 2026-05-24 cron.
+D-FB-004 Part B CONFIRMED 2026-05-23 — Claude Code retrieval audit:
+  16/23 results (69.6%) older than 48h in 2026-05-23 package. Brave: 6
+  results (both stale: NYT 2026-05-20, Bloomberg 2026-05-19). Baidu: 17
+  results (5 near-identical CCTV Middle East entries 2026-05-19; 3
+  obfuscated-domain content-farm entries). Root cause: existing
+  within_last_3_days rule in filter_results.py admitted material up to ~4
+  calendar days old at 22:30 UTC cron time. Structural fix deployed same
+  session (see Baidu 48h filter below).
+Issue #52 RESOLVED 2026-05-23 — root cause: light_to_lark.log has no
+  timestamp prefixes on log lines; grep for dates returns zero by
+  construction; deliveries not missing. light_to_lark.log mtime 2026-05-23
+  06:32 confirmed. Per-run sidecar logs (phase5_run_YYYYMMDD_HHMMSS.log)
+  intact through 2026-05-23 — these are the timestamped record. No logrotate
+  configured. Fix deployed as Issue #53.
+Issue #53 RESOLVED 2026-05-23 same session — ISO timestamps added to
+  run_light_to_lark.sh log emitter; every light_to_lark.log line now
+  prefixed 2026-05-23T06:32:01Z [STAGE] ...; bash -n exit 0; backup
+  run_light_to_lark.sh.bak_20260523_issue53. Active from 2026-05-24 cron.
+Baidu 48h freshness filter DEPLOYED 2026-05-23 — filter_results.py patched;
+  strict 48h cutoff on all Baidu results (no fallback — thin package handled
+  by agent LOW-SIGNAL RULE); emits [RETRIEVAL] baidu_freshness_cutoff=48h
+  kept={n} discarded={n}; +29 lines; py_compile exit 0; backup
+  filter_results.py.bak_20260523_freshness. Confirms 2026-05-24 cron.
+  Granularity note: timestamp is day-precision in pipeline; at 22:30 UTC
+  cron, dates ≥ yesterday kept, dates ≤ two days ago dropped.
+Broadcaster dedup gap identified 2026-05-23 — Claude Code Bc assessment:
+  dedup.py keys on full URL only; CCTV near-duplicates survive because
+  distinct broadcast-slot URLs differ per slot and per subdomain
+  (tv.cctv.com vs tv.cctv.cn). Fix: broadcaster-level dedup on
+  (publisher, date, normalized_title_core). Logged as Issue #54.
+  Operator decision pending.
 
 ---
 
@@ -461,4 +529,89 @@ Step 9.8 COMPLETE — 2026-05-20: Isolation verification results presented to
 | #44 | 3 Sina Finance sources not in delivered output | RESOLVED | Log-confirmed 2026-05-08 — validator 23/23, substitutions_made=23, missing_ids=0 |
 | #45 | 2026-05-19 delivery failure — Step 9.3/9.4 deployment sequence | RESOLVED 2026-05-19 | Rollback executed; Steps 9.3+9.4 re-deployed combined |
 | #46 | OPENCLAW_ARTIFACT_NAMESPACE not propagating to scrubber | RESOLVED 2026-05-20 | export added line 20; typo fixed line 191 |
-| #47 | Intermediate retrieval art
+| #47 | Intermediate retrieval artifacts not client-namespaced | OPEN | Operator decision required — pre-production |
+| #48 | Delivery relay not client-namespaced | RESOLVED 2026-05-20 | pilot_mode guard added; OPENCLAW_PILOT_MODE exported |
+| #49 | run_light_to_lark.sh loader vars not fully exported | OPEN | Pre-production tightening required before second real client |
+| T-10 | Brain Lite metrics_unavailable — ids_seen/ids_kept/ids_removed = 0 in run_summary | RESOLVED 2026-05-23 — CP-005 confirmed on 2026-05-23 cron; validator_status=GREEN in run_summary | CP-005 added severity read to get_validator_metrics(); confirmed working |
+| #50 | Thin retrieval package — mapping_size=7 (2026-05-21); 12 out-of-range source numbers; 4 bullets removed; Phase D Delivery 1 degraded | MONITORING — did not recur Delivery 2 or Delivery 3; two consecutive clean runs | Baidu 48h freshness filter deployed 2026-05-23 addresses one contributing factor; continue monitoring |
+| #51 | light_to_lark.log gap — 2026-05-22 run absent from local snapshot | RESOLVED 2026-05-22 — snapshot timing artefact; run confirmed at log lines 1526–1559 | |
+| #52 | light_to_lark.log appeared to have no 2026-05-22 or 2026-05-23 run entries | RESOLVED 2026-05-23 — root cause: log lines have no timestamp prefixes; grep for dates returns zero by construction; deliveries not missing; per-run sidecars are timestamped record | Fix deployed as Issue #53 |
+| #53 | light_to_lark.log no timestamp line prefixes | RESOLVED 2026-05-23 same session — ISO timestamps added to run_light_to_lark.sh log emitter; backup run_light_to_lark.sh.bak_20260523_issue53; active from 2026-05-24 cron | |
+| #54 | Broadcaster-level dedup gap — dedup.py URL-key dedup does not catch same-story CCTV entries across broadcast slots or subdomains | OPEN — operator decision required on CP scope and timing | Fix: broadcaster-level dedup on (publisher, date, normalized_title_core) stripping slot prefix; Claude Code Bc assessment 2026-05-23 |
+
+---
+
+## SYSTEM HEALTH
+
+* Stability: HIGH
+* Retrieval: STRONG — Brave + Baidu both operational
+* Validator: STRONG — GREEN PASS confirmed across all post-Phase-6.8 runs
+* Scrubber: STRONG — uncited removal active; conflict extraction active
+* Delivery Gate: STRONG
+* Citation Substitution: ACTIVE — result_ids → publisher/date in Lark output
+* Conflict Detection: CONFIRMED — all three tiers (⚠/↔/~) operational
+* Agent Citation Discipline: STRONG — fabrication rate 0%; 11 distinct publishers
+  in both 2026-05-10 and 2026-05-11 deliveries including Chinese-market sources
+
+---
+
+## NEXT STEP
+
+SESSION START: Run PowerShell scp block from config/VPS_SYNC_PROTOCOL.md
+  before any pipeline review or implementation work.
+
+Phase D ACTIVE — Controlled Pilot (Step 8).
+  Pilot client: china_monitor_001. Operator review required on every delivery.
+  Ten consecutive clean external deliveries with operator/client confirmation
+  required to close Phase D gate.
+
+  Phase D preparation items (COMPLETE 2026-05-20):
+  ✔ OPENCLAW_PHASE_D_FEEDBACK_REGISTER.md — written to phase_d/
+  ✔ OPENCLAW_PHASE_D_CONTENT_SCORECARD.md — written to phase_d/
+  ✔ OPENCLAW_PHASE_D_CHANGE_PACKET_TEMPLATE.md — written to phase_d/
+
+  Phase D delivery history:
+  - Delivery 1 (2026-05-21): DEGRADED — held from external send; 4/8 bullets;
+    Issue #50 (thin retrieval); CP-001/002/003/004 deployed same session;
+    D-FB-001 logged; Scorecard entry complete
+  - Delivery 2 (2026-05-22): CLEAN — full 8-bullet brief; 25/25 citations;
+    CP-002/003/004 confirmed working; T-04 compliant; HELD from external send
+    (operator decision 2026-05-22); does not count toward gate streak
+  - Delivery 3 (2026-05-23): CLEAN — full 8-bullet brief; 19/19 citations;
+    CP-005 confirmed; T-04 compliant; scored; external send pending operator decision
+
+  Phase D ongoing:
+  - Pending validation 2026-05-24 cron (all four confirm on same run):
+    CP-007: topics_covered distinct from prior run; no stale-article framing
+    CP-008: SOURCES section present in delivered output; URLs resolve
+    Baidu filter: [RETRIEVAL] baidu_freshness_cutoff=48h in log; check kept/discarded
+    CP-005: validator_status=GREEN holding (stability check)
+  - Issue #50 monitoring — did not recur Delivery 2 or 3; continue watching
+  - Issue #54 OPEN — broadcaster dedup gap; operator decision on CP timing required
+  - Daily run reviews, feedback register, scorecard scoring
+
+  Browser Retrieval Phase 1 — parallel research track (authorized 2026-05-20):
+  - Days 1–2: Claude Code installs Playwright + Chromium on VPS;
+    builds fetch_article_text.py under /root/openclaw_phase7/
+  - Days 3–7: Test against historical retrieval packages; Western sources first
+  - Days 8–11: Chinese-source accessibility testing (VPS geographic access
+    is the key structural question — test this explicitly)
+  - Days 12–14: CoWork reads article_cache/; drafts findings report
+  Output path: /root/openclaw_phase7/article_cache/article_{result_id}.json
+  Hard constraints: no pipeline integration; no retrieval_package.json
+    modification; no agent input injection; no Validated Sources Appendix use;
+    no modification of any core pipeline directory or script
+
+  Open pre-production items (do not block Phase D; must clear before second
+  real client goes live):
+  - Issue #47: intermediate retrieval artifacts not namespaced (operator decision required)
+  - Issue #49: loader variable export audit (pre-production requirement)
+  - run_light_to_lark.sh lines 190/193: OPENCLAW_ARTIFACTNAMESPACE typo — missing underscore
+
+---
+
+## DO NOT
+
+* Modify agent, scrubber, validator, or retrieval without explicit operator authorization
+* Advance phase without operator approval
+* Open Phase 6.9–6.11 or Phase 7 work without explicit operator decision
