@@ -2,7 +2,7 @@
 document_id: OPENCLAW-PHASE-D-SCORECARD-001
 version: 1.4
 created: 2026-05-20
-last_updated: 2026-05-22
+last_updated: 2026-05-24
 status: ACTIVE
 classification: OPERATIONAL — PHASE D CONTENT SCORECARD
 ---
@@ -61,6 +61,8 @@ and CoWork output format — is defined in:
 |-----------|------|---------------|-----------|-----------|-----------|-------------------|-----------------|---------------|--------------------|--------------------|-------------|----------------------|--------------------|--------------------------|--------------------------|----------------------------|--------------------|--------------------------|-----------------|---------------------------------|-----------------|-----------------|--------------------------|--------------------|
 | 1 | 2026-05-21 | 06:31 | CoWork / Operator | GREEN 8/8/0 | 3 | 2 | 2 | 3 | 2 | 4 | 3 | N/A | 2 | 2 | 2 | N/A | 2 | 2 | Yes — PM interview | Relevant but too generic; sourcing not visible; advisory not actionable; no dollar amounts or dates | Citation discipline (0% fabrication, T-04 compliant); China linkage on all delivered bullets; Chinese-language sources present | Sourcing not visible to reader; bullets too generic (no dollar amounts/dates); advisory layer too generic to be actionable | Yes — thin retrieval (Issue #50, 4/8 bullets); sourcing not visible; external send not recommended | Hold from external send; implement CP-002/003/004; resolve Issue #50 before counting toward gate streak |
 | 2 | 2026-05-22 | 06:32 | CoWork | GREEN 25/25/0 | 4 | 3 | 4 | 4 | 3 | 5 | 4 | N/A | 4 | 5 | 3 | N/A | 4 | 4 | No — pending | Pending | Full 8-bullet brief; [CN]/[INTL]/[CN+INTL] labels on all bullets; concrete figures in every ET/AL bullet | Industry coverage narrow (no tech/AI/semiconductors); freshness signaling absent; two AL action clauses generic | None — T-10 residual is Brain Lite only; not delivery-blocking | External send pending operator review; CP-005 deploy for T-10 validator_status fix |
+| 3 | 2026-05-23 | 06:32 | CoWork | GREEN 19/19/0 | 4 | 3 | 4 | 4 | 3 | 5 | 4 | N/A | 4 | 5 | 3 | N/A | 4 | 4 | No — pending | Pending | Concrete figures throughout (Boeing 200 planes, 2.5% global growth, Strait of Hormuz); provenance labels active; T-04 compliant | Same three macro clusters (3rd consecutive); old articles concern (D-FB-004); no URLs in output (CP-008 not yet active) | None | External send pending operator decision; CP-007/008 deployed same session |
+| 4 | 2026-05-24 | 06:32 | CoWork | GREEN 13/13/0 | 4 | 3 | 3 | 3 | 3 | 5 | 4 | 4 | 4 | 4 | 3 | N/A | 3 | 3 | No — pending | Pending | CP-008 SOURCES confirmed (7 entries with title/publisher/date/url); T-04 compliant; concrete figures (gold -17%, 600 companies, Nvidia H200) | Low citation count (13 vs norm 19–25); same three macro clusters (4th consecutive); CP-007 partial | None | External send pending operator decision; CP-010 deployed same session |
 
 ---
 
@@ -85,24 +87,28 @@ scored (non-N/A) entries for that dimension.
 
 | Dimension | Deliveries scored | Average |
 |-----------|-----------------|---------|
-| Relevance | 2 | 3.5 |
-| Freshness clarity | 2 | 2.5 |
-| Source authority | 2 | 3.0 |
-| China linkage | 2 | 3.5 |
-| Advisory usefulness | 2 | 2.5 |
-| Claim calibration | 2 | 4.5 |
-| Readability | 2 | 3.5 |
-| Source accessibility | N/A | N/A |
-| Source specificity | 2 | 3.0 |
-| Source provenance clarity | 2 | 3.5 |
-| Industry coverage breadth | 2 | 2.5 |
+| Relevance | 4 | 3.75 |
+| Freshness clarity | 4 | 3.0 |
+| Source authority | 4 | 3.25 |
+| China linkage | 4 | 3.5 |
+| Advisory usefulness | 4 | 3.0 |
+| Claim calibration | 4 | 4.75 |
+| Readability | 4 | 4.0 |
+| Source accessibility | 1 | 4.0 |
+| Source specificity | 4 | 3.5 |
+| Source provenance clarity | 4 | 4.5 |
+| Industry coverage breadth | 4 | 2.75 |
 | Full retrieval transparency | N/A | N/A |
-| LinkedIn usefulness | 2 | 3.0 |
-| Overall client readiness | 2 | 3.0 |
+| LinkedIn usefulness | 4 | 3.5 |
+| Overall client readiness | 4 | 3.25 |
 
 ---
 
-*OPENCLAW-PHASE-D-SCORECARD-001 | Version 1.3 | Created: 2026-05-20 | Status: ACTIVE*
+*OPENCLAW-PHASE-D-SCORECARD-001 | Version 1.6 | Created: 2026-05-20 | Status: ACTIVE*
+
+*v1.6 changes (2026-05-24): Delivery 4 scored (overall readiness: 3). Source accessibility now active (CP-008 confirmed). Rolling averages updated to 4 deliveries.*
+
+*v1.5 changes (2026-05-24): Delivery 3 scored (overall readiness: 4). Rolling averages updated.*
 
 *v1.4 changes (2026-05-22): Delivery 2 scored and entered (overall readiness: 4). Rolling averages updated to 2 deliveries.*
 

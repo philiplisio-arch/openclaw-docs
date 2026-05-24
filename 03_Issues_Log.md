@@ -2,8 +2,8 @@
 
 ---
 document_id: OPENCLAW-ISSUES-001
-version: v2.3
-last_updated: 2026-05-22
+version: v2.4
+last_updated: 2026-05-24
 status: OPERATIONAL
 ---
 
@@ -21,9 +21,16 @@ and recently resolved issues.
 | 46 | OPENCLAW_ARTIFACT_NAMESPACE not propagating to scrubber subprocess | ✅ RESOLVED — 2026-05-20 |
 | 47 | Intermediate retrieval artifacts not client-namespaced | 🟡 OPEN — operator decision required |
 | 48 | Delivery relay not client-namespaced — test runs deliver to live channel | ✅ RESOLVED — 2026-05-20 |
-| 49 | run_light_to_lark.sh — OPENCLAW_CLIENT_ID and other loader vars assigned without export | 🟡 OPEN — pre-production tightening required |
-| 50 | Thin retrieval package — mapping_size=7 on 2026-05-21 run; 4 bullets removed | 🟡 MONITORING — did not recur 2026-05-22 Delivery 2; one clean run insufficient to close |
+| 49 | run_light_to_lark.sh — OPENCLAW_CLIENT_ID and other loader vars assigned without export | ✅ RESOLVED 2026-05-23 — 6 missing exports added; all 9 loader vars confirmed in subshell smoke test |
+| 50 | Thin retrieval package — mapping_size=7 on 2026-05-21 run; 4 bullets removed | 🟡 MONITORING — did not recur D2, D3, or D4; Baidu 48h filter deployed; continue watching |
 | 51 | light_to_lark.log gap — 2026-05-22 run absent from log; pipeline confirmed complete via artifacts | ✅ RESOLVED 2026-05-22 — not reproduced; snapshot timing artefact |
+| 52 | light_to_lark.log appeared to have no 2026-05-22 or 2026-05-23 run entries | ✅ RESOLVED 2026-05-23 — root cause: log lines have no timestamp prefixes; grep for dates returns zero by construction; deliveries not missing |
+| 53 | light_to_lark.log no timestamp line prefixes | ✅ RESOLVED 2026-05-23 — ISO timestamps added to run_light_to_lark.sh log emitter; active from 2026-05-24 cron |
+| 54 | Broadcaster-level dedup gap — dedup.py URL-key dedup does not catch same-story CCTV entries across broadcast slots or subdomains | 🟡 OPEN — operator decision required on CP scope and timing |
+| 55 | WS1 SIGNAL block (US/EU/ME regional summary) leaking into ALJ delivery payload via run_light_to_lark.sh heredoc | 🟡 OPEN — not blocking pilot_mode; CP-015 needed before live |
+| 56 | Phase 5 orchestrator exits non-zero (code 1) on all ALJ runs while producing valid output; CP-012 recovery path handling cleanly | 🟡 OPEN — not blocking; recovery reliable; root cause unknown |
+| 57 | LAST_HASH_FILE not client-namespaced — /root/openclaw_phase5/data/last_delivery_hash.txt shared across clients; WS1 and ALJ will overwrite each other's hash once both deliver live | 🟡 OPEN — not blocking while ALJ pilot_mode=true; CP-017 needed before live |
+| T-10 | Brain Lite metrics_unavailable | ✅ CLOSED 2026-05-23 — CP-005 confirmed on 2026-05-23 and 2026-05-24 cron; validator_status=GREEN holding |
 
 ## TRACKED INPUTS — FUTURE PHASE
 
@@ -55,6 +62,164 @@ and recently resolved issues.
 | 43 | Agent Result ID Fabrication Rate Elevated | ✅ RESOLVED (2026-05-07) |
 | 44 | Valid Sources Not Surfacing in Delivered Output | ✅ RESOLVED (2026-05-08) |
 | 45 | 2026-05-19 delivery failure — Step 9.3/9.4 deployment sequence | ✅ RESOLVED (2026-05-19) |
+
+---
+
+## Issue #57 — LAST_HASH_FILE Not Client-Namespaced
+
+### Status
+🟡 OPEN — not blocking while ALJ pilot_mode=true
+
+### Discovered
+2026-05-24 — Claude Code Lark proxy investigation / CP-016 drafting
+
+### Description
+
+`run_light_to_lark.sh:268` reads and writes
+`/root/openclaw_phase5/data/last_delivery_hash.txt` for every client.
+Once both WS1 and ALJ deliver live, the two clients will overwrite each
+other's hash. This causes false-blocks (a new delivery blocked because
+the other client just delivered different content that hashed the same
+slot) or false-allows (a duplicate delivered because the other client
+overwrote the hash since the last run).
+
+### Impact
+
+No impact while ALJ is in pilot_mode=true (delivery never reaches the
+hash check). Becomes a real collision risk the moment both clients
+deliver live simultaneously or on overlapping cron schedules.
+
+### Resolution Required
+
+CP-017: namespace `LAST_HASH_FILE` per `$OPENCLAW_ARTIFACT_NAMESPACE`,
+mirroring how `final_output_${OPENCLAW_ARTIFACT_NAMESPACE}.txt` is
+already namespaced. One-line fix. Should be bundled with CP-016 before
+ALJ goes live.
+
+---
+
+## Issue #56 — Orchestrator Exit=1 on ALJ Runs
+
+### Status
+🟡 OPEN — not blocking; CP-012 recovery path handling cleanly
+
+### Discovered
+2026-05-24 — ALJ pilot run analysis
+
+### Description
+
+Phase 5 orchestrator consistently exits non-zero (code 1) on all ALJ
+pilot runs while producing structurally valid 8-section output. Both
+ALJ pilot runs (18:56 UTC and 19:21 UTC on 2026-05-24) showed
+`orchestrator exit code = 1` with `output complete heuristic = true`
+and the recovery path engaging. The agent itself reports `status=0`.
+The non-zero exit originates somewhere in the orchestrator wrapper
+after the agent completes.
+
+### Impact
+
+Not blocking — CP-012's recovery design handles this correctly and
+delivery proceeds. However, the underlying cause is unknown and could
+mask a real failure in a future template or edge case.
+
+### Resolution Required
+
+Investigate with `bash -x` on next manual ALJ run. Check lines 3–163
+of the ALJ run log (`/root/openclaw_logs/phase5_run_20260524_192104.log`)
+for the stderr or step that produces the exit=1. File as CP or close as
+benign once root cause is confirmed.
+
+---
+
+## Issue #55 — WS1 SIGNAL Block Leaking Into ALJ Payload
+
+### Status
+🟡 OPEN — not blocking pilot_mode runs; must fix before ALJ live delivery
+
+### Discovered
+2026-05-24 — ALJ pilot run log analysis (lines 307–317 of run log)
+
+### Description
+
+The Python heredoc at `run_light_to_lark.sh:110–166` appends a
+United States / Europe / Middle East regional summary (SIGNAL block) to
+every delivery payload. This block bins retrieved source titles into
+geographic buckets by URL substring. For WS1 (china_monitor_001) this
+is a reasonable summary. For ALJ (alj_china_auto_001) it is WS1-specific
+content that has no place in an ALJ China Auto Weekly Brief.
+
+The content appeared in the delivery payload in the 2026-05-24 ALJ pilot
+run log. It is not in the scrubbed output file (scrubbing happens before
+the SIGNAL block is appended), but it is in the final Lark payload.
+
+### Impact
+
+Not blocking for pilot_mode=true (delivery never pushes to Lark).
+Would appear as spurious WS1-branded content in any live ALJ delivery.
+Breaks the ALJ product spec.
+
+### Resolution Required
+
+CP-015: make the SIGNAL block template-aware. For
+`alj_china_auto_weekly_v1`, either skip the block entirely or replace it
+with an ALJ-appropriate summary (e.g. China/GCC source breakdown). For
+WS1 default, behavior unchanged.
+
+---
+
+## Issue #54 — Broadcaster-Level Dedup Gap
+
+### Status
+🟡 OPEN — operator decision required
+
+### Discovered
+2026-05-23 — Claude Code dedup.py assessment
+
+### Description
+
+`dedup.py` keys on full URL only. CCTV near-duplicates survive deduplication because distinct broadcast-slot URLs differ per slot and per subdomain (`tv.cctv.com` vs `tv.cctv.cn`). Same story can appear multiple times in the retrieval package under different URLs.
+
+### Impact
+
+CCTV slot duplicates inflate the retrieval package with redundant content. Agent may cite multiple CCTV entries covering the same story, reducing source diversity in the delivered brief.
+
+### Resolution Required
+
+Operator decision on CP scope and timing. Proposed fix: broadcaster-level dedup on `(publisher, date, normalized_title_core)` stripping slot prefix.
+
+---
+
+## Issue #53 — light_to_lark.log No Timestamp Line Prefixes
+
+### Status
+✅ RESOLVED — 2026-05-23
+
+### Description
+
+All log lines in `light_to_lark.log` lacked timestamp prefixes, making it impossible to grep for specific dates to locate run boundaries.
+
+### Resolution
+
+ISO timestamps added to `run_light_to_lark.sh` log emitter. Every `light_to_lark.log` line now prefixed `2026-05-23T06:32:01Z [STAGE] ...`. Backup: `run_light_to_lark.sh.bak_20260523_issue53`. Active from 2026-05-24 cron.
+
+---
+
+## Issue #52 — light_to_lark.log Appeared to Have No Recent Run Entries
+
+### Status
+✅ RESOLVED — 2026-05-23
+
+### Description
+
+Grepping `light_to_lark.log` for dates (e.g., "2026-05-22") returned zero results, giving the false impression that recent runs were absent from the log.
+
+### Root Cause
+
+Log lines had no timestamp prefixes — grep for dates returns zero by construction. Deliveries were not missing. Per-run sidecar logs (`phase5_run_YYYYMMDD_HHMMSS.log`) in `/root/openclaw_logs/` are the timestamped record.
+
+### Resolution
+
+Root cause logged as Issue #53. Fix deployed same session.
 
 ---
 
@@ -193,7 +358,7 @@ Confirmed: Step 9.7 re-run shows `[SKIP] pilot_mode=true — delivery blocked fo
 ## Issue #49 — run_light_to_lark.sh Loader Variables Not Fully Exported
 
 ### Status
-🟡 OPEN — pre-production tightening required
+✅ RESOLVED — 2026-05-23
 
 ### Discovered
 2026-05-20 — Claude Code side observation during Fix 1 investigation
@@ -214,12 +379,12 @@ Not currently blocking — confirmed test_client_002 run produced correct namesp
 artifacts with current export set. Risk increases when additional clients and
 pipeline components are added in production.
 
-### Resolution Required
+### Resolution
 
-Audit all loader.env variables read in `run_light_to_lark.sh` lines 19–22 and
-confirm each is either exported or not needed by child processes. Add `export`
-to any that are consumed by subprocesses. Pre-production requirement before
-second real client goes live.
+Resolved 2026-05-23. Six missing `export` statements added to `run_light_to_lark.sh`:
+`OPENCLAW_CLIENT_ID`, `OPENCLAW_BRAIN_CONTEXT`, `OPENCLAW_DELIVERY_TYPE`,
+`OPENCLAW_CREDENTIALS_REF`, `OPENCLAW_QUERY_TEMPLATE`, `OPENCLAW_REPORT_TEMPLATE`.
+All 9 loader vars confirmed visible in subshell smoke test. Pre-production blocker cleared.
 
 ---
 

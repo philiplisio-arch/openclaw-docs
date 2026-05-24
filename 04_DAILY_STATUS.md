@@ -2,12 +2,12 @@
 
 ---
 document_id: 04_DAILY_STATUS
-version: v2.7
-last_updated: 2026-05-23
+version: v2.8
+last_updated: 2026-05-24
 status: OPERATIONAL
 ---
 
-DATE: 2026-05-23
+DATE: 2026-05-24
 PHASE: Phase 7 Entry — Phase D (Controlled Pilot)
 
 ---
@@ -457,15 +457,49 @@ Step 9.8 COMPLETE — 2026-05-20: Isolation verification results presented to
 ✔ Baidu 48h freshness filter DEPLOYED 2026-05-23 — filter_results.py; strict cutoff; py_compile exit 0; confirms 2026-05-24 cron
 ⚠ Issue #54 OPEN — broadcaster dedup gap (CCTV slot duplicates); operator decision pending
 ⚠ D-FB-004 Part B — Brave 3-day rule stays as-is (operator confirmed 2026-05-23)
+✔ CP-010 DEPLOYED 2026-05-24 — unified SOURCES footer (title|publisher|date|url); citation_sub.py
+  title field added (+2 lines); build_agent_input_slim.py SOURCES SECTION RULE added (+4 lines);
+  py_compile exit 0 both files; backups at .bak_20260524_cp010; confirms 2026-05-25 cron
 ✔ CP-006 IMPLEMENTED 2026-05-23 — Baidu-only retrieval for ALJ client; 3-file change (load_client_config.py +10, run_light_to_lark.sh +12, run_phase5_offline.sh +5); both-paths stub (brave_raw.json + namespaced); WS1 unaffected; all syntax checks pass; validates on first ALJ pilot run + next WS1 cron
 ✔ Issue #49 RESOLVED 2026-05-23 — 6 missing loader var exports added to run_light_to_lark.sh; all 9 loader vars confirmed in subshell smoke test; pre-production blocker cleared
 ✔ ARTIFACTNAMESPACE typo — NOT PRESENT; spec line numbers were stale (Issue #53 exec redirect shifted line numbering); zero grep matches confirmed; no edit required
 ✔ OPENCLAW-SPEC-ALJ-CHINA-AUTO-001 v1.0 — APPROVED 2026-05-23 (operator); governance steps 2, 5, 6 closed
 ✔ OPENCLAW-RQT-002 v1.0 (query templates alj_china_auto_weekly_v1) — APPROVED 2026-05-23
 ✔ client_config_alj_china_auto_001.yaml — APPROVED 2026-05-23 (operator confirmed); governance step 3 closed
-✔ CP-009 DRAFTED 2026-05-23 — ALJ-specific agent output format; conditional on OPENCLAW_REPORT_TEMPLATE; 8-section ALJ structure + Complete Chinese Source Appendix; WS1 unaffected; APPROVED — implementation pending
+✔ CP-009 DEPLOYED 2026-05-24 — ALJ-specific agent output format; OPENCLAW_REPORT_TEMPLATE conditional; 8-section ALJ brief + Complete Chinese Source Appendix; WS1 unaffected; py_compile exit 0
+✔ CP-011 DEPLOYED 2026-05-24 — client-aware Baidu freshness; ALJ=168h, WS1=48h; filter_results.py; py_compile exit 0; WS1 regression confirmed
+✔ CP-012 DEPLOYED AND VALIDATED 2026-05-24 — run_light_to_lark.sh template-aware (case block + completeness gate + awk anchor + brief title); bash -n exit 0; ALJ pilot confirms SECTION 1/8 heuristic working
+✔ CP-013 DEPLOYED AND VALIDATED 2026-05-24 — scrub_result_ids.py template-aware; SECTION 1–8 headers; SECTION 1 cited gate; prefix-match detection; "- " bullet fix; py_compile exit 0; ALJ replay: ids_kept=15/15, exit 0; WS1 regression: unchanged
+✔ CP-014 DEPLOYED AND VALIDATED 2026-05-24 — scrubber stdout tee to RUN_LOG; pipefail guard; PIPESTATUS; bash -n exit 0; confirmed in ALJ pilot run log
+⚠ Issue #55 OPEN — WS1 SIGNAL block in ALJ payload; CP-015 needed before live delivery
+⚠ Issue #56 OPEN — orchestrator exit=1 on ALJ runs; recovery handling; root cause unknown
+⚠ Issue #57 OPEN — LAST_HASH_FILE not namespaced; CP-017 needed before ALJ goes live
+⚠ CP-016 DRAFTED — per-client Lark document_id routing; awaiting ALJ doc_id from operator
+⚠ CP-017 DRAFTED — LAST_HASH_FILE namespace fix; one-line; should bundle with CP-016
 ⚠ Phase D Delivery 2 — CLEAN (2026-05-22): full 8-bullet brief; 25/25; HELD — operator decision 2026-05-22; external send deferred
 ✔ CP-005 CONFIRMED 2026-05-23 — validator_status=GREEN in run_summary; T-10 fully resolved
+06:32 cron run (2026-05-24) — Phase D Delivery 4 — DELIVERED, CLEAN.
+  Config loader active; artifact_namespace=china_monitor_001 confirmed.
+  delivery_status=delivered; full brief: 3 ET + 5 AL bullets.
+  Validator GREEN 13/13/0; uncited_claims_removed=0; unsupported_groups=0.
+  CP-005 HOLDING — validator_status=GREEN confirmed (stability check passing).
+  CP-007 PARTIAL — TOPIC DIFFERENTIATION RULE active; same three macro clusters
+    (Middle East/US-China/Europe) for 4th consecutive run; specific stories
+    differ (gold exchange -17%, Nvidia H200, beef approvals for 600 companies);
+    retrieval-side contribution not yet addressed (D-FB-004 Part B pending).
+  CP-008 CONFIRMED — SOURCES section with 7 entries (title|publisher|date|url)
+    present in Lark output; citation_sub.py append confirmed working.
+    Agent-generated geographic footer also present pre-CP-010.
+  Baidu filter CONFIRMED — results dropped 54→36 (D3: 54); freshness filter
+    active; log tag confirmed in sidecar (phase5_run_20260524_063002.log).
+  Brave=34, Baidu=36. T-04 COMPLIANT. Chinese-language sources present
+    (CCTV, Sina). Concrete figures: Shanghai gold -17% to 5633.7 tons,
+    600 US beef companies, Nvidia H200 not purchased in China.
+  CP-010 DEPLOYED 2026-05-24 — unified SOURCES footer (title|publisher|date|url);
+    two-part: citation_sub.py title field added (+2 lines); build_agent_input_slim.py
+    SOURCES SECTION RULE added (suppress agent geographic footer); py_compile exit 0
+    both files; backups at .bak_20260524_cp010; confirms 2026-05-25 cron.
+
 06:32 cron run (2026-05-23) — Phase D Delivery 3 — DELIVERED, CLEAN.
   Config loader active; artifact_namespace=china_monitor_001 confirmed.
   delivery_status=delivered; full brief: 3 ET + 5 AL bullets.
@@ -526,6 +560,47 @@ Broadcaster dedup gap identified 2026-05-23 — Claude Code Bc assessment:
   (publisher, date, normalized_title_core). Logged as Issue #54.
   Operator decision pending.
 
+WS2 (alj_china_auto_001) — ALJ pipeline stand-up 2026-05-24:
+  CP-009 DEPLOYED 2026-05-24 — ALJ-specific agent output format;
+    OPENCLAW_REPORT_TEMPLATE conditional in build_agent_input_slim.py;
+    8-section ALJ brief + Complete Chinese Source Appendix; WS1 unaffected;
+    py_compile exit 0; backup bak_20260523_cp009.
+  CP-011 DEPLOYED 2026-05-24 — client-aware Baidu freshness filter;
+    ALJ uses 168h (7-day), WS1 uses 48h; filter_results.py; py_compile exit 0;
+    backup bak_20260524_cp011. Smoke test confirmed WS1 cutoff=48h unchanged.
+  CP-012 DEPLOYED 2026-05-24 — run_light_to_lark.sh template-aware;
+    case block: BRIEF_TITLE, COMPLETENESS_RE_1/2, ENRICHMENT_AWK_ANCHOR;
+    completeness heuristic, enrichment awk, completeness gate, brief title
+    all parameterized; bash -n exit 0; backup bak_20260524_cp012.
+  CP-014 DEPLOYED 2026-05-24 — scrubber stdout tee to RUN_LOG;
+    set +o pipefail guard; PIPESTATUS exit capture; FAIL message updated to
+    "see scrubber output above"; bash -n exit 0; backup bak_20260524_cp014.
+  CP-013 DEPLOYED 2026-05-24 — scrub_result_ids.py template-aware;
+    _TEMPLATE_CONFIG dict; SECTION_HEADERS + REQUIRED_CITED_SECTION driven
+    by OPENCLAW_REPORT_TEMPLATE; ALJ: SECTION 1–8, required = SECTION 1;
+    WS1: {"EXECUTIVE TAKE","ADVISORY LAYER"} unchanged; 3 amendments applied:
+    (1) counter-increment uses REQUIRED_CITED_SECTION, (2) prefix-match
+    section detection for decorated headers "SECTION 1 — ...", (3) bullet
+    detection uses "- " (dash-space) to exclude --- horizontal rules;
+    py_compile exit 0; scrubber replay: ids_kept=15/15, unsupported=0,
+    uncited_removed=0, exit 0; WS1 regression: exit 0 byte-identical;
+    backup bak_20260524_cp013.
+  ALJ PILOT RUN 2026-05-24 11:21 UTC — ALL GATES PASS, pilot_mode blocking:
+    Config loader: PASS; Phase 5 orchestrator: exit=1 (recovery path active);
+    Heuristic: SECTION 1/SECTION 8 matched (CP-012 confirmed); Recovery: PASS;
+    Source-number resolver: 15/15 resolved, dropped=0, out_of_range=0;
+    Scrubber: exit 0, uncited_removed=0, unsupported_groups=0 (CP-013 confirmed);
+    CP-014 tee: scrubber stdout in RUN_LOG confirmed;
+    Validator: GREEN PASS 15/15/0; Delivery decision: delivered;
+    Pilot gate: [SKIP] pilot_mode=true — no Lark push (correct).
+  Lark proxy investigation: lark_doc_relay.py (PID 1382450, 0.0.0.0:8787);
+    single-destination Docs API client; per-client routing not implemented;
+    OPENCLAW_CREDENTIALS_REF inert; CP-016 drafted (per-client document_id
+    plumbing); CP-017 identified (LAST_HASH_FILE not namespaced — collision
+    risk when both clients deliver live). ALJ Lark doc_id pending operator.
+  New issues filed: #55 (SIGNAL block leak), #56 (orchestrator exit=1),
+    #57 (LAST_HASH_FILE not namespaced).
+
 ---
 
 ## ACTIVE ISSUES
@@ -539,12 +614,15 @@ Broadcaster dedup gap identified 2026-05-23 — Claude Code Bc assessment:
 | #47 | Intermediate retrieval artifacts not client-namespaced | OPEN | Operator decision required — pre-production |
 | #48 | Delivery relay not client-namespaced | RESOLVED 2026-05-20 | pilot_mode guard added; OPENCLAW_PILOT_MODE exported |
 | #49 | run_light_to_lark.sh loader vars not fully exported | RESOLVED 2026-05-23 | 6 missing exports added (OPENCLAW_CLIENT_ID, OPENCLAW_BRAIN_CONTEXT, OPENCLAW_DELIVERY_TYPE, OPENCLAW_CREDENTIALS_REF, OPENCLAW_QUERY_TEMPLATE, OPENCLAW_REPORT_TEMPLATE); all 9 loader vars confirmed in subshell smoke test |
-| T-10 | Brain Lite metrics_unavailable — ids_seen/ids_kept/ids_removed = 0 in run_summary | RESOLVED 2026-05-23 — CP-005 confirmed on 2026-05-23 cron; validator_status=GREEN in run_summary | CP-005 added severity read to get_validator_metrics(); confirmed working |
+| T-10 | Brain Lite metrics_unavailable — ids_seen/ids_kept/ids_removed = 0 in run_summary | CLOSED 2026-05-23 — CP-005 confirmed on 2026-05-23 cron; validator_status=GREEN in run_summary and holding on 2026-05-24 cron | CP-005 added severity read to get_validator_metrics(); two consecutive confirmations |
 | #50 | Thin retrieval package — mapping_size=7 (2026-05-21); 12 out-of-range source numbers; 4 bullets removed; Phase D Delivery 1 degraded | MONITORING — did not recur Delivery 2 or Delivery 3; two consecutive clean runs | Baidu 48h freshness filter deployed 2026-05-23 addresses one contributing factor; continue monitoring |
 | #51 | light_to_lark.log gap — 2026-05-22 run absent from local snapshot | RESOLVED 2026-05-22 — snapshot timing artefact; run confirmed at log lines 1526–1559 | |
 | #52 | light_to_lark.log appeared to have no 2026-05-22 or 2026-05-23 run entries | RESOLVED 2026-05-23 — root cause: log lines have no timestamp prefixes; grep for dates returns zero by construction; deliveries not missing; per-run sidecars are timestamped record | Fix deployed as Issue #53 |
 | #53 | light_to_lark.log no timestamp line prefixes | RESOLVED 2026-05-23 same session — ISO timestamps added to run_light_to_lark.sh log emitter; backup run_light_to_lark.sh.bak_20260523_issue53; active from 2026-05-24 cron | |
 | #54 | Broadcaster-level dedup gap — dedup.py URL-key dedup does not catch same-story CCTV entries across broadcast slots or subdomains | OPEN — operator decision required on CP scope and timing | Fix: broadcaster-level dedup on (publisher, date, normalized_title_core) stripping slot prefix; Claude Code Bc assessment 2026-05-23 |
+| #55 | WS1 SIGNAL block leaking into ALJ payload — Python heredoc at run_light_to_lark.sh:110–166 appends US/EU/ME regional summary to ALJ delivery payload | OPEN — not blocking pilot_mode runs; must fix before ALJ live delivery | CP-015 needed: skip or template-ize SIGNAL block for non-WS1 templates |
+| #56 | Orchestrator exit=1 on ALJ runs — Phase 5 orchestrator consistently exits non-zero while producing valid output; CP-012 recovery path handling it cleanly | OPEN — not blocking; recovery reliable | Investigate bash -x on next manual run; check lines 3–163 of ALJ run log for stderr |
+| #57 | LAST_HASH_FILE not client-namespaced — run_light_to_lark.sh:268 reads/writes /root/openclaw_phase5/data/last_delivery_hash.txt for all clients; WS1 and ALJ will overwrite each other's hash once both deliver live | OPEN — not blocking while ALJ in pilot_mode | CP-017: namespace per $OPENCLAW_ARTIFACT_NAMESPACE; one-line fix; must resolve before ALJ goes live |
 
 ---
 
@@ -586,13 +664,13 @@ Phase D ACTIVE — Controlled Pilot (Step 8).
     (operator decision 2026-05-22); does not count toward gate streak
   - Delivery 3 (2026-05-23): CLEAN — full 8-bullet brief; 19/19 citations;
     CP-005 confirmed; T-04 compliant; scored; external send pending operator decision
+  - Delivery 4 (2026-05-24): CLEAN — full 8-bullet brief; 13/13 citations;
+    CP-005/007/008 confirmed; CP-010 deployed same session; T-04 compliant;
+    SENT EXTERNALLY 2026-05-24 — gate streak begins; streak: 1 of 10
 
   Phase D ongoing:
-  - Pending validation 2026-05-24 cron (all four confirm on same run):
-    CP-007: topics_covered distinct from prior run; no stale-article framing
-    CP-008: SOURCES section present in delivered output; URLs resolve
-    Baidu filter: [RETRIEVAL] baidu_freshness_cutoff=48h in log; check kept/discarded
-    CP-005: validator_status=GREEN holding (stability check)
+  - Pending validation 2026-05-25 cron:
+    CP-010: unified SOURCES footer (title|publisher|date|url); no agent geographic footer below LinkedIn
   - Issue #50 monitoring — did not recur Delivery 2 or 3; continue watching
   - Issue #54 OPEN — broadcaster dedup gap; operator decision on CP timing required
   - Daily run reviews, feedback register, scorecard scoring
@@ -619,8 +697,9 @@ Phase D ACTIVE — Controlled Pilot (Step 8).
   WS2 (alj_china_auto_001) governance sequence:
   - Steps 2, 3, 4, 5, 6: COMPLETE (spec, config, query templates approved; Baidu-only confirmed; appendix fields confirmed)
   - Step 1 (product concept memo): pending
-  - Step 7 (first pilot run): BLOCKED on CP-009 implementation
-  - CP-009 approved — Claude Code implementation required before Step 7
+  - Step 7 (first pilot run): COMPLETE — ALJ pilot 2026-05-24 11:21 UTC; all gates PASS; pilot_mode=true blocking Lark push
+  - CP-009/011/012/013/014: all deployed and validated 2026-05-24
+  - Pre-live blockers: CP-015 (SIGNAL block), CP-016 (Lark routing), CP-017 (hash file namespace), ALJ Lark doc_id from operator
 
 ---
 

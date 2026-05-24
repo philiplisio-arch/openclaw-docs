@@ -2,8 +2,8 @@
 
 ---
 document_id: OPENCLAW-MDI-001
-version: v5.0
-last_updated: 2026-05-21
+version: v5.2
+last_updated: 2026-05-24
 status: ACTIVE
 ---
 
@@ -111,7 +111,20 @@ documents listed as GOVERNING, LOCKED, or ACTIVE are authoritative.
 | Change Packet 001 — Brain Lite Validation Path | OPENCLAW-D-CP-001 | `phase_d/OPENCLAW_PHASE_D_CP_001_brain_lite_validation_path.md` | phase_d/ | IMPLEMENTED | Brain Lite get_validator_metrics() namespace path fix; resolves T-10 regression; validation pending 2026-05-22 cron |
 | Change Packet 002 — Content Specificity | OPENCLAW-D-CP-002 | `phase_d/OPENCLAW_PHASE_D_CP_002_content_specificity.md` | phase_d/ | IMPLEMENTED | ET/AL specificity requirements (dollar amounts, named entities, dates); addresses D-FB-001 F-02/F-03; validation pending |
 | Change Packet 003 — LinkedIn Draft Format | OPENCLAW-D-CP-003 | `phase_d/OPENCLAW_PHASE_D_CP_003_linkedin_format.md` | phase_d/ | IMPLEMENTED | LinkedIn Draft instruction rewrite — specific, historically grounded, single-story; addresses D-FB-001 F-05 and T-07; validation pending |
-| Change Packet 004 — Source Provenance Labelling | OPENCLAW-D-CP-004 | `phase_d/OPENCLAW_PHASE_D_CP_004_source_provenance.md` | phase_d/ | IMPLEMENTED | [CN]/[INTL]/[CN+INTL] provenance tags per ET/AL bullet; addresses D-FB-001 F-06; validation pending |
+| Change Packet 004 — Source Provenance Labelling | OPENCLAW-D-CP-004 | `phase_d/OPENCLAW_PHASE_D_CP_004_source_provenance.md` | phase_d/ | CONFIRMED | [CN]/[INTL]/[CN+INTL] provenance tags per ET/AL bullet; confirmed working D2 onward |
+| Change Packet 005 — Brain Lite Validator Status | OPENCLAW-D-CP-005 | `phase_d/OPENCLAW_PHASE_D_CP_005_brain_lite_validator_status.md` | phase_d/ | CONFIRMED | Brain Lite validator_status field; T-10 fully resolved; confirmed D3 and D4 |
+| Change Packet 006 — Baidu-Only ALJ Client | OPENCLAW-D-CP-006 | `phase_d/OPENCLAW_PHASE_D_CP_006_baidu_only_alj_client.md` | phase_d/ | IMPLEMENTED | Baidu-only retrieval for alj_china_auto_001; 3-file change; validates on first ALJ pilot run |
+| Change Packet 007 — Freshness + Topic Differentiation | OPENCLAW-D-CP-007 | `phase_d/OPENCLAW_PHASE_D_CP_007_freshness_topic_nonrepetition.md` | phase_d/ | PARTIAL | FRESHNESS RULE + TOPIC DIFFERENTIATION RULE in system_rules; agent-side only; same macro clusters persist (D-FB-004 Part B pending) |
+| Change Packet 008 — Validated Sources Appendix | OPENCLAW-D-CP-008 | `phase_d/OPENCLAW_PHASE_D_CP_008_validated_sources_appendix.md` | phase_d/ | CONFIRMED | SOURCES section in citation_sub.py; publisher\|date\|url; confirmed D4 (7 entries with URLs) |
+| Change Packet 009 — ALJ Output Format | OPENCLAW-D-CP-009 | `phase_d/OPENCLAW_PHASE_D_CP_009_alj_output_format.md` | phase_d/ | CONFIRMED | ALJ-specific 8-section output format + Complete Chinese Source Appendix; deployed 2026-05-24; ALJ pilot validates |
+| Change Packet 010 — Unified SOURCES Footer | OPENCLAW-D-CP-010 | `phase_d/OPENCLAW_PHASE_D_CP_010_unified_sources_footer.md` | phase_d/ | IMPLEMENTED | title\|publisher\|date\|url in SOURCES; agent geographic footer suppressed; confirms 2026-05-25 cron |
+| Change Packet 011 — Client-Aware Baidu Freshness | OPENCLAW-D-CP-011 | `phase_d/OPENCLAW_PHASE_D_CP_011_alj_baidu_freshness.md` | phase_d/ | CONFIRMED | ALJ=168h, WS1=48h; filter_results.py; deployed 2026-05-24; smoke test confirms WS1 unchanged |
+| Change Packet 012 — Template-Aware Shell Heuristics | OPENCLAW-D-CP-012 | `phase_d/OPENCLAW_PHASE_D_CP_012_template_aware_shell.md` | phase_d/ | CONFIRMED | run_light_to_lark.sh case block; completeness heuristic/gate/awk/title parameterized; ALJ pilot validates |
+| Change Packet 013 — Scrubber Template-ization | OPENCLAW-D-CP-013 | `phase_d/OPENCLAW_PHASE_D_CP_013_scrubber_template_aware.md` | phase_d/ | CONFIRMED | scrub_result_ids.py SECTION 1–8 headers + REQUIRED_CITED_SECTION; 3 amendments; ALJ replay: ids_kept=15/15, exit 0 |
+| Change Packet 014 — Scrubber Failure Logging | OPENCLAW-D-CP-014 | `phase_d/OPENCLAW_PHASE_D_CP_014_scrubber_logging.md` | phase_d/ | CONFIRMED | Scrubber stdout tee to RUN_LOG; pipefail guard; PIPESTATUS; ALJ pilot confirms real reason visible |
+| Change Packet 015 — SIGNAL Block Template-ization | OPENCLAW-D-CP-015 | (not yet drafted) | phase_d/ | PENDING | Skip/template-ize WS1 SIGNAL block (US/EU/ME) for ALJ; Issue #55; needed before ALJ live delivery |
+| Change Packet 016 — Lark Per-Client Routing | OPENCLAW-D-CP-016 | (not yet saved) | phase_d/ | DRAFT | Shell-side document_id plumbing; OPENCLAW_CREDENTIALS_REF becomes load-bearing; awaiting ALJ Lark doc_id |
+| Change Packet 017 — LAST_HASH_FILE Namespace | OPENCLAW-D-CP-017 | (not yet drafted) | phase_d/ | PENDING | Namespace last_delivery_hash.txt per client; one-line fix; Issue #57; bundle with CP-016 |
 
 ---
 
@@ -188,7 +201,9 @@ Updates require operator approval per Hard Safety Rule R-01.
 
 ---
 
-*OPENCLAW-MDI-001 | Version v5.0 | Last updated: 2026-05-21 | Status: ACTIVE*
+*OPENCLAW-MDI-001 | Version v5.1 | Last updated: 2026-05-24 | Status: ACTIVE*
+
+*v5.1 changes (2026-05-24): CP-005 through CP-010 added to Tier 6. CP-004 status updated to CONFIRMED. CONFIRMED added to status definitions: change packet validated across one or more cron runs. CP-010 file does not yet exist on disk — to be created.*
 
 *v5.0 changes (2026-05-21): Four Phase D Change Packets added to Tier 6 — CP-001 (Brain Lite validation path fix, OPENCLAW-D-CP-001), CP-002 (content specificity, OPENCLAW-D-CP-002), CP-003 (LinkedIn Draft format, OPENCLAW-D-CP-003), CP-004 (source provenance labelling, OPENCLAW-D-CP-004). All status: IMPLEMENTED; validation pending 2026-05-22 cron run. IMPLEMENTED added to status definitions. "IMPLEMENTED" status: change packet applied to VPS; awaiting validation runs.*
 
