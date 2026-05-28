@@ -1,9 +1,9 @@
 ---
 document_id: OPENCLAW-OPS-001
 status: LOCKED
-version: 2.6
+version: 2.7
 created: 2026-05-01
-last_updated: 2026-05-20
+last_updated: 2026-05-24
 classification: GOVERNANCE — SYSTEM CONTROL DOCUMENT
 ---
 
@@ -114,7 +114,8 @@ The OpenClaw pipeline executes independently of Claude CoWork, in the following
 fixed sequence:
 
 ```
-Trigger → Retrieval → Orchestrator → Agent → Scrubber → Validator → Delivery
+Trigger → Retrieval → Orchestrator → Agent → Scrubber →
+Control Layer → Validator → Delivery Gate → Lark
 ```
 
 Claude CoWork has no presence within this sequence. It does not observe, log,
@@ -377,7 +378,7 @@ decision.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-*OPENCLAW-OPS-001 | Version 2.6 | Created: 2026-05-01 | Last updated: 2026-05-20 | Status: LOCKED*
+*OPENCLAW-OPS-001 | Version 2.7 | Created: 2026-05-01 | Last updated: 2026-05-24 | Status: LOCKED*
 
 *Version 2.0 changes (operator approved 2026-05-07): Phase lock updated to 6.6; Permanent Architectural Rule added (Section 7); VPS Co-Location Model and Content Isolation Rule added (Section 3); Brain Lite Scope Lock added (Section 2); Phase 7 Execution Plan designated as canonical roadmap (Section 8).*
 
@@ -392,3 +393,5 @@ decision.
 *Version 2.5 changes (operator approved 2026-05-20): Phase lock updated to Phase D — Controlled Pilot; Phase C gate closure recorded; Phase D authorized; Section 2 IN SCOPE and OUT OF SCOPE updated to reflect Phase D scope.*
 
 *Version 2.6 changes (operator approved 2026-05-20): Browser Retrieval Phase 1 added to IN SCOPE (CoWork role: reading article_cache/ output and producing findings report only); Browser Retrieval Phase 2 integration added to OUT OF SCOPE.*
+
+*Version 2.7 changes (operator approved 2026-05-24): Section 3 pipeline sequence updated to match Constitution v6.0 canonical pipeline — Control Layer and Delivery Gate added as distinct stages; "Delivery" renamed to "Delivery Gate → Lark". Documentation alignment only; no behavioral change.*

@@ -2,12 +2,12 @@
 
 ---
 document_id: 04_DAILY_STATUS
-version: v2.8
-last_updated: 2026-05-24
+version: v3.1
+last_updated: 2026-05-28
 status: OPERATIONAL
 ---
 
-DATE: 2026-05-24
+DATE: 2026-05-28
 PHASE: Phase 7 Entry — Phase D (Controlled Pilot)
 
 ---
@@ -38,7 +38,7 @@ Phase 7 Entry — Phase D: ACTIVE — Controlled Pilot, operator-authorized 2026
 
 ## GOVERNING DOCUMENTS
 
-* Operating Protocol: OPENCLAW_COWORK_OPERATING_PROTOCOL.md (v2.6, updated 2026-05-20)
+* Operating Protocol: OPENCLAW_COWORK_OPERATING_PROTOCOL.md (v2.7, updated 2026-05-24)
   Phase lock updated to Phase 7 Entry — Phase D
 * Advisory Roadmap: OPENCLAW-ADV-002 — operator-approved strategic reference; not independently governing; implementation requires system-document authority and explicit operator approval
 * Phase 7 Execution Plan: OpenClaw_Phase7_Execution_Plan.docx (approved 2026-05-07 — CANONICAL)
@@ -304,7 +304,7 @@ Step 9.8 COMPLETE — 2026-05-20: Isolation verification results presented to
 ✔ Dual-provider retrieval operational — Brave + Baidu
 ✔ Phase 6 Soft Layer complete — all phases 6.1–6.8 closed
 ✔ Phase 7 Execution Plan approved as canonical roadmap — 2026-05-07
-✔ Operating Protocol v2.6 — 2026-05-20
+✔ Operating Protocol v2.7 — 2026-05-24 (pipeline sequence aligned to Constitution)
 ✔ Issue #43 resolved — fabrication rate 0% (Phase 6.8, 2026-05-07)
 ✔ Issue #44 resolved — Sina Finance present in 2026-05-08 06:32 delivery;
   validator 23/23 PASS; substitutions_made=23, missing_ids=0 confirmed
@@ -500,6 +500,76 @@ Step 9.8 COMPLETE — 2026-05-20: Isolation verification results presented to
     SOURCES SECTION RULE added (suppress agent geographic footer); py_compile exit 0
     both files; backups at .bak_20260524_cp010; confirms 2026-05-25 cron.
 
+06:31 cron run (2026-05-25) — Phase D Delivery 5 — DELIVERED, CLEAN.
+  Config loader active; artifact_namespace=china_monitor_001 confirmed.
+  delivery_status=delivered; validator GREEN 9/9/0; uncited_claims_removed=0;
+  unsupported_groups=0. ids_seen=9/ids_kept=9/ids_removed=0.
+  Brave=34, Baidu=54. T-04 COMPLIANT.
+  Brain Lite: run_summary_china_monitor_001_20260525.json confirmed (570 bytes).
+  topics_covered: crude oil prices (New York/Brent); EU steel import controls;
+    Nvidia H20 / US-China tech trade.
+  CP-010 SOURCES footer status: UNCONFIRMED — final_output not synced;
+    agent geographic footer suppression requires D5 Lark check.
+  External send: HELD — identical content to D6 (operator decision 2026-05-28).
+
+06:32 cron run (2026-05-26) — Phase D Delivery 6 — DELIVERED, CLEAN.
+  Config loader active; artifact_namespace=china_monitor_001 confirmed.
+  delivery_status=delivered; validator GREEN 9/9/0; uncited_claims_removed=0;
+  unsupported_groups=0. ids_seen=9/ids_kept=9/ids_removed=0.
+  Brave=31, Baidu=54. T-04 COMPLIANT.
+  Brain Lite: run_summary_china_monitor_001_20260526.json confirmed (570 bytes).
+  topics_covered: IDENTICAL to D5 — crude oil prices; EU steel import controls;
+    Nvidia H20. Operator confirmed D5 and D6 content identical — 2026-05-28.
+  CP-007 PARTIAL FAILURE — topic repetition D5/D6 confirmed. Root cause:
+    Brain Lite digest not rebuilt after D4; agent had no D4 topic context;
+    retrieval returned same package on consecutive days. Logged as D-FB-006.
+    CP-018 proposed and approved same session (auto-rebuild digest on each run).
+  External send: HELD — identical to D5 (operator decision 2026-05-28).
+
+06:32 cron run (2026-05-27) — Phase D Delivery 7 — DELIVERED, CLEAN.
+  Config loader active; artifact_namespace=china_monitor_001 confirmed.
+  delivery_status=delivered; validator GREEN 17/17/0; uncited_claims_removed=0;
+  unsupported_groups=0. ids_seen=17/ids_kept=17/ids_removed=0.
+  Brave=37, Baidu=54. T-04 COMPLIANT.
+  Brain Lite: run_summary_china_monitor_001_20260527.json confirmed (567 bytes).
+  topics_covered DISTINCT from D6: US-China economic relations (evolving
+    dynamics); European trade with China — internal EU divisions; Middle East
+    crisis / global energy markets.
+  CP-007 HOLDING — topic differentiation active on D7 (one run; two required
+    for validation).
+  External send: ELIGIBLE — pending operator decision.
+
+06:32 cron run (2026-05-28) — Phase D Delivery 8 — DELIVERED, CLEAN.
+  Config loader active; artifact_namespace=china_monitor_001 confirmed.
+  delivery_status=delivered; full brief: 3 ET + 5 AL bullets confirmed.
+  Validator GREEN 12/12/0; uncited_claims_removed=0; unsupported_groups=0.
+  ids_seen=12/ids_kept=12/ids_removed=0. Brave=44, Baidu=45.
+  Brain Lite: run_summary_china_monitor_001_20260528.json confirmed.
+  validator_status=GREEN (CP-005 holding).
+  topics_covered DISTINCT from D7: China industrial profits +24.7% (April,
+    fastest gain in two years); European company sentiment improving in China
+    (35% optimistic, first improvement in five years); Middle East energy crisis
+    (TotalEnergies fuel caps, EU Arctic drilling).
+  All 8 bullets [INTL] provenance labelled. T-04 COMPLIANT — all AL bullets
+    conditional/hedged framing. Chinese-language sources present (CCTV, Sina).
+    Concrete figures: 24.7% profit growth, 35% optimism rate, fuel price caps.
+  CP-007 VALIDATION CRITERIA MET — D7 + D8 show distinct topics on consecutive
+    runs. Note: CP-007 did not prevent D5/D6 repetition (stale digest);
+    CP-018 addresses structural gap.
+  CP-010 ISSUE — agent geographic footer (United States/Europe/Middle East
+    sections) present in final_output_scrubbed_china_monitor_001.txt.
+    SOURCES SECTION RULE in build_agent_input_slim.py not suppressing agent
+    footer. CP-019 proposed (strengthen suppression instruction).
+    Logged as Issue #58.
+  External send: ELIGIBLE — pending operator decision.
+
+light_to_lark.log D5–D8 gap: ISO timestamp entries (Issue #53 fix, deployed
+  2026-05-23, active from 2026-05-24 cron) not present in synced log tail.
+  Tail -100 shows most recent entries ending with D1 pattern (mapping_size=7).
+  D5–D8 log entries absent from local sync. Pipeline completions confirmed via
+  four independent run_summary JSONs. Issue #53 effectiveness on VPS log
+  requires investigation — logged as Issue #59.
+
 06:32 cron run (2026-05-23) — Phase D Delivery 3 — DELIVERED, CLEAN.
   Config loader active; artifact_namespace=china_monitor_001 confirmed.
   delivery_status=delivered; full brief: 3 ET + 5 AL bullets.
@@ -557,7 +627,7 @@ Broadcaster dedup gap identified 2026-05-23 — Claude Code Bc assessment:
   dedup.py keys on full URL only; CCTV near-duplicates survive because
   distinct broadcast-slot URLs differ per slot and per subdomain
   (tv.cctv.com vs tv.cctv.cn). Fix: broadcaster-level dedup on
-  (publisher, date, normalized_title_core). Logged as Issue #54.
+  (publisher, date, normalized_title_core) stripping slot prefix. Logged as Issue #54.
   Operator decision pending.
 
 WS2 (alj_china_auto_001) — ALJ pipeline stand-up 2026-05-24:
@@ -601,6 +671,68 @@ WS2 (alj_china_auto_001) — ALJ pipeline stand-up 2026-05-24:
   New issues filed: #55 (SIGNAL block leak), #56 (orchestrator exit=1),
     #57 (LAST_HASH_FILE not namespaced).
 
+✔ Document Versions Index updated to v1.1 — 2026-05-24; all core document
+  versions brought into alignment with live corpus; prior v1.0 archived at
+  old/Document_Versions_Index_v1.0_2026-05-13.md
+✔ Operating Protocol updated to v2.7 — 2026-05-24; Section 3 pipeline sequence
+  aligned to Constitution v6.0 (Control Layer + Delivery Gate added as distinct
+  stages); documentation alignment only; prior v2.6 archived at
+  old/OPENCLAW_COWORK_OPERATING_PROTOCOL_v2.6_2026-05-20.md
+⚠ CP-007 PARTIAL FAILURE — D5/D6 topic repetition confirmed (operator-verified
+  2026-05-28); root cause: stale Brain Lite digest; CP-018 approved same session
+✔ CP-007 VALIDATION — D7+D8 show distinct topics on consecutive runs; two-run
+  validation criteria met where digest context is current
+✔ D-FB-006 LOGGED — topic repetition D5/D6; CP-007 structural gap; CP-018 addresses
+✔ CP-018 IMPLEMENTED 2026-05-28 — auto-rebuild Brain Lite digest; inserted at
+  lines 371–381 of run_light_to_lark.sh inside delivery-success block; echo used
+  (no log function in script); backup at .bak_20260528_cp018; bash -n exit 0;
+  validation pending D9 cron (digest_rebuild_completed in sidecar log + fresh
+  digest mtime + distinct topics_covered)
+✔ CP-019 IMPLEMENTED 2026-05-28 — geographic footer suppression; SOURCES SECTION
+  RULE replaced at lines 193–210 of build_agent_input_slim.py (3→18 lines);
+  backup at .bak_20260528_cp019; py_compile exit 0; validation pending D9 cron
+  (geographic footer absent from final_output_scrubbed). Note: ALJ SOURCES SECTION
+  RULE block at lines 75–76 left untouched — correct for now; will be addressed
+  under CP-021 ALJ output restructuring. Issue #58 pending validation.
+⚠ Issue #59 OPEN — light_to_lark.log D5–D8 entries absent from local sync;
+  ISO timestamp fix (Issue #53) not visible in synced log tail; VPS investigation
+  required
+✔ Signal-widening plan APPROVED 2026-05-28 — ADV-013 (original memo 2026-05-24),
+  ADV-013-REVIEW (consultant review), ADV-013-RESPONSE (revised operator response)
+  filed in advisory/. Four operator decisions resolved (see below).
+✔ Four operator decisions resolved 2026-05-28:
+  (1) Tier sequencing approved with revisions — CP-022A added; Tier 0 distinction;
+      ALJ CP-023 held-mode timing revised
+  (2) CP-020 ALJ inclusion — shared schema; ALJ held/pre-live only
+  (3) LinkedIn disposition — SUPPRESSED from default WS1 output under CP-021
+  (4) Gate streak — RESTARTS on first live CP-021 delivery
+✔ CP-020 APPROVED 2026-05-28 — source taxonomy + freshness labels; shared WS1/ALJ
+  schema; WS1 live after deployment; ALJ held/pre-live only; implementation pending
+  Claude Code; spec at phase_d/OPENCLAW_PHASE_D_CP_020_source_taxonomy_freshness_labels.md
+✔ CP-021 APPROVED 2026-05-28 — source-first output restructuring (WS1); LinkedIn
+  suppressed; gate streak restarts on first live delivery; 2 held-mode runs required;
+  implementation pending Claude Code; also requires scrub_result_ids.py +
+  run_light_to_lark.sh section header updates in same session;
+  spec at phase_d/OPENCLAW_PHASE_D_CP_021_source_first_output_restructuring.md
+✔ CP-022A APPROVED 2026-05-28 — WS1 query family held-mode dry run; no live delivery
+  effect; compares expanded query families against current source baseline;
+  gates CP-022 live deployment; implementation pending Claude Code;
+  spec at phase_d/OPENCLAW_PHASE_D_CP_022A_query_family_dry_run.md
+✔ CP-022 APPROVED 2026-05-28 — WS1 core China query family expansion (live);
+  blocked on CP-022A gate + Browser Phase 1 findings; implementation pending;
+  spec at phase_d/OPENCLAW_PHASE_D_CP_022_ws1_query_family_expansion.md
+✔ CP-023 APPROVED 2026-05-28 — ALJ query family expansion; 8 query families;
+  blocked on ALJ pre-live blockers + 1 baseline held ALJ run; external live delivery
+  NOT required before held-mode testing; implementation pending;
+  spec at phase_d/OPENCLAW_PHASE_D_CP_023_alj_query_family_expansion.md
+✔ CP-024 APPROVED 2026-05-28 — source appendix upgrade; adds source_category +
+  freshness_label to SOURCES appendix; deterministic labeling from metadata preferred;
+  UNKNOWN fallback; blocked on CP-020; implementation pending;
+  spec at phase_d/OPENCLAW_PHASE_D_CP_024_source_appendix_upgrade.md
+✔ Browser Retrieval Phase 1 integration documented 2026-05-28 — Phase 1 begins
+  during Tier 1; CoWork findings report during Tier 2; operator Phase 2 go/no-go
+  decision required before CP-022 and CP-023 live retrieval expansions proceed
+
 ---
 
 ## ACTIVE ISSUES
@@ -613,30 +745,36 @@ WS2 (alj_china_auto_001) — ALJ pipeline stand-up 2026-05-24:
 | #46 | OPENCLAW_ARTIFACT_NAMESPACE not propagating to scrubber | RESOLVED 2026-05-20 | export added line 20; typo fixed line 191 |
 | #47 | Intermediate retrieval artifacts not client-namespaced | OPEN | Operator decision required — pre-production |
 | #48 | Delivery relay not client-namespaced | RESOLVED 2026-05-20 | pilot_mode guard added; OPENCLAW_PILOT_MODE exported |
-| #49 | run_light_to_lark.sh loader vars not fully exported | RESOLVED 2026-05-23 | 6 missing exports added (OPENCLAW_CLIENT_ID, OPENCLAW_BRAIN_CONTEXT, OPENCLAW_DELIVERY_TYPE, OPENCLAW_CREDENTIALS_REF, OPENCLAW_QUERY_TEMPLATE, OPENCLAW_REPORT_TEMPLATE); all 9 loader vars confirmed in subshell smoke test |
-| T-10 | Brain Lite metrics_unavailable — ids_seen/ids_kept/ids_removed = 0 in run_summary | CLOSED 2026-05-23 — CP-005 confirmed on 2026-05-23 cron; validator_status=GREEN in run_summary and holding on 2026-05-24 cron | CP-005 added severity read to get_validator_metrics(); two consecutive confirmations |
-| #50 | Thin retrieval package — mapping_size=7 (2026-05-21); 12 out-of-range source numbers; 4 bullets removed; Phase D Delivery 1 degraded | MONITORING — did not recur Delivery 2 or Delivery 3; two consecutive clean runs | Baidu 48h freshness filter deployed 2026-05-23 addresses one contributing factor; continue monitoring |
-| #51 | light_to_lark.log gap — 2026-05-22 run absent from local snapshot | RESOLVED 2026-05-22 — snapshot timing artefact; run confirmed at log lines 1526–1559 | |
-| #52 | light_to_lark.log appeared to have no 2026-05-22 or 2026-05-23 run entries | RESOLVED 2026-05-23 — root cause: log lines have no timestamp prefixes; grep for dates returns zero by construction; deliveries not missing; per-run sidecars are timestamped record | Fix deployed as Issue #53 |
-| #53 | light_to_lark.log no timestamp line prefixes | RESOLVED 2026-05-23 same session — ISO timestamps added to run_light_to_lark.sh log emitter; backup run_light_to_lark.sh.bak_20260523_issue53; active from 2026-05-24 cron | |
-| #54 | Broadcaster-level dedup gap — dedup.py URL-key dedup does not catch same-story CCTV entries across broadcast slots or subdomains | OPEN — operator decision required on CP scope and timing | Fix: broadcaster-level dedup on (publisher, date, normalized_title_core) stripping slot prefix; Claude Code Bc assessment 2026-05-23 |
-| #55 | WS1 SIGNAL block leaking into ALJ payload — Python heredoc at run_light_to_lark.sh:110–166 appends US/EU/ME regional summary to ALJ delivery payload | OPEN — not blocking pilot_mode runs; must fix before ALJ live delivery | CP-015 needed: skip or template-ize SIGNAL block for non-WS1 templates |
-| #56 | Orchestrator exit=1 on ALJ runs — Phase 5 orchestrator consistently exits non-zero while producing valid output; CP-012 recovery path handling it cleanly | OPEN — not blocking; recovery reliable | Investigate bash -x on next manual run; check lines 3–163 of ALJ run log for stderr |
-| #57 | LAST_HASH_FILE not client-namespaced — run_light_to_lark.sh:268 reads/writes /root/openclaw_phase5/data/last_delivery_hash.txt for all clients; WS1 and ALJ will overwrite each other's hash once both deliver live | OPEN — not blocking while ALJ in pilot_mode | CP-017: namespace per $OPENCLAW_ARTIFACT_NAMESPACE; one-line fix; must resolve before ALJ goes live |
+| #49 | run_light_to_lark.sh loader vars not fully exported | RESOLVED 2026-05-23 | 6 missing exports added; all 9 loader vars confirmed in subshell smoke test |
+| T-10 | Brain Lite metrics_unavailable | CLOSED 2026-05-23 | CP-005 confirmed on 2026-05-23 cron; validator_status=GREEN holding on 2026-05-24 cron |
+| #50 | Thin retrieval package — Phase D Delivery 1 degraded | MONITORING | Did not recur D2–D8 (D5/D6 ids=9 but no bullet removal); Baidu 48h filter deployed; continue monitoring |
+| #51 | light_to_lark.log gap — 2026-05-22 run absent from local snapshot | RESOLVED 2026-05-22 | Snapshot timing artefact; run confirmed at log lines 1526–1559 |
+| #52 | light_to_lark.log no timestamp line prefixes | RESOLVED 2026-05-23 | Root cause: no timestamp prefixes; grep for dates returns zero by construction; fix deployed as Issue #53 |
+| #53 | light_to_lark.log no timestamp line prefixes | RESOLVED 2026-05-23 | ISO timestamps added to run_light_to_lark.sh log emitter; active from 2026-05-24 cron |
+| #54 | Broadcaster-level dedup gap | OPEN | Operator decision required on CP scope and timing |
+| #55 | WS1 SIGNAL block leaking into ALJ payload | OPEN | CP-015 needed before ALJ live delivery |
+| #56 | Orchestrator exit=1 on ALJ runs | OPEN | Not blocking; recovery reliable; root cause investigation pending |
+| #57 | LAST_HASH_FILE not client-namespaced | OPEN | CP-017 needed before ALJ goes live |
+| #58 | CP-010 agent geographic footer suppression not working — United States/Europe/Middle East footer present in D8 final_output_scrubbed; SOURCES SECTION RULE ineffective | OPEN | CP-019 APPROVED 2026-05-28 — implementation by Claude Code pending |
+| #59 | light_to_lark.log D5–D8 entries absent from local sync; Issue #53 ISO timestamp fix not visible in synced log tail | OPEN | VPS log investigation required |
 
 ---
 
 ## SYSTEM HEALTH
 
 * Stability: HIGH
-* Retrieval: STRONG — Brave + Baidu both operational
-* Validator: STRONG — GREEN PASS confirmed across all post-Phase-6.8 runs
+* Retrieval: MODERATE — Brave + Baidu operational; D5/D6 ids_seen=9 (thin but no
+  bullet removal); D7=17, D8=12 (normal range); Baidu 48h filter active
+* Validator: STRONG — GREEN PASS all D5–D8 runs; 0 failures across all Phase D
 * Scrubber: STRONG — uncited removal active; conflict extraction active
 * Delivery Gate: STRONG
 * Citation Substitution: ACTIVE — result_ids → publisher/date in Lark output
 * Conflict Detection: CONFIRMED — all three tiers (⚠/↔/~) operational
-* Agent Citation Discipline: STRONG — fabrication rate 0%; 11 distinct publishers
-  in both 2026-05-10 and 2026-05-11 deliveries including Chinese-market sources
+* Agent Citation Discipline: STRONG — fabrication rate 0%; T-04 compliant all runs
+* Brain Lite: ACTIVE — digest rebuild gap identified (CP-018 approved 2026-05-28;
+  implementation pending); topic differentiation working when digest is current
+* Topic Differentiation: PARTIAL — CP-007 working on D7/D8; failed on D5/D6
+  (stale digest); CP-018 addresses structural gap
 
 ---
 
@@ -644,6 +782,43 @@ WS2 (alj_china_auto_001) — ALJ pipeline stand-up 2026-05-24:
 
 SESSION START: Run PowerShell scp block from config/VPS_SYNC_PROTOCOL.md
   before any pipeline review or implementation work.
+
+IMMEDIATE — 2026-05-28 (this session):
+  1. CP-018 implementation — Claude Code deploys auto-rebuild of Brain Lite
+     digest to run_light_to_lark.sh; validates D9 confirms digest_rebuild_completed
+  2. CP-019 implementation — Claude Code deploys geographic footer suppression
+     (strengthened SOURCES SECTION RULE in build_agent_input_slim.py)
+  3. Operator decision: send D7 (2026-05-27) and D8 (2026-05-28) externally?
+     - D5/D6 HELD (identical content — operator confirmed 2026-05-28)
+     - D7/D8 eligible — distinct topics, clean validator
+     - Sending D7+D8 advances gate streak to 3 of 10 (if D4 counts as 1)
+
+SIGNAL-WIDENING WORK QUEUE — approved 2026-05-28, sequenced:
+  Tier 0 (in-flight, complete first):
+    - CP-018 / CP-019: Claude Code, this session
+    - CP-015/016/017 + ALJ doc_id: ALJ pre-live blockers
+  Tier 1 (after Tier 0 stabilization items):
+    - CP-020: Claude Code — source taxonomy + freshness labels (WS1 live;
+      ALJ held/pre-live only)
+  Tier 2 (after CP-020 validates; three packets, staged):
+    - CP-021: Claude Code — source-first output restructuring + LinkedIn
+      suppression; 2 held-mode runs before live; gate streak restarts
+    - CP-022A: Claude Code — query family held-mode dry run (concurrent with
+      CP-021 if operator review capacity permits)
+    - CP-024: Claude Code — source appendix upgrade (after CP-020)
+  Tier 3 (after CP-022A gate + Browser Phase 1 findings):
+    - CP-022: Claude Code — WS1 query family expansion live
+  Tier 4 (after ALJ blockers + 1 baseline held ALJ run):
+    - CP-023: Claude Code — ALJ query family expansion (held mode first;
+      external live delivery not required before held-mode testing)
+  Browser Phase 1 (parallel):
+    - Implementation begins during Tier 1
+    - CoWork findings report produced during Tier 2
+    - Operator Phase 2 decision required before Tier 3 live
+
+  WS2 (ALJ) — pre-live blockers still open:
+  - ALJ Lark doc_id from operator (needed before CP-016 can be finalized)
+  - CP-015/016/017 bundle: SIGNAL block, Lark routing, hash file namespace
 
 Phase D ACTIVE — Controlled Pilot (Step 8).
   Pilot client: china_monitor_001. Operator review required on every delivery.
@@ -667,12 +842,22 @@ Phase D ACTIVE — Controlled Pilot (Step 8).
   - Delivery 4 (2026-05-24): CLEAN — full 8-bullet brief; 13/13 citations;
     CP-005/007/008 confirmed; CP-010 deployed same session; T-04 compliant;
     SENT EXTERNALLY 2026-05-24 — gate streak begins; streak: 1 of 10
+  - Delivery 5 (2026-05-25): CLEAN — 9/9 citations; T-04 compliant;
+    HELD — identical content to D6 (operator decision 2026-05-28)
+  - Delivery 6 (2026-05-26): CLEAN — 9/9 citations; T-04 compliant;
+    HELD — identical content to D5 (operator decision 2026-05-28)
+  - Delivery 7 (2026-05-27): CLEAN — 17/17 citations; distinct topics; T-04 compliant;
+    HELD — pre-CP-019 (geographic footer present); operator decision 2026-05-28
+  - Delivery 8 (2026-05-28): CLEAN — 12/12 citations; distinct topics; T-04 compliant;
+    HELD — pre-CP-019 (geographic footer present); operator decision 2026-05-28
+
+  Gate streak: 1 of 10 (D4 only confirmed sent; D5–D8 held).
 
   Phase D ongoing:
-  - Pending validation 2026-05-25 cron:
-    CP-010: unified SOURCES footer (title|publisher|date|url); no agent geographic footer below LinkedIn
-  - Issue #50 monitoring — did not recur Delivery 2 or 3; continue watching
+  - Issue #50 monitoring — did not recur D2–D8 (D5/D6 thin at ids=9 but no degradation)
   - Issue #54 OPEN — broadcaster dedup gap; operator decision on CP timing required
+  - Issue #58 OPEN — CP-010 geographic footer; CP-019 proposed
+  - Issue #59 OPEN — light_to_lark.log D5–D8 gap; VPS investigation pending
   - Daily run reviews, feedback register, scorecard scoring
 
   Browser Retrieval Phase 1 — parallel research track (authorized 2026-05-20):
@@ -690,9 +875,6 @@ Phase D ACTIVE — Controlled Pilot (Step 8).
   Open pre-production items (do not block Phase D; must clear before second
   real client goes live):
   - Issue #47: intermediate retrieval artifacts not namespaced (operator decision required)
-  - Issue #49: RESOLVED 2026-05-23
-  - ARTIFACTNAMESPACE typo: NOT PRESENT — confirmed resolved (no-op)
-  - CP-006 validation: pending first ALJ pilot run + next WS1 cron (regression check)
 
   WS2 (alj_china_auto_001) governance sequence:
   - Steps 2, 3, 4, 5, 6: COMPLETE (spec, config, query templates approved; Baidu-only confirmed; appendix fields confirmed)

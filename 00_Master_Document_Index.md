@@ -125,6 +125,14 @@ documents listed as GOVERNING, LOCKED, or ACTIVE are authoritative.
 | Change Packet 015 — SIGNAL Block Template-ization | OPENCLAW-D-CP-015 | (not yet drafted) | phase_d/ | PENDING | Skip/template-ize WS1 SIGNAL block (US/EU/ME) for ALJ; Issue #55; needed before ALJ live delivery |
 | Change Packet 016 — Lark Per-Client Routing | OPENCLAW-D-CP-016 | (not yet saved) | phase_d/ | DRAFT | Shell-side document_id plumbing; OPENCLAW_CREDENTIALS_REF becomes load-bearing; awaiting ALJ Lark doc_id |
 | Change Packet 017 — LAST_HASH_FILE Namespace | OPENCLAW-D-CP-017 | (not yet drafted) | phase_d/ | PENDING | Namespace last_delivery_hash.txt per client; one-line fix; Issue #57; bundle with CP-016 |
+| Change Packet 018 — Brain Lite Digest Auto-Rebuild | OPENCLAW-D-CP-018 | `phase_d/OPENCLAW_PHASE_D_CP_018_digest_auto_rebuild.md` | phase_d/ | IMPLEMENTED | Auto-rebuild digest after each successful run; lines 371–381 run_light_to_lark.sh; bash -n exit 0; validation pending D9 |
+| Change Packet 019 — Geographic Footer Suppression | OPENCLAW-D-CP-019 | `phase_d/OPENCLAW_PHASE_D_CP_019_geographic_footer_suppression.md` | phase_d/ | IMPLEMENTED | SOURCES SECTION RULE replaced lines 193–210 build_agent_input_slim.py; py_compile exit 0; validation pending D9; Issue #58 |
+| Change Packet 020 — Source Taxonomy + Freshness Labels | OPENCLAW-D-CP-020 | `phase_d/OPENCLAW_PHASE_D_CP_020_source_taxonomy_freshness_labels.md` | phase_d/ | APPROVED | Shared source-label schema (CN-OFFICIAL/CN-STATE/CN-BUSINESS etc.) and freshness labels (NEW-24H/FOLLOW-UP-48H etc.); WS1 live; ALJ held/pre-live only; Tier 1 |
+| Change Packet 021 — Source-First Output Restructuring | OPENCLAW-D-CP-021 | `phase_d/OPENCLAW_PHASE_D_CP_021_source_first_output_restructuring.md` | phase_d/ | APPROVED | Replace ET/AL/LinkedIn with 6-section source-first format; LinkedIn suppressed; gate streak restarts on first live delivery; 2 held-mode runs required; Tier 2 |
+| Change Packet 022A — Query Family Held-Mode Dry Run | OPENCLAW-D-CP-022A | `phase_d/OPENCLAW_PHASE_D_CP_022A_query_family_dry_run.md` | phase_d/ | APPROVED | WS1 expanded query families tested in held mode only; gates CP-022 live; Tier 2B |
+| Change Packet 022 — WS1 Query Family Expansion | OPENCLAW-D-CP-022 | `phase_d/OPENCLAW_PHASE_D_CP_022_ws1_query_family_expansion.md` | phase_d/ | APPROVED | Seven named WS1 query families live deployment; blocked on CP-022A + Browser Phase 1 findings; Tier 3 |
+| Change Packet 023 — ALJ Query Family Expansion | OPENCLAW-D-CP-023 | `phase_d/OPENCLAW_PHASE_D_CP_023_alj_query_family_expansion.md` | phase_d/ | APPROVED | Eight ALJ query families; blocked on ALJ pre-live blockers + 1 baseline held run; Tier 4 |
+| Change Packet 024 — Source Appendix Upgrade | OPENCLAW-D-CP-024 | `phase_d/OPENCLAW_PHASE_D_CP_024_source_appendix_upgrade.md` | phase_d/ | APPROVED | Adds source_category + freshness_label to SOURCES appendix; deterministic labeling; blocked on CP-020; Tier 2C |
 
 ---
 
@@ -142,8 +150,11 @@ documents listed as GOVERNING, LOCKED, or ACTIVE are authoritative.
 | Strategic Vision Memo | — | `advisory/OPENCLAW_Strategic_Vision_Memo_2026-05-15.md` | advisory/ | REFERENCE | Long-term product vision — AE exoskeleton, five-layer architecture, query layer, corpus/entity model; speculative discussion only |
 | Strategic Recap Memo | OPENCLAW-RECAP-001 | `advisory/OPENCLAW_Strategic_Recap_Memo_2026-05-18.md` | advisory/ | REFERENCE | Phase-by-phase project history and forward roadmap; operator-reviewed 2026-05-18; reference only |
 | Strategy Memo (external) | — | `advisory/Strategy Memo 6.8.26.txt` | advisory/ | REFERENCE | External strategy discussion document; reference only |
+| Advisory Memo 013 — Signal-Widening Strategy | OPENCLAW-ADV-013 | `advisory/Strategy Memo 6.8.26.txt` | advisory/ | REFERENCE | Best-in-class strategy for widening China-based signal in ALJ monitoring and core China report; prepared 2026-05-24; approved direction 2026-05-28 |
+| Advisory Memo 013 Consultant Review | OPENCLAW-ADV-013-REVIEW | `advisory/OPENCLAW-ADV-013-REVIEW_2026-05-28.md` | advisory/ | REFERENCE | Consultant review of operator response; 8 targeted revisions recommended; incorporated into final response |
+| Advisory Memo 013 Operator Response (Revised) | OPENCLAW-ADV-013-RESPONSE | `advisory/OPENCLAW-ADV-013-RESPONSE_2026-05-28.md` | advisory/ | OPERATOR APPROVED | Approved operator response to signal-widening advisory; tiered plan CP-020 through CP-024 + CP-022A; four decisions resolved; operator approved 2026-05-28 |
 
-Next advisory memo: ADV-013
+Next advisory memo: ADV-014
 
 ---
 
@@ -201,7 +212,11 @@ Updates require operator approval per Hard Safety Rule R-01.
 
 ---
 
-*OPENCLAW-MDI-001 | Version v5.1 | Last updated: 2026-05-24 | Status: ACTIVE*
+*OPENCLAW-MDI-001 | Version v5.3 | Last updated: 2026-05-28 | Status: ACTIVE*
+
+*v5.3 changes (2026-05-28): CP-018 through CP-024 + CP-022A added to Tier 6 (all APPROVED; CP-020/021/022A/022/023/024 are signal-widening plan; CP-018/019 are in-flight stabilization). ADV-013 / ADV-013-REVIEW / ADV-013-RESPONSE added to Tier 7. Next advisory counter updated to ADV-014.*
+
+*v5.2 changes (2026-05-24): CP-011 through CP-017 added to Tier 6. CP-006 added (Baidu-only ALJ). ALJ client config and spec docs added.*
 
 *v5.1 changes (2026-05-24): CP-005 through CP-010 added to Tier 6. CP-004 status updated to CONFIRMED. CONFIRMED added to status definitions: change packet validated across one or more cron runs. CP-010 file does not yet exist on disk — to be created.*
 
