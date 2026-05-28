@@ -2,7 +2,7 @@
 
 ---
 document_id: 04_DAILY_STATUS
-version: v3.1
+version: v3.4
 last_updated: 2026-05-28
 status: OPERATIONAL
 ---
@@ -861,11 +861,99 @@ Phase D ACTIVE — Controlled Pilot (Step 8).
   - Daily run reviews, feedback register, scorecard scoring
 
   Browser Retrieval Phase 1 — parallel research track (authorized 2026-05-20):
-  - Days 1–2: Claude Code installs Playwright + Chromium on VPS;
-    builds fetch_article_text.py under /root/openclaw_phase7/
-  - Days 3–7: Test against historical retrieval packages; Western sources first
-  - Days 8–11: Chinese-source accessibility testing (VPS geographic access
-    is the key structural question — test this explicitly)
+
+  WORKFLOW DECISION RULE — how to choose between main workstream and Phase 1:
+  - Main workstream (CP-020 onward) always has priority when there is a CP
+    ready to implement OR a validation result to review.
+  - Browser Phase 1 fills the waiting windows when the main workstream is
+    paused overnight waiting for a cron run and nothing is pending review.
+  - Hard deadline: Phase 1 must be complete and CoWork findings report written
+    before CP-022 goes live (Tier 3). Begin Phase 1 no later than when CP-021
+    enters held-mode validation — this gives enough runway to finish before
+    the CP-022 gate.
+
+  ✔ DAY 1 COMPLETE — 2026-05-28
+    Playwright 1.60.0 confirmed installed; Chromium install clean.
+    fetch_article_text.py deployed to /root/openclaw_phase7/browser_retrieval/
+    (prior version dated 2026-05-21 backed up — untracked earlier attempt).
+    /root/openclaw_phase7/article_cache/ created. py_compile exit 0.
+    Smoke tests:
+      Reuters: HTTP 401 (bot-block) — expected; not a Phase 1 blocker
+      Xinhua: HTTP 200, thin (homepage not article) — VPS can reach Chinese
+        sources; geographic access confirmed; encoding correct
+    Key finding: VPS geographic access to Chinese sources is not blocked.
+    "Thin" on Xinhua is a test-URL issue, not an access issue.
+
+  ✔ DAYS 2/3 COMPLETE — 2026-05-28
+    12 URLs tested from retrieval package run_20260527T223002Z (18 results;
+    4 Chinese source URLs available in this package).
+    Results by publisher:
+      CNBC:         2/2 success — 547, 783 words of clean article body ✓
+      Reuters:      0/4 — HTTP 401 on every URL; hard WAF block before HTML loads
+      Bloomberg:    0/2 — HTTP 403 bot-challenge; 254-word false positive
+                    (title="Are you a robot?"); status rule needs sanity check
+      CCTV:         0/2 — HTTP 200, thin (10 words); TV-video shell pages,
+                    no article body in DOM; tv.cctv.com/tv.cctv.cn structurally
+                    unsuitable for text extraction
+      Sina Finance: 1/1 borderline — HTTP 200, 65 words; real Chinese article
+                    text (daily digest format); encoding correct ✓
+      tapimq.cn:    0/1 — HTTP 200, 12 words; dead URL / placeholder template
+    Zero exceptions, zero timeouts across all 12 fetches.
+    Chinese encoding: correct — Simplified Chinese round-trips clean through JSON.
+    Key Phase 2 implications:
+      1. Add Bloomberg content sanity check (flag if title contains "robot"/
+         "captcha" or if HTTP 4xx regardless of word count)
+      2. CCTV TV-page URLs unsuitable — need news.cctv.com article pages
+         upstream in retrieval queries, not tv.cctv.*
+      3. Retrieval package Chinese pool was thin (4 URLs, 3 hosts, 1 dead) —
+         no Xinhua, Caixin, Yicai, mofcom.gov.cn, 证券时报, 东方财富 present;
+         Phase 2 evaluation of Chinese coverage needs a richer retrieval package
+      4. Reuters/Bloomberg: WAF blocking requires stealth UA strategy or
+         accept they are unreachable and route around them for Phase 2
+
+  ✔ DAYS 4–7 COMPLETE — 2026-05-28
+    14 URLs tested across 7 Chinese source domains (2 per domain). All 7
+    domains reachable; zero BOT_BLOCK; zero encoding errors; zero dead URLs.
+
+    CRITICAL BUG FOUND: fetch_article_text.py uses len(text.split()) for
+    word count. Chinese has no inter-word spaces — a 2700-char full article
+    scores as ~37 "words" and gets misclassified thin. Fix: compute
+    cjk_chars alongside word_count; treat either signal above threshold as
+    success. WITHOUT THIS FIX, every Chinese article is wrongly downgraded.
+
+    Effective viability (CJK-aware threshold: >300 CJK chars = success):
+      english.news.cn:  2/2 SUCCESS — 200+ word English-language articles ✓
+      yicai.com:        2/2 SUCCESS — 1800–2700 CJK chars, long-form biz ✓
+      eastmoney.com:    2/2 SUCCESS — substantial sector/financial articles ✓
+      xinhua.net (zh):  1/2 full article; 1/2 legit short photo-essay (THIN_FORMAT)
+      news.cctv.com:    1/2 substantial; 1/2 JS_RENDER (lede + footer only)
+      stcn.com:         1/2 substantial; 1/2 intentional news-flash (THIN_FORMAT)
+      caixin.com:       0/2 PAYWALL — lede + ~300 CJK then subscription cut
+
+    Bloomberg false-positive check: zero matches (all successes were HTTP 200
+    with real titles — no bot-challenge pages in this set).
+
+    Phase 2 fixes (priority order):
+      1. CJK word-count fix in fetch_article_text.py — one-line change;
+         blocks any meaningful Chinese enrichment until fixed
+      2. news.cctv.com: re-test with wait_until="networkidle" — may convert
+         JS-render failures to success without other changes
+      3. Caixin: accept lede-only (~300 CJK) as headline signal, or
+         deprioritize in retrieval ranking; full article needs auth session
+
+    CP-022A implication: if query expansion surfaces english.news.cn,
+    yicai.com, eastmoney.com, xinhua.net, news.cctv.com, stcn.com URLs —
+    the fetcher returns real article text on the majority of pages, PROVIDED
+    the CJK word-count fix is deployed first.
+
+  ⚠ CLAUDE CODE RATE-LIMITED — 2026-05-28
+    Claude Code API limit hit 2026-05-28 end of session. Access resumes
+    2026-06-01 00:00 UTC. All VPS-side Claude Code work paused until then.
+    D9 cron run (automated) unaffected.
+
+  - Days 8–11 (resumes 2026-06-01): Phase 2 fixes — CJK word-count fix in
+    fetch_article_text.py; CCTV networkidle re-test; Reuters/Bloomberg
+    stealth UA attempt
   - Days 12–14: CoWork reads article_cache/; drafts findings report
   Output path: /root/openclaw_phase7/article_cache/article_{result_id}.json
   Hard constraints: no pipeline integration; no retrieval_package.json
