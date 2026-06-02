@@ -2,8 +2,8 @@
 
 ---
 document_id: OPENCLAW-ISSUES-001
-version: v2.4
-last_updated: 2026-05-24
+version: v2.5
+last_updated: 2026-06-02
 status: OPERATIONAL
 ---
 
@@ -30,6 +30,8 @@ and recently resolved issues.
 | 55 | WS1 SIGNAL block (US/EU/ME regional summary) leaking into ALJ delivery payload via run_light_to_lark.sh heredoc | 🟡 OPEN — not blocking pilot_mode; CP-015 needed before live |
 | 56 | Phase 5 orchestrator exits non-zero (code 1) on all ALJ runs while producing valid output; CP-012 recovery path handling cleanly | 🟡 OPEN — not blocking; recovery reliable; root cause unknown |
 | 57 | LAST_HASH_FILE not client-namespaced — /root/openclaw_phase5/data/last_delivery_hash.txt shared across clients; WS1 and ALJ will overwrite each other's hash once both deliver live | 🟡 OPEN — not blocking while ALJ pilot_mode=true; CP-017 needed before live |
+| 60 | query_builder.py hardcoded to WS1 — ignores ALJ client config entirely (topic_focus, baidu_only, lookback_days, source_language, chinese_only); all ALJ pilot runs to date used WS1 US/EU/ME queries; ALJ Lark credential is live so pilot_mode=true is the only delivery gate | 🔴 BLOCKING — no real ALJ content produced until fixed; Claude Code to scope fix next session |
+| 61 | run_light_to_lark.sh positional argument ignored — bare client_id argument (e.g. alj_china_auto_001) discarded by catch-all; CLIENT_ID always defaulted to china_monitor_001 | ✅ RESOLVED 2026-06-02 — *) CLIENT_ID="$1"; shift fix deployed by Claude Code |
 | T-10 | Brain Lite metrics_unavailable | ✅ CLOSED 2026-05-23 — CP-005 confirmed on 2026-05-23 and 2026-05-24 cron; validator_status=GREEN holding |
 
 ## TRACKED INPUTS — FUTURE PHASE

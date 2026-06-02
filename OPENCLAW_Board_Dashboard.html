@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OpenClaw — Board of Directors Dashboard</title>
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f4f5f7; color: #1a1a2e; font-size: 13px; line-height: 1.5; }
+
+  /* Header */
+  .header { background: #1a1a2e; color: #fff; padding: 18px 28px; display: flex; align-items: center; justify-content: space-between; }
+  .header h1 { font-size: 20px; font-weight: 700; letter-spacing: 0.5px; }
+  .header-sub { font-size: 12px; color: #8892a4; margin-top: 2px; }
+  .header-meta { font-size: 11px; color: #8892a4; text-align: right; }
+  .phase-badge { background: #2563eb; color: #fff; font-size: 11px; font-weight: 700; padding: 3px 10px; border-radius: 10px; letter-spacing: 0.5px; margin-left: 12px; vertical-align: middle; }
+
+  /* Layout */
+  .section-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px; color: #8892a4; padding: 18px 20px 6px; }
+  .main { padding: 0 20px 16px; display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px; }
+  .full-width { grid-column: 1 / -1; }
+  .two-col { grid-column: span 2; }
+
+  /* Cards */
+  .card { background: #fff; border-radius: 8px; border: 1px solid #e2e6ea; overflow: hidden; }
+  .card-header { padding: 11px 16px; border-bottom: 1px solid #e2e6ea; display: flex; align-items: center; justify-content: space-between; }
+  .card-title { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.7px; color: #5a6270; }
+  .card-body { padding: 14px 16px; }
+
+  /* Badges */
+  .badge { display: inline-block; font-size: 10px; font-weight: 700; padding: 2px 8px; border-radius: 9px; letter-spacing: 0.3px; }
+  .badge-green  { background: #d1fae5; color: #065f46; }
+  .badge-yellow { background: #fef9c3; color: #854d0e; }
+  .badge-blue   { background: #dbeafe; color: #1e40af; }
+  .badge-grey   { background: #f1f3f5; color: #5a6270; }
+  .badge-orange { background: #ffedd5; color: #9a3412; }
+  .badge-purple { background: #ede9fe; color: #5b21b6; }
+
+  /* Stat rows */
+  .stat-row { display: flex; justify-content: space-between; align-items: baseline; font-size: 12px; padding: 5px 0; border-bottom: 1px solid #f1f3f5; }
+  .stat-row:last-child { border-bottom: none; }
+  .stat-label { color: #5a6270; }
+  .stat-value { font-weight: 600; text-align: right; }
+
+  /* Gate streak */
+  .streak-row { display: flex; align-items: center; gap: 5px; margin: 8px 0 4px; }
+  .streak-pip { width: 26px; height: 26px; border-radius: 50%; border: 2px solid #e2e6ea; background: #f4f5f7; display: flex; align-items: center; justify-content: center; font-size: 9px; font-weight: 700; color: #c0c7d0; }
+  .streak-pip.done { background: #d1fae5; border-color: #6ee7b7; color: #065f46; }
+  .streak-caption { font-size: 10px; color: #8892a4; margin-top: 2px; }
+
+  /* Workstream card extras */
+  .ws-label { font-size: 10px; font-weight: 700; color: #8892a4; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 2px; }
+  .ws-name { font-size: 15px; font-weight: 700; margin-bottom: 4px; color: #1a1a2e; }
+  .ws-tagline { font-size: 11px; color: #5a6270; margin-bottom: 10px; }
+  .ws-progress-label { font-size: 11px; color: #5a6270; margin-top: 10px; margin-bottom: 3px; }
+  .progress-bar { background: #e2e6ea; border-radius: 4px; height: 7px; overflow: hidden; }
+  .progress-fill { height: 100%; border-radius: 4px; }
+  .fill-blue   { background: #2563eb; }
+  .fill-orange { background: #f97316; }
+  .fill-purple { background: #7c3aed; }
+
+  /* Roadmap */
+  .roadmap-grid { display: grid; grid-template-columns: 120px 1fr; gap: 0; }
+  .roadmap-period { padding: 12px 14px 12px 0; border-right: 2px solid #e2e6ea; font-size: 11px; font-weight: 700; color: #5a6270; text-align: right; }
+  .roadmap-items { padding: 12px 0 12px 18px; border-bottom: 1px solid #f1f3f5; }
+  .roadmap-grid .roadmap-period:last-of-type,
+  .roadmap-grid .roadmap-items:last-of-type { border-bottom: none; }
+  .roadmap-item { display: flex; align-items: flex-start; gap: 8px; margin-bottom: 7px; }
+  .roadmap-item:last-child { margin-bottom: 0; }
+  .roadmap-dot { width: 8px; height: 8px; border-radius: 50%; margin-top: 4px; flex-shrink: 0; }
+  .dot-blue   { background: #2563eb; }
+  .dot-orange { background: #f97316; }
+  .dot-purple { background: #7c3aed; }
+  .dot-grey   { background: #9ca3af; }
+  .roadmap-text { font-size: 12px; }
+  .roadmap-text .sub { font-size: 11px; color: #5a6270; margin-top: 1px; }
+  .roadmap-dot-wrapper { position: relative; }
+  .roadmap-dot-wrapper::before { content: ''; position: absolute; left: 50%; top: 14px; transform: translateX(-50%); width: 2px; background: #e2e6ea; bottom: -14px; }
+
+  /* Horizon */
+  .horizon-col { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px; }
+  .horizon-item { background: #f8f9fb; border: 1px solid #e2e6ea; border-radius: 6px; padding: 12px 14px; }
+  .horizon-title { font-size: 11px; font-weight: 700; color: #1a1a2e; margin-bottom: 4px; }
+  .horizon-body { font-size: 11px; color: #5a6270; line-height: 1.6; }
+
+  /* Mission */
+  .mission-text { font-size: 13px; color: #1a1a2e; line-height: 1.7; margin-bottom: 12px; }
+  .milestone-row { display: flex; align-items: center; gap: 10px; padding: 6px 0; border-bottom: 1px solid #f1f3f5; }
+  .milestone-row:last-child { border-bottom: none; }
+  .milestone-check { font-size: 13px; min-width: 18px; }
+  .milestone-text { font-size: 12px; }
+  .milestone-date { font-size: 11px; color: #8892a4; margin-left: auto; white-space: nowrap; }
+
+  /* Legend */
+  .legend { display: flex; gap: 16px; align-items: center; padding: 6px 0 2px; flex-wrap: wrap; }
+  .legend-item { display: flex; align-items: center; gap: 5px; font-size: 11px; color: #5a6270; }
+  .legend-dot { width: 8px; height: 8px; border-radius: 50%; }
+
+  /* Footer */
+  .footer { text-align: center; padding: 14px; font-size: 11px; color: #8892a4; border-top: 1px solid #e2e6ea; background: #fff; margin-top: 8px; }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <div>
+    <div style="display:flex;align-items:center;">
+      <h1>OPENCLAW</h1>
+      <span class="phase-badge">PHASE D — CONTROLLED PILOT</span>
+    </div>
+    <div class="header-sub">Board of Directors — Project Status Dashboard</div>
+  </div>
+  <div class="header-meta">
+    Updated: 2 June 2026<br>
+    Objective: Trusted, client-grade PR intelligence platform for PR firms
+  </div>
+</div>
+
+<!-- SECTION: PROJECT STATUS -->
+<div class="section-label">Project Status</div>
+<div class="main">
+
+  <!-- Mission & Phase -->
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">Phase D — Controlled Pilot</span>
+      <span class="badge badge-green">ACTIVE</span>
+    </div>
+    <div class="card-body">
+      <div class="mission-text">
+        OpenClaw delivers automated, citation-verified intelligence briefs to PR and communications clients. The platform retrieves, validates, and formats China-focused intelligence from dual-provider sources on a scheduled basis, with zero fabrication tolerance enforced by a multi-stage validation pipeline.
+      </div>
+      <div class="milestone-row"><span class="milestone-check">✅</span><span class="milestone-text">Phases 1–6 complete — pipeline architecture, validation chain, client isolation</span><span class="milestone-date">May 2026</span></div>
+      <div class="milestone-row"><span class="milestone-check">✅</span><span class="milestone-text">Phase A trust gate — 5 consecutive clean deliveries confirmed</span><span class="milestone-date">11 May 2026</span></div>
+      <div class="milestone-row"><span class="milestone-check">✅</span><span class="milestone-text">Phase B — multi-client infrastructure and security boundary</span><span class="milestone-date">11 May 2026</span></div>
+      <div class="milestone-row"><span class="milestone-check">✅</span><span class="milestone-text">Phase C — memory subsystem and client configuration layer</span><span class="milestone-date">20 May 2026</span></div>
+      <div class="milestone-row"><span class="milestone-check">🔵</span><span class="milestone-text">Phase D — Controlled Pilot — live external delivery in progress</span><span class="milestone-date">Active</span></div>
+    </div>
+  </div>
+
+  <!-- Phase D Gate -->
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">Phase D Exit Gate</span>
+      <span class="badge badge-blue">1 / 10</span>
+    </div>
+    <div class="card-body">
+      <div style="font-size:12px;color:#5a6270;margin-bottom:8px;">
+        Phase D closes when 10 consecutive clean external deliveries are confirmed by the operator. Each delivery must pass citation validation, scrubber, and editorial review.
+      </div>
+      <div style="font-size:11px;font-weight:700;color:#5a6270;margin-bottom:6px;">Gate streak — 1 of 10 confirmed</div>
+      <div class="streak-row">
+        <div class="streak-pip done" title="D13 — 2 Jun 2026">✓</div>
+        <div class="streak-pip">2</div>
+        <div class="streak-pip">3</div>
+        <div class="streak-pip">4</div>
+        <div class="streak-pip">5</div>
+        <div class="streak-pip">6</div>
+        <div class="streak-pip">7</div>
+        <div class="streak-pip">8</div>
+        <div class="streak-pip">9</div>
+        <div class="streak-pip">10</div>
+      </div>
+      <div class="streak-caption">First external delivery confirmed 2 June 2026. Ten consecutive clean deliveries required to advance to Phase E.</div>
+      <div style="margin-top:12px;">
+        <div style="font-size:11px;color:#5a6270;margin-bottom:4px;">Pipeline reliability — Phase D to date</div>
+        <div class="progress-bar"><div class="progress-fill fill-blue" style="width:92%;"></div></div>
+        <div style="font-size:10px;color:#8892a4;margin-top:3px;">13 of 14 runs delivered clean · 0% fabrication rate maintained across all runs</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pipeline Health -->
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">Platform Health</span>
+      <span class="badge badge-green">STRONG</span>
+    </div>
+    <div class="card-body">
+      <div class="stat-row"><span class="stat-label">Citation accuracy</span><span class="stat-value">100% — 0% fabrication rate</span></div>
+      <div class="stat-row"><span class="stat-label">Delivery reliability</span><span class="stat-value">13 / 14 runs clean (Phase D)</span></div>
+      <div class="stat-row"><span class="stat-label">Dual-provider retrieval</span><span class="stat-value">Brave + Baidu — operational</span></div>
+      <div class="stat-row"><span class="stat-label">Memory subsystem</span><span class="stat-value">Active — daily digest injection</span></div>
+      <div class="stat-row"><span class="stat-label">Multi-client isolation</span><span class="stat-value">Verified — zero cross-contamination</span></div>
+      <div class="stat-row"><span class="stat-label">Advisory language compliance</span><span class="stat-value">100% compliant all Phase D runs</span></div>
+    </div>
+  </div>
+
+</div>
+
+<!-- SECTION: WORKSTREAMS -->
+<div class="section-label">Active Workstreams</div>
+<div class="main">
+
+  <!-- WS1 -->
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">WS1 — Daily China Monitor</span>
+      <span class="badge badge-green">LIVE</span>
+    </div>
+    <div class="card-body">
+      <div class="ws-label">Workstream 1</div>
+      <div class="ws-name">China Monitoring Brief</div>
+      <div class="ws-tagline">Daily automated intelligence brief on China-related PR signals — US-China trade, European market dynamics, Chinese corporate activity, and macro developments relevant to communications clients.</div>
+      <div class="stat-row"><span class="stat-label">Cadence</span><span class="stat-value">Daily — automated 06:30 CST</span></div>
+      <div class="stat-row"><span class="stat-label">Retrieval</span><span class="stat-value">Brave + Baidu (dual-provider)</span></div>
+      <div class="stat-row"><span class="stat-label">Output</span><span class="stat-value">3 Executive Take + 5 Advisory Layer bullets</span></div>
+      <div class="stat-row"><span class="stat-label">Source appendix</span><span class="stat-value">Every source cited with URL + date</span></div>
+      <div class="stat-row"><span class="stat-label">Status</span><span class="stat-value"><span class="badge badge-green">External delivery active</span></span></div>
+      <div class="ws-progress-label">Pilot maturity</div>
+      <div class="progress-bar"><div class="progress-fill fill-blue" style="width:35%;"></div></div>
+      <div class="streak-caption" style="margin-top:3px;">1 of 10 gate deliveries confirmed · product quality improvements in progress</div>
+    </div>
+  </div>
+
+  <!-- WS2 -->
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">WS2 — China Auto Weekly</span>
+      <span class="badge badge-orange">PILOT OPTIMISATION</span>
+    </div>
+    <div class="card-body">
+      <div class="ws-label">Workstream 2</div>
+      <div class="ws-name">China Auto Weekly Brief</div>
+      <div class="ws-tagline">Weekly intelligence brief on the Chinese automotive market for a multinational automotive distributor — OEM developments, NEV trends, export signals, and dealer-channel dynamics for the Saudi / GCC market.</div>
+      <div class="stat-row"><span class="stat-label">Client</span><span class="stat-value">Abdul Latif Jameel / Jameel Motors</span></div>
+      <div class="stat-row"><span class="stat-label">Cadence</span><span class="stat-value">Weekly — manual trigger (pilot phase)</span></div>
+      <div class="stat-row"><span class="stat-label">Source universe</span><span class="stat-value">Chinese / China-market sources only</span></div>
+      <div class="stat-row"><span class="stat-label">Pilot runs completed</span><span class="stat-value">1 of 3 target</span></div>
+      <div class="stat-row"><span class="stat-label">Status</span><span class="stat-value"><span class="badge badge-orange">Optimising — not yet external</span></span></div>
+      <div class="ws-progress-label">Pilot maturity</div>
+      <div class="progress-bar"><div class="progress-fill fill-orange" style="width:15%;"></div></div>
+      <div class="streak-caption" style="margin-top:3px;">Query tuning and source quality improvements in progress · external delivery pending operator approval</div>
+    </div>
+  </div>
+
+  <!-- WS3 -->
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">WS3 — Full-Text Retrieval</span>
+      <span class="badge badge-purple">RESEARCH TRACK</span>
+    </div>
+    <div class="card-body">
+      <div class="ws-label">Workstream 3</div>
+      <div class="ws-name">Browser Full-Text Retrieval</div>
+      <div class="ws-tagline">Research track evaluating the feasibility of enriching intelligence briefs with full article text rather than headline snippets — a significant quality upgrade for Chinese-language source coverage.</div>
+      <div class="stat-row"><span class="stat-label">Track type</span><span class="stat-value">Research only — no pipeline integration yet</span></div>
+      <div class="stat-row"><span class="stat-label">Chinese source access</span><span class="stat-value">Confirmed viable (6 of 7 domains)</span></div>
+      <div class="stat-row"><span class="stat-label">CJK text handling</span><span class="stat-value">Deployed and validated</span></div>
+      <div class="stat-row"><span class="stat-label">Phase 1</span><span class="stat-value"><span class="badge badge-blue">In progress</span></span></div>
+      <div class="stat-row"><span class="stat-label">Phase 2 (integration)</span><span class="stat-value"><span class="badge badge-grey">Not yet authorised</span></span></div>
+      <div class="ws-progress-label">Research completion</div>
+      <div class="progress-bar"><div class="progress-fill fill-purple" style="width:65%;"></div></div>
+      <div class="streak-caption" style="margin-top:3px;">Findings report to be produced during Tier 2 · Phase 2 decision required before live integration</div>
+    </div>
+  </div>
+
+</div>
+
+<!-- SECTION: FEATURES IN FLIGHT -->
+<div class="section-label">Features in Development — Next 30 Days</div>
+<div class="main">
+  <div class="card full-width">
+    <div class="card-header">
+      <span class="card-title">30-Day Product Roadmap</span>
+      <span style="font-size:11px;color:#8892a4;">June – July 2026</span>
+    </div>
+    <div class="card-body">
+
+      <div style="margin-bottom:10px;">
+        <div class="legend">
+          <div class="legend-item"><div class="legend-dot dot-blue"></div> WS1 — China Monitoring Brief</div>
+          <div class="legend-item"><div class="legend-dot dot-orange"></div> WS2 — China Auto Weekly Brief</div>
+          <div class="legend-item"><div class="legend-dot dot-purple"></div> WS3 — Full-Text Retrieval</div>
+          <div class="legend-item"><div class="legend-dot dot-grey"></div> Platform-wide</div>
+        </div>
+      </div>
+
+      <div class="roadmap-grid">
+
+        <div class="roadmap-period">Week 1<br><span style="font-weight:400;font-size:10px;">2–9 Jun</span></div>
+        <div class="roadmap-items">
+          <div class="roadmap-item">
+            <div class="roadmap-dot dot-blue"></div>
+            <div class="roadmap-text"><strong>Source taxonomy labels</strong> — each intelligence source in the brief is now classified (e.g. official Chinese state media, international wire service, Chinese business press) with a freshness label. Validates on first delivery after deployment.
+              <div class="sub">Tier 1 — approved and deployed; confirming on next daily run</div>
+            </div>
+          </div>
+          <div class="roadmap-item">
+            <div class="roadmap-dot dot-orange"></div>
+            <div class="roadmap-text"><strong>ALJ query optimisation</strong> — updated retrieval queries to surface Chinese automotive press (OEM data, NEV trends, dealer economics) rather than generic economic news. Pilot run 2 to be triggered this week.
+              <div class="sub">Approved 2 Jun 2026 · Claude Code deployment in progress</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="roadmap-period">Week 2<br><span style="font-weight:400;font-size:10px;">9–16 Jun</span></div>
+        <div class="roadmap-items">
+          <div class="roadmap-item">
+            <div class="roadmap-dot dot-blue"></div>
+            <div class="roadmap-text"><strong>Source-first output restructuring</strong> — major product evolution for WS1. Brief shifts from narrative-first to source-first structure: what was retrieved, where it came from, what is genuinely new, where narratives are amplified. Two internal validation runs before any live delivery.
+              <div class="sub">High impact · gate streak restarts on first live delivery of new format</div>
+            </div>
+          </div>
+          <div class="roadmap-item">
+            <div class="roadmap-dot dot-blue"></div>
+            <div class="roadmap-text"><strong>Query family expansion — dry run</strong> — tests an expanded WS1 query set across seven topic families (official/regulatory, state-media narrative, business press, sector rotation, corporate, international corroboration, geopolitical/trade). Results compared against current baseline before any live deployment.
+              <div class="sub">Low risk · no live delivery effect during dry run</div>
+            </div>
+          </div>
+          <div class="roadmap-item">
+            <div class="roadmap-dot dot-orange"></div>
+            <div class="roadmap-text"><strong>ALJ pilot run 2 review + scoring</strong> — score the optimised run against the 16-dimension ALJ product scorecard. Determine whether a third pilot run is needed or whether readiness for external delivery can be assessed.
+            </div>
+          </div>
+        </div>
+
+        <div class="roadmap-period">Week 3<br><span style="font-weight:400;font-size:10px;">16–23 Jun</span></div>
+        <div class="roadmap-items">
+          <div class="roadmap-item">
+            <div class="roadmap-dot dot-blue"></div>
+            <div class="roadmap-text"><strong>Source-first format goes live</strong> — subject to two clean internal validation runs, the new WS1 product format is deployed to live external delivery. Gate streak restarts at this point.
+              <div class="sub">Operator approval required before live deployment</div>
+            </div>
+          </div>
+          <div class="roadmap-item">
+            <div class="roadmap-dot dot-blue"></div>
+            <div class="roadmap-text"><strong>Enhanced source appendix</strong> — adds source category and freshness label to the delivered source appendix, plus a source-mix summary header. Client receives a fully labelled provenance trail with every brief.
+              <div class="sub">Depends on source taxonomy labels validating in Week 1</div>
+            </div>
+          </div>
+          <div class="roadmap-item">
+            <div class="roadmap-dot dot-purple"></div>
+            <div class="roadmap-text"><strong>Browser retrieval findings report</strong> — CoWork produces a formal findings report on full-text retrieval feasibility across Chinese and international source domains, including viability by publisher and recommendations for Phase 2 scope.
+              <div class="sub">Advisory only · Phase 2 integration requires separate operator decision</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="roadmap-period">Week 4<br><span style="font-weight:400;font-size:10px;">23–30 Jun</span></div>
+        <div class="roadmap-items">
+          <div class="roadmap-item">
+            <div class="roadmap-dot dot-blue"></div>
+            <div class="roadmap-text"><strong>WS1 query family expansion — live</strong> — subject to dry run confirming material improvement in source diversity and Chinese press coverage, the expanded query set is deployed to live production. Gated on browser retrieval findings.
+              <div class="sub">Operator go/no-go decision required before live deployment</div>
+            </div>
+          </div>
+          <div class="roadmap-item">
+            <div class="roadmap-dot dot-orange"></div>
+            <div class="roadmap-text"><strong>ALJ operator decision on external delivery</strong> — following 2–3 pilot runs and scoring, operator determines whether the China Auto Weekly Brief is ready for external delivery to Abdul Latif Jameel / Jameel Motors.
+            </div>
+          </div>
+          <div class="roadmap-item">
+            <div class="roadmap-dot dot-grey"></div>
+            <div class="roadmap-text"><strong>Phase D gate progress</strong> — targeting approximately 4–5 confirmed gate deliveries by end of June, assuming source-first format validates cleanly and no holds are required.
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SECTION: STRATEGIC HORIZON -->
+<div class="section-label">Strategic Horizon — Beyond 30 Days</div>
+<div class="main">
+  <div class="card full-width">
+    <div class="card-header"><span class="card-title">Phase E and Beyond</span><span style="font-size:11px;color:#8892a4;">July 2026 onwards — subject to Phase D gate completion</span></div>
+    <div class="card-body">
+      <div class="horizon-col">
+
+        <div class="horizon-item">
+          <div class="horizon-title">🚀 &nbsp;Phase E — Commercial Scale</div>
+          <div class="horizon-body">
+            Phase D closes when 10 consecutive clean external deliveries are confirmed. Phase E begins second real-client onboarding — moving from controlled pilot to commercial operation. The ALJ China Auto Weekly Brief transitions from operator-held to live external delivery. Multi-client infrastructure, already built and verified, supports concurrent workstream operation without cross-contamination.
+          </div>
+        </div>
+
+        <div class="horizon-item">
+          <div class="horizon-title">📡 &nbsp;Source Universe Expansion</div>
+          <div class="horizon-body">
+            Query family expansion (underway in Weeks 2–4) widens the WS1 source pool across seven structured topic families, targeting Chinese official sources, Chinese business and financial press, and international corroboration. A parallel expansion for the ALJ workstream adds eight automotive-specific query families. Together these materially deepen the intelligence signal. Full-text browser retrieval, once authorised for Phase 2, adds article-level depth to the snippet-based baseline.
+          </div>
+        </div>
+
+        <div class="horizon-item">
+          <div class="horizon-title">🏢 &nbsp;Additional Client Onboarding</div>
+          <div class="horizon-body">
+            The platform is architected for multi-client operation with namespace isolation verified. Two pre-production items must be resolved before a third live client is onboarded. Beyond that, the client configuration layer supports rapid onboarding of new client profiles — query templates, output formats, source filters, and delivery routing are all client-configurable without pipeline changes. The product concept memo for additional workstreams is the gating deliverable before each new client engagement begins.
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+  OPENCLAW — Board of Directors Dashboard &nbsp;·&nbsp; Phase D (Controlled Pilot) &nbsp;·&nbsp; Updated 2 June 2026 &nbsp;·&nbsp; Confidential
+</div>
+
+</body>
+</html>

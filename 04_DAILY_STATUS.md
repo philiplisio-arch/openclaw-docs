@@ -2,12 +2,12 @@
 
 ---
 document_id: 04_DAILY_STATUS
-version: v3.5
-last_updated: 2026-06-01
+version: v3.6
+last_updated: 2026-06-02
 status: OPERATIONAL
 ---
 
-DATE: 2026-06-01
+DATE: 2026-06-02
 PHASE: Phase 7 Entry — Phase D (Controlled Pilot)
 
 ---
@@ -514,6 +514,20 @@ Step 9.8 COMPLETE — 2026-05-20: Isolation verification results presented to
   geographic listing; backup .bak_20260601_cp015016017; bash -n exit 0
 ⚠ Issue #58 PENDING VALIDATION — CP-019 v2 + SIGPIPE fix deployed 2026-06-01;
   geographic footer absence validates on D13 cron (2026-06-02 06:31)
+✔ Issue #58 RESOLVED 2026-06-02 — CP-019 v2 geographic footer validated absent on D13; Issue #58 CLOSED
+✔ OPENCLAW-RQT-002 v1.1 APPROVED 2026-06-02 — ALJ query template update; 6 query wording changes targeting automotive press over general trade/energy noise; pending Claude Code deployment
+✔ CP-025 APPROVED 2026-06-02 — ALJ tv.cctv.com / tv.cctv.cn domain exclusion; filter_results.py; ALJ client only; WS1 unaffected; BLOCKED pending Issue #60 fix
+✔ OPENCLAW_Board_Dashboard.html CREATED 2026-06-02 — Board of Directors project status dashboard; phase status, workstream progress, 30-day roadmap, strategic horizon; saved to workspace root
+✔ Issue #61 RESOLVED 2026-06-02 — run_light_to_lark.sh positional arg fix; CLIENT_ID now reads bare positional argument correctly
+⚠ Issue #60 OPEN — CRITICAL: query_builder.py hardcoded to WS1; ALJ pilot runs 1+2 produced WS1 content; real ALJ content blocked until fixed
+⚠ ALJ Lark credential LIVE — pilot_mode=true is the only delivery gate; must not disable until Issue #60 resolved and real ALJ content confirmed
+✔ CP-020 DEPLOYED 2026-06-02 — source taxonomy + freshness labels; build_agent_input_slim.py;
+  WS1/china_monitor only; ALJ deferred to CP-023 session; py_compile exit 0;
+  backup: build_agent_input_slim.py.bak_20260602_cp020; validates on D14
+✔ CJK word-count fix DEPLOYED 2026-06-02 — fetch_article_text.py; counts CJK chars
+  (U+4E00–9FFF, U+3400–4DBF, U+F900–FAFF) alongside word_count; success if
+  word_count>50 OR cjk_char_count>300; functional test confirmed; py_compile exit 0;
+  backup: fetch_article_text.py.bak_20260602_cjk_fix
 ✔ Issue #59 RESOLVED 2026-06-01 — light_to_lark.log D5–D8 gap was sync staleness;
   D10 (2026-05-30T22:32:23Z) and D11 (2026-05-31T22:31:47Z) confirmed in log;
   ISO timestamp fix (Issue #53) confirmed active and writing correctly
@@ -595,8 +609,27 @@ Step 9.8 COMPLETE — 2026-05-20: Isolation verification results presented to
     Toyota global sales decline (third consecutive month).
   Toyota topic repetition — D9/D10/D12 three consecutive runs; retrieval-driven;
     CP-007 monitoring continues.
-  CP-019 v2 validation pending D13.
-  External send: pending operator decision.
+  CP-019 v2 VALIDATED — geographic footer absent from final_output_scrubbed. Issue #58 CLOSED.
+  SENT EXTERNALLY 2026-06-02 — gate streak restarts; streak: 1 of 10.
+
+06:32 cron run (2026-06-02) — Phase D Delivery 13 — DELIVERED, CLEAN.
+  Config loader active; artifact_namespace=china_monitor_001 confirmed.
+  delivery_status=delivered; validator GREEN 16/16/0; uncited_claims_removed=0;
+  unsupported_groups=0. ids_seen=16/ids_kept=16/ids_removed=0.
+  Brave=39, Baidu=45. T-04 COMPLIANT.
+  Brain Lite: run_summary_china_monitor_001_20260602.json confirmed.
+  topics_covered: US-China trade ($30B export discussions; Nvidia AI chip
+    shipment halt; Huawei 5-year semiconductor plan); Europe-China trade
+    (EC declares relationship "not sustainable"; Temu €200M fine);
+    China factory activity May PMI above forecast.
+  CP-019 v2 VALIDATED — geographic footer absent from final_output_scrubbed.
+  Issue #58 CLOSED.
+  CP-020 deployed prior to this run (source taxonomy + freshness labels);
+    labels validate on D14 cron (SOURCES appendix visible in Lark delivery only).
+  CJK word-count fix deployed prior to this run — fetch_article_text.py now
+    counts CJK characters alongside word_count; status=success if word_count>50
+    OR cjk_char_count>300.
+  SENT EXTERNALLY 2026-06-02 — gate streak restarts; streak: 1 of 10.
 
 ALJ PILOT RUN 2026-06-01 11:54 UTC — ALL GATES PASS, pilot_mode blocking:
   Config loader: PASS (alj_china_auto_001). Baidu-only retrieval: 54 results,
@@ -630,7 +663,9 @@ ALJ PILOT RUN 2026-06-01 11:54 UTC — ALL GATES PASS, pilot_mode blocking:
 | #55 | WS1 SIGNAL block leaking into ALJ payload | RESOLVED 2026-06-01 | CP-015 deployed; SIGNAL gated to WS1 only |
 | #56 | Orchestrator exit=1 on ALJ runs | OPEN | Not blocking; recovery reliable; root cause investigation pending |
 | #57 | LAST_HASH_FILE not client-namespaced | RESOLVED 2026-06-01 | Confirmed pre-existing; LAST_HASH_FILE already namespaced via OPENCLAW_ARTIFACT_NAMESPACE |
-| #58 | Geographic footer present in final_output_scrubbed | PENDING VALIDATION | CP-019 v2 + SIGPIPE fix deployed 2026-06-01; validates on D13 cron 2026-06-02 |
+| #58 | Geographic footer present in final_output_scrubbed | RESOLVED 2026-06-02 | CP-019 v2 validated on D13 — footer absent from final_output_scrubbed confirmed |
+| #60 | query_builder.py hardcoded to WS1 — ignores ALJ client config | OPEN — BLOCKING WS2 | All ALJ pilot runs used WS1 queries; pilot run 1 scoring invalidated; Claude Code to scope fix next session |
+| #61 | run_light_to_lark.sh positional arg ignored — CLIENT_ID always defaulted to china_monitor_001 | RESOLVED 2026-06-02 | *) CLIENT_ID="$1"; shift fix deployed by Claude Code |
 | #59 | light_to_lark.log D5–D8 entries absent from local sync | RESOLVED 2026-06-01 | Sync staleness confirmed; D10/D11 present in log; ISO timestamp fix active |
 
 ---
@@ -638,9 +673,9 @@ ALJ PILOT RUN 2026-06-01 11:54 UTC — ALL GATES PASS, pilot_mode blocking:
 ## SYSTEM HEALTH
 
 * Stability: HIGH
-* Retrieval: MODERATE — Brave + Baidu operational; D9=16, D10=13, D11=11, D12=11;
+* Retrieval: MODERATE — Brave + Baidu operational; D10=13, D11=11, D12=11, D13=16;
   all within normal range; Baidu 48h filter active
-* Validator: STRONG — GREEN PASS all D9–D12; 0 failures across all Phase D
+* Validator: STRONG — GREEN PASS all D9–D13; 0 failures across all Phase D
 * Scrubber: STRONG — uncited removal active; conflict extraction active
 * Delivery Gate: STRONG
 * Citation Substitution: ACTIVE — result_ids → publisher/date in Lark output
@@ -648,7 +683,10 @@ ALJ PILOT RUN 2026-06-01 11:54 UTC — ALL GATES PASS, pilot_mode blocking:
 * Agent Citation Discipline: STRONG — fabrication rate 0%; T-04 compliant all runs
 * Brain Lite: ACTIVE — CP-018 validated on D9; digest rebuilding on every delivery
 * Topic Differentiation: ACTIVE — CP-007 working; Toyota repetition D9/D10/D12
-  retrieval-driven; monitoring continues
+  retrieval-driven; not present D13; monitoring continues
+* CP-020: DEPLOYED — source taxonomy + freshness labels in build_agent_input_slim.py;
+  WS1 live; ALJ deferred; validates on D14 (SOURCES appendix in Lark delivery)
+* CJK word-count fix: DEPLOYED — fetch_article_text.py; functional test confirmed
 * ALJ Pipeline: PILOT-READY — all pre-live blockers cleared 2026-06-01;
   pilot_mode=true; first cron run pending
 
@@ -657,24 +695,28 @@ ALJ PILOT RUN 2026-06-01 11:54 UTC — ALL GATES PASS, pilot_mode blocking:
 ## NEXT STEP
 
 SESSION START: Run PowerShell scp block from config/VPS_SYNC_PROTOCOL.md
-  before any pipeline review or implementation work. Also pull missing:
-  run_summary_china_monitor_001_20260531.json
+  before any pipeline review or implementation work.
 
 IMMEDIATE — next session:
-  1. Validate D13 cron (2026-06-02 06:31) — confirm CP-019 v2 geographic
-     footer absent from final_output_scrubbed; close Issue #58
-  2. CP-020 — Claude Code deploys source taxonomy + freshness labels
-     (Tier 1; WS1 live; ALJ held/pre-live only)
-  3. Operator decision: send D9–D12 externally? All clean, distinct topics
-     (Toyota repetition on D12 noted). Gate streak currently 1 of 10.
+  1. Sync and review D14 cron (2026-06-03 06:31) — confirm CP-020 source
+     taxonomy + freshness labels present in SOURCES appendix; spot-check
+     3+ sources (e.g. Xinhua → CN-STATE, Reuters → INTL-WIRE); also note
+     D14 is second manual WS1 run of 2026-06-02 (08:43 UTC) was clean
+     GREEN 18/18/0 — if this is treated as D14, CP-020 labels need review
+  2. If D14 CP-020 labels valid: CP-020 VALIDATED; send externally;
+     gate streak = 2; proceed to Tier 2
+  3. WS2 PRIORITY: Claude Code to scope and implement Issue #60 fix —
+     query_builder.py must read ALJ client config before any meaningful
+     ALJ pilot run is possible; new change packet required
+  4. Once Issue #60 fixed: re-run ALJ pilot (governance Step 7 restart);
+     OPENCLAW-RQT-002 v1.1 and CP-025 validate on that run
 
 SIGNAL-WIDENING WORK QUEUE — approved 2026-05-28, sequenced:
   Tier 0 (COMPLETE 2026-06-01):
     ✔ CP-018 / CP-019 deployed and validated
     ✔ CP-015/016/017 bundle deployed; ALJ pre-live blockers cleared
-  Tier 1 (next):
-    - CP-020: Claude Code — source taxonomy + freshness labels (WS1 live;
-      ALJ held/pre-live only)
+  Tier 1 (COMPLETE 2026-06-02):
+    ✔ CP-020: deployed — source taxonomy + freshness labels; validates D14
   Tier 2 (after CP-020 validates):
     - CP-021: Claude Code — source-first output restructuring + LinkedIn
       suppression; 2 held-mode runs before live; gate streak restarts
@@ -730,13 +772,16 @@ Phase D ACTIVE — Controlled Pilot (Step 8).
     external send pending operator decision
   - Delivery 12 (2026-06-01): CLEAN — 11/11 citations; T-04 compliant;
     Toyota topic repetition (3rd consecutive run — retrieval-driven);
-    CP-019 v2 validation pending D13; external send pending operator decision
+    HELD — pre-CP-019 v2 validation
+  - Delivery 13 (2026-06-02): CLEAN — 16/16 citations; T-04 compliant;
+    CP-019 v2 VALIDATED (no geographic footer); CP-020 deployed (validates D14);
+    SENT EXTERNALLY 2026-06-02 — gate streak restarts; streak: 1 of 10
 
-  Gate streak: 1 of 10 (D4 only confirmed sent; D5–D12 held).
+  Gate streak: 1 of 10 (D13 sent 2026-06-02; streak restarted).
 
-  Issue #50 monitoring — did not recur D2–D12 (D5/D6 thin at ids=9 but no degradation)
+  Issue #50 monitoring — did not recur D2–D13 (D5/D6 thin at ids=9 but no degradation)
   Issue #54 OPEN — broadcaster dedup gap; operator decision on CP timing required
-  Issue #58 PENDING VALIDATION — CP-019 v2 geographic footer; validates D13
+  Issue #58 RESOLVED 2026-06-02 — CP-019 v2 validated on D13
   Daily run reviews, feedback register, scorecard scoring ongoing
 
   Browser Retrieval Phase 1 — parallel research track (authorized 2026-05-20):
@@ -842,15 +887,36 @@ Phase D ACTIVE — Controlled Pilot (Step 8).
   real client goes live):
   - Issue #47: intermediate retrieval artifacts not namespaced (operator decision required)
 
-  WS2 (alj_china_auto_001) — status as of 2026-06-01:
+  WS2 (alj_china_auto_001) — status as of 2026-06-02:
   - All pre-live blockers CLEARED — CP-015/016/017 deployed 2026-06-01
-  - Pilot run confirmed 2026-06-01 11:54 UTC (EXIT 0, GREEN 11/11)
-  - pilot_mode=true — no external delivery yet
-  - Next: first baseline cron run; then CP-023 query expansion eligible
-  - Steps 2, 3, 4, 5, 6: COMPLETE (spec, config, query templates approved)
+  - Pilot run 1 confirmed 2026-06-01 11:54 UTC (EXIT 0, GREEN 11/11)
+  - Pilot run 1 scored 2026-06-02 — content THIN; Sections 2/3/5 empty;
+    source concentration extreme (3 unique result_ids; 8/11 citations from
+    single CCTV TV page); root cause: query wording pulling general trade/energy
+    news; tv.cctv.com TV shell pages dominating retained pool
+  - pilot_mode=true — manual trigger only; never on cron
+  - Step 7 (governance): COMPLETE — pilot run 1 done
+  - Step 8 (governance): COMPLETE — scored 2026-06-02
+  - Step 9 (governance): IN PROGRESS — iterating via approved change packets
+  - Steps 2, 3, 4, 5, 6: COMPLETE
   - Step 1 (product concept memo): pending
   - CP-009/011/012/013/014: all deployed and validated 2026-05-24
   - CP-015/016/017: deployed 2026-06-01
+  - OPENCLAW-RQT-002 v1.1 APPROVED 2026-06-02 — 6 query wording changes;
+    industry association anchors added; 中东 replaced with 沙特阿拉伯 in
+    export_gulf_p1; 商務部 removed from policy_p1; BLOCKED pending Issue #60 fix
+  - CP-025 APPROVED 2026-06-02 — tv.cctv.com / tv.cctv.cn domain exclusion
+    for ALJ client profile; filter_results.py; BLOCKED pending Issue #60 fix
+  - Issue #60 IDENTIFIED 2026-06-02 — CRITICAL: query_builder.py hardcoded
+    to WS1; ignores ALJ config entirely; all ALJ pilot runs to date produced
+    WS1 content; pilot run 1 scoring is invalidated — was not real ALJ content
+  - Issue #61 RESOLVED 2026-06-02 — run_light_to_lark.sh positional arg fix
+    deployed by Claude Code; both styles now work
+  - ALJ Lark credential confirmed LIVE (not test) — pilot_mode=true is the
+    only delivery gate; do not disable pilot_mode until Issue #60 is fixed
+    and real ALJ content is confirmed
+  - Pilot runs 1 and 2 both used WS1 query path — governance step 7 must be
+    re-executed once Issue #60 is resolved
 
 ---
 

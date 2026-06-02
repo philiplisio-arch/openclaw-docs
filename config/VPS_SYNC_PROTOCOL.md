@@ -2,9 +2,9 @@
 
 ---
 document_id: OPENCLAW-SYNC-001
-version: 1.5
+version: 1.7
 created: 2026-05-13
-last_updated: 2026-05-24
+last_updated: 2026-06-03
 ---
 
 ## PURPOSE
@@ -45,6 +45,13 @@ scp -i "C:\Users\phil\Documents\OpenClaw project\config\cowork_key" openclaw_cow
 
 scp -i "C:\Users\phil\Documents\OpenClaw project\config\cowork_key" openclaw_cowork@152.42.195.186:/root/openclaw_phase5/data/final_output_scrubbed_china_monitor_001.txt "C:\Users\phil\Documents\OpenClaw project\config\vps_sync\final_output_scrubbed_china_monitor_001.txt"
 
+# WS2 — ALJ artifacts (manual pilot runs only)
+scp -i "C:\Users\phil\Documents\OpenClaw project\config\cowork_key" openclaw_cowork@152.42.195.186:/root/openclaw_phase5/data/final_output_scrubbed_alj_china_auto_001.txt "C:\Users\phil\Documents\OpenClaw project\config\vps_sync\final_output_scrubbed_alj_china_auto_001.txt"
+
+scp -i "C:\Users\phil\Documents\OpenClaw project\config\cowork_key" openclaw_cowork@152.42.195.186:/root/openclaw_phase6/validation/validation_result_alj_china_auto_001.json "C:\Users\phil\Documents\OpenClaw project\config\vps_sync\validation_result_alj_china_auto_001.json"
+
+scp -i "C:\Users\phil\Documents\OpenClaw project\config\cowork_key" openclaw_cowork@152.42.195.186:/root/openclaw_phase7/brain_lite/run_summaries/run_summary_alj_china_auto_001_20260601.json "C:\Users\phil\Documents\OpenClaw project\config\vps_sync\run_summary_alj_china_auto_001_20260601.json"
+
 echo "VPS sync complete"
 ```
 
@@ -77,9 +84,12 @@ this document when the standard sync set changes.
 | File | VPS Source | Purpose |
 |------|-----------|---------|
 | light_to_lark.log | /root/openclaw_logs/ | Full pipeline cron log |
-| validation_result_china_monitor_001.json | /root/openclaw_phase6/validation/ | Latest validator result (namespaced — Step 9.4) |
+| validation_result_china_monitor_001.json | /root/openclaw_phase6/validation/ | Latest WS1 validator result |
 | run_summary_china_monitor_001_20260524.json | /root/openclaw_phase7/brain_lite/run_summaries/ | Brain Lite — 2026-05-24 (Phase D Delivery 4) |
-| final_output_scrubbed_china_monitor_001.txt | /root/openclaw_phase5/data/ | Delivered output (namespaced — Step 9.4) |
+| final_output_scrubbed_china_monitor_001.txt | /root/openclaw_phase5/data/ | WS1 delivered output |
+| final_output_scrubbed_alj_china_auto_001.txt | /root/openclaw_phase5/data/ | WS2 pilot output (manual runs) |
+| validation_result_alj_china_auto_001.json | /root/openclaw_phase6/validation/ | WS2 validator result |
+| run_summary_alj_china_auto_001_20260601.json | /root/openclaw_phase7/brain_lite/run_summaries/ | WS2 Brain Lite — 2026-06-01 pilot run |
 
 ---
 
@@ -97,6 +107,16 @@ git push
 ```bash
 cd /root/openclaw_docs && git pull
 ```
+
+> ⚠ **Doc files go via git only** (Steps 1+2 above). Do NOT use direct scp
+> to push docs to VPS — git is the source of truth. Direct scp overwrites
+> without a commit record and will be clobbered on the next git pull.
+>
+> If you need to push a file to VPS outside the git repo (e.g., a secrets
+> file or a script not tracked in docs), use scp with the `-i` key flag:
+> ```powershell
+> scp -i "C:\Users\phil\Documents\OpenClaw project\config\cowork_key" "LOCAL_FILE" openclaw_cowork@152.42.195.186:/REMOTE_PATH/
+> ```
 
 ---
 
