@@ -7,7 +7,7 @@ last_updated: 2026-06-02
 status: OPERATIONAL
 ---
 
-DATE: 2026-06-02
+DATE: 2026-06-03
 PHASE: Phase 7 Entry — Phase D (Controlled Pilot)
 
 ---
@@ -664,9 +664,11 @@ ALJ PILOT RUN 2026-06-01 11:54 UTC — ALL GATES PASS, pilot_mode blocking:
 | #56 | Orchestrator exit=1 on ALJ runs | OPEN | Not blocking; recovery reliable; root cause investigation pending |
 | #57 | LAST_HASH_FILE not client-namespaced | RESOLVED 2026-06-01 | Confirmed pre-existing; LAST_HASH_FILE already namespaced via OPENCLAW_ARTIFACT_NAMESPACE |
 | #58 | Geographic footer present in final_output_scrubbed | RESOLVED 2026-06-02 | CP-019 v2 validated on D13 — footer absent from final_output_scrubbed confirmed |
-| #60 | query_builder.py hardcoded to WS1 — ignores ALJ client config | OPEN — BLOCKING WS2 | All ALJ pilot runs used WS1 queries; pilot run 1 scoring invalidated; Claude Code to scope fix next session |
+| #60 | query_builder.py hardcoded to WS1 — ignores ALJ client config | RESOLVED 2026-06-03 | query_builder.py patched to read OPENCLAW_QUERY_TEMPLATE; ALJ dispatches to 7 RQT-002 v1.1 Baidu queries; WS1 behaviour unchanged (smoke-test confirmed); ValueError on unknown template; backup .bak_20260603_issue60; py_compile ok |
 | #61 | run_light_to_lark.sh positional arg ignored — CLIENT_ID always defaulted to china_monitor_001 | RESOLVED 2026-06-02 | *) CLIENT_ID="$1"; shift fix deployed by Claude Code |
 | #59 | light_to_lark.log D5–D8 entries absent from local sync | RESOLVED 2026-06-01 | Sync staleness confirmed; D10/D11 present in log; ISO timestamp fix active |
+| #62 | ALJ SOURCES appendix URL fabrication — agent rewrites source URLs to plausible-but-wrong paths | RESOLVED 2026-06-03 | Root cause: CP-009 designed ALJ Section 8 as agent-generated; agent hallucinated URL paths while correctly citing result_ids. Fix: citation_sub.py strips agent Section 8 (anchor: ^SECTION\s+8\b) then appends deterministic SOURCES from retrieval package, same as WS1. ALJ-only gate (OPENCLAW_REPORT_TEMPLATE=alj_china_auto_weekly_v1). WS1 regression confirmed byte-for-byte identical. py_compile ok. Backup .bak_20260603_issue62. End-to-end pilot run validation pending. Note: WS1 OPENCLAW_REPORT_TEMPLATE is china_monitoring_brief_v1 (not china_monitor_v1 which is the query template). |
+| #63 | ALJ CP-020 freshness label inconsistency — same source labeled CONTEXT-7D inline and NEW-24H in appendix | OPEN | Agent applying inconsistent freshness labels; CP-020 prompt needs tightening. Blocked on #62 fix (SOURCES must be pipeline-generated before label consistency matters). |
 
 ---
 
@@ -687,8 +689,10 @@ ALJ PILOT RUN 2026-06-01 11:54 UTC — ALL GATES PASS, pilot_mode blocking:
 * CP-020: DEPLOYED — source taxonomy + freshness labels in build_agent_input_slim.py;
   WS1 live; ALJ deferred; validates on D14 (SOURCES appendix in Lark delivery)
 * CJK word-count fix: DEPLOYED — fetch_article_text.py; functional test confirmed
-* ALJ Pipeline: PILOT-READY — all pre-live blockers cleared 2026-06-01;
-  pilot_mode=true; first cron run pending
+✔ Issue #60 RESOLVED 2026-06-03 — query_builder.py reads OPENCLAW_QUERY_TEMPLATE;
+  ALJ dispatches to 7 RQT-002 v1.1 Baidu queries; WS1 unchanged (smoke-test confirmed)
+* ALJ Pipeline: PILOT-READY — Issue #60 resolved; governance step 7 re-run required
+  (manual pilot trigger: bash /root/run_light_to_lark.sh --client_id alj_china_auto_001)
 
 ---
 
@@ -697,26 +701,40 @@ ALJ PILOT RUN 2026-06-01 11:54 UTC — ALL GATES PASS, pilot_mode blocking:
 SESSION START: Run PowerShell scp block from config/VPS_SYNC_PROTOCOL.md
   before any pipeline review or implementation work.
 
+SESSION CLOSE — 2026-06-03:
+  ✔ D14 reviewed (2026-06-03 06:31) — GREEN 12/12/0; sent externally;
+    gate streak = 2 of 10
+  ✔ CP-020 status clarified — labels are agent-prompt layer only; SOURCES
+    appendix labels require CP-024 (deterministic, citation_sub.py); CP-020
+    effect visible in ALJ output (agent-generated SOURCES) but not WS1
+    (pipeline-generated SOURCES); CP-020 ACCEPTED as deployed
+  ✔ Issue #60 RESOLVED — query_builder.py reads OPENCLAW_QUERY_TEMPLATE;
+    ALJ dispatches to 7 RQT-002 v1.1 Baidu queries; WS1 unchanged
+  ✔ ALJ pilot run 2 — real ALJ queries confirmed firing; mapping_size=2
+    (thin retrieval); governance Step 7 complete for real
+  ✔ Issue #62 RESOLVED — citation_sub.py strips ALJ Section 8 and
+    appends deterministic SOURCES; WS1 regression confirmed; unit tests pass
+  ✔ Issues #63 logged (freshness label inconsistency; blocked on #62)
+  ✔ ALJ thin retrieval root cause TBD — diagnostic pending next session
+
 IMMEDIATE — next session:
-  1. Sync and review D14 cron (2026-06-03 06:31) — confirm CP-020 source
-     taxonomy + freshness labels present in SOURCES appendix; spot-check
-     3+ sources (e.g. Xinhua → CN-STATE, Reuters → INTL-WIRE); also note
-     D14 is second manual WS1 run of 2026-06-02 (08:43 UTC) was clean
-     GREEN 18/18/0 — if this is treated as D14, CP-020 labels need review
-  2. If D14 CP-020 labels valid: CP-020 VALIDATED; send externally;
-     gate streak = 2; proceed to Tier 2
-  3. WS2 PRIORITY: Claude Code to scope and implement Issue #60 fix —
-     query_builder.py must read ALJ client config before any meaningful
-     ALJ pilot run is possible; new change packet required
-  4. Once Issue #60 fixed: re-run ALJ pilot (governance Step 7 restart);
-     OPENCLAW-RQT-002 v1.1 and CP-025 validate on that run
+  1. ALJ thin retrieval diagnostic — check raw Baidu fetch output before
+     filtering for the 5 empty queries (oem_watch, export_gulf, policy);
+     determine if 168h filter is cutting results or Baidu genuinely returning
+     zero; fix or note for CP-023 accordingly
+  2. Deploy CP-025 (tv.cctv.com/tv.cctv.cn domain exclusion for ALJ;
+     filter_results.py; was blocked on Issue #60 — now unblocked)
+  3. Begin Tier 2 — CP-021 (source-first output restructuring + LinkedIn
+     suppression); 2 held-mode WS1 runs before live; gate streak restarts
+     on first live CP-021 delivery
 
 SIGNAL-WIDENING WORK QUEUE — approved 2026-05-28, sequenced:
   Tier 0 (COMPLETE 2026-06-01):
     ✔ CP-018 / CP-019 deployed and validated
     ✔ CP-015/016/017 bundle deployed; ALJ pre-live blockers cleared
-  Tier 1 (COMPLETE 2026-06-02):
-    ✔ CP-020: deployed — source taxonomy + freshness labels; validates D14
+  Tier 1 (COMPLETE 2026-06-03):
+    ✔ CP-020: deployed and accepted — agent-prompt layer; SOURCES appendix
+      labels require CP-024; effect confirmed in ALJ output
   Tier 2 (after CP-020 validates):
     - CP-021: Claude Code — source-first output restructuring + LinkedIn
       suppression; 2 held-mode runs before live; gate streak restarts
@@ -776,8 +794,13 @@ Phase D ACTIVE — Controlled Pilot (Step 8).
   - Delivery 13 (2026-06-02): CLEAN — 16/16 citations; T-04 compliant;
     CP-019 v2 VALIDATED (no geographic footer); CP-020 deployed (validates D14);
     SENT EXTERNALLY 2026-06-02 — gate streak restarts; streak: 1 of 10
+  - Delivery 14 (2026-06-03): CLEAN — 12/12 citations; T-04 compliant;
+    validator GREEN 12/12/0; Brave=44, Baidu=54; topics: US-China trade
+    ($30B discussions, Nvidia chip halt), Yvette Cooper China visit / EU
+    "not sustainable", Israel/Lebanon/Gulf capital into Israeli tech;
+    SENT EXTERNALLY 2026-06-03 — gate streak = 2 of 10
 
-  Gate streak: 1 of 10 (D13 sent 2026-06-02; streak restarted).
+  Gate streak: 2 of 10 (D13 2026-06-02, D14 2026-06-03).
 
   Issue #50 monitoring — did not recur D2–D13 (D5/D6 thin at ids=9 but no degradation)
   Issue #54 OPEN — broadcaster dedup gap; operator decision on CP timing required
@@ -907,16 +930,17 @@ Phase D ACTIVE — Controlled Pilot (Step 8).
     export_gulf_p1; 商務部 removed from policy_p1; BLOCKED pending Issue #60 fix
   - CP-025 APPROVED 2026-06-02 — tv.cctv.com / tv.cctv.cn domain exclusion
     for ALJ client profile; filter_results.py; BLOCKED pending Issue #60 fix
-  - Issue #60 IDENTIFIED 2026-06-02 — CRITICAL: query_builder.py hardcoded
-    to WS1; ignores ALJ config entirely; all ALJ pilot runs to date produced
-    WS1 content; pilot run 1 scoring is invalidated — was not real ALJ content
-  - Issue #61 RESOLVED 2026-06-02 — run_light_to_lark.sh positional arg fix
-    deployed by Claude Code; both styles now work
-  - ALJ Lark credential confirmed LIVE (not test) — pilot_mode=true is the
-    only delivery gate; do not disable pilot_mode until Issue #60 is fixed
-    and real ALJ content is confirmed
-  - Pilot runs 1 and 2 both used WS1 query path — governance step 7 must be
-    re-executed once Issue #60 is resolved
+  - Issue #60 RESOLVED 2026-06-03 — query_builder.py now reads
+    OPENCLAW_QUERY_TEMPLATE; ALJ dispatches to 7 RQT-002 v1.1 queries
+  - Issue #62 RESOLVED 2026-06-03 — citation_sub.py strips agent Section 8;
+    deterministic SOURCES appended from retrieval package; WS1 unaffected
+  - Issue #63 OPEN — freshness label inconsistency; blocked on #62 (now fixed;
+    will recheck on next pilot run)
+  - Pilot run 2 (2026-06-03) — real ALJ queries confirmed; mapping_size=2;
+    thin retrieval (5 of 7 query families returned zero from Baidu);
+    governance Step 7 now complete with real ALJ content
+  - ALJ thin retrieval — root cause TBD; diagnostic next session
+  - Step 9 (governance): IN PROGRESS — CP-025 next; thin retrieval diagnostic
 
 ---
 
