@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OpenClaw — CEO Operating Dashboard</title>
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f4f5f7; color: #1a1a2e; font-size: 13px; line-height: 1.5; }
+
+  /* ── Header ── */
+  .header { background: #1a1a2e; color: #fff; padding: 18px 28px; display: flex; align-items: center; justify-content: space-between; }
+  .header h1 { font-size: 20px; font-weight: 700; letter-spacing: 0.5px; }
+  .header-sub { font-size: 12px; color: #8892a4; margin-top: 2px; }
+  .header-meta { font-size: 11px; color: #8892a4; text-align: right; }
+  .phase-badge { background: #f97316; color: #fff; font-size: 11px; font-weight: 700; padding: 3px 10px; border-radius: 10px; letter-spacing: 0.5px; margin-left: 12px; vertical-align: middle; }
+  .posture-banner { background: #fff3e0; border-bottom: 3px solid #f97316; padding: 10px 28px; font-size: 12px; color: #7c2d12; font-weight: 600; display: flex; align-items: center; gap: 10px; }
+
+  /* ── Layout ── */
+  .section-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px; color: #8892a4; padding: 18px 20px 6px; }
+  .main { padding: 0 20px 16px; display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px; }
+  .full-width { grid-column: 1 / -1; }
+  .two-col { grid-column: span 2; }
+  .one-col { grid-column: span 1; }
+
+  /* ── Cards ── */
+  .card { background: #fff; border-radius: 8px; border: 1px solid #e2e6ea; overflow: hidden; }
+  .card-header { padding: 11px 16px; border-bottom: 1px solid #e2e6ea; display: flex; align-items: center; justify-content: space-between; }
+  .card-title { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.7px; color: #5a6270; }
+  .card-body { padding: 14px 16px; }
+  .card-alert { border-left: 4px solid #f97316; }
+  .card-critical { border-left: 4px solid #dc2626; }
+
+  /* ── Badges ── */
+  .badge { display: inline-block; font-size: 10px; font-weight: 700; padding: 2px 8px; border-radius: 9px; letter-spacing: 0.3px; }
+  .badge-green   { background: #d1fae5; color: #065f46; }
+  .badge-yellow  { background: #fef9c3; color: #854d0e; }
+  .badge-orange  { background: #ffedd5; color: #9a3412; }
+  .badge-red     { background: #fee2e2; color: #991b1b; }
+  .badge-blue    { background: #dbeafe; color: #1e40af; }
+  .badge-grey    { background: #f1f3f5; color: #5a6270; }
+  .badge-purple  { background: #ede9fe; color: #5b21b6; }
+
+  /* ── CEO Summary ── */
+  .summary-box { background: #f8f9fb; border: 1px solid #e2e6ea; border-left: 5px solid #1a1a2e; border-radius: 6px; padding: 16px 18px; font-size: 13px; line-height: 1.8; color: #1a1a2e; }
+  .summary-box p { margin-bottom: 8px; }
+  .summary-box p:last-child { margin-bottom: 0; }
+  .summary-highlight { background: #fff3e0; border-radius: 4px; padding: 2px 6px; font-weight: 600; color: #9a3412; }
+
+  /* ── Status Table ── */
+  .status-table { width: 100%; border-collapse: collapse; font-size: 12px; }
+  .status-table th { text-align: left; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.6px; color: #8892a4; padding: 6px 10px; border-bottom: 2px solid #e2e6ea; background: #f8f9fb; }
+  .status-table td { padding: 8px 10px; border-bottom: 1px solid #f1f3f5; vertical-align: top; }
+  .status-table tr:last-child td { border-bottom: none; }
+  .status-table .label { font-weight: 600; color: #1a1a2e; }
+  .status-table .meaning { color: #5a6270; font-size: 11px; margin-top: 2px; }
+
+  /* ── Traffic lights ── */
+  .tl { display: inline-flex; align-items: center; gap: 6px; font-size: 11px; font-weight: 700; }
+  .tl-dot { width: 11px; height: 11px; border-radius: 50%; flex-shrink: 0; }
+  .tl-green  { background: #22c55e; }
+  .tl-yellow { background: #eab308; }
+  .tl-orange { background: #f97316; }
+  .tl-red    { background: #ef4444; }
+  .tl-grey   { background: #9ca3af; }
+  .tl-blue   { background: #3b82f6; }
+
+  /* ── Stat rows ── */
+  .stat-row { display: flex; justify-content: space-between; align-items: baseline; font-size: 12px; padding: 5px 0; border-bottom: 1px solid #f1f3f5; }
+  .stat-row:last-child { border-bottom: none; }
+  .stat-label { color: #5a6270; }
+  .stat-value { font-weight: 600; text-align: right; max-width: 55%; }
+
+  /* ── Workstream cards ── */
+  .ws-header-bar { padding: 12px 16px 0; }
+  .ws-label { font-size: 10px; font-weight: 700; color: #8892a4; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 2px; }
+  .ws-name { font-size: 15px; font-weight: 700; margin-bottom: 3px; color: #1a1a2e; }
+  .ws-tagline { font-size: 11px; color: #5a6270; margin-bottom: 10px; line-height: 1.5; }
+  .ws-section { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; color: #8892a4; margin: 10px 0 4px; }
+  .ws-bullet { font-size: 12px; color: #1a1a2e; padding: 3px 0 3px 14px; border-bottom: 1px solid #f8f9fb; position: relative; }
+  .ws-bullet::before { content: '›'; position: absolute; left: 0; color: #9ca3af; }
+  .ws-bullet:last-child { border-bottom: none; }
+  .ws-success-box { background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 4px; padding: 8px 10px; margin-top: 10px; font-size: 11px; color: #166534; line-height: 1.5; }
+  .ws-success-box strong { display: block; font-size: 10px; text-transform: uppercase; letter-spacing: 0.4px; margin-bottom: 2px; color: #15803d; }
+  .progress-bar { background: #e2e6ea; border-radius: 4px; height: 6px; overflow: hidden; margin-top: 8px; }
+  .progress-fill { height: 100%; border-radius: 4px; }
+  .fill-blue   { background: #2563eb; }
+  .fill-orange { background: #f97316; }
+  .fill-purple { background: #7c3aed; }
+  .fill-green  { background: #22c55e; }
+  .fill-grey   { background: #9ca3af; }
+  .progress-caption { font-size: 10px; color: #8892a4; margin-top: 3px; }
+
+  /* ── Gate streak ── */
+  .streak-row { display: flex; align-items: center; gap: 5px; margin: 8px 0 4px; flex-wrap: wrap; }
+  .streak-pip { width: 26px; height: 26px; border-radius: 50%; border: 2px solid #e2e6ea; background: #f4f5f7; display: flex; align-items: center; justify-content: center; font-size: 9px; font-weight: 700; color: #c0c7d0; }
+  .streak-pip.done { background: #d1fae5; border-color: #6ee7b7; color: #065f46; }
+  .streak-pip.paused { background: #ffedd5; border-color: #fb923c; color: #9a3412; }
+  .streak-caption { font-size: 10px; color: #8892a4; margin-top: 2px; }
+
+  /* ── Execution plan ── */
+  .plan-table { width: 100%; border-collapse: collapse; font-size: 12px; }
+  .plan-table th { text-align: left; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.6px; color: #8892a4; padding: 6px 10px; border-bottom: 2px solid #e2e6ea; background: #f8f9fb; }
+  .plan-table td { padding: 9px 10px; border-bottom: 1px solid #f1f3f5; vertical-align: top; font-size: 12px; }
+  .plan-table tr:last-child td { border-bottom: none; }
+  .plan-day { font-weight: 700; color: #1a1a2e; white-space: nowrap; }
+  .plan-focus { font-weight: 700; color: #1a1a2e; }
+  .plan-actions { color: #5a6270; font-size: 11px; margin-top: 3px; line-height: 1.6; }
+
+  /* ── Milestone tracker ── */
+  .milestone-table { width: 100%; border-collapse: collapse; font-size: 12px; }
+  .milestone-table th { text-align: left; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.6px; color: #8892a4; padding: 6px 10px; border-bottom: 2px solid #e2e6ea; background: #f8f9fb; }
+  .milestone-table td { padding: 8px 10px; border-bottom: 1px solid #f1f3f5; vertical-align: top; }
+  .milestone-table tr:last-child td { border-bottom: none; }
+  .milestone-name { font-weight: 600; color: #1a1a2e; }
+  .milestone-meaning { color: #5a6270; font-size: 11px; margin-top: 2px; }
+  .milestone-next { color: #5a6270; font-size: 11px; }
+  .milestone-owner { font-size: 11px; }
+
+  /* ── Risk register ── */
+  .risk-table { width: 100%; border-collapse: collapse; font-size: 12px; }
+  .risk-table th { text-align: left; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.6px; color: #8892a4; padding: 6px 10px; border-bottom: 2px solid #e2e6ea; background: #f8f9fb; }
+  .risk-table td { padding: 8px 10px; border-bottom: 1px solid #f1f3f5; vertical-align: top; font-size: 12px; }
+  .risk-table tr:last-child td { border-bottom: none; }
+  .risk-name { font-weight: 600; color: #1a1a2e; }
+  .risk-meaning { color: #5a6270; font-size: 11px; margin-top: 2px; }
+
+  /* ── Decisions ── */
+  .decision-item { padding: 10px 0; border-bottom: 1px solid #f1f3f5; }
+  .decision-item:last-child { border-bottom: none; }
+  .decision-q { font-weight: 600; font-size: 12px; color: #1a1a2e; margin-bottom: 4px; }
+  .decision-default { font-size: 11px; color: #5a6270; }
+  .decision-default strong { color: #1a1a2e; }
+
+  /* ── Success checklist ── */
+  .check-item { display: flex; align-items: flex-start; gap: 8px; padding: 6px 0; border-bottom: 1px solid #f1f3f5; font-size: 12px; }
+  .check-item:last-child { border-bottom: none; }
+  .check-box { width: 16px; height: 16px; border: 2px solid #d1d5db; border-radius: 3px; flex-shrink: 0; margin-top: 1px; }
+  .check-text { color: #1a1a2e; }
+
+  /* ── Footer ── */
+  .footer { text-align: center; padding: 14px; font-size: 11px; color: #8892a4; border-top: 1px solid #e2e6ea; background: #fff; margin-top: 8px; }
+</style>
+</head>
+<body>
+
+<!-- ════════════════════════════════ HEADER ════════════════════════════════ -->
+<div class="header">
+  <div>
+    <div style="display:flex;align-items:center;">
+      <h1>OPENCLAW</h1>
+      <span class="phase-badge">PHASE D — TRUST REPAIR POSTURE</span>
+    </div>
+    <div class="header-sub">CEO / Operator Operating Dashboard</div>
+  </div>
+  <div class="header-meta">
+    As of: 6 June 2026<br>
+    Objective: Trusted, client-grade intelligence platform for PR &amp; communications firms
+  </div>
+</div>
+
+<!-- Posture banner -->
+<div class="posture-banner">
+  ⚠ &nbsp;This week's posture: <strong>Trust Repair — not expansion.</strong>&nbsp; WS1 delivery is in held mode. No new external sends count toward the gate streak until held-mode testing is complete and the operator approves resumption.
+</div>
+
+<!-- ════════════════════════════════ CEO SUMMARY ═══════════════════════════ -->
+<div class="section-label">CEO Summary — 6 June 2026</div>
+<div class="main">
+  <div class="card full-width">
+    <div class="card-header">
+      <span class="card-title">Where We Stand This Week</span>
+      <span class="badge badge-orange">Trust Repair Posture</span>
+    </div>
+    <div class="card-body">
+      <div class="summary-box">
+        <p><strong>The platform is working and the project is viable.</strong> The pipeline runs every morning, citations are being checked, and we have successfully delivered 15 clean external briefings since Phase D began. The core system is not broken.</p>
+        <p><strong>However, we have just found a serious trust issue that must be fixed before we can continue the gate streak.</strong> On June 6 (Delivery 17), a citation check that the system marked as <em>passed</em> turned out to be misleading. The source the system cited did exist in the retrieval package — so the citation ID was technically valid — but <span class="summary-highlight">the source did not actually support the specific claim made in the brief.</span> A client reading that bullet would have received a plausible-sounding claim that was not properly backed by the cited source. We caught this through operator review and retracted that delivery from the gate streak before it did damage.</p>
+        <p><strong>What this is:</strong> a <em>Valid Citation ID / False Claim-Source Grounding</em> failure. Our current automated checks confirm that a citation exists and is correctly formatted — but they do not yet confirm that the cited source actually <em>says what the claim says</em>. That is the gap we are repairing this week.</p>
+        <p><strong>This is not project-threatening.</strong> It is a known category of quality risk in AI-assisted research, and we have a clear repair path. We are now adding manual spot-checks, tightening which sources are allowed, and designing an automated alignment test for the future. None of this requires rebuilding the platform.</p>
+        <p><strong>This week's posture is trust repair, not expansion.</strong> WS1 (the daily China brief) remains the critical path and is in held mode — no deliveries count toward the streak until we have tested the new controls. WS2 (ALJ China Auto Weekly) remains in held-mode manual testing only. WS3 (full article retrieval) continues only as support for the grounding investigation.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ════════════════════════════════ STATUS SNAPSHOT ══════════════════════ -->
+<div class="section-label">Current Status Snapshot</div>
+<div class="main">
+  <div class="card full-width">
+    <div class="card-header">
+      <span class="card-title">Traffic-Light Status — All Systems</span>
+      <span style="font-size:11px;color:#8892a4;">Green = working · Yellow = watch · Orange = active problem · Grey = paused</span>
+    </div>
+    <div class="card-body" style="padding:0;">
+      <table class="status-table">
+        <thead>
+          <tr>
+            <th style="width:22%;">Area</th>
+            <th style="width:14%;">Status</th>
+            <th>What This Means</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="label">Overall Project</span></td>
+            <td><span class="tl"><span class="tl-dot tl-yellow"></span>Watch</span></td>
+            <td><div>Viable and progressing. A trust issue was identified on June 6 and containment steps have begun. Not project-threatening, but requires focused repair this week.</div></td>
+          </tr>
+          <tr>
+            <td><span class="label">WS1 — China Monitor</span></td>
+            <td><span class="tl"><span class="tl-dot tl-orange"></span>Repair</span></td>
+            <td><div>Critical path. Pipeline runs daily and produces output. External delivery is <strong>paused</strong> until trust-repair controls are tested. Gate streak is frozen at 3 of 10.</div></td>
+          </tr>
+          <tr>
+            <td><span class="label">WS2 — ALJ Auto Weekly</span></td>
+            <td><span class="tl"><span class="tl-dot tl-grey"></span>Held Mode</span></td>
+            <td><div>Active but constrained. Manual trigger only. Has the same claim-grounding risk as WS1. Must not advance to unsupervised delivery until WS1 trust repair is complete.</div></td>
+          </tr>
+          <tr>
+            <td><span class="label">WS3 — Browser Retrieval</span></td>
+            <td><span class="tl"><span class="tl-dot tl-blue"></span>Support Track</span></td>
+            <td><div>Research only. Narrowly scoped this week to help answer: "Can full article retrieval catch grounding failures before they reach a client?"</div></td>
+          </tr>
+          <tr>
+            <td><span class="label">Phase D Gate Streak</span></td>
+            <td><span class="tl"><span class="tl-dot tl-orange"></span>Paused</span></td>
+            <td><div>Streak is at 3 of 10 (confirmed June 2–4). Streak is <strong>frozen</strong> — no new deliveries count until held-mode testing clears the trust-repair gate. Streak does not reset; it resumes after operator approval.</div></td>
+          </tr>
+          <tr>
+            <td><span class="label">Client Readiness</span></td>
+            <td><span class="tl"><span class="tl-dot tl-orange"></span>Not Yet</span></td>
+            <td><div>WS1 is not ready for unsupervised external delivery. WS2 is not ready for unsupervised delivery. Every output needs operator review while repair controls are being validated.</div></td>
+          </tr>
+          <tr>
+            <td><span class="label">Citation ID Validation</span></td>
+            <td><span class="tl"><span class="tl-dot tl-green"></span>Working</span></td>
+            <td><div>The system correctly checks that every citation uses a real source ID from the retrieval package. Zero fabricated citation IDs across all Phase D runs. This part is working.</div></td>
+          </tr>
+          <tr>
+            <td><span class="label">Claim-Source Grounding</span></td>
+            <td><span class="tl"><span class="tl-dot tl-orange"></span>Not Controlled</span></td>
+            <td><div><strong>This is the active problem.</strong> The system confirms a citation exists — but does not yet confirm that the cited source actually supports the specific claim it is attached to. The June 6 failure exposed this gap.</div></td>
+          </tr>
+          <tr>
+            <td><span class="label">Source Quality</span></td>
+            <td><span class="tl"><span class="tl-dot tl-yellow"></span>Improving</span></td>
+            <td><div>Some low-quality or non-article pages (e.g. TV video shells) were entering the retrieval pool. Domain exclusions were deployed June 6. More refinement needed this week.</div></td>
+          </tr>
+          <tr>
+            <td><span class="label">Operator Review Burden</span></td>
+            <td><span class="tl"><span class="tl-dot tl-yellow"></span>Elevated</span></td>
+            <td><div>Manual spot-checking of high-risk claims has been added to the review process. This is sustainable short-term but must be replaced with an automated check before the gate streak can resume at full pace.</div></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-- ════════════════════════════════ GATE STREAK ══════════════════════════ -->
+<div class="main" style="padding-top:0;">
+  <div class="card full-width">
+    <div class="card-header">
+      <span class="card-title">Phase D Gate Streak — 3 of 10</span>
+      <span class="badge badge-orange">PAUSED — Trust Repair</span>
+    </div>
+    <div class="card-body">
+      <div style="font-size:12px;color:#5a6270;margin-bottom:8px;">
+        Phase D closes when 10 consecutive clean external deliveries are confirmed. Each must pass all automated checks <em>and</em> operator review. The streak is currently frozen — it does not reset, but no new deliveries count until held-mode testing is complete and the operator approves resumption.
+      </div>
+      <div class="streak-row">
+        <div class="streak-pip done" title="D13 — 2 Jun 2026">✓</div>
+        <div class="streak-pip done" title="D14 — 3 Jun 2026">✓</div>
+        <div class="streak-pip done" title="D15 — 4 Jun 2026">✓</div>
+        <div class="streak-pip paused" title="Paused — held mode active">⏸</div>
+        <div class="streak-pip">5</div>
+        <div class="streak-pip">6</div>
+        <div class="streak-pip">7</div>
+        <div class="streak-pip">8</div>
+        <div class="streak-pip">9</div>
+        <div class="streak-pip">10</div>
+      </div>
+      <div class="streak-caption">Confirmed: D13 (2 Jun), D14 (3 Jun), D15 (4 Jun). D16: duplicate-content block (does not break or advance streak). D17 (6 Jun): sent externally then retracted — claim-source grounding failure. Streak frozen. Resumption requires operator approval after held-mode testing.</div>
+    </div>
+  </div>
+</div>
+
+<!-- ════════════════════════════════ WORKSTREAM CARDS ═════════════════════ -->
+<div class="section-label">Workstream Detail</div>
+<div class="main">
+
+  <!-- WS1 -->
+  <div class="card card-alert">
+    <div class="card-header">
+      <span class="card-title">WS1 — Daily China Monitor</span>
+      <span class="badge badge-orange">Trust Repair / Held Mode</span>
+    </div>
+    <div class="card-body">
+      <div class="ws-label">Workstream 1 — Critical Path</div>
+      <div class="ws-name">China Monitoring Brief</div>
+      <div class="ws-tagline">Daily automated intelligence brief on China business and geopolitical signals for PR and communications clients.</div>
+
+      <div class="ws-section">What is working</div>
+      <div class="ws-bullet">Pipeline runs every morning at 06:30 — no execution failures</div>
+      <div class="ws-bullet">Citation IDs are validated — zero fabricated references across all Phase D runs</div>
+      <div class="ws-bullet">Output is generated and structured correctly</div>
+      <div class="ws-bullet">Source appendix present on every delivery</div>
+      <div class="ws-bullet">Advisory language rules (no alarm-grade language) — fully compliant</div>
+
+      <div class="ws-section">What is not yet safe for client delivery</div>
+      <div class="ws-bullet"><strong>Claim-source grounding:</strong> the system does not yet confirm that the cited source actually supports the specific claim it is attached to</div>
+      <div class="ws-bullet"><strong>Source quality filtering:</strong> some low-quality or non-article pages were entering the retrieval pool (domain exclusions deployed June 6)</div>
+      <div class="ws-bullet"><strong>Snippet quality:</strong> not all retrieved snippets contain enough text to verify whether a claim is supported</div>
+
+      <div class="ws-section">This week's focus</div>
+      <div class="ws-bullet">Manual operator spot-check for all high-risk claims</div>
+      <div class="ws-bullet">Domain exclusions reviewed and expanded (source hygiene)</div>
+      <div class="ws-bullet">Define a "usable snippet" quality floor</div>
+      <div class="ws-bullet">Design a snippet-to-claim alignment check</div>
+      <div class="ws-bullet">Test source-first output restructuring (CP-021) in held mode</div>
+
+      <div class="ws-success-box">
+        <strong>End-of-week test</strong>
+        "Can we say with confidence that each Executive Take bullet is supported by the source it cites?"
+      </div>
+      <div class="progress-bar"><div class="progress-fill fill-orange" style="width:30%;"></div></div>
+      <div class="progress-caption">Gate streak: 3 of 10 · Held-mode posture active</div>
+    </div>
+  </div>
+
+  <!-- WS2 -->
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">WS2 — ALJ China Auto Weekly</span>
+      <span class="badge badge-grey">Held Mode Only</span>
+    </div>
+    <div class="card-body">
+      <div class="ws-label">Workstream 2 — Secondary Pilot</div>
+      <div class="ws-name">China Auto Weekly Brief</div>
+      <div class="ws-tagline">Weekly intelligence brief on the Chinese automotive market for a Middle East automotive distributor — OEM trends, NEV market, export signals.</div>
+
+      <div class="ws-section">What is working</div>
+      <div class="ws-bullet">Client profile and configuration in place</div>
+      <div class="ws-bullet">Manual pilot runs possible</div>
+      <div class="ws-bullet">First live delivery confirmed 4 June 2026</div>
+      <div class="ws-bullet">Source appendix requirement defined and deployed</div>
+      <div class="ws-bullet">TV video shell pages now excluded from the retrieval pool</div>
+
+      <div class="ws-section">Current risks</div>
+      <div class="ws-bullet"><strong>Same claim-grounding risk as WS1</strong> — citations not yet semantically verified</div>
+      <div class="ws-bullet"><strong>Thin retrieval:</strong> not all source types returning enough relevant results</div>
+      <div class="ws-bullet">Specialist source depth for Chinese automotive press still being built</div>
+
+      <div class="ws-section">This week's focus</div>
+      <div class="ws-bullet">Keep in manual trigger / held-mode only</div>
+      <div class="ws-bullet">Use any ALJ runs to test source authority and snippet alignment</div>
+      <div class="ws-bullet">Do not advance toward unsupervised live delivery</div>
+
+      <div class="ws-success-box">
+        <strong>End-of-week test</strong>
+        "Can we produce a held-mode ALJ report with a complete source appendix and no unsupported major claims?"
+      </div>
+      <div class="progress-bar"><div class="progress-fill fill-grey" style="width:20%;"></div></div>
+      <div class="progress-caption">Held mode only · Not ready for unsupervised delivery</div>
+    </div>
+  </div>
+
+  <!-- WS3 -->
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">WS3 — Full Article Retrieval</span>
+      <span class="badge badge-blue">Support Track</span>
+    </div>
+    <div class="card-body">
+      <div class="ws-label">Workstream 3 — Research Support</div>
+      <div class="ws-name">Browser Full-Text Retrieval</div>
+      <div class="ws-tagline">Research track exploring whether retrieving full article body text (vs. headline snippets) can help verify that claims are properly supported by their sources.</div>
+
+      <div class="ws-section">What is working</div>
+      <div class="ws-bullet">Full article text retrieved successfully from 6 of 7 Chinese source domains tested</div>
+      <div class="ws-bullet">Chinese-language text handling confirmed working</div>
+      <div class="ws-bullet">Days 1–7 of research complete</div>
+
+      <div class="ws-section">Current risks</div>
+      <div class="ws-bullet">Some major Western sources (Reuters, Bloomberg) block automated retrieval</div>
+      <div class="ws-bullet">Integration complexity — must not distract from WS1 repair</div>
+      <div class="ws-bullet">Some article pages load partially without JavaScript execution</div>
+
+      <div class="ws-section">This week's focus (narrowly scoped)</div>
+      <div class="ws-bullet">Retrieve article body text from the most reliable Chinese sources</div>
+      <div class="ws-bullet">Test whether full retrieval would have caught the June 6 failure</div>
+      <div class="ws-bullet">Distinguish real article pages from navigation/video pages</div>
+
+      <div class="ws-success-box">
+        <strong>End-of-week test</strong>
+        "Do we have evidence that article-body retrieval can improve claim-source grounding?"
+      </div>
+      <div class="progress-bar"><div class="progress-fill fill-purple" style="width:65%;"></div></div>
+      <div class="progress-caption">Phase 1 research in progress · No pipeline integration this week</div>
+    </div>
+  </div>
+
+</div>
+
+<!-- ════════════════════════════════ 7-DAY EXECUTION PLAN ═════════════════ -->
+<div class="section-label">One-Week Execution Plan — 6–12 June 2026</div>
+<div class="main">
+  <div class="card full-width">
+    <div class="card-header">
+      <span class="card-title">Trust Repair — Day-by-Day Plan</span>
+      <span style="font-size:11px;color:#8892a4;">All WS1 runs in held mode until operator approves resumption</span>
+    </div>
+    <div class="card-body" style="padding:0;">
+      <table class="plan-table">
+        <thead>
+          <tr>
+            <th style="width:12%;">Day</th>
+            <th style="width:20%;">Focus</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="plan-day">Day 1<br><span style="font-weight:400;font-size:10px;color:#8892a4;">Sat 6 Jun</span></td>
+            <td class="plan-focus">Containment</td>
+            <td>
+              <div class="plan-actions">
+                • Log the June 6 failure formally (D-FB-008 — claim-source grounding, severity 4)<br>
+                • Add manual operator spot-check for all high-risk claims (entity names, quotes, specific figures) before any future external send<br>
+                • Record that <em>"Validator GREEN = citation structure safe, not claim-grounding safe"</em> — the validator passes when a citation ID is valid, not when the claim is verified<br>
+                • Deploy domain exclusions: h5.article.smbae.cn, tv.cctv.com, tv.cctv.cn now excluded from WS1 retrieval pool (completed same session)<br>
+                • Confirm WS1 is in held mode — no deliveries count toward streak
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="plan-day">Day 2<br><span style="font-weight:400;font-size:10px;color:#8892a4;">Sun 7 Jun</span></td>
+            <td class="plan-focus">Source Hygiene</td>
+            <td>
+              <div class="plan-actions">
+                • Review which source domains are currently entering the retrieval pool<br>
+                • Identify and exclude obvious low-quality, non-article, or structurally unsuitable pages<br>
+                • Compare the retrieval package before and after exclusions to confirm improvement<br>
+                • Operator decision: which additional source categories to exclude (see Decisions section)
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="plan-day">Day 3<br><span style="font-weight:400;font-size:10px;color:#8892a4;">Mon 8 Jun</span></td>
+            <td class="plan-focus">Snippet Quality Floor</td>
+            <td>
+              <div class="plan-actions">
+                • Define what makes a snippet "usable" — minimum content, coverage of the topic, no pure navigation text<br>
+                • Dry-run quality floor check against recent WS1 and ALJ retrieval packages<br>
+                • Produce a finding: "Of recent sources, what % would have passed this floor?"
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="plan-day">Day 4<br><span style="font-weight:400;font-size:10px;color:#8892a4;">Tue 9 Jun</span></td>
+            <td class="plan-focus">Alignment Check Design</td>
+            <td>
+              <div class="plan-actions">
+                • Design a basic check: does the cited snippet contain the key entity, number, or phrase from the claim it supports?<br>
+                • Test this check against the June 6 failure — it should have flagged the h5.article.smbae.cn citation<br>
+                • Operator decision: should this check start as WARN-only, HOLD, or hard block? (see Decisions section)
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="plan-day">Day 5<br><span style="font-weight:400;font-size:10px;color:#8892a4;">Wed 10 Jun</span></td>
+            <td class="plan-focus">Held-Mode Runs</td>
+            <td>
+              <div class="plan-actions">
+                • Run WS1 in held mode (no external send) with new domain exclusions and snippet quality controls active<br>
+                • Operator reviews output: do the claims in the Executive Take section now have clearly supportive sources?<br>
+                • Optional: run an ALJ held-mode test if fresh automotive news cycle is available
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="plan-day">Day 6<br><span style="font-weight:400;font-size:10px;color:#8892a4;">Thu 11 Jun</span></td>
+            <td class="plan-focus">Source-First Output</td>
+            <td>
+              <div class="plan-actions">
+                • Review CP-021 (source-first output restructuring): this reformats the brief so each claim is built from the source up, not the other way around<br>
+                • This is the structural change most likely to reduce grounding risk<br>
+                • Operator decision: proceed in held mode, defer, or revise scope? (see Decisions section)
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="plan-day">Day 7<br><span style="font-weight:400;font-size:10px;color:#8892a4;">Fri 12 Jun</span></td>
+            <td class="plan-focus">Gate Review</td>
+            <td>
+              <div class="plan-actions">
+                • Operator decision: is WS1 ready to resume the gate streak? What conditions must be met?<br>
+                • Operator decision: does WS2 remain in held mode for another week?<br>
+                • Operator decision: does WS3 move toward limited integration for claim verification?<br>
+                • Update Daily Status and issue log with outcomes; close this trust-repair phase if criteria are met
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-- ════════════════════════════════ MILESTONE TRACKER ════════════════════ -->
+<div class="section-label">Milestone Tracker</div>
+<div class="main">
+  <div class="card full-width">
+    <div class="card-header">
+      <span class="card-title">Phase Progress — Business-Level View</span>
+    </div>
+    <div class="card-body" style="padding:0;">
+      <table class="milestone-table">
+        <thead>
+          <tr>
+            <th style="width:8%;">Status</th>
+            <th style="width:20%;">Milestone</th>
+            <th style="width:25%;">What it means in business terms</th>
+            <th style="width:27%;">Next step</th>
+            <th style="width:20%;">Owner / Decision</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="tl"><span class="tl-dot tl-green"></span>Complete</span></td>
+            <td><span class="milestone-name">Phase A — Trust Gate</span><div class="milestone-meaning">Closed 11 May 2026</div></td>
+            <td>5 consecutive clean runs confirmed — the pipeline can produce reliable output</td>
+            <td>Complete</td>
+            <td><span class="badge badge-green">Done</span></td>
+          </tr>
+          <tr>
+            <td><span class="tl"><span class="tl-dot tl-green"></span>Complete</span></td>
+            <td><span class="milestone-name">Phase B — Infrastructure</span><div class="milestone-meaning">Closed 11 May 2026</div></td>
+            <td>Multi-client architecture in place — the platform can serve more than one client without data bleed</td>
+            <td>Complete</td>
+            <td><span class="badge badge-green">Done</span></td>
+          </tr>
+          <tr>
+            <td><span class="tl"><span class="tl-dot tl-green"></span>Complete</span></td>
+            <td><span class="milestone-name">Phase C — Client Config &amp; Memory</span><div class="milestone-meaning">Closed 20 May 2026</div></td>
+            <td>Each client has an isolated configuration; the system learns from its own run history to improve topic coverage</td>
+            <td>Complete</td>
+            <td><span class="badge badge-green">Done</span></td>
+          </tr>
+          <tr>
+            <td><span class="tl"><span class="tl-dot tl-orange"></span>Active</span></td>
+            <td><span class="milestone-name">Phase D — Controlled Pilot</span><div class="milestone-meaning">Authorized 20 May 2026</div></td>
+            <td>Daily real-client delivery with every output reviewed by the operator before counting toward the gate</td>
+            <td>Trust-repair controls must be validated before streak can resume</td>
+            <td><span class="badge badge-orange">Operator review required</span></td>
+          </tr>
+          <tr>
+            <td><span class="tl"><span class="tl-dot tl-orange"></span>Paused</span></td>
+            <td><span class="milestone-name">Phase D — WS1 Gate Streak</span><div class="milestone-meaning">3 of 10 confirmed · Streak frozen</div></td>
+            <td>10 consecutive clean externally-reviewed deliveries are required to close Phase D. <strong>The June 6 failure has paused the streak.</strong> Note: "validator GREEN" alone is not sufficient — claim-source grounding must also be controlled before we can trust the streak count.</td>
+            <td>Validate trust-repair controls in held mode; operator approves resumption; continue streak from 3</td>
+            <td><span class="badge badge-orange">Operator decision required</span></td>
+          </tr>
+          <tr>
+            <td><span class="tl"><span class="tl-dot tl-grey"></span>Not ready</span></td>
+            <td><span class="milestone-name">WS2 ALJ — Live Readiness</span><div class="milestone-meaning">Held mode only</div></td>
+            <td>ALJ brief is not yet ready for unsupervised delivery — thin retrieval, same grounding risk as WS1, source depth still being built</td>
+            <td>Held-mode testing; source quality review; do not advance until WS1 grounding is controlled</td>
+            <td><span class="badge badge-grey">Held — operator decision needed to advance</span></td>
+          </tr>
+          <tr>
+            <td><span class="tl"><span class="tl-dot tl-blue"></span>Research</span></td>
+            <td><span class="milestone-name">WS3 — Browser Retrieval</span><div class="milestone-meaning">Phase 1 in progress</div></td>
+            <td>Exploring whether full article text retrieval can help verify claims — a potential future grounding tool, not a live platform feature yet</td>
+            <td>Test against the June 6 failure case; determine if article-body retrieval would have caught the misbinding</td>
+            <td><span class="badge badge-blue">Research only — no integration decision yet</span></td>
+          </tr>
+        </tbody>
+      </table>
+      <div style="padding:10px 10px 8px; font-size:11px; color:#9a3412; background:#fff7ed; border-top:1px solid #fed7aa;">
+        ⚠ <strong>Key fact:</strong> Phase D cannot be considered fully mature until claim-source grounding is controlled. "Validator GREEN" confirms citation structure only — it does not confirm that the cited source supports the claim.
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ════════════════════════════════ RISK REGISTER ════════════════════════ -->
+<div class="section-label">Risk Register</div>
+<div class="main">
+  <div class="card full-width">
+    <div class="card-header">
+      <span class="card-title">Active Risks — Plain-English Summary</span>
+    </div>
+    <div class="card-body" style="padding:0;">
+      <table class="risk-table">
+        <thead>
+          <tr>
+            <th style="width:8%;">Severity</th>
+            <th style="width:22%;">Risk</th>
+            <th style="width:30%;">What it means for the project</th>
+            <th>What we are doing about it</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="badge badge-orange">High</span></td>
+            <td><span class="risk-name">Claim-source grounding failure</span><div class="risk-meaning">A cited source may not support the specific claim it is attached to</div></td>
+            <td>A client could receive a plausible-sounding bullet backed by a real citation ID, but the source does not actually say what the claim says. This erodes trust if discovered by the client.</td>
+            <td>Manual operator spot-check now active. Snippet alignment check being designed (Day 4). Domain exclusions deployed. Held-mode posture until controls are validated.</td>
+          </tr>
+          <tr>
+            <td><span class="badge badge-orange">High</span></td>
+            <td><span class="risk-name">Low-quality sources in retrieval pool</span><div class="risk-meaning">Weak or non-article pages are treated as serious sources</div></td>
+            <td>If a TV video shell or content aggregator page enters the pool, it cannot support a business claim — making a false grounding failure more likely.</td>
+            <td>Domain exclusions deployed June 6 (h5.article.smbae.cn, tv.cctv.com, tv.cctv.cn). Snippet quality floor being defined this week. Additional exclusions pending operator input.</td>
+          </tr>
+          <tr>
+            <td><span class="badge badge-yellow">Medium / High</span></td>
+            <td><span class="risk-name">Gate streak may be overstated</span><div class="risk-meaning">Validator GREEN does not guarantee each delivery was fully grounding-safe</div></td>
+            <td>The 3 confirmed streak deliveries passed automated citation checks. It is possible that earlier deliveries had similar grounding issues that were not caught. The streak count should be understood with this caveat.</td>
+            <td>Operator review of D13–D15 content; operator decision on whether to require additional validation before counting prior streak deliveries. Spot-check protocol now active going forward.</td>
+          </tr>
+          <tr>
+            <td><span class="badge badge-yellow">Medium</span></td>
+            <td><span class="risk-name">WS2 thin retrieval</span><div class="risk-meaning">ALJ brief may not have enough quality source depth</div></td>
+            <td>If the system can only surface 2–5 relevant results for an ALJ run, the brief will be sparse or will over-concentrate on a small number of sources — reducing its value to the client.</td>
+            <td>Query refinement in progress. Held-mode testing only. Do not advance to live delivery until retrieval depth is confirmed adequate.</td>
+          </tr>
+          <tr>
+            <td><span class="badge badge-yellow">Medium</span></td>
+            <td><span class="risk-name">WS3 integration distraction</span><div class="risk-meaning">Browser retrieval work could expand beyond its brief</div></td>
+            <td>Full article retrieval is a valuable future feature, but if it absorbs engineering attention this week it could delay the WS1 trust repair that is the actual priority.</td>
+            <td>WS3 scope is strictly limited this week to one question: "Would article-body retrieval have caught the June 6 failure?" No integration work is authorized.</td>
+          </tr>
+          <tr>
+            <td><span class="badge badge-yellow">Medium</span></td>
+            <td><span class="risk-name">Operator review burden is not scalable</span><div class="risk-meaning">Manual spot-checking every delivery is not a long-term solution</div></td>
+            <td>The manual review process is the right response right now — but it will not work at higher delivery volume or across multiple clients. It must be replaced by an automated snippet alignment check before Phase D closes.</td>
+            <td>Automated alignment check being designed this week (Day 4). Manual review continues as the interim control.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-- ════════════════════════════════ DECISIONS NEEDED ════════════════════ -->
+<div class="section-label">Decisions Needed from Philip / Operator</div>
+<div class="main">
+  <div class="card full-width card-alert">
+    <div class="card-header">
+      <span class="card-title">Open Operator Decisions</span>
+      <span class="badge badge-orange">6 items requiring your input</span>
+    </div>
+    <div class="card-body">
+
+      <div class="decision-item">
+        <div class="decision-q">1. Does the WS1 gate streak continue from 3, or does it reset after the June 6 grounding failure?</div>
+        <div class="decision-default"><strong>Recommended default:</strong> Streak continues from 3 but is frozen until held-mode testing passes. The three confirmed deliveries (D13–D15) passed all checks available at that time. No reset required, but no new deliveries count until trust-repair controls are validated.</div>
+      </div>
+
+      <div class="decision-item">
+        <div class="decision-q">2. Which additional source categories or domains should be excluded from the retrieval pool immediately?</div>
+        <div class="decision-default"><strong>Recommended default:</strong> Begin with TV/video shell domains (done for CCTV). Add social media aggregators, content farms, and any domain returning fewer than 50 words of article body text. Review the Day 2 source hygiene findings before making a final list.</div>
+      </div>
+
+      <div class="decision-item">
+        <div class="decision-q">3. When the snippet alignment check is built, should it start as WARN-only (flags but allows delivery), HOLD (pauses delivery for review), or a hard block?</div>
+        <div class="decision-default"><strong>Recommended default:</strong> WARN-only in the first held-mode run, so we can calibrate how often it fires without blocking legitimate output. Move to HOLD after one calibration run. Review before activating as a hard block.</div>
+      </div>
+
+      <div class="decision-item">
+        <div class="decision-q">4. Should WS2 (ALJ) remain in held-mode / manual trigger for the full coming week?</div>
+        <div class="decision-default"><strong>Recommended default:</strong> Yes — held mode only. Use any ALJ runs this week to test source quality improvements and snippet alignment, not to advance toward live delivery. Re-evaluate at the Day 7 gate review.</div>
+      </div>
+
+      <div class="decision-item">
+        <div class="decision-q">5. Should WS3 (browser retrieval) this week be strictly limited to testing whether article-body text would have caught the June 6 failure?</div>
+        <div class="decision-default"><strong>Recommended default:</strong> Yes — scope WS3 narrowly this week. No integration work. The only deliverable is a findings note: "Would full article retrieval have flagged the h5.article.smbae.cn misbinding?" Broader integration is a decision for after Day 7.</div>
+      </div>
+
+      <div class="decision-item">
+        <div class="decision-q">6. Should CP-021 (source-first output restructuring) proceed in held mode this week, or be deferred until after the grounding check is validated?</div>
+        <div class="decision-default"><strong>Recommended default:</strong> Proceed in held mode (Day 6). Source-first restructuring is the architectural change most likely to reduce grounding risk long-term. Two held-mode runs are required before any live delivery anyway. Review output on Day 6 before committing.</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- ════════════════════════════════ END-OF-WEEK SUCCESS ══════════════════ -->
+<div class="section-label">End-of-Week Success Criteria</div>
+<div class="main">
+  <div class="card full-width">
+    <div class="card-header">
+      <span class="card-title">What "Good" Looks Like by Friday 12 June</span>
+      <span style="font-size:11px;color:#8892a4;">Operator checks these off before approving streak resumption</span>
+    </div>
+    <div class="card-body">
+      <div class="check-item"><div class="check-box"></div><span class="check-text">June 6 failure (D-FB-008) is formally logged and classified — Valid Citation ID / False Claim-Source Grounding</span></div>
+      <div class="check-item"><div class="check-box"></div><span class="check-text">Manual high-risk claim spot-check is active and the review procedure is documented</span></div>
+      <div class="check-item"><div class="check-box"></div><span class="check-text">Low-quality source domains are excluded or flagged — retrieval pool is meaningfully cleaner</span></div>
+      <div class="check-item"><div class="check-box"></div><span class="check-text">Snippet quality floor has been defined and calibrated against recent retrieval packages</span></div>
+      <div class="check-item"><div class="check-box"></div><span class="check-text">Snippet-to-claim alignment check has been specified and tested against the June 6 failure case</span></div>
+      <div class="check-item"><div class="check-box"></div><span class="check-text">At least one WS1 held-mode run has been reviewed by the operator under the new controls</span></div>
+      <div class="check-item"><div class="check-box"></div><span class="check-text">ALJ has not advanced beyond held-mode without explicit operator approval</span></div>
+      <div class="check-item"><div class="check-box"></div><span class="check-text">WS3 has produced a finding: "Would article-body retrieval have caught the June 6 failure?"</span></div>
+      <div class="check-item"><div class="check-box"></div><span class="check-text">A clear operator decision has been made on WS1 gate streak: continue from 3, or conditions for resumption are specified</span></div>
+      <div class="check-item"><div class="check-box"></div><span class="check-text">Daily Status document updated to reflect this week's outcomes</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- ════════════════════════════════ FOOTER ════════════════════════════════ -->
+<div class="footer">
+  OpenClaw CEO Operating Dashboard · Phase D — Controlled Pilot · 6 June 2026 · For operator use only
+  <br>Source: 04_DAILY_STATUS v3.7 (2026-06-04, including D17 entries) · OPENCLAW_COWORK_OPERATING_PROTOCOL v2.7
+  <br>⚠ Confirm VPS sync before any pipeline review — run PowerShell scp block from config/VPS_SYNC_PROTOCOL.md
+</div>
+
+</body>
+</html>

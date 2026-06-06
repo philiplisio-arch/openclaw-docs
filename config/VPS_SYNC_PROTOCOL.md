@@ -45,6 +45,8 @@ scp -i "C:\Users\phil\Documents\OpenClaw project\config\cowork_key" openclaw_cow
 
 scp -i "C:\Users\phil\Documents\OpenClaw project\config\cowork_key" openclaw_cowork@152.42.195.186:/root/openclaw_phase5/data/final_output_scrubbed_china_monitor_001.txt "C:\Users\phil\Documents\OpenClaw project\config\vps_sync\final_output_scrubbed_china_monitor_001.txt"
 
+scp -i "C:\Users\phil\Documents\OpenClaw project\config\cowork_key" openclaw_cowork@152.42.195.186:/root/openclaw_phase5/data/retrieval_package_china_monitor_001.json "C:\Users\phil\Documents\OpenClaw project\config\vps_sync\retrieval_package_china_monitor_001.json"
+
 # WS2 — ALJ artifacts (manual pilot runs only)
 scp -i "C:\Users\phil\Documents\OpenClaw project\config\cowork_key" openclaw_cowork@152.42.195.186:/root/openclaw_phase5/data/final_output_scrubbed_alj_china_auto_001.txt "C:\Users\phil\Documents\OpenClaw project\config\vps_sync\final_output_scrubbed_alj_china_auto_001.txt"
 
@@ -87,6 +89,7 @@ this document when the standard sync set changes.
 | validation_result_china_monitor_001.json | /root/openclaw_phase6/validation/ | Latest WS1 validator result |
 | run_summary_china_monitor_001_20260524.json | /root/openclaw_phase7/brain_lite/run_summaries/ | Brain Lite — 2026-05-24 (Phase D Delivery 4) |
 | final_output_scrubbed_china_monitor_001.txt | /root/openclaw_phase5/data/ | WS1 delivered output |
+| retrieval_package_china_monitor_001.json | /root/openclaw_phase5/data/ | WS1 full retrieval pool (all sources before agent editorial selection) |
 | final_output_scrubbed_alj_china_auto_001.txt | /root/openclaw_phase5/data/ | WS2 pilot output (manual runs) |
 | validation_result_alj_china_auto_001.json | /root/openclaw_phase6/validation/ | WS2 validator result |
 | run_summary_alj_china_auto_001_20260601.json | /root/openclaw_phase7/brain_lite/run_summaries/ | WS2 Brain Lite — 2026-06-01 pilot run |

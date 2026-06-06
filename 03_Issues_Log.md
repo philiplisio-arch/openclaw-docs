@@ -2,8 +2,8 @@
 
 ---
 document_id: OPENCLAW-ISSUES-001
-version: v2.5
-last_updated: 2026-06-02
+version: v2.6
+last_updated: 2026-06-04
 status: OPERATIONAL
 ---
 
@@ -27,11 +27,17 @@ and recently resolved issues.
 | 52 | light_to_lark.log appeared to have no 2026-05-22 or 2026-05-23 run entries | ✅ RESOLVED 2026-05-23 — root cause: log lines have no timestamp prefixes; grep for dates returns zero by construction; deliveries not missing |
 | 53 | light_to_lark.log no timestamp line prefixes | ✅ RESOLVED 2026-05-23 — ISO timestamps added to run_light_to_lark.sh log emitter; active from 2026-05-24 cron |
 | 54 | Broadcaster-level dedup gap — dedup.py URL-key dedup does not catch same-story CCTV entries across broadcast slots or subdomains | 🟡 OPEN — operator decision required on CP scope and timing |
-| 55 | WS1 SIGNAL block (US/EU/ME regional summary) leaking into ALJ delivery payload via run_light_to_lark.sh heredoc | 🟡 OPEN — not blocking pilot_mode; CP-015 needed before live |
+| 55 | WS1 SIGNAL block (US/EU/ME regional summary) leaking into ALJ delivery payload via run_light_to_lark.sh heredoc | ✅ RESOLVED 2026-06-01 — CP-015 deployed; SIGNAL block gated to WS1 template only |
 | 56 | Phase 5 orchestrator exits non-zero (code 1) on all ALJ runs while producing valid output; CP-012 recovery path handling cleanly | 🟡 OPEN — not blocking; recovery reliable; root cause unknown |
-| 57 | LAST_HASH_FILE not client-namespaced — /root/openclaw_phase5/data/last_delivery_hash.txt shared across clients; WS1 and ALJ will overwrite each other's hash once both deliver live | 🟡 OPEN — not blocking while ALJ pilot_mode=true; CP-017 needed before live |
-| 60 | query_builder.py hardcoded to WS1 — ignores ALJ client config entirely (topic_focus, baidu_only, lookback_days, source_language, chinese_only); all ALJ pilot runs to date used WS1 US/EU/ME queries; ALJ Lark credential is live so pilot_mode=true is the only delivery gate | 🔴 BLOCKING — no real ALJ content produced until fixed; Claude Code to scope fix next session |
+| 57 | LAST_HASH_FILE not client-namespaced — /root/openclaw_phase5/data/last_delivery_hash.txt shared across clients; WS1 and ALJ will overwrite each other's hash once both deliver live | ✅ RESOLVED 2026-06-01 — confirmed pre-existing; LAST_HASH_FILE already namespaced via OPENCLAW_ARTIFACT_NAMESPACE |
+| 58 | Geographic footer present in final_output_scrubbed | ✅ RESOLVED 2026-06-02 — CP-019 v2 validated on D13; footer confirmed absent from final_output_scrubbed |
+| 59 | light_to_lark.log D5–D8 entries absent from local sync | ✅ RESOLVED 2026-06-01 — sync staleness confirmed; D10/D11 present in log; ISO timestamp fix (Issue #53) active |
+| 60 | query_builder.py hardcoded to WS1 — ignores ALJ client config entirely (topic_focus, baidu_only, lookback_days, source_language, chinese_only); all ALJ pilot runs to date used WS1 US/EU/ME queries; ALJ Lark credential is live so pilot_mode=true is the only delivery gate | ✅ RESOLVED 2026-06-03 — query_builder.py reads OPENCLAW_QUERY_TEMPLATE; ALJ dispatches to 7 RQT-002 v1.1 Baidu queries; WS1 unchanged |
 | 61 | run_light_to_lark.sh positional argument ignored — bare client_id argument (e.g. alj_china_auto_001) discarded by catch-all; CLIENT_ID always defaulted to china_monitor_001 | ✅ RESOLVED 2026-06-02 — *) CLIENT_ID="$1"; shift fix deployed by Claude Code |
+| 62 | ALJ SOURCES appendix URL fabrication — agent rewrites source URLs to plausible-but-wrong paths | ✅ RESOLVED 2026-06-03 — citation_sub.py strips agent Section 8; deterministic SOURCES appended from retrieval package; WS1 unaffected |
+| 63 | ALJ CP-020 freshness label inconsistency — same source labeled CONTEXT-7D inline and NEW-24H in SOURCES appendix | 🟡 OPEN — agent applying inconsistent labels; CP-020 prompt needs tightening; was blocked on #62 (now resolved) |
+| 65 | tv.cctv.com URL in ALJ scrubbed output | ✅ CLOSED 2026-06-04 — false alarm; agent Section 8 hallucination; CP-025 confirmed working; citation_sub.py strips Section 8 before delivery |
+| 66 | Cross-source citation misbinding — agent attaches real facts from one source to a different low-authority cited source | 🔴 OPEN — high severity; D17 confirmed; ADV-014 Layer 1 (domain exclusion) and ADV-015 Option B (snippet alignment check) in progress |
 | T-10 | Brain Lite metrics_unavailable | ✅ CLOSED 2026-05-23 — CP-005 confirmed on 2026-05-23 and 2026-05-24 cron; validator_status=GREEN holding |
 
 ## TRACKED INPUTS — FUTURE PHASE
@@ -39,7 +45,7 @@ and recently resolved issues.
 | # | Title | Origin |
 |---|-------|--------|
 | T-01 | Freshness signaling not distinguished in output | Advisory note 2026-05-08 |
-| T-02 | Source authority classification — lower-authority sources uncalibrated | Advisory note 2026-05-08 |
+| T-02 | Source authority classification — lower-authority sources uncalibrated | ADV-014 approved 2026-06-06 — Layer 1 (domain exclusion) in Claude Code queue; Layer 2 (snippet quality floor) dry-run approved |
 | T-03 | Chinese-source diversity — not yet consistently rich across categories | Advisory note 2026-05-08 |
 | T-04 | Advisory language calibration — claim strength exceeds evidence in places | ✅ CLOSED — 2026-05-19 |
 | T-05 | Middle East content drift — coverage not consistently anchored to China linkage | Advisory note 2026-05-08 |
@@ -67,10 +73,84 @@ and recently resolved issues.
 
 ---
 
+## Issue #66 — Cross-Source Citation Misbinding
+
+### Status
+🔴 OPEN — High severity. Confirmed D17 (2026-06-06). ADV-014 and ADV-015 in progress.
+
+### Discovered
+2026-06-06 — retrieval package analysis, D17 post-run review
+
+### Description
+
+The agent produces an Executive Take or Advisory Layer bullet by absorbing
+facts from one or more higher-authority retrieval results, then cites a
+different lower-authority source that does not support the specific claim.
+
+The current validator confirms only that the cited result_id exists in the
+retrieval package. It does not test whether the cited source's content
+supports the specific claim — it is **citation-structure safe** but not
+**client-factual-grounding safe**.
+
+D17 confirmed instance: ET Bullet 2 stated the European Commission declared
+EU-China trade "not sustainable" and that UK FM Yvette Cooper is visiting
+China. The cited source (res_0a5837f3bb9f, h5.article.smbae.cn) had a
+snippet entirely about US-China tariffs. Zero evidence for the EC or Yvette
+Cooper appeared in any of the 12 retrieval package snippets.
+
+Likely failure pattern: agent absorbed real facts from one or more
+higher-authority sources, combined them into a single bullet, and bound
+the citation to a lower-authority topically adjacent source. This is
+distinct from the previous fabricated-result_id problem (Issue #43,
+resolved 2026-05-07). The cited result_id is real; the grounding is false.
+
+### Root Cause Contributing Factors
+
+1. **No source authority filter** — low-quality aggregators and TV shell
+   pages enter the retrieval package identically to primary reporting;
+   agent cannot distinguish them (ADV-014).
+2. **No claim-source alignment check** — validator confirms result_id
+   syntax only; no mechanism detects misbinding (ADV-015).
+3. **Snippet quality** — CCTV TV shell snippets are navigation menus, not
+   article content; h5.article.smbae.cn snippet is a pagination widget;
+   agent receives no substantive grounding for these sources.
+
+### Impact
+
+Validator GREEN status is insufficient to guarantee client-safe factual
+grounding. High-stakes claims may appear properly cited while unsupported
+by the cited source. Client credibility risk if cited sources are checked.
+
+### Immediate Mitigation
+
+Manual operator spot-check for all Executive Take bullets involving:
+named officials, government bodies, ministerial travel, regulatory actions,
+quoted language, trade/sanctions measures, financial figures, major
+corporate transactions, or diplomatic/military claims.
+Added to OPENCLAW_PHASE_D_OPERATOR_REVIEW_PROCEDURE.md Step 2A.
+
+### Required Resolution
+
+- ADV-014 Layer 1: domain exclusion list in filter_results.py (Claude Code)
+- ADV-014 Layer 2: snippet quality floor after dry-run calibration
+- ADV-015 Option B: automated snippet alignment check spec and implementation
+  — entity overlap + quote/number matching; WARN/HOLD behaviour in Phase D;
+  test against D17 failure + 5–10 prior outputs before live deployment
+- Exit criteria: D17 failure case detected by new check; false-positive
+  rate reviewed by operator; no live deployment until held-mode test approved
+
+### External Consultant Assessment (2026-06-06)
+
+Confirmed: "OpenClaw has largely solved fabricated citation IDs. It has
+not yet solved false claim-source grounding. That is the next trust layer
+required for client-grade intelligence."
+
+---
+
 ## Issue #57 — LAST_HASH_FILE Not Client-Namespaced
 
 ### Status
-🟡 OPEN — not blocking while ALJ pilot_mode=true
+✅ RESOLVED — 2026-06-01 — confirmed pre-existing; LAST_HASH_FILE already namespaced via OPENCLAW_ARTIFACT_NAMESPACE
 
 ### Discovered
 2026-05-24 — Claude Code Lark proxy investigation / CP-016 drafting
@@ -136,7 +216,7 @@ benign once root cause is confirmed.
 ## Issue #55 — WS1 SIGNAL Block Leaking Into ALJ Payload
 
 ### Status
-🟡 OPEN — not blocking pilot_mode runs; must fix before ALJ live delivery
+✅ RESOLVED — 2026-06-01
 
 ### Discovered
 2026-05-24 — ALJ pilot run log analysis (lines 307–317 of run log)
@@ -445,7 +525,7 @@ underscore) — did not block this run but requires a follow-up patch.
 ### Description
 
 Intermediate retrieval artifacts (`brave_raw.json`, `baidu_raw.json`,
-`query_bundle.json`, `normalized/`, `filtered_results.json`) are written to
+`query_bundle.json`, `conflicts.json`, `normalized/`, `filtered_results.json`) are written to
 shared paths with no client_id suffix. Two concurrent client runs would overwrite
 each other's retrieval data silently. Confirmed during the Step 9.7 investigation:
 two sequential `test_client_002` runs both wrote to the same intermediate paths,
@@ -471,6 +551,68 @@ Operator decision required on whether intermediate retrieval artifacts should be
 namespaced immediately or whether concurrency should remain prohibited until a
 later implementation step. Resolution required before onboarding a second real
 client, enabling concurrent client runs, or adding a second scheduled cron client.
+
+### Update — 2026-06-04 (ALJ investigation)
+
+ALJ (`alj_china_auto_001`) investigation confirmed the shared-buffer exposure
+concretely and added three related findings:
+
+- **`conflicts.json` added to the non-namespaced list.** `package_builder.py`
+  reads global `query_bundle.json` / `filtered_results.json` / `conflicts.json`
+  and only the *output* (`retrieval_package_{namespace}.json`) is namespaced.
+- **Per-client retrieval package is a point-in-time snapshot, not an isolated
+  fetch.** `retrieval_package_alj_china_auto_001.json` (run_id
+  run_20260603T102730Z) is a snapshot-wrapper of whatever was in the shared
+  global buffer at build time — not a reproducible ALJ-scoped retrieval. Live
+  proof: the global intermediates were later observed holding a different `us_r1`
+  (WS1 US-region) run with 45 results dated 2026-06-03/04, having overwritten
+  the ALJ state. `baidu_status: "ok"` in the package is only a presence flag
+  (any result tagged provider=Baidu), not a confirmed live ALJ call.
+- **`SERPAPI_KEY` not provisioned in ALJ `loader.env`.** ALJ's `loader.env`
+  carries only `OPENCLAW_RETRIEVAL_PROVIDERS=baidu` — no SerpAPI key.
+  `baidu_executor.get_api_key()` reads `os.environ`, so retrieval authenticates
+  off the ambient shell env. This works for operator-run manual triggers but is
+  not proper per-client key provisioning; an environment without the ambient key
+  set would hard-fail Baidu retrieval for ALJ.
+
+Severity unchanged: pre-production, non-blocking while ALJ is manual-trigger-only
+with `pilot_mode=true`. Operator decision still required before ALJ goes live or a
+second client onboards.
+
+---
+
+## Issue #65 — tv.cctv.com URL in ALJ Scrubbed Output
+
+### Status
+✅ CLOSED — 2026-06-04 — false alarm
+
+### Discovered
+2026-06-04 — ALJ Pilot Run 5 review
+
+### Description
+
+tv.cctv.com URL appeared in `final_output_scrubbed_alj_china_auto_001.txt`
+despite CP-025 exclusion being deployed. Investigation confirmed CP-025 is
+working correctly. Root cause: the scrubbed output file is written BEFORE
+`citation_sub.py` runs. The agent includes a hallucinated Section 8 appendix
+(with invented URLs) in its raw output, which is present in the scrubbed file.
+`citation_sub.py` strips the agent's Section 8 entirely and replaces it with
+deterministic pipeline-generated SOURCES before Lark delivery. The tv.cctv.com
+URL never reaches the client.
+
+### Resolution
+
+No code change required for the root cause. CP-025 confirmed working. Issue #62
+fix in `citation_sub.py` confirmed active. `run_phase5_offline.sh` patched with
+explicit `OPENCLAW_CLIENT_ID` export as a hardening measure (backup:
+`run_phase5_offline.sh.bak_20260604_issue65`).
+
+### Review workflow note
+
+The scrubbed file used for internal review will always show the agent's Section 8
+(with potentially hallucinated URLs). For review purposes, Section 8 of the
+scrubbed file should be disregarded — the SOURCES appendix in the Lark delivery
+is pipeline-generated and authoritative.
 
 ---
 

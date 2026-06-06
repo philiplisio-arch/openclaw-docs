@@ -1,9 +1,9 @@
 # OPENCLAW BOARD-LEVEL PROJECT DASHBOARD
 
-**Date:** June 2, 2026
+**Date:** June 4, 2026 *(updated from June 2 snapshot — key metrics refreshed; narrative sections reflect June 2 baseline)*
 **Prepared for:** Operator / CEO
 **Prepared by:** Senior Technical Program Manager (CoWork Consultant)
-**Based on:** Daily Status v3.6, Operating Protocol v2.7, Phase Gate Checklist v1.5, Phase D Scorecard v1.6, Phase D Feedback Register v1.5, Change Packet Log, runtime delivery records D1–D13
+**Based on:** Daily Status v3.7, Operating Protocol v2.7, Phase Gate Checklist v1.5, Phase D Scorecard v1.6, Phase D Feedback Register v1.5, Change Packet Log, runtime delivery records D1–D15
 
 ---
 

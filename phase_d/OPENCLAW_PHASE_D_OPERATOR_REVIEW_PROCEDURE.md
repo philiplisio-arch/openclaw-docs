@@ -32,6 +32,48 @@ deliveries, per the Phase D operating model.
 
 ---
 
+## MANDATORY PRE-REVIEW STEP — SOURCE SPOT-CHECK (added 2026-06-06, ADV-015 Option D)
+
+Before answering the standard review prompt, the operator must perform a
+source spot-check on each delivery:
+
+**Step 2A — Source Spot-Check**
+
+For each delivery, inspect all Executive Take and Advisory Layer bullets
+that contain any of the following high-risk claim types:
+
+- Named officials (ministers, executives, diplomats, regulators)
+- Government bodies or ministries taking a stated position
+- Ministerial travel or diplomatic visits
+- Regulatory actions, investigations, sanctions, or restrictions
+- Direct quotes or paraphrased attributed statements
+- Trade measures, tariffs, or export controls
+- Financial figures (dollar amounts, percentages, valuations)
+- Major corporate transactions or investment announcements
+- Military or diplomatic developments
+
+For each high-risk bullet:
+1. Identify the cited source(s) in the SOURCES appendix.
+2. Open the URL in a browser.
+3. Verify that the specific claim — including named entities, figures,
+   and quoted language — is supported by the page content.
+
+If the source does not support the claim:
+- Do not send the delivery externally (if not yet sent).
+- Flag as Severity 4 (D-FB-XXX) — cross-source citation misbinding.
+- Escalate to CoWork for retrieval package investigation.
+- Do not count the delivery toward the gate streak.
+
+If all high-risk bullets are grounded: proceed to standard review prompt.
+
+Rationale: the pipeline validator is citation-structure safe — it confirms
+result_id syntax and existence. It is not yet client-factual-grounding safe.
+The spot-check is the only current detection mechanism for cross-source
+citation misbinding (Issue #66). ADV-015 Option B (automated snippet
+alignment check) is in design; this manual step bridges until deployment.
+
+---
+
 ## COWORK RESPONSIBILITY
 
 After each reviewed delivery, CoWork must:
@@ -251,4 +293,4 @@ a proposed state until the operator approves, revises, or rejects them.
 
 ---
 
-*OPENCLAW-PHASE-D-ORP-001 | Version 1.0 | Created: 2026-05-20 | Status: ACTIVE*
+*OPENCLAW-PHASE-D-ORP-001 | Version 1.1 | Created: 2026-05-20 | Last updated: 2026-06-06 | Status: ACTIVE*

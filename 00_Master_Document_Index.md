@@ -154,7 +154,10 @@ documents listed as GOVERNING, LOCKED, or ACTIVE are authoritative.
 | Advisory Memo 013 Consultant Review | OPENCLAW-ADV-013-REVIEW | `advisory/OPENCLAW-ADV-013-REVIEW_2026-05-28.md` | advisory/ | REFERENCE | Consultant review of operator response; 8 targeted revisions recommended; incorporated into final response |
 | Advisory Memo 013 Operator Response (Revised) | OPENCLAW-ADV-013-RESPONSE | `advisory/OPENCLAW-ADV-013-RESPONSE_2026-05-28.md` | advisory/ | OPERATOR APPROVED | Approved operator response to signal-widening advisory; tiered plan CP-020 through CP-024 + CP-022A; four decisions resolved; operator approved 2026-05-28 |
 
-Next advisory memo: ADV-014
+| Advisory Memo 014 — Source Authority Filter | OPENCLAW-ADV-014 | `advisory/OPENCLAW-ADV-014_2026-06-06.md` | advisory/ | OPERATOR APPROVED | Domain exclusion list + snippet quality floor; Layer 1 approved for Claude Code; Layer 2 dry-run approved; addresses D-FB-007/D-FB-008 |
+| Advisory Memo 015 — Semantic Validation Gap | OPENCLAW-ADV-015 | `advisory/OPENCLAW-ADV-015_2026-06-06.md` | advisory/ | OPERATOR APPROVED | Validator GREEN ≠ semantic grounding; Option D spot-check added to review procedure; Option B spec pending; fabrication rate language corrected |
+
+Next advisory memo: ADV-016
 
 ---
 

@@ -2,12 +2,12 @@
 
 ---
 document_id: 04_DAILY_STATUS
-version: v3.6
-last_updated: 2026-06-02
+version: v3.7
+last_updated: 2026-06-04
 status: OPERATIONAL
 ---
 
-DATE: 2026-06-03
+DATE: 2026-06-04
 PHASE: Phase 7 Entry — Phase D (Controlled Pilot)
 
 ---
@@ -42,7 +42,6 @@ Phase 7 Entry — Phase D: ACTIVE — Controlled Pilot, operator-authorized 2026
   Phase lock updated to Phase 7 Entry — Phase D
 * Advisory Roadmap: OPENCLAW-ADV-002 — operator-approved strategic reference; not independently governing; implementation requires system-document authority and explicit operator approval
 * Phase 7 Execution Plan: OpenClaw_Phase7_Execution_Plan.docx (approved 2026-05-07 — CANONICAL)
-* Phase Exit Criteria: 03_Phase_Exit_Criteria (5.6.26).md
 * Phase 7 Gate Checklist: OPENCLAW-P7-GATE-001.md (ACTIVE)
 
 ---
@@ -193,7 +192,12 @@ on cron runs 2026-05-14 through 2026-05-18 — COMPLIANT all five runs.
 T-04 CLOSED 2026-05-19.
 
 Known Phase 6 citation-control issues appear resolved based on validated run
-sequence. Observed fabrication rate 0% across all post-Phase-6.8 runs.
+sequence. Validator GREEN rate 100% across all post-Phase-6.8 runs (result_id
+syntax compliance). NOTE: validator GREEN confirms result_id syntax only — it
+does not confirm semantic grounding of claims against source content. A
+semantic validation gap was identified 2026-06-06 (D-FB-008, ADV-015):
+confirmed claim-source misalignment on D17 ET Bullet 2 passed validator.
+Option D spot-check added to operator review procedure. Option B spec pending.
 Chinese-language sources surfacing consistently. Authority calibration and source
 diversity remain Phase 7 editorial-quality workstreams.
 
@@ -531,6 +535,26 @@ Step 9.8 COMPLETE — 2026-05-20: Isolation verification results presented to
 ✔ Issue #59 RESOLVED 2026-06-01 — light_to_lark.log D5–D8 gap was sync staleness;
   D10 (2026-05-30T22:32:23Z) and D11 (2026-05-31T22:31:47Z) confirmed in log;
   ISO timestamp fix (Issue #53) confirmed active and writing correctly
+✔ CP-026 DEPLOYED AND VALIDATED 2026-06-04 — filter_results.py freshness window
+  fix; ALJ gets 168h window (CLIENT_ID gate); WS1 unchanged; backup at
+  filter_results.py.bak_20260604_freshness_window; validated on ALJ Pilot Run 4
+✔ RQT-002 v1.2 APPROVED AND DEPLOYED 2026-06-04 — oem_watch_p1, export_gulf_c1,
+  policy_p1 query strings updated; all 5 query families now returning results;
+  backup at query_builder.py.bak_20260604_rqt002v1.2; validated on ALJ Pilot Run 6
+✔ run_phase5_offline.sh patched 2026-06-04 — explicit OPENCLAW_CLIENT_ID export
+  added (Issue #65 hardening); backup at .bak_20260604_issue65
+✔ ALJ pilot_mode disabled 2026-06-04 — client_config_alj_china_auto_001.yaml
+  patched; backup at .bak_20260604_golive
+✔ Freshness label strip deployed 2026-06-04 — run_light_to_lark.sh; strips
+  Freshness: labels (including multi-label) before Lark delivery; applies to WS1
+  and ALJ; backup at .bak_20260604_freshness_strip_v2
+✔ ALJ first live delivery CONFIRMED 2026-06-04 05:09 UTC — GREEN 32/32/0;
+  delivered to Lark (HTTP 200, code:0); Brain Lite written and digest rebuilt
+✔ Issue #65 CLOSED 2026-06-04 — false alarm; tv.cctv.com in scrubbed output is
+  agent Section 8 hallucination, not a retrieval leak; CP-025 confirmed working;
+  citation_sub.py strips Section 8 before Lark delivery
+⚠ lark_doc_relay.py clear-before-write — IN PROGRESS; not yet deployed;
+  current behavior appends each delivery
 ✔ Signal-widening plan APPROVED 2026-05-28 — ADV-013 (original memo 2026-05-24),
   ADV-013-REVIEW (consultant review), ADV-013-RESPONSE (revised operator response)
   filed in advisory/. Four operator decisions resolved (see below).
@@ -669,6 +693,7 @@ ALJ PILOT RUN 2026-06-01 11:54 UTC — ALL GATES PASS, pilot_mode blocking:
 | #59 | light_to_lark.log D5–D8 entries absent from local sync | RESOLVED 2026-06-01 | Sync staleness confirmed; D10/D11 present in log; ISO timestamp fix active |
 | #62 | ALJ SOURCES appendix URL fabrication — agent rewrites source URLs to plausible-but-wrong paths | RESOLVED 2026-06-03 | Root cause: CP-009 designed ALJ Section 8 as agent-generated; agent hallucinated URL paths while correctly citing result_ids. Fix: citation_sub.py strips agent Section 8 (anchor: ^SECTION\s+8\b) then appends deterministic SOURCES from retrieval package, same as WS1. ALJ-only gate (OPENCLAW_REPORT_TEMPLATE=alj_china_auto_weekly_v1). WS1 regression confirmed byte-for-byte identical. py_compile ok. Backup .bak_20260603_issue62. End-to-end pilot run validation pending. Note: WS1 OPENCLAW_REPORT_TEMPLATE is china_monitoring_brief_v1 (not china_monitor_v1 which is the query template). |
 | #63 | ALJ CP-020 freshness label inconsistency — same source labeled CONTEXT-7D inline and NEW-24H in appendix | OPEN | Agent applying inconsistent freshness labels; CP-020 prompt needs tightening. Blocked on #62 fix (SOURCES must be pipeline-generated before label consistency matters). |
+| #65 | tv.cctv.com URL in ALJ scrubbed output | CLOSED 2026-06-04 | False alarm — agent Section 8 hallucination; CP-025 confirmed working; citation_sub.py strips Section 8 before Lark delivery |
 
 ---
 
@@ -691,8 +716,9 @@ ALJ PILOT RUN 2026-06-01 11:54 UTC — ALL GATES PASS, pilot_mode blocking:
 * CJK word-count fix: DEPLOYED — fetch_article_text.py; functional test confirmed
 ✔ Issue #60 RESOLVED 2026-06-03 — query_builder.py reads OPENCLAW_QUERY_TEMPLATE;
   ALJ dispatches to 7 RQT-002 v1.1 Baidu queries; WS1 unchanged (smoke-test confirmed)
-* ALJ Pipeline: PILOT-READY — Issue #60 resolved; governance step 7 re-run required
-  (manual pilot trigger: bash /root/run_light_to_lark.sh --client_id alj_china_auto_001)
+* ALJ Pipeline: LIVE — pilot_mode disabled 2026-06-04; manual trigger only;
+  first live delivery confirmed 2026-06-04; freshness label strip active from
+  next run; lark_doc_relay.py clear-before-write pending deployment
 
 ---
 
@@ -717,16 +743,31 @@ SESSION CLOSE — 2026-06-03:
   ✔ Issues #63 logged (freshness label inconsistency; blocked on #62)
   ✔ ALJ thin retrieval root cause TBD — diagnostic pending next session
 
+SESSION CLOSE — 2026-06-04:
+  ✔ D15 reviewed (2026-06-04 06:31) — GREEN 13/13/0; sent externally;
+    gate streak = 3 of 10
+  ✔ CP-026 deployed and validated — filter_results.py ALJ 168h window fix
+  ✔ RQT-002 v1.2 deployed and validated — 3 query strings updated; all 5
+    families returning results; mapping_size progression 2→14
+  ✔ Issue #65 investigated and CLOSED — false alarm; agent Section 8
+    hallucination; CP-025 confirmed working
+  ✔ run_phase5_offline.sh patched — explicit OPENCLAW_CLIENT_ID export
+  ✔ ALJ pilot_mode disabled — client_config patched
+  ✔ Freshness label strip deployed (v2, multi-label) — run_light_to_lark.sh
+  ✔ ALJ first live delivery confirmed — 2026-06-04 05:09 UTC; GREEN 32/32
+  ⚠ lark_doc_relay.py clear-before-write — IN PROGRESS; deploy next session
+  ⚠ Freshness label strip not confirmed in live delivery (duplicate-content
+    guard blocked validation run); validates on next real content run
+
 IMMEDIATE — next session:
-  1. ALJ thin retrieval diagnostic — check raw Baidu fetch output before
-     filtering for the 5 empty queries (oem_watch, export_gulf, policy);
-     determine if 168h filter is cutting results or Baidu genuinely returning
-     zero; fix or note for CP-023 accordingly
-  2. Deploy CP-025 (tv.cctv.com/tv.cctv.cn domain exclusion for ALJ;
-     filter_results.py; was blocked on Issue #60 — now unblocked)
-  3. Begin Tier 2 — CP-021 (source-first output restructuring + LinkedIn
-     suppression); 2 held-mode WS1 runs before live; gate streak restarts
-     on first live CP-021 delivery
+  1. Deploy lark_doc_relay.py clear-before-write fix (Claude Code)
+  2. Complete Browser Phase 1 Days 8–11 (Claude Code) — CCTV networkidle
+     re-test; Reuters/Bloomberg stealth UA attempt
+  3. Begin CP-021 (WS1 source-first output restructuring + LinkedIn
+     suppression); 2 held-mode runs before live; gate streak restarts on
+     first live CP-021 delivery
+  4. ALJ: next manual run when fresh news cycle available; validate
+     freshness strip and confirm no duplicate-content block
 
 SIGNAL-WIDENING WORK QUEUE — approved 2026-05-28, sequenced:
   Tier 0 (COMPLETE 2026-06-01):
@@ -799,8 +840,45 @@ Phase D ACTIVE — Controlled Pilot (Step 8).
     ($30B discussions, Nvidia chip halt), Yvette Cooper China visit / EU
     "not sustainable", Israel/Lebanon/Gulf capital into Israeli tech;
     SENT EXTERNALLY 2026-06-03 — gate streak = 2 of 10
+  - Delivery 15 (2026-06-04): CLEAN — 13/13 citations; T-04 compliant;
+    validator GREEN 13/13/0; Brave=44, Baidu=54; topics: Soochow/Donghai
+    brokerage consolidation ($1.7B), China May PMI strong, Strait of
+    Hormuz / China tech AI rally, China tech transfer curbs;
+    SENT EXTERNALLY 2026-06-04 — gate streak = 3 of 10
+  - Delivery 16 (2026-06-05): BLOCKED — blocked_duplicate_content guard
+    fired; validator GREEN 13/13/0; content identical to D15; delivery
+    skipped; Brain Lite not written; does not count toward gate streak;
+    does not break streak. Freshness label strip validation again deferred.
+  - Delivery 17 (2026-06-06): SENT EXTERNALLY — then RETRACTED FROM STREAK.
+    16/16 citations; T-04 compliant; validator GREEN 16/16/0; 3 ET + 5 AL
+    bullets; topics: US-China semiconductor export controls / Commerce Ministry
+    statement / $30B trade discussions, EU-China "not sustainable" + UK FM
+    Yvette Cooper China visit, Middle East oil surge (Brent $97.40; OECD 2026
+    forecast 2.8%), China tech stocks AI surge, China tech transfer curbs.
+    Brain Lite written; digest rebuilt.
+    Freshness label strip: CONFIRMED — no Freshness: labels in Lark output.
+    Retrieval package: Brave=3, Baidu=9 (12 total); all 3 Brave sources
+    (CNBC, NYT, moderndiplomacy.eu) uncited by agent; 100% Chinese-source
+    output. Logged as D-FB-007.
+    D-FB-008 CONFIRMED: ET Bullet 2 — cross-source citation misbinding;
+    EC/"not sustainable" + Yvette Cooper claim unsupported by cited source
+    (h5.article.smbae.cn); Severity 4. Delivery sent externally before
+    misbinding was identified. RETRACTED FROM GATE STREAK — operator decision
+    2026-06-06. Does not count toward streak. Streak holds at 3 of 10.
+    WS1 now in HELD MODE pending trust-repair controls (ADV-014, ADV-015
+    Option B). No deliveries count toward streak until held-mode testing
+    complete and operator approves resumption.
+  - ADV-014 Layer 1 DEPLOYED 2026-06-06 — domain exclusion active in
+    filter_results.py; OPENCLAW_DOMAIN_EXCLUSION exported by load_client_config.py
+    and sourced in run_light_to_lark.sh; client_config_china_monitor_001.yaml
+    updated (h5.article.smbae.cn, tv.cctv.com, tv.cctv.cn excluded);
+    all syntax checks exit 0; end-to-end loader confirmed writing exclusion
+    list to loader.env; backups at .bak_20260606_adv014.
 
-  Gate streak: 2 of 10 (D13 2026-06-02, D14 2026-06-03).
+  Gate streak: 3 of 10 (D13 2026-06-02, D14 2026-06-03, D15 2026-06-04).
+    STREAK PAUSED — held-mode posture active from 2026-06-06. Resumption
+    requires operator approval after ADV-014 and ADV-015 Option B controls
+    tested in held-mode runs (per one-week execution memo 2026-06-06).
 
   Issue #50 monitoring — did not recur D2–D13 (D5/D6 thin at ids=9 but no degradation)
   Issue #54 OPEN — broadcaster dedup gap; operator decision on CP timing required
