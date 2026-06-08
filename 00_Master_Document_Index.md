@@ -2,8 +2,8 @@
 
 ---
 document_id: OPENCLAW-MDI-001
-version: v5.3
-last_updated: 2026-06-06
+version: v5.4
+last_updated: 2026-06-08
 status: ACTIVE
 ---
 
@@ -43,6 +43,7 @@ documents listed as GOVERNING, LOCKED, or ACTIVE are authoritative.
 | Master Document Index | OPENCLAW-MDI-001 | `00_Master_Document_Index.md` | [root] | ACTIVE | This document — navigable index of all system documents |
 | System Constitution | OPENCLAW-CONST-001 | `00_System_Constitution.md` | [root] | GOVERNING | Canonical pipeline, principles, document hierarchy |
 | CoWork Operating Protocol | OPENCLAW-OPS-001 | `OPENCLAW_COWORK_OPERATING_PROTOCOL.md` | [root] | LOCKED | Claude CoWork role, phase lock, analysis contract, hard safety rules |
+| Claude Code Operating Protocol | OPENCLAW-CC-OPS-001 | `OPENCLAW_CLAUDE_CODE_OPERATING_PROTOCOL.md` | [root] | LOCKED | Claude Code role as primary VPS operating desk; authorized actions; document update protocol; session-close checklist; hard safety rules |
 | Phase 7 Detailed Execution Plan | — | `OpenClaw_Phase7_Execution_Plan.docx` | [root] | GOVERNING | Canonical Phase 7 roadmap — phase gates, Brain Lite scope, VPS model, pilot prerequisites (approved 2026-05-07) |
 | Phase 7 Gate Checklist | OPENCLAW-P7-GATE-001 | `06_PHASE_GATE_CHECKLIST.md` | [root] | ACTIVE | Phase A/B/C/D gate tracking — trust runs, VPS setup, Brain Lite confirmation |
 | Filename & Version Control Standard | OPENCLAW-SYS-FILENAME-002 | `governance/OPENCLAW-SYS-FILENAME-002_2026-05-13.md` | governance/ | GOVERNING | Approved filename convention, version control process, archive rules |
@@ -104,7 +105,7 @@ documents listed as GOVERNING, LOCKED, or ACTIVE are authoritative.
 | Daily Status | — | `04_DAILY_STATUS.md` | [root] | OPERATIONAL | Current position, system health, next step; **single source of truth for active phase** |
 | Client Config — china_monitor_001 | — | `config/client_config_china_monitor_001.yaml` | config/ | ACTIVE | Client configuration for china_monitor_001; brain_context=true (activated 2026-05-15) |
 | Client Config — test_client_002 | — | `config/client_config_test_client_002.yaml` | config/ | ACTIVE | Synthetic test client config; pilot_mode=true, brain_context=false, query_template_set=china_monitor_v1; deployed VPS 2026-05-20 |
-| VPS Sync Protocol | OPENCLAW-SYNC-001 | `config/VPS_SYNC_PROTOCOL.md` | config/ | ACTIVE | Session-start PowerShell scp block; CoWork local read pattern |
+| VPS Sync Protocol | OPENCLAW-SYNC-001 | `config/VPS_SYNC_PROTOCOL.md` | config/ | ACTIVE | Session-start PowerShell scp block; review source matrix (GitHub vs SCP); CoWork local read pattern |
 | Phase D Feedback Register | — | `phase_d/OPENCLAW_PHASE_D_FEEDBACK_REGISTER.md` | phase_d/ | OPERATIONAL | Cumulative append-only log of all operator/client feedback; classifies feedback categories A–E per ADV-012 |
 | Phase D Content Scorecard | — | `phase_d/OPENCLAW_PHASE_D_CONTENT_SCORECARD.md` | phase_d/ | OPERATIONAL | Per-delivery scoring across 10 dimensions; tracks rolling averages toward Phase D gate threshold |
 | Phase D Operator Review Procedure | OPENCLAW-PHASE-D-ORP-001 | `phase_d/OPENCLAW_PHASE_D_OPERATOR_REVIEW_PROCEDURE.md` | phase_d/ | ACTIVE | Standard post-delivery review prompt, CoWork output format, feedback ID convention, severity scale, disposition rules, and change packet threshold |
@@ -216,7 +217,9 @@ Updates require operator approval per Hard Safety Rule R-01.
 
 ---
 
-*OPENCLAW-MDI-001 | Version v5.3 | Last updated: 2026-05-28 | Status: ACTIVE*
+*OPENCLAW-MDI-001 | Version v5.4 | Last updated: 2026-06-08 | Status: ACTIVE*
+
+*v5.4 changes (2026-06-08): OPENCLAW-CC-OPS-001 (Claude Code Operating Protocol) added to Tier 1 — LOCKED. CoWork Operating Protocol updated to v2.9 (role designation and document control updates). VPS Sync Protocol updated to v1.8 (review source matrix added). All changes implement the operating model shift approved by operator 2026-06-08.*
 
 *v5.3 changes (2026-05-28): CP-018 through CP-024 + CP-022A added to Tier 6 (all APPROVED; CP-020/021/022A/022/023/024 are signal-widening plan; CP-018/019 are in-flight stabilization). ADV-013 / ADV-013-REVIEW / ADV-013-RESPONSE added to Tier 7. Next advisory counter updated to ADV-014.*
 

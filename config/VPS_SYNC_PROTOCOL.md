@@ -2,9 +2,9 @@
 
 ---
 document_id: OPENCLAW-SYNC-001
-version: 1.7
+version: 1.8
 created: 2026-05-13
-last_updated: 2026-06-03
+last_updated: 2026-06-08
 ---
 
 ## PURPOSE
@@ -123,9 +123,32 @@ cd /root/openclaw_docs && git pull
 
 ---
 
+## REVIEW SOURCE MATRIX
+
+Under the operating model established 2026-06-08 (OPENCLAW-CC-OPS-001),
+Claude Code is the primary VPS operating desk and handles routine document
+updates. CoWork is the independent review layer. This changes where each tool
+reads content from:
+
+| Content type | Updated by | CoWork reads from | SCP needed? |
+|---|---|---|---|
+| System documents (Daily Status, Issues Log, etc.) | Claude Code on VPS → git push | GitHub / local git pull | No — git pull covers it |
+| Governance documents (Protocol, Specs, etc.) | CoWork locally → git push | Local workspace | No — CoWork owns these |
+| Runtime artifacts (logs, validation, scrubber output) | VPS pipeline writes | config/vps_sync/ via SCP | Yes — SCP pull required |
+| Brain Lite run summaries | VPS pipeline writes | config/vps_sync/ via SCP | Yes — SCP pull required |
+
+**Session-start guidance:**
+- Run `git pull` first to get latest document state committed by Claude Code
+- Then run the SCP block to pull runtime artifacts (logs, validation, scrubbed output)
+- Both steps are required for a complete picture
+
+---
+
 ## ARCHITECTURE NOTE
 
 GitHub is the shared remote between local workspace and VPS.
-- Doc edits flow: CoWork edits locally → git push → VPS git pull
+- Doc edits flow (governance): CoWork edits locally → git push → VPS git pull
+- Doc edits flow (operational): Claude Code edits on VPS → git push → local git pull
 - Runtime artifacts flow: VPS pipeline writes → scp pull to local vps_sync/
-- CoWork reads docs from local workspace; reads artifacts from config/vps_sync/
+- CoWork reads governance docs from local workspace; reads operational docs from
+  local workspace after git pull; reads runtime artifacts from config/vps_sync/

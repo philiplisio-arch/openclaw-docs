@@ -2,8 +2,8 @@
 
 ---
 document_id: Document_Versions_Index
-version: v1.2
-last_updated: 2026-06-06
+version: v1.3
+last_updated: 2026-06-08
 status: ACTIVE
 ---
 
@@ -54,10 +54,15 @@ core operational documents. Archive files are immutable.
 
 ### OPENCLAW_COWORK_OPERATING_PROTOCOL
 
-- v2.8 (ACTIVE, 2026-06-06) → `OPENCLAW_COWORK_OPERATING_PROTOCOL.md`
+- v2.9 (ACTIVE, 2026-06-08) → `OPENCLAW_COWORK_OPERATING_PROTOCOL.md`
+- v2.8 → superseded in-place 2026-06-08
 - v2.7 → superseded in-place 2026-06-06
 - v2.6 archive → `/old/OPENCLAW_COWORK_OPERATING_PROTOCOL_v2.6_2026-05-20.md`
 - v2.3 archive → `/old/05_OPERATING_PROTOCOL_v2.3_2026-05-11.md`
+
+### OPENCLAW_CLAUDE_CODE_OPERATING_PROTOCOL
+
+- v1.0 (ACTIVE, 2026-06-08) → `OPENCLAW_CLAUDE_CODE_OPERATING_PROTOCOL.md`
 
 ### 06_PHASE_GATE_CHECKLIST
 
@@ -83,7 +88,8 @@ core operational documents. Archive files are immutable.
 | Brain Lite Run Summary Schema v1 | `governance/OPENCLAW-BRAIN-LITE-SCHEMA-v1_2026-05-09.md` | v1.0 | 2026-05-09 | LOCKED |
 | CoWork Daily Report Template | `governance/OPENCLAW-COWORK-REPORT-TEMPLATE_2026-05-09.md` | v1.0 | 2026-05-09 | REFERENCE |
 | Multi-Client Test Harness Design | `governance/OPENCLAW-TEST-HARNESS-DESIGN_2026-05-09.md` | v1.1 | 2026-05-09 | ACTIVE |
-| Document Versions Index | `governance/Document_Versions_Index.md` | v1.1 | 2026-05-24 | ACTIVE |
+| Document Versions Index | `governance/Document_Versions_Index.md` | v1.3 | 2026-06-08 | ACTIVE |
+| VPS Sync Protocol | `config/VPS_SYNC_PROTOCOL.md` | v1.8 | 2026-06-08 | ACTIVE |
 
 ---
 

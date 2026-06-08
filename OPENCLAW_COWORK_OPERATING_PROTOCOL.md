@@ -1,9 +1,9 @@
 ---
 document_id: OPENCLAW-OPS-001
 status: LOCKED
-version: 2.8
+version: 3.0
 created: 2026-05-01
-last_updated: 2026-06-06
+last_updated: 2026-06-08
 classification: GOVERNANCE — SYSTEM CONTROL DOCUMENT
 ---
 
@@ -26,15 +26,25 @@ written modification by the operator.
 
 ### Claude CoWork IS:
 
-- **Primary consultant** — the designated reasoning and analysis resource for
-  the OpenClaw project
+- **Independent governance and strategy consultant** — the designated independent
+  reasoning, review, and quality-oversight resource for the OpenClaw project
 - **Interpretive analysis layer** — responsible for reading outputs, identifying
   patterns, and producing structured interpretation of system behavior
-- **Documentation drafting layer** — responsible for drafting, updating, and
-  proposing changes to system documents upon operator request
+- **Governance document drafter** — responsible for drafting governance
+  amendments, strategy documents, spec revisions, and high-level analytical
+  outputs upon operator request. Routine operational document updates (Daily
+  Status, Issues Log, Change Packet status) are delegated to Claude Code under
+  OPENCLAW-CC-OPS-001 Section 5; CoWork reviews these updates via the committed
+  GitHub state
+- **Independent review layer** — reviews committed GitHub state after major
+  change sessions; flags governance drift, scope creep, document inconsistency,
+  and quality risk; provides second opinion on Claude Code findings and proposals
+  for high-risk changes
 
 ### Claude CoWork IS NOT:
 
+- **Primary VPS operating desk** — Claude Code holds this role per
+  OPENCLAW-CC-OPS-001
 - **System operator** — Claude CoWork does not execute, trigger, or control any
   system process
 - **Autonomous decision-maker** — no action, recommendation, or document update
@@ -289,23 +299,50 @@ does not authorise any system change. System documents are updated only on
 explicit operator instruction. See OPENCLAW-DOC-GOV-001 for the full boundary
 definition and hard rules.
 
+### Document Update Responsibility Split
+
+Under the operating model established by OPENCLAW-CC-OPS-001:
+
+**Claude Code updates (during implementation sessions on the VPS):**
+- `04_DAILY_STATUS.md`
+- `03_Issues_Log.md`
+- `06_PHASE_GATE_CHECKLIST.md`
+- Change Packet status entries in `phase_d/`
+
+**Claude CoWork drafts (for operator approval; CoWork is required drafter):**
+- `OPENCLAW_COWORK_OPERATING_PROTOCOL.md`
+- `OPENCLAW_CLAUDE_CODE_OPERATING_PROTOCOL.md`
+- `00_System_Constitution.md`
+- `00_Master_Document_Index.md`
+- All documents in `governance/` and `specs/`
+- Strategy documents, advisory memos, and high-level analytical outputs
+
+CoWork reviews Claude Code's operational document updates via the committed
+GitHub state, not by producing those updates itself.
+
 ### Step 1 — Session Summary
 
-Produce a factual summary of all system changes that occurred during the
-session.
+Produce a factual summary of all analysis performed and any system changes
+identified or proposed during the session.
 
 ### Step 2 — Document Update Identification
 
-Identify which of the following documents require updates:
-- **Daily Status**
-- **Execution Plan**
-- **Issues Log** *(required only if a new issue was identified or an existing
-  issue was resolved)*
+Identify which documents require updates as a result of this session:
 
-### Step 3 — Full Updated Content
+- **Governance documents (CoWork responsibility):** List document name,
+  section(s) affected, and proposed change. Provide full updated content
+  per Step 3.
+- **Operational documents (Claude Code responsibility):** Identify which
+  documents Claude Code should update in the next implementation session.
+  CoWork does not produce the content; it flags the need.
 
-Provide the **complete updated content** of each document requiring changes.
-Partial updates, diffs, and summaries are not acceptable substitutes.
+### Step 3 — Full Updated Content (CoWork-responsibility documents only)
+
+For governance documents CoWork is responsible for drafting, provide the
+**complete updated content**. Partial updates, diffs, and summaries are not
+acceptable substitutes for CoWork-drafted documents.
+
+For operational documents delegated to Claude Code, this step is not required.
 
 ### Step 4 — Compliance Confirmation
 
@@ -324,15 +361,42 @@ not represent a document as updated prior to receiving that approval.
 
 ### Step 6 — Archive Superseded Versions
 
-After operator approval of updated documents, move all superseded versions to
-`old/`. A superseded version is any dated file in the main project folder or
-subfolders for which a newer version now exists. This step must be completed
-before the session is considered closed.
+After operator approval of CoWork-updated documents, move all superseded
+versions to `old/`. A superseded version is any dated file in the main project
+folder or subfolders for which a newer version now exists. This step must be
+completed before the session is considered closed.
 
 Rules:
 - `old/` is append-only — files moved there are never deleted
 - Only the current version of each document remains in the active folder
 - The `00_Master_Document_Index` must reflect the current version filename
+
+### Step 7 — GitHub Review (periodic and proposal-branch)
+
+**Periodic audit:** On a regular cadence and after any major Claude Code change
+session, CoWork reviews the committed main-branch state and confirms:
+
+- Are governing docs consistent with Daily Status and each other?
+- Did Claude Code modify only approved files?
+- Are all open issues reflected in the current Next Step queue?
+- Are there signs of scope creep or governance drift?
+- Are there operator decisions required before the next session?
+
+**Proposal branch review:** When Claude Code notifies the operator that a Lane 2
+change has been pushed to a proposal branch, CoWork performs a pre-adoption
+review assessing:
+
+1. Compliance with System Constitution, OPS-001, and CC-OPS-001
+2. Consistency with Daily Status and active phase
+3. Document authority hierarchy — does this change alter who owns what?
+4. Completeness — are all required index/version updates included?
+5. Stale references or conflicts with existing documents
+6. Runtime impact (direct or indirect) of the proposed change
+7. Recommendation: approve / approve with revisions / hold + reason
+
+CoWork's output is advisory. Only the operator may approve live adoption.
+CoWork does not merge, commit, push, or approve live adoption of proposal
+branches.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -427,7 +491,8 @@ decision.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-*OPENCLAW-OPS-001 | Version 2.8 | Created: 2026-05-01 | Last updated: 2026-06-06 | Status: LOCKED*
+
+*OPENCLAW-OPS-001 | Version 3.0 | Created: 2026-05-01 | Last updated: 2026-06-08 | Status: LOCKED*
 
 *Version 2.0 changes (operator approved 2026-05-07): Phase lock updated to 6.6; Permanent Architectural Rule added (Section 7); VPS Co-Location Model and Content Isolation Rule added (Section 3); Brain Lite Scope Lock added (Section 2); Phase 7 Execution Plan designated as canonical roadmap (Section 8).*
 
@@ -446,3 +511,7 @@ decision.
 *Version 2.7 changes (operator approved 2026-05-24): Section 3 pipeline sequence updated to match Constitution v6.0 canonical pipeline — Control Layer and Delivery Gate added as distinct stages; "Delivery" renamed to "Delivery Gate → Lark". Documentation alignment only; no behavioral change.*
 
 *Version 2.8 changes (operator approved 2026-06-06): Section 4 Per-Run Analysis Contract expanded from 6 to 8 required output blocks — Source Quality Assessment (Block 3) and Claim Support Assessment (Block 4) added as mandatory per-run steps; block order revised accordingly. Section 2 Full Article Retrieval scope updated: immediate purpose re-scoped to claim verification support; signal-widening deferred. These changes incorporate ADV-017 (operator-approved reference basis) into the governing operating document. No runtime behavior changes.*
+
+*Version 2.9 changes (operator approved 2026-06-08): Section 1 role designation updated — "Primary consultant" revised to "Independent governance and strategy consultant"; "Primary VPS operating desk" added to IS NOT list (Claude Code holds that role per OPENCLAW-CC-OPS-001); "Independent review layer" added to IS list. Section 5 document control updated — document update responsibility split defined: Claude Code updates operational documents (Daily Status, Issues Log, Change Packets) during VPS sessions; CoWork drafts governance documents, specs, and strategy outputs; CoWork reviews operational updates via committed GitHub state. Step 7 (GitHub Review periodic cadence) added. These changes implement the operating model shift approved by operator 2026-06-08. Companion document: OPENCLAW-CC-OPS-001.*
+
+*Version 3.0 changes (operator approved 2026-06-08): Section 5 Step 7 expanded — periodic audit criteria retained; proposal branch review added as a second Step 7 mode for Lane 2 governance-sensitive changes. CoWork role in proposal branch review defined (7-point assessment, advisory output only). Lane 1/2/3 framework adopted as governing review classification. CoWork does not merge, commit, push, or approve live adoption of proposal branches. Companion document: OPENCLAW-CC-OPS-001 v1.1.*
