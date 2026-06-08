@@ -2,12 +2,12 @@
 
 ---
 document_id: 04_DAILY_STATUS
-version: v3.7
-last_updated: 2026-06-04
+version: v4.0
+last_updated: 2026-06-08
 status: OPERATIONAL
 ---
 
-DATE: 2026-06-04
+DATE: 2026-06-08
 PHASE: Phase 7 Entry — Phase D (Controlled Pilot)
 
 ---
@@ -553,8 +553,9 @@ Step 9.8 COMPLETE — 2026-05-20: Isolation verification results presented to
 ✔ Issue #65 CLOSED 2026-06-04 — false alarm; tv.cctv.com in scrubbed output is
   agent Section 8 hallucination, not a retrieval leak; CP-025 confirmed working;
   citation_sub.py strips Section 8 before Lark delivery
-⚠ lark_doc_relay.py clear-before-write — IN PROGRESS; not yet deployed;
-  current behavior appends each delivery
+✔ lark_doc_relay.py clear-before-write — DEPLOYED 2026-06-08; count_root_children()
+  and clear_children() functions added; push() now clears document before appending;
+  backup at /root/lark_doc_relay.py.bak.20260608; py_compile exit 0
 ✔ Signal-widening plan APPROVED 2026-05-28 — ADV-013 (original memo 2026-05-24),
   ADV-013-REVIEW (consultant review), ADV-013-RESPONSE (revised operator response)
   filed in advisory/. Four operator decisions resolved (see below).
@@ -694,31 +695,33 @@ ALJ PILOT RUN 2026-06-01 11:54 UTC — ALL GATES PASS, pilot_mode blocking:
 | #62 | ALJ SOURCES appendix URL fabrication — agent rewrites source URLs to plausible-but-wrong paths | RESOLVED 2026-06-03 | Root cause: CP-009 designed ALJ Section 8 as agent-generated; agent hallucinated URL paths while correctly citing result_ids. Fix: citation_sub.py strips agent Section 8 (anchor: ^SECTION\s+8\b) then appends deterministic SOURCES from retrieval package, same as WS1. ALJ-only gate (OPENCLAW_REPORT_TEMPLATE=alj_china_auto_weekly_v1). WS1 regression confirmed byte-for-byte identical. py_compile ok. Backup .bak_20260603_issue62. End-to-end pilot run validation pending. Note: WS1 OPENCLAW_REPORT_TEMPLATE is china_monitoring_brief_v1 (not china_monitor_v1 which is the query template). |
 | #63 | ALJ CP-020 freshness label inconsistency — same source labeled CONTEXT-7D inline and NEW-24H in appendix | OPEN | Agent applying inconsistent freshness labels; CP-020 prompt needs tightening. Blocked on #62 fix (SOURCES must be pipeline-generated before label consistency matters). |
 | #65 | tv.cctv.com URL in ALJ scrubbed output | CLOSED 2026-06-04 | False alarm — agent Section 8 hallucination; CP-025 confirmed working; citation_sub.py strips Section 8 before Lark delivery |
+| #66 | filter_results.py Baidu timestamp bug — D18/D19 collapse | RESOLVED 2026-06-08 | Bug: `if dt is None or dt < BAIDU_FRESHNESS_CUTOFF` treated missing timestamps as stale, dropping all 55 Baidu results. Fix: changed to `if dt is not None and dt < BAIDU_FRESHNESS_CUTOFF`. Second fix: added full-year Chinese date form `(20\d{2})年...日` to parse_date_from_title (was already in parse_date_from_summary). Both fixes applied; backup at filter_results.py.bak_20260608_baidu_fix; py_compile exit 0. Confirmation run: mapping_size=2 (vs 1), GREEN 4/4/0. Residual: 23/24 Baidu results still dropped due to pool quality (index pages, wiki, stale CCTV clips) — filter logic correct; retrieval query formulation is the underlying gap (see CP-022). |
 
 ---
 
 ## SYSTEM HEALTH
 
-* Stability: HIGH
-* Retrieval: MODERATE — Brave + Baidu operational; D10=13, D11=11, D12=11, D13=16;
-  all within normal range; Baidu 48h filter active
-* Validator: STRONG — GREEN PASS all D9–D13; 0 failures across all Phase D
+* Stability: RECOVERING — D18/D19 collapse diagnosed and patched 2026-06-08;
+  filter bug resolved; next cron run (2026-06-09 06:30) is first live validation
+* Retrieval: MODERATE — Brave + Baidu operational; D18/D19 Baidu collapse was
+  filter bug (now fixed); underlying Baidu pool quality gap (index/wiki pages)
+  remains; see CP-022
+* Validator: STRONG — GREEN PASS all D9–D15 and confirmation run; 0 failures
 * Scrubber: STRONG — uncited removal active; conflict extraction active
 * Delivery Gate: STRONG
 * Citation Substitution: ACTIVE — result_ids → publisher/date in Lark output
 * Conflict Detection: CONFIRMED — all three tiers (⚠/↔/~) operational
 * Agent Citation Discipline: STRONG — fabrication rate 0%; T-04 compliant all runs
 * Brain Lite: ACTIVE — CP-018 validated on D9; digest rebuilding on every delivery
-* Topic Differentiation: ACTIVE — CP-007 working; Toyota repetition D9/D10/D12
-  retrieval-driven; not present D13; monitoring continues
+* lark_doc_relay.py: CLEAR-BEFORE-WRITE DEPLOYED 2026-06-08
+* Topic Differentiation: ACTIVE — CP-007 working; monitoring continues
 * CP-020: DEPLOYED — source taxonomy + freshness labels in build_agent_input_slim.py;
-  WS1 live; ALJ deferred; validates on D14 (SOURCES appendix in Lark delivery)
+  WS1 live; ALJ deferred
 * CJK word-count fix: DEPLOYED — fetch_article_text.py; functional test confirmed
 ✔ Issue #60 RESOLVED 2026-06-03 — query_builder.py reads OPENCLAW_QUERY_TEMPLATE;
   ALJ dispatches to 7 RQT-002 v1.1 Baidu queries; WS1 unchanged (smoke-test confirmed)
 * ALJ Pipeline: LIVE — pilot_mode disabled 2026-06-04; manual trigger only;
-  first live delivery confirmed 2026-06-04; freshness label strip active from
-  next run; lark_doc_relay.py clear-before-write pending deployment
+  first live delivery confirmed 2026-06-04; freshness label strip active
 
 ---
 
@@ -759,15 +762,51 @@ SESSION CLOSE — 2026-06-04:
   ⚠ Freshness label strip not confirmed in live delivery (duplicate-content
     guard blocked validation run); validates on next real content run
 
+SESSION CLOSE — 2026-06-06:
+  ✔ ADV-014 Layer 2 calibration complete — threshold 80, warn-only,
+    keyword gate (热播榜, 内容简介, 推荐阅读, 更多>); false positive
+    on 《 identified and removed; Claude Code implementation authorized
+  ✔ ADV-016 issued and operator-approved — raw retrieval logging;
+    immutable per-run archive; Claude Code authorized
+  ✔ ADV-017 operator-approved for incorporation into governing system
+    documents — five-layer product quality workflow; gate streak HELD
+    at 3/10; browser retrieval re-scoped to claim verification support
+  ✔ Document cascade implemented: Daily Status v3.9, Operating Protocol
+    v2.8, Phase Gate Checklist v1.6, Operator Review Procedure v1.2,
+    Master Document Index v5.3, Document Versions Index v1.2
+  ⚠ D13/D14/D15 review required before gate streak resumes
+  ⚠ Dashboard redesign (ADV-017 Section 6) requires change packet for
+    Claude Code — not yet implemented
+
+SESSION CLOSE — 2026-06-08:
+  ✔ D18 (2026-06-07) and D19 (2026-06-08) collapse diagnosed — root cause:
+    filter_results.py Baidu timestamp bug (dt is None treated as stale)
+  ✔ Issue #66 RESOLVED — two-part fix applied to filter_results.py:
+    (1) timestamp None → keep (not drop); (2) full-year Chinese date form
+    added to parse_date_from_title. py_compile exit 0.
+  ✔ lark_doc_relay.py clear-before-write DEPLOYED — count_root_children(),
+    clear_children() added; push() clears before appending; py_compile exit 0.
+  ✔ pilot_mode RESTORED to false — confirmed via grep.
+  ✔ Baidu pool quality analyzed — 23/24 Baidu drops are valid filter decisions
+    (index pages, wiki, stale CCTV clips). Filter is correct; query formulation
+    is the gap. CP-022 (query expansion) is the right next step for Baidu.
+  ✔ Domain exclusion expanded 2026-06-08 — baike.baidu.com, bilibili.com,
+    chinawto.mofcom.gov.cn, zhsme.org.cn added to client_config_china_monitor_001.yaml;
+    backup at client_config_china_monitor_001.yaml.bak.20260608; YAML valid.
+    ⚠ VALIDATION NOTE: tv.cctv.com/tv.cctv.cn were already in exclusion list but
+    appeared as stale_url_date (not domain_exclusion) in D19 drops — OPENCLAW_DOMAIN_EXCLUSION
+    may not be loading correctly. Verify on 2026-06-09 cron run: CCTV drops should
+    show domain_exclusion; new domains should show domain_exclusion.
+
 IMMEDIATE — next session:
-  1. Deploy lark_doc_relay.py clear-before-write fix (Claude Code)
-  2. Complete Browser Phase 1 Days 8–11 (Claude Code) — CCTV networkidle
-     re-test; Reuters/Bloomberg stealth UA attempt
-  3. Begin CP-021 (WS1 source-first output restructuring + LinkedIn
-     suppression); 2 held-mode runs before live; gate streak restarts on
-     first live CP-021 delivery
-  4. ALJ: next manual run when fresh news cycle available; validate
-     freshness strip and confirm no duplicate-content block
+  1. Sync VPS artifacts (PowerShell scp block) and check 2026-06-09 cron run
+     (expected 06:30 Shanghai) — validate mapping_size recovered with fix applied.
+  2. PRIORITY: Review D13, D14, D15 under five-layer trust standard
+     (source quality, claim-source support, client usefulness) before
+     gate streak resumes. Operator decides: certify 3/10 / reset / hold.
+  3. Deploy ADV-014 Layer 2 in filter_results.py (Claude Code)
+  4. Draft dashboard redesign change packet (ADV-017 Section 6)
+  5. ALJ: next manual run when fresh news cycle available
 
 SIGNAL-WIDENING WORK QUEUE — approved 2026-05-28, sequenced:
   Tier 0 (COMPLETE 2026-06-01):
@@ -874,11 +913,61 @@ Phase D ACTIVE — Controlled Pilot (Step 8).
     updated (h5.article.smbae.cn, tv.cctv.com, tv.cctv.cn excluded);
     all syntax checks exit 0; end-to-end loader confirmed writing exclusion
     list to loader.env; backups at .bak_20260606_adv014.
+  - ADV-014 Layer 2 APPROVED AND AUTHORIZED 2026-06-06 — threshold 80
+    non-WS chars, warn-only mode, keyword gate (热播榜, 内容简介, 推荐阅读,
+    更多>); Claude Code implementation authorized for next session.
+  - ADV-016 ISSUED AND APPROVED 2026-06-06 — raw retrieval logging and
+    run traceability archive; immutable per-run archive in
+    /root/openclaw_traceability/{client}/{date}/; 5 file types per run;
+    Claude Code implementation authorized for next session.
+  - ADV-017 OPERATOR-APPROVED 2026-06-06 — five-layer CEO-controlled
+    product quality workflow approved for incorporation into governing
+    system documents. The five-layer model becomes operationally binding
+    through approved updates to Daily Status, Operating Protocol, review
+    procedure, and related system documents — not through the advisory
+    note itself. Five layers: System Run Check, Citation Check, Source
+    Quality Check, Claim Support Check, Client Usefulness Review.
+    Validator-green output is no longer sufficient by itself to count as
+    a clean delivery. A delivery is clean only when all five layers are
+    satisfied and the operator confirms it.
+  - CLEAN DELIVERY COUNT — HELD AT 3 OF 10. The count will not resume
+    until D13, D14, and D15 are reviewed under the new trust standard:
+    system ran, citations exist, source quality is acceptable, claims are
+    supported by cited sources, and output is useful to the client.
+    Required next action: operator reviews D13/D14/D15 for source quality,
+    claim-source support, and client usefulness before the gate streak
+    resumes. After review, three outcomes are available: (1) certify and
+    continue from 3/10 if all pass the new standard; (2) reset to 0 if
+    any counted delivery had a material claim-source failure; (3) continue
+    the hold if review is incomplete.
+  - BROWSER RETRIEVAL RE-SCOPED 2026-06-06 — Full Article Retrieval
+    remains an active support track, but its immediate purpose is claim
+    verification support: retrieving article body text where snippets are
+    insufficient to confirm whether a cited source supports a claim.
+    Broader signal-widening research is deferred unless it directly
+    supports claim-source verification.
+
+  - Delivery 18 (2026-06-07): SEVERELY DEGRADED — mapping_size=1; 1 source
+    (CNBC); 2 citations; 1 ET + 1 AL bullet only. Root cause: filter_results.py
+    bug treating missing Baidu timestamps as stale (dt is None → drop). All 55
+    Baidu results dropped. Not sent externally. Does not count toward streak.
+    Logged as Issue #66.
+  - Delivery 19 (2026-06-08): SEVERELY DEGRADED — same root cause as D18;
+    mapping_size=1 (1 CNBC result); 2 citations. filter_results.py bug confirmed
+    still present. Not sent externally. Does not count toward streak.
+    Filter bug fixed same session (Issue #66). Confirmation run: mapping_size=2,
+    validator GREEN 4/4/0, delivery suppressed by pilot_mode (temporarily enabled
+    for confirmation run; restored to false same session).
+    Remaining Baidu issue: 23/24 Baidu results still dropped after fix —
+    root cause is pool quality (10 × no_date index/wiki pages, 5 × stale CCTV
+    clips, etc.), not filter logic. Filter is working correctly. Pool quality
+    is a query formulation issue (see CP-022).
 
   Gate streak: 3 of 10 (D13 2026-06-02, D14 2026-06-03, D15 2026-06-04).
-    STREAK PAUSED — held-mode posture active from 2026-06-06. Resumption
-    requires operator approval after ADV-014 and ADV-015 Option B controls
-    tested in held-mode runs (per one-week execution memo 2026-06-06).
+    HELD — clean delivery count paused pending operator review of D13,
+    D14, and D15 under the five-layer trust standard (ADV-017, operator
+    approved 2026-06-06). No deliveries count toward the streak until
+    review is complete and operator approves resumption.
 
   Issue #50 monitoring — did not recur D2–D13 (D5/D6 thin at ids=9 but no degradation)
   Issue #54 OPEN — broadcaster dedup gap; operator decision on CP timing required

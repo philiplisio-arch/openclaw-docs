@@ -1,8 +1,8 @@
 ---
 document_id: OPENCLAW-P7-GATE-001
-version: 1.5
+version: 1.6
 created: 2026-05-08
-last_updated: 2026-05-20
+last_updated: 2026-06-06
 status: ACTIVE
 classification: OPERATIONAL — PHASE GATE TRACKER
 ---
@@ -66,7 +66,18 @@ Single tracking document for Phase 7 gate criteria. Each gate must be fully met 
 
 **Requirement:** Operator review gate on every delivery for first two weeks or ten deliveries. Ten consecutive clean external deliveries with client confirmation.
 
-**Gate status: OPEN — Phase C closed 2026-05-20; Phase D eligible to begin**
+**Clean delivery definition (updated 2026-06-06):** A delivery counts as clean only when all five of the following are satisfied and the operator confirms:
+1. System ran successfully
+2. Citations are structurally valid
+3. Source quality is acceptable (no poor-quality sources carrying high-stakes claims)
+4. Claims are supported by their cited sources
+5. Output is useful to the client
+
+Validator GREEN alone is not sufficient to count a delivery as clean. Both technical and product-quality confirmation are required. Reference basis: ADV-017 (operator approved 2026-06-06), incorporated into governing documents.
+
+**Current streak: 3 of 10 (D13 2026-06-02, D14 2026-06-03, D15 2026-06-04)**
+
+**Gate status: OPEN — HELD at 3 of 10 pending operator review of D13, D14, and D15 under the updated clean delivery standard. Count resumes after operator confirms review outcome.**
 
 ---
 
@@ -87,11 +98,13 @@ Single tracking document for Phase 7 gate criteria. Each gate must be fully met 
 | Phase A | 2026-05-11 | Operator |
 | Phase B | 2026-05-11 | Operator |
 | Phase C | 2026-05-20 | Operator |
-| Phase D | — | — |
+| Phase D | OPEN — streak 3/10, HELD at 2026-06-06 | — |
 
 ---
 
-*OPENCLAW-P7-GATE-001 | Version 1.5 | Created: 2026-05-08 | Last Updated: 2026-05-20 | Status: ACTIVE*
+*OPENCLAW-P7-GATE-001 | Version 1.6 | Created: 2026-05-08 | Last Updated: 2026-06-06 | Status: ACTIVE*
+
+*v1.6 changes (2026-06-06): Phase D clean delivery definition updated — validator GREEN alone is not sufficient; all five trust layers must be satisfied and operator-confirmed. Gate streak recorded at 3/10, HELD pending review of D13/D14/D15 under updated standard. Gate Closure Log updated to reflect HELD status. Reference basis: ADV-017 operator-approved 2026-06-06, incorporated into this governing document.*
 
 *v1.5 changes (2026-05-20): Step 7 marked COMPLETE — Steps 9.5–9.8 completed; verify_isolation.py EXIT 0 42/42 PASS; pilot_mode delivery gate confirmed; Phase C gate CLOSED operator-confirmed 2026-05-20; Phase D gate OPEN.*
 

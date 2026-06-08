@@ -2,8 +2,8 @@
 
 ---
 document_id: OPENCLAW-MDI-001
-version: v5.2
-last_updated: 2026-05-24
+version: v5.3
+last_updated: 2026-06-06
 status: ACTIVE
 ---
 
@@ -153,11 +153,12 @@ documents listed as GOVERNING, LOCKED, or ACTIVE are authoritative.
 | Advisory Memo 013 — Signal-Widening Strategy | OPENCLAW-ADV-013 | `advisory/Strategy Memo 6.8.26.txt` | advisory/ | REFERENCE | Best-in-class strategy for widening China-based signal in ALJ monitoring and core China report; prepared 2026-05-24; approved direction 2026-05-28 |
 | Advisory Memo 013 Consultant Review | OPENCLAW-ADV-013-REVIEW | `advisory/OPENCLAW-ADV-013-REVIEW_2026-05-28.md` | advisory/ | REFERENCE | Consultant review of operator response; 8 targeted revisions recommended; incorporated into final response |
 | Advisory Memo 013 Operator Response (Revised) | OPENCLAW-ADV-013-RESPONSE | `advisory/OPENCLAW-ADV-013-RESPONSE_2026-05-28.md` | advisory/ | OPERATOR APPROVED | Approved operator response to signal-widening advisory; tiered plan CP-020 through CP-024 + CP-022A; four decisions resolved; operator approved 2026-05-28 |
-
-| Advisory Memo 014 — Source Authority Filter | OPENCLAW-ADV-014 | `advisory/OPENCLAW-ADV-014_2026-06-06.md` | advisory/ | OPERATOR APPROVED | Domain exclusion list + snippet quality floor; Layer 1 approved for Claude Code; Layer 2 dry-run approved; addresses D-FB-007/D-FB-008 |
+| Advisory Memo 014 — Source Authority Filter | OPENCLAW-ADV-014 | `advisory/OPENCLAW-ADV-014_2026-06-06.md` | advisory/ | OPERATOR APPROVED | Domain exclusion list + snippet quality floor; Layer 1 deployed; Layer 2 approved (threshold 80, warn-only, keyword gate); addresses D-FB-007/D-FB-008 |
 | Advisory Memo 015 — Semantic Validation Gap | OPENCLAW-ADV-015 | `advisory/OPENCLAW-ADV-015_2026-06-06.md` | advisory/ | OPERATOR APPROVED | Validator GREEN ≠ semantic grounding; Option D spot-check added to review procedure; Option B spec pending; fabrication rate language corrected |
+| Advisory Memo 016 — Raw Retrieval Logging | OPENCLAW-ADV-016 | `advisory/OPENCLAW-ADV-016_2026-06-06.md` | advisory/ | OPERATOR APPROVED | Per-run immutable traceability archive in /root/openclaw_traceability/; 7 file types per run; Claude Code implementation authorized |
+| Advisory Memo 017 — Five-Layer Operating Model | OPENCLAW-ADV-017 | `advisory/OPENCLAW-ADV-017_2026-06-06.md` | advisory/ | OPERATOR APPROVED | CEO-controlled product quality workflow; five layers: System Run, Citation, Source Quality, Claim Support, Client Usefulness; operator-approved reference basis for governing document updates; gate streak HELD at 3/10 |
 
-Next advisory memo: ADV-016
+Next advisory memo: ADV-018
 
 ---
 

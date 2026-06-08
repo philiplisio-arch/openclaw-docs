@@ -1,8 +1,8 @@
 ---
 document_id: OPENCLAW-PHASE-D-ORP-001
-version: 1.0
+version: 1.2
 created: 2026-05-20
-last_updated: 2026-05-20
+last_updated: 2026-06-06
 status: ACTIVE
 classification: OPERATIONAL — PHASE D OPERATOR REVIEW PROCEDURE
 ---
@@ -22,6 +22,21 @@ proposed Content Scorecard row, and a recommended disposition for each item.
 No feedback entry, scorecard row, or change recommendation becomes official
 until approved by the operator.
 
+**Governing workflow reference:** ADV-017 (operator approved 2026-06-06) has
+been approved as the reference basis for updating this document. The five-layer
+operating model becomes operationally binding through this and other approved
+system document updates — not through the advisory note itself.
+
+**Clean delivery definition (updated 2026-06-06):** A delivery counts as clean
+only when all five of the following are satisfied and the operator confirms:
+1. System ran successfully
+2. Citations are structurally valid (validator GREEN)
+3. Source quality is acceptable
+4. Claims are supported by their cited sources
+5. Output is useful to the client
+
+Validator GREEN alone is not sufficient.
+
 ---
 
 ## REVIEW TRIGGER
@@ -32,12 +47,30 @@ deliveries, per the Phase D operating model.
 
 ---
 
-## MANDATORY PRE-REVIEW STEP — SOURCE SPOT-CHECK (added 2026-06-06, ADV-015 Option D)
+## MANDATORY PRE-REVIEW — FIVE-LAYER TRUST CHECKLIST (updated 2026-06-06)
 
-Before answering the standard review prompt, the operator must perform a
-source spot-check on each delivery:
+Before answering the standard review prompt, the operator must work through
+the following trust checklist. A delivery is clean only when all nine
+questions can be answered yes and the operator confirms.
 
-**Step 2A — Source Spot-Check**
+**ADV-017 TRUST CHECKLIST**
+
+1. Did the system run successfully?
+2. Are all citations structurally valid?
+3. Are the cited sources credible enough?
+4. Does each Executive Take claim match its cited source?
+5. Are quotes, numbers, and named officials supported?
+6. Are weak sources clearly flagged or excluded?
+7. Is the advisory language appropriately cautious?
+8. Is the brief useful to a communications client?
+9. Should this count as a clean delivery?
+
+If any answer is no:
+- Do not count the delivery toward the gate streak.
+- Record which question failed and why.
+- Escalate to CoWork for analysis.
+
+**Step 2A — Source Spot-Check (ADV-015 Option D, active)**
 
 For each delivery, inspect all Executive Take and Advisory Layer bullets
 that contain any of the following high-risk claim types:
@@ -64,13 +97,15 @@ If the source does not support the claim:
 - Escalate to CoWork for retrieval package investigation.
 - Do not count the delivery toward the gate streak.
 
-If all high-risk bullets are grounded: proceed to standard review prompt.
+If all high-risk bullets are grounded and all nine trust checklist
+questions are answered yes: proceed to standard review prompt.
 
 Rationale: the pipeline validator is citation-structure safe — it confirms
 result_id syntax and existence. It is not yet client-factual-grounding safe.
-The spot-check is the only current detection mechanism for cross-source
-citation misbinding (Issue #66). ADV-015 Option B (automated snippet
-alignment check) is in design; this manual step bridges until deployment.
+The trust checklist and spot-check are the current detection mechanisms for
+cross-source citation misbinding (D-FB-008; Issue #66). ADV-015 Option B
+(automated snippet alignment check) is in design; these manual steps bridge
+until deployment.
 
 ---
 
@@ -293,4 +328,8 @@ a proposed state until the operator approves, revises, or rejects them.
 
 ---
 
-*OPENCLAW-PHASE-D-ORP-001 | Version 1.1 | Created: 2026-05-20 | Last updated: 2026-06-06 | Status: ACTIVE*
+*OPENCLAW-PHASE-D-ORP-001 | Version 1.2 | Created: 2026-05-20 | Last updated: 2026-06-06 | Status: ACTIVE*
+
+*v1.2 changes (2026-06-06): Purpose section updated with governing workflow reference and clean delivery definition (five layers; validator GREEN alone insufficient). Pre-review section expanded from ADV-015 Option D spot-check to full nine-question ADV-017 trust checklist as mandatory first step; spot-check retained as Step 2A within the pre-review workflow. Reference basis: ADV-017 operator-approved 2026-06-06, incorporated into this governing document.*
+
+*v1.1 changes (2026-06-06): ADV-015 Option D source spot-check added as mandatory pre-review step before standard operator prompt; high-risk claim type list defined; escalation path for claim-source failures specified.*

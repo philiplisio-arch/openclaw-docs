@@ -1,9 +1,9 @@
 ---
 document_id: OPENCLAW-OPS-001
 status: LOCKED
-version: 2.7
+version: 2.8
 created: 2026-05-01
-last_updated: 2026-05-24
+last_updated: 2026-06-06
 classification: GOVERNANCE — SYSTEM CONTROL DOCUMENT
 ---
 
@@ -72,9 +72,12 @@ The **Daily Status document is the single source of truth** for the active phase
 - Validated Sources Appendix — design, implementation plan, and rollback-safe deployment
 - Post-run analysis per the Analysis Contract (Section 4)
 - Drafting system document updates
-- Browser Retrieval Phase 1 — reading article_cache/ output and producing
-  findings report (research-only parallel track; CoWork has no implementation
-  role; findings report is advisory only)
+- Full Article Retrieval — active support track re-scoped 2026-06-06:
+  immediate purpose is claim verification support (retrieving article body
+  text where snippets are insufficient to confirm whether a cited source
+  supports a claim). Broader signal-widening research is deferred unless it
+  directly supports claim-source verification. CoWork role: reading
+  article_cache/ output and producing findings report; no implementation role.
 
 ### OUT OF SCOPE
 
@@ -159,7 +162,7 @@ the chat interface.
 
 ## SECTION 4 — PER-RUN ANALYSIS CONTRACT
 
-For every pipeline run reviewed, Claude CoWork **must** produce all six of the
+For every pipeline run reviewed, Claude CoWork **must** produce all eight of the
 following output blocks, in order, with no omissions:
 
 ---
@@ -179,9 +182,50 @@ Assessment of citation syntax compliance. Must identify:
 - Citations failing locked syntax enforcement
 - Any patterns in failures
 
+Plain-English test: *Do citations point to real retrieved sources?*
+
 ---
 
-### 3. ROOT CAUSE *(if applicable)*
+### 3. SOURCE QUALITY ASSESSMENT
+
+Assess whether the cited and available sources are strong enough for the
+claims made. Must identify:
+- Strong sources used
+- Weak sources used
+- Any poor-quality or non-article sources present
+- Whether any weak source is carrying a high-stakes claim (government action,
+  tariffs, sanctions, regulatory decisions, diplomatic visits, direct quotes,
+  financial figures, investigations, major transactions, named officials)
+- Whether any source was excluded or flagged by source-quality rules
+  (ADV-014 domain exclusion, snippet quality floor)
+- Overall source-quality status: Green / Yellow / Orange / Red
+
+Plain-English test: *Are the sources good enough to support client-facing claims?*
+
+---
+
+### 4. CLAIM SUPPORT ASSESSMENT
+
+Assess whether each Executive Take claim is supported by the source cited
+next to it. Must identify:
+- Any claim where the cited source clearly supports the sentence
+- Any claim where support is partial or wording should be softened
+- Any claim where the source does not appear to support the claim
+- Any high-risk claim involving officials, governments, tariffs, sanctions,
+  regulatory action, financial figures, diplomatic visits, or direct quotes
+- Whether the output should count as a clean delivery
+
+Review table format:
+
+| Executive Take | Support Status | Reason |
+|----------------|----------------|--------|
+| Bullet text    | Supported / Needs review / Hold | Brief note |
+
+Plain-English test: *Does the cited source actually support the sentence?*
+
+---
+
+### 5. ROOT CAUSE *(if applicable)*
 
 If any failure, anomaly, or unexpected behavior is present, a root cause
 determination must be provided. If no anomaly is present, this section must
@@ -189,15 +233,15 @@ state: `No root cause analysis required — run within expected parameters.`
 
 ---
 
-### 4. PHASE ALIGNMENT CHECK
+### 6. PHASE AND SCOPE ALIGNMENT CHECK
 
 Explicit confirmation that the run, its outputs, and the analysis itself are
-fully within the scope of the current active phase. Any detected scope drift must be reported
-here before proceeding.
+fully within the scope of the current active phase. Any detected scope drift
+must be reported here before proceeding.
 
 ---
 
-### 5. NEXT STEP
+### 7. NEXT STEP
 
 Maximum **1–2 discrete actions** recommended for the operator. Next steps must:
 - Fall within the current phase scope
@@ -206,7 +250,7 @@ Maximum **1–2 discrete actions** recommended for the operator. Next steps must
 
 ---
 
-### 6. PROPOSED DOC UPDATES
+### 8. PROPOSED DOC UPDATES
 
 Identification of which system documents require updates as a result of this
 run, and the proposed updated content in full. Must specify:
@@ -221,10 +265,15 @@ run, and the proposed updated content in full. Must specify:
 - No scope expansion beyond the current active phase
 - No architecture modification proposals
 - No retrieval-layer suggestions
+- Source Quality Assessment and Claim Support Assessment are mandatory even
+  when all citations are structurally valid — validator GREEN does not
+  substitute for Blocks 3 and 4
 
 ---
 
 *Section 4 updated 2026-05-06: Phase 6.3a references corrected to "current active phase" per Section 2 governing principle (Daily Status is single source of truth). Operator approved.*
+
+*Section 4 updated 2026-06-06 (v2.8): Source Quality Assessment (Block 3) and Claim Support Assessment (Block 4) added as mandatory per-run blocks; block order revised to 8-block sequence; browser retrieval scope updated in Section 2. Operator approved — ADV-017 incorporated into governing document.*
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -378,7 +427,7 @@ decision.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-*OPENCLAW-OPS-001 | Version 2.7 | Created: 2026-05-01 | Last updated: 2026-05-24 | Status: LOCKED*
+*OPENCLAW-OPS-001 | Version 2.8 | Created: 2026-05-01 | Last updated: 2026-06-06 | Status: LOCKED*
 
 *Version 2.0 changes (operator approved 2026-05-07): Phase lock updated to 6.6; Permanent Architectural Rule added (Section 7); VPS Co-Location Model and Content Isolation Rule added (Section 3); Brain Lite Scope Lock added (Section 2); Phase 7 Execution Plan designated as canonical roadmap (Section 8).*
 
@@ -395,3 +444,5 @@ decision.
 *Version 2.6 changes (operator approved 2026-05-20): Browser Retrieval Phase 1 added to IN SCOPE (CoWork role: reading article_cache/ output and producing findings report only); Browser Retrieval Phase 2 integration added to OUT OF SCOPE.*
 
 *Version 2.7 changes (operator approved 2026-05-24): Section 3 pipeline sequence updated to match Constitution v6.0 canonical pipeline — Control Layer and Delivery Gate added as distinct stages; "Delivery" renamed to "Delivery Gate → Lark". Documentation alignment only; no behavioral change.*
+
+*Version 2.8 changes (operator approved 2026-06-06): Section 4 Per-Run Analysis Contract expanded from 6 to 8 required output blocks — Source Quality Assessment (Block 3) and Claim Support Assessment (Block 4) added as mandatory per-run steps; block order revised accordingly. Section 2 Full Article Retrieval scope updated: immediate purpose re-scoped to claim verification support; signal-widening deferred. These changes incorporate ADV-017 (operator-approved reference basis) into the governing operating document. No runtime behavior changes.*
