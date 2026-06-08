@@ -48,6 +48,23 @@ source_preferences:
     - brave
     - baidu
 
+# Filter configuration
+# domain_exclusion: URL substrings; matching results are dropped during filtering
+# (ADV-014 Layer 1). Exported to OPENCLAW_DOMAIN_EXCLUSION by the config loader.
+domain_exclusion:
+  - h5.article.smbae.cn
+  - tv.cctv.com
+  - tv.cctv.cn
+  - baike.baidu.com
+  - bilibili.com
+  - chinawto.mofcom.gov.cn
+  - zhsme.org.cn
+
+# snippet_min_chars: minimum non-whitespace snippet length before a result is
+# flagged by the Layer 2 quality floor (ADV-014, warn-only). Exported to
+# OPENCLAW_SNIPPET_MIN_CHARS by the config loader.
+snippet_min_chars: 80
+
 # Brain Lite context injection
 brain_context: true    # Activated 2026-05-15 — operator approved
 
