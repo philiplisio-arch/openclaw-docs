@@ -1,5 +1,15 @@
 # OPENCLAW BOARD-LEVEL PROJECT DASHBOARD
 
+> **⚠ CURRENCY NOTICE (added 2026-06-10 reconciliation):** the narrative below
+> reflects the June 4 baseline and is OUT OF DATE. Current key facts:
+> gate streak **0/10, restarted 2026-06-10** (operator decision, Option A —
+> D13–D15 set aside as unverifiable under the ADV-017 five-layer standard);
+> ALJ is in **held mode** (no external delivery without operator approval);
+> Issue #67 (cross-client agent session contamination) found and fixed
+> 2026-06-10; runtime code now under git. Authoritative current state:
+> `04_DAILY_STATUS.md` (v4.1). Full dashboard regeneration awaits the
+> ADV-017 §6 redesign packet.
+
 **Date:** June 4, 2026 *(updated from June 2 snapshot — key metrics refreshed; narrative sections reflect June 2 baseline)*
 **Prepared for:** Operator / CEO
 **Prepared by:** Senior Technical Program Manager (CoWork Consultant)

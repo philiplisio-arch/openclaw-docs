@@ -2,8 +2,8 @@
 
 ---
 document_id: OPENCLAW-ISSUES-001
-version: v2.6
-last_updated: 2026-06-04
+version: v2.7
+last_updated: 2026-06-10
 status: OPERATIONAL
 ---
 
@@ -19,7 +19,7 @@ and recently resolved issues.
 | # | Title | Status |
 |---|-------|--------|
 | 46 | OPENCLAW_ARTIFACT_NAMESPACE not propagating to scrubber subprocess | ✅ RESOLVED — 2026-05-20 |
-| 47 | Intermediate retrieval artifacts not client-namespaced | 🟡 OPEN — operator decision required |
+| 47 | Intermediate retrieval artifacts not client-namespaced | ✅ RESOLVED 2026-06-09 — all 7 phase5 intermediates namespaced via OPENCLAW_ARTIFACT_NAMESPACE; orchestrator scripts + run_light_to_lark.sh updated; legacy un-namespaced files in data/ pending cleanup |
 | 48 | Delivery relay not client-namespaced — test runs deliver to live channel | ✅ RESOLVED — 2026-05-20 |
 | 49 | run_light_to_lark.sh — OPENCLAW_CLIENT_ID and other loader vars assigned without export | ✅ RESOLVED 2026-05-23 — 6 missing exports added; all 9 loader vars confirmed in subshell smoke test |
 | 50 | Thin retrieval package — mapping_size=7 on 2026-05-21 run; 4 bullets removed | 🟡 MONITORING — did not recur D2, D3, or D4; Baidu 48h filter deployed; continue watching |
@@ -37,7 +37,8 @@ and recently resolved issues.
 | 62 | ALJ SOURCES appendix URL fabrication — agent rewrites source URLs to plausible-but-wrong paths | ✅ RESOLVED 2026-06-03 — citation_sub.py strips agent Section 8; deterministic SOURCES appended from retrieval package; WS1 unaffected |
 | 63 | ALJ CP-020 freshness label inconsistency — same source labeled CONTEXT-7D inline and NEW-24H in SOURCES appendix | 🟡 OPEN — agent applying inconsistent labels; CP-020 prompt needs tightening; was blocked on #62 (now resolved) |
 | 65 | tv.cctv.com URL in ALJ scrubbed output | ✅ CLOSED 2026-06-04 — false alarm; agent Section 8 hallucination; CP-025 confirmed working; citation_sub.py strips Section 8 before delivery |
-| 66 | Cross-source citation misbinding — agent attaches real facts from one source to a different low-authority cited source | 🔴 OPEN — high severity; D17 confirmed; ADV-014 Layer 1 (domain exclusion) and ADV-015 Option B (snippet alignment check) in progress |
+| 66 | Cross-source citation misbinding — agent attaches real facts from one source to a different low-authority cited source | 🟡 OPEN — generator mechanism identified and removed 2026-06-10 (Issue #67 shared-session contamination); detector (ADV-015 Option B, spec approved 2026-06-10) in calibration; downgrade/close decision after Option B replay + clean delivery evidence |
+| 67 | Cross-client agent session contamination — gateway agent china_pr_enrichment appended every run (all clients) to one persistent 6.3MB session; --session-id recorded but not isolating; June 9 ALJ runs caused June 10 WS1 run to emit ALJ-format output citing an out-of-package ALJ source | ✅ RESOLVED 2026-06-10 — run_phase5_offline.sh clears agent session store before each run; live-tested; first cron validation 2026-06-11; evidence: OPENCLAW_DIAG_JUNE10_BLOCK_2026-06-10.md; old contaminated session preserved in container at sessions_bak_20260610 |
 | T-10 | Brain Lite metrics_unavailable | ✅ CLOSED 2026-05-23 — CP-005 confirmed on 2026-05-23 and 2026-05-24 cron; validator_status=GREEN holding |
 
 ## TRACKED INPUTS — FUTURE PHASE
@@ -73,10 +74,20 @@ and recently resolved issues.
 
 ---
 
+## Issue #67 — Cross-Client Agent Session Contamination
+
+### Status
+✅ RESOLVED 2026-06-10 — fix deployed (per-run session reset in run_phase5_offline.sh); first cron validation 2026-06-11.
+
+### Description
+The gateway agent `china_pr_enrichment` (shared by all clients) appended every run to a single persistent session (`agent:china_pr_enrichment:main`, 6.3 MB, 577 messages mixing ALJ and WS1 turns); the `--session-id` passed per run was recorded but did not isolate. After five ALJ runs on 2026-06-09, the 2026-06-10 WS1 run received a correct prompt (verified byte-for-byte) but emitted ALJ-format output citing an ALJ source not in the WS1 package with a memory-mutated URL — the same signature as Issue #66. Gates blocked the delivery correctly. Full evidence chain: OPENCLAW_DIAG_JUNE10_BLOCK_2026-06-10.md. The contaminated session is preserved in-container at `sessions_bak_20260610/` as evidence for #66 analysis.
+
+---
+
 ## Issue #66 — Cross-Source Citation Misbinding
 
 ### Status
-🔴 OPEN — High severity. Confirmed D17 (2026-06-06). ADV-014 and ADV-015 in progress.
+🟡 OPEN — downgraded from high severity 2026-06-10. The generator mechanism (Issue #67 shared-session contamination) was identified and removed 2026-06-10; the detector (ADV-015 Option B snippet alignment, spec approved 2026-06-10) is in calibration. Close decision after Option B replay results plus clean-delivery evidence under session isolation.
 
 ### Discovered
 2026-06-06 — retrieval package analysis, D17 post-run review
@@ -517,7 +528,7 @@ underscore) — did not block this run but requires a follow-up patch.
 ## Issue #47 — Intermediate Retrieval Artifacts Not Client-Namespaced
 
 ### Status
-🟡 OPEN — deferred from Phase C closure; pre-production blocker before second real client or concurrent multi-client operation.
+✅ RESOLVED 2026-06-09 — all 7 phase5 intermediate artifacts namespaced by OPENCLAW_ARTIFACT_NAMESPACE (query_bundle, baidu_raw, brave_raw, normalized_results, deduped_results, filtered_results, conflicts; retrieval_package was already namespaced). All 7 orchestrator scripts plus run_phase5_offline.sh and run_light_to_lark.sh updated. Legacy un-namespaced files in data/ remain pending cleanup (Phase 2 hygiene item).
 
 ### Discovered
 2026-05-20 — Step 9.7 investigation

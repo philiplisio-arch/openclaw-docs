@@ -3,9 +3,13 @@ document_id: OPENCLAW-P7-GATE-001
 version: 1.0
 created: 2026-05-08
 last_updated: 2026-05-08
-status: ACTIVE
+status: ARCHIVED — SUPERSEDED
 classification: OPERATIONAL — PHASE GATE TRACKER
 ---
+
+> **SUPERSEDED (2026-06-10 reconciliation):** this is a stale v1.0 copy.
+> The live gate checklist is `06_PHASE_GATE_CHECKLIST.md` in the repo root
+> (same document_id, currently v1.7). Retained for history only.
 
 # OPENCLAW — Phase 7 Gate Checklist
 

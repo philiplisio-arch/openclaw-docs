@@ -27,3 +27,4 @@ config/cowork_key
 config/vps_sync/
 *.pem
 *.key
+*.bak*

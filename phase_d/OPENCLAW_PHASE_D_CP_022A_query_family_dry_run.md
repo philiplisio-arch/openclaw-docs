@@ -21,7 +21,7 @@ classification: PHASE D CHANGE PACKET — QUERY TEMPLATES / RETRIEVAL (HELD MODE
 | Feedback items addressed | D-FB-003 (topic repetition); D-FB-004 (old articles / thin signal); signal-widening advisory ADV-013 |
 | Tier | 2B — Early Retrieval Dry Run |
 | Implementation layer | Query templates / retrieval (held mode only — no live delivery) |
-| Status | APPROVED — implementation pending |
+| Status | IN EXECUTION — run 1 completed 2026-06-10 (held mode); run 2 planned 2026-06-11; see Section 7 |
 
 ---
 
@@ -187,8 +187,8 @@ after the operator confirms across both CP-022A runs:
 | Approval date | 2026-05-28 |
 | Implementation assigned to | Claude Code |
 | Mode constraint | HELD MODE ONLY throughout |
-| Implementation confirmed date | |
-| Backup confirmed | |
+| Implementation confirmed date | 2026-06-10 (run 1) |
+| Backup confirmed | query_builder.py.bak_20260610_cp022A |
 
 ---
 
@@ -196,11 +196,11 @@ after the operator confirms across both CP-022A runs:
 
 | Run # | Date | Mode | Retained sources | CN sources | Biz press | Official | Duplication rate | Operator score | Notes |
 |-------|------|------|-----------------|-----------|-----------|----------|-----------------|----------------|-------|
-| baseline | | | | | | | | | current WS1 |
-| 1 | | held | | | | | | | |
-| 2 | | held | | | | | | | |
+| baseline | 2026-06-09 | live (clean run) | 8 | 5 | 3 | 0 | n/a | | current WS1 (china_monitor_v1, 6 queries); secondary ref 2026-06-10 run: 25 kept / 22 CN / 7 biz / 3 official |
+| 1 | 2026-06-10 | held (isolated namespace cp022a_dryrun; retrieval stages only, no agent/no delivery path invoked) | 52 | 39 | 19 | 13 | 8% (854→785 dedup) | | 37 queries × 2 providers; 1 query error of 74; runtime ~7 min, no timeouts; 27 distinct publishers; top publisher finance.sina.cn 13% (<35% gate ✓); family yield: sector 16, state-media 11, biz-press 10, intl 9, geo 3, company 2, gov-site 1 (site:gov.cn family underperforms); NOTE: region/family label did not propagate to normalized results (shows Unknown) — investigate in normalize.py before CP-022 live |
+| 2 | | held | | | | | | | planned 2026-06-11 |
 
-**CP-022 gate decision:** PENDING — operator review of both runs required
+**CP-022 gate decision:** PENDING — run 2 (2026-06-11) + operator review of both runs required
 
 ---
 

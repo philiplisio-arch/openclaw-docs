@@ -21,7 +21,7 @@ classification: PHASE D CHANGE PACKET — EDITORIAL / PROMPT
 | Feedback items addressed | Issue #58 (CP-010 geographic footer suppression ineffective) |
 | Feedback recurrence threshold met? | Yes — agent geographic footer present in D8 final_output_scrubbed; CP-010 was expected to suppress from D5 onward (4 runs without suppression confirmed) |
 | Implementation layer | Agent input script (build_agent_input_slim.py) — SOURCES SECTION RULE only |
-| Status | APPROVED |
+| Status | DEPLOYED AND VALIDATED — v2 footer absence confirmed on D13 2026-06-02; Issue #58 closed (stamped 2026-06-10 reconciliation) |
 
 ---
 

@@ -2,8 +2,8 @@
 
 ---
 document_id: Document_Versions_Index
-version: v1.3
-last_updated: 2026-06-08
+version: v1.4
+last_updated: 2026-06-10
 status: ACTIVE
 ---
 
@@ -16,7 +16,9 @@ core operational documents. Archive files are immutable.
 
 ### 00_Master_Document_Index
 
-- v5.3 (ACTIVE, 2026-06-06) → `00_Master_Document_Index.md`
+- v5.5 (ACTIVE, 2026-06-10) → `00_Master_Document_Index.md`
+- v5.4 → superseded in-place 2026-06-10
+- v5.3 → superseded in-place 2026-06-08
 - v5.2 → superseded in-place 2026-06-06
 - v5.1 → superseded in-place 2026-05-24
 - v5.0 → superseded in-place 2026-05-21
@@ -40,21 +42,26 @@ core operational documents. Archive files are immutable.
 
 ### 03_Issues_Log
 
-- v2.4 (ACTIVE, 2026-05-24) → `03_Issues_Log.md`
+- v2.7 (ACTIVE, 2026-06-10) → `03_Issues_Log.md`
+- v2.6 → superseded in-place 2026-06-10
+- v2.5/v2.4 → superseded in-place 2026-06-04 / 2026-05-24
 - v1.4 archive → `/old/03_Issues_Log_v1.4_2026-05-13.md`
 - v1.3 → `/old/03_Issues Log (5.11.26).md`
 - Prior versions → `/old/03_Issues Log (*.26).md`
 
 ### 04_DAILY_STATUS
 
-- v3.9 (ACTIVE, 2026-06-06) → `04_DAILY_STATUS.md`
+- v4.1 (ACTIVE, 2026-06-10) → `04_DAILY_STATUS.md`
+- v4.0 → superseded in-place 2026-06-10
+- v3.9 → superseded in-place 2026-06-08
 - v3.8 → superseded in-place 2026-06-06
 - v1.0 archive → `/old/04_DAILY_STATUS_v1.0_2026-05-13.md`
 - Prior versions → `/old/04_DAILY_STATUS (*.26).md`
 
 ### OPENCLAW_COWORK_OPERATING_PROTOCOL
 
-- v2.9 (ACTIVE, 2026-06-08) → `OPENCLAW_COWORK_OPERATING_PROTOCOL.md`
+- v3.0 (ACTIVE, on disk; supersession date not recorded — flagged 2026-06-10 reconciliation) → `OPENCLAW_COWORK_OPERATING_PROTOCOL.md`
+- v2.9 → superseded in-place
 - v2.8 → superseded in-place 2026-06-08
 - v2.7 → superseded in-place 2026-06-06
 - v2.6 archive → `/old/OPENCLAW_COWORK_OPERATING_PROTOCOL_v2.6_2026-05-20.md`
@@ -66,7 +73,8 @@ core operational documents. Archive files are immutable.
 
 ### 06_PHASE_GATE_CHECKLIST
 
-- v1.6 (ACTIVE, 2026-06-06) → `06_PHASE_GATE_CHECKLIST.md`
+- v1.7 (ACTIVE, 2026-06-10) → `06_PHASE_GATE_CHECKLIST.md`
+- v1.6 → superseded in-place 2026-06-10
 - v1.5 → superseded in-place 2026-06-06
 - v1.0 archive → `/old/06_PHASE_GATE_CHECKLIST_v1.0_2026-05-07.md`
 

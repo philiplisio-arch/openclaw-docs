@@ -21,7 +21,7 @@ status: PROPOSED — PENDING OPERATOR APPROVAL
 | Feedback items addressed | ALJ Pilot Run 2026-06-01 scorecard — source quality |
 | Feedback recurrence threshold met? | Yes — confirmed in pilot run 1; also matches Browser Retrieval Phase 1 Days 2/3 findings |
 | Implementation layer | Retrieval filter (filter_results.py) — ALJ client profile only |
-| Status | APPROVED — operator approved 2026-06-02 |
+| Status | DEPLOYED AND CONFIRMED WORKING 2026-06-04 — Issue #65 closure evidence (stamped 2026-06-10 reconciliation) |
 
 ---
 

@@ -21,7 +21,7 @@ classification: PHASE D CHANGE PACKET — AGENT PROMPT / OUTPUT FORMAT
 | Feedback items addressed | D-FB-006 (signal quality); signal-widening advisory ADV-013 |
 | Tier | 1 — Shared Labeling Foundation |
 | Implementation layer | Agent prompt / build_agent_input_slim.py |
-| Status | APPROVED — implementation pending |
+| Status | DEPLOYED 2026-06-02; ACCEPTED 2026-06-03 (status stamped 2026-06-10 reconciliation; Daily Status governs) |
 
 ---
 

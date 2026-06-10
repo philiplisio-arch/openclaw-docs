@@ -78,5 +78,7 @@ require_complete_source_appendix: true
 # used in report (yes/no), related section/bullet.
 
 # Pilot gate
-pilot_mode: false  # All output held for operator review — no external delivery
+pilot_mode: true   # All output held for operator review — no external delivery
                    # until operator explicitly approves each delivery
+                   # Re-enabled 2026-06-10 (operator-approved): closes ADV-017
+                   # conflict — Sunday cron now runs in held mode, no delivery

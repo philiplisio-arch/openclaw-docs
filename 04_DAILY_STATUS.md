@@ -2,12 +2,12 @@
 
 ---
 document_id: 04_DAILY_STATUS
-version: v4.0
-last_updated: 2026-06-08
+version: v4.1
+last_updated: 2026-06-10
 status: OPERATIONAL
 ---
 
-DATE: 2026-06-08
+DATE: 2026-06-10
 PHASE: Phase 7 Entry — Phase D (Controlled Pilot)
 
 ---
@@ -676,7 +676,8 @@ ALJ PILOT RUN 2026-06-01 11:54 UTC — ALL GATES PASS, pilot_mode blocking:
 | #44 | 3 Sina Finance sources not in delivered output | RESOLVED | Log-confirmed 2026-05-08 — validator 23/23, substitutions_made=23, missing_ids=0 |
 | #45 | 2026-05-19 delivery failure — Step 9.3/9.4 deployment sequence | RESOLVED 2026-05-19 | Rollback executed; Steps 9.3+9.4 re-deployed combined |
 | #46 | OPENCLAW_ARTIFACT_NAMESPACE not propagating to scrubber | RESOLVED 2026-05-20 | export added line 20; typo fixed line 191 |
-| #47 | Intermediate retrieval artifacts not client-namespaced | OPEN | Operator decision required — pre-production |
+| #47 | Intermediate retrieval artifacts not client-namespaced | RESOLVED 2026-06-09 | All 7 phase5 intermediates namespaced via OPENCLAW_ARTIFACT_NAMESPACE; run scripts updated |
+| #67 | Cross-client agent session contamination — shared persistent gateway session | RESOLVED 2026-06-10 | Root cause of 2026-06-10 block and likely Issue #66 mechanism; run_phase5_offline.sh now clears session store per run; see OPENCLAW_DIAG_JUNE10_BLOCK_2026-06-10.md |
 | #48 | Delivery relay not client-namespaced | RESOLVED 2026-05-20 | pilot_mode guard added; OPENCLAW_PILOT_MODE exported |
 | #49 | run_light_to_lark.sh loader vars not fully exported | RESOLVED 2026-05-23 | 6 missing exports added; all 9 loader vars confirmed in subshell smoke test |
 | T-10 | Brain Lite metrics_unavailable | CLOSED 2026-05-23 | CP-005 confirmed on 2026-05-23 cron; validator_status=GREEN holding on 2026-05-24 cron |
@@ -807,6 +808,82 @@ IMMEDIATE — next session:
   3. Deploy ADV-014 Layer 2 in filter_results.py (Claude Code)
   4. Draft dashboard redesign change packet (ADV-017 Section 6)
   5. ALJ: next manual run when fresh news cycle available
+
+SESSION CLOSE — 2026-06-09:
+  ✔ Issue #47 RESOLVED — all 7 phase5 intermediates namespaced by
+    OPENCLAW_ARTIFACT_NAMESPACE; run_phase5_offline.sh + run_light_to_lark.sh
+    updated; single-tenancy risk closed
+  ✔ ADV-014 Layer 2 PROMOTED to active drop mode (operator-approved after
+    0-flag confirmation run)
+  ✔ ALJ Sunday cron added (0 13 * * 0)
+  ⚠ 06:31 cron run (2026-06-09) — Phase D delivery — DELIVERED, GREEN 10/10/0,
+    mapping_size=8, 3 Baidu kept; freshness-window fix validated; volume still
+    below 14–15 norm (pool quality — CP-022 territory)
+  ⚠ Five ALJ test runs (09:41–10:39 Shanghai) during namespacing validation;
+    THREE delivered to live ALJ Feishu doc (pilot_mode was false) — recorded
+    2026-06-10; operator decision: no action on doc contents
+
+SESSION CLOSE — 2026-06-10:
+  ✔ 06:31 cron run (2026-06-10) — BLOCKED correctly (missing ADVISORY LAYER;
+    zero cited ET bullets). Retrieval healthy (25 passed). ROOT CAUSE FOUND:
+    gateway agent china_pr_enrichment shared ONE persistent session across all
+    clients/runs; June 9 ALJ runs contaminated context; agent emitted ALJ
+    format on WS1 run and cited an ALJ source not in the WS1 package
+    (= Issue #66 misbinding mechanism). Full evidence:
+    OPENCLAW_DIAG_JUNE10_BLOCK_2026-06-10.md. Logged as Issue #67.
+  ✔ Session isolation FIX DEPLOYED (operator-approved) — run_phase5_offline.sh
+    clears agent session store per run; live test passed; first cron
+    validation 2026-06-11 06:31
+  ✔ ALJ pilot_mode RESTORED to true (operator-approved) — closes ADV-017
+    conflict; Sunday cron now held mode
+  ✔ Raw pre-gate agent output archiving DEPLOYED (ADV-016 extension) —
+    run_light_to_lark.sh; backup .bak_20260610_raw_archive
+  ✔ Blocked-run alerting DEPLOYED — failed/blocked runs append to
+    /root/openclaw_logs/ALERTS.log (pilot skips and clean runs excluded)
+  ✔ D13–D15 five-layer review RESOLVED — Option A (operator decision):
+    set aside, streak restarted 0/10; Gate Checklist v1.7;
+    packet: phase_d/OPENCLAW_D13_D15_REVIEW_PACKET_2026-06-10.md
+  ✔ CP-022A RUN 1 EXECUTED (held mode, isolated namespace) — 52 kept vs
+    baseline 8; CN 39 vs 5; official/state 13 vs 0; 27 distinct publishers;
+    top publisher 13% (<35% gate); run 2 planned 2026-06-11; region label
+    propagation issue noted for CP-022 pre-live check
+  ✔ ADV-015 Option B spec DRAFTED and operator-approved —
+    specs/SYS_ADV015_OptionB_Snippet_Alignment_Spec_v0.1.md; calibration +
+    warn-only implementation authorized
+  ✔ Full project audit + master plan delivered —
+    OPENCLAW_FABLE5_AUDIT_2026-06.md, OPENCLAW_MASTER_EXECUTION_PLAN_2026-06.md
+  ⚠ Issue numbering collision found: this document's table calls the
+    2026-06-08 filter bug "#66"; Issues Log #66 is citation misbinding.
+    Issues Log numbering governs; session contamination logged as #67.
+  ✔ ADV-015 Option B IMPLEMENTED warn-only (runtime commit 227f365) —
+    citation_alignment block now written into validation_result.json;
+    delivery gate unchanged. Calibration: D17 fixture caught; grounded +
+    cross-language fixtures pass.
+  ⚠ Option B replay FINDING: the 2026-06-09 delivered brief contained
+    4 genuinely misaligned bullets (e.g. oil-price/Iran claims citing an
+    unrelated Eastmoney index page; EU-dialogue claim citing a Reuters
+    airline-fuel story) — contamination-era misbinding that validator
+    GREEN could not see. Reinforces Option A streak restart. Clean-baseline
+    calibration criterion transfers to first post-fix deliveries.
+  ✔ Brave API key moved from brave_executor.py hardcode to
+    /root/.secrets/openclaw.env (operator-approved; commit d297a93)
+  ✔ Governance reconciliation COMPLETE — MDI v5.5 (24 files indexed),
+    DVI v1.4, Board Dashboard currency banner, stale governance gate-
+    checklist copy marked superseded, CP-005/018/019/020/022A/025 stamped
+  ⚠ Full-text retrieval status (operator query 2026-06-10): content_fetcher
+    operational in-pipeline — June 10 run fetched 16/25 sources ok
+    (4 timeouts, 3 empty, 2 skipped), capped at 1,000 chars/article;
+    June 9 run got 0 full_text (cause unverified — watch next runs);
+    browser_retrieval research cache untouched since 2026-05-28
+
+IMMEDIATE — next session:
+  1. Verify 2026-06-11 06:31 cron run — session_store_reset=ok in log,
+    correct WS1 format, raw_agent_output archived; if clean and operator
+    confirms five layers, it counts as delivery 1 of 10.
+  2. CP-022A run 2, then two-run comparison + CP-022 go/no-go to operator.
+  3. Option B offline calibration (must flag D17; zero false flags on
+    2026-06-09), then warn-only wiring.
+  4. Governance: runtime git init; MDI/DVI refresh; dashboard refresh.
 
 SIGNAL-WIDENING WORK QUEUE — approved 2026-05-28, sequenced:
   Tier 0 (COMPLETE 2026-06-01):

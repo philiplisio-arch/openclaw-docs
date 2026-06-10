@@ -1,8 +1,8 @@
 ---
 document_id: OPENCLAW-P7-GATE-001
-version: 1.6
+version: 1.7
 created: 2026-05-08
-last_updated: 2026-06-06
+last_updated: 2026-06-10
 status: ACTIVE
 classification: OPERATIONAL — PHASE GATE TRACKER
 ---
@@ -75,9 +75,11 @@ Single tracking document for Phase 7 gate criteria. Each gate must be fully met 
 
 Validator GREEN alone is not sufficient to count a delivery as clean. Both technical and product-quality confirmation are required. Reference basis: ADV-017 (operator approved 2026-06-06), incorporated into governing documents.
 
-**Current streak: 3 of 10 (D13 2026-06-02, D14 2026-06-03, D15 2026-06-04)**
+**Current streak: 0 of 10 — RESTARTED 2026-06-10 (operator decision, Option A of the D13–D15 review packet)**
 
-**Gate status: OPEN — HELD at 3 of 10 pending operator review of D13, D14, and D15 under the updated clean delivery standard. Count resumes after operator confirms review outcome.**
+D13–D15 (2026-06-02/03/04) are SET ASIDE — not failed, not counted. They pass layers 1–2 (system ran; validator GREEN 16/16/0, 12/12/0, 13/13/0; zero scrubber removals) but layers 3–5 are unverifiable post-hoc: they pre-date the ADV-016 traceability archive, and the cross-client session contamination diagnosed 2026-06-10 (Issue #66 mechanism) was active when they ran. Review basis: OPENCLAW_D13_D15_REVIEW_PACKET_2026-06-10.md.
+
+**Gate status: OPEN — counting resumes with the first delivery under full ADV-016 traceability + session isolation (earliest: 2026-06-11 morning run), each delivery operator-confirmed against the five-layer standard from its run archive.**
 
 ---
 
@@ -98,11 +100,13 @@ Validator GREEN alone is not sufficient to count a delivery as clean. Both techn
 | Phase A | 2026-05-11 | Operator |
 | Phase B | 2026-05-11 | Operator |
 | Phase C | 2026-05-20 | Operator |
-| Phase D | OPEN — streak 3/10, HELD at 2026-06-06 | — |
+| Phase D | OPEN — streak 0/10, restarted 2026-06-10 (Option A) | — |
 
 ---
 
 *OPENCLAW-P7-GATE-001 | Version 1.6 | Created: 2026-05-08 | Last Updated: 2026-06-06 | Status: ACTIVE*
+
+*v1.7 changes (2026-06-10): D13–D15 review resolved per Option A (operator decision 2026-06-10) — deliveries set aside as unverifiable under the five-layer standard; streak restarted at 0/10; counting resumes with first delivery under full traceability + session isolation. Reference: OPENCLAW_D13_D15_REVIEW_PACKET_2026-06-10.md.*
 
 *v1.6 changes (2026-06-06): Phase D clean delivery definition updated — validator GREEN alone is not sufficient; all five trust layers must be satisfied and operator-confirmed. Gate streak recorded at 3/10, HELD pending review of D13/D14/D15 under updated standard. Gate Closure Log updated to reflect HELD status. Reference basis: ADV-017 operator-approved 2026-06-06, incorporated into this governing document.*
 

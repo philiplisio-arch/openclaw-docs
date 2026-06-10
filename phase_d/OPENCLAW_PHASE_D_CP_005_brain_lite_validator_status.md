@@ -21,7 +21,7 @@ classification: PHASE D CHANGE PACKET — SYSTEM FIX
 | Feedback items addressed | T-10 residual (validator_status=UNKNOWN persists after CP-001) |
 | Recurrence threshold met? | Yes — confirmed on 2026-05-22 cron run |
 | Implementation layer | Brain Lite script (write_run_summary.py) — system fix; not a content change |
-| Status | PROPOSED — awaiting operator approval |
+| Status | DEPLOYED AND CONFIRMED 2026-05-23 — validator_status GREEN holding on cron runs (stamped 2026-06-10 reconciliation) |
 
 ---
 

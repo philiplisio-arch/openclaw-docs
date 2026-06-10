@@ -2,8 +2,8 @@
 
 ---
 document_id: OPENCLAW-MDI-001
-version: v5.4
-last_updated: 2026-06-08
+version: v5.5
+last_updated: 2026-06-10
 status: ACTIVE
 ---
 
@@ -218,6 +218,38 @@ Updates require operator approval per Hard Safety Rule R-01.
 ---
 
 *OPENCLAW-MDI-001 | Version v5.4 | Last updated: 2026-06-08 | Status: ACTIVE*
+
+## TIER 10 — 2026-06-10 RECONCILIATION ADDENDUM
+
+Files found on disk but unindexed during the 2026-06-10 audit; indexed here pending tier assignment at next MDI restructure.
+
+| Document | Filename | Location | Status | Purpose |
+|----------|----------|----------|--------|---------|
+| Claude Code session instructions | `CLAUDE.md` | [root] | REFERENCE | Per-session operating instructions for Claude Code |
+| Board Dashboard | `OPENCLAW_Board_Dashboard.html` / `.md` | [root] | OPERATIONAL | Board-level status dashboard (refresh pending ADV-017 §6 redesign) |
+| CEO Dashboard | `OPENCLAW_CEO_Dashboard.html` / `.md` | [root] | OPERATIONAL | CEO status dashboard |
+| Dashboard template | `dashboard_template_LOCKED.html` | [root] | TEMPLATE | Locked dashboard layout template |
+| June 10 block diagnostic | `OPENCLAW_DIAG_JUNE10_BLOCK_2026-06-10.md` | [root] | REFERENCE | Root-cause evidence chain for Issue #67 (session contamination) |
+| Fable 5 full audit | `OPENCLAW_FABLE5_AUDIT_2026-06.md` | [root] | REFERENCE | Stage 1 project audit, 2026-06-10 |
+| Master execution plan | `OPENCLAW_MASTER_EXECUTION_PLAN_2026-06.md` | [root] | OPERATOR APPROVED | Sequenced execution plan (operator approved in stages, 2026-06-10) |
+| ADV-013 signal widening | `advisory/OPENCLAW-ADV-013_2026-05-21.md` + `-EXTERNAL_2026-05-24.md` | advisory/ | REFERENCE | Signal-widening advisory + external version |
+| Reply to ADV-012 | `advisory/OPENCLAW-REPLY-ADV-012_2026-05-13.md` | advisory/ | REFERENCE | Operator reply record |
+| Workflow memo feedback | `advisory/OPENCLAW_WorkflowMemo_Feedback_2026-06-06.docx` | advisory/ | REFERENCE | Workflow feedback memo |
+| Browser retrieval VPS setup | `browser_retrieval/VPS_SETUP_AND_TEST.md` | browser_retrieval/ | REFERENCE | Setup and test notes |
+| ALJ client config | `config/client_config_alj_china_auto_001.yaml` | config/ | ACTIVE | ALJ runtime client config (pilot_mode: true as of 2026-06-10) |
+| CoWork review request 2026-06-08 | `cowork/COWORK_REVIEW_REQUEST_20260608.md` | cowork/ | OPERATIONAL | Review request (D13–D15) |
+| CoWork review report 2026-06-08 | `cowork/COWORK_REVIEW_REPORT_20260608.md` | cowork/ | OPERATIONAL | Review report — independently flags D13–D15 layer-4 unverifiability; consistent with Option A decision 2026-06-10 |
+| Stale gate checklist copy | `governance/OPENCLAW-P7-GATE-001.md` | governance/ | ARCHIVED | Superseded v1.0 copy; live tracker is `06_PHASE_GATE_CHECKLIST.md` |
+| Phase 7 Execution Plan v2 | `governance/OpenClaw_Phase7_Execution_Plan_v2.docx` | governance/ | REFERENCE | NOT governing — v1 (`OpenClaw_Phase7_Execution_Plan.docx`, [root]) remains CANONICAL per Daily Status; v2 retained pending operator supersession decision |
+| D13–D15 review packet | `phase_d/OPENCLAW_D13_D15_REVIEW_PACKET_2026-06-10.md` | phase_d/ | OPERATIONAL | Five-layer review packet; Option A decided 2026-06-10 |
+| CP-025 ALJ TV domain filter | `phase_d/OPENCLAW_PHASE_D_CP_025_alj_tv_domain_filter.md` | phase_d/ | ACTIVE | Deployed; confirmed working (Issue #65 closure) |
+| ALJ client spec | `specs/OPENCLAW-SPEC-ALJ-CHINA-AUTO-001.md` | specs/ | ACTIVE | ALJ client specification |
+| ADV-015 Option B spec | `specs/SYS_ADV015_OptionB_Snippet_Alignment_Spec_v0.1.md` | specs/ | OPERATOR APPROVED | Citation alignment check spec (approved 2026-06-10; warn-only implementation authorized after calibration) |
+| ALJ query templates v1.2 | `specs/SYS_Retrieval_Query_Templates_alj_china_auto_weekly_v1.2.md` | specs/ | ACTIVE | Deployed 2026-06-04 (RQT-002 v1.2) |
+
+---
+
+*v5.5 changes (2026-06-10): Reconciliation addendum (Tier 10) added — 24 previously unindexed files indexed. governance/OPENCLAW-P7-GATE-001.md marked ARCHIVED (stale copy of live gate checklist). Phase 7 Execution Plan v2 explicitly marked non-governing (v1 canonical). Note: CoWork Operating Protocol file is at v3.0 on disk (v5.4 note below says v2.9 — historical). Gate Checklist now v1.7, Daily Status v4.1, Issues Log v2.7.*
 
 *v5.4 changes (2026-06-08): OPENCLAW-CC-OPS-001 (Claude Code Operating Protocol) added to Tier 1 — LOCKED. CoWork Operating Protocol updated to v2.9 (role designation and document control updates). VPS Sync Protocol updated to v1.8 (review source matrix added). All changes implement the operating model shift approved by operator 2026-06-08.*
 
