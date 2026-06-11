@@ -1,8 +1,8 @@
 ---
 document_id: OPENCLAW-P7-GATE-001
-version: 1.7
+version: 1.9
 created: 2026-05-08
-last_updated: 2026-06-10
+last_updated: 2026-06-11
 status: ACTIVE
 classification: OPERATIONAL — PHASE GATE TRACKER
 ---
@@ -109,9 +109,9 @@ D13–D15 (2026-06-02/03/04) are SET ASIDE — not failed, not counted. They pas
 
 ---
 
-*OPENCLAW-P7-GATE-001 | Version 1.9-PROPOSED | Created: 2026-05-08 | Last Updated: 2026-06-11 | Status: PROPOSAL BRANCH — not adopted*
+*OPENCLAW-P7-GATE-001 | Version 1.9 | Created: 2026-05-08 | Last Updated: 2026-06-11 | Status: ACTIVE*
 
-*v1.9 changes (2026-06-11, PROPOSED): Phase D gate threshold reduced 10 → 5 consecutive clean deliveries; clean-delivery definition gains item 6 (citation_alignment misaligned = 0). Reference: OPENCLAW_GOV_PROPOSAL_PHASE_D_STREAK_5.*
+*v1.9 changes (2026-06-11, operator-approved same day): Phase D gate threshold reduced 10 → 5 consecutive clean deliveries; clean-delivery definition gains item 6 (citation_alignment misaligned = 0). Reference: OPENCLAW_GOV_PROPOSAL_PHASE_D_STREAK_5.*
 
 *v1.8 changes (2026-06-11): D22 (2026-06-11, first delivery under full traceability + session isolation) confirmed clean by operator against the five-layer standard — streak advances to 1/10; streak table added. Reference: OPENCLAW_D22_REVIEW_PACKET_2026-06-11.md.*
 

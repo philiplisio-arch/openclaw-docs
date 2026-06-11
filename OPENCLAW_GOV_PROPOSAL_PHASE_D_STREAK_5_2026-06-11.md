@@ -5,7 +5,7 @@ document_id: OPENCLAW_GOV_PROPOSAL_PHASE_D_STREAK_5
 date: 2026-06-11
 author: Claude Fable 5 (drafted at operator direction)
 lane: 2 (gate threshold change — governance tier)
-status: PROPOSAL — not adopted; lives on branch proposal/phase-d-gate-streak-5; adoption requires explicit operator approval per P-06/P-07
+status: ADOPTED — operator-approved 2026-06-11; merged to main; gate checklist v1.9
 ---
 
 ## What changes
