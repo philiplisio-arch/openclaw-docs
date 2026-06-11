@@ -2,12 +2,12 @@
 
 ---
 document_id: 04_DAILY_STATUS
-version: v4.1
-last_updated: 2026-06-10
+version: v4.2
+last_updated: 2026-06-11
 status: OPERATIONAL
 ---
 
-DATE: 2026-06-10
+DATE: 2026-06-11
 PHASE: Phase 7 Entry — Phase D (Controlled Pilot)
 
 ---
@@ -876,14 +876,33 @@ SESSION CLOSE — 2026-06-10:
     June 9 run got 0 full_text (cause unverified — watch next runs);
     browser_retrieval research cache untouched since 2026-05-28
 
+SESSION CLOSE — 2026-06-11:
+  ✔ 06:31 cron run (2026-06-11) — D22 — DELIVERED, CLEAN. Session-isolation
+    fix VALIDATED on first post-fix cron: session_store_reset=ok, fresh
+    per-run session, correct WS1 format; validator GREEN PASS 9/9/0;
+    Lark push HTTP 200
+  ✔ D22 operator-confirmed under five-layer standard — GATE STREAK = 1 of 10;
+    Gate Checklist v1.8; packet phase_d/OPENCLAW_D22_REVIEW_PACKET_2026-06-11.md;
+    committed f08c001, pushed
+  ✔ ADV-015 Option B first post-fix reading: 7/7 cited bullets checked —
+    5 aligned at 100% anchor match, 0 weak, 0 MISALIGNED, 2 insufficient
+    anchors (both manually verified supported). Warn-only clean delivery
+    1 of ≥10 toward the blocking-mode decision
+  ✔ Full-text retrieval: 19/23 sources fetched (3 timeouts, 1 WeChat skip);
+    5 of 7 cited sources had full_text evidence behind them
+  ⚠ Agent output truncated mid-bullet (5th AL bullet) after 3 Gemini
+    overload retries; scrubber removed the uncited fragment
+    (uncited_claims_removed=1); delivered brief complete and well-formed.
+    WATCH ITEM — if truncation recurs, retry-on-truncation is a small
+    Lane 3 candidate
+  ⚠ Issue #67 (session contamination): first post-fix validation point
+    passed; continued absence of misbinding supports closing Issue #66
+
 IMMEDIATE — next session:
-  1. Verify 2026-06-11 06:31 cron run — session_store_reset=ok in log,
-    correct WS1 format, raw_agent_output archived; if clean and operator
-    confirms five layers, it counts as delivery 1 of 10.
-  2. CP-022A run 2, then two-run comparison + CP-022 go/no-go to operator.
-  3. Option B offline calibration (must flag D17; zero false flags on
-    2026-06-09), then warn-only wiring.
-  4. Governance: runtime git init; MDI/DVI refresh; dashboard refresh.
+  1. D23 (2026-06-12 06:31) — five-layer packet → operator confirm → 2/10
+  2. CP-022A run 2, two-run comparison + CP-022 go/no-go to operator
+  3. Sunday 2026-06-14 ALJ cron — verify held-mode run exercises cleanly
+  4. Hygiene queue: .bak cleanup inventory; Issue #56 root-cause (timeboxed)
 
 SIGNAL-WIDENING WORK QUEUE — approved 2026-05-28, sequenced:
   Tier 0 (COMPLETE 2026-06-01):
