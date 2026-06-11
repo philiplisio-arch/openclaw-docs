@@ -64,7 +64,7 @@ Single tracking document for Phase 7 gate criteria. Each gate must be fully met 
 
 ## PHASE D GATE — Controlled Pilot (Step 8)
 
-**Requirement:** Operator review gate on every delivery for first two weeks or ten deliveries. Ten consecutive clean external deliveries with client confirmation.
+**Requirement:** Operator review gate on every delivery. Five consecutive clean external deliveries with client confirmation (reduced from ten 2026-06-11, operator decision — see OPENCLAW_GOV_PROPOSAL_PHASE_D_STREAK_5).
 
 **Clean delivery definition (updated 2026-06-06):** A delivery counts as clean only when all five of the following are satisfied and the operator confirms:
 1. System ran successfully
@@ -72,10 +72,11 @@ Single tracking document for Phase 7 gate criteria. Each gate must be fully met 
 3. Source quality is acceptable (no poor-quality sources carrying high-stakes claims)
 4. Claims are supported by their cited sources
 5. Output is useful to the client
+6. citation_alignment misaligned = 0 in the delivery's validation result (ADV-015 Option B; added with the 5-delivery threshold 2026-06-11)
 
 Validator GREEN alone is not sufficient to count a delivery as clean. Both technical and product-quality confirmation are required. Reference basis: ADV-017 (operator approved 2026-06-06), incorporated into governing documents.
 
-**Current streak: 1 of 10 — D22 (2026-06-11) confirmed clean by operator 2026-06-11**
+**Current streak: 1 of 5 — D22 (2026-06-11) confirmed clean by operator 2026-06-11**
 
 | # | Delivery | Date | Five-layer result | Operator confirmed | Review basis |
 |---|---|---|---|---|---|
@@ -83,7 +84,7 @@ Validator GREEN alone is not sufficient to count a delivery as clean. Both techn
 
 D13–D15 (2026-06-02/03/04) are SET ASIDE — not failed, not counted. They pass layers 1–2 (system ran; validator GREEN 16/16/0, 12/12/0, 13/13/0; zero scrubber removals) but layers 3–5 are unverifiable post-hoc: they pre-date the ADV-016 traceability archive, and the cross-client session contamination diagnosed 2026-06-10 (Issue #66 mechanism) was active when they ran. Review basis: OPENCLAW_D13_D15_REVIEW_PACKET_2026-06-10.md.
 
-**Gate status: OPEN — streak 1/10. Each subsequent delivery is operator-confirmed against the five-layer standard from its run archive (per-run review packet prepared per delivery).**
+**Gate status: OPEN — streak 1/5. Each subsequent delivery is operator-confirmed against the five-layer standard from its run archive (per-run review packet prepared per delivery).**
 
 ---
 
@@ -104,11 +105,13 @@ D13–D15 (2026-06-02/03/04) are SET ASIDE — not failed, not counted. They pas
 | Phase A | 2026-05-11 | Operator |
 | Phase B | 2026-05-11 | Operator |
 | Phase C | 2026-05-20 | Operator |
-| Phase D | OPEN — streak 1/10 (D22 confirmed 2026-06-11) | — |
+| Phase D | OPEN — streak 1/5 (D22 confirmed 2026-06-11) | — |
 
 ---
 
-*OPENCLAW-P7-GATE-001 | Version 1.8 | Created: 2026-05-08 | Last Updated: 2026-06-11 | Status: ACTIVE*
+*OPENCLAW-P7-GATE-001 | Version 1.9-PROPOSED | Created: 2026-05-08 | Last Updated: 2026-06-11 | Status: PROPOSAL BRANCH — not adopted*
+
+*v1.9 changes (2026-06-11, PROPOSED): Phase D gate threshold reduced 10 → 5 consecutive clean deliveries; clean-delivery definition gains item 6 (citation_alignment misaligned = 0). Reference: OPENCLAW_GOV_PROPOSAL_PHASE_D_STREAK_5.*
 
 *v1.8 changes (2026-06-11): D22 (2026-06-11, first delivery under full traceability + session isolation) confirmed clean by operator against the five-layer standard — streak advances to 1/10; streak table added. Reference: OPENCLAW_D22_REVIEW_PACKET_2026-06-11.md.*
 
