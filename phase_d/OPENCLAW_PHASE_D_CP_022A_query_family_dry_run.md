@@ -21,7 +21,7 @@ classification: PHASE D CHANGE PACKET — QUERY TEMPLATES / RETRIEVAL (HELD MODE
 | Feedback items addressed | D-FB-003 (topic repetition); D-FB-004 (old articles / thin signal); signal-widening advisory ADV-013 |
 | Tier | 2B — Early Retrieval Dry Run |
 | Implementation layer | Query templates / retrieval (held mode only — no live delivery) |
-| Status | IN EXECUTION — run 1 completed 2026-06-10 (held mode); run 2 planned 2026-06-11; see Section 7 |
+| Status | COMPLETE — both held-mode runs executed (2026-06-10, 2026-06-11); operator scored 4/4; all CP-022 gate criteria met; see Section 7 |
 
 ---
 
@@ -198,12 +198,21 @@ after the operator confirms across both CP-022A runs:
 |-------|------|------|-----------------|-----------|-----------|----------|-----------------|----------------|-------|
 | baseline | 2026-06-09 | live (clean run) | 8 | 5 | 3 | 0 | n/a | | current WS1 (china_monitor_v1, 6 queries); secondary ref 2026-06-10 run: 25 kept / 22 CN / 7 biz / 3 official |
 | 1 | 2026-06-10 | held (isolated namespace cp022a_dryrun; retrieval stages only, no agent/no delivery path invoked) | 52 | 39 | 19 | 13 | 8% (854→785 dedup) | | 37 queries × 2 providers; 1 query error of 74; runtime ~7 min, no timeouts; 27 distinct publishers; top publisher finance.sina.cn 13% (<35% gate ✓); family yield: sector 16, state-media 11, biz-press 10, intl 9, geo 3, company 2, gov-site 1 (site:gov.cn family underperforms); NOTE: region/family label did not propagate to normalized results (shows Unknown) — investigate in normalize.py before CP-022 live |
-| 2 | | held | | | | | | | planned 2026-06-11 |
+| 2 | 2026-06-11 | held (isolated namespace cp022a_dryrun2; retrieval stages only, no agent/no delivery path invoked) | 61 | 43 zh-language (~46 incl. CN state English outlets; run-1 row's 39 used a broader China-source definition — both runs 4–8× baseline under any method) | 13 | 15 (f1 official-site 3 + f2 state-media 12) | 6% (826→776 dedup) | 4 | 37 queries × 2 providers; 0 query errors; runtime ~8 min, no timeouts; 37 distinct publishers; top publisher finance.sina.cn 15% (<35% gate ✓); family yield: sector 23 (NEV cluster 9 — CAAM May export data, BYD 36.7% NEV-export share), biz-press 13, state-media 12, intl 4, geo 4, gov-site 3, company 2; gov-site family weak both runs |
 
-**CP-022 gate decision:** PENDING — run 2 (2026-06-11) + operator review of both runs required
+**Operator scores (2026-06-11): run 1 = 4, run 2 = 4. Both runs meet all four CP-022 live-deployment gate criteria** (materially more Chinese sources; no publisher >35%; no unacceptable noise/duplication/instability; usefulness ≥4).
+
+**Pre-live cleanup items for CP-022 (identified across both runs):**
+1. Region/family label does not propagate to normalized results (shows Unknown) — normalize.py (carried from run 1)
+2. Dedup misses same story republished across Xinhua subdomains (www/www1/app.xinhuanet.com + gov mirrors) — inflates counts ~6/run
+3. Spam domain slipped through run 2 (3g.btwgctxx.cn) — add to domain exclusion
+4. Stale/off-topic strays (2024-dated consumer piece run 1; US CPI item run 2) and content-free "photo page" results — filter tightening
+5. site:gov.cn query family underperforms (1–3 results/run) — prune or reformulate in CP-022
+
+**CP-022 gate decision:** EVIDENCE COMPLETE — both runs pass all gate criteria. Live deployment remains sequenced behind Phase D gate closure (streak 10/10) per master plan Tier 3, plus the 5 pre-live cleanup items above.
 
 ---
 
-*OPENCLAW-D-CP-022A | Version 1.0 | Created: 2026-05-28 | Status: APPROVED — implementation pending*
+*OPENCLAW-D-CP-022A | Version 1.1 | Created: 2026-05-28 | Updated: 2026-06-11 | Status: COMPLETE — evidence phase done; CP-022 go/no-go awaits Phase D gate closure*
 *Raised by: CoWork — signal-widening plan approval 2026-05-28*
 *Operator approved: 2026-05-28 | Held mode only — no live delivery*
