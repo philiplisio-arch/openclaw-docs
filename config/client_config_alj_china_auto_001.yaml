@@ -12,22 +12,26 @@ client_name: "ALJ China Auto Weekly Brief"
 artifact_namespace: alj_china_auto_001
 
 # Topic focus — drives retrieval query construction
+# CP-023R (operator-approved 2026-06-11): refocused on Jameel Motors
 topic_focus:
-  - "Chinese automobile market weekly developments"
-  - "Toyota and Lexus positioning in China"
-  - "Chinese OEM competition and export strategy — Saudi Arabia and GCC"
-  - "NEV, hybrid, and battery technology developments in China"
-  - "Chinese auto dealer and distributor economics"
-  - "China auto policy, regulation, and government incentives"
-  - "Chinese OEM expansion into Middle East and Africa"
+  - "Jameel Motors partner brands in China: BYD, GAC/AION, Geely/Farizon, Changan, Chery (Omoda/Jaecoo), SAIC/MG, JMC — sales, strategy, products"
+  - "Partner brands outside China: launches and expansion in Jameel territories (Saudi/GCC, Türkiye, UK, Poland, Morocco, South Africa, Iraq, UAE)"
+  - "China NEV market pulse: CAAM/CPCA data, NEV penetration, price competition, battery/PHEV/charging technology"
+  - "China auto export corridors and trade policy: tariffs (EU, Türkiye, Gulf), localization, overseas plants"
+  - "Toyota and Lexus competitive position in China and vs Chinese brands globally"
+  - "Distribution and dealer economics in China and export markets"
+  - "Media-angle raw material for Jameel Motors executive commentary"
 
 # Geographic coverage
 regions:
   - "china"
   - "middle_east"
+  - "europe"
+  - "africa"
+  - "turkiye"
 
 # Query and output configuration
-query_template_set: "alj_china_auto_weekly_v1"   # NEW — to be drafted
+query_template_set: "alj_jameel_weekly_v2"   # CP-023R 2026-06-11 (was alj_china_auto_weekly_v1)
 report_template:    "alj_china_auto_weekly_v1"    # NEW — to be drafted
 
 # Delivery channel
@@ -43,17 +47,18 @@ schedule: null   # Manual trigger only — never added to cron
 # Retrieval providers
 source_preferences:
   priority_providers:
-    - baidu              # Baidu only for this client
+    - brave              # CP-023R 2026-06-11: Brave enabled (international coverage)
+    - baidu
   # NEW FIELD
-  brave_enabled: false   # Brave disabled for this client profile only
+  brave_enabled: true    # CP-023R 2026-06-11 (operator-approved)
   # NOTE: If retrieval orchestrator requires implementation change to support
   # baidu-only, this must be handled as a scoped Phase D change packet.
 
 # Source filtering                                # NEW FIELD block
 source_filter:
-  chinese_only: true       # Chinese / China-market sources only
-  source_region: china
-  source_language: zh
+  chinese_only: false      # CP-023R 2026-06-11: international sources allowed (Section 4 only)
+  source_region: china_plus_international
+  source_language: zh_en
 
 # Lookback windows                                # NEW FIELD block
 lookback_days: 7           # Primary window — last 7 days
@@ -78,7 +83,9 @@ require_complete_source_appendix: true
 # used in report (yes/no), related section/bullet.
 
 # Pilot gate
-pilot_mode: true   # All output held for operator review — no external delivery
+pilot_mode: true   # RESTORED 2026-06-11 after CP-023R controlled run (run blocked at
+                   # completeness gate, nothing delivered) — back to held mode per
+                   # operator-approved standing state of 2026-06-10
                    # until operator explicitly approves each delivery
                    # Re-enabled 2026-06-10 (operator-approved): closes ADV-017
                    # conflict — Sunday cron now runs in held mode, no delivery
