@@ -5,7 +5,7 @@ document_id: OPENCLAW_GOV_PROPOSAL_INTERNAL_TEST_DELIVERY_2026-06-12
 date: 2026-06-12
 author: Claude Fable 5 (assessment + drafting), from operator memo "OpenClaw Internal Testing Delivery Posture"
 lane: 2 (governance / delivery-gate semantics) + Lane 3 implementation rider
-status: PROPOSAL — on branch, not adopted; requires operator approval
+status: ADOPTED 2026-06-12 — operator approved with two clarifying edits (destination definition; explicit allowlist replaces "all current channels")
 ---
 
 ## What this adopts
@@ -18,8 +18,28 @@ Two delivery categories become explicit:
 
 | Category | Status | Gate behavior |
 |---|---|---|
-| **Internal Review Delivery** | ACTIVE (all current channels) | Gates classify and label; they do not block. Every run delivers to the operator's review destination with an `INTERNAL TEST — <STATE>` label. |
+| **Internal Review Delivery** | ACTIVE (explicitly allowlisted internal-review destinations only) | Gates classify and label; they do not block. Every run delivers to its allowlisted internal-review destination with an `INTERNAL TEST — <STATE>` label. |
 | **External Client Delivery** | NOT ACTIVE (no channel exists) | Full Phase D clean-delivery standard, per-delivery operator approval, unchanged. |
+
+## Definition: internal operator-review destination (operator edit 1, 2026-06-12)
+
+A delivery endpoint qualifies as an **internal operator-review destination** only if ALL of the following hold:
+
+1. **Ownership** — the destination (Lark doc, channel, or equivalent) is created and owned by the operator's own account or workspace;
+2. **Readership** — read access is restricted to the operator (plus the OpenClaw service identity required to write to it); no client, prospect, or third party has access of any kind;
+3. **Allowlisted** — the destination appears in the explicit allowlist below AND the owning client config carries `delivery_mode: internal_review`;
+4. **Not syndicated** — its content is not auto-forwarded, mirrored, or shared onward by any integration.
+
+If any condition ceases to hold, the destination is immediately disqualified: it must be removed from the allowlist (or its client flipped to `external_client`) before the next run, and the strict external gate applies in the interim. Re-qualification requires fresh operator attestation.
+
+## Destination allowlist (operator edit 2, 2026-06-12)
+
+| Client | Destination | Qualified by |
+|---|---|---|
+| `china_monitor_001` (WS1) | WS1 Lark review doc (relay target of the local push webhook) | Operator attestation 2026-06-12 |
+| `alj_china_auto_001` (WS2) | ALJ Lark review doc (manual/held sends) | Operator attestation 2026-06-12 |
+
+No other destination is allowlisted. Adding one is a Lane 2 change requiring the four-condition check above.
 
 ## Factual basis (verified 2026-06-12, code + config)
 
