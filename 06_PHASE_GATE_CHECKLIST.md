@@ -64,7 +64,9 @@ Single tracking document for Phase 7 gate criteria. Each gate must be fully met 
 
 ## PHASE D GATE — Controlled Pilot (Step 8)
 
-**Requirement:** Operator review gate on every delivery. Five consecutive clean external deliveries with client confirmation (reduced from ten 2026-06-11, operator decision — see OPENCLAW_GOV_PROPOSAL_PHASE_D_STREAK_5).
+**Requirement:** Operator review gate on every delivery. Five consecutive clean scheduled production-path deliveries with operator confirmation (reduced from ten 2026-06-11, operator decision — see OPENCLAW_GOV_PROPOSAL_PHASE_D_STREAK_5; "external deliveries with client confirmation" amended 2026-06-12 for the internal testing period — operator confirmation substitutes for client confirmation while no external client recipient exists, see OPENCLAW_GOV_PROPOSAL_INTERNAL_TEST_DELIVERY_2026-06-12).
+
+**Internal Review vs External Client Delivery (adopted 2026-06-12 — PROPOSED):** During the Phase D internal testing period there is no external client recipient; all delivery destinations are operator-review surfaces (attested by operator). Outputs may be delivered automatically to internal operator-review destinations even when warnings, alignment issues, enrichment defects, or editorial imperfections are present; they must carry a mechanical `INTERNAL TEST — <STATE>` label and are not client-ready unless they satisfy the clean-delivery standard below. Internal review delivery is not equivalent to external client delivery. The strict gate below governs client-readiness classification now and any future external client channel (per-client `delivery_mode: external_client`, a Lane 2 change to enable). Streak accounting: only scheduled production-path runs count; experiment-namespace runs (cp026_*, etc.) never count for or against the streak; a labeled-dirty production run fails the streak exactly as a blocked one would today.
 
 **Clean delivery definition (updated 2026-06-06):** A delivery counts as clean only when all five of the following are satisfied and the operator confirms:
 1. System ran successfully
