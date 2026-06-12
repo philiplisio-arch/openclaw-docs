@@ -35,6 +35,10 @@ query_template_set: "alj_jameel_weekly_v2"   # CP-023R 2026-06-11 (was alj_china
 report_template:    "alj_china_auto_weekly_v1"    # NEW — to be drafted
 
 # Delivery channel
+# Internal test delivery posture (adopted 2026-06-12): labels-not-blocks for
+# allowlisted internal-review destinations. external_client (future) = strict gate.
+delivery_mode: internal_review
+
 delivery_channel:
   type: lark
   credentials_ref: "/root/openclaw_secrets/lark_webhook_alj_china_auto_001"

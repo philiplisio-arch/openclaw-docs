@@ -31,6 +31,10 @@ query_template_set: "china_monitor_v1"         # references SYS_Retrieval_Query_
 report_template:    "china_monitoring_brief_v1" # section structure, tone, length
 
 # Delivery channel
+# Internal test delivery posture (adopted 2026-06-12): labels-not-blocks for
+# allowlisted internal-review destinations. external_client (future) = strict gate.
+delivery_mode: internal_review
+
 delivery_channel:
   type: lark
   credentials_ref: "/root/openclaw_secrets/lark_webhook_china_monitor_001"
