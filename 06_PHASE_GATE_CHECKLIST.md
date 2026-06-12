@@ -76,15 +76,16 @@ Single tracking document for Phase 7 gate criteria. Each gate must be fully met 
 
 Validator GREEN alone is not sufficient to count a delivery as clean. Both technical and product-quality confirmation are required. Reference basis: ADV-017 (operator approved 2026-06-06), incorporated into governing documents.
 
-**Current streak: 1 of 5 — D22 (2026-06-11) confirmed clean by operator 2026-06-11**
+**Current streak: 2 of 5 — D23 (2026-06-12) confirmed clean by operator 2026-06-12**
 
 | # | Delivery | Date | Five-layer result | Operator confirmed | Review basis |
 |---|---|---|---|---|---|
 | 1 | D22 (WS1, run_20260610T223002Z) | 2026-06-11 | All 5 layers clean — first delivery under full ADV-016 traceability + session isolation; ADV-015 alignment: 5/7 bullets 100% anchor match, 2/7 manually verified, 0 misaligned | 2026-06-11 | OPENCLAW_D22_REVIEW_PACKET_2026-06-11.md |
+| 2 | D23 (WS1, run_20260611T223002Z) | 2026-06-12 | All 5 layers clean — first delivery under mechanical citation cap (2 groups capped, no alignment effect); as-run misaligned=1 ruled a checker false positive (claim verified grounded in cited 伊朗/霍尔木兹 sources; checker fixed same day, corrected score 0 misaligned); 2 unscorable bullets manually verified | 2026-06-12 | OPENCLAW_D23_REVIEW_PACKET_2026-06-12.md |
 
 D13–D15 (2026-06-02/03/04) are SET ASIDE — not failed, not counted. They pass layers 1–2 (system ran; validator GREEN 16/16/0, 12/12/0, 13/13/0; zero scrubber removals) but layers 3–5 are unverifiable post-hoc: they pre-date the ADV-016 traceability archive, and the cross-client session contamination diagnosed 2026-06-10 (Issue #66 mechanism) was active when they ran. Review basis: OPENCLAW_D13_D15_REVIEW_PACKET_2026-06-10.md.
 
-**Gate status: OPEN — streak 1/5. Each subsequent delivery is operator-confirmed against the five-layer standard from its run archive (per-run review packet prepared per delivery).**
+**Gate status: OPEN — streak 2/5. Each subsequent delivery is operator-confirmed against the five-layer standard from its run archive (per-run review packet prepared per delivery). Earliest closure 2026-06-15 (D24–D26 clean).**
 
 ---
 
@@ -105,11 +106,13 @@ D13–D15 (2026-06-02/03/04) are SET ASIDE — not failed, not counted. They pas
 | Phase A | 2026-05-11 | Operator |
 | Phase B | 2026-05-11 | Operator |
 | Phase C | 2026-05-20 | Operator |
-| Phase D | OPEN — streak 1/5 (D22 confirmed 2026-06-11) | — |
+| Phase D | OPEN — streak 2/5 (D23 confirmed 2026-06-12) | — |
 
 ---
 
 *OPENCLAW-P7-GATE-001 | Version 1.9 | Created: 2026-05-08 | Last Updated: 2026-06-11 | Status: ACTIVE*
+
+*v1.10 changes (2026-06-12): D23 confirmed clean by operator (streak 2/5). Item 6 ruling recorded: as-run misaligned=1 was a verified checker false positive ([CN+INTL] tag + missing Iran aliases, fixed in runtime commit 012efe4); operator ruled it does not break the streak, consistent with D22 manual-verification precedent. Reference: OPENCLAW_D23_REVIEW_PACKET_2026-06-12.md.*
 
 *v1.9 changes (2026-06-11, operator-approved same day): Phase D gate threshold reduced 10 → 5 consecutive clean deliveries; clean-delivery definition gains item 6 (citation_alignment misaligned = 0). Reference: OPENCLAW_GOV_PROPOSAL_PHASE_D_STREAK_5.*
 
