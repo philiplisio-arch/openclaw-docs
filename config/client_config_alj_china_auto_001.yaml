@@ -39,6 +39,11 @@ report_template:    "alj_china_auto_weekly_v1"    # NEW — to be drafted
 # allowlisted internal-review destinations. external_client (future) = strict gate.
 delivery_mode: internal_review
 
+# CP-026 full-text enrichment — ADOPTED for ALJ 2026-06-12 (operator decision,
+# scoring packet 2026-06-12): agent reads full article text (up to 6,000 chars)
+# instead of headline+lede. WS1 remains HOLD (brevity regression unresolved).
+enrichment: true
+
 delivery_channel:
   type: lark
   credentials_ref: "/root/openclaw_secrets/lark_webhook_alj_china_auto_001"
