@@ -1205,6 +1205,36 @@ Phase D ACTIVE — Controlled Pilot (Step 8).
   - ALJ thin retrieval — root cause TBD; diagnostic next session
   - Step 9 (governance): IN PROGRESS — CP-025 next; thin retrieval diagnostic
 
+
+SESSION CLOSE — 2026-06-12:
+  ✔ 06:30 cron run (2026-06-12) — D23 — DELIVERED. First live run through the
+    mechanical citation cap (b5d2e43): 2 oversized groups capped, no alignment
+    effect (proven by direct re-scoring); validator GREEN PASS 10/10/0
+  ✔ D23 operator-confirmed clean — GATE STREAK = 2 of 5; as-run misaligned=1
+    ruled a verified checker false positive ([CN+INTL] tag + missing Iran
+    aliases; claim grounded in cited 伊朗/霍尔木兹 sources); Gate Checklist
+    v1.10; packet phase_d/OPENCLAW_D23_REVIEW_PACKET_2026-06-12.md
+  ✔ Checker fixed (012efe4): [CN+INTL] strip + Iran/Iranian/Middle Eastern
+    aliases; replay-validated, zero verdict changes on 3 prior runs
+  ✔ WS2 held run 07:05 FAILED CLOSED — agent citation syntax drift (bare
+    [21, 25] instead of [source_numbers:]); resolver fixed (1b95ebe):
+    bare groups resolve on claim bullets only when every number maps;
+    replay: 31/31 drifted groups resolved, byte-identical no-op on 3
+    compliant outputs. WS2 rerun ~12:05: GREEN 48/48, alignment 22/1/2,
+    cap fired 8 groups (15 ids dropped), pilot held — no delivery
+  ✔ INTERNAL TEST DELIVERY POSTURE ADOPTED (operator-approved with two
+    clarifying edits: destination definition + explicit allowlist) —
+    internal review delivery is labeled, not blocked, for allowlisted
+    internal-review destinations only; streak wording amended (operator
+    confirmation substitutes for client confirmation; production-path runs
+    only). Gate Checklist v1.11; OPENCLAW_GOV_PROPOSAL_INTERNAL_TEST_DELIVERY_2026-06-12
+    merged. Operator attestation 2026-06-12: WS1 + ALJ Lark docs are
+    operator-only (allowlisted); no external client recipient exists
+  ✔ CP-026 full-text A/B re-test under the cap — both legs rerun held-mode
+    (operator-approved); results analysis in progress
+  → NEXT: Lane 3 delivery-labeling implementation + replay validation;
+    D24 = 2026-06-13 06:30 cron (streak candidate 3 of 5)
+
 ---
 
 ## DO NOT
