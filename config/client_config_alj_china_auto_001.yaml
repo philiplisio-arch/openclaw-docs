@@ -44,6 +44,19 @@ delivery_mode: internal_review
 # instead of headline+lede. WS1 remains HOLD (brevity regression unresolved).
 enrichment: true
 
+# Corrective audit 2026-06-12 (operator-directed): encyclopedia and
+# low-authority/commercial domains are not client-grade citation sources.
+# Matches host or any subdomain (filter_results CP-025 mechanism, ALJ-only).
+domain_exclusion:
+  - wikipedia.org
+  - baike.baidu.com
+  - wikiwand.com
+  - fandom.com
+  - made-in-china.com
+  - alibaba.com
+  - electriccarscheme.com
+  - innovation-village.com
+
 delivery_channel:
   type: lark
   credentials_ref: "/root/openclaw_secrets/lark_webhook_alj_china_auto_001"
