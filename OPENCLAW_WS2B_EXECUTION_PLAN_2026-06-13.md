@@ -4,7 +4,7 @@
 document_id: OPENCLAW_WS2B_EXECUTION_PLAN_2026-06-13
 date: 2026-06-13
 author: Claude Fable 5 (with operator direction)
-status: v1.1 — consultant modifications accepted (operator-approved 2026-06-13); awaiting final implementation go-ahead
+status: v1.2 — operator decisions incorporated 2026-06-13; awaiting final implementation approval
 scope: items 2 (WS2B build) and 3 (per-stage model structure) from operator direction 2026-06-13
 context: WS1/WS2 are being reconfigured as alert mechanisms (advisory content removed, done separately); WS2B becomes the analytical product. Source packets are operator-assembled weekly, almost entirely text files (PDF support minimal, phase-2). Licensing is handled by the operator and out of scope here.
 ---
@@ -108,3 +108,15 @@ Source authority: step-change (operator-curated Tier-1 vs Baidu portal ceiling �
 3. **Packet health report before synthesis:** deterministic pre-flight over manifest + evidence store — source mix, tier distribution, topic coverage vs the client's coverage map (policy / OEM / dealer channel / international), extraction failures. Delivered to the operator BEFORE synthesis so coverage gaps can be filled while it still matters.
 4. **Contradiction non-smoothing, mechanized:** conflicts identified in the theme pass MUST surface in the report's Conflicts section; the verification gate checks that theme-map conflict pairs appear in the output. The synthesis model is prohibited from silently resolving disagreement between credible sources.
 5. **Timeline reframed to the consultant's four weeks, with one amendment — walking skeleton in week 1:** a crude end-to-end path (ingestion → evidence → report) runs in week 1 to surface integration risk early; weeks 2–3 deepen each layer in place (validation+appendix, then two-pass synthesis+gates); week 4 = held-mode pilot on real operator packets. Report generation is not back-loaded.
+
+## 9. v1.2 — operator decisions (2026-06-13)
+
+1. **Input packets provided by operator BEFORE build starts** (removes the week-4 dependency; real data from week 1).
+2. **Delivery to existing WS1/WS2 Lark docs** (append-mode, WS2B-labeled — already allowlisted; no new destination).
+3. **Third LLM provider as additional fallback** — one new API key required (recommendation: DeepSeek — Chinese-native, OpenAI-compatible, cheap; alternative: Anthropic for premium writing A/B). Per-stage failover becomes primary → fallback → fallback-2.
+4. Permission-boundary handling accepted (batched requests if hit).
+5. **Operator feedback milestones (fixed):** M1 end wk1 — walking-skeleton brief from a real packet (15-min review); M2 end wk2 — evidence quality + packet health report review; M3 end wk3 — first full two-pass analytical brief (operator scores); M4 wk4 — held-mode pilot review = go/no-go for weekly operation.
+6. **Timeline compression accepted:** operator supplies multiple packets up front, so cross-week features validate earlier; M3/M4 may merge if M2 is clean.
+7. Outage risk resolved by decision 3.
+
+**Architecture note (consequence of decisions 3+4):** WS2B LLM stages call provider APIs **directly from host-side Python** (as already live-proven with the Kimi credential test) rather than through the gateway container — this gives trivial per-stage model assignment, removes the container argv/permission constraints entirely, and leaves the gateway untouched for WS1/WS2 alert duty.
