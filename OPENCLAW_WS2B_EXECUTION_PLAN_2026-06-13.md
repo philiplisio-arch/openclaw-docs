@@ -4,7 +4,7 @@
 document_id: OPENCLAW_WS2B_EXECUTION_PLAN_2026-06-13
 date: 2026-06-13
 author: Claude Fable 5 (with operator direction)
-status: FOR EXTERNAL CONSULTANT REVIEW — no implementation started
+status: v1.1 — consultant modifications accepted (operator-approved 2026-06-13); awaiting final implementation go-ahead
 scope: items 2 (WS2B build) and 3 (per-stage model structure) from operator direction 2026-06-13
 context: WS1/WS2 are being reconfigured as alert mechanisms (advisory content removed, done separately); WS2B becomes the analytical product. Source packets are operator-assembled weekly, almost entirely text files (PDF support minimal, phase-2). Licensing is handled by the operator and out of scope here.
 ---
@@ -100,3 +100,11 @@ Existing assets that port unchanged: citation scrubber + citation cap, alignment
 ## 7. Estimated quality improvement vs current WS2
 
 Source authority: step-change (operator-curated Tier-1 vs Baidu portal ceiling — the binding constraint this week's 8 optimization cycles confirmed empirically). Traceability: equal or better (verbatim evidence anchors). Depth: the two-pass evidence-first design is the mechanism the current single-pass system structurally lacks. Candid net: current WS2 ceiling ≈ good news digest; WS2B phase-2 target ≈ consultant-grade weekly draft needing light human polish.
+
+## 8. v1.1 amendments (external consultant review, accepted 2026-06-13)
+
+1. **Evidence quality schema (Phase 1, not retrofitted):** every evidence record additionally carries `evidence_type` (factual | numerical | quoted | interpretive | speculative), `claim_strength` (confirmed | reported | indicated | suggested), `confidence`, `pub_date`, `extraction_status`.
+2. **Claim-strength language as a GATE, not a prompt rule** (strengthened beyond the review): the deterministic verification layer checks that report claim verbs match the evidence behind them — Tier 1 + multi-source evidence permits "data confirms"; Tier 2 permits "reporting indicates"; Tier 3 caps at "industry commentary suggests". Mismatches are downgraded or flagged, never silently passed. (Rationale: four separate prompt rules failed and required mechanical enforcement during 2026-06-12 testing; writing instructions are requests, gates are guarantees.)
+3. **Packet health report before synthesis:** deterministic pre-flight over manifest + evidence store — source mix, tier distribution, topic coverage vs the client's coverage map (policy / OEM / dealer channel / international), extraction failures. Delivered to the operator BEFORE synthesis so coverage gaps can be filled while it still matters.
+4. **Contradiction non-smoothing, mechanized:** conflicts identified in the theme pass MUST surface in the report's Conflicts section; the verification gate checks that theme-map conflict pairs appear in the output. The synthesis model is prohibited from silently resolving disagreement between credible sources.
+5. **Timeline reframed to the consultant's four weeks, with one amendment — walking skeleton in week 1:** a crude end-to-end path (ingestion → evidence → report) runs in week 1 to surface integration risk early; weeks 2–3 deepen each layer in place (validation+appendix, then two-pass synthesis+gates); week 4 = held-mode pilot on real operator packets. Report generation is not back-loaded.
