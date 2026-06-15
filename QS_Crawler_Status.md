@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-15 19:26 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-15 21:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,21 +12,21 @@ _Updated 2026-06-15 19:26 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 新能源 (NEV) · 电池 (battery) · 比亚迪 (BYD) · 出口 (export) · 氢能 (hydrogen) · 智能驾驶 (autonomous driving) · 充电 (charging) · 续航 (range) · 混动 (hybrid) · 纯电 (BEV) · 新车 (new model) · 车型 (model) · 车企 (automaker) · 车展 (auto show) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 丰田 (Toyota) · 雷克萨斯 (Lexus) · 埃安 (AION) · auto · nev · ev  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **56 unique auto/NEV articles** across **9 outlets**
+## Cumulative: **58 unique auto/NEV articles** across **9 outlets**
 
 ## New per day
 | date | new articles |
 |---|---|
-| 2026-06-15 | 56 |
+| 2026-06-15 | 58 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.news.cn | 19 |
 | www.xinhuanet.com | 11 |
+| egs.stcn.com | 10 |
 | www.zqrb.cn | 9 |
-| egs.stcn.com | 9 |
-| www.stcn.com | 4 |
+| www.stcn.com | 5 |
 | www.jwview.com | 1 |
 | www.ceweekly.cn | 1 |
 | gd.chinadaily.com.cn | 1 |
@@ -34,7 +34,7 @@ _Updated 2026-06-15 19:26 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-06-15 — 56 articles
+### 2026-06-15 — 58 articles
 - **[新能源汽车渗透率何以节节攀升](https://economy.gmw.cn/2026-06/15/content_38828157.htm)** — _economy.gmw.cn_ · published 2026-06-15
   点击右上角微信好友 朋友圈 请使用浏览器分享功能进行分享 中国汽车工业协会6月10日发布的数据显示，5月份，我国新能源汽车新车销量占汽车新车总销量的比例提升至56.9%。从2024年的40.9%，到2025年的50.8%，再到今年5月份的56.9%，新能源汽车渗透率何以节节攀升？ 中汽协副秘书长陈士华说，受政策调整、市场结构变化等因素影响，5月燃油车国内销量
 - **[【早知道】美伊确认达成协议；《推动新能源重卡规模化应用实施方案》发布](https://egs.stcn.com/news/detail/2302284.html)** — _egs.stcn.com_ · date: unknown
@@ -55,6 +55,8 @@ _Updated 2026-06-15 19:26 | discovery-only, zero LLM tokens | runs every 3h_
   首页 推荐 快讯 解读 股市 港股通 视听 专题 行情 数据 公众号 APP 电子报 您当前的位置： 证券时报·e公司 > 快讯 > 详情 理想汽车-W涨超8% 来源：人民财讯 作者：赖小风 2026-06-12 13:39 Aa 大号字 人民财讯6月12日电，港股理想汽车-W午后拉升，涨超8%。 责任编辑： 刘良文 港股通 e公司声明：文章提及个股及内容仅
 - **[昆工科技等投资成立新能源科技公司](https://egs.stcn.com/news/detail/2302536.html)** — _egs.stcn.com_ · date: unknown
   人民财讯6月15日电，企查查APP显示，近日，广东煌嘉新能源科技有限公司成立，经营范围包含：蓄电池租赁；电池销售；电池制造；碳减排、碳转化、碳捕捉、碳封存技术研发等。企查查股权穿透显示，该公司由昆工科技等共同持股。
+- **[兴发集团：电池级五硫化二磷项目当前已接受多家下游客户询价](https://egs.stcn.com/news/detail/2302790.html)** — _egs.stcn.com_ · date: unknown
+  人民财讯6月15日电，兴发集团今日在互动平台表示，公司1万吨/年电池级五硫化二磷项目按计划将于2026年三季度投产，当前已接受包括多家新能源企业在内的下游客户询价。公司已完成10kg级电池级硫化锂产品的小试研发，目前已进入扩试阶段。
 - **[广州大学新增新能源材料与器件、低空技术与工程两个专业](https://gd.chinadaily.com.cn/a/202606/15/WS6a2f6f56a310d709c2fb7ff8.html)** — _gd.chinadaily.com.cn_ · published 2026-06-15
   6月14日，广州大学（“广大”）举办2026年本科招生新闻媒体通气会，公布2026年本科招生计划、专业布局，全方位解读招生新亮点与育人新举措。 聚焦产业需求，“新专业+微专业”赋能成才 学校招生工作负责人介绍，2026年广州大学本科招生稳步扩容，将面向全国27个省（自治区、直辖市）招生，新增黑龙江、浙江、陕西3个招生省份。本科招生计划数7100人，较2025
 - **[é¢å®ä»·21.99ä¸èµ·ï¼å¯å¢GT7æ­£å¼å¼å¯é¢è®¢](https://www.ceweekly.cn/economic/auto/2026/0605/495533.html)** — _www.ceweekly.cn_ · date: unknown
@@ -106,6 +108,8 @@ _Updated 2026-06-15 19:26 | discovery-only, zero LLM tokens | runs every 3h_
   近日，由中国汽车工程学会与国际氢能燃料电池协会共同主办的2026氢能与燃料电池汽车大会在江苏昆山举行。大会同期举办的技术展览，汇聚了200余家国内外优质企业及知名品牌，全面展示了氢能产业链的前沿创新成果。 中国科学技术协会主席万钢在主旨报告中表示，发展氢能与燃料电池汽车是能源、交通低碳转型的重要路径，成为全球应对气候变化、推进绿色经济增长的重要战略选择。行业
 - **[冷链与新能源汽车行业景气度攀升，带动制冷剂市场供不应求](https://www.stcn.com/article/detail/3960793.html)** — _www.stcn.com_ · date: unknown
   夏天到了，当你按下空调遥控器的那一刻可能不会想到，那股吹出来的凉风背后，有一个行业正经历着前所未有的“火热”。 小到家用空调，大到冷链仓储，还有身边飞驰而过的新能源汽车，制冷剂——这个平时注意不到的化学物质，已经悄悄渗透进生活的方方面面。 多重下游需求形成共振，制冷剂市场供需偏紧 冷链物流 在山东省济南市的一处大型冷链仓储库区内，冷链仓负责人告诉记者，近期库
+- **[兴发集团：电池级五硫化二磷项目当前已接受多家下游客户询价](https://www.stcn.com/article/detail/3962754.html)** — _www.stcn.com_ · published 2026-06-11
+  证券时报网 任丽珺 2026-06-11 09:31 人民财讯6月15日电，兴发集团今日在互动平台表示，公司1万吨/年电池级五硫化二磷项目按计划将于2026年三季度投产，当前已接受包括多家新能源企业在内的下游客户询价。公司已完成10kg级电池级硫化锂产品的小试研发，目前已进入扩试阶段。
 - **[赛力斯集团董事长张兴海：始终把用户安全放在第一位 推动汽车安全科技向上向善](https://www.xinhuanet.com/auto/20260612/0d94a4a7ce8742f1a88c1ced98c234ec/c.html)** — _www.xinhuanet.com_ · published 2026-06-12
   6月12日，2026中国汽车重庆论坛开幕，赛力斯集团董事长（创始人）张兴海发表主题演讲。他表示，智能电动汽车是新时代的“新汽车”，要做好“新汽车”，首先要做好安全,汽车行业需敬畏、遵循客观发展规律，推动汽车在“在安全中创新，在创新中重塑”。赛力斯在“新汽车”安全领域持续探索与实践，构建覆盖四大领域的智能安全体系，以AI赋能构建“产业大脑”，与产业链伙伴务实协
 - **[锚定AI+产业融合发展方向 赛豆科技AIVA探索汽车产业转型升级新路径](https://www.xinhuanet.com/auto/20260612/5833c0a5bd1f49d897858cc2c5ccf5e3/c.html)** — _www.xinhuanet.com_ · published 2026-06-12
