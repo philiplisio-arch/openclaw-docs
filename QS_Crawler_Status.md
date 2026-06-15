@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-15 14:13 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-15 19:26 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,28 +12,29 @@ _Updated 2026-06-15 14:13 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 新能源 (NEV) · 电池 (battery) · 比亚迪 (BYD) · 出口 (export) · 氢能 (hydrogen) · 智能驾驶 (autonomous driving) · 充电 (charging) · 续航 (range) · 混动 (hybrid) · 纯电 (BEV) · 新车 (new model) · 车型 (model) · 车企 (automaker) · 车展 (auto show) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 丰田 (Toyota) · 雷克萨斯 (Lexus) · 埃安 (AION) · auto · nev · ev  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **50 unique auto/NEV articles** across **8 outlets**
+## Cumulative: **56 unique auto/NEV articles** across **9 outlets**
 
 ## New per day
 | date | new articles |
 |---|---|
-| 2026-06-15 | 50 |
+| 2026-06-15 | 56 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.news.cn | 17 |
+| www.news.cn | 19 |
+| www.xinhuanet.com | 11 |
 | www.zqrb.cn | 9 |
-| www.xinhuanet.com | 9 |
-| egs.stcn.com | 8 |
+| egs.stcn.com | 9 |
 | www.stcn.com | 4 |
 | www.jwview.com | 1 |
+| www.ceweekly.cn | 1 |
 | gd.chinadaily.com.cn | 1 |
 | economy.gmw.cn | 1 |
 
 ## Articles captured by day (newest first)
 
-### 2026-06-15 — 50 articles
+### 2026-06-15 — 56 articles
 - **[新能源汽车渗透率何以节节攀升](https://economy.gmw.cn/2026-06/15/content_38828157.htm)** — _economy.gmw.cn_ · published 2026-06-15
   点击右上角微信好友 朋友圈 请使用浏览器分享功能进行分享 中国汽车工业协会6月10日发布的数据显示，5月份，我国新能源汽车新车销量占汽车新车总销量的比例提升至56.9%。从2024年的40.9%，到2025年的50.8%，再到今年5月份的56.9%，新能源汽车渗透率何以节节攀升？ 中汽协副秘书长陈士华说，受政策调整、市场结构变化等因素影响，5月燃油车国内销量
 - **[【早知道】美伊确认达成协议；《推动新能源重卡规模化应用实施方案》发布](https://egs.stcn.com/news/detail/2302284.html)** — _egs.stcn.com_ · date: unknown
@@ -52,8 +53,11 @@ _Updated 2026-06-15 14:13 | discovery-only, zero LLM tokens | runs every 3h_
   证券时报 06-15 13:55 6月12日，2026大连夏季达沃斯论坛服务车辆展示暨交接仪式举行。大连市人民政府党组成员、交通口岸组组长姜斌出席交接仪式，向岚图汽车颁发合作证书。岚图汽车成为首个连续三年服务夏季达沃斯论坛的中国高端新能源品牌。 仪式现场，500台岚图追光L、岚图梦想家等旗舰车型整装待发，担任2026夏季达沃斯论坛官方指定用车。 岚图汽车CE
 - **[理想汽车-W涨超8%](https://egs.stcn.com/news/detail/2301683.html)** — _egs.stcn.com_ · published 2026-06-12
   首页 推荐 快讯 解读 股市 港股通 视听 专题 行情 数据 公众号 APP 电子报 您当前的位置： 证券时报·e公司 > 快讯 > 详情 理想汽车-W涨超8% 来源：人民财讯 作者：赖小风 2026-06-12 13:39 Aa 大号字 人民财讯6月12日电，港股理想汽车-W午后拉升，涨超8%。 责任编辑： 刘良文 港股通 e公司声明：文章提及个股及内容仅
+- **[昆工科技等投资成立新能源科技公司](https://egs.stcn.com/news/detail/2302536.html)** — _egs.stcn.com_ · date: unknown
+  人民财讯6月15日电，企查查APP显示，近日，广东煌嘉新能源科技有限公司成立，经营范围包含：蓄电池租赁；电池销售；电池制造；碳减排、碳转化、碳捕捉、碳封存技术研发等。企查查股权穿透显示，该公司由昆工科技等共同持股。
 - **[广州大学新增新能源材料与器件、低空技术与工程两个专业](https://gd.chinadaily.com.cn/a/202606/15/WS6a2f6f56a310d709c2fb7ff8.html)** — _gd.chinadaily.com.cn_ · published 2026-06-15
   6月14日，广州大学（“广大”）举办2026年本科招生新闻媒体通气会，公布2026年本科招生计划、专业布局，全方位解读招生新亮点与育人新举措。 聚焦产业需求，“新专业+微专业”赋能成才 学校招生工作负责人介绍，2026年广州大学本科招生稳步扩容，将面向全国27个省（自治区、直辖市）招生，新增黑龙江、浙江、陕西3个招生省份。本科招生计划数7100人，较2025
+- **[é¢å®ä»·21.99ä¸èµ·ï¼å¯å¢GT7æ­£å¼å¼å¯é¢è®¢](https://www.ceweekly.cn/economic/auto/2026/0605/495533.html)** — _www.ceweekly.cn_ · date: unknown
 - **[“没有在这种状况下辞职的想法”，误判EV将损失2.5万亿日元，本田转向HV，社长受质疑](https://www.jwview.com/jingwei/html/06-08/673950.shtml)** — _www.jwview.com_ · date: unknown
   中新经纬6月8日电 本田误判EV将损失2.5万亿日元，社长三部敏宏受质疑，但其表示“没有在这种状况下辞职的想法”。 据日经中文网报道，本田高调宣传的纯电动汽车(EV)战略在5年后被撤回。“没能灵活应对巨大的变化，值得反思”，在记者会上发言的本田社长三部敏宏的表情始终充满不甘。 本田日前公布了2025财年(截至2026年3月)的合并财报。最终亏损4239亿日元
 - **[特锐德打造一体化顶级供电方案 全球首创 “算电岛” 落地](https://www.news.cn/auto/20260608/dd55eae9d841418cbf6424c93b563b9f/c.html)** — _www.news.cn_ · published 2026-06-08
@@ -90,6 +94,10 @@ _Updated 2026-06-15 14:13 | discovery-only, zero LLM tokens | runs every 3h_
   2026年5月以来，北交所上市公司迎来机构调研密集期。Wind数据显示，截至6月14日，共有40家北交所上市公司接受机构调研，除券商依旧是调研主力军外，公募基金以及保险资管等长线资金也积极参与，挖掘高潜力细分龙头。多家新能源、生物医药、高端制造、新材料等赛道公司在调研中披露了最新业务进展、产能建设规划及对行业周期判断。 产业化提速 创新药企诺思兰德凭借核心管
 - **[智舱智驾驶入AI新赛道 高通与中国汽车产业共建智能网联新生态](https://www.news.cn/tech/20260611/cf7cbbaa3d7d4b51ace7777f327bb5b8/c.html)** — _www.news.cn_ · published 2026-06-11
   智舱智驾驶入AI新赛道 高通与中国汽车产业共建智能网联新生态-新华网 新华网 > > 正文 2026 06 / 11 10:44:32 来源：新华网 智舱智驾驶入AI新赛道 高通与中国汽车产业共建智能网联新生态 字体： 小 中 大 分享到： 智舱智驾驶入AI新赛道 高通与中国汽车产业共建智能网联新生态 2026-06-11 10:44:32 来源：新华网 A
+- **[感谢您的浏览！](https://www.news.cn/20260615/48626242e18847e98bf707c699c2c849/c.html)** — _www.news.cn_ · date: unknown
+  新华网首页 新闻 | 时政 | 法治 | 地方 | 社会 | 评论 | 国际 | 港澳 | 台湾 | 华人 | 军事 | 财经 | 汽车 | 房产 | 视频 | 图片 | 直播 | 访谈 | 文娱 | 家居 | 互联网 | 体育 | 时尚 对不起，您要访问的页面不存在或已被删除! 本页面 5 秒之后将带您回到新华网首页。 您还可以： 快速进入新华网首页
+- **[东风汽车深度参与2026世界青年发展论坛：以央企担当助力全球青年发展](https://www.news.cn/auto/20260615/0e7e97f21b19479898dc338e8a2da253/c.html)** — _www.news.cn_ · published 2026-06-15
+  6月15日，2026年世界青年发展论坛在湖北武汉举行。论坛期间，东风汽车集团有限公司（以下简称东风汽车）作为全球战略合作伙伴，深度参与这一盛会，以实际行动践行央企担当，搭建起全球青年交流与成长的桥梁，为赋能全球青年发展注入强劲动力。在行动倡议环节，东风汽车总经理、党委副书记冯长军结合企业践行全球发展倡议、赋能青年发展的实践，发起了促进青年发展、深化产业赋能的
 - **[多部门推动新能源重卡应用 利好动力电池与氢能产业链](https://www.stcn.com/article/detail/3960654.html)** — _www.stcn.com_ · date: unknown
   日前，交通运输部联合国家发展改革委、工业和信息化部等十一部门联合印发《推动新能源重卡规模化应用实施方案》（以下简称《方案》），提出到2030年，新能源重卡渗透率达到40%，保有量突破160万辆、占比达到20%左右。业内专家指出，随着新能源重卡应用加速推进，动力电池与氢能产业链将迎来重要发展机遇。 新能源重卡是促进交通运输领域绿色低碳转型的重要抓手。近年来，新
 - **[京津冀进出口总值前5个月突破2万亿元](https://www.stcn.com/article/detail/3961598.html)** — _www.stcn.com_ · published 2026-06-12
@@ -116,6 +124,10 @@ _Updated 2026-06-15 14:13 | discovery-only, zero LLM tokens | runs every 3h_
   当前AI大模型技术迅猛发展，智算产业迈入超高密负载、大规模集群部署、全年不间断运行、全域零碳发展的全新阶段。传统多级交流供电架构存在的问题，成为制约AI算力高质量发展的瓶颈之一。在此背景下，特锐德（300001）依托多年技术积淀与工程经验，推出全球首创算力中心高压交直流预制舱供电站——“算电岛”，彻底改变传统IDC供电模式，重构智算电力底层架构与建设模式，为
 - **[北交所公司调研热度攀升 新能源与医药赛道受关注](https://www.xinhuanet.com/20260615/fc8d6f7d4f5d4f48ade0c2056aed15c4/c.html)** — _www.xinhuanet.com_ · published 2026-06-15
   2026年5月以来，北交所上市公司迎来机构调研密集期。Wind数据显示，截至6月14日，共有40家北交所上市公司接受机构调研，除券商依旧是调研主力军外，公募基金以及保险资管等长线资金也积极参与，挖掘高潜力细分龙头。多家新能源、生物医药、高端制造、新材料等赛道公司在调研中披露了最新业务进展、产能建设规划及对行业周期判断。 产业化提速 创新药企诺思兰德凭借核心管
+- **[感谢您的浏览！](https://www.xinhuanet.com/20260615/48626242e18847e98bf707c699c2c849/c.html)** — _www.xinhuanet.com_ · date: unknown
+  新华网首页 新闻 | 时政 | 法治 | 地方 | 社会 | 评论 | 国际 | 港澳 | 台湾 | 华人 | 军事 | 财经 | 汽车 | 房产 | 视频 | 图片 | 直播 | 访谈 | 文娱 | 家居 | 互联网 | 体育 | 时尚 对不起，您要访问的页面不存在或已被删除! 本页面 5 秒之后将带您回到新华网首页。 您还可以： 快速进入新华网首页
+- **[东风汽车深度参与2026世界青年发展论坛：以央企担当助力全球青年发展](https://www.xinhuanet.com/auto/20260615/0e7e97f21b19479898dc338e8a2da253/c.html)** — _www.xinhuanet.com_ · published 2026-06-15
+  6月15日，2026年世界青年发展论坛在湖北武汉举行。论坛期间，东风汽车集团有限公司（以下简称东风汽车）作为全球战略合作伙伴，深度参与这一盛会，以实际行动践行央企担当，搭建起全球青年交流与成长的桥梁，为赋能全球青年发展注入强劲动力。在行动倡议环节，东风汽车总经理、党委副书记冯长军结合企业践行全球发展倡议、赋能青年发展的实践，发起了促进青年发展、深化产业赋能的
 - **[*ST国华退市警示录：资本运作须回归价值本源](https://www.zqrb.cn/review/caijingshiping/2026-06-15/A1781281716888.html)** — _www.zqrb.cn_ · published 2026-06-15
   ■张敏 日前，深圳国华网安科技股份有限公司（证券简称：*ST国华）发布的一纸终止上市公告，为该公司在A股市场近36年的浮沉画上句号。 根据深交所发布的《关于深圳国华网安科技股份有限公司股票终止上市的决定》，*ST国华股票交易被实施退市风险警示后披露的首个年度（2025年度）报告显示，该公司2025年度经审计的扣非后净利润为-1622.39万元，扣除后的营业收
 - **[贷款增速换挡折射融资结构之变](https://www.zqrb.cn/review/jinrishidian/2026-06-15/A1781281716900.html)** — _www.zqrb.cn_ · published 2026-06-15
