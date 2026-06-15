@@ -1,5 +1,7 @@
 # OPENCLAW — MASTER DOCUMENT INDEX
 
+> **2026-06-16:** OPENCLAW_AS_BUILT_STATE_2026-06-16 is the AUTHORITATIVE current-state reference (architecture/products/trust/posture) after the June pivot. Foundation v6.2, CEO Dashboard, and Phase Gate Checklist are superseded/retired (banners added). Forward execution plan deferred to post-vision.
+
 ---
 document_id: OPENCLAW-MDI-001
 version: v5.5

@@ -1,4 +1,7 @@
 ---
+
+> ⛔ **RETIRED 2026-06-16.** The Phase D gate-streak framework measured consecutive clean EXTERNAL deliveries toward client-readiness for the old WS1. Under the Internal Test Delivery posture and the architectural pivot it no longer maps. Replaced by per-product readiness (see OPENCLAW_AS_BUILT_STATE_2026-06-16). Retained for history only.
+
 document_id: OPENCLAW-P7-GATE-001
 version: 1.9
 created: 2026-05-08

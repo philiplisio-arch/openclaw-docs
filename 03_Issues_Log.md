@@ -1453,3 +1453,6 @@ confirmation run expected 2026-05-20 06:30.
 
 ### Identified
 2026-05-19
+
+## RESOLVED 2026-06-16 — Claim-Source Grounding (the June 6 critical trust issue)
+The 'valid citation ID but source does not support the claim' failure (CEO Dashboard June 6, Delivery 17) is RESOLVED for WS1 via the evidence-first trust model: facts are extracted as verbatim source spans (guaranteed substrings of the source article) before synthesis, the writer may only use extracted evidence, and verification runs on numbers (language-robust). First evidence-first WS1 run 2026-06-16: 16 grounded / 1 partial / 0 ungrounded of 17 cited claims = SOURCE-VERIFIED. WS2/ALJ still uses the original alignment check (stronger on citation existence, weaker on grounding) — convergence onto evidence-first is the recommended forward item. Ref: OPENCLAW_AS_BUILT_STATE_2026-06-16.

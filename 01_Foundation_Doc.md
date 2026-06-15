@@ -1,5 +1,8 @@
 # OPENCLAW — FOUNDATION DOCUMENT
 
+> ⚠ **PARTIALLY SUPERSEDED 2026-06-16.** WS1 and the core architecture pivoted to curated-crawl + evidence-first; the Baidu→Agent→Scrubber pipeline below now describes the LEGACY/WS2 path only. See **OPENCLAW_AS_BUILT_STATE_2026-06-16** for current architecture, products, trust model, and posture.
+
+
 ---
 document_id: OPENCLAW-FOUND-001
 version: v6.2

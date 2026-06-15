@@ -1235,6 +1235,19 @@ SESSION CLOSE — 2026-06-12:
   → NEXT: Lane 3 delivery-labeling implementation + replay validation;
     D24 = 2026-06-13 06:30 cron (streak candidate 3 of 5)
 
+
+SESSION — 2026-06-16 (CURRENT-STATE RECONCILIATION):
+  ✔ Governance/docs reconciled to as-built reality after the 2026-06-08..16 pivot.
+  ✔ Authoritative current-state doc written: OPENCLAW_AS_BUILT_STATE_2026-06-16.
+  ✔ WS1 redesigned -> China Business Daily (curated-crawl + evidence-first, daily 07:10);
+    old Baidu WS1 06:30 retired.
+  ✔ Trust: June 6 claim-source grounding issue RESOLVED for WS1 (evidence-first; first run
+    16 grounded/1 partial/0 ungrounded = SOURCE-VERIFIED). WS2 still on original chain.
+  ✔ Posture: Internal Test Delivery (label-not-block). Phase D gate-streak RETIRED.
+  ✔ Models: per-stage DeepSeek/Gemini-pro + DeepSeek->Kimi failover (gateway).
+  → Forward execution plan DEFERRED to post-vision-discussion (operator direction).
+  → KEY decision for vision/plan: converge WS2 onto evidence-first (one trust system) — recommended.
+
 ---
 
 ## DO NOT

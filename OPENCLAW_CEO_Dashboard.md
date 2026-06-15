@@ -1,4 +1,7 @@
 # OPENCLAW — CEO Operating Dashboard
+
+> ⚠ **SUPERSEDED 2026-06-16 — historical.** Posture below ('Trust Repair / held mode / gate 3-10') is obsolete. Current: Internal Test Delivery posture; the June 6 claim-source grounding issue is RESOLVED via evidence-first trust; Phase D gate-streak RETIRED. See **OPENCLAW_AS_BUILT_STATE_2026-06-16**.
+
 **Phase D — Controlled Pilot | Trust Repair Posture**
 As of: 6 June 2026
 
