@@ -1,18 +1,18 @@
 # China Business Daily — Crawler Status
 
-_Updated 2026-06-16 00:42 | WS1 redesign source universe | discovery-only, zero LLM tokens | every 3h_
+_Updated 2026-06-16 03:41 | WS1 redesign source universe | discovery-only, zero LLM tokens | every 3h_
 
-## Cumulative: **452 business articles** across **14 outlets**
+## Cumulative: **464 business articles** across **14 outlets**
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.nbd.com.cn | 110 |
+| www.nbd.com.cn | 113 |
 | www.stcn.com | 79 |
-| www.21jingji.com | 63 |
+| www.21jingji.com | 68 |
 | www.jiemian.com | 44 |
 | 36kr.com | 39 |
-| www.eeo.com.cn | 27 |
+| www.eeo.com.cn | 31 |
 | finance.people.com.cn | 23 |
 | www.yicai.com | 21 |
 | caijing.chinadaily.com.cn | 18 |
@@ -22,7 +22,7 @@ _Updated 2026-06-16 00:42 | WS1 redesign source universe | discovery-only, zero 
 | env.people.com.cn | 4 |
 | news.cctv.com | 1 |
 
-## 2026-06-16 — 46 articles
+## 2026-06-16 — 58 articles
 - **[氪星晚报 ｜我国成功发射吉星高分07C04星等8颗卫星；小红书或已准备好本月在香港提交IPO申请；智谱：公司已推出最新一代旗舰模型GLM-5.2-36氪](https://36kr.com/p/3854486447510535)** — _36kr.com_ · published 2026-06-16
 - **[页面没有找到](https://news.cnstock.com/commonDetail/729811)** — _news.cnstock.com_ · date: unknown
 - **[页面没有找到](https://news.cnstock.com/commonDetail/729792)** — _news.cnstock.com_ · date: unknown
@@ -39,11 +39,20 @@ _Updated 2026-06-16 00:42 | WS1 redesign source universe | discovery-only, zero 
 - **[一纸股权转让公告引爆涨停：立霸股份国资股东入股7年拟转让14%股份，背后资本运作逻辑几何？](https://www.21jingji.com/article/20260615/herald/ad70a35140f54f6515af3a006b3b63a8.html)** — _www.21jingji.com_ · date: unknown
 - **[北京持续提升药品挂网效率；国药控股与辉瑞达成战略合作](https://www.21jingji.com/article/20260615/herald/5ee103aa33b5a3ff07cbfb11c99ad3e9.html)** — _www.21jingji.com_ · date: unknown
 - **[政府做天使投资人，广州“先投后股”破解成果转化“最初一公里”](https://www.21jingji.com/article/20260615/herald/90a3a5a4f689ec3659bde8428943721c.html)** — _www.21jingji.com_ · date: unknown
+- **[周大福利润上涨52%，劳力士半年两次涨价](https://www.21jingji.com/article/20260615/herald/405f4d1574e2301b439bdc9f117d5a13.html)** — _www.21jingji.com_ · date: unknown
+- **[21评论丨重构有利于形成创新与产业生态的营商环境](https://www.21jingji.com/article/20260616/edbc63df5e8f8f37690b3f30efa305d7.html)** — _www.21jingji.com_ · date: unknown
+- **[21评论丨科技巨头为何纷纷做起了LP？](https://www.21jingji.com/article/20260616/04e94a8cb61a983ad5f025a776bdef99.html)** — _www.21jingji.com_ · date: unknown
+- **[21社论丨挤掉“百亿补贴”水分，平台才能走得更远](https://www.21jingji.com/article/20260616/c1057944b7278497e35983fcd186881b.html)** — _www.21jingji.com_ · date: unknown
+- **[上市首日暴涨193% 溜溜梅惊险“上岸”：4冲IPO，对赌大限仅剩15天](https://www.21jingji.com/article/20260616/79d07febb496f6c5ed3522c40f346b64.html)** — _www.21jingji.com_ · date: unknown
 - **[Iren Limited签澳大利亚800兆瓦输电协议 布局亚太首个数据中心项目](https://www.eeo.com.cn/2026/0616/916858.shtml)** — _www.eeo.com.cn_ · published 2026-06-16
 - **[思科数据中心高端交换机现促销，市场竞争加剧](https://www.eeo.com.cn/2026/0616/916857.shtml)** — _www.eeo.com.cn_ · published 2026-06-16
 - **[SPACEX上市第二天继续走高 涨幅达10%](https://www.eeo.com.cn/2026/0616/916855.shtml)** — _www.eeo.com.cn_ · published 2026-06-16
 - **[RLI保险派特别股息且董事大额增持，释放长期价值信心](https://www.eeo.com.cn/2026/0615/916847.shtml)** — _www.eeo.com.cn_ · date: unknown
 - **[可口可乐拟推动印度装瓶业务2027年上市，健康组织呼吁FIFA到期不续约](https://www.eeo.com.cn/2026/0615/916845.shtml)** — _www.eeo.com.cn_ · date: unknown
+- **[日本拟向Nuscale Power核能项目投至多250亿美元 公司股价异动](https://www.eeo.com.cn/2026/0616/916873.shtml)** — _www.eeo.com.cn_ · date: unknown
+- **[Alset Inc.推进业务转型 营收大幅下滑存经营治理风险](https://www.eeo.com.cn/2026/0616/916872.shtml)** — _www.eeo.com.cn_ · date: unknown
+- **[Bayview Acquisition Corp合并事项面临监管及股东赎回相关风险](https://www.eeo.com.cn/2026/0616/916871.shtml)** — _www.eeo.com.cn_ · published 2026-06-16
+- **[摩根士丹利下调Tc Energy评级至持股观望 两大发展方向受关注](https://www.eeo.com.cn/2026/0616/916863.shtml)** — _www.eeo.com.cn_ · date: unknown
 - **[俄罗斯一架图](https://www.nbd.com.cn/articles/2026-06-16/4427274.html)** — _www.nbd.com.cn_ · published 2026-06-16
 - **[亿纬锂能上半年业绩预增：实施前置管理应对供应链成本压力](https://www.nbd.com.cn/articles/2026-06-15/4427208.html)** — _www.nbd.com.cn_ · published 2026-06-15
 - **[涨超200%后再放大招！亨通光电拟分拆“硬科技”子公司闯关科创板，股东会高票通过](https://www.nbd.com.cn/articles/2026-06-15/4427198.html)** — _www.nbd.com.cn_ · published 2026-06-15
@@ -62,6 +71,9 @@ _Updated 2026-06-16 00:42 | WS1 redesign source universe | discovery-only, zero 
 - **[2026年6月16日新能源新版早参](https://www.nbd.com.cn/articles/2026-06-15/4427264.html)** — _www.nbd.com.cn_ · published 2026-06-15
 - **[韩国散户卖股票买豪宅！按年龄划分，30岁人群动用股债变现资金购房的规模最高](https://www.nbd.com.cn/articles/2026-06-15/4426796.html)** — _www.nbd.com.cn_ · published 2026-06-15
 - **[重磅技术突破！半导体牛股1分钟直线涨停，超8万股民狂欢](https://www.nbd.com.cn/articles/2026-06-15/4426875.html)** — _www.nbd.com.cn_ · published 2026-06-15
+- **[股价两月间翻倍，泰晶科技公告“降温”：光模块业务收入占比极少](https://www.nbd.com.cn/articles/2026-06-15/4427249.html)** — _www.nbd.com.cn_ · published 2026-06-15
+- **[先导基电澄清：研发的非接触轮廓仪尚未商业化 提醒投资者注意三项风险](https://www.nbd.com.cn/articles/2026-06-15/4427234.html)** — _www.nbd.com.cn_ · published 2026-06-15
+- **[康泰生物拟0元受让北京琨远51%股权 交易对手包括上市公司实控人、高管等](https://www.nbd.com.cn/articles/2026-06-15/4427193.html)** — _www.nbd.com.cn_ · published 2026-06-15
 - **[全线大涨！美股三大指数高开，美联储加息预期减弱](https://www.stcn.com/article/detail/3962853.html)** — _www.stcn.com_ · published 2026-06-15
 - **[美联储，突变！全球股市做多情绪大幅升温](https://www.stcn.com/article/detail/3962821.html)** — _www.stcn.com_ · date: unknown
 - **[国内期货市场夜盘收盘多数下跌 燃油、丙烯跌超3%](https://www.stcn.com/article/detail/3962869.html)** — _www.stcn.com_ · published 2026-06-15
