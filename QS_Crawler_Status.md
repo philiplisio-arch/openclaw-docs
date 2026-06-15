@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-15 14:09 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-15 14:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -136,3 +136,24 @@ _Updated 2026-06-15 14:09 | discovery-only, zero LLM tokens | runs every 3h_
   ■吴珊 2026年是“十五五”开局之年，基金行业正站在一个承前启后的关键节点。6月6日，中国证监会主席吴清在中国证券投资基金业协会第四届会员代表大会上，系统阐述了基金行业当前和今后一个时期的发展蓝图，明确提出力争“十五五”期间建设一流投资机构取得突破性进展。这为基金行业高质量发展锚定了方向。 近三十载栉风沐雨，基金行业砥砺深耕，走出了一条极不平凡的奋进之路。
 
 _Coverage % vs QSData computed at week end once a fresh export is provided._
+
+## Outlets seeded (33 hosts → 15 distinct publications)
+| Publication | Hosts crawled |
+|---|---|
+| 中国经济网 China Economic Net | auto.ce.cn, bgimg.ce.cn*, cv.ce.cn, district.ce.cn, finance.ce.cn, m.ce.cn, views.ce.cn, www.ce.cn |
+| 央广网 China National Radio (CNR) | auto.cnr.cn, news.cnr.cn, tech.cnr.cn, www.cnr.cn |
+| 光明网 Guangming | economy.gmw.cn, guancha.gmw.cn, m.gmw.cn, share.gmw.cn |
+| 证券时报 Securities Times | egs.stcn.com, qzs.stcn.com, www.stcn.com |
+| 中国日报 China Daily | cn.chinadaily.com.cn, ex.chinadaily.com.cn |
+| 人民网 People's Daily (+ China Energy News) | finance.people.com.cn, paper.people.com.cn |
+| 新华网 Xinhua | www.news.cn, www.xinhuanet.com |
+| 中证网 China Securities Journal | jnzstatic.cs.com.cn* |
+| 环球网 Global Times | m.huanqiu.com |
+| 国际在线 CRI | news.cri.cn |
+| 中国经济周刊 China Economic Weekly | www.ceweekly.cn |
+| 中国新闻网 China News Service | www.chinanews.com.cn |
+| 中国金融新闻网 Financial News | www.financialnews.com.cn |
+| 中新经纬 China News (Jingwei) | www.jwview.com |
+| 证券日报 Securities Daily | www.zqrb.cn |
+
+_\* static/image CDN host (no articles) — kept for completeness._
