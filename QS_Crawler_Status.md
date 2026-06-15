@@ -1,6 +1,16 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-15 13:59 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-15 14:04 | discovery-only, zero LLM tokens | runs every 3h_
+
+> ## 🔍 Search Criteria
+> **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
+> **Outlets:** 33 high-authority Chinese sources (CNR, Xinhua, People's Daily, Securities Times, China Economic Net, Guangming, Global Times …)  
+> **Cadence:** every 3 hours (8× / day), accumulating all week  
+> **Recency window:** only articles dated within the last 12 days  
+> **Must be a real article:** dated path or long numeric ID (index / topic / list / section pages excluded)  
+> **Topic match (headline or URL must contain ≥1):**  
+> 汽车 (auto) · 新能源 (NEV) · 电池 (battery) · 比亚迪 (BYD) · 出口 (export) · 氢能 (hydrogen) · 智能驾驶 (autonomous driving) · 充电 (charging) · 续航 (range) · 混动 (hybrid) · 纯电 (BEV) · 新车 (new model) · 车型 (model) · 车企 (automaker) · 车展 (auto show) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 丰田 (Toyota) · 雷克萨斯 (Lexus) · 埃安 (AION) · auto · nev · ev  
+> **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
 ## Cumulative: **53 unique auto/NEV articles** across **9 outlets**
 
