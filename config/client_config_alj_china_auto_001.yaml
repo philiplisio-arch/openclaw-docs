@@ -57,6 +57,8 @@ domain_exclusion:
   - electriccarscheme.com
   - innovation-village.com
 
+agent_model: "google/gemini-2.5-pro"  # WS2 PRO writing (2026-06-15)
+
 delivery_channel:
   type: lark
   credentials_ref: "/root/openclaw_secrets/lark_webhook_alj_china_auto_001"
