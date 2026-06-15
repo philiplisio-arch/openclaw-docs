@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-15 21:11 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-16 00:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,20 +12,21 @@ _Updated 2026-06-15 21:11 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 新能源 (NEV) · 电池 (battery) · 比亚迪 (BYD) · 出口 (export) · 氢能 (hydrogen) · 智能驾驶 (autonomous driving) · 充电 (charging) · 续航 (range) · 混动 (hybrid) · 纯电 (BEV) · 新车 (new model) · 车型 (model) · 车企 (automaker) · 车展 (auto show) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 丰田 (Toyota) · 雷克萨斯 (Lexus) · 埃安 (AION) · auto · nev · ev  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **58 unique auto/NEV articles** across **9 outlets**
+## Cumulative: **61 unique auto/NEV articles** across **9 outlets**
 
 ## New per day
 | date | new articles |
 |---|---|
 | 2026-06-15 | 58 |
+| 2026-06-16 | 3 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.news.cn | 19 |
+| www.news.cn | 20 |
+| www.zqrb.cn | 11 |
 | www.xinhuanet.com | 11 |
 | egs.stcn.com | 10 |
-| www.zqrb.cn | 9 |
 | www.stcn.com | 5 |
 | www.jwview.com | 1 |
 | www.ceweekly.cn | 1 |
@@ -33,6 +34,14 @@ _Updated 2026-06-15 21:11 | discovery-only, zero LLM tokens | runs every 3h_
 | economy.gmw.cn | 1 |
 
 ## Articles captured by day (newest first)
+
+### 2026-06-16 — 3 articles
+- **[世界杯丨小科普：世界杯比赛用球怎么还要充电](https://www.news.cn/sports/20260615/b44001e9ef7b4e0482f0094d315e89f3/c.html)** — _www.news.cn_ · published 2026-06-15
+  新华社北京6月15日电（记者焦子琦）美加墨世界杯小组赛瑞典队对阵突尼斯队的比赛中出现了一个小插曲：第84分钟，瑞典球员斯万贝里在本队定位球进攻中打进一球，却因越位被判无效。 视频回放清楚地显示，定位球开出的瞬间，斯万贝里确实处在越位位置。然而没过多久，主裁判在听取视频助理裁判（VAR）团队的意见后，改判示意进球有效。 6月14日，瑞典队球员斯万贝里（中）庆祝
+- **[年增千万投资者折射A股活力](https://www.zqrb.cn/review/jinrishidian/2026-06-15/A1781524750099.html)** — _www.zqrb.cn_ · published 2026-06-15
+  ■苏向杲 近日，中国证券登记结算有限责任公司（以下简称“中国结算”）发布的最新统计年报显示，2025年全年新增投资者1386.95万，期末投资者总数达25067.29万。尤为值得关注的是，近十年来，A股每年新增投资者数量均保持在1000万以上。 投资者是资本市场的基石，也是市场活力的重要源泉。超过2.5亿投资者折射出我国资本市场资产供给更加丰富、财富配置功能
+- **[铁路货运亮眼数据彰显我国经济稳中有进](https://www.zqrb.cn/review/jizheguancha/2026-06-15/A1781524750090.html)** — _www.zqrb.cn_ · published 2026-06-15
+  ■杜雨萌 今年前5个月，国家铁路累计发送货物16.7亿吨，同比增长1.8%；日均装车18.63万车，同比增长2.8%，其中5月2日装车20.24万车，创单日装车历史新高……这份成绩单不仅是铁路服务效能持续提升的体现，更勾勒出中国经济循环畅通的生动图景。 铁路货运素来被看作是宏观经济的“晴雨表”，货物的流向与结构，直接映射产业运转的节奏与市场需求的冷暖。 从前
 
 ### 2026-06-15 — 58 articles
 - **[新能源汽车渗透率何以节节攀升](https://economy.gmw.cn/2026-06/15/content_38828157.htm)** — _economy.gmw.cn_ · published 2026-06-15
