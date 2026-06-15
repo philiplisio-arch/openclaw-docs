@@ -1,40 +1,35 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-15 13:50 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-15 13:52 | discovery-only, zero LLM tokens | runs every 3h_
 
-## Cumulative: **65 unique auto/NEV articles** across **10 outlets**
+## Cumulative: **53 unique auto/NEV articles** across **9 outlets**
 
 ## New per day
 | date | new articles |
 |---|---|
-| 2026-06-15 | 65 |
+| 2026-06-15 | 53 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.news.cn | 21 |
-| www.xinhuanet.com | 10 |
+| www.news.cn | 17 |
 | www.zqrb.cn | 9 |
-| egs.stcn.com | 9 |
-| www.stcn.com | 8 |
+| www.xinhuanet.com | 9 |
+| egs.stcn.com | 8 |
+| www.stcn.com | 5 |
 | www.ceweekly.cn | 2 |
-| economy.gmw.cn | 2 |
-| cn.chinadaily.com.cn | 2 |
 | www.jwview.com | 1 |
 | gd.chinadaily.com.cn | 1 |
+| economy.gmw.cn | 1 |
 
 ## Articles captured by day (newest first)
 
-### 2026-06-15 — 65 articles
-- [“一带一路”国家驻华使节自行车系列赛（邢台站）精彩完赛](https://cn.chinadaily.com.cn/a/202606/14/WS6a2e88b6a310d709c2fb7eb4.html) — _cn.chinadaily.com.cn_
-- [尺素金声｜连续3个月超4万亿元！中国外贸持续稳健向好 - 中国日报网](https://cn.chinadaily.com.cn/a/202606/14/WS6a2e7947a310d709c2fb7eab.html) — _cn.chinadaily.com.cn_
-- [“经”彩新活力丨“倒车，请注意” 中国电动三轮车全球爆单](https://economy.gmw.cn/2026-06/04/content_38810084.htm) — _economy.gmw.cn_
+### 2026-06-15 — 53 articles
 - [新能源汽车渗透率何以节节攀升](https://economy.gmw.cn/2026-06/15/content_38828157.htm) — _economy.gmw.cn_
 - [【早知道】美伊确认达成协议；《推动新能源重卡规模化应用实施方案》发布](https://egs.stcn.com/news/detail/2302284.html) — _egs.stcn.com_
 - [【早知道】两部门约谈提醒涉嫌非理性竞争汽车生产企业；美股三大指数集体收涨，存储概念大涨](https://egs.stcn.com/news/detail/2301496.html) — _egs.stcn.com_
 - [天津航空回应旅客充电宝冒烟](https://egs.stcn.com/news/detail/2302524.html) — _egs.stcn.com_
 - [京津冀进出口总值前5个月突破2万亿元](https://egs.stcn.com/news/detail/2302522.html) — _egs.stcn.com_
-- [“一箭8星”专车发射圆满成功 力箭一号运载火箭加速推进年度高密度发射任务](https://egs.stcn.com/news/detail/2302520.html) — _egs.stcn.com_
 - [【e线情报】获全球首张“国际签证”！eVTOL适航取证加速，机构称行业商业化运营进入元年！](https://egs.stcn.com/news/detail/2301557.html) — _egs.stcn.com_
 - [【盘中特快】到2030年新能源重卡渗透率达到40%！这家央企控股上市车企正加快新能源转型与海外市场拓展](https://egs.stcn.com/news/detail/2302122.html) — _egs.stcn.com_
 - [岚图汽车向2026夏季达沃斯论坛交付500台指定用车](https://egs.stcn.com/news/detail/2302126.html) — _egs.stcn.com_
@@ -56,20 +51,13 @@ _Updated 2026-06-15 13:50 | discovery-only, zero LLM tokens | runs every 3h_
 - [聚焦“AI定义汽车”赛豆科技发布AI汽车品牌AIVA](https://www.news.cn/auto/20260610/1d3419bc2c924b4698ee9a1c06709fa0/c.html) — _www.news.cn_
 - [瑞虎8 PLUS/PRO非凡冠军上市 ：“以赛促研、赛级民用”的生动实践](https://www.news.cn/auto/20260608/9700bb47432f4f648a41ba6e134d204b/c.html) — _www.news.cn_
 - [通号低空智能科技有限公司：聚焦“智能低空”与“智能科技”](https://www.news.cn/auto/20260605/f5acb0eed8784852940f48603aaabd63/c.html) — _www.news.cn_
-- [世界杯丨7:1再现 “德国战车”轰鸣启动](https://www.news.cn/sports/20260615/067716e6b5864b408e987b9678d824f1/c.html) — _www.news.cn_
-- [感谢您的浏览！](https://www.news.cn/20260615/48626242e18847e98bf707c699c2c849/c.html) — _www.news.cn_
-- [三峡枢纽“双车道”船闸即将变成“多车道”](https://www.news.cn/talking/20260609/6494ac2496d94a37bcab2961a6e039fa/c.html) — _www.news.cn_
 - [新华网财经观察丨蹚出亏损泥潭 新能源车险加速走向分化](https://www.news.cn/fortune/20260604/fc80cc2d36c145e3abd0f6e5b9923a44/c.html) — _www.news.cn_
 - [新华网科技观察丨AI上车，让汽车学会“察言观色”](https://www.news.cn/tech/20260611/067d4d245e044b75b2d9b8fee45a97a8/c.html) — _www.news.cn_
-- [旅游列车升级版来了 8部门促铁路与旅游融合发展](https://www.news.cn/travel/20260611/a0011bed04794883a0dcd3a217e1ca94/c.html) — _www.news.cn_
 - [北交所公司调研热度攀升 新能源与医药赛道受关注](https://www.news.cn/20260615/fc8d6f7d4f5d4f48ade0c2056aed15c4/c.html) — _www.news.cn_
 - [智舱智驾驶入AI新赛道 高通与中国汽车产业共建智能网联新生态](https://www.news.cn/tech/20260611/cf7cbbaa3d7d4b51ace7777f327bb5b8/c.html) — _www.news.cn_
 - [多部门推动新能源重卡应用 利好动力电池与氢能产业链](https://www.stcn.com/article/detail/3960654.html) — _www.stcn.com_
 - [天津航空回应旅客充电宝冒烟](https://www.stcn.com/article/detail/3961603.html) — _www.stcn.com_
 - [京津冀进出口总值前5个月突破2万亿元](https://www.stcn.com/article/detail/3961598.html) — _www.stcn.com_
-- [“一箭8星”专车发射圆满成功 力箭一号运载火箭加速推进年度高密度发射任务](https://www.stcn.com/article/detail/3961575.html) — _www.stcn.com_
-- [整改显成效 深圳功能型无人车投诉与事故率大幅下降](https://www.stcn.com/article/detail/3961342.html) — _www.stcn.com_
-- [三记重锤连发！药企自办会急刹车，医药代表收入与销售“硬脱钩”？](https://www.stcn.com/article/detail/3961600.html) — _www.stcn.com_
 - [2026氢能与燃料电池汽车大会：多方共议抢抓氢能未来产业发展机遇](https://www.stcn.com/article/detail/3960786.html) — _www.stcn.com_
 - [冷链与新能源汽车行业景气度攀升，带动制冷剂市场供不应求](https://www.stcn.com/article/detail/3960793.html) — _www.stcn.com_
 - [赛力斯集团董事长张兴海：始终把用户安全放在第一位 推动汽车安全科技向上向善](https://www.xinhuanet.com/auto/20260612/0d94a4a7ce8742f1a88c1ced98c234ec/c.html) — _www.xinhuanet.com_
@@ -80,7 +68,6 @@ _Updated 2026-06-15 13:50 | discovery-only, zero LLM tokens | runs every 3h_
 - [“双擎领航，翼启新程”东风柳汽第十届67品牌客户日启幕](https://www.xinhuanet.com/auto/20260608/5bc7e1792d8e41be89a71e4ad7a9b8f0/c.html) — _www.xinhuanet.com_
 - [聚焦“AI定义汽车”赛豆科技发布AI汽车品牌AIVA](https://www.xinhuanet.com/auto/20260610/1d3419bc2c924b4698ee9a1c06709fa0/c.html) — _www.xinhuanet.com_
 - [特锐德打造一体化顶级供电方案 全球首创 “算电岛” 落地](https://www.xinhuanet.com/auto/20260608/dd55eae9d841418cbf6424c93b563b9f/c.html) — _www.xinhuanet.com_
-- [感谢您的浏览！](https://www.xinhuanet.com/20260615/48626242e18847e98bf707c699c2c849/c.html) — _www.xinhuanet.com_
 - [北交所公司调研热度攀升 新能源与医药赛道受关注](https://www.xinhuanet.com/20260615/fc8d6f7d4f5d4f48ade0c2056aed15c4/c.html) — _www.xinhuanet.com_
 - [*ST国华退市警示录：资本运作须回归价值本源](https://www.zqrb.cn/review/caijingshiping/2026-06-15/A1781281716888.html) — _www.zqrb.cn_
 - [贷款增速换挡折射融资结构之变](https://www.zqrb.cn/review/jinrishidian/2026-06-15/A1781281716900.html) — _www.zqrb.cn_
