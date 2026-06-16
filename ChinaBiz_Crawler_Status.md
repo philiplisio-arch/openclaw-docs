@@ -1,20 +1,20 @@
 # China Business Daily — Crawler Status
 
-_Updated 2026-06-17 03:41 | WS1 redesign source universe | discovery-only, zero LLM tokens | every 3h_
+_Updated 2026-06-17 06:41 | WS1 redesign source universe | discovery-only, zero LLM tokens | every 3h_
 
-## Cumulative: **1111 business articles** across **15 outlets**
+## Cumulative: **1129 business articles** across **15 outlets**
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.stcn.com | 240 |
-| www.nbd.com.cn | 217 |
+| www.nbd.com.cn | 224 |
 | www.21jingji.com | 189 |
 | 36kr.com | 95 |
 | www.jiemian.com | 92 |
-| www.eeo.com.cn | 73 |
+| www.eeo.com.cn | 79 |
 | www.yicai.com | 69 |
-| finance.people.com.cn | 63 |
+| finance.people.com.cn | 68 |
 | news.cnstock.com | 26 |
 | caijing.chinadaily.com.cn | 24 |
 | www.news.cn | 10 |
@@ -23,7 +23,12 @@ _Updated 2026-06-17 03:41 | WS1 redesign source universe | discovery-only, zero 
 | news.cctv.com | 2 |
 | jingji.cctv.com | 1 |
 
-## 2026-06-17 — 69 articles
+## 2026-06-17 — 87 articles
+- **[给汽车“卷尺寸”降降温（小经说汽车）](https://finance.people.com.cn/n1/2026/0617/c1004-40741810.html)** — _finance.people.com.cn_ · published 2026-06-17
+- **[把算力热度转化为产业厚度](https://finance.people.com.cn/n1/2026/0617/c1004-40741790.html)** — _finance.people.com.cn_ · published 2026-06-17
+- **[前5月综保区进出口值3.5万亿元](https://finance.people.com.cn/n1/2026/0617/c1004-40741788.html)** — _finance.people.com.cn_ · published 2026-06-17
+- **[让循环经济环环相扣（编辑手记）](https://finance.people.com.cn/n1/2026/0617/c1004-40741786.html)** — _finance.people.com.cn_ · published 2026-06-17
+- **[一块废旧电池的“再生”（经济聚焦·关注循环经济）](https://finance.people.com.cn/n1/2026/0617/c1004-40741785.html)** — _finance.people.com.cn_ · published 2026-06-17
 - **[页面没有找到](https://news.cnstock.com/commonDetail/730362)** — _news.cnstock.com_ · date: unknown
 - **[页面没有找到](https://news.cnstock.com/commonDetail/730305)** — _news.cnstock.com_ · date: unknown
 - **[页面没有找到](https://news.cnstock.com/commonDetail/730307)** — _news.cnstock.com_ · date: unknown
@@ -57,6 +62,12 @@ _Updated 2026-06-17 03:41 | WS1 redesign source universe | discovery-only, zero 
 - **[惠而浦高级无担保债券评级遭穆迪下调至B2，展望为负面](https://www.eeo.com.cn/2026/0617/918059.shtml)** — _www.eeo.com.cn_ · published 2026-06-17
 - **[康卡斯特推进债务回购 一季度营收增长净利下滑](https://www.eeo.com.cn/2026/0617/918057.shtml)** — _www.eeo.com.cn_ · date: unknown
 - **[威瑞森遭不利司法裁决被处4700万美元罚款 股价受影响下跌](https://www.eeo.com.cn/2026/0617/918056.shtml)** — _www.eeo.com.cn_ · published 2026-06-17
+- **[Doordash AI消息发布后股价大幅波动 6月15日单日暴涨11.63%](https://www.eeo.com.cn/2026/0617/918073.shtml)** — _www.eeo.com.cn_ · date: unknown
+- **[Summit Therapeutics晚期鳞状NSCLC研究数据在ASCO公布获积极结果](https://www.eeo.com.cn/2026/0617/918072.shtml)** — _www.eeo.com.cn_ · date: unknown
+- **[艾伯维核心药维奈克拉9年临床数据公布，支持CLL一线治疗应用](https://www.eeo.com.cn/2026/0617/918071.shtml)** — _www.eeo.com.cn_ · date: unknown
+- **[洛克希德马丁拟与通用汽车合作 探索补充军工产能路径](https://www.eeo.com.cn/2026/0617/918070.shtml)** — _www.eeo.com.cn_ · date: unknown
+- **[Elicio肿瘤疫苗临床数据不及预期，股价两日内累计跌超74%](https://www.eeo.com.cn/2026/0617/918069.shtml)** — _www.eeo.com.cn_ · date: unknown
+- **[美股收评：美股三大指数收盘涨跌不一](https://www.eeo.com.cn/2026/0617/918066.shtml)** — _www.eeo.com.cn_ · date: unknown
 - **[百胜中国宣布收购必胜客品牌在中国大陆的所有权 彰显对中国市场长期信心](https://www.jiemian.com/article/14599126.html)** — _www.jiemian.com_ · published 2026-06-16
 - **[固投总量承压结构分化，高技术领域投资稳步走高 航天企业：过去找资本，现在资本“找上门”](https://www.nbd.com.cn/articles/2026-06-16/4428589.html)** — _www.nbd.com.cn_ · published 2026-06-16
 - **[东山精密抛重磅投资计划：拟出资12亿美元实施光芯片及光模块扩建项目](https://www.nbd.com.cn/articles/2026-06-16/4428575.html)** — _www.nbd.com.cn_ · published 2026-06-16
@@ -76,6 +87,13 @@ _Updated 2026-06-17 03:41 | WS1 redesign source universe | discovery-only, zero 
 - **[创远信科：与吉利控股旗下商业航天企业时空道宇签订战略意向合作协议](https://www.nbd.com.cn/articles/2026-06-16/4428622.html)** — _www.nbd.com.cn_ · published 2026-06-16
 - **[具身智能“卷”数据：行业共识质量为先 多样性和流通性仍有不足](https://www.nbd.com.cn/articles/2026-06-16/4428616.html)** — _www.nbd.com.cn_ · published 2026-06-16
 - **[慈星股份拟斥资3170万欧元，收购德国电脑横机百年巨头STOLL相关资产](https://www.nbd.com.cn/articles/2026-06-16/4428580.html)** — _www.nbd.com.cn_ · published 2026-06-16
+- **[影响市场重大事件： 我国成功发射实践三十一号卫星；奥本海默：SpaceX将重塑1.6万亿美元通信市场，传统宽带与电信运营商面临冲击；北京、上海、杭州等地布局把算力搬上天](https://www.nbd.com.cn/articles/2026-06-16/4428305.html)** — _www.nbd.com.cn_ · published 2026-06-16
+- **[赛力斯人形机器人首次亮相；李想：现在行业有种“发布会通胀”现象丨汽车早参](https://www.nbd.com.cn/articles/2026-06-16/4428234.html)** — _www.nbd.com.cn_ · published 2026-06-16
+- **[SpaceX股价三天飙涨49%；以军持续在黎南部军事行动，伊朗警告；姆巴佩助法国3](https://www.nbd.com.cn/articles/2026-06-16/4428603.html)** — _www.nbd.com.cn_ · published 2026-06-16
+- **[港交所科技100指数半年度调整 AI龙头集中入列强化“硬科技”成色](https://www.nbd.com.cn/articles/2026-06-17/4428707.html)** — _www.nbd.com.cn_ · published 2026-06-17
+- **[深化债市双向开放 险资参与债券通“南向通”口径明确](https://www.nbd.com.cn/articles/2026-06-17/4428704.html)** — _www.nbd.com.cn_ · published 2026-06-17
+- **[美联储本周维持利率不变的概率为99.5%](https://www.nbd.com.cn/articles/2026-06-17/4428700.html)** — _www.nbd.com.cn_ · published 2026-06-17
+- **[智利央行维持关键利率在4.50%不变，符合预期](https://www.nbd.com.cn/articles/2026-06-17/4428699.html)** — _www.nbd.com.cn_ · published 2026-06-17
 - **[两只“大牛股”，突然抛出减持公告](https://www.stcn.com/article/detail/3965050.html)** — _www.stcn.com_ · date: unknown
 - **[6月16日重要资讯一览](https://www.stcn.com/article/detail/3964999.html)** — _www.stcn.com_ · date: unknown
 - **[湖北省委书记关志鸥在武汉调研汽车产业高质量发展工作](https://www.stcn.com/article/detail/3965072.html)** — _www.stcn.com_ · published 2026-06-10
