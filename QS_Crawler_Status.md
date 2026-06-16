@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-16 09:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-16 12:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,30 +12,34 @@ _Updated 2026-06-16 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 新能源 (NEV) · 电池 (battery) · 比亚迪 (BYD) · 出口 (export) · 氢能 (hydrogen) · 智能驾驶 (autonomous driving) · 充电 (charging) · 续航 (range) · 混动 (hybrid) · 纯电 (BEV) · 新车 (new model) · 车型 (model) · 车企 (automaker) · 车展 (auto show) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 丰田 (Toyota) · 雷克萨斯 (Lexus) · 埃安 (AION) · auto · nev · ev  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **70 unique auto/NEV articles** across **9 outlets**
+## Cumulative: **74 unique auto/NEV articles** across **9 outlets**
 
 ## New per day
 | date | new articles |
 |---|---|
 | 2026-06-15 | 58 |
-| 2026-06-16 | 12 |
+| 2026-06-16 | 16 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.news.cn | 21 |
-| egs.stcn.com | 14 |
+| egs.stcn.com | 15 |
 | www.zqrb.cn | 13 |
 | www.xinhuanet.com | 11 |
-| www.stcn.com | 7 |
+| www.stcn.com | 8 |
+| economy.gmw.cn | 3 |
 | www.jwview.com | 1 |
 | www.ceweekly.cn | 1 |
 | gd.chinadaily.com.cn | 1 |
-| economy.gmw.cn | 1 |
 
 ## Articles captured by day (newest first)
 
-### 2026-06-16 — 12 articles
+### 2026-06-16 — 16 articles
+- **[月度进出口连续三月超四万亿元](https://economy.gmw.cn/2026-06/16/content_38830573.htm)** — _economy.gmw.cn_ · published 2026-06-16
+  点击右上角微信好友 朋友圈 请使用浏览器分享功能进行分享 今年以来，外贸保持良好运行态势—— 月度进出口连续三月超四万亿元 据海关统计，5月，中国货物贸易进出口总值4.45万亿元，同比增长16.9%。海关总署统计分析司司长吕大良表示，今年以来，中国积极深化和全球经贸伙伴的务实合作，为国际经贸运行注入稳定力量。截至5月，月度进出口已连续3个月超过4万亿元，保持
+- **[济南推动新能源装备产业能级跃升](https://economy.gmw.cn/2026-06/16/content_38830741.htm)** — _economy.gmw.cn_ · published 2026-06-16
+  点击右上角微信好友 朋友圈 请使用浏览器分享功能进行分享 济南推动新能源装备产业能级跃升 预计今年营收突破九百亿元 本报济南6月15日讯（记者王金虎）近日，在山东济南高新区山东电力设备有限公司，世界首台送端750兆伏安大容量柔性直流换流变压器一次试验成功，即将发往甘肃—浙江±800千伏特高压柔性直流输电工程武威站。 近年来，济南把新能源装备产业作为培育新质生
 - **[国家能源局：1](https://egs.stcn.com/news/detail/2302903.html)** — _egs.stcn.com_ · date: unknown
   证券时报 06-16 08:54 人民财讯6月16日电，近日，国家能源局召开全国可再生能源电力开发建设月度（6月）调度视频会。会议指出，2026年1—4月，我国新能源和可再生能源发展总体保持良好态势。截至4月底，可再生能源发电装机突破24亿千瓦，占全国电力总装机的60.5%；新增装机7516万千瓦，占全部新增装机的70.7%；发电量1.2万亿千瓦时，占全社会
 - **[国家能源局：进一步加大新能源并网消纳工作力度 积极推进新能源就地就近消纳](https://egs.stcn.com/news/detail/2302902.html)** — _egs.stcn.com_ · date: unknown
@@ -44,6 +48,8 @@ _Updated 2026-06-16 09:12 | discovery-only, zero LLM tokens | runs every 3h_
   人民财讯6月16日电，企查查APP显示，近日，淮河能源（石屏）新能源有限公司成立，注册资本1.18亿元，经营范围包含：发电业务、输电业务、供（配）电业务；风力发电技术服务等。企查查股权穿透显示，该公司由淮河能源全资持股。
 - **[银河证券：AI服务器和新能源车拉动MLCC的需求高增 国产替代空间大](https://egs.stcn.com/news/detail/2302884.html)** — _egs.stcn.com_ · date: unknown
   证券时报 06-16 08:54 人民财讯6月16日电，银河证券发布电子行业2026年中期策略称，AI服务器和新能源车拉动MLCC的需求高增，国产替代空间大。AI服务器的MLCC用量约为传统通用服务器的约8—12倍。纯电车对MLCC的用量约为油车的6倍。此外，智能驾驶渗透率的提升将大幅增加高端MLCC的使用量。中国MLCC市场由日韩厂商主导，村田与三星电机合
+- **[重庆市经济信息委召开废旧动力电池回收利用企业座谈会](https://egs.stcn.com/news/detail/2303008.html)** — _egs.stcn.com_ · date: unknown
+  证券时报 06-16 11:58 人民财讯6月16日电，据“重庆制造”，近日，重庆市经济信息委组织召开废旧动力电池回收利用企业座谈会，会议通报了全市废旧动力电池回收利用联合执法市级抽检情况，听取了动力电池生产、新能源汽车生产、电池换电服务、综合利用、新能源车维修、回收拆解六大类16家参会企业意见建议，部署做好下一阶段重点工作。 会议强调，要加强部门协同、市区
 - **[世界杯丨小科普：世界杯比赛用球怎么还要充电](https://www.news.cn/sports/20260615/b44001e9ef7b4e0482f0094d315e89f3/c.html)** — _www.news.cn_ · published 2026-06-15
   新华社北京6月15日电（记者焦子琦）美加墨世界杯小组赛瑞典队对阵突尼斯队的比赛中出现了一个小插曲：第84分钟，瑞典球员斯万贝里在本队定位球进攻中打进一球，却因越位被判无效。 视频回放清楚地显示，定位球开出的瞬间，斯万贝里确实处在越位位置。然而没过多久，主裁判在听取视频助理裁判（VAR）团队的意见后，改判示意进球有效。 6月14日，瑞典队球员斯万贝里（中）庆祝
 - **[世界杯 | 小科普：世界杯比赛用球怎么还要充电-新华网](https://www.news.cn/sports/20260615/19ed5b0384ae45fcb45419d7ae30f214/c.html)** — _www.news.cn_ · published 2026-06-15
@@ -52,6 +58,8 @@ _Updated 2026-06-16 09:12 | discovery-only, zero LLM tokens | runs every 3h_
   证券时报网 朱雨蒙 2026-06-16 09:02 人民财讯6月16日电，近日，国家能源局召开全国可再生能源电力开发建设月度（6月）调度视频会。会议强调，为实现“十五五”良好开局，要重点做好七方面工作。一要进一步加大新能源并网消纳工作力度。以科学规划、有序建设为基础，全面提升电网接入、调节、调度、预测、跨区互济五大能力，多措并举提升新能源并网消纳水平。二要
 - **[国家能源局：1](https://www.stcn.com/article/detail/3963239.html)** — _www.stcn.com_ · published 2026-06-16
   证券时报网 朱雨蒙 2026-06-16 08:59 人民财讯6月16日电，近日，国家能源局召开全国可再生能源电力开发建设月度（6月）调度视频会。会议指出，2026年1—4月，我国新能源和可再生能源发展总体保持良好态势。截至4月底，可再生能源发电装机突破24亿千瓦，占全国电力总装机的60.5%；新增装机7516万千瓦，占全部新增装机的70.7%；发电量1.2
+- **[重庆市经济信息委召开废旧动力电池回收利用企业座谈会](https://www.stcn.com/article/detail/3963666.html)** — _www.stcn.com_ · date: unknown
+  人民财讯6月16日电，据“重庆制造”，近日，重庆市经济信息委组织召开废旧动力电池回收利用企业座谈会，会议通报了全市废旧动力电池回收利用联合执法市级抽检情况，听取了动力电池生产、新能源汽车生产、电池换电服务、综合利用、新能源车维修、回收拆解六大类16家参会企业意见建议，部署做好下一阶段重点工作。 会议强调，要加强部门协同、市区联动，对标国家监管要求，针对当前面
 - **[年增千万投资者折射A股活力](https://www.zqrb.cn/review/jinrishidian/2026-06-15/A1781524750099.html)** — _www.zqrb.cn_ · published 2026-06-15
   ■苏向杲 近日，中国证券登记结算有限责任公司（以下简称“中国结算”）发布的最新统计年报显示，2025年全年新增投资者1386.95万，期末投资者总数达25067.29万。尤为值得关注的是，近十年来，A股每年新增投资者数量均保持在1000万以上。 投资者是资本市场的基石，也是市场活力的重要源泉。超过2.5亿投资者折射出我国资本市场资产供给更加丰富、财富配置功能
 - **[铁路货运亮眼数据彰显我国经济稳中有进](https://www.zqrb.cn/review/jizheguancha/2026-06-15/A1781524750090.html)** — _www.zqrb.cn_ · published 2026-06-15
