@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-16 18:11 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-16 21:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,31 +12,31 @@ _Updated 2026-06-16 18:11 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 新能源 (NEV) · 电池 (battery) · 比亚迪 (BYD) · 出口 (export) · 氢能 (hydrogen) · 智能驾驶 (autonomous driving) · 充电 (charging) · 续航 (range) · 混动 (hybrid) · 纯电 (BEV) · 新车 (new model) · 车型 (model) · 车企 (automaker) · 车展 (auto show) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 丰田 (Toyota) · 雷克萨斯 (Lexus) · 埃安 (AION) · auto · nev · ev  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **87 unique auto/NEV articles** across **10 outlets**
+## Cumulative: **91 unique auto/NEV articles** across **10 outlets**
 
 ## New per day
 | date | new articles |
 |---|---|
 | 2026-06-15 | 58 |
-| 2026-06-16 | 29 |
+| 2026-06-16 | 33 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.news.cn | 23 |
-| egs.stcn.com | 18 |
-| www.stcn.com | 14 |
+| egs.stcn.com | 19 |
+| www.stcn.com | 16 |
 | www.zqrb.cn | 13 |
 | www.xinhuanet.com | 12 |
 | economy.gmw.cn | 3 |
+| www.ceweekly.cn | 2 |
 | www.jwview.com | 1 |
-| www.ceweekly.cn | 1 |
 | qzs.stcn.com | 1 |
 | gd.chinadaily.com.cn | 1 |
 
 ## Articles captured by day (newest first)
 
-### 2026-06-16 — 29 articles
+### 2026-06-16 — 33 articles
 - **[月度进出口连续三月超四万亿元](https://economy.gmw.cn/2026-06/16/content_38830573.htm)** — _economy.gmw.cn_ · published 2026-06-16
   点击右上角微信好友 朋友圈 请使用浏览器分享功能进行分享 今年以来，外贸保持良好运行态势—— 月度进出口连续三月超四万亿元 据海关统计，5月，中国货物贸易进出口总值4.45万亿元，同比增长16.9%。海关总署统计分析司司长吕大良表示，今年以来，中国积极深化和全球经贸伙伴的务实合作，为国际经贸运行注入稳定力量。截至5月，月度进出口已连续3个月超过4万亿元，保持
 - **[济南推动新能源装备产业能级跃升](https://economy.gmw.cn/2026-06/16/content_38830741.htm)** — _economy.gmw.cn_ · published 2026-06-16
@@ -57,8 +57,11 @@ _Updated 2026-06-16 18:11 | discovery-only, zero LLM tokens | runs every 3h_
   6月14日—17日，2026年世界青年发展论坛在武汉举行。作为央企东风汽车旗下高端智慧新能源品牌，岚图汽车成为官方指定用车。 世界青年发展论坛旨在倡导青年优先发展理念，推动携手落实联合国2030年可持续发展议程和全球发展倡议。本届论坛期间，广大参会青年代表乘坐岚图汽车在会场之间穿梭，展现了新时代青年的活力与朝气，领略了中国高端新能源汽车的创新。 岚图汽车连续
 - **[工信部公开征求《智能网联汽车 自动驾驶系统安全要求》等2项强制性国家标准（报批稿）、《车载事故紧急呼叫系统》强制性国家标准外文版（报批稿）意见](https://egs.stcn.com/news/detail/2303189.html)** — _egs.stcn.com_ · date: unknown
   证券时报·e公司 严翠 06-16 17:53 人民财讯6月16日电，据工信部网站，根据国家标准委下达的强制性国家标准制修订计划，工业和信息化部组织完成了《智能网联汽车 自动驾驶系统安全要求》等2项强制性国家标准（报批稿）、《车载事故紧急呼叫系统》强制性国家标准外文版（报批稿）的编制工作。为进一步听取社会各界意见，现对标准报批稿及编制说明予以公示。公示时间：
+- **[瓦楞纸价格强势反弹，出口与成本双轮驱动行业回暖](https://egs.stcn.com/news/detail/2303256.html)** — _egs.stcn.com_ · date: unknown
+  今年4月下旬以来，国内瓦楞纸市场价格整体呈上涨格局。据卓创资讯监测，截至6月12日，AA级瓦楞纸市场日均价已攀升至3028元/吨，较4月20日均价上涨11.53%。这一轮涨价潮的背后，是原料端废黄板纸供应收紧与需求端出口持续高增的双重推动。在此背景下，相关上市公司表示，受益于产品价格上涨，相关业务毛利有所提升。 瓦楞纸市场迎阶段性上涨 卓创资讯数据显示，从成
 - **[工信部公开征求《智能网联汽车 自动驾驶系统安全要求》等2项强制性国家标准（报批稿）、《车载事故紧急呼叫系统》强制性国家标准外文版（报批稿）意见](https://qzs.stcn.com/article/detail/605823.html)** — _qzs.stcn.com_ · published 2026-06-17
   人民财讯6月16日电，据工信部网站，根据国家标准委下达的强制性国家标准制修订计划，工业和信息化部组织完成了《智能网联汽车 自动驾驶系统安全要求》等2项强制性国家标准（报批稿）、《车载事故紧急呼叫系统》强制性国家标准外文版（报批稿）的编制工作。为进一步听取社会各界意见，现对标准报批稿及编制说明予以公示。公示时间：2026年6月17日—2026年6月24日。
+- **[æ¯äºè¿ªå®å®£ä¸ºåå¸é¢èªå®å¨ååº è®©å¥½ææ¯äººäººæ¾å¿äº«](https://www.ceweekly.cn/economic/auto/2026/0608/495608.html)** — _www.ceweekly.cn_ · date: unknown
 - **[世界杯丨小科普：世界杯比赛用球怎么还要充电](https://www.news.cn/sports/20260615/b44001e9ef7b4e0482f0094d315e89f3/c.html)** — _www.news.cn_ · published 2026-06-15
   新华社北京6月15日电（记者焦子琦）美加墨世界杯小组赛瑞典队对阵突尼斯队的比赛中出现了一个小插曲：第84分钟，瑞典球员斯万贝里在本队定位球进攻中打进一球，却因越位被判无效。 视频回放清楚地显示，定位球开出的瞬间，斯万贝里确实处在越位位置。然而没过多久，主裁判在听取视频助理裁判（VAR）团队的意见后，改判示意进球有效。 6月14日，瑞典队球员斯万贝里（中）庆祝
 - **[世界杯 | 小科普：世界杯比赛用球怎么还要充电-新华网](https://www.news.cn/sports/20260615/19ed5b0384ae45fcb45419d7ae30f214/c.html)** — _www.news.cn_ · published 2026-06-15
@@ -85,6 +88,10 @@ _Updated 2026-06-16 18:11 | discovery-only, zero LLM tokens | runs every 3h_
   2025年以来，光伏产业正迎来电力市场化变革与数字化转型叠加的关键周期，行业告别粗放扩张，迈入市场化、精细化发展新阶段，算电协同、综合能源服务、能源数字化智能化成为产业演进新方向。依托深厚电力设计技术底蕴起家的能辉科技，正在从光伏系统集成的单一赛道，全面向综合能源服务商转型。 近日，在“第十九届（2026）国际太阳能光伏与智慧能源（上海）大会暨展览会”上，能
 - **[聚焦汽车科创赛道 广邀青年创客参赛！2026重庆汽车创新大会青年新锐专项赛正式启动](https://www.stcn.com/article/detail/3964529.html)** — _www.stcn.com_ · date: unknown
   近日，2026重庆汽车创新大会“青年新锐专项赛”暨第七届“招商杯”创意创新创业大赛智能网联新能源汽车科技专项赛全面开启招募工作。赛事面向全国重点高校、科研院所、企事业单位及产业链相关企业广发英雄帖，邀约广大青年创新人才、创业团队同台竞技，以创新赋能智能网联新能源汽车产业发展，加速前沿技术成果落地转化。 作为2026重庆汽车创新大会的核心重磅环节，本次专项赛也
+- **[瓦楞纸价格强势反弹，出口与成本双轮驱动行业回暖](https://www.stcn.com/article/detail/3964957.html)** — _www.stcn.com_ · date: unknown
+  今年4月下旬以来，国内瓦楞纸市场价格整体呈上涨格局。据卓创资讯监测，截至6月12日，AA级瓦楞纸市场日均价已攀升至3028元/吨，较4月20日均价上涨11.53%。这一轮涨价潮的背后，是原料端废黄板纸供应收紧与需求端出口持续高增的双重推动。在此背景下，相关上市公司表示，受益于产品价格上涨，相关业务毛利有所提升。 瓦楞纸市场迎阶段性上涨 卓创资讯数据显示，从成
+- **[揭秘涨停 | 锂电池热门股封单资金超7亿元](https://www.stcn.com/article/detail/3964631.html)** — _www.stcn.com_ · published 2026-06-16
+  数据宝 周莎 2026-06-16 18:00 截至今日（6月16日）收盘，上证指数报收4091.89点，下跌0.11%；深证成指收于15675.25点，上涨0.93%；创业板指上涨1.72%，科创50指数上涨0.58%。 不含未开板新股，今日可交易A股中，上涨个股超2700只，占比超49%，下跌个股有2677只。其中，收盘封死涨停的有138只，跌停股有11
 - **[2026年5月汽车召回月度汇总](https://www.xinhuanet.com/auto/20260616/0e3da3f1a0f7451c8ba19f4d4ffe4624/c.html)** — _www.xinhuanet.com_ · published 2026-06-16
   2026年5月汽车召回月度汇总-新华网 新华网 > > 正文 2026 06 / 16 14:41:38 来源：市场监管总局召回中心 2026年5月汽车召回月度汇总 字体： 小 中 大 分享到： 2026年5月汽车召回月度汇总 2026-06-16 14:41:38 来源：市场监管总局召回中心 【纠错】 【责任编辑:赵延心】 阅读下一篇： 深度观察 新华全媒
 - **[年增千万投资者折射A股活力](https://www.zqrb.cn/review/jinrishidian/2026-06-15/A1781524750099.html)** — _www.zqrb.cn_ · published 2026-06-15
