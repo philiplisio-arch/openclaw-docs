@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-16 21:11 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-17 00:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,29 +12,44 @@ _Updated 2026-06-16 21:11 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 新能源 (NEV) · 电池 (battery) · 比亚迪 (BYD) · 出口 (export) · 氢能 (hydrogen) · 智能驾驶 (autonomous driving) · 充电 (charging) · 续航 (range) · 混动 (hybrid) · 纯电 (BEV) · 新车 (new model) · 车型 (model) · 车企 (automaker) · 车展 (auto show) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 丰田 (Toyota) · 雷克萨斯 (Lexus) · 埃安 (AION) · auto · nev · ev  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **91 unique auto/NEV articles** across **10 outlets**
+## Cumulative: **97 unique auto/NEV articles** across **10 outlets**
 
 ## New per day
 | date | new articles |
 |---|---|
 | 2026-06-15 | 58 |
 | 2026-06-16 | 33 |
+| 2026-06-17 | 6 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.news.cn | 23 |
-| egs.stcn.com | 19 |
-| www.stcn.com | 16 |
-| www.zqrb.cn | 13 |
+| egs.stcn.com | 20 |
+| www.stcn.com | 18 |
+| www.zqrb.cn | 15 |
 | www.xinhuanet.com | 12 |
 | economy.gmw.cn | 3 |
 | www.ceweekly.cn | 2 |
+| qzs.stcn.com | 2 |
 | www.jwview.com | 1 |
-| qzs.stcn.com | 1 |
 | gd.chinadaily.com.cn | 1 |
 
 ## Articles captured by day (newest first)
+
+### 2026-06-17 — 6 articles
+- **[湖北省委书记关志鸥在武汉调研汽车产业高质量发展工作](https://egs.stcn.com/news/detail/2303339.html)** — _egs.stcn.com_ · date: unknown
+  证券时报·e公司 王小伟 06-16 22:47 人民财讯6月16日电，据“湖北发布”，6月16日，湖北省委书记关志鸥在武汉市调研汽车产业高质量发展工作。调研中，关志鸥强调，当前汽车产业新产品、新技术加快研发应用，技术创新带动产业持续升级。要抢抓产业变革机遇，瞄准智能网联新能源汽车新赛道，加强前瞻布局，加大推动力度，不断培育产业发展新动能新优势。要坚定不移把
+- **[湖北省委书记关志鸥在武汉调研汽车产业高质量发展工作](https://qzs.stcn.com/article/detail/605919.html)** — _qzs.stcn.com_ · date: unknown
+  人民财讯6月16日电，据“湖北发布”，6月16日，湖北省委书记关志鸥在武汉市调研汽车产业高质量发展工作。调研中，关志鸥强调，当前汽车产业新产品、新技术加快研发应用，技术创新带动产业持续升级。要抢抓产业变革机遇，瞄准智能网联新能源汽车新赛道，加强前瞻布局，加大推动力度，不断培育产业发展新动能新优势。要坚定不移把科技创新摆在发展核心位置，深化企业与高校院所协作，
+- **[湖北省委书记关志鸥在武汉调研汽车产业高质量发展工作](https://www.stcn.com/article/detail/3965072.html)** — _www.stcn.com_ · published 2026-06-10
+  中国汽车报 陈哲 2026-06-10 13:28 人民财讯6月16日电，据“湖北发布”，6月16日，湖北省委书记关志鸥在武汉市调研汽车产业高质量发展工作。调研中，关志鸥强调，当前汽车产业新产品、新技术加快研发应用，技术创新带动产业持续升级。要抢抓产业变革机遇，瞄准智能网联新能源汽车新赛道，加强前瞻布局，加大推动力度，不断培育产业发展新动能新优势。要坚定不移
+- **[人民鉴真115期丨众泰汽车：整车生产资质被工信部清退报道不实](https://www.stcn.com/article/detail/3964962.html)** — _www.stcn.com_ · published 2026-06-15
+  证券时报网 任丽珺 2026-06-15 09:39 近日，有投资者在互动平台向众泰汽车(000980)提问，有媒体发布公司整车生产资质被工信部清退是否属实？ 6月16日，众泰汽车回复称，该报道为不实信息。众泰汽车是工信部《道路机动车辆生产企业名录》内企业，公告目录序号149，资质合法有效。
+- **[多维度提升投行“含科量”](https://www.zqrb.cn/review/jizheguancha/2026-06-16/A1781612794842.html)** — _www.zqrb.cn_ · published 2026-06-16
+  ■李文 提升“含科量”已成为投行突破同质化竞争、夯实专业实力的主攻方向，而科创投资无疑是提升投行“含科量”最直接的路径。近期多家硬科技企业IPO成功过会，背后不乏券商通过直投、产业基金等多元路径深度参与的身影。 笔者认为，以科创板跟投为核心的科创投资体系，正通过业务重构、责任重塑与能力提升的多重效应，推动券商完成从“通道服务商”到“产业合伙人”的基因重组。
+- **[节能降碳改造“三年攻坚”深挖工业绿色潜力](https://www.zqrb.cn/review/jinrishidian/2026-06-16/A1781612794838.html)** — _www.zqrb.cn_ · published 2026-06-16
+  ■谢岚 6月15日，国家发展改革委等五部门联合印发专项通知，针对钢铁、电解铝、水泥等九个重点行业，自2026年起开启为期三年的节能降碳改造攻坚行动。从通知内容来看，此次“攻坚行动”兼具约束性与激励性，是落实“双碳”目标、破解工业转型难题、撬动绿色投资的重要布局，释放出三重清晰信号。 其一，落后产能出清迎来明确时间表。此次“攻坚行动”划定了硬性时间节点：到20
 
 ### 2026-06-16 — 33 articles
 - **[月度进出口连续三月超四万亿元](https://economy.gmw.cn/2026-06/16/content_38830573.htm)** — _economy.gmw.cn_ · published 2026-06-16
