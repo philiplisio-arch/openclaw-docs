@@ -1,19 +1,19 @@
 # China Business Daily — Crawler Status
 
-_Updated 2026-06-17 00:42 | WS1 redesign source universe | discovery-only, zero LLM tokens | every 3h_
+_Updated 2026-06-17 03:41 | WS1 redesign source universe | discovery-only, zero LLM tokens | every 3h_
 
-## Cumulative: **1103 business articles** across **15 outlets**
+## Cumulative: **1111 business articles** across **15 outlets**
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.stcn.com | 240 |
-| www.nbd.com.cn | 215 |
-| www.21jingji.com | 188 |
+| www.nbd.com.cn | 217 |
+| www.21jingji.com | 189 |
 | 36kr.com | 95 |
 | www.jiemian.com | 92 |
+| www.eeo.com.cn | 73 |
 | www.yicai.com | 69 |
-| www.eeo.com.cn | 68 |
 | finance.people.com.cn | 63 |
 | news.cnstock.com | 26 |
 | caijing.chinadaily.com.cn | 24 |
@@ -23,7 +23,7 @@ _Updated 2026-06-17 00:42 | WS1 redesign source universe | discovery-only, zero 
 | news.cctv.com | 2 |
 | jingji.cctv.com | 1 |
 
-## 2026-06-17 — 61 articles
+## 2026-06-17 — 69 articles
 - **[页面没有找到](https://news.cnstock.com/commonDetail/730362)** — _news.cnstock.com_ · date: unknown
 - **[页面没有找到](https://news.cnstock.com/commonDetail/730305)** — _news.cnstock.com_ · date: unknown
 - **[页面没有找到](https://news.cnstock.com/commonDetail/730307)** — _news.cnstock.com_ · date: unknown
@@ -46,11 +46,17 @@ _Updated 2026-06-17 00:42 | WS1 redesign source universe | discovery-only, zero 
 - **[5月楼市持续回暖 一线城市二手房价格连涨三个月](https://www.21jingji.com/article/20260617/98cbf357e3c4b859a4ce6880604c2260.html)** — _www.21jingji.com_ · date: unknown
 - **[券商扩表提速 年内发债规模突破万亿元](https://www.21jingji.com/article/20260617/6cccb1a1f1b72c24e6b8a29b8e77aacd.html)** — _www.21jingji.com_ · date: unknown
 - **[195只新发对阵74只清盘 这类基金为何难成“大器”？](https://www.21jingji.com/article/20260617/3bf485b655ea43481ef2579847ec4f99.html)** — _www.21jingji.com_ · date: unknown
+- **[结构分化是房地产转型中的正常现象丨李宇嘉专栏](https://www.21jingji.com/article/20260617/1d0e23e00c2b7480eb7221bc8ed72d8f.html)** — _www.21jingji.com_ · date: unknown
 - **[何超琼清仓美高梅国际股份套现约1.4亿美元 美高梅中国股价承压](https://www.eeo.com.cn/2026/0616/918024.shtml)** — _www.eeo.com.cn_ · date: unknown
 - **[卡特彼勒拟提升大型发动机产能 布局AI数据中心电力需求市场](https://www.eeo.com.cn/2026/0616/918019.shtml)** — _www.eeo.com.cn_ · published 2026-06-16
 - **[美国银行二季度业绩指引超预期，股价近日上涨4.18%](https://www.eeo.com.cn/2026/0616/918018.shtml)** — _www.eeo.com.cn_ · date: unknown
 - **[沃达丰2026财年营收增8%仍亏损 遭巴克莱下调评级](https://www.eeo.com.cn/2026/0616/918015.shtml)** — _www.eeo.com.cn_ · published 2026-06-16
 - **[为何严控新设政府投资基金](https://www.eeo.com.cn/2026/0615/916576.shtml)** — _www.eeo.com.cn_ · published 2026-06-15
+- **[荷美尔食品2026财年Q2营收29.7亿美元，业绩超预期实现连续增长](https://www.eeo.com.cn/2026/0617/918065.shtml)** — _www.eeo.com.cn_ · published 2026-06-17
+- **[华迪国际股价技术面疲软 受外部情绪影响股价承压](https://www.eeo.com.cn/2026/0617/918062.shtml)** — _www.eeo.com.cn_ · published 2026-06-17
+- **[惠而浦高级无担保债券评级遭穆迪下调至B2，展望为负面](https://www.eeo.com.cn/2026/0617/918059.shtml)** — _www.eeo.com.cn_ · published 2026-06-17
+- **[康卡斯特推进债务回购 一季度营收增长净利下滑](https://www.eeo.com.cn/2026/0617/918057.shtml)** — _www.eeo.com.cn_ · date: unknown
+- **[威瑞森遭不利司法裁决被处4700万美元罚款 股价受影响下跌](https://www.eeo.com.cn/2026/0617/918056.shtml)** — _www.eeo.com.cn_ · published 2026-06-17
 - **[百胜中国宣布收购必胜客品牌在中国大陆的所有权 彰显对中国市场长期信心](https://www.jiemian.com/article/14599126.html)** — _www.jiemian.com_ · published 2026-06-16
 - **[固投总量承压结构分化，高技术领域投资稳步走高 航天企业：过去找资本，现在资本“找上门”](https://www.nbd.com.cn/articles/2026-06-16/4428589.html)** — _www.nbd.com.cn_ · published 2026-06-16
 - **[东山精密抛重磅投资计划：拟出资12亿美元实施光芯片及光模块扩建项目](https://www.nbd.com.cn/articles/2026-06-16/4428575.html)** — _www.nbd.com.cn_ · published 2026-06-16
@@ -68,6 +74,8 @@ _Updated 2026-06-17 00:42 | WS1 redesign source universe | discovery-only, zero 
 - **[2026年6月17日游戏市场热点](https://www.nbd.com.cn/articles/2026-06-16/4428628.html)** — _www.nbd.com.cn_ · published 2026-06-16
 - **[欧洲股指收盘普涨](https://www.nbd.com.cn/articles/2026-06-16/4428623.html)** — _www.nbd.com.cn_ · published 2026-06-16
 - **[创远信科：与吉利控股旗下商业航天企业时空道宇签订战略意向合作协议](https://www.nbd.com.cn/articles/2026-06-16/4428622.html)** — _www.nbd.com.cn_ · published 2026-06-16
+- **[具身智能“卷”数据：行业共识质量为先 多样性和流通性仍有不足](https://www.nbd.com.cn/articles/2026-06-16/4428616.html)** — _www.nbd.com.cn_ · published 2026-06-16
+- **[慈星股份拟斥资3170万欧元，收购德国电脑横机百年巨头STOLL相关资产](https://www.nbd.com.cn/articles/2026-06-16/4428580.html)** — _www.nbd.com.cn_ · published 2026-06-16
 - **[两只“大牛股”，突然抛出减持公告](https://www.stcn.com/article/detail/3965050.html)** — _www.stcn.com_ · date: unknown
 - **[6月16日重要资讯一览](https://www.stcn.com/article/detail/3964999.html)** — _www.stcn.com_ · date: unknown
 - **[湖北省委书记关志鸥在武汉调研汽车产业高质量发展工作](https://www.stcn.com/article/detail/3965072.html)** — _www.stcn.com_ · published 2026-06-10
