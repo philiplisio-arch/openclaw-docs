@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-16 06:11 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-16 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,22 +12,22 @@ _Updated 2026-06-16 06:11 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 新能源 (NEV) · 电池 (battery) · 比亚迪 (BYD) · 出口 (export) · 氢能 (hydrogen) · 智能驾驶 (autonomous driving) · 充电 (charging) · 续航 (range) · 混动 (hybrid) · 纯电 (BEV) · 新车 (new model) · 车型 (model) · 车企 (automaker) · 车展 (auto show) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 丰田 (Toyota) · 雷克萨斯 (Lexus) · 埃安 (AION) · auto · nev · ev  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **61 unique auto/NEV articles** across **9 outlets**
+## Cumulative: **70 unique auto/NEV articles** across **9 outlets**
 
 ## New per day
 | date | new articles |
 |---|---|
 | 2026-06-15 | 58 |
-| 2026-06-16 | 3 |
+| 2026-06-16 | 12 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.news.cn | 20 |
-| www.zqrb.cn | 11 |
+| www.news.cn | 21 |
+| egs.stcn.com | 14 |
+| www.zqrb.cn | 13 |
 | www.xinhuanet.com | 11 |
-| egs.stcn.com | 10 |
-| www.stcn.com | 5 |
+| www.stcn.com | 7 |
 | www.jwview.com | 1 |
 | www.ceweekly.cn | 1 |
 | gd.chinadaily.com.cn | 1 |
@@ -35,13 +35,31 @@ _Updated 2026-06-16 06:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-06-16 — 3 articles
+### 2026-06-16 — 12 articles
+- **[国家能源局：1](https://egs.stcn.com/news/detail/2302903.html)** — _egs.stcn.com_ · date: unknown
+  证券时报 06-16 08:54 人民财讯6月16日电，近日，国家能源局召开全国可再生能源电力开发建设月度（6月）调度视频会。会议指出，2026年1—4月，我国新能源和可再生能源发展总体保持良好态势。截至4月底，可再生能源发电装机突破24亿千瓦，占全国电力总装机的60.5%；新增装机7516万千瓦，占全部新增装机的70.7%；发电量1.2万亿千瓦时，占全社会
+- **[国家能源局：进一步加大新能源并网消纳工作力度 积极推进新能源就地就近消纳](https://egs.stcn.com/news/detail/2302902.html)** — _egs.stcn.com_ · date: unknown
+  证券时报 06-16 08:54 人民财讯6月16日电，近日，国家能源局召开全国可再生能源电力开发建设月度（6月）调度视频会。会议强调，为实现“十五五”良好开局，要重点做好七方面工作。一要进一步加大新能源并网消纳工作力度。以科学规划、有序建设为基础，全面提升电网接入、调节、调度、预测、跨区互济五大能力，多措并举提升新能源并网消纳水平。二要积极推进新能源就地就
+- **[淮河能源成立新能源公司 含风力发电相关业务](https://egs.stcn.com/news/detail/2302898.html)** — _egs.stcn.com_ · date: unknown
+  人民财讯6月16日电，企查查APP显示，近日，淮河能源（石屏）新能源有限公司成立，注册资本1.18亿元，经营范围包含：发电业务、输电业务、供（配）电业务；风力发电技术服务等。企查查股权穿透显示，该公司由淮河能源全资持股。
+- **[银河证券：AI服务器和新能源车拉动MLCC的需求高增 国产替代空间大](https://egs.stcn.com/news/detail/2302884.html)** — _egs.stcn.com_ · date: unknown
+  证券时报 06-16 08:54 人民财讯6月16日电，银河证券发布电子行业2026年中期策略称，AI服务器和新能源车拉动MLCC的需求高增，国产替代空间大。AI服务器的MLCC用量约为传统通用服务器的约8—12倍。纯电车对MLCC的用量约为油车的6倍。此外，智能驾驶渗透率的提升将大幅增加高端MLCC的使用量。中国MLCC市场由日韩厂商主导，村田与三星电机合
 - **[世界杯丨小科普：世界杯比赛用球怎么还要充电](https://www.news.cn/sports/20260615/b44001e9ef7b4e0482f0094d315e89f3/c.html)** — _www.news.cn_ · published 2026-06-15
   新华社北京6月15日电（记者焦子琦）美加墨世界杯小组赛瑞典队对阵突尼斯队的比赛中出现了一个小插曲：第84分钟，瑞典球员斯万贝里在本队定位球进攻中打进一球，却因越位被判无效。 视频回放清楚地显示，定位球开出的瞬间，斯万贝里确实处在越位位置。然而没过多久，主裁判在听取视频助理裁判（VAR）团队的意见后，改判示意进球有效。 6月14日，瑞典队球员斯万贝里（中）庆祝
+- **[世界杯 | 小科普：世界杯比赛用球怎么还要充电-新华网](https://www.news.cn/sports/20260615/19ed5b0384ae45fcb45419d7ae30f214/c.html)** — _www.news.cn_ · published 2026-06-15
+  新华社北京6月15日电（记者焦子琦）美加墨世界杯小组赛瑞典队对阵突尼斯队的比赛中出现了一个小插曲：第84分钟，瑞典球员斯万贝里在本队定位球进攻中打进一球，却因越位被判无效。 视频回放清楚地显示，定位球开出的瞬间，斯万贝里确实处在越位位置。然而没过多久，主裁判在听取视频助理裁判（VAR）团队的意见后，改判示意进球有效。 6月14日，瑞典队球员斯万贝里（中）庆祝
+- **[国家能源局：进一步加大新能源并网消纳工作力度 积极推进新能源就地就近消纳](https://www.stcn.com/article/detail/3963234.html)** — _www.stcn.com_ · published 2026-06-16
+  证券时报网 朱雨蒙 2026-06-16 09:02 人民财讯6月16日电，近日，国家能源局召开全国可再生能源电力开发建设月度（6月）调度视频会。会议强调，为实现“十五五”良好开局，要重点做好七方面工作。一要进一步加大新能源并网消纳工作力度。以科学规划、有序建设为基础，全面提升电网接入、调节、调度、预测、跨区互济五大能力，多措并举提升新能源并网消纳水平。二要
+- **[国家能源局：1](https://www.stcn.com/article/detail/3963239.html)** — _www.stcn.com_ · published 2026-06-16
+  证券时报网 朱雨蒙 2026-06-16 08:59 人民财讯6月16日电，近日，国家能源局召开全国可再生能源电力开发建设月度（6月）调度视频会。会议指出，2026年1—4月，我国新能源和可再生能源发展总体保持良好态势。截至4月底，可再生能源发电装机突破24亿千瓦，占全国电力总装机的60.5%；新增装机7516万千瓦，占全部新增装机的70.7%；发电量1.2
 - **[年增千万投资者折射A股活力](https://www.zqrb.cn/review/jinrishidian/2026-06-15/A1781524750099.html)** — _www.zqrb.cn_ · published 2026-06-15
   ■苏向杲 近日，中国证券登记结算有限责任公司（以下简称“中国结算”）发布的最新统计年报显示，2025年全年新增投资者1386.95万，期末投资者总数达25067.29万。尤为值得关注的是，近十年来，A股每年新增投资者数量均保持在1000万以上。 投资者是资本市场的基石，也是市场活力的重要源泉。超过2.5亿投资者折射出我国资本市场资产供给更加丰富、财富配置功能
 - **[铁路货运亮眼数据彰显我国经济稳中有进](https://www.zqrb.cn/review/jizheguancha/2026-06-15/A1781524750090.html)** — _www.zqrb.cn_ · published 2026-06-15
   ■杜雨萌 今年前5个月，国家铁路累计发送货物16.7亿吨，同比增长1.8%；日均装车18.63万车，同比增长2.8%，其中5月2日装车20.24万车，创单日装车历史新高……这份成绩单不仅是铁路服务效能持续提升的体现，更勾勒出中国经济循环畅通的生动图景。 铁路货运素来被看作是宏观经济的“晴雨表”，货物的流向与结构，直接映射产业运转的节奏与市场需求的冷暖。 从前
+- **[零食行业变革需做好“加法”和“乘法”](https://www.zqrb.cn/review/jizheguancha/2026-06-15/A1781524750087.html)** — _www.zqrb.cn_ · published 2026-06-15
+  ■肖伟 当零食企业单一品类的增长红利见顶，低价竞争进入微利乃至无利区间，即亟须寻找新的发展路径——“向外拓界”与“向内深耕”成为当下破局的核心方向。 “向外拓界”，是从“卖商品”到“占场景”的流量逻辑重构。零食品牌集体布局社区生鲜，绝非“不务正业”的跨界尝试，而是直面增长瓶颈的必然选择。 传统包装零食属于低频可选消费，天然受季节、节点影响，客流与盈利波动较大
+- **[本土资本如何更好接手“洋品牌”在华业务](https://www.zqrb.cn/review/jizheguancha/2026-06-15/A1781524750078.html)** — _www.zqrb.cn_ · published 2026-06-15
+  ■李静 近期，必胜客、哈根达斯、Oatly等国际品牌相继传出股权转让、中国区业务易主的消息，引发广泛讨论。在此之前，星巴克、汉堡王等一众“洋品牌”已有类似动作。拆解各方交易细节可以发现，其采取的主流模式是：本土资本接手外资品牌在华业务的线下运营权，外资品牌方保留品牌所有权、持续收取授权收益。 以哈根达斯为例，6月2日，该品牌母公司通用磨坊宣布将中国内地哈根达
 
 ### 2026-06-15 — 58 articles
 - **[新能源汽车渗透率何以节节攀升](https://economy.gmw.cn/2026-06/15/content_38828157.htm)** — _economy.gmw.cn_ · published 2026-06-15
