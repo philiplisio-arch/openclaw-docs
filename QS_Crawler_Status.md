@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-17 12:11 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-17 15:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,35 +12,37 @@ _Updated 2026-06-17 12:11 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 新能源 (NEV) · 电池 (battery) · 比亚迪 (BYD) · 出口 (export) · 氢能 (hydrogen) · 智能驾驶 (autonomous driving) · 充电 (charging) · 续航 (range) · 混动 (hybrid) · 纯电 (BEV) · 新车 (new model) · 车型 (model) · 车企 (automaker) · 车展 (auto show) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 丰田 (Toyota) · 雷克萨斯 (Lexus) · 埃安 (AION) · auto · nev · ev  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **117 unique auto/NEV articles** across **11 outlets**
+## Cumulative: **120 unique auto/NEV articles** across **11 outlets**
 
 ## New per day
 | date | new articles |
 |---|---|
 | 2026-06-15 | 58 |
 | 2026-06-16 | 33 |
-| 2026-06-17 | 26 |
+| 2026-06-17 | 29 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.news.cn | 31 |
+| www.news.cn | 32 |
 | www.stcn.com | 23 |
 | egs.stcn.com | 22 |
 | www.zqrb.cn | 15 |
-| www.xinhuanet.com | 14 |
+| www.xinhuanet.com | 15 |
 | economy.gmw.cn | 4 |
 | qzs.stcn.com | 3 |
 | www.ceweekly.cn | 2 |
+| cn.chinadaily.com.cn | 2 |
 | www.jwview.com | 1 |
 | gd.chinadaily.com.cn | 1 |
-| cn.chinadaily.com.cn | 1 |
 
 ## Articles captured by day (newest first)
 
-### 2026-06-17 — 26 articles
+### 2026-06-17 — 29 articles
 - **[海事情报公司称伊朗近两月来首次出口原油](https://cn.chinadaily.com.cn/a/202606/17/WS6a31eb7ca310d709c2fb87bb.html)** — _cn.chinadaily.com.cn_ · published 2026-06-17
   海事情报公司“油轮追踪者”17日凌晨在社交媒体发文称，该机构15日通过卫星图像核实，至少有两艘隶属伊朗国家油轮公司的超大型油轮已驶出美国海军封锁线，两船共载有380万桶伊朗原油。这是伊朗近两个月来首次出口原油。 此外，该帖文称，伊朗国家油轮公司旗下的“斯特里姆号”油轮正从巴基斯坦专属经济区驶出。该船此前已在那片海域滞留7周，一直等待返回伊朗港口。 【责任编辑
+- **[跨国公司高管：中国成全球移动出行领域核心合作伙伴](https://cn.chinadaily.com.cn/a/202606/17/WS6a323f33a310d709c2fb89e5.html)** — _cn.chinadaily.com.cn_ · published 2026-06-17
+  中国日报网青岛6月17日电 “中国汽车所搭载的技术，从先进的智能驾驶系统，到完备的车载娱乐系统以及沉浸式智能座舱体验，以任何全球标准衡量都令人印象深刻。”安万驰（Avanci）全球政府事务副总裁乌塔·施奈德（Uta Schneider）在接受采访时评价中国汽车产业的发展。 6月15日至17日，第七届跨国公司领导人青岛峰会在山东青岛举行，全球跨国公司领导人齐聚
 - **[前5月综保区进出口值3.5万亿元](https://economy.gmw.cn/2026-06/17/content_38832936.htm)** — _economy.gmw.cn_ · published 2026-06-17
   点击右上角微信好友 朋友圈 请使用浏览器分享功能进行分享 前5月综保区进出口值3.5万亿元 占全国进出口总值的16.9% 本报天津6月16日电（记者欧阳洁）记者从海关总署获悉：今年1—5月，我国综合保税区实现进出口值3.5万亿元，同比增长27.1%，占全国进出口总值的16.9%，已成为服务我国外贸发展的重要平台。 我国共有海关特殊监管区域174个，其中综合保
 - **[湖北省委书记关志鸥在武汉调研汽车产业高质量发展工作](https://egs.stcn.com/news/detail/2303339.html)** — _egs.stcn.com_ · date: unknown
@@ -69,6 +71,8 @@ _Updated 2026-06-17 12:11 | discovery-only, zero LLM tokens | runs every 3h_
   新华社莫斯科/伦敦6月16日电（记者于艾岑）据俄罗斯国防部和英国媒体16日消息，一艘俄护卫舰当天在英吉利海峡向一艘悬挂英国国旗的游艇开火示警。 俄国防部说，俄护卫舰船员发现游艇正以“危险航线”靠近后，尝试通过无线电通信、发射照明弹等方式阻止，但游艇仍继续靠近。在两船距离缩短至150米后，俄护卫舰舰长决定向游艇开火示警，随后游艇立即改变航向。 据英国广播公司报
 - **[一块废旧电池的“再生”](https://www.news.cn/sci-tech/20260617/d2e6615591834fcf96f6694cc9c3cab4/c.html)** — _www.news.cn_ · published 2026-06-17
   自2024年起，首批享受8年质保的动力电池集中进入退役期。据相关机构测算，2025年国内废旧动力电池产生量近40万吨，2030年将超过100万吨。这些废旧动力电池该如何处理？近日，记者对此进行了探访。 湖北宜昌高新区，每天都有不少货车载着废旧动力电池，驶入宜昌邦普循环全链条一体化产业园。抵达这里后，这些电池将开启一段回收利用的循环之旅。 “这些退役动力电池，
+- **[“拥抱智能变革 赋能青春成长”东风汽车以实干担当链接全球青年](https://www.news.cn/auto/20260617/a606b379d14c45a6ac5c5ccc74ba9161/c.html)** — _www.news.cn_ · published 2026-06-17
+  6月16日，作为2026年世界青年发展论坛重要的交流实践活动之一，由东风汽车集团有限公司（以下简称东风汽车）承办的“人工智能与青年赋能主题论坛”在武汉成功举办。本次主题论坛汇聚联合国相关机构代表、多国青年组织负责人、行业领军企业嘉宾、全球青年代表等各界人士，围绕人工智能技术创新、青年成长赋能、产业融合发展、全球协同合作等议题展开深度研讨，搭建起全球青年思想碰
 - **[湖北省委书记关志鸥在武汉调研汽车产业高质量发展工作](https://www.stcn.com/article/detail/3965072.html)** — _www.stcn.com_ · published 2026-06-10
   中国汽车报 陈哲 2026-06-10 13:28 人民财讯6月16日电，据“湖北发布”，6月16日，湖北省委书记关志鸥在武汉市调研汽车产业高质量发展工作。调研中，关志鸥强调，当前汽车产业新产品、新技术加快研发应用，技术创新带动产业持续升级。要抢抓产业变革机遇，瞄准智能网联新能源汽车新赛道，加强前瞻布局，加大推动力度，不断培育产业发展新动能新优势。要坚定不移
 - **[人民鉴真115期丨众泰汽车：整车生产资质被工信部清退报道不实](https://www.stcn.com/article/detail/3964962.html)** — _www.stcn.com_ · published 2026-06-15
@@ -87,6 +91,8 @@ _Updated 2026-06-17 12:11 | discovery-only, zero LLM tokens | runs every 3h_
   新华社纽约6月16日电（记者刘亚南）据美国《华尔街日报》16日报道，在美国与伊朗本周签署谅解备忘录后，伊朗即可对外销售其石油和燃料。 报道援引匿名知情人士的话说，针对银行、运输和保险等伊朗石油出口相关行业的制裁也将同时获得豁免。 据报道，一艘载有原油的伊朗超级油轮当天离开伊朗恰巴哈尔港，穿过美国先前实施封锁的区域后驶离阿曼湾。该油轮没有关闭定位追踪器。 【纠
 - **[海事情报公司称伊朗近两月来首次出口原油](https://www.xinhuanet.com/20260617/3cb910b7fd404a5888835e7f0508e307/c.html)** — _www.xinhuanet.com_ · published 2026-06-17
   新华社德黑兰6月17日电 海事情报公司“油轮追踪者”17日凌晨在社交媒体发文称，该机构15日通过卫星图像核实，至少有两艘隶属伊朗国家油轮公司的超大型油轮已驶出美国海军封锁线，两船共载有380万桶伊朗原油。这是伊朗近两个月来首次出口原油。 此外，该帖文称，伊朗国家油轮公司旗下的“斯特里姆号”油轮正从巴基斯坦专属经济区驶出。该船此前已在那片海域滞留7周，一直等待
+- **[“拥抱智能变革 赋能青春成长”东风汽车以实干担当链接全球青年](https://www.xinhuanet.com/auto/20260617/a606b379d14c45a6ac5c5ccc74ba9161/c.html)** — _www.xinhuanet.com_ · published 2026-06-17
+  6月16日，作为2026年世界青年发展论坛重要的交流实践活动之一，由东风汽车集团有限公司（以下简称东风汽车）承办的“人工智能与青年赋能主题论坛”在武汉成功举办。本次主题论坛汇聚联合国相关机构代表、多国青年组织负责人、行业领军企业嘉宾、全球青年代表等各界人士，围绕人工智能技术创新、青年成长赋能、产业融合发展、全球协同合作等议题展开深度研讨，搭建起全球青年思想碰
 - **[多维度提升投行“含科量”](https://www.zqrb.cn/review/jizheguancha/2026-06-16/A1781612794842.html)** — _www.zqrb.cn_ · published 2026-06-16
   ■李文 提升“含科量”已成为投行突破同质化竞争、夯实专业实力的主攻方向，而科创投资无疑是提升投行“含科量”最直接的路径。近期多家硬科技企业IPO成功过会，背后不乏券商通过直投、产业基金等多元路径深度参与的身影。 笔者认为，以科创板跟投为核心的科创投资体系，正通过业务重构、责任重塑与能力提升的多重效应，推动券商完成从“通道服务商”到“产业合伙人”的基因重组。
 - **[节能降碳改造“三年攻坚”深挖工业绿色潜力](https://www.zqrb.cn/review/jinrishidian/2026-06-16/A1781612794838.html)** — _www.zqrb.cn_ · published 2026-06-16
