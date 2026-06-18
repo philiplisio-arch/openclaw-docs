@@ -1,20 +1,20 @@
 # China Business Daily — Crawler Status
 
-_Updated 2026-06-19 03:41 | WS1 redesign source universe | discovery-only, zero LLM tokens | every 3h_
+_Updated 2026-06-19 06:41 | WS1 redesign source universe | discovery-only, zero LLM tokens | every 3h_
 
-## Cumulative: **2575 business articles** across **16 outlets**
+## Cumulative: **2585 business articles** across **16 outlets**
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.stcn.com | 586 |
-| www.nbd.com.cn | 457 |
-| www.21jingji.com | 438 |
+| www.stcn.com | 588 |
+| www.nbd.com.cn | 458 |
+| www.21jingji.com | 439 |
 | 36kr.com | 217 |
 | www.jiemian.com | 209 |
 | www.yicai.com | 192 |
-| www.eeo.com.cn | 162 |
-| finance.people.com.cn | 162 |
+| www.eeo.com.cn | 166 |
+| finance.people.com.cn | 164 |
 | news.cnstock.com | 65 |
 | caijing.chinadaily.com.cn | 33 |
 | finance.caixin.com | 22 |
@@ -24,8 +24,10 @@ _Updated 2026-06-19 03:41 | WS1 redesign source universe | discovery-only, zero 
 | jingji.cctv.com | 3 |
 | m.21jingji.com | 1 |
 
-## 2026-06-19 — 71 articles
+## 2026-06-19 — 81 articles
 - **[科氪 | 两轮电动车没有天花板，爱玛黑翼要用AI与硬核科技赢得年轻男性的心-36氪](https://36kr.com/p/3858803016881154)** — _36kr.com_ · published 2026-06-19
+- **[让消费“有颜值、有内涵、有体验”（消费新知）](https://finance.people.com.cn/n1/2026/0619/c1004-40743535.html)** — _finance.people.com.cn_ · published 2026-06-19
+- **[从“618”购物节看新消费活力](https://finance.people.com.cn/n1/2026/0619/c1004-40743519.html)** — _finance.people.com.cn_ · published 2026-06-19
 - **[页面没有找到](https://news.cnstock.com/commonDetail/731745)** — _news.cnstock.com_ · date: unknown
 - **[页面没有找到](https://news.cnstock.com/commonDetail/731742)** — _news.cnstock.com_ · date: unknown
 - **[页面没有找到](https://news.cnstock.com/commonDetail/731663)** — _news.cnstock.com_ · date: unknown
@@ -44,6 +46,7 @@ _Updated 2026-06-19 03:41 | WS1 redesign source universe | discovery-only, zero 
 - **[企二代闯入AI赛道 制造业的新接班方式](https://www.21jingji.com/article/20260619/d07d10d8c79a8b820ab9bcaec8b6d5b2.html)** — _www.21jingji.com_ · date: unknown
 - **[制造业稳岗、服务业扩容、新职业挖潜：“十五五”就业施工图来了](https://www.21jingji.com/article/20260619/607c8169070206820b72ea5a0edb8975.html)** — _www.21jingji.com_ · date: unknown
 - **[21社论丨警惕发达经济体利率“共振上行”风险](https://www.21jingji.com/article/20260619/f9ce7f6cec174637722b4064bf918b0f.html)** — _www.21jingji.com_ · date: unknown
+- **[国际能源署警告东南亚能源安全承压，多元化迫在眉睫](https://www.21jingji.com/article/20260618/herald/7051b1cd25b17054522676784ad9e11c.html)** — _www.21jingji.com_ · date: unknown
 - **[优信2026年Q1营收10.74亿元同比增112.9%，零售交易量增长显著](https://www.eeo.com.cn/2026/0619/920784.shtml)** — _www.eeo.com.cn_ · published 2026-06-19
 - **[可口可乐营销遇世界杯球员落选问题 布局AI营销股价短期调整](https://www.eeo.com.cn/2026/0619/920780.shtml)** — _www.eeo.com.cn_ · published 2026-06-19
 - **[卡骆驰遭市场分析质疑HEYDUDE业务未扭转 投资者关注资本配置](https://www.eeo.com.cn/2026/0619/920779.shtml)** — _www.eeo.com.cn_ · published 2026-06-19
@@ -58,6 +61,10 @@ _Updated 2026-06-19 03:41 | WS1 redesign source universe | discovery-only, zero 
 - **[普拉格能源出售税收抵免改善现金流，Q1电解槽销售额同比增超两倍](https://www.eeo.com.cn/2026/0619/920803.shtml)** — _www.eeo.com.cn_ · date: unknown
 - **[微软评估Xbox业务重组可能性 7月将发布新一季度关键财报](https://www.eeo.com.cn/2026/0619/920802.shtml)** — _www.eeo.com.cn_ · date: unknown
 - **[百威英博续任FIFA官方啤酒赞助商至2030年 百威亚太股价涨超4%](https://www.eeo.com.cn/2026/0619/920800.shtml)** — _www.eeo.com.cn_ · published 2026-06-19
+- **[韦莱韬悦近一周股价回调2.14%，业务拓展叠加机构普遍看好](https://www.eeo.com.cn/2026/0619/920830.shtml)** — _www.eeo.com.cn_ · date: unknown
+- **[柯达5亿美元债务将到期，债务解决及新业务进展受关注](https://www.eeo.com.cn/2026/0619/920827.shtml)** — _www.eeo.com.cn_ · date: unknown
+- **[哈雷戴维森备案召回计划，涉及两款进口车型共计4031辆](https://www.eeo.com.cn/2026/0619/920824.shtml)** — _www.eeo.com.cn_ · published 2026-06-19
+- **[劳埃德银行重返日本武士债市 成功发行750亿日元债券](https://www.eeo.com.cn/2026/0619/920821.shtml)** — _www.eeo.com.cn_ · published 2026-06-19
 - **[亚马逊拟向第三方数据中心销售AI芯片](https://www.jiemian.com/article/14615609.html)** — _www.jiemian.com_ · date: unknown
 - **[欧洲主要股指收盘普涨](https://www.jiemian.com/article/14615601.html)** — _www.jiemian.com_ · date: unknown
 - **[锂电产业链周记](https://www.jiemian.com/article/14615319.html)** — _www.jiemian.com_ · date: unknown
@@ -85,6 +92,11 @@ _Updated 2026-06-19 03:41 | WS1 redesign source universe | discovery-only, zero 
 - **[欧洲主要股指收盘普涨，欧洲斯托克50指数涨0.34%](https://www.nbd.com.cn/articles/2026-06-18/4431327.html)** — _www.nbd.com.cn_ · published 2026-06-18
 - **[SpaceX股价下跌8%，报176.57美元/股](https://www.nbd.com.cn/articles/2026-06-18/4431318.html)** — _www.nbd.com.cn_ · published 2026-06-18
 - **[倍轻松“不轻松”：实控人拟被罚1184万元 四年扣非净利润累计亏损2.79亿元](https://www.nbd.com.cn/articles/2026-06-18/4431308.html)** — _www.nbd.com.cn_ · published 2026-06-18
+- **[06:39
+                  
+                  
+              
+                  美联储7月维持利率](https://www.nbd.com.cn/articles/2026-06-19/4431387.html)** — _www.nbd.com.cn_ · date: unknown
 - **[陆家嘴论坛期间 中国人寿、中国银行分别举行签约仪式](https://www.stcn.com/article/detail/3969822.html)** — _www.stcn.com_ · published 2026-06-17
 - **[汽轮科技：连云港燃机示范项目预计于2026年内完成自主燃机的订单交货](https://www.stcn.com/article/detail/3969803.html)** — _www.stcn.com_ · published 2026-06-09
 - **[688166，实控人被取保候审！涉操纵证券市场案](https://www.stcn.com/article/detail/3969810.html)** — _www.stcn.com_ · published 2026-06-18
@@ -92,6 +104,8 @@ _Updated 2026-06-19 03:41 | WS1 redesign source universe | discovery-only, zero 
 - **[湖北广电打造“数字科技+历史文脉+城市文旅”融合传播示范项目](https://www.stcn.com/article/detail/3969796.html)** — _www.stcn.com_ · date: unknown
 - **[重庆上市公司协会、东方财富证券联合走进重百集团](https://www.stcn.com/article/detail/3969764.html)** — _www.stcn.com_ · date: unknown
 - **[剂泰科技：科创板第五套标准扩围 AI制药赛道或迎新契机](https://www.stcn.com/article/detail/3969762.html)** — _www.stcn.com_ · date: unknown
+- **[德勤：上半年港股IPO融资额同比增90%，创新科技公司将率先“回A”](https://www.stcn.com/article/detail/3969834.html)** — _www.stcn.com_ · date: unknown
+- **[键邦股份拟斥资不超3.2亿元 收购两家自动化设备公司各55%股权](https://www.stcn.com/article/detail/3969835.html)** — _www.stcn.com_ · date: unknown
 - **[严打蹭热点，监管开启“闪电战”模式！电科数字两个月收罚单](https://www.yicai.com/news/103237657.html)** — _www.yicai.com_ · date: unknown
 - **[浦东国资启动上市公司股权整合，加强区属国企市值管理](https://www.yicai.com/news/103237616.html)** — _www.yicai.com_ · date: unknown
 - **[新能源车渗透率超70%，零跑徐军称要先跑通香港市场](https://www.yicai.com/news/103237579.html)** — _www.yicai.com_ · published 2026-06-18
