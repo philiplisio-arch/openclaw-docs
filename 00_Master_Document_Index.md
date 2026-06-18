@@ -1,6 +1,7 @@
 # OPENCLAW — MASTER DOCUMENT INDEX
 
-> **2026-06-16:** OPENCLAW_AS_BUILT_STATE_2026-06-16 is the AUTHORITATIVE current-state reference (architecture/products/trust/posture) after the June pivot. Foundation v6.2, CEO Dashboard, and Phase Gate Checklist are superseded/retired (banners added). Forward execution plan deferred to post-vision.
+> **2026-06-18:** OPENCLAW_AS_BUILT_STATE_2026-06-18 is now the AUTHORITATIVE current-state reference (supersedes 06-16). Reflects WS2/ALJ on curated-crawl sourcing (Baidu retired), the cross-language trust-gate fix, the completeness-gate reliability fix, and the source-breadth work. Forward plan + competitive analysis live in local-only internal strategy memos (not this public set).
+> **2026-06-16:** OPENCLAW_AS_BUILT_STATE_2026-06-16 — superseded by 06-18. Foundation v6.2, CEO Dashboard, and Phase Gate Checklist remain superseded/retired (banners added).
 
 ---
 document_id: OPENCLAW-MDI-001

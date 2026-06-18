@@ -2,13 +2,22 @@
 
 ---
 document_id: 04_DAILY_STATUS
-version: v4.2
-last_updated: 2026-06-11
+version: v4.3
+last_updated: 2026-06-18
 status: OPERATIONAL
 ---
 
-DATE: 2026-06-11
-PHASE: Phase 7 Entry — Phase D (Controlled Pilot)
+DATE: 2026-06-18
+PHASE: Post-pivot — Source-Breadth workstream (see OPENCLAW_AS_BUILT_STATE_2026-06-18 for authoritative current state)
+
+> **2026-06-18 status:** WS1 healthy (daily delivery, trust clean). WS2/ALJ migrated to curated-crawl
+> sourcing (all 3 configs; Baidu retired) and delivering clean held-mode briefs again after the
+> `--model` crash fix. Trust gate cross-language-correct; completeness gate reliability fixed. Source
+> breadth widened (official/association seeds CAAM/CADA, cross-cutting tagger, diversity cap, discovery
+> dashboard). GitHub crawler-status publish restored. Resolved this date: Issues #68–#71.
+
+---
+_(Sections below predate the June pivot; OPENCLAW_AS_BUILT_STATE_2026-06-18 is the authoritative reconciliation.)_
 
 ---
 

@@ -1,5 +1,7 @@
 # OpenClaw — As-Built State (Current-State Reconciliation)
 
+> **SUPERSEDED 2026-06-18** by `OPENCLAW_AS_BUILT_STATE_2026-06-18.md`. Kept for history. Notably out of date: WS2/ALJ now sources from the curated crawler (Baidu retired), and the trust gate is cross-language-correct.
+
 ---
 document_id: OPENCLAW_AS_BUILT_STATE_2026-06-16
 date: 2026-06-16

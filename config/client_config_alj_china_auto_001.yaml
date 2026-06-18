@@ -70,6 +70,7 @@ schedule: null   # Manual trigger only — never added to cron
 
 # Retrieval providers
 source_preferences:
+  mode: crawler          # WS-C cutover 2026-06-18: Sunday official sources from curated scrape frontier (operator-approved); web retrieval skipped
   priority_providers:
     - brave              # CP-023R 2026-06-11: Brave enabled (international coverage)
     - baidu

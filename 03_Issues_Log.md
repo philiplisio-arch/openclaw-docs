@@ -2,8 +2,8 @@
 
 ---
 document_id: OPENCLAW-ISSUES-001
-version: v2.7
-last_updated: 2026-06-10
+version: v2.8
+last_updated: 2026-06-18
 status: OPERATIONAL
 ---
 
@@ -39,6 +39,10 @@ and recently resolved issues.
 | 65 | tv.cctv.com URL in ALJ scrubbed output | ✅ CLOSED 2026-06-04 — false alarm; agent Section 8 hallucination; CP-025 confirmed working; citation_sub.py strips Section 8 before delivery |
 | 66 | Cross-source citation misbinding — agent attaches real facts from one source to a different low-authority cited source | 🟡 OPEN — generator mechanism identified and removed 2026-06-10 (Issue #67 shared-session contamination); detector (ADV-015 Option B, spec approved 2026-06-10) in calibration; downgrade/close decision after Option B replay + clean delivery evidence |
 | 67 | Cross-client agent session contamination — gateway agent china_pr_enrichment appended every run (all clients) to one persistent 6.3MB session; --session-id recorded but not isolating; June 9 ALJ runs caused June 10 WS1 run to emit ALJ-format output citing an out-of-package ALJ source | ✅ RESOLVED 2026-06-10 — run_phase5_offline.sh clears agent session store before each run; live-tested; first cron validation 2026-06-11; evidence: OPENCLAW_DIAG_JUNE10_BLOCK_2026-06-10.md; old contaminated session preserved in container at sessions_bak_20260610 |
+| 68 | WS2/ALJ crash since 2026-06-15 — per-client Pro-model override passed `--model` to `openclaw agent`, which has no such flag (and OPENCLAW_AGENT_MODEL is read by nothing); every ALJ run exited non-zero and delivered a BLOCKED-grade placeholder | ✅ RESOLVED 2026-06-18 — removed the unsupported flag from run_phase5_offline.sh; per-client model now set in client config. Live runs deliver again |
+| 69 | citation_alignment false "misaligned" on English briefs over Chinese-only sources — English entity names (MIIT, Ouyang Minggao, Zotye) can't match CJK source text; 9 false misaligns/run | ✅ RESOLVED 2026-06-18 — scorer excludes unaliased Latin entities vs CJK-only evidence (scores on numbers + aliased/matchable entities); entity_aliases expanded; verified 9→0 with no real misbinding missed |
+| 70 | Completeness gate brittle to markdown headers — agent intermittently bolds section headers (`**SECTION 1**`); the `^SECTION 1` regex didn't match, blocking ~half of otherwise-complete, fully-cited runs | ✅ RESOLVED 2026-06-18 — run_light_to_lark.sh completeness regexes made markdown-tolerant; verified against the actual blocked output |
+| 71 | WS2 GitHub source-list publish stalled all day — REL→CORE_ZH crawler refactor broke daily_report.py's `crawl.REL` reference; cron `&&` chain crashed the publish step after each (working) crawl | ✅ RESOLVED 2026-06-18 — daily_report.py updated (with fallback); republished (470 articles/17 outlets) |
 | T-10 | Brain Lite metrics_unavailable | ✅ CLOSED 2026-05-23 — CP-005 confirmed on 2026-05-23 and 2026-05-24 cron; validator_status=GREEN holding |
 
 ## TRACKED INPUTS — FUTURE PHASE
