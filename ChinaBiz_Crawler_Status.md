@@ -1,20 +1,20 @@
 # China Business Daily — Crawler Status
 
-_Updated 2026-06-19 00:42 | WS1 redesign source universe | discovery-only, zero LLM tokens | every 3h_
+_Updated 2026-06-19 03:41 | WS1 redesign source universe | discovery-only, zero LLM tokens | every 3h_
 
-## Cumulative: **2566 business articles** across **16 outlets**
+## Cumulative: **2575 business articles** across **16 outlets**
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.stcn.com | 586 |
-| www.nbd.com.cn | 456 |
-| www.21jingji.com | 437 |
+| www.nbd.com.cn | 457 |
+| www.21jingji.com | 438 |
 | 36kr.com | 217 |
 | www.jiemian.com | 209 |
 | www.yicai.com | 192 |
+| www.eeo.com.cn | 162 |
 | finance.people.com.cn | 162 |
-| www.eeo.com.cn | 155 |
 | news.cnstock.com | 65 |
 | caijing.chinadaily.com.cn | 33 |
 | finance.caixin.com | 22 |
@@ -24,7 +24,7 @@ _Updated 2026-06-19 00:42 | WS1 redesign source universe | discovery-only, zero 
 | jingji.cctv.com | 3 |
 | m.21jingji.com | 1 |
 
-## 2026-06-19 — 62 articles
+## 2026-06-19 — 71 articles
 - **[科氪 | 两轮电动车没有天花板，爱玛黑翼要用AI与硬核科技赢得年轻男性的心-36氪](https://36kr.com/p/3858803016881154)** — _36kr.com_ · published 2026-06-19
 - **[页面没有找到](https://news.cnstock.com/commonDetail/731745)** — _news.cnstock.com_ · date: unknown
 - **[页面没有找到](https://news.cnstock.com/commonDetail/731742)** — _news.cnstock.com_ · date: unknown
@@ -43,6 +43,7 @@ _Updated 2026-06-19 00:42 | WS1 redesign source universe | discovery-only, zero 
 - **[2年期也下架，多家民营银行已停售长期限存款](https://www.21jingji.com/article/20260619/26f1de8315e11dc82c000ce951174f1f.html)** — _www.21jingji.com_ · date: unknown
 - **[企二代闯入AI赛道 制造业的新接班方式](https://www.21jingji.com/article/20260619/d07d10d8c79a8b820ab9bcaec8b6d5b2.html)** — _www.21jingji.com_ · date: unknown
 - **[制造业稳岗、服务业扩容、新职业挖潜：“十五五”就业施工图来了](https://www.21jingji.com/article/20260619/607c8169070206820b72ea5a0edb8975.html)** — _www.21jingji.com_ · date: unknown
+- **[21社论丨警惕发达经济体利率“共振上行”风险](https://www.21jingji.com/article/20260619/f9ce7f6cec174637722b4064bf918b0f.html)** — _www.21jingji.com_ · date: unknown
 - **[优信2026年Q1营收10.74亿元同比增112.9%，零售交易量增长显著](https://www.eeo.com.cn/2026/0619/920784.shtml)** — _www.eeo.com.cn_ · published 2026-06-19
 - **[可口可乐营销遇世界杯球员落选问题 布局AI营销股价短期调整](https://www.eeo.com.cn/2026/0619/920780.shtml)** — _www.eeo.com.cn_ · published 2026-06-19
 - **[卡骆驰遭市场分析质疑HEYDUDE业务未扭转 投资者关注资本配置](https://www.eeo.com.cn/2026/0619/920779.shtml)** — _www.eeo.com.cn_ · published 2026-06-19
@@ -50,6 +51,13 @@ _Updated 2026-06-19 00:42 | WS1 redesign source universe | discovery-only, zero 
 - **[Baron房地产基金2026年Q1建仓凯撒娱乐 披露相关投资逻辑](https://www.eeo.com.cn/2026/0619/920777.shtml)** — _www.eeo.com.cn_ · published 2026-06-19
 - **[宏力达2025年分红即将实施 分红前股价异动上涨](https://www.eeo.com.cn/2026/0618/920774.shtml)** — _www.eeo.com.cn_ · date: unknown
 - **[今日看点｜5月CPI、PPI数据将公布 - 经济观察网 － 专业财经新闻网站](https://www.eeo.com.cn/2026/0610/909221.shtml)** — _www.eeo.com.cn_ · date: unknown
+- **[威富集团债务大幅削减 转型成效仍待市场验证](https://www.eeo.com.cn/2026/0619/920809.shtml)** — _www.eeo.com.cn_ · published 2026-06-19
+- **[美国制商银行高管减持套现约526.7万美元，将于7月15日发布新财报](https://www.eeo.com.cn/2026/0619/920808.shtml)** — _www.eeo.com.cn_ · published 2026-06-19
+- **[阿瑞斯资本运营与宏观利率及投资标的信用状况关联紧密](https://www.eeo.com.cn/2026/0619/920807.shtml)** — _www.eeo.com.cn_ · published 2026-06-19
+- **[花旗维持应用材料买入评级，A股半导体设备板块带动情绪提振](https://www.eeo.com.cn/2026/0619/920805.shtml)** — _www.eeo.com.cn_ · published 2026-06-19
+- **[普拉格能源出售税收抵免改善现金流，Q1电解槽销售额同比增超两倍](https://www.eeo.com.cn/2026/0619/920803.shtml)** — _www.eeo.com.cn_ · date: unknown
+- **[微软评估Xbox业务重组可能性 7月将发布新一季度关键财报](https://www.eeo.com.cn/2026/0619/920802.shtml)** — _www.eeo.com.cn_ · date: unknown
+- **[百威英博续任FIFA官方啤酒赞助商至2030年 百威亚太股价涨超4%](https://www.eeo.com.cn/2026/0619/920800.shtml)** — _www.eeo.com.cn_ · published 2026-06-19
 - **[亚马逊拟向第三方数据中心销售AI芯片](https://www.jiemian.com/article/14615609.html)** — _www.jiemian.com_ · date: unknown
 - **[欧洲主要股指收盘普涨](https://www.jiemian.com/article/14615601.html)** — _www.jiemian.com_ · date: unknown
 - **[锂电产业链周记](https://www.jiemian.com/article/14615319.html)** — _www.jiemian.com_ · date: unknown
@@ -76,6 +84,7 @@ _Updated 2026-06-19 00:42 | WS1 redesign source universe | discovery-only, zero 
 - **[上海银行董事长顾建忠：绿色金融已经从规模扩张的“上半场”，逐步走向质量提升的“下半场”](https://www.nbd.com.cn/articles/2026-06-18/4431307.html)** — _www.nbd.com.cn_ · published 2026-06-18
 - **[欧洲主要股指收盘普涨，欧洲斯托克50指数涨0.34%](https://www.nbd.com.cn/articles/2026-06-18/4431327.html)** — _www.nbd.com.cn_ · published 2026-06-18
 - **[SpaceX股价下跌8%，报176.57美元/股](https://www.nbd.com.cn/articles/2026-06-18/4431318.html)** — _www.nbd.com.cn_ · published 2026-06-18
+- **[倍轻松“不轻松”：实控人拟被罚1184万元 四年扣非净利润累计亏损2.79亿元](https://www.nbd.com.cn/articles/2026-06-18/4431308.html)** — _www.nbd.com.cn_ · published 2026-06-18
 - **[陆家嘴论坛期间 中国人寿、中国银行分别举行签约仪式](https://www.stcn.com/article/detail/3969822.html)** — _www.stcn.com_ · published 2026-06-17
 - **[汽轮科技：连云港燃机示范项目预计于2026年内完成自主燃机的订单交货](https://www.stcn.com/article/detail/3969803.html)** — _www.stcn.com_ · published 2026-06-09
 - **[688166，实控人被取保候审！涉操纵证券市场案](https://www.stcn.com/article/detail/3969810.html)** — _www.stcn.com_ · published 2026-06-18
