@@ -1,8 +1,8 @@
 # China Business Daily — Crawler Status
 
-_Updated 2026-06-20 03:41 | WS1 redesign source universe | discovery-only, zero LLM tokens | every 3h_
+_Updated 2026-06-20 06:41 | WS1 redesign source universe | discovery-only, zero LLM tokens | every 3h_
 
-## Cumulative: **2793 business articles** across **16 outlets**
+## Cumulative: **2803 business articles** across **16 outlets**
 
 ## By outlet
 | outlet | articles |
@@ -12,9 +12,9 @@ _Updated 2026-06-20 03:41 | WS1 redesign source universe | discovery-only, zero 
 | www.nbd.com.cn | 484 |
 | www.jiemian.com | 225 |
 | 36kr.com | 224 |
-| www.eeo.com.cn | 198 |
+| www.eeo.com.cn | 204 |
 | www.yicai.com | 197 |
-| finance.people.com.cn | 176 |
+| finance.people.com.cn | 180 |
 | news.cnstock.com | 71 |
 | caijing.chinadaily.com.cn | 33 |
 | finance.caixin.com | 23 |
@@ -24,8 +24,12 @@ _Updated 2026-06-20 03:41 | WS1 redesign source universe | discovery-only, zero 
 | jingji.cctv.com | 4 |
 | m.21jingji.com | 1 |
 
-## 2026-06-20 — 31 articles
+## 2026-06-20 — 41 articles
 - **[财经聚焦丨“618”折射哪些消费新变化](https://finance.people.com.cn/n1/2026/0620/c1004-40743746.html)** — _finance.people.com.cn_ · published 2026-06-20
+- **[推动林下经济长效发展（专家观点）](https://finance.people.com.cn/n1/2026/0620/c1004-40743803.html)** — _finance.people.com.cn_ · published 2026-06-20
+- **[前5月消费品以旧换新资金惠及超1.1亿人次](https://finance.people.com.cn/n1/2026/0620/c1004-40743786.html)** — _finance.people.com.cn_ · published 2026-06-20
+- **[让科技的种子落地生花（活力中国调研行）](https://finance.people.com.cn/n1/2026/0620/c1004-40743783.html)** — _finance.people.com.cn_ · published 2026-06-20
+- **[全国铁路完成固定资产投资2485亿元](https://finance.people.com.cn/n1/2026/0620/c1004-40743779.html)** — _finance.people.com.cn_ · published 2026-06-20
 - **[页面没有找到](https://news.cnstock.com/commonDetail/731782)** — _news.cnstock.com_ · date: unknown
 - **[页面没有找到](https://news.cnstock.com/commonDetail/731807)** — _news.cnstock.com_ · date: unknown
 - **[广东成立6G产业创新发展联盟 占据新一轮科技竞争战略制高点](https://www.21jingji.com/article/20260619/herald/40dd3d811bcead6900b9428b117a6329.html)** — _www.21jingji.com_ · date: unknown
@@ -47,6 +51,12 @@ _Updated 2026-06-20 03:41 | WS1 redesign source universe | discovery-only, zero 
 - **[嘉楠科技Q1业绩亏损 股价低位运行存纳斯达克退市风险](https://www.eeo.com.cn/2026/0620/922007.shtml)** — _www.eeo.com.cn_ · date: unknown
 - **[新桥生物Givastomig获FDA快速通道资格，后续将公布临床数据推进试验](https://www.eeo.com.cn/2026/0620/922005.shtml)** — _www.eeo.com.cn_ · published 2026-06-16
 - **[优蓝国际股价波动性较大，中概股身份面临监管环境不确定性](https://www.eeo.com.cn/2026/0620/922004.shtml)** — _www.eeo.com.cn_ · published 2026-06-20
+- **[斯马克高管Knudsen Jeannette L于6月11日减持5550股公司股票](https://www.eeo.com.cn/2026/0620/922030.shtml)** — _www.eeo.com.cn_ · published 2026-06-20
+- **[Erasca, Inc.遭证券集体诉讼 首席原告动议截止至2026年8月10日](https://www.eeo.com.cn/2026/0620/922029.shtml)** — _www.eeo.com.cn_ · published 2026-06-20
+- **[西北银行新任首席信息官，推进技术现代化及业务扩张](https://www.eeo.com.cn/2026/0620/922027.shtml)** — _www.eeo.com.cn_ · published 2026-06-20
+- **[富国银行面临利率敏感性及商业地产敞口等多类经营风险](https://www.eeo.com.cn/2026/0620/922026.shtml)** — _www.eeo.com.cn_ · published 2026-06-20
+- **[加拿大皇家银行任命私人银行高管 二季度利润增长25%](https://www.eeo.com.cn/2026/0620/922024.shtml)** — _www.eeo.com.cn_ · published 2026-06-20
+- **[甲骨文披露多项关键发展节点 400亿美元融资计划引市场关注](https://www.eeo.com.cn/2026/0620/922023.shtml)** — _www.eeo.com.cn_ · date: unknown
 - **[2026届毕业设计展，是艺术创作，还是AI科技展？中央美院博导：AI或许可以模仿梵高的风格，但永远无法创造出第一个梵高](https://www.nbd.com.cn/articles/2026-06-19/4431732.html)** — _www.nbd.com.cn_ · published 2026-06-19
 - **[欧洲主要股指收盘涨跌不一，英国富时100指数跌0.35%](https://www.nbd.com.cn/articles/2026-06-19/4431741.html)** — _www.nbd.com.cn_ · published 2026-06-19
 - **[集高科技与时尚于一身，彰显美国自豪的特朗普移动首款手机！是中国设计、中国制造？](https://www.nbd.com.cn/articles/2026-06-19/4431740.html)** — _www.nbd.com.cn_ · published 2026-06-19
