@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-19 21:17 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-20 00:20 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-06-19 21:17 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **622 unique auto/NEV articles** across **17 outlets**
+## Cumulative: **654 unique auto/NEV articles** across **17 outlets**
 
 ## New per day
 | date | new articles |
@@ -22,16 +22,17 @@ _Updated 2026-06-19 21:17 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-17 | 56 |
 | 2026-06-18 | 323 |
 | 2026-06-19 | 152 |
+| 2026-06-20 | 32 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.dongchedi.com | 201 |
-| www.caam.org.cn | 111 |
-| www.d1ev.com | 82 |
-| www.cada.cn | 53 |
+| www.dongchedi.com | 211 |
+| www.caam.org.cn | 128 |
+| www.d1ev.com | 85 |
+| www.cada.cn | 54 |
+| www.news.cn | 36 |
 | 36kr.com | 36 |
-| www.news.cn | 35 |
 | www.stcn.com | 30 |
 | egs.stcn.com | 26 |
 | www.zqrb.cn | 15 |
@@ -45,6 +46,63 @@ _Updated 2026-06-19 21:17 | discovery-only, zero LLM tokens | runs every 3h_
 | gd.chinadaily.com.cn | 1 |
 
 ## Articles captured by day (newest first)
+
+### 2026-06-20 — 32 articles
+- **[·
+                   中国载货汽车生产企业联席会关于加强车辆生产一致性管理的行业自律承诺书](https://www.caam.org.cn/chn/5/cate_540/con_5235946.html)** — _www.caam.org.cn_ · date: unknown
+- **[· 柳燕：凝聚产教校友合力，为汽车强国建设贡献同济力量
+                     [05.24]](https://www.caam.org.cn/chn/3/cate_24/con_5237126.html)** — _www.caam.org.cn_ · date: unknown
+- **[· 关于诚邀参加第三届中日智能网联汽车官民论坛的函
+                     [02.14]](https://www.caam.org.cn/chn/3/cate_26/con_5235401.html)** — _www.caam.org.cn_ · date: unknown
+- **[· 逐AI而行·聚势而上！ 2025第46届中国（福州）国际汽车博览会新闻发布会隆重召开！
+                     [03.06]](https://www.caam.org.cn/chn/3/cate_25/con_5236655.html)** — _www.caam.org.cn_ · date: unknown
+- **[· 官宣｜中机国际将携手俄罗斯ITEMF举办俄罗斯国际车展
+                     [12.01]](https://www.caam.org.cn/chn/8/cate_88/con_5236299.html)** — _www.caam.org.cn_ · date: unknown
+- **[· 我们出海了！汽车纵横成为2023德国国际汽车及智慧出行博览会合作媒体
+                     [07.14]](https://www.caam.org.cn/chn/8/cate_88/con_5236035.html)** — _www.caam.org.cn_ · date: unknown
+- **[· 从A到Z带您游览2023德国国际汽车及智慧出行博览会
+                     [06.05]](https://www.caam.org.cn/chn/8/cate_88/con_5235947.html)** — _www.caam.org.cn_ · date: unknown
+- **[· 比亚迪与厄瓜多尔经销商Andor达成合作
+                     [05.06]](https://www.caam.org.cn/chn/8/cate_88/con_5235848.html)** — _www.caam.org.cn_ · date: unknown
+- **[中国汽车工业协会标准法规工作委员会车用仪表专委会征集第二届委员的通知
+		[03.19]](https://www.caam.org.cn/chn/10/cate_111/con_5236672.html)** — _www.caam.org.cn_ · date: unknown
+- **[总台“车晚” 震撼来袭！](https://www.caam.org.cn/chn/1/cate_2/con_5237030.html)** — _www.caam.org.cn_ · date: unknown
+- **[关于2026年度新能源汽车下乡车型推荐目录申报的通知](https://www.caam.org.cn/chn/3/cate_19/con_5237075.html)** — _www.caam.org.cn_ · date: unknown
+- **[企业经营管理“头雁人才”培养计划汽车行业领导力研修班](https://www.caam.org.cn/chn/3/cate_19/con_5236751.html)** — _www.caam.org.cn_ · date: unknown
+- **[· 新能源汽车市场化发展研讨会暨对策研究项目启动会在京召开 
+                     [09.12]](https://www.caam.org.cn/chn/3/cate_23/con_5231778.html)** — _www.caam.org.cn_ · date: unknown
+- **[· 中国汽车工业协会关于《汽车内饰用合成聚醚酯聚氨酯海绵性能要求和试验方法》团体标准立项公示的函
+                     [12.27]](https://www.caam.org.cn/chn/3/cate_28/con_5236324.html)** — _www.caam.org.cn_ · date: unknown
+- **[· 网约车监管平台发布3月份行业运行情况
+                     [04.15]](https://www.caam.org.cn/chn/8/cate_87/con_5235675.html)** — _www.caam.org.cn_ · date: unknown
+- **[. 五部门关于开展2024年新能源汽车下乡活动的通知[05.16]](https://www.caam.org.cn/chn/9/cate_97/con_5236404.html)** — _www.caam.org.cn_ · date: unknown
+- **[·
+公安部：截至2023年3月底全国机动车保有量达4.2亿辆](https://www.caam.org.cn/chn/11/cate_120/con_5235729.html)** — _www.caam.org.cn_ · date: unknown
+- **[关于中国汽车流通协会分支机构调整的通告](https://www.cada.cn/Trends/info_89_9809.html)** — _www.cada.cn_ · date: unknown
+- **[特朗普点赞加拿大对中国电动汽车低关税政策](https://www.d1ev.com/newsflash/303820)** — _www.d1ev.com_ · date: unknown
+  6月19日，在法国举行的七国集团（G7）领导人峰会期间，美国总统特朗普与加拿大总理马克·卡尼的对话被现场麦克风意外记录。特朗普对加拿大允许中国电动汽车以较低关税进口的配额方式表示认可。加拿大总理马克·卡尼向特朗普介绍了加拿大的电动汽车配额安排，设置了一个“不到我们市场3%、49000辆车”的上限。特朗普对此表示：“挺好的，我喜欢。” 加拿大今年1月公布了对中
+- **[Rivian被诉夸大自动驾驶能力，初代车型无法实现脱手驾驶](https://www.d1ev.com/newsflash/303818)** — _www.d1ev.com_ · date: unknown
+  今日，美国造车新势力Rivian因被指控夸大其初代R1T皮卡和R1S SUV的 自动驾驶能力而面临消费者集体诉讼。诉讼文件已提交至美国加州中区联邦地区法院，原告指责Rivian曾向消费者承诺，其第一代车型将支持脱手脱眼的驾驶功能，即在特定条件下车辆能够自行完成转向、加速和制动，而驾驶员无需持续操控或观察道路。然而，原告声称Rivian明知第一代车型在硬件层面
+- **[法拉利7月4日将发布融合传统与未来的全新车型](https://www.d1ev.com/newsflash/303817)** — _www.d1ev.com_ · date: unknown
+  近日，法拉利CEO维尼亚在美国拉斯维加斯的经销商大会上透露，公司计划于7月4日发布一款全新车型。维尼亚强调，这款新车将融合法拉利的品牌传统与未来发展方向，将过去的元素与未来的目光结合在一起。他还重申，法拉利将继续布局燃油、混动、纯电等多种动力路线，并把车型选择权交给消费者。 关于即将亮相的新车型，外界有多种猜测。有观点认为这可能与法拉利此前注册的商标“12C
+- **[广州护卫舰 07 旗舰型，售价不到 11 万，205km 长续航混动 SUV](https://www.dongchedi.com/video/7653123491935486526)** — _www.dongchedi.com_ · date: unknown
+  © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有限公司 中央网信办违法和不良信息举报中心 违法和不良信息举报电话：400-140-2108 举报邮箱：jubao@m
+- **[懂车帝汽车商城玉米好车店](https://www.dongchedi.com/user/1779430035030596)** — _www.dongchedi.com_ · date: unknown
+- **[变速箱油到底几万公里、几年一换？分车型说透，别再被修理厂忽悠](https://www.dongchedi.com/article/7653120415245943321)** — _www.dongchedi.com_ · date: unknown
+- **[海外起售约52万元，3.5T V6配硬核四驱，雷克萨斯GX 550豪华越野](https://www.dongchedi.com/video/7653108470538928702)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[小将闯进桑巴足球现场，中国汽车与足球少年一路向前](https://www.dongchedi.com/video/7653107880086258238)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[佛山小鹏 MONA M03，售价不到 11 万，超长续航高阶智驾纯电轿跑](https://www.dongchedi.com/video/7653097328924525118)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[吉利创意改装秀](https://www.dongchedi.com/video/7653097119628198462)** — _www.dongchedi.com_ · date: unknown
+  © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有限公司 中央网信办违法和不良信息举报中心 违法和不良信息举报电话：400-140-2108 举报邮箱：jubao@m
+- **[全新QQ3一项功能多种解锁方式奇瑞是生怕大家不方便啊是不是有点冗余过度了，哈哈#奇瑞汽车 #全新QQ3](https://www.dongchedi.com/video/7653091441656349246)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[大众迈腾PHEV：纯电续航162公里，油耗0.76L，值得买吗？](https://www.dongchedi.com/article/7653087083330191897)** — _www.dongchedi.com_ · date: unknown
+- **[迈腾PHEV车型全方位参数解析](https://www.dongchedi.com/article/7653086974546477593)** — _www.dongchedi.com_ · date: unknown
+- **[走好从汽车大国迈向汽车强国之路](https://www.news.cn/politics/leaders/20260619/85c489433cd6443a912028ea2cde6fd5/c.html)** — _www.news.cn_ · published 2026-06-19
+  原标题：习近平总书记关切事|走好从汽车大国迈向汽车强国之路 汽车被誉为“现代工业皇冠上的明珠”，汽车产业是国民经济的重要支柱产业。 习近平总书记指出，“我们要成为制造业强国，就要做汽车强国”，为我国汽车产业转型升级指明方向。 新时代以来，中国汽车产业坚持自主创新，聚力精工制造，在新能源攻坚、核心芯片、民族品牌三大方向，实现系统性突破，持续引领全球汽车产业变革
 
 ### 2026-06-19 — 152 articles
 - **[科氪 | 两轮电动车没有天花板，爱玛黑翼要用AI与硬核科技赢得年轻男性的心-36氪](https://36kr.com/p/3858803016881154)** — _36kr.com_ · published 2026-06-19
