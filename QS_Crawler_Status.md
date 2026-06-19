@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-20 00:20 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-20 03:14 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-06-20 00:20 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **654 unique auto/NEV articles** across **17 outlets**
+## Cumulative: **655 unique auto/NEV articles** across **17 outlets**
 
 ## New per day
 | date | new articles |
@@ -22,13 +22,13 @@ _Updated 2026-06-20 00:20 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-17 | 56 |
 | 2026-06-18 | 323 |
 | 2026-06-19 | 152 |
-| 2026-06-20 | 32 |
+| 2026-06-20 | 33 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 211 |
-| www.caam.org.cn | 128 |
+| www.caam.org.cn | 129 |
 | www.d1ev.com | 85 |
 | www.cada.cn | 54 |
 | www.news.cn | 36 |
@@ -47,7 +47,7 @@ _Updated 2026-06-20 00:20 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-06-20 — 32 articles
+### 2026-06-20 — 33 articles
 - **[·
                    中国载货汽车生产企业联席会关于加强车辆生产一致性管理的行业自律承诺书](https://www.caam.org.cn/chn/5/cate_540/con_5235946.html)** — _www.caam.org.cn_ · date: unknown
 - **[· 柳燕：凝聚产教校友合力，为汽车强国建设贡献同济力量
@@ -78,6 +78,8 @@ _Updated 2026-06-20 00:20 | discovery-only, zero LLM tokens | runs every 3h_
 - **[. 五部门关于开展2024年新能源汽车下乡活动的通知[05.16]](https://www.caam.org.cn/chn/9/cate_97/con_5236404.html)** — _www.caam.org.cn_ · date: unknown
 - **[·
 公安部：截至2023年3月底全国机动车保有量达4.2亿辆](https://www.caam.org.cn/chn/11/cate_120/con_5235729.html)** — _www.caam.org.cn_ · date: unknown
+- **[· 中国汽车工业协会接待科慕TSS总裁Joseph Martinko一行
+                     [04.16]](https://www.caam.org.cn/chn/3/cate_24/con_5237074.html)** — _www.caam.org.cn_ · date: unknown
 - **[关于中国汽车流通协会分支机构调整的通告](https://www.cada.cn/Trends/info_89_9809.html)** — _www.cada.cn_ · date: unknown
 - **[特朗普点赞加拿大对中国电动汽车低关税政策](https://www.d1ev.com/newsflash/303820)** — _www.d1ev.com_ · date: unknown
   6月19日，在法国举行的七国集团（G7）领导人峰会期间，美国总统特朗普与加拿大总理马克·卡尼的对话被现场麦克风意外记录。特朗普对加拿大允许中国电动汽车以较低关税进口的配额方式表示认可。加拿大总理马克·卡尼向特朗普介绍了加拿大的电动汽车配额安排，设置了一个“不到我们市场3%、49000辆车”的上限。特朗普对此表示：“挺好的，我喜欢。” 加拿大今年1月公布了对中
