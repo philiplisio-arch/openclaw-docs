@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-19 12:17 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-19 15:19 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-06-19 12:17 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **554 unique auto/NEV articles** across **17 outlets**
+## Cumulative: **583 unique auto/NEV articles** across **17 outlets**
 
 ## New per day
 | date | new articles |
@@ -21,14 +21,14 @@ _Updated 2026-06-19 12:17 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-16 | 33 |
 | 2026-06-17 | 56 |
 | 2026-06-18 | 323 |
-| 2026-06-19 | 84 |
+| 2026-06-19 | 113 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.dongchedi.com | 155 |
-| www.caam.org.cn | 96 |
-| www.d1ev.com | 77 |
+| www.dongchedi.com | 178 |
+| www.caam.org.cn | 101 |
+| www.d1ev.com | 78 |
 | www.cada.cn | 52 |
 | 36kr.com | 36 |
 | www.news.cn | 34 |
@@ -46,7 +46,7 @@ _Updated 2026-06-19 12:17 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-06-19 — 84 articles
+### 2026-06-19 — 113 articles
 - **[科氪 | 两轮电动车没有天花板，爱玛黑翼要用AI与硬核科技赢得年轻男性的心-36氪](https://36kr.com/p/3858803016881154)** — _36kr.com_ · published 2026-06-19
   科氪 | 两轮电动车没有天花板，爱玛黑翼要用AI与硬核科技赢得年轻男性的心 国内两轮电动车市场正悄然迎来一场深层次的“基因突变”。长期以来，大众对两轮电动车的认知被牢牢框定在“代步工具”与“大众精品”的传统叙事里。然而，在四川省体育馆的一场发布会上，爱玛正式发布了旗下专为年轻男性打造的极速运动品类品牌——“爱玛黑翼”（AIMA BLACK WING）。首位中
 - **[油价重回7元时代，油车有救了？](https://36kr.com/p/3859376836678914)** — _36kr.com_ · published 2026-06-19
@@ -107,6 +107,15 @@ _Updated 2026-06-19 12:17 | discovery-only, zero LLM tokens | runs every 3h_
                      [12.01]](https://www.caam.org.cn/chn/8/cate_91/con_5235149.html)** — _www.caam.org.cn_ · date: unknown
 - **[中国汽车工业协会标准委职业技术专委会成立会议在宁波-前湾召开
 		[03.22]](https://www.caam.org.cn/chn/10/cate_111/con_5236366.html)** — _www.caam.org.cn_ · date: unknown
+- **[· 国家统计局：一季度规模以上工业增加值同比增长3.0%，汽车制造业增长4.4%
+                     [04.20]](https://www.caam.org.cn/chn/3/cate_23/con_5235718.html)** — _www.caam.org.cn_ · date: unknown
+- **[· 携手努力 做好工作不断提升协会团标组织运行绩效——中国汽车工业协会召开标准工作研讨会
+                     [09.10]](https://www.caam.org.cn/chn/3/cate_28/con_5236508.html)** — _www.caam.org.cn_ · date: unknown
+- **[关于《电动汽车用电池管理系统设计规范》等十项团体标准立项公示的函
+		[03.24]](https://www.caam.org.cn/chn/10/cate_111/con_5235589.html)** — _www.caam.org.cn_ · date: unknown
+- **[特朗普政府放宽汽车燃油标准
+		[04.02]](https://www.caam.org.cn/chn/10/cate_113/con_5229562.html)** — _www.caam.org.cn_ · date: unknown
+- **[. 工业和信息化部办公厅 国家发展改革委办公厅 财政部办公厅 国务院国资委办公厅 市场监管总局办公厅关于开展2023年度智能制造试点示范行动的通知[08.08]](https://www.caam.org.cn/chn/9/cate_97/con_5236086.html)** — _www.caam.org.cn_ · date: unknown
 - **[蔚来萤火虫右舵版亮相香港车博会，开启智能电动新纪元](https://www.d1ev.com/newsflash/303775)** — _www.d1ev.com_ · date: unknown
   6月18日，2026香港国际汽车及供应链博览会盛大开幕。本届博览会以“驭电出海港通全球”为主题，特别设立了右舵新车专属展区，旨在聚焦核心右舵市场，展示适配海外市场的全新车型与出行解决方案。蔚来公司在此次展会上首次展出旗下智能电动高端小车品牌firefly萤火虫，标志着其在国际市场上的进一步拓展。 蔚来公司此次展出的firefly萤火虫右舵版是其首款右舵车型，
 - **[玛莎拉蒂未来规划曝光：两款E级新车2030年前亮相，合作商谈中](https://www.d1ev.com/newsflash/303774)** — _www.d1ev.com_ · date: unknown
@@ -133,6 +142,8 @@ _Updated 2026-06-19 12:17 | discovery-only, zero LLM tokens | runs every 3h_
   6月19日，比亚迪韩国公司在首尔举办说明会，介绍了其DM-i超级混动技术，并宣布将在韩国市场推出插电式 混合动力汽车（PHEV）。比亚迪强调其PHEV技术以“电为主、油为辅”，与传统欧洲品牌PHEV的“油为主、电为辅”不同。尽管韩国有“插电式混合动力车坟墓”的说法，比亚迪对其PHEV在韩国的销售前景持乐观态度，预计销量将是电动车的3倍左右。 比亚迪方面预计，
 - **[比亚迪大变革：五大品牌研究院独立运营，自负盈亏新时代](https://www.d1ev.com/newsflash/303790)** — _www.d1ev.com_ · date: unknown
   6月19日，比亚迪宣布将实施新的经营机制，旗下各子品牌将实现自负盈亏，其中仰望品牌暂不包括在内。根据新机制，各品牌将根据需求使用集团的研发、生产、采购等资源，并独立结算成本。同时，比亚迪计划将工程院拆分为王朝、海洋、方程豹、腾势、仰望五大品牌研究院，仅保留技术平台开发职能。 这一变革意味着比亚迪将改变以往由汽车工程院定义和开发车型的传统模式。比亚迪的混动/纯
+- **[北京车展2027年起一年一届，与上海车展“同年竞技”](https://www.d1ev.com/newsflash/303802)** — _www.d1ev.com_ · date: unknown
+  近日， 北京车展官方宣布，从2027年起，原本两年一届的北京车展将改为一年一届。这一变化意味着北京车展与上海车展将首次在同一年举办，两大车展的举办日期分别为3月27日至4月5日和4月25日。此前，两大车展主办方曾于2002年达成合作，以应对海外展会的竞争压力。此次变化是双方公开决裂的后续。 北京车展和上海车展分别始于1985年和1990年，最初并无直接竞争。
 - **[商用车公社](https://www.dongchedi.com/user/4063145136)** — _www.dongchedi.com_ · date: unknown
 - **[丰田汉兰达轮迹生成车身](https://www.dongchedi.com/video/7652745251148579353)** — _www.dongchedi.com_ · date: unknown
   扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
@@ -189,6 +200,38 @@ _Updated 2026-06-19 12:17 | discovery-only, zero LLM tokens | runs every 3h_
 - **[AI制作的车型进化福特野马](https://www.dongchedi.com/video/7652921758278074904)** — _www.dongchedi.com_ · date: unknown
   扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
 - **[2023 款 AION Y Plus 510 乐享版 三电仍在原厂质保周期](https://www.dongchedi.com/video/7652921154558329368)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[新车泛滥、套路满天飞！年中买车是坑还是机会？](https://www.dongchedi.com/video/7652982434857878078)** — _www.dongchedi.com_ · date: unknown
+  © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有限公司 中央网信办违法和不良信息举报中心 违法和不良信息举报电话：400-140-2108 举报邮箱：jubao@m
+- **[全新红旗HQ9 PHEV上市交付，全能MPV 2.0时代标杆车型](https://www.dongchedi.com/article/7652977789716627992)** — _www.dongchedi.com_ · date: unknown
+- **[20 万级纯电 SUV 全面测评：乐道 L60 空间、智能与驾控综合体验](https://www.dongchedi.com/article/7652977335666557465)** — _www.dongchedi.com_ · date: unknown
+- **[20万级纯电SUV，900V架构+换电+舒享包，乐道L60全家出行神器](https://www.dongchedi.com/article/7652977434144293401)** — _www.dongchedi.com_ · date: unknown
+- **[20万级中型纯电SUV，全系900V架构，乐道L60 Max+评测](https://www.dongchedi.com/article/7652976945797890585)** — _www.dongchedi.com_ · date: unknown
+- **[2026款乐道L60试驾：19万级纯电SUV，家用够舒服吗？](https://www.dongchedi.com/article/7652976833193411097)** — _www.dongchedi.com_ · date: unknown
+- **[乐道L60改款上市，全系标配蔚来NT3平台，购车门槛下调](https://www.dongchedi.com/article/7652976833192821273)** — _www.dongchedi.com_ · date: unknown
+- **[幻境车展启幕，硬核科技描绘人类出行远景](https://www.dongchedi.com/video/7652975994458374681)** — _www.dongchedi.com_ · date: unknown
+  © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有限公司 中央网信办违法和不良信息举报中心 违法和不良信息举报电话：400-140-2108 举报邮箱：jubao@m
+- **[丰田杀疯了！新车小订破万，激光雷达+双腔空悬，续航710km](https://www.dongchedi.com/video/7652969680314892825)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[2026款铂智7 710 Ultra试驾：均衡取向的家用中大型纯电轿车](https://www.dongchedi.com/article/7652969480003650073)** — _www.dongchedi.com_ · date: unknown
+- **[丰田终于想通！新车降价2.2万，激光雷达+双腔空悬，小订破万](https://www.dongchedi.com/video/7652969480003748377)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[丰田又出爆款了！新车轴距3020mm，续航700km，家用选它？](https://www.dongchedi.com/article/7652968858831602201)** — _www.dongchedi.com_ · date: unknown
+- **[佛山 2022 款 Model Y 后驱，售价不到 15 万舒适纯电 SUV](https://www.dongchedi.com/video/7652968616811479614)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[佛山 2021 款享域混动，售价不到 6 万省油家用轿车](https://www.dongchedi.com/video/7652968404000801342)** — _www.dongchedi.com_ · date: unknown
+  © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有限公司 中央网信办违法和不良信息举报中心 违法和不良信息举报电话：400-140-2108 举报邮箱：jubao@m
+- **[佛山 2025 款萤火虫发光版，售价不到 8 万高配纯电小车](https://www.dongchedi.com/video/7652968180280967742)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[佛山 2025 款星愿，售价不到 8 万长续航代步纯电小车](https://www.dongchedi.com/video/7652967773257384510)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[老五汽车世界](https://www.dongchedi.com/user/3195618623229019)** — _www.dongchedi.com_ · date: unknown
+- **[20万内落地纯电轿车，续航700km，配置高，空间大，家用很合适吗](https://www.dongchedi.com/article/7652963545667306009)** — _www.dongchedi.com_ · date: unknown
+- **[广汽丰田这次不糊弄了！铂智7不玩虚的，20万左右买它多划算](https://www.dongchedi.com/article/7652963206155469337)** — _www.dongchedi.com_ · date: unknown
+- **[轴距 3020mm 配鸿蒙座舱，广汽丰田铂智 7  16.98 万起](https://www.dongchedi.com/article/7652963281451270681)** — _www.dongchedi.com_ · date: unknown
+- **[20万级纯电中大型SUV，续航660km，配置丰富的舒适座舱](https://www.dongchedi.com/article/7652961059267379736)** — _www.dongchedi.com_ · date: unknown
+- **[汽车热点快评 | 强制本土化含量，难育产业真竞争力](https://www.dongchedi.com/article/7652959306090054168)** — _www.dongchedi.com_ · date: unknown
+- **[极狐贝塔T1与吉利星愿：同价位下谁更值得考虑？](https://www.dongchedi.com/video/7652955751278756376)** — _www.dongchedi.com_ · date: unknown
   扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
 - **[新能源车渗透率超70%，零跑徐军称要先跑通香港市场](https://www.yicai.com/news/103237579.html)** — _www.yicai.com_ · published 2026-06-18
   {{aisd}} AI生成 免责声明 “出海，是要把世界的标准长进你的产品里，再走向全世界。” 2026年6月18日，在香港车博会现场，零跑高级副总裁兼COO徐军对香港市场的战略定位，给出了一个不同于行业的解读。 在他看来，香港的价值远不止于一个销售市场，其特殊性在于其市场门槛。他认为，香港走的是右舵的英美汽车体系与认证标准，这意味着在香港走通了就能走向英美
