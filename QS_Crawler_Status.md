@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-19 06:15 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-19 09:18 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-06-19 06:15 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **510 unique auto/NEV articles** across **17 outlets**
+## Cumulative: **527 unique auto/NEV articles** across **17 outlets**
 
 ## New per day
 | date | new articles |
@@ -21,17 +21,17 @@ _Updated 2026-06-19 06:15 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-16 | 33 |
 | 2026-06-17 | 56 |
 | 2026-06-18 | 323 |
-| 2026-06-19 | 40 |
+| 2026-06-19 | 57 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.dongchedi.com | 129 |
-| www.caam.org.cn | 87 |
-| www.d1ev.com | 70 |
+| www.dongchedi.com | 135 |
+| www.caam.org.cn | 93 |
+| www.d1ev.com | 73 |
 | www.cada.cn | 52 |
+| 36kr.com | 36 |
 | www.news.cn | 34 |
-| 36kr.com | 34 |
 | www.stcn.com | 30 |
 | egs.stcn.com | 26 |
 | www.zqrb.cn | 15 |
@@ -46,9 +46,13 @@ _Updated 2026-06-19 06:15 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-06-19 — 40 articles
+### 2026-06-19 — 57 articles
 - **[科氪 | 两轮电动车没有天花板，爱玛黑翼要用AI与硬核科技赢得年轻男性的心-36氪](https://36kr.com/p/3858803016881154)** — _36kr.com_ · published 2026-06-19
   科氪 | 两轮电动车没有天花板，爱玛黑翼要用AI与硬核科技赢得年轻男性的心 国内两轮电动车市场正悄然迎来一场深层次的“基因突变”。长期以来，大众对两轮电动车的认知被牢牢框定在“代步工具”与“大众精品”的传统叙事里。然而，在四川省体育馆的一场发布会上，爱玛正式发布了旗下专为年轻男性打造的极速运动品类品牌——“爱玛黑翼”（AIMA BLACK WING）。首位中
+- **[油价重回7元时代，油车有救了？](https://36kr.com/p/3859376836678914)** — _36kr.com_ · published 2026-06-19
+  油价重回7元时代，油车有救了？ 这几天，油价迎来年内首次两连降成为车主朋友们津津乐道的话题。 毕竟今年以来，国内汽柴油价格除了一次搁浅之外，共经历了八次上涨和两次下跌，增长是稀松平常，下跌是难能可贵，难怪有油车车主朋友调侃：下班赶紧去排队加油。 从油价下调的幅度来看，受国际油价大幅跳水带动，本轮汽柴油零售价下调515元、495元/吨，折算92号汽油下降0.4
+- **[未来汽车_36氪](https://36kr.com/motif/327689699329)** — _36kr.com_ · published 2026-06-19
+  油价重回7元时代，油车有救了？ 阿维塔喊抄袭，赛豆不接招 第一批插混车主，已经开始后悔了 4400万电车不加油，到底该不该交养路费？ 比网约车贵的Robotaxi反而赚到钱了 Robotaxi收入增长4倍，小马智行调高全年业绩目标 营收暴涨为何亏损加剧？小马智行一季报折射L4自驾真实困境 中国版Waymo ，Robotaxi收入暴涨395% 法拉利首款纯电车
 - **[中国第一汽车集团有限公司董事长、党委书记徐留平
 来协会调研指导工作](https://www.caam.org.cn/chn/3/cate_17/con_5225705.html)** — _www.caam.org.cn_ · date: unknown
 - **[·
@@ -85,6 +89,19 @@ _Updated 2026-06-19 06:15 | discovery-only, zero LLM tokens | runs every 3h_
 		[10.19]](https://www.caam.org.cn/chn/10/cate_112/con_5236204.html)** — _www.caam.org.cn_ · date: unknown
 - **[·
 2022年新能源汽车产量比上年增长90.5%，年末全国民用汽车保有量达31903万辆](https://www.caam.org.cn/chn/11/cate_120/con_5235728.html)** — _www.caam.org.cn_ · date: unknown
+- **[·
+                中国汽车工业协会关于欧盟《工业加速器法案》的声明
+                [05.22]](https://www.caam.org.cn/chn/5/cate_68/con_5237121.html)** — _www.caam.org.cn_ · date: unknown
+- **[· 中国汽车工业协会关于《汽车座舱电子信息抬头显示器》等四项团体标准征求意见的函
+                     [12.27]](https://www.caam.org.cn/chn/3/cate_28/con_5236325.html)** — _www.caam.org.cn_ · date: unknown
+- **[· 第十届汽车知识产权年会成功召开
+                     [05.18]](https://www.caam.org.cn/chn/8/cate_82/con_5237119.html)** — _www.caam.org.cn_ · date: unknown
+- **[· 大手笔！沈阳将发放1亿元汽车消费补贴
+                     [06.16]](https://www.caam.org.cn/chn/8/cate_87/con_5235989.html)** — _www.caam.org.cn_ · date: unknown
+- **[中国汽车工业协会关于《复合集流体结合力测试方法》等两项团体标准征求意见的函
+		[02.21]](https://www.caam.org.cn/chn/10/cate_111/con_5236349.html)** — _www.caam.org.cn_ · date: unknown
+- **[·
+公安部：全国机动车保有量达4.17亿辆，新能源汽车保有量同比增长67.13%](https://www.caam.org.cn/chn/11/cate_120/con_5235744.html)** — _www.caam.org.cn_ · date: unknown
 - **[蔚来萤火虫右舵版亮相香港车博会，开启智能电动新纪元](https://www.d1ev.com/newsflash/303775)** — _www.d1ev.com_ · date: unknown
   6月18日，2026香港国际汽车及供应链博览会盛大开幕。本届博览会以“驭电出海港通全球”为主题，特别设立了右舵新车专属展区，旨在聚焦核心右舵市场，展示适配海外市场的全新车型与出行解决方案。蔚来公司在此次展会上首次展出旗下智能电动高端小车品牌firefly萤火虫，标志着其在国际市场上的进一步拓展。 蔚来公司此次展出的firefly萤火虫右舵版是其首款右舵车型，
 - **[玛莎拉蒂未来规划曝光：两款E级新车2030年前亮相，合作商谈中](https://www.d1ev.com/newsflash/303774)** — _www.d1ev.com_ · date: unknown
@@ -97,6 +114,12 @@ _Updated 2026-06-19 06:15 | discovery-only, zero LLM tokens | runs every 3h_
   6月18日，针对外界关于宝马将停产国产纯电车型的传闻，宝马方面进行了澄清。据知情人士透露，宝马此次调整是基于市场需求变化和产品生命周期管理的正常生产节奏调整，旨在为新世代车型上市做准备。具体来说，国产纯电动车型i5、i3、iX1三款车型将于7月暂停生产，其中iX1与i3确认停产，i5的未来复产情况尚未确定。宝马强调，此次调整不会影响车主的售后服务和维保权益，
 - **[蔚来李斌谈轻量化与换电：新能源车技术革命正当时](https://www.d1ev.com/newsflash/303781)** — _www.d1ev.com_ · date: unknown
   近日，蔚来创始人 李斌与乐道汽车总裁沈斐在新乐道L60上市发布会后接受媒体采访，深入讨论了产品技术路线、品牌定位和市场竞争等核心议题。李斌强调，轻量化是汽车综合研发能力的体现，新乐道L60的白车身轻量化系数达到2.22，展现了工程能力。蔚来推动换电标准化，已在欧洲部署60多座换电站，并在新加坡销售萤火虫。李斌认为，换电的三个不可替代价值包括解决车电不同寿问题
+- **[银河TT来了 吉利纯电需要一张新牌](https://www.d1ev.com/carnews/xinche/303789)** — _www.d1ev.com_ · date: unknown
+  6月17日，吉利银河官方正式官宣，旗下全新C级AI纯电运动轿车命名为――吉利银河TT。这个命名由全网用户投票而来，从6月12日公开征名到正式公布仅用5天。“TT”意为“Trend”与“Technology”――全球原创，极致科技。名字来得干脆，但产品要面对的市场局面，远没有这么轻松。 当下新能源市场正处在一个微妙的分化节点：纯电增速加快，插混与增程势头趋弱。
+- **[理想汽车回应：L系列专注增程，i系列纯电SUV续航高达720公里](https://www.d1ev.com/newsflash/303787)** — _www.d1ev.com_ · date: unknown
+  6月19日，理想汽车官方回应了关于“未来理想L系列会推出纯电车型”的问题。理想汽车明确表示，理想L系列将继续作为增程产品系列，而纯电SUV车型将由理想i系列来承载。公司强调，理想L系列的核心目标是将“可油可电”的体验做到极致，以满足用户在日常纯电出行和长途出行或充电不便时的需求。 目前，理想i系列已有两款纯电SUV车型。理想i8于2025年7月发布，起售价为
+- **[6月新能源车零售量预计破百万，渗透率超63%创新高](https://www.d1ev.com/newsflash/303782)** — _www.d1ev.com_ · date: unknown
+  6月19日，乘联分会发布最新市场分析，预测6月狭义乘用车零售市场规模约为165万辆，环比增长9.3%。其中，新能源零售量预计达到105万辆，环比增长10.5%，渗透率约为63.6%，新能源与传统燃油车市场分化持续加大。6月初，由于厂商集中冲量，部分需求提前释放，导致市场走势相对低迷。然而，随着“618”促销活动的启动，市场开始缓慢修复，日均零售量从3.3万辆
 - **[商用车公社](https://www.dongchedi.com/user/4063145136)** — _www.dongchedi.com_ · date: unknown
 - **[丰田汉兰达轮迹生成车身](https://www.dongchedi.com/video/7652745251148579353)** — _www.dongchedi.com_ · date: unknown
   扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
@@ -118,6 +141,13 @@ _Updated 2026-06-19 06:15 | discovery-only, zero LLM tokens | runs every 3h_
 - **[2026CRKC 济南站车载计时分段数据，复盘提速完整流程](https://www.dongchedi.com/article/7652740000644334142)** — _www.dongchedi.com_ · date: unknown
 - **[新车速递早知道](https://www.dongchedi.com/user/1925942479424280)** — _www.dongchedi.com_ · date: unknown
 - **[蔚来高管：新车市场拉动效应正逐步减弱](https://www.dongchedi.com/article/7652742166419522072)** — _www.dongchedi.com_ · date: unknown
+- **[烧液态氢的 Hypercar,丰田 TR LH2](https://www.dongchedi.com/video/7652776907813339673)** — _www.dongchedi.com_ · date: unknown
+  © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有限公司 中央网信办违法和不良信息举报中心 违法和不良信息举报电话：400-140-2108 举报邮箱：jubao@m
+- **[比亚迪闪充站落地温州，中石化布局新能源补能网络](https://www.dongchedi.com/article/7652769648974791192)** — _www.dongchedi.com_ · date: unknown
+- **[汽车基础软件技术突破，中国方案纳入全球行业标准](https://www.dongchedi.com/article/7652768460699451928)** — _www.dongchedi.com_ · date: unknown
+- **[小鹏X9车型在欧洲七国正式开启交付工作](https://www.dongchedi.com/article/7652762890000433688)** — _www.dongchedi.com_ · date: unknown
+- **[日产官方宣布新车研发周期将缩短至原有水平的一半](https://www.dongchedi.com/article/7652748746094821950)** — _www.dongchedi.com_ · date: unknown
+- **[埃安i60 530宁德版正式上市，限时焕新价10.36万起](https://www.dongchedi.com/article/7652750570390569496)** — _www.dongchedi.com_ · date: unknown
 - **[新能源车渗透率超70%，零跑徐军称要先跑通香港市场](https://www.yicai.com/news/103237579.html)** — _www.yicai.com_ · published 2026-06-18
   {{aisd}} AI生成 免责声明 “出海，是要把世界的标准长进你的产品里，再走向全世界。” 2026年6月18日，在香港车博会现场，零跑高级副总裁兼COO徐军对香港市场的战略定位，给出了一个不同于行业的解读。 在他看来，香港的价值远不止于一个销售市场，其特殊性在于其市场门槛。他认为，香港走的是右舵的英美汽车体系与认证标准，这意味着在香港走通了就能走向英美
 
