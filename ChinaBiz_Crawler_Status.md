@@ -1,19 +1,19 @@
 # China Business Daily — Crawler Status
 
-_Updated 2026-06-20 00:42 | WS1 redesign source universe | discovery-only, zero LLM tokens | every 3h_
+_Updated 2026-06-20 03:41 | WS1 redesign source universe | discovery-only, zero LLM tokens | every 3h_
 
-## Cumulative: **2783 business articles** across **16 outlets**
+## Cumulative: **2793 business articles** across **16 outlets**
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.stcn.com | 631 |
-| www.21jingji.com | 493 |
+| www.21jingji.com | 497 |
 | www.nbd.com.cn | 484 |
 | www.jiemian.com | 225 |
 | 36kr.com | 224 |
+| www.eeo.com.cn | 198 |
 | www.yicai.com | 197 |
-| www.eeo.com.cn | 192 |
 | finance.people.com.cn | 176 |
 | news.cnstock.com | 71 |
 | caijing.chinadaily.com.cn | 33 |
@@ -24,10 +24,14 @@ _Updated 2026-06-20 00:42 | WS1 redesign source universe | discovery-only, zero 
 | jingji.cctv.com | 4 |
 | m.21jingji.com | 1 |
 
-## 2026-06-20 — 21 articles
+## 2026-06-20 — 31 articles
 - **[财经聚焦丨“618”折射哪些消费新变化](https://finance.people.com.cn/n1/2026/0620/c1004-40743746.html)** — _finance.people.com.cn_ · published 2026-06-20
 - **[页面没有找到](https://news.cnstock.com/commonDetail/731782)** — _news.cnstock.com_ · date: unknown
 - **[页面没有找到](https://news.cnstock.com/commonDetail/731807)** — _news.cnstock.com_ · date: unknown
+- **[广东成立6G产业创新发展联盟 占据新一轮科技竞争战略制高点](https://www.21jingji.com/article/20260619/herald/40dd3d811bcead6900b9428b117a6329.html)** — _www.21jingji.com_ · date: unknown
+- **[有望成为“物理AI第一股”，Momenta港股IPO证监会备案通过](https://www.21jingji.com/article/20260619/herald/602914407706c4a7a36a398ee019130f.html)** — _www.21jingji.com_ · date: unknown
+- **[能耗成本节约50%！新能源商用车逆势增长，甲醇电动成绿色交通“最优解”？](https://www.21jingji.com/article/20260619/herald/afaac095de3ac77d768fb79edfc2d2e6.html)** — _www.21jingji.com_ · date: unknown
+- **[沃什首秀吓坏市场，A股将走出独立行情？](https://www.21jingji.com/article/20260619/herald/ede90f4dcac4e2c10e87721a5d0f54fb.html)** — _www.21jingji.com_ · date: unknown
 - **[特灵科技受益数据中心制冷需求增长 6月18日股价创近期新高](https://www.eeo.com.cn/2026/0620/921975.shtml)** — _www.eeo.com.cn_ · date: unknown
 - **[明晟下周将裁决印尼市场分类 核心业务基本盘稳固](https://www.eeo.com.cn/2026/0620/921973.shtml)** — _www.eeo.com.cn_ · published 2026-06-20
 - **[Apogee Therapeutics与黑石13亿美金融资将按临床阶段分批解锁](https://www.eeo.com.cn/2026/0620/921972.shtml)** — _www.eeo.com.cn_ · published 2026-06-20
@@ -37,6 +41,12 @@ _Updated 2026-06-20 00:42 | WS1 redesign source universe | discovery-only, zero 
 - **[特朗普宣布苹果拟与英特尔合作芯片代工，英特尔股价涨超10%](https://www.eeo.com.cn/2026/0619/921966.shtml)** — _www.eeo.com.cn_ · date: unknown
 - **[中国人如何在东南亚市场卖光储？](https://www.eeo.com.cn/2026/0618/920720.shtml)** — _www.eeo.com.cn_ · published 2026-06-18
 - **[新材料投资潮起，中银新材料混合发行](https://www.eeo.com.cn/2026/0618/919457.shtml)** — _www.eeo.com.cn_ · date: unknown
+- **[Xti Aerospace无人机业务营收破亿 新机型认证推进获大额订单](https://www.eeo.com.cn/2026/0620/922013.shtml)** — _www.eeo.com.cn_ · published 2026-06-20
+- **[J. Jill, Inc. Q1业绩超预期 指引偏谨慎股价先跌后涨](https://www.eeo.com.cn/2026/0620/922012.shtml)** — _www.eeo.com.cn_ · published 2026-06-20
+- **[Zenatech, Inc.业务转型进展顺利 一季度营收同比大增640%](https://www.eeo.com.cn/2026/0620/922008.shtml)** — _www.eeo.com.cn_ · published 2026-06-11
+- **[嘉楠科技Q1业绩亏损 股价低位运行存纳斯达克退市风险](https://www.eeo.com.cn/2026/0620/922007.shtml)** — _www.eeo.com.cn_ · date: unknown
+- **[新桥生物Givastomig获FDA快速通道资格，后续将公布临床数据推进试验](https://www.eeo.com.cn/2026/0620/922005.shtml)** — _www.eeo.com.cn_ · published 2026-06-16
+- **[优蓝国际股价波动性较大，中概股身份面临监管环境不确定性](https://www.eeo.com.cn/2026/0620/922004.shtml)** — _www.eeo.com.cn_ · published 2026-06-20
 - **[2026届毕业设计展，是艺术创作，还是AI科技展？中央美院博导：AI或许可以模仿梵高的风格，但永远无法创造出第一个梵高](https://www.nbd.com.cn/articles/2026-06-19/4431732.html)** — _www.nbd.com.cn_ · published 2026-06-19
 - **[欧洲主要股指收盘涨跌不一，英国富时100指数跌0.35%](https://www.nbd.com.cn/articles/2026-06-19/4431741.html)** — _www.nbd.com.cn_ · published 2026-06-19
 - **[集高科技与时尚于一身，彰显美国自豪的特朗普移动首款手机！是中国设计、中国制造？](https://www.nbd.com.cn/articles/2026-06-19/4431740.html)** — _www.nbd.com.cn_ · published 2026-06-19
