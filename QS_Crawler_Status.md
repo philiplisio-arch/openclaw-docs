@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-20 09:15 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-20 12:15 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-06-20 09:15 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **668 unique auto/NEV articles** across **17 outlets**
+## Cumulative: **692 unique auto/NEV articles** across **17 outlets**
 
 ## New per day
 | date | new articles |
@@ -22,14 +22,14 @@ _Updated 2026-06-20 09:15 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-17 | 56 |
 | 2026-06-18 | 323 |
 | 2026-06-19 | 152 |
-| 2026-06-20 | 46 |
+| 2026-06-20 | 70 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.dongchedi.com | 222 |
-| www.caam.org.cn | 131 |
-| www.d1ev.com | 85 |
+| www.dongchedi.com | 238 |
+| www.caam.org.cn | 134 |
+| www.d1ev.com | 90 |
 | www.cada.cn | 54 |
 | www.news.cn | 36 |
 | 36kr.com | 36 |
@@ -47,7 +47,7 @@ _Updated 2026-06-20 09:15 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-06-20 — 46 articles
+### 2026-06-20 — 70 articles
 - **[·
                    中国载货汽车生产企业联席会关于加强车辆生产一致性管理的行业自律承诺书](https://www.caam.org.cn/chn/5/cate_540/con_5235946.html)** — _www.caam.org.cn_ · date: unknown
 - **[· 柳燕：凝聚产教校友合力，为汽车强国建设贡献同济力量
@@ -85,6 +85,11 @@ _Updated 2026-06-20 09:15 | discovery-only, zero LLM tokens | runs every 3h_
                 [04.22]](https://www.caam.org.cn/chn/5/cate_69/con_5237080.html)** — _www.caam.org.cn_ · date: unknown
 - **[· 关于召开中国汽车产业战略发展论坛暨《中国汽车工业发展报告(2021)》发布会的通知
                      [06.07]](https://www.caam.org.cn/chn/3/cate_23/con_5233870.html)** — _www.caam.org.cn_ · date: unknown
+- **[· 新能源汽车出口增长超1.5倍 我国自主品牌出口进入新阶段
+                     [09.08]](https://www.caam.org.cn/chn/8/cate_87/con_5236147.html)** — _www.caam.org.cn_ · date: unknown
+- **[欧汽协主席兼雷诺CEO德梅奥：欧洲汽车产业正面临转折点](https://www.caam.org.cn/chn/8/cate_88/con_5236312.html)** — _www.caam.org.cn_ · date: unknown
+- **[中国汽车工业协会关于《复合集流体结合力测试方法》等两项团体标准征求意见的函
+		[02.21]](https://www.caam.org.cn/chn/10/cate_112/con_5236349.html)** — _www.caam.org.cn_ · date: unknown
 - **[关于中国汽车流通协会分支机构调整的通告](https://www.cada.cn/Trends/info_89_9809.html)** — _www.cada.cn_ · date: unknown
 - **[特朗普点赞加拿大对中国电动汽车低关税政策](https://www.d1ev.com/newsflash/303820)** — _www.d1ev.com_ · date: unknown
   6月19日，在法国举行的七国集团（G7）领导人峰会期间，美国总统特朗普与加拿大总理马克·卡尼的对话被现场麦克风意外记录。特朗普对加拿大允许中国电动汽车以较低关税进口的配额方式表示认可。加拿大总理马克·卡尼向特朗普介绍了加拿大的电动汽车配额安排，设置了一个“不到我们市场3%、49000辆车”的上限。特朗普对此表示：“挺好的，我喜欢。” 加拿大今年1月公布了对中
@@ -92,6 +97,16 @@ _Updated 2026-06-20 09:15 | discovery-only, zero LLM tokens | runs every 3h_
   今日，美国造车新势力Rivian因被指控夸大其初代R1T皮卡和R1S SUV的 自动驾驶能力而面临消费者集体诉讼。诉讼文件已提交至美国加州中区联邦地区法院，原告指责Rivian曾向消费者承诺，其第一代车型将支持脱手脱眼的驾驶功能，即在特定条件下车辆能够自行完成转向、加速和制动，而驾驶员无需持续操控或观察道路。然而，原告声称Rivian明知第一代车型在硬件层面
 - **[法拉利7月4日将发布融合传统与未来的全新车型](https://www.d1ev.com/newsflash/303817)** — _www.d1ev.com_ · date: unknown
   近日，法拉利CEO维尼亚在美国拉斯维加斯的经销商大会上透露，公司计划于7月4日发布一款全新车型。维尼亚强调，这款新车将融合法拉利的品牌传统与未来发展方向，将过去的元素与未来的目光结合在一起。他还重申，法拉利将继续布局燃油、混动、纯电等多种动力路线，并把车型选择权交给消费者。 关于即将亮相的新车型，外界有多种猜测。有观点认为这可能与法拉利此前注册的商标“12C
+- **[理想i6月销破2万，10天量产15000辆纯电SUV新纪录](https://www.d1ev.com/newsflash/303838)** — _www.d1ev.com_ · date: unknown
+  6月20日，理想汽车宣布第15000辆理想i6正式量产下线，标志着该车型的生产速度和市场需求强劲。理想i6连续三个月月销量突破2万台，成为20万级别仅次于特斯拉Model Y的纯电SUV。该车型以24.98万起的上市价，与理想L6持平，展现出其高性价比。 理想i6定位中大型5座SUV，车身尺寸为4950*1935*1655毫米，轴距3000毫米，车内纵向可用
+- **[2026第九届智能驾驶与出海大会](https://www.d1ev.com/news/shichang/303837)** — _www.d1ev.com_ · date: unknown
+  6月18日，在盖世汽车主办的2026第九届智能驾驶与出海大会上，知行科技高级系统总监张伟指出，中国智驾方案出海正面临从行车到泊车、从感知到交互的多重场景适配挑战。 在行车场景中，欧洲道路环境与中国差异显著。德国不限速高速对规控与整车接口提出更高要求；海外各类异形车辆（如拖挂车、斗式自行车）及不清晰的车道线（石子路标线、施工临时黄白线）均对感知模型构成考验。此
+- **[国内车企瞄准右舵市场，香港车博会成出海跳板](https://www.d1ev.com/newsflash/303834)** — _www.d1ev.com_ · date: unknown
+  6月18日，香港车博会开幕，国内车企加速出海，右舵车市场成为关键目标。零跑汽车高级副总裁兼首席运营官徐军表示，香港沿用右舵车市场汽车法规、认证体系，车企在香港市场跑通有助于在全球拓展。 比亚迪、广汽集团、吉利汽车、零跑汽车、一汽红旗、东风汽车等车企，均在此次香港车博会上推出了全新右舵车型。这些车型的亮相，标志着中国车企在全球右舵车市场的布局进一步加快。通过在
+- **[问界M9累计交付超29万台 全新车型开启交付](https://www.d1ev.com/carnews/xinche/303831)** — _www.d1ev.com_ · date: unknown
+  快科技6月18日消息，今天下午，鸿蒙智行宣布，问界M9全系累计交付突破29万台。本月中旬，全新一代问界M9已开启全国交付。 据悉，全新一代问界M9于5月27日正式发布，售价47.98万元起。 全新一代问界M9带来了40多项行业首发技术，全车40个传感器，首发前向3激光雷达（含896线双光路激光雷达配备自清洗功能），首创全向4颗固态激光雷达。 全车一共6颗激光
+- **[猛士M817插混SUV 6月27日上市，预售价37万起，纯电续航301km！](https://www.d1ev.com/newsflash/303828)** — _www.d1ev.com_ · date: unknown
+  6月27日，猛士汽车宣布全新猛士M817正式上市，预售价区间为37-42万元。这款新车带来了5大维度296项升级，包括2.0T插混系统，CLTC纯电续航最高可达301km。外观设计上，猛士M817延续家族化的雄魂美学2.0设计语言，狮吼格栅采用封闭样式搭配发光饰条，日行灯点亮时M-LOGO灯同步亮起，展现科技感。车身提供五种颜色选择，侧面造型延续在售车型，配
 - **[广州护卫舰 07 旗舰型，售价不到 11 万，205km 长续航混动 SUV](https://www.dongchedi.com/video/7653123491935486526)** — _www.dongchedi.com_ · date: unknown
   © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有限公司 中央网信办违法和不良信息举报中心 违法和不良信息举报电话：400-140-2108 举报邮箱：jubao@m
 - **[懂车帝汽车商城玉米好车店](https://www.dongchedi.com/user/1779430035030596)** — _www.dongchedi.com_ · date: unknown
@@ -125,6 +140,24 @@ _Updated 2026-06-20 09:15 | discovery-only, zero LLM tokens | runs every 3h_
   扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
 - **[汽车门网](https://www.dongchedi.com/user/637336640031372)** — _www.dongchedi.com_ · date: unknown
 - **[纯电动车卖得火！5月销量榜出炉 17款销量过万 零跑A10第四](https://www.dongchedi.com/article/7653139157325726232)** — _www.dongchedi.com_ · date: unknown
+- **[20万级家用新能源SUV，这款新车配置诚意拉满，值得购买吗？](https://www.dongchedi.com/article/7653308008239268414)** — _www.dongchedi.com_ · date: unknown
+- **[昊铂S600实拍体验：配置一步到位，纯电家用SUV可以这么选](https://www.dongchedi.com/article/7653307899288273470)** — _www.dongchedi.com_ · date: unknown
+- **[家用 SUV 怎么选？这款增程车型综合实力表现均衡](https://www.dongchedi.com/article/7653307790362231358)** — _www.dongchedi.com_ · date: unknown
+- **[昊铂S600：这款车型配置拉满，家用更合适](https://www.dongchedi.com/article/7653305489903911486)** — _www.dongchedi.com_ · date: unknown
+- **[太平洋汽车](https://www.dongchedi.com/user/3190706963)** — _www.dongchedi.com_ · date: unknown
+- **[豫见车市](https://www.dongchedi.com/user/5968893316)** — _www.dongchedi.com_ · date: unknown
+- **[20万级中大型纯电SUV，这台车的家用属性确实下功夫了](https://www.dongchedi.com/article/7653301661104095806)** — _www.dongchedi.com_ · date: unknown
+- **[18.99 万起配 800V + 激光雷达 昊铂 S600 纯电版解析](https://www.dongchedi.com/article/7653301661103997502)** — _www.dongchedi.com_ · date: unknown
+- **[昊铂S600上市，增程纯电双动力可选](https://www.dongchedi.com/article/7653301075495715390)** — _www.dongchedi.com_ · date: unknown
+- **[华为智驾逆势涨价，各家车企会跟风吗？](https://www.dongchedi.com/article/7653296306605392408)** — _www.dongchedi.com_ · date: unknown
+- **[广汽丰田铂智7限时14.78万起！华为鸿蒙座舱+710km续航+双腔空悬](https://www.dongchedi.com/video/7653295905919238718)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[突发！欧盟准备对中国混动汽车征收关税](https://www.dongchedi.com/article/7653295575185523262)** — _www.dongchedi.com_ · date: unknown
+- **[丰田铂智7体验：鸿蒙座舱+双腔空悬，兼顾家用与商用的纯电车型](https://www.dongchedi.com/article/7653291733430108734)** — _www.dongchedi.com_ · date: unknown
+- **[丰田杀疯了！小订破万，激光雷达+双腔空悬，续航710km](https://www.dongchedi.com/video/7653291733408727614)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[一周深度试驾体验，广汽丰田铂智7适合家用吗？｜ 实测笔记](https://www.dongchedi.com/article/7653291086953120318)** — _www.dongchedi.com_ · date: unknown
+- **[车市独白](https://www.dongchedi.com/user/3672803240059374)** — _www.dongchedi.com_ · date: unknown
 - **[走好从汽车大国迈向汽车强国之路](https://www.news.cn/politics/leaders/20260619/85c489433cd6443a912028ea2cde6fd5/c.html)** — _www.news.cn_ · published 2026-06-19
   原标题：习近平总书记关切事|走好从汽车大国迈向汽车强国之路 汽车被誉为“现代工业皇冠上的明珠”，汽车产业是国民经济的重要支柱产业。 习近平总书记指出，“我们要成为制造业强国，就要做汽车强国”，为我国汽车产业转型升级指明方向。 新时代以来，中国汽车产业坚持自主创新，聚力精工制造，在新能源攻坚、核心芯片、民族品牌三大方向，实现系统性突破，持续引领全球汽车产业变革
 
