@@ -1,20 +1,20 @@
 # China Business Daily — Crawler Status
 
-_Updated 2026-06-21 03:41 | WS1 redesign source universe | discovery-only, zero LLM tokens | every 3h_
+_Updated 2026-06-21 06:41 | WS1 redesign source universe | discovery-only, zero LLM tokens | every 3h_
 
-## Cumulative: **2946 business articles** across **16 outlets**
+## Cumulative: **2956 business articles** across **16 outlets**
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.stcn.com | 655 |
-| www.21jingji.com | 540 |
+| www.21jingji.com | 541 |
 | www.nbd.com.cn | 493 |
 | www.jiemian.com | 242 |
+| www.eeo.com.cn | 232 |
 | 36kr.com | 230 |
-| www.eeo.com.cn | 226 |
 | www.yicai.com | 204 |
-| finance.people.com.cn | 188 |
+| finance.people.com.cn | 191 |
 | news.cnstock.com | 76 |
 | caijing.chinadaily.com.cn | 33 |
 | finance.caixin.com | 23 |
@@ -24,20 +24,30 @@ _Updated 2026-06-21 03:41 | WS1 redesign source universe | discovery-only, zero 
 | jingji.cctv.com | 4 |
 | m.21jingji.com | 1 |
 
-## 2026-06-21 — 17 articles
+## 2026-06-21 — 27 articles
 - **[打通大中小企业融通堵点 七部门促平台经济协同发展](https://finance.people.com.cn/n1/2026/0621/c1004-40744081.html)** — _finance.people.com.cn_ · published 2026-06-21
 - **[油菜地变“致富田”](https://finance.people.com.cn/n1/2026/0621/c1004-40744078.html)** — _finance.people.com.cn_ · published 2026-06-21
+- **[让钢铁实现个性化、定制化生产（产业里的年轻人）](https://finance.people.com.cn/n1/2026/0621/c1004-40744097.html)** — _finance.people.com.cn_ · published 2026-06-21
+- **[“准时送达，提供更好的服务”（大力促进就业创业）](https://finance.people.com.cn/n1/2026/0621/c1004-40744096.html)** — _finance.people.com.cn_ · published 2026-06-21
+- **[航天产业为老区发展注入新动能（老区新事）](https://finance.people.com.cn/n1/2026/0621/c1004-40744091.html)** — _finance.people.com.cn_ · published 2026-06-21
 - **[页面没有找到](https://news.cnstock.com/commonDetail/731848)** — _news.cnstock.com_ · date: unknown
 - **[上交所拟推股票期权组合策略业务？暂不实施](https://www.21jingji.com/article/20260620/herald/a7d0332d4775ad41203395968e4d6bec.html)** — _www.21jingji.com_ · date: unknown
 - **[10倍存储牛股下周解禁，人均盈利或超1900万元](https://www.21jingji.com/article/20260620/herald/e9440083ec119166bb4910380e293342.html)** — _www.21jingji.com_ · date: unknown
 - **[603986，存储芯片大牛股，下周解禁！](https://www.21jingji.com/article/20260620/herald/72bd35f456e56df1b041cac8e5d56e1f.html)** — _www.21jingji.com_ · date: unknown
 - **[俄央行宣布下调基准利率25个基点](https://www.21jingji.com/article/20260620/herald/dedba91ddbe37cde1ae32292eaa8c257.html)** — _www.21jingji.com_ · date: unknown
 - **[夏至巧遇父亲节，一年最长白昼，藏着最深祝福！](https://www.21jingji.com/article/20260621/herald/51cbb59c3f54f33328f3725e0ce960e0.html)** — _www.21jingji.com_ · date: unknown
+- **[24支队伍同台竞技 这场龙舟赛“科技味”十足](https://www.21jingji.com/article/20260621/herald/d5c628e9c82312595ad5b6b88444be90.html)** — _www.21jingji.com_ · date: unknown
 - **[奥尔巴尼国际Q2财报临近，战略推进与行业动态受关注](https://www.eeo.com.cn/2026/0621/923174.shtml)** — _www.eeo.com.cn_ · date: unknown
 - **[阿斯利康Truqap新适应症获FDA批准，重申在华千亿投资计划](https://www.eeo.com.cn/2026/0621/923172.shtml)** — _www.eeo.com.cn_ · date: unknown
 - **[一起教育科技发布新财报 营收同比大增359%转型AI服务商](https://www.eeo.com.cn/2026/0621/923170.shtml)** — _www.eeo.com.cn_ · date: unknown
 - **[团车网6月18日跌3.43%，流动性低叠加业绩平淡拖累股价](https://www.eeo.com.cn/2026/0621/923169.shtml)** — _www.eeo.com.cn_ · date: unknown
 - **[传奇生物定增募资约2.26亿美元 6月18日股价大跌16.68%](https://www.eeo.com.cn/2026/0621/923168.shtml)** — _www.eeo.com.cn_ · published 2026-06-21
+- **[数说链博丨明日开幕！一组数据读懂本届链博会新亮点](https://www.eeo.com.cn/2026/0621/923197.shtml)** — _www.eeo.com.cn_ · published 2026-06-21
+- **[中国天然资源2025财年仍亏损，股价上涨为事件情绪驱动](https://www.eeo.com.cn/2026/0621/923193.shtml)** — _www.eeo.com.cn_ · published 2026-06-21
+- **[佳裕达推进北美业务布局 合作光弘科技同时面临合规风险](https://www.eeo.com.cn/2026/0621/923192.shtml)** — _www.eeo.com.cn_ · date: unknown
+- **[Ceribell 2025年营收增36%，净亏损扩大至5340万美元](https://www.eeo.com.cn/2026/0621/923191.shtml)** — _www.eeo.com.cn_ · published 2026-06-21
+- **[康迪科技推进业务转型，近一周股价微跌2.6%获机构看多](https://www.eeo.com.cn/2026/0621/923189.shtml)** — _www.eeo.com.cn_ · date: unknown
+- **[富尔顿金融即将派息 机构增持股价震荡引市场关注](https://www.eeo.com.cn/2026/0621/923188.shtml)** — _www.eeo.com.cn_ · published 2026-07-01
 - **[“客户越来越挑剔了！”上海高端住宅市场分化：千万元级产品去化放缓，顶豪项目依旧抢手](https://www.nbd.com.cn/articles/2026-06-20/4431970.html)** — _www.nbd.com.cn_ · published 2026-06-20
 - **[大众将削减约5万个岗位，管理层：仅靠压缩成本，无法扭亏为盈，业内人士：中国市场日趋成熟，各市场转型步伐愈发不均衡](https://www.nbd.com.cn/articles/2026-06-20/4431925.html)** — _www.nbd.com.cn_ · published 2026-06-20
 - **[7800亿！2028年可兑现，马斯克拿下天价奖励，其身家超越140个国家GDP，约能购买9403吨黄金](https://www.nbd.com.cn/articles/2026-06-20/4431943.html)** — _www.nbd.com.cn_ · published 2026-06-20
