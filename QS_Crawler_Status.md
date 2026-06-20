@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-20 06:14 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-20 09:15 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-06-20 06:14 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **655 unique auto/NEV articles** across **17 outlets**
+## Cumulative: **668 unique auto/NEV articles** across **17 outlets**
 
 ## New per day
 | date | new articles |
@@ -22,13 +22,13 @@ _Updated 2026-06-20 06:14 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-17 | 56 |
 | 2026-06-18 | 323 |
 | 2026-06-19 | 152 |
-| 2026-06-20 | 33 |
+| 2026-06-20 | 46 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.dongchedi.com | 211 |
-| www.caam.org.cn | 129 |
+| www.dongchedi.com | 222 |
+| www.caam.org.cn | 131 |
 | www.d1ev.com | 85 |
 | www.cada.cn | 54 |
 | www.news.cn | 36 |
@@ -47,7 +47,7 @@ _Updated 2026-06-20 06:14 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-06-20 — 33 articles
+### 2026-06-20 — 46 articles
 - **[·
                    中国载货汽车生产企业联席会关于加强车辆生产一致性管理的行业自律承诺书](https://www.caam.org.cn/chn/5/cate_540/con_5235946.html)** — _www.caam.org.cn_ · date: unknown
 - **[· 柳燕：凝聚产教校友合力，为汽车强国建设贡献同济力量
@@ -80,6 +80,11 @@ _Updated 2026-06-20 06:14 | discovery-only, zero LLM tokens | runs every 3h_
 公安部：截至2023年3月底全国机动车保有量达4.2亿辆](https://www.caam.org.cn/chn/11/cate_120/con_5235729.html)** — _www.caam.org.cn_ · date: unknown
 - **[· 中国汽车工业协会接待科慕TSS总裁Joseph Martinko一行
                      [04.16]](https://www.caam.org.cn/chn/3/cate_24/con_5237074.html)** — _www.caam.org.cn_ · date: unknown
+- **[·
+                关于征集《二手乘用车厂商整备技术规范》等五项团体标准参编单位的通知
+                [04.22]](https://www.caam.org.cn/chn/5/cate_69/con_5237080.html)** — _www.caam.org.cn_ · date: unknown
+- **[· 关于召开中国汽车产业战略发展论坛暨《中国汽车工业发展报告(2021)》发布会的通知
+                     [06.07]](https://www.caam.org.cn/chn/3/cate_23/con_5233870.html)** — _www.caam.org.cn_ · date: unknown
 - **[关于中国汽车流通协会分支机构调整的通告](https://www.cada.cn/Trends/info_89_9809.html)** — _www.cada.cn_ · date: unknown
 - **[特朗普点赞加拿大对中国电动汽车低关税政策](https://www.d1ev.com/newsflash/303820)** — _www.d1ev.com_ · date: unknown
   6月19日，在法国举行的七国集团（G7）领导人峰会期间，美国总统特朗普与加拿大总理马克·卡尼的对话被现场麦克风意外记录。特朗普对加拿大允许中国电动汽车以较低关税进口的配额方式表示认可。加拿大总理马克·卡尼向特朗普介绍了加拿大的电动汽车配额安排，设置了一个“不到我们市场3%、49000辆车”的上限。特朗普对此表示：“挺好的，我喜欢。” 加拿大今年1月公布了对中
@@ -103,6 +108,23 @@ _Updated 2026-06-20 06:14 | discovery-only, zero LLM tokens | runs every 3h_
   扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
 - **[大众迈腾PHEV：纯电续航162公里，油耗0.76L，值得买吗？](https://www.dongchedi.com/article/7653087083330191897)** — _www.dongchedi.com_ · date: unknown
 - **[迈腾PHEV车型全方位参数解析](https://www.dongchedi.com/article/7653086974546477593)** — _www.dongchedi.com_ · date: unknown
+- **[苏州蔚来 EC6 售价不到 17 万，豪华轿跑纯电颜值配置拉满](https://www.dongchedi.com/video/7653273614384595481)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[苏州驱逐舰 05 售价不到 6 万，DM](https://www.dongchedi.com/video/7653273487225897497)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[极狐贝塔T1和吉利星愿，A0级小车谁的价值感更强?](https://www.dongchedi.com/video/7653272534674686488)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[东莞车源 2025 款小鹏 MONA M03 售价不到 11 万 长续航智能](https://www.dongchedi.com/video/7653272448405979710)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[用车知识普及！“大块头”扎堆，新能源车为何集体“发福”？](https://www.dongchedi.com/video/7653244801554481689)** — _www.dongchedi.com_ · date: unknown
+  © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有限公司 中央网信办违法和不良信息举报中心 违法和不良信息举报电话：400-140-2108 举报邮箱：jubao@m
+- **[中视汽车](https://www.dongchedi.com/user/63540907996)** — _www.dongchedi.com_ · date: unknown
+- **[吉利C级车官宣，纯电轿车，车长4.999米](https://www.dongchedi.com/article/7653184718694973976)** — _www.dongchedi.com_ · date: unknown
+- **[比亚迪千里眼功能太强悍！多数车主居然白白闲置](https://www.dongchedi.com/article/7653180935403291160)** — _www.dongchedi.com_ · date: unknown
+- **[给MPV加上SUV的通过性，魏牌高山7SUV版来了丨新车上市](https://www.dongchedi.com/video/7653166098280120856)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[汽车门网](https://www.dongchedi.com/user/637336640031372)** — _www.dongchedi.com_ · date: unknown
+- **[纯电动车卖得火！5月销量榜出炉 17款销量过万 零跑A10第四](https://www.dongchedi.com/article/7653139157325726232)** — _www.dongchedi.com_ · date: unknown
 - **[走好从汽车大国迈向汽车强国之路](https://www.news.cn/politics/leaders/20260619/85c489433cd6443a912028ea2cde6fd5/c.html)** — _www.news.cn_ · published 2026-06-19
   原标题：习近平总书记关切事|走好从汽车大国迈向汽车强国之路 汽车被誉为“现代工业皇冠上的明珠”，汽车产业是国民经济的重要支柱产业。 习近平总书记指出，“我们要成为制造业强国，就要做汽车强国”，为我国汽车产业转型升级指明方向。 新时代以来，中国汽车产业坚持自主创新，聚力精工制造，在新能源攻坚、核心芯片、民族品牌三大方向，实现系统性突破，持续引领全球汽车产业变革
 
