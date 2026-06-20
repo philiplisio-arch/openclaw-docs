@@ -1,18 +1,18 @@
 # China Business Daily — Crawler Status
 
-_Updated 2026-06-20 18:42 | WS1 redesign source universe | discovery-only, zero LLM tokens | every 3h_
+_Updated 2026-06-20 21:41 | WS1 redesign source universe | discovery-only, zero LLM tokens | every 3h_
 
-## Cumulative: **2911 business articles** across **16 outlets**
+## Cumulative: **2929 business articles** across **16 outlets**
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.stcn.com | 647 |
-| www.21jingji.com | 530 |
-| www.nbd.com.cn | 488 |
-| www.jiemian.com | 241 |
+| www.stcn.com | 655 |
+| www.21jingji.com | 535 |
+| www.nbd.com.cn | 490 |
+| www.jiemian.com | 242 |
 | 36kr.com | 230 |
-| www.eeo.com.cn | 219 |
+| www.eeo.com.cn | 221 |
 | www.yicai.com | 203 |
 | finance.people.com.cn | 186 |
 | news.cnstock.com | 75 |
@@ -24,7 +24,7 @@ _Updated 2026-06-20 18:42 | WS1 redesign source universe | discovery-only, zero 
 | jingji.cctv.com | 4 |
 | m.21jingji.com | 1 |
 
-## 2026-06-20 — 149 articles
+## 2026-06-20 — 167 articles
 - **[上线自营家装App，京东阿里字节快手激战万亿市场](https://36kr.com/p/3859635190010881)** — _36kr.com_ · published 2026-06-20
 - **[河南老板带着200家火锅店，要去敲钟了](https://36kr.com/p/3860857599579399)** — _36kr.com_ · published 2026-06-20
 - **[光芯片，集体扩产](https://36kr.com/p/3859546025710855)** — _36kr.com_ · published 2026-06-20
@@ -87,6 +87,11 @@ _Updated 2026-06-20 18:42 | WS1 redesign source universe | discovery-only, zero 
 - **[Momenta港股IPO获备案，拟发行超4300万股](https://www.21jingji.com/article/20260620/herald/063bbecc5375d1be1cadc938cf43f66a.html)** — _www.21jingji.com_ · date: unknown
 - **[“保健品一哥”300146，跨界投资半导体公司](https://www.21jingji.com/article/20260620/herald/811e3560006b35f66bf1a05536473cb9.html)** — _www.21jingji.com_ · date: unknown
 - **[美股多家半导体设备龙头，今年股价翻倍](https://www.21jingji.com/article/20260620/herald/7c929615032e5e22af2a541faa3564eb.html)** — _www.21jingji.com_ · date: unknown
+- **[市监总局发布汽车召回信息，涉丰田、沃尔沃等品牌](https://www.21jingji.com/article/20260620/herald/5185647113fcc2056d7ab688b96e6c69.html)** — _www.21jingji.com_ · published 2026-06-27
+- **[消费龙头们，跨界半导体、算力](https://www.21jingji.com/article/20260620/herald/57a730d050e96a43879ed4a9f9314a49.html)** — _www.21jingji.com_ · date: unknown
+- **[美伊谅解备忘录难解全球经济之困](https://www.21jingji.com/article/20260620/herald/98406c67f20de5928843e98d5cf7d875.html)** — _www.21jingji.com_ · date: unknown
+- **[野趣、险途一线之隔，研学游市场该如何“刹车”？](https://www.21jingji.com/article/20260620/herald/0e8922a893271aa30a2f86e2686740a4.html)** — _www.21jingji.com_ · date: unknown
+- **[创新生态聚引力，外资行看多中国资产](https://www.21jingji.com/article/20260620/herald/9a12a0072a56bc317e1afdb90dfcc79e.html)** — _www.21jingji.com_ · date: unknown
 - **[特灵科技受益数据中心制冷需求增长 6月18日股价创近期新高](https://www.eeo.com.cn/2026/0620/921975.shtml)** — _www.eeo.com.cn_ · date: unknown
 - **[明晟下周将裁决印尼市场分类 核心业务基本盘稳固](https://www.eeo.com.cn/2026/0620/921973.shtml)** — _www.eeo.com.cn_ · published 2026-06-20
 - **[Apogee Therapeutics与黑石13亿美金融资将按临床阶段分批解锁](https://www.eeo.com.cn/2026/0620/921972.shtml)** — _www.eeo.com.cn_ · published 2026-06-20
@@ -123,6 +128,8 @@ _Updated 2026-06-20 18:42 | WS1 redesign source universe | discovery-only, zero 
 - **[华夏港股通金融ETF（513190）近5日吸金1.33亿 估值处历史低位](https://www.eeo.com.cn/2026/0620/923056.shtml)** — _www.eeo.com.cn_ · published 2026-06-20
 - **[港股通高股息ETF嘉实份额规模缩减，近一年涨1.98%](https://www.eeo.com.cn/2026/0620/923054.shtml)** — _www.eeo.com.cn_ · published 2026-06-20
 - **[欧克科技6月18日主力资金净流入，强于大盘，估值历史高位。](https://www.eeo.com.cn/2026/0620/923053.shtml)** — _www.eeo.com.cn_ · date: unknown
+- **[众巢医学宣布实施31股合1股后股价出现剧烈异动](https://www.eeo.com.cn/2026/0620/923102.shtml)** — _www.eeo.com.cn_ · date: unknown
+- **[高盛首次覆盖杜邦予中性评级 公司将于6月24日实施反向拆股](https://www.eeo.com.cn/2026/0620/923100.shtml)** — _www.eeo.com.cn_ · published 2026-06-20
 - **[锦兴电厂1号机组一次并网成功](https://www.jiemian.com/article/14617712.html)** — _www.jiemian.com_ · date: unknown
 - **[大连坤达完成数千万元A轮融资](https://www.jiemian.com/article/14617700.html)** — _www.jiemian.com_ · date: unknown
 - **[汽车早报｜大众汽车将削减约5万个岗位 现代汽车集团拟将波士顿动力转为全资子公司|界面新闻 · 汽车](https://www.jiemian.com/article/14615843.html)** — _www.jiemian.com_ · date: unknown
@@ -139,6 +146,7 @@ _Updated 2026-06-20 18:42 | WS1 redesign source universe | discovery-only, zero 
 - **[景顺长城老将余广新动向：三只基金同时增聘，名下已无单独在管产品](https://www.jiemian.com/article/14615278.html)** — _www.jiemian.com_ · date: unknown
 - **[赋能信托标品转型，近30家机构获批股指期货交易资质](https://www.jiemian.com/article/14614267.html)** — _www.jiemian.com_ · date: unknown
 - **[广西新增一个自治区级高新区](https://www.jiemian.com/article/14618428.html)** — _www.jiemian.com_ · date: unknown
+- **[上交所拟推股票期权组合策略业务？暂不实施](https://www.jiemian.com/article/14618522.html)** — _www.jiemian.com_ · date: unknown
 - **[2026届毕业设计展，是艺术创作，还是AI科技展？中央美院博导：AI或许可以模仿梵高的风格，但永远无法创造出第一个梵高](https://www.nbd.com.cn/articles/2026-06-19/4431732.html)** — _www.nbd.com.cn_ · published 2026-06-19
 - **[欧洲主要股指收盘涨跌不一，英国富时100指数跌0.35%](https://www.nbd.com.cn/articles/2026-06-19/4431741.html)** — _www.nbd.com.cn_ · published 2026-06-19
 - **[集高科技与时尚于一身，彰显美国自豪的特朗普移动首款手机！是中国设计、中国制造？](https://www.nbd.com.cn/articles/2026-06-19/4431740.html)** — _www.nbd.com.cn_ · published 2026-06-19
@@ -147,6 +155,8 @@ _Updated 2026-06-20 18:42 | WS1 redesign source universe | discovery-only, zero 
 - **[王者归来！科技主线强势吸金，股票型ETF回血超600亿元，国泰基金首进前三强](https://www.nbd.com.cn/articles/2026-06-20/4431811.html)** — _www.nbd.com.cn_ · published 2026-06-20
 - **[上交所拟完善股票期权组合策略业务 推出单边平仓功能](https://www.nbd.com.cn/articles/2026-06-20/4431868.html)** — _www.nbd.com.cn_ · published 2026-06-20
 - **[霍尔木兹海峡重启！日、韩、东南亚熬过没有中东能源的110天，油价降至接近战前水平了，为何一碗面的价格却回不到从前？](https://www.nbd.com.cn/articles/2026-06-20/4431876.html)** — _www.nbd.com.cn_ · published 2026-06-20
+- **[上交所拟推股票期权组合策略业务？暂不实施](https://www.nbd.com.cn/articles/2026-06-20/4431954.html)** — _www.nbd.com.cn_ · published 2026-06-20
+- **[法国央行行长警告反复高温拖累经济](https://www.nbd.com.cn/articles/2026-06-20/4431950.html)** — _www.nbd.com.cn_ · published 2026-06-20
 - **[中国大模型把“物理AI”写进新药研发，“自然常数”助力产业安全重塑](https://www.stcn.com/article/detail/3970156.html)** — _www.stcn.com_ · date: unknown
 - **[2026陆家嘴论坛丨拨开不确定性迷雾 求解问策全球资本投资中国之道](https://www.stcn.com/article/detail/3970154.html)** — _www.stcn.com_ · date: unknown
 - **[亏损的微盘基金放开申购，释放什么信号？](https://www.stcn.com/article/detail/3970170.html)** — _www.stcn.com_ · date: unknown
@@ -166,6 +176,14 @@ _Updated 2026-06-20 18:42 | WS1 redesign source universe | discovery-only, zero 
 - **[可控核聚变进入产业化前夜 机构扎堆关注15只概念股](https://www.stcn.com/article/detail/3970271.html)** — _www.stcn.com_ · date: unknown
 - **[从手机到电脑，新一轮“消费电子涨价潮”来了？](https://www.stcn.com/article/detail/3970298.html)** — _www.stcn.com_ · date: unknown
 - **[数币基建赋能跨境贸易 义支付工行共建外贸收款“合规高速路”](https://www.stcn.com/article/detail/3970300.html)** — _www.stcn.com_ · date: unknown
+- **[外资机构：越来越开放的中国市场 越来越有吸引力](https://www.stcn.com/article/detail/3970340.html)** — _www.stcn.com_ · date: unknown
+- **[央行黄金大调查出炉！购金意愿创历史新高，45%央行计划增持](https://www.stcn.com/article/detail/3970334.html)** — _www.stcn.com_ · date: unknown
+- **[上交所拟推股票期权组合策略业务？暂不实施](https://www.stcn.com/article/detail/3970348.html)** — _www.stcn.com_ · published 2026-06-20
+- **[国新办将举行新闻发布会 介绍利用外资固稳促优有关政策措施](https://www.stcn.com/article/detail/3970327.html)** — _www.stcn.com_ · published 2026-06-22
+- **[人民鉴真121期丨上交所拟推股票期权组合策略业务？暂不实施](https://www.stcn.com/article/detail/3970349.html)** — _www.stcn.com_ · published 2026-06-20
+- **[牛股大动作！603285，拟收购！](https://www.stcn.com/article/detail/3970350.html)** — _www.stcn.com_ · date: unknown
+- **[603986，存储芯片大牛股，下周解禁！](https://www.stcn.com/article/detail/3970329.html)** — _www.stcn.com_ · date: unknown
+- **[深创投，又将收获一个IPO](https://www.stcn.com/article/detail/3970346.html)** — _www.stcn.com_ · date: unknown
 - **[三个爱尔兰团队的上交会直播：国外药械初创企业为何选择中国](https://www.yicai.com/news/103237916.html)** — _www.yicai.com_ · date: unknown
 - **[“爱你老己”，今年618消费者为愉悦自己买单](https://www.yicai.com/news/103237892.html)** — _www.yicai.com_ · date: unknown
 - **[一揽子金融改革重磅出台，美伊签署谅解备忘录丨一周热点回顾](https://www.yicai.com/news/103237997.html)** — _www.yicai.com_ · date: unknown
