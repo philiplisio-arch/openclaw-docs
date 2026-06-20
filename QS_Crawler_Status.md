@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-20 21:17 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-21 00:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-06-20 21:17 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **749 unique auto/NEV articles** across **17 outlets**
+## Cumulative: **772 unique auto/NEV articles** across **17 outlets**
 
 ## New per day
 | date | new articles |
@@ -23,13 +23,14 @@ _Updated 2026-06-20 21:17 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-18 | 323 |
 | 2026-06-19 | 152 |
 | 2026-06-20 | 127 |
+| 2026-06-21 | 23 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.dongchedi.com | 271 |
+| www.dongchedi.com | 291 |
 | www.caam.org.cn | 148 |
-| www.d1ev.com | 97 |
+| www.d1ev.com | 100 |
 | www.cada.cn | 57 |
 | www.news.cn | 36 |
 | 36kr.com | 36 |
@@ -46,6 +47,40 @@ _Updated 2026-06-20 21:17 | discovery-only, zero LLM tokens | runs every 3h_
 | gd.chinadaily.com.cn | 1 |
 
 ## Articles captured by day (newest first)
+
+### 2026-06-21 — 23 articles
+- **[法拉利纯电Luce争议不断，经销商施压客户订购？官方否认](https://www.d1ev.com/newsflash/303862)** — _www.d1ev.com_ · date: unknown
+  6月20日，法拉利首款纯电车型Luce发布后争议不断。部分经销商被指施压客户订购Luce，以免失去核心客户资格或影响购买限量车型的机会。法拉利否认此说法，CMO恩里科·加列拉表示，Luce面向的是不同类型的客户，不一定是长期持有法拉利的车主。强迫客户购买Luce最终只会损害法拉利，不满意的车主可能传播负面评价并损害品牌声誉，甚至压低二手车价格。 加列拉没有透
+- **[大众集团大刀阔斧降本增效：2030年前裁撤5万岗位，精简车型阵容](https://www.d1ev.com/newsflash/303861)** — _www.d1ev.com_ · date: unknown
+  6月20日，大众汽车集团宣布全面推进降本转型计划。2025年，德国工厂生产成本已下降超过20%。到2030年底，大众、奥迪、保时捷及软件子公司CARIAD计划裁撤最多5万个岗位，目前已有超2.8万名员工签署协议。集团在年度股东大会上公布了下一阶段转型方案，包括八项重点措施。首要措施是精简产品阵容，减少车型和版本数量，将资源投向畅销产品，降低复杂程度，简化车型
+- **[零跑汽车第三季度将公布多项创新技术，未来产品更创新差异化](https://www.d1ev.com/newsflash/303860)** — _www.d1ev.com_ · date: unknown
+  6月20日，零跑汽车在2027款C系列上市发布会后透露，公司计划于今年第三季度举办“技术日”，届时将公布一系列创新技术成果。零跑汽车创始人 朱江明表示，公司经过长期的全域自研，已经打下了坚实的基础，为后续发展创造了良好条件。朱江明还提到，零跑汽车正在规划更具创新性和差异化的产品，相信未来的产品将通过创新之路，为市场带来惊喜。 朱江明进一步透露，零跑汽车在智驾
+- **[大胆预测：十年后手动挡汽车彻底消失，20后孩子可能都没听过它](https://www.dongchedi.com/article/7653492349344809534)** — _www.dongchedi.com_ · date: unknown
+- **[衢州蔚来ET5 售价不到16万 电池买断带智能泊车](https://www.dongchedi.com/video/7653491590622986814)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[衢州理想L6 Max 售价不到19万 带车载冰箱记忆泊车](https://www.dongchedi.com/video/7653491308094931518)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[大李汽车观](https://www.dongchedi.com/user/3944672552564612)** — _www.dongchedi.com_ · date: unknown
+- **[三十年河东，现在轮到欧洲对中国车企讲“本地化”了？](https://www.dongchedi.com/article/7653492610828780056)** — _www.dongchedi.com_ · date: unknown
+- **[衢州理想L6 Max 售价不到20万 原版原漆带车载冰箱](https://www.dongchedi.com/video/7653490549416149566)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[衢州蔚来萤火虫 售价不到10万 好开好停车况优秀](https://www.dongchedi.com/video/7653490294281323070)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[新能源渗透率突破63%！中国汽车产业的「诺基亚时刻」已经到来](https://www.dongchedi.com/article/7653492316648817177)** — _www.dongchedi.com_ · date: unknown
+- **[星海V6续航参数正式曝光，家用纯电MPV市场再添新选择](https://www.dongchedi.com/article/7653487182016447000)** — _www.dongchedi.com_ · date: unknown
+- **[1300万辆国产车装美国大脑？比亚迪砸1000亿，这次不用看脸色了](https://www.dongchedi.com/article/7653482215116063256)** — _www.dongchedi.com_ · date: unknown
+- **[车企集体抛弃Android Auto 数据是核心](https://www.dongchedi.com/article/7653479393402454553)** — _www.dongchedi.com_ · date: unknown
+- **[汽车甜甜圈Report](https://www.dongchedi.com/user/342691013991512)** — _www.dongchedi.com_ · date: unknown
+- **[L3/L4自动驾驶国标落地：激光雷达是必须的吗？](https://www.dongchedi.com/article/7653473530960462361)** — _www.dongchedi.com_ · date: unknown
+- **[中国“合资新能源”冠军车型：首次排在第一位，月销超7600台](https://www.dongchedi.com/article/7653470559964512792)** — _www.dongchedi.com_ · date: unknown
+- **[汽车之讯TV](https://www.dongchedi.com/user/94727506958)** — _www.dongchedi.com_ · date: unknown
+- **[10万级混动SUV横评：风云T9长续航，凭啥敢叫板同级竞品？](https://www.dongchedi.com/video/7653461995945476632)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[佛山极氪 007，售价不到 15 万，长续航纯电轿跑](https://www.dongchedi.com/video/7653459481799443006)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[宝马纯电 M3 只是前菜，而新 3 系才是真主角](https://www.dongchedi.com/article/7653456356644700696)** — _www.dongchedi.com_ · date: unknown
+- **[UCAR汽车网站](https://www.dongchedi.com/user/3875226978)** — _www.dongchedi.com_ · date: unknown
+- **[不用等太久，揽胜纯电越来越近了](https://www.dongchedi.com/article/7653451629013844504)** — _www.dongchedi.com_ · date: unknown
 
 ### 2026-06-20 — 127 articles
 - **[·
