@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-21 03:14 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-21 06:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-06-21 03:14 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **772 unique auto/NEV articles** across **17 outlets**
+## Cumulative: **773 unique auto/NEV articles** across **17 outlets**
 
 ## New per day
 | date | new articles |
@@ -23,13 +23,13 @@ _Updated 2026-06-21 03:14 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-18 | 323 |
 | 2026-06-19 | 152 |
 | 2026-06-20 | 127 |
-| 2026-06-21 | 23 |
+| 2026-06-21 | 24 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 291 |
-| www.caam.org.cn | 148 |
+| www.caam.org.cn | 149 |
 | www.d1ev.com | 100 |
 | www.cada.cn | 57 |
 | www.news.cn | 36 |
@@ -48,7 +48,10 @@ _Updated 2026-06-21 03:14 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-06-21 — 23 articles
+### 2026-06-21 — 24 articles
+- **[·
+                关于2026年度新能源汽车下乡车型推荐目录申报的通知
+                [04.17]](https://www.caam.org.cn/chn/5/cate_68/con_5237075.html)** — _www.caam.org.cn_ · date: unknown
 - **[法拉利纯电Luce争议不断，经销商施压客户订购？官方否认](https://www.d1ev.com/newsflash/303862)** — _www.d1ev.com_ · date: unknown
   6月20日，法拉利首款纯电车型Luce发布后争议不断。部分经销商被指施压客户订购Luce，以免失去核心客户资格或影响购买限量车型的机会。法拉利否认此说法，CMO恩里科·加列拉表示，Luce面向的是不同类型的客户，不一定是长期持有法拉利的车主。强迫客户购买Luce最终只会损害法拉利，不满意的车主可能传播负面评价并损害品牌声誉，甚至压低二手车价格。 加列拉没有透
 - **[大众集团大刀阔斧降本增效：2030年前裁撤5万岗位，精简车型阵容](https://www.d1ev.com/newsflash/303861)** — _www.d1ev.com_ · date: unknown
