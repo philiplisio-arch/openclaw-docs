@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-22 00:13 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-22 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-06-22 00:13 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **899 unique auto/NEV articles** across **17 outlets**
+## Cumulative: **900 unique auto/NEV articles** across **17 outlets**
 
 ## New per day
 | date | new articles |
@@ -24,12 +24,12 @@ _Updated 2026-06-22 00:13 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-19 | 152 |
 | 2026-06-20 | 127 |
 | 2026-06-21 | 130 |
-| 2026-06-22 | 20 |
+| 2026-06-22 | 21 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.dongchedi.com | 386 |
+| www.dongchedi.com | 387 |
 | www.caam.org.cn | 153 |
 | www.d1ev.com | 121 |
 | www.cada.cn | 59 |
@@ -49,7 +49,7 @@ _Updated 2026-06-22 00:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-06-22 — 20 articles
+### 2026-06-22 — 21 articles
 - **[中国汽车工业协会关于《越野体验场地建设要求与开放条件》等七项团体标准立项公示的函。
 		[01.12]](https://www.caam.org.cn/chn/10/cate_112/con_5236334.html)** — _www.caam.org.cn_ · date: unknown
 - **[全新NV200插混版，纯电续航80-150公里，侧滑门带双动力](https://www.dongchedi.com/article/7653031084661621272)** — _www.dongchedi.com_ · date: unknown
@@ -79,6 +79,8 @@ _Updated 2026-06-22 00:13 | discovery-only, zero LLM tokens | runs every 3h_
   扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
 - **[CAV打造了一款新的福特GT40继任车型，不过用的是奥迪R8](https://www.dongchedi.com/article/7653837258541875736)** — _www.dongchedi.com_ · date: unknown
 - **[更硬核的新能源轻越野，奇瑞风云X3L到底适合哪些人？](https://www.dongchedi.com/video/7653835870684234302)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[DM-i 6.0震撼上线！超长续航与快充，混动车主的续航焦虑终于结束_懂车帝](https://www.dongchedi.com/video/7653867891670008345)** — _www.dongchedi.com_ · date: unknown
   扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
 
 ### 2026-06-21 — 130 articles
