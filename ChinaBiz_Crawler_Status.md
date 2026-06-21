@@ -1,8 +1,8 @@
 # China Business Daily — Crawler Status
 
-_Updated 2026-06-22 00:41 | WS1 redesign source universe | discovery-only, zero LLM tokens | every 3h_
+_Updated 2026-06-22 03:41 | WS1 redesign source universe | discovery-only, zero LLM tokens | every 3h_
 
-## Cumulative: **3164 business articles** across **16 outlets**
+## Cumulative: **3171 business articles** across **16 outlets**
 
 ## By outlet
 | outlet | articles |
@@ -10,7 +10,7 @@ _Updated 2026-06-22 00:41 | WS1 redesign source universe | discovery-only, zero 
 | www.stcn.com | 704 |
 | www.21jingji.com | 590 |
 | www.nbd.com.cn | 526 |
-| www.eeo.com.cn | 258 |
+| www.eeo.com.cn | 265 |
 | www.jiemian.com | 257 |
 | 36kr.com | 235 |
 | www.yicai.com | 224 |
@@ -24,7 +24,7 @@ _Updated 2026-06-22 00:41 | WS1 redesign source universe | discovery-only, zero 
 | jingji.cctv.com | 5 |
 | m.21jingji.com | 1 |
 
-## 2026-06-22 — 27 articles
+## 2026-06-22 — 34 articles
 - **[端午假期全国消费市场运行平稳](https://finance.people.com.cn/n1/2026/0621/c1004-40744314.html)** — _finance.people.com.cn_ · published 2026-06-21
 - **[万斯称特朗普致力于区域全面停火，国际油价跌超1.1%，暗盘金价站上4160美元](https://www.21jingji.com/article/20260621/herald/adab52d26e34766dc7de7a05834669cf.html)** — _www.21jingji.com_ · date: unknown
 - **[A股市场风格分化延续？投资主线有哪些？十大券商策略来了](https://www.21jingji.com/article/20260621/herald/d114490c69f1a144afd4340224633189.html)** — _www.21jingji.com_ · date: unknown
@@ -37,6 +37,13 @@ _Updated 2026-06-22 00:41 | WS1 redesign source universe | discovery-only, zero 
 - **[Toyo Co., Ltd拟3.57亿美元扩产美国光伏产能 关税风险引关注](https://www.eeo.com.cn/2026/0622/924264.shtml)** — _www.eeo.com.cn_ · date: unknown
 - **[贝克休斯与航宇科技签署五年战略供货协议 深化燃机领域合作](https://www.eeo.com.cn/2026/0621/924259.shtml)** — _www.eeo.com.cn_ · published 2026-06-21
 - **[Realloys股价近期大幅上涨 估值依赖稀土供应链落地预期](https://www.eeo.com.cn/2026/0621/924258.shtml)** — _www.eeo.com.cn_ · date: unknown
+- **[雷神能源业务存两大关注方向 海外拓展及新能源转型受瞩目](https://www.eeo.com.cn/2026/0622/924282.shtml)** — _www.eeo.com.cn_ · published 2026-06-22
+- **[Covista Inc.盈利承压引关注 下份财报及新业务进展成关键](https://www.eeo.com.cn/2026/0622/924279.shtml)** — _www.eeo.com.cn_ · date: unknown
+- **[芯科实验室股价年内最高涨超60% 市值约71.8亿美元](https://www.eeo.com.cn/2026/0622/924278.shtml)** — _www.eeo.com.cn_ · published 2026-06-22
+- **[Miami International Holdings股价三交易日跌超14% 市场关注新业务推进](https://www.eeo.com.cn/2026/0622/924277.shtml)** — _www.eeo.com.cn_ · date: unknown
+- **[美国绿星球与云南益诺维生物科技签署深度战略合作协议](https://www.eeo.com.cn/2026/0622/924276.shtml)** — _www.eeo.com.cn_ · published 2026-06-22
+- **[Qxo, Inc.要约收购TopBuild票据获高认购，交易确定性提升带动股价上涨](https://www.eeo.com.cn/2026/0622/924275.shtml)** — _www.eeo.com.cn_ · published 2026-06-22
+- **[理查森电子6月18日涨6.59% 受益半导体行业资本开支周期](https://www.eeo.com.cn/2026/0622/924273.shtml)** — _www.eeo.com.cn_ · date: unknown
 - **[深交所将迎来史上最大规模IPO](https://www.jiemian.com/article/14619774.html)** — _www.jiemian.com_ · date: unknown
 - **[端午假期北京接待846.6万人次，文旅市场持续升温](https://www.jiemian.com/article/14619772.html)** — _www.jiemian.com_ · date: unknown
 - **[巨星科技拟收购网商银行1.54%股权；中船特气：六氟化钨相关传闻请以公司披露为准](https://www.nbd.com.cn/articles/2026-06-21/4432312.html)** — _www.nbd.com.cn_ · published 2026-06-21
