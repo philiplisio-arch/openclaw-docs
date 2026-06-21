@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-21 06:13 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-21 09:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-06-21 06:13 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **773 unique auto/NEV articles** across **17 outlets**
+## Cumulative: **782 unique auto/NEV articles** across **17 outlets**
 
 ## New per day
 | date | new articles |
@@ -23,15 +23,15 @@ _Updated 2026-06-21 06:13 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-18 | 323 |
 | 2026-06-19 | 152 |
 | 2026-06-20 | 127 |
-| 2026-06-21 | 24 |
+| 2026-06-21 | 33 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.dongchedi.com | 291 |
+| www.dongchedi.com | 296 |
 | www.caam.org.cn | 149 |
-| www.d1ev.com | 100 |
-| www.cada.cn | 57 |
+| www.d1ev.com | 103 |
+| www.cada.cn | 58 |
 | www.news.cn | 36 |
 | 36kr.com | 36 |
 | www.stcn.com | 30 |
@@ -48,16 +48,23 @@ _Updated 2026-06-21 06:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-06-21 — 24 articles
+### 2026-06-21 — 33 articles
 - **[·
                 关于2026年度新能源汽车下乡车型推荐目录申报的通知
                 [04.17]](https://www.caam.org.cn/chn/5/cate_68/con_5237075.html)** — _www.caam.org.cn_ · date: unknown
+- **[有形市场分会](https://www.cada.cn/committee/info_27_431.html)** — _www.cada.cn_ · date: unknown
 - **[法拉利纯电Luce争议不断，经销商施压客户订购？官方否认](https://www.d1ev.com/newsflash/303862)** — _www.d1ev.com_ · date: unknown
   6月20日，法拉利首款纯电车型Luce发布后争议不断。部分经销商被指施压客户订购Luce，以免失去核心客户资格或影响购买限量车型的机会。法拉利否认此说法，CMO恩里科·加列拉表示，Luce面向的是不同类型的客户，不一定是长期持有法拉利的车主。强迫客户购买Luce最终只会损害法拉利，不满意的车主可能传播负面评价并损害品牌声誉，甚至压低二手车价格。 加列拉没有透
 - **[大众集团大刀阔斧降本增效：2030年前裁撤5万岗位，精简车型阵容](https://www.d1ev.com/newsflash/303861)** — _www.d1ev.com_ · date: unknown
   6月20日，大众汽车集团宣布全面推进降本转型计划。2025年，德国工厂生产成本已下降超过20%。到2030年底，大众、奥迪、保时捷及软件子公司CARIAD计划裁撤最多5万个岗位，目前已有超2.8万名员工签署协议。集团在年度股东大会上公布了下一阶段转型方案，包括八项重点措施。首要措施是精简产品阵容，减少车型和版本数量，将资源投向畅销产品，降低复杂程度，简化车型
 - **[零跑汽车第三季度将公布多项创新技术，未来产品更创新差异化](https://www.d1ev.com/newsflash/303860)** — _www.d1ev.com_ · date: unknown
   6月20日，零跑汽车在2027款C系列上市发布会后透露，公司计划于今年第三季度举办“技术日”，届时将公布一系列创新技术成果。零跑汽车创始人 朱江明表示，公司经过长期的全域自研，已经打下了坚实的基础，为后续发展创造了良好条件。朱江明还提到，零跑汽车正在规划更具创新性和差异化的产品，相信未来的产品将通过创新之路，为市场带来惊喜。 朱江明进一步透露，零跑汽车在智驾
+- **[零跑汽车第三季度将公布多项创新技术，未来十年惊喜连连](https://www.d1ev.com/newsflash/303865)** — _www.d1ev.com_ · date: unknown
+  6月21日，零跑汽车在2027款C系列上市发布会后的媒体采访中透露，公司计划于今年第三季度举办“技术日”，届时将公布多项创新技术成果。零跑汽车创始人 朱江明强调，公司经过长期全域自研，已打下坚实基础，为未来发展创造了良好条件。朱江明表示，零跑积累了大量技术创新成果，将在技术日上对外公布，同时公司也在规划更具创新性和差异化的新产品。 朱江明还提到，零跑汽车沿袭
+- **[特斯拉Cybercab全球测试启动，新西兰严寒考验自动驾驶性能](https://www.d1ev.com/newsflash/303864)** — _www.d1ev.com_ · date: unknown
+  6月21日，特斯拉新款 自动驾驶车型Cybercab的全球测试步伐正在加快。社交媒体上流出的视频显示，两台金色涂装的Cybercab原型车被装载在敞篷平板运车上，运输至新西兰。此举表明，特斯拉正在新西兰进行冬季耐寒测试，以验证Cybercab在严寒、结冰路况下的运行表现。新西兰正值隆冬，其车辆试验场的低温、路面结冰环境适合进行此类测试。Cybercab是特斯
+- **[盖世周报 | 长安汽车高层调整；博世新获国内车企定点 - 第一电动网](https://www.d1ev.com/news/qiye/303863)** — _www.d1ev.com_ · date: unknown
+  本周，国内外汽车行业有哪些大事发生？ 长安汽车高层调整，陈卓、狄智睿任副总裁 6月16日，盖世汽车获悉，重庆长安汽车股份有限公司发布董事会决议公告，正式聘任陈卓、狄智睿两位资深高管担任公司副总裁，任期自本次董事会审议通过之日起至第九届董事会任期届满。 陈卓；图片来源：阿维塔科技 公开资料显示，现年42岁的陈卓（1984年出生）是一位土生土长的重庆人。他于20
 - **[大胆预测：十年后手动挡汽车彻底消失，20后孩子可能都没听过它](https://www.dongchedi.com/article/7653492349344809534)** — _www.dongchedi.com_ · date: unknown
 - **[衢州蔚来ET5 售价不到16万 电池买断带智能泊车](https://www.dongchedi.com/video/7653491590622986814)** — _www.dongchedi.com_ · date: unknown
   扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
@@ -84,6 +91,11 @@ _Updated 2026-06-21 06:13 | discovery-only, zero LLM tokens | runs every 3h_
 - **[宝马纯电 M3 只是前菜，而新 3 系才是真主角](https://www.dongchedi.com/article/7653456356644700696)** — _www.dongchedi.com_ · date: unknown
 - **[UCAR汽车网站](https://www.dongchedi.com/user/3875226978)** — _www.dongchedi.com_ · date: unknown
 - **[不用等太久，揽胜纯电越来越近了](https://www.dongchedi.com/article/7653451629013844504)** — _www.dongchedi.com_ · date: unknown
+- **[燃油车份额持续收缩，但刚需细分市场完全稳固](https://www.dongchedi.com/article/7653627035520107033)** — _www.dongchedi.com_ · date: unknown
+- **[越降价越卖不动燃油车连续两月销量暴跌近40%，销量前十无燃油车](https://www.dongchedi.com/article/7653598965803860505)** — _www.dongchedi.com_ · date: unknown
+- **[电动车电池耐用有技巧，天天充电反而更长寿，多数人一直做错](https://www.dongchedi.com/article/7653533965118718489)** — _www.dongchedi.com_ · date: unknown
+- **[蔚来的“暗战”时刻](https://www.dongchedi.com/article/7653517502496358974)** — _www.dongchedi.com_ · date: unknown
+- **[比亚迪新工厂投产再延期！](https://www.dongchedi.com/article/7653506926927495742)** — _www.dongchedi.com_ · date: unknown
 
 ### 2026-06-20 — 127 articles
 - **[·
