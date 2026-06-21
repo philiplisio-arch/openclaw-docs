@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-21 18:13 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-21 21:14 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-06-21 18:13 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **848 unique auto/NEV articles** across **17 outlets**
+## Cumulative: **879 unique auto/NEV articles** across **17 outlets**
 
 ## New per day
 | date | new articles |
@@ -23,24 +23,24 @@ _Updated 2026-06-21 18:13 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-18 | 323 |
 | 2026-06-19 | 152 |
 | 2026-06-20 | 127 |
-| 2026-06-21 | 99 |
+| 2026-06-21 | 130 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.dongchedi.com | 345 |
+| www.dongchedi.com | 367 |
 | www.caam.org.cn | 152 |
-| www.d1ev.com | 116 |
-| www.cada.cn | 58 |
+| www.d1ev.com | 121 |
+| www.cada.cn | 59 |
 | www.news.cn | 36 |
 | 36kr.com | 36 |
-| www.stcn.com | 31 |
-| egs.stcn.com | 26 |
+| www.stcn.com | 32 |
+| egs.stcn.com | 27 |
 | www.zqrb.cn | 15 |
 | www.xinhuanet.com | 15 |
 | www.yicai.com | 4 |
+| qzs.stcn.com | 4 |
 | economy.gmw.cn | 4 |
-| qzs.stcn.com | 3 |
 | cn.chinadaily.com.cn | 3 |
 | www.ceweekly.cn | 2 |
 | www.jwview.com | 1 |
@@ -48,7 +48,11 @@ _Updated 2026-06-21 18:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-06-21 — 99 articles
+### 2026-06-21 — 130 articles
+- **[众泰汽车：董事许明哲因个人工作调整辞职](https://egs.stcn.com/news/detail/2304782.html)** — _egs.stcn.com_ · date: unknown
+  e公司 06-21 21:02 人民财讯6月21日电，众泰汽车(000980)6月21日公告，许明哲因个人工作调整，申请辞去公司董事等相关职务，辞职后许明哲将不在公司担任任何职务。 公司董事会6月20日收到公司股东吉林省厚土兰德投资有限公司（简称“厚土兰德”）出具的《关于撤回提请罢免许明哲董事议案的申请书》，鉴于许明哲已辞去公司董事等相关职务，厚土兰德撤回此
+- **[众泰汽车：董事许明哲因个人工作调整辞职](https://qzs.stcn.com/article/detail/607089.html)** — _qzs.stcn.com_ · date: unknown
+  人民财讯6月21日电，众泰汽车(000980)6月21日公告，许明哲因个人工作调整，申请辞去公司董事等相关职务，辞职后许明哲将不在公司担任任何职务。 公司董事会6月20日收到公司股东吉林省厚土兰德投资有限公司（简称“厚土兰德”）出具的《关于撤回提请罢免许明哲董事议案的申请书》，鉴于许明哲已辞去公司董事等相关职务，厚土兰德撤回此前提交的《关于罢免许明哲董事职务
 - **[·
                 关于2026年度新能源汽车下乡车型推荐目录申报的通知
                 [04.17]](https://www.caam.org.cn/chn/5/cate_68/con_5237075.html)** — _www.caam.org.cn_ · date: unknown
@@ -58,6 +62,7 @@ _Updated 2026-06-21 18:13 | discovery-only, zero LLM tokens | runs every 3h_
                 [06.01]](https://www.caam.org.cn/chn/5/cate_69/con_5237148.html)** — _www.caam.org.cn_ · date: unknown
 - **[合作共赢才是中欧汽车产业行稳致远的正确道路](https://www.caam.org.cn/chn/8/cate_82/con_5237140.html)** — _www.caam.org.cn_ · date: unknown
 - **[有形市场分会](https://www.cada.cn/committee/info_27_431.html)** — _www.cada.cn_ · date: unknown
+- **[汽车及零部件进出口专业委员会](https://www.cada.cn/committee/info_27_123.html)** — _www.cada.cn_ · date: unknown
 - **[法拉利纯电Luce争议不断，经销商施压客户订购？官方否认](https://www.d1ev.com/newsflash/303862)** — _www.d1ev.com_ · date: unknown
   6月20日，法拉利首款纯电车型Luce发布后争议不断。部分经销商被指施压客户订购Luce，以免失去核心客户资格或影响购买限量车型的机会。法拉利否认此说法，CMO恩里科·加列拉表示，Luce面向的是不同类型的客户，不一定是长期持有法拉利的车主。强迫客户购买Luce最终只会损害法拉利，不满意的车主可能传播负面评价并损害品牌声誉，甚至压低二手车价格。 加列拉没有透
 - **[大众集团大刀阔斧降本增效：2030年前裁撤5万岗位，精简车型阵容](https://www.d1ev.com/newsflash/303861)** — _www.d1ev.com_ · date: unknown
@@ -96,6 +101,16 @@ _Updated 2026-06-21 18:13 | discovery-only, zero LLM tokens | runs every 3h_
   6月21日，磷酸铁锂价格持续攀升，四川马边彝族自治县的磷酸铁锂价格一年内翻倍，从1万元上涨至2.5万元以上。尽管价格大幅上涨，下游需求依然旺盛，头部新能源车企集中催单，产品交付周期从十天压缩至七天。当地磷酸铁锂生产企业订单同比增长超30%，5月单月产量达4300吨，6月预计可达4500吨，超九成产品供货给头部新能源车企。 磷酸铁锂价格上涨的另一推手是上游原材
 - **[小米汽车员工内购优惠曝光：万元直降，现车抢购倒计时！](https://www.d1ev.com/newsflash/303886)** — _www.d1ev.com_ · date: unknown
   近日，小米汽车推出了一项员工内购优惠政策，允许普通消费者通过员工内部渠道购买部分现车，并享受一万元优惠。涉及的车型包括SU7Pro、YU7长续航、Pro、Max等版本，且需寻找车源。员工内购原本仅对员工开放，但可通过登录员工账号下单的方式将名额转给客户，最终上牌和联系方式均写购车人信息，提车时账号会变更。 据销售人士透露，这批现车主要为今年2、3月左右生产，
+- **[蔚来ET9限量版“极境逐光”上市，售价83.8万元起](https://www.d1ev.com/newsflash/303901)** — _www.d1ev.com_ · date: unknown
+  6月21日，蔚来汽车推出了ET9地平线特别版全新主题“极境逐光”，整车购买售价83.8万元起，BaaS 电池租用方式购买售价73万元起，全国限量99台。这款特别版车型在外观上延续了ET9的设计和配置，但在细节上进行了定制化设计。车身采用上深空黑、下云白的配色方案，左右两侧以地平线腰线贯穿，并印有南北极圈纬度坐标“66°34'S”和“66°34'N”的专属图案
+- **[启境GX7秋季上市：大五座SUV搭载华为智能驾驶](https://www.d1ev.com/newsflash/303899)** — _www.d1ev.com_ · date: unknown
+  日前，易车讯曝光了启境GX7的路试谍照，这款大五座SUV预计将于今年秋季上市。启境GX7的设计延续了家族风格，叶片状大灯与双横幅式日间行车灯相结合，展现出简洁而科技的外观。车头采用封闭式设计，配备通风口和凸起的激光雷达，车侧线条流畅，半隐藏门把手和可能配备的电动脚踏板增添了细节的精致感。车尾部分，横贯式尾灯与启境GT7保持一致，隐藏式雨刷和夸张的扩散器设计引
+- **[比亚迪西安研发基地工业旅游开放，见证中国新能源车发展史](https://www.d1ev.com/newsflash/303898)** — _www.d1ev.com_ · date: unknown
+  6月21日，比亚迪汽车宣布西安研发基地工业旅游项目正式对外开放。该项目旨在通过实景化体验，推动工业科技全民科普落地，串联品牌发展历程与前沿智造技术。继深圳总部工业旅游项目后，比亚迪工业旅游进入“双基地”联动模式。西安基地依托综合展厅，系统梳理中国汽车电动化发展历程，新增面向全国中小学生的特色研学业务，完整勾勒国内新能源产业崛起历程。 比亚迪工业旅游西安基地位
+- **[华为乾崑智驾ADS5即将上线，鸿蒙智行旗舰车型抢先体验](https://www.d1ev.com/newsflash/303897)** — _www.d1ev.com_ · date: unknown
+  6月21日，博主@爱叨叨的Steven透露，华为乾崑智驾ADS5即将进行推送更新。此次更新将优先应用于搭载鸿蒙智行系统的几款旗舰车型。华为乾崑智驾ADS5于4月23日正式发布，标志着华为在 自动驾驶领域的进一步发展。 华为乾崑智驾ADS5在算法层面进行了重大升级，推出了面向自动驾驶的AI智能体WEWA2.0架构。该架构在云端引入了Multi-Agent博弈技
+- **[启境汽车百店齐开，全国90城300店网络即将覆盖！](https://www.d1ev.com/newsflash/303896)** — _www.d1ev.com_ · date: unknown
+  6月21日，启境汽车宣布其授权用户中心广州番禺大道北门店正式开业，标志着启境百店开业活动的序幕。在未来两周内，启境授权用户中心与华为乾崑智驾授权体验中心将联合举办百场庆典活动，以庆祝这一里程碑事件。启境汽车的门店网络计划覆盖全国90座城市，超过300家门店，进一步扩大其市场影响力。 启境汽车此次扩张的城市列表包括直辖市如北京、上海、天津和重庆，以及多个省份的
 - **[大胆预测：十年后手动挡汽车彻底消失，20后孩子可能都没听过它](https://www.dongchedi.com/article/7653492349344809534)** — _www.dongchedi.com_ · date: unknown
 - **[衢州蔚来ET5 售价不到16万 电池买断带智能泊车](https://www.dongchedi.com/video/7653491590622986814)** — _www.dongchedi.com_ · date: unknown
   扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
@@ -187,8 +202,37 @@ _Updated 2026-06-21 18:13 | discovery-only, zero LLM tokens | runs every 3h_
 - **[香港车展天王郭富城也在看的车，奕境X9背后藏着什么？](https://www.dongchedi.com/video/7653754106259178046)** — _www.dongchedi.com_ · date: unknown
   扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
 - **[为什么现在的电动车都用真空胎？算完这笔账，发现比内外胎省得多](https://www.dongchedi.com/article/7653753586912231960)** — _www.dongchedi.com_ · date: unknown
+- **[2021年丰田雷凌，4万公里，沪牌一手私家车！](https://www.dongchedi.com/video/7653819783082934809)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[游哥聊汽车](https://www.dongchedi.com/user/3516718036289216)** — _www.dongchedi.com_ · date: unknown
+- **[前沿汽车谈](https://www.dongchedi.com/user/3598027076939567)** — _www.dongchedi.com_ · date: unknown
+- **[电动车危机？新型代步车已全面上市，改变出行方式！](https://www.dongchedi.com/video/7653800454644023833)** — _www.dongchedi.com_ · date: unknown
+  © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有限公司 中央网信办违法和不良信息举报中心 违法和不良信息举报电话：400-140-2108 举报邮箱：jubao@m
+- **[900V+后轮转向，这台纯电SUV到底有没有短板？实测告诉你](https://www.dongchedi.com/article/7653798291343376921)** — _www.dongchedi.com_ · date: unknown
+- **[宝马7月停产三款国产纯电车型，切换新世代平台产能](https://www.dongchedi.com/article/7653797441049068056)** — _www.dongchedi.com_ · date: unknown
+- **[上汽奥迪E7X，900V高压快充+705km纯电续航，家用合适？](https://www.dongchedi.com/article/7653797764110959129)** — _www.dongchedi.com_ · date: unknown
+- **[大锤哥车市](https://www.dongchedi.com/user/795668445672638)** — _www.dongchedi.com_ · date: unknown
+- **[2026款奥迪E5实测，全能家用豪华纯电轿跑，值得购买吗？](https://www.dongchedi.com/article/7653797002937188889)** — _www.dongchedi.com_ · date: unknown
+- **[20万出头拿下奥迪纯电猎装轿跑，2026款E5 Sportback值得入手吗？](https://www.dongchedi.com/article/7653796849152934425)** — _www.dongchedi.com_ · date: unknown
+- **[奥迪E5 Sportback：豪华纯电轿车的正确打开方式](https://www.dongchedi.com/article/7653796800746340889)** — _www.dongchedi.com_ · date: unknown
+- **[奥迪E5 Sportback先锋Plus版，家用豪华纯电新标杆](https://www.dongchedi.com/article/7653796543224873497)** — _www.dongchedi.com_ · date: unknown
+- **[奥迪E7X深度体验：纯电德系操控有多稳？](https://www.dongchedi.com/video/7653795964909765145)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[德哥说汽车](https://www.dongchedi.com/user/653590259310787)** — _www.dongchedi.com_ · date: unknown
+- **[丰田发力了，宣布新能源车销量破万，旗下的铂智7持续热销](https://www.dongchedi.com/video/7653793524676166169)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[华为申请第12类 “世界” 汽车商标，批量布局界系商标引关注](https://www.dongchedi.com/article/7653789000109425176)** — _www.dongchedi.com_ · date: unknown
+- **[海狮08插混与纯电双布局，续航突破900km，可变磁通电机震撼登场](https://www.dongchedi.com/video/7653789209349816857)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[兼顾通勤与远行，家用中型混动SUV实用选手：2026款奇瑞风云T9L](https://www.dongchedi.com/article/7653788511250055705)** — _www.dongchedi.com_ · date: unknown
+- **[奇瑞风云T9L：13-19万家用SUV，全家高频出行优选](https://www.dongchedi.com/article/7653787950223868441)** — _www.dongchedi.com_ · date: unknown
+- **[AMG 未来三年推 27 款新车，目标追平宝马 M 销量](https://www.dongchedi.com/article/7653787519797166616)** — _www.dongchedi.com_ · date: unknown
+- **[奇瑞风云T9L：2920mm轴距+三块大屏，动力强、配置高，关键还省油](https://www.dongchedi.com/article/7653787738138739225)** — _www.dongchedi.com_ · date: unknown
+- **[三年砸 27 款新车，AMG 要靠电动化追上宝马 M](https://www.dongchedi.com/article/7653787480307778072)** — _www.dongchedi.com_ · date: unknown
 - **[火线提拔！阿维塔、启源两位一把手，双双升任长安汽车副总裁](https://www.stcn.com/article/detail/3970503.html)** — _www.stcn.com_ · date: unknown
   前五月新能源销量跑输大盘之际，长安火线提拔两位子品牌负责人进入集团高管序列。 近日，长安汽车召开第九届董事会第五十九次会议，以8票同意、0票反对、0票弃权的结果，全票通过《关于聘任高级管理人员的议案》，同意聘任陈卓、狄智睿为公司副总裁，任期自本次董事会审议通过之日起至第九届董事会任期届满。 这并非一次例行的高管补充。两位新任副总裁的现职身份——阿维塔科技总裁
+- **[众泰汽车：董事许明哲因个人工作调整辞职](https://www.stcn.com/article/detail/3970607.html)** — _www.stcn.com_ · published 2026-06-16
+  证券时报网 孙孝熙 2026-06-16 21:12 人民财讯6月21日电，众泰汽车(000980)6月21日公告，许明哲因个人工作调整，申请辞去公司董事等相关职务，辞职后许明哲将不在公司担任任何职务。 公司董事会6月20日收到公司股东吉林省厚土兰德投资有限公司（简称“厚土兰德”）出具的《关于撤回提请罢免许明哲董事议案的申请书》，鉴于许明哲已辞去公司董事等相
 
 ### 2026-06-20 — 127 articles
 - **[·
