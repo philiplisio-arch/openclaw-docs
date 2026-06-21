@@ -1,20 +1,20 @@
 # China Business Daily — Crawler Status
 
-_Updated 2026-06-22 03:41 | WS1 redesign source universe | discovery-only, zero LLM tokens | every 3h_
+_Updated 2026-06-22 06:41 | WS1 redesign source universe | discovery-only, zero LLM tokens | every 3h_
 
-## Cumulative: **3171 business articles** across **16 outlets**
+## Cumulative: **3183 business articles** across **16 outlets**
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.stcn.com | 704 |
-| www.21jingji.com | 590 |
-| www.nbd.com.cn | 526 |
-| www.eeo.com.cn | 265 |
+| www.21jingji.com | 592 |
+| www.nbd.com.cn | 531 |
+| www.eeo.com.cn | 268 |
 | www.jiemian.com | 257 |
 | 36kr.com | 235 |
 | www.yicai.com | 224 |
-| finance.people.com.cn | 198 |
+| finance.people.com.cn | 200 |
 | news.cnstock.com | 78 |
 | caijing.chinadaily.com.cn | 33 |
 | finance.caixin.com | 23 |
@@ -24,14 +24,18 @@ _Updated 2026-06-22 03:41 | WS1 redesign source universe | discovery-only, zero 
 | jingji.cctv.com | 5 |
 | m.21jingji.com | 1 |
 
-## 2026-06-22 — 34 articles
+## 2026-06-22 — 46 articles
 - **[端午假期全国消费市场运行平稳](https://finance.people.com.cn/n1/2026/0621/c1004-40744314.html)** — _finance.people.com.cn_ · published 2026-06-21
+- **[推动海洋经济领域就业稳岗扩容提质](https://finance.people.com.cn/n1/2026/0622/c1004-40744364.html)** — _finance.people.com.cn_ · published 2026-06-22
+- **[全国消费市场运行平稳](https://finance.people.com.cn/n1/2026/0622/c1004-40744335.html)** — _finance.people.com.cn_ · published 2026-06-22
 - **[万斯称特朗普致力于区域全面停火，国际油价跌超1.1%，暗盘金价站上4160美元](https://www.21jingji.com/article/20260621/herald/adab52d26e34766dc7de7a05834669cf.html)** — _www.21jingji.com_ · date: unknown
 - **[A股市场风格分化延续？投资主线有哪些？十大券商策略来了](https://www.21jingji.com/article/20260621/herald/d114490c69f1a144afd4340224633189.html)** — _www.21jingji.com_ · date: unknown
 - **[市场交投持续活跃、自营业务不断修复……券商业绩利好频频](https://www.21jingji.com/article/20260621/herald/be3dc605feb3cdc61ec1465b57bd503d.html)** — _www.21jingji.com_ · date: unknown
 - **[倍轻松实控人被罚超千万元、5年证券市场禁入](https://www.21jingji.com/article/20260621/herald/37257f7119b3ad04c1d3dfeaeaed9897.html)** — _www.21jingji.com_ · date: unknown
 - **[五部门联合发布，新能源汽车下乡启动！还将推进“以旧换新”补贴](https://www.21jingji.com/article/20260621/herald/4ca1896e45e72f9e8323e0debab4be30.html)** — _www.21jingji.com_ · date: unknown
 - **[乐道L60来了 带你30秒看完新旧款不同](https://www.21jingji.com/article/20260621/herald/02c704915debb85af1579dcd23897b3c.html)** — _www.21jingji.com_ · date: unknown
+- **[刘强东谈海外投资：不能想着“捞一把”就走](https://www.21jingji.com/article/20260621/herald/9d08d07a50b9e71361e27092541c38f1.html)** — _www.21jingji.com_ · date: unknown
+- **[龙舟“划”出大产业！千年老手艺，上新](https://www.21jingji.com/article/20260622/herald/5cfdd961d10a88a8527677419e12c9b8.html)** — _www.21jingji.com_ · date: unknown
 - **[韩国电力牵头成立光伏协商体，高负债背景下执行效果待观察](https://www.eeo.com.cn/2026/0622/924265.shtml)** — _www.eeo.com.cn_ · published 2026-06-22
 - **[多伦多道明银行发行12.5亿加元AT1债券并提高季度股息](https://www.eeo.com.cn/2026/0622/924262.shtml)** — _www.eeo.com.cn_ · published 2026-06-22
 - **[Toyo Co., Ltd拟3.57亿美元扩产美国光伏产能 关税风险引关注](https://www.eeo.com.cn/2026/0622/924264.shtml)** — _www.eeo.com.cn_ · date: unknown
@@ -44,6 +48,9 @@ _Updated 2026-06-22 03:41 | WS1 redesign source universe | discovery-only, zero 
 - **[美国绿星球与云南益诺维生物科技签署深度战略合作协议](https://www.eeo.com.cn/2026/0622/924276.shtml)** — _www.eeo.com.cn_ · published 2026-06-22
 - **[Qxo, Inc.要约收购TopBuild票据获高认购，交易确定性提升带动股价上涨](https://www.eeo.com.cn/2026/0622/924275.shtml)** — _www.eeo.com.cn_ · published 2026-06-22
 - **[理查森电子6月18日涨6.59% 受益半导体行业资本开支周期](https://www.eeo.com.cn/2026/0622/924273.shtml)** — _www.eeo.com.cn_ · date: unknown
+- **[Cardinal Infrastructure Group股价创历史新高 一季度营收增105%](https://www.eeo.com.cn/2026/0622/924300.shtml)** — _www.eeo.com.cn_ · date: unknown
+- **[羚羊控股推进战略转型，业务拓展与合规风险并存](https://www.eeo.com.cn/2026/0622/924297.shtml)** — _www.eeo.com.cn_ · date: unknown
+- **[百度上半年AI投资出手密集 移动生态架构调整自动驾驶获海外测试许可](https://www.eeo.com.cn/2026/0622/924294.shtml)** — _www.eeo.com.cn_ · published 2026-06-17
 - **[深交所将迎来史上最大规模IPO](https://www.jiemian.com/article/14619774.html)** — _www.jiemian.com_ · date: unknown
 - **[端午假期北京接待846.6万人次，文旅市场持续升温](https://www.jiemian.com/article/14619772.html)** — _www.jiemian.com_ · date: unknown
 - **[巨星科技拟收购网商银行1.54%股权；中船特气：六氟化钨相关传闻请以公司披露为准](https://www.nbd.com.cn/articles/2026-06-21/4432312.html)** — _www.nbd.com.cn_ · published 2026-06-21
@@ -58,6 +65,15 @@ _Updated 2026-06-22 03:41 | WS1 redesign source universe | discovery-only, zero 
 - **[1个多月大涨超180%！688549，紧急提示风险：高纯六氟化钨尚无实质性订单，也暂无扩产计划，投资者注意理性决策，审慎投资](https://www.nbd.com.cn/articles/2026-06-21/4432311.html)** — _www.nbd.com.cn_ · published 2026-06-21
 - **[2026年6月22日医药市场热点](https://www.nbd.com.cn/articles/2026-06-21/4432308.html)** — _www.nbd.com.cn_ · published 2026-06-21
 - **[2026年6月22日数智市场热点](https://www.nbd.com.cn/articles/2026-06-21/4432304.html)** — _www.nbd.com.cn_ · published 2026-06-21
+- **[影响市场重大事件： 蓝箭航天重磅官宣：“接二连三，都会如期而至”；商业航天重大突破！垣信手机直连试验星成功打通无改造存量手机直连卫星通话](https://www.nbd.com.cn/articles/2026-06-21/4432200.html)** — _www.nbd.com.cn_ · published 2026-06-21
+- **[抗议特朗普威胁言论，伊朗代表团离开谈判地点；世界杯西班牙收获首胜；供应链称已向苹果首款折叠屏供货；三家纸尿裤品牌称未检出甲酰胺丨每经早参](https://www.nbd.com.cn/articles/2026-06-21/4432302.html)** — _www.nbd.com.cn_ · published 2026-06-21
+- **[06:39
+                  
+                  
+              
+                  年内2297家上市](https://www.nbd.com.cn/articles/2026-06-22/4432364.html)** — _www.nbd.com.cn_ · date: unknown
+- **[外资巨头年中投资展望出炉 A股AI板块被视为“价值洼地”](https://www.nbd.com.cn/articles/2026-06-22/4432357.html)** — _www.nbd.com.cn_ · published 2026-06-22
+- **[A股科技板块有望与全球AI科技行情形成共振 机构：资金或持续向高景气方向缩圈](https://www.nbd.com.cn/articles/2026-06-22/4432356.html)** — _www.nbd.com.cn_ · published 2026-06-22
 - **[【十大券商一周策略】大涨之后，科技板块还有多少空间？看好AI算力，成长主导但谨慎追高](https://www.stcn.com/article/detail/3970645.html)** — _www.stcn.com_ · date: unknown
 
 ## 2026-06-21 — 208 articles
