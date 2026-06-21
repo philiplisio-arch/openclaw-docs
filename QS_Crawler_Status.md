@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-21 21:14 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-22 00:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-06-21 21:14 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **879 unique auto/NEV articles** across **17 outlets**
+## Cumulative: **899 unique auto/NEV articles** across **17 outlets**
 
 ## New per day
 | date | new articles |
@@ -24,12 +24,13 @@ _Updated 2026-06-21 21:14 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-19 | 152 |
 | 2026-06-20 | 127 |
 | 2026-06-21 | 130 |
+| 2026-06-22 | 20 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.dongchedi.com | 367 |
-| www.caam.org.cn | 152 |
+| www.dongchedi.com | 386 |
+| www.caam.org.cn | 153 |
 | www.d1ev.com | 121 |
 | www.cada.cn | 59 |
 | www.news.cn | 36 |
@@ -47,6 +48,38 @@ _Updated 2026-06-21 21:14 | discovery-only, zero LLM tokens | runs every 3h_
 | gd.chinadaily.com.cn | 1 |
 
 ## Articles captured by day (newest first)
+
+### 2026-06-22 — 20 articles
+- **[中国汽车工业协会关于《越野体验场地建设要求与开放条件》等七项团体标准立项公示的函。
+		[01.12]](https://www.caam.org.cn/chn/10/cate_112/con_5236334.html)** — _www.caam.org.cn_ · date: unknown
+- **[全新NV200插混版，纯电续航80-150公里，侧滑门带双动力](https://www.dongchedi.com/article/7653031084661621272)** — _www.dongchedi.com_ · date: unknown
+- **[比亚迪大唐 EV上市售23.99万起，旗舰纯电SUV实力如何](https://www.dongchedi.com/article/7653863088546464280)** — _www.dongchedi.com_ · date: unknown
+- **[小米“寻天”SUV测试车展开车顶帐篷，自带“Loft”空间](https://www.dongchedi.com/article/7653858021328536088)** — _www.dongchedi.com_ · date: unknown
+- **[零跑汽车三季度将举办“技术日”，公布多项创新技术成果](https://www.dongchedi.com/article/7653858000625402392)** — _www.dongchedi.com_ · date: unknown
+- **[宁德吉利ICON2020款，售价不到6万个性小型城市SUV](https://www.dongchedi.com/video/7653856002176991769)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[第41集｜丰田塞纳改装高顶版价格，2026合规高顶改装明细报价_懂车帝](https://www.dongchedi.com/video/7653855289837781528)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[小鹏G7三风格爆改](https://www.dongchedi.com/video/7653855036665365054)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[比亚迪Dolphin G DM-i欧洲多国上市，专属插混两厢专供海外](https://www.dongchedi.com/article/7653854222001881624)** — _www.dongchedi.com_ · date: unknown
+- **[现代汽车超现实改装](https://www.dongchedi.com/video/7653854776710840894)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[理想汽车不推纯电L系列，增程与纯电分家，用户真实需求的分裂](https://www.dongchedi.com/article/7653846532701979160)** — _www.dongchedi.com_ · date: unknown
+- **[小鹏MONA L03实车亮相，4米65长帅气轿跑SUV，双动力选择引发期待](https://www.dongchedi.com/video/7653846230111797822)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[打破MPV空间！高顶四驱版丰田赛那，才是全能商务家用“最优解”](https://www.dongchedi.com/video/7653844775904313880)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[纯电950公里续航带闪充？手握30万预算，比亚迪大唐可以闭眼冲？](https://www.dongchedi.com/video/7653842433603764798)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[你买的电动车，可能在你熟睡时被“偷走”了200公里续航](https://www.dongchedi.com/article/7653842500112728600)** — _www.dongchedi.com_ · date: unknown
+- **[标致508停产配件断供，PSA在华败退与未来燃油车配件隐忧](https://www.dongchedi.com/article/7653840934585778712)** — _www.dongchedi.com_ · date: unknown
+- **[蔚来ET9&quot;极境逐光&quot;，限量99台83.8万起](https://www.dongchedi.com/article/7653840901122654745)** — _www.dongchedi.com_ · date: unknown
+- **[东莞 2025 款零跑 B10，售价不到 9 万露营智能纯电家轿](https://www.dongchedi.com/video/7653840013909836313)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[CAV打造了一款新的福特GT40继任车型，不过用的是奥迪R8](https://www.dongchedi.com/article/7653837258541875736)** — _www.dongchedi.com_ · date: unknown
+- **[更硬核的新能源轻越野，奇瑞风云X3L到底适合哪些人？](https://www.dongchedi.com/video/7653835870684234302)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
 
 ### 2026-06-21 — 130 articles
 - **[众泰汽车：董事许明哲因个人工作调整辞职](https://egs.stcn.com/news/detail/2304782.html)** — _egs.stcn.com_ · date: unknown
