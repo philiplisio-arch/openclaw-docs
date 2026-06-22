@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-22 09:13 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-22 12:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-06-22 09:13 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **909 unique auto/NEV articles** across **17 outlets**
+## Cumulative: **929 unique auto/NEV articles** across **17 outlets**
 
 ## New per day
 | date | new articles |
@@ -24,19 +24,19 @@ _Updated 2026-06-22 09:13 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-19 | 152 |
 | 2026-06-20 | 127 |
 | 2026-06-21 | 130 |
-| 2026-06-22 | 30 |
+| 2026-06-22 | 50 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.dongchedi.com | 390 |
-| www.caam.org.cn | 153 |
-| www.d1ev.com | 126 |
+| www.dongchedi.com | 400 |
+| www.caam.org.cn | 155 |
+| www.d1ev.com | 131 |
 | www.cada.cn | 59 |
 | 36kr.com | 37 |
 | www.news.cn | 36 |
-| www.stcn.com | 32 |
-| egs.stcn.com | 27 |
+| www.stcn.com | 33 |
+| egs.stcn.com | 29 |
 | www.zqrb.cn | 15 |
 | www.xinhuanet.com | 15 |
 | www.yicai.com | 4 |
@@ -49,11 +49,19 @@ _Updated 2026-06-22 09:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-06-22 — 30 articles
+### 2026-06-22 — 50 articles
 - **[三四线小城市，也在大步踏进纯电时代](https://36kr.com/p/3863629164123137)** — _36kr.com_ · published 2026-06-22
   三四线小城市，也在大步踏进纯电时代 “小妹，你看这个车怎么样？” 五月中旬，老家的表哥突然转发来一条纯电车的宣传短视频，似乎有意想要入手。 在此之前笔者曾和多位朋友讨论过购置纯电车的事宜，按理说早该对此习以为常了，但这次交流对象换作老家表哥，笔者还是十分惊诧。 笔者家在北方一座低线城市，两年前返乡时，曾专门问过家里几位长辈、表亲，甚至朋友父母对电车的看法。彼
+- **[预告：国新办6月23日举行新闻发布会 介绍全链条扩大汽车消费有关情况](https://egs.stcn.com/news/detail/2304971.html)** — _egs.stcn.com_ · published 2026-06-23
+  人民财讯6月22日电，国务院新闻办公室将于2026年6月23日（星期二）下午3时举行新闻发布会，请商务部副部长盛秋平和工业和信息化部、文化和旅游部、杭州市、成都市有关负责人介绍全链条扩大汽车消费有关情况，并答记者问。
+- **[小米YU7 GT （选配赛道专业套装）自动驾驶完成纽北20.8公里官方认证圈速](https://egs.stcn.com/news/detail/2304950.html)** — _egs.stcn.com_ · date: unknown
+  证券时报·e公司 欧阳佟 06-22 11:32 人民财讯6月22日电，小米汽车22日宣布，其自主研发的自动驾驶系统在德国纽博格林北环赛道完成无人自动驾驶完整圈速测试，测试车辆小米YU7 GT（选配赛道专业套装）全程无人自动驾驶顺利完赛，成绩为10分29秒483，创下自动驾驶在极限赛道测试的里程碑纪录，小米成为全球首个全车无人自动驾驶完成纽北赛道完整圈速的车
 - **[中国汽车工业协会关于《越野体验场地建设要求与开放条件》等七项团体标准立项公示的函。
 		[01.12]](https://www.caam.org.cn/chn/10/cate_112/con_5236334.html)** — _www.caam.org.cn_ · date: unknown
+- **[中国汽车工业协会接待科慕TSS总裁Joseph Martinko一行](https://www.caam.org.cn/chn/1/cate_3/con_5237074.html)** — _www.caam.org.cn_ · date: unknown
+- **[·
+                关于召开全国汽车行业共青团工作指导和推进委员会第二届第二次全体委员会暨中国汽车行业第41届青年工作研究会（芜湖）理事会的通知
+                [05.09]](https://www.caam.org.cn/chn/5/cate_70/con_5237107.html)** — _www.caam.org.cn_ · date: unknown
 - **[汽车零部件企业，并购抢“权”](https://www.d1ev.com/news/shichang/303906)** — _www.d1ev.com_ · date: unknown
   2026年上半年，汽车零部件行业的并购整合节奏明显加快。 据《经济参考报》援引同花顺iFinD数据统计，截至6月12日，上半年已有67家汽车行业上市公司发布收购兼并公告，零部件企业构成其中主力。 值得注意的是，此轮并购中，收购方普遍追求控股而非参股，部分交易甚至出现“以小吃大”的局面。同时，并购方向高度集中于技术卡位与全球化布局。 都在抢什么？控制权 梳理本
 - **[【盖世快讯】宁德时代利润超7家车企总和；L4级强制加激光雷达？小鹏高管回应](https://www.d1ev.com/news/shichang/303905)** — _www.d1ev.com_ · date: unknown
@@ -64,6 +72,16 @@ _Updated 2026-06-22 09:13 | discovery-only, zero LLM tokens | runs every 3h_
   6月22日，比亚迪宣布旗下腾势N8L闪充版将于6月23日19:30正式上市。这款新车定位为大六座安全豪华中大型SUV，预售价区间为35-40万元。腾势N8L闪充版标配第二代刀片 电池，插混闪充版纯电续航达到430km，同级领先。官方宣称“5分钟充好，9分钟充饱”，在零下30度环境下，充电时间仅多3分钟。 新车全球首搭新一代AI智能座舱，搭载天神之眼5.0辅助
 - **[福特超级野马Mach](https://www.d1ev.com/newsflash/303909)** — _www.d1ev.com_ · date: unknown
   6月22日，福特超级野马Mach-E在2025年派克峰爬山赛中取得历史性胜利，击败所有燃油赛车，登顶赛事冠军。派克峰国际爬山赛以其艰险著称，赛道从海拔2862米升至4300米，平均坡度达7.2%。电动车在该赛事中具有天然优势，因为它们不受氧气含量影响，燃油车则需搭载大排量 发动机以应对高海拔环境。福特此次派出的超级野马Mach-E，最大功率1400匹马力，外
+- **[补齐产品线拼图 小鹏MONA首款SUV定名L03](https://www.d1ev.com/news/shichang/303966)** — _www.d1ev.com_ · date: unknown
+  盖世汽车讯 6月22日，小鹏集团副总裁于涛介绍MONA系列旗下首款SUV车型，新车命名为小鹏MONA L03。至此，该品牌酝酿两年的 “MONALISA” 产品命名构想全部落地，与已有轿车产品形成系列化布局。据悉，新车将于7月2日对外发布。 据官方披露，整个MONA系列立项之初，内部整体项目代号为 “MONALISA”，也就是蒙娜丽莎。MONA序列内，字母M
+- **[宝马X5全新升级：2028年氢燃料版来袭，纯电续航超500km！](https://www.d1ev.com/newsflash/303963)** — _www.d1ev.com_ · date: unknown
+  宝马全新一代X5（代号G65）预计将于6月30日全球首发，动力系统多样化，包括汽油、柴油、插电混动、纯电动版本，并计划在2028年推出 氢燃料电池版本。新车将于2026年8月投产，初期将推出燃油与插混车型，纯电车型也将同步上市，其他衍生车型将在2027年陆续补充。 在动力配置上，燃油车型包括X540xDrive与X540dxDrive，X540xDrive搭
+- **[华为技术加持！启境GT7高端智能新能源车21.99万起售](https://www.d1ev.com/newsflash/303962)** — _www.d1ev.com_ · date: unknown
+  6月22日，易车报道，广汽集团与华为乾崑联合打造的高端智能新能源汽车品牌“启境”旗下首款车型GT7将于6月26日上市，预售价区间为21.99-30.99万元。启境GT7在第三十届粤港澳大湾区车展上已开启预售，全系车型将搭载华为乾崑最先进的智能技术，包括华为六大汽车智能化解决方案。 启境GT7标准版预售价21.99万元，配备800V86度 宁德时代电池，CLT
+- **[日产劲客焕新登场：日本首发第三代e](https://www.d1ev.com/newsflash/303961)** — _www.d1ev.com_ · date: unknown
+  6月22日，日产汽车在日本市场推出了第二代KICKS（劲客）紧凑型SUV。这款新车型是日本市场上首款搭载第三代e-POWER混动系统的汽车，配备了五合一e-POWER电机单元。第二代劲客还搭载了1.4L HR14DDe 发动机，并提供2WD和4WD两种驱动版本供消费者选择。 第二代劲客在安全配置上进行了升级，标配ProPILOT驾驶辅助系统，并新增了智能全景
+- **[L3强制加毫米波雷达，小鹏特斯拉纯视觉慌了？假的](https://www.d1ev.com/news/shichang/303959)** — _www.d1ev.com_ · published 2027-07-01
+  “相关文件《自动驾驶系统安全要求》都公开可查，里面连激光雷达这个词都没提到。”近日，小鹏汽车副总裁于涛在社交平台公开回应一则网络传言。 该传言称，工信部新国标强制要求L3级自动驾驶必须采用摄像头与毫米波雷达双冗余，L4级必须加装激光雷达，并将在2027年7月1日强制执行。于涛的辟谣直指此为“假新闻”，既无条款依据，也与编制说明相悖。 正是这句来自车企高管的直
 - **[全新NV200插混版，纯电续航80-150公里，侧滑门带双动力](https://www.dongchedi.com/article/7653031084661621272)** — _www.dongchedi.com_ · date: unknown
 - **[比亚迪大唐 EV上市售23.99万起，旗舰纯电SUV实力如何](https://www.dongchedi.com/article/7653863088546464280)** — _www.dongchedi.com_ · date: unknown
 - **[小米“寻天”SUV测试车展开车顶帐篷，自带“Loft”空间](https://www.dongchedi.com/article/7653858021328536088)** — _www.dongchedi.com_ · date: unknown
@@ -98,6 +116,22 @@ _Updated 2026-06-22 09:13 | discovery-only, zero LLM tokens | runs every 3h_
 - **[上市首月反超宋L，银河M7远航家重塑十万级混动SUV市场格局](https://www.dongchedi.com/video/7654000508272673305)** — _www.dongchedi.com_ · date: unknown
   扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
 - **[奇瑞艾瑞泽 8征服版正式上市，家用轿车新增高配置越野向版本](https://www.dongchedi.com/article/7653923238825296408)** — _www.dongchedi.com_ · date: unknown
+- **[网上车市官号](https://www.dongchedi.com/user/2854747105399533)** — _www.dongchedi.com_ · date: unknown
+- **[试过多款混动MPV，这款传祺向往M8 PHEV L适配多数家庭需求](https://www.dongchedi.com/article/7654044909279855129)** — _www.dongchedi.com_ · date: unknown
+- **[吉利的“双擎”，帝豪i](https://www.dongchedi.com/video/7654043745914421785)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[5米3的MPV你不敢开？吉利银河V900自己会停](https://www.dongchedi.com/video/7654041062746636824)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[124万辆年销量的品牌，出的MPV不敢糊弄：吉利银河V900](https://www.dongchedi.com/video/7654040543856558616)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[蔚来全国建成8996座充换电站，累计提供超1.1亿次换电](https://www.dongchedi.com/article/7654040540375433753)** — _www.dongchedi.com_ · date: unknown
+- **[长城H10将于6月25日亮相 搭载Hi4混动+800V平台 续航176km和180km](https://www.dongchedi.com/article/7654039542199321112)** — _www.dongchedi.com_ · date: unknown
+- **[汽车人传媒](https://www.dongchedi.com/user/6865297714)** — _www.dongchedi.com_ · date: unknown
+- **[【汽车人】越卖越赔本！车企无奈“瘦身”](https://www.dongchedi.com/article/7654039143970505241)** — _www.dongchedi.com_ · date: unknown
+- **[2027款起亚Seltos 混动X](https://www.dongchedi.com/video/7654039970583642648)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[预告：国新办6月23日举行新闻发布会 介绍全链条扩大汽车消费有关情况](https://www.stcn.com/article/detail/3971455.html)** — _www.stcn.com_ · published 2026-06-15
+  证券时报网 朱雨蒙 2026-06-15 08:16 人民财讯6月22日电，国务院新闻办公室将于2026年6月23日（星期二）下午3时举行新闻发布会，请商务部副部长盛秋平和工业和信息化部、文化和旅游部、杭州市、成都市有关负责人介绍全链条扩大汽车消费有关情况，并答记者问。
 
 ### 2026-06-21 — 130 articles
 - **[众泰汽车：董事许明哲因个人工作调整辞职](https://egs.stcn.com/news/detail/2304782.html)** — _egs.stcn.com_ · date: unknown
