@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-23 00:13 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-23 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-06-23 00:13 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **1050 unique auto/NEV articles** across **17 outlets**
+## Cumulative: **1052 unique auto/NEV articles** across **17 outlets**
 
 ## New per day
 | date | new articles |
@@ -25,12 +25,12 @@ _Updated 2026-06-23 00:13 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-20 | 127 |
 | 2026-06-21 | 130 |
 | 2026-06-22 | 144 |
-| 2026-06-23 | 27 |
+| 2026-06-23 | 29 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.dongchedi.com | 474 |
+| www.dongchedi.com | 476 |
 | www.caam.org.cn | 162 |
 | www.d1ev.com | 147 |
 | www.cada.cn | 62 |
@@ -50,7 +50,7 @@ _Updated 2026-06-23 00:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-06-23 — 27 articles
+### 2026-06-23 — 29 articles
 - **[车企营销不能再“乱吹”了，自动驾驶国标出台，明年7月实施](https://36kr.com/p/3864289821644039)** — _36kr.com_ · published 2026-06-23
   车企营销不能再“乱吹”了，自动驾驶国标出台，明年7月实施 我国首部L3/L4自动驾驶强制性国标公示。 车东西6月22日消息，日前，工业和信息化部发布了关于公开征求《智能网联汽车 自动驾驶系统安全要求》等2项强制性国家标准（报批稿）、《车载事故紧急呼叫系统》强制性国家标准外文版（报批稿）意见的公示。 ▲工信部发布的公示 其中，《智能网联汽车 自动驾驶系统安全要
 - **[重庆首发新型汽车箱整列中欧班列](https://cn.chinadaily.com.cn/a/202606/22/WS6a3943bfa310d709c2fb9798.html)** — _cn.chinadaily.com.cn_ · published 2026-06-22
@@ -87,6 +87,8 @@ _Updated 2026-06-23 00:13 | discovery-only, zero LLM tokens | runs every 3h_
 - **[吉利银河战舰700官图发布](https://www.dongchedi.com/article/7654197256594063934)** — _www.dongchedi.com_ · date: unknown
 - **[续航超过五百公里的纯电动车。这就是极狐贝塔 T1](https://www.dongchedi.com/video/7654201111708189246)** — _www.dongchedi.com_ · date: unknown
   扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[零跑汽车将于2026年Q3对外发布多项全新创新技术成果](https://www.dongchedi.com/article/7654236278478111256)** — _www.dongchedi.com_ · date: unknown
+- **[汽车大世界V](https://www.dongchedi.com/user/58670348904)** — _www.dongchedi.com_ · date: unknown
 - **[威迈斯：车载电源产品可以应用于飞行汽车中 并已获小鹏汇天定点](https://www.stcn.com/article/detail/3973127.html)** — _www.stcn.com_ · published 2026-06-22
   首页 快讯 新闻 要闻 金融 评论 产经 创投 滚动 视频 投资 A股 公司 新股 基金 港美股 数据 信披+ 专题 地方 京 津 冀 晋 蒙 辽 吉 黑 沪 苏 浙 皖 闽 赣 鲁 豫 鄂 湘 粤 桂 琼 渝 川 黔 滇 藏 陕 甘 青 宁 新 鹏 服务 人民鉴真 投关服务 投教服务 其他服务 公众号 电子报 客户端 您当前的位置： 证券时报 > 快讯 >
 - **[跟进比亚迪，华为宣布兜底](https://www.yicai.com/news/103240595.html)** — _www.yicai.com_ · date: unknown
