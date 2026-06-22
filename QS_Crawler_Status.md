@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-22 18:13 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-22 21:15 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-06-22 18:13 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **991 unique auto/NEV articles** across **17 outlets**
+## Cumulative: **1023 unique auto/NEV articles** across **17 outlets**
 
 ## New per day
 | date | new articles |
@@ -24,23 +24,23 @@ _Updated 2026-06-22 18:13 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-19 | 152 |
 | 2026-06-20 | 127 |
 | 2026-06-21 | 130 |
-| 2026-06-22 | 112 |
+| 2026-06-22 | 144 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.dongchedi.com | 439 |
-| www.caam.org.cn | 159 |
-| www.d1ev.com | 139 |
-| www.cada.cn | 59 |
-| www.news.cn | 38 |
-| www.stcn.com | 37 |
-| 36kr.com | 37 |
+| www.dongchedi.com | 456 |
+| www.caam.org.cn | 161 |
+| www.d1ev.com | 145 |
+| www.cada.cn | 61 |
+| www.news.cn | 39 |
+| 36kr.com | 39 |
+| www.stcn.com | 38 |
 | egs.stcn.com | 31 |
 | www.xinhuanet.com | 16 |
 | www.zqrb.cn | 15 |
+| www.yicai.com | 5 |
 | qzs.stcn.com | 5 |
-| www.yicai.com | 4 |
 | economy.gmw.cn | 4 |
 | cn.chinadaily.com.cn | 4 |
 | www.ceweekly.cn | 2 |
@@ -49,9 +49,13 @@ _Updated 2026-06-22 18:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-06-22 — 112 articles
+### 2026-06-22 — 144 articles
 - **[三四线小城市，也在大步踏进纯电时代](https://36kr.com/p/3863629164123137)** — _36kr.com_ · published 2026-06-22
   三四线小城市，也在大步踏进纯电时代 “小妹，你看这个车怎么样？” 五月中旬，老家的表哥突然转发来一条纯电车的宣传短视频，似乎有意想要入手。 在此之前笔者曾和多位朋友讨论过购置纯电车的事宜，按理说早该对此习以为常了，但这次交流对象换作老家表哥，笔者还是十分惊诧。 笔者家在北方一座低线城市，两年前返乡时，曾专门问过家里几位长辈、表亲，甚至朋友父母对电车的看法。彼
+- **[何小鹏，蚂蚁的&quot;AI理想型&quot;](https://36kr.com/p/3864182666722177)** — _36kr.com_ · published 2026-06-22
+  何小鹏，蚂蚁的"AI理想型" 6月10日，何小鹏给小鹏全员发了封内部信，说他除了继续当集团CEO，还要亲自兼任机器人业务的CEO。 理由是小鹏的人形机器人IRON快量产了，他得亲自盯。这是他给自己加的担子——IRON计划2026年底量产，年底月产能目标上千台，先进门店和园区做导览、导购。用他自己的话，量产高阶人形机器人“比做科研难一百倍”。 而今天，他多了一
+- **[沃尔沃「亲儿子」解散，汽车金融怎么了？](https://36kr.com/p/3864130145506569)** — _36kr.com_ · published 2026-06-22
+  沃尔沃「亲儿子」解散，汽车金融怎么了？ 「核心提示」 当汽车的竞争力下降，价值链上的附属品也无法独善其身。 当消费者开始对传统豪华品牌祛魅，最先倒下的不一定是4S店，而是依附于新车销量的汽车金融公司。 近日，国家金融监督管理总局批复同意沃尔沃汽车金融（中国）有限公司解散。这家由沃尔沃集团全资控股、在华运营近20年的持牌汽车金融公司就此落幕，成为国内第二家退市
 - **[智能眼镜、手持摄影设备销售额增长 一组数据看我国消费新趋势](https://cn.chinadaily.com.cn/a/202606/22/WS6a38c9eba310d709c2fb9461.html)** — _cn.chinadaily.com.cn_ · published 2026-06-22
   据商务部消息，随着我国消费市场结构优化升级，居民消费正从以商品消费为主，向商品和服务消费并重转变。1—5月，社会消费商品和服务零售总额同比（下同）增长2.8%；社会消费品零售总额20.6万亿元，增长1.4%，其中除汽车以外的消费品零售额增长2.7%；服务零售额增长5.4%。 一是商品消费总体平稳。1—5月，在去年同期高基数情况下，商品零售额增长1.2%，其中
 - **[预告：国新办6月23日举行新闻发布会 介绍全链条扩大汽车消费有关情况](https://egs.stcn.com/news/detail/2304971.html)** — _egs.stcn.com_ · published 2026-06-23
@@ -78,6 +82,12 @@ _Updated 2026-06-22 18:13 | discovery-only, zero LLM tokens | runs every 3h_
                      [11.25]](https://www.caam.org.cn/chn/3/cate_25/con_5236587.html)** — _www.caam.org.cn_ · date: unknown
 - **[·
                    中国汽车工业协会行业职业道德准则](https://www.caam.org.cn/chn/5/cate_540/con_5235942.html)** — _www.caam.org.cn_ · date: unknown
+- **[中国汽车工业协会关于《在用电动汽车动力蓄电池容量衰减检测方法》等六项团体标准征求意见的函
+		[09.27]](https://www.caam.org.cn/chn/10/cate_112/con_5236180.html)** — _www.caam.org.cn_ · date: unknown
+- **[·
+ 《道路机动车辆生产企业及产品》（第369批）、《享受车船税减免优惠的节约能源 使用新能源汽车车型目录》（第四十八批）、《免征车辆购置税的新能源汽车车型目录》（第六十四批）](https://www.caam.org.cn/chn/1/cate_126/con_5235747.html)** — _www.caam.org.cn_ · date: unknown
+- **[关于继续做好2025年度全国汽车流通行业信息统计年报、月报工作的通知](https://www.cada.cn/Trends/info_89_10196.html)** — _www.cada.cn_ · date: unknown
+- **[副理事长名录-有形市场分会](https://www.cada.cn/liebiao/info_81_8423.html)** — _www.cada.cn_ · date: unknown
 - **[汽车零部件企业，并购抢“权”](https://www.d1ev.com/news/shichang/303906)** — _www.d1ev.com_ · date: unknown
   2026年上半年，汽车零部件行业的并购整合节奏明显加快。 据《经济参考报》援引同花顺iFinD数据统计，截至6月12日，上半年已有67家汽车行业上市公司发布收购兼并公告，零部件企业构成其中主力。 值得注意的是，此轮并购中，收购方普遍追求控股而非参股，部分交易甚至出现“以小吃大”的局面。同时，并购方向高度集中于技术卡位与全球化布局。 都在抢什么？控制权 梳理本
 - **[【盖世快讯】宁德时代利润超7家车企总和；L4级强制加激光雷达？小鹏高管回应](https://www.d1ev.com/news/shichang/303905)** — _www.d1ev.com_ · date: unknown
@@ -114,6 +124,18 @@ _Updated 2026-06-22 18:13 | discovery-only, zero LLM tokens | runs every 3h_
   6月上旬，有报道称，小鹏汽车已秘密启动游艇研发项目，内部代号“飞鱼”。随后，小鹏方面回应称“对此事尚不了解”。 这组传闻与回应，将一家以智能电动汽车起家的科技公司，推到了“陆、空、海”三维布局的讨论中心。 传闻的轮廓与官方的沉默 据多方消息称，小鹏汽车于2026年初在内部组建了游艇研发团队，规模接近百人，项目由小鹏汽车整车架构负责人钱占伟牵头负责。项目内部代
 - **[东风奕派M8搭载华为技术，600km纯电续航+增程版来袭！](https://www.d1ev.com/newsflash/304020)** — _www.d1ev.com_ · date: unknown
   东风奕派M8将于6月开启预售，展车即将到店。新车已于5月23日完成全球首秀，搭载华为乾崑技术6件套，包括华为乾崑智驾ADS5Pro、鸿蒙座舱HarmonySpace5.2等。东风奕派M8车身长宽高为5020/1975/1733mm，轴距3025mm，配备半隐藏式门把手，提供5款外观色。动力方面提供纯电和增程两种选择，纯电版采用800V高压平台，电机功率230
+- **[东风奕派M8旗舰车型搭载航天级FSW工艺车轮，减重降噪新突破](https://www.d1ev.com/newsflash/304045)** — _www.d1ev.com_ · date: unknown
+  6月22日，东风汽车研发总院宣布，全新奕派M8旗舰车型采用同级唯一的搅拌摩擦焊（FSW）工艺车轮。这项技术最初用于火箭燃料储箱焊接，能够实现车轮重量最高减轻25%，巡航噪音降低11.5分贝。东风汽车研发总院采用“模块化复合”生产工艺，轮辐采用A356合金进行低温精密铸造，轮辋则使用6061铝合金，经过旋压、冲压和卷边成型，最后利用FSW工艺无缝焊合，单个车轮
+- **[理想L8明日亮相：纯电续航超430km，增程式续航达1670km！](https://www.d1ev.com/newsflash/304043)** — _www.d1ev.com_ · date: unknown
+  6月22日，理想汽车宣布全新理想L8将于6月23日正式发布，新车将提供Ultra和Livis两个版本。理想L8的外观设计选配信息已公开，包括外观车色、内饰颜色、轮毂样式等。官方表示，新车发布后将按照定单锁定顺序进行排产。理想L8的尺寸为5135×2000×1800mm，轴距3045mm，首创联排双零重力座椅，提供55°大躺角靠背、魔毯坐垫、零压腿托等配置。新
+- **[小米YU7GT创纽北自动驾驶纪录：10分29秒483震撼登场！](https://www.d1ev.com/newsflash/304042)** — _www.d1ev.com_ · date: unknown
+  6月22日，小米汽车宣布其YU7GT车型在全球著名的纽博格林北环赛道上创造了 自动驾驶圈速纪录，成绩为10分29秒483。小米集团副总裁、汽车部CTO胡峥楠在社交媒体上分享了这一成就，并强调了小米汽车的愿景：电能替代化学能，以及智能替代人工。胡峥楠表示，小米汽车的目标是实现并超越传统油车所取得的成绩，同时在出行领域实现人工智能对人工操作的替代。 胡峥楠还提到
+- **[法拉利否认强制购买Luce，纯电动超跑Luce订单符合预期](https://www.d1ev.com/newsflash/304041)** — _www.d1ev.com_ · date: unknown
+  6月22日，法拉利针对市场传闻作出回应，否认了部分经销商暗示客户若不订购其首款纯电动车型Luce，可能影响其未来获得稀有限量车型或核心客户身份资格的说法。法拉利首席营销官Enrico Galliera在接受《TheDrive》采访时强调，Luce的目标客户与传统法拉利车主存在差异，品牌不会强迫现有客户购买该车型。他指出，强制购车可能引发客户不满和负面口碑传播
+- **[“红旗H7全新下线：中式豪华轿车，1.5T插混动力来袭”](https://www.d1ev.com/newsflash/304040)** — _www.d1ev.com_ · date: unknown
+  6月22日，一汽红旗宣布全新一代红旗H7整车正式下线，新车主打“中式豪华风骨”和“全维安全壁垒”。全新红旗H7延续红旗家族设计语言，采用家族化半封闭式前脸和纵向镂空进气口设计，匹配分体式大灯。车身提供半隐藏式门把手，溜背轿跑造型，车尾灯组修长，保险杠带有黑色装饰。尺寸为5060/1910/1480mm，轴距2970mm，定位C级豪华轿车。 全新一代红旗H7搭
+- **[吉利远程绿色智慧交通解决方案亮相香港车博会](https://www.d1ev.com/carnews/xinche/304036)** — _www.d1ev.com_ · date: unknown
+  2026国际汽车及供应链博览会（香港）（以下简称“车博会”）日前在香港亚洲国际博览馆正式开幕。吉利远程新能源商用车携“甲醇电动+纯电动”技术路线全产品矩阵连续第二年亮相，覆盖公共出行、城市物流、无人车、轮渡船舶、应急发电等多个应用场景，展示了基于交能融合打造的绿色智慧交通新能源生态综合解决方案，致力于为香港达成2050碳中和目标全面助力。 作为国际化大都市，
 - **[全新NV200插混版，纯电续航80-150公里，侧滑门带双动力](https://www.dongchedi.com/article/7653031084661621272)** — _www.dongchedi.com_ · date: unknown
 - **[比亚迪大唐 EV上市售23.99万起，旗舰纯电SUV实力如何](https://www.dongchedi.com/article/7653863088546464280)** — _www.dongchedi.com_ · date: unknown
 - **[小米“寻天”SUV测试车展开车顶帐篷，自带“Loft”空间](https://www.dongchedi.com/article/7653858021328536088)** — _www.dongchedi.com_ · date: unknown
@@ -213,10 +235,37 @@ _Updated 2026-06-22 18:13 | discovery-only, zero LLM tokens | runs every 3h_
 - **[小米回应为何用自动驾驶挑战纽北：为了极端工况能救命](https://www.dongchedi.com/article/7654139273071329854)** — _www.dongchedi.com_ · date: unknown
 - **[汽车大事记V](https://www.dongchedi.com/user/1614563598671661)** — _www.dongchedi.com_ · date: unknown
 - **[第12万台蔚来ES8交付，连续6个月大型SUV及40万级车型销冠](https://www.dongchedi.com/article/7654139195497218584)** — _www.dongchedi.com_ · date: unknown
+- **[大力仑在北京车展当上了长城的金牌销售](https://www.dongchedi.com/video/7654146427169800729)** — _www.dongchedi.com_ · date: unknown
+  © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有限公司 中央网信办违法和不良信息举报中心 违法和不良信息举报电话：400-140-2108 举报邮箱：jubao@m
+- **[上汽新车上市，竟然七大升级内容，价格却没有上涨](https://www.dongchedi.com/video/7654184743466254910)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[无锡小米 YU7 25 长续航版，售价不到 22 万可户外放电纯电轿跑](https://www.dongchedi.com/video/7654174217906766361)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[辣椒汽车](https://www.dongchedi.com/user/64685071635)** — _www.dongchedi.com_ · date: unknown
+- **[9字辈MPV新车型来袭！5米36车长、678座选项，冰箱彩电与大沙发](https://www.dongchedi.com/video/7654169118127555097)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[湖北高速，汽车用“充电宝”：充电十分钟续航百公里](https://www.dongchedi.com/article/7654168123025179161)** — _www.dongchedi.com_ · date: unknown
+- **[绍兴Model 3 售价不到14万 后驱纯电全景天幕](https://www.dongchedi.com/video/7654168193619051070)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[比亚迪闪充只是&quot;撅了燃油车半座坟&quot;，可变磁通电机才是真正的绝杀](https://www.dongchedi.com/article/7654166624577290777)** — _www.dongchedi.com_ · date: unknown
+- **[星途 EX6外观官图曝光，全新纯电车型外观设计揭晓](https://www.dongchedi.com/article/7654166808295571992)** — _www.dongchedi.com_ · date: unknown
+- **[油车崩盘增程大跌，纯电独挑大梁，发动机为啥不行了？](https://www.dongchedi.com/article/7654166337690649113)** — _www.dongchedi.com_ · date: unknown
+- **[蔚来ET9限量版上市，83.8万起，不为赚钱？](https://www.dongchedi.com/article/7654167153671029310)** — _www.dongchedi.com_ · date: unknown
+- **[绍兴比亚迪海豚 售价不到6万 全景天幕移动电站](https://www.dongchedi.com/video/7654166959030305342)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[绍兴比亚迪海鸥 售价不到5万 原版原漆移动电站](https://www.dongchedi.com/video/7654166845427548734)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[全球首款柴油插混皮卡，奇瑞Stockman瞄准澳洲市场打出独家王牌](https://www.dongchedi.com/article/7654165759711085080)** — _www.dongchedi.com_ · date: unknown
+- **[百一汽车](https://www.dongchedi.com/user/76714477719)** — _www.dongchedi.com_ · date: unknown
+- **[哈弗H6经典对比吉利博越，这两款车各有什么优缺点？](https://www.dongchedi.com/video/7654156724232127001)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[全球汽车产业大变局！新能源转型下，德日传统强国追赶难度陡增](https://www.dongchedi.com/article/7654154101899870744)** — _www.dongchedi.com_ · date: unknown
 - **[换新升级 中欧班列新型汽车箱整列首发](https://www.news.cn/20260622/54e9bb58d5fb4aaf86c63464c9a6dd2a/c.html)** — _www.news.cn_ · published 2026-06-22
   22日上午10时许，一列装载182辆长安汽车的X8013次中欧班列从重庆团结村中心站鸣笛启程，这是中欧班列首次整列采用新投用的40英尺35吨通用汽车箱，运输效率显著提升，将有效助力我国汽车出海。 今年6月是中欧班列启用统一品牌10周年。 10年来，中欧班列市场竞争力持续提升，品牌价值得到全球认可，成为共建“一带一路”的标志性成果。 此次规模化运用新型汽车箱，
 - **[重庆首发新型汽车箱整列中欧班列](https://www.news.cn/fortune/20260622/79b5df4f842a4320844e4b2d2160bf54/c.html)** — _www.news.cn_ · published 2026-06-22
   新华社重庆6月22日电（记者李晓婷、唐奕）22日上午10时许，一列装载182辆长安汽车的X8013次中欧班列从重庆团结村中心站鸣笛启程，这是中欧班列首次整列采用新投用的40英尺35吨通用汽车箱，运输效率显著提升，将有效助力我国汽车出海。 今年6月是中欧班列启用统一品牌10周年。10年来，中欧班列市场竞争力持续提升，品牌价值得到全球认可，成为共建“一带一路”的
+- **[重庆首发新型汽车箱整列中欧班列](https://www.news.cn/photo/20260622/ea4a38e767354839a2145acdfd8e3343/c.html)** — _www.news.cn_ · published 2026-06-22
+  6月22日，首次整列采用新型汽车箱的中欧班列在重庆团结村中心站顺利发车（无人机照片）。 6月22日，装载182辆长安汽车的X8013次中欧班列从重庆团结村中心站鸣笛启程，这是中欧班列首次整列采用新投用的40英尺35吨通用汽车箱，这款新型汽车箱单车载货能力更强，去程可实现整车一箱直达，返程又能装运各类适箱货物，运输效率显著提升，将有效助力我国汽车出海。 新华社
 - **[预告：国新办6月23日举行新闻发布会 介绍全链条扩大汽车消费有关情况](https://www.stcn.com/article/detail/3971455.html)** — _www.stcn.com_ · published 2026-06-15
   证券时报网 朱雨蒙 2026-06-15 08:16 人民财讯6月22日电，国务院新闻办公室将于2026年6月23日（星期二）下午3时举行新闻发布会，请商务部副部长盛秋平和工业和信息化部、文化和旅游部、杭州市、成都市有关负责人介绍全链条扩大汽车消费有关情况，并答记者问。
 - **[蚂蚁董事会换新！何小鹏等3人履新独董，全力加码AI与全球化](https://www.stcn.com/article/detail/3971681.html)** — _www.stcn.com_ · date: unknown
@@ -225,8 +274,12 @@ _Updated 2026-06-22 18:13 | discovery-only, zero LLM tokens | runs every 3h_
 - **[小马智行接入康福德高Zig App 新加坡自动驾驶出行服务面向公众全面开放](https://www.stcn.com/article/detail/3971838.html)** — _www.stcn.com_ · date: unknown
 - **[众泰汽车内讧升级！股东提请罢免三名董事！公司连亏7年，资产负债率近99%](https://www.stcn.com/article/detail/3972002.html)** — _www.stcn.com_ · date: unknown
   众泰汽车(000980)董事会纷争迎新进展。 此前众泰汽车三名董事联手发起的董事长罢免提案被董事会否决，短短数日后，公司股东火速抛出罢免议案，矛头直指牵头推动换帅的两名董事，双方博弈持续升级。 股东提请罢免三名董事 6月21日晚间，众泰汽车发布公告，公司收到股东吉林省厚土兰德投资有限公司（下称“厚土兰德”）提交的临时股东会议案，提请罢免王伊安、钟雨菲、许明哲
+- **[无锡振华拟收购德维嘉57%股权，快速切入汽车智能化核心零部件领域](https://www.stcn.com/article/detail/3972927.html)** — _www.stcn.com_ · date: unknown
+  无锡振华(605319)6月22日晚公告，为进一步延伸产业链布局，提升企业竞争实力，公司与德维嘉汽车电子系统（无锡）有限公司（以下简称“德维嘉”）的股东缪蔚翰、姚翔、浙江珠城科技股份有限公司（以下简称“珠城科技”）、王燕签署股权转让协议，公司拟以自有或自筹资金现金方式收购德维嘉控股权，本次收购完成后，目标公司将成为公司的控股子公司。本次交易的标的为德维嘉57
 - **[换新升级 中欧班列新型汽车箱整列首发](https://www.xinhuanet.com/20260622/54e9bb58d5fb4aaf86c63464c9a6dd2a/c.html)** — _www.xinhuanet.com_ · published 2026-06-22
   22日上午10时许，一列装载182辆长安汽车的X8013次中欧班列从重庆团结村中心站鸣笛启程，这是中欧班列首次整列采用新投用的40英尺35吨通用汽车箱，运输效率显著提升，将有效助力我国汽车出海。 今年6月是中欧班列启用统一品牌10周年。 10年来，中欧班列市场竞争力持续提升，品牌价值得到全球认可，成为共建“一带一路”的标志性成果。 此次规模化运用新型汽车箱，
+- **[1653只个股创近一年新低，“老登股”漫长寻底何时是头](https://www.yicai.com/news/103240327.html)** — _www.yicai.com_ · date: unknown
+  {{aisd}} AI生成 免责声明 A股市场的行情或许已经无法用简单的“冰火两重天”来形容，结构性分化演绎到了极致。 当光纤、光芯片、玻璃基板等AI核心赛道的龙头股在资金的簇拥下不断创下历史新高，另一端的“老登股”——生物医药、餐饮旅游、汽车、教育、地产等传统行业仍在挣扎。6月22日盘中，中证医药指数跌幅超过2%，尽管收盘涨0.99%，但该指数年内仍下跌1
 
 ### 2026-06-21 — 130 articles
 - **[众泰汽车：董事许明哲因个人工作调整辞职](https://egs.stcn.com/news/detail/2304782.html)** — _egs.stcn.com_ · date: unknown
