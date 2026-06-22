@@ -1,16 +1,16 @@
 # China Business Daily — Crawler Status
 
-_Updated 2026-06-23 00:42 | WS1 redesign source universe | discovery-only, zero LLM tokens | every 3h_
+_Updated 2026-06-23 03:41 | WS1 redesign source universe | discovery-only, zero LLM tokens | every 3h_
 
-## Cumulative: **3794 business articles** across **16 outlets**
+## Cumulative: **3807 business articles** across **16 outlets**
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.stcn.com | 876 |
-| www.21jingji.com | 712 |
-| www.nbd.com.cn | 633 |
-| www.eeo.com.cn | 309 |
+| www.21jingji.com | 714 |
+| www.nbd.com.cn | 639 |
+| www.eeo.com.cn | 314 |
 | www.jiemian.com | 297 |
 | 36kr.com | 282 |
 | www.yicai.com | 257 |
@@ -24,7 +24,7 @@ _Updated 2026-06-23 00:42 | WS1 redesign source universe | discovery-only, zero 
 | jingji.cctv.com | 5 |
 | m.21jingji.com | 1 |
 
-## 2026-06-23 — 76 articles
+## 2026-06-23 — 89 articles
 - **[多只券商股封死涨停 “买券商等于买打折科技”？](https://finance.caixin.com/2026-06-22/102456397.html)** — _finance.caixin.com_ · published 2026-06-22
 - **[压实可再生能源消纳和消费责任 实施办法出台](https://finance.people.com.cn/n1/2026/0622/c1004-40745158.html)** — _finance.people.com.cn_ · published 2026-06-22
 - **[页面没有找到](https://news.cnstock.com/commonDetail/732536)** — _news.cnstock.com_ · date: unknown
@@ -45,12 +45,19 @@ _Updated 2026-06-23 00:42 | WS1 redesign source universe | discovery-only, zero 
 - **[深交所史上最大IPO来了 华润新能源瞄准千亿市值](https://www.21jingji.com/article/20260623/3bdb311671dd52398d2914ee6a08f6d6.html)** — _www.21jingji.com_ · date: unknown
 - **[共享模式席卷消费电子市场 手机租赁需求旺盛](https://www.21jingji.com/article/20260623/6f618fdb4f449563630e6f8e0b307ae4.html)** — _www.21jingji.com_ · date: unknown
 - **[王忠民：全面提升金融适配性](https://www.21jingji.com/article/20260622/herald/c13f850d556def9f9dc1892ac3edc72e.html)** — _www.21jingji.com_ · date: unknown
+- **[21评论丨挖潜服务消费，功夫更在“节日之外”](https://www.21jingji.com/article/20260623/0f7665c1fbee61b195f91a7db5fe3c5f.html)** — _www.21jingji.com_ · date: unknown
+- **[21社论丨理性看待A股市场的周期性分化](https://www.21jingji.com/article/20260623/18f6cb1fbb3f31c11d084d307823e3a5.html)** — _www.21jingji.com_ · date: unknown
 - **[Nebius Group近一周业绩大涨股价走高，拟纳入纳斯达克100指数](https://www.eeo.com.cn/2026/0623/925713.shtml)** — _www.eeo.com.cn_ · date: unknown
 - **[Costamare Bulkers2025年航次收入5.972亿美元，将披露2026年Q2财报](https://www.eeo.com.cn/2026/0622/925709.shtml)** — _www.eeo.com.cn_ · published 2026-06-22
 - **[盛大科技2026年一季度营收同比增28% 重申全年6亿美元营收指引](https://www.eeo.com.cn/2026/0622/925707.shtml)** — _www.eeo.com.cn_ · published 2026-06-22
 - **[亿咖通科技18亿元收购Flyme软件业务 布局操作系统能力](https://www.eeo.com.cn/2026/0622/925706.shtml)** — _www.eeo.com.cn_ · date: unknown
 - **[欧洲主要股指收盘涨跌不一](https://www.eeo.com.cn/2026/0622/925705.shtml)** — _www.eeo.com.cn_ · date: unknown
 - **[理臣国际2025财年营收下滑40.89%，净亏损扩大至2179万美元](https://www.eeo.com.cn/2026/0622/925701.shtml)** — _www.eeo.com.cn_ · published 2026-06-22
+- **[Flag Ship Acquisition Corp.财报提交延迟 收纳斯达克违规通知存退市风险](https://www.eeo.com.cn/2026/0623/925751.shtml)** — _www.eeo.com.cn_ · date: unknown
+- **[Caris Life Sciences推1亿美元股票回购计划，Q1营收同比增79%](https://www.eeo.com.cn/2026/0623/925749.shtml)** — _www.eeo.com.cn_ · date: unknown
+- **[微牛披露一季报营收增36%，二季度财报将于8月27日发布](https://www.eeo.com.cn/2026/0623/925748.shtml)** — _www.eeo.com.cn_ · published 2026-06-23
+- **[Devvstream Corp.获600万美元私募配售 终止旧股权融资协议](https://www.eeo.com.cn/2026/0623/925747.shtml)** — _www.eeo.com.cn_ · date: unknown
+- **[森科能源将于2026年8月11日发布新一期财报 受能源市场影响大](https://www.eeo.com.cn/2026/0623/925745.shtml)** — _www.eeo.com.cn_ · published 2026-06-23
 - **[奈飞公司股价下跌5.2%](https://www.jiemian.com/article/14627069.html)** — _www.jiemian.com_ · date: unknown
 - **[卡塔尔工厂爆炸已致13人死亡、66人受伤](https://www.jiemian.com/article/14627057.html)** — _www.jiemian.com_ · date: unknown
 - **[报道称SpaceX将首次发行投资级债券，银行家正进行推介](https://www.jiemian.com/article/14627047.html)** — _www.jiemian.com_ · date: unknown
@@ -82,6 +89,12 @@ _Updated 2026-06-23 00:42 | WS1 redesign source universe | discovery-only, zero 
 - **[美股成交额排名生变：存储巨头占据第一和第三位 闪迪超越一众明星股](https://www.nbd.com.cn/articles/2026-06-22/4433636.html)** — _www.nbd.com.cn_ · published 2026-06-22
 - **[46家A股公司提示风险](https://www.nbd.com.cn/articles/2026-06-22/4433633.html)** — _www.nbd.com.cn_ · published 2026-06-22
 - **[超微电脑股价上涨12.2%](https://www.nbd.com.cn/articles/2026-06-22/4433626.html)** — _www.nbd.com.cn_ · published 2026-06-22
+- **[飞鹿股份新实际控制人呼之欲出 背后有一家位于青岛的专精特新“小巨人”](https://www.nbd.com.cn/articles/2026-06-22/4433641.html)** — _www.nbd.com.cn_ · published 2026-06-22
+- **[国家发展改革委等部门：首次将非电消费纳入可再生能源消费最低比重目标考核](https://www.nbd.com.cn/articles/2026-06-22/4433623.html)** — _www.nbd.com.cn_ · published 2026-06-22
+- **[半导体设备巨头拓荆科技完成46亿元定增，资金投向未提及混合键合设备](https://www.nbd.com.cn/articles/2026-06-22/4433622.html)** — _www.nbd.com.cn_ · published 2026-06-22
+- **[涉及金额达7.72亿元！国资背景交投资本终止拟入主超卓航科计划，公司扣非净利润连续4年下滑](https://www.nbd.com.cn/articles/2026-06-22/4433611.html)** — _www.nbd.com.cn_ · published 2026-06-22
+- **[涉嫌信披违法违规！新赛股份遭证监会立案调查](https://www.nbd.com.cn/articles/2026-06-22/4433610.html)** — _www.nbd.com.cn_ · published 2026-06-22
+- **[王石称因规模化网络诽谤致金融机构授信暂缓、多名核心骨干离职、商业合作被迫终止，数百个账号参与，代理律师：已收集证据](https://www.nbd.com.cn/articles/2026-06-23/4433678.html)** — _www.nbd.com.cn_ · published 2026-06-23
 - **[集体拉升，美股芯片股走高！美国财政部，突然出手](https://www.stcn.com/article/detail/3973125.html)** — _www.stcn.com_ · date: unknown
 - **[6月22日晚间重要资讯一览](https://www.stcn.com/article/detail/3973033.html)** — _www.stcn.com_ · date: unknown
 - **[柬埔寨开通农产品经老挝出口中国线路](https://www.stcn.com/article/detail/3973142.html)** — _www.stcn.com_ · published 2026-06-22
