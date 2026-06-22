@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-22 12:13 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-22 15:14 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-06-22 12:13 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **929 unique auto/NEV articles** across **17 outlets**
+## Cumulative: **961 unique auto/NEV articles** across **17 outlets**
 
 ## New per day
 | date | new articles |
@@ -24,44 +24,58 @@ _Updated 2026-06-22 12:13 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-19 | 152 |
 | 2026-06-20 | 127 |
 | 2026-06-21 | 130 |
-| 2026-06-22 | 50 |
+| 2026-06-22 | 82 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.dongchedi.com | 400 |
-| www.caam.org.cn | 155 |
-| www.d1ev.com | 131 |
+| www.dongchedi.com | 418 |
+| www.caam.org.cn | 158 |
+| www.d1ev.com | 135 |
 | www.cada.cn | 59 |
 | 36kr.com | 37 |
+| www.stcn.com | 36 |
 | www.news.cn | 36 |
-| www.stcn.com | 33 |
-| egs.stcn.com | 29 |
+| egs.stcn.com | 31 |
 | www.zqrb.cn | 15 |
 | www.xinhuanet.com | 15 |
+| qzs.stcn.com | 5 |
 | www.yicai.com | 4 |
-| qzs.stcn.com | 4 |
 | economy.gmw.cn | 4 |
-| cn.chinadaily.com.cn | 3 |
+| cn.chinadaily.com.cn | 4 |
 | www.ceweekly.cn | 2 |
 | www.jwview.com | 1 |
 | gd.chinadaily.com.cn | 1 |
 
 ## Articles captured by day (newest first)
 
-### 2026-06-22 — 50 articles
+### 2026-06-22 — 82 articles
 - **[三四线小城市，也在大步踏进纯电时代](https://36kr.com/p/3863629164123137)** — _36kr.com_ · published 2026-06-22
   三四线小城市，也在大步踏进纯电时代 “小妹，你看这个车怎么样？” 五月中旬，老家的表哥突然转发来一条纯电车的宣传短视频，似乎有意想要入手。 在此之前笔者曾和多位朋友讨论过购置纯电车的事宜，按理说早该对此习以为常了，但这次交流对象换作老家表哥，笔者还是十分惊诧。 笔者家在北方一座低线城市，两年前返乡时，曾专门问过家里几位长辈、表亲，甚至朋友父母对电车的看法。彼
+- **[智能眼镜、手持摄影设备销售额增长 一组数据看我国消费新趋势](https://cn.chinadaily.com.cn/a/202606/22/WS6a38c9eba310d709c2fb9461.html)** — _cn.chinadaily.com.cn_ · published 2026-06-22
+  据商务部消息，随着我国消费市场结构优化升级，居民消费正从以商品消费为主，向商品和服务消费并重转变。1—5月，社会消费商品和服务零售总额同比（下同）增长2.8%；社会消费品零售总额20.6万亿元，增长1.4%，其中除汽车以外的消费品零售额增长2.7%；服务零售额增长5.4%。 一是商品消费总体平稳。1—5月，在去年同期高基数情况下，商品零售额增长1.2%，其中
 - **[预告：国新办6月23日举行新闻发布会 介绍全链条扩大汽车消费有关情况](https://egs.stcn.com/news/detail/2304971.html)** — _egs.stcn.com_ · published 2026-06-23
   人民财讯6月22日电，国务院新闻办公室将于2026年6月23日（星期二）下午3时举行新闻发布会，请商务部副部长盛秋平和工业和信息化部、文化和旅游部、杭州市、成都市有关负责人介绍全链条扩大汽车消费有关情况，并答记者问。
 - **[小米YU7 GT （选配赛道专业套装）自动驾驶完成纽北20.8公里官方认证圈速](https://egs.stcn.com/news/detail/2304950.html)** — _egs.stcn.com_ · date: unknown
   证券时报·e公司 欧阳佟 06-22 11:32 人民财讯6月22日电，小米汽车22日宣布，其自主研发的自动驾驶系统在德国纽博格林北环赛道完成无人自动驾驶完整圈速测试，测试车辆小米YU7 GT（选配赛道专业套装）全程无人自动驾驶顺利完赛，成绩为10分29秒483，创下自动驾驶在极限赛道测试的里程碑纪录，小米成为全球首个全车无人自动驾驶完成纽北赛道完整圈速的车
+- **[蚂蚁董事会换新！何小鹏等3人履新独董，全力加码AI与全球化](https://egs.stcn.com/news/detail/2305042.html)** — _egs.stcn.com_ · date: unknown
+  蚂蚁集团官网最新信息显示，该集团新一届董事会已完成换届。 具体来看，清华大学经济管理学院院长白重恩、小鹏汽车董事长兼CEO何小鹏、德勤中国原首席执行官曾顺福获聘新任独立董事；港交所前主席史美伦、全球知名AI学者张宏江继续留任。 换届后，蚂蚁集团董事会继续保持9人阵型，独立董事占比超过50%，治理结构持续优化。 券商中国记者了解到，此次新增的三位独董中，经济学
+- **[小马智行接入康福德高Zig App 新加坡自动驾驶出行服务面向公众全面开放](https://egs.stcn.com/news/detail/2305039.html)** — _egs.stcn.com_ · published 2026-06-22
+  首页 推荐 快讯 解读 股市 港股通 视听 专题 行情 数据 公众号 APP 电子报 您当前的位置： 证券时报·e公司 > 快讯 > 详情 小马智行接入康福德高Zig App 新加坡自动驾驶出行服务面向公众全面开放 来源：人民财讯 作者：朱雨蒙 2026-06-22 14:49 Aa 大号字 人民财讯6月22日电，6月22日，小马智行宣布与康福德高集团（Co
+- **[蚂蚁董事会换新！何小鹏等3人履新独董，全力加码AI与全球化](https://qzs.stcn.com/article/detail/607279.html)** — _qzs.stcn.com_ · date: unknown
+  蚂蚁集团官网最新信息显示，该集团新一届董事会已完成换届。 具体来看，清华大学经济管理学院院长白重恩、小鹏汽车董事长兼CEO何小鹏、德勤中国原首席执行官曾顺福获聘新任独立董事；港交所前主席史美伦、全球知名AI学者张宏江继续留任。 换届后，蚂蚁集团董事会继续保持9人阵型，独立董事占比超过50%，治理结构持续优化。 券商中国记者了解到，此次新增的三位独董中，经济学
 - **[中国汽车工业协会关于《越野体验场地建设要求与开放条件》等七项团体标准立项公示的函。
 		[01.12]](https://www.caam.org.cn/chn/10/cate_112/con_5236334.html)** — _www.caam.org.cn_ · date: unknown
 - **[中国汽车工业协会接待科慕TSS总裁Joseph Martinko一行](https://www.caam.org.cn/chn/1/cate_3/con_5237074.html)** — _www.caam.org.cn_ · date: unknown
 - **[·
                 关于召开全国汽车行业共青团工作指导和推进委员会第二届第二次全体委员会暨中国汽车行业第41届青年工作研究会（芜湖）理事会的通知
                 [05.09]](https://www.caam.org.cn/chn/5/cate_70/con_5237107.html)** — _www.caam.org.cn_ · date: unknown
+- **[· 中国汽车工业协会关于发布2023年第八批团体标准的通知
+                     [12.29]](https://www.caam.org.cn/chn/3/cate_28/con_5236328.html)** — _www.caam.org.cn_ · date: unknown
+- **[· 关于组织申报2026中国商用车创新技术成果的函
+                     [11.20]](https://www.caam.org.cn/chn/3/cate_25/con_5236941.html)** — _www.caam.org.cn_ · date: unknown
+- **[· 关于邀请参加“2025杭州国际智能网联新能源汽车博览会”的函
+                     [11.25]](https://www.caam.org.cn/chn/3/cate_25/con_5236587.html)** — _www.caam.org.cn_ · date: unknown
 - **[汽车零部件企业，并购抢“权”](https://www.d1ev.com/news/shichang/303906)** — _www.d1ev.com_ · date: unknown
   2026年上半年，汽车零部件行业的并购整合节奏明显加快。 据《经济参考报》援引同花顺iFinD数据统计，截至6月12日，上半年已有67家汽车行业上市公司发布收购兼并公告，零部件企业构成其中主力。 值得注意的是，此轮并购中，收购方普遍追求控股而非参股，部分交易甚至出现“以小吃大”的局面。同时，并购方向高度集中于技术卡位与全球化布局。 都在抢什么？控制权 梳理本
 - **[【盖世快讯】宁德时代利润超7家车企总和；L4级强制加激光雷达？小鹏高管回应](https://www.d1ev.com/news/shichang/303905)** — _www.d1ev.com_ · date: unknown
@@ -82,6 +96,14 @@ _Updated 2026-06-22 12:13 | discovery-only, zero LLM tokens | runs every 3h_
   6月22日，日产汽车在日本市场推出了第二代KICKS（劲客）紧凑型SUV。这款新车型是日本市场上首款搭载第三代e-POWER混动系统的汽车，配备了五合一e-POWER电机单元。第二代劲客还搭载了1.4L HR14DDe 发动机，并提供2WD和4WD两种驱动版本供消费者选择。 第二代劲客在安全配置上进行了升级，标配ProPILOT驾驶辅助系统，并新增了智能全景
 - **[L3强制加毫米波雷达，小鹏特斯拉纯视觉慌了？假的](https://www.d1ev.com/news/shichang/303959)** — _www.d1ev.com_ · published 2027-07-01
   “相关文件《自动驾驶系统安全要求》都公开可查，里面连激光雷达这个词都没提到。”近日，小鹏汽车副总裁于涛在社交平台公开回应一则网络传言。 该传言称，工信部新国标强制要求L3级自动驾驶必须采用摄像头与毫米波雷达双冗余，L4级必须加装激光雷达，并将在2027年7月1日强制执行。于涛的辟谣直指此为“假新闻”，既无条款依据，也与编制说明相悖。 正是这句来自车企高管的直
+- **[Digi International发布车载路由器Digi TX65 用于关键任务型交通运输连接](https://www.d1ev.com/news/shichang/303988)** — _www.d1ev.com_ · date: unknown
+  盖世汽车讯 6月16日，物联网(IoT)连接产品和服务提供商Digi International宣布推出Digi TX65系列全新坚固耐用的5G车载和工业路由器，旨在帮助运输车队和分布式运营实现连接现代化，同时降低运营复杂性。 图片来源： Digi International 交通运输机构、公共安全组织、公用事业公司和企业车队运营商正日益面临4G基础设施老化
+- **[小米汽车创纪录：自动驾驶纽北圈速10分29秒483，突破极限赛道挑战](https://www.d1ev.com/newsflash/303985)** — _www.d1ev.com_ · date: unknown
+  6月22日，小米汽车宣布其 自动驾驶汽车YU7GT在纽北赛道上完成了一次完整的计时圈，用时10分29秒483，创下全球首个自动驾驶纽北圈速纪录。这一成就展示了小米汽车在自动驾驶技术领域的突破，尤其是在极限赛道工况下的表现。 小米汽车的自动驾驶系统并非简单地复制顶尖人类车手的操作，而是通过计算理论最优的速度与走线，结合实时车身姿态，进行高频、毫秒级的闭环调整，
+- **[商务部：5月新能源汽车国内零售渗透率达62.9% 再创历史新高](https://www.d1ev.com/news/qiye/303984)** — _www.d1ev.com_ · date: unknown
+  快科技6月22日消息，今日商务部消费促进司相关负责人对外解读2026年5月国内消费市场运行情况，披露多项核心向好数据，其中新能源汽车的国内零售渗透率直接刷新历史纪录，创下新高。 从官方公布的运行数据来看，今年1到5月，在去年同期消费基数已经处于高位的前提下，全国商品零售额依旧实现了1.2%的同比增长。 其中和居民日常刚需绑定的基本生活类商品保持了较快增长节奏
+- **[比亚迪海豹08展车全国到店，纯电续航破千公里，5分钟充400公里！](https://www.d1ev.com/newsflash/303982)** — _www.d1ev.com_ · date: unknown
+  6月22日，比亚迪宣布海洋旗舰轿车海豹08全国首批展车陆续到店，覆盖北京、上海、深圳等众多城市。海豹08已开启盲订，提供曜石黑、海雾紫等多种配色。该车于3月全球首秀，全系标配辅助驾驶，配备云辇-A车身控制系统，预计二季度上市。海豹08拥有海洋美学2.0全新旗舰座舱，中控台、门板嵌有光晕贝母饰板。新车集闪充、后轮转向、第二代刀片 电池等技术于一身，长宽高为51
 - **[全新NV200插混版，纯电续航80-150公里，侧滑门带双动力](https://www.dongchedi.com/article/7653031084661621272)** — _www.dongchedi.com_ · date: unknown
 - **[比亚迪大唐 EV上市售23.99万起，旗舰纯电SUV实力如何](https://www.dongchedi.com/article/7653863088546464280)** — _www.dongchedi.com_ · date: unknown
 - **[小米“寻天”SUV测试车展开车顶帐篷，自带“Loft”空间](https://www.dongchedi.com/article/7653858021328536088)** — _www.dongchedi.com_ · date: unknown
@@ -130,8 +152,34 @@ _Updated 2026-06-22 12:13 | discovery-only, zero LLM tokens | runs every 3h_
 - **[【汽车人】越卖越赔本！车企无奈“瘦身”](https://www.dongchedi.com/article/7654039143970505241)** — _www.dongchedi.com_ · date: unknown
 - **[2027款起亚Seltos 混动X](https://www.dongchedi.com/video/7654039970583642648)** — _www.dongchedi.com_ · date: unknown
   扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[读卖汽车](https://www.dongchedi.com/user/4072218238919246)** — _www.dongchedi.com_ · date: unknown
+- **[零跑不讲武德！5/6座可选，纯电续航630KM，新款C16降价增配太夯](https://www.dongchedi.com/video/7654098271275139609)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[二排空间宽敞，娱乐配置挺多！体验比亚迪大唐](https://www.dongchedi.com/video/7654096288031801880)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[【车载画面】小米YU7 GT在纽北的自动驾驶单圈](https://www.dongchedi.com/video/7654095837031072318)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[暑假拖家带口出门露营总嫌车挤？这款七座纯电 MPV 装人装货都顺手](https://www.dongchedi.com/article/7654094611354485273)** — _www.dongchedi.com_ · date: unknown
+- **[福特锐界 L 大七座混动 SUV，空间宽敞底盘扎实，多孩全家长途出行](https://www.dongchedi.com/article/7654092973739786776)** — _www.dongchedi.com_ · date: unknown
+- **[沈斐驳斥“买不起蔚来才买乐道”：这是早期市场误解](https://www.dongchedi.com/article/7654093806480196121)** — _www.dongchedi.com_ · date: unknown
+- **[汽车焦点](https://www.dongchedi.com/user/6258191746)** — _www.dongchedi.com_ · date: unknown
+- **[吉利银河 E8 纯电中大型轿跑，智能座舱空间宽裕，家用通勤长途出行](https://www.dongchedi.com/article/7654092397106659864)** — _www.dongchedi.com_ · date: unknown
+- **[汽车改装作用、知识及注意事项全分享](https://www.dongchedi.com/article/7654092402109596184)** — _www.dongchedi.com_ · date: unknown
+- **[兰州汽车贴膜技术PK：实测数据告诉你哪家玻璃膜更专业](https://www.dongchedi.com/article/7654092131505603097)** — _www.dongchedi.com_ · date: unknown
+- **[星星汽车car](https://www.dongchedi.com/user/316250568797630)** — _www.dongchedi.com_ · date: unknown
+- **[极狐确认贝塔T1 550km版本车型规划：预计8月发布](https://www.dongchedi.com/article/7654088620839535129)** — _www.dongchedi.com_ · date: unknown
+- **[小鹏MONA首款SUV来袭，定价多少合适呢？](https://www.dongchedi.com/video/7654087438847214104)** — _www.dongchedi.com_ · date: unknown
+  小鹏MONA L03 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有限公司 中央网信办违法和不良信息举报中心 违法和不良信息举报电话：400-140-2108 举
+- **[海洋聊汽车](https://www.dongchedi.com/user/1355019460818734)** — _www.dongchedi.com_ · date: unknown
+- **[2026款迈腾PHEV整车参数及用车适配解读](https://www.dongchedi.com/article/7654087362980741657)** — _www.dongchedi.com_ · date: unknown
+- **[全新迈腾PHEV到店，17万级混动B级车，德系底盘质感稳了](https://www.dongchedi.com/article/7654087112913601049)** — _www.dongchedi.com_ · date: unknown
+- **[合资B级车，预售17.49万起，纯电续航162km，试驾迈腾PHEV](https://www.dongchedi.com/article/7654086772913685017)** — _www.dongchedi.com_ · date: unknown
 - **[预告：国新办6月23日举行新闻发布会 介绍全链条扩大汽车消费有关情况](https://www.stcn.com/article/detail/3971455.html)** — _www.stcn.com_ · published 2026-06-15
   证券时报网 朱雨蒙 2026-06-15 08:16 人民财讯6月22日电，国务院新闻办公室将于2026年6月23日（星期二）下午3时举行新闻发布会，请商务部副部长盛秋平和工业和信息化部、文化和旅游部、杭州市、成都市有关负责人介绍全链条扩大汽车消费有关情况，并答记者问。
+- **[蚂蚁董事会换新！何小鹏等3人履新独董，全力加码AI与全球化](https://www.stcn.com/article/detail/3971681.html)** — _www.stcn.com_ · date: unknown
+  蚂蚁集团官网最新信息显示，该集团新一届董事会已完成换届。 具体来看，清华大学经济管理学院院长白重恩、小鹏汽车董事长兼CEO何小鹏、德勤中国原首席执行官曾顺福获聘新任独立董事；港交所前主席史美伦、全球知名AI学者张宏江继续留任。 换届后，蚂蚁集团董事会继续保持9人阵型，独立董事占比超过50%，治理结构持续优化。 券商中国记者了解到，此次新增的三位独董中，经济学
+- **[5月新能源车渗透率提升至56.9%！电池产业链从&quot;销量驱动&quot;切换至&quot;带电量驱动&quot;](https://www.stcn.com/article/detail/3971763.html)** — _www.stcn.com_ · date: unknown
+- **[小马智行接入康福德高Zig App 新加坡自动驾驶出行服务面向公众全面开放](https://www.stcn.com/article/detail/3971838.html)** — _www.stcn.com_ · date: unknown
 
 ### 2026-06-21 — 130 articles
 - **[众泰汽车：董事许明哲因个人工作调整辞职](https://egs.stcn.com/news/detail/2304782.html)** — _egs.stcn.com_ · date: unknown
