@@ -1,20 +1,20 @@
 # China Business Daily — Crawler Status
 
-_Updated 2026-06-23 03:41 | WS1 redesign source universe | discovery-only, zero LLM tokens | every 3h_
+_Updated 2026-06-23 06:41 | WS1 redesign source universe | discovery-only, zero LLM tokens | every 3h_
 
-## Cumulative: **3807 business articles** across **16 outlets**
+## Cumulative: **3820 business articles** across **16 outlets**
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.stcn.com | 876 |
-| www.21jingji.com | 714 |
-| www.nbd.com.cn | 639 |
-| www.eeo.com.cn | 314 |
+| www.21jingji.com | 715 |
+| www.nbd.com.cn | 641 |
+| www.eeo.com.cn | 319 |
 | www.jiemian.com | 297 |
 | 36kr.com | 282 |
 | www.yicai.com | 257 |
-| finance.people.com.cn | 237 |
+| finance.people.com.cn | 242 |
 | news.cnstock.com | 86 |
 | caijing.chinadaily.com.cn | 36 |
 | finance.caixin.com | 24 |
@@ -24,9 +24,14 @@ _Updated 2026-06-23 03:41 | WS1 redesign source universe | discovery-only, zero 
 | jingji.cctv.com | 5 |
 | m.21jingji.com | 1 |
 
-## 2026-06-23 — 89 articles
+## 2026-06-23 — 102 articles
 - **[多只券商股封死涨停 “买券商等于买打折科技”？](https://finance.caixin.com/2026-06-22/102456397.html)** — _finance.caixin.com_ · published 2026-06-22
 - **[压实可再生能源消纳和消费责任 实施办法出台](https://finance.people.com.cn/n1/2026/0622/c1004-40745158.html)** — _finance.people.com.cn_ · published 2026-06-22
+- **[人工智能带来金融服务新体验](https://finance.people.com.cn/n1/2026/0623/c1004-40745251.html)** — _finance.people.com.cn_ · published 2026-06-23
+- **[深化市场化配置改革 释放数据要素价值](https://finance.people.com.cn/n1/2026/0623/c1004-40745249.html)** — _finance.people.com.cn_ · published 2026-06-23
+- **[多彩假期，激发消费潜力（经济聚焦）](https://finance.people.com.cn/n1/2026/0623/c1004-40745247.html)** — _finance.people.com.cn_ · published 2026-06-23
+- **[市场监管总局宣布联合调查婴幼儿纸尿裤甲酰胺问题](https://finance.people.com.cn/n1/2026/0623/c1004-40745239.html)** — _finance.people.com.cn_ · published 2026-06-23
+- **[信用卡加快“瘦身”提质（大数据观察）](https://finance.people.com.cn/n1/2026/0623/c1004-40745236.html)** — _finance.people.com.cn_ · published 2026-06-23
 - **[页面没有找到](https://news.cnstock.com/commonDetail/732536)** — _news.cnstock.com_ · date: unknown
 - **[页面没有找到](https://news.cnstock.com/commonDetail/732533)** — _news.cnstock.com_ · date: unknown
 - **[美股存储芯片爆发，美光科技大涨6%创新高](https://www.21jingji.com/article/20260622/herald/907a5bfc00d15fb22b58a834fe1cc43e.html)** — _www.21jingji.com_ · date: unknown
@@ -47,6 +52,7 @@ _Updated 2026-06-23 03:41 | WS1 redesign source universe | discovery-only, zero 
 - **[王忠民：全面提升金融适配性](https://www.21jingji.com/article/20260622/herald/c13f850d556def9f9dc1892ac3edc72e.html)** — _www.21jingji.com_ · date: unknown
 - **[21评论丨挖潜服务消费，功夫更在“节日之外”](https://www.21jingji.com/article/20260623/0f7665c1fbee61b195f91a7db5fe3c5f.html)** — _www.21jingji.com_ · date: unknown
 - **[21社论丨理性看待A股市场的周期性分化](https://www.21jingji.com/article/20260623/18f6cb1fbb3f31c11d084d307823e3a5.html)** — _www.21jingji.com_ · date: unknown
+- **[15条措施发布 如何塑造吸引外资新优势？专家详解](https://www.21jingji.com/article/20260623/herald/8a9b92c16ccc947ad28db32c2407257a.html)** — _www.21jingji.com_ · date: unknown
 - **[Nebius Group近一周业绩大涨股价走高，拟纳入纳斯达克100指数](https://www.eeo.com.cn/2026/0623/925713.shtml)** — _www.eeo.com.cn_ · date: unknown
 - **[Costamare Bulkers2025年航次收入5.972亿美元，将披露2026年Q2财报](https://www.eeo.com.cn/2026/0622/925709.shtml)** — _www.eeo.com.cn_ · published 2026-06-22
 - **[盛大科技2026年一季度营收同比增28% 重申全年6亿美元营收指引](https://www.eeo.com.cn/2026/0622/925707.shtml)** — _www.eeo.com.cn_ · published 2026-06-22
@@ -58,6 +64,11 @@ _Updated 2026-06-23 03:41 | WS1 redesign source universe | discovery-only, zero 
 - **[微牛披露一季报营收增36%，二季度财报将于8月27日发布](https://www.eeo.com.cn/2026/0623/925748.shtml)** — _www.eeo.com.cn_ · published 2026-06-23
 - **[Devvstream Corp.获600万美元私募配售 终止旧股权融资协议](https://www.eeo.com.cn/2026/0623/925747.shtml)** — _www.eeo.com.cn_ · date: unknown
 - **[森科能源将于2026年8月11日发布新一期财报 受能源市场影响大](https://www.eeo.com.cn/2026/0623/925745.shtml)** — _www.eeo.com.cn_ · published 2026-06-23
+- **[Beta Technologies公布2026年9月2日为下一次财报发布日期](https://www.eeo.com.cn/2026/0623/925763.shtml)** — _www.eeo.com.cn_ · published 2026-06-23
+- **[Os Therapies核心药申报预期支撑股价上涨，获批将获高价值审评券](https://www.eeo.com.cn/2026/0623/925762.shtml)** — _www.eeo.com.cn_ · date: unknown
+- **[蒙牛股价短期回调 持续回购股份推进高质量发展转型](https://www.eeo.com.cn/2026/0623/925759.shtml)** — _www.eeo.com.cn_ · published 2026-06-23
+- **[奇景光电2026年6月15日盘前股价涨超7%，受光通信板块拉动](https://www.eeo.com.cn/2026/0623/925758.shtml)** — _www.eeo.com.cn_ · published 2026-06-23
+- **[中信股份申请90亿美元中期票据计划 优化融资灵活性](https://www.eeo.com.cn/2026/0623/925757.shtml)** — _www.eeo.com.cn_ · published 2026-06-23
 - **[奈飞公司股价下跌5.2%](https://www.jiemian.com/article/14627069.html)** — _www.jiemian.com_ · date: unknown
 - **[卡塔尔工厂爆炸已致13人死亡、66人受伤](https://www.jiemian.com/article/14627057.html)** — _www.jiemian.com_ · date: unknown
 - **[报道称SpaceX将首次发行投资级债券，银行家正进行推介](https://www.jiemian.com/article/14627047.html)** — _www.jiemian.com_ · date: unknown
@@ -95,6 +106,8 @@ _Updated 2026-06-23 03:41 | WS1 redesign source universe | discovery-only, zero 
 - **[涉及金额达7.72亿元！国资背景交投资本终止拟入主超卓航科计划，公司扣非净利润连续4年下滑](https://www.nbd.com.cn/articles/2026-06-22/4433611.html)** — _www.nbd.com.cn_ · published 2026-06-22
 - **[涉嫌信披违法违规！新赛股份遭证监会立案调查](https://www.nbd.com.cn/articles/2026-06-22/4433610.html)** — _www.nbd.com.cn_ · published 2026-06-22
 - **[王石称因规模化网络诽谤致金融机构授信暂缓、多名核心骨干离职、商业合作被迫终止，数百个账号参与，代理律师：已收集证据](https://www.nbd.com.cn/articles/2026-06-23/4433678.html)** — _www.nbd.com.cn_ · published 2026-06-23
+- **[影响市场重大事件： “千帆星座”建设与运营主体垣信卫星启动新一轮融资；英伟达最新发文，详解Rubin全面液冷技术；微软CEO纳德拉警告AI巨头权力过度集中](https://www.nbd.com.cn/articles/2026-06-22/4433248.html)** — _www.nbd.com.cn_ · published 2026-06-22
+- **[美联储7月维持利率不变的概率为63.7%](https://www.nbd.com.cn/articles/2026-06-23/4433735.html)** — _www.nbd.com.cn_ · published 2026-06-23
 - **[集体拉升，美股芯片股走高！美国财政部，突然出手](https://www.stcn.com/article/detail/3973125.html)** — _www.stcn.com_ · date: unknown
 - **[6月22日晚间重要资讯一览](https://www.stcn.com/article/detail/3973033.html)** — _www.stcn.com_ · date: unknown
 - **[柬埔寨开通农产品经老挝出口中国线路](https://www.stcn.com/article/detail/3973142.html)** — _www.stcn.com_ · published 2026-06-22
