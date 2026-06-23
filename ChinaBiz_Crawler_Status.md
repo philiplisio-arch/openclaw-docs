@@ -1,34 +1,37 @@
 # China Business Daily — Crawler Status
 
-_Updated 2026-06-24 03:41 | WS1 redesign source universe | discovery-only, zero LLM tokens | every 3h_
+_Updated 2026-06-24 06:41 | WS1 redesign source universe | discovery-only, zero LLM tokens | every 3h_
 
-## Cumulative: **4487 business articles** across **16 outlets**
+## Cumulative: **4502 business articles** across **16 outlets**
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.stcn.com | 1047 |
-| www.21jingji.com | 851 |
-| www.nbd.com.cn | 752 |
-| www.eeo.com.cn | 352 |
+| www.21jingji.com | 853 |
+| www.nbd.com.cn | 758 |
+| www.eeo.com.cn | 356 |
 | www.jiemian.com | 347 |
 | 36kr.com | 342 |
 | www.yicai.com | 302 |
-| finance.people.com.cn | 281 |
+| finance.people.com.cn | 283 |
 | news.cnstock.com | 94 |
 | caijing.chinadaily.com.cn | 42 |
 | finance.caixin.com | 26 |
 | www.news.cn | 22 |
 | env.people.com.cn | 12 |
 | news.cctv.com | 10 |
-| jingji.cctv.com | 6 |
+| jingji.cctv.com | 7 |
 | m.21jingji.com | 1 |
 
-## 2026-06-24 — 86 articles
+## 2026-06-24 — 101 articles
 - **[阿里、Temu、TikTok、京东：四大巨头路线正面决裂，选对平台少亏百万](https://36kr.com/p/3865705934935041)** — _36kr.com_ · published 2026-06-24
 - **[黑胶复兴创新高，音乐将更需要“感知价值”](https://36kr.com/p/3865610764899335)** — _36kr.com_ · published 2026-06-24
 - **[新音乐产业观察](https://36kr.com/user/1611863983)** — _36kr.com_ · date: unknown
 - **[马斯克刚发完债，SpaceX就股价大跌](https://36kr.com/p/3865674943511174)** — _36kr.com_ · published 2026-06-24
+- **[以更大力度更实举措加强基础研究 打牢科技强国建设根基](https://finance.people.com.cn/n1/2026/0624/c1004-40746076.html)** — _finance.people.com.cn_ · published 2026-06-24
+- **[我国科学家实验证实半导体中“电子可分”](https://finance.people.com.cn/n1/2026/0624/c1004-40746075.html)** — _finance.people.com.cn_ · published 2026-06-24
+- **[消费品以旧换新带动销售额5万亿元 汽车占比63%](https://jingji.cctv.com/2026/06/24/ARTIqfUFv34j5BmSdJWc66q5260623.shtml)** — _jingji.cctv.com_ · published 2026-06-24
 - **[页面没有找到](https://news.cnstock.com/commonDetail/733189)** — _news.cnstock.com_ · date: unknown
 - **[美股芯片股深夜全线下挫，闪迪大跌12%](https://www.21jingji.com/article/20260623/herald/4aebb5fbcd9bffa23a70be08c57b9df4.html)** — _www.21jingji.com_ · date: unknown
 - **[美股芯片股深夜全线下挫，闪迪大跌12%，SpaceX反弹拉升2%，百度、阿里巴巴、拼多多集体下跌](https://www.21jingji.com/article/20260623/herald/96bf5b3a0935b640e228890c5e2dfe98.html)** — _www.21jingji.com_ · date: unknown
@@ -52,10 +55,16 @@ _Updated 2026-06-24 03:41 | WS1 redesign source universe | discovery-only, zero 
 - **[聚焦养老金融 我国老年财富传承领域首个团体标准发布](https://www.21jingji.com/article/20260623/herald/21258b1d8c3d961b26e1bb34b2a92c80.html)** — _www.21jingji.com_ · date: unknown
 - **[专家热议如何通过强化金融支持提振和扩大消费](https://www.21jingji.com/article/20260623/herald/d3b328f0aabd089e278c56ac01c6a127.html)** — _www.21jingji.com_ · date: unknown
 - **[21评论丨发展离岸金融对上海为何重要？](https://www.21jingji.com/article/20260624/d58a3c8a7e09a41e8add181ae1bdaa28.html)** — _www.21jingji.com_ · date: unknown
+- **[多国团组链博会上觅商机 外企为何青睐中国供应链？](https://www.21jingji.com/article/20260624/herald/0add067a76e8de0ee370883a10a3ccbc.html)** — _www.21jingji.com_ · date: unknown
+- **[消费10强城市排名，或将迎来大变化](https://www.21jingji.com/article/20260623/herald/1c5126e2b6e9213606a88539ffba5ab5.html)** — _www.21jingji.com_ · date: unknown
 - **[思科联合Equinix、英伟达推进全球数据中心AI工厂部署](https://www.eeo.com.cn/2026/0624/927223.shtml)** — _www.eeo.com.cn_ · published 2026-06-24
 - **[伊格尔矿业2026年一季度营收净利双增 盈利弹性凸显](https://www.eeo.com.cn/2026/0624/927219.shtml)** — _www.eeo.com.cn_ · published 2026-06-24
 - **[欧洲三大股指收盘涨跌不一](https://www.eeo.com.cn/2026/0623/927208.shtml)** — _www.eeo.com.cn_ · published 2026-06-23
 - **[南昌农村商业银行股份有限公司、南昌农村商业银行股份有限公司东湖支行、南昌农村商业银行股份有限公司洪大支行分别被罚300万元、30万元、30万元，涉金融资产风险分类不准确等](https://www.eeo.com.cn/2026/0623/927206.shtml)** — _www.eeo.com.cn_ · date: unknown
+- **[卡特彼勒股价下跌系市场因素所致 基本面无恶化信号](https://www.eeo.com.cn/2026/0624/927289.shtml)** — _www.eeo.com.cn_ · published 2026-06-24
+- **[阿波罗旗下基金赎回申请大增 仅可满足5%申请引市场关注](https://www.eeo.com.cn/2026/0624/927288.shtml)** — _www.eeo.com.cn_ · published 2026-06-24
+- **[福斯作为支持方参与2026汽车服务世界超级大会](https://www.eeo.com.cn/2026/0624/927285.shtml)** — _www.eeo.com.cn_ · published 2026-06-24
+- **[盟云全息发布量子计算关键技术 近一周股价累计下跌6.29%](https://www.eeo.com.cn/2026/0624/927280.shtml)** — _www.eeo.com.cn_ · date: unknown
 - **[英伟达要求PCB厂商降价10%？ PCB厂商、市场人士称传闻存在明显夸大和误读](https://www.jiemian.com/article/14634013.html)** — _www.jiemian.com_ · date: unknown
 - **[SpaceX股价拉升，现涨4.4%](https://www.jiemian.com/article/14633998.html)** — _www.jiemian.com_ · date: unknown
 - **[中国开启可再生能源强制消纳时代](https://www.jiemian.com/article/14633676.html)** — _www.jiemian.com_ · published 2026-08-01
@@ -92,6 +101,24 @@ _Updated 2026-06-24 03:41 | WS1 redesign source universe | discovery-only, zero 
 - **[兆丰股份拟发行14亿元可转债，加码布局具身机器人与智驾精密部件](https://www.nbd.com.cn/articles/2026-06-23/4435030.html)** — _www.nbd.com.cn_ · published 2026-06-23
 - **[旗下菏泽盐业拟预挂牌增资扩股，鲁银投资：旨在优化股权结构，不影响控制权](https://www.nbd.com.cn/articles/2026-06-23/4435051.html)** — _www.nbd.com.cn_ · published 2026-06-23
 - **[宁德时代看中的公司又有资本动作 富临精工子公司这次为何拉上资源企业？](https://www.nbd.com.cn/articles/2026-06-23/4435029.html)** — _www.nbd.com.cn_ · published 2026-06-23
+- **[两部门：国产小客车将能“当天买车，当天上牌”；蔚来第9000座充换电站上线](https://www.nbd.com.cn/articles/2026-06-23/4434618.html)** — _www.nbd.com.cn_ · published 2026-06-23
+- **[影响市场重大事件：SpaceX斩获AI大单，合同价值高达63亿美元；国内首个商业太空态势感知观测阵列建成投运；长征七号改运载火箭成功将通信技术试验卫星二十六号A星送入轨道](https://www.nbd.com.cn/articles/2026-06-23/4434700.html)** — _www.nbd.com.cn_ · published 2026-06-23
+- **[美参议院通过决议，限制特朗普对伊战争权力；美股半导体指数跌近8%；SpaceX发行250亿美元债券；C罗梅开二度，葡萄牙5球大胜丨每经早参](https://www.nbd.com.cn/articles/2026-06-23/4435070.html)** — _www.nbd.com.cn_ · published 2026-06-23
+- **[06:38
+                  
+                  
+              
+                  头部券商主导股权承](https://www.nbd.com.cn/articles/2026-06-24/4435182.html)** — _www.nbd.com.cn_ · date: unknown
+- **[06:37
+                  
+                  
+              
+                  港股新股市场火热态](https://www.nbd.com.cn/articles/2026-06-24/4435181.html)** — _www.nbd.com.cn_ · date: unknown
+- **[06:37
+                  
+                  
+              
+                  港股市场谨慎情绪蔓](https://www.nbd.com.cn/articles/2026-06-24/4435180.html)** — _www.nbd.com.cn_ · date: unknown
 - **[美股三大股指集体低开，芯片股暴跌！美伊谈判，传来大消息](https://www.stcn.com/article/detail/3975557.html)** — _www.stcn.com_ · date: unknown
 - **[深夜暴跌！美股AI交易遭遇重挫，高盛重大警告](https://www.stcn.com/article/detail/3975625.html)** — _www.stcn.com_ · date: unknown
 - **[宇树具身智能产业学院在苏州揭牌](https://www.stcn.com/article/detail/3975583.html)** — _www.stcn.com_ · published 2026-06-23
