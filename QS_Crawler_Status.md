@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-23 06:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-23 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-06-23 06:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **1052 unique auto/NEV articles** across **17 outlets**
+## Cumulative: **1069 unique auto/NEV articles** across **17 outlets**
 
 ## New per day
 | date | new articles |
@@ -25,16 +25,16 @@ _Updated 2026-06-23 06:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-20 | 127 |
 | 2026-06-21 | 130 |
 | 2026-06-22 | 144 |
-| 2026-06-23 | 29 |
+| 2026-06-23 | 46 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.dongchedi.com | 476 |
+| www.dongchedi.com | 482 |
 | www.caam.org.cn | 162 |
-| www.d1ev.com | 147 |
+| www.d1ev.com | 157 |
 | www.cada.cn | 62 |
-| 36kr.com | 40 |
+| 36kr.com | 41 |
 | www.stcn.com | 39 |
 | www.news.cn | 39 |
 | egs.stcn.com | 32 |
@@ -50,9 +50,11 @@ _Updated 2026-06-23 06:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-06-23 — 29 articles
+### 2026-06-23 — 46 articles
 - **[车企营销不能再“乱吹”了，自动驾驶国标出台，明年7月实施](https://36kr.com/p/3864289821644039)** — _36kr.com_ · published 2026-06-23
   车企营销不能再“乱吹”了，自动驾驶国标出台，明年7月实施 我国首部L3/L4自动驾驶强制性国标公示。 车东西6月22日消息，日前，工业和信息化部发布了关于公开征求《智能网联汽车 自动驾驶系统安全要求》等2项强制性国家标准（报批稿）、《车载事故紧急呼叫系统》强制性国家标准外文版（报批稿）意见的公示。 ▲工信部发布的公示 其中，《智能网联汽车 自动驾驶系统安全要
+- **[冲击1200万辆出口，中国汽车将迎成年考验](https://36kr.com/p/3865033297499392)** — _36kr.com_ · published 2026-06-23
+  冲击1200万辆出口，中国汽车将迎成年考验 “资产阶级，由于一切生产工具的迅速改进，由于交通工具的极其便利，把一切民族甚至最野蛮的民族都卷进文明中来了。其商品的低廉价格，是它用来摧毁一切万里长城、征服野蛮人最顽强的抵抗的仇外心理的重炮。” 一百七十八年前，马恩合著《共产党宣言》，一语道破近代资本主义席卷全球的核心密码：商品，是欧美列强征服世界的无形重炮。凭借
 - **[重庆首发新型汽车箱整列中欧班列](https://cn.chinadaily.com.cn/a/202606/22/WS6a3943bfa310d709c2fb9798.html)** — _cn.chinadaily.com.cn_ · published 2026-06-22
   6月22日，首次整列采用新型汽车箱的中欧班列在重庆团结村中心站顺利发车（无人机照片）。 6月22日，装载182辆长安汽车的X8013次中欧班列从重庆团结村中心站鸣笛启程，这是中欧班列首次整列采用新投用的40英尺35吨通用汽车箱，这款新型汽车箱单车载货能力更强，去程可实现整车一箱直达，返程又能装运各类适箱货物，运输效率显著提升，将有效助力我国汽车出海。 新华社
 - **[22:45威迈斯：车载电源产品可以应用于飞行汽车中 并已获小鹏汇天定点](https://egs.stcn.com/news/detail/2305346.html)** — _egs.stcn.com_ · date: unknown
@@ -62,6 +64,26 @@ _Updated 2026-06-23 06:12 | discovery-only, zero LLM tokens | runs every 3h_
   6月22日，外媒Carscoops报道，福特汽车公司可能不会推出第二代Mustang Mach-E车型，因为公司新推出的Universal EV平台将不会用于该车型。目前，Mustang Mach-E是福特在美国销售的唯一一款纯电动车型，预计将至少保留至2027年。去年有报道称，Mustang Mach-E可能要等到2030年以后才会迎来重大升级，但现在看来
 - **[燃油车销量暴跌超30%，新能源车型全面占领市场前十](https://www.d1ev.com/newsflash/304056)** — _www.d1ev.com_ · date: unknown
   6月22日，中国燃油车市场正经历前所未有的退潮。北京一家广汽丰田门店的展示中，新能源和燃油车型各占一半，而曾经的销量支柱雷凌已不再展出。工作人员透露，雷凌车型目前“卖一辆赔一辆”，已转为订单式生产，门店不再保留常规库存。数据显示，雷凌5月零售销量仅194辆，与三年前月销量万辆以上形成鲜明对比。整体市场方面，5月常规燃油乘用车零售量为56万辆，同比下滑39%，
+- **[EV晨报 | 小米YU7 GT 10分29秒483创全球首个自动驾驶圈速纪录；何小鹏出任蚂蚁集团独立董事，Mona首款SUV L03官宣；智谱市值破万亿港元 - 第一电动网](https://www.d1ev.com/news/shichang/304066)** — _www.d1ev.com_ · date: unknown
+  ▌要闻 ▍小米YU7 GT自动驾驶征服纽北，10分29秒483创全球首个自动驾驶圈速纪录 第一电动6月22日消息，小米汽车官方宣布，旗下纯电SUV YU7 GT在德国纽博格林北环赛道以10分29秒483的成绩完成全程自动驾驶圈速测试，成为全球首个在该赛道达成自动驾驶圈速纪录的量产车型。测试车辆搭载赛道专业套装及小米全栈自研自动驾驶系统，在全程无人、无安全员、
+- **[【盖世快讯】小米汽车回应为何用自动驾驶挑战纽北；小鹏MONA首款SUV定名L03](https://www.d1ev.com/news/shichang/304059)** — _www.d1ev.com_ · date: unknown
+  车企动态 | OEM Trend 快科技：6月22日，广汽与华为乾崑联合打造的高端新能源品牌启境，旗下首款旗舰智能猎装轿跑启境 GT7将于6月26日正式上市。新车已在2026第三十届粤港澳大湾区车展上开启预售，预售价区间21.99-30.99万元。 盖世汽车：6月22日，小鹏集团副总裁于涛介绍MONA系列旗下首款SUV车型，新车命名为小鹏MONA L03。至
+- **[孟加拉国出台电车减税新政 中国车企抢抓南亚新能源出海机遇](https://www.d1ev.com/news/shichang/304006)** — _www.d1ev.com_ · date: unknown
+  全球新能源汽车市场竞争逐步从趋于饱和的欧美成熟市场，转向东南亚、南亚等具备增长潜力的新兴市场。 近期，孟加拉国将电动汽车一揽子税收激励政策纳入新财年政府预算，通过下调电动车税费、上调燃油车税负，多措并举推动本土汽车产业电动化转型。 对于已逐步开拓孟加拉国市场的中国车企比亚迪而言，本次新政构成明显利好，也有望让尚处于萌芽阶段的孟加拉国电动汽车市场，成为中国车企
+- **[沈斐回应买不起蔚来才买乐道：误解 很多车主是企业中层](https://www.d1ev.com/news/qiye/303992)** — _www.d1ev.com_ · date: unknown
+  快科技6月22日消息，乐道汽车总裁沈斐近日接受了《21汽车·一见Auto》的访谈，期间，沈斐回应了诸多外界关心的话题。 据介绍，蔚来关于乐道品牌的规划最早可以追溯到2020年年末，项目初衷指向Toyota（丰田）和Volkswagen（大众），暗含的关系不是简单高低配，而是类似奥迪-大众、雷克萨斯-丰田那样的多品牌区隔：蔚来主品牌继续面向高端市场，乐道则承担
+- **[小马智行自动驾驶服务在新加坡全面向公众开放](https://www.d1ev.com/news/shichang/303995)** — _www.d1ev.com_ · date: unknown
+  盖世汽车获悉，6月22日，小马智行宣布与康福德高集团合作运营的新加坡自动驾驶出行服务，已正式接入康福德高旗下本地叫车平台Zig，面向公众全面开放预约。此举标志着双方在榜鹅片区的自动驾驶运营项目，正式从前期邀请制试点迈向面向公众的公开服务阶段。 图片来源：小马智行 新加坡居民现可通过Zig App内的“无人驾驶专区”预约自动驾驶车辆。服务初期运营路线覆盖榜鹅海
+- **[吉利银河TT官图曝光：C级纯电运动轿车，续航高达725km！](https://www.d1ev.com/newsflash/304073)** — _www.d1ev.com_ · date: unknown
+  6月23日，吉利汽车旗下品牌吉利银河发布了银河TT的更多官方图片，展示了这款C级AI纯电运动轿车的多款配色和前备箱储物功能。银河TT以其激光雷达和电动尾翼等高科技配置引人注目。该车采用封闭式前格栅和狭长圆润的前大灯组设计，车尾部分则配备了贯穿式尾灯和独特造型处理，强化了运动气质。 银河TT的车身尺寸为长4999mm、宽1919mm、高1479mm，轴距292
+- **[福特确认电马不会采用新纯电平台](https://www.d1ev.com/carnews/xinche/304071)** — _www.d1ev.com_ · date: unknown
+  福特已明确表示，其新开发的UniversalEV纯电平台将不会用于MustangMach-E（电马）车型。该平台专为提升整车效率而从零打造，首款应用车型将是一款紧凑型皮卡，后续还将用于其他电动车型。 目前，电马是福特在美国市场销售的唯一一款纯电动车型，现款至少会持续销售至2027年。此前有消息称该车可能在2030年后迎来重大升级，但最新表态显示这一计划亦不确
+- **[小鹏MONA的爆款公式，换个SUV外壳还灵不灵？](https://www.d1ev.com/news/qiye/304069)** — _www.d1ev.com_ · date: unknown
+  在MONA M03之前，很少有新势力会把10万级的家轿打上“智驾”和“科技”的标签。 但小鹏敢，并且还大获成功。 现在，小鹏把同一套公式套进了一个SUV外壳——MONA L03正式亮相。 纯电之外还首次加入了增程版本，定价大概率落在15万级这个最走量的价格带，我们此前也详细报道过。 撑起半个小鹏后，MONA亮出了接下来的牌 L03能复制M03的爆款神话吗？编
+- **[特斯拉Model3撞穿民宅致1死，自动驾驶技术再受质疑](https://www.d1ev.com/newsflash/304067)** — _www.d1ev.com_ · date: unknown
+  近日，美国得克萨斯州凯蒂市发生一起致命车祸，一辆特斯拉Model 3撞入一栋住宅，导致一名76岁女性身亡。事故发生在周五晚间，驾驶员迈克尔·巴特勒声称事发时车辆开启了Autopilot功能。特斯拉方面对此进行了反驳，Autopilot软件主管阿肖克·埃卢斯瓦米表示，驾驶员在居民区路段全程将油门踩到底，手动接管并压制了Autopilot系统，撞击时车速达到73
+- **[2026年第25周（6.15](https://www.d1ev.com/carnews/xinche/304064)** — _www.d1ev.com_ · published 2026-06-15
+  回顾上周国内车市，比亚迪推出了全新大唐EV，新车定位大型SUV，全系搭载第二代刀片电池与闪充技术，主打家用与商务双场景出行；零跑C系列迎来焕新，旗下C16、C11、C10均采用CTC 2.0 Plus电池底盘一体化架构，产品力全面升级。接下来我们将对上周上市新车进行汇总，看看有没有您喜欢的！ 1、2026款哈弗H6经典版 官方售价：9.99万元 上市时间：2
 - **[本田微型纯电车 Super-N 计划登陆英国市场上市](https://www.dongchedi.com/article/7654236237808566808)** — _www.dongchedi.com_ · date: unknown
 - **[全新现代KONA路试谍照曝光，新车外观内饰同步调整](https://www.dongchedi.com/article/7654235299329868312)** — _www.dongchedi.com_ · date: unknown
 - **[东风日产NX8完成第10000台整车正式交付](https://www.dongchedi.com/article/7654235778893103640)** — _www.dongchedi.com_ · date: unknown
@@ -89,6 +111,13 @@ _Updated 2026-06-23 06:12 | discovery-only, zero LLM tokens | runs every 3h_
   扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
 - **[零跑汽车将于2026年Q3对外发布多项全新创新技术成果](https://www.dongchedi.com/article/7654236278478111256)** — _www.dongchedi.com_ · date: unknown
 - **[汽车大世界V](https://www.dongchedi.com/user/58670348904)** — _www.dongchedi.com_ · date: unknown
+- **[武汉Model Y 售价不到 16 万 高续航高配家用纯电 SUV](https://www.dongchedi.com/video/7654379898605584958)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[自动驾驶非唯一解？巨头们为何纷纷抢滩“物理AI”](https://www.dongchedi.com/article/7654373296565387800)** — _www.dongchedi.com_ · date: unknown
+- **[四车齐发，10999元起！大阳全新混动踏板矩阵来了](https://www.dongchedi.com/article/7654366240865288766)** — _www.dongchedi.com_ · date: unknown
+- **[花6.4万买了&quot;完全自动驾驶&quot;，特斯拉却在后台偷偷改了合同？](https://www.dongchedi.com/article/7654366352484155928)** — _www.dongchedi.com_ · date: unknown
+- **[晚高峰新闻：玛莎拉蒂改款GranTurismo、GranCabrio及Grecale发布；宝马新世代i3欧洲开放订购；小米YU7 GT创全球首个纽北自动驾驶圈速纪录](https://www.dongchedi.com/article/7654273807016198681)** — _www.dongchedi.com_ · date: unknown
+- **[全新伊兰特曝光，配混动+大屏，外形像“变形金刚”！](https://www.dongchedi.com/article/7654262843927183897)** — _www.dongchedi.com_ · date: unknown
 - **[威迈斯：车载电源产品可以应用于飞行汽车中 并已获小鹏汇天定点](https://www.stcn.com/article/detail/3973127.html)** — _www.stcn.com_ · published 2026-06-22
   首页 快讯 新闻 要闻 金融 评论 产经 创投 滚动 视频 投资 A股 公司 新股 基金 港美股 数据 信披+ 专题 地方 京 津 冀 晋 蒙 辽 吉 黑 沪 苏 浙 皖 闽 赣 鲁 豫 鄂 湘 粤 桂 琼 渝 川 黔 滇 藏 陕 甘 青 宁 新 鹏 服务 人民鉴真 投关服务 投教服务 其他服务 公众号 电子报 客户端 您当前的位置： 证券时报 > 快讯 >
 - **[跟进比亚迪，华为宣布兜底](https://www.yicai.com/news/103240595.html)** — _www.yicai.com_ · date: unknown
