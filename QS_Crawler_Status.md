@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-24 00:13 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-24 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-06-24 00:13 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **1219 unique auto/NEV articles** across **17 outlets**
+## Cumulative: **1223 unique auto/NEV articles** across **17 outlets**
 
 ## New per day
 | date | new articles |
@@ -26,12 +26,12 @@ _Updated 2026-06-24 00:13 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-21 | 130 |
 | 2026-06-22 | 144 |
 | 2026-06-23 | 169 |
-| 2026-06-24 | 27 |
+| 2026-06-24 | 31 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.dongchedi.com | 564 |
+| www.dongchedi.com | 568 |
 | www.d1ev.com | 190 |
 | www.caam.org.cn | 164 |
 | www.cada.cn | 62 |
@@ -51,7 +51,7 @@ _Updated 2026-06-24 00:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-06-24 — 27 articles
+### 2026-06-24 — 31 articles
 - **[事关汽车消费 这场发布会信息量很大！](https://cn.chinadaily.com.cn/a/202606/23/WS6a3a8ee5a310d709c2fb9b67.html)** — _cn.chinadaily.com.cn_ · published 2026-06-23
   国务院新闻办公室6月23日举行新闻发布会，商务部、工业和信息化部、文化和旅游部、杭州市、成都市有关负责人介绍全链条扩大汽车消费有关情况，一起来关注。 我国汽车保有量达3.7亿辆 截至目前，我国汽车保有量达到了3.7亿辆，汽车销量连续17年位居全球第一，是名副其实的汽车大国。 围绕汽车使用形成的后市场 是一个万亿产业 围绕汽车使用形成的后市场，是一个万亿产业，
 - **[17条硬核举措落地！万亿汽车产业迎2.0新政，40城试点先行](https://qzs.stcn.com/article/detail/607967.html)** — _qzs.stcn.com_ · date: unknown
@@ -89,6 +89,12 @@ _Updated 2026-06-24 00:13 | discovery-only, zero LLM tokens | runs every 3h_
 - **[车市特评V](https://www.dongchedi.com/user/3437080966)** — _www.dongchedi.com_ · date: unknown
 - **[比亚迪大唐EV上市，23.99万起29项全球第一](https://www.dongchedi.com/video/7654576840128184857)** — _www.dongchedi.com_ · date: unknown
   扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[领克10集颜值和实力于一身的纯电轿跑](https://www.dongchedi.com/video/7654616882515165758)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[10万级纯电SUV怎么选？埃安i60宁德版三大铁三角实测盘点](https://www.dongchedi.com/video/7654613240453841470)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[价格战全面退潮，平均客单价成自主车企价值竞争新标尺](https://www.dongchedi.com/article/7654604459359633945)** — _www.dongchedi.com_ · date: unknown
+- **[汽车透视眼](https://www.dongchedi.com/user/3459483308144563)** — _www.dongchedi.com_ · date: unknown
 - **[奇瑞西班牙合资工厂启动新生产线](https://www.news.cn/20260623/4142a7e991ed4e76b5e59668fa6af2e7/c.html)** — _www.news.cn_ · published 2026-06-23
   新华社西班牙巴塞罗那6月23日电（记者陈雨峥 宁雨轩）西班牙埃夫罗汽车集团22日宣布，其与中国汽车制造商奇瑞在巴塞罗那自由贸易区合资运营的埃夫罗工厂当天启用全新生产线，进一步提升产能。 记者从埃夫罗汽车集团获悉，新启用的M1生产线全长696米，设有97个工作站，单车生产周期约75分钟。目前，该生产线用于生产S400和S700各动力版本车型，设计上最多可生产5
 - **[全链条扩大汽车消费 多部门详解新举措](https://www.news.cn/fortune/20260623/d66d6ff1f0cc4ab4a95a1420c6f385f5/c.html)** — _www.news.cn_ · published 2026-06-23
