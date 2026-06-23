@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-24 03:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-24 06:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-06-24 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **1223 unique auto/NEV articles** across **17 outlets**
+## Cumulative: **1224 unique auto/NEV articles** across **17 outlets**
 
 ## New per day
 | date | new articles |
@@ -26,13 +26,13 @@ _Updated 2026-06-24 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-21 | 130 |
 | 2026-06-22 | 144 |
 | 2026-06-23 | 169 |
-| 2026-06-24 | 31 |
+| 2026-06-24 | 32 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 568 |
-| www.d1ev.com | 190 |
+| www.d1ev.com | 191 |
 | www.caam.org.cn | 164 |
 | www.cada.cn | 62 |
 | www.stcn.com | 50 |
@@ -51,7 +51,7 @@ _Updated 2026-06-24 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-06-24 — 31 articles
+### 2026-06-24 — 32 articles
 - **[事关汽车消费 这场发布会信息量很大！](https://cn.chinadaily.com.cn/a/202606/23/WS6a3a8ee5a310d709c2fb9b67.html)** — _cn.chinadaily.com.cn_ · published 2026-06-23
   国务院新闻办公室6月23日举行新闻发布会，商务部、工业和信息化部、文化和旅游部、杭州市、成都市有关负责人介绍全链条扩大汽车消费有关情况，一起来关注。 我国汽车保有量达3.7亿辆 截至目前，我国汽车保有量达到了3.7亿辆，汽车销量连续17年位居全球第一，是名副其实的汽车大国。 围绕汽车使用形成的后市场 是一个万亿产业 围绕汽车使用形成的后市场，是一个万亿产业，
 - **[17条硬核举措落地！万亿汽车产业迎2.0新政，40城试点先行](https://qzs.stcn.com/article/detail/607967.html)** — _qzs.stcn.com_ · date: unknown
@@ -77,6 +77,8 @@ _Updated 2026-06-24 03:12 | discovery-only, zero LLM tokens | runs every 3h_
   6月23日，全新理想L8正式上市，推出L8 Ultra和L8 Livis两款车型，售价分别为36.98万和42.98万元，首销限时权益价格为35.98万和41.98万元。L8 Livis采用L9 Livis同款全线控主动底盘，包括800V主动悬架、线控机械制动EMB、线控转向和后轮转向，搭载自研马赫M100芯片，算力达2560TOPS，配备3颗固态可变焦激光
 - **[三菱电动新车换标日产聆风，合作应对市场放缓](https://www.d1ev.com/newsflash/304192)** — _www.d1ev.com_ · date: unknown
   6月23日，三菱汽车在新能源汽车领域采取了合作策略，以应对高昂的研发成本和市场增速放缓的现实。三菱CEO加藤隆雄在股东大会上表示，公司将通过合作来应对全球纯电市场增速放缓的现状，避免因单独开发纯电车型而承担巨额投资和潜在亏损。三菱最新推出的Eclipse Sportback实际上是日产聆风的换标版本，这一策略有助于降低研发成本和风险。 此外，三菱计划在今年晚
+- **[测试验证，智能驾驶出海的真正门槛！](https://www.d1ev.com/news/shichang/304206)** — _www.d1ev.com_ · date: unknown
+  智能驾驶走向全球之后，真正被重新审视的，不只是算法能力，而是量产背后的验证能力。 2026第九届智能驾驶与出海大会以“智行全球 共拓新程”为主题。表面看，行业讨论的是智能驾驶、全球化、AI算法与海外市场；但更深一层看，真正被反复提及的，是一个更底层的问题：智能驾驶如何从“演示能力”，变成“量产能力”。 这也是当下汽车智能化进入新阶段后的关键变化。过去，行业追
 - **[现代全新伊兰特将于6月26日釜山车展首发 第八代车型全面升级](https://www.dongchedi.com/article/7654600137998877208)** — _www.dongchedi.com_ · date: unknown
 - **[汽车有观点](https://www.dongchedi.com/user/2137101635158318)** — _www.dongchedi.com_ · date: unknown
 - **[唐山蔚来ET5T 售价不到20万 旅行掀背纯电瓦罐](https://www.dongchedi.com/video/7654592104471495230)** — _www.dongchedi.com_ · date: unknown
