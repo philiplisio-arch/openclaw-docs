@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-23 09:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-23 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-06-23 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **1069 unique auto/NEV articles** across **17 outlets**
+## Cumulative: **1100 unique auto/NEV articles** across **17 outlets**
 
 ## New per day
 | date | new articles |
@@ -25,16 +25,16 @@ _Updated 2026-06-23 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-20 | 127 |
 | 2026-06-21 | 130 |
 | 2026-06-22 | 144 |
-| 2026-06-23 | 46 |
+| 2026-06-23 | 77 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.dongchedi.com | 482 |
+| www.dongchedi.com | 506 |
+| www.d1ev.com | 163 |
 | www.caam.org.cn | 162 |
-| www.d1ev.com | 157 |
 | www.cada.cn | 62 |
-| 36kr.com | 41 |
+| 36kr.com | 42 |
 | www.stcn.com | 39 |
 | www.news.cn | 39 |
 | egs.stcn.com | 32 |
@@ -50,11 +50,13 @@ _Updated 2026-06-23 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-06-23 — 46 articles
+### 2026-06-23 — 77 articles
 - **[车企营销不能再“乱吹”了，自动驾驶国标出台，明年7月实施](https://36kr.com/p/3864289821644039)** — _36kr.com_ · published 2026-06-23
   车企营销不能再“乱吹”了，自动驾驶国标出台，明年7月实施 我国首部L3/L4自动驾驶强制性国标公示。 车东西6月22日消息，日前，工业和信息化部发布了关于公开征求《智能网联汽车 自动驾驶系统安全要求》等2项强制性国家标准（报批稿）、《车载事故紧急呼叫系统》强制性国家标准外文版（报批稿）意见的公示。 ▲工信部发布的公示 其中，《智能网联汽车 自动驾驶系统安全要
 - **[冲击1200万辆出口，中国汽车将迎成年考验](https://36kr.com/p/3865033297499392)** — _36kr.com_ · published 2026-06-23
   冲击1200万辆出口，中国汽车将迎成年考验 “资产阶级，由于一切生产工具的迅速改进，由于交通工具的极其便利，把一切民族甚至最野蛮的民族都卷进文明中来了。其商品的低廉价格，是它用来摧毁一切万里长城、征服野蛮人最顽强的抵抗的仇外心理的重炮。” 一百七十八年前，马恩合著《共产党宣言》，一语道破近代资本主义席卷全球的核心密码：商品，是欧美列强征服世界的无形重炮。凭借
+- **[赛力斯机器人曝光，车企为何自研机器人？](https://36kr.com/p/3864328972817414)** — _36kr.com_ · published 2026-06-23
+  赛力斯机器人曝光，车企为何自研机器人？ 6月15日，重庆龙兴赛力斯超级工厂，机器人“小赛”系列集体亮相。这是赛力斯自去年宣布推动具身智能落地以来，首次公开展示其研发成果。 一台具备多模态感知能力的人形机器人“小赛”，全程进行导览。其他成员则以“上岗”的形式一一亮相：负责底盘装配检测的小赛01，用于整车外观检测的小赛02，产线两侧的协同机械臂，搬运货物的AGV
 - **[重庆首发新型汽车箱整列中欧班列](https://cn.chinadaily.com.cn/a/202606/22/WS6a3943bfa310d709c2fb9798.html)** — _cn.chinadaily.com.cn_ · published 2026-06-22
   6月22日，首次整列采用新型汽车箱的中欧班列在重庆团结村中心站顺利发车（无人机照片）。 6月22日，装载182辆长安汽车的X8013次中欧班列从重庆团结村中心站鸣笛启程，这是中欧班列首次整列采用新投用的40英尺35吨通用汽车箱，这款新型汽车箱单车载货能力更强，去程可实现整车一箱直达，返程又能装运各类适箱货物，运输效率显著提升，将有效助力我国汽车出海。 新华社
 - **[22:45威迈斯：车载电源产品可以应用于飞行汽车中 并已获小鹏汇天定点](https://egs.stcn.com/news/detail/2305346.html)** — _egs.stcn.com_ · date: unknown
@@ -84,6 +86,18 @@ _Updated 2026-06-23 09:12 | discovery-only, zero LLM tokens | runs every 3h_
   近日，美国得克萨斯州凯蒂市发生一起致命车祸，一辆特斯拉Model 3撞入一栋住宅，导致一名76岁女性身亡。事故发生在周五晚间，驾驶员迈克尔·巴特勒声称事发时车辆开启了Autopilot功能。特斯拉方面对此进行了反驳，Autopilot软件主管阿肖克·埃卢斯瓦米表示，驾驶员在居民区路段全程将油门踩到底，手动接管并压制了Autopilot系统，撞击时车速达到73
 - **[2026年第25周（6.15](https://www.d1ev.com/carnews/xinche/304064)** — _www.d1ev.com_ · published 2026-06-15
   回顾上周国内车市，比亚迪推出了全新大唐EV，新车定位大型SUV，全系搭载第二代刀片电池与闪充技术，主打家用与商务双场景出行；零跑C系列迎来焕新，旗下C16、C11、C10均采用CTC 2.0 Plus电池底盘一体化架构，产品力全面升级。接下来我们将对上周上市新车进行汇总，看看有没有您喜欢的！ 1、2026款哈弗H6经典版 官方售价：9.99万元 上市时间：2
+- **[日本首相首度选用SUV公务车，丰田世纪SUV起售价113万日元](https://www.d1ev.com/newsflash/304113)** — _www.d1ev.com_ · date: unknown
+  6月23日，日本首相高市早苗的公务用车首次选用了丰田顶级车型“世纪”的SUV版本，打破了历代首相使用轿车的传统。这款世纪SUV于2023年上市，起售价为2700万日元（约合人民币113.2万元），较轿车版高出400万日元。日本政府以安保为由，未公开车辆性能参数。世纪SUV全长超过5.2米，内部空间宽敞，配备“后座舒适”模式以减少颠簸，座椅可完全放倒，车内还设
+- **[小鹏MONAL03即将亮相，年轻人的智能时尚SUV新选择！](https://www.d1ev.com/newsflash/304112)** — _www.d1ev.com_ · date: unknown
+  6月23日，小鹏汽车宣布即将在7月推出MONAL03车型，定位为“年轻人的第一台智能时尚SUV”。小鹏集团董事长何小鹏表示，尽管中国A级SUV市场竞争激烈，但通过市场调研发现，年轻人对时尚智能SUV的需求远比想象中广阔。小鹏MONAL03旨在满足年轻人对颜值、质感和智能化配置的全面需求，价格不会超过30万，但在智能驾驶、座舱交互、安全性能三大核心维度上，均按
+- **[比亚迪海豹08内饰曝光：豪华升级，续航超1000公里！](https://www.d1ev.com/newsflash/304110)** — _www.d1ev.com_ · date: unknown
+  今日，比亚迪汽车海洋网销售事业部总经理张卓公布了旗舰轿车海豹08的四款内饰配色，分别为云霜米、曦光米、烟霞棕、凝夜紫。海豹08的内饰设计展现了高级感，与早期比亚迪车型相比进步显著，整体视觉效果柔和和谐。车内大面积使用皮质包裹，细节上采用了三辐多功能方向盘，悬浮式液晶仪表盘和中控屏，以及环抱式氛围灯带，营造出简约而科技感十足的内饰氛围。此外，海豹08还配备了电
+- **[小鹏MONAL03 SUV新色“乌梅子酱”亮相，7月上市！](https://www.d1ev.com/newsflash/304109)** — _www.d1ev.com_ · date: unknown
+  6月23日，小鹏汽车对外公布了MONA系列首款SUV车型MONAL03的“乌梅子酱”车色官图，并宣布该车型将于7月正式亮相。小鹏汽车董事长何小鹏透露，MONA系列的内部代号“MONALISA”寓意蒙娜丽莎，其中M代表轿车，L代表SUV，共同构成MONALISA，象征智能时尚汽车的浪漫使命。 MONAL03的尺寸为长4650/4672mm，宽1920mm，高1
+- **[加工业部长：比亚迪、奇瑞、吉利均有意在加拿大合资建厂造车](https://www.d1ev.com/news/shichang/304108)** — _www.d1ev.com_ · date: unknown
+  盖世汽车讯 加拿大联邦工业部长梅拉妮·乔利（Mélanie Joly）于6月22日表示，中国三大头部车企比亚迪、奇瑞、吉利希望获得加拿大电动汽车进口配额，且“愿意探讨”在当地成立合资整车组装工厂。 乔利此次为期一周的访华行程中，与比亚迪、奇瑞、吉利三方代表举行了会谈。加拿大政府正积极招揽汽车产业投资，并以此开放本土市场作为交换。加联邦政府明确要求，中国车企若
+- **[比亚迪有望超越名爵登顶欧洲中国品牌销冠](https://www.d1ev.com/news/shichang/304105)** — _www.d1ev.com_ · date: unknown
+  盖世汽车讯 比亚迪5月或将登顶欧洲中国车企销量榜首，赶超上汽名爵，后者自2011年进入欧洲市场后已连续15年领跑。 市场初步数据显示，今年5月比亚迪欧洲销量同比大幅上涨141%，达31,576辆；上汽名爵同比增长15%，销量为30,299辆。奇瑞集团紧随其后，销量大涨243%至30,043辆。上述数据来自市场研究机构Dataforce，覆盖欧盟、英国及欧洲自
 - **[本田微型纯电车 Super-N 计划登陆英国市场上市](https://www.dongchedi.com/article/7654236237808566808)** — _www.dongchedi.com_ · date: unknown
 - **[全新现代KONA路试谍照曝光，新车外观内饰同步调整](https://www.dongchedi.com/article/7654235299329868312)** — _www.dongchedi.com_ · date: unknown
 - **[东风日产NX8完成第10000台整车正式交付](https://www.dongchedi.com/article/7654235778893103640)** — _www.dongchedi.com_ · date: unknown
@@ -118,6 +132,38 @@ _Updated 2026-06-23 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 - **[花6.4万买了&quot;完全自动驾驶&quot;，特斯拉却在后台偷偷改了合同？](https://www.dongchedi.com/article/7654366352484155928)** — _www.dongchedi.com_ · date: unknown
 - **[晚高峰新闻：玛莎拉蒂改款GranTurismo、GranCabrio及Grecale发布；宝马新世代i3欧洲开放订购；小米YU7 GT创全球首个纽北自动驾驶圈速纪录](https://www.dongchedi.com/article/7654273807016198681)** — _www.dongchedi.com_ · date: unknown
 - **[全新伊兰特曝光，配混动+大屏，外形像“变形金刚”！](https://www.dongchedi.com/article/7654262843927183897)** — _www.dongchedi.com_ · date: unknown
+- **[无边框车门搭配大尺寸静音轮毂，广汽丰田铂智7行车外观很有质感](https://www.dongchedi.com/video/7654412364422365758)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[小米 YU7 GT 闯过纽北 “绿色地狱”，拿下全球首个无人自动驾驶单圈](https://www.dongchedi.com/article/7654410470409126424)** — _www.dongchedi.com_ · date: unknown
+- **[奇瑞风云T9L大五座混动SUV 2920mm轴距打造宽适家用座舱](https://www.dongchedi.com/video/7654409984599458366)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[夏天电动车别乱充电！4 个错误做法伤电池又危险，很多人都在犯](https://www.dongchedi.com/article/7654409009746674238)** — _www.dongchedi.com_ · date: unknown
+- **[比亚迪市区闪充站实际建设情况怎样？收费贵不贵？](https://www.dongchedi.com/video/7654408397294912025)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[常州匠心汽车贴膜](https://www.dongchedi.com/user/1780836085803916)** — _www.dongchedi.com_ · date: unknown
+- **[2026年常州车主必看！哪种汽车贴膜才不影响车载导航信号？](https://www.dongchedi.com/article/7654408718255129112)** — _www.dongchedi.com_ · date: unknown
+- **[扉旅汽车](https://www.dongchedi.com/user/3601621706089693)** — _www.dongchedi.com_ · date: unknown
+- **[百万级日系SUV还有排面吗？体验雷克萨斯LX700](https://www.dongchedi.com/video/7654415798085370393)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[风云T9L鲲鹏混动架构，短途用电出行，日常用车花销节省](https://www.dongchedi.com/video/7654407217147576894)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[实测奇瑞风云T9L，家用混动SUV实力如何？](https://www.dongchedi.com/video/7654406905997115966)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[华为智驾&quot;涨价&quot;背后：超10家车企跟进，高阶智驾集体告别免费时代](https://www.dongchedi.com/article/7654406905997279806)** — _www.dongchedi.com_ · date: unknown
+- **[实测风云T9L混动SUV，空间舒适能耗表现贴合家用场景](https://www.dongchedi.com/article/7654406647096050238)** — _www.dongchedi.com_ · date: unknown
+- **[诺铂汽车](https://www.dongchedi.com/user/3323200051362857)** — _www.dongchedi.com_ · date: unknown
+- **[为什么半个汽车圈的造车企业都跑去“造人”了？](https://www.dongchedi.com/article/7654407111254245912)** — _www.dongchedi.com_ · date: unknown
+- **[上市就卖爆的合资电车，双腔空悬+华为座舱，丰田铂智7爆款论！](https://www.dongchedi.com/article/7654404776331182654)** — _www.dongchedi.com_ · date: unknown
+- **[26款帕萨特Pro降价！最新4s店真实落地价和车型配置选择深度解析](https://www.dongchedi.com/video/7654404835915170328)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[轴距 3020mm 配鸿蒙座舱，广汽丰田铂智 7 16.98 万起！](https://www.dongchedi.com/article/7654404579718742590)** — _www.dongchedi.com_ · date: unknown
+- **[大马力混动车油耗高？这款运动轿车能做到省油又好玩！](https://www.dongchedi.com/article/7654404114188878361)** — _www.dongchedi.com_ · date: unknown
+- **[EQB电动车实验室](https://www.dongchedi.com/user/92335782051)** — _www.dongchedi.com_ · date: unknown
+- **[汽车不emo](https://www.dongchedi.com/user/111248447724)** — _www.dongchedi.com_ · date: unknown
+- **[抢先探店蔚来展厅，2026款ET5/ET5T冠军纪念版，值得一冲！](https://www.dongchedi.com/video/7654403785749561881)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[车市红点](https://www.dongchedi.com/user/3183299471)** — _www.dongchedi.com_ · date: unknown
+- **[华为跟进比亚迪 智能辅助驾驶“收钱+兜底”或成趋势](https://www.dongchedi.com/article/7654401587985023550)** — _www.dongchedi.com_ · date: unknown
 - **[威迈斯：车载电源产品可以应用于飞行汽车中 并已获小鹏汇天定点](https://www.stcn.com/article/detail/3973127.html)** — _www.stcn.com_ · published 2026-06-22
   首页 快讯 新闻 要闻 金融 评论 产经 创投 滚动 视频 投资 A股 公司 新股 基金 港美股 数据 信披+ 专题 地方 京 津 冀 晋 蒙 辽 吉 黑 沪 苏 浙 皖 闽 赣 鲁 豫 鄂 湘 粤 桂 琼 渝 川 黔 滇 藏 陕 甘 青 宁 新 鹏 服务 人民鉴真 投关服务 投教服务 其他服务 公众号 电子报 客户端 您当前的位置： 证券时报 > 快讯 >
 - **[跟进比亚迪，华为宣布兜底](https://www.yicai.com/news/103240595.html)** — _www.yicai.com_ · date: unknown
