@@ -1,15 +1,15 @@
 # China Business Daily — Crawler Status
 
-_Updated 2026-06-24 00:43 | WS1 redesign source universe | discovery-only, zero LLM tokens | every 3h_
+_Updated 2026-06-24 03:41 | WS1 redesign source universe | discovery-only, zero LLM tokens | every 3h_
 
-## Cumulative: **4478 business articles** across **16 outlets**
+## Cumulative: **4487 business articles** across **16 outlets**
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.stcn.com | 1047 |
-| www.21jingji.com | 850 |
-| www.nbd.com.cn | 744 |
+| www.21jingji.com | 851 |
+| www.nbd.com.cn | 752 |
 | www.eeo.com.cn | 352 |
 | www.jiemian.com | 347 |
 | 36kr.com | 342 |
@@ -24,7 +24,7 @@ _Updated 2026-06-24 00:43 | WS1 redesign source universe | discovery-only, zero 
 | jingji.cctv.com | 6 |
 | m.21jingji.com | 1 |
 
-## 2026-06-24 — 77 articles
+## 2026-06-24 — 86 articles
 - **[阿里、Temu、TikTok、京东：四大巨头路线正面决裂，选对平台少亏百万](https://36kr.com/p/3865705934935041)** — _36kr.com_ · published 2026-06-24
 - **[黑胶复兴创新高，音乐将更需要“感知价值”](https://36kr.com/p/3865610764899335)** — _36kr.com_ · published 2026-06-24
 - **[新音乐产业观察](https://36kr.com/user/1611863983)** — _36kr.com_ · date: unknown
@@ -51,6 +51,7 @@ _Updated 2026-06-24 00:43 | WS1 redesign source universe | discovery-only, zero 
 - **[银行业保险业要划定技术创新与应用安全的边界](https://www.21jingji.com/article/20260623/herald/b78b022ed1236fbfa78976f8f4be6a70.html)** — _www.21jingji.com_ · date: unknown
 - **[聚焦养老金融 我国老年财富传承领域首个团体标准发布](https://www.21jingji.com/article/20260623/herald/21258b1d8c3d961b26e1bb34b2a92c80.html)** — _www.21jingji.com_ · date: unknown
 - **[专家热议如何通过强化金融支持提振和扩大消费](https://www.21jingji.com/article/20260623/herald/d3b328f0aabd089e278c56ac01c6a127.html)** — _www.21jingji.com_ · date: unknown
+- **[21评论丨发展离岸金融对上海为何重要？](https://www.21jingji.com/article/20260624/d58a3c8a7e09a41e8add181ae1bdaa28.html)** — _www.21jingji.com_ · date: unknown
 - **[思科联合Equinix、英伟达推进全球数据中心AI工厂部署](https://www.eeo.com.cn/2026/0624/927223.shtml)** — _www.eeo.com.cn_ · published 2026-06-24
 - **[伊格尔矿业2026年一季度营收净利双增 盈利弹性凸显](https://www.eeo.com.cn/2026/0624/927219.shtml)** — _www.eeo.com.cn_ · published 2026-06-24
 - **[欧洲三大股指收盘涨跌不一](https://www.eeo.com.cn/2026/0623/927208.shtml)** — _www.eeo.com.cn_ · published 2026-06-23
@@ -83,6 +84,14 @@ _Updated 2026-06-24 00:43 | WS1 redesign source universe | discovery-only, zero 
 - **[刘国中在江苏调研时强调 打造生物医药新兴支柱产业 培育发展脑机接口未来产业](https://www.nbd.com.cn/articles/2026-06-23/4435003.html)** — _www.nbd.com.cn_ · published 2026-06-23
 - **[半导体设备提供商泛林集团股价下跌10.1%，报368美元/股](https://www.nbd.com.cn/articles/2026-06-23/4435080.html)** — _www.nbd.com.cn_ · published 2026-06-23
 - **[IBM股价逆势上涨，涨幅扩大至5%](https://www.nbd.com.cn/articles/2026-06-23/4435079.html)** — _www.nbd.com.cn_ · published 2026-06-23
+- **[恒为科技重启收购数珩科技：拟以现金4.67亿元拿下控股权，业绩承诺方后期需增持上市公司股票](https://www.nbd.com.cn/articles/2026-06-23/4435013.html)** — _www.nbd.com.cn_ · published 2026-06-23
+- **[前次定增募资耗尽，兴森科技拟再定增不超39亿元扩产：逾半资金押注mSAP基板，公司称存产能闲置风险](https://www.nbd.com.cn/articles/2026-06-23/4434974.html)** — _www.nbd.com.cn_ · published 2026-06-23
+- **[正泰电器拟以超11亿元竞拍控股子公司约3%股权 标的公司此前欲分拆上市、曾增资扩股](https://www.nbd.com.cn/articles/2026-06-24/4435109.html)** — _www.nbd.com.cn_ · published 2026-06-24
+- **[推出七大便利化措施 四川启动跨境贸易高水平开放试点](https://www.nbd.com.cn/articles/2026-06-23/4435033.html)** — _www.nbd.com.cn_ · published 2026-06-23
+- **[8个交易日收盘价格涨幅偏离值超114%，触发严重异动！爱迪特澄清：参股公司万微MLCC粉体尚未量产](https://www.nbd.com.cn/articles/2026-06-23/4435060.html)** — _www.nbd.com.cn_ · published 2026-06-23
+- **[兆丰股份拟发行14亿元可转债，加码布局具身机器人与智驾精密部件](https://www.nbd.com.cn/articles/2026-06-23/4435030.html)** — _www.nbd.com.cn_ · published 2026-06-23
+- **[旗下菏泽盐业拟预挂牌增资扩股，鲁银投资：旨在优化股权结构，不影响控制权](https://www.nbd.com.cn/articles/2026-06-23/4435051.html)** — _www.nbd.com.cn_ · published 2026-06-23
+- **[宁德时代看中的公司又有资本动作 富临精工子公司这次为何拉上资源企业？](https://www.nbd.com.cn/articles/2026-06-23/4435029.html)** — _www.nbd.com.cn_ · published 2026-06-23
 - **[美股三大股指集体低开，芯片股暴跌！美伊谈判，传来大消息](https://www.stcn.com/article/detail/3975557.html)** — _www.stcn.com_ · date: unknown
 - **[深夜暴跌！美股AI交易遭遇重挫，高盛重大警告](https://www.stcn.com/article/detail/3975625.html)** — _www.stcn.com_ · date: unknown
 - **[宇树具身智能产业学院在苏州揭牌](https://www.stcn.com/article/detail/3975583.html)** — _www.stcn.com_ · published 2026-06-23
