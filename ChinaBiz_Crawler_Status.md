@@ -1,18 +1,18 @@
 # China Business Daily — Crawler Status
 
-_Updated 2026-06-25 00:42 | WS1 redesign source universe | discovery-only, zero LLM tokens | every 3h_
+_Updated 2026-06-25 03:41 | WS1 redesign source universe | discovery-only, zero LLM tokens | every 3h_
 
-## Cumulative: **5122 business articles** across **16 outlets**
+## Cumulative: **5134 business articles** across **16 outlets**
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.stcn.com | 1218 |
-| www.21jingji.com | 980 |
+| www.21jingji.com | 986 |
 | www.nbd.com.cn | 866 |
 | 36kr.com | 394 |
 | www.jiemian.com | 393 |
-| www.eeo.com.cn | 377 |
+| www.eeo.com.cn | 383 |
 | www.yicai.com | 340 |
 | finance.people.com.cn | 318 |
 | news.cnstock.com | 103 |
@@ -24,7 +24,7 @@ _Updated 2026-06-25 00:42 | WS1 redesign source universe | discovery-only, zero 
 | jingji.cctv.com | 8 |
 | m.21jingji.com | 2 |
 
-## 2026-06-25 — 60 articles
+## 2026-06-25 — 72 articles
 - **[中国银行回应被审计署通报：坚持立行立改，扎实推进整改](https://www.21jingji.com/article/20260624/herald/2cb85faba8f5eaa0a87f0be36ba7934e.html)** — _www.21jingji.com_ · date: unknown
 - **[现货黄金，跌破4000美元大关](https://www.21jingji.com/article/20260624/herald/a0d616848df5efbbecc3e16624cfd479.html)** — _www.21jingji.com_ · date: unknown
 - **[央行：将开展5000亿元MLF操作](https://www.21jingji.com/article/20260624/herald/12e326482681aa8be87e53f5316c164f.html)** — _www.21jingji.com_ · published 2026-06-25
@@ -41,8 +41,20 @@ _Updated 2026-06-25 00:42 | WS1 redesign source universe | discovery-only, zero 
 - **[山东准万亿GDP城市，官宣争“宠”](https://www.21jingji.com/article/20260624/herald/58aced9a4988b2c325260fc2c9073bc7.html)** — _www.21jingji.com_ · date: unknown
 - **[广东中小微企业故事汇：一台电动吸奶器凭啥闯出全球母婴大市场？](https://www.21jingji.com/article/20260624/herald/fb9db06a57ea92b1355ac91d4542e32e.html)** — _www.21jingji.com_ · date: unknown
 - **[一天狂飙12倍！A股，又一只大牛股诞生！](https://www.21jingji.com/article/20260624/herald/a9e2494814f7a31461132f61ca90c412.html)** — _www.21jingji.com_ · published 2026-06-25
+- **[21社论丨规模化创新生态为全球企业带来“中国机遇2.0”](https://www.21jingji.com/article/20260625/f214a842b413851caabdcfe6c2ce8eb5.html)** — _www.21jingji.com_ · date: unknown
+- **[21评论丨下半年人民币汇率升值空间几何？](https://www.21jingji.com/article/20260625/462f0c357b4dd5273dd5217491467cc4.html)** — _www.21jingji.com_ · date: unknown
+- **[21评论丨下半年人民币汇率升值空间几何？](https://www.21jingji.com/article/20260625/d6e5992653e9a98e7fe59051e6397fae.html)** — _www.21jingji.com_ · date: unknown
+- **[境外资产配置规模达3000亿元 银行理财五大渠道“出海”](https://www.21jingji.com/article/20260625/7ffc19194780f2b9e205bc3540bed6f8.html)** — _www.21jingji.com_ · date: unknown
+- **[海运价格八连涨 外贸企业：“每周都收到调价通知”](https://www.21jingji.com/article/20260625/a19b9952d420dc2e420f4204417b7862.html)** — _www.21jingji.com_ · date: unknown
+- **[长川科技上半年业绩超预期 AI超级周期传导至测试设备环节](https://www.21jingji.com/article/20260625/c8389e0d396e7bb721a76931c91ed10b.html)** — _www.21jingji.com_ · date: unknown
 - **[美国力特保险丝推出适配AI数据中心的新型表面贴装保险丝](https://www.eeo.com.cn/2026/0624/928683.shtml)** — _www.eeo.com.cn_ · published 2026-06-24
 - **[皇家黄金调整土耳其霍德马登项目权益架构，置换股权获特许权使用费](https://www.eeo.com.cn/2026/0624/928679.shtml)** — _www.eeo.com.cn_ · published 2026-06-24
+- **[燃石医学Q1营收下滑，当前股价处于利空后利好真空期](https://www.eeo.com.cn/2026/0625/928724.shtml)** — _www.eeo.com.cn_ · date: unknown
+- **[小鹏集团Q1业绩转亏 欧盟关税预期影响出口](https://www.eeo.com.cn/2026/0625/928722.shtml)** — _www.eeo.com.cn_ · published 2026-06-25
+- **[BOSS直聘提示关注宏观经济及行业竞争相关风险](https://www.eeo.com.cn/2026/0625/928721.shtml)** — _www.eeo.com.cn_ · published 2026-06-25
+- **[嘉年华邮轮Q3业绩指引不及预期，6月23日股价大幅波动收跌4.87%](https://www.eeo.com.cn/2026/0625/928720.shtml)** — _www.eeo.com.cn_ · date: unknown
+- **[中点能源面临监管供应链及AI数据中心用电相关风险](https://www.eeo.com.cn/2026/0625/928719.shtml)** — _www.eeo.com.cn_ · published 2026-06-25
+- **[埃森哲Q4营收指引低于预期 收购布局工业网络安全领域](https://www.eeo.com.cn/2026/0625/928718.shtml)** — _www.eeo.com.cn_ · published 2026-06-25
 - **[华恒生物：终止发行H股股票并于香港联交所主板上市](https://www.jiemian.com/article/14641155.html)** — _www.jiemian.com_ · date: unknown
 - **[欧洲股市收盘](https://www.jiemian.com/article/14641148.html)** — _www.jiemian.com_ · date: unknown
 - **[逃避税近24亿元被审计署通报，中国银行回应](https://www.jiemian.com/article/14641060.html)** — _www.jiemian.com_ · date: unknown
