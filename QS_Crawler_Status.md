@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-24 06:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-24 09:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-06-24 06:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **1224 unique auto/NEV articles** across **17 outlets**
+## Cumulative: **1239 unique auto/NEV articles** across **18 outlets**
 
 ## New per day
 | date | new articles |
@@ -26,18 +26,18 @@ _Updated 2026-06-24 06:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-21 | 130 |
 | 2026-06-22 | 144 |
 | 2026-06-23 | 169 |
-| 2026-06-24 | 32 |
+| 2026-06-24 | 47 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.dongchedi.com | 568 |
-| www.d1ev.com | 191 |
-| www.caam.org.cn | 164 |
-| www.cada.cn | 62 |
-| www.stcn.com | 50 |
+| www.dongchedi.com | 570 |
+| www.d1ev.com | 195 |
+| www.caam.org.cn | 165 |
+| www.cada.cn | 64 |
+| www.stcn.com | 53 |
+| 36kr.com | 46 |
 | www.news.cn | 44 |
-| 36kr.com | 44 |
 | egs.stcn.com | 37 |
 | www.xinhuanet.com | 19 |
 | www.zqrb.cn | 15 |
@@ -48,10 +48,17 @@ _Updated 2026-06-24 06:12 | discovery-only, zero LLM tokens | runs every 3h_
 | www.ceweekly.cn | 2 |
 | www.jwview.com | 1 |
 | gd.chinadaily.com.cn | 1 |
+| china.chinadaily.com.cn | 1 |
 
 ## Articles captured by day (newest first)
 
-### 2026-06-24 — 32 articles
+### 2026-06-24 — 47 articles
+- **[美国车企为何扎堆做储能](https://36kr.com/p/3866358034158850)** — _36kr.com_ · published 2026-06-24
+  美国车企为何扎堆做储能 2026年上半年，美国底特律的两大老牌汽车制造商，几乎在同一时间把电池储能业务放到了公司战略的中心。 5月12日，福特汽车成立全资子公司福特能源（Ford Energy），布局电网级电池储能；数日之后，福特能源与法国电力集团（EDF）北美分公司签下首份框架协议，后者自2028年起采购福特的DC Block储能系统，合计最多20吉瓦时。
+- **[8点1氪丨追觅辟谣汽车CEO离职：职务与网传不符；微信小范围内测原生AI助手；苹果、特斯拉核心供应商数据泄露](https://36kr.com/p/3866428592657411)** — _36kr.com_ · published 2026-06-24
+  8点1氪丨追觅辟谣汽车CEO离职：职务与网传不符；微信小范围内测原生AI助手；苹果、特斯拉核心供应商数据泄露 今日热点导览 创业板指创年内最大跌幅，失守4200点整数关口 影石回应Luna Ultra新品骗国补质疑：发布会标价有误 上交所向沪市公司发出“提质增效重回报”2.0专项行动公开倡议 韩国将要求所有上市公司披露库存股详情 贾跃亭推出工业级轮臂机器人
+- **[全链条扩大汽车消费 多部门详解新举措](https://china.chinadaily.com.cn/a/202606/24/WS6a3b12e0a310d709c2fb9b6d.html)** — _china.chinadaily.com.cn_ · published 2026-06-24
+  新华社北京6月23日电 题：全链条扩大汽车消费 多部门详解新举措 新华社记者邹雨沁、谢希瑶 汽车业是扩消费、稳投资、惠民生的重要领域。商务部等部门23日发布关于培育壮大汽车后市场消费若干措施的通知，以及汽车流通消费改革试点城市名单。国新办当日举行新闻发布会，解读相关政策措施，回应外界关切。 商务部副部长盛秋平说，近年来，中国在成为全球第一大汽车消费市场的基础
 - **[事关汽车消费 这场发布会信息量很大！](https://cn.chinadaily.com.cn/a/202606/23/WS6a3a8ee5a310d709c2fb9b67.html)** — _cn.chinadaily.com.cn_ · published 2026-06-23
   国务院新闻办公室6月23日举行新闻发布会，商务部、工业和信息化部、文化和旅游部、杭州市、成都市有关负责人介绍全链条扩大汽车消费有关情况，一起来关注。 我国汽车保有量达3.7亿辆 截至目前，我国汽车保有量达到了3.7亿辆，汽车销量连续17年位居全球第一，是名副其实的汽车大国。 围绕汽车使用形成的后市场 是一个万亿产业 围绕汽车使用形成的后市场，是一个万亿产业，
 - **[17条硬核举措落地！万亿汽车产业迎2.0新政，40城试点先行](https://qzs.stcn.com/article/detail/607967.html)** — _qzs.stcn.com_ · date: unknown
@@ -59,6 +66,10 @@ _Updated 2026-06-24 06:12 | discovery-only, zero LLM tokens | runs every 3h_
 - **[·
                 组织推荐2026中国汽车供应链创新成果的函
                 [03.04]](https://www.caam.org.cn/chn/5/cate_68/con_5237034.html)** — _www.caam.org.cn_ · date: unknown
+- **[· 第四届中日智能网联汽车官民论坛成功召开
+                     [03.10]](https://www.caam.org.cn/chn/3/cate_26/con_5235726.html)** — _www.caam.org.cn_ · date: unknown
+- **[关于举办汽车主播培育与创新论坛活动（天津站）的通知](https://www.cada.cn/Trends/info_92_10404.html)** — _www.cada.cn_ · date: unknown
+- **[北京伟易达二手车鉴定评估有限公司](https://www.cada.cn/liebiao/info_117_6748.html)** — _www.cada.cn_ · date: unknown
 - **[埃安AED守护联盟北京站正式成立](https://www.d1ev.com/news/qiye/304194)** — _www.d1ev.com_ · published 2026-06-20
   2026年6月20日，广汽埃安i60 AED守护联盟北京站正式成立。这是继上海、广州、贵阳之后，联盟在全国落地的第四座城市，标志着这一公益项目从区域试点迈向全国规模化布局。 心脏骤停是我国居民猝死的主要原因之一，每年发病人数超过55万例，黄金抢救时间仅有4分钟。AED（自动体外除颤器）作为国际公认的高效急救设备，操作简单、语音引导清晰，普通人经培训即可使用。
 - **[买不起蔚来才买乐道？沈斐回应来了](https://www.d1ev.com/news/shichang/304173)** — _www.d1ev.com_ · date: unknown
@@ -79,6 +90,14 @@ _Updated 2026-06-24 06:12 | discovery-only, zero LLM tokens | runs every 3h_
   6月23日，三菱汽车在新能源汽车领域采取了合作策略，以应对高昂的研发成本和市场增速放缓的现实。三菱CEO加藤隆雄在股东大会上表示，公司将通过合作来应对全球纯电市场增速放缓的现状，避免因单独开发纯电车型而承担巨额投资和潜在亏损。三菱最新推出的Eclipse Sportback实际上是日产聆风的换标版本，这一策略有助于降低研发成本和风险。 此外，三菱计划在今年晚
 - **[测试验证，智能驾驶出海的真正门槛！](https://www.d1ev.com/news/shichang/304206)** — _www.d1ev.com_ · date: unknown
   智能驾驶走向全球之后，真正被重新审视的，不只是算法能力，而是量产背后的验证能力。 2026第九届智能驾驶与出海大会以“智行全球 共拓新程”为主题。表面看，行业讨论的是智能驾驶、全球化、AI算法与海外市场；但更深一层看，真正被反复提及的，是一个更底层的问题：智能驾驶如何从“演示能力”，变成“量产能力”。 这也是当下汽车智能化进入新阶段后的关键变化。过去，行业追
+- **[立时集团研发超黑涂层：99.9%吸光率，汽车涂料革命性突破](https://www.d1ev.com/newsflash/304217)** — _www.d1ev.com_ · date: unknown
+  6月24日，立时集团上海色彩科技研发团队宣布推出一款新型超黑复合涂层，该涂层对可见光的吸收率高达99.9%。这款涂层不仅优化了环境耐受能力，而且更符合汽车实际使用的性能要求。与Vantablack等超黑材料相比，立时团队采用炭黑与碳纳米管制备的复合材料，通过π相互作用形成连通的微观结构，实现结构性陷光效果，可见光波段反射率约为0.08%，虽然略高于Vanta
+- **[新能源车智驾普及加速，L2+占比飙升至29.2%](https://www.d1ev.com/newsflash/304215)** — _www.d1ev.com_ · date: unknown
+  6月24日，乘联分会最新统计数据显示，2026年前四个月新能源车型在驾驶辅助系统市场份额上显著增长，尤其是高阶智驾系统。新能源乘用车中，L2级占比58.2%，L2+级占比29.2%，合计达到87.4%。与2025年同期相比，L2级提升了2.1个百分点，而L2+级则上涨了7.5个百分点，显示出高阶辅助驾驶技术的快速普及。 在不同价位的新能源车型中，L2+搭载比
+- **[冲击1200万辆出口！中国汽车将迎成年考验](https://www.d1ev.com/news/shichang/304214)** — _www.d1ev.com_ · date: unknown
+  “资产阶级，由于一切生产工具的迅速改进，由于交通工具的极其便利，把一切民族甚至最野蛮的民族都卷进文明中来了。其商品的低廉价格，是它用来摧毁一切万里长城、征服野蛮人最顽强的抵抗的仇外心理的重炮。” 一百七十八年前，马恩合著《共产党宣言》，一语道破近代资本主义席卷全球的核心密码：商品，是欧美列强征服世界的无形重炮。凭借工业化赋能的低廉商品，欧美列强打破地域桎梏、
+- **[三菱CEO揭秘：为何不自主研发纯电动车？合作应对市场放缓](https://www.d1ev.com/newsflash/304212)** — _www.d1ev.com_ · date: unknown
+  近日，三菱汽车CEO加藤隆雄解释了公司没有大举投入全新电动车型研发的原因。他表示，全球纯电市场增速已经放缓，三菱将通过合作来应对市场变化。单独开发一款纯电车型需要巨额投资，如果销量不及预期，公司将承受大额亏损，造成严重的经营问题。本田最近也在上市前夕取消了0系列车型计划，并为此承担近160亿美元重组成本。由于三菱的规模远小于本田，若出现类似失误，后果将不堪设
 - **[现代全新伊兰特将于6月26日釜山车展首发 第八代车型全面升级](https://www.dongchedi.com/article/7654600137998877208)** — _www.dongchedi.com_ · date: unknown
 - **[汽车有观点](https://www.dongchedi.com/user/2137101635158318)** — _www.dongchedi.com_ · date: unknown
 - **[唐山蔚来ET5T 售价不到20万 旅行掀背纯电瓦罐](https://www.dongchedi.com/video/7654592104471495230)** — _www.dongchedi.com_ · date: unknown
@@ -97,6 +116,8 @@ _Updated 2026-06-24 06:12 | discovery-only, zero LLM tokens | runs every 3h_
   扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
 - **[价格战全面退潮，平均客单价成自主车企价值竞争新标尺](https://www.dongchedi.com/article/7654604459359633945)** — _www.dongchedi.com_ · date: unknown
 - **[汽车透视眼](https://www.dongchedi.com/user/3459483308144563)** — _www.dongchedi.com_ · date: unknown
+- **[汽车相对论](https://www.dongchedi.com/user/5553666736)** — _www.dongchedi.com_ · date: unknown
+- **[陇尚车市](https://www.dongchedi.com/user/3567903999)** — _www.dongchedi.com_ · date: unknown
 - **[奇瑞西班牙合资工厂启动新生产线](https://www.news.cn/20260623/4142a7e991ed4e76b5e59668fa6af2e7/c.html)** — _www.news.cn_ · published 2026-06-23
   新华社西班牙巴塞罗那6月23日电（记者陈雨峥 宁雨轩）西班牙埃夫罗汽车集团22日宣布，其与中国汽车制造商奇瑞在巴塞罗那自由贸易区合资运营的埃夫罗工厂当天启用全新生产线，进一步提升产能。 记者从埃夫罗汽车集团获悉，新启用的M1生产线全长696米，设有97个工作站，单车生产周期约75分钟。目前，该生产线用于生产S400和S700各动力版本车型，设计上最多可生产5
 - **[全链条扩大汽车消费 多部门详解新举措](https://www.news.cn/fortune/20260623/d66d6ff1f0cc4ab4a95a1420c6f385f5/c.html)** — _www.news.cn_ · published 2026-06-23
@@ -105,6 +126,11 @@ _Updated 2026-06-24 06:12 | discovery-only, zero LLM tokens | runs every 3h_
   重要的消息有哪些 1．6月23日，商务部等部门发布两项通知，加力推动全链条扩大汽车消费。商务部等8部门发布通知，公布了40个汽车流通消费改革试点城市及其重点改革创新方向。通知要求各试点城市结合本地产业特色、市场特点、资源禀赋、区位条件、功能定位等实际情况，针对汽车流通消费不合理限制等堵点问题，完善改革创新举措，培育汽车消费新场景新业态新模式，带动商旅文体健融
 - **[17条硬核举措落地！万亿汽车产业迎2.0新政，40城试点先行](https://www.stcn.com/article/detail/3975616.html)** — _www.stcn.com_ · date: unknown
   6月23日，商务部等9部门发布了《关于培育壮大汽车后市场消费若干措施的通知》（下称《通知》），围绕汽车改装、汽车赛事、房车露营、汽车维修、汽车租赁、传统经典车等后市场领域存在的管理制度不完善、标准体系不健全、优质供给不充分等问题，提出了17条对策举措。 同日，商务部等8部门还公布了汽车流通消费改革试点城市名单，40个试点城市将聚焦汽车后市场，以及新车消费、二
+- **[万亿级产业迎新政 全链条扩大汽车消费](https://www.stcn.com/article/detail/3975658.html)** — _www.stcn.com_ · date: unknown
+  证券时报记者 秦燕玲 6月23日，商务部等9部门发布了《关于培育壮大汽车后市场消费若干措施的通知》（以下简称《通知》），围绕汽车改装、汽车赛事、房车露营、汽车维修、汽车租赁、传统经典车等后市场领域存在的管理制度不完善、标准体系不健全、优质供给不充分等问题，提出了17条对策举措。同日，商务部等8部门还公布了汽车流通消费改革试点城市名单，40个试点城市将聚焦汽车
+- **[锚定智能化主赛道 大连金普新区千亿汽车产业崛起](https://www.stcn.com/article/detail/3975663.html)** — _www.stcn.com_ · date: unknown
+- **[机构：汽车智能化已经从量变进入质变](https://www.stcn.com/article/detail/3975923.html)** — _www.stcn.com_ · published 2026-06-22
+  证券时报网 司迪 2026-06-22 20:09 6月23日，商务部等9部门发布了《关于培育壮大汽车后市场消费若干措施的通知》，围绕汽车改装、汽车赛事、房车露营、汽车维修、汽车租赁、传统经典车等后市场领域存在的管理制度不完善、标准体系不健全、优质供给不充分等问题，提出了17条对策举措。同日，商务部等8部门还公布了汽车流通消费改革试点城市名单，40个试点城市
 - **[奇瑞西班牙合资工厂启动新生产线](https://www.xinhuanet.com/20260623/4142a7e991ed4e76b5e59668fa6af2e7/c.html)** — _www.xinhuanet.com_ · published 2026-06-23
   新华社西班牙巴塞罗那6月23日电（记者陈雨峥 宁雨轩）西班牙埃夫罗汽车集团22日宣布，其与中国汽车制造商奇瑞在巴塞罗那自由贸易区合资运营的埃夫罗工厂当天启用全新生产线，进一步提升产能。 记者从埃夫罗汽车集团获悉，新启用的M1生产线全长696米，设有97个工作站，单车生产周期约75分钟。目前，该生产线用于生产S400和S700各动力版本车型，设计上最多可生产5
 - **[汽车后市场成万亿级新蓝海，40城试点“一城一策”拆堵点](https://www.yicai.com/news/103242685.html)** — _www.yicai.com_ · date: unknown
