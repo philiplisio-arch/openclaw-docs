@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-25 00:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-25 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-06-25 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **1368 unique auto/NEV articles** across **18 outlets**
+## Cumulative: **1374 unique auto/NEV articles** across **18 outlets**
 
 ## New per day
 | date | new articles |
@@ -27,12 +27,12 @@ _Updated 2026-06-25 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-22 | 144 |
 | 2026-06-23 | 169 |
 | 2026-06-24 | 159 |
-| 2026-06-25 | 17 |
+| 2026-06-25 | 23 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.dongchedi.com | 655 |
+| www.dongchedi.com | 661 |
 | www.d1ev.com | 220 |
 | www.caam.org.cn | 165 |
 | www.cada.cn | 65 |
@@ -53,7 +53,7 @@ _Updated 2026-06-25 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-06-25 — 17 articles
+### 2026-06-25 — 23 articles
 - **[丰田放弃雷克萨斯LF](https://www.d1ev.com/newsflash/304333)** — _www.d1ev.com_ · date: unknown
   今日，丰田宣布停止开发雷克萨斯旗舰纯电轿车LF-ZC，但将继续利用其开发过程中积累的新技术。丰田执行副总裁中岛裕树证实了这一消息，指出模具和生产设备成本过高是停止开发的主要原因。尽管如此，LF-ZC项目中开发的一体化压铸技术、全新电子电气平台以及小型化和轻量化技术均已具备量产条件，并将应用于其他车型。中岛裕树还确认，公司已决定开发LF-ZC的后继车型。 LF
 - **[比亚迪大唐EV全球最长纯电续航SUV，闪充技术首搭，售价23.99万起](https://www.d1ev.com/newsflash/304328)** — _www.d1ev.com_ · date: unknown
@@ -80,6 +80,14 @@ _Updated 2026-06-25 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 - **[丰田扛不住了？中东一乱，海外减产10万辆，&quot;车界印钞机&quot;也发抖！](https://www.dongchedi.com/article/7654941036720357950)** — _www.dongchedi.com_ · date: unknown
 - **[新能源车不能越野？银河战舰700第一个不同意](https://www.dongchedi.com/video/7654933433545769497)** — _www.dongchedi.com_ · date: unknown
   银河战舰700 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有限公司 中央网信办违法和不良信息举报中心 违法和不良信息举报电话：400-140-2108 举报邮箱
+- **[周口 比亚迪汉 DM 售价不到 11 万，插混中型轿车省油配置高端](https://www.dongchedi.com/video/7654992370941215257)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[93汽车家](https://www.dongchedi.com/user/3261610786301099)** — _www.dongchedi.com_ · date: unknown
+- **[脑洞时刻：国内新能源车道路养护费，可能会用哪种思路征收？](https://www.dongchedi.com/article/7654980611937174078)** — _www.dongchedi.com_ · date: unknown
+- **[蔚来ES8五座6月28日预售 超大后备箱 Pk全新理想L8](https://www.dongchedi.com/article/7654981962268115518)** — _www.dongchedi.com_ · date: unknown
+- **[全系1.5T，前麦弗逊+后多连杆加持，吉利ICON怎么选？10万落地？](https://www.dongchedi.com/video/7654970727581598232)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[欧洲电动汽车销量首超纯燃油车！比亚迪超越上汽成中国品牌第一](https://www.dongchedi.com/article/7654947323004502552)** — _www.dongchedi.com_ · date: unknown
 
 ### 2026-06-24 — 159 articles
 - **[美国车企为何扎堆做储能](https://36kr.com/p/3866358034158850)** — _36kr.com_ · published 2026-06-24
