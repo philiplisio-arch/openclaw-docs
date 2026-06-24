@@ -1,20 +1,20 @@
 # China Business Daily — Crawler Status
 
-_Updated 2026-06-25 03:41 | WS1 redesign source universe | discovery-only, zero LLM tokens | every 3h_
+_Updated 2026-06-25 06:41 | WS1 redesign source universe | discovery-only, zero LLM tokens | every 3h_
 
-## Cumulative: **5134 business articles** across **16 outlets**
+## Cumulative: **5145 business articles** across **16 outlets**
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.stcn.com | 1218 |
 | www.21jingji.com | 986 |
-| www.nbd.com.cn | 866 |
+| www.nbd.com.cn | 872 |
 | 36kr.com | 394 |
 | www.jiemian.com | 393 |
-| www.eeo.com.cn | 383 |
+| www.eeo.com.cn | 385 |
 | www.yicai.com | 340 |
-| finance.people.com.cn | 318 |
+| finance.people.com.cn | 321 |
 | news.cnstock.com | 103 |
 | caijing.chinadaily.com.cn | 46 |
 | finance.caixin.com | 30 |
@@ -24,7 +24,10 @@ _Updated 2026-06-25 03:41 | WS1 redesign source universe | discovery-only, zero 
 | jingji.cctv.com | 8 |
 | m.21jingji.com | 2 |
 
-## 2026-06-25 — 72 articles
+## 2026-06-25 — 83 articles
+- **[从暑期消费看文旅市场新活力（商海观潮）](https://finance.people.com.cn/n1/2026/0625/c1004-40746915.html)** — _finance.people.com.cn_ · published 2026-06-25
+- **[链博会上，科技创新氛围浓](https://finance.people.com.cn/n1/2026/0625/c1004-40746898.html)** — _finance.people.com.cn_ · published 2026-06-25
+- **[坚定走中国特色社会主义群团发展道路 团结动员广大科技工作者建功“十五五”](https://finance.people.com.cn/n1/2026/0625/c1004-40746897.html)** — _finance.people.com.cn_ · published 2026-06-25
 - **[中国银行回应被审计署通报：坚持立行立改，扎实推进整改](https://www.21jingji.com/article/20260624/herald/2cb85faba8f5eaa0a87f0be36ba7934e.html)** — _www.21jingji.com_ · date: unknown
 - **[现货黄金，跌破4000美元大关](https://www.21jingji.com/article/20260624/herald/a0d616848df5efbbecc3e16624cfd479.html)** — _www.21jingji.com_ · date: unknown
 - **[央行：将开展5000亿元MLF操作](https://www.21jingji.com/article/20260624/herald/12e326482681aa8be87e53f5316c164f.html)** — _www.21jingji.com_ · published 2026-06-25
@@ -55,6 +58,8 @@ _Updated 2026-06-25 03:41 | WS1 redesign source universe | discovery-only, zero 
 - **[嘉年华邮轮Q3业绩指引不及预期，6月23日股价大幅波动收跌4.87%](https://www.eeo.com.cn/2026/0625/928720.shtml)** — _www.eeo.com.cn_ · date: unknown
 - **[中点能源面临监管供应链及AI数据中心用电相关风险](https://www.eeo.com.cn/2026/0625/928719.shtml)** — _www.eeo.com.cn_ · published 2026-06-25
 - **[埃森哲Q4营收指引低于预期 收购布局工业网络安全领域](https://www.eeo.com.cn/2026/0625/928718.shtml)** — _www.eeo.com.cn_ · published 2026-06-25
+- **[AI算力建设带动半导体材料需求 英特格业绩确定性增强](https://www.eeo.com.cn/2026/0625/928753.shtml)** — _www.eeo.com.cn_ · published 2026-06-25
+- **[台积电宣布先进制程涨价5%](https://www.eeo.com.cn/2026/0625/928752.shtml)** — _www.eeo.com.cn_ · published 2026-06-24
 - **[华恒生物：终止发行H股股票并于香港联交所主板上市](https://www.jiemian.com/article/14641155.html)** — _www.jiemian.com_ · date: unknown
 - **[欧洲股市收盘](https://www.jiemian.com/article/14641148.html)** — _www.jiemian.com_ · date: unknown
 - **[逃避税近24亿元被审计署通报，中国银行回应](https://www.jiemian.com/article/14641060.html)** — _www.jiemian.com_ · date: unknown
@@ -82,6 +87,12 @@ _Updated 2026-06-25 03:41 | WS1 redesign source universe | discovery-only, zero 
 - **[2026年6月25日新能源市场热点](https://www.nbd.com.cn/articles/2026-06-24/4436456.html)** — _www.nbd.com.cn_ · published 2026-06-24
 - **[2026年6月25日新能源新版早参](https://www.nbd.com.cn/articles/2026-06-24/4436455.html)** — _www.nbd.com.cn_ · published 2026-06-24
 - **[德尔玛：股东磐茂（上海）投资中心计划减持公司股份不超过约2296万股](https://www.nbd.com.cn/articles/2026-06-24/4436452.html)** — _www.nbd.com.cn_ · published 2026-06-24
+- **[截至5月底，我国电动汽车充电基础设施达2249.7万个；七部门将专项整治报废机动车非法拆解](https://www.nbd.com.cn/articles/2026-06-24/4436028.html)** — _www.nbd.com.cn_ · published 2026-06-24
+- **[影响市场重大事件：SpaceX 250亿美元的债券分五期发行，最长期限达30年；五部门联合启动工业5G独立专网试点，加速“5G+工业互联网”赋能千行百业](https://www.nbd.com.cn/articles/2026-06-24/4436261.html)** — _www.nbd.com.cn_ · published 2026-06-24
+- **[事关美伊协议，特朗普最新表态；金银油齐大跌，美油跌破70美元；美光科技业绩炸裂带动芯片股盘后大涨；“收费版”豆包上线；宇树大降价丨每经早参](https://www.nbd.com.cn/articles/2026-06-24/4436428.html)** — _www.nbd.com.cn_ · published 2026-06-24
+- **[中国银河证券：A股或回归多主线 建议关注AI基建等三大方向](https://www.nbd.com.cn/articles/2026-06-25/4436545.html)** — _www.nbd.com.cn_ · published 2026-06-25
+- **[资金涌入科技成长ETF](https://www.nbd.com.cn/articles/2026-06-25/4436541.html)** — _www.nbd.com.cn_ · published 2026-06-25
+- **[集体上涨！韩国综指涨超300点，三星电子涨超8%，SK海力士涨超5%！日经指数重回7万点丨日韩股市](https://www.nbd.com.cn/articles/2026-06-24/4435253.html)** — _www.nbd.com.cn_ · published 2026-06-24
 - **[祥鑫科技宣布：拟收购资产，快速切入液冷散热赛道](https://www.stcn.com/article/detail/3978076.html)** — _www.stcn.com_ · date: unknown
 - **[科技造富，楼市跟着“喝汤”！“科技新贵”接棒豪宅购买力丨地产观潮](https://www.stcn.com/article/detail/3978027.html)** — _www.stcn.com_ · date: unknown
 - **[突然爆雷！直线大跳水！AI芯片新贵，崩了](https://www.stcn.com/article/detail/3978021.html)** — _www.stcn.com_ · date: unknown
