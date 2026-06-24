@@ -1,12 +1,13 @@
 # OPENCLAW — MASTER DOCUMENT INDEX
 
+> **2026-06-24:** WS1 (China Business Daily) selection-layer rebuild shipped live (commits e85b855, 890321f). Three new WS1 docs indexed in the 2026-06-24 addendum below; WS1 description in OPENCLAW_AS_BUILT_STATE_2026-06-18 is now partly superseded by these changes (a refreshed As-Built is the next governance-tier item). See 04_DAILY_STATUS (v4.4) and Issues #72–#76.
 > **2026-06-18:** OPENCLAW_AS_BUILT_STATE_2026-06-18 is now the AUTHORITATIVE current-state reference (supersedes 06-16). Reflects WS2/ALJ on curated-crawl sourcing (Baidu retired), the cross-language trust-gate fix, the completeness-gate reliability fix, and the source-breadth work. Forward plan + competitive analysis live in local-only internal strategy memos (not this public set).
 > **2026-06-16:** OPENCLAW_AS_BUILT_STATE_2026-06-16 — superseded by 06-18. Foundation v6.2, CEO Dashboard, and Phase Gate Checklist remain superseded/retired (banners added).
 
 ---
 document_id: OPENCLAW-MDI-001
-version: v5.5
-last_updated: 2026-06-10
+version: v5.6
+last_updated: 2026-06-24
 status: ACTIVE
 ---
 
@@ -36,6 +37,7 @@ documents listed as GOVERNING, LOCKED, or ACTIVE are authoritative.
 - `config/` — client configuration and VPS sync files
 - `old/` — archived versions
 - `phase_d/` — Phase D controlled pilot operational documents
+- `WS1/` — daily China Business Daily briefs mirrored from the live cron for operator review
 
 ---
 
@@ -220,7 +222,7 @@ Updates require operator approval per Hard Safety Rule R-01.
 
 ---
 
-*OPENCLAW-MDI-001 | Version v5.4 | Last updated: 2026-06-08 | Status: ACTIVE*
+*OPENCLAW-MDI-001 | Version v5.6 | Last updated: 2026-06-24 | Status: ACTIVE*
 
 ## TIER 10 — 2026-06-10 RECONCILIATION ADDENDUM
 
@@ -251,6 +253,21 @@ Files found on disk but unindexed during the 2026-06-10 audit; indexed here pend
 | ALJ query templates v1.2 | `specs/SYS_Retrieval_Query_Templates_alj_china_auto_weekly_v1.2.md` | specs/ | ACTIVE | Deployed 2026-06-04 (RQT-002 v1.2) |
 
 ---
+
+## 2026-06-24 ADDENDUM — WS1 SELECTION-REDESIGN DOCS
+
+WS1 (China Business Daily) selection-layer rebuild docs, indexed here pending tier assignment at the next MDI restructure.
+
+| Document | Filename | Location | Status | Purpose |
+|----------|----------|----------|--------|---------|
+| WS1 Redesign Spec (product/concept) | `OPENCLAW_WS1_REDESIGN_SPEC_2026-06-15.md` | [root] | OPERATOR APPROVED | WS1 China Business Daily product redesign — corroboration-ranked daily digest for foreign CEOs; build begun 2026-06-15 |
+| WS1 Selection-Layer Redesign Spec | `OPENCLAW_WS1_SELECTION_REDESIGN_SPEC_2026-06-23.md` | [root] | IMPLEMENTED | Mechanical selection/ranking/verify rebuild (publish-date window, real distinct-outlet corroboration, recency ranking, client-grade format); shipped live 2026-06-24 (commits e85b855, 890321f); §3.5 qualitative verify + §3.6 ALERTS.log pending (Issues #75–#76) |
+| WS1 Validation Brief 2026-06-23 | `WS1_VALIDATION_BRIEF_2026-06-23.md` | [root] | REFERENCE | Delivered 2026-06-23 China Business Daily used to validate the rebuild |
+| WS1 Daily Brief Mirror | `WS1/WS1_<date>.md` | WS1/ | OPERATIONAL | Daily client brief mirrored from the live cron for operator annotation/review |
+
+---
+
+*v5.6 changes (2026-06-24): WS1 selection-redesign docs indexed (2026-06-24 addendum) — WS1 product spec (06-15), selection-layer spec (06-23, IMPLEMENTED), validation brief (06-23), WS1/ mirror folder. WS1/ added to location key. 06-24 banner note added (OPENCLAW_AS_BUILT_STATE_2026-06-18 WS1 description now partly superseded; refreshed As-Built is the next governance-tier item). Frontmatter and footer version reconciled to v5.6/2026-06-24 (frontmatter had drifted to v5.5/06-10 while footer read v5.4/06-08).*
 
 *v5.5 changes (2026-06-10): Reconciliation addendum (Tier 10) added — 24 previously unindexed files indexed. governance/OPENCLAW-P7-GATE-001.md marked ARCHIVED (stale copy of live gate checklist). Phase 7 Execution Plan v2 explicitly marked non-governing (v1 canonical). Note: CoWork Operating Protocol file is at v3.0 on disk (v5.4 note below says v2.9 — historical). Gate Checklist now v1.7, Daily Status v4.1, Issues Log v2.7.*
 

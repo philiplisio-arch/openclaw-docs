@@ -2,8 +2,8 @@
 
 ---
 document_id: OPENCLAW-ISSUES-001
-version: v2.8
-last_updated: 2026-06-18
+version: v2.9
+last_updated: 2026-06-24
 status: OPERATIONAL
 ---
 
@@ -43,6 +43,11 @@ and recently resolved issues.
 | 69 | citation_alignment false "misaligned" on English briefs over Chinese-only sources — English entity names (MIIT, Ouyang Minggao, Zotye) can't match CJK source text; 9 false misaligns/run | ✅ RESOLVED 2026-06-18 — scorer excludes unaliased Latin entities vs CJK-only evidence (scores on numbers + aliased/matchable entities); entity_aliases expanded; verified 9→0 with no real misbinding missed |
 | 70 | Completeness gate brittle to markdown headers — agent intermittently bolds section headers (`**SECTION 1**`); the `^SECTION 1` regex didn't match, blocking ~half of otherwise-complete, fully-cited runs | ✅ RESOLVED 2026-06-18 — run_light_to_lark.sh completeness regexes made markdown-tolerant; verified against the actual blocked output |
 | 71 | WS2 GitHub source-list publish stalled all day — REL→CORE_ZH crawler refactor broke daily_report.py's `crawl.REL` reference; cron `&&` chain crashed the publish step after each (working) crawl | ✅ RESOLVED 2026-06-18 — daily_report.py updated (with fallback); republished (470 articles/17 outlets) |
+| 72 | WS1 fabricated corroboration — "covered by N outlets" was free-text emitted by the clustering LLM, never computed from distinct cluster outlets (the 2026-06-22 brief claimed four stories "covered by 10 outlets" from an 8-outlet pool) | ✅ RESOLVED 2026-06-24 — `recount_outlets()` replaces it with real COUNT(DISTINCT outlet) over actual cluster members; LLM free-text count deleted (commit e85b855) |
+| 73 | WS1 stale-story leakage / date-blind ranking — window admitted on crawl-time `first_seen` not publish date; ranker saw no dates and had no recency term; 35 articles 3–12 days old leaked into the 2026-06-23 window, 46% undated (the "old earnings as today's news" operator flag) | ✅ RESOLVED 2026-06-24 — publish-time window (`PUB_WINDOW_DAYS`), URL/meta date normalization, future-date guard, undated bucket ranked last, authority×corroboration×recency-decay ranking (commits e85b855, 890321f) |
+| 74 | WS1 volume waste — 144-candidate cap → ~15 forced stories → 3-source/story cap meant only ~19 of ~755 in-window articles/day were ever cited; most "top" stories single-source | ✅ RESOLVED 2026-06-24 — deterministic title-token clustering consumes the full in-window corpus (no LLM long-input limit), 3→6 source cap, honest `THE TOP {n}` header (commit e85b855) |
+| 75 | WS1 silent no-delivery on crash — 2026-06-19 `category` KeyError crashed the cron with no entry in any alerts log; a no-delivery day was invisible | 🟡 PARTIAL — defensive `.get()` schema guard for the `category` KeyError shipped 2026-06-19 (commit 3d65ba0); dedicated `ALERTS.log` no-delivery alerting (spec §3.6) still OPEN |
+| 76 | WS1 verify checks numbers only — qualitative claims pass unchecked and number matching is against the pooled source set, so coincidental matches are possible | 🟡 OPEN — deeper per-cited-source number match + qualitative-claim grounding (spec §3.5) pending; verbatim-Chinese grounding foundation already in place |
 | T-10 | Brain Lite metrics_unavailable | ✅ CLOSED 2026-05-23 — CP-005 confirmed on 2026-05-23 and 2026-05-24 cron; validator_status=GREEN holding |
 
 ## TRACKED INPUTS — FUTURE PHASE
@@ -1460,3 +1465,27 @@ confirmation run expected 2026-05-20 06:30.
 
 ## RESOLVED 2026-06-16 — Claim-Source Grounding (the June 6 critical trust issue)
 The 'valid citation ID but source does not support the claim' failure (CEO Dashboard June 6, Delivery 17) is RESOLVED for WS1 via the evidence-first trust model: facts are extracted as verbatim source spans (guaranteed substrings of the source article) before synthesis, the writer may only use extracted evidence, and verification runs on numbers (language-robust). First evidence-first WS1 run 2026-06-16: 16 grounded / 1 partial / 0 ungrounded of 17 cited claims = SOURCE-VERIFIED. WS2/ALJ still uses the original alignment check (stronger on citation existence, weaker on grounding) — convergence onto evidence-first is the recommended forward item. Ref: OPENCLAW_AS_BUILT_STATE_2026-06-16.
+
+## 2026-06-24 — WS1 selection-layer rebuild (Issues #72–#76)
+The 2026-06-23 deep assessment of WS1 (`openclaw_ws2b/cbiz_crawler/cbiz_daily.py`) found that the
+crawler, fetch ladder, Lark delivery, and verbatim-Chinese grounding foundation were sound, but the
+**selection / ranking / verification layer** had silently deviated from the approved 2026-06-15
+redesign spec on three points — fabricated corroboration (#72), stale-story leakage from a date-blind
+crawl-time window (#73), and volume waste from hard candidate/source caps (#74) — plus a silent
+no-delivery crash class (#75) and numbers-only verification (#76).
+
+Root cause was an **execution gap, not a concept problem**: the original spec already specified
+measured corroboration × recency with synthesis from the whole cluster. The fix was therefore a
+mechanical selection-layer rebuild, not a product overhaul. Shipped live 2026-06-24:
+- **#72/#73/#74 RESOLVED** (commits e85b855, 890321f): real distinct-outlet corroboration
+  (`recount_outlets`), publish-time window + recency-aware ranking, deterministic clustering over the
+  full window, 3→6 source cap, honest TOP-N header, client-grade brief format (masthead, per-story
+  sources, confidence line, footer) and a daily mirror to the openclaw-docs `WS1/` folder.
+- WS1 model migrated `deepseek-chat` → `deepseek-v4-flash` ahead of the 2026-07-24 `deepseek-chat`
+  deprecation (single knob: `CBIZ_DS_MODEL`).
+- **Still OPEN:** #75 dedicated `ALERTS.log` no-delivery alerting (the `category` KeyError class is
+  guarded but a crashed run still does not alert) and #76 deeper qualitative-claim / per-cited-source
+  verification.
+
+Spec: `OPENCLAW_WS1_SELECTION_REDESIGN_SPEC_2026-06-23.md`. Validation brief:
+`WS1_VALIDATION_BRIEF_2026-06-23.md`.

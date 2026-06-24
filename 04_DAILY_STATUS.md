@@ -2,14 +2,26 @@
 
 ---
 document_id: 04_DAILY_STATUS
-version: v4.3
-last_updated: 2026-06-18
+version: v4.4
+last_updated: 2026-06-24
 status: OPERATIONAL
 ---
 
-DATE: 2026-06-18
-PHASE: Post-pivot — Source-Breadth workstream (see OPENCLAW_AS_BUILT_STATE_2026-06-18 for authoritative current state)
+DATE: 2026-06-24
+PHASE: Post-pivot — WS1 selection-layer rebuild live; convergence in progress (see OPENCLAW_AS_BUILT_STATE_2026-06-18 for last authoritative current-state reconciliation, now partly superseded by the 06-24 WS1 changes below)
 
+> **2026-06-24 status:** WS1 (China Business Daily) **selection-layer rebuild SHIPPED and LIVE**
+> (commits e85b855 + 890321f). The three deviations found in the 2026-06-23 deep assessment are fixed
+> mechanically: fabricated "covered by N outlets" replaced with **real distinct-outlet corroboration**;
+> crawl-time window replaced with a **publish-time window + recency-aware ranking** (stale-story leakage
+> closed); the 144-candidate / 3-source caps lifted so the **full in-window corpus is used** and
+> corroboration is shown (up to ~6 sources/story, honest TOP-N). The brief is now **client-grade**
+> (masthead, per-story sources, confidence line, footer) and mirrors daily to the openclaw-docs `WS1/`
+> folder for operator annotation. WS1 model migrated `deepseek-chat` → **`deepseek-v4-flash`** ahead of
+> the 2026-07-24 `deepseek-chat` deprecation. **Still open:** `ALERTS.log` no-delivery alerting and
+> deeper qualitative-claim verification (Issues #75–#76). Spec:
+> `OPENCLAW_WS1_SELECTION_REDESIGN_SPEC_2026-06-23`.
+>
 > **2026-06-18 status:** WS1 healthy (daily delivery, trust clean). WS2/ALJ migrated to curated-crawl
 > sourcing (all 3 configs; Baidu retired) and delivering clean held-mode briefs again after the
 > `--model` crash fix. Trust gate cross-language-correct; completeness gate reliability fixed. Source
