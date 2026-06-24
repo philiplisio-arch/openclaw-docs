@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-24 12:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-24 15:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-06-24 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **1265 unique auto/NEV articles** across **18 outlets**
+## Cumulative: **1293 unique auto/NEV articles** across **18 outlets**
 
 ## New per day
 | date | new articles |
@@ -26,20 +26,20 @@ _Updated 2026-06-24 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-21 | 130 |
 | 2026-06-22 | 144 |
 | 2026-06-23 | 169 |
-| 2026-06-24 | 73 |
+| 2026-06-24 | 101 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.dongchedi.com | 582 |
-| www.d1ev.com | 202 |
+| www.dongchedi.com | 600 |
+| www.d1ev.com | 209 |
 | www.caam.org.cn | 165 |
 | www.cada.cn | 64 |
 | www.stcn.com | 53 |
-| 36kr.com | 49 |
-| www.news.cn | 46 |
+| 36kr.com | 50 |
+| www.news.cn | 47 |
 | egs.stcn.com | 37 |
-| www.xinhuanet.com | 19 |
+| www.xinhuanet.com | 20 |
 | www.zqrb.cn | 15 |
 | www.yicai.com | 9 |
 | cn.chinadaily.com.cn | 8 |
@@ -52,7 +52,7 @@ _Updated 2026-06-24 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-06-24 — 73 articles
+### 2026-06-24 — 101 articles
 - **[美国车企为何扎堆做储能](https://36kr.com/p/3866358034158850)** — _36kr.com_ · published 2026-06-24
   美国车企为何扎堆做储能 2026年上半年，美国底特律的两大老牌汽车制造商，几乎在同一时间把电池储能业务放到了公司战略的中心。 5月12日，福特汽车成立全资子公司福特能源（Ford Energy），布局电网级电池储能；数日之后，福特能源与法国电力集团（EDF）北美分公司签下首份框架协议，后者自2028年起采购福特的DC Block储能系统，合计最多20吉瓦时。
 - **[8点1氪丨追觅辟谣汽车CEO离职：职务与网传不符；微信小范围内测原生AI助手；苹果、特斯拉核心供应商数据泄露](https://36kr.com/p/3866428592657411)** — _36kr.com_ · published 2026-06-24
@@ -63,6 +63,8 @@ _Updated 2026-06-24 12:12 | discovery-only, zero LLM tokens | runs every 3h_
   Please wait...
 - **[“新能源汽车第一省”，又多了一个挑战者](https://36kr.com/p/3866358492206341)** — _36kr.com_ · published 2026-06-24
   “新能源汽车第一省”，又多了一个挑战者 新晋新能源汽车第一省，正迎来新的挑战者。 2025年，安徽新能源汽车产量达到179.41万辆，首次登顶全国。江苏和浙江分别以157.48万辆和138.22万辆紧随其后，位列第二、三名。 然而，进入2026年，浙江迅速发力——1至4月产量攀升至49.98万辆，以微弱优势反超安徽的49.69万辆，一度领跑。 但榜首位置还没
+- **[中美自动驾驶分野：海外权威指数看清真实赛道差距](https://36kr.com/p/3866648790727303)** — _36kr.com_ · published 2026-06-24
+  中美自动驾驶分野：海外权威指数看清真实赛道差距 Road to Autonomy 最新四大实时指数出炉，载人 Robotaxi 赛道 Waymo 小幅领跑，无人配送RoboVan赛道中国企业实现全球反超。新石器登顶配送机器人榜单、美团稳居前列，商业化落地能力获得海外机构盖章认可。但光鲜落地数据背后，底层技术、长期研发、全球规则话语权的结构性鸿沟不可忽视。 自
 - **[全链条扩大汽车消费 多部门详解新举措](https://china.chinadaily.com.cn/a/202606/24/WS6a3b12e0a310d709c2fb9b6d.html)** — _china.chinadaily.com.cn_ · published 2026-06-24
   新华社北京6月23日电 题：全链条扩大汽车消费 多部门详解新举措 新华社记者邹雨沁、谢希瑶 汽车业是扩消费、稳投资、惠民生的重要领域。商务部等部门23日发布关于培育壮大汽车后市场消费若干措施的通知，以及汽车流通消费改革试点城市名单。国新办当日举行新闻发布会，解读相关政策措施，回应外界关切。 商务部副部长盛秋平说，近年来，中国在成为全球第一大汽车消费市场的基础
 - **[事关汽车消费 这场发布会信息量很大！](https://cn.chinadaily.com.cn/a/202606/23/WS6a3a8ee5a310d709c2fb9b67.html)** — _cn.chinadaily.com.cn_ · published 2026-06-23
@@ -122,6 +124,20 @@ _Updated 2026-06-24 12:12 | discovery-only, zero LLM tokens | runs every 3h_
   6月24日，领克汽车发布了07GT时间限量版的官方图片，揭示了这款超跑版中型插电式 混合动力猎装车的内外饰颜色方案。新车基于CMA架构与EM-P智能电混平台开发，将于6月29日全球首秀并开启预售。07GT作为领克品牌首款旅行车，延续了"TheNextDay"原创设计语言，车身尺寸为4846mm（选装运动套件为4866mm）×1900mm×1485mm，轴距2
 - **[小米YU7GT刷新浙赛自动驾驶纪录，1分49秒434惊人成绩！](https://www.d1ev.com/newsflash/304233)** — _www.d1ev.com_ · date: unknown
   6月24日，小米公司宣布旗下小米YU7GT车型在浙江国际赛车场创造了首个 自动驾驶圈速纪录，用时1分49秒434。此前，该车型还达成了全球首个纽博格林北环赛道自动驾驶圈速纪录，用时10分29秒483。小米YU7GT于5月21日正式发布，搭载新一代超级电机V8sEVO，定位为“跑车级SUV”，官方指导价38.99万元起，大满配版42.99万元。 小米YU7GT
+- **[传日产叫停纯电版逍客开发](https://www.d1ev.com/news/shichang/304245)** — _www.d1ev.com_ · date: unknown
+  盖世汽车讯 据外媒报道，六位知情人士透露，日产汽车已停止开发旗下欧洲最畅销车型——逍客（Qashqai）的纯电动版本。当前，这家日本车企正通过精简产品阵容和削减成本推进业务重组。 日产叫停纯电版逍客项目之际，正值欧洲市场出现大量来自传统竞争对手和中国新进入者的平价电动车产品，市场竞争日益激烈。 日产高管曾在2023年表示，作为日产欧洲逐步摆脱内燃机战略的一部
+- **[2026年5月乘用车自主品牌销量榜：比亚迪32.6万辆领跑，极氪34,377辆跻身前十丨盖世汽车研究院](https://www.d1ev.com/news/qiye/304244)** — _www.d1ev.com_ · date: unknown
+  根据盖世汽车研究院数据，2026年5月中国自主品牌汽车销量达1,684,951，同比增加4.09%。从品牌表现来看，比亚迪以326,798辆的成绩领跑、奇瑞稳居次席，吉利、银河、零跑、名爵等品牌紧随其后，五菱（银标）、哈弗、捷途、极氪成功跻身前十，呈现出龙头稳固、梯队分化、竞争洗牌的自主车企竞争新格局。 根据盖世汽车研究院数据，2026年5月自主品牌销量榜如
+- **[【国际快讯】丰田将进一步削减海外产能；传日产暂停纯电逍客研发](https://www.d1ev.com/news/shichang/304234)** — _www.d1ev.com_ · date: unknown
+  聚焦·传统车企新动向 伊朗局势冲击市场需求，丰田将进一步削减海外产能 据日经新闻6月23日报道，受霍尔木兹海峡近乎断航、市场需求持续走弱的影响，丰田汽车计划在2027年2月前后，额外削减约10万辆的海外工厂整车产量。丰田已向核心零部件供应商通报调整后的生产规划。中东冲突导致国际油价大幅飙升，中国、中东及其他地区的汽车需求均受到拖累。丰田此前已削减约4万辆专供
+- **[2026年5月乘用车集团销量榜：自主三强稳居前列，合资守住基本盘丨盖世汽车研究院](https://www.d1ev.com/news/qiye/304232)** — _www.d1ev.com_ · date: unknown
+  根据盖世汽车研究院数据，2026年5月乘用车集团销量增长势头显著，头部自主品牌领跑优势进一步扩大，合资集团销量小幅回暖，新能源新势力持续冲高，行业集团化分层竞争格局愈发清晰。 盖世汽车研究院 “2026年5月乘用车集团销量排行榜” 的详细排名及销量表现如下： 第一位，比亚迪汽车，5月销量376,990辆 第二位，吉利控股集团，5月销量260,655辆 第三位
+- **[法拉利否认电动车Luce成限量版门槛，股价暴跌市值蒸发339亿](https://www.d1ev.com/newsflash/304269)** — _www.d1ev.com_ · date: unknown
+  6月24日，法拉利首席营销与商务官恩里科·加利埃拉澄清，法拉利不会将购买首款电动车Luce作为获取限量版车型的条件。他强调，如果法拉利这样做，将是一个巨大的错误，会对品牌造成负面影响。加利埃拉指出，法拉利一直告知经销商和客户，Luce必须只卖给那些真正有动力购买它的人，确保每一位询问这款车的人都真心想拥有它，而不是为了取悦法拉利或寻求其他利益。 法拉利传统上
+- **[零跑汽车在西班牙新建电池组装车间](https://www.d1ev.com/news/shichang/304263)** — _www.d1ev.com_ · date: unknown
+  盖世汽车讯 Stellantis与中国新能源车企零跑汽车合资成立的零跑国际公司（Leapmotor International），于6月23日在西班牙落成一座全新电池组装车间，厂址临近Stellantis与中国电池巨头宁德时代在西班牙共建的电动车及电池生产基地。 零跑汽车公告披露的项目详细信息显示，这座车间坐落于西班牙马伦市（Mallen），规划电池模组年产
+- **[中国汽车后市场迎万亿机遇，改装管理规范将出台](https://www.d1ev.com/newsflash/304261)** — _www.d1ev.com_ · date: unknown
+  6月23日，国务院新闻办公室举行新闻发布会，聚焦全链条扩大汽车消费。商务部副部长盛秋平透露，我国汽车保有量已达3.7亿辆，连续17年全球销量第一。全球汽车后市场规模已超万亿美元，预计亚太地区将成最大区域市场。中国7年以上车龄乘用车占比超50%，后市场将迎来快速增长期。 针对房车上路难、停车难问题，官方将支持各地优化房车通行管理措施，建设高标准多功能房车营地，
 - **[现代全新伊兰特将于6月26日釜山车展首发 第八代车型全面升级](https://www.dongchedi.com/article/7654600137998877208)** — _www.dongchedi.com_ · date: unknown
 - **[汽车有观点](https://www.dongchedi.com/user/2137101635158318)** — _www.dongchedi.com_ · date: unknown
 - **[唐山蔚来ET5T 售价不到20万 旅行掀背纯电瓦罐](https://www.dongchedi.com/video/7654592104471495230)** — _www.dongchedi.com_ · date: unknown
@@ -161,6 +177,34 @@ _Updated 2026-06-24 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 - **[特斯拉改造闲置车企产线造Optimus，上游厂商备货供应链实单落地](https://www.dongchedi.com/article/7654772756013433368)** — _www.dongchedi.com_ · date: unknown
 - **[汽车消费再出新招：不止补贴，全链条一起被激活](https://www.dongchedi.com/article/7654772472671158808)** — _www.dongchedi.com_ · date: unknown
 - **[20万级纯电SUV，华为、宁德时代联手打造，适配年轻小家庭](https://www.dongchedi.com/article/7654771879987151384)** — _www.dongchedi.com_ · date: unknown
+- **[改款全面进阶，解析全新吉利星愿，CLTC续航升级至480km](https://www.dongchedi.com/video/7654839232875758142)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[吉利银河V900实拍：空间大、动力强，适合大家庭出行](https://www.dongchedi.com/video/7654831540706345497)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[吉利银河V900，解析新能源MPV，买车不踩坑](https://www.dongchedi.com/video/7654829620944454169)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[豪华满配一步到位，吉利银河V900：26.98万元起正式上市！](https://www.dongchedi.com/video/7654828720267903513)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[吉利银河V900，2+2+3七座布局，空间宽敞续航长，家用MPV值得一看](https://www.dongchedi.com/video/7654828149729313305)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[左转看汽车](https://www.dongchedi.com/user/3404534983694776)** — _www.dongchedi.com_ · date: unknown
+- **[家庭旗舰MPV价值标准！吉利银河V900硬核产品力](https://www.dongchedi.com/video/7654827974784565785)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[30万的MPV第三排坐不了人？吉利银河V900让你把腿伸直](https://www.dongchedi.com/video/7654825785727271449)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[吉利银河V900大容量储物空间满足全家出行装载需求](https://www.dongchedi.com/video/7654824328722252313)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[吉利银河V900宽奢座舱六七八座布局适配全家出行旅途](https://www.dongchedi.com/video/7654823686658540057)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[不用去4S店换的6个汽车配件！](https://www.dongchedi.com/video/7654820765119906329)** — _www.dongchedi.com_ · date: unknown
+  © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有限公司 中央网信办违法和不良信息举报中心 违法和不良信息举报电话：400-140-2108 举报邮箱：jubao@m
+- **[20万级混动家用轿车，兼顾舒适出行与驾乘质感](https://www.dongchedi.com/article/7654815330824733208)** — _www.dongchedi.com_ · date: unknown
+- **[2.0T+大马力混动，5.4L油耗，308马力家用轿车选它？](https://www.dongchedi.com/article/7654815127925391896)** — _www.dongchedi.com_ · date: unknown
+- **[深度试驾福特新蒙迪欧运动版，全能混动家轿家用优选车型](https://www.dongchedi.com/article/7654815107520168472)** — _www.dongchedi.com_ · date: unknown
+- **[2.0T+大马力电机，综合油耗5.99L，这款混动车值得一看！](https://www.dongchedi.com/article/7654815275782636056)** — _www.dongchedi.com_ · date: unknown
+- **[20万级合资B级车，哪款更适合家用？深度试驾蒙迪欧混动运动版](https://www.dongchedi.com/article/7654815127925195288)** — _www.dongchedi.com_ · date: unknown
+- **[家用通勤/近郊出游/高速长途，这款混动轿车都能轻松应对](https://www.dongchedi.com/article/7654815036259189272)** — _www.dongchedi.com_ · date: unknown
+- **[2.0T+大马力E混动，20万级全能家用座驾，新蒙迪欧运动版](https://www.dongchedi.com/article/7654815127924933144)** — _www.dongchedi.com_ · date: unknown
 - **[奇瑞西班牙合资工厂启动新生产线](https://www.news.cn/20260623/4142a7e991ed4e76b5e59668fa6af2e7/c.html)** — _www.news.cn_ · published 2026-06-23
   新华社西班牙巴塞罗那6月23日电（记者陈雨峥 宁雨轩）西班牙埃夫罗汽车集团22日宣布，其与中国汽车制造商奇瑞在巴塞罗那自由贸易区合资运营的埃夫罗工厂当天启用全新生产线，进一步提升产能。 记者从埃夫罗汽车集团获悉，新启用的M1生产线全长696米，设有97个工作站，单车生产周期约75分钟。目前，该生产线用于生产S400和S700各动力版本车型，设计上最多可生产5
 - **[全链条扩大汽车消费 多部门详解新举措](https://www.news.cn/fortune/20260623/d66d6ff1f0cc4ab4a95a1420c6f385f5/c.html)** — _www.news.cn_ · published 2026-06-23
@@ -169,6 +213,8 @@ _Updated 2026-06-24 12:12 | discovery-only, zero LLM tokens | runs every 3h_
   汽车后市场已成为惠民生和扩消费的万亿级“新蓝海”。6月23日，商务部等部门连发两项通知，以17条措施加40个试点城市为“组合拳”，加力推动全链条扩大汽车消费。专家指出，此次政策部署将“点”上突破与“面”上普及结合，汽车改装、房车露营、汽车赛事等新消费场景迎来系统性利好。 商务部等9部门23日发布了《关于培育壮大汽车后市场消费若干措施的通知》（下称《若干措施》
 - **[数智驱动 集群成链](https://www.news.cn/local/20260624/6a0528552c244d879fe3464ad36b326f/c.html)** — _www.news.cn_ · published 2026-06-24
   走进位于成都市经开区的东风汽车集团有限公司成都分公司的生产车间，小批量试生产的奕境X9新车正等待测试验证……这是东风汽车集团与华为合作推出的中高端智能化汽车品牌。 十几公里外，一汽大众捷达汽车科技（四川）有限公司的焊装车间里，通过机器人焊装和激光在线检测技术，车身尺寸与焊点精度控制在微米级，总装线最快约55秒下线一台车。 顺应汽车产业电动化、智能化、网联化发
+- **[深化AI生态协同，东风汽车携手火山引擎共筑智能汽车新标杆](https://www.news.cn/auto/20260624/e081f2499b2848d9a875c58927df9dff/c.html)** — _www.news.cn_ · published 2026-06-24
+  6月23日，2026火山引擎FORCE原动力大会在北京开幕。东风汽车总经理、党委副书记冯长军通过视频向大会致以诚挚祝福，并分享东风汽车立足产业变革浪潮、深耕智能化领域的发展实践。 东风汽车总经理、党委副书记冯长军在大会上视频致辞 当前，全球汽车产业正迎来深度重构，智能化已成为引领汽车产业变革、塑造产业竞争力的核心引擎。冯长军在致辞中表示，东风汽车正全力推进“
 - **[6月23日晚间重要资讯一览](https://www.stcn.com/article/detail/3975537.html)** — _www.stcn.com_ · date: unknown
   重要的消息有哪些 1．6月23日，商务部等部门发布两项通知，加力推动全链条扩大汽车消费。商务部等8部门发布通知，公布了40个汽车流通消费改革试点城市及其重点改革创新方向。通知要求各试点城市结合本地产业特色、市场特点、资源禀赋、区位条件、功能定位等实际情况，针对汽车流通消费不合理限制等堵点问题，完善改革创新举措，培育汽车消费新场景新业态新模式，带动商旅文体健融
 - **[17条硬核举措落地！万亿汽车产业迎2.0新政，40城试点先行](https://www.stcn.com/article/detail/3975616.html)** — _www.stcn.com_ · date: unknown
@@ -180,6 +226,8 @@ _Updated 2026-06-24 12:12 | discovery-only, zero LLM tokens | runs every 3h_
   证券时报网 司迪 2026-06-22 20:09 6月23日，商务部等9部门发布了《关于培育壮大汽车后市场消费若干措施的通知》，围绕汽车改装、汽车赛事、房车露营、汽车维修、汽车租赁、传统经典车等后市场领域存在的管理制度不完善、标准体系不健全、优质供给不充分等问题，提出了17条对策举措。同日，商务部等8部门还公布了汽车流通消费改革试点城市名单，40个试点城市
 - **[奇瑞西班牙合资工厂启动新生产线](https://www.xinhuanet.com/20260623/4142a7e991ed4e76b5e59668fa6af2e7/c.html)** — _www.xinhuanet.com_ · published 2026-06-23
   新华社西班牙巴塞罗那6月23日电（记者陈雨峥 宁雨轩）西班牙埃夫罗汽车集团22日宣布，其与中国汽车制造商奇瑞在巴塞罗那自由贸易区合资运营的埃夫罗工厂当天启用全新生产线，进一步提升产能。 记者从埃夫罗汽车集团获悉，新启用的M1生产线全长696米，设有97个工作站，单车生产周期约75分钟。目前，该生产线用于生产S400和S700各动力版本车型，设计上最多可生产5
+- **[深化AI生态协同，东风汽车携手火山引擎共筑智能汽车新标杆](https://www.xinhuanet.com/auto/20260624/e081f2499b2848d9a875c58927df9dff/c.html)** — _www.xinhuanet.com_ · published 2026-06-24
+  6月23日，2026火山引擎FORCE原动力大会在北京开幕。东风汽车总经理、党委副书记冯长军通过视频向大会致以诚挚祝福，并分享东风汽车立足产业变革浪潮、深耕智能化领域的发展实践。 东风汽车总经理、党委副书记冯长军在大会上视频致辞 当前，全球汽车产业正迎来深度重构，智能化已成为引领汽车产业变革、塑造产业竞争力的核心引擎。冯长军在致辞中表示，东风汽车正全力推进“
 - **[汽车后市场成万亿级新蓝海，40城试点“一城一策”拆堵点](https://www.yicai.com/news/103242685.html)** — _www.yicai.com_ · date: unknown
   {{aisd}} AI生成 免责声明 促进汽车消费不再只盯着卖新车，而是转向二手车交易、改装、房车露营等全链条改革。 6月23日，商务部等部门发布两项通知，加力推动全链条扩大汽车消费。一是发布《关于培育壮大汽车后市场消费若干措施的通知》，围绕汽车改装、房车露营产业、汽车赛事运动、汽车租赁等六方面提出17条措施；二是公布40个汽车流通消费改革试点城市及其重点改
 
