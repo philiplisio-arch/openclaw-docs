@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-25 12:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-25 15:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-06-25 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **1408 unique auto/NEV articles** across **18 outlets**
+## Cumulative: **1434 unique auto/NEV articles** across **18 outlets**
 
 ## New per day
 | date | new articles |
@@ -27,23 +27,23 @@ _Updated 2026-06-25 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-22 | 144 |
 | 2026-06-23 | 169 |
 | 2026-06-24 | 159 |
-| 2026-06-25 | 57 |
+| 2026-06-25 | 83 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.dongchedi.com | 678 |
-| www.d1ev.com | 232 |
+| www.dongchedi.com | 695 |
+| www.d1ev.com | 237 |
 | www.caam.org.cn | 165 |
 | www.cada.cn | 65 |
-| www.stcn.com | 56 |
-| 36kr.com | 54 |
+| www.stcn.com | 57 |
+| 36kr.com | 56 |
 | www.news.cn | 48 |
 | egs.stcn.com | 39 |
 | www.xinhuanet.com | 20 |
 | www.zqrb.cn | 15 |
 | www.yicai.com | 12 |
-| cn.chinadaily.com.cn | 8 |
+| cn.chinadaily.com.cn | 9 |
 | qzs.stcn.com | 6 |
 | economy.gmw.cn | 5 |
 | www.ceweekly.cn | 2 |
@@ -53,11 +53,17 @@ _Updated 2026-06-25 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-06-25 — 57 articles
+### 2026-06-25 — 83 articles
 - **[7月1日新国标焊死电车安全红线，火爆的私改电池生意埋雷，车企该下场管了](https://36kr.com/p/3868038507353348)** — _36kr.com_ · published 2026-06-25
   7月1日新国标焊死电车安全红线，火爆的私改电池生意埋雷，车企该下场管了 7月1日起，两项强制性国家标准——GB 38031-2025《电动汽车用动力蓄电池安全要求》和GB 18384-2025《电动汽车安全要求》就要正式落地了。 新国标给新能源汽车行业重新画了一条生死线。 安全不再是加分项，是入场券，淘汰赛要来了 在此之前，行业标准是“热失控后5分钟报警”，
 - **[开车可以不系安全带了？自动驾驶国标到底说了啥？](https://36kr.com/p/3867758004294656)** — _36kr.com_ · published 2026-06-25
   开车可以不系安全带了？自动驾驶国标到底说了啥？ 开车可以不系安全带？不允许自动驾驶系统出事故前 0.1 秒退出？ 真正意义上的自动驾驶，估计离我们不远了。 前不久，工信部来了个大的，推出了《智能网联汽车自动驾驶系统安全要求》的报批稿，这是国内第一个自动驾驶相关的强制性国标。 在新国标出来之前，咱们对自动驾驶的标准一直都是非常模糊的，在大伙的印象中，L1、L2
+- **[不止EV，中国发动机也在猛追日本](https://36kr.com/p/3868045066949895)** — _36kr.com_ · published 2026-06-25
+  不止EV，中国发动机也在猛追日本 中国大型汽车企业正在发动机技术领域猛追日本企业。奇瑞汽车方面表示，其在将燃料转换为动力的效率方面已达到全球最高水平。浙江吉利控股集团开发了利用人工智能（AI）来改善混合动力车（HV）燃效的技术。中国企业不仅在纯电动汽车（EV）方面，还力争在需求坚挺的发动机搭载汽车领域获得份额。 6月上旬，在广东省深圳市举行的汽车展会上。奇瑞
+- **[销量锐减国家救场，中国车市这半年经历了什么？](https://36kr.com/p/3868044736527235)** — _36kr.com_ · published 2026-06-25
+  销量锐减国家救场，中国车市这半年经历了什么？ 国家最终 还是选择亲自下场。 借用最近的一个热梗就是，真的很“走面儿”了。 再度启动汽车下乡后，近日商务部等9部门又密集发布多项新政，旨在全链条扩大汽车消费。 一系列利好政策 背后，是并不太乐观的车市表现。 数据显示，国内汽车销量已连续第八个月同比走低，1-5月，我国乘用车累计销量709.9万辆，同比下降19.5
+- **[停不进、难开门：“车大位小”矛盾如何解](https://cn.chinadaily.com.cn/a/202606/25/WS6a3cad4ca310d709c2fba01d.html)** — _cn.chinadaily.com.cn_ · published 2026-06-25
+  2026年国内新能源乘用车渗透率持续走高，5月已达63%，中大型新能源SUV市场销量同步激增，车长超5米、轴距3米的宽体大车成为市场主流。一边是新能源汽车持续大型化、重型化，另一边是小区、商场、医院沿用十年未更新的老旧停车设计标准，二者形成鲜明供需错配。多地车主遭遇车位狭窄无法开门、立体车库限宽限重无法停放、停车后只能侧身钻车等现实难题。 记者近期调研发现，
 - **[交通运输部等：开展智能驾驶“端到端”大模型研发与测试](https://egs.stcn.com/news/detail/2306492.html)** — _egs.stcn.com_ · date: unknown
   证券时报·e公司 康殷 06-25 11:40 人民财讯6月25日电，交通运输部、国家铁路局、中国民用航空局、国家邮政局、中国国家铁路集团有限公司印发《“人工智能+交通运输”典型应用场景创新行动方案》，其中提出，开展智能驾驶“端到端”大模型研发与测试。面向公路货运、园区运输、短途接驳等不同类型场景，开展智能测评技术研发与验证，探索建立虚实结合的智能化测试场。
 - **[丰田放弃雷克萨斯LF](https://www.d1ev.com/newsflash/304333)** — _www.d1ev.com_ · date: unknown
@@ -88,6 +94,16 @@ _Updated 2026-06-25 12:12 | discovery-only, zero LLM tokens | runs every 3h_
   今日，交通运输部等五部门联合印发《“人工智能+交通运输”典型应用场景创新行动方案》，旨在推动人工智能技术在交通运输领域的深度融合与创新应用。该方案聚焦智能驾驶、智慧公路、智能铁路等九大重点方向，涵盖路网运行状态智能监测、铁路装备自主健康管理等典型应用场景，并计划开展试点示范。 方案特别提出，将开展智能驾驶“端到端”大模型研发与测试，针对不同场景进行智能测评技
 - **[小鹏X9全球累计交付突破6万台](https://www.d1ev.com/news/shichang/304395)** — _www.d1ev.com_ · date: unknown
   盖世汽车讯 6月25日，小鹏汽车创始人何小鹏官宣，旗下旗舰MPV车型X9完成全球第 60000 台交付，本次交付仪式落地中国香港，车主为华人设计界泰斗陈幼坚先生。 作为业内深耕数十年的资深设计前辈，陈幼坚手握诸多国民级经典视觉作品，国家大剧院标识、香港国际机场LOGO、可口可乐中文商标均由其亲自设计创作，在全球设计领域拥有极高认可度。 图片来源：小鹏汽车 在
+- **[中国主导！全球首个自动驾驶技术法规获批发布](https://www.d1ev.com/newsflash/304439)** — _www.d1ev.com_ · date: unknown
+  近日，联合国世界车辆法规协调组织（UN/WP.29）第199次全体会议在瑞士日内瓦召开。会上，由中国、欧盟、英国、美国、加拿大和日本共同牵头制定的联合国 自动驾驶系统全球技术法规（ADSGTR）正式获批发布。该法规明确了自动驾驶系统产品的核心技术指标，并提出了安全管理过程保障、产品安全档案、全流程试验验证体系、车辆部署后安全等制造商层面的要求，构建起覆盖产品
+- **[中国车企发动机技术突破：奇瑞热效率全球领先，吉利挑战日系混动](https://www.d1ev.com/newsflash/304438)** — _www.d1ev.com_ · date: unknown
+  6月25日，中国大型车企在 发动机技术领域取得显著进展，奇瑞、吉利、长安等企业相继发布突破性成果。奇瑞宣布其开发的混动发动机鲲鹏天擎热效率达到48.57%，位居全球首位。该发动机通过改进设计结构和细化燃料颗粒，提高与空气的混合效率，将用于插混和增程车型。奇瑞计划到2025年销售280万辆，出口近5成达134万辆，超过比亚迪和吉利，位居中国企业首位。吉利汽车集
+- **[小米汽车发布防御性安全驾驶课，提升驾驶安全新技能](https://www.d1ev.com/newsflash/304436)** — _www.d1ev.com_ · date: unknown
+  6月25日，小米汽车发布了防御性安全驾驶第1课，旨在改变驾驶思维，将被动观察转变为主动预判。防御性驾驶的核心在于提前观察、适时备刹、保持车距和控制车速，以掌握安全主动权。小米汽车官方强调，行车前的安全检查，包括绕车一圈、检查 轮胎和感知区域、确认车机状态和调好坐姿等，是确保每次出发更安心的关键步骤。 小米汽车去年推出的精英驾驶・高阶驾驶培训，包含1项理论及4
+- **[对美出口大增，英国5月汽车产量年内首次回升](https://www.d1ev.com/news/shichang/304434)** — _www.d1ev.com_ · date: unknown
+  盖世汽车讯 英国汽车制造商与贸易商协会（SMMT）6月25日发布的最新数据显示，受对美出口大幅拉动，英国5月汽车产量同比增长2.7%，终结连续四个月下滑态势。 数据显示，英国5月汽车总产量达到51,178辆。其中乘用车产量49,249辆，同比增长3.2%，商用车产量1,929辆，同比下滑7.6%。 上月英国对美汽车出口量大涨83.1%，而对欧盟、中国出口分别
+- **[蔚来马麟：感谢增程培养了用电习惯，ES8大五座版即将到店](https://www.d1ev.com/news/qiye/304432)** — _www.d1ev.com_ · date: unknown
+  【TechWeb】6月25日消息，蔚来公司副总裁马麟在微博上援引蔚来创始人李斌去年8月的公开观点称，感谢增程车型在过去几年中培养了用户用电的习惯，降低了电动车的使用门槛，为纯电车型的普及打下了基础。随着电池技术进步和充电设施完善，越来越多用户在日常使用中倾向于“用电不用油”，部分增程车主甚至长期仅使用纯电模式出行。这种使用习惯的转变，使得用户对纯电车型的接受
 - **[捷豹Type 01将于10月发布 纯电四门GT搭载三电机/746kW](https://www.dongchedi.com/article/7654976713361637912)** — _www.dongchedi.com_ · date: unknown
 - **[买新能源车看似省了油费，但是一算保费，不少车主都傻眼了](https://www.dongchedi.com/article/7654976234288661016)** — _www.dongchedi.com_ · date: unknown
 - **[汽车之訊](https://www.dongchedi.com/user/3320114976391564)** — _www.dongchedi.com_ · date: unknown
@@ -143,10 +159,34 @@ _Updated 2026-06-25 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 - **[试驾广汽丰田铂智7，家用纯电车优选](https://www.dongchedi.com/article/7655141515014095422)** — _www.dongchedi.com_ · date: unknown
 - **[合资纯电轿车新思路，广汽丰田铂智7，均衡派如何理解？](https://www.dongchedi.com/article/7655141205122564670)** — _www.dongchedi.com_ · date: unknown
 - **[这款车型产品力如何？深度试驾广汽丰田铂智7](https://www.dongchedi.com/article/7655140472176312894)** — _www.dongchedi.com_ · date: unknown
+- **[实力不容小觑，定价将放下身段！全新奔驰纯电GLC将于7月8日上市](https://www.dongchedi.com/article/7655207495526302270)** — _www.dongchedi.com_ · date: unknown
+- **[综合续航1550公里，纯电430的腾势N8L闪充版30来万起](https://www.dongchedi.com/video/7655208116338262553)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[奇瑞又添“猛将”，风云T9L丨CDC悬架+四驱+18万级，家用也带劲](https://www.dongchedi.com/article/7655199464554578456)** — _www.dongchedi.com_ · date: unknown
+- **[奇瑞风云T9L新车体验：230km纯电续航，大五座家用带劲](https://www.dongchedi.com/article/7655199314226332184)** — _www.dongchedi.com_ · date: unknown
+- **[奇瑞风云T9L 230 Pro：一周深度试驾，聊聊实际体验](https://www.dongchedi.com/article/7655199314225938968)** — _www.dongchedi.com_ · date: unknown
+- **[奇瑞风云T9L：全系混动+大五座，家用SUV可以这么选](https://www.dongchedi.com/article/7655199032008573464)** — _www.dongchedi.com_ · date: unknown
+- **[二手车商抢着收！特斯拉Model 3/Y获评最值得买的二手纯电车型](https://www.dongchedi.com/article/7655193258587210302)** — _www.dongchedi.com_ · date: unknown
+- **[实拍广汽丰田铂智7，纯电中大型轿车，20万内性价比之选？](https://www.dongchedi.com/article/7655193978706952766)** — _www.dongchedi.com_ · date: unknown
+- **[买车别着急，先看看这款新车：华境S试驾体验报告](https://www.dongchedi.com/article/7655193033558245912)** — _www.dongchedi.com_ · date: unknown
+- **[比亚迪大唐在第三方充电桩上表现如何？](https://www.dongchedi.com/video/7655192212401209918)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[阿克苏隆鑫奇瑞4S店](https://www.dongchedi.com/user/58435262779)** — _www.dongchedi.com_ · date: unknown
+- **[汽车超体验](https://www.dongchedi.com/user/3969654982716924)** — _www.dongchedi.com_ · date: unknown
+- **[比亚迪元UP五月份销量17043台，被零跑A10赶超！](https://www.dongchedi.com/video/7655183273572155928)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[钱江都市汽车引擎](https://www.dongchedi.com/user/95766926943)** — _www.dongchedi.com_ · date: unknown
+- **[10万级家用纯电小车 颜值复古配置不低 欧拉好猫值得入手吗？](https://www.dongchedi.com/video/7655171646013555262)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[德系品牌全面反击 5款新车来袭 全新一代奔驰纯电C级领衔](https://www.dongchedi.com/article/7655171159536861720)** — _www.dongchedi.com_ · date: unknown
+- **[换电快空间大+高速领航省心 但能耗偏高 蔚来ES6真实口碑分享](https://www.dongchedi.com/video/7655168512339853848)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
 - **[从“证明能开”到“证明安全” 首部L3/L4级自动驾驶强制性国标结束公示](https://www.stcn.com/article/detail/3978354.html)** — _www.stcn.com_ · published 2026-06-17
   近日，据工信部网站消息，《智能网联汽车自动驾驶系统安全要求》强制性国家标准（报批稿）（以下简称《标准》）的编制工作已完成，《标准》报批稿及编制说明于2026年6月17日至24日公示，建议实施日期为2027年7月1日。 据悉，作为我国首部针对L3级有条件自动驾驶和L4级高度自动驾驶系统的强制性国家标准，《标准》是对GB/T 44721—2024《智能网联汽车
 - **[交通运输部等：开展智能驾驶“端到端”大模型研发与测试](https://www.stcn.com/article/detail/3978932.html)** — _www.stcn.com_ · published 2026-06-22
   证券时报网 李在山 2026-06-22 17:52 人民财讯6月25日电，交通运输部、国家铁路局、中国民用航空局、国家邮政局、中国国家铁路集团有限公司印发《“人工智能+交通运输”典型应用场景创新行动方案》，其中提出，开展智能驾驶“端到端”大模型研发与测试。面向公路货运、园区运输、短途接驳等不同类型场景，开展智能测评技术研发与验证，探索建立虚实结合的智能化测
+- **[富维股份海外业务迈出关键一步 首次斩获整车配套出口订单 战略意义大于短期业绩贡献](https://www.stcn.com/article/detail/3979105.html)** — _www.stcn.com_ · date: unknown
+  近日，从富维股份(600742)方面获悉，其汽车外饰板块海外市场拓展取得新进展，成功斩获一笔全新品类整车配套出口订单。这是公司在既有海外备件出口业务基础上，首次实现原厂配套产品出海，在全球化业务布局上迈出了具有里程碑意义的一步。 富维股份相关人士表示，此次订单的核心价值在于公司海外业务迈出关键一步，标志着公司海外业务边界进一步拓宽，业务结构得到实质性完善。该
 
 ### 2026-06-24 — 159 articles
 - **[美国车企为何扎堆做储能](https://36kr.com/p/3866358034158850)** — _36kr.com_ · published 2026-06-24
