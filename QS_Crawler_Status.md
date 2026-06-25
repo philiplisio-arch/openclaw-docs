@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-26 00:13 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-26 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-06-26 00:13 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **1516 unique auto/NEV articles** across **18 outlets**
+## Cumulative: **1517 unique auto/NEV articles** across **18 outlets**
 
 ## New per day
 | date | new articles |
@@ -28,13 +28,13 @@ _Updated 2026-06-26 00:13 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-23 | 169 |
 | 2026-06-24 | 159 |
 | 2026-06-25 | 137 |
-| 2026-06-26 | 28 |
+| 2026-06-26 | 29 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 753 |
-| www.d1ev.com | 250 |
+| www.d1ev.com | 251 |
 | www.caam.org.cn | 166 |
 | www.cada.cn | 68 |
 | 36kr.com | 61 |
@@ -54,12 +54,14 @@ _Updated 2026-06-26 00:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-06-26 — 28 articles
+### 2026-06-26 — 29 articles
 - **[一个重卡司机换电车的纠结与烦恼](https://36kr.com/p/3868515269973252)** — _36kr.com_ · published 2026-06-26
   一个重卡司机换电车的纠结与烦恼 河北唐山，跑了十几年钢铁物流业务的司机张国胜，在5月份刚把车队里最后3台柴油重卡卖掉了。 他没敢下单新能源重卡。一台49吨短途换电纯电重卡本地落地价85万元，同吨位普通柴油重卡落地仅40万元，价差超过一倍。 他也听说了可以只买车架、租电池的方案，月租七八千元，听起来账算得过来，但他问了问，那套方案暂时还落不到他这条线路上。不是
 - **[2026年1月全国二手车市场深度分析](https://www.cada.cn/Data/info_86_10458.html)** — _www.cada.cn_ · date: unknown
 - **[零跑D99提前上市，朱江明预告明年新车将颠覆传统](https://www.d1ev.com/newsflash/304517)** — _www.d1ev.com_ · date: unknown
   6月25日，零跑汽车CEO 朱江明在D99上市发布会后的媒体群访中透露，公司计划在明年推出全新模式的产品，这些新车将打破现有常规模式与形态，令人眼前一亮。朱江明还提到，零跑正在推进第二品牌的发布计划，并表示近期没有调价计划，尽管原材料价格上涨，但公司会在供应链和毛利率上进行调整，以减少对用户的影响。 朱江明对新上市的MPV车型D99寄予厚望，认为其将打造“零
+- **[美国交通部拟取消无人驾驶汽车制动踏板要求，特斯拉Cybercab等受益](https://www.d1ev.com/newsflash/304526)** — _www.d1ev.com_ · date: unknown
+  6月26日，美国交通部计划取消 无人驾驶汽车必须配备制动踏板的规定，旨在降低监管门槛，为特斯拉、Waymo等企业在美国扩大 自动驾驶出租车投放规模提供便利。美国国家公路交通安全管理局（NHTSA）计划修改《联邦机动车安全标准》，对于完全无人驾驶设计的车辆，将不再强制配备供人类驾驶员操作的制动踏板，而其他类型汽车仍须保留。此举意在推动无人驾驶汽车标准现代化，促
 - **[衢州宋L DM 售价不到10万 混动高配代步超实用](https://www.dongchedi.com/video/7655349598693212734)** — _www.dongchedi.com_ · date: unknown
   扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
 - **[成都尚界 H5 2025 款纯电 Pro，售价不到 14 万长续航大空间 SUV](https://www.dongchedi.com/video/7655349331574751769)** — _www.dongchedi.com_ · date: unknown
