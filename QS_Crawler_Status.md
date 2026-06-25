@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-25 06:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-25 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-06-25 06:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **1374 unique auto/NEV articles** across **18 outlets**
+## Cumulative: **1383 unique auto/NEV articles** across **18 outlets**
 
 ## New per day
 | date | new articles |
@@ -27,16 +27,16 @@ _Updated 2026-06-25 06:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-22 | 144 |
 | 2026-06-23 | 169 |
 | 2026-06-24 | 159 |
-| 2026-06-25 | 23 |
+| 2026-06-25 | 32 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 661 |
-| www.d1ev.com | 220 |
+| www.d1ev.com | 228 |
 | www.caam.org.cn | 165 |
 | www.cada.cn | 65 |
-| www.stcn.com | 54 |
+| www.stcn.com | 55 |
 | 36kr.com | 52 |
 | www.news.cn | 48 |
 | egs.stcn.com | 38 |
@@ -53,11 +53,27 @@ _Updated 2026-06-25 06:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-06-25 — 23 articles
+### 2026-06-25 — 32 articles
 - **[丰田放弃雷克萨斯LF](https://www.d1ev.com/newsflash/304333)** — _www.d1ev.com_ · date: unknown
   今日，丰田宣布停止开发雷克萨斯旗舰纯电轿车LF-ZC，但将继续利用其开发过程中积累的新技术。丰田执行副总裁中岛裕树证实了这一消息，指出模具和生产设备成本过高是停止开发的主要原因。尽管如此，LF-ZC项目中开发的一体化压铸技术、全新电子电气平台以及小型化和轻量化技术均已具备量产条件，并将应用于其他车型。中岛裕树还确认，公司已决定开发LF-ZC的后继车型。 LF
 - **[比亚迪大唐EV全球最长纯电续航SUV，闪充技术首搭，售价23.99万起](https://www.d1ev.com/newsflash/304328)** — _www.d1ev.com_ · date: unknown
   6月24日，比亚迪汽车宣布将为旗下其他车型陆续搭载螺纹生态接口，目前大唐车型已搭载该生态。比亚迪螺纹生态接口具备1/4螺纹、固定+供电双功能、即插即用等特点，适配原厂小件。该接口支持持续供电输出，覆盖导航、拍摄、充电等多种场景，如无线充电手机支架，支持横竖自由切换并提供15W快充。 上周，比亚迪王朝网首款D级旗舰SUV比亚迪大唐EV正式上市，售价区间为23.
+- **[存储涨价，车企还得再扛一年](https://www.d1ev.com/news/shichang/304340)** — _www.d1ev.com_ · date: unknown
+  据央视财经报道，近3个月，车规级存储芯片整体价格涨幅约在180%。 AI服务器的爆发式需求几乎吸收了全球存储芯片的增量产能。三大原厂已将70%至80%的先进制程产能倾斜至HBM和高端服务器DDR5内存，车载和消费电子等领域因此面临严重的供给挤压。汽车行业在全球DRAM市场中仅占约3%的份额，处于产能分配的末端，受此冲击尤为明显。 图片来源：摄图网 据Tren
+- **[沃达丰商业与吉利欧洲科技深化合作，共驱智能汽车创新](https://www.d1ev.com/news/shichang/304289)** — _www.d1ev.com_ · date: unknown
+  6月4日，沃达丰商业与吉利汽车集团旗下欧洲研发机构——吉利欧洲科技（GTEU）深化战略合作，合作范围拓展至车载互联、移动专用网络及云连接解决方案。 沃达丰商业依托物联网连接技术，为车辆赋能远程诊断、空中软件升级等核心功能；云连接保障车辆与云端系统间的数据安全传输。同时，车载互联服务已在全球30余个国家提供合规、流畅的车载网络连接，为车载娱乐系统及各类数字化服
+- **[国家能源局：国内充电桩总量突破2249.7万个](https://www.d1ev.com/news/shichang/304286)** — _www.d1ev.com_ · date: unknown
+  盖世汽车 近日，国家能源局对外公布全国电动汽车充电基础设施统计数据。 数据显示，截至2026年5月末，全国各类充电枪总量达到2249.7万个，同比增幅44.9%。总量拆分来看，公共充电枪保有量为495.1万个，同比上涨25.9%，全部公共桩额定总功率合计2.42亿千瓦；私人充电枪数量规模更大，总数达到1754.6万个，同比增长51.4%，私人充电桩报装对应的
+- **[小鹏MONA L03尤加利灰、星暮紫外观亮相](https://www.d1ev.com/carnews/xinche/304360)** — _www.d1ev.com_ · date: unknown
+  小鹏官方今日继续预热MONA L03新车，公布“尤加利灰”和“星暮紫”两款车色外观，新车定档7月正式发布。 小鹏集团董事长何小鹏表示，MONA L03价格不会超30万，但开发过程全面对齐30万级车型。 MONA L03是MONA系列首款“一车双能”车型，同时提供纯电与超级增程两套动力方案。 新车造型由胡安马・洛佩兹带队全球设计师团队打造，洛佩兹三年前加入小鹏
+- **[增程的尽头到底是什么？理想和蔚来隔空吵起来了](https://www.d1ev.com/news/qiye/304358)** — _www.d1ev.com_ · date: unknown
+  【TechWeb】最近，理想和蔚来两家车企高管又吵起来了，焦点依然是那个老话题：增程和纯电，到底谁才是未来。 6月中旬，在2026 中国汽车重庆论坛闭幕全体会议上，蔚来创始人李斌在演讲中表示，从今年开始进入纯电拐点加速爬升的阶段。他举例称挪威已经达到98%的新能源渗透率，98%里有98%是纯电，这个趋势是不可逆转的，而且它只会加速。 6月23日晚，蔚来副总裁
+- **[岚图董事长预警：汽车涨价潮来临，建议消费者趁早购车！](https://www.d1ev.com/newsflash/304357)** — _www.d1ev.com_ · date: unknown
+  6月25日，岚图汽车董事长卢放在2026大连夏季达沃斯论坛期间接受专访，对国内车市价格走势作出判断。卢放认为，汽车涨价是大概率事件，建议消费者趁早购车。他指出，当前汽车全产业链上游原材料普遍上涨，包括内存芯片、动力 电池、石化产品、铝、钢材等核心物料价格均上行，导致汽车持续降价不符合商业逻辑。车企今年能维持现有价格水平已属不易，需通过内部效率优化、供应链降本
+- **[不再撒钱！刺激汽车消费新政换打法](https://www.d1ev.com/news/shichang/304354)** — _www.d1ev.com_ · date: unknown
+  6月23日下午3点，商务部副部长盛秋平联合工信部、文旅部、杭州市、成都市相关负责人，召开“全链条扩大汽车消费”专题新闻发布会。而在本次发布会之前，两份重磅通知，迅速刷屏，释放出强烈的改革信号。 其一，《商务部等9部门关于培育壮大汽车后市场消费若干措施的通知》，围绕汽车改装、房车露营、传统经典车、维修保险、汽车赛事、汽车租赁六大领域出台17条举措，破除后市场各
+- **[7月1日起，电动车安全新规实施：一键断电、电池防护升级！](https://www.d1ev.com/newsflash/304351)** — _www.d1ev.com_ · date: unknown
+  6月25日，据快科技报道，我国将从7月1日起正式启用两套新的电动车强制安全标准。一套标准主要针对整车高压安全，另一套则专门针对动力 电池安全。这些新标准将从用车、救援、电池防护等多个方面提高电动车的安全门槛。 整车安全标准中，最重要的变化是断电功能。新规定要求车辆必须配备实体一键断电结构，以确保在碰撞后能迅速切断高压电路，降低救援人员触电风险。此外，车辆底盘
 - **[捷豹Type 01将于10月发布 纯电四门GT搭载三电机/746kW](https://www.dongchedi.com/article/7654976713361637912)** — _www.dongchedi.com_ · date: unknown
 - **[买新能源车看似省了油费，但是一算保费，不少车主都傻眼了](https://www.dongchedi.com/article/7654976234288661016)** — _www.dongchedi.com_ · date: unknown
 - **[汽车之訊](https://www.dongchedi.com/user/3320114976391564)** — _www.dongchedi.com_ · date: unknown
@@ -88,6 +104,8 @@ _Updated 2026-06-25 06:12 | discovery-only, zero LLM tokens | runs every 3h_
 - **[全系1.5T，前麦弗逊+后多连杆加持，吉利ICON怎么选？10万落地？](https://www.dongchedi.com/video/7654970727581598232)** — _www.dongchedi.com_ · date: unknown
   扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
 - **[欧洲电动汽车销量首超纯燃油车！比亚迪超越上汽成中国品牌第一](https://www.dongchedi.com/article/7654947323004502552)** — _www.dongchedi.com_ · date: unknown
+- **[从“证明能开”到“证明安全” 首部L3/L4级自动驾驶强制性国标结束公示](https://www.stcn.com/article/detail/3978354.html)** — _www.stcn.com_ · published 2026-06-17
+  近日，据工信部网站消息，《智能网联汽车自动驾驶系统安全要求》强制性国家标准（报批稿）（以下简称《标准》）的编制工作已完成，《标准》报批稿及编制说明于2026年6月17日至24日公示，建议实施日期为2027年7月1日。 据悉，作为我国首部针对L3级有条件自动驾驶和L4级高度自动驾驶系统的强制性国家标准，《标准》是对GB/T 44721—2024《智能网联汽车
 
 ### 2026-06-24 — 159 articles
 - **[美国车企为何扎堆做储能](https://36kr.com/p/3866358034158850)** — _36kr.com_ · published 2026-06-24
