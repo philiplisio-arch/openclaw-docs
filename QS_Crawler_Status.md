@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-26 09:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-26 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-06-26 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **1527 unique auto/NEV articles** across **18 outlets**
+## Cumulative: **1554 unique auto/NEV articles** across **18 outlets**
 
 ## New per day
 | date | new articles |
@@ -28,35 +28,39 @@ _Updated 2026-06-26 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-23 | 169 |
 | 2026-06-24 | 159 |
 | 2026-06-25 | 137 |
-| 2026-06-26 | 39 |
+| 2026-06-26 | 66 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.dongchedi.com | 753 |
-| www.d1ev.com | 260 |
+| www.dongchedi.com | 769 |
+| www.d1ev.com | 266 |
 | www.caam.org.cn | 166 |
 | www.cada.cn | 68 |
-| 36kr.com | 61 |
-| www.stcn.com | 58 |
+| 36kr.com | 62 |
+| www.stcn.com | 60 |
 | www.news.cn | 48 |
 | egs.stcn.com | 39 |
 | www.xinhuanet.com | 20 |
 | www.zqrb.cn | 15 |
-| www.yicai.com | 13 |
+| www.yicai.com | 14 |
 | cn.chinadaily.com.cn | 10 |
 | qzs.stcn.com | 6 |
 | economy.gmw.cn | 5 |
 | www.ceweekly.cn | 2 |
+| china.chinadaily.com.cn | 2 |
 | www.jwview.com | 1 |
 | gd.chinadaily.com.cn | 1 |
-| china.chinadaily.com.cn | 1 |
 
 ## Articles captured by day (newest first)
 
-### 2026-06-26 — 39 articles
+### 2026-06-26 — 66 articles
 - **[一个重卡司机换电车的纠结与烦恼](https://36kr.com/p/3868515269973252)** — _36kr.com_ · published 2026-06-26
   一个重卡司机换电车的纠结与烦恼 河北唐山，跑了十几年钢铁物流业务的司机张国胜，在5月份刚把车队里最后3台柴油重卡卖掉了。 他没敢下单新能源重卡。一台49吨短途换电纯电重卡本地落地价85万元，同吨位普通柴油重卡落地仅40万元，价差超过一倍。 他也听说了可以只买车架、租电池的方案，月租七八千元，听起来账算得过来，但他问了问，那套方案暂时还落不到他这条线路上。不是
+- **[马来西亚收紧电动车进口门槛：中国车企出海迎来&quot;校准&quot;时刻](https://36kr.com/p/3869219657078024)** — _36kr.com_ · published 2026-06-26
+  马来西亚收紧电动车进口门槛：中国车企出海迎来"校准"时刻 “最近的风向有点不太对劲。” 一位负责东南亚市场的车企高层告诉汽车产经。 今年 7月1日起，所有以完全进口方式（CBU）至马来西亚的电动车，须同时满足 两项全新条 件 ：最低到岸价不低于20万令吉（约合33万人民币），电机功率不少于180kW。 这还没有算上已经恢复征收的进口税、消费税和销售税。 对方
+- **[视频丨事关汽车消费！新政如何惠及车主？专家解读](https://china.chinadaily.com.cn/a/202606/26/WS6a3de3faa310d709c2fba3a7.html)** — _china.chinadaily.com.cn_ · published 2026-06-26
+  近日，商务部等多部门发布新政，加力推动全链条扩大汽车消费。（详情>>） 公布了40个汽车流通消费改革试点城市及重点改革创新方向。还发布了关于培育壮大汽车后市场消费的若干措施。 汽车后市场消费是啥？ 中国汽车战略与政策研究中心副主任 方海峰：汽车后市场消费，可以通俗地理解为“车买回来之后的所有消费”，既有大家熟悉的保养、维修、配件等基础养车用车的消费，也有改装
 - **[2026年1月全国二手车市场深度分析](https://www.cada.cn/Data/info_86_10458.html)** — _www.cada.cn_ · date: unknown
 - **[零跑D99提前上市，朱江明预告明年新车将颠覆传统](https://www.d1ev.com/newsflash/304517)** — _www.d1ev.com_ · date: unknown
   6月25日，零跑汽车CEO 朱江明在D99上市发布会后的媒体群访中透露，公司计划在明年推出全新模式的产品，这些新车将打破现有常规模式与形态，令人眼前一亮。朱江明还提到，零跑正在推进第二品牌的发布计划，并表示近期没有调价计划，尽管原材料价格上涨，但公司会在供应链和毛利率上进行调整，以减少对用户的影响。 朱江明对新上市的MPV车型D99寄予厚望，认为其将打造“零
@@ -80,6 +84,18 @@ _Updated 2026-06-26 09:12 | discovery-only, zero LLM tokens | runs every 3h_
   6月26日，极星（Polestar）宣布，美国政府要求其停止在美国市场销售新款电动汽车，导致公司股价一度下跌6.3%。美国商务部以《网联汽车原则》为由，拒绝了极星的销售许可请求，理由是拥有中国相关联网技术的车辆可能收集车主的“敏感信息”，存在“国家安全风险”。根据该规则，涵盖蓝牙、Wi-Fi、移动数据等技术的全新车辆将受到进口和销售限制。 极星表示，尽管新款
 - **[三座大山，死死压住日本汽车](https://www.d1ev.com/news/qiye/304539)** — _www.d1ev.com_ · date: unknown
   近日，欧美的传统汽车巨头相继传出“回归老本行”打算造军火的消息。真假与否，消息并非空穴来风，因为闲置的产能和以往造军火的经验一碰撞，从造车到造军火，对于很多老牌车企来说，就是改一改生产线和厂房的事，并不难。 这也从另一个角度揭开传统巨头们过渡到电动化时代的伤疤。销量下降、份额收缩、利润腰斩、产能闲置、品牌的全球影响力下滑。 欧美车企如此，日本车企同样如此。而
+- **[小鹏MONAL03轿跑SUV：13万起售，轻奢内饰+智能座舱震撼亮相](https://www.d1ev.com/newsflash/304573)** — _www.d1ev.com_ · date: unknown
+  近日，小鹏汽车宣布旗下全新轿跑SUV——小鹏MONAL03将于7月正式亮相。新车定位“年轻人的第一台智能时尚SUV”，市场预估售价在13至16万元区间。小鹏MONAL03以越级材质和大屏智能座舱打造轻奢体验，车内软包覆盖比例突破72%，顶棚采用五十万级旗舰车型同款天鹅绒面料，搭配拉丝金属扬声器饰板，质感细腻。车顶搭载双层镀银全景天幕，紫外线阻隔能力达到99.
+- **[纯电销量已超增程7倍 李斌预测：2030年纯电车型在中国新车市场渗透率将超80%](https://www.d1ev.com/news/qiye/304571)** — _www.d1ev.com_ · date: unknown
+  【TechWeb】6月26日消息，蔚来汽车董事长兼CEO李斌在今日举行的2026蔚来合作伙伴日上，对国内汽车能源结构长期演进作出最新预判：到2030年，新能源汽车在中国新车市场的渗透率将突破90%，其中纯电车型在新能源大盘内部的占比同样将超过90%，并在中国新车市场渗透率超80%。 根据乘联会统计数据显示，2026年5月国内乘用车市场新能源零售渗透率达到62
+- **[蔚来李斌：2030年国内新能源渗透率超90%](https://www.d1ev.com/news/shichang/304569)** — _www.d1ev.com_ · date: unknown
+  盖世汽车 6月26日，2026蔚来合作伙伴日活动上，蔚来创始人、董事长兼CEO李斌直言到2030年，国内新车市场新能源汽车整体渗透率将突破90%；在新能源大盘内部，纯电动车型市场占比将超过90%，纯电将成为市场绝对主流动力路线。 目前，乘联分会数据显示，2026年5月国内新能源乘用车零售渗透率已冲高至63%，当月纯电车型在新能源内部占比达七成，两条关键指标均
+- **[2030年中国新能源车渗透率将超90%，纯电成主流](https://www.d1ev.com/newsflash/304568)** — _www.d1ev.com_ · date: unknown
+  今日，蔚来董事长兼CEO 李斌在2026蔚来合作伙伴日上预测，到2030年，新能源车型在中国新车市场的渗透率将超过90%，其中纯电车型的市场份额也将高于90%，预示着纯电车型将成为市场主流。根据乘联会发布的数据，2026年5月国内新车市场新能源渗透率已达62.9%，纯电车型在新能源车型中的占比为67.1%。在燃油、增程、插混、纯电四种动力路线中，纯电车型是唯
+- **[小鹏MONAL03内饰曝光：72%软包+天鹅绒顶棚，年轻人智能SUV新选择](https://www.d1ev.com/newsflash/304566)** — _www.d1ev.com_ · date: unknown
+  今日，小鹏汽车宣布其全新车型MONAL03将于7月正式亮相，定位为“年轻人的第一台智能时尚SUV”。官方发布了新车的内饰海报，展示了其豪华配置。内饰软包面积超过72%，采用拉丝金属工艺扬声器网罩和天鹅绒顶棚，后者材质与50万级旗舰车型相同。车顶配备双层镀银全景天幕，紫外线隔绝率超过99.9%，可见光阻隔率超过97%。前排设有超大面积柔光美妆镜，左右双柔光灯设
+- **[法拉利SF90XX Stradale定制版亮相：十周年纪念，绿色变彩车身，插电混动1030马力！](https://www.d1ev.com/newsflash/304565)** — _www.d1ev.com_ · date: unknown
+  近日，法拉利为纪念巡游活动十周年，发布了定制版SF90 XX Stradale。这款限量版车型海外基础售价84万美元，约合人民币572万元。新车最引人注目的是其定制四层变色绿色车漆，能在不同光线下展现绿、金双重光泽，车身以橙色线条点缀，为十周年限定专属配色。整车采用碳纤维空气动力学套件，完成空力性能升级，搭配碳纤维轮毂和轻量化运动座椅，整车减重10公斤。 座
 - **[衢州宋L DM 售价不到10万 混动高配代步超实用](https://www.dongchedi.com/video/7655349598693212734)** — _www.dongchedi.com_ · date: unknown
   扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
 - **[成都尚界 H5 2025 款纯电 Pro，售价不到 14 万长续航大空间 SUV](https://www.dongchedi.com/video/7655349331574751769)** — _www.dongchedi.com_ · date: unknown
@@ -115,9 +131,38 @@ _Updated 2026-06-26 09:12 | discovery-only, zero LLM tokens | runs every 3h_
   扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
 - **[渠道筹码离场：许明哲辞职，众泰新能源商用车再添阻碍](https://www.dongchedi.com/article/7655302740776829502)** — _www.dongchedi.com_ · date: unknown
 - **[不再采购丰田！巴基斯坦警车统一换装比亚迪，性价比实打实靠谱](https://www.dongchedi.com/article/7655308597198324286)** — _www.dongchedi.com_ · date: unknown
+- **[联合国WP29批准两项自动驾驶全球法规 何小鹏：VLA2.0走向全球进入确定模式](https://www.dongchedi.com/article/7655534604363186713)** — _www.dongchedi.com_ · date: unknown
+- **[比亚迪海豹08官图发布，5.15米车长，插混纯电双动力，7月2日上市](https://www.dongchedi.com/article/7655531695638069784)** — _www.dongchedi.com_ · date: unknown
+- **[开奇瑞全新QQ3京郊看“海”，7万级就能收获年轻人出行全能搭子？](https://www.dongchedi.com/video/7655530391054697022)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[2026款智己LS8整车车型信息梳理](https://www.dongchedi.com/article/7655530201094423065)** — _www.dongchedi.com_ · date: unknown
+- **[汽车新消息](https://www.dongchedi.com/user/2494162611475853)** — _www.dongchedi.com_ · date: unknown
+- **[2026青县汽车维修：解锁5家机构技术优势与服务特点](https://www.dongchedi.com/article/7655526870368322072)** — _www.dongchedi.com_ · date: unknown
+- **[质选车：蔚来ES9开辟新能源大型SUV新格局](https://www.dongchedi.com/article/7655524596579009049)** — _www.dongchedi.com_ · date: unknown
+- **[盖世汽车Gasgoo](https://www.dongchedi.com/user/3206836173)** — _www.dongchedi.com_ · date: unknown
+- **[质说新车：新潮外表内藏运动基因 广汽昊铂S600](https://www.dongchedi.com/video/7655521202899304985)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[新车快体验｜比亚迪 宋Ultra EV_懂车帝](https://www.dongchedi.com/video/7655520680968536600)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[同价位硬碰硬！深蓝 L06 和小鹏 MONA M03 究竟谁更强？](https://www.dongchedi.com/video/7655517442701410840)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[广汽丰田铂智7 700 Max激光雷达版，家用纯电车优选](https://www.dongchedi.com/article/7655516445799465496)** — _www.dongchedi.com_ · date: unknown
+- **[【技术前沿】AI视觉检测精准捕捉汽车保险杠细微漆面瑕疵](https://www.dongchedi.com/article/7655516525407191614)** — _www.dongchedi.com_ · date: unknown
+- **[27.98万起的小鹏GX，碰上租电17.98万起的乐道L90，有几分胜算？](https://www.dongchedi.com/video/7655516008974713368)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[丰田又让步了！降价2.2万，续航710km带双腔空悬，配零重力座椅](https://www.dongchedi.com/video/7655515399219315224)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[丰田爆款预定！月销3254台，鸿蒙座舱5+激光雷达，续航710km](https://www.dongchedi.com/video/7655515095606870552)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
 - **[电动汽车“跑”得越快越要筑牢安全底线](https://www.stcn.com/article/detail/3980898.html)** — _www.stcn.com_ · date: unknown
+- **[激活汽车后市场万亿级潜在蓝海](https://www.stcn.com/article/detail/3980997.html)** — _www.stcn.com_ · date: unknown
+  近日，商务部等部门连发两项通知，以17条措施加40个试点城市为强力“组合拳”，加力推动全链条扩大汽车消费。这一政策密集落地的信号非同寻常，力求通过激活汽车后市场使用场景，促进汽车消费从一次性的交易行为，变成覆盖车辆全生命周期的持续价值创造。这标志着汽车消费的增长重心，逐渐从前端销售向后端全生命周期迁移。 目前，我国汽车保有量已突破3.7亿辆，汽车销量连续17
+- **[多地新车收到“换电池”提醒，宝马回应称系软件误报](https://www.stcn.com/article/detail/3981342.html)** — _www.stcn.com_ · date: unknown
+  近日，多名宝马i3与i4车型的新车车主在启动车辆时，陆续收到车机系统弹出的“您可以继续驾驶。请更换蓄电池”橙色警示提示，引发广泛担忧。部分车主表示，车辆行驶里程不足8000公里，便收到更换电池的提醒，质疑是否存在系统性质量隐患。 宝马更换蓄电池提醒 面对用户的集中反馈，宝马工作人员于6月25日向《每日经济新闻》等媒体确认，该提示为系统误报，车主无需更换蓄电池
 - **[自动驾驶首个全球技术法规获批发布，中国发挥牵头作用](https://www.yicai.com/news/103247088.html)** — _www.yicai.com_ · published 2026-06-22
   {{aisd}} AI生成 免责声明 6月25日，工信部官方信息显示，2026年6月22—26日，联合国世界车辆法规协调组织（UN/WP.29）第199次全体会议在瑞士日内瓦召开。会上，由中国、欧盟、英国、美国、加拿大和日本共同牵头制定的联合国自动驾驶系统全球技术法规（ADS GTR）经全体缔约方投票表决正式获批发布。 工信部称，作为全球首个自动驾驶技术法规
+- **[零跑汽车朱江明：原材料成本全方位上涨，但暂不涨价](https://www.yicai.com/news/103247901.html)** — _www.yicai.com_ · date: unknown
+  {{aisd}} AI生成 免责声明 “全方位的成本上涨带来了非常大的挑战，但零跑没有在用户端涨价。”6月25日，零跑创始人朱江明在D99上市发布会后的媒体沟通会上如是说。他表示，公司通过供应商协同与内部节支消化了原材料（碳酸锂、铜、铝等）涨价的压力，但同时也称，若材料价格持续攀升，未来仍存在调价的可能性。 今年一季度，碳酸锂、铜、铝等原材料价格延续上涨态势
 
 ### 2026-06-25 — 137 articles
 - **[7月1日新国标焊死电车安全红线，火爆的私改电池生意埋雷，车企该下场管了](https://36kr.com/p/3868038507353348)** — _36kr.com_ · published 2026-06-25
