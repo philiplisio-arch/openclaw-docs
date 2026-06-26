@@ -1,66 +1,69 @@
 # China Business Daily — Crawler Status
 
-_Updated 2026-06-26 12:44 | WS1 redesign source universe | discovery-only, zero LLM tokens | every 3h_
+_Updated 2026-06-26 15:44 | WS1 redesign source universe | discovery-only, zero LLM tokens | every 3h_
 
-## Cumulative: **6578 business articles** across **31 outlets**
+## Cumulative: **6713 business articles** across **32 outlets**
 
-_In Report? verdicts reflect the brief run of **2026-06-26** (generated 2026-06-26T08:50:10): **52 ✅ in / 1535 ❌ out** of 1587 in-window articles. Articles crawled after that run show ➖ (no verdict yet)._
+_In Report? verdicts reflect the brief run of **2026-06-26** (generated 2026-06-26T13:35:33): **62 ✅ in / 1783 ❌ out** of 1845 in-window articles. Articles crawled after that run show ➖ (no verdict yet)._
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.stcn.com | 1475 |
-| www.nbd.com.cn | 1011 |
+| www.stcn.com | 1492 |
+| www.nbd.com.cn | 1028 |
 | www.21jingji.com | 988 |
-| 36kr.com | 465 |
-| www.jiemian.com | 457 |
+| 36kr.com | 467 |
+| www.jiemian.com | 464 |
 | www.eeo.com.cn | 440 |
-| www.yicai.com | 402 |
-| finance.people.com.cn | 378 |
-| m.21jingji.com | 215 |
-| finance.sina.com.cn | 194 |
-| finance.eastmoney.com | 140 |
-| news.cnstock.com | 129 |
+| www.yicai.com | 407 |
+| finance.people.com.cn | 384 |
+| m.21jingji.com | 245 |
+| finance.sina.com.cn | 215 |
+| finance.eastmoney.com | 156 |
+| news.cnstock.com | 131 |
 | caijing.chinadaily.com.cn | 58 |
 | economy.caijing.com.cn | 41 |
 | www.news.cn | 37 |
 | finance.caixin.com | 32 |
-| stock.caijing.com.cn | 24 |
-| finance.caijing.com.cn | 15 |
+| stock.caijing.com.cn | 31 |
+| finance.caijing.com.cn | 16 |
 | env.people.com.cn | 14 |
 | news.cctv.com | 12 |
-| industry.caijing.com.cn | 11 |
-| estate.caijing.com.cn | 10 |
+| industry.caijing.com.cn | 12 |
+| estate.caijing.com.cn | 11 |
 | jingji.cctv.com | 9 |
+| tech.caijing.com.cn | 6 |
 | auto.caijing.com.cn | 6 |
-| tech.caijing.com.cn | 5 |
 | data.eastmoney.com | 3 |
 | cj.sina.com.cn | 3 |
 | yuanchuang.caijing.com.cn | 1 |
 | vip.stock.finance.sina.com.cn | 1 |
 | politics.caijing.com.cn | 1 |
 | live.finance.sina.com.cn | 1 |
+| life.caijing.com.cn | 1 |
 
-## 2026-06-26 — 820 articles
+## 2026-06-26 — 955 articles
 | Article | Outlet | Published | In Report? | Reason |
 |---|---|---|---|---|
 | [美光财报背后，藏着一个AI转向的关键信号](https://36kr.com/p/3868445535910793) | 36kr.com | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
-| [实测豆包专业版：327张图3分钟归档，PPT配图“偶开天窗”，数据图表识别仍需“人工兜底”](https://36kr.com/p/3868483485160710) | 36kr.com | 2026-06-26 | ✅ | In report (brief mention): "Doubao Pro AI Assistant Tested: Fast Image Sorting but Chart Recognition Needs Improvement" — full text not readable |
-| [迪卡侬“keep化”？骑行奖牌背后藏着“高端梦”](https://36kr.com/p/3868687100623747) | 36kr.com | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [从工业现场长出的具身智能：群青智能完成近亿元融资](https://36kr.com/p/3868375587034114) | 36kr.com | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [脑机接口第一股，真的要来了？](https://36kr.com/p/3868834147039875) | 36kr.com | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [中一签可赚35万元，上半年打新有多赚钱？](https://36kr.com/p/3869154031441153) | 36kr.com | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [监管重锤没落完，携程还有最后一跌？](https://36kr.com/p/3868781371446272) | 36kr.com | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [为什么男色经济总被上“紧箍咒”](https://36kr.com/p/3868634961902214) | 36kr.com | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [一个能源源不断给你带来快乐的方法](https://36kr.com/p/3868630763476232) | 36kr.com | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [覆盖全球140国之后，EcoFlow正浩的下一站](https://36kr.com/p/3868538100618503) | 36kr.com | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [布局下一代人机交互与具身数据入口，「念象科技」完成近千万元天使轮融资](https://36kr.com/p/3867943030395913) | 36kr.com | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [实测豆包专业版：327张图3分钟归档，PPT配图“偶开天窗”，数据图表识别仍需“人工兜底”](https://36kr.com/p/3868483485160710) | 36kr.com | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [迪卡侬“keep化”？骑行奖牌背后藏着“高端梦”](https://36kr.com/p/3868687100623747) | 36kr.com | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [从工业现场长出的具身智能：群青智能完成近亿元融资](https://36kr.com/p/3868375587034114) | 36kr.com | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [脑机接口第一股，真的要来了？](https://36kr.com/p/3868834147039875) | 36kr.com | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [中一签可赚35万元，上半年打新有多赚钱？](https://36kr.com/p/3869154031441153) | 36kr.com | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [监管重锤没落完，携程还有最后一跌？](https://36kr.com/p/3868781371446272) | 36kr.com | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [为什么男色经济总被上“紧箍咒”](https://36kr.com/p/3868634961902214) | 36kr.com | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [一个能源源不断给你带来快乐的方法](https://36kr.com/p/3868630763476232) | 36kr.com | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [覆盖全球140国之后，EcoFlow正浩的下一站](https://36kr.com/p/3868538100618503) | 36kr.com | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [布局下一代人机交互与具身数据入口，「念象科技」完成近千万元天使轮融资](https://36kr.com/p/3867943030395913) | 36kr.com | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
 | [8点1氪丨苹果宣布上调iPad及Mac价格；黄仁勋计划把50%或更多现金流返还股东；OpenAI发布首款AI芯片](https://36kr.com/p/3869243269387269) | 36kr.com | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [数据翻20倍？误闯贴吧的葡萄牙游戏人，靠机翻在中文圈逆天改命](https://36kr.com/p/3868539445040131) | 36kr.com | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [暴涨380%，深圳千亿IPO敲钟了](https://36kr.com/p/3869460465718536) | 36kr.com | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [今年最大AI基金诞生](https://36kr.com/p/3869460546327808) | 36kr.com | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [DeepSeek启动大规模招聘，计划将所有部门的规模扩大至少一倍](https://36kr.com/p/3869415015404551) | 36kr.com | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [开盘大涨81%，北京冲出港股“决策大模型第一股”](https://36kr.com/p/3869399870166016) | 36kr.com | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [数据翻20倍？误闯贴吧的葡萄牙游戏人，靠机翻在中文圈逆天改命](https://36kr.com/p/3868539445040131) | 36kr.com | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [暴涨380%，深圳千亿IPO敲钟了](https://36kr.com/p/3869460465718536) | 36kr.com | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [今年最大AI基金诞生](https://36kr.com/p/3869460546327808) | 36kr.com | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [DeepSeek启动大规模招聘，计划将所有部门的规模扩大至少一倍](https://36kr.com/p/3869415015404551) | 36kr.com | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [开盘大涨81%，北京冲出港股“决策大模型第一股”](https://36kr.com/p/3869399870166016) | 36kr.com | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [中科闻歌开盘暴涨81%，北京再增一家硬科技IPO](https://36kr.com/p/3869622921041156) | 36kr.com | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [我每天做8小时家务，给机器人当燃料](https://36kr.com/p/3869421624235013) | 36kr.com | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
 | [曹操出行与May Mobility达成战略合作 共同开拓欧洲Robotaxi市场](https://auto.caijing.com.cn/2026/0625/5167228.shtml) | auto.caijing.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
 | [王晓秋卸任上汽通用汽车销售公司董事长](https://auto.caijing.com.cn/2026/0624/5166863.shtml) | auto.caijing.com.cn | 2026-06-24 | ❌ | Not selected: ranked below today's top stories |
 | [零跑D99上市：24.98万起，30万级MPV市场迎来“全能旗舰”](https://auto.caijing.com.cn/2026/0625/5167334.shtml) | auto.caijing.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
@@ -68,13 +71,13 @@ _In Report? verdicts reflect the brief run of **2026-06-26** (generated 2026-06-
 | [腾势N8L闪充版正式上市 31.98万元起售 主打“四大无可替代”](https://auto.caijing.com.cn/2026/0624/5166801.shtml) | auto.caijing.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
 | [商务部等8部门办公厅发布关于公布汽车流通消费改革试点城市名单](https://auto.caijing.com.cn/2026/0623/5166702.shtml) | auto.caijing.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
 | [新华解码｜未来五年，新型能源体系这样建设 - 中国日报网](https://caijing.chinadaily.com.cn/a/202606/26/WS6a3ddd77a310d709c2fba352.html) | caijing.chinadaily.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [【链博之声】墨西哥中国商业科技商会总干事：中国是供应链效能释放最成功的实践案例](https://caijing.chinadaily.com.cn/a/202606/25/WS6a3cc2f1a310d709c2fba07e.html) | caijing.chinadaily.com.cn | 2026-06-25 | ➖ | Not evaluated in the latest brief run |
-| [从“首发”“首秀”透视智能经济新图景](https://caijing.chinadaily.com.cn/a/202606/26/WS6a3df1d0a310d709c2fba445.html) | caijing.chinadaily.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [手机市场强势反弹！5月国内市场出货同比大增16.5%](https://caijing.chinadaily.com.cn/a/202606/26/WS6a3df548a310d709c2fba458.html) | caijing.chinadaily.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [2026全球数字经济大会将呈现一场“数字盛宴”](https://caijing.chinadaily.com.cn/a/202606/26/WS6a3df4fda310d709c2fba457.html) | caijing.chinadaily.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [“十五五”能源重点项目和新业态投资总规模将超20万亿元](https://caijing.chinadaily.com.cn/a/202606/26/WS6a3df49ca310d709c2fba451.html) | caijing.chinadaily.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [欧美贸易协议最终获批](https://caijing.chinadaily.com.cn/a/202606/26/WS6a3df433a310d709c2fba450.html) | caijing.chinadaily.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [贷款端“上金箍”存款端“勒裤带”，民营银行难题待解](https://caijing.chinadaily.com.cn/a/202606/26/WS6a3df3afa310d709c2fba44f.html) | caijing.chinadaily.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [【链博之声】墨西哥中国商业科技商会总干事：中国是供应链效能释放最成功的实践案例](https://caijing.chinadaily.com.cn/a/202606/25/WS6a3cc2f1a310d709c2fba07e.html) | caijing.chinadaily.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
+| [从“首发”“首秀”透视智能经济新图景](https://caijing.chinadaily.com.cn/a/202606/26/WS6a3df1d0a310d709c2fba445.html) | caijing.chinadaily.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [手机市场强势反弹！5月国内市场出货同比大增16.5%](https://caijing.chinadaily.com.cn/a/202606/26/WS6a3df548a310d709c2fba458.html) | caijing.chinadaily.com.cn | 2026-06-26 | ✅ | In report — Tech: cited source for "China's domestic mobile phone shipments surge 16.5% year-on-year in May" |
+| [2026全球数字经济大会将呈现一场“数字盛宴”](https://caijing.chinadaily.com.cn/a/202606/26/WS6a3df4fda310d709c2fba457.html) | caijing.chinadaily.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [“十五五”能源重点项目和新业态投资总规模将超20万亿元](https://caijing.chinadaily.com.cn/a/202606/26/WS6a3df49ca310d709c2fba451.html) | caijing.chinadaily.com.cn | 2026-06-26 | ✅ | In report — Energy: cited source for "Energy investments in 15th Five-Year Plan to exceed 20 trillion yuan" |
+| [欧美贸易协议最终获批](https://caijing.chinadaily.com.cn/a/202606/26/WS6a3df433a310d709c2fba450.html) | caijing.chinadaily.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [贷款端“上金箍”存款端“勒裤带”，民营银行难题待解](https://caijing.chinadaily.com.cn/a/202606/26/WS6a3df3afa310d709c2fba44f.html) | caijing.chinadaily.com.cn | 2026-06-26 | ✅ | In report — Company: cited source for "Private banks face dual pressure on lending and deposits" |
 | [国际观察丨汇率跌向近40年低位 日本难破经济困局](https://caijing.chinadaily.com.cn/a/202606/26/WS6a3df33ba310d709c2fba44d.html) | caijing.chinadaily.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
 | [多地“上新”暑期文旅消费支持政策](https://caijing.chinadaily.com.cn/a/202606/26/WS6a3ddb78a310d709c2fba346.html) | caijing.chinadaily.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
 | [金融八卦女头条主页](https://cj.sina.com.cn/k/article/author_article/1154814715) | cj.sina.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
@@ -82,7 +85,7 @@ _In Report? verdicts reflect the brief run of **2026-06-26** (generated 2026-06-
 | [每日经济新闻头条主页](https://cj.sina.com.cn/k/article/author_article/1649173367) | cj.sina.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
 | [每日成交明细](https://data.eastmoney.com/Stock/lhb/000100.html) | data.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [每日成交明细](https://data.eastmoney.com/Stock/lhb/000783.html) | data.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
-| [长电科技股票](https://data.eastmoney.com/stockdata/600584.html) | data.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [长电科技股票](https://data.eastmoney.com/stockdata/600584.html) | data.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [告别3%以上利率“躺赚”时代 一批储户正经历收益落差](https://economy.caijing.com.cn/20260624/5166803.shtml) | economy.caijing.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
 | [万亿级产业迎新政 全链条扩大汽车消费](https://economy.caijing.com.cn/20260624/5166810.shtml) | economy.caijing.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
 | [人民币国际化地位稳步上升 中外学者：将有更大发挥空间](https://economy.caijing.com.cn/20260624/5166906.shtml) | economy.caijing.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
@@ -108,32 +111,33 @@ _In Report? verdicts reflect the brief run of **2026-06-26** (generated 2026-06-
 | [多家民营银行1年期以上定期存款停售 中长期存款下架潮继续蔓延](https://economy.caijing.com.cn/20260618/5165973.shtml) | economy.caijing.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
 | [“十五五”实施就业优先路线图出炉 推动产业就业同频共振](https://economy.caijing.com.cn/20260618/5166004.shtml) | economy.caijing.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
 | [黄仁勋股东大会放言：本轮AI基建周期长达数十年](https://economy.caijing.com.cn/20260625/5167059.shtml) | economy.caijing.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
-| [央行开展5000亿元MLF操作 6月MLF续做加量2000亿元](https://economy.caijing.com.cn/20260625/5167046.shtml) | economy.caijing.com.cn | unknown | ✅ | In report — Macro: cited source for "PBOC Conducts 500B Yuan MLF Operation, Net Injection of 200B Yuan" |
+| [央行开展5000亿元MLF操作 6月MLF续做加量2000亿元](https://economy.caijing.com.cn/20260625/5167046.shtml) | economy.caijing.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
 | [黄金投资再念“紧箍咒” 国有大行叫停个人竞价交易](https://economy.caijing.com.cn/20260625/5167047.shtml) | economy.caijing.com.cn | 2026-07-24 | ❌ | Not selected: ranked below today's top stories |
 | [海运价格八连涨，外贸企业：“每周都收到调价通知”](https://economy.caijing.com.cn/20260625/5167044.shtml) | economy.caijing.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
 | [端午假期北京接待游客846.6万人次](https://economy.caijing.com.cn/20260622/5166280.shtml) | economy.caijing.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
 | [端午假期北京重点商圈客流量突破2600万人次](https://economy.caijing.com.cn/20260622/5166281.shtml) | economy.caijing.com.cn | 2026-06-19 | ➖ | Not evaluated in the latest brief run |
 | [工资里这笔“养老钱”三年赚了11.31% 更多打工人有望受益](https://economy.caijing.com.cn/20260625/5167060.shtml) | economy.caijing.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
-| [金饰订单，涨了！谁在“入手”？黄金市场，新变化](https://economy.caijing.com.cn/20260625/5167042.shtml) | economy.caijing.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
+| [金饰订单，涨了！谁在“入手”？黄金市场，新变化](https://economy.caijing.com.cn/20260625/5167042.shtml) | economy.caijing.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
 | [端午假期全国消费市场运行平稳](https://economy.caijing.com.cn/20260622/5166277.shtml) | economy.caijing.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
 | [实探端午假期深圳水贝黄金消费：金价回落释放刚需 批发商迅速补货](https://economy.caijing.com.cn/20260622/5166278.shtml) | economy.caijing.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
-| [“白银抄不完底，克价14元进场，转眼就跌到13！”有投资者33元时入场，如今已“腰斩”](https://economy.caijing.com.cn/20260626/5167375.shtml) | economy.caijing.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
-| [5月份国内市场手机出货同比大增16.5%](https://economy.caijing.com.cn/20260626/5167359.shtml) | economy.caijing.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
-| [中国人民银行将于6月末开展隔夜逆回购操作](https://economy.caijing.com.cn/20260626/5167354.shtml) | economy.caijing.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
-| [隔夜逆回购月底“首秀” 短端利率调控再添新工具](https://economy.caijing.com.cn/20260626/5167357.shtml) | economy.caijing.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
-| [多地“上新”暑期文旅消费支持政策](https://economy.caijing.com.cn/20260626/5167350.shtml) | economy.caijing.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
-| [2026年新能源汽车下乡启动，覆盖155款车型](https://economy.caijing.com.cn/20260626/5167382.shtml) | economy.caijing.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
-| [“外国企业广西行”产业合作大会举行 共创国际产业合作新生态](https://economy.caijing.com.cn/20260626/5167372.shtml) | economy.caijing.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
+| [“白银抄不完底，克价14元进场，转眼就跌到13！”有投资者33元时入场，如今已“腰斩”](https://economy.caijing.com.cn/20260626/5167375.shtml) | economy.caijing.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
+| [5月份国内市场手机出货同比大增16.5%](https://economy.caijing.com.cn/20260626/5167359.shtml) | economy.caijing.com.cn | unknown | ✅ | In report — Tech: cited source for "China's domestic mobile phone shipments surge 16.5% year-on-year in May" |
+| [中国人民银行将于6月末开展隔夜逆回购操作](https://economy.caijing.com.cn/20260626/5167354.shtml) | economy.caijing.com.cn | unknown | ✅ | In report — Policy: cited source for "PBOC to conduct overnight reverse repo operations at end of June" |
+| [隔夜逆回购月底“首秀” 短端利率调控再添新工具](https://economy.caijing.com.cn/20260626/5167357.shtml) | economy.caijing.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
+| [多地“上新”暑期文旅消费支持政策](https://economy.caijing.com.cn/20260626/5167350.shtml) | economy.caijing.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
+| [2026年新能源汽车下乡启动，覆盖155款车型](https://economy.caijing.com.cn/20260626/5167382.shtml) | economy.caijing.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
+| [“外国企业广西行”产业合作大会举行 共创国际产业合作新生态](https://economy.caijing.com.cn/20260626/5167372.shtml) | economy.caijing.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
 | [多领域企业竞相布局“城市更新”](https://estate.caijing.com.cn/20260625/5167160.shtml) | estate.caijing.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
 | [海南“十五五”计划投资1400亿元用于片区城市更新改造](https://estate.caijing.com.cn/20260625/5167158.shtml) | estate.caijing.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
 | [告别中国市场家电业务，三星电子官方公众号完成注销](https://estate.caijing.com.cn/20260625/5167195.shtml) | estate.caijing.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
 | [科技造富，楼市跟着“喝汤”！“科技新贵”接棒豪宅购买力丨地产观潮](https://estate.caijing.com.cn/20260625/5167196.shtml) | estate.caijing.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
-| [新一轮国资国企改革启幕 城投转型迎“紧约束”下的破局新局](https://estate.caijing.com.cn/20260625/5167201.shtml) | estate.caijing.com.cn | unknown | ✅ | In report — Policy: cited source for "New Round of State-Owned Enterprise Reform Begins, LGFV Transition Under Tight Constraints" |
+| [新一轮国资国企改革启幕 城投转型迎“紧约束”下的破局新局](https://estate.caijing.com.cn/20260625/5167201.shtml) | estate.caijing.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
 | [入股松江万达、配售商业REIT 弘毅投资的不动产一二级拼图](https://estate.caijing.com.cn/20260625/5167237.shtml) | estate.caijing.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
 | [智岩科技深交所IPO获受理](https://estate.caijing.com.cn/20260625/5167231.shtml) | estate.caijing.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
-| [*ST帅电：拟现金收购惠嘉科技100%股权](https://estate.caijing.com.cn/20260626/5167456.shtml) | estate.caijing.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
-| [科沃斯：参股公司仙工智能港股上市，预计影响2026年归母净利润约2.05亿元](https://estate.caijing.com.cn/20260626/5167454.shtml) | estate.caijing.com.cn | 2026-06-24 | ➖ | Not evaluated in the latest brief run |
-| [杭州土拍丨建发12.82亿元竞得未来科技城地块](https://estate.caijing.com.cn/20260626/5167388.shtml) | estate.caijing.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
+| [*ST帅电：拟现金收购惠嘉科技100%股权](https://estate.caijing.com.cn/20260626/5167456.shtml) | estate.caijing.com.cn | unknown | ✅ | In report — Company: cited source for "*ST ShuaiDian to acquire 100% of Huijia Technology for cash" |
+| [科沃斯：参股公司仙工智能港股上市，预计影响2026年归母净利润约2.05亿元](https://estate.caijing.com.cn/20260626/5167454.shtml) | estate.caijing.com.cn | 2026-06-24 | ❌ | Not selected: ranked below today's top stories |
+| [杭州土拍丨建发12.82亿元竞得未来科技城地块](https://estate.caijing.com.cn/20260626/5167388.shtml) | estate.caijing.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
+| [国家税务总局：延续实施支持居民换购住房有关个人所得税政策至2027年12月31日](https://estate.caijing.com.cn/20260626/5167503.shtml) | estate.caijing.com.cn | 2027-12-31 | ➖ | Not evaluated in the latest brief run |
 | [平安银行：副行长吴雷鸣任职资格获核准](https://finance.caijing.com.cn/20260625/5167319.shtml) | finance.caijing.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
 | [成都银行：张育鸣获批担任副董事长](https://finance.caijing.com.cn/20260625/5167317.shtml) | finance.caijing.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
 | [A股上市银行2025年年度分红 已派现超1460亿元](https://finance.caijing.com.cn/20260623/5166575.shtml) | finance.caijing.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
@@ -142,17 +146,18 @@ _In Report? verdicts reflect the brief run of **2026-06-26** (generated 2026-06-
 | [严控风格漂移 公募分阶段纠偏“盲盒基金”](https://finance.caijing.com.cn/20260625/5167074.shtml) | finance.caijing.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
 | [存单、积分、换汇成生意 金融“黄牛”猖獗](https://finance.caijing.com.cn/20260615/5165239.shtml) | finance.caijing.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
 | [产品矩阵加速构建 个人养老金基金增至320只](https://finance.caijing.com.cn/20260615/5165226.shtml) | finance.caijing.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
-| [中原银行：周锋获批担任董事长](https://finance.caijing.com.cn/20260626/5167430.shtml) | finance.caijing.com.cn | 2026-06-25 | ➖ | Not evaluated in the latest brief run |
+| [中原银行：周锋获批担任董事长](https://finance.caijing.com.cn/20260626/5167430.shtml) | finance.caijing.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [停办代理、上调保证金比例 多家银行收紧个人贵金属业务](https://finance.caijing.com.cn/20260626/5167360.shtml) | finance.caijing.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
-| [银行理财资金加速布局REITs “固收+”策略迎来“新底仓”](https://finance.caijing.com.cn/20260626/5167426.shtml) | finance.caijing.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
-| [停办代理、上调保证金比例 多家银行收紧个人贵金属业务](https://finance.caijing.com.cn/20260626/5167425.shtml) | finance.caijing.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
-| [当“老登”跨界科技赛道 “剪刀差”将何时收敛](https://finance.caijing.com.cn/20260626/5167348.shtml) | finance.caijing.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
-| [规模将破40万亿元 公募基金亟待从“量升”到“质胜”](https://finance.caijing.com.cn/20260626/5167347.shtml) | finance.caijing.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
-| [客户为本 公募基金向“新”进行时](https://finance.caijing.com.cn/20260626/5167346.shtml) | finance.caijing.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
+| [银行理财资金加速布局REITs “固收+”策略迎来“新底仓”](https://finance.caijing.com.cn/20260626/5167426.shtml) | finance.caijing.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
+| [停办代理、上调保证金比例 多家银行收紧个人贵金属业务](https://finance.caijing.com.cn/20260626/5167425.shtml) | finance.caijing.com.cn | unknown | ❌ | Excluded: already reported in a recent brief ("Multiple banks tighten personal precious metals business, suspend agents and raise margin ") |
+| [当“老登”跨界科技赛道 “剪刀差”将何时收敛](https://finance.caijing.com.cn/20260626/5167348.shtml) | finance.caijing.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
+| [规模将破40万亿元 公募基金亟待从“量升”到“质胜”](https://finance.caijing.com.cn/20260626/5167347.shtml) | finance.caijing.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
+| [客户为本 公募基金向“新”进行时](https://finance.caijing.com.cn/20260626/5167346.shtml) | finance.caijing.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
+| [别只盯着“木头姐”！首批主动ETF基金经理人选标准、风格揭晓](https://finance.caijing.com.cn/20260626/5167500.shtml) | finance.caijing.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
 | [美光公布“王炸”财报：业绩、指引全面开花 盘后股价大涨](https://finance.eastmoney.com/a/202606253781873757.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [两大芯片巨头大涨 韩国股市触发熔断](https://finance.eastmoney.com/a/202606253782099024.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [扩产利好+价格飙升！MLCC继续走强 12股2026业绩预测翻倍](https://finance.eastmoney.com/a/202606253782804534.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
-| [国家发改委、国家能源局印发《新型能源体系建设“十五五”规划》](https://finance.eastmoney.com/a/202606253783122095.html) | finance.eastmoney.com | unknown | ✅ | In report — corroborating source for "China Releases 15th Five-Year Plan for New Energy System" |
+| [国家发改委、国家能源局印发《新型能源体系建设“十五五”规划》](https://finance.eastmoney.com/a/202606253783122095.html) | finance.eastmoney.com | unknown | ✅ | In report — corroborating source for "China issues 15th Five-Year Plan for new energy system" |
 | [批量大涨！玻璃基板概念早盘强势 16股年内翻倍](https://finance.eastmoney.com/a/202606253782804711.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [银河证券：Token经济学影响或加深 关注AIDC+6G等方向](https://finance.eastmoney.com/a/202606253782100020.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [中信证券美股策略：恐慌未现 季末再平衡下动能交易出清](https://finance.eastmoney.com/a/202606253782096642.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
@@ -174,7 +179,7 @@ _In Report? verdicts reflect the brief run of **2026-06-26** (generated 2026-06-
 | [主力复盘：36.73亿爆拉新易盛 20.21亿流出光迅科技](https://finance.eastmoney.com/a/202606253783006022.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [全线暴涨 美光拯救AI！股民：指数全红 4000家下跌](https://finance.eastmoney.com/a/202606253783082097.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [告别估值折价！SK海力士赴美上市 引爆国际资本新狂欢](https://finance.eastmoney.com/a/202606253782882363.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
-| [外资调仓！摩根士丹利、高盛增持A股名单曝光](https://finance.eastmoney.com/a/202606253783297820.html) | finance.eastmoney.com | unknown | ✅ | In report — Markets: cited source for "Morgan Stanley and Goldman Sachs Increase A-Share Holdings, Revealed" |
+| [外资调仓！摩根士丹利、高盛增持A股名单曝光](https://finance.eastmoney.com/a/202606253783297820.html) | finance.eastmoney.com | unknown | ✅ | In report — Markets: cited source for "Foreign funds rebalance: Morgan Stanley and Goldman increase A-share holdings" |
 | [A股罕见一幕！芯片产业链与“牛市旗手”同日大涨 什么信号？](https://finance.eastmoney.com/a/202606253783012932.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [存储超级周期“更高、更长”！六巨头齐创历史新高(附股)](https://finance.eastmoney.com/a/202606253782805463.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [淡水泉（香港）总裁陶冬：石油美元体系彻底动摇 全球通胀将常态化](https://finance.eastmoney.com/a/202606243780130752.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
@@ -186,17 +191,17 @@ _In Report? verdicts reflect the brief run of **2026-06-26** (generated 2026-06-
 | [小猫炒股被套怎么回本？](https://finance.eastmoney.com/a/202606243781648138.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [新手小猫怎么学习短线炒股](https://finance.eastmoney.com/a/202606183776507377.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [小猫怎么自学炒股？](https://finance.eastmoney.com/a/202606173774896910.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
-| [外资企业积极在华投资 持续看好中国市场](https://finance.eastmoney.com/a/202606263783473778.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
-| [中国人民银行将于6月末开展隔夜逆回购操作](https://finance.eastmoney.com/a/202606263783474581.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [外资企业积极在华投资 持续看好中国市场](https://finance.eastmoney.com/a/202606263783473778.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [中国人民银行将于6月末开展隔夜逆回购操作](https://finance.eastmoney.com/a/202606263783474581.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [2026夏季达沃斯](https://finance.eastmoney.com/a/202606263783468497.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [美最高法院裁决支持特朗普强硬移民政策](https://finance.eastmoney.com/a/202606263783473436.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [美最高法院裁决支持特朗普强硬移民政策](https://finance.eastmoney.com/a/202606263783469542.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [波斯湾原油出口反弹至本轮冲突前水平的75%](https://finance.eastmoney.com/a/202606263783469177.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [年内最密集，可转债新一波发行潮来临！有这些特点→](https://finance.eastmoney.com/a/202606253783297969.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [MLF加量续作、隔夜逆回购即将落地 央行双工具稳控跨季流动性](https://finance.eastmoney.com/a/202606253783007332.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
-| [央行：6月25日将开展5000亿元MLF操作](https://finance.eastmoney.com/a/202606243781553355.html) | finance.eastmoney.com | 2026-06-25 | ✅ | In report — Macro: cited source for "PBOC Conducts 500B Yuan MLF Operation, Net Injection of 200B Yuan" |
+| [央行：6月25日将开展5000亿元MLF操作](https://finance.eastmoney.com/a/202606243781553355.html) | finance.eastmoney.com | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [通化金马阿尔茨海默病新药上市；海尔生物控股股东提议回购股份](https://finance.eastmoney.com/a/202606263783473276.html) | finance.eastmoney.com | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
-| [牧原股份：部分董事及高管拟合计增持4亿元](https://finance.eastmoney.com/a/202606263783474179.html) | finance.eastmoney.com | unknown | ✅ | In report — Company: cited source for "Muyuan Foods Executives Plan to Buy Up to 500M Yuan in Shares" |
+| [牧原股份：部分董事及高管拟合计增持4亿元](https://finance.eastmoney.com/a/202606263783474179.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [年内新股“量质齐升” 资本市场与新质生产力双向赋能](https://finance.eastmoney.com/a/202606263783474422.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [连续两天股价大幅上涨 兆易创新提示风险：存储行业历史上呈现周期性波动 供给与需求终将走向再平衡](https://finance.eastmoney.com/a/202606263783471968.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [美股盘前：三大股指期货齐涨 美光绩后大涨一度超过18% 市场静待5月PCE数据](https://finance.eastmoney.com/a/202606253783281417.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
@@ -213,105 +218,127 @@ _In Report? verdicts reflect the brief run of **2026-06-26** (generated 2026-06-
 | [对话赫力昂傅悦：把握中国市场红利，深耕在华布局](https://finance.eastmoney.com/a/202606253782976479.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [链博会聚焦疫苗防控生活链，政策创新织密“一老一小”呼吸健康屏障](https://finance.eastmoney.com/a/202606253782882479.html) | finance.eastmoney.com | 2026-06-22 | ➖ | Not evaluated in the latest brief run |
 | [量子计算接连取得重要突破！三维共振驱动产业化提速 最新高增长潜力股名单出炉](https://finance.eastmoney.com/a/202606253782009372.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
-| [多地“上新”暑期文旅消费支持政策](https://finance.eastmoney.com/a/202606263783473653.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [多地“上新”暑期文旅消费支持政策](https://finance.eastmoney.com/a/202606263783473653.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [深度调研｜带货模式急刹车 基金大V何去何从 _ 东方财富网](https://finance.eastmoney.com/a/202606253783445915.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
-| [发电装机规模突破40亿千瓦 我国基本建成全球最大可再生能源体系](https://finance.eastmoney.com/a/202606263783487712.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
-| [新型能源体系建设“十五五”规划发布 前瞻布局未来能源技术 适度超前开展前沿性、颠覆性技术研究](https://finance.eastmoney.com/a/202606263783487943.html) | finance.eastmoney.com | unknown | ✅ | In report — corroborating source for "China Releases 15th Five-Year Plan for New Energy System" |
+| [发电装机规模突破40亿千瓦 我国基本建成全球最大可再生能源体系](https://finance.eastmoney.com/a/202606263783487712.html) | finance.eastmoney.com | unknown | ✅ | In report — Energy: cited source for "China completes world's largest renewable energy system" |
+| [新型能源体系建设“十五五”规划发布 前瞻布局未来能源技术 适度超前开展前沿性、颠覆性技术研究](https://finance.eastmoney.com/a/202606263783487943.html) | finance.eastmoney.com | unknown | ✅ | In report — Policy: cited source for "China issues 15th Five-Year Plan for new energy system" |
 | [统筹制度联动 提升资本市场服务效能](https://finance.eastmoney.com/a/202606263783488025.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
-| [利率调控短端化的三重考量](https://finance.eastmoney.com/a/202606263783488528.html) | finance.eastmoney.com | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
-| [隔夜逆回购月底“首秀” 短端利率调控再添新工具](https://finance.eastmoney.com/a/202606263783488797.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [利率调控短端化的三重考量](https://finance.eastmoney.com/a/202606263783488528.html) | finance.eastmoney.com | 2026-06-25 | ➖ | Not evaluated in the latest brief run |
+| [隔夜逆回购月底“首秀” 短端利率调控再添新工具](https://finance.eastmoney.com/a/202606263783488797.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [墨西哥央行维持隔夜利率在6.50%不变 符合预期](https://finance.eastmoney.com/a/202606263783489192.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [HSBC将中国国航、南方航空、东方航空A股评级上调至持有](https://finance.eastmoney.com/a/202606263783488865.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [锚定Token价值 通信产业全链重构增长逻辑](https://finance.eastmoney.com/a/202606263783487477.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
-| [市场上演分化行情 科技股表现遥遥领先](https://finance.eastmoney.com/a/202606263783487517.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [市场上演分化行情 科技股表现遥遥领先](https://finance.eastmoney.com/a/202606263783487517.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [光影赋能新消费 电影电视节背后的升级密码](https://finance.eastmoney.com/a/202606263783487239.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [永太科技斩获宁德时代采购长协](https://finance.eastmoney.com/a/202606263783487114.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [2026年上半年港股IPO募资超2000亿港元 科技类IPO唱主角 资金集中抱团](https://finance.eastmoney.com/a/202606263783485917.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [近七十分钟股东会问答释放经营信号：王小青详解招行发展“施工图”](https://finance.eastmoney.com/a/202606263783485442.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [广州商品住宅“卖旧买新”试点满月 首例换房人表示](https://finance.eastmoney.com/a/202606263783481853.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [毛纺行业三大顶级盛会在大朗举行 近2000家企业携新品赴会](https://finance.eastmoney.com/a/202606263783478348.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
-| [新型能源体系建设“十五五”规划出炉 2030年我国非化石能源发电量比重达到50%](https://finance.eastmoney.com/a/202606263783486691.html) | finance.eastmoney.com | unknown | ✅ | In report — Policy: cited source for "China Releases 15th Five-Year Plan for New Energy System" |
+| [新型能源体系建设“十五五”规划出炉 2030年我国非化石能源发电量比重达到50%](https://finance.eastmoney.com/a/202606263783486691.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [全球市场：美股三大指数涨跌不一 闪迪、美光科技领涨芯片股 苹果跌超6%](https://finance.eastmoney.com/a/202606263783498663.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
-| [40家A股公司提示风险！回应存储、MLCC等多个热点事项](https://finance.eastmoney.com/a/202606253783437933.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
-| [坐不住了？坚守茅台的前千亿基金经理疑似调仓 10天收复近一年跌幅](https://finance.eastmoney.com/a/202606253783458476.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [40家A股公司提示风险！回应存储、MLCC等多个热点事项](https://finance.eastmoney.com/a/202606253783437933.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [坐不住了？坚守茅台的前千亿基金经理疑似调仓 10天收复近一年跌幅](https://finance.eastmoney.com/a/202606253783458476.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [10倍大牛股中船特气今起复牌 将领衔沪市半年报披露](https://finance.eastmoney.com/a/202606253783355788.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [6月26日国内四大证券报纸、重要财经媒体头版头条内容精华摘要](https://finance.eastmoney.com/a/202606263783497948.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [美国关键通胀数据冲上近三年新高！市场却先松一口气](https://finance.eastmoney.com/a/202606253783354518.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [追券商股还是守科技股？机构激辩](https://finance.eastmoney.com/a/202606263783468826.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
-| [大族激光拟斥资25.2亿元投建光纤项目 该业务去年亏损近7000万元且营收占比仅0.22%](https://finance.eastmoney.com/a/202606263783476741.html) | finance.eastmoney.com | unknown | ✅ | In report — Company: cited source for "Han's Laser Plans 2.52B Yuan Investment in Fiber Optic Project" |
+| [大族激光拟斥资25.2亿元投建光纤项目 该业务去年亏损近7000万元且营收占比仅0.22%](https://finance.eastmoney.com/a/202606263783476741.html) | finance.eastmoney.com | unknown | ✅ | In report (brief mention): "Han's Laser plans 2.52 billion yuan investment in fiber optic project despite recent losse" — full text not readable |
 | [铜关税重要时点临近！AI算力金属再迎变局](https://finance.eastmoney.com/a/202606253783436650.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [*ST帅电筹划重大资产重组 股票不停牌](https://finance.eastmoney.com/a/202606253783434132.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [专家：跳出“就经济谈消费” 以“三大引擎”为抓手系统提振消费](https://finance.eastmoney.com/a/202606263783509811.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [16连涨！上海外贸亮硬核家底：新能源链式出海 机器人揽全国40%出口](https://finance.eastmoney.com/a/202606263783509240.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
-| [今日数据精选：我国发电装机突破40亿千瓦](https://finance.eastmoney.com/a/202606263783508918.html) | finance.eastmoney.com | unknown | ✅ | In report (brief mention): "China's Installed Power Generation Capacity Exceeds 4 Billion kW for First Time" — full text not readable |
+| [今日数据精选：我国发电装机突破40亿千瓦](https://finance.eastmoney.com/a/202606263783508918.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [【环球财经】苹果称因芯片成本增加上调部分产品售价](https://finance.eastmoney.com/a/202606263783510110.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [同仁堂医养香港上市拟筹资不超过6.716亿港元](https://finance.eastmoney.com/a/202606263783509952.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [美股收盘：纳指盘初跳水收盘四连跌！道指盘中创新高；芯片股又爆发，闪迪涨超21%，美光涨逾15%](https://finance.eastmoney.com/a/202606263783510342.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [周五你需要知道的隔夜全球要闻：美油终结四连跌 美股科技股表现分化 美光大涨15% 苹果大跌6%领跌“七巨头”](https://finance.eastmoney.com/a/202606263783509110.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [完美世界320名核心员工获授732.5万股；腾讯《洛克王国：世界》上线领地试炼新玩法丨游戏早参](https://finance.eastmoney.com/a/202606263783509662.html) | finance.eastmoney.com | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
-| [中信证券：展望2026](https://finance.eastmoney.com/a/202606263783731051.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [中信证券：预计2026年二季度电子行业整体业绩全面向好](https://finance.eastmoney.com/a/202606263783730741.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [国金证券：美光科技推进长协落地 供需缺口有望持续](https://finance.eastmoney.com/a/202606263783695732.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [德邦证券程强：“光电热力”是贯穿AI行业周期的支撑体系](https://finance.eastmoney.com/a/202606263783488290.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [成本压力“前所未有”！苹果、微软同日官宣大涨价 存储超级周期或延续(附股)](https://finance.eastmoney.com/a/202606263783638798.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [被SpaceX大跌吓退了？OpenAI据传考虑推迟IPO计划 力争万亿美元估值](https://finance.eastmoney.com/a/202606263783738887.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [“母子市值倒挂” 谁导演了铜冠铜箔股价一年17倍神话？](https://finance.eastmoney.com/a/202606263783518661.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [“十五五”新型能源体系建设 “施工图”出炉 电网、新型储能等多领域投资机会涌现](https://finance.eastmoney.com/a/202606263783501636.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [凌晨！科技巨头全线大跌！美联储重磅发声](https://finance.eastmoney.com/a/202606263783522863.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [三星集团据悉将在未来10年内在韩国投资1000万亿韩元](https://finance.eastmoney.com/a/202606263783513990.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [泼加息冷水！美联储“三把手”预计通胀将回落 华尔街鸽声四起](https://finance.eastmoney.com/a/202606263783764710.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [“加息噩梦”萦绕？又一官员“放鹰”：核心通胀仍过高 且趋势错误！](https://finance.eastmoney.com/a/202606263783733125.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [6月26日投资日历](https://finance.eastmoney.com/a/202606263783696670.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [6家龙头券商下半年A股研判：将演绎结构性慢牛 风格进一步均衡](https://finance.eastmoney.com/a/202606263783522113.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [美联储威廉姆斯“放鸽”：当前货币政策立场足以推动通胀回落至2%](https://finance.eastmoney.com/a/202606263783508032.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [央行今日开展2315亿元7天期逆回购操作，操作利率为1.40%](https://finance.eastmoney.com/a/202606263783946378.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [携程Q1净利近腰斩 反垄断调查+增速放缓致股价重挫](https://finance.eastmoney.com/a/202606263783695134.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [多只新股在港交所上市 科拓股份涨178.38%](https://finance.eastmoney.com/a/202606263783968970.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [港股新股集体走强 科拓股份等个股涨超70%](https://finance.eastmoney.com/a/202606263783950330.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [中信证券：展望2026](https://finance.eastmoney.com/a/202606263783731051.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [中信证券：预计2026年二季度电子行业整体业绩全面向好](https://finance.eastmoney.com/a/202606263783730741.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [国金证券：美光科技推进长协落地 供需缺口有望持续](https://finance.eastmoney.com/a/202606263783695732.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [德邦证券程强：“光电热力”是贯穿AI行业周期的支撑体系](https://finance.eastmoney.com/a/202606263783488290.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [成本压力“前所未有”！苹果、微软同日官宣大涨价 存储超级周期或延续(附股)](https://finance.eastmoney.com/a/202606263783638798.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [被SpaceX大跌吓退了？OpenAI据传考虑推迟IPO计划 力争万亿美元估值](https://finance.eastmoney.com/a/202606263783738887.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [“母子市值倒挂” 谁导演了铜冠铜箔股价一年17倍神话？](https://finance.eastmoney.com/a/202606263783518661.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [“十五五”新型能源体系建设 “施工图”出炉 电网、新型储能等多领域投资机会涌现](https://finance.eastmoney.com/a/202606263783501636.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [凌晨！科技巨头全线大跌！美联储重磅发声](https://finance.eastmoney.com/a/202606263783522863.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [三星集团据悉将在未来10年内在韩国投资1000万亿韩元](https://finance.eastmoney.com/a/202606263783513990.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [泼加息冷水！美联储“三把手”预计通胀将回落 华尔街鸽声四起](https://finance.eastmoney.com/a/202606263783764710.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [“加息噩梦”萦绕？又一官员“放鹰”：核心通胀仍过高 且趋势错误！](https://finance.eastmoney.com/a/202606263783733125.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [6月26日投资日历](https://finance.eastmoney.com/a/202606263783696670.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [6家龙头券商下半年A股研判：将演绎结构性慢牛 风格进一步均衡](https://finance.eastmoney.com/a/202606263783522113.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [美联储威廉姆斯“放鸽”：当前货币政策立场足以推动通胀回落至2%](https://finance.eastmoney.com/a/202606263783508032.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [央行今日开展2315亿元7天期逆回购操作，操作利率为1.40%](https://finance.eastmoney.com/a/202606263783946378.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [携程Q1净利近腰斩 反垄断调查+增速放缓致股价重挫](https://finance.eastmoney.com/a/202606263783695134.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [多只新股在港交所上市 科拓股份涨178.38%](https://finance.eastmoney.com/a/202606263783968970.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [港股新股集体走强 科拓股份等个股涨超70%](https://finance.eastmoney.com/a/202606263783950330.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [港股开盘：恒指跌0.54%，恒科跌0.78%；半导体、家电、传媒板块下跌；阿里、联想、携程、小米飘绿](https://finance.eastmoney.com/a/202606263783950255.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [聚焦多元消费需求 直播电商加大扶持力度](https://finance.eastmoney.com/a/202606263783788974.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [中国贸促会副会长林红红会见新加坡大华银行国际管理董事总经理张志坚](https://finance.eastmoney.com/a/202606263783742133.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [赋能纺织行业数智化转型，希音柔性按需创新助国内产业提质升级](https://finance.eastmoney.com/a/202606263783738339.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [头部厂商接连涨价 AI服务器引爆超级电容需求 融资客提前埋伏多股(名单)](https://finance.eastmoney.com/a/202606253782831239.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [京东方、康宁大消息！玻璃基板逆势走强 近一月17股被融资客抢筹](https://finance.eastmoney.com/a/202606263784533068.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [光刻胶概念逆势活跃 机构建议关注高端产品国产化机遇(附股)](https://finance.eastmoney.com/a/202606263784527443.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [美光又有动作！晶圆厂刚需 洁净室料迎“量价齐升”(附股)](https://finance.eastmoney.com/a/202606263784542193.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [国家能源局：预计“十五五”能源重点项目和新业态投资总规模超20万亿元](https://finance.eastmoney.com/a/202606263784168731.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [刚刚暴跌超2200点！芯片巨头大跳水！霍尔木兹海峡突传变数](https://finance.eastmoney.com/a/202606263783824722.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [支持居民换购住房有关个人所得税政策是否有所调整？国家税务总局回应](https://finance.eastmoney.com/a/202606263784513724.html) | finance.eastmoney.com | 2027-12-31 | ➖ | Not evaluated in the latest brief run |
-| [什么信号？SpaceX“垂直整合”拓展至能源领域 下个月开建天然气管道！](https://finance.eastmoney.com/a/202606263784460883.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [半导体硅片新一轮涨价潮将至？多家供应商开始协商调价](https://finance.eastmoney.com/a/202606263784501523.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [盘中暴涨超630%！触发二次临停！这只新股发生了什么？](https://finance.eastmoney.com/a/202606263784501961.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [AI生成5秒视频=充电10部手机 国家能源局局长：多维推进算电协同](https://finance.eastmoney.com/a/202606263784544631.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [国家能源局：“十五五”能源重点项目和新业态投资将超20万亿元](https://finance.eastmoney.com/a/202606263784544834.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [摩尔线程旗下杭州光速摩方智能科技公司增资至2亿 增幅100%](https://finance.eastmoney.com/a/202606263784548973.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [科技股大跌！亚太股市，集体重挫！](https://finance.eastmoney.com/a/202606263784544056.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [【午报】三大指数均跌超2%，全市场近4600股飘绿，AI硬件方向集体重挫](https://finance.eastmoney.com/a/202606263784540140.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [福森药业：帕拉米韦注射液获国家药监局批准上市](https://finance.eastmoney.com/a/202606263784543262.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [SpaceX计划为美国消费者推出新的星链移动服务](https://finance.eastmoney.com/a/202606263784543544.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [如何把农业建成现代化大产业？（每周经济评论）](https://finance.people.com.cn/n1/2026/0626/c1004-40747723.html) | finance.people.com.cn | 2026-06-26 | ✅ | In report — Policy: cited source for "Weekly Economic Review: How to Build Agriculture into a Modern Major Industry" |
-| [从链博会看利用外资固稳促优](https://finance.people.com.cn/n1/2026/0626/c1004-40747698.html) | finance.people.com.cn | 2026-06-26 | ✅ | In report (brief mention): "China's Foreign Investment Stabilization and Improvement Discussed at Chain Expo" — full text not readable |
-| [《新型能源体系建设“十五五”规划》发布](https://finance.people.com.cn/n1/2026/0626/c1004-40747695.html) | finance.people.com.cn | 2026-06-26 | ✅ | In report — Policy: cited source for "China Releases 15th Five-Year Plan for New Energy System" |
-| [《新型能源体系建设“十五五”规划》发布](https://finance.people.com.cn/n1/2026/0626/c1004-40748036.html) | finance.people.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [外资企业积极在华投资 持续看好中国市场](https://finance.people.com.cn/n1/2026/0626/c1004-40748033.html) | finance.people.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [聚焦多元消费需求 直播电商加大扶持力度](https://finance.eastmoney.com/a/202606263783788974.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [中国贸促会副会长林红红会见新加坡大华银行国际管理董事总经理张志坚](https://finance.eastmoney.com/a/202606263783742133.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [赋能纺织行业数智化转型，希音柔性按需创新助国内产业提质升级](https://finance.eastmoney.com/a/202606263783738339.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [头部厂商接连涨价 AI服务器引爆超级电容需求 融资客提前埋伏多股(名单)](https://finance.eastmoney.com/a/202606253782831239.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [京东方、康宁大消息！玻璃基板逆势走强 近一月17股被融资客抢筹](https://finance.eastmoney.com/a/202606263784533068.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [光刻胶概念逆势活跃 机构建议关注高端产品国产化机遇(附股)](https://finance.eastmoney.com/a/202606263784527443.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [美光又有动作！晶圆厂刚需 洁净室料迎“量价齐升”(附股)](https://finance.eastmoney.com/a/202606263784542193.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [国家能源局：预计“十五五”能源重点项目和新业态投资总规模超20万亿元](https://finance.eastmoney.com/a/202606263784168731.html) | finance.eastmoney.com | unknown | ✅ | In report — corroborating source for "Energy investments in 15th Five-Year Plan to exceed 20 trillion yuan" |
+| [刚刚暴跌超2200点！芯片巨头大跳水！霍尔木兹海峡突传变数](https://finance.eastmoney.com/a/202606263783824722.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [支持居民换购住房有关个人所得税政策是否有所调整？国家税务总局回应](https://finance.eastmoney.com/a/202606263784513724.html) | finance.eastmoney.com | 2027-12-31 | ❌ | Not selected: ranked below today's top stories |
+| [什么信号？SpaceX“垂直整合”拓展至能源领域 下个月开建天然气管道！](https://finance.eastmoney.com/a/202606263784460883.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [半导体硅片新一轮涨价潮将至？多家供应商开始协商调价](https://finance.eastmoney.com/a/202606263784501523.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [盘中暴涨超630%！触发二次临停！这只新股发生了什么？](https://finance.eastmoney.com/a/202606263784501961.html) | finance.eastmoney.com | unknown | ✅ | In report — Markets: cited source for "New stock surges over 630%, triggers second trading halt" |
+| [AI生成5秒视频=充电10部手机 国家能源局局长：多维推进算电协同](https://finance.eastmoney.com/a/202606263784544631.html) | finance.eastmoney.com | unknown | ✅ | In report — Energy: cited source for "Energy bureau chief: AI video generation consumes huge power, need computing-electricity c" |
+| [国家能源局：“十五五”能源重点项目和新业态投资将超20万亿元](https://finance.eastmoney.com/a/202606263784544834.html) | finance.eastmoney.com | unknown | ✅ | In report — Energy: cited source for "Energy investments in 15th Five-Year Plan to exceed 20 trillion yuan" |
+| [摩尔线程旗下杭州光速摩方智能科技公司增资至2亿 增幅100%](https://finance.eastmoney.com/a/202606263784548973.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [科技股大跌！亚太股市，集体重挫！](https://finance.eastmoney.com/a/202606263784544056.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [【午报】三大指数均跌超2%，全市场近4600股飘绿，AI硬件方向集体重挫](https://finance.eastmoney.com/a/202606263784540140.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [福森药业：帕拉米韦注射液获国家药监局批准上市](https://finance.eastmoney.com/a/202606263784543262.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [SpaceX计划为美国消费者推出新的星链移动服务](https://finance.eastmoney.com/a/202606263784543544.html) | finance.eastmoney.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [沪指跌逾2% 创业板指跌超4% 玻璃基板概念股逆市走强](https://finance.eastmoney.com/a/202606263784696346.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [超20万亿投资！国家能源局详解“十五五”时期新型能源体系建设](https://finance.eastmoney.com/a/202606263784553994.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [企业盈利依然强劲 花旗称现在就断言AI交易终结还为时尚早](https://finance.eastmoney.com/a/202606263784728448.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [王兴回应美团股价低迷](https://finance.eastmoney.com/a/202606263784680481.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [AI彻底改写存储芯片“命运”？美银：“芯荒”至少持续至明年底！](https://finance.eastmoney.com/a/202606263784593370.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [【风口研报】半导体硅片或迎新一轮涨价潮 行业景气度有望持续回升](https://finance.eastmoney.com/a/202606263784730131.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [上市一个月市值腰斩！深度解析：这只AI芯片股命运为何和美光截然相反？](https://finance.eastmoney.com/a/202606263784532571.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [自动驾驶大消息 10股获融资大幅净买入](https://finance.eastmoney.com/a/202606263784552348.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [金价还在跌 5个月大跌30%！投资金条柜台被挤爆 10克20克金条不到3小时卖光！](https://finance.eastmoney.com/a/202606263784733143.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [欧洲央行将取消40份银行监管文件](https://finance.eastmoney.com/a/202606263784729659.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [【高端访谈】印尼工商会主席阿宁迪亚&#183;诺维扬&#183;巴克里：更强的供应链催生更强的互信](https://finance.eastmoney.com/a/202606263784731725.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [达沃斯观察：捕捉未来产业竞争的“底牌”](https://finance.eastmoney.com/a/202606263784704798.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [华丰科技：公司液冷相关产品已取得小批量订单](https://finance.eastmoney.com/a/202606263784733470.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [年内股价跌超三成！美团CEO王兴回应：积极应对，经营好公司，给市场更多信心](https://finance.eastmoney.com/a/202606263784728892.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [港股“子”曰](https://finance.eastmoney.com/a/202606263784727814.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [“剧变”！AI与真人短剧同步驶入深水区！上海一地区将AI短剧创作者纳入人才计划，可享落户等政策红利](https://finance.eastmoney.com/a/202606263784729262.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [如何把农业建成现代化大产业？（每周经济评论）](https://finance.people.com.cn/n1/2026/0626/c1004-40747723.html) | finance.people.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [从链博会看利用外资固稳促优](https://finance.people.com.cn/n1/2026/0626/c1004-40747698.html) | finance.people.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [《新型能源体系建设“十五五”规划》发布](https://finance.people.com.cn/n1/2026/0626/c1004-40747695.html) | finance.people.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [《新型能源体系建设“十五五”规划》发布](https://finance.people.com.cn/n1/2026/0626/c1004-40748036.html) | finance.people.com.cn | 2026-06-26 | ✅ | In report — Policy: cited source for "China issues 15th Five-Year Plan for new energy system" |
+| [外资企业积极在华投资 持续看好中国市场](https://finance.people.com.cn/n1/2026/0626/c1004-40748033.html) | finance.people.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
 | [多地“上新”暑期文旅消费支持政策](https://finance.people.com.cn/n1/2026/0626/c1004-40748031.html) | finance.people.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [探索破解普惠金融“不可能三角”](https://finance.people.com.cn/n1/2026/0626/c1004-40748014.html) | finance.people.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [新一代智能制造向纵深发展](https://finance.people.com.cn/n1/2026/0626/c1004-40748009.html) | finance.people.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [从三名海员看海运蓬勃发展（大数据观察）](https://finance.people.com.cn/n1/2026/0626/c1004-40747693.html) | finance.people.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [种业科技成果沪上扎堆“相亲”](https://finance.people.com.cn/n1/2026/0626/c1004-40747980.html) | finance.people.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [规模化创新，促进AI与能源双向赋能](https://finance.people.com.cn/n1/2026/0626/c1004-40747949.html) | finance.people.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [智慧监管，守好“家门口”每一滴水](https://finance.people.com.cn/n1/2026/0626/c1004-40747962.html) | finance.people.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [文旅业态深度融合 夏日消费活力涌动](https://finance.people.com.cn/n1/2026/0626/c1004-40747869.html) | finance.people.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [AI专区上新！第四届链博会看点满满](https://finance.people.com.cn/n1/2026/0626/c1004-40748052.html) | finance.people.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [种业振兴交出厚重答卷](https://finance.people.com.cn/n1/2026/0626/c1004-40748018.html) | finance.people.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [AI正在重塑千行百业](https://finance.people.com.cn/n1/2026/0626/c1004-40748015.html) | finance.people.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [探索破解普惠金融“不可能三角”](https://finance.people.com.cn/n1/2026/0626/c1004-40748014.html) | finance.people.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [新一代智能制造向纵深发展](https://finance.people.com.cn/n1/2026/0626/c1004-40748009.html) | finance.people.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [从三名海员看海运蓬勃发展（大数据观察）](https://finance.people.com.cn/n1/2026/0626/c1004-40747693.html) | finance.people.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [种业科技成果沪上扎堆“相亲”](https://finance.people.com.cn/n1/2026/0626/c1004-40747980.html) | finance.people.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [规模化创新，促进AI与能源双向赋能](https://finance.people.com.cn/n1/2026/0626/c1004-40747949.html) | finance.people.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [智慧监管，守好“家门口”每一滴水](https://finance.people.com.cn/n1/2026/0626/c1004-40747962.html) | finance.people.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [文旅业态深度融合 夏日消费活力涌动](https://finance.people.com.cn/n1/2026/0626/c1004-40747869.html) | finance.people.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [AI专区上新！第四届链博会看点满满](https://finance.people.com.cn/n1/2026/0626/c1004-40748052.html) | finance.people.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [种业振兴交出厚重答卷](https://finance.people.com.cn/n1/2026/0626/c1004-40748018.html) | finance.people.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [AI正在重塑千行百业](https://finance.people.com.cn/n1/2026/0626/c1004-40748015.html) | finance.people.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
 | [聚焦多元消费需求 直播电商加大扶持力度](https://finance.people.com.cn/n1/2026/0626/c1004-40747921.html) | finance.people.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [青海黄南：一杯牦牛奶的“七十二变”](https://finance.people.com.cn/n1/2026/0626/c1004-40747973.html) | finance.people.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [盾构机“换牙”有了机器人“医生”](https://finance.people.com.cn/n1/2026/0626/c1004-40747956.html) | finance.people.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [青海黄南：一杯牦牛奶的“七十二变”](https://finance.people.com.cn/n1/2026/0626/c1004-40747973.html) | finance.people.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [盾构机“换牙”有了机器人“医生”](https://finance.people.com.cn/n1/2026/0626/c1004-40747956.html) | finance.people.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
 | [“十五五”能源重点项目和新业态投资总规模将超20万亿元](https://finance.people.com.cn/n1/2026/0626/c1004-40748162.html) | finance.people.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [零时差 / 解局世界经济，夏季达沃斯给出哪三个关键词--经济·科技--人民网](https://finance.people.com.cn/n1/2026/0626/c1004-40748153.html) | finance.people.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [健康产业装上“新质”引擎](https://finance.people.com.cn/n1/2026/0626/c1004-40748115.html) | finance.people.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [壹视界·知行记](https://finance.people.com.cn/n1/2026/0626/c1004-40748186.html) | finance.people.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [零时差 / 解局世界经济，夏季达沃斯给出哪三个关键词--经济·科技--人民网](https://finance.people.com.cn/n1/2026/0626/c1004-40748153.html) | finance.people.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [健康产业装上“新质”引擎](https://finance.people.com.cn/n1/2026/0626/c1004-40748115.html) | finance.people.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [壹视界·知行记](https://finance.people.com.cn/n1/2026/0626/c1004-40748186.html) | finance.people.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [人民网与润建股份达成战略合作](https://finance.people.com.cn/n1/2026/0626/c1004-40748270.html) | finance.people.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [国家能源局：聚焦“三个新”，加快研究制定新型电网建设实施方案](https://finance.people.com.cn/n1/2026/0626/c1004-40748264.html) | finance.people.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [国家能源局：迎峰度夏保供工作已全面展开，全国电力供需总体平衡](https://finance.people.com.cn/n1/2026/0626/c1004-40748258.html) | finance.people.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [到2030年，我国将初步建成清洁低碳安全高效的新型能源体系](https://finance.people.com.cn/n1/2026/0626/c1004-40748253.html) | finance.people.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [分类分级、繁简分流 提升反垄断审查效能](https://finance.people.com.cn/n1/2026/0626/c1004-40748290.html) | finance.people.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [就业优先，未来5年怎么干？（锐财经）](https://finance.people.com.cn/n1/2026/0620/c1004-40743760.html) | finance.people.com.cn | 2026-06-20 | ➖ | Not evaluated in the latest brief run |
 | [下半年人民币汇率升值空间几何？](https://finance.sina.com.cn/roll/2026-06-25/doc-iniepvfn6025566.shtml) | finance.sina.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [鹰派还是鸽派？评判沃什政策立场尚为时过早](https://finance.sina.com.cn/money/nmetal/hjzx/2026-06-25/doc-iniepvfn6016153.shtml) | finance.sina.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [做多资金回流科技成长 A股缩量结构性修复行情特征显著](https://finance.sina.com.cn/money/gzqh/futuresyspzx/2026-06-25/doc-iniepzpk5929870.shtml) | finance.sina.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
@@ -326,16 +353,16 @@ _In Report? verdicts reflect the brief run of **2026-06-26** (generated 2026-06-
 | [华恒生物董事长、实际控制人郭恒华因涉嫌非法吸收公众存款罪被刑拘，公司叫停港股上市](https://finance.sina.com.cn/jjxw/2026-06-25/doc-inieqnch2616635.shtml) | finance.sina.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [林俊杰、薛之谦、朴树背后公司赴港IPO：和某艺人合作，两年支付超6.8亿元](https://finance.sina.com.cn/jjxw/2026-06-25/doc-iniepvfq2785202.shtml) | finance.sina.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [科技股热潮下私募业绩分化 宁泉、半夏回应净值回撤](https://finance.sina.com.cn/jjxw/2026-06-25/doc-iniepvfq2810357.shtml) | finance.sina.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
-| [保证金最高上调至140%！多家银行收紧、停办个人炒金业务](https://finance.sina.com.cn/jinrong/yh/2026-06-24/doc-iniepkrp8176997.shtml) | finance.sina.com.cn | 2026-06-24 | ❌ | Excluded: already reported in a recent brief ("Gold Price Falls Below $4,000; Banks Tighten Precious Metals Business") |
+| [保证金最高上调至140%！多家银行收紧、停办个人炒金业务](https://finance.sina.com.cn/jinrong/yh/2026-06-24/doc-iniepkrp8176997.shtml) | finance.sina.com.cn | 2026-06-24 | ❌ | Excluded: already reported in a recent brief ("Multiple banks tighten personal precious metals business, suspend agents and raise margin ") |
 | [国际金融市场早知道：6月25日](https://finance.sina.com.cn/money/bond/2026-06-25/doc-inieqnce5806623.shtml) | finance.sina.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
-| [四大证券报头版头条内容精华摘要](https://finance.sina.com.cn/stock/y/2026-06-25/doc-inieqnaz7840857.shtml) | finance.sina.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
+| [四大证券报头版头条内容精华摘要](https://finance.sina.com.cn/stock/y/2026-06-25/doc-inieqnaz7840857.shtml) | finance.sina.com.cn | 2026-06-25 | ➖ | Not evaluated in the latest brief run |
 | [美光科技股价大涨10% 营收翻四倍 内存供应紧缺导致价格飙升](https://finance.sina.com.cn/stock/usstock/c/2026-06-25/doc-iniepzpf7995790.shtml) | finance.sina.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [美光科技第三财季营收414.6亿美元，净利润282.4亿美元](https://finance.sina.com.cn/jjxw/2026-06-25/doc-inieqnaz7818119.shtml) | finance.sina.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [总经理转任常务副总 汉马科技管理层再现更迭](https://finance.sina.com.cn/roll/2026-06-26/doc-inieryeq2311572.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
 | [福莱蒽特回应股价异动：生产成本等无大幅波动，采购IT设备、服务器事项正常推进](https://finance.sina.com.cn/roll/2026-06-25/doc-inieryen5529628.shtml) | finance.sina.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [“种草帝国”秘密赴港上市？小红书终于敲门](https://finance.sina.com.cn/wm/2026-06-24/doc-inienawk3129915.shtml) | finance.sina.com.cn | 2026-06-24 | ❌ | Not selected: ranked below today's top stories |
-| [估值最高达5亿元 *ST帅电拟现金收购惠嘉科技100%股权 公司股价出现异常波动](https://finance.sina.com.cn/roll/2026-06-25/doc-iniertwq5635964.shtml) | finance.sina.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
-| [铜关税，重要时点临近！AI算力金属再迎变局](https://finance.sina.com.cn/wm/2026-06-25/doc-iniertwm7701769.shtml) | finance.sina.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
+| [估值最高达5亿元 *ST帅电拟现金收购惠嘉科技100%股权 公司股价出现异常波动](https://finance.sina.com.cn/roll/2026-06-25/doc-iniertwq5635964.shtml) | finance.sina.com.cn | 2026-06-25 | ✅ | In report — Company: cited source for "*ST ShuaiDian to acquire 100% of Huijia Technology for cash" |
+| [铜关税，重要时点临近！AI算力金属再迎变局](https://finance.sina.com.cn/wm/2026-06-25/doc-iniertwm7701769.shtml) | finance.sina.com.cn | 2026-06-25 | ➖ | Not evaluated in the latest brief run |
 | [深夜，直线跳水！科技巨头，突传利空！](https://finance.sina.com.cn/wm/2026-06-25/doc-iniertwk0924685.shtml) | finance.sina.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [道指深夜大涨超550点，存储芯片爆发，美光科技大涨11%，科技七巨头全线下挫](https://finance.sina.com.cn/wm/2026-06-25/doc-inieryei7575100.shtml) | finance.sina.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [港股收评：恒指跌1.43% 科指跌1.63% 科网股、黄金股普跌 内银股承压 芯片股逆势走强](https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-06-25/doc-inierihq0937872.shtml) | finance.sina.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
@@ -390,9 +417,9 @@ _In Report? verdicts reflect the brief run of **2026-06-26** (generated 2026-06-
 | [国联安基金CIO空缺近三个月落定！技术老将王宏超接棒首席信息官](https://finance.sina.com.cn/stock/observe/2026-06-22/doc-iniehfpx9402188.shtml) | finance.sina.com.cn | 2026-06-22 | ➖ | Not evaluated in the latest brief run |
 | [视频/“宁泉睡了一个牛市!”继李蓓后，私募大佬杨东炮轰AI热门股：AI泡沫不敢再参与_新浪财经_新浪网](https://finance.sina.com.cn/money/smjj/smdt/2026-06-24/doc-inienpmw1609944.shtml) | finance.sina.com.cn | 2026-06-24 | ❌ | Not selected: ranked below today's top stories |
 | [隔夜逆回购操作月底将登场 未来政策利率将盯哪一个？](https://finance.sina.com.cn/jjxw/2026-06-25/doc-inieqwsu1072424.shtml) | finance.sina.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
-| [央行将于6月末增加隔夜逆回购操作品种，意味着什么？](https://finance.sina.com.cn/jjxw/2026-06-25/doc-inieqsme2589160.shtml) | finance.sina.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
-| [央行：将在6月29日、6月30日公开市场操作中增加隔夜逆回购操作品种](https://finance.sina.com.cn/jryx/bank/2026-06-25/doc-inieqskx7769781.shtml) | finance.sina.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
-| [央行今日开展5000亿元MLF操作](https://finance.sina.com.cn/jjxw/2026-06-25/doc-inieqnaz7850790.shtml) | finance.sina.com.cn | 2026-06-25 | ✅ | In report — Macro: cited source for "PBOC Conducts 500B Yuan MLF Operation, Net Injection of 200B Yuan" |
+| [央行将于6月末增加隔夜逆回购操作品种，意味着什么？](https://finance.sina.com.cn/jjxw/2026-06-25/doc-inieqsme2589160.shtml) | finance.sina.com.cn | 2026-06-25 | ✅ | In report — corroborating source for "PBOC to conduct overnight reverse repo operations at end of June" |
+| [央行：将在6月29日、6月30日公开市场操作中增加隔夜逆回购操作品种](https://finance.sina.com.cn/jryx/bank/2026-06-25/doc-inieqskx7769781.shtml) | finance.sina.com.cn | 2026-06-25 | ✅ | In report — Policy: cited source for "PBOC to conduct overnight reverse repo operations at end of June" |
+| [央行今日开展5000亿元MLF操作](https://finance.sina.com.cn/jjxw/2026-06-25/doc-inieqnaz7850790.shtml) | finance.sina.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [“小银行、大罚单”！500万以上大额罚单密集落地 多家区域银行被重罚](https://finance.sina.com.cn/money/bank/gsdt/2026-06-25/doc-inieqnce5794792.shtml) | finance.sina.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [人保寿险拟1元底价转让中美国际保险销售全部股权，受让方需代偿逾125万元欠薪等债务](https://finance.sina.com.cn/jjxw/2026-06-24/doc-iniepqxq6091307.shtml) | finance.sina.com.cn | 2026-06-24 | ❌ | Not selected: ranked below today's top stories |
 | [转让底价1元，人保寿险挂牌出清旗下保险销售公司全部股权，公司回应：战略性资产优化](https://finance.sina.com.cn/wm/2026-06-24/doc-iniepqxs2903591.shtml) | finance.sina.com.cn | 2026-06-24 | ❌ | Not selected: ranked below today's top stories |
@@ -413,102 +440,123 @@ _In Report? verdicts reflect the brief run of **2026-06-26** (generated 2026-06-
 | [尉迟平出任德邦基金董事长 公司治理架构持续完善](https://finance.sina.com.cn/money/fund/jjh/2026-06-21/doc-iniecryz8003711.shtml) | finance.sina.com.cn | 2026-06-21 | ➖ | Not evaluated in the latest brief run |
 | [ESG主题基金规模破万亿后，公募绿色投资下一步怎么走?](https://finance.sina.com.cn/money/fund/jjh/2026-06-18/doc-inicvmmv2268265.shtml) | finance.sina.com.cn | 2026-06-18 | ➖ | Not evaluated in the latest brief run |
 | [任鸿斌：培育壮大新兴产业、未来产业，推动全球产供链提质升级](https://finance.sina.com.cn/hy/hyjz/2026-06-22/doc-iniefuxw9084965.shtml) | finance.sina.com.cn | 2026-06-22 | ➖ | Not evaluated in the latest brief run |
-| [“算力金属”供需迎变局 美国市场囤货潮一触即发](https://finance.sina.com.cn/jjxw/2026-06-26/doc-iniesenf7527675.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
-| [大族激光拟斥资25.2亿元投建光纤项目，该业务去年亏损近7000万元且营收占比仅0.22%](https://finance.sina.com.cn/roll/2026-06-26/doc-inieryeq2324274.shtml) | finance.sina.com.cn | 2026-06-26 | ✅ | In report — Company: cited source for "Han's Laser Plans 2.52B Yuan Investment in Fiber Optic Project" |
+| [“算力金属”供需迎变局 美国市场囤货潮一触即发](https://finance.sina.com.cn/jjxw/2026-06-26/doc-iniesenf7527675.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [大族激光拟斥资25.2亿元投建光纤项目，该业务去年亏损近7000万元且营收占比仅0.22%](https://finance.sina.com.cn/roll/2026-06-26/doc-inieryeq2324274.shtml) | finance.sina.com.cn | 2026-06-26 | ✅ | In report (brief mention): "Han's Laser plans 2.52 billion yuan investment in fiber optic project despite recent losse" — full text not readable |
 | [苹果罕见上调Mac、iPad等多个产品类别价格 股价创逾一年最大跌幅](https://finance.sina.com.cn/stock/usstock/c/2026-06-26/doc-iniesenn2206059.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
 | [美国7年期国债中标收益率4.260% 与发行前交易水平相符](https://finance.sina.com.cn/stock/usstock/c/2026-06-26/doc-iniesene0731259.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
 | [6月26日收盘：美股三大指数收盘涨跌不一 纳指今年二月以来首次四连跌 非人工智能板块个股走强](https://finance.sina.com.cn/stock/usstock/c/2026-06-26/doc-inieskuh5385316.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
 | [6月26日美股成交额前20：苹果股价收盘下跌6.1% 创2025年4月以来最大跌幅](https://finance.sina.com.cn/stock/usstock/c/2026-06-26/doc-inieskua0677734.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
 | [6月26日隔夜要闻：黄金跌破4000美元 油价回吐战时涨幅 比特币跌破6万美元 非人工智能板块个股走强](https://finance.sina.com.cn/stock/usstock/c/2026-06-26/doc-iniesrae5291520.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
-| [美联储威廉姆斯“放鸽”：当前货币政策立场足以推动通胀回落至2%](https://finance.sina.com.cn/roll/2026-06-26/doc-iniesqzz7361447.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [美联储威廉姆斯“放鸽”：当前货币政策立场足以推动通胀回落至2%](https://finance.sina.com.cn/roll/2026-06-26/doc-iniesqzz7361447.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
 | [苹果调整Mac芯片战略 下一代高端芯片将直接跃迁至M7系列](https://finance.sina.com.cn/stock/usstock/c/2026-06-26/doc-iniesrah2055173.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
 | [报道：OpenAI 倾向推迟至明年上市](https://finance.sina.com.cn/stock/usstock/c/2026-06-26/doc-inieskua0676203.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
 | [纽约联储行长称利率处于良好位置 预计通胀到2028年达标](https://finance.sina.com.cn/stock/usstock/c/2026-06-26/doc-inieskuc7471639.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
 | [纽约汇市：美元在通胀数据公布后走软 日元继续承压](https://finance.sina.com.cn/stock/usstock/c/2026-06-26/doc-inieskuc7470798.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
 | [IMF：美国经济增长动能稳健 美联储维持利率不变是恰当之举](https://finance.sina.com.cn/roll/2026-06-26/doc-iniesene0737331.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
 | [美国债市：国债收盘涨跌互现 PCE数据温和后短端表现出色](https://finance.sina.com.cn/stock/usstock/c/2026-06-26/doc-inieskuc7470107.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
-| [黄金击穿4000美元 金融市场集体翻空](https://finance.sina.com.cn/roll/2026-06-26/doc-iniesrah2096602.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [上期能源推出20号胶期货跨境交割业务，选取泰国、马来西亚、印度尼西亚为境外交割地区](https://finance.sina.com.cn/money/future/fmnews/2026-06-26/doc-iniesqzz7423712.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [凌晨！科技巨头，全线大跌！美联储，重磅发声](https://finance.sina.com.cn/wm/2026-06-26/doc-iniesrae5330798.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [市场上演分化行情 科技股表现遥遥领先](https://finance.sina.com.cn/money/gzqh/futuresyspzx/2026-06-26/doc-iniesenf7540722.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [冰火两重天！龙头科技股普跌，苹果重挫6.12%，半导体股飙高，美光暴涨15.81%，中概股走低，国际油价上涨](https://finance.sina.com.cn/roll/2026-06-26/doc-iniesrae5302390.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [布局高端光纤产业，002008出手](https://finance.sina.com.cn/wm/2026-06-26/doc-iniesqzz7389072.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [资金面紧张情绪缓解 债市全线走强](https://finance.sina.com.cn/china/2026-06-26/doc-iniesenf7540467.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [三星据悉将于下周宣布在韩国投资1000万亿韩元计划](https://finance.sina.com.cn/stock/usstock/c/2026-06-26/doc-iniesrah2119156.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [黄金击穿4000美元 金融市场集体翻空](https://finance.sina.com.cn/roll/2026-06-26/doc-iniesrah2096602.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [上期能源推出20号胶期货跨境交割业务，选取泰国、马来西亚、印度尼西亚为境外交割地区](https://finance.sina.com.cn/money/future/fmnews/2026-06-26/doc-iniesqzz7423712.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [凌晨！科技巨头，全线大跌！美联储，重磅发声](https://finance.sina.com.cn/wm/2026-06-26/doc-iniesrae5330798.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [市场上演分化行情 科技股表现遥遥领先](https://finance.sina.com.cn/money/gzqh/futuresyspzx/2026-06-26/doc-iniesenf7540722.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [冰火两重天！龙头科技股普跌，苹果重挫6.12%，半导体股飙高，美光暴涨15.81%，中概股走低，国际油价上涨](https://finance.sina.com.cn/roll/2026-06-26/doc-iniesrae5302390.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [布局高端光纤产业，002008出手](https://finance.sina.com.cn/wm/2026-06-26/doc-iniesqzz7389072.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [资金面紧张情绪缓解 债市全线走强](https://finance.sina.com.cn/china/2026-06-26/doc-iniesenf7540467.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [三星据悉将于下周宣布在韩国投资1000万亿韩元计划](https://finance.sina.com.cn/stock/usstock/c/2026-06-26/doc-iniesrah2119156.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
 | [40家A股公司提示风险！回应存储、MLCC等多个热点事项](https://finance.sina.com.cn/roll/2026-06-26/doc-inieskuh5400241.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [美光业绩大超预期大涨15%，带动多只芯片股走强](https://finance.sina.com.cn/world/2026-06-26/doc-inieskua0668699.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [一天12家！IPO受理步入高峰期，多家企业“二进宫”](https://finance.sina.com.cn/roll/2026-06-25/doc-inierpqs5650277.shtml) | finance.sina.com.cn | 2026-06-25 | ➖ | Not evaluated in the latest brief run |
-| [港股IPO招股书乱象调查](https://finance.sina.com.cn/wm/2026-06-26/doc-iniesvke2019079.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [坐不住了？坚守茅台的前千亿基金经理疑似调仓 10天收复近一年跌幅](https://finance.sina.com.cn/roll/2026-06-25/doc-inieryen5529854.shtml) | finance.sina.com.cn | 2026-06-25 | ➖ | Not evaluated in the latest brief run |
-| [金融“反内卷”迈向制度化！吉林要求按季定期通报，银行人好日子要来了？](https://finance.sina.com.cn/jinrong/yh/2026-06-25/doc-inierpqn0899793.shtml) | finance.sina.com.cn | 2026-06-25 | ➖ | Not evaluated in the latest brief run |
-| [国际金融市场早知道：6月26日](https://finance.sina.com.cn/money/bond/2026-06-26/doc-iniesvka5228966.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [四大证券报头版头条内容精华摘要](https://finance.sina.com.cn/stock/y/2026-06-26/doc-iniesvka5226613.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [外资调仓 摩根士丹利、高盛增持A股名单曝光](https://finance.sina.com.cn/roll/2026-06-26/doc-iniesrae5320473.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [多家公司发布业绩大幅预增公告 A股中报行情要来？](https://finance.sina.com.cn/stock/relnews/cn/2026-06-26/doc-iniertwm7698502.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [6月26日投资避雷针：5月7日至6月25日累计上涨277.95% MLCC大牛股今起停牌核查](https://finance.sina.com.cn/roll/2026-06-26/doc-iniesvke2015338.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [中创环保42岁董事长被刑拘 掌舵四年累亏4.72亿负债率103%](https://finance.sina.com.cn/roll/2026-06-26/doc-iniesvke2003233.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [劲嘉股份计提减值后仍存3.73亿商誉 控股股东3500万股被拍卖控制权不稳](https://finance.sina.com.cn/roll/2026-06-26/doc-iniesvke2003097.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [财说/ 资本运作暗藏结构性风险，安孚科技的钱去哪了？_新浪财经_新浪网](https://finance.sina.com.cn/jjxw/2026-06-26/doc-iniesvka5218417.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [美光业绩大超预期大涨15%，带动多只芯片股走强](https://finance.sina.com.cn/world/2026-06-26/doc-inieskua0668699.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [一天12家！IPO受理步入高峰期，多家企业“二进宫”](https://finance.sina.com.cn/roll/2026-06-25/doc-inierpqs5650277.shtml) | finance.sina.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
+| [港股IPO招股书乱象调查](https://finance.sina.com.cn/wm/2026-06-26/doc-iniesvke2019079.shtml) | finance.sina.com.cn | 2026-06-26 | ✅ | In report — Markets: cited source for "Investigation reveals rampant advertising-style packaging and AI hype in HK IPO prospectus" |
+| [坐不住了？坚守茅台的前千亿基金经理疑似调仓 10天收复近一年跌幅](https://finance.sina.com.cn/roll/2026-06-25/doc-inieryen5529854.shtml) | finance.sina.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
+| [金融“反内卷”迈向制度化！吉林要求按季定期通报，银行人好日子要来了？](https://finance.sina.com.cn/jinrong/yh/2026-06-25/doc-inierpqn0899793.shtml) | finance.sina.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
+| [国际金融市场早知道：6月26日](https://finance.sina.com.cn/money/bond/2026-06-26/doc-iniesvka5228966.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [四大证券报头版头条内容精华摘要](https://finance.sina.com.cn/stock/y/2026-06-26/doc-iniesvka5226613.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [外资调仓 摩根士丹利、高盛增持A股名单曝光](https://finance.sina.com.cn/roll/2026-06-26/doc-iniesrae5320473.shtml) | finance.sina.com.cn | 2026-06-26 | ✅ | In report — Markets: cited source for "Foreign funds rebalance: Morgan Stanley and Goldman increase A-share holdings" |
+| [多家公司发布业绩大幅预增公告 A股中报行情要来？](https://finance.sina.com.cn/stock/relnews/cn/2026-06-26/doc-iniertwm7698502.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [6月26日投资避雷针：5月7日至6月25日累计上涨277.95% MLCC大牛股今起停牌核查](https://finance.sina.com.cn/roll/2026-06-26/doc-iniesvke2015338.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [中创环保42岁董事长被刑拘 掌舵四年累亏4.72亿负债率103%](https://finance.sina.com.cn/roll/2026-06-26/doc-iniesvke2003233.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [劲嘉股份计提减值后仍存3.73亿商誉 控股股东3500万股被拍卖控制权不稳](https://finance.sina.com.cn/roll/2026-06-26/doc-iniesvke2003097.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [财说/ 资本运作暗藏结构性风险，安孚科技的钱去哪了？_新浪财经_新浪网](https://finance.sina.com.cn/jjxw/2026-06-26/doc-iniesvka5218417.shtml) | finance.sina.com.cn | 2026-06-26 | ✅ | In report (brief mention): "Analysis: Capital operations hide structural risks at Anfu Technology" — full text not readable |
 | [汇率波动考验东南亚经济韧性（经济透视）](https://finance.sina.com.cn/jjxw/2026-06-26/doc-iniesrah2117578.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [“算力金属”供需迎变局 美国市场囤货潮一触即发](https://finance.sina.com.cn/jjxw/2026-06-26/doc-iniesrah2117706.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [“算力金属”供需迎变局 美国市场囤货潮一触即发](https://finance.sina.com.cn/jjxw/2026-06-26/doc-iniesrah2117706.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
 | [IPO雷达 /资产负债率超66%，轴承龙头人本股份380亿估值梦能否实现？_新浪财经_新浪网](https://finance.sina.com.cn/jjxw/2026-06-26/doc-iniesrah2110708.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [美股芯片股狂飙，闪迪涨22%，美光涨超15%创新高，苹果一夜蒸发1.8万亿元，比特币跌破6万美元](https://finance.sina.com.cn/wm/2026-06-26/doc-iniesrah2099209.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [快讯：恒指低开0.54% 科指跌0.78% 科网股普跌 黄金股回暖 今日6只新股上市 科拓股份首日高开逾178%](https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-06-26/doc-iniesviw0581572.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [美股芯片股狂飙，闪迪涨22%，美光涨超15%创新高，苹果一夜蒸发1.8万亿元，比特币跌破6万美元](https://finance.sina.com.cn/wm/2026-06-26/doc-iniesrah2099209.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [快讯：恒指低开0.54% 科指跌0.78% 科网股普跌 黄金股回暖 今日6只新股上市 科拓股份首日高开逾178%](https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-06-26/doc-iniesviw0581572.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
 | [港股早报｜两部门印发新型能源体系建设十五五规划 热门中概股普跌_新浪财经_新浪网](https://finance.sina.com.cn/roll/2026-06-26/doc-iniesrah2097723.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
 | [港股早报｜五部门启动工业5G独立专网试点 热门中概股普跌_新浪财经_新浪网](https://finance.sina.com.cn/roll/2026-06-25/doc-inieqnay1047683.shtml) | finance.sina.com.cn | 2026-06-25 | ➖ | Not evaluated in the latest brief run |
-| [硬科技IPO红利释放 券商投行业绩将延续高增长](https://finance.sina.com.cn/jjxw/2026-06-25/doc-iniepvfn6034541.shtml) | finance.sina.com.cn | 2026-06-25 | ➖ | Not evaluated in the latest brief run |
+| [硬科技IPO红利释放 券商投行业绩将延续高增长](https://finance.sina.com.cn/jjxw/2026-06-25/doc-iniepvfn6034541.shtml) | finance.sina.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [客户为本 公募基金向“新”进行时](https://finance.sina.com.cn/jjxw/2026-06-26/doc-iniesenf7525801.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [热门QDII基金持续压降申购限额](https://finance.sina.com.cn/jjxw/2026-06-26/doc-iniesrah2087029.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [罗志恒：新旧动能转换的区域图景](https://finance.sina.com.cn/zl/china/2026-06-26/zl-iniesvix7351865.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [热门QDII基金持续压降申购限额](https://finance.sina.com.cn/jjxw/2026-06-26/doc-iniesrah2087029.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [罗志恒：新旧动能转换的区域图景](https://finance.sina.com.cn/zl/china/2026-06-26/zl-iniesvix7351865.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
 | [银行理财资金加速布局REITs “固收+”策略迎来“新底仓”](https://finance.sina.com.cn/stock/relnews/cn/2026-06-26/doc-iniesenk5428177.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
 | [财经早报：一天12家！IPO受理步入高峰期 苹果官宣一大堆产品涨价丨2026年6月26日](https://finance.sina.com.cn/stock/y/2026-06-26/doc-iniesvka5219438.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [苹果官宣涨价，微软也要涨！股价齐跌](https://finance.sina.com.cn/wm/2026-06-26/doc-iniesvke1999339.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [DeepSeek 开启“倍增”式扩招：剑指 AI 搜索与数据壁垒，大模型商业化决战打响](https://finance.sina.com.cn/roll/2026-06-26/doc-inieskua0661948.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [联想集团CFO：3](https://finance.sina.com.cn/tech/2026-06-26/doc-iniesviw0584257.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [受中东冲突影响，日本东京6月核心通胀率加速上升](https://finance.sina.com.cn/stock/usstock/c/2026-06-26/doc-iniesrah2121354.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [英国第一季度食品饮料出口降至十年来最低](https://finance.sina.com.cn/stock/usstock/c/2026-06-26/doc-iniesrah2113657.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [操盘必读：影响股市利好或利空消息](https://finance.sina.com.cn/stock/cpbd/2026-06-26/doc-iniesviw0532715.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [股海导航_2026年6月26日_沪深股市公告与交易提示/股海导航_新浪财经_新浪网](https://finance.sina.com.cn/stock/s/2026-06-26/doc-iniesvka5228808.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [苹果官宣涨价，微软也要涨！股价齐跌](https://finance.sina.com.cn/wm/2026-06-26/doc-iniesvke1999339.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [DeepSeek 开启“倍增”式扩招：剑指 AI 搜索与数据壁垒，大模型商业化决战打响](https://finance.sina.com.cn/roll/2026-06-26/doc-inieskua0661948.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [联想集团CFO：3](https://finance.sina.com.cn/tech/2026-06-26/doc-iniesviw0584257.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [受中东冲突影响，日本东京6月核心通胀率加速上升](https://finance.sina.com.cn/stock/usstock/c/2026-06-26/doc-iniesrah2121354.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [英国第一季度食品饮料出口降至十年来最低](https://finance.sina.com.cn/stock/usstock/c/2026-06-26/doc-iniesrah2113657.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [操盘必读：影响股市利好或利空消息](https://finance.sina.com.cn/stock/cpbd/2026-06-26/doc-iniesviw0532715.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [股海导航_2026年6月26日_沪深股市公告与交易提示/股海导航_新浪财经_新浪网](https://finance.sina.com.cn/stock/s/2026-06-26/doc-iniesvka5228808.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
 | [隔夜逆回购月底“首秀” 短端利率调控再添新工具](https://finance.sina.com.cn/roll/2026-06-26/doc-iniesrah2067877.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
 | [停办代理、上调保证金比例 多家银行收紧个人贵金属业务](https://finance.sina.com.cn/money/bank/gsdt/2026-06-26/doc-iniesenf7499550.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [贷款端“上金箍”存款端“勒裤带” 民营银行难题待解](https://finance.sina.com.cn/jjxw/2026-06-26/doc-iniesqzz7384828.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [银行、消金公司助贷余额增速不得高于自营贷款增速](https://finance.sina.com.cn/money/bank/bank_hydt/2026-06-25/doc-inierpqs5667150.shtml) | finance.sina.com.cn | 2026-06-25 | ➖ | Not evaluated in the latest brief run |
-| [富德生命人寿接连减持重庆银行H股股份 合并持股比例降至5%以下](https://finance.sina.com.cn/jjxw/2026-06-26/doc-iniesvke2051023.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [人民币兑美元中间价报6.8166，上调43点](https://finance.sina.com.cn/money/forex/rmb/2026-06-26/doc-iniesviw0576444.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [黄金熊市未完？资深交易员警告：金价或再跌10%，美元和美债才是赢家](https://finance.sina.com.cn/money/nmetal/hjfx/2026-06-26/doc-iniesvix7316815.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [东京通胀加速 对日本央行进一步加息构成支撑](https://finance.sina.com.cn/stock/usstock/c/2026-06-26/doc-iniesrah2118744.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [【黄金收评】市场害怕的一幕没有发生！黄金“大变脸” 金价大涨近28美元](https://finance.sina.com.cn/money/nmetal/hjfx/2026-06-26/doc-iniesvka5259967.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [专注制造业，聚焦真成长，国泰成长启航来了！](https://finance.sina.com.cn/money/fund/jjh/2026-06-26/doc-iniesvke2038796.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [陈果最新发声：美股AI见顶 ≠ 中国股市见顶，A股此轮“信心重估牛”仍处于早期阶段，行情路还很长](https://finance.sina.com.cn/roll/2026-06-26/doc-inieszry5276446.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [投资者以创纪录速度加码美元多头押注](https://finance.sina.com.cn/stock/usstock/c/2026-06-26/doc-inieszrv7393848.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [2个月股价翻倍后，海伦司小酒馆丢了“中文名”](https://finance.sina.com.cn/roll/2026-06-26/doc-inieszry5323617.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [40家A股公司集中提示风险，回应存储、MLCC等热点概念炒作](https://finance.sina.com.cn/roll/2026-06-26/doc-inieszsa2095390.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [港股半导体核心权重股遭空头围剿 中芯国际卖空额飙升286%至13.53亿港元](https://finance.sina.com.cn/roll/2026-06-26/doc-inieszsa2095706.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [三星电气赴港IPO：跨界医疗商誉一次减值3.6亿 奥克斯郑坚江3年分红12亿](https://finance.sina.com.cn/stock/zqgd/2026-06-26/doc-inieszsa2073861.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [国际观察丨汇率跌向近40年低位 日本难破经济困局](https://finance.sina.com.cn/roll/2026-06-26/doc-inieszsa2045416.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [耐克官宣：CFO换人！高层持续换血，如何重新赢得中国市场？](https://finance.sina.com.cn/wm/2026-06-26/doc-inieszrv7346332.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [LABUBU发布新品遇冷！多款拆盒上市即“破发”，价格降幅超30%](https://finance.sina.com.cn/wm/2026-06-26/doc-inieszry5259069.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [港股午评：恒指跌1.87% 科指跌3.32% 科网股、芯片股低迷 科拓股份上市首日涨超195%](https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-06-26/doc-inieszrv7391181.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [港股低开低走 恒生科技指数跌超3% 恒指跌超2%](https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-06-26/doc-inieszry5231469.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [AI相关交易持续震荡，软银集团股价大跌](https://finance.sina.com.cn/stock/usstock/c/2026-06-26/doc-inieszru0611709.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [韩股一度暴跌8%暂停交易 三星和SK海力士跌幅均逾9%](https://finance.sina.com.cn/stock/usstock/c/2026-06-26/doc-inieszrv7374846.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [蔚来李斌：2030年纯电车型在中国新车市场渗透率将超80%](https://finance.sina.com.cn/tech/2026-06-26/doc-inieszrv7368912.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [汇率跌向近40年低位 日本难破经济困局](https://finance.sina.com.cn/jjxw/2026-06-26/doc-inieszry5274755.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [上市首日猛涨近400%，全球面板龙头N惠科触发二次临停](https://finance.sina.com.cn/wm/2026-06-26/doc-iniesvke2099163.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [每10股派280.24元，贵州茅台今日分红](https://finance.sina.com.cn/wm/2026-06-26/doc-inieszry5274066.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [五粮液股东大会最新动态：晚宴上了多种酒水、股东畅饮，伴手礼还有小酒礼盒](https://finance.sina.com.cn/chanjing/jync/2026-06-26/doc-iniesvix7392710.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [“木头姐”出售阿里巴巴股票](https://finance.sina.com.cn/stock/usstock/c/2026-06-26/doc-inieszru0566824.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [软银股价大跌 因OpenAI据报倾向于推迟上市](https://finance.sina.com.cn/stock/usstock/c/2026-06-26/doc-inieszrv7306117.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [韩国总统政策室长暗示下周将公布重大企业投资计划](https://finance.sina.com.cn/stock/usstock/c/2026-06-26/doc-inieszrv7299694.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [日本财相表示在进行投资的同时将维持财政纪律](https://finance.sina.com.cn/stock/usstock/c/2026-06-26/doc-inieszsa1988401.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [嘉实基金副总经理程剑因工作职责调整离任](https://finance.sina.com.cn/stock/observe/2026-06-26/doc-inieszsa2036248.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [贷款端“上金箍”存款端“勒裤带” 民营银行难题待解](https://finance.sina.com.cn/jjxw/2026-06-26/doc-iniesqzz7384828.shtml) | finance.sina.com.cn | 2026-06-26 | ✅ | In report — Company: cited source for "Private banks face dual pressure on lending and deposits" |
+| [银行、消金公司助贷余额增速不得高于自营贷款增速](https://finance.sina.com.cn/money/bank/bank_hydt/2026-06-25/doc-inierpqs5667150.shtml) | finance.sina.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
+| [富德生命人寿接连减持重庆银行H股股份 合并持股比例降至5%以下](https://finance.sina.com.cn/jjxw/2026-06-26/doc-iniesvke2051023.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [人民币兑美元中间价报6.8166，上调43点](https://finance.sina.com.cn/money/forex/rmb/2026-06-26/doc-iniesviw0576444.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [黄金熊市未完？资深交易员警告：金价或再跌10%，美元和美债才是赢家](https://finance.sina.com.cn/money/nmetal/hjfx/2026-06-26/doc-iniesvix7316815.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [东京通胀加速 对日本央行进一步加息构成支撑](https://finance.sina.com.cn/stock/usstock/c/2026-06-26/doc-iniesrah2118744.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [【黄金收评】市场害怕的一幕没有发生！黄金“大变脸” 金价大涨近28美元](https://finance.sina.com.cn/money/nmetal/hjfx/2026-06-26/doc-iniesvka5259967.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [专注制造业，聚焦真成长，国泰成长启航来了！](https://finance.sina.com.cn/money/fund/jjh/2026-06-26/doc-iniesvke2038796.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [陈果最新发声：美股AI见顶 ≠ 中国股市见顶，A股此轮“信心重估牛”仍处于早期阶段，行情路还很长](https://finance.sina.com.cn/roll/2026-06-26/doc-inieszry5276446.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [投资者以创纪录速度加码美元多头押注](https://finance.sina.com.cn/stock/usstock/c/2026-06-26/doc-inieszrv7393848.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [2个月股价翻倍后，海伦司小酒馆丢了“中文名”](https://finance.sina.com.cn/roll/2026-06-26/doc-inieszry5323617.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [40家A股公司集中提示风险，回应存储、MLCC等热点概念炒作](https://finance.sina.com.cn/roll/2026-06-26/doc-inieszsa2095390.shtml) | finance.sina.com.cn | 2026-06-26 | ✅ | In report — Markets: cited source for "40 A-share companies issue risk warnings on storage, MLCC and other hot topics" |
+| [港股半导体核心权重股遭空头围剿 中芯国际卖空额飙升286%至13.53亿港元](https://finance.sina.com.cn/roll/2026-06-26/doc-inieszsa2095706.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [三星电气赴港IPO：跨界医疗商誉一次减值3.6亿 奥克斯郑坚江3年分红12亿](https://finance.sina.com.cn/stock/zqgd/2026-06-26/doc-inieszsa2073861.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [国际观察丨汇率跌向近40年低位 日本难破经济困局](https://finance.sina.com.cn/roll/2026-06-26/doc-inieszsa2045416.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [耐克官宣：CFO换人！高层持续换血，如何重新赢得中国市场？](https://finance.sina.com.cn/wm/2026-06-26/doc-inieszrv7346332.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [LABUBU发布新品遇冷！多款拆盒上市即“破发”，价格降幅超30%](https://finance.sina.com.cn/wm/2026-06-26/doc-inieszry5259069.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [港股午评：恒指跌1.87% 科指跌3.32% 科网股、芯片股低迷 科拓股份上市首日涨超195%](https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-06-26/doc-inieszrv7391181.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [港股低开低走 恒生科技指数跌超3% 恒指跌超2%](https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-06-26/doc-inieszry5231469.shtml) | finance.sina.com.cn | 2026-06-26 | ✅ | In report — Markets: cited source for "Hong Kong stocks open sharply lower, Hang Seng Tech drops over 3%" |
+| [AI相关交易持续震荡，软银集团股价大跌](https://finance.sina.com.cn/stock/usstock/c/2026-06-26/doc-inieszru0611709.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [韩股一度暴跌8%暂停交易 三星和SK海力士跌幅均逾9%](https://finance.sina.com.cn/stock/usstock/c/2026-06-26/doc-inieszrv7374846.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [蔚来李斌：2030年纯电车型在中国新车市场渗透率将超80%](https://finance.sina.com.cn/tech/2026-06-26/doc-inieszrv7368912.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [汇率跌向近40年低位 日本难破经济困局](https://finance.sina.com.cn/jjxw/2026-06-26/doc-inieszry5274755.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [上市首日猛涨近400%，全球面板龙头N惠科触发二次临停](https://finance.sina.com.cn/wm/2026-06-26/doc-iniesvke2099163.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [每10股派280.24元，贵州茅台今日分红](https://finance.sina.com.cn/wm/2026-06-26/doc-inieszry5274066.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [五粮液股东大会最新动态：晚宴上了多种酒水、股东畅饮，伴手礼还有小酒礼盒](https://finance.sina.com.cn/chanjing/jync/2026-06-26/doc-iniesvix7392710.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [“木头姐”出售阿里巴巴股票](https://finance.sina.com.cn/stock/usstock/c/2026-06-26/doc-inieszru0566824.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [软银股价大跌 因OpenAI据报倾向于推迟上市](https://finance.sina.com.cn/stock/usstock/c/2026-06-26/doc-inieszrv7306117.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [韩国总统政策室长暗示下周将公布重大企业投资计划](https://finance.sina.com.cn/stock/usstock/c/2026-06-26/doc-inieszrv7299694.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [日本财相表示在进行投资的同时将维持财政纪律](https://finance.sina.com.cn/stock/usstock/c/2026-06-26/doc-inieszsa1988401.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [嘉实基金副总经理程剑因工作职责调整离任](https://finance.sina.com.cn/stock/observe/2026-06-26/doc-inieszsa2036248.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
 | [规模将破40万亿元 公募基金亟待从“量升”到“质胜”](https://finance.sina.com.cn/jjxw/2026-06-26/doc-inieskuc7428471.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [央行宣布将增加隔夜逆回购操作品种 不断完善短端利率调控机制](https://finance.sina.com.cn/money/bank/bank_hydt/2026-06-26/doc-inieszry5232160.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [6-7月蛋鸡养殖盈利全景透视：高利润窗口与盈利收窄的周期切换_新浪财经_新浪网](https://finance.sina.com.cn/money/future/2026-06-26/doc-inieszrv7340639.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [生猪企业新设产能调减目标 时限提前](https://finance.sina.com.cn/money/future/2026-06-26/doc-inieszry5260421.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [央行宣布将增加隔夜逆回购操作品种 不断完善短端利率调控机制](https://finance.sina.com.cn/money/bank/bank_hydt/2026-06-26/doc-inieszry5232160.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [6-7月蛋鸡养殖盈利全景透视：高利润窗口与盈利收窄的周期切换_新浪财经_新浪网](https://finance.sina.com.cn/money/future/2026-06-26/doc-inieszrv7340639.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [生猪企业新设产能调减目标 时限提前](https://finance.sina.com.cn/money/future/2026-06-26/doc-inieszry5260421.shtml) | finance.sina.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [超20万亿投资！国家能源局详解“十五五”时期新型能源体系建设](https://finance.sina.com.cn/jjxw/2026-06-26/doc-inietfxy1986136.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [*ST帅电上月被警示 拟现金买估值最高5亿标的股价跌停](https://finance.sina.com.cn/jjxw/2026-06-26/doc-inietfxw5266667.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [黄金跌到不敢买！进店询价者多但成交较少，银行先坐不住了：停办！](https://finance.sina.com.cn/jjxw/2026-06-26/doc-inietfxt7336409.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [追债逾3亿元，光大银行起诉新纶新材，七家子公司同列被告](https://finance.sina.com.cn/roll/2026-06-26/doc-inietfxt7346375.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [苹果、微软接连官宣涨价，国内厂商怎么说？联想：内存市场的变化“前所未有”，已锁定充足供应](https://finance.sina.com.cn/wm/2026-06-26/doc-inietfxs0554444.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [4张图拆解急涨急跌的韩国股市：两只股的狂欢和全市场的不安](https://finance.sina.com.cn/jjxw/2026-06-26/doc-inietfxy2016929.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [华夏基金领跑公募REITs赛道：19只产品、445亿市值 市场份额超两成](https://finance.sina.com.cn/stock/observe/2026-06-26/doc-inietfxs0567095.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [欧洲央行放宽银行报告义务，降低治理预期](https://finance.sina.com.cn/stock/usstock/c/2026-06-26/doc-inietnfu5168171.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [金融支持科技自立自强的国际经验](https://finance.sina.com.cn/zl/china/2026-06-26/zl-inietfxt7344187.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [三星电气赴港IPO：双主业承压靠投资收益撑场面 医保控费下商誉减值风险或尚未出清](https://finance.sina.com.cn/stock/observe/2026-06-26/doc-inietnfw1970451.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [知易生物赴港 IPO：单药押注、持续亏损困局待解 商业化面临生产、审批、市场三重壁垒](https://finance.sina.com.cn/stock/observe/2026-06-26/doc-inietnfq0503369.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [中国创新药抢占全球半壁江山：出海产业价值全面释放 高退货、低兑现、同质化困局显现](https://finance.sina.com.cn/stock/observe/2026-06-26/doc-inietnfw1966527.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [XTransfer赴港上市：高毛利低变现、“躺吃利差”暗藏风险 能否撑起30亿美元估值？](https://finance.sina.com.cn/stock/observe/2026-06-26/doc-inietnfw1930119.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [丰宜科技赴港上市：打破无人零售亏损魔咒？ VC/PE持股超56%抛压悬顶](https://finance.sina.com.cn/stock/observe/2026-06-26/doc-inietfxw5272321.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [“自研不是为了降本！”理想汽车刘立国回应动力电池品牌争议：无论由谁生产，责任均由理想“兜底”](https://finance.sina.com.cn/roll/2026-06-26/doc-inietfxw5269165.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [“做宽赛道 聚势普及”](https://finance.sina.com.cn/tech/mobile/n/n/2026-06-26/doc-inietfxs0538704.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [全球首个自动驾驶系统技术法规获批发布 10只概念股获融资大幅净买入](https://finance.sina.com.cn/jjxw/2026-06-26/doc-inietfxw5220034.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [五粮液回应“股东大会提供大量酒水”](https://finance.sina.com.cn/chanjing/jync/2026-06-26/doc-inietfxs0585083.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [金融科技独角兽Airwallex完成一轮3.2亿美元融资，估值达110亿美元](https://finance.sina.com.cn/stock/usstock/c/2026-06-26/doc-inietfxw5222126.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [国家税务总局推出集团企业“税收贡献账单”](https://finance.sina.com.cn/jjxw/2026-06-26/doc-inietfxt7299649.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [德银：美国PCE数据令市场削减美联储加息押注](https://finance.sina.com.cn/stock/bxjj/2026-06-26/doc-inietnfw1926628.shtml) | finance.sina.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
 | [大北农：构建种业、饲料、生猪养殖等协同产业链，通过技术升级与精细化管理降低成本，提升核心竞争力](https://industry.caijing.com.cn/20260625/5167329.shtml) | industry.caijing.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [浙农股份：已累计回购公司股份1055.18万股](https://industry.caijing.com.cn/20260625/5167327.shtml) | industry.caijing.com.cn | 2026-06-24 | ❌ | Not selected: ranked below today's top stories |
-| [牧原股份：部分董事及高管拟合计以4亿至5亿元增持公司股份](https://industry.caijing.com.cn/20260625/5167325.shtml) | industry.caijing.com.cn | 2026-06-26 | ✅ | In report — Company: cited source for "Muyuan Foods Executives Plan to Buy Up to 500M Yuan in Shares" |
+| [牧原股份：部分董事及高管拟合计以4亿至5亿元增持公司股份](https://industry.caijing.com.cn/20260625/5167325.shtml) | industry.caijing.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
 | [宝马下调2026年业绩预期，集团税前利润将大幅下跌](https://industry.caijing.com.cn/20260625/5167045.shtml) | industry.caijing.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
 | [透视链博会上的消费产业链：链主协同带动上游品质提升，AI+机器人体系加速智能化迈进](https://industry.caijing.com.cn/20260624/5167019.shtml) | industry.caijing.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
 | [牧原股份：当前养猪大模型建设还处初期发展阶段，将持续通过专业化训练对其完善升级](https://industry.caijing.com.cn/20260624/5166854.shtml) | industry.caijing.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
@@ -516,8 +564,10 @@ _In Report? verdicts reflect the brief run of **2026-06-26** (generated 2026-06-
 | [牧原股份：积极应对每一轮周期变化，通过建立成本优势来获取行业超额利润](https://industry.caijing.com.cn/20260624/5166845.shtml) | industry.caijing.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
 | [千禾味业：控股股东伍超群累计质押2.12亿股](https://industry.caijing.com.cn/20260625/5167274.shtml) | industry.caijing.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [存储涨价的荒诞现实：一块游戏机硬盘已能抵三台完整主机](https://industry.caijing.com.cn/20260618/5166032.shtml) | industry.caijing.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
-| [国投丰乐：拟以3376.48万元收购国投金种60%股权](https://industry.caijing.com.cn/20260626/5167420.shtml) | industry.caijing.com.cn | 2026-06-25 | ➖ | Not evaluated in the latest brief run |
-| [链博之约 当全球链主遇上中国“AI速度”](https://jingji.cctv.com/2026/06/26/ARTI8rgbQ7ncqiVc0hnZDf13260626.shtml) | jingji.cctv.com | 2026-06-26 | ✅ | In report — Trade: cited source for "Chain Expo Highlights Global Supply Chain Leaders Meeting China's AI Speed" |
+| [国投丰乐：拟以3376.48万元收购国投金种60%股权](https://industry.caijing.com.cn/20260626/5167420.shtml) | industry.caijing.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
+| [鸣帆“十五五”](https://industry.caijing.com.cn/20260626/5167522.shtml) | industry.caijing.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
+| [链博之约 当全球链主遇上中国“AI速度”](https://jingji.cctv.com/2026/06/26/ARTI8rgbQ7ncqiVc0hnZDf13260626.shtml) | jingji.cctv.com | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [波司登2025/26财年营收同比增长5.6%至约273.5亿元](https://life.caijing.com.cn/20260626/5167507.shtml) | life.caijing.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
 | [东方红老陈直播间](https://live.finance.sina.com.cn/bozhu/1877471117/168342) | live.finance.sina.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
 | [17家商业银行，共计发行9800亿元！](https://m.21jingji.com/article/20260625/herald/ef15aa07e092a56740a6ee15d192a215.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [中国人民银行行长潘功胜会见巴西财政部部长杜里甘](https://m.21jingji.com/article/20260625/herald/38dac49f0ebaafd2b07bb0777e2b3e33.html) | m.21jingji.com | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
@@ -525,12 +575,12 @@ _In Report? verdicts reflect the brief run of **2026-06-26** (generated 2026-06-
 | [什么是企业年金？离职了如何处理？](https://m.21jingji.com/article/20260625/herald/2c3a87f2562eb2db38bedd1748b2ed1e.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [隔夜逆回购上新、MLF加量2000亿续作，央行护航跨季资金面](https://m.21jingji.com/article/20260625/herald/aea178136acf4f8c8e7541cb22034c94.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [道指深夜大涨超550点，存储芯片爆发，美光科技大涨11%](https://m.21jingji.com/article/20260625/herald/9c4a5baa587658f82b48d53a6ccee62a.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
-| [基金自购大分化：有的半年翻倍，有的遗憾“卖飞”](https://m.21jingji.com/article/20260625/herald/3780381c0d56447f0d717620b6509c73.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [基金自购大分化：有的半年翻倍，有的遗憾“卖飞”](https://m.21jingji.com/article/20260625/herald/3780381c0d56447f0d717620b6509c73.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [中国硬科技赛道全球领跑，独角兽数量有望五年内破500家](https://m.21jingji.com/article/20260625/herald/d8bcef0b9b464e75302dcdfd1c531636.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [道指深夜大涨超550点，存储芯片爆发，美光科技大涨11%，科技七巨头全线下挫](https://m.21jingji.com/article/20260625/herald/f1965639baff9a31e620d5599bc9a91b.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [算力，首次纳入能源规划](https://m.21jingji.com/article/20260625/herald/f162e38bfc75eab87bcc8aff855aad0c.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [一边腰斩，一边暴涨40%！港股主题基金表现分化](https://m.21jingji.com/article/20260625/herald/2064805ce1eac38189ad0fe22240ea66.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
-| [商务部：截至6月推出重点外资项目500多个，总投资额超3000亿美元](https://m.21jingji.com/article/20260625/herald/bd4c698cb208f0085a98540979753336.html) | m.21jingji.com | 2026-06-25 | ✅ | In report — Policy: cited source for "Ministry of Commerce: Over 500 Key Foreign Investment Projects by June, Total Investment O" |
+| [商务部：截至6月推出重点外资项目500多个，总投资额超3000亿美元](https://m.21jingji.com/article/20260625/herald/bd4c698cb208f0085a98540979753336.html) | m.21jingji.com | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [锚定“十五五”新机遇，外资继续深耕中国市场](https://m.21jingji.com/article/20260625/herald/4dfbd9dd7b5f48807f2b61c95c3cd857.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [IBM推出全球首款亚纳米芯片技术](https://m.21jingji.com/article/20260625/herald/5865b9fe88bcbdc204a224a40fbeb732.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [苹果，股价跳水](https://m.21jingji.com/article/20260625/herald/40a551f73b2483b6a5158c4fafd0d338.html) | m.21jingji.com | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
@@ -542,66 +592,96 @@ _In Report? verdicts reflect the brief run of **2026-06-26** (generated 2026-06-
 | [21评论丨全球AI概念股有泡沫吗？](https://m.21jingji.com/article/20260626/fb057e6e2a75671b4d59fc64e215d444.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [21评论丨统筹考虑稳楼市、稳预期和稳消费](https://m.21jingji.com/article/20260626/f8ea983161f6764dabf68c4a2d944d1f.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [21社论丨激活汽车后市场万亿级潜在蓝海](https://m.21jingji.com/article/20260626/988d865d450be54c6cb8195bf3616c5d.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
-| [外资调仓 摩根士丹利、高盛增持A股名单曝光](https://m.21jingji.com/article/20260626/d33b13fc052c74928bd30d9b13e68e62.html) | m.21jingji.com | unknown | ✅ | In report — Markets: cited source for "Morgan Stanley and Goldman Sachs Increase A-Share Holdings, Revealed" |
-| [“母子市值倒挂” 谁导演了铜冠铜箔股价一年17倍神话？](https://m.21jingji.com/article/20260626/fa480c6201953fb2ce923149bd735252.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [外资调仓 摩根士丹利、高盛增持A股名单曝光](https://m.21jingji.com/article/20260626/d33b13fc052c74928bd30d9b13e68e62.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [“母子市值倒挂” 谁导演了铜冠铜箔股价一年17倍神话？](https://m.21jingji.com/article/20260626/fa480c6201953fb2ce923149bd735252.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [中国超算重回世界第一，说明什么？](https://m.21jingji.com/article/20260626/herald/24c8e36f3192d5208b9411ff5dd983d3.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [中方代表在人权理事会作共同发言 揭批以人权为借口滥施关税行径](https://m.21jingji.com/article/20260626/herald/6b9acfb61a56c6a3123aa464c8847bc4.html) | m.21jingji.com | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
 | [美最高法院裁决支持特朗普强硬移民政策](https://m.21jingji.com/article/20260626/herald/49062dffc904f391197c984b77794e9e.html) | m.21jingji.com | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
-| [DeepSeek计划所有部门扩招一倍，还开放一个特别岗位](https://m.21jingji.com/article/20260626/herald/5f8a04c4d792b92f2f05aa2144773272.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [DeepSeek计划所有部门扩招一倍，还开放一个特别岗位](https://m.21jingji.com/article/20260626/herald/5f8a04c4d792b92f2f05aa2144773272.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [每10股派280.24元，贵州茅台今日分红](https://m.21jingji.com/article/20260626/herald/893fb4d184e657cedbe6caf9d982e4b3.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [1000万亿韩元！三星重注高科技产业](https://m.21jingji.com/article/20260626/herald/d8f692a8ddc522d89bae9174db5b7786.html) | m.21jingji.com | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [卫星化学、惠泰医疗目标价涨幅超30%，泉阳泉等股获推荐](https://m.21jingji.com/article/20260626/herald/33bf4ca27bbaf9b40dcd6e16a9bc43c8.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [中国社会科学院学部委员蔡昉：积极应对人工智能对就业的冲击](https://m.21jingji.com/article/20260626/herald/5f132754ba767f430c24423d5876f726.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [苹果因内存短缺大幅涨价；商务部：中美双方同意成立贸易理事会丨盘前情报](https://m.21jingji.com/article/20260626/herald/3c0c62f0d5525f80fc6ac611e4f81fc2.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [嘉诚国际：收到广东证监局警示函丨A股公告避雷针](https://m.21jingji.com/article/20260626/herald/ec3bd7190336fe8e9a59749658c05905.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [利好出台，辐射千亿级产业！广东支持脑机接口纳入医保（附股）](https://m.21jingji.com/article/20260626/herald/6a61dc8b7ab49bb9da7d2b3f0308d0b6.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [铜关税，重要时点临近！AI算力金属再迎变局](https://m.21jingji.com/article/20260626/herald/2e0cfb34d1303b9bee35974be8e22c55.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [1000万亿韩元！三星重注高科技产业](https://m.21jingji.com/article/20260626/herald/d8f692a8ddc522d89bae9174db5b7786.html) | m.21jingji.com | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [卫星化学、惠泰医疗目标价涨幅超30%，泉阳泉等股获推荐](https://m.21jingji.com/article/20260626/herald/33bf4ca27bbaf9b40dcd6e16a9bc43c8.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [中国社会科学院学部委员蔡昉：积极应对人工智能对就业的冲击](https://m.21jingji.com/article/20260626/herald/5f132754ba767f430c24423d5876f726.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [苹果因内存短缺大幅涨价；商务部：中美双方同意成立贸易理事会丨盘前情报](https://m.21jingji.com/article/20260626/herald/3c0c62f0d5525f80fc6ac611e4f81fc2.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [嘉诚国际：收到广东证监局警示函丨A股公告避雷针](https://m.21jingji.com/article/20260626/herald/ec3bd7190336fe8e9a59749658c05905.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [利好出台，辐射千亿级产业！广东支持脑机接口纳入医保（附股）](https://m.21jingji.com/article/20260626/herald/6a61dc8b7ab49bb9da7d2b3f0308d0b6.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [铜关税，重要时点临近！AI算力金属再迎变局](https://m.21jingji.com/article/20260626/herald/2e0cfb34d1303b9bee35974be8e22c55.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [2026年新能源汽车下乡启动，覆盖155款车型](https://m.21jingji.com/article/20260626/herald/2f291581b5fe1ea1cbc2cb28822a48e6.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [生态环境部部长黄润秋在比利时出席第十一次中欧环境政策部长对话会](https://m.21jingji.com/article/20260626/herald/32345ca528d861009124b4309f43d501.html) | m.21jingji.com | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [科技部部长阴和俊：强化科技支撑民生福祉改善，推动科技创新和产业创新深度融合](https://m.21jingji.com/article/20260626/herald/6709ababa8bd7fc7a0a57c6d4082319b.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [水利部：加大试点应用场景建设和开放力度，强化水利科技成果示范应用](https://m.21jingji.com/article/20260626/herald/9590dbc9e783eb08e756b2a0f3b58b96.html) | m.21jingji.com | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [生态环境部部长黄润秋在比利时出席第十一次中欧环境政策部长对话会](https://m.21jingji.com/article/20260626/herald/32345ca528d861009124b4309f43d501.html) | m.21jingji.com | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [科技部部长阴和俊：强化科技支撑民生福祉改善，推动科技创新和产业创新深度融合](https://m.21jingji.com/article/20260626/herald/6709ababa8bd7fc7a0a57c6d4082319b.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [水利部：加大试点应用场景建设和开放力度，强化水利科技成果示范应用](https://m.21jingji.com/article/20260626/herald/9590dbc9e783eb08e756b2a0f3b58b96.html) | m.21jingji.com | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
 | [期货市场再迎里程碑！跨境交割业务来了](https://m.21jingji.com/article/20260626/herald/5e51373680b3e2428e20dd25d26b7d93.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [凌晨！科技巨头，全线大跌！美联储，重磅发声](https://m.21jingji.com/article/20260626/herald/fdcfe7932932437766773845b1ca1595.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [10派280.24元！A股龙头，今日分红](https://m.21jingji.com/article/20260626/herald/6486ea6e85b4898689ee095b785ad680.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [横琴合作区执委会机构改革落地！新设人才局](https://m.21jingji.com/article/20260626/herald/10a42748dd580819dbf65b1476c0441a.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [异动速递｜三大指数集体低开 - 21财经](https://m.21jingji.com/article/20260626/herald/1da9937af048f5df53746eee1634118e.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [华恒生物实控人郭恒华被刑拘；广东加码脑机接口发展](https://m.21jingji.com/article/20260626/herald/8f0e5005d909feb0fa85dbe767651d1d.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [银行AI员工月薪八千上岗：24小时无休，干不好直接“开除”](https://m.21jingji.com/article/20260626/herald/d23c98381601bc91cf79e9afcad768ba.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [中国人民银行决定授权南非标准银行有限公司和中国工商银行股份有限公司担任非洲人民币联合清算行](https://m.21jingji.com/article/20260626/herald/e1c1518eb8dcea7a64a5e8bfec82acbe.html) | m.21jingji.com | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [董秘江湖之有色金属行业：矿洞里的金领，资本市场的翻译官](https://m.21jingji.com/article/20260626/herald/7d200c1992b2c2f69f64e33cfc2322f2.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [在岸人民币升破6.8](https://m.21jingji.com/article/20260626/herald/8a1e91e0730ab2e87d6da3912aa67617.html) | m.21jingji.com | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [上半年全球IPO数据出炉：IPO发行提速，流动性盛宴还能持续多久？](https://m.21jingji.com/article/20260626/herald/1230d9b5fef42130a97a974c60a20812.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [期货市场再迎里程碑！跨境交割业务来了](https://m.21jingji.com/article/20260626/herald/d3dd9421073f07ca7767e71381699570.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [国家能源局：将强化算电协同部署](https://m.21jingji.com/article/20260626/herald/d4df0adbdecc43290e0d9b0c26fea6ee.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [10派280.24元！A股龙头，今日分红](https://m.21jingji.com/article/20260626/herald/6486ea6e85b4898689ee095b785ad680.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [横琴合作区执委会机构改革落地！新设人才局](https://m.21jingji.com/article/20260626/herald/10a42748dd580819dbf65b1476c0441a.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [异动速递｜三大指数集体低开 - 21财经](https://m.21jingji.com/article/20260626/herald/1da9937af048f5df53746eee1634118e.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [华恒生物实控人郭恒华被刑拘；广东加码脑机接口发展](https://m.21jingji.com/article/20260626/herald/8f0e5005d909feb0fa85dbe767651d1d.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [银行AI员工月薪八千上岗：24小时无休，干不好直接“开除”](https://m.21jingji.com/article/20260626/herald/d23c98381601bc91cf79e9afcad768ba.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [中国人民银行决定授权南非标准银行有限公司和中国工商银行股份有限公司担任非洲人民币联合清算行](https://m.21jingji.com/article/20260626/herald/e1c1518eb8dcea7a64a5e8bfec82acbe.html) | m.21jingji.com | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [董秘江湖之有色金属行业：矿洞里的金领，资本市场的翻译官](https://m.21jingji.com/article/20260626/herald/7d200c1992b2c2f69f64e33cfc2322f2.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [在岸人民币升破6.8](https://m.21jingji.com/article/20260626/herald/8a1e91e0730ab2e87d6da3912aa67617.html) | m.21jingji.com | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [上半年全球IPO数据出炉：IPO发行提速，流动性盛宴还能持续多久？](https://m.21jingji.com/article/20260626/herald/1230d9b5fef42130a97a974c60a20812.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [期货市场再迎里程碑！跨境交割业务来了](https://m.21jingji.com/article/20260626/herald/d3dd9421073f07ca7767e71381699570.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [国家能源局：将强化算电协同部署](https://m.21jingji.com/article/20260626/herald/d4df0adbdecc43290e0d9b0c26fea6ee.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [国家能源局：“十五五”能源重点项目和新业态投资将超20万亿元](https://m.21jingji.com/article/20260626/herald/540e0b77524f140e71306ac3f9577b82.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [逆市走强！132只个股创历史新高，中船特气年内涨近900%](https://m.21jingji.com/article/20260626/herald/006e58ee992a4ccbb3db3ee4b52c6021.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [AI生成5秒视频=充电10部手机，国家能源局局长答21：多维推进算电协同](https://m.21jingji.com/article/20260626/herald/4dc27b310b890868491963d53f9a9392.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [逆市走红！“老登股”净利预增超23倍，股价一度涨停](https://m.21jingji.com/article/20260626/herald/dd0eff90fd999fb2e811531755d48f7b.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [一场链博会看懂什么叫AI重构全球供应链→](https://m.21jingji.com/article/20260626/herald/3bdd71c5a6a5099e8454a4e606fb59ec.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [“超级供应链”发力！这类机器人成交额大涨超10倍](https://m.21jingji.com/article/20260626/herald/085610a92c7c80d60657a27840507733.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [AI冲击就业，国家出手了](https://m.21jingji.com/article/20260626/herald/3fb012d1602215636e731bbbd2b41caf.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [我国基本建成全球最大可再生能源体系](https://m.21jingji.com/article/20260626/herald/2dabef5895e96e57a9c43a37927eb6a8.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [起诉街边小店，上市公司被骂3天](https://m.21jingji.com/article/20260626/herald/7f283e914c9e820e182d2c5ff78ab718.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [银行“中考”不卷了](https://m.21jingji.com/article/20260626/herald/9d722e67b12456567bb0deaa928c86d1.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [外资动了！摩根士丹利、高盛调仓动向曝光，哪些个股获青睐？](https://m.21jingji.com/article/20260626/herald/722b94d653f760276121835694743277.html) | m.21jingji.com | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [盘中，暴涨超630%！触发二次临停！这只新股，发生了什么？](https://m.21jingji.com/article/20260626/herald/3e49715972f967458dc56b2a55820992.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [A股午评：创业板指下跌3.72%，猪肉概念涨幅居前](https://m.21jingji.com/article/20260626/herald/d9b88a5265c5bfd33a2b3cb1db904bf0.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [半导体硅片，再现涨价信号](https://m.21jingji.com/article/20260626/herald/9c0145e43120c3608e3a148504e61244.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [总规模20万亿元！国家能源局最新发声](https://m.21jingji.com/article/20260626/herald/a30ec143b8eb6a1ea59ee5aea08e361f.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [过度自信：投资中最昂贵的认知税](https://m.21jingji.com/article/20260626/herald/616fb31c815ae945908d8b6b584dcde5.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [沃尔沃「亲儿子」解散，汽车金融怎么了？](https://m.21jingji.com/article/20260626/herald/ca51e60ee32a31313881e1898825e05b.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [深圳上半年新增20家上市企业 位居全国大中城市第一](https://m.21jingji.com/article/20260626/herald/bb96e0122ef48ed2bb1654a16f87c62a.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [累计拉动投资超7400亿元：全域土地综合整治的广东探索](https://m.21jingji.com/article/20260626/herald/3d5a4715ff81727bf4a2475dbba48e26.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [IPO观察丨巴奴火锅赴港上市，高端定位承压，扩张与争议并行](https://m.21jingji.com/article/20260626/herald/adfc2ec66ba3ef8d9c4770933d5d40b4.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [逆市走强！132只个股创历史新高，中船特气年内涨近900%](https://m.21jingji.com/article/20260626/herald/006e58ee992a4ccbb3db3ee4b52c6021.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [AI生成5秒视频=充电10部手机，国家能源局局长答21：多维推进算电协同](https://m.21jingji.com/article/20260626/herald/4dc27b310b890868491963d53f9a9392.html) | m.21jingji.com | unknown | ✅ | In report — Energy: cited source for "Energy bureau chief: AI video generation consumes huge power, need computing-electricity c" |
+| [逆市走红！“老登股”净利预增超23倍，股价一度涨停](https://m.21jingji.com/article/20260626/herald/dd0eff90fd999fb2e811531755d48f7b.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [一场链博会看懂什么叫AI重构全球供应链→](https://m.21jingji.com/article/20260626/herald/3bdd71c5a6a5099e8454a4e606fb59ec.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [“超级供应链”发力！这类机器人成交额大涨超10倍](https://m.21jingji.com/article/20260626/herald/085610a92c7c80d60657a27840507733.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [AI冲击就业，国家出手了](https://m.21jingji.com/article/20260626/herald/3fb012d1602215636e731bbbd2b41caf.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [我国基本建成全球最大可再生能源体系](https://m.21jingji.com/article/20260626/herald/2dabef5895e96e57a9c43a37927eb6a8.html) | m.21jingji.com | unknown | ✅ | In report — Energy: cited source for "China completes world's largest renewable energy system" |
+| [起诉街边小店，上市公司被骂3天](https://m.21jingji.com/article/20260626/herald/7f283e914c9e820e182d2c5ff78ab718.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [银行“中考”不卷了](https://m.21jingji.com/article/20260626/herald/9d722e67b12456567bb0deaa928c86d1.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [外资动了！摩根士丹利、高盛调仓动向曝光，哪些个股获青睐？](https://m.21jingji.com/article/20260626/herald/722b94d653f760276121835694743277.html) | m.21jingji.com | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [盘中，暴涨超630%！触发二次临停！这只新股，发生了什么？](https://m.21jingji.com/article/20260626/herald/3e49715972f967458dc56b2a55820992.html) | m.21jingji.com | unknown | ✅ | In report — Markets: cited source for "New stock surges over 630%, triggers second trading halt" |
+| [A股午评：创业板指下跌3.72%，猪肉概念涨幅居前](https://m.21jingji.com/article/20260626/herald/d9b88a5265c5bfd33a2b3cb1db904bf0.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [半导体硅片，再现涨价信号](https://m.21jingji.com/article/20260626/herald/9c0145e43120c3608e3a148504e61244.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [总规模20万亿元！国家能源局最新发声](https://m.21jingji.com/article/20260626/herald/a30ec143b8eb6a1ea59ee5aea08e361f.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [过度自信：投资中最昂贵的认知税](https://m.21jingji.com/article/20260626/herald/616fb31c815ae945908d8b6b584dcde5.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [沃尔沃「亲儿子」解散，汽车金融怎么了？](https://m.21jingji.com/article/20260626/herald/ca51e60ee32a31313881e1898825e05b.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [深圳上半年新增20家上市企业 位居全国大中城市第一](https://m.21jingji.com/article/20260626/herald/bb96e0122ef48ed2bb1654a16f87c62a.html) | m.21jingji.com | unknown | ✅ | In report — Markets: cited source for "Shenzhen adds 20 listed companies in first half, tops Chinese cities" |
+| [累计拉动投资超7400亿元：全域土地综合整治的广东探索](https://m.21jingji.com/article/20260626/herald/3d5a4715ff81727bf4a2475dbba48e26.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [IPO观察丨巴奴火锅赴港上市，高端定位承压，扩张与争议并行](https://m.21jingji.com/article/20260626/herald/adfc2ec66ba3ef8d9c4770933d5d40b4.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [仅一股飘红！恒生科技再度大跌3.3%，年内已跌超22%](https://m.21jingji.com/article/20260626/herald/f5a62e855aced8c766222863f591a90c.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [深度｜五大行AIC持久战：穿越硬科技周期 - 21财经](https://m.21jingji.com/article/20260626/herald/c221238d0ccfa496c7e86436f14498a2.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [21现场｜新帅邓敏首次亮相股东会：五粮液机遇始终大于挑战 - 21财经](https://m.21jingji.com/article/20260626/herald/6a1d7a6769c6161b9cc468d4be208737.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [涨价信号开启！半导体硅片集体爆发，有研硅20CM涨停](https://m.21jingji.com/article/20260626/herald/28954509bedb1fc77de8c65931c94456.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [存储芯片产品产量增长60.6%，2026年1](https://m.21jingji.com/article/20260626/herald/ded89be756df916d8d0e010033bedaf1.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [投资金价掉下880元/克关口，直击北京菜百购金现场](https://m.21jingji.com/article/20260626/herald/69db4985992338a603f21cf47aeb3609.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [为制造强国打样：老牌工业城市的“二次工业化”丨活力中国调研行](https://m.21jingji.com/article/20260626/herald/55618337f9bbed2379dbfb84b0e93bad.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [户籍改革来临，北上广户口还值钱吗？](https://m.21jingji.com/article/20260626/herald/9dfd2ed2ab7279fd21a08cb15552b7df.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [银行理财资金加速布局REITs “固收+”策略迎来“新底仓”](https://m.21jingji.com/article/20260626/herald/c1c70303a2017304bef3553a312e250d.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [三千员工联名求助 ! 山西银行旧案风波再起，7亿债务罗生门谁之过？](https://m.21jingji.com/article/20260626/herald/d0e64315fd4059b10c384242d5760fcb.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [近一月年化超270%，银行理财收益率两重天，头号重仓股佰维存储涨3倍！也有的亏122%](https://m.21jingji.com/article/20260626/herald/7b4d833bc671f7e995f4f1f43e47f698.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [A股下半程怎么走？头部券商中期策略密集出炉，分歧聚焦四个变量](https://m.21jingji.com/article/20260626/herald/85b36e6ac588aa88a39ddee88e16c042.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [投行抢单白热化！这家券商拿下英得尔IPO辅导，此前2家券商退出](https://m.21jingji.com/article/20260626/herald/a3df2d5a93ba54206dffca04fe1b1712.html) | m.21jingji.com | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [日韩股市收盘，双双大跌；韩综指盘中暴跌熔断，SK海力士跌近9%，三星电子跌超6%](https://m.21jingji.com/article/20260626/herald/0311d574986aad052143d3b0faf77872.html) | m.21jingji.com | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [美国AI芯片股，上市1个月股价腰斩](https://m.21jingji.com/article/20260626/herald/174450627eb733bd48b0bbd3e75f6fba.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [华为系“顶流”扩容，尊界S800典藏大观发布，售价138.8万元！余承东：对200万元级市场的全新探索](https://m.21jingji.com/article/20260626/herald/2607c262af7235bf771df866ae22363c.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [比亚迪计划各子品牌实行自负盈亏！头部车企开始内部优化重组；专家：长远看各子品牌可独立融资上市](https://m.21jingji.com/article/20260626/herald/e6c0bbac9ea9f0aa19ab58e48f8633cf.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [对标丰田埃尔法！零跑汽车，新产品来了，董事长发声](https://m.21jingji.com/article/20260626/herald/39e3f3d2f2bb0b0ab6eee29b4a78f53a.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [APEC代表走进龙岗机器人街区，一条科技街区背后的AI雄心](https://m.21jingji.com/article/20260626/herald/706a36d16c28b92d98c16bb8b3a12fde.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [拉动投资89.50亿元！阳江“土地含金量”持续提升](https://m.21jingji.com/article/20260626/herald/a01cbb9565a5973e2fb6b4f55adcb9d0.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [每天看懂一个产业风口](https://m.21jingji.com/article/20260626/herald/78cf293a473b16031a66ea3c114ae041.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [国产AD口服新药落地，通化金马琥珀酸安维吖啶获批上市](https://m.21jingji.com/article/20260626/herald/e5f602729a2c34f577efe20c78a0d156.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [陈晨星：AI短剧行业正在酝酿下一波红利](https://m.21jingji.com/article/20260626/herald/c09dfd0d5362a2e78eaa093516c08645.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [保证金比例最高上调至140%！多家银行收紧炒金业务](https://m.21jingji.com/article/20260626/herald/7d58d30d0d6f375831970f8a1d0f2633.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [上海银行追讨宝能系30亿借款](https://m.21jingji.com/article/20260626/herald/5ec423f08a3e5e1cd37cdc78f505543f.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [追债逾3亿元，光大银行起诉新纶新材，七家子公司同列被告](https://m.21jingji.com/article/20260626/herald/c347cc454343373b32b7e277fcc74db8.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [探索破解普惠金融“不可能三角”](https://m.21jingji.com/article/20260626/herald/4c494ce24db35d259c7f944d0eeadb4e.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [贷款端“上金箍”存款端“勒裤带” 民营银行难题待解](https://m.21jingji.com/article/20260626/herald/b605eaa237ad96b69eb132b62ef2e91d.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [双稳“+”持，工银理财明星产品入驻中信银行“稳稳+族”](https://m.21jingji.com/article/20260626/herald/791532001a44a166034beb167333536e.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [金融支持科技自立自强的国际经验](https://m.21jingji.com/article/20260626/herald/9eab9428672cca81235faa580c7fb5d0.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [页面没有找到](https://news.cnstock.com/commonDetail/734340) | news.cnstock.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [页面没有找到](https://news.cnstock.com/commonDetail/734317) | news.cnstock.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [页面没有找到](https://news.cnstock.com/commonDetail/734290) | news.cnstock.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [页面没有找到](https://news.cnstock.com/commonDetail/734245) | news.cnstock.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [页面没有找到](https://news.cnstock.com/commonDetail/734236) | news.cnstock.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [页面没有找到](https://news.cnstock.com/commonDetail/734115) | news.cnstock.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [页面没有找到](https://news.cnstock.com/commonDetail/734115) | news.cnstock.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [页面没有找到](https://news.cnstock.com/commonDetail/734410) | news.cnstock.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [页面没有找到](https://news.cnstock.com/commonDetail/734409) | news.cnstock.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [利率调控短端化的三重考量](https://news.cnstock.com/commonDetail/734411) | news.cnstock.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [利率调控短端化的三重考量](https://news.cnstock.com/commonDetail/734411) | news.cnstock.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [页面没有找到](https://news.cnstock.com/commonDetail/734412) | news.cnstock.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [页面没有找到](https://news.cnstock.com/commonDetail/734417) | news.cnstock.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [页面没有找到](https://news.cnstock.com/commonDetail/734390) | news.cnstock.com | unknown | ➖ | Not evaluated in the latest brief run |
@@ -609,14 +689,16 @@ _In Report? verdicts reflect the brief run of **2026-06-26** (generated 2026-06-
 | [页面没有找到](https://news.cnstock.com/commonDetail/734522) | news.cnstock.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [页面没有找到](https://news.cnstock.com/commonDetail/734523) | news.cnstock.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [页面没有找到](https://news.cnstock.com/commonDetail/734497) | news.cnstock.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [页面没有找到](https://news.cnstock.com/commonDetail/734464) | news.cnstock.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [页面没有找到](https://news.cnstock.com/commonDetail/734464) | news.cnstock.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [页面没有找到](https://news.cnstock.com/commonDetail/734570) | news.cnstock.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [页面没有找到](https://news.cnstock.com/commonDetail/734555) | news.cnstock.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [《求是》杂志发表习近平总书记重要文章 《一体推进教育科技人才发展》](https://politics.caijing.com.cn/20260616/5165448.shtml) | politics.caijing.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
-| [每手最高狂派上千元 A股“红包雨”密集降落 释放什么信号？](https://stock.caijing.com.cn/20260625/5167064.shtml) | stock.caijing.com.cn | unknown | ✅ | In report — Markets: cited source for "A-Share Companies Pay Generous Dividends, Signaling Positive Outlook" |
+| [每手最高狂派上千元 A股“红包雨”密集降落 释放什么信号？](https://stock.caijing.com.cn/20260625/5167064.shtml) | stock.caijing.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
 | [A股，新纪录！两融余额首次突破3万亿元](https://stock.caijing.com.cn/20260624/5166896.shtml) | stock.caijing.com.cn | 2026-06-23 | ➖ | Not evaluated in the latest brief run |
 | [17家A股公司率先披露上半年业绩预告 12家公司业绩预喜](https://stock.caijing.com.cn/20260618/5166066.shtml) | stock.caijing.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
 | [特色上市券商成机构调研“热门”](https://stock.caijing.com.cn/20260625/5167113.shtml) | stock.caijing.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
 | [用好科技力量 全面提升资本市场监管效能](https://stock.caijing.com.cn/20260625/5167149.shtml) | stock.caijing.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
-| [硬科技IPO红利释放 券商投行业绩将延续高增长](https://stock.caijing.com.cn/20260625/5167150.shtml) | stock.caijing.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
+| [硬科技IPO红利释放 券商投行业绩将延续高增长](https://stock.caijing.com.cn/20260625/5167150.shtml) | stock.caijing.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
 | [磷化工景气度持续攀升 产业链上市公司纷纷发布扩产计划](https://stock.caijing.com.cn/20260624/5166871.shtml) | stock.caijing.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
 | [港股IPO持续升温 超八成项目引入基石投资者](https://stock.caijing.com.cn/20260625/5167114.shtml) | stock.caijing.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
 | [低利率窗口集体“补血” 券商年内发债超万亿](https://stock.caijing.com.cn/20260625/5167131.shtml) | stock.caijing.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
@@ -627,19 +709,27 @@ _In Report? verdicts reflect the brief run of **2026-06-26** (generated 2026-06-
 | [通威股份拟斥资50.6亿元，对通威太阳能进行增资](https://stock.caijing.com.cn/20260623/5166660.shtml) | stock.caijing.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
 | [岸迈生物向港交所提交上市申请](https://stock.caijing.com.cn/20260625/5167263.shtml) | stock.caijing.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
 | [低空经济距离“飞得好”还有多远？](https://stock.caijing.com.cn/20260625/5167244.shtml) | stock.caijing.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
-| [长电科技拟78亿元投建高端先进封测工厂](https://stock.caijing.com.cn/20260625/5167243.shtml) | stock.caijing.com.cn | unknown | ✅ | In report — Company: cited source for "JCET Plans 7.8B Yuan Investment in Advanced Semiconductor Packaging Plant" |
+| [长电科技拟78亿元投建高端先进封测工厂](https://stock.caijing.com.cn/20260625/5167243.shtml) | stock.caijing.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
 | [年内多家上市银行管理层增持落地](https://stock.caijing.com.cn/20260625/5167240.shtml) | stock.caijing.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
 | [北交所密集受理恒业股份等5家企业IPO申请](https://stock.caijing.com.cn/20260625/5167233.shtml) | stock.caijing.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
 | [深交所集中受理朗迅科技等6宗IPO申请](https://stock.caijing.com.cn/20260625/5167224.shtml) | stock.caijing.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
 | [云洲智能科创板IPO获受理 拟募资18.18亿元](https://stock.caijing.com.cn/20260625/5167222.shtml) | stock.caijing.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
-| [6月份A股公司分红派现总额有望突破5600亿元](https://stock.caijing.com.cn/20260626/5167458.shtml) | stock.caijing.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
-| [40家A股公司提示风险！回应存储、MLCC等多个热点事项](https://stock.caijing.com.cn/20260626/5167349.shtml) | stock.caijing.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
-| [港股招股书乱象调查：广告式包装盛行 蹭AI概念花招多](https://stock.caijing.com.cn/20260626/5167374.shtml) | stock.caijing.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
+| [6月份A股公司分红派现总额有望突破5600亿元](https://stock.caijing.com.cn/20260626/5167458.shtml) | stock.caijing.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
+| [40家A股公司提示风险！回应存储、MLCC等多个热点事项](https://stock.caijing.com.cn/20260626/5167349.shtml) | stock.caijing.com.cn | unknown | ✅ | In report — Markets: cited source for "40 A-share companies issue risk warnings on storage, MLCC and other hot topics" |
+| [港股招股书乱象调查：广告式包装盛行 蹭AI概念花招多](https://stock.caijing.com.cn/20260626/5167374.shtml) | stock.caijing.com.cn | unknown | ✅ | In report — Markets: cited source for "Investigation reveals rampant advertising-style packaging and AI hype in HK IPO prospectus" |
+| [拟购天壕新能100%股权，天壕能源6月26日起停牌](https://stock.caijing.com.cn/20260626/5167528.shtml) | stock.caijing.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
+| [北交所一晚集中受理7宗IPO！永志股份拟募资5.01亿元](https://stock.caijing.com.cn/20260626/5167526.shtml) | stock.caijing.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
+| [聚焦业务结构优化 A股上市公司加速并购步伐](https://stock.caijing.com.cn/20260626/5167471.shtml) | stock.caijing.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
+| [年内新股“量质齐升” 资本市场与新质生产力双向赋能](https://stock.caijing.com.cn/20260626/5167466.shtml) | stock.caijing.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
+| [锣快不够用了！6只新股齐登港交所，最高暴涨178%！](https://stock.caijing.com.cn/20260626/5167477.shtml) | stock.caijing.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
+| [2026年上半年港股IPO募资超2000亿港元：科技类IPO唱主角 资金集中抱团](https://stock.caijing.com.cn/20260626/5167478.shtml) | stock.caijing.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
+| [下游多领域需求驱动 半导体行业景气度高企](https://stock.caijing.com.cn/20260626/5167479.shtml) | stock.caijing.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
 | [企业微信 agent 大圆开始内测](https://tech.caijing.com.cn/20260623/5166796.shtml) | tech.caijing.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
 | [巨人网络产业投资光轮智能](https://tech.caijing.com.cn/20260623/5166739.shtml) | tech.caijing.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
 | [曝三星成立能源业务特别工作组](https://tech.caijing.com.cn/20260615/5165181.shtml) | tech.caijing.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
-| [OpenAI发布首款AI芯片](https://tech.caijing.com.cn/20260625/5167061.shtml) | tech.caijing.com.cn | 2026-06-24 | ✅ | In report — Tech: cited source for "Doubao Pro Pricing Up to 500 Yuan/Month; OpenAI Releases First AI Chip" |
+| [OpenAI发布首款AI芯片](https://tech.caijing.com.cn/20260625/5167061.shtml) | tech.caijing.com.cn | 2026-06-24 | ❌ | Not selected: ranked below today's top stories |
 | [火山引擎总裁否认拆分上市](https://tech.caijing.com.cn/20260623/5166732.shtml) | tech.caijing.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
+| [剥离争议项目“弹个车”！大搜车有望成为年内首家美股上市公司，三年累亏4.38亿持续收窄，估值下降投资人或将面临较大亏损](https://tech.caijing.com.cn/20260626/5167469.shtml) | tech.caijing.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
 | [创业板指数(399006)](https://vip.stock.finance.sina.com.cn/corp/go.php/vII_NewestComponent/indexid/399006.phtml) | vip.stock.finance.sina.com.cn | 2026-06-15 | ➖ | Not evaluated in the latest brief run |
 | [美最高法院裁决支持特朗普强硬移民政策](https://www.eeo.com.cn/2026/0626/930127.shtml) | www.eeo.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
 | [桑坦德银行推进AI应用提效 市值登顶西班牙上市公司](https://www.eeo.com.cn/2026/0625/930105.shtml) | www.eeo.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
@@ -653,47 +743,54 @@ _In Report? verdicts reflect the brief run of **2026-06-26** (generated 2026-06-
 | [欧陆科仪2025财年营收下滑13.8% 净利润仅15.7万美元](https://www.eeo.com.cn/2026/0626/930173.shtml) | www.eeo.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
 | [Workday Q1 AI业务增长显著 Flowise安全漏洞引市场关注](https://www.eeo.com.cn/2026/0626/930170.shtml) | www.eeo.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
 | [Rocket Lab美股盘后涨幅扩大至5%](https://www.eeo.com.cn/2026/0626/930169.shtml) | www.eeo.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
-| [车车科技获多家机构给出买入评级及目标价 最高达3美元](https://www.eeo.com.cn/2026/0626/930172.shtml) | www.eeo.com.cn | 2026-06-26 | ✅ | In report — Company: cited source for "Cheche Technology Receives Multiple Buy Ratings with Target Price Up to $3" |
+| [车车科技获多家机构给出买入评级及目标价 最高达3美元](https://www.eeo.com.cn/2026/0626/930172.shtml) | www.eeo.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
 | [星座能源与沃尔玛签核电购电协议，三哩岛核电站重启获批](https://www.eeo.com.cn/2026/0626/930167.shtml) | www.eeo.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
-| [30年国债ETF博时6月25日净申购197万份 溢折率偏高存风险](https://www.eeo.com.cn/2026/0626/930292.shtml) | www.eeo.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [东港股份6月25日主力资金净流出，近5日弱于大盘，市场关注度一般，市盈率28.12。](https://www.eeo.com.cn/2026/0626/930289.shtml) | www.eeo.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
-| [包钢股份6月25日主力资金净流出，融资融券差额3.87%，整体评级偏中性](https://www.eeo.com.cn/2026/0626/930288.shtml) | www.eeo.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
-| [信用债ETF大成：规模125亿，上市至今累计增109.9亿，现溢折率偏高存风险](https://www.eeo.com.cn/2026/0626/930287.shtml) | www.eeo.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [港股盘初快速下挫，恒生科技指数跌超2%](https://www.eeo.com.cn/2026/0626/930286.shtml) | www.eeo.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [电网设备板块高开，宝胜股份涨停](https://www.eeo.com.cn/2026/0626/930285.shtml) | www.eeo.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
-| [神火股份披露股权激励计划 拟投建独立储能项目](https://www.eeo.com.cn/2026/0626/930282.shtml) | www.eeo.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [资本聚力 星途远航](https://www.eeo.com.cn/2026/0626/930180.shtml) | www.eeo.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
-| [雅克科技6月25日主力净流出，多头行情强于大盘，估值处历史高位](https://www.eeo.com.cn/2026/0626/930714.shtml) | www.eeo.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
-| [联亚集团6月26日股价涨9.89%，极低流动性下价格异动](https://www.eeo.com.cn/2026/0626/930711.shtml) | www.eeo.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
-| [6月25日双象股份空头行情，主力资金净流出，弱于大盘及行业平均水平](https://www.eeo.com.cn/2026/0626/930709.shtml) | www.eeo.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
-| [港股通科技30ETF工银单日净赎回4亿份 跌26.85%溢折率](https://www.eeo.com.cn/2026/0626/930707.shtml) | www.eeo.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [核心医疗即将上会，以技术、临床、市场三重优势铸就人工心脏全球标杆](https://www.eeo.com.cn/2026/0626/930644.shtml) | www.eeo.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
+| [30年国债ETF博时6月25日净申购197万份 溢折率偏高存风险](https://www.eeo.com.cn/2026/0626/930292.shtml) | www.eeo.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [东港股份6月25日主力资金净流出，近5日弱于大盘，市场关注度一般，市盈率28.12。](https://www.eeo.com.cn/2026/0626/930289.shtml) | www.eeo.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
+| [包钢股份6月25日主力资金净流出，融资融券差额3.87%，整体评级偏中性](https://www.eeo.com.cn/2026/0626/930288.shtml) | www.eeo.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
+| [信用债ETF大成：规模125亿，上市至今累计增109.9亿，现溢折率偏高存风险](https://www.eeo.com.cn/2026/0626/930287.shtml) | www.eeo.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [港股盘初快速下挫，恒生科技指数跌超2%](https://www.eeo.com.cn/2026/0626/930286.shtml) | www.eeo.com.cn | 2026-06-26 | ✅ | In report — Markets: cited source for "Hong Kong stocks open sharply lower, Hang Seng Tech drops over 3%" |
+| [电网设备板块高开，宝胜股份涨停](https://www.eeo.com.cn/2026/0626/930285.shtml) | www.eeo.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
+| [神火股份披露股权激励计划 拟投建独立储能项目](https://www.eeo.com.cn/2026/0626/930282.shtml) | www.eeo.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [资本聚力 星途远航](https://www.eeo.com.cn/2026/0626/930180.shtml) | www.eeo.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
+| [雅克科技6月25日主力净流出，多头行情强于大盘，估值处历史高位](https://www.eeo.com.cn/2026/0626/930714.shtml) | www.eeo.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
+| [联亚集团6月26日股价涨9.89%，极低流动性下价格异动](https://www.eeo.com.cn/2026/0626/930711.shtml) | www.eeo.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
+| [6月25日双象股份空头行情，主力资金净流出，弱于大盘及行业平均水平](https://www.eeo.com.cn/2026/0626/930709.shtml) | www.eeo.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
+| [港股通科技30ETF工银单日净赎回4亿份 跌26.85%溢折率](https://www.eeo.com.cn/2026/0626/930707.shtml) | www.eeo.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [核心医疗即将上会，以技术、临床、市场三重优势铸就人工心脏全球标杆](https://www.eeo.com.cn/2026/0626/930644.shtml) | www.eeo.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
 | [惠丰钻石：公司散热产品收入极少，占营业收入比例极低](https://www.jiemian.com/article/14649279.html) | www.jiemian.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [欧洲STOXX 600指数初步收涨0.79%](https://www.jiemian.com/article/14649273.html) | www.jiemian.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [全国土拍市场回暖，建发“灯塔战略”高溢价杭州拿地](https://www.jiemian.com/article/14648881.html) | www.jiemian.com | unknown | ❌ | Not selected: ranked below today's top stories |
-| [A股开盘：三大指数集体低开，影视院线、染料、培育钻石等概念走弱](https://www.jiemian.com/article/14650053.html) | www.jiemian.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [新股N惠科盘初涨超300%，触发临停](https://www.jiemian.com/article/14650315.html) | www.jiemian.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [河南：推动收购存量商品房重点用于保障性住房，到2030年新增保障性租赁住房5万套以上](https://www.jiemian.com/article/14650300.html) | www.jiemian.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [辽宁省沈抚改革创新示范区党工委委员范静国接受审查调查](https://www.jiemian.com/article/14650256.html) | www.jiemian.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [A股开盘：三大指数集体低开，影视院线、染料、培育钻石等概念走弱](https://www.jiemian.com/article/14650053.html) | www.jiemian.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [新股N惠科盘初涨超300%，触发临停](https://www.jiemian.com/article/14650315.html) | www.jiemian.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [河南：推动收购存量商品房重点用于保障性住房，到2030年新增保障性租赁住房5万套以上](https://www.jiemian.com/article/14650300.html) | www.jiemian.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [辽宁省沈抚改革创新示范区党工委委员范静国接受审查调查](https://www.jiemian.com/article/14650256.html) | www.jiemian.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [出海日报｜阿特斯储能获美国381MWh订单，曹操出行布局欧洲Robotaxi/界面新闻](https://www.jiemian.com/article/14649701.html) | www.jiemian.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [闪电快讯｜零跑首款MPV上市，三季度将发布新技术/界面新闻 · JMedia](https://www.jiemian.com/article/14649805.html) | www.jiemian.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [6月26日投资早报](https://www.jiemian.com/article/14648739.html) | www.jiemian.com | 2026-06-25 | ➖ | Not evaluated in the latest brief run |
+| [闪电快讯｜零跑首款MPV上市，三季度将发布新技术/界面新闻 · JMedia](https://www.jiemian.com/article/14649805.html) | www.jiemian.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [6月26日投资早报](https://www.jiemian.com/article/14648739.html) | www.jiemian.com | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [汽车早报｜尊界S800典藏大观定价138.8万元 特斯拉计划为柏林工厂增招1000名员工/界面新闻 · 汽车](https://www.jiemian.com/article/14641577.html) | www.jiemian.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [AI早报 / 谷歌两名AI研发重要人员拟跳槽至Anthropic；高通将向微软和Meta供货最新AI芯片/界面新闻 · 科技](https://www.jiemian.com/article/14648582.html) | www.jiemian.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [科技早报 / 苹果iPad和Mac最高提价超20%；IBM推出全球首款亚纳米芯片技术/界面新闻 · 科技](https://www.jiemian.com/article/14649002.html) | www.jiemian.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [能源早报｜我国发电装机突破40亿千瓦居全球首位；比亚迪储能推出户储新品/界面新闻](https://www.jiemian.com/article/14648938.html) | www.jiemian.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [财说/ 资本运作暗藏结构性风险，安孚科技的钱去哪了？/界面新闻 · 证券](https://www.jiemian.com/article/14641082.html) | www.jiemian.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [IPO雷达 /资产负债率超66%，轴承龙头人本股份380亿估值梦能否实现？/界面新闻 · 证券](https://www.jiemian.com/article/14645488.html) | www.jiemian.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [“十五五”能源重点项目和新业态投资将超20万亿元](https://www.jiemian.com/article/14650974.html) | www.jiemian.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [A股午评：创业板指半日跌3.72%，全市场近4600只个股飘绿，能源金属、通信设备、电池等概念走弱](https://www.jiemian.com/article/14652047.html) | www.jiemian.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [为什么理想汽车需要自研电池？](https://www.jiemian.com/article/14641226.html) | www.jiemian.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [【出海头条】中国户储军团横扫澳大利亚](https://www.jiemian.com/article/14625778.html) | www.jiemian.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [深圳上半年累计新增上市企业20家，位居全国大中城市第一](https://www.jiemian.com/article/14652392.html) | www.jiemian.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [全球首艘2.4万箱甲醇双燃料集装箱船今日交付启航](https://www.jiemian.com/article/14652389.html) | www.jiemian.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [扬杰科技年内第二次产品提价：来自原料端和市场端的共振](https://www.jiemian.com/article/14649264.html) | www.jiemian.com | 2026-07-01 | ➖ | Not evaluated in the latest brief run |
-| [三星计划在韩投资1000万亿韩元，创韩企史上最高纪录](https://www.jiemian.com/article/14652011.html) | www.jiemian.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [卫星化学二季度净利润预计最高增超三倍，这波涨势能持续多久？](https://www.jiemian.com/article/14640891.html) | www.jiemian.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [“白银抄不完底，克价14元进场，转眼就跌到13！”有投资者33元时入场，如今已“腰斩”：拿到年底再说，以后不买了](https://www.nbd.com.cn/articles/2026-06-26/4437846.html) | www.nbd.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [财说/ 资本运作暗藏结构性风险，安孚科技的钱去哪了？/界面新闻 · 证券](https://www.jiemian.com/article/14641082.html) | www.jiemian.com | unknown | ✅ | In report (brief mention): "Analysis: Capital operations hide structural risks at Anfu Technology" — full text not readable |
+| [IPO雷达 /资产负债率超66%，轴承龙头人本股份380亿估值梦能否实现？/界面新闻 · 证券](https://www.jiemian.com/article/14645488.html) | www.jiemian.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [“十五五”能源重点项目和新业态投资将超20万亿元](https://www.jiemian.com/article/14650974.html) | www.jiemian.com | unknown | ✅ | In report — Energy: cited source for "Energy investments in 15th Five-Year Plan to exceed 20 trillion yuan" |
+| [A股午评：创业板指半日跌3.72%，全市场近4600只个股飘绿，能源金属、通信设备、电池等概念走弱](https://www.jiemian.com/article/14652047.html) | www.jiemian.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [为什么理想汽车需要自研电池？](https://www.jiemian.com/article/14641226.html) | www.jiemian.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [【出海头条】中国户储军团横扫澳大利亚](https://www.jiemian.com/article/14625778.html) | www.jiemian.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [深圳上半年累计新增上市企业20家，位居全国大中城市第一](https://www.jiemian.com/article/14652392.html) | www.jiemian.com | unknown | ✅ | In report — Markets: cited source for "Shenzhen adds 20 listed companies in first half, tops Chinese cities" |
+| [全球首艘2.4万箱甲醇双燃料集装箱船今日交付启航](https://www.jiemian.com/article/14652389.html) | www.jiemian.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [扬杰科技年内第二次产品提价：来自原料端和市场端的共振](https://www.jiemian.com/article/14649264.html) | www.jiemian.com | 2026-07-01 | ❌ | Not selected: ranked below today's top stories |
+| [三星计划在韩投资1000万亿韩元，创韩企史上最高纪录](https://www.jiemian.com/article/14652011.html) | www.jiemian.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [卫星化学二季度净利润预计最高增超三倍，这波涨势能持续多久？](https://www.jiemian.com/article/14640891.html) | www.jiemian.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [梅赛德斯-奔驰中国、北京奔驰召回部分进口和国产汽车，共计25595辆/界面新闻 · 快讯](https://www.jiemian.com/article/14653825.html) | www.jiemian.com | 2026-12-02 | ➖ | Not evaluated in the latest brief run |
+| [硅业分会：本周工业硅市场期货重心下移，现货全面松动](https://www.jiemian.com/article/14653794.html) | www.jiemian.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [嘉环科技：公司不是英伟达代理商](https://www.jiemian.com/article/14653789.html) | www.jiemian.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [欧洲35摄氏度以上高温覆盖人口超1亿](https://www.jiemian.com/article/14653787.html) | www.jiemian.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [高处不胜寒？年内收益翻倍，多只“站在光里”基金限购](https://www.jiemian.com/article/14652413.html) | www.jiemian.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [全球供应链碎片化加剧，链博会热议如何提升产业韧性](https://www.jiemian.com/article/14633971.html) | www.jiemian.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [蔚来李斌：2030年新能源汽车中国市场渗透率将超90%](https://www.jiemian.com/article/14652437.html) | www.jiemian.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [“白银抄不完底，克价14元进场，转眼就跌到13！”有投资者33元时入场，如今已“腰斩”：拿到年底再说，以后不买了](https://www.nbd.com.cn/articles/2026-06-26/4437846.html) | www.nbd.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
 | [通化金马阿尔茨海默病新药上市；海尔生物控股股东提议回购股份](https://www.nbd.com.cn/articles/2026-06-25/4437761.html) | www.nbd.com.cn | 2026-06-25 | ➖ | Not evaluated in the latest brief run |
 | [连续两天股价大幅上涨，兆易创新提示风险：存储行业历史上呈现周期性波动，供给与需求终将走向再平衡](https://www.nbd.com.cn/articles/2026-06-25/4437810.html) | www.nbd.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [总经理转任常务副总 汉马科技管理层再现更迭](https://www.nbd.com.cn/articles/2026-06-25/4437791.html) | www.nbd.com.cn | 2026-06-25 | ➖ | Not evaluated in the latest brief run |
@@ -702,13 +799,13 @@ _In Report? verdicts reflect the brief run of **2026-06-26** (generated 2026-06-
 | [福莱蒽特回应股价异动：生产成本等无大幅波动，采购IT设备、服务器事项正常推进](https://www.nbd.com.cn/articles/2026-06-25/4437496.html) | www.nbd.com.cn | 2026-06-25 | ➖ | Not evaluated in the latest brief run |
 | [恒逸石化预计上半年净利润同比增长逾2326%；轻纺城副总经理高晓辰被立案调查并实施留置措施](https://www.nbd.com.cn/articles/2026-06-25/4437790.html) | www.nbd.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [城市24小时](https://www.nbd.com.cn/articles/2026-06-25/4437551.html) | www.nbd.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
-| [2030年新能源发电量占比达到30%！国家发展改革委等两部门发布《新型能源体系建设“十五五”规划》](https://www.nbd.com.cn/articles/2026-06-25/4437771.html) | www.nbd.com.cn | 2026-06-25 | ✅ | In report — Policy: cited source for "China Releases 15th Five-Year Plan for New Energy System" |
+| [2030年新能源发电量占比达到30%！国家发展改革委等两部门发布《新型能源体系建设“十五五”规划》](https://www.nbd.com.cn/articles/2026-06-25/4437771.html) | www.nbd.com.cn | 2026-06-25 | ✅ | In report — Policy: cited source for "China issues 15th Five-Year Plan for new energy system" |
 | [估值最高达5亿元 *ST帅电拟现金收购惠嘉科技100%股权 公司股价出现异常波动](https://www.nbd.com.cn/articles/2026-06-25/4437697.html) | www.nbd.com.cn | 2026-06-25 | ➖ | Not evaluated in the latest brief run |
 | [赛维达IPO受理后第二天即中止 今年一季度归母净利润同比大降约六成](https://www.nbd.com.cn/articles/2026-06-25/4437656.html) | www.nbd.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [宝马回应“多名新能源车主收到更换蓄电池提醒”：相关提示信息为误报，正积极推进解决方案确保不再出现](https://www.nbd.com.cn/articles/2026-06-25/4437770.html) | www.nbd.com.cn | 2026-06-25 | ➖ | Not evaluated in the latest brief run |
 | [9个月内连续加码“新能源铝箔”，中孚实业拟再投3.65亿元、再建3万吨产能](https://www.nbd.com.cn/articles/2026-06-25/4437647.html) | www.nbd.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [城投控股：截至6月17日前十大流通股东持股占比57.49%](https://www.nbd.com.cn/articles/2026-06-25/4437834.html) | www.nbd.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
-| [40家A股公司提示风险](https://www.nbd.com.cn/articles/2026-06-25/4437832.html) | www.nbd.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
+| [40家A股公司提示风险](https://www.nbd.com.cn/articles/2026-06-25/4437832.html) | www.nbd.com.cn | 2026-06-25 | ✅ | In report — Markets: cited source for "40 A-share companies issue risk warnings on storage, MLCC and other hot topics" |
 | [锂矿股普跌 美国雅保跌逾4%](https://www.nbd.com.cn/articles/2026-06-25/4437827.html) | www.nbd.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [国内期货市场夜盘收盘涨多跌少 20号胶跌超3%](https://www.nbd.com.cn/articles/2026-06-25/4437819.html) | www.nbd.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [一季业绩赚超去年全年！中矿资源立下三年净利润90亿元目标，对锂、铜都有产能扩建计划](https://www.nbd.com.cn/articles/2026-06-25/4437802.html) | www.nbd.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
@@ -716,41 +813,58 @@ _In Report? verdicts reflect the brief run of **2026-06-26** (generated 2026-06-
 | [完美世界320名核心员工获授732.5万股；腾讯《洛克王国：世界》上线领地试炼新玩法丨游戏早参](https://www.nbd.com.cn/articles/2026-06-25/4437643.html) | www.nbd.com.cn | 2026-06-25 | ➖ | Not evaluated in the latest brief run |
 | [5年期美债收益率跌0.52个基点报4.165%](https://www.nbd.com.cn/articles/2026-06-26/4437895.html) | www.nbd.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
 | [美联储7月维持利率不变的概率为69%](https://www.nbd.com.cn/articles/2026-06-26/4437894.html) | www.nbd.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
-| [ETF规模速报](https://www.nbd.com.cn/articles/2026-06-26/4437976.html) | www.nbd.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [集体跳水！日本股市跌近2000点，韩国综指跌超200点，三星电子、SK海力士齐跌丨日韩股市](https://www.nbd.com.cn/articles/2026-06-26/4437944.html) | www.nbd.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [公募集中布局冷门行业ETF；施罗德三只公募基金管理权移交路博迈有新动态](https://www.nbd.com.cn/articles/2026-06-25/4437183.html) | www.nbd.com.cn | 2026-06-25 | ➖ | Not evaluated in the latest brief run |
-| [上调多款产品价格，苹果跌超6%；IBM推出全球首款小于1纳米的芯片技术丨全球科技早参](https://www.nbd.com.cn/articles/2026-06-26/4437913.html) | www.nbd.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [广东批复216个土地综合整治方案；深圳44家企业上榜全球独角兽榜丨大湾区财经早参](https://www.nbd.com.cn/articles/2026-06-25/4437527.html) | www.nbd.com.cn | 2026-06-25 | ➖ | Not evaluated in the latest brief run |
-| [国家广电总局拟建立微短剧分级管理；暑运出行长线游、避暑游双向发力丨消费早参](https://www.nbd.com.cn/articles/2026-06-25/4437508.html) | www.nbd.com.cn | 2026-06-25 | ➖ | Not evaluated in the latest brief run |
-| [爱旭股份：拟向滁州爱旭增资8亿元；永太科技：与宁德时代签订电解液原材料合作协议](https://www.nbd.com.cn/articles/2026-06-25/4437699.html) | www.nbd.com.cn | 2026-06-25 | ➖ | Not evaluated in the latest brief run |
-| [央行将于6月末增加隔夜逆回购操作品种；前5月全国农业保险赔付370亿元](https://www.nbd.com.cn/articles/2026-06-25/4437481.html) | www.nbd.com.cn | 2026-06-25 | ➖ | Not evaluated in the latest brief run |
-| [五部门：开展智能驾驶“端到端”大模型研发与测试；易控智驾通过港交所聆讯丨汽车早参](https://www.nbd.com.cn/articles/2026-06-25/4437483.html) | www.nbd.com.cn | 2026-06-25 | ➖ | Not evaluated in the latest brief run |
+| [ETF规模速报](https://www.nbd.com.cn/articles/2026-06-26/4437976.html) | www.nbd.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [集体跳水！日本股市跌近2000点，韩国综指跌超200点，三星电子、SK海力士齐跌丨日韩股市](https://www.nbd.com.cn/articles/2026-06-26/4437944.html) | www.nbd.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [公募集中布局冷门行业ETF；施罗德三只公募基金管理权移交路博迈有新动态](https://www.nbd.com.cn/articles/2026-06-25/4437183.html) | www.nbd.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
+| [上调多款产品价格，苹果跌超6%；IBM推出全球首款小于1纳米的芯片技术丨全球科技早参](https://www.nbd.com.cn/articles/2026-06-26/4437913.html) | www.nbd.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [广东批复216个土地综合整治方案；深圳44家企业上榜全球独角兽榜丨大湾区财经早参](https://www.nbd.com.cn/articles/2026-06-25/4437527.html) | www.nbd.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
+| [国家广电总局拟建立微短剧分级管理；暑运出行长线游、避暑游双向发力丨消费早参](https://www.nbd.com.cn/articles/2026-06-25/4437508.html) | www.nbd.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
+| [爱旭股份：拟向滁州爱旭增资8亿元；永太科技：与宁德时代签订电解液原材料合作协议](https://www.nbd.com.cn/articles/2026-06-25/4437699.html) | www.nbd.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
+| [央行将于6月末增加隔夜逆回购操作品种；前5月全国农业保险赔付370亿元](https://www.nbd.com.cn/articles/2026-06-25/4437481.html) | www.nbd.com.cn | 2026-06-25 | ✅ | In report — Policy: cited source for "PBOC to conduct overnight reverse repo operations at end of June" |
+| [五部门：开展智能驾驶“端到端”大模型研发与测试；易控智驾通过港交所聆讯丨汽车早参](https://www.nbd.com.cn/articles/2026-06-25/4437483.html) | www.nbd.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [一货船在阿曼湾遭袭，霍尔木兹海峡疏散行动暂停，伊朗警告；美股震荡，国际油价上涨；2名中国公民遇难，委内瑞拉地震已致188死丨每经早参](https://www.nbd.com.cn/articles/2026-06-26/4437900.html) | www.nbd.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [1—5月我国全行业对外直接投资5069.5亿元人民币 同比增长3% / 每经网](https://www.nbd.com.cn/articles/2026-06-26/4438003.html) | www.nbd.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [归母净利润同比预增超23倍！恒逸石化交出今年上半年业绩预告 公司回应新并购标的追溯调整影响](https://www.nbd.com.cn/articles/2026-06-26/4437841.html) | www.nbd.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [半导体材料板块盘初拉升，上海合晶涨超15%](https://www.nbd.com.cn/articles/2026-06-26/4438037.html) | www.nbd.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [新股N惠科涨305% 触发临停](https://www.nbd.com.cn/articles/2026-06-26/4438032.html) | www.nbd.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [恒生科技指数跌幅扩大至2%](https://www.nbd.com.cn/articles/2026-06-26/4438028.html) | www.nbd.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [1—5月我国全行业对外直接投资5069.5亿元人民币 同比增长3% / 每经网](https://www.nbd.com.cn/articles/2026-06-26/4438003.html) | www.nbd.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [归母净利润同比预增超23倍！恒逸石化交出今年上半年业绩预告 公司回应新并购标的追溯调整影响](https://www.nbd.com.cn/articles/2026-06-26/4437841.html) | www.nbd.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [半导体材料板块盘初拉升，上海合晶涨超15%](https://www.nbd.com.cn/articles/2026-06-26/4438037.html) | www.nbd.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [新股N惠科涨305% 触发临停](https://www.nbd.com.cn/articles/2026-06-26/4438032.html) | www.nbd.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [恒生科技指数跌幅扩大至2%](https://www.nbd.com.cn/articles/2026-06-26/4438028.html) | www.nbd.com.cn | 2026-06-26 | ✅ | In report — corroborating source for "Hong Kong stocks open sharply lower, Hang Seng Tech drops over 3%" |
 | [多只新股在港交所上市 科拓股份涨178.38%](https://www.nbd.com.cn/articles/2026-06-26/4438024.html) | www.nbd.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
 | [一货船阿曼湾遭袭！疏散行动暂停；委内瑞拉地震已致188死；商务部回应中美经贸磋商进展；官宣多款产品涨价，苹果股价大跌6%丨每经早参](https://www.nbd.com.cn/articles/2026-06-25/4437813.html) | www.nbd.com.cn | 2026-06-25 | ➖ | Not evaluated in the latest brief run |
-| [近4600只个股下跌！玻璃纤维、玻璃基板走强；中国巨石盘中市值一度突破3000亿元](https://www.nbd.com.cn/articles/2026-06-26/4438295.html) | www.nbd.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [冰箱“出口大王”的国际化新故事：海外自有品牌收入大增，全球化转型加速](https://www.nbd.com.cn/articles/2026-06-26/4438254.html) | www.nbd.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [近4600只个股下跌！玻璃纤维、玻璃基板走强；中国巨石盘中市值一度突破3000亿元](https://www.nbd.com.cn/articles/2026-06-26/4438295.html) | www.nbd.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [冰箱“出口大王”的国际化新故事：海外自有品牌收入大增，全球化转型加速](https://www.nbd.com.cn/articles/2026-06-26/4438254.html) | www.nbd.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
 | [耐克官宣：CFO换人！高层持续换血，如何重新赢得中国市场？](https://www.nbd.com.cn/articles/2026-06-26/4438251.html) | www.nbd.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [6月25日券商研报对A股公司盈利预测一览：下调2家，上调2家](https://www.nbd.com.cn/articles/2026-06-26/4437849.html) | www.nbd.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [新特电气股东拟减持不超3%股份，16家A股公司减持计划一览](https://www.nbd.com.cn/articles/2026-06-26/4437843.html) | www.nbd.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [港股速报 / 港股早盘低开 恒指23000点关口告破 / 每经网](https://www.nbd.com.cn/articles/2026-06-26/4438080.html) | www.nbd.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [传统IXPE产品毛利率整体下滑 润阳科技拟定增募资不超2.36亿元建技改项目，切入高端赛道](https://www.nbd.com.cn/articles/2026-06-26/4437936.html) | www.nbd.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [牧原股份董事及高管拟增持4亿至5亿元 此前交流会提到能安全度过今年低猪价周期](https://www.nbd.com.cn/articles/2026-06-25/4437811.html) | www.nbd.com.cn | 2026-06-25 | ➖ | Not evaluated in the latest brief run |
-| [东吴证券：购买东海证券83.68%股份事项获上交所受理；广发证券：公开发行不超过500亿元短期公司债获监管批复](https://www.nbd.com.cn/articles/2026-06-26/4438009.html) | www.nbd.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [我国将加力支持民营企业投身新型能源体系建设](https://www.nbd.com.cn/articles/2026-06-26/4438265.html) | www.nbd.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [港股午间收盘，香港恒生指数跌1.87%，恒生科技指数跌3.32%](https://www.nbd.com.cn/articles/2026-06-26/4438298.html) | www.nbd.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [19家基石密集押注，领益智造“A+H”上市背后：一个全球AI硬件新巨头的估值重构](https://www.nbd.com.cn/articles/2026-06-26/4438287.html) | www.nbd.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [“链接世界，共创未来”](https://www.news.cn/tech/20260626/f04dac05e0f642a9b7f885553e444487/c.html) | www.news.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [解锁县域经济高质量发展的五维实践密码](https://www.news.cn/tech/20260626/69f91b24286f4443b7ff525b6b88c8de/c.html) | www.news.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [2026全球数字经济大会7月2日在京启幕](https://www.news.cn/tech/20260626/5de14a459f074df08fafba0c88cb8d4b/c.html) | www.news.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [全球供应链报告与指数发布会举办](https://www.news.cn/tech/20260626/cafb221f48274b87a54f697e8775aaed/c.html) | www.news.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [“链”动全球，共绘产业新图景](https://www.news.cn/tech/20260626/0f180cf75e2447f0b7960300987bf049/c.html) | www.news.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [活力中国调研行](https://www.news.cn/tech/20260626/2c9cc1a799ce4f118dd0de5cf988cb94/c.html) | www.news.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [6月25日券商研报对A股公司盈利预测一览：下调2家，上调2家](https://www.nbd.com.cn/articles/2026-06-26/4437849.html) | www.nbd.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [新特电气股东拟减持不超3%股份，16家A股公司减持计划一览](https://www.nbd.com.cn/articles/2026-06-26/4437843.html) | www.nbd.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [港股速报 / 港股早盘低开 恒指23000点关口告破 / 每经网](https://www.nbd.com.cn/articles/2026-06-26/4438080.html) | www.nbd.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [传统IXPE产品毛利率整体下滑 润阳科技拟定增募资不超2.36亿元建技改项目，切入高端赛道](https://www.nbd.com.cn/articles/2026-06-26/4437936.html) | www.nbd.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [牧原股份董事及高管拟增持4亿至5亿元 此前交流会提到能安全度过今年低猪价周期](https://www.nbd.com.cn/articles/2026-06-25/4437811.html) | www.nbd.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
+| [东吴证券：购买东海证券83.68%股份事项获上交所受理；广发证券：公开发行不超过500亿元短期公司债获监管批复](https://www.nbd.com.cn/articles/2026-06-26/4438009.html) | www.nbd.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [我国将加力支持民营企业投身新型能源体系建设](https://www.nbd.com.cn/articles/2026-06-26/4438265.html) | www.nbd.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [港股午间收盘，香港恒生指数跌1.87%，恒生科技指数跌3.32%](https://www.nbd.com.cn/articles/2026-06-26/4438298.html) | www.nbd.com.cn | 2026-06-26 | ✅ | In report — Markets: cited source for "Hong Kong stocks open sharply lower, Hang Seng Tech drops over 3%" |
+| [19家基石密集押注，领益智造“A+H”上市背后：一个全球AI硬件新巨头的估值重构](https://www.nbd.com.cn/articles/2026-06-26/4438287.html) | www.nbd.com.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [600759副总经理被查：62岁经济学博士，年薪百万！公司3个月股价暴跌超7成，控股股东被申请破产清算](https://www.nbd.com.cn/articles/2026-06-26/4438494.html) | www.nbd.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [金价还在跌，5个月大跌30%！投资金条柜台被挤爆，10克20克金条不到3小时卖光！建行公告：这类业务即将关闭](https://www.nbd.com.cn/articles/2026-06-26/4438493.html) | www.nbd.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [港交所再次挤爆！6家公司+1家ETF上市，单日IPO募资近200亿港元](https://www.nbd.com.cn/articles/2026-06-26/4438443.html) | www.nbd.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [ETF今日收评](https://www.nbd.com.cn/articles/2026-06-26/4438471.html) | www.nbd.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [五粮液总经理华涛：足额兑现分红承诺 多举措加码股东回报](https://www.nbd.com.cn/articles/2026-06-26/4438484.html) | www.nbd.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [港股“子”曰](https://www.nbd.com.cn/articles/2026-06-26/4438426.html) | www.nbd.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [创业板跌超4%，全市场超4600只个股下跌！光刻机、猪肉、存储芯片板块涨幅居前，光纤、CPO概念走弱](https://www.nbd.com.cn/articles/2026-06-26/4438485.html) | www.nbd.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [又有绩优基金限购收紧；上半年主动权益类基金业绩分化明显](https://www.nbd.com.cn/articles/2026-06-26/4438480.html) | www.nbd.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [日韩股市收盘，双双大跌；韩综指盘中暴跌熔断，SK海力士跌近9%，三星电子跌超6%](https://www.nbd.com.cn/articles/2026-06-26/4438457.html) | www.nbd.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [“自研不是为了降本！”理想汽车刘立国回应动力电池品牌争议：无论由谁生产，责任均由理想“兜底”](https://www.nbd.com.cn/articles/2026-06-26/4438381.html) | www.nbd.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [助力产业高质量发展 成都税务精准对接夏日文旅经济发展需求](https://www.nbd.com.cn/articles/2026-06-26/4438357.html) | www.nbd.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [苹果、微软接连官宣涨价，国内厂商怎么说？联想：内存市场的变化“前所未有”，已锁定充足供应](https://www.nbd.com.cn/articles/2026-06-26/4438393.html) | www.nbd.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [行业ETF风向标丨通信ETF国泰显著放量，半导体设备相关ETF半日涨超2%](https://www.nbd.com.cn/articles/2026-06-26/4438341.html) | www.nbd.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [影响市场重大事件：马斯克的太空算力计划正式确认！把100万台服务器送上天！两部门强化可控核聚变、太空电站等理论研究和技术创新](https://www.nbd.com.cn/articles/2026-06-25/4437521.html) | www.nbd.com.cn | 2026-06-25 | ➖ | Not evaluated in the latest brief run |
+| [深圳年内首宗百亿元地块诞生：355轮竞价、溢价近100%！专家：对市场形成了明确的情绪托底](https://www.nbd.com.cn/articles/2026-06-26/4438323.html) | www.nbd.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [“剧变”！AI与真人短剧同步驶入深水区！上海一地区将AI短剧创作者纳入人才计划，可享落户等政策红利](https://www.nbd.com.cn/articles/2026-06-26/4438412.html) | www.nbd.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [国债期货收盘，30年期主力合约涨0.08%](https://www.nbd.com.cn/articles/2026-06-26/4438475.html) | www.nbd.com.cn | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [“链接世界，共创未来”](https://www.news.cn/tech/20260626/f04dac05e0f642a9b7f885553e444487/c.html) | www.news.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [解锁县域经济高质量发展的五维实践密码](https://www.news.cn/tech/20260626/69f91b24286f4443b7ff525b6b88c8de/c.html) | www.news.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [2026全球数字经济大会7月2日在京启幕](https://www.news.cn/tech/20260626/5de14a459f074df08fafba0c88cb8d4b/c.html) | www.news.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [全球供应链报告与指数发布会举办](https://www.news.cn/tech/20260626/cafb221f48274b87a54f697e8775aaed/c.html) | www.news.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [“链”动全球，共绘产业新图景](https://www.news.cn/tech/20260626/0f180cf75e2447f0b7960300987bf049/c.html) | www.news.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [活力中国调研行](https://www.news.cn/tech/20260626/2c9cc1a799ce4f118dd0de5cf988cb94/c.html) | www.news.cn | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
 | [美股科技巨头突遭抛售，苹果大跌，什么情况？](https://www.stcn.com/article/detail/3980592.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [铜关税，重要时点临近！AI算力金属再迎变局](https://www.stcn.com/article/detail/3980591.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [东吴证券：购买东海证券83.68%股份事项获上交所受理](https://www.stcn.com/article/detail/3980601.html) | www.stcn.com | 2026-06-22 | ➖ | Not evaluated in the latest brief run |
@@ -758,111 +872,133 @@ _In Report? verdicts reflect the brief run of **2026-06-26** (generated 2026-06-
 | [慧仑科技与广汽动力BU签署战略合作协议 聚力布局万台人形机器人规模化量产赛道](https://www.stcn.com/article/detail/3980594.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [新莱福：员工战略配售资管计划拟减持不超0.43%公司股份](https://www.stcn.com/article/detail/3980588.html) | www.stcn.com | 2026-06-15 | ➖ | Not evaluated in the latest brief run |
 | [苹果股价盘中一度下跌5%](https://www.stcn.com/article/detail/3980553.html) | www.stcn.com | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
-| [美光科技涨幅扩大至19%](https://www.stcn.com/article/detail/3980541.html) | www.stcn.com | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
+| [美光科技涨幅扩大至19%](https://www.stcn.com/article/detail/3980541.html) | www.stcn.com | 2026-06-25 | ✅ | In report — corroborating source for "Hong Kong stocks open sharply lower, Hang Seng Tech drops over 3%" |
 | [珞石机器人通过港交所聆讯，国家制造业转型升级基金持有9.67%股份](https://www.stcn.com/article/detail/3980558.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
-| [去年光纤业务营收仅4070万元 大族激光拟25.2亿元投建光纤及预制棒项目](https://www.stcn.com/article/detail/3980549.html) | www.stcn.com | unknown | ✅ | In report — corroborating source for "Han's Laser Plans 2.52B Yuan Investment in Fiber Optic Project" |
+| [去年光纤业务营收仅4070万元 大族激光拟25.2亿元投建光纤及预制棒项目](https://www.stcn.com/article/detail/3980549.html) | www.stcn.com | unknown | ✅ | In report (brief mention): "Han's Laser plans 2.52 billion yuan investment in fiber optic project despite recent losse" — full text not readable |
 | [毛利率反超英伟达，美光科技交出最强季报，存储股大幅提振](https://www.stcn.com/article/detail/3980550.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [晶科能源全球副总裁钱晶：算和电，从“天敌”到“天生一对”的进化](https://www.stcn.com/article/detail/3980528.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
-| [日韩股市集体跳水，芯片巨头大跌！霍尔木兹海峡，突传变数](https://www.stcn.com/article/detail/3980984.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [日韩股市集体跳水，芯片巨头大跌！霍尔木兹海峡，突传变数](https://www.stcn.com/article/detail/3980984.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [利好出台，辐射千亿级产业！广东支持脑机接口纳入医保（附股）](https://www.stcn.com/article/detail/3980783.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [释放制度型开放红利 吸引全球资本深耕中国](https://www.stcn.com/article/detail/3980616.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [AI催热半导体硅片赛道 国产替代进程提速](https://www.stcn.com/article/detail/3980618.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [新型能源体系建设“十五五”规划出炉 2030年我国非化石能源发电量比重达到50%](https://www.stcn.com/article/detail/3980615.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [释放制度型开放红利 吸引全球资本深耕中国](https://www.stcn.com/article/detail/3980616.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [AI催热半导体硅片赛道 国产替代进程提速](https://www.stcn.com/article/detail/3980618.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [新型能源体系建设“十五五”规划出炉 2030年我国非化石能源发电量比重达到50%](https://www.stcn.com/article/detail/3980615.html) | www.stcn.com | unknown | ✅ | In report — Policy: cited source for "China issues 15th Five-Year Plan for new energy system" |
 | [期货市场再迎里程碑！跨境交割业务来了](https://www.stcn.com/article/detail/3980734.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [2026年上半年港股IPO募资超2000亿港元：科技类IPO唱主角 资金集中抱团](https://www.stcn.com/article/detail/3980629.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [2026年上半年港股IPO募资超2000亿港元：科技类IPO唱主角 资金集中抱团](https://www.stcn.com/article/detail/3980629.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [港股招股书乱象调查：广告式包装盛行 蹭AI概念花招多](https://www.stcn.com/article/detail/3980628.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [从通道到价值共创 平安证券多维度识别新质生产力](https://www.stcn.com/article/detail/3980626.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [从通道到价值共创 平安证券多维度识别新质生产力](https://www.stcn.com/article/detail/3980626.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [“算力金属”供需迎变局 美国市场囤货潮一触即发](https://www.stcn.com/article/detail/3980625.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [客户为本 公募基金向“新”进行时](https://www.stcn.com/article/detail/3980617.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [基瓦·奥尔古德：AI赋能重塑全球制造业发展](https://www.stcn.com/article/detail/3980614.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [下游多领域需求驱动 半导体行业景气度高企](https://www.stcn.com/article/detail/3980623.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [斯迪克股价暴涨解密：拟投建高端MLCC离型膜项目](https://www.stcn.com/article/detail/3980622.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [机构策略丨短期A股或维持震荡反弹趋势](https://www.stcn.com/article/detail/3980943.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [机构：银行板块具备盈利修复的强确定性与高股息属性](https://www.stcn.com/article/detail/3980853.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [美联储，加息突变！日韩股市跳水](https://www.stcn.com/article/detail/3980900.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [基瓦·奥尔古德：AI赋能重塑全球制造业发展](https://www.stcn.com/article/detail/3980614.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [下游多领域需求驱动 半导体行业景气度高企](https://www.stcn.com/article/detail/3980623.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [斯迪克股价暴涨解密：拟投建高端MLCC离型膜项目](https://www.stcn.com/article/detail/3980622.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [机构策略丨短期A股或维持震荡反弹趋势](https://www.stcn.com/article/detail/3980943.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [机构：银行板块具备盈利修复的强确定性与高股息属性](https://www.stcn.com/article/detail/3980853.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [美联储，加息突变！日韩股市跳水](https://www.stcn.com/article/detail/3980900.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [中信证券：预计2026年二季度电子行业整体业绩全面向好](https://www.stcn.com/article/detail/3980844.html) | www.stcn.com | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [新股N惠科盘初涨超300%触发临停](https://www.stcn.com/article/detail/3981084.html) | www.stcn.com | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [远翔新材：截至目前公司与安瓦新能源暂无供货关系](https://www.stcn.com/article/detail/3981039.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [银河证券下半年机械行业展望：紧抓跟AI相关科技成长主线](https://www.stcn.com/article/detail/3981031.html) | www.stcn.com | 2026-06-25 | ➖ | Not evaluated in the latest brief run |
-| [开评：三大指数集体低开 半导体等板块跌幅居前](https://www.stcn.com/article/detail/3981029.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [央行今日开展2315亿元7天期逆回购操作](https://www.stcn.com/article/detail/3981013.html) | www.stcn.com | 2026-06-25 | ➖ | Not evaluated in the latest brief run |
-| [恒指低开0.54% 恒生科技指数低开0.78%](https://www.stcn.com/article/detail/3981007.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [6月26日人民币对美元中间价调升43个基点](https://www.stcn.com/article/detail/3981004.html) | www.stcn.com | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [8股获融资净买入额超5亿元 长电科技居首](https://www.stcn.com/article/detail/3980974.html) | www.stcn.com | 2026-06-25 | ➖ | Not evaluated in the latest brief run |
-| [16只科创板股获融资净买入额超1亿元](https://www.stcn.com/article/detail/3981003.html) | www.stcn.com | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [新股N惠科盘初涨超300%触发临停](https://www.stcn.com/article/detail/3981084.html) | www.stcn.com | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [远翔新材：截至目前公司与安瓦新能源暂无供货关系](https://www.stcn.com/article/detail/3981039.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [银河证券下半年机械行业展望：紧抓跟AI相关科技成长主线](https://www.stcn.com/article/detail/3981031.html) | www.stcn.com | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
+| [开评：三大指数集体低开 半导体等板块跌幅居前](https://www.stcn.com/article/detail/3981029.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [央行今日开展2315亿元7天期逆回购操作](https://www.stcn.com/article/detail/3981013.html) | www.stcn.com | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
+| [恒指低开0.54% 恒生科技指数低开0.78%](https://www.stcn.com/article/detail/3981007.html) | www.stcn.com | unknown | ✅ | In report — corroborating source for "Hong Kong stocks open sharply lower, Hang Seng Tech drops over 3%" |
+| [6月26日人民币对美元中间价调升43个基点](https://www.stcn.com/article/detail/3981004.html) | www.stcn.com | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [8股获融资净买入额超5亿元 长电科技居首](https://www.stcn.com/article/detail/3980974.html) | www.stcn.com | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
+| [16只科创板股获融资净买入额超1亿元](https://www.stcn.com/article/detail/3981003.html) | www.stcn.com | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
 | [“母子市值倒挂” 谁导演了铜冠铜箔股价一年17倍神话？](https://www.stcn.com/article/detail/3980949.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [A股千亿俱乐部 41家是“老广”](https://www.stcn.com/article/detail/3980918.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [汉朔科技：AI战略驱动发展 汉朔科技合作Tesco近3000家门店](https://www.stcn.com/article/detail/3980862.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [五家银行卷入！紫晶存储欺诈发行追偿案召开庭前会议](https://www.stcn.com/article/detail/3980886.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [罕见！ *ST元道因银行账户冻结拟取消年度分红](https://www.stcn.com/article/detail/3980888.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [A股千亿俱乐部 41家是“老广”](https://www.stcn.com/article/detail/3980918.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [汉朔科技：AI战略驱动发展 汉朔科技合作Tesco近3000家门店](https://www.stcn.com/article/detail/3980862.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [五家银行卷入！紫晶存储欺诈发行追偿案召开庭前会议](https://www.stcn.com/article/detail/3980886.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [罕见！ *ST元道因银行账户冻结拟取消年度分红](https://www.stcn.com/article/detail/3980888.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [多地“上新”暑期文旅消费支持政策](https://www.stcn.com/article/detail/3980901.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [直击链博会：AI“进化”，全球供应链变局再起](https://www.stcn.com/article/detail/3980995.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [直击链博会：AI“进化”，全球供应链变局再起](https://www.stcn.com/article/detail/3980995.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [利好出台，辐射千亿级产业！广东支持脑机接口纳入医保（附股）](https://www.stcn.com/article/detail/3980887.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [早新闻｜新能源迎重磅利好](https://www.stcn.com/article/detail/3980889.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [基金自购大分化：有的半年翻倍，有的遗憾“卖飞”](https://www.stcn.com/article/detail/3980952.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [上半年主动权益类基金收益明显分化](https://www.stcn.com/article/detail/3980907.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [早新闻｜新能源迎重磅利好](https://www.stcn.com/article/detail/3980889.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [基金自购大分化：有的半年翻倍，有的遗憾“卖飞”](https://www.stcn.com/article/detail/3980952.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [上半年主动权益类基金收益明显分化](https://www.stcn.com/article/detail/3980907.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [当“老登”跨界科技赛道 “剪刀差”将何时收敛](https://www.stcn.com/article/detail/3980777.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [黄金击穿4000美元 金融市场集体翻空](https://www.stcn.com/article/detail/3980956.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [下一个爆款！文旅消费贷迎多重利好](https://www.stcn.com/article/detail/3980925.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [腾讯、快手、京东扎堆发行 年内点心债规模超9000亿元](https://www.stcn.com/article/detail/3980928.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [下一个爆款！文旅消费贷迎多重利好](https://www.stcn.com/article/detail/3980925.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [腾讯、快手、京东扎堆发行 年内点心债规模超9000亿元](https://www.stcn.com/article/detail/3980928.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [银行理财资金加速布局REITs “固收+”策略迎来“新底仓”](https://www.stcn.com/article/detail/3980902.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [电动汽车“跑”得越快越要筑牢安全底线](https://www.stcn.com/article/detail/3980898.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [激活汽车后市场万亿级潜在蓝海](https://www.stcn.com/article/detail/3980997.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [全球AI概念股有泡沫吗？](https://www.stcn.com/article/detail/3980999.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [新能源又一“奇点”时刻 钠电成本有望追平锂电](https://www.stcn.com/article/detail/3980929.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [房车产业迈入规范化发展新阶段](https://www.stcn.com/article/detail/3980782.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [从生死场到新战局 投资人眼中的AI与硬科技真相](https://www.stcn.com/article/detail/3980803.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [科技主题业绩一枝独秀！券商资管上半年前瞻来了，低位布局机会在哪？](https://www.stcn.com/article/detail/3980990.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [科技巨头全线大跌！苹果跌超6%，美联储重磅发声](https://www.stcn.com/article/detail/3980720.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [全球巨头今年两轮涨价！AI催热半导体硅片赛道，国内已有厂商调价！](https://www.stcn.com/article/detail/3980861.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [电动汽车“跑”得越快越要筑牢安全底线](https://www.stcn.com/article/detail/3980898.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [激活汽车后市场万亿级潜在蓝海](https://www.stcn.com/article/detail/3980997.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [全球AI概念股有泡沫吗？](https://www.stcn.com/article/detail/3980999.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [新能源又一“奇点”时刻 钠电成本有望追平锂电](https://www.stcn.com/article/detail/3980929.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [房车产业迈入规范化发展新阶段](https://www.stcn.com/article/detail/3980782.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [从生死场到新战局 投资人眼中的AI与硬科技真相](https://www.stcn.com/article/detail/3980803.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [科技主题业绩一枝独秀！券商资管上半年前瞻来了，低位布局机会在哪？](https://www.stcn.com/article/detail/3980990.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [科技巨头全线大跌！苹果跌超6%，美联储重磅发声](https://www.stcn.com/article/detail/3980720.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [全球巨头今年两轮涨价！AI催热半导体硅片赛道，国内已有厂商调价！](https://www.stcn.com/article/detail/3980861.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [上期能源推出20号胶期货跨境交割业务，选取泰国、马来西亚、印度尼西亚为境外交割地区](https://www.stcn.com/article/detail/3980809.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [这只新股盘中暴涨超630%！触发二次临停！年内新股表现TOP 10](https://www.stcn.com/article/detail/3981386.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [中半协：一季度集成电路产业偏离传统周期特征](https://www.stcn.com/article/detail/3981355.html) | www.stcn.com | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [国家能源局局长王宏志：预计2030年我国电力装机规模将达54亿千瓦](https://www.stcn.com/article/detail/3981237.html) | www.stcn.com | 2026-06-24 | ➖ | Not evaluated in the latest brief run |
-| [突发跳水！韩国两大芯片巨头重挫](https://www.stcn.com/article/detail/3981309.html) | www.stcn.com | 2026-06-25 | ➖ | Not evaluated in the latest brief run |
+| [这只新股盘中暴涨超630%！触发二次临停！年内新股表现TOP 10](https://www.stcn.com/article/detail/3981386.html) | www.stcn.com | unknown | ✅ | In report — Markets: cited source for "New stock surges over 630%, triggers second trading halt" |
+| [中半协：一季度集成电路产业偏离传统周期特征](https://www.stcn.com/article/detail/3981355.html) | www.stcn.com | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [国家能源局局长王宏志：预计2030年我国电力装机规模将达54亿千瓦](https://www.stcn.com/article/detail/3981237.html) | www.stcn.com | 2026-06-24 | ❌ | Not selected: ranked below today's top stories |
+| [突发跳水！韩国两大芯片巨头重挫](https://www.stcn.com/article/detail/3981309.html) | www.stcn.com | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [封单超百万手！601016直线拉升涨停](https://www.stcn.com/article/detail/3981314.html) | www.stcn.com | 2026-06-18 | ➖ | Not evaluated in the latest brief run |
-| [秒速涨停！百润股份上半年盈利大幅增长](https://www.stcn.com/article/detail/3981310.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [港股收评：恒生指数跌1.87% 恒生科技指数跌3.32%](https://www.stcn.com/article/detail/3981492.html) | www.stcn.com | 2026-06-25 | ➖ | Not evaluated in the latest brief run |
-| [五粮液总经理华涛：按期兑现分红承诺 真金白银回馈全体股东](https://www.stcn.com/article/detail/3981447.html) | www.stcn.com | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [国家能源局：“十五五”时期将重点围绕三个方向 进一步加快布局建设新型能源基础设施](https://www.stcn.com/article/detail/3981420.html) | www.stcn.com | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [国家能源局：“十五五”时期将继续推动能源项目敞开大门 出台民营企业参与大中型水电等项目投资指引](https://www.stcn.com/article/detail/3981404.html) | www.stcn.com | 2026-06-25 | ➖ | Not evaluated in the latest brief run |
-| [猪肉股异动拉升 神农集团涨停](https://www.stcn.com/article/detail/3981389.html) | www.stcn.com | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [央行：授权中国银行（香港）雅加达分行担任印度尼西亚人民币清算行](https://www.stcn.com/article/detail/3981380.html) | www.stcn.com | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [央行：授权南非标准银行和中国工商银行担任非洲人民币联合清算行](https://www.stcn.com/article/detail/3981372.html) | www.stcn.com | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [惠科股份主板上市 开启资本市场新征程](https://www.stcn.com/article/detail/3981422.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [中国最大灵活用工平台](https://www.stcn.com/article/detail/3981391.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [云顶新耀第三代PCSK9抑制剂乐瑞泊上市申请获受理 2027年有望获批](https://www.stcn.com/article/detail/3981392.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [森松国际上市五周年：“投资于人的一分钟，是最有价值的一分钟”](https://www.stcn.com/article/detail/3981367.html) | www.stcn.com | 2026-06-28 | ➖ | Not evaluated in the latest brief run |
-| [猪肉概念发力走高，神农集团涨停，温氏股份等拉升](https://www.stcn.com/article/detail/3981415.html) | www.stcn.com | 2026-06-24 | ➖ | Not evaluated in the latest brief run |
-| [18家全球顶级平台为山东优势产业搭建一站式出海桥梁](https://www.stcn.com/article/detail/3981211.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [兴业科技斩获6连板 公司称主营业务未发生变化](https://www.stcn.com/article/detail/3981250.html) | www.stcn.com | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [亚太市场订单高速突破，威海广泰海外业务稳步进阶](https://www.stcn.com/article/detail/3981183.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [持续加码新能源赛道，中孚实业再增3万吨新能源铝箔产能](https://www.stcn.com/article/detail/3981280.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [牧原股份推大手笔增持回购 A+H股合计计划出资最高近10亿元](https://www.stcn.com/article/detail/3981281.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [国产柔显材料突破，鼎龙股份拿下国内首条G8.6代AMOLED产线两张“入场券”](https://www.stcn.com/article/detail/3981282.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [107股连续5日或5日以上获融资净买入](https://www.stcn.com/article/detail/3981173.html) | www.stcn.com | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
-| [货值大增77.67%！中欧班列促鲁南直通俄罗斯市场](https://www.stcn.com/article/detail/3981258.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [汇率波动考验东南亚经济韧性（经济透视）](https://www.stcn.com/article/detail/3981144.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [“战争经济”回潮，日本国家身份正在质变（深度聚焦）](https://www.stcn.com/article/detail/3981145.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [专家纵论未来产业：推动治理范式从“管科研”“管产业”向“管融合”升级](https://www.stcn.com/article/detail/3981257.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [中科闻歌登陆港股 中科创星今年收获的又一IPO项目](https://www.stcn.com/article/detail/3981403.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [A股三大指数低开低走，石油、酿酒等板块涨幅居前，电力股盘初拉升](https://www.stcn.com/article/detail/3981311.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [“十五五”能源规划出炉：2030年非化石能源将成电量主体](https://www.yicai.com/news/103247083.html) | www.yicai.com | unknown | ✅ | In report — Policy: cited source for "China Releases 15th Five-Year Plan for New Energy System" |
-| [冰火两重天！龙头科技股普跌，苹果重挫6.12%，半导体股飙高，美光暴涨15.81%，中概股走低，国际油价上涨](https://www.yicai.com/news/103247137.html) | www.yicai.com | unknown | ❌ | Not selected: ranked below today's top stories |
-| [A股四大指数集体低开，中船特气复牌高开超4%](https://www.yicai.com/news/103247341.html) | www.yicai.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [这11种认知偏误，证明我们并不比古人更理性？](https://www.yicai.com/news/103247212.html) | www.yicai.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [作为物理AI的“神经系统”，网络是AI投资的下一个风口？](https://www.yicai.com/news/103247185.html) | www.yicai.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [秒速涨停！百润股份上半年盈利大幅增长](https://www.stcn.com/article/detail/3981310.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [港股收评：恒生指数跌1.87% 恒生科技指数跌3.32%](https://www.stcn.com/article/detail/3981492.html) | www.stcn.com | 2026-06-25 | ✅ | In report — Markets: cited source for "Hong Kong stocks open sharply lower, Hang Seng Tech drops over 3%" |
+| [五粮液总经理华涛：按期兑现分红承诺 真金白银回馈全体股东](https://www.stcn.com/article/detail/3981447.html) | www.stcn.com | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [国家能源局：“十五五”时期将重点围绕三个方向 进一步加快布局建设新型能源基础设施](https://www.stcn.com/article/detail/3981420.html) | www.stcn.com | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [国家能源局：“十五五”时期将继续推动能源项目敞开大门 出台民营企业参与大中型水电等项目投资指引](https://www.stcn.com/article/detail/3981404.html) | www.stcn.com | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
+| [猪肉股异动拉升 神农集团涨停](https://www.stcn.com/article/detail/3981389.html) | www.stcn.com | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [央行：授权中国银行（香港）雅加达分行担任印度尼西亚人民币清算行](https://www.stcn.com/article/detail/3981380.html) | www.stcn.com | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [央行：授权南非标准银行和中国工商银行担任非洲人民币联合清算行](https://www.stcn.com/article/detail/3981372.html) | www.stcn.com | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [惠科股份主板上市 开启资本市场新征程](https://www.stcn.com/article/detail/3981422.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [中国最大灵活用工平台](https://www.stcn.com/article/detail/3981391.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [云顶新耀第三代PCSK9抑制剂乐瑞泊上市申请获受理 2027年有望获批](https://www.stcn.com/article/detail/3981392.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [森松国际上市五周年：“投资于人的一分钟，是最有价值的一分钟”](https://www.stcn.com/article/detail/3981367.html) | www.stcn.com | 2026-06-28 | ❌ | Not selected: ranked below today's top stories |
+| [猪肉概念发力走高，神农集团涨停，温氏股份等拉升](https://www.stcn.com/article/detail/3981415.html) | www.stcn.com | 2026-06-24 | ❌ | Not selected: ranked below today's top stories |
+| [18家全球顶级平台为山东优势产业搭建一站式出海桥梁](https://www.stcn.com/article/detail/3981211.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [兴业科技斩获6连板 公司称主营业务未发生变化](https://www.stcn.com/article/detail/3981250.html) | www.stcn.com | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [亚太市场订单高速突破，威海广泰海外业务稳步进阶](https://www.stcn.com/article/detail/3981183.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [持续加码新能源赛道，中孚实业再增3万吨新能源铝箔产能](https://www.stcn.com/article/detail/3981280.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [牧原股份推大手笔增持回购 A+H股合计计划出资最高近10亿元](https://www.stcn.com/article/detail/3981281.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [国产柔显材料突破，鼎龙股份拿下国内首条G8.6代AMOLED产线两张“入场券”](https://www.stcn.com/article/detail/3981282.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [107股连续5日或5日以上获融资净买入](https://www.stcn.com/article/detail/3981173.html) | www.stcn.com | 2026-06-26 | ❌ | Not selected: ranked below today's top stories |
+| [货值大增77.67%！中欧班列促鲁南直通俄罗斯市场](https://www.stcn.com/article/detail/3981258.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [汇率波动考验东南亚经济韧性（经济透视）](https://www.stcn.com/article/detail/3981144.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [“战争经济”回潮，日本国家身份正在质变（深度聚焦）](https://www.stcn.com/article/detail/3981145.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [专家纵论未来产业：推动治理范式从“管科研”“管产业”向“管融合”升级](https://www.stcn.com/article/detail/3981257.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [中科闻歌登陆港股 中科创星今年收获的又一IPO项目](https://www.stcn.com/article/detail/3981403.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [A股三大指数低开低走，石油、酿酒等板块涨幅居前，电力股盘初拉升](https://www.stcn.com/article/detail/3981311.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [“AI交易”突然降温！软银股价暴跌，OpenAI被传推迟上市](https://www.stcn.com/article/detail/3981711.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [科技股大跌！亚太股市，集体重挫！通信板块领跌市场](https://www.stcn.com/article/detail/3981522.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [雷曼光电涨停，板块逆市拉升！自动驾驶大消息，10股获融资大幅净买入](https://www.stcn.com/article/detail/3981519.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [投行抢单白热化！这家券商拿下英得尔IPO辅导，此前2家券商退出](https://www.stcn.com/article/detail/3981712.html) | www.stcn.com | 2026-06-24 | ➖ | Not evaluated in the latest brief run |
+| [直击五粮液股东会！公司回应分红、回购注销！超500位股东到场，可优惠购酒！](https://www.stcn.com/article/detail/3981534.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [百合花：上市公司主体并未参与投资宇树科技](https://www.stcn.com/article/detail/3981811.html) | www.stcn.com | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [松延动力成立智创科技公司 含AI及机器人业务](https://www.stcn.com/article/detail/3981766.html) | www.stcn.com | 2026-06-15 | ➖ | Not evaluated in the latest brief run |
+| [深圳市盐田区：全力培育新兴产业 持续扩大科创集群](https://www.stcn.com/article/detail/3981764.html) | www.stcn.com | 2026-06-25 | ➖ | Not evaluated in the latest brief run |
+| [欧洲主要股指开盘集体下跌](https://www.stcn.com/article/detail/3981749.html) | www.stcn.com | 2026-06-25 | ➖ | Not evaluated in the latest brief run |
+| [共话绿色转型 福能股份出席沪市主板低碳新能集体业绩说明会](https://www.stcn.com/article/detail/3981638.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [今日73股涨停 主要集中在电子、化工等行业](https://www.stcn.com/article/detail/3981785.html) | www.stcn.com | 2026-06-26 | ➖ | Not evaluated in the latest brief run |
+| [2026年第二届中国洗碗机产业渗透率倍增计划助推峰会在杭州举办](https://www.stcn.com/article/detail/3981578.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [300162“20cm”涨停，板块逆市拉升！自动驾驶大消息，10股获融资大幅净买入](https://www.stcn.com/article/detail/3981538.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [一批站在“光”里的基金经理们，限购加码！](https://www.stcn.com/article/detail/3981781.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [高处不胜寒？年内收益翻倍，多只“站在光里”基金限购](https://www.stcn.com/article/detail/3981790.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [6月25日股票ETF净流出超330亿元，半导体板块大举“吸金”](https://www.stcn.com/article/detail/3981649.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [002674，6连板！多股短线拉升！](https://www.stcn.com/article/detail/3981533.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [“十五五”能源规划出炉：2030年非化石能源将成电量主体](https://www.yicai.com/news/103247083.html) | www.yicai.com | unknown | ✅ | In report — Policy: cited source for "China issues 15th Five-Year Plan for new energy system" |
+| [冰火两重天！龙头科技股普跌，苹果重挫6.12%，半导体股飙高，美光暴涨15.81%，中概股走低，国际油价上涨](https://www.yicai.com/news/103247137.html) | www.yicai.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [A股四大指数集体低开，中船特气复牌高开超4%](https://www.yicai.com/news/103247341.html) | www.yicai.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [这11种认知偏误，证明我们并不比古人更理性？](https://www.yicai.com/news/103247212.html) | www.yicai.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [作为物理AI的“神经系统”，网络是AI投资的下一个风口？](https://www.yicai.com/news/103247185.html) | www.yicai.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [盘前必读丨新型能源体系建设“十五五”规划出台；苹果多款产品涨价约20%](https://www.yicai.com/news/103247169.html) | www.yicai.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [同仁堂医养今起招股：守正创新领跑中医医疗服务万亿市场](https://www.yicai.com/news/103247000.html) | www.yicai.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [同仁堂医养今起招股：守正创新领跑中医医疗服务万亿市场](https://www.yicai.com/news/103247000.html) | www.yicai.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [2个月股价翻倍后，海伦司小酒馆丢了“中文名”](https://www.yicai.com/news/103248075.html) | www.yicai.com | 2026-06-23 | ➖ | Not evaluated in the latest brief run |
-| [李迅雷：“硅基时代”加剧K型分化，三大指标考验AI泡沫](https://www.yicai.com/news/103248057.html) | www.yicai.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [田轩：更加包容的市场、更加活跃的企业创业投资，将共同助力科技创新](https://www.yicai.com/news/103247935.html) | www.yicai.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [期市首个跨境交割品种落地！20号胶期货实现境内交易、境外交货](https://www.yicai.com/news/103247925.html) | www.yicai.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [零跑汽车朱江明：原材料成本全方位上涨，但暂不涨价](https://www.yicai.com/news/103247901.html) | www.yicai.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [第一财经总编辑杨宇东：媒体视角下证券基金业呈现三大转型趋势](https://www.yicai.com/news/103247829.html) | www.yicai.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [中美成立贸易理事会值得期待](https://www.yicai.com/news/103247731.html) | www.yicai.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [上交所叶武：将继续丰富宽基指数体系，加快推出主动ETF等创新产品](https://www.yicai.com/news/103247685.html) | www.yicai.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [苹果、微软同日官宣大涨价 机构称存储芯片供需缺口有望持续](https://www.yicai.com/news/103247721.html) | www.yicai.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [李迅雷：“硅基时代”加剧K型分化，三大指标考验AI泡沫](https://www.yicai.com/news/103248057.html) | www.yicai.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [田轩：更加包容的市场、更加活跃的企业创业投资，将共同助力科技创新](https://www.yicai.com/news/103247935.html) | www.yicai.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [期市首个跨境交割品种落地！20号胶期货实现境内交易、境外交货](https://www.yicai.com/news/103247925.html) | www.yicai.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [零跑汽车朱江明：原材料成本全方位上涨，但暂不涨价](https://www.yicai.com/news/103247901.html) | www.yicai.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [第一财经总编辑杨宇东：媒体视角下证券基金业呈现三大转型趋势](https://www.yicai.com/news/103247829.html) | www.yicai.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [中美成立贸易理事会值得期待](https://www.yicai.com/news/103247731.html) | www.yicai.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [上交所叶武：将继续丰富宽基指数体系，加快推出主动ETF等创新产品](https://www.yicai.com/news/103247685.html) | www.yicai.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [苹果、微软同日官宣大涨价 机构称存储芯片供需缺口有望持续](https://www.yicai.com/news/103247721.html) | www.yicai.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [收盘｜沪指跌超2% 光通信板块深度调整](https://www.yicai.com/news/103248451.html) | www.yicai.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [购物中心告别野蛮生长，行业进入“强运营”周期](https://www.yicai.com/news/103248375.html) | www.yicai.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [美国国会山“新股神”浮出水面](https://www.yicai.com/news/103248342.html) | www.yicai.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [扩容加速！交行发行市场首单TCD形式中长期自贸离岸债](https://www.yicai.com/news/103248217.html) | www.yicai.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [直击MWC｜浦东上演全空间无人装备运货，从单点智能走向群体协同](https://www.yicai.com/news/103248163.html) | www.yicai.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [券商大涨，A股开始风格切换？](https://yuanchuang.caijing.com.cn/2026/0623/5166678.shtml) | yuanchuang.caijing.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
 
 ## 2026-06-25 — 696 articles
@@ -915,7 +1051,7 @@ _In Report? verdicts reflect the brief run of **2026-06-26** (generated 2026-06-
 | [估值52亿，无人船艇企业云洲智能“再游”科创板](https://36kr.com/p/3868537127245061) | 36kr.com | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [具身数据采集产业链调查：被机器人采集的人](https://36kr.com/p/3868536772236297) | 36kr.com | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [IPO数据告诉你，报考哪所大学，更容易财富自由？](https://36kr.com/p/3868483324630281) | 36kr.com | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
-| [银行AI员工月薪八千上岗：24小时无休，干不好直接“开除”](https://36kr.com/p/3868483747009537) | 36kr.com | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
+| [银行AI员工月薪八千上岗：24小时无休，干不好直接“开除”](https://36kr.com/p/3868483747009537) | 36kr.com | 2026-06-25 | ➖ | Not evaluated in the latest brief run |
 | [1800亿市值蒸发，赛力斯何以至此？](https://36kr.com/p/3868483845084166) | 36kr.com | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [高通投资者日：一颗CPU、一项内存技术、一个400亿美元目标](https://36kr.com/p/3868422554916100) | 36kr.com | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [股票质押不香了，券商们要做当代秋菊](https://36kr.com/p/3868391624768389) | 36kr.com | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
@@ -931,7 +1067,7 @@ _In Report? verdicts reflect the brief run of **2026-06-26** (generated 2026-06-
 | [链博会上，科技创新氛围浓](https://finance.people.com.cn/n1/2026/0625/c1004-40746898.html) | finance.people.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [坚定走中国特色社会主义群团发展道路 团结动员广大科技工作者建功“十五五”](https://finance.people.com.cn/n1/2026/0625/c1004-40746897.html) | finance.people.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [低空经济，链上起飞](https://finance.people.com.cn/n1/2026/0625/c1004-40747287.html) | finance.people.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
-| [央行6月25日开展5000亿元MLF操作](https://finance.people.com.cn/n1/2026/0625/c1004-40747232.html) | finance.people.com.cn | 2026-06-25 | ✅ | In report — Macro: cited source for "PBOC Conducts 500B Yuan MLF Operation, Net Injection of 200B Yuan" |
+| [央行6月25日开展5000亿元MLF操作](https://finance.people.com.cn/n1/2026/0625/c1004-40747232.html) | finance.people.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [科技赋能 智慧煤电助力夏季能源保供](https://finance.people.com.cn/n1/2026/0625/c1004-40747217.html) | finance.people.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [透过新兴技术看产业投资“新地图”](https://finance.people.com.cn/n1/2026/0625/c1004-40747166.html) | finance.people.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [消费市场结构性分化中孕育新动能](https://finance.people.com.cn/n1/2026/0625/c1004-40747159.html) | finance.people.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
@@ -944,7 +1080,7 @@ _In Report? verdicts reflect the brief run of **2026-06-26** (generated 2026-06-
 | [科学家识别出黑洞并合产生的直接引力波](https://finance.people.com.cn/n1/2026/0625/c1004-40747115.html) | finance.people.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [量子通信有序走向实际应用](https://finance.people.com.cn/n1/2026/0625/c1004-40747070.html) | finance.people.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [智造融合如何跨越“断点”](https://finance.people.com.cn/n1/2026/0625/c1004-40747065.html) | finance.people.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
-| [金融监管总局系统指导保险业做好夏粮农险理赔服务](https://finance.people.com.cn/n1/2026/0625/c1004-40747412.html) | finance.people.com.cn | 2026-06-25 | ❌ | Excluded: already reported in a recent brief ("Financial Regulator Guides Insurance Industry on Summer Grain Crop Insurance Claims") |
+| [金融监管总局系统指导保险业做好夏粮农险理赔服务](https://finance.people.com.cn/n1/2026/0625/c1004-40747412.html) | finance.people.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [金融监管总局出台新规 规范金融机构人工智能安全应用](https://finance.people.com.cn/n1/2026/0625/c1004-40747361.html) | finance.people.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [中国规模化创新优势突出](https://finance.people.com.cn/n1/2026/0625/c1004-40747346.html) | finance.people.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [在链博会，看机械臂“链”上千行百业](https://finance.people.com.cn/n1/2026/0625/c1004-40747310.html) | finance.people.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
@@ -958,19 +1094,19 @@ _In Report? verdicts reflect the brief run of **2026-06-26** (generated 2026-06-
 | [开源证券获批碳排放权交易业务资质](https://finance.people.com.cn/n1/2026/0625/c1004-40747540.html) | finance.people.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [链博会探馆｜看各地产业集群布局智能汽车链--经济·科技--人民网](https://finance.people.com.cn/n1/2026/0625/c1004-40747536.html) | finance.people.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [《新型能源体系建设“十五五”规划》发布](https://finance.people.com.cn/n1/2026/0625/c1004-40747642.html) | finance.people.com.cn | 2026-06-25 | ➖ | Not evaluated in the latest brief run |
-| [商务部：截至6月推出重点外资项目500多个 总投资额超3000亿美元](https://finance.people.com.cn/n1/2026/0625/c1004-40747622.html) | finance.people.com.cn | 2026-06-25 | ✅ | In report — Policy: cited source for "Ministry of Commerce: Over 500 Key Foreign Investment Projects by June, Total Investment O" |
+| [商务部：截至6月推出重点外资项目500多个 总投资额超3000亿美元](https://finance.people.com.cn/n1/2026/0625/c1004-40747622.html) | finance.people.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [自然资源部：盘活存量土地 以较小资源消耗支撑高质量发展](https://finance.people.com.cn/n1/2026/0625/c1004-40747617.html) | finance.people.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [组图丨链博会公众开放日首日人气“拉满”](https://finance.people.com.cn/n1/2026/0625/c1004-40747606.html) | finance.people.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [记者去哪儿｜“链”接你我的美好生活--经济·科技--人民网](https://finance.people.com.cn/n1/2026/0625/c1004-40747605.html) | finance.people.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
-| [向“绿”而行 我国发电装机容量首次突破40亿千瓦](https://finance.people.com.cn/n1/2026/0625/c1004-40747604.html) | finance.people.com.cn | 2026-06-25 | ✅ | In report (brief mention): "China's Installed Power Generation Capacity Exceeds 4 Billion kW for First Time" — full text not readable |
+| [向“绿”而行 我国发电装机容量首次突破40亿千瓦](https://finance.people.com.cn/n1/2026/0625/c1004-40747604.html) | finance.people.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [首批人工智能安全官证书颁发](https://finance.people.com.cn/n1/2026/0625/c1004-40747567.html) | finance.people.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [黄金投资再念“紧箍咒” 国有大行叫停个人竞价交易](https://m.21jingji.com/article/20260624/herald/17a2a5445293332f5b21ae5f1d88214a.html) | m.21jingji.com | 2026-07-24 | ➖ | Not evaluated in the latest brief run |
 | [11万亿公积金改革破题 利率谁定、收益归谁、投向哪里？](https://m.21jingji.com/article/20260624/herald/299a57cf5ad2ca2f436368ee1dd820fd.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [15家银行珠三角经营全景复盘！信贷整体扩容，盈利显著分化，3家分部亏损](https://m.21jingji.com/article/20260625/herald/e9f3342aea031e41364b96f30f6a0e5c.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [现货黄金，跌破4000美元大关](https://m.21jingji.com/article/20260624/herald/a0d616848df5efbbecc3e16624cfd479.html) | m.21jingji.com | 2026-06-24 | ❌ | Not selected: ranked below today's top stories |
-| [央行：将开展5000亿元MLF操作](https://m.21jingji.com/article/20260624/herald/12e326482681aa8be87e53f5316c164f.html) | m.21jingji.com | 2026-06-25 | ✅ | In report — corroborating source for "PBOC Conducts 500B Yuan MLF Operation, Net Injection of 200B Yuan" |
+| [央行：将开展5000亿元MLF操作](https://m.21jingji.com/article/20260624/herald/12e326482681aa8be87e53f5316c164f.html) | m.21jingji.com | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [纪敏：科技金融投早投小的着力点](https://m.21jingji.com/article/20260624/herald/27fec0b9ce4596502e8345710c0b98b5.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
-| [中国银行回应被审计署通报：坚持立行立改，扎实推进整改](https://m.21jingji.com/article/20260624/herald/2cb85faba8f5eaa0a87f0be36ba7934e.html) | m.21jingji.com | unknown | ❌ | Excluded: already reported in a recent brief ("Bank of China Fined for Tax Evasion of 2.367 Billion Yuan") |
+| [中国银行回应被审计署通报：坚持立行立改，扎实推进整改](https://m.21jingji.com/article/20260624/herald/2cb85faba8f5eaa0a87f0be36ba7934e.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [构建智能金融安全发展的“四梁八柱”](https://m.21jingji.com/article/20260624/herald/fe6dc4158b5aea9a35ba1d1b78525194.html) | m.21jingji.com | 2026-06-18 | ➖ | Not evaluated in the latest brief run |
 | [个人养老金购买储蓄国债划算吗？领取时如何缴税？](https://m.21jingji.com/article/20260624/herald/1650d2053e792f5fe9739b2c400fe55e.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [境外资产配置规模达3000亿元，银行理财五大渠道“出海”](https://m.21jingji.com/article/20260624/herald/b239e8f9fb3e4bda01872b6ba78981f2.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
@@ -1013,16 +1149,16 @@ _In Report? verdicts reflect the brief run of **2026-06-26** (generated 2026-06-
 | [工厂长出“超级大脑”：智能体入驻产线，AI方案加速出海](https://m.21jingji.com/article/20260625/herald/1c3f89fec5a40380774fbf8dc0248d07.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [耐克改革加速：实权派CFO也被换掉了丨消费参考](https://m.21jingji.com/article/20260625/herald/ba5e411c163adbb57c1f4c8bb5dd37f3.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [高考招生季 警惕志愿填报咨询服务市场“陷阱”](https://m.21jingji.com/article/20260625/herald/cf7dff5cea056da6a864d35ec3cba7c4.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
-| [豆包专业版最高月费500元；OpenAI发布首款AI芯片](https://m.21jingji.com/article/20260625/herald/2cad64778ef1ef95600feaa0fee9c8ca.html) | m.21jingji.com | unknown | ✅ | In report — Tech: cited source for "Doubao Pro Pricing Up to 500 Yuan/Month; OpenAI Releases First AI Chip" |
+| [豆包专业版最高月费500元；OpenAI发布首款AI芯片](https://m.21jingji.com/article/20260625/herald/2cad64778ef1ef95600feaa0fee9c8ca.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [罗湖全力服务亚太中小企业：600亿基金矩阵，力挺AI首试首用](https://m.21jingji.com/article/20260625/herald/9531918a03fca8347b8d03dfec28486d.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
-| [央行开展5000亿元MLF操作](https://m.21jingji.com/article/20260625/herald/3f834c9592d990230335ec810dc4b573.html) | m.21jingji.com | 2026-06-25 | ✅ | In report — Macro: cited source for "PBOC Conducts 500B Yuan MLF Operation, Net Injection of 200B Yuan" |
+| [央行开展5000亿元MLF操作](https://m.21jingji.com/article/20260625/herald/3f834c9592d990230335ec810dc4b573.html) | m.21jingji.com | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [深圳罗湖牵手8家境外商协会，亚太中小企业跨境合作再落一子](https://m.21jingji.com/article/20260625/herald/9512f40c3bdb5ae17d69e483c6f0b548.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [“小银行、大罚单”！500万以上大额罚单密集落地，多家区域银行被重罚](https://m.21jingji.com/article/20260625/herald/75c66fbf38d51f41bc35c5218bfaade0.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
-| [金融监管总局指导保险业积极做好夏粮农险理赔](https://m.21jingji.com/article/20260625/herald/57c1f3e1eb626aebace5b27cc6dfd433.html) | m.21jingji.com | unknown | ❌ | Excluded: already reported in a recent brief ("Financial Regulator Guides Insurance Industry on Summer Grain Crop Insurance Claims") |
+| [金融监管总局指导保险业积极做好夏粮农险理赔](https://m.21jingji.com/article/20260625/herald/57c1f3e1eb626aebace5b27cc6dfd433.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [谁在为通胀埋单？全球或进入阶段性小幅加息周期](https://m.21jingji.com/article/20260625/herald/379dc095c1c6f3b39483847610157012.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [上海发展词元金融 推动全球资管中心建设](https://m.21jingji.com/article/20260625/herald/a72f37bfcd01b93267dc19e79e13e492.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [芯原股份、海光信息、天普股份、寒武纪，集体大涨](https://m.21jingji.com/article/20260625/herald/04a12f972c150106993355d291781803.html) | m.21jingji.com | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
-| [贵金属板块大幅走弱，多家银行收紧个人贵金属业务](https://m.21jingji.com/article/20260625/herald/3c0008f9f8b492ab78e0c6fab747670c.html) | m.21jingji.com | unknown | ❌ | Excluded: already reported in a recent brief ("Gold Price Falls Below $4,000; Banks Tighten Precious Metals Business") |
+| [贵金属板块大幅走弱，多家银行收紧个人贵金属业务](https://m.21jingji.com/article/20260625/herald/3c0008f9f8b492ab78e0c6fab747670c.html) | m.21jingji.com | unknown | ❌ | Excluded: already reported in a recent brief ("Multiple banks tighten personal precious metals business, suspend agents and raise margin ") |
 | [全球 Robotaxi 座次重排：中国企业登顶](https://m.21jingji.com/article/20260625/herald/90a698438b9037b0c1cce48396c9d8d6.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [更低成本 更具包容性 央行数字货币如何重塑跨境支付](https://m.21jingji.com/article/20260625/herald/b42c476e3bfb1b64f219eb4138e65ff0.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [平安狂撒近500亿，国寿暴涨30%！五大上市险企派发千亿超大红包，真慷慨还是稳预期？](https://m.21jingji.com/article/20260625/herald/31e9878502250632411a0ec0351e25b2.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
@@ -1030,14 +1166,14 @@ _In Report? verdicts reflect the brief run of **2026-06-26** (generated 2026-06-
 | [潮汕大佬，让上海银行花130亿买了个教训](https://m.21jingji.com/article/20260625/herald/39e5bfeec260288c9a093e1c4249c097.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [多地农商银行启动全员清收行动 压降不良贷款治标更要治本](https://m.21jingji.com/article/20260625/herald/8d74d961ef3eeeb2d804b038989665f5.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [震惊！中国银行，竟然逃税近24亿](https://m.21jingji.com/article/20260625/herald/d31664612ff87860da0321978e2e7022.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
-| [通报！中国银行逃税23.67亿元](https://m.21jingji.com/article/20260625/herald/c3a88fa2b0a0c92e83152db3141b8092.html) | m.21jingji.com | 2026-06-25 | ❌ | Excluded: already reported in a recent brief ("Bank of China Fined for Tax Evasion of 2.367 Billion Yuan") |
+| [通报！中国银行逃税23.67亿元](https://m.21jingji.com/article/20260625/herald/c3a88fa2b0a0c92e83152db3141b8092.html) | m.21jingji.com | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [金融高水平开放稳中求进](https://m.21jingji.com/article/20260625/herald/3ad95b1fa689c9d480500dff9dabc644.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
-| [延期合约保证金比例升至140% 多家银行收紧个人贵金属业务](https://m.21jingji.com/article/20260625/herald/acd43b5a9fbcffd2b6ce859ebc60c4de.html) | m.21jingji.com | unknown | ❌ | Excluded: already reported in a recent brief ("Gold Price Falls Below $4,000; Banks Tighten Precious Metals Business") |
+| [延期合约保证金比例升至140% 多家银行收紧个人贵金属业务](https://m.21jingji.com/article/20260625/herald/acd43b5a9fbcffd2b6ce859ebc60c4de.html) | m.21jingji.com | unknown | ❌ | Excluded: already reported in a recent brief ("Multiple banks tighten personal precious metals business, suspend agents and raise margin ") |
 | [产业资本淘金银行股权 进退之间“估值洼地”待重估](https://m.21jingji.com/article/20260625/herald/7c3081270c9e4265a2c9e47b491eccd7.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [大额存单市场将迎新规](https://m.21jingji.com/article/20260625/herald/5a6491e147ddaf4c352c165d0d74dad0.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [直接融资势头超过信贷 金融“脱媒”深化倒逼银行转型](https://m.21jingji.com/article/20260625/herald/f97f6723686a7b2bc05762669aedae98.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [二季度收入预期大幅放缓，携程股价大跌超12%创年内新低](https://m.21jingji.com/article/20260625/herald/9e04399b3b202f7b159a3a5f8e389dc2.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
-| [腾讯、快手、京东扎堆发行 年内点心债规模超9000亿元](https://m.21jingji.com/article/20260625/herald/26a6661aca2f7b508b7a0ba1ad08da20.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [腾讯、快手、京东扎堆发行 年内点心债规模超9000亿元](https://m.21jingji.com/article/20260625/herald/26a6661aca2f7b508b7a0ba1ad08da20.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [“站在光里”的基金经理纷纷限购，年内业绩TOP10均已闭门谢客](https://m.21jingji.com/article/20260625/herald/5be1e84b4841b8fbd60cf6fa5a6c0638.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [玉渊谭天丨联合访华被推迟 日本企业组了10个团来中国](https://m.21jingji.com/article/20260625/herald/5f344aa3af75428c34a6099b70ca48f8.html) | m.21jingji.com | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [“印度巴菲特”，卖飞美光科技、海力士](https://m.21jingji.com/article/20260625/herald/dbd4edf1d2ecf55a417f2a8c66e3fd1c.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
@@ -1060,7 +1196,7 @@ _In Report? verdicts reflect the brief run of **2026-06-26** (generated 2026-06-
 | [老铺黄金收盘跌破400港元/股，单日跌幅超8%](https://m.21jingji.com/article/20260625/herald/7b03533a1c7a49a7167f92df369171db.html) | m.21jingji.com | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [5份罚单连发，剑指债券发行“暗箱操作”](https://m.21jingji.com/article/20260625/herald/6f6ae60fac4fd6bb5b76a9192762b956.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [机构半年度集中兑现浮盈，科技主线急跌后上演“一日修复”](https://m.21jingji.com/article/20260625/herald/263dc847a2e6bde043f66751a972b1cb.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
-| [国际金价失守4000美元大关！多家银行收紧个人贵金属业务](https://m.21jingji.com/article/20260625/herald/e0b7172aaf62935fcf11d078807ac365.html) | m.21jingji.com | unknown | ❌ | Excluded: already reported in a recent brief ("Gold Price Falls Below $4,000; Banks Tighten Precious Metals Business") |
+| [国际金价失守4000美元大关！多家银行收紧个人贵金属业务](https://m.21jingji.com/article/20260625/herald/e0b7172aaf62935fcf11d078807ac365.html) | m.21jingji.com | unknown | ❌ | Excluded: already reported in a recent brief ("Multiple banks tighten personal precious metals business, suspend agents and raise margin ") |
 | [全球能源结构性重塑与能源金融支持策略探析](https://m.21jingji.com/article/20260625/herald/6a29e8caf360606408b334c7f0e1ad35.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [达沃斯上首次详解！事关数字人民币新动作](https://m.21jingji.com/article/20260625/herald/b9fd689c7973d54a92b4bf3c78ae3308.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [年内14家险企发债320.7亿元](https://m.21jingji.com/article/20260625/herald/68134368fb219676293c94ccb1e2d752.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
@@ -1096,7 +1232,7 @@ _In Report? verdicts reflect the brief run of **2026-06-26** (generated 2026-06-
 | [看得见的壁垒、看不见的隐患，中企出海面临“合规大考”](https://m.21jingji.com/article/20260625/herald/41b60712dd7b497c99e0c8616be9b7a4.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [中国为何是全球最重要的氢能市场？希尔顿·英格拉姆：因四大优势](https://m.21jingji.com/article/20260625/herald/d23e762173642313d4a6a3174ec45c44.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [如何守护好入河排污口？生态环境部答21：AI、大数据齐上阵](https://m.21jingji.com/article/20260625/herald/2a283a02dc0811e0e5519515d51feeee.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
-| [新能源又一“奇点”时刻 钠电成本有望追平锂电](https://m.21jingji.com/article/20260625/herald/b9934f9d987b9a6394c8791a9aa161aa.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [新能源又一“奇点”时刻 钠电成本有望追平锂电](https://m.21jingji.com/article/20260625/herald/b9934f9d987b9a6394c8791a9aa161aa.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [605336，筹划重大资产重组！股价3天2涨停！](https://m.21jingji.com/article/20260625/herald/1a082ddad5451251911244f18cc73ee5.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [存储芯片，集体暴涨！美光科技16%，闪迪13%，西部数据10%，希捷科技7%](https://m.21jingji.com/article/20260625/herald/082de19776b281d646223cbd30b4b9b0.html) | m.21jingji.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [688146，明日复牌，今年涨股价暴涨870%！7月18日将披露半年报，领衔科创板](https://m.21jingji.com/article/20260625/herald/9e5be8155db9145f8dac8a661d67efda.html) | m.21jingji.com | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
@@ -1178,9 +1314,9 @@ _In Report? verdicts reflect the brief run of **2026-06-26** (generated 2026-06-
 | [浦发银行践行“金融为民”初心，创新推出“调诉结合”多元化解新机制](https://www.eeo.com.cn/2026/0625/930019.shtml) | www.eeo.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
 | [华恒生物：终止发行H股股票并于香港联交所主板上市](https://www.jiemian.com/article/14641155.html) | www.jiemian.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [欧洲股市收盘](https://www.jiemian.com/article/14641148.html) | www.jiemian.com | unknown | ❌ | Not selected: ranked below today's top stories |
-| [逃避税近24亿元被审计署通报，中国银行回应](https://www.jiemian.com/article/14641060.html) | www.jiemian.com | unknown | ❌ | Excluded: already reported in a recent brief ("Bank of China Fined for Tax Evasion of 2.367 Billion Yuan") |
+| [逃避税近24亿元被审计署通报，中国银行回应](https://www.jiemian.com/article/14641060.html) | www.jiemian.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [创业板指涨逾1%](https://www.jiemian.com/article/14642618.html) | www.jiemian.com | unknown | ❌ | Not selected: ranked below today's top stories |
-| [恒生科技指数跌幅扩大至1%](https://www.jiemian.com/article/14642562.html) | www.jiemian.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [恒生科技指数跌幅扩大至1%](https://www.jiemian.com/article/14642562.html) | www.jiemian.com | unknown | ✅ | In report — corroborating source for "Hong Kong stocks open sharply lower, Hang Seng Tech drops over 3%" |
 | [证券板块盘初拉升，华安证券逼近涨停](https://www.jiemian.com/article/14642541.html) | www.jiemian.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [更换辅导券商后，英得尔重启IPO](https://www.jiemian.com/article/14642068.html) | www.jiemian.com | 2026-06-24 | ❌ | Not selected: ranked below today's top stories |
 | [出海日报｜三一重能塞尔维亚风电项目开工，和誉医药与礼来达成全球研发合作/界面新闻](https://www.jiemian.com/article/14641644.html) | www.jiemian.com | unknown | ➖ | Not evaluated in the latest brief run |
@@ -1200,7 +1336,7 @@ _In Report? verdicts reflect the brief run of **2026-06-26** (generated 2026-06-
 | [对标英伟达！高通携全新CPU和大手笔收购入局AI算力](https://www.jiemian.com/article/14644936.html) | www.jiemian.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [商务部：截至6月推出重点外资项目500多个，总投资额超3000亿美元](https://www.jiemian.com/article/14646445.html) | www.jiemian.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [亚宝药业：东莨菪碱透皮贴片临床试验获批](https://www.jiemian.com/article/14646416.html) | www.jiemian.com | unknown | ❌ | Not selected: ranked below today's top stories |
-| [OpenAI发布首款AI芯片，可适配各类大语言模型](https://www.jiemian.com/article/14645648.html) | www.jiemian.com | unknown | ✅ | In report — Tech: cited source for "Doubao Pro Pricing Up to 500 Yuan/Month; OpenAI Releases First AI Chip" |
+| [OpenAI发布首款AI芯片，可适配各类大语言模型](https://www.jiemian.com/article/14645648.html) | www.jiemian.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [跨境股票TRS新增业务叫停，私募“绕道”炒作海外科技股行不通了](https://www.jiemian.com/article/14640896.html) | www.jiemian.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [首个未来产业特训班开班！国资委人才战略提速](https://www.jiemian.com/article/14646319.html) | www.jiemian.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [两部门：2030年初步建成清洁低碳安全高效的新型能源体系](https://www.jiemian.com/article/14647745.html) | www.jiemian.com | unknown | ❌ | Not selected: ranked below today's top stories |
@@ -1213,7 +1349,7 @@ _In Report? verdicts reflect the brief run of **2026-06-26** (generated 2026-06-
 | [【观察】中国供应链的进阶蜕变：从跟跑到协同共创](https://www.jiemian.com/article/14648290.html) | www.jiemian.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [事关中美经贸磋商、稳外资，商务部最新发声](https://www.jiemian.com/article/14646658.html) | www.jiemian.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [美联储年内加息仍存在不确定性](https://www.jiemian.com/article/14647772.html) | www.jiemian.com | unknown | ❌ | Not selected: ranked below today's top stories |
-| [美光科技盘初涨幅扩大至超19%](https://www.jiemian.com/article/14649048.html) | www.jiemian.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [美光科技盘初涨幅扩大至超19%](https://www.jiemian.com/article/14649048.html) | www.jiemian.com | unknown | ✅ | In report — Markets: cited source for "Hong Kong stocks open sharply lower, Hang Seng Tech drops over 3%" |
 | [费城半导体指数开盘上涨5%](https://www.jiemian.com/article/14649031.html) | www.jiemian.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [纳指科技ETF景顺将于6月26日开市起停牌，当日10:30起复牌](https://www.jiemian.com/article/14649024.html) | www.jiemian.com | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [6月25日晚间公告集锦](https://www.jiemian.com/article/14648882.html) | www.jiemian.com | unknown | ❌ | Not selected: ranked below today's top stories |
@@ -1236,7 +1372,7 @@ _In Report? verdicts reflect the brief run of **2026-06-26** (generated 2026-06-
 | [中芯国际购买中芯北方49%股权实施完成；长电科技拟投资78亿元建设高端先进封测工厂](https://www.nbd.com.cn/articles/2026-06-24/4436420.html) | www.nbd.com.cn | 2026-06-24 | ➖ | Not evaluated in the latest brief run |
 | [航天机电拟转让连云港新能源近82%股权，今年以来已有多家上市公司公告出售光伏资产](https://www.nbd.com.cn/articles/2026-06-24/4436300.html) | www.nbd.com.cn | 2026-06-24 | ❌ | Not selected: ranked below today's top stories |
 | [87.35%高负债率下抛出15亿元扩产计划 昀冢科技加码MLCC赛道](https://www.nbd.com.cn/articles/2026-06-24/4436303.html) | www.nbd.com.cn | 2026-06-24 | ❌ | Not selected: ranked below today's top stories |
-| [中芯国际购买中芯北方49%股权实施完成；长电科技拟投资78亿元建设高端先进封测工厂](https://www.nbd.com.cn/articles/2026-06-24/4436350.html) | www.nbd.com.cn | 2026-06-24 | ✅ | In report — Company: cited source for "JCET Plans 7.8B Yuan Investment in Advanced Semiconductor Packaging Plant" |
+| [中芯国际购买中芯北方49%股权实施完成；长电科技拟投资78亿元建设高端先进封测工厂](https://www.nbd.com.cn/articles/2026-06-24/4436350.html) | www.nbd.com.cn | 2026-06-24 | ❌ | Not selected: ranked below today's top stories |
 | [罕见！*ST元道因银行账户冻结拟取消年度分红，业内人士：应就冻结具体情况向市场充分披露](https://www.nbd.com.cn/articles/2026-06-24/4436047.html) | www.nbd.com.cn | 2026-06-24 | ❌ | Not selected: ranked below today's top stories |
 | [官宣一年，终于上市！泸州老窖这瓶“28度高光”为何姗姗来迟？](https://www.nbd.com.cn/articles/2026-06-24/4436332.html) | www.nbd.com.cn | 2026-06-24 | ❌ | Not selected: ranked below today's top stories |
 | [2026年6月25日新能源市场热点](https://www.nbd.com.cn/articles/2026-06-24/4436456.html) | www.nbd.com.cn | 2026-06-24 | ❌ | Not selected: ranked below today's top stories |
@@ -1250,7 +1386,7 @@ _In Report? verdicts reflect the brief run of **2026-06-26** (generated 2026-06-
 | [集体上涨！韩国综指涨超300点，三星电子涨超8%，SK海力士涨超5%！日经指数重回7万点丨日韩股市](https://www.nbd.com.cn/articles/2026-06-24/4435253.html) | www.nbd.com.cn | 2026-06-24 | ❌ | Not selected: ranked below today's top stories |
 | [“两天两板”德尔未来发布6月第二份股价异动公告：今年石墨烯制备设备及应用产品暂无在手订单](https://www.nbd.com.cn/articles/2026-06-25/4436488.html) | www.nbd.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [年内涨超300%的MLCC大牛股，顶着87%负债率，抛出15亿扩产计划，此前公司已连亏四年](https://www.nbd.com.cn/articles/2026-06-25/4436703.html) | www.nbd.com.cn | 2026-06-25 | ➖ | Not evaluated in the latest brief run |
-| [ETF规模速报](https://www.nbd.com.cn/articles/2026-06-25/4436670.html) | www.nbd.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
+| [ETF规模速报](https://www.nbd.com.cn/articles/2026-06-25/4436670.html) | www.nbd.com.cn | 2026-06-25 | ➖ | Not evaluated in the latest brief run |
 | [集体大涨！韩国综指涨超5.5%触发熔断，三星电子涨超5%、SK海力士涨超10%！日本股市涨超1600点丨日韩股市](https://www.nbd.com.cn/articles/2026-06-25/4436623.html) | www.nbd.com.cn | 2026-06-25 | ➖ | Not evaluated in the latest brief run |
 | [退市太和年度股东会四项议案被否 投票数据显示第一大股东和第二大股东未投票](https://www.nbd.com.cn/articles/2026-06-24/4436449.html) | www.nbd.com.cn | 2026-06-24 | ❌ | Not selected: ranked below today's top stories |
 | [盘后狂飙超16%！美光财报“炸裂”，营收增346%，HBM供应紧张局面将持续至2027年以后；黄仁勋：AI已能赚钱，英伟达客户买的不是服务器，是持续创收的基础设施丨全球科技早参](https://www.nbd.com.cn/articles/2026-06-25/4436581.html) | www.nbd.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
@@ -1289,7 +1425,7 @@ _In Report? verdicts reflect the brief run of **2026-06-26** (generated 2026-06-
 | [恒为科技收到监管工作函！公司拟购数珩科技51%股权，交易对手方承诺增持恒为科技股票](https://www.nbd.com.cn/articles/2026-06-25/4436994.html) | www.nbd.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [港股“子”曰](https://www.nbd.com.cn/articles/2026-06-25/4437097.html) | www.nbd.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [黄仁勋，最新发声！进入中国市场仍存不确定性；计划将50%或更多的自由现金流返还给股东](https://www.nbd.com.cn/articles/2026-06-25/4437076.html) | www.nbd.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
-| [实测 / 豆包专业版五大办公技能：327张图3分钟归档，PPT配图“偶开天窗”，数据图表识别仍需“人工兜底” / 每经网](https://www.nbd.com.cn/articles/2026-06-25/4436981.html) | www.nbd.com.cn | 2026-06-25 | ✅ | In report (brief mention): "Doubao Pro AI Assistant Tested: Fast Image Sorting but Chart Recognition Needs Improvement" — full text not readable |
+| [实测 / 豆包专业版五大办公技能：327张图3分钟归档，PPT配图“偶开天窗”，数据图表识别仍需“人工兜底” / 每经网](https://www.nbd.com.cn/articles/2026-06-25/4436981.html) | www.nbd.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [每经热评 / 华恒生物实控人被拘股价跌停，上市公司如何避免被关键人拖垮？ / 每经网](https://www.nbd.com.cn/articles/2026-06-25/4436980.html) | www.nbd.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [国家级改革试点！成都东部新区汽车赛事经济迎新机遇](https://www.nbd.com.cn/articles/2026-06-25/4436867.html) | www.nbd.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [隔夜逆回购操作月底将登场 未来政策利率将盯哪一个？](https://www.nbd.com.cn/articles/2026-06-25/4437023.html) | www.nbd.com.cn | 2026-06-25 | ➖ | Not evaluated in the latest brief run |
@@ -1301,7 +1437,7 @@ _In Report? verdicts reflect the brief run of **2026-06-26** (generated 2026-06-
 | [龙磁科技：公司产品未列入两用物项及禁止/限制出口目录](https://www.nbd.com.cn/articles/2026-06-25/4437182.html) | www.nbd.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [银行AI员工月薪八千上岗：24小时无休，干不好直接“开除”](https://www.nbd.com.cn/articles/2026-06-25/4437383.html) | www.nbd.com.cn | 2026-06-25 | ➖ | Not evaluated in the latest brief run |
 | [霍尔木兹海峡解封！每经记者连线滞留海员：还不清楚哪天能离开 上市公司：供应链成本“易涨难降”](https://www.nbd.com.cn/articles/2026-06-25/4437185.html) | www.nbd.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
-| [两部门：2030年新能源发电量占比达到30%](https://www.nbd.com.cn/articles/2026-06-25/4437378.html) | www.nbd.com.cn | 2026-06-25 | ✅ | In report — corroborating source for "China Releases 15th Five-Year Plan for New Energy System" |
+| [两部门：2030年新能源发电量占比达到30%](https://www.nbd.com.cn/articles/2026-06-25/4437378.html) | www.nbd.com.cn | 2026-06-25 | ✅ | In report — corroborating source for "China issues 15th Five-Year Plan for new energy system" |
 | [“水上飞行”是颠覆出行的增量赛道还是极客玩具？坦途科技陆健：走向大众消费要闯“三道关”](https://www.nbd.com.cn/articles/2026-06-25/4437187.html) | www.nbd.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [美光拯救AI交易！大佬发声了](https://www.nbd.com.cn/articles/2026-06-25/4437363.html) | www.nbd.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [【美股盘前】美光科技涨超17%，存储股齐涨，闪迪涨超12%；光通信概念股集体走强，康宁涨超8%；全面进军AI数据中心业务，高通涨逾11%；诺基亚涨近3%](https://www.nbd.com.cn/articles/2026-06-25/4437379.html) | www.nbd.com.cn | 2026-06-25 | ➖ | Not evaluated in the latest brief run |
@@ -1324,7 +1460,7 @@ _In Report? verdicts reflect the brief run of **2026-06-26** (generated 2026-06-
 | [返利科技筹划控制权变更前股价大涨近50%，有投资者质疑内幕交易，公司称已按监管要求对相关内幕信息知情人进行登记管理](https://www.nbd.com.cn/articles/2026-06-25/4437565.html) | www.nbd.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [直击股东会｜招商银行拟任行长王小青首次公开阐述发展方向！管理层回应估值、AI投入与收益 / 每经网](https://www.nbd.com.cn/articles/2026-06-25/4437501.html) | www.nbd.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [库博能源冲刺港股上市 去年近九成收入来自海外市场](https://www.nbd.com.cn/articles/2026-06-25/4437541.html) | www.nbd.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
-| [21:39 美光科技盘初涨幅扩](https://www.nbd.com.cn/articles/2026-06-25/4437759.html) | www.nbd.com.cn | unknown | ❌ | Not selected: ranked below today's top stories |
+| [21:39 美光科技盘初涨幅扩](https://www.nbd.com.cn/articles/2026-06-25/4437759.html) | www.nbd.com.cn | unknown | ✅ | In report — corroborating source for "Hong Kong stocks open sharply lower, Hang Seng Tech drops over 3%" |
 | [21:38 美股三大指数集体高](https://www.nbd.com.cn/articles/2026-06-25/4437757.html) | www.nbd.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
 | [美股三大指数集体高开 美光科技涨超17%](https://www.nbd.com.cn/articles/2026-06-25/4437756.html) | www.nbd.com.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [21:38 美股三大指数集体高](https://www.nbd.com.cn/articles/2026-06-25/4437755.html) | www.nbd.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
@@ -1339,7 +1475,7 @@ _In Report? verdicts reflect the brief run of **2026-06-26** (generated 2026-06-
 | [“数据要素×”三年行动计划成效显著](https://www.news.cn/tech/20260625/e6cdca4a3bc440048bde14ba10c7611a/c.html) | www.news.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [AI生产力悖论：一些企业为何未获实效？](https://www.news.cn/tech/20260625/6f28aaae3ee64de6acd4379aed2d7451/c.html) | www.news.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [6G加速天地组网 多方竞逐产业新机遇](https://www.news.cn/tech/20260625/59818dc9c6a049a3ae48a337a2918ffb/c.html) | www.news.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
-| [“玩”美新消费](https://www.news.cn/tech/20260625/a64a5ecb6fe74dd6a6560f4cef321aea/c.html) | www.news.cn | 2026-06-25 | ❌ | Excluded: already reported in a recent brief ("New Consumption Trends: 'Play' and Perfect Consumption") |
+| [“玩”美新消费](https://www.news.cn/tech/20260625/a64a5ecb6fe74dd6a6560f4cef321aea/c.html) | www.news.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [从实验室到应用场景 前沿科技加速推动“规模化创新”](https://www.news.cn/tech/20260625/6c100823fff94bc38ab30263e3cd1585/c.html) | www.news.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [链博会鲜报 / 感动，这才是科技的价值-新华网](https://www.news.cn/tech/20260625/02d7270bca574905b284a3ad1f0de3b4/c.html) | www.news.cn | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [祥鑫科技宣布：拟收购资产，快速切入液冷散热赛道](https://www.stcn.com/article/detail/3978076.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
@@ -1377,17 +1513,17 @@ _In Report? verdicts reflect the brief run of **2026-06-26** (generated 2026-06-
 | [创业板指涨幅扩大至1% 储存芯片等涨幅居前](https://www.stcn.com/article/detail/3978647.html) | www.stcn.com | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [恒生科技指数跌幅扩大至1%](https://www.stcn.com/article/detail/3978638.html) | www.stcn.com | 2026-06-25 | ➖ | Not evaluated in the latest brief run |
 | [证券板块盘初拉升 华安证券涨超9%](https://www.stcn.com/article/detail/3978598.html) | www.stcn.com | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
-| [长电科技高开5% 拟投资78亿元建设高端先进封测工厂](https://www.stcn.com/article/detail/3978587.html) | www.stcn.com | 2026-06-24 | ✅ | In report — Company: cited source for "JCET Plans 7.8B Yuan Investment in Advanced Semiconductor Packaging Plant" |
+| [长电科技高开5% 拟投资78亿元建设高端先进封测工厂](https://www.stcn.com/article/detail/3978587.html) | www.stcn.com | 2026-06-24 | ❌ | Not selected: ranked below today's top stories |
 | [开评：三大指数涨跌不一 存储芯片概念涨幅居前](https://www.stcn.com/article/detail/3978569.html) | www.stcn.com | 2026-06-24 | ❌ | Not selected: ranked below today's top stories |
-| [央行今日开展3705亿元7天期逆回购操作](https://www.stcn.com/article/detail/3978552.html) | www.stcn.com | 2026-06-25 | ✅ | In report — Macro: cited source for "PBOC Conducts 500B Yuan MLF Operation, Net Injection of 200B Yuan" |
-| [恒指低开0.1% 恒生科技指数涨0.41%](https://www.stcn.com/article/detail/3978544.html) | www.stcn.com | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
+| [央行今日开展3705亿元7天期逆回购操作](https://www.stcn.com/article/detail/3978552.html) | www.stcn.com | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
+| [恒指低开0.1% 恒生科技指数涨0.41%](https://www.stcn.com/article/detail/3978544.html) | www.stcn.com | 2026-06-25 | ✅ | In report — corroborating source for "Hong Kong stocks open sharply lower, Hang Seng Tech drops over 3%" |
 | [国家药监局局长黄果到疫苗生产企业开展巡查督导](https://www.stcn.com/article/detail/3978538.html) | www.stcn.com | 2026-06-24 | ❌ | Not selected: ranked below today's top stories |
 | [6月25日人民币对美元中间价调贬14个基点](https://www.stcn.com/article/detail/3978532.html) | www.stcn.com | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [央行：将在6月29日、6月30日公开市场操作中增加隔夜逆回购操作品种](https://www.stcn.com/article/detail/3978488.html) | www.stcn.com | 2026-06-25 | ➖ | Not evaluated in the latest brief run |
 | [39只科创板股获融资净买入额超5000万元](https://www.stcn.com/article/detail/3978535.html) | www.stcn.com | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [18股获融资净买入额超3亿元](https://www.stcn.com/article/detail/3978501.html) | www.stcn.com | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [A股两融余额首次站上3万亿 重点加仓科技赛道](https://www.stcn.com/article/detail/3978457.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
-| [每手最高狂派上千元 A股“红包雨”密集降落释放什么信号？](https://www.stcn.com/article/detail/3978459.html) | www.stcn.com | unknown | ✅ | In report — Markets: cited source for "A-Share Companies Pay Generous Dividends, Signaling Positive Outlook" |
+| [每手最高狂派上千元 A股“红包雨”密集降落释放什么信号？](https://www.stcn.com/article/detail/3978459.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [大V投顾集体“渡劫”：为何他们跑输科技牛市？](https://www.stcn.com/article/detail/3978421.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [大动作！四川国资整合产业版图，两大万亿平台“分工换挡”！](https://www.stcn.com/article/detail/3978373.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [有色股短期震荡 行业分红规模再创新高](https://www.stcn.com/article/detail/3978256.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
@@ -1408,7 +1544,7 @@ _In Report? verdicts reflect the brief run of **2026-06-26** (generated 2026-06-
 | [泰和科技：7N级四氯化硅项目已完成小试](https://www.stcn.com/article/detail/3979078.html) | www.stcn.com | 2026-06-22 | ➖ | Not evaluated in the latest brief run |
 | [第六次中蒙进出口食品安全磋商机制会议在厦门召开](https://www.stcn.com/article/detail/3979076.html) | www.stcn.com | 2026-06-18 | ➖ | Not evaluated in the latest brief run |
 | [精工科技：公司碳纤维材料尚未向AI眼镜企业供货](https://www.stcn.com/article/detail/3979069.html) | www.stcn.com | 2026-06-25 | ➖ | Not evaluated in the latest brief run |
-| [港股午评：恒生指数跌1.38% 恒生科技指数跌1.67%](https://www.stcn.com/article/detail/3979062.html) | www.stcn.com | 2026-06-24 | ❌ | Not selected: ranked below today's top stories |
+| [港股午评：恒生指数跌1.38% 恒生科技指数跌1.67%](https://www.stcn.com/article/detail/3979062.html) | www.stcn.com | 2026-06-24 | ✅ | In report — corroborating source for "Hong Kong stocks open sharply lower, Hang Seng Tech drops over 3%" |
 | [英力股份：公司暂未取得戴尔AIPC结构件订单](https://www.stcn.com/article/detail/3979060.html) | www.stcn.com | 2026-06-23 | ➖ | Not evaluated in the latest brief run |
 | [中国信通院人工智能所联合发布《企业级智能体技术与应用研究报告（2026年）》](https://www.stcn.com/article/detail/3979014.html) | www.stcn.com | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [证券板块持续走强 中信建投涨停](https://www.stcn.com/article/detail/3978984.html) | www.stcn.com | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
@@ -1423,7 +1559,7 @@ _In Report? verdicts reflect the brief run of **2026-06-26** (generated 2026-06-
 | [汇嘉时代端午假期量利双增 AI机器人+世界杯解锁消费新场景](https://www.stcn.com/article/detail/3978844.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [284只ETF获融资净买入 国泰中证全指证券公司ETF居首](https://www.stcn.com/article/detail/3978551.html) | www.stcn.com | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
 | [江西“期联赣鄱”系列活动精准赋能省内重点特色产业链 凝聚产融协同发展合力](https://www.stcn.com/article/detail/3978806.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
-| [新一轮国资国企改革定调](https://www.stcn.com/article/detail/3978589.html) | www.stcn.com | unknown | ✅ | In report — Policy: cited source for "New Round of State-Owned Enterprise Reform Begins, LGFV Transition Under Tight Constraints" |
+| [新一轮国资国企改革定调](https://www.stcn.com/article/detail/3978589.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [为市场“新陈代谢”主动清障（人民时评）](https://www.stcn.com/article/detail/3978840.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [大连电瓷总经理应莹庭：借力全球能源转型浪潮，国产电瓷加速全球突围](https://www.stcn.com/article/detail/3978756.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [小湃科技王晓晖：AI浪潮为智能体终端带来巨大机会](https://www.stcn.com/article/detail/3978541.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
@@ -1433,7 +1569,7 @@ _In Report? verdicts reflect the brief run of **2026-06-26** (generated 2026-06-
 | [A股市场整体走强，科创板创业板表现突出，MLCC概念再度大涨](https://www.stcn.com/article/detail/3979100.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [实探｜金属价格高位震荡，实体企业打法曝光](https://www.stcn.com/article/detail/3979336.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [广东：到2030年新增100家脑机接口科技型企业](https://www.stcn.com/article/detail/3979303.html) | www.stcn.com | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
-| [保证金比例升至140%！银行增厚贵金属业务“风险缓冲垫”](https://www.stcn.com/article/detail/3979244.html) | www.stcn.com | unknown | ❌ | Excluded: already reported in a recent brief ("Gold Price Falls Below $4,000; Banks Tighten Precious Metals Business") |
+| [保证金比例升至140%！银行增厚贵金属业务“风险缓冲垫”](https://www.stcn.com/article/detail/3979244.html) | www.stcn.com | unknown | ❌ | Excluded: already reported in a recent brief ("Multiple banks tighten personal precious metals business, suspend agents and raise margin ") |
 | [5000亿元！央行加量续做！下周将开展隔夜逆回购操作](https://www.stcn.com/article/detail/3979109.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [重磅！中植集团公布债权申报明细，信托类超1700亿元](https://www.stcn.com/article/detail/3979106.html) | www.stcn.com | 2026-06-24 | ❌ | Not selected: ranked below today's top stories |
 | [80余只基金翻倍，科技股高波动下如何配置？](https://www.stcn.com/article/detail/3979247.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
@@ -1489,7 +1625,7 @@ _In Report? verdicts reflect the brief run of **2026-06-26** (generated 2026-06-
 | [科创综指、创业板指，双双创历史新高！芯片股，“涨”声响起来！](https://www.stcn.com/article/detail/3979954.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [单日只能买10元！QDII基金限购潮升级，这些风险要警惕](https://www.stcn.com/article/detail/3980117.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [诸立力：中国经济转型虽面临挑战，但长期发展方向明确](https://www.stcn.com/article/detail/3979726.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
-| [利好来了！两部门印发《新型能源体系建设“十五五”规划》](https://www.stcn.com/article/detail/3980380.html) | www.stcn.com | unknown | ✅ | In report — Policy: cited source for "China Releases 15th Five-Year Plan for New Energy System" |
+| [利好来了！两部门印发《新型能源体系建设“十五五”规划》](https://www.stcn.com/article/detail/3980380.html) | www.stcn.com | unknown | ✅ | In report — corroborating source for "China issues 15th Five-Year Plan for new energy system" |
 | [605336，筹划重大资产重组！股价3天2涨停！](https://www.stcn.com/article/detail/3980476.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [一边腰斩，一边暴涨40%！港股主题基金表现分化](https://www.stcn.com/article/detail/3980444.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [停牌核查已完成，8倍大牛股，明日复牌](https://www.stcn.com/article/detail/3980409.html) | www.stcn.com | 2026-06-25 | ❌ | Not selected: ranked below today's top stories |
@@ -1500,7 +1636,7 @@ _In Report? verdicts reflect the brief run of **2026-06-26** (generated 2026-06-
 | [突传利好，欧洲股市主要股指全线上涨](https://www.stcn.com/article/detail/3980414.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [美股三大指数集体高开 美光科技涨超17%](https://www.stcn.com/article/detail/3980536.html) | www.stcn.com | 2026-06-25 | ➖ | Not evaluated in the latest brief run |
 | [中国人民银行行长潘功胜会见巴西财政部部长杜里甘](https://www.stcn.com/article/detail/3980498.html) | www.stcn.com | 2026-06-25 | ➖ | Not evaluated in the latest brief run |
-| [大族激光：拟不超25.2亿元投资建设光纤及预制棒项目](https://www.stcn.com/article/detail/3980486.html) | www.stcn.com | 2026-06-25 | ✅ | In report — Company: cited source for "Han's Laser Plans 2.52B Yuan Investment in Fiber Optic Project" |
+| [大族激光：拟不超25.2亿元投资建设光纤及预制棒项目](https://www.stcn.com/article/detail/3980486.html) | www.stcn.com | 2026-06-25 | ✅ | In report (brief mention): "Han's Laser plans 2.52 billion yuan investment in fiber optic project despite recent losse" — full text not readable |
 | [【调研风向标】存储芯片供需紧张格局持续，这家公司预计二季度毛利率会继续上涨！](https://www.stcn.com/article/detail/3980483.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [广发证券：向专业投资者公开发行短期公司债券获证监会注册批复](https://www.stcn.com/article/detail/3980462.html) | www.stcn.com | 2026-06-23 | ➖ | Not evaluated in the latest brief run |
 | [本周已有超20家A股公司拟回购、增持 海天味业最高20亿元回购暂居首](https://www.stcn.com/article/detail/3980518.html) | www.stcn.com | unknown | ❌ | Not selected: ranked below today's top stories |
@@ -1561,6 +1697,6 @@ _In Report? verdicts reflect the brief run of **2026-06-26** (generated 2026-06-
 | [人工智能核心产业规模超1.2万亿，机器人领域快速发展](https://www.yicai.com/news/103246796.html) | www.yicai.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [全球能源投资创新高、动能却停滞，能源转型呈碎片化](https://www.yicai.com/news/103246803.html) | www.yicai.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [德业股份再投12.32亿元加码工商储，股价年内已涨超六成](https://www.yicai.com/news/103246773.html) | www.yicai.com | unknown | ❌ | Not selected: ranked below today's top stories |
-| [一天12家！IPO受理步入高峰期，多家企业“二进宫”](https://www.yicai.com/news/103246748.html) | www.yicai.com | unknown | ❌ | Not selected: ranked below today's top stories |
+| [一天12家！IPO受理步入高峰期，多家企业“二进宫”](https://www.yicai.com/news/103246748.html) | www.yicai.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [金融营销的钱，一半都浪费了？鲸鸿动能破解确定性增长难题](https://www.yicai.com/news/103246747.html) | www.yicai.com | unknown | ❌ | Not selected: ranked below today's top stories |
 | [未来产业如何跨越“不确定性”周期，智库专家给出几个建议](https://www.yicai.com/news/103246667.html) | www.yicai.com | unknown | ❌ | Not selected: ranked below today's top stories |
