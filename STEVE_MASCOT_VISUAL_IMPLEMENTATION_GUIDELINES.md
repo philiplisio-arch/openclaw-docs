@@ -1,8 +1,8 @@
 ---
 document_id: STEVE-MASCOT-VISUAL-IMPLEMENTATION-GUIDELINES
-version: 1.0
+version: 1.1
 created: 2026-06-24
-last_updated: 2026-06-24
+last_updated: 2026-06-26
 status: PRODUCT SPEC — NOT PIPELINE GOVERNING
 classification: INTERNAL WEBSITE FEATURE IMPLEMENTATION GUIDELINES
 related_documents:
@@ -18,31 +18,60 @@ related_documents:
 
 ## 1. Purpose
 
-This document updates the Steve mascot direction for the internal daily monitoring website.
+This document aligns Steve's visual direction, concept art, graphical handbook requirements, and implementation guidance for the internal daily monitoring website.
 
 Steve remains a feedback-capture mascot only. He is not an autonomous learning agent and must not modify retrieval, story selection, prompts, validation, Brain Lite, delivery gates, or any production WS1 pipeline behavior.
 
-This document should be read alongside `STEVE_FEEDBACK_MASCOT_SPEC.md`, which defines the core feedback model, scoring system, promotion logic, wardrobe rotation, nightly 2:00 a.m. cron update, and governance boundary.
+## 2. Schema Authority — Critical Alignment Rule
 
-## 2. Current Design Adjustment
+This document controls **visual design only**.
 
-The previous Steve concept is a good start, but the visual direction should shift.
+It does **not** redefine Steve's implemented rating, scoring, promotion, streak, cooldown, cron-state, or database schema logic.
 
-### Keep
+The existing implemented Steve rating/promotion schema is authoritative for:
 
-- Steve as the named feedback mascot
-- Steve as a lobster associated with OpenClaw
-- Full career-progression concept
-- Daily wardrobe changes
-- Score-based animations
-- 1–10 feedback score
-- Large feedback text box
-- Promotion ladder driven by sustained positive feedback
-- Non-pipeline, feedback-only governance boundary
+- Rating input model
+- Score storage
+- Promotion thresholds
+- Streak logic
+- Cooldown logic
+- Steve stage/state fields
+- Nightly cron state update behavior
+- Database fields
+- Admin/export fields
 
-### Change
+If this visual guide, the generated graphic, or future art direction conflicts with the implemented Steve schema, the implemented schema wins unless the operator explicitly approves a schema migration.
 
-Steve should become:
+The graphic and this document must be interpreted as a **skin and presentation layer** on top of the existing Steve implementation, not a replacement for implementation logic.
+
+## 3. Graphic Alignment Rule
+
+The generated cute full-body lobster concept graphic is approved as the current visual direction board, but not as final production art.
+
+The graphic establishes:
+
+- Cute full-body anthropomorphic lobster Steve
+- Softer, friendlier, less threatening tone
+- Career progression shown through posture, clothing, accessories, and environment
+- Large rectangular feedback box
+- Wardrobe, hat, shoe, and accessory variety
+- Score-band emotional states
+- Daily wardrobe variation
+
+The graphic does **not** establish:
+
+- A new scoring schema
+- A new promotion schema
+- A new number of implemented stages if the code already uses a different count
+- A new database model
+- A new cron algorithm
+- A new WS1 feedback processing model
+
+Any labels in the graphic such as titles, stages, points, ranks, or score bands must be mapped onto the implemented schema rather than treated as authoritative schema definitions.
+
+## 4. Current Visual Direction
+
+The previous Steve concept was too executive-realistic. Steve should now become:
 
 - Much cuter
 - More cartoonish
@@ -60,7 +89,7 @@ Steve should not look like:
 - A realistic lobster head pasted onto a human business suit
 - A mascot that could scare or visually dominate the page
 
-## 3. Core Character Direction
+## 5. Core Character Direction
 
 Steve is a friendly cartoon lobster companion who grows with user feedback.
 
@@ -82,11 +111,11 @@ Suggested personality:
 - Proud when doing well, but never smug
 - Sad when low-scored, but never pathetic or disturbing
 
-## 4. Anthropomorphic Body Requirements
+## 6. Anthropomorphic Body Requirements
 
 Steve must be a full-body character, not just a head or bust.
 
-Every stage and outfit must show:
+Every visible stage and outfit should show:
 
 - Head
 - Torso
@@ -122,42 +151,17 @@ Steve should have:
 - Overly shiny shell textures
 - Aggressive power poses
 
-## 5. Visual Tone
+## 7. Career Progression — Visual Mapping Only
 
-Use a playful internal-product style.
+Steve still grows through a career journey, but growth should be expressed through confidence, posture, clothing fit, and gentle body maturity rather than macho physical transformation.
 
-Recommended visual attributes:
+The visual handbook may show ten illustrated ranks if useful, but production must map those ranks onto the implemented Steve stage system.
 
-- Rounded shapes
-- Soft shadows
-- Warm pastel accents
-- Cheerful expressions
-- Friendly office environments
-- Clear readable silhouettes
-- Cute rather than impressive
+If the implemented system has fewer or differently named stages, the art must adapt to the implemented stage IDs rather than forcing code changes.
 
-Suggested style references:
+Recommended visual ladder for art direction:
 
-- Friendly SaaS mascot
-- Educational game character
-- Slack-style internal bot personality
-- Cute office cartoon companion
-- Light gamification UI
-
-Avoid:
-
-- Photorealism
-- Dark glossy executive drama
-- Hyper-detailed boardroom realism
-- Luxury status imagery
-- Sunglasses as default
-- Dominant / intimidating poses
-
-## 6. Career Progression — Cute Body Evolution
-
-Steve still grows through the career ladder, but growth should be expressed through confidence, posture, clothing fit, and gentle body maturity rather than macho physical transformation.
-
-| Stage | Title | Visual Direction |
+| Visual Stage | Suggested Title | Visual Direction |
 |---|---|---|
 | 1 | Intern Steve | Small, skinny, eager, slightly awkward, sneakers, simple polo or short-sleeve shirt, holding notebook |
 | 2 | Account Coordinator Steve | Still small but tidier, casual office outfit, lanyard, tablet or clipboard |
@@ -180,17 +184,19 @@ Important: Steve should not simply wear different clothes. Each stage should sho
 - More composed stance
 - More polished accessories and environment
 
-## 7. Wardrobe System
+## 8. Wardrobe System
 
 The wardrobe system should be visually rich and easy to notice because Steve is full-body.
 
 ### Daily Variation Rule
 
-Every day Steve should receive a new outfit combination via the 2:00 a.m. Steve cron job.
+Every day Steve should receive a new outfit combination via the existing Steve nightly update process.
 
 No exact outfit combination may repeat on consecutive days.
 
 Outfit combination = top + bottom + jacket/sweater + tie/scarf/accessory + shoes + optional hat.
+
+The outfit selector must use the implemented state schema fields. Do not add new persistent state fields unless the operator approves a schema migration.
 
 ### Clothing Pools
 
@@ -235,7 +241,9 @@ Outfit combination = top + bottom + jacket/sweater + tie/scarf/accessory + shoes
 - Presentation clicker
 - Boardroom folder
 
-### Shirt Color Pool
+### Color / Accessory Pools
+
+Recommended shirt colors:
 
 - White
 - Light blue
@@ -246,7 +254,7 @@ Outfit combination = top + bottom + jacket/sweater + tie/scarf/accessory + shoes
 - Blue stripe
 - Check pattern
 
-### Tie / Neckwear Pool
+Recommended tie / neckwear options:
 
 - Navy tie
 - Burgundy tie
@@ -259,11 +267,7 @@ Outfit combination = top + bottom + jacket/sweater + tie/scarf/accessory + shoes
 - Bow tie, optional rare playful variant
 - No tie, allowed for early and casual stages
 
-### Hat Options
-
-Hats should be cute optional variants, not default executive status symbols.
-
-Recommended hat pool:
+Recommended hats:
 
 - No hat
 - Baseball cap with OC logo
@@ -281,7 +285,7 @@ Hat rules:
 - No hat should make Steve look like a gangster, nightclub owner, or private detective.
 - Hats must not obscure antennae too much.
 
-### Shoes
+Recommended shoes:
 
 - Sneakers
 - Loafers
@@ -290,7 +294,7 @@ Hat rules:
 - Boots
 - Sandals, optional casual/summer variant
 
-## 8. Feedback Text Box UI
+## 9. Feedback Text Box UI
 
 The feedback input must not feel constrained.
 
@@ -308,7 +312,7 @@ The feedback field should be a real textarea, not a single-line input.
 ### Text Area Behavior
 
 - Placeholder: `Tell Steve what worked, what missed, or what should improve...`
-- Character counter: recommended 2,000 characters
+- Character counter: use the implemented limit if one already exists; otherwise 2,000 characters is recommended
 - Allow multiline input
 - Support paste
 - Preserve line breaks
@@ -331,9 +335,13 @@ Buttons:
 
 Avoid cramped chatbot-bubble UI. This is a feedback form with mascot personality, not a tiny chat widget.
 
-## 9. Score-Based Animations — Cute Version
+## 10. Score-Based Animations — Visual Mapping Only
 
-Use score bands from the existing spec, but make the animations more charming and less serious.
+Use the implemented rating values as the source of truth.
+
+If the implemented rating system is 1–10, use these score bands. If the implemented system is thumbs up/down or another model, map the visual states to that model without changing the underlying schema.
+
+Recommended 1–10 visual mapping:
 
 | Score | Steve Mood | Animation Direction |
 |---|---|---|
@@ -351,7 +359,7 @@ Avoid:
 - Human-like stress breakdowns
 - Overly corporate power poses
 
-## 10. Graphical Handbook Requirement
+## 11. Graphical Handbook Requirement
 
 A full graphical handbook should be created for implementation handoff.
 
@@ -359,9 +367,9 @@ The handbook should include:
 
 1. Full-body Steve master character sheet
 2. Front, side, and three-quarter views
-3. Ten career-stage silhouettes
-4. Ten career-stage final-color illustrations
-5. Score-based expression and animation sheet
+3. Career-stage silhouettes mapped to implemented stage IDs
+4. Career-stage final-color illustrations mapped to implemented stage IDs
+5. Score/rating-based expression and animation sheet mapped to implemented rating values
 6. Clothing inventory sheet
 7. Hat inventory sheet
 8. Shoe inventory sheet
@@ -372,20 +380,19 @@ The handbook should include:
 13. Mobile widget mockup
 14. Do / Don’t visual rules
 
-The generated concept image from this design session should be treated as the first visual direction board, not as final production art.
+The generated concept image from this design session should be treated as the first visual direction board, not as final production art and not as schema authority.
 
-## 11. Asset Naming Guidelines
+## 12. Asset Naming Guidelines
 
-Use stable, predictable asset names.
+Use stable, predictable asset names. Asset naming must follow implemented stage/rating IDs where they already exist.
+
+Example names, to be adapted to actual schema:
 
 ```text
-steve_stage_01_intern_default.png
-steve_stage_01_intern_score_01_02.png
-steve_stage_01_intern_score_03_04.png
-steve_stage_01_intern_score_05_06.png
-steve_stage_01_intern_score_07_08.png
-steve_stage_01_intern_score_09_10.png
-
+steve_stage_01_default.png
+steve_stage_01_rating_low.png
+steve_stage_01_rating_mid.png
+steve_stage_01_rating_high.png
 steve_outfit_stage_01_polo_blue_chinos_sneakers.png
 steve_hat_baseball_oc_blue.png
 steve_accessory_notebook_black.png
@@ -395,7 +402,7 @@ steve_ui_feedback_panel_mobile.png
 
 If SVG assets are practical, prefer SVG for icons, hats, clothes, and simple expressions. Use PNG/WebP for full rendered mascot states.
 
-## 12. Implementation Architecture
+## 13. Implementation Architecture
 
 Steve should be implemented as a separate website feature.
 
@@ -410,6 +417,10 @@ steve_assets_manifest.json
 
 ### Back-End / Data Files
 
+Use the existing implemented Steve paths if already created. Do not rename or migrate existing files merely to match this visual guide.
+
+Expected or recommended paths include:
+
 ```text
 /root/openclaw_steve/update_steve_daily.py
 /root/openclaw_steve/steve_config.yaml
@@ -420,13 +431,17 @@ steve_assets_manifest.json
 
 ### Existing Cron Requirement
 
-Steve updates every night at 2:00 a.m. server time:
+Steve updates every night at 2:00 a.m. server time, using the existing implemented cron contract.
+
+Expected cron form:
 
 ```cron
 0 2 * * * /usr/bin/python3 /root/openclaw_steve/update_steve_daily.py >> /root/openclaw_logs/steve_update.log 2>&1
 ```
 
-## 13. Integration with WS1 Website
+Do not alter WS1 cron timing or WS1 pipeline scripts to support Steve.
+
+## 14. Integration with WS1 Website
 
 Steve may appear on the WS1 daily monitoring website as a feedback layer.
 
@@ -453,15 +468,15 @@ Feedback categories should include the story-diversity concerns captured in `WS1
 - Needs more commercial relevance
 - Needs stronger executive usefulness
 
-## 14. Relationship to WS1 Process
+## 15. Relationship to WS1 Process
 
-Current WS1 context from Daily Status indicates that the WS1 selection-layer rebuild is live, with real distinct-outlet corroboration, publish-time window plus recency-aware ranking, full in-window corpus use, and client-grade mirroring to the `WS1/` folder for annotation.
-
-Steve should support this process only by collecting human review feedback.
+Steve should support the WS1 process only by collecting human review feedback.
 
 Steve feedback should become an input to human review and future product-quality memos, not a direct runtime control.
 
-## 15. Dashboard Style Compatibility
+Steve must not be wired into the WS1 selection-layer rebuild, source weighting, narrative diversity layer, or report generation process.
+
+## 16. Dashboard Style Compatibility
 
 The current dashboard template uses a clean card-based layout, compact typography, light background, and restrained status badges.
 
@@ -476,69 +491,106 @@ Recommended UI fit:
 - Keep Steve widget collapsible
 - Avoid blocking core report reading
 
-## 16. Implementation Steps
+## 17. Implementation Steps
 
-### Step 1 — Update Visual Asset Direction
+### Step 1 — Audit Implemented Steve Schema
+
+Before changing UI or art, identify the current implemented Steve files and record:
+
+- Rating field names and allowed values
+- Promotion threshold logic
+- Current stage IDs and titles
+- Cron state fields
+- Outfit fields
+- Existing feedback storage schema
+- Existing admin/export fields
+
+No implementation should proceed until this audit is complete.
+
+### Step 2 — Map Graphic to Existing Schema
+
+Create a mapping table:
+
+```text
+implemented_stage_id → visual_stage_art
+implemented_rating_value_or_band → animation_asset
+implemented_outfit_fields → wardrobe_asset_combination
+implemented_hat_field_if_any → hat_asset
+```
+
+If there is no implemented hat field, hats should be handled through the outfit asset manifest rather than adding a new persistent field.
+
+### Step 3 — Update Visual Asset Direction
 
 - Replace executive-realistic Steve with cute full-body lobster Steve.
 - Define master character proportions.
-- Produce stage 1–10 full-body art.
-- Produce score-band animation concepts.
+- Produce full-body art for each implemented stage.
+- Produce score/rating-band animation concepts.
 
-### Step 2 — Build Feedback Panel UI
+### Step 4 — Build Feedback Panel UI
 
 - Replace narrow text input with large rectangular textarea.
-- Add 1–10 score buttons.
-- Add story-diversity and usefulness categories.
+- Use the existing implemented rating input model.
+- Add story-diversity and usefulness categories only if compatible with existing schema or operator-approved.
 - Add submit/cancel buttons.
 
-### Step 3 — Build Asset Manifest
+### Step 5 — Build Asset Manifest
 
-Create `steve_assets_manifest.json` mapping:
+Create or update `steve_assets_manifest.json` mapping existing implementation fields to assets:
 
-- stage
-- score band
+- implemented stage id
+- implemented rating or rating band
 - outfit id
-- hat id
+- hat representation, if supported
 - asset path
 - alt text
 - animation type
 
-### Step 4 — Update Nightly Cron Logic
+### Step 6 — Update Nightly Visual Selection Only
 
-Ensure the 2:00 a.m. cron:
+Ensure the 2:00 a.m. cron continues to use implemented scoring and promotion logic.
 
-- Calculates prior-day feedback summary
-- Updates stage and promotion eligibility
-- Selects daily outfit
-- Selects optional hat
-- Writes current state
-- Never repeats the same exact outfit on consecutive days
+The visual update may:
 
-### Step 5 — Add Admin Review
+- Select daily outfit
+- Select optional hat if already supported or manifest-based
+- Write current visual state
+- Avoid exact outfit repeat
 
-Admin view should show:
+The visual update must not:
+
+- Redefine rating logic
+- Redefine promotion thresholds
+- Add persistent state fields without operator approval
+- Touch WS1 runtime logic
+
+### Step 7 — Add / Confirm Admin Review
+
+Admin view should show fields that already exist in the implemented schema. Additional fields require operator approval.
+
+Desired display includes:
 
 - Date
-- Average score
-- Category counts
+- Average score or implemented rating summary
+- Category counts, if implemented
 - Text comments
-- Story-diversity flags
+- Story-diversity flags, if implemented
 - Steve stage
 - Promotion status
 - Export CSV/JSON
 
-### Step 6 — Confirm Non-Interference
+### Step 8 — Confirm Non-Interference
 
 Before deployment, verify:
 
 - WS1 report generation unchanged
 - WS1 delivery unchanged
 - Steve cron failure does not affect WS1 cron
-- Steve data writes only under `/root/openclaw_steve/`
-- Steve logs only to `/root/openclaw_logs/steve_update.log`
+- Steve data writes only under Steve-owned paths
+- Steve logs only to Steve-owned logs
+- No WS1 pipeline files are modified for Steve visual behavior
 
-## 17. Acceptance Criteria
+## 18. Acceptance Criteria
 
 The implementation is acceptable when:
 
@@ -547,13 +599,15 @@ The implementation is acceptable when:
 3. Steve is cute, friendly, and non-threatening.
 4. Steve does not look like a nightclub owner or aggressive executive.
 5. The feedback textarea is large and comfortable for real comments.
-6. The graphical handbook covers all career stages, clothes, hats, shoes, accessories, expressions, and UI states.
-7. The 2:00 a.m. cron updates Steve state without touching WS1 pipeline logic.
-8. Score-based animations are clear and friendly.
+6. The graphical handbook covers all implemented career stages, clothes, hats, shoes, accessories, expressions, and UI states.
+7. The 2:00 a.m. cron updates Steve visual state without changing implemented rating/promotion logic.
+8. Score/rating-based animations are clear and friendly.
 9. Promotion state is visible but not distracting.
 10. Steve feedback can be reviewed/exported by an admin.
+11. No new rating or promotion schema is introduced without explicit operator approval.
+12. Steve remains fully outside the WS1 production intelligence pipeline.
 
-## 18. Hard Governance Boundary
+## 19. Hard Governance Boundary
 
 Steve is a user-engagement and feedback-capture layer only.
 
