@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-26 21:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-27 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-06-26 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **1631 unique auto/NEV articles** across **18 outlets**
+## Cumulative: **1654 unique auto/NEV articles** across **18 outlets**
 
 ## New per day
 | date | new articles |
@@ -29,12 +29,13 @@ _Updated 2026-06-26 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-24 | 159 |
 | 2026-06-25 | 137 |
 | 2026-06-26 | 143 |
+| 2026-06-27 | 23 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.dongchedi.com | 820 |
-| www.d1ev.com | 283 |
+| www.dongchedi.com | 839 |
+| www.d1ev.com | 287 |
 | www.caam.org.cn | 166 |
 | www.cada.cn | 68 |
 | 36kr.com | 65 |
@@ -53,6 +54,42 @@ _Updated 2026-06-26 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 | gd.chinadaily.com.cn | 1 |
 
 ## Articles captured by day (newest first)
+
+### 2026-06-27 — 23 articles
+- **[奇瑞捷途山海T1四驱版上市，1.5T混动系统，纯电续航220km，售价15.99万起](https://www.d1ev.com/newsflash/304659)** — _www.d1ev.com_ · date: unknown
+  今日，奇瑞在第二届方盒子大会暨新品发布会上宣布2026款捷途山海T1四驱版正式上市。新车采用1.5T 混合动力系统，官方指导价区间为15.99-18.99万元，限时焕新价区间为14.99-17.99万元。捷途山海T1四驱版外观造型与捷途自由者7PLUS相似，车头前进气格栅采用横向线条设计，车身配备传统造型门把手和六辐双色轮圈，车尾外挂“小书包”。内饰方面，新
+- **[曝大众汽车酝酿史上最大规模重组：拟裁员10万人、关闭4座德国工厂、剥离核心品牌](https://www.d1ev.com/news/shichang/304657)** — _www.d1ev.com_ · date: unknown
+  盖世汽车讯 据德国《经理人杂志》报道，大众汽车集团（Volkswagen Group）首席执行官奥博穆（Oliver Blume）计划对公司进行大规模重组，包括裁减最多10万个工作岗位，并关闭德国4座工厂。 报道称，奥博穆计划关闭位于汉诺威（Hanover）、茨维考（Zwickau）和埃姆登（Emden）的大众工厂，以及位于内卡苏尔姆（Neckarsulm）
+- **[奇瑞捷途自由者7PLUS上市，14.49万起售，搭载2.0TD鲲鹏动力](https://www.d1ev.com/newsflash/304655)** — _www.d1ev.com_ · date: unknown
+  6月26日，奇瑞汽车在第二届方盒子大会暨新品发布会上正式推出了2026款捷途自由者7PLUS。新车指导价区间为14.49-15.99万元，限时红包价区间为13.99-15.49万元，限时焕新价区间为11.99-13.49万元。捷途自由者7PLUS在外观上采用了四叶草大灯和矩阵光影格栅设计，车身配备传统造型门把手和六辐双色轮圈，车尾外挂“小书包”并支持一键自动
+- **[它石智航，把机器人送上了汽车线束产线](https://www.d1ev.com/news/shichang/304654)** — _www.d1ev.com_ · date: unknown
+  盖世汽车获悉，6月26日，它石智航与汽车线束龙头天海汽车电子集团股份有限公司签署战略合作协议。双方将聚焦汽车线束装配场景的智能化升级，从技术开发验证到产业规模化落地，在多个关键环节展开深度协同。 具体而言，天海电子将充分发挥其在汽车线束领域的产业经验、规模化量产能力及丰富的制造资源优势，它石智航则依靠先进的机器人本体、具身通用大模型等软硬件全栈自研能力，在真
+- **[为什么丰田这么无聊，却一直卖得动？](https://www.dongchedi.com/article/7655718589399679513)** — _www.dongchedi.com_ · date: unknown
+- **[车市巨变！燃油车与电动车四大怪象，买车前必看！](https://www.dongchedi.com/article/7655718512970842649)** — _www.dongchedi.com_ · date: unknown
+- **[汽车视界观](https://www.dongchedi.com/user/59829561578)** — _www.dongchedi.com_ · date: unknown
+- **[硬核“新物种”来袭 长城H10再次定义方盒子车型！](https://www.dongchedi.com/video/7655707557570314814)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[奇瑞生活馆、启境百店同庆，车企如何打“渠道战”？](https://www.dongchedi.com/article/7655701929762898456)** — _www.dongchedi.com_ · date: unknown
+- **[自主汽车网](https://www.dongchedi.com/user/4950953996)** — _www.dongchedi.com_ · date: unknown
+- **[电动车指北](https://www.dongchedi.com/user/72302222459)** — _www.dongchedi.com_ · date: unknown
+- **[2023 款 Model3 焕新版 高健康度长续航纯电轿车](https://www.dongchedi.com/video/7655684047590654489)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[2019 款卡罗拉双擎混动低能耗家用轿车](https://www.dongchedi.com/video/7655682487645241881)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[丽水 吉利 ICON 轻混 SUV，售价不到 5万，高颜值智能代步车](https://www.dongchedi.com/video/7655682116914905625)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[2种动力，6款车型，三电及整车终身质保，旗舰MPV，零跑D99上市](https://www.dongchedi.com/video/7655678280917434905)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[岚图追光S实车亮相，定位纯电中大型SUV](https://www.dongchedi.com/article/7655676996810474009)** — _www.dongchedi.com_ · date: unknown
+- **[MG 07旅行版专利曝光，纯电续航650公里剑指高端](https://www.dongchedi.com/article/7655676210432934424)** — _www.dongchedi.com_ · date: unknown
+- **[盐城市品正汽车](https://www.dongchedi.com/user/8388717317901)** — _www.dongchedi.com_ · date: unknown
+- **[盐城 23 款凌放 售价不到 14 万，省油高颜值混动 SUV](https://www.dongchedi.com/video/7655675993994330649)** — _www.dongchedi.com_ · date: unknown
+  © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有限公司 中央网信办违法和不良信息举报中心 违法和不良信息举报电话：400-140-2108 举报邮箱：jubao@m
+- **[懂车帝德远汽车李炳桥](https://www.dongchedi.com/user/511731367425884)** — _www.dongchedi.com_ · date: unknown
+- **[大众朗逸家用代步轿车 油耗经济整车骨架完好](https://www.dongchedi.com/video/7655674332286845464)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[比亚迪真香，续航超705km，快充仅需12分钟，还带激光雷达](https://www.dongchedi.com/article/7655666560506577470)** — _www.dongchedi.com_ · date: unknown
+- **[实测广汽传祺M8 PHEV L  混动+底盘全面升级](https://www.dongchedi.com/article/7655670166801400345)** — _www.dongchedi.com_ · date: unknown
 
 ### 2026-06-26 — 143 articles
 - **[一个重卡司机换电车的纠结与烦恼](https://36kr.com/p/3868515269973252)** — _36kr.com_ · published 2026-06-26
