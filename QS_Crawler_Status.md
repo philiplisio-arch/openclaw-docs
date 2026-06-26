@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-27 00:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-27 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-06-27 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **1654 unique auto/NEV articles** across **18 outlets**
+## Cumulative: **1657 unique auto/NEV articles** across **18 outlets**
 
 ## New per day
 | date | new articles |
@@ -29,12 +29,12 @@ _Updated 2026-06-27 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-24 | 159 |
 | 2026-06-25 | 137 |
 | 2026-06-26 | 143 |
-| 2026-06-27 | 23 |
+| 2026-06-27 | 26 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.dongchedi.com | 839 |
+| www.dongchedi.com | 842 |
 | www.d1ev.com | 287 |
 | www.caam.org.cn | 166 |
 | www.cada.cn | 68 |
@@ -55,7 +55,7 @@ _Updated 2026-06-27 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-06-27 — 23 articles
+### 2026-06-27 — 26 articles
 - **[奇瑞捷途山海T1四驱版上市，1.5T混动系统，纯电续航220km，售价15.99万起](https://www.d1ev.com/newsflash/304659)** — _www.d1ev.com_ · date: unknown
   今日，奇瑞在第二届方盒子大会暨新品发布会上宣布2026款捷途山海T1四驱版正式上市。新车采用1.5T 混合动力系统，官方指导价区间为15.99-18.99万元，限时焕新价区间为14.99-17.99万元。捷途山海T1四驱版外观造型与捷途自由者7PLUS相似，车头前进气格栅采用横向线条设计，车身配备传统造型门把手和六辐双色轮圈，车尾外挂“小书包”。内饰方面，新
 - **[曝大众汽车酝酿史上最大规模重组：拟裁员10万人、关闭4座德国工厂、剥离核心品牌](https://www.d1ev.com/news/shichang/304657)** — _www.d1ev.com_ · date: unknown
@@ -90,6 +90,9 @@ _Updated 2026-06-27 00:12 | discovery-only, zero LLM tokens | runs every 3h_
   扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
 - **[比亚迪真香，续航超705km，快充仅需12分钟，还带激光雷达](https://www.dongchedi.com/article/7655666560506577470)** — _www.dongchedi.com_ · date: unknown
 - **[实测广汽传祺M8 PHEV L  混动+底盘全面升级](https://www.dongchedi.com/article/7655670166801400345)** — _www.dongchedi.com_ · date: unknown
+- **[自动驾驶撞了，到底是车傻还是人懒](https://www.dongchedi.com/article/7655727473862296089)** — _www.dongchedi.com_ · date: unknown
+- **[汽车壁纸头像](https://www.dongchedi.com/user/71568430402)** — _www.dongchedi.com_ · date: unknown
+- **[法拉利首款纯电跑车Luce国内售价公布：398.8万起](https://www.dongchedi.com/article/7655718216379040318)** — _www.dongchedi.com_ · date: unknown
 
 ### 2026-06-26 — 143 articles
 - **[一个重卡司机换电车的纠结与烦恼](https://36kr.com/p/3868515269973252)** — _36kr.com_ · published 2026-06-26
