@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-26 06:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-26 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-06-26 06:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **1517 unique auto/NEV articles** across **18 outlets**
+## Cumulative: **1527 unique auto/NEV articles** across **18 outlets**
 
 ## New per day
 | date | new articles |
@@ -28,17 +28,17 @@ _Updated 2026-06-26 06:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-23 | 169 |
 | 2026-06-24 | 159 |
 | 2026-06-25 | 137 |
-| 2026-06-26 | 29 |
+| 2026-06-26 | 39 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 753 |
-| www.d1ev.com | 251 |
+| www.d1ev.com | 260 |
 | www.caam.org.cn | 166 |
 | www.cada.cn | 68 |
 | 36kr.com | 61 |
-| www.stcn.com | 57 |
+| www.stcn.com | 58 |
 | www.news.cn | 48 |
 | egs.stcn.com | 39 |
 | www.xinhuanet.com | 20 |
@@ -54,7 +54,7 @@ _Updated 2026-06-26 06:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-06-26 — 29 articles
+### 2026-06-26 — 39 articles
 - **[一个重卡司机换电车的纠结与烦恼](https://36kr.com/p/3868515269973252)** — _36kr.com_ · published 2026-06-26
   一个重卡司机换电车的纠结与烦恼 河北唐山，跑了十几年钢铁物流业务的司机张国胜，在5月份刚把车队里最后3台柴油重卡卖掉了。 他没敢下单新能源重卡。一台49吨短途换电纯电重卡本地落地价85万元，同吨位普通柴油重卡落地仅40万元，价差超过一倍。 他也听说了可以只买车架、租电池的方案，月租七八千元，听起来账算得过来，但他问了问，那套方案暂时还落不到他这条线路上。不是
 - **[2026年1月全国二手车市场深度分析](https://www.cada.cn/Data/info_86_10458.html)** — _www.cada.cn_ · date: unknown
@@ -62,6 +62,24 @@ _Updated 2026-06-26 06:12 | discovery-only, zero LLM tokens | runs every 3h_
   6月25日，零跑汽车CEO 朱江明在D99上市发布会后的媒体群访中透露，公司计划在明年推出全新模式的产品，这些新车将打破现有常规模式与形态，令人眼前一亮。朱江明还提到，零跑正在推进第二品牌的发布计划，并表示近期没有调价计划，尽管原材料价格上涨，但公司会在供应链和毛利率上进行调整，以减少对用户的影响。 朱江明对新上市的MPV车型D99寄予厚望，认为其将打造“零
 - **[美国交通部拟取消无人驾驶汽车制动踏板要求，特斯拉Cybercab等受益](https://www.d1ev.com/newsflash/304526)** — _www.d1ev.com_ · date: unknown
   6月26日，美国交通部计划取消 无人驾驶汽车必须配备制动踏板的规定，旨在降低监管门槛，为特斯拉、Waymo等企业在美国扩大 自动驾驶出租车投放规模提供便利。美国国家公路交通安全管理局（NHTSA）计划修改《联邦机动车安全标准》，对于完全无人驾驶设计的车辆，将不再强制配备供人类驾驶员操作的制动踏板，而其他类型汽车仍须保留。此举意在推动无人驾驶汽车标准现代化，促
+- **[EV晨报 | 联合国自动驾驶系统全球技术法规获批发布；IBM推全球首款亚1纳米芯片技术；五部门：开展智能驾驶“端到端”大模型研发与测试 - 第一电动网](https://www.d1ev.com/news/shichang/304535)** — _www.d1ev.com_ · date: unknown
+  ▌要闻 ▍中国牵头制定，联合国自动驾驶系统全球技术法规获批发布 第一电动6月25日消息，工业和信息化部发布，在瑞士日内瓦召开的联合国世界车辆法规协调组织（UN/WP.29）第199次全体会议上，由中国、欧盟、英国、美国、加拿大和日本共同牵头制定的联合国自动驾驶系统全球技术法规（ADS GTR），经全体缔约方投票表决，正式获批发布。这是全球首个覆盖自动驾驶全生
+- **[【盖世快讯】全球首个自动驾驶系统全球技术法规获批发布；小鹏X9累计交付破6万](https://www.d1ev.com/news/shichang/304531)** — _www.d1ev.com_ · date: unknown
+  车企动态 | OEM Trend 快科技：6月25日，比亚迪汽车海洋网销售事业部总经理张卓宣布，海洋网旗舰轿车海豹08将于7月2日正式上市。海豹08定位中大型轿车，长宽高为5150/1999/1505mm，轴距3030mm；纯电版基于800V高压平台打造，搭载第二代刀片电池，纯电续航有望突破1000km，支持充电5分钟补能400km，插混版搭载最大功率115
+- **[零跑D99正式上市，24.98万起售，增程版纯电续航480km](https://www.d1ev.com/news/qiye/304513)** — _www.d1ev.com_ · date: unknown
+  6月25日，零跑旗舰D平台首款MPV——零跑D99正式上市，售价24.98-31.98万元，限时享至高价值61279元上市权益、四项终身免费质保及尊享服务。作为零跑十年全域自研技术沉淀的旗舰力作，新车定位“科技豪华旗舰MPV”，承袭D系列“百万级体验、科技普惠”的核心理念，以30万级价格带来旗舰舒适、旗舰续航、旗舰智能、旗舰驾控、旗舰安全、旗舰美学六大维度全
+- **[英飞凌与亚马逊云科技合作 实现汽车级MCU开发虚拟化](https://www.d1ev.com/news/shichang/304483)** — _www.d1ev.com_ · date: unknown
+  盖世汽车讯 6月22日，英飞凌科技股份公司（Infineon Technologies AG）与亚马逊云科技（AWS）合作，旨在加速微控制器（MCU）的评估流程，从而缩短汽车系统的开发周期。 图片来源：英飞凌 作为此次合作的一部分，英飞凌将推出一个基于云端的平台，利用AWS技术实现英飞凌车规级MCU的虚拟评估。该新平台摆脱了对物理硬件的依赖，能将评估周期从数
+- **[现代与起亚发布车载杀菌技术Plasma Care UVC](https://www.d1ev.com/news/shichang/304475)** — _www.d1ev.com_ · date: unknown
+  盖世汽车讯 6月24日，现代汽车公司（Hyundai Motor Company）与起亚公司（Kia Corporation）发布Plasma Care UVC技术。这是全球首项车载杀菌技术，利用等离子灯对车内环境进行消毒并去除异味，且在乘客乘坐期间也可安全使用。 传统的紫外线杀菌技术若直接照射人体，可能会对皮肤和眼睛造成伤害；相比之下，现代汽车与起亚新开发
+- **[长城H10震撼亮相！1.5T混动+激光雷达，硬派SUV新标杆](https://www.d1ev.com/newsflash/304547)** — _www.d1ev.com_ · date: unknown
+  6月25日，长城汽车旗下哈弗品牌推出了旗舰SUV——长城H10。这款新车基于归元平台打造，提供5座和6座两种布局，并搭载1.5T插电混动系统。长城H10在国内命名为“长城H10”，海外市场则统一命名为“GWMH10”。外观设计上，新车采用“方鼎美学”设计语言，前脸配备矩形大灯组与半封闭式格栅，融合新能源车型的科技感与硬派SUV的力量感。智能驾驶辅助方面，长城
+- **[零跑D99震撼上市！24.98万起，增程纯电双动力新选择](https://www.d1ev.com/newsflash/304546)** — _www.d1ev.com_ · date: unknown
+  6月25日，零跑汽车宣布零跑D99正式上市，新车共推出6款车型，售价区间24.98-31.98万元。零跑D99提供增程和纯电两种动力系统，增程版搭载双能电机四驱增程，配备80.3kwh大 电池组；纯电车型则采用全栈1000V三电系统，并首发宁德时代115kWh超级混合电芯。官方表示，新车将于7月20日开启交付。 零跑D99在外观上采用圆润的子弹头造型和分体式
+- **[美国政府限制极星销售 新能源汽车市场再起波澜](https://www.d1ev.com/newsflash/304540)** — _www.d1ev.com_ · date: unknown
+  6月26日，极星（Polestar）宣布，美国政府要求其停止在美国市场销售新款电动汽车，导致公司股价一度下跌6.3%。美国商务部以《网联汽车原则》为由，拒绝了极星的销售许可请求，理由是拥有中国相关联网技术的车辆可能收集车主的“敏感信息”，存在“国家安全风险”。根据该规则，涵盖蓝牙、Wi-Fi、移动数据等技术的全新车辆将受到进口和销售限制。 极星表示，尽管新款
+- **[三座大山，死死压住日本汽车](https://www.d1ev.com/news/qiye/304539)** — _www.d1ev.com_ · date: unknown
+  近日，欧美的传统汽车巨头相继传出“回归老本行”打算造军火的消息。真假与否，消息并非空穴来风，因为闲置的产能和以往造军火的经验一碰撞，从造车到造军火，对于很多老牌车企来说，就是改一改生产线和厂房的事，并不难。 这也从另一个角度揭开传统巨头们过渡到电动化时代的伤疤。销量下降、份额收缩、利润腰斩、产能闲置、品牌的全球影响力下滑。 欧美车企如此，日本车企同样如此。而
 - **[衢州宋L DM 售价不到10万 混动高配代步超实用](https://www.dongchedi.com/video/7655349598693212734)** — _www.dongchedi.com_ · date: unknown
   扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
 - **[成都尚界 H5 2025 款纯电 Pro，售价不到 14 万长续航大空间 SUV](https://www.dongchedi.com/video/7655349331574751769)** — _www.dongchedi.com_ · date: unknown
@@ -97,6 +115,7 @@ _Updated 2026-06-26 06:12 | discovery-only, zero LLM tokens | runs every 3h_
   扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
 - **[渠道筹码离场：许明哲辞职，众泰新能源商用车再添阻碍](https://www.dongchedi.com/article/7655302740776829502)** — _www.dongchedi.com_ · date: unknown
 - **[不再采购丰田！巴基斯坦警车统一换装比亚迪，性价比实打实靠谱](https://www.dongchedi.com/article/7655308597198324286)** — _www.dongchedi.com_ · date: unknown
+- **[电动汽车“跑”得越快越要筑牢安全底线](https://www.stcn.com/article/detail/3980898.html)** — _www.stcn.com_ · date: unknown
 - **[自动驾驶首个全球技术法规获批发布，中国发挥牵头作用](https://www.yicai.com/news/103247088.html)** — _www.yicai.com_ · published 2026-06-22
   {{aisd}} AI生成 免责声明 6月25日，工信部官方信息显示，2026年6月22—26日，联合国世界车辆法规协调组织（UN/WP.29）第199次全体会议在瑞士日内瓦召开。会上，由中国、欧盟、英国、美国、加拿大和日本共同牵头制定的联合国自动驾驶系统全球技术法规（ADS GTR）经全体缔约方投票表决正式获批发布。 工信部称，作为全球首个自动驾驶技术法规
 
