@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-26 12:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-26 15:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-06-26 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **1554 unique auto/NEV articles** across **18 outlets**
+## Cumulative: **1578 unique auto/NEV articles** across **18 outlets**
 
 ## New per day
 | date | new articles |
@@ -28,19 +28,19 @@ _Updated 2026-06-26 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-23 | 169 |
 | 2026-06-24 | 159 |
 | 2026-06-25 | 137 |
-| 2026-06-26 | 66 |
+| 2026-06-26 | 90 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.dongchedi.com | 769 |
-| www.d1ev.com | 266 |
+| www.dongchedi.com | 784 |
+| www.d1ev.com | 271 |
 | www.caam.org.cn | 166 |
 | www.cada.cn | 68 |
+| www.stcn.com | 62 |
 | 36kr.com | 62 |
-| www.stcn.com | 60 |
-| www.news.cn | 48 |
-| egs.stcn.com | 39 |
+| www.news.cn | 49 |
+| egs.stcn.com | 40 |
 | www.xinhuanet.com | 20 |
 | www.zqrb.cn | 15 |
 | www.yicai.com | 14 |
@@ -54,13 +54,15 @@ _Updated 2026-06-26 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-06-26 — 66 articles
+### 2026-06-26 — 90 articles
 - **[一个重卡司机换电车的纠结与烦恼](https://36kr.com/p/3868515269973252)** — _36kr.com_ · published 2026-06-26
   一个重卡司机换电车的纠结与烦恼 河北唐山，跑了十几年钢铁物流业务的司机张国胜，在5月份刚把车队里最后3台柴油重卡卖掉了。 他没敢下单新能源重卡。一台49吨短途换电纯电重卡本地落地价85万元，同吨位普通柴油重卡落地仅40万元，价差超过一倍。 他也听说了可以只买车架、租电池的方案，月租七八千元，听起来账算得过来，但他问了问，那套方案暂时还落不到他这条线路上。不是
 - **[马来西亚收紧电动车进口门槛：中国车企出海迎来&quot;校准&quot;时刻](https://36kr.com/p/3869219657078024)** — _36kr.com_ · published 2026-06-26
   马来西亚收紧电动车进口门槛：中国车企出海迎来"校准"时刻 “最近的风向有点不太对劲。” 一位负责东南亚市场的车企高层告诉汽车产经。 今年 7月1日起，所有以完全进口方式（CBU）至马来西亚的电动车，须同时满足 两项全新条 件 ：最低到岸价不低于20万令吉（约合33万人民币），电机功率不少于180kW。 这还没有算上已经恢复征收的进口税、消费税和销售税。 对方
 - **[视频丨事关汽车消费！新政如何惠及车主？专家解读](https://china.chinadaily.com.cn/a/202606/26/WS6a3de3faa310d709c2fba3a7.html)** — _china.chinadaily.com.cn_ · published 2026-06-26
   近日，商务部等多部门发布新政，加力推动全链条扩大汽车消费。（详情>>） 公布了40个汽车流通消费改革试点城市及重点改革创新方向。还发布了关于培育壮大汽车后市场消费的若干措施。 汽车后市场消费是啥？ 中国汽车战略与政策研究中心副主任 方海峰：汽车后市场消费，可以通俗地理解为“车买回来之后的所有消费”，既有大家熟悉的保养、维修、配件等基础养车用车的消费，也有改装
+- **[300162“20cm”涨停，板块逆市拉升！自动驾驶大消息，10股获融资大幅净买入](https://egs.stcn.com/news/detail/2307045.html)** — _egs.stcn.com_ · date: unknown
+  玻璃基板概念逆市上涨。 6月26日早盘，A股玻璃基板概念股逆市上涨，雷曼光电(300162)“20cm”涨停，收盘仍有7.56万手买单封死涨停板，涨停封单额达到9173.56万元。其他还有五方光电涨停，旗滨集团触及涨停、三孚新科上涨超10%。 雷曼光电昨日晚间官方发布消息，在第四届中国国际Mini/Micro-LED产业生态大会上，雷曼光电分享无衬底Micr
 - **[2026年1月全国二手车市场深度分析](https://www.cada.cn/Data/info_86_10458.html)** — _www.cada.cn_ · date: unknown
 - **[零跑D99提前上市，朱江明预告明年新车将颠覆传统](https://www.d1ev.com/newsflash/304517)** — _www.d1ev.com_ · date: unknown
   6月25日，零跑汽车CEO 朱江明在D99上市发布会后的媒体群访中透露，公司计划在明年推出全新模式的产品，这些新车将打破现有常规模式与形态，令人眼前一亮。朱江明还提到，零跑正在推进第二品牌的发布计划，并表示近期没有调价计划，尽管原材料价格上涨，但公司会在供应链和毛利率上进行调整，以减少对用户的影响。 朱江明对新上市的MPV车型D99寄予厚望，认为其将打造“零
@@ -96,6 +98,16 @@ _Updated 2026-06-26 12:12 | discovery-only, zero LLM tokens | runs every 3h_
   今日，小鹏汽车宣布其全新车型MONAL03将于7月正式亮相，定位为“年轻人的第一台智能时尚SUV”。官方发布了新车的内饰海报，展示了其豪华配置。内饰软包面积超过72%，采用拉丝金属工艺扬声器网罩和天鹅绒顶棚，后者材质与50万级旗舰车型相同。车顶配备双层镀银全景天幕，紫外线隔绝率超过99.9%，可见光阻隔率超过97%。前排设有超大面积柔光美妆镜，左右双柔光灯设
 - **[法拉利SF90XX Stradale定制版亮相：十周年纪念，绿色变彩车身，插电混动1030马力！](https://www.d1ev.com/newsflash/304565)** — _www.d1ev.com_ · date: unknown
   近日，法拉利为纪念巡游活动十周年，发布了定制版SF90 XX Stradale。这款限量版车型海外基础售价84万美元，约合人民币572万元。新车最引人注目的是其定制四层变色绿色车漆，能在不同光线下展现绿、金双重光泽，车身以橙色线条点缀，为十周年限定专属配色。整车采用碳纤维空气动力学套件，完成空力性能升级，搭配碳纤维轮毂和轻量化运动座椅，整车减重10公斤。 座
+- **[红旗天工08新车型7月1日预售，99元预订享多重早鸟权益](https://www.d1ev.com/newsflash/304603)** — _www.d1ev.com_ · date: unknown
+  6月26日，一汽红旗宣布新款天工08车型将于7月1日开启预售。消费者支付99元预订金，即可享受包括21英寸轮毂、倍耐力PZEROE 轮胎、999元公共桩充电卡等多项早鸟权益。新款天工08车型新增黛夜蓝专属车身配色，外观上保留了红旗新能源标志性的封闭式发光旗标前脸和L型分体式LED灯组设计，车身采用隐藏式门把手，车尾带有贯穿式灯带与空气动力学扰流套件。 座舱方
+- **[启幕在即丨盖世汽车“同源共链”汽车·机器人·低空经济产业链协同对接会](https://www.d1ev.com/news/shichang/304602)** — _www.d1ev.com_ · date: unknown
+  随着全球汽车产业变革浪潮持续向前，低碳化、电动化、智能化正深度重塑行业发展格局。从传统燃油出行迈向绿色智慧出行，从单一交通工具进化为融合多领域技术的智能载体，汽车产业正迎来技术体系、跨界融合与供应链模式的全方位变革。智能网联、新能源、智能机器人、低空经济等前沿技术不断突破，也让产业竞争从产品制造比拼转向全链条供应链实力与协同创新能力的综合较量。 作为国内汽车
+- **[Melexis推出数字电流传感器，有效解决高功率电动汽车信号完整性难题](https://www.d1ev.com/news/shichang/304601)** — _www.d1ev.com_ · date: unknown
+  6月26日，比利时泰森德洛·哈姆——全球微电子工程公司Melexis今日宣布隆重推出MLX91229，这是一款采用Σ-Δ（sigma-delta）数字输出的霍尔效应电流传感器，旨在提升强电磁噪声环境下的信号完整性。该全新集成电路（IC）支持200A至2000A的电流测量范围，针对牵引逆变器及其他汽车系统进行了深度优化，有效解决局部功率电子器件通常会干扰标准传
+- **[何小鹏：2026 年底自动驾驶可以合法进入全球](https://www.d1ev.com/news/qiye/304599)** — _www.d1ev.com_ · date: unknown
+  【TechWeb】6月26日消息，小鹏汽车 CEO 何小鹏今天在微博表示，VLA 2.0 走向全球进入确定模式。 何小鹏透露，本周联合国 WP29 缔约国会议批准了 DCAS UNR 171 series 02（对应城区 NGP 功能法规）、UNR ADS（对应 L3-L5 自动驾驶法规） 两项法规。前者将在六个月后生效成为欧盟强制法规，也就是 2026 年
+- **[现代全新伊兰特第八代亮相：未来感十足，2.0L燃油+1.6L混动动力组合](https://www.d1ev.com/newsflash/304597)** — _www.d1ev.com_ · date: unknown
+  6月26日，现代汽车在韩国发布了第八代全新伊兰特（韩国名为Avante），预计第三季度公布售价。新车采用钢铁艺术设计语言，线条和型面勾勒出立体动感造型，车头宽体设计，细长LED日行灯和分体式大灯，前格栅未来感十足。尺寸方面，新车长宽高分别为4765/1855/1425mm，轴距2750mm，车长和轴距分别比上代增加55mm和30mm，车宽增加30mm，车身外
 - **[衢州宋L DM 售价不到10万 混动高配代步超实用](https://www.dongchedi.com/video/7655349598693212734)** — _www.dongchedi.com_ · date: unknown
   扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
 - **[成都尚界 H5 2025 款纯电 Pro，售价不到 14 万长续航大空间 SUV](https://www.dongchedi.com/video/7655349331574751769)** — _www.dongchedi.com_ · date: unknown
@@ -154,11 +166,34 @@ _Updated 2026-06-26 12:12 | discovery-only, zero LLM tokens | runs every 3h_
   扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
 - **[丰田爆款预定！月销3254台，鸿蒙座舱5+激光雷达，续航710km](https://www.dongchedi.com/video/7655515095606870552)** — _www.dongchedi.com_ · date: unknown
   扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[本田日产三菱合并没成？抱团搞 ECU，能扛住中国车企吗？](https://www.dongchedi.com/article/7655575737315803673)** — _www.dongchedi.com_ · date: unknown
+- **[车载娱乐](https://www.dongchedi.com/user/3905468116)** — _www.dongchedi.com_ · date: unknown
+- **[想买燃油SUV的别急 5款新车来袭 全新奥迪Q3L、新款捷途X90领衔](https://www.dongchedi.com/article/7655561090534163006)** — _www.dongchedi.com_ · date: unknown
+- **[家用选车纠结症？13万买这台增程SUV，激光雷达+290KM纯电续航](https://www.dongchedi.com/article/7655565251907420697)** — _www.dongchedi.com_ · date: unknown
+- **[一鸣汽车](https://www.dongchedi.com/user/58902028799)** — _www.dongchedi.com_ · date: unknown
+- **[推荐观野版 2026款吉利牛仔购车指南](https://www.dongchedi.com/article/7655560053500461593)** — _www.dongchedi.com_ · date: unknown
+- **[七万以内又来新车？全新QQ3 长续航+大空间纯粹的越级享受](https://www.dongchedi.com/video/7655562606882652696)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[何小鹏：今年底自动驾驶可合法进入全球](https://www.dongchedi.com/article/7655558793878864446)** — _www.dongchedi.com_ · date: unknown
+- **[汽车大师哥](https://www.dongchedi.com/user/59495213589)** — _www.dongchedi.com_ · date: unknown
+- **[新能源车干的“坏事”，凭什么让燃油车来背锅？](https://www.dongchedi.com/article/7655547304149467673)** — _www.dongchedi.com_ · date: unknown
+- **[车载香薰哪款好？2026 孕婴家庭首选 天然无刺激安全更安心](https://www.dongchedi.com/article/7655549851844805144)** — _www.dongchedi.com_ · date: unknown
+- **[30 天交付破万！蔚来 ES9 刷新 50 万级高端纯电 SUV 最快交付纪录](https://www.dongchedi.com/article/7655547034279576126)** — _www.dongchedi.com_ · date: unknown
+- **[汽车观察中心](https://www.dongchedi.com/user/51900349234)** — _www.dongchedi.com_ · date: unknown
+- **[纯电保时捷搞&quot;虚拟八速&quot;？2027款Taycan这波反套路，比提速更抓人](https://www.dongchedi.com/article/7655545797807178264)** — _www.dongchedi.com_ · date: unknown
+- **[红旗下狠手！油耗0.72L+纯电续航220km+高速NOA，家用香！](https://www.dongchedi.com/video/7655545393316807193)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[全球首个自动驾驶系统全球技术法规获批发布](https://www.news.cn/tech/20260626/842c0e8cda9f4efc9faa66f2adc36abc/c.html)** — _www.news.cn_ · published 2026-06-26
+  新华社北京6月26日电 记者26日从工业和信息化部获悉，全球首个自动驾驶系统全球技术法规获批发布。我国在这一法规制定过程中发挥了重要的牵头与推动作用。 6月22日至26日，联合国世界车辆法规协调组织第199次全体会议在瑞士日内瓦召开。会上，由中国、欧盟、英国、美国、加拿大和日本共同牵头制定的联合国自动驾驶系统全球技术法规（ADS GTR）经全体缔约方投票表决
 - **[电动汽车“跑”得越快越要筑牢安全底线](https://www.stcn.com/article/detail/3980898.html)** — _www.stcn.com_ · date: unknown
 - **[激活汽车后市场万亿级潜在蓝海](https://www.stcn.com/article/detail/3980997.html)** — _www.stcn.com_ · date: unknown
   近日，商务部等部门连发两项通知，以17条措施加40个试点城市为强力“组合拳”，加力推动全链条扩大汽车消费。这一政策密集落地的信号非同寻常，力求通过激活汽车后市场使用场景，促进汽车消费从一次性的交易行为，变成覆盖车辆全生命周期的持续价值创造。这标志着汽车消费的增长重心，逐渐从前端销售向后端全生命周期迁移。 目前，我国汽车保有量已突破3.7亿辆，汽车销量连续17
 - **[多地新车收到“换电池”提醒，宝马回应称系软件误报](https://www.stcn.com/article/detail/3981342.html)** — _www.stcn.com_ · date: unknown
   近日，多名宝马i3与i4车型的新车车主在启动车辆时，陆续收到车机系统弹出的“您可以继续驾驶。请更换蓄电池”橙色警示提示，引发广泛担忧。部分车主表示，车辆行驶里程不足8000公里，便收到更换电池的提醒，质疑是否存在系统性质量隐患。 宝马更换蓄电池提醒 面对用户的集中反馈，宝马工作人员于6月25日向《每日经济新闻》等媒体确认，该提示为系统误报，车主无需更换蓄电池
+- **[雷曼光电涨停，板块逆市拉升！自动驾驶大消息，10股获融资大幅净买入](https://www.stcn.com/article/detail/3981519.html)** — _www.stcn.com_ · date: unknown
+  玻璃基板概念逆市上涨。 6月26日早盘，A股玻璃基板概念股逆市上涨，雷曼光电(300162)“20cm”涨停，收盘仍有7.56万手买单封死涨停板，涨停封单额达到9173.56万元。其他还有五方光电涨停，旗滨集团触及涨停、三孚新科上涨超10%。 雷曼光电昨日晚间官方发布消息，在第四届中国国际Mini/Micro-LED产业生态大会上，雷曼光电分享无衬底Micr
+- **[300162“20cm”涨停，板块逆市拉升！自动驾驶大消息，10股获融资大幅净买入](https://www.stcn.com/article/detail/3981538.html)** — _www.stcn.com_ · date: unknown
+  玻璃基板概念逆市上涨。 6月26日早盘，A股玻璃基板概念股逆市上涨，雷曼光电(300162)“20cm”涨停，收盘仍有7.56万手买单封死涨停板，涨停封单额达到9173.56万元。其他还有五方光电涨停，旗滨集团触及涨停、三孚新科上涨超10%。 雷曼光电昨日晚间官方发布消息，在第四届中国国际Mini/Micro-LED产业生态大会上，雷曼光电分享无衬底Micr
 - **[自动驾驶首个全球技术法规获批发布，中国发挥牵头作用](https://www.yicai.com/news/103247088.html)** — _www.yicai.com_ · published 2026-06-22
   {{aisd}} AI生成 免责声明 6月25日，工信部官方信息显示，2026年6月22—26日，联合国世界车辆法规协调组织（UN/WP.29）第199次全体会议在瑞士日内瓦召开。会上，由中国、欧盟、英国、美国、加拿大和日本共同牵头制定的联合国自动驾驶系统全球技术法规（ADS GTR）经全体缔约方投票表决正式获批发布。 工信部称，作为全球首个自动驾驶技术法规
 - **[零跑汽车朱江明：原材料成本全方位上涨，但暂不涨价](https://www.yicai.com/news/103247901.html)** — _www.yicai.com_ · date: unknown
