@@ -1,8 +1,8 @@
 # China Business Daily — Crawler Status
 
-_Updated 2026-06-28 00:43 | WS1 redesign source universe | discovery-only, zero LLM tokens | every 3h_
+_Updated 2026-06-28 03:41 | WS1 redesign source universe | discovery-only, zero LLM tokens | every 3h_
 
-## Cumulative: **7623 business articles** across **33 outlets**
+## Cumulative: **7625 business articles** across **33 outlets**
 
 _In Report? verdicts reflect the brief run of **2026-06-27** (generated 2026-06-27T09:18:58): **27 ✅ in / 1836 ❌ out** of 1863 in-window articles. Articles crawled after that run show ➖ (no verdict yet)._
 
@@ -18,7 +18,7 @@ _In Report? verdicts reflect the brief run of **2026-06-27** (generated 2026-06-
 | www.yicai.com | 445 |
 | finance.people.com.cn | 417 |
 | m.21jingji.com | 403 |
-| finance.sina.com.cn | 331 |
+| finance.sina.com.cn | 333 |
 | finance.eastmoney.com | 324 |
 | news.cnstock.com | 148 |
 | caijing.chinadaily.com.cn | 58 |
@@ -43,7 +43,7 @@ _In Report? verdicts reflect the brief run of **2026-06-27** (generated 2026-06-
 | live.finance.sina.com.cn | 1 |
 | life.caijing.com.cn | 1 |
 
-## 2026-06-28 — 50 articles
+## 2026-06-28 — 52 articles
 | Article | Outlet | Published | In Report? | Reason |
 |---|---|---|---|---|
 | [事关黄金！央行、海关总署联合发文](https://finance.eastmoney.com/a/202606283785490775.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
@@ -57,6 +57,8 @@ _In Report? verdicts reflect the brief run of **2026-06-27** (generated 2026-06-
 | [上海成电福智公司总经理邓建华：今年飞成都有望破百次，见证东西产业协同加速](https://finance.eastmoney.com/a/202606273785488146.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [澳大利亚收紧针对儿童的社交媒体禁令，将科技公司可能面临的处罚金额提高一倍](https://finance.sina.com.cn/stock/usstock/c/2026-06-27/doc-iniewhaq6995447.shtml) | finance.sina.com.cn | 2026-06-27 | ➖ | Not evaluated in the latest brief run |
 | [欧洲央行执委施纳贝尔：通胀仍存上行风险，欧洲央行料将进一步加息](https://finance.sina.com.cn/stock/usstock/c/2026-06-27/doc-iniewhan4523888.shtml) | finance.sina.com.cn | 2026-06-27 | ➖ | Not evaluated in the latest brief run |
+| [iPad、Xbox接连涨价 折射出存储芯片短缺之痛](https://finance.sina.com.cn/stock/usstock/c/2026-06-28/doc-iniewssk1096414.shtml) | finance.sina.com.cn | 2026-06-28 | ➖ | Not evaluated in the latest brief run |
+| [亚马逊会员日线上总消费额超Adobe预期](https://finance.sina.com.cn/stock/usstock/c/2026-06-28/doc-iniewssk1093458.shtml) | finance.sina.com.cn | 2026-06-28 | ➖ | Not evaluated in the latest brief run |
 | [今年前5个月工业企业利润实现较快增长](https://jingji.cctv.com/2026/06/28/ARTILsRkMKtIpFRmGwmvsjsF260628.shtml) | jingji.cctv.com | 2026-06-28 | ➖ | Not evaluated in the latest brief run |
 | [“易中天”被抛售超267亿元，主力资金大幅流出科技股](https://m.21jingji.com/article/20260628/herald/f4b34aefabe6fa60cb6b8bee7f091842.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [一夜四家！讲故事、做假账、挪资金、玩失联……监管密集点名](https://m.21jingji.com/article/20260627/herald/81225594816f562c1004fddcb277bba1.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
