@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-27 18:14 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-27 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-06-27 18:14 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **1741 unique auto/NEV articles** across **18 outlets**
+## Cumulative: **1762 unique auto/NEV articles** across **18 outlets**
 
 ## New per day
 | date | new articles |
@@ -29,24 +29,24 @@ _Updated 2026-06-27 18:14 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-24 | 159 |
 | 2026-06-25 | 137 |
 | 2026-06-26 | 143 |
-| 2026-06-27 | 110 |
+| 2026-06-27 | 131 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.dongchedi.com | 901 |
-| www.d1ev.com | 299 |
-| www.caam.org.cn | 166 |
+| www.dongchedi.com | 915 |
+| www.d1ev.com | 301 |
+| www.caam.org.cn | 168 |
 | www.cada.cn | 70 |
 | 36kr.com | 67 |
-| www.stcn.com | 64 |
+| www.stcn.com | 65 |
 | www.news.cn | 50 |
-| egs.stcn.com | 43 |
+| egs.stcn.com | 44 |
 | www.xinhuanet.com | 21 |
 | www.yicai.com | 17 |
 | www.zqrb.cn | 15 |
 | cn.chinadaily.com.cn | 11 |
-| qzs.stcn.com | 6 |
+| qzs.stcn.com | 7 |
 | economy.gmw.cn | 5 |
 | www.ceweekly.cn | 2 |
 | china.chinadaily.com.cn | 2 |
@@ -55,7 +55,7 @@ _Updated 2026-06-27 18:14 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-06-27 — 110 articles
+### 2026-06-27 — 131 articles
 - **[理想首谈电池品牌争议：不管谁家电池，都是理想汽车兜底](https://36kr.com/p/3866946087867394)** — _36kr.com_ · published 2026-06-27
   理想首谈电池品牌争议：不管谁家电池，都是理想汽车兜底 图源视觉中国 动力电池一直是新能源汽车里高频博弈的战场。 它通常占据一辆新能源车30%-40%的BOM（物料）成本；与此同时，作为电车心脏，又直接决定续航、补能效率、安全性和寿命等核心体验，是少数能够同时影响产品力与成本结构的零部件。 这意味着，围绕动力电池的博弈在车企与供应商之间，甚至电池产业内部从未间
 - **[追赶FSD V14，理想在补哪些课？](https://36kr.com/p/3870292939658242)** — _36kr.com_ · published 2026-06-27
@@ -66,6 +66,13 @@ _Updated 2026-06-27 18:14 | discovery-only, zero LLM tokens | runs every 3h_
   e公司 06-27 10:52 人民财讯6月27日电，据西安发布，6月26日，陕西省委常委、西安市委书记蒿慧杰，市委副书记、市长叶牛平会见比亚迪股份有限公司董事长兼总裁王传福一行。 蒿慧杰、叶牛平表示，希望双方进一步巩固战略合作伙伴关系，加快推动新车型布局、基地产能释放、合作事项落地，协同提升产业配套能级，加大闪充等新技术新场景推广应用，深化绿色储能、智慧交
 - **[超级牛散章建平新动向 大举减仓江淮汽车](https://egs.stcn.com/news/detail/2308061.html)** — _egs.stcn.com_ · date: unknown
   证券时报·e公司 欧阳佟 06-27 16:56 人民财讯6月27日电，证券时报·e公司记者注意到，超级牛散，有着“章盟主”之称的章建平在近期对江淮汽车(600418)进行了大幅度的减仓。 数据显示，截至6月23日，方文艳持有江淮汽车股票2665.02万股，持股比例为1.18%。而据公司此前披露，截至6月9日，方文艳持有江淮汽车股票3588.52万股，持股比
+- **[超级牛散章建平，新动向！大举减仓江淮汽车，9个交易日套现近3亿元！葛卫东却坚守](https://egs.stcn.com/news/detail/2308083.html)** — _egs.stcn.com_ · date: unknown
+  证券时报·e公司记者注意到，超级牛散，有着“章盟主”之称的章建平在近期对江淮汽车(600418)进行了大幅度的减仓。 数据显示，截至6月23日，方文艳持有江淮汽车股票2665.02万股，持股比例为1.18%。而据公司此前披露，截至6月9日，方文艳持有江淮汽车股票3588.52万股，持股比例为1.59%。也就是说，自6月10日至23日，方文艳在9个交易日内减持
+- **[【财闻联播】纯净水要涨价？娃哈哈回应！全球汽车零部件巨头，换帅](https://qzs.stcn.com/article/detail/609292.html)** — _qzs.stcn.com_ · date: unknown
+  ★ 宏观动态 ★ 我国核聚变堆超导磁体研发取得重要突破 6月27日，国家重大科技基础设施“聚变堆主机关键系统综合研究设施”最大的超导部件——环向场磁体完成最后制备工艺，并通过专家验收。同时，高温超导中心螺管线圈磁体也完成满工况参数测试，核心性能达到国际领先水准。这两项核心技术突破为我国建设核聚变堆筑牢了坚实的超导工程基础，将大幅提升我国相关领域的自主研发与工
+- **[2026年新能源汽车下乡活动在两地同步启动](https://www.caam.org.cn/chn/1/cate_3/con_5237176.html)** — _www.caam.org.cn_ · published 2026-06-27
+  发布时间：2026-06-27 来源：中汽协会产业研究部 6月25日，工业和信息化部、商务部会同国家发展改革委、农业农村部、国家能源局在新疆塔城、海南澄迈同时启动2026年新能源汽车下乡活动，活动由中国汽车工业协会、中国汽车流通协会、中国电动汽车充电基础设施促进联盟、中国电子信息产业发展研究院共同实施。 今年，受五部委委托，中汽协会组织实施新能源汽车下乡车型
+- **[2026年新能源汽车下乡活动在两地同步启动](https://www.caam.org.cn/chn/3/cate_24/con_5237176.html)** — _www.caam.org.cn_ · date: unknown
 - **[2026年2月汽车经销商库存系数为1.95](https://www.cada.cn/Data/info_85_10475.html)** — _www.cada.cn_ · date: unknown
 - **[一图读懂（二十）T/CADA 33-2025 汽车租赁行业从业人员岗位能力要求](https://www.cada.cn/biaozhun/info_119_10426.html)** — _www.cada.cn_ · date: unknown
 - **[奇瑞捷途山海T1四驱版上市，1.5T混动系统，纯电续航220km，售价15.99万起](https://www.d1ev.com/newsflash/304659)** — _www.d1ev.com_ · date: unknown
@@ -100,6 +107,10 @@ _Updated 2026-06-27 18:14 | discovery-only, zero LLM tokens | runs every 3h_
   6月27日，2026年超极合生汇新能源汽车消费节在北京超极合生汇商场东区穹顶中央广场开幕。活动为期两天，将持续至6月28日。魏牌、岚图、极狐、理想、昊铂、极氪、小鹏、乐道、阿维塔、深蓝、蔚来、智己、启境、大众安徽、特斯拉、鸿蒙智行、小米等十余个新能源汽车品牌参展，覆盖轿车、SUV、增程、纯电等全系车型。 活动现场采用集中陈列方式，消费者可在同一区域内完成静态
 - **[2030年充电桩翻倍至4000万，支撑1.1亿电动车日常补能](https://www.d1ev.com/newsflash/304695)** — _www.d1ev.com_ · date: unknown
   6月27日，国内最新发布的十五五能源规划明确了充电设施建设目标，预计到2030年，国内充电设施总量将翻一倍，达到4000万个，以支撑1.1亿台电动汽车的日常补能需求。截至五月底，国内充电枪总量为2249.7万个，其中公共桩不足500万个，私人桩约1755万个，私人桩数量是公共桩的近三倍。私人桩的年增速稳定在五成以上，多数车主更倾向于夜间在家慢充，而长途出行时
+- **[宝马M高管梦想打造新一代M1，无限预算下的新梦想车型](https://www.d1ev.com/newsflash/304708)** — _www.d1ev.com_ · date: unknown
+  6月26日，宝马M的CEO弗兰克·范米尔和设计主管奥利弗·海尔默在接受外媒BMWBlog采访时，表达了他们对初代M1的热爱，并一致表示如果不受预算和产品规划限制，他们最想打造的是延续初代M1精神的新车型。范米尔透露，宝马M一直在研究推出一款定位高于现有全部M车型的高性能产品，梦想开发这种车型，但目前尚未实现。2020年左右，宝马M1的后继者曾一度非常接近真正
+- **[全新猛士M817震撼上市！29.99万起，插混动力+激光雷达，纯电续航超300km](https://www.d1ev.com/newsflash/304703)** — _www.d1ev.com_ · date: unknown
+  6月27日，全新猛士M817正式上市，售价区间为29.99-39.99万元，共推出5款车型。新车搭载乾崑智驾ADS5驾驶辅助系统，动力性能更强，纯电续航更长，并配备896线激光雷达，定位为大型插混SUV。全新猛士M817延续家族化的雄魂美学2.0设计语言，狮吼格栅采用封闭样式+发光饰条，日行灯点亮时M-LOGO灯同步亮起，科技感十足。侧面造型基本延续在售车型
 - **[为什么丰田这么无聊，却一直卖得动？](https://www.dongchedi.com/article/7655718589399679513)** — _www.dongchedi.com_ · date: unknown
 - **[车市巨变！燃油车与电动车四大怪象，买车前必看！](https://www.dongchedi.com/article/7655718512970842649)** — _www.dongchedi.com_ · date: unknown
 - **[汽车视界观](https://www.dongchedi.com/user/59829561578)** — _www.dongchedi.com_ · date: unknown
@@ -215,9 +226,32 @@ _Updated 2026-06-27 18:14 | discovery-only, zero LLM tokens | runs every 3h_
 - **[试驾吉利银河M7！空间大、配置全！](https://www.dongchedi.com/video/7655993812728463896)** — _www.dongchedi.com_ · date: unknown
   扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
 - **[新车AMG C级纯电奔驰还能再战中国吗？](https://www.dongchedi.com/article/7655992948462518809)** — _www.dongchedi.com_ · date: unknown
+- **[比亚迪大唐、唐L简单对比，你会怎么选？](https://www.dongchedi.com/video/7656046234092159550)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[5款车型，L3级硬件，5米大猎装，2.98秒破百，启境GT7上市](https://www.dongchedi.com/video/7656045297151869465)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[比亚迪秦l电池2026款价格](https://www.dongchedi.com/video/7656043860451475993)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[首都车市](https://www.dongchedi.com/user/2032324325151527)** — _www.dongchedi.com_ · date: unknown
+- **[小鹏MONA L03内饰抢先看](https://www.dongchedi.com/video/7656036689013637656)** — _www.dongchedi.com_ · date: unknown
+  小鹏MONA L03 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有限公司 中央网信办违法和不良信息举报中心 违法和不良信息举报电话：400-140-2108 举
+- **[芝能汽车](https://www.dongchedi.com/user/980377314273467)** — _www.dongchedi.com_ · date: unknown
+- **[二手传祺影豹 2.0T 性能轿跑 整车内饰检测全项通过](https://www.dongchedi.com/video/7656034935522247192)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[汽车简报AuuToo](https://www.dongchedi.com/user/64460266779)** — _www.dongchedi.com_ · date: unknown
+- **[纯电、插混、燃油车怎么选？不谈参数，只讲普通人用车痛点！](https://www.dongchedi.com/article/7656024872048706110)** — _www.dongchedi.com_ · date: unknown
+- **[车市速递](https://www.dongchedi.com/user/5884303402)** — _www.dongchedi.com_ · date: unknown
+- **[入门即高配，提速快且路感细腻，试驾埃安N60](https://www.dongchedi.com/video/7656025456298213913)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[增程/纯电双动力！24.98万元起，零跑首款旗舰MPV D99正式上市](https://www.dongchedi.com/article/7656023018065707545)** — _www.dongchedi.com_ · date: unknown
+- **[图说汽车](https://www.dongchedi.com/user/5834590341)** — _www.dongchedi.com_ · date: unknown
+- **[聊聊广汽新车，新上市的中大型SUV昊铂S600家用如何？](https://www.dongchedi.com/video/7656023091780780606)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
 - **[大众汽车拟扩大裁员至10万人并关闭多家工厂](https://www.news.cn/20260627/a465da318643471c874ec147a2bc68e7/c.html)** — _www.news.cn_ · published 2026-06-27
   新华社柏林6月26日电 据德国媒体26日报道，德国汽车制造商大众汽车集团考虑进一步加大成本削减力度，拟将裁员规模扩大至10万人，并可能关闭4家德国工厂。 大众汽车今年3月已宣布将在2030年前削减约5万个岗位。
 - **[超级牛散章建平，大举减仓江淮汽车，9个交易日套现近3亿元！葛卫东却坚守](https://www.stcn.com/article/detail/3983572.html)** — _www.stcn.com_ · date: unknown
+  证券时报·e公司记者注意到，超级牛散，有着“章盟主”之称的章建平在近期对江淮汽车(600418)进行了大幅度的减仓。 数据显示，截至6月23日，方文艳持有江淮汽车股票2665.02万股，持股比例为1.18%。而据公司此前披露，截至6月9日，方文艳持有江淮汽车股票3588.52万股，持股比例为1.59%。也就是说，自6月10日至23日，方文艳在9个交易日内减持
+- **[超级牛散章建平，新动向！大举减仓江淮汽车，9个交易日套现近3亿元！葛卫东却坚守](https://www.stcn.com/article/detail/3983627.html)** — _www.stcn.com_ · date: unknown
   证券时报·e公司记者注意到，超级牛散，有着“章盟主”之称的章建平在近期对江淮汽车(600418)进行了大幅度的减仓。 数据显示，截至6月23日，方文艳持有江淮汽车股票2665.02万股，持股比例为1.18%。而据公司此前披露，截至6月9日，方文艳持有江淮汽车股票3588.52万股，持股比例为1.59%。也就是说，自6月10日至23日，方文艳在9个交易日内减持
 - **[大众汽车拟扩大裁员至10万人并关闭多家工厂](https://www.xinhuanet.com/20260627/a465da318643471c874ec147a2bc68e7/c.html)** — _www.xinhuanet.com_ · published 2026-06-27
   新华社柏林6月26日电 据德国媒体26日报道，德国汽车制造商大众汽车集团考虑进一步加大成本削减力度，拟将裁员规模扩大至10万人，并可能关闭4家德国工厂。 大众汽车今年3月已宣布将在2030年前削减约5万个岗位。
