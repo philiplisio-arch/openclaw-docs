@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-27 12:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-27 15:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-06-27 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **1688 unique auto/NEV articles** across **18 outlets**
+## Cumulative: **1715 unique auto/NEV articles** across **18 outlets**
 
 ## New per day
 | date | new articles |
@@ -29,13 +29,13 @@ _Updated 2026-06-27 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-24 | 159 |
 | 2026-06-25 | 137 |
 | 2026-06-26 | 143 |
-| 2026-06-27 | 57 |
+| 2026-06-27 | 84 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.dongchedi.com | 861 |
-| www.d1ev.com | 291 |
+| www.dongchedi.com | 884 |
+| www.d1ev.com | 294 |
 | www.caam.org.cn | 166 |
 | www.cada.cn | 68 |
 | 36kr.com | 67 |
@@ -43,7 +43,7 @@ _Updated 2026-06-27 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 | www.news.cn | 50 |
 | egs.stcn.com | 42 |
 | www.xinhuanet.com | 21 |
-| www.yicai.com | 16 |
+| www.yicai.com | 17 |
 | www.zqrb.cn | 15 |
 | cn.chinadaily.com.cn | 11 |
 | qzs.stcn.com | 6 |
@@ -55,7 +55,7 @@ _Updated 2026-06-27 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-06-27 — 57 articles
+### 2026-06-27 — 84 articles
 - **[理想首谈电池品牌争议：不管谁家电池，都是理想汽车兜底](https://36kr.com/p/3866946087867394)** — _36kr.com_ · published 2026-06-27
   理想首谈电池品牌争议：不管谁家电池，都是理想汽车兜底 图源视觉中国 动力电池一直是新能源汽车里高频博弈的战场。 它通常占据一辆新能源车30%-40%的BOM（物料）成本；与此同时，作为电车心脏，又直接决定续航、补能效率、安全性和寿命等核心体验，是少数能够同时影响产品力与成本结构的零部件。 这意味着，围绕动力电池的博弈在车企与供应商之间，甚至电池产业内部从未间
 - **[追赶FSD V14，理想在补哪些课？](https://36kr.com/p/3870292939658242)** — _36kr.com_ · published 2026-06-27
@@ -80,6 +80,12 @@ _Updated 2026-06-27 12:12 | discovery-only, zero LLM tokens | runs every 3h_
   6月26日，“向往 就前往”捷途汽车第二届方盒子大会暨新品发布，在敦煌盛大启幕。本次活动的主题是“向往 就前往”，捷途继续践行“旅行+”文化的同时，发布系列新车，推动越野从少数人的冒险变成变成多数人触手可及的“诗和远方”。 图片来源：捷途汽车 捷途作为奇瑞集团子品牌，自2018年1月发布品牌以来，经历7年多的发展，截至目前全球累销突破 239 万辆，足迹遍布
 - **[长城哈弗H10插电混动SUV：旗舰级“第二起居室”震撼登场](https://www.d1ev.com/newsflash/304676)** — _www.d1ev.com_ · date: unknown
   6月27日，长城汽车旗下哈弗品牌宣布即将推出全新插电混动SUV车型H10，定位旗舰级。H10基于长城归元高端新能源平台打造，提供五座和六座两种布局，车身尺寸分别为5138*2050*1970mm（五座）和5299*2050*1970mm（六座），轴距均为3000mm。座舱内配备15.6英寸中控屏和17.3英寸吸顶屏，支持93%P3电影级广色域和AI增强画质。
+- **[理想汽车澳门开首家零售中心，港澳用户出行体验全面升级](https://www.d1ev.com/newsflash/304689)** — _www.d1ev.com_ · date: unknown
+  6月26日，理想汽车宣布正式进入澳门市场，并在澳门金银岛开设了澳门首家零售中心。理想汽车针对澳门法规和港澳用户的跨境出行需求，完成了包括车窗玻璃、通信网络及智能座舱等多项产品本地化适配。澳门首家零售中心的运营将使当地用户能够全面体验理想i6和理想i8，并享受一体化的购车、交付及售后服务体验。理想汽车与福耀玻璃合作，开发了符合澳门法规要求的原厂规格双层夹胶非隐
+- **[宁德时代电池助力赛力斯问界，高端车市场新标杆](https://www.d1ev.com/newsflash/304685)** — _www.d1ev.com_ · date: unknown
+  近日，赛力斯股东会上，董事长张兴海强调了问界品牌高端定位的“五高标准”，即高安全、高可靠、高性能、高品质、高价值。他指出， 宁德时代电池作为核心高端供应链之一，与华为乾崑智驾+座舱并列，是经过高端市场验证的核心配套资源。张兴海明确表示，公司对供应链持开放、诚信的合作态度，但准入前提是必须满足高端车质量要求、经过高端市场验证，这一筛选标准不会调整。 张兴海还提
+- **[小鹏L03内饰官图曝光：年轻人的理想座舱，科技感满满！](https://www.d1ev.com/newsflash/304684)** — _www.d1ev.com_ · date: unknown
+  6月27日，小鹏汽车官方发布了Mona系列第二款量产车L03的内饰官图。L03定位为五座SUV，采用简约化设计语言，座舱内部为环抱式布局。车内配备运动风格多功能方向盘、15.6英寸2.5K高清大屏，取消传统仪表盘，提供W-HUD抬头显示。新车车内软包覆盖比例突破72%，副驾驶前方遮阳板设有三只小猫图案，打开后是带有色温和亮度调节的化妆镜。L03还配备全车云感
 - **[为什么丰田这么无聊，却一直卖得动？](https://www.dongchedi.com/article/7655718589399679513)** — _www.dongchedi.com_ · date: unknown
 - **[车市巨变！燃油车与电动车四大怪象，买车前必看！](https://www.dongchedi.com/article/7655718512970842649)** — _www.dongchedi.com_ · date: unknown
 - **[汽车视界观](https://www.dongchedi.com/user/59829561578)** — _www.dongchedi.com_ · date: unknown
@@ -136,6 +142,37 @@ _Updated 2026-06-27 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 - **[实测油耗3.35L，全能家用SUV吉利银河M7远航家来了](https://www.dongchedi.com/article/7655897021790061080)** — _www.dongchedi.com_ · date: unknown
 - **[专属电池系统搭配吉利银河M7，快充模式能够缩减等待补能的时间](https://www.dongchedi.com/video/7655896967071269400)** — _www.dongchedi.com_ · date: unknown
   扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[理想汽车官宣进入澳门市场，部分车型支持双卡通信方案](https://www.dongchedi.com/article/7655954204691350040)** — _www.dongchedi.com_ · date: unknown
+- **[广汽丰田铂智7：20万级家用纯电轿车选购标准答案来了！](https://www.dongchedi.com/article/7655953900620661272)** — _www.dongchedi.com_ · date: unknown
+- **[广汽丰田铂智7 710 Ultra激光雷达版深度试驾评测](https://www.dongchedi.com/article/7655953900620530200)** — _www.dongchedi.com_ · date: unknown
+- **[试驾铂智 7：大空间 + 精致内饰，家用纯电也能有越级舒适体验](https://www.dongchedi.com/article/7655953764457071128)** — _www.dongchedi.com_ · date: unknown
+- **[试驾广汽丰田铂智7，700km续航+激光雷达，家用纯电轿车之选](https://www.dongchedi.com/article/7655953833406972440)** — _www.dongchedi.com_ · date: unknown
+- **[广汽丰田铂智7：拆解合资中大型纯电轿车家用化核心竞争力](https://www.dongchedi.com/article/7655953764456874520)** — _www.dongchedi.com_ · date: unknown
+- **[广汽丰田铂智 7：续航600km+激光雷达，适合家用纯电轿车](https://www.dongchedi.com/article/7655953672731951640)** — _www.dongchedi.com_ · date: unknown
+- **[家用纯电轿车推荐：广汽丰田铂智7，均衡实力，精准匹配家用需求](https://www.dongchedi.com/article/7655953764456743448)** — _www.dongchedi.com_ · date: unknown
+- **[20万级纯电家轿优选：广汽丰田铂智7 600 Pro激光雷达版全面解读](https://www.dongchedi.com/article/7655953609850880536)** — _www.dongchedi.com_ · date: unknown
+- **[广汽丰田铂智7：20万级纯电家轿的标杆，没有花里胡哨，只有实在](https://www.dongchedi.com/article/7655953672731558424)** — _www.dongchedi.com_ · date: unknown
+- **[家用纯电轿车务实之选！2026款广汽丰田铂智7深度实测](https://www.dongchedi.com/article/7655953672731427352)** — _www.dongchedi.com_ · date: unknown
+- **[奥迪E5 Sportback：豪华纯电轿跑的新标杆](https://www.dongchedi.com/article/7655944866446639640)** — _www.dongchedi.com_ · date: unknown
+- **[乐道L60：家用纯电SUV的全能之选！](https://www.dongchedi.com/article/7655943949143818814)** — _www.dongchedi.com_ · date: unknown
+- **[智驾出事谁赔？比亚迪华为兜底政策大起底，一个细节让车主傻眼](https://www.dongchedi.com/video/7655945193153282584)** — _www.dongchedi.com_ · date: unknown
+  © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有限公司 中央网信办违法和不良信息举报中心 违法和不良信息举报电话：400-140-2108 举报邮箱：jubao@m
+- **[探秘长江黄河分水岭，解锁蔚来ES8全能姿态](https://www.dongchedi.com/video/7655936677550342718)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[家用MPV选车指南，深度解析吉利银河V900金晖典藏版](https://www.dongchedi.com/article/7655933517448413720)** — _www.dongchedi.com_ · date: unknown
+- **[腾势D9同级！四驱续航1180km，还带8295芯片，吉利也是掀桌了](https://www.dongchedi.com/video/7655932911304688152)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[吉利银河V900四驱Max版，续航1220km，四驱+魔毯悬挂](https://www.dongchedi.com/video/7655932875791434264)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[吉利又一狠货！8295+激光雷达+四驱，续航1180km，太夯了](https://www.dongchedi.com/video/7655933070977057304)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[吉利银河V900空间布局灵活乘坐舒适，适配全家长途出行家用MPV](https://www.dongchedi.com/article/7655932803406053912)** — _www.dongchedi.com_ · date: unknown
+- **[吉利MPV上市爆火！补贴4万，6/7/8座可选，续航1220km+激光雷达！](https://www.dongchedi.com/video/7655932803406021144)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[奇瑞威麟P3X官图发布，配车载冷暖冰箱等，采用柴油混动驱动](https://www.dongchedi.com/video/7655932179570541080)** — _www.dongchedi.com_ · date: unknown
+  威麟P3X © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有限公司 中央网信办违法和不良信息举报中心 违法和不良信息举报电话：400-140-2108 举报邮箱：j
+- **[零跑新车配激光雷达+800V，新增双零重力座椅，老车主破防了](https://www.dongchedi.com/video/7655932579161408062)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
 - **[大众汽车拟扩大裁员至10万人并关闭多家工厂](https://www.news.cn/20260627/a465da318643471c874ec147a2bc68e7/c.html)** — _www.news.cn_ · published 2026-06-27
   新华社柏林6月26日电 据德国媒体26日报道，德国汽车制造商大众汽车集团考虑进一步加大成本削减力度，拟将裁员规模扩大至10万人，并可能关闭4家德国工厂。 大众汽车今年3月已宣布将在2030年前削减约5万个岗位。
 - **[大众汽车拟扩大裁员至10万人并关闭多家工厂](https://www.xinhuanet.com/20260627/a465da318643471c874ec147a2bc68e7/c.html)** — _www.xinhuanet.com_ · published 2026-06-27
@@ -144,6 +181,8 @@ _Updated 2026-06-27 12:12 | discovery-only, zero LLM tokens | runs every 3h_
   {{aisd}} AI生成 免责声明 欧洲汽车业再掀裁员降本潮。 6月26日，据德国媒体报道，大众汽车正拟定新一轮深度重组方案，计划未来数年内全球范围内裁撤至多10万个工作岗位，同时关闭德国境内4座整车工厂。几天前，大众汽车在年度股东大会上已宣布在德国本土削减5万个岗位。 不只是大众汽车，宝马、奔驰、保时捷等欧洲汽车巨头也在近期传来裁员降本、业务重组等举措，
 - **[稳外资15条发布；汽车消费迎全链条新政丨一周热点回顾](https://www.yicai.com/news/103249312.html)** — _www.yicai.com_ · date: unknown
   {{aisd}} AI生成 免责声明 三部门发布稳外资15条 商务部、国家发改委、财政部22日发布《利用外资固稳促优行动方案》，围绕扩大市场准入、提升外商投资便利度、提高投资促进水平、健全外商投资服务保障体系、优化外资管理五方面提出15条举措。 服务业是我国扩大开放、吸引外资的主要领域，在实际使用外资中的比重已达七成。方案明确，深化服务业领域开放，稳步扩大职
+- **[全球最大的汽车零部件公司，突发换帅](https://www.yicai.com/news/103249440.html)** — _www.yicai.com_ · date: unknown
+  {{aisd}} AI生成 免责声明 6月26日，全球最大的汽车零部件公司——博世集团宣布了一项重磅人事变动：应其本人要求并与股东密切协商一致，董事会主席史蒂凡·哈通（Stefan Hartung）将于6月30日卸任，董事会副主席克里斯蒂安·菲舍尔（Christian Fischer）于7月1日接棒。 另外，博世集团首席财务官MarkusForschner和
 
 ### 2026-06-26 — 143 articles
 - **[一个重卡司机换电车的纠结与烦恼](https://36kr.com/p/3868515269973252)** — _36kr.com_ · published 2026-06-26
