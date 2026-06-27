@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-27 06:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-27 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-06-27 06:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **1657 unique auto/NEV articles** across **18 outlets**
+## Cumulative: **1664 unique auto/NEV articles** across **18 outlets**
 
 ## New per day
 | date | new articles |
@@ -29,20 +29,20 @@ _Updated 2026-06-27 06:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-24 | 159 |
 | 2026-06-25 | 137 |
 | 2026-06-26 | 143 |
-| 2026-06-27 | 26 |
+| 2026-06-27 | 33 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 842 |
-| www.d1ev.com | 287 |
+| www.d1ev.com | 290 |
 | www.caam.org.cn | 166 |
 | www.cada.cn | 68 |
-| 36kr.com | 65 |
+| 36kr.com | 67 |
 | www.stcn.com | 63 |
-| www.news.cn | 49 |
+| www.news.cn | 50 |
 | egs.stcn.com | 40 |
-| www.xinhuanet.com | 20 |
+| www.xinhuanet.com | 21 |
 | www.zqrb.cn | 15 |
 | www.yicai.com | 14 |
 | cn.chinadaily.com.cn | 11 |
@@ -55,7 +55,11 @@ _Updated 2026-06-27 06:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-06-27 — 26 articles
+### 2026-06-27 — 33 articles
+- **[理想首谈电池品牌争议：不管谁家电池，都是理想汽车兜底](https://36kr.com/p/3866946087867394)** — _36kr.com_ · published 2026-06-27
+  理想首谈电池品牌争议：不管谁家电池，都是理想汽车兜底 图源视觉中国 动力电池一直是新能源汽车里高频博弈的战场。 它通常占据一辆新能源车30%-40%的BOM（物料）成本；与此同时，作为电车心脏，又直接决定续航、补能效率、安全性和寿命等核心体验，是少数能够同时影响产品力与成本结构的零部件。 这意味着，围绕动力电池的博弈在车企与供应商之间，甚至电池产业内部从未间
+- **[追赶FSD V14，理想在补哪些课？](https://36kr.com/p/3870292939658242)** — _36kr.com_ · published 2026-06-27
+  追赶FSD V14，理想在补哪些课？｜最前线 过去几年，智能驾驶行业的竞争重心经历了几次明显变化。 最早比的是硬件：激光雷达要不要上、摄像头装几个、算力做到多少 TOPS；随后进入大模型时代，竞争开始转向端到端、VLA（Vision-Language-Action）、World Model（世界模型）等路线。 到了今天，越来越多公司发现，仅仅拥有更大的模型已
 - **[奇瑞捷途山海T1四驱版上市，1.5T混动系统，纯电续航220km，售价15.99万起](https://www.d1ev.com/newsflash/304659)** — _www.d1ev.com_ · date: unknown
   今日，奇瑞在第二届方盒子大会暨新品发布会上宣布2026款捷途山海T1四驱版正式上市。新车采用1.5T 混合动力系统，官方指导价区间为15.99-18.99万元，限时焕新价区间为14.99-17.99万元。捷途山海T1四驱版外观造型与捷途自由者7PLUS相似，车头前进气格栅采用横向线条设计，车身配备传统造型门把手和六辐双色轮圈，车尾外挂“小书包”。内饰方面，新
 - **[曝大众汽车酝酿史上最大规模重组：拟裁员10万人、关闭4座德国工厂、剥离核心品牌](https://www.d1ev.com/news/shichang/304657)** — _www.d1ev.com_ · date: unknown
@@ -64,6 +68,12 @@ _Updated 2026-06-27 06:12 | discovery-only, zero LLM tokens | runs every 3h_
   6月26日，奇瑞汽车在第二届方盒子大会暨新品发布会上正式推出了2026款捷途自由者7PLUS。新车指导价区间为14.49-15.99万元，限时红包价区间为13.99-15.49万元，限时焕新价区间为11.99-13.49万元。捷途自由者7PLUS在外观上采用了四叶草大灯和矩阵光影格栅设计，车身配备传统造型门把手和六辐双色轮圈，车尾外挂“小书包”并支持一键自动
 - **[它石智航，把机器人送上了汽车线束产线](https://www.d1ev.com/news/shichang/304654)** — _www.d1ev.com_ · date: unknown
   盖世汽车获悉，6月26日，它石智航与汽车线束龙头天海汽车电子集团股份有限公司签署战略合作协议。双方将聚焦汽车线束装配场景的智能化升级，从技术开发验证到产业规模化落地，在多个关键环节展开深度协同。 具体而言，天海电子将充分发挥其在汽车线束领域的产业经验、规模化量产能力及丰富的制造资源优势，它石智航则依靠先进的机器人本体、具身通用大模型等软硬件全栈自研能力，在真
+- **[法拉利首款纯电车Luce正式发布 398.8万](https://www.d1ev.com/carnews/xinche/304674)** — _www.d1ev.com_ · date: unknown
+  备受关注的法拉利纯电车型LUCE完成亚洲首秀，新车正式公布中国地区建议零售价，售价398.8万元起。 5月底，该车率先在欧洲亮相上市，定价55万欧元，折合人民币约435万元，相比中国版贵了36万元。 据悉，法拉利Luce作为四门五座纯电超跑，由知名设计工作室LoveFrom打造，新车一改法拉利经典的凌厉造型，采用简约柔和的车身线条，创新对开门设计，车长超5m
+- **[长城H10内饰曝光：1.5T混动+三排大空间，家庭出行新选择](https://www.d1ev.com/newsflash/304671)** — _www.d1ev.com_ · date: unknown
+  6月27日，长城汽车发布了长城H10的内饰设计解读，该车型被定位为全家人的“第二起居室”。长城H10搭载1.5T插电混动系统，六座版车身尺寸为5299x2050x1970mm，轴距达到3000mm，提供宽敞的乘坐空间。二排座椅支持前后靠背调节，配备60°无缝腿托和180mm超长滑轨，192mm宽通道方便进出第三排。三排座椅横向宽度超过1米，具备折叠下潜功能，
+- **[捷途汽车第二届方盒子大会召开，捷途自由者7 PLUS&全新山海T1四驱版上市](https://www.d1ev.com/news/qiye/304670)** — _www.d1ev.com_ · date: unknown
+  6月26日，“向往 就前往”捷途汽车第二届方盒子大会暨新品发布，在敦煌盛大启幕。本次活动的主题是“向往 就前往”，捷途继续践行“旅行+”文化的同时，发布系列新车，推动越野从少数人的冒险变成变成多数人触手可及的“诗和远方”。 图片来源：捷途汽车 捷途作为奇瑞集团子品牌，自2018年1月发布品牌以来，经历7年多的发展，截至目前全球累销突破 239 万辆，足迹遍布
 - **[为什么丰田这么无聊，却一直卖得动？](https://www.dongchedi.com/article/7655718589399679513)** — _www.dongchedi.com_ · date: unknown
 - **[车市巨变！燃油车与电动车四大怪象，买车前必看！](https://www.dongchedi.com/article/7655718512970842649)** — _www.dongchedi.com_ · date: unknown
 - **[汽车视界观](https://www.dongchedi.com/user/59829561578)** — _www.dongchedi.com_ · date: unknown
@@ -93,6 +103,10 @@ _Updated 2026-06-27 06:12 | discovery-only, zero LLM tokens | runs every 3h_
 - **[自动驾驶撞了，到底是车傻还是人懒](https://www.dongchedi.com/article/7655727473862296089)** — _www.dongchedi.com_ · date: unknown
 - **[汽车壁纸头像](https://www.dongchedi.com/user/71568430402)** — _www.dongchedi.com_ · date: unknown
 - **[法拉利首款纯电跑车Luce国内售价公布：398.8万起](https://www.dongchedi.com/article/7655718216379040318)** — _www.dongchedi.com_ · date: unknown
+- **[大众汽车拟扩大裁员至10万人并关闭多家工厂](https://www.news.cn/20260627/a465da318643471c874ec147a2bc68e7/c.html)** — _www.news.cn_ · published 2026-06-27
+  新华社柏林6月26日电 据德国媒体26日报道，德国汽车制造商大众汽车集团考虑进一步加大成本削减力度，拟将裁员规模扩大至10万人，并可能关闭4家德国工厂。 大众汽车今年3月已宣布将在2030年前削减约5万个岗位。
+- **[大众汽车拟扩大裁员至10万人并关闭多家工厂](https://www.xinhuanet.com/20260627/a465da318643471c874ec147a2bc68e7/c.html)** — _www.xinhuanet.com_ · published 2026-06-27
+  新华社柏林6月26日电 据德国媒体26日报道，德国汽车制造商大众汽车集团考虑进一步加大成本削减力度，拟将裁员规模扩大至10万人，并可能关闭4家德国工厂。 大众汽车今年3月已宣布将在2030年前削减约5万个岗位。
 
 ### 2026-06-26 — 143 articles
 - **[一个重卡司机换电车的纠结与烦恼](https://36kr.com/p/3868515269973252)** — _36kr.com_ · published 2026-06-26
