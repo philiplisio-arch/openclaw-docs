@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-27 15:13 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-27 18:14 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-06-27 15:13 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **1715 unique auto/NEV articles** across **18 outlets**
+## Cumulative: **1741 unique auto/NEV articles** across **18 outlets**
 
 ## New per day
 | date | new articles |
@@ -29,19 +29,19 @@ _Updated 2026-06-27 15:13 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-24 | 159 |
 | 2026-06-25 | 137 |
 | 2026-06-26 | 143 |
-| 2026-06-27 | 84 |
+| 2026-06-27 | 110 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.dongchedi.com | 884 |
-| www.d1ev.com | 294 |
+| www.dongchedi.com | 901 |
+| www.d1ev.com | 299 |
 | www.caam.org.cn | 166 |
-| www.cada.cn | 68 |
+| www.cada.cn | 70 |
 | 36kr.com | 67 |
-| www.stcn.com | 63 |
+| www.stcn.com | 64 |
 | www.news.cn | 50 |
-| egs.stcn.com | 42 |
+| egs.stcn.com | 43 |
 | www.xinhuanet.com | 21 |
 | www.yicai.com | 17 |
 | www.zqrb.cn | 15 |
@@ -55,7 +55,7 @@ _Updated 2026-06-27 15:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-06-27 — 84 articles
+### 2026-06-27 — 110 articles
 - **[理想首谈电池品牌争议：不管谁家电池，都是理想汽车兜底](https://36kr.com/p/3866946087867394)** — _36kr.com_ · published 2026-06-27
   理想首谈电池品牌争议：不管谁家电池，都是理想汽车兜底 图源视觉中国 动力电池一直是新能源汽车里高频博弈的战场。 它通常占据一辆新能源车30%-40%的BOM（物料）成本；与此同时，作为电车心脏，又直接决定续航、补能效率、安全性和寿命等核心体验，是少数能够同时影响产品力与成本结构的零部件。 这意味着，围绕动力电池的博弈在车企与供应商之间，甚至电池产业内部从未间
 - **[追赶FSD V14，理想在补哪些课？](https://36kr.com/p/3870292939658242)** — _36kr.com_ · published 2026-06-27
@@ -64,6 +64,10 @@ _Updated 2026-06-27 15:13 | discovery-only, zero LLM tokens | runs every 3h_
   e公司 06-27 10:52 人民财讯6月27日电，据陕西日报，6月26日，陕西省委书记赵一德、省长赵刚在西安与比亚迪股份有限公司董事长王传福一行座谈。 赵一德说，陕西与比亚迪具有深厚渊源和坚实合作基础，希望比亚迪一如既往支持陕西、投资陕西、扎根陕西，进一步发挥行业龙头作用，在整车生产、高端制造、技术研发等方面加大布局力度，协同推动新能源汽车产业再创新优势
 - **[蒿慧杰叶牛平会见比亚迪股份有限公司董事长兼总裁王传福](https://egs.stcn.com/news/detail/2308016.html)** — _egs.stcn.com_ · date: unknown
   e公司 06-27 10:52 人民财讯6月27日电，据西安发布，6月26日，陕西省委常委、西安市委书记蒿慧杰，市委副书记、市长叶牛平会见比亚迪股份有限公司董事长兼总裁王传福一行。 蒿慧杰、叶牛平表示，希望双方进一步巩固战略合作伙伴关系，加快推动新车型布局、基地产能释放、合作事项落地，协同提升产业配套能级，加大闪充等新技术新场景推广应用，深化绿色储能、智慧交
+- **[超级牛散章建平新动向 大举减仓江淮汽车](https://egs.stcn.com/news/detail/2308061.html)** — _egs.stcn.com_ · date: unknown
+  证券时报·e公司 欧阳佟 06-27 16:56 人民财讯6月27日电，证券时报·e公司记者注意到，超级牛散，有着“章盟主”之称的章建平在近期对江淮汽车(600418)进行了大幅度的减仓。 数据显示，截至6月23日，方文艳持有江淮汽车股票2665.02万股，持股比例为1.18%。而据公司此前披露，截至6月9日，方文艳持有江淮汽车股票3588.52万股，持股比
+- **[2026年2月汽车经销商库存系数为1.95](https://www.cada.cn/Data/info_85_10475.html)** — _www.cada.cn_ · date: unknown
+- **[一图读懂（二十）T/CADA 33-2025 汽车租赁行业从业人员岗位能力要求](https://www.cada.cn/biaozhun/info_119_10426.html)** — _www.cada.cn_ · date: unknown
 - **[奇瑞捷途山海T1四驱版上市，1.5T混动系统，纯电续航220km，售价15.99万起](https://www.d1ev.com/newsflash/304659)** — _www.d1ev.com_ · date: unknown
   今日，奇瑞在第二届方盒子大会暨新品发布会上宣布2026款捷途山海T1四驱版正式上市。新车采用1.5T 混合动力系统，官方指导价区间为15.99-18.99万元，限时焕新价区间为14.99-17.99万元。捷途山海T1四驱版外观造型与捷途自由者7PLUS相似，车头前进气格栅采用横向线条设计，车身配备传统造型门把手和六辐双色轮圈，车尾外挂“小书包”。内饰方面，新
 - **[曝大众汽车酝酿史上最大规模重组：拟裁员10万人、关闭4座德国工厂、剥离核心品牌](https://www.d1ev.com/news/shichang/304657)** — _www.d1ev.com_ · date: unknown
@@ -86,6 +90,16 @@ _Updated 2026-06-27 15:13 | discovery-only, zero LLM tokens | runs every 3h_
   近日，赛力斯股东会上，董事长张兴海强调了问界品牌高端定位的“五高标准”，即高安全、高可靠、高性能、高品质、高价值。他指出， 宁德时代电池作为核心高端供应链之一，与华为乾崑智驾+座舱并列，是经过高端市场验证的核心配套资源。张兴海明确表示，公司对供应链持开放、诚信的合作态度，但准入前提是必须满足高端车质量要求、经过高端市场验证，这一筛选标准不会调整。 张兴海还提
 - **[小鹏L03内饰官图曝光：年轻人的理想座舱，科技感满满！](https://www.d1ev.com/newsflash/304684)** — _www.d1ev.com_ · date: unknown
   6月27日，小鹏汽车官方发布了Mona系列第二款量产车L03的内饰官图。L03定位为五座SUV，采用简约化设计语言，座舱内部为环抱式布局。车内配备运动风格多功能方向盘、15.6英寸2.5K高清大屏，取消传统仪表盘，提供W-HUD抬头显示。新车车内软包覆盖比例突破72%，副驾驶前方遮阳板设有三只小猫图案，打开后是带有色温和亮度调节的化妆镜。L03还配备全车云感
+- **[全新猛士M817震撼上市，43项技术升级，纯电续航301km！](https://www.d1ev.com/newsflash/304700)** — _www.d1ev.com_ · date: unknown
+  6月27日，全新猛士M817正式上市，带来了多款配置车型。Mate1.5TPHEV定价29.99万元，Mate+1.5TPHEV为32.99万元，Max2.0TPHEV售价34.99万元，Max+2.0TPHEV为36.99万元，Ultra2.0TPHEV则高达39.99万元。新车提供六款配色选择，官方主推“乌兰橙”，灵感源自内蒙古乌兰哈达火山群。 全新猛士
+- **[本田CEO道歉后连任董事，纯电业务亏损超90亿美元](https://www.d1ev.com/newsflash/304699)** — _www.d1ev.com_ · date: unknown
+  6月27日，本田CEO三部敏宏在年度股东大会上就公司业绩不佳向股东道歉，并顺利连任董事。本田上月公布了近70年来首次年度亏损，纯电业务重组成本超过90亿美元。中国车企竞争加剧，暴露出本田此前一系列代价高昂的战略失误，公司目前正设法扭转局面。三部敏宏表示，随着纯电补贴退坡，本田纯电车型在美国的市场份额远低于预期。若继续销售原定车型，本田必须投入大额优惠，因此决
+- **[宾利Barnato纯电SUV曝光：内饰豪华升级，预计2027年美国上市](https://www.d1ev.com/newsflash/304697)** — _www.d1ev.com_ · date: unknown
+  宾利计划于今年晚些时候发布一款名为Barnato的纯电动城市SUV。新车的测试车最近在纽博格林附近被捕捉到，外媒Carscoops首次曝光了其内饰设计。Barnato采用三辐式方向盘，并配有翼片式拨杆，方向盘后方的拨杆分别负责换挡和集成灯光及雨刷控制。内饰中加入了真正的金属饰件，换挡拨杆底座经过滚花处理，方向盘则采用双色材质和亮黑色装饰。新车的仪表台设计首次
+- **[2026年超极合生汇新能源汽车消费节举办](https://www.d1ev.com/newsflash/304696)** — _www.d1ev.com_ · date: unknown
+  6月27日，2026年超极合生汇新能源汽车消费节在北京超极合生汇商场东区穹顶中央广场开幕。活动为期两天，将持续至6月28日。魏牌、岚图、极狐、理想、昊铂、极氪、小鹏、乐道、阿维塔、深蓝、蔚来、智己、启境、大众安徽、特斯拉、鸿蒙智行、小米等十余个新能源汽车品牌参展，覆盖轿车、SUV、增程、纯电等全系车型。 活动现场采用集中陈列方式，消费者可在同一区域内完成静态
+- **[2030年充电桩翻倍至4000万，支撑1.1亿电动车日常补能](https://www.d1ev.com/newsflash/304695)** — _www.d1ev.com_ · date: unknown
+  6月27日，国内最新发布的十五五能源规划明确了充电设施建设目标，预计到2030年，国内充电设施总量将翻一倍，达到4000万个，以支撑1.1亿台电动汽车的日常补能需求。截至五月底，国内充电枪总量为2249.7万个，其中公共桩不足500万个，私人桩约1755万个，私人桩数量是公共桩的近三倍。私人桩的年增速稳定在五成以上，多数车主更倾向于夜间在家慢充，而长途出行时
 - **[为什么丰田这么无聊，却一直卖得动？](https://www.dongchedi.com/article/7655718589399679513)** — _www.dongchedi.com_ · date: unknown
 - **[车市巨变！燃油车与电动车四大怪象，买车前必看！](https://www.dongchedi.com/article/7655718512970842649)** — _www.dongchedi.com_ · date: unknown
 - **[汽车视界观](https://www.dongchedi.com/user/59829561578)** — _www.dongchedi.com_ · date: unknown
@@ -173,8 +187,38 @@ _Updated 2026-06-27 15:13 | discovery-only, zero LLM tokens | runs every 3h_
   威麟P3X © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有限公司 中央网信办违法和不良信息举报中心 违法和不良信息举报电话：400-140-2108 举报邮箱：j
 - **[零跑新车配激光雷达+800V，新增双零重力座椅，老车主破防了](https://www.dongchedi.com/video/7655932579161408062)** — _www.dongchedi.com_ · date: unknown
   扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[奇瑞不讲武德！瑞虎8降价1万，1.6T+7DCT+高通8155，可抄底！](https://www.dongchedi.com/video/7656000045707182616)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[奇瑞又一爆款！1.6T爆200马力，喝粗粮带8155，8.99万起太夯了](https://www.dongchedi.com/video/7655999637987869208)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[奇瑞上王炸！1.6T+7DCT，带女王副驾，博越L迎来对手](https://www.dongchedi.com/video/7655999637987279384)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[洋仔小汽车](https://www.dongchedi.com/user/103698891663)** — _www.dongchedi.com_ · date: unknown
+- **[插混纯电续航终于破400公里，腾势N8L闪充版告别频繁充电](https://www.dongchedi.com/video/7655998924603425342)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[纯电续航430公里的插混见过没？腾势N8L闪充版重新定义插混标准](https://www.dongchedi.com/video/7655998579261473342)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[插混车主每天都在充电？430公里纯电续航直接改变用车习惯](https://www.dongchedi.com/video/7655997340435890750)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[实力派双向奔赴，孙俪代言奇瑞 QQ3，车里追甄嬛传也太爽了](https://www.dongchedi.com/video/7655997072059269657)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[新车：小鹏MONAL03内饰公布；尊界V800/V680预售破3200台；埃安N60推送五项智驾功能；特斯拉FSD改订阅制；零跑高管曝自媒体抹黑D99](https://www.dongchedi.com/article/7655996928139870744)** — _www.dongchedi.com_ · date: unknown
+- **[对中国汽车保持开放的德国电车补贴政策，会面临变数吗？](https://www.dongchedi.com/article/7655997090773991998)** — _www.dongchedi.com_ · date: unknown
+- **[纯电跑430公里还能加油，这可能是目前解决焦虑聪明的方案](https://www.dongchedi.com/video/7655996439176184382)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[插混有电一条龙没电一条虫？430公里纯电续航把这个问题解决了](https://www.dongchedi.com/video/7655996423128793662)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[2026款吉利银河M7试驾体验，适配多口之家的家用SUV](https://www.dongchedi.com/article/7655994181000970776)** — _www.dongchedi.com_ · date: unknown
+- **[吉利银河M7：225km纯电续航+15分钟快充，适合家用](https://www.dongchedi.com/video/7655993935118549528)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[家用混动SUV别乱选，这车实力均衡无短板，适合全家一起用](https://www.dongchedi.com/article/7655994094484914712)** — _www.dongchedi.com_ · date: unknown
+- **[试驾吉利银河M7！空间大、配置全！](https://www.dongchedi.com/video/7655993812728463896)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[新车AMG C级纯电奔驰还能再战中国吗？](https://www.dongchedi.com/article/7655992948462518809)** — _www.dongchedi.com_ · date: unknown
 - **[大众汽车拟扩大裁员至10万人并关闭多家工厂](https://www.news.cn/20260627/a465da318643471c874ec147a2bc68e7/c.html)** — _www.news.cn_ · published 2026-06-27
   新华社柏林6月26日电 据德国媒体26日报道，德国汽车制造商大众汽车集团考虑进一步加大成本削减力度，拟将裁员规模扩大至10万人，并可能关闭4家德国工厂。 大众汽车今年3月已宣布将在2030年前削减约5万个岗位。
+- **[超级牛散章建平，大举减仓江淮汽车，9个交易日套现近3亿元！葛卫东却坚守](https://www.stcn.com/article/detail/3983572.html)** — _www.stcn.com_ · date: unknown
+  证券时报·e公司记者注意到，超级牛散，有着“章盟主”之称的章建平在近期对江淮汽车(600418)进行了大幅度的减仓。 数据显示，截至6月23日，方文艳持有江淮汽车股票2665.02万股，持股比例为1.18%。而据公司此前披露，截至6月9日，方文艳持有江淮汽车股票3588.52万股，持股比例为1.59%。也就是说，自6月10日至23日，方文艳在9个交易日内减持
 - **[大众汽车拟扩大裁员至10万人并关闭多家工厂](https://www.xinhuanet.com/20260627/a465da318643471c874ec147a2bc68e7/c.html)** — _www.xinhuanet.com_ · published 2026-06-27
   新华社柏林6月26日电 据德国媒体26日报道，德国汽车制造商大众汽车集团考虑进一步加大成本削减力度，拟将裁员规模扩大至10万人，并可能关闭4家德国工厂。 大众汽车今年3月已宣布将在2030年前削减约5万个岗位。
 - **[大众新一轮深度重组拟裁员10万人，欧洲汽车业迎来空前收缩](https://www.yicai.com/news/103249399.html)** — _www.yicai.com_ · date: unknown
