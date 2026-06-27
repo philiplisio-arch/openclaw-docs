@@ -1,8 +1,8 @@
 # China Business Daily — Crawler Status
 
-_Updated 2026-06-28 03:41 | WS1 redesign source universe | discovery-only, zero LLM tokens | every 3h_
+_Updated 2026-06-28 06:41 | WS1 redesign source universe | discovery-only, zero LLM tokens | every 3h_
 
-## Cumulative: **7625 business articles** across **33 outlets**
+## Cumulative: **7638 business articles** across **33 outlets**
 
 _In Report? verdicts reflect the brief run of **2026-06-27** (generated 2026-06-27T09:18:58): **27 ✅ in / 1836 ❌ out** of 1863 in-window articles. Articles crawled after that run show ➖ (no verdict yet)._
 
@@ -14,12 +14,12 @@ _In Report? verdicts reflect the brief run of **2026-06-27** (generated 2026-06-
 | www.21jingji.com | 989 |
 | www.jiemian.com | 513 |
 | 36kr.com | 502 |
-| www.eeo.com.cn | 477 |
+| www.eeo.com.cn | 479 |
 | www.yicai.com | 445 |
-| finance.people.com.cn | 417 |
-| m.21jingji.com | 403 |
+| finance.people.com.cn | 421 |
+| m.21jingji.com | 404 |
 | finance.sina.com.cn | 333 |
-| finance.eastmoney.com | 324 |
+| finance.eastmoney.com | 330 |
 | news.cnstock.com | 148 |
 | caijing.chinadaily.com.cn | 58 |
 | economy.caijing.com.cn | 42 |
@@ -43,7 +43,7 @@ _In Report? verdicts reflect the brief run of **2026-06-27** (generated 2026-06-
 | live.finance.sina.com.cn | 1 |
 | life.caijing.com.cn | 1 |
 
-## 2026-06-28 — 52 articles
+## 2026-06-28 — 65 articles
 | Article | Outlet | Published | In Report? | Reason |
 |---|---|---|---|---|
 | [事关黄金！央行、海关总署联合发文](https://finance.eastmoney.com/a/202606283785490775.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
@@ -55,6 +55,16 @@ _In Report? verdicts reflect the brief run of **2026-06-27** (generated 2026-06-
 | [“汇绿”要改“汇红”？A股更名乱象值得反思](https://finance.eastmoney.com/a/202606273785490086.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [零跑首款MPV“高配上市”，朱江明称二季度毛利率处于可控区间，后续不排除终端调价](https://finance.eastmoney.com/a/202606273785489520.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [上海成电福智公司总经理邓建华：今年飞成都有望破百次，见证东西产业协同加速](https://finance.eastmoney.com/a/202606273785488146.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [今年第三批625亿元消费品以旧换新资金下达 补贴资金撬动比提升至1∶10.3](https://finance.eastmoney.com/a/202606283785495997.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [前5个月同比增长18.8%](https://finance.eastmoney.com/a/202606283785494539.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [立足畅通国内大循环和实施扩大内需战略](https://finance.eastmoney.com/a/202606283785496285.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [环球下周看点：聚焦6月非农就业报告 市场紧盯美联储利率路径](https://finance.eastmoney.com/a/202606283785493443.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [“共享大市场&#183;出口中国”欧盟首场活动在德举行](https://finance.eastmoney.com/a/202606283785493119.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [农产品经纪人要有供应链思维](https://finance.eastmoney.com/a/202606283785496396.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [前5月我国金融市场运行平稳](https://finance.people.com.cn/n1/2026/0628/c1004-40748805.html) | finance.people.com.cn | 2026-06-28 | ➖ | Not evaluated in the latest brief run |
+| [今年第三批625亿元支持消费品以旧换新资金已下达](https://finance.people.com.cn/n1/2026/0628/c1004-40748804.html) | finance.people.com.cn | 2026-06-28 | ➖ | Not evaluated in the latest brief run |
+| [首条民营控股高铁累计客流超1亿人次](https://finance.people.com.cn/n1/2026/0628/c1004-40748800.html) | finance.people.com.cn | 2026-06-28 | ➖ | Not evaluated in the latest brief run |
+| [天津以科技创新引领新质生产力发展（活力中国调研行）](https://finance.people.com.cn/n1/2026/0628/c1004-40748799.html) | finance.people.com.cn | 2026-06-28 | ➖ | Not evaluated in the latest brief run |
 | [澳大利亚收紧针对儿童的社交媒体禁令，将科技公司可能面临的处罚金额提高一倍](https://finance.sina.com.cn/stock/usstock/c/2026-06-27/doc-iniewhaq6995447.shtml) | finance.sina.com.cn | 2026-06-27 | ➖ | Not evaluated in the latest brief run |
 | [欧洲央行执委施纳贝尔：通胀仍存上行风险，欧洲央行料将进一步加息](https://finance.sina.com.cn/stock/usstock/c/2026-06-27/doc-iniewhan4523888.shtml) | finance.sina.com.cn | 2026-06-27 | ➖ | Not evaluated in the latest brief run |
 | [iPad、Xbox接连涨价 折射出存储芯片短缺之痛](https://finance.sina.com.cn/stock/usstock/c/2026-06-28/doc-iniewssk1096414.shtml) | finance.sina.com.cn | 2026-06-28 | ➖ | Not evaluated in the latest brief run |
@@ -73,6 +83,7 @@ _In Report? verdicts reflect the brief run of **2026-06-27** (generated 2026-06-
 | [半导体龙头集体加注，先进封装何以成为最具壁垒环节？](https://m.21jingji.com/article/20260627/herald/af709968485e402070216bba50b3416e.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [汽车帮实测：腾势Z9GT天神之眼B在广州真实路况表现怎么样](https://m.21jingji.com/article/20260627/herald/e60b604ad223e6c5eb77532ed359d267.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [从侨批银信到汽车综合体，汕头书写新归侨故事](https://m.21jingji.com/article/20260627/herald/b047900c064e341f8aa8ff00a0494aff.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [以中国方式讲述中国故事 文化“新三样”扬帆出海](https://m.21jingji.com/article/20260628/herald/0204815c4e87f54bb9de7d07cc403870.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [页面没有找到](https://news.cnstock.com/commonDetail/735224) | news.cnstock.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [宜人智科Q1亏损4.95亿元 营收下滑41% 业务发展待观察](https://www.eeo.com.cn/2026/0628/932695.shtml) | www.eeo.com.cn | 2026-06-28 | ➖ | Not evaluated in the latest brief run |
 | [HCI集团6月26日股价涨4.21% 财报超预期叠加技术面突破](https://www.eeo.com.cn/2026/0628/932694.shtml) | www.eeo.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
@@ -84,6 +95,8 @@ _In Report? verdicts reflect the brief run of **2026-06-27** (generated 2026-06-
 | [满帮遭媒体质疑平台管理存漏洞 引发市场担忧](https://www.eeo.com.cn/2026/0628/932688.shtml) | www.eeo.com.cn | 2026-06-28 | ➖ | Not evaluated in the latest brief run |
 | [哈德森科技受益环保法规红利 并购扩规模零负债抗风险](https://www.eeo.com.cn/2026/0628/932687.shtml) | www.eeo.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
 | [中国平安位列《福布斯》2026“全球企业2000强”第26位，全球保险企业第2位](https://www.eeo.com.cn/2026/0627/932645.shtml) | www.eeo.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
+| [奈飞股价前期持续下挫超卖明显 6月26日触底获资金支撑](https://www.eeo.com.cn/2026/0628/932765.shtml) | www.eeo.com.cn | 2026-06-28 | ➖ | Not evaluated in the latest brief run |
+| [小牛电动新电摩公示待上市 海外业务一季度销量下滑32.4%](https://www.eeo.com.cn/2026/0628/932763.shtml) | www.eeo.com.cn | 2026-06-28 | ➖ | Not evaluated in the latest brief run |
 | [欧盟回应特朗普关税威胁：坚决捍卫自身权利](https://www.jiemian.com/article/14659033.html) | www.jiemian.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [年内下跌45%！“章盟主”关联方割肉减仓江淮汽车，葛卫东仍坚守](https://www.nbd.com.cn/articles/2026-06-28/4439531.html) | www.nbd.com.cn | 2026-06-28 | ➖ | Not evaluated in the latest brief run |
 | [上海成电福智公司总经理邓建华：今年飞成都有望破百次，见证东西产业协同加速](https://www.nbd.com.cn/articles/2026-06-27/4439514.html) | www.nbd.com.cn | 2026-06-27 | ➖ | Not evaluated in the latest brief run |
