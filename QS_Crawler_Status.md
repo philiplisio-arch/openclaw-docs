@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-28 12:13 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-28 15:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-06-28 12:13 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **1803 unique auto/NEV articles** across **18 outlets**
+## Cumulative: **1817 unique auto/NEV articles** across **18 outlets**
 
 ## New per day
 | date | new articles |
@@ -30,13 +30,13 @@ _Updated 2026-06-28 12:13 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-25 | 137 |
 | 2026-06-26 | 143 |
 | 2026-06-27 | 131 |
-| 2026-06-28 | 41 |
+| 2026-06-28 | 55 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.dongchedi.com | 943 |
-| www.d1ev.com | 311 |
+| www.dongchedi.com | 950 |
+| www.d1ev.com | 318 |
 | www.caam.org.cn | 168 |
 | www.cada.cn | 71 |
 | 36kr.com | 68 |
@@ -56,7 +56,7 @@ _Updated 2026-06-28 12:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-06-28 — 41 articles
+### 2026-06-28 — 55 articles
 - **[在中国卖不动的车，在海外“嘎嘎乱杀”](https://36kr.com/p/3872119745172742)** — _36kr.com_ · published 2026-06-28
   在中国卖不动的车，在海外“嘎嘎乱杀” 导语 产能过剩，车企们寻求全球突围。 6月17日，在塔什干国际论坛期间，大众中国宣布了一则海外布局消息：大众、捷达落地乌兹别克斯坦。这是大众中国首次全权操盘海外出口业务。 值得一提的是，此次入局并非简单的一次性试水，而是一套完整的出海方案。初期，大众将以整车出口为主，输出途观L Pro、帕萨特Pro等多款燃油车，后续和当
 - **[国际资讯：美瀚拍卖--动力电池检测提高二手新能源车拍卖量](https://www.cada.cn/Trends/info_96_9086.html)** — _www.cada.cn_ · date: unknown
@@ -80,6 +80,20 @@ _Updated 2026-06-28 12:13 | discovery-only, zero LLM tokens | runs every 3h_
   福特汽车正在推出全新的通用电动汽车（UEV）平台，旨在打造价格更亲民的电动汽车型。首款基于该平台的车型是一款四门中型电动皮卡，起售价约3万美元。福特首席执行官吉姆·法利在采访中提到，尽管部分中国电动汽车厂商拥有极低的 电池成本，但整车控制系统能效并不突出。福特通过引入赛车领域的专业人才，实现了20%至30%的能效提升。UEV平台的核心亮点在于优化空气动力学设
 - **[大众汽车拟裁员10万，重组计划能否挽救市场信心？](https://www.d1ev.com/newsflash/304733)** — _www.d1ev.com_ · date: unknown
   德国大众汽车近日考虑关闭四家德国工厂，并计划裁员多达10万人，占全球员工总数约六分之一，这可能是汽车行业历史上最大规模的重组。大众CEO奥利弗·布鲁姆提出，将关闭汉诺威、茨维考、埃姆登工厂及奥迪内卡苏尔姆工厂，裁员目标翻倍至10万人，并在未来五年内削减约15%投资，降至约1480亿美元。布鲁姆的目标是重组这家89年历史的公司，包括将核心大众品牌和零部件业务分
+- **[特斯拉Cybercab SAE4级自动驾驶细节曝光：无方向盘，全自动应急响应](https://www.d1ev.com/newsflash/304751)** — _www.d1ev.com_ · date: unknown
+  6月28日，特斯拉发布了Cybercab应急救援人员操作指南，披露了这款 自动驾驶无人出租的多项技术细节。Cybercab的自动驾驶系统被归类为SAE4级，意味着车辆能在限定的运行设计域内独立完成全部动态驾驶操作，无需人类介入。得克萨斯州已允许企业自行认证旗下自动驾驶系统达到SAE4级及以上标准，特斯拉正是落实该认证的企业之一。 指南中提到，量产版Cyber
+- **[2026款吉利银河星耀6完全评价报告](https://www.d1ev.com/news/qiye/304750)** — _www.d1ev.com_ · date: unknown
+  定位为“新一代国民电混家轿”的吉利银河星耀6，主打大空间、超低能耗与领先智能化体验，以A级车价格，提供接近B级车的乘坐空间与配置水平，综合性价比优势明显。在此前对于2026款吉利银河星耀6的《百名车主评新车》调查中，该车在外观设计、乘坐空间方面广受好评，但也有部分消费者反映其销售问题相对集中。 一、车辆基本信息 1、同款车型配置参数对比：车机配置相对完善，辅
+- **[小鹏MONAL03智能SUV 7月亮相，13万起售，23处接口拓展生活新可能](https://www.d1ev.com/newsflash/304748)** — _www.d1ev.com_ · date: unknown
+  6月28日，小鹏汽车宣布其新车型MONAL03将于7月正式亮相，定位为“年轻人的第一台智能时尚SUV”，市场预估售价在13至16万元区间。新车全车拥有23处拓展接口，包括4个后备厢洞洞板接口、5个1/4英寸标准螺纹接口、8个无痕磁吸接口、2个座椅靠背接口和3个智能Pin口，可安装多种设备和配件。 小鹏MONAL03的内饰设计已公布，车内软包面积超过72%，配
+- **[江淮汽车股价腰斩，章建平夫妇割肉离场损失惨重](https://www.d1ev.com/newsflash/304747)** — _www.d1ev.com_ · date: unknown
+  6月28日，江淮汽车股价持续下跌，导致知名投资者章建平的妻子方文艳在6月10日至6月23日的9个交易日内卖出923.5万股，割肉离场。今年2月12日，江淮汽车完成35亿元定增，发行价49.88元/股，方文艳与期货大佬葛卫东各出资10亿元获配2004.81万股。然而，江淮汽车股价自定增后一路下行，6月26日收盘价跌至26.87元，较定增价跌幅近46%。 方文艳
+- **[比亚迪韩国首发插电混动“海狮06DM](https://www.d1ev.com/newsflash/304746)** — _www.d1ev.com_ · date: unknown
+  6月26日，比亚迪在韩国釜山会展中心举办的2026釜山国际移动出行展上发布了插电式 混合动力新车型“海狮06DM-i”（SEALION6DM-i），并启动预售。这标志着比亚迪首次在韩国市场推出插电式混合动力汽车。新车采用比亚迪自主研发的DM-i超级混动技术，主打“电为主、油为辅”的驾驶体验，搭载EHS电混系统、骁云1.5L涡轮增压汽油 发动机及刀片形磷酸铁锂
+- **[新能源车维修成本高企，商务部新规能否破解“修不起”困局？](https://www.d1ev.com/newsflash/304745)** — _www.d1ev.com_ · date: unknown
+  6月28日，据快科技报道，我国新能源汽车保有量预计将在2025年底达到4397万辆。然而，随着新能源汽车的普及，维修成本高、维修渠道少的问题逐渐凸显。许多新能源车企提供的“三电终身质保”条款要求车辆必须在授权4S店保养维修，否则质保资格失效，导致消费者面临“买得起修不起”的困境。 商务部等9部门联合印发《关于培育壮大汽车后市场消费若干措施的通知》，从三个层面
+- **[蔚来ES8创始版“0001号”车捐赠博物馆，大五座版预订开启](https://www.d1ev.com/newsflash/304743)** — _www.d1ev.com_ · date: unknown
+  今日，蔚来汽车在上海举行了ES8交付八周年纪念活动，并宣布向北京汽车博物馆捐赠蔚来ES8创始版“0001号”车。同时，蔚来ES8大五座版正式开启预订，预计于7月9日上市。这款纯电SUV搭载全域900V高压架构，配备前桥180kW感应电机和后桥340kW碳化硅永磁电机，综合最大功率520kW，峰值扭矩700N·m，零百加速仅需3.97秒。车辆还配备102kWh
 - **[2026款奔驰EQB 纯电动SUV 外观和内饰细节](https://www.dongchedi.com/video/7656093742062977561)** — _www.dongchedi.com_ · date: unknown
   奔驰EQB(海外) © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有限公司 中央网信办违法和不良信息举报中心 违法和不良信息举报电话：400-140-2108 举报
 - **[不只环保！举国推广电动车核心是能源突围，很多人没看懂深层布局](https://www.dongchedi.com/article/7656092656707355160)** — _www.dongchedi.com_ · date: unknown
@@ -117,6 +131,15 @@ _Updated 2026-06-28 12:13 | discovery-only, zero LLM tokens | runs every 3h_
 - **[宿州海磊奇瑞谢经理](https://www.dongchedi.com/user/1820405510440510)** — _www.dongchedi.com_ · date: unknown
 - **[新车降价诚意十足，40万级纯电SUV，当下入手优势在哪](https://www.dongchedi.com/article/7656261463774282302)** — _www.dongchedi.com_ · date: unknown
 - **[豪华感十足，性能出色的蔚来全新ES8，适合家庭用户选择](https://www.dongchedi.com/video/7656261296484057662)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[为啥只有中国大力推电动车？国外是不看好还是我们走偏了](https://www.dongchedi.com/article/7656328415980569150)** — _www.dongchedi.com_ · date: unknown
+- **[死守燃油车不愿放手？欧美日背后，藏着长达百年的“专利霸权”](https://www.dongchedi.com/article/7656309873138795033)** — _www.dongchedi.com_ · date: unknown
+- **[阿维塔12的“心脏”：后驱动双电机，如何定义纯电性能新标杆？](https://www.dongchedi.com/article/7656310157747814974)** — _www.dongchedi.com_ · date: unknown
+- **[汽车刚刚好](https://www.dongchedi.com/user/4540904036)** — _www.dongchedi.com_ · date: unknown
+- **[法拉利LUCE最大的勇气，不是造电动车，而是不再重复](https://www.dongchedi.com/video/7656308884835664446)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[宾利第二款SUV内饰谍照曝光：Barnato定位城市豪华纯电SUV](https://www.dongchedi.com/article/7656305158804226584)** — _www.dongchedi.com_ · date: unknown
+- **[【大熊沉浸式试车】一汽悦意08 纯电565Plus~沉浸式体验](https://www.dongchedi.com/video/7656301695148180030)** — _www.dongchedi.com_ · date: unknown
   扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
 - **[华为乾崑与猛士联手打造智能越野车，尊界新车售价138.8万元起](https://www.yicai.com/news/103249554.html)** — _www.yicai.com_ · date: unknown
   {{aisd}} AI生成 免责声明 【一周新事件】 1、东风股份发布首个无人物流车品牌 近日，东风汽车股份有限公司在襄阳举行东风OpenVAN无人物流车品牌全球发布会。这是东风股份在无人驾驶商用车领域的首个独立品牌，实现从末端到园区全场景覆盖。DF-2、DF-8、DF-25、DF-60四款科技感十足的无人驾驶物流车同步亮相。 一财点评：《2025年中国无人
