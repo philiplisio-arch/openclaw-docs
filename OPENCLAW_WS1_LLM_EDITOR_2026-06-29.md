@@ -57,12 +57,18 @@ Governing principles carried over from the WS2B plan:
   pass is purely additive and non-fatal — the pipeline delivers with or without it.
 - **Gating:** `CBIZ_EDITOR=1`, OFF by default. No effect on current production behavior.
 
-## 4. Graduation path (not yet built)
+## 4. Graduation path
 
 1. Run advisory for several editions; score the editor's catches against real reader feedback
    and the brief-review-gate checklist.
 2. Move proven, mechanical catch categories into **deterministic gates** (guarantees), not the
-   editor.
+   editor. **DONE (first two, 2026-06-29):** the editor's two highest-frequency HIGH-severity
+   catches — ENGLISH-ONLY (Chinese-character attributions) and MARKET-TIMING (undated market
+   moves) — are now code gates in `cbiz_daily.py`: a mechanical repair + detectors that feed the
+   synthesize retry loop and surface in `verify`. Validated: a dry-run that previously drew 8
+   HIGH english-only/market-timing findings now delivers zero CJK, and the editor raises neither
+   category — leaving it free for the judgment calls a gate cannot make (forecasts/TONE, sourcing
+   breadth, depth).
 3. Only then consider an **auto-apply** mode for safe, evidence-bound edits — gated, separate
    operator approval (P-02 cron change). Prose/depth judgment stays advisory.
 
