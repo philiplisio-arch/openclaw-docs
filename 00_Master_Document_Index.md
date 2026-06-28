@@ -1,13 +1,14 @@
 # OPENCLAW — MASTER DOCUMENT INDEX
 
+> **2026-06-28:** WS1 Lane-0 discovery scout built, validated, and gated OFF (Tavily chosen; GDELT/Gemini rejected; 0/10 first-run survival — query tuning pending). Two new reference docs indexed in the 2026-06-28 addendum below: the Lane-0 design/findings doc and a skills backlog from this session. Steve feedback fixes (new-tab links, syndication corroboration guard, four editorial rules) shipped. See 04_DAILY_STATUS (v4.5).
 > **2026-06-24:** WS1 (China Business Daily) selection-layer rebuild shipped live (commits e85b855, 890321f). Three new WS1 docs indexed in the 2026-06-24 addendum below; WS1 description in OPENCLAW_AS_BUILT_STATE_2026-06-18 is now partly superseded by these changes (a refreshed As-Built is the next governance-tier item). See 04_DAILY_STATUS (v4.4) and Issues #72–#76.
 > **2026-06-18:** OPENCLAW_AS_BUILT_STATE_2026-06-18 is now the AUTHORITATIVE current-state reference (supersedes 06-16). Reflects WS2/ALJ on curated-crawl sourcing (Baidu retired), the cross-language trust-gate fix, the completeness-gate reliability fix, and the source-breadth work. Forward plan + competitive analysis live in local-only internal strategy memos (not this public set).
 > **2026-06-16:** OPENCLAW_AS_BUILT_STATE_2026-06-16 — superseded by 06-18. Foundation v6.2, CEO Dashboard, and Phase Gate Checklist remain superseded/retired (banners added).
 
 ---
 document_id: OPENCLAW-MDI-001
-version: v5.6
-last_updated: 2026-06-24
+version: v5.7
+last_updated: 2026-06-28
 status: ACTIVE
 ---
 
@@ -266,6 +267,17 @@ WS1 (China Business Daily) selection-layer rebuild docs, indexed here pending ti
 | WS1 Daily Brief Mirror | `WS1/WS1_<date>.md` | WS1/ | OPERATIONAL | Daily client brief mirrored from the live cron for operator annotation/review |
 
 ---
+
+## 2026-06-28 ADDENDUM — WS1 LANE-0 DISCOVERY + SESSION SKILLS BACKLOG
+
+| Document | Filename | Location | Status | Purpose |
+|----------|----------|----------|--------|---------|
+| WS1 Lane-0 Discovery Scout | `OPENCLAW_WS1_DISCOVERY_LANE0_2026-06-28.md` | [root] | ACTIVE | Design, provider evaluation (Gemini/GDELT rejected, OpenAI deferred, Tavily chosen), and first-run findings (0/10 survival) for the additive non-authoritative discovery layer; built and gated OFF pending query tuning + multi-day survival measurement |
+| Session Skills Backlog 2026-06-28 | `OPENCLAW_SKILLS_BACKLOG_2026-06-28.md` | [root] | REFERENCE | Candidate Claude Code skills distilled from this session's learnings (discovery-engine ops, Tavily retrieval, GDELT rate-limit gotcha, Steve feedback triage, WS1 brief review gate, dry-run safety, credential reuse-in-place) |
+
+---
+
+*v5.7 changes (2026-06-28): 2026-06-28 addendum added — WS1 Lane-0 discovery scout design/findings doc (ACTIVE, gated OFF) and the session skills backlog (REFERENCE). 06-28 banner note added (Tavily chosen, 0/10 first-run survival, Steve feedback fixes shipped). Frontmatter/footer reconciled to v5.7/2026-06-28. See 04_DAILY_STATUS (v4.5).*
 
 *v5.6 changes (2026-06-24): WS1 selection-redesign docs indexed (2026-06-24 addendum) — WS1 product spec (06-15), selection-layer spec (06-23, IMPLEMENTED), validation brief (06-23), WS1/ mirror folder. WS1/ added to location key. 06-24 banner note added (OPENCLAW_AS_BUILT_STATE_2026-06-18 WS1 description now partly superseded; refreshed As-Built is the next governance-tier item). Frontmatter and footer version reconciled to v5.6/2026-06-24 (frontmatter had drifted to v5.5/06-10 while footer read v5.4/06-08).*
 

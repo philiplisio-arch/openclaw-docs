@@ -2,14 +2,34 @@
 
 ---
 document_id: 04_DAILY_STATUS
-version: v4.4
-last_updated: 2026-06-24
+version: v4.5
+last_updated: 2026-06-28
 status: OPERATIONAL
 ---
 
-DATE: 2026-06-24
-PHASE: Post-pivot — WS1 selection-layer rebuild live; convergence in progress (see OPENCLAW_AS_BUILT_STATE_2026-06-18 for last authoritative current-state reconciliation, now partly superseded by the 06-24 WS1 changes below)
+DATE: 2026-06-28
+PHASE: Post-pivot — WS1 selection-layer live + Lane-0 discovery scout built and gated OFF; convergence in progress (see OPENCLAW_AS_BUILT_STATE_2026-06-18 for last authoritative current-state reconciliation, now partly superseded by the 06-24/06-28 WS1 changes below)
 
+> **2026-06-28 status:** WS1 (China Business Daily) — two workstreams this session.
+> **(1) Lane-0 discovery scout BUILT, validated, gated OFF.** An additive, non-authoritative
+> LLM/external discovery layer (`cbiz_discover.py`) that PROPOSES candidate articles into the
+> SAME deterministic verification path; it cannot inject facts or bypass validation. Provider
+> evaluation: Gemini rejected (hallucinated URLs + English-edition bias); GDELT rejected for
+> this host (datacenter IP hits a sticky extended 429 ban); OpenAI web_search deferred (no key);
+> **Tavily chosen** (real reachable CN URLs, free tier, needs domain-pinning + freshness gate).
+> First dry-run (no delivery): Tavily proposed 10, kept 10, but **0/10 survived to brief** —
+> broad noun queries surfaced soft/official filler, plus heavy ledger suppression. Mechanism is
+> sound and safe; value unproven until query strategy is tuned and survival measured over several
+> days. Discovery stays OFF in the 07:10 cron (enabling it = separate operator approval, P-02).
+> Design + findings: `OPENCLAW_WS1_DISCOVERY_LANE0_2026-06-28`.
+> **(2) Steve feedback fixes shipped.** New-tab external links in the public site (`build_site.py`
+> `target="_blank" rel="noopener"`, internal links unchanged); syndication false-corroboration guard
+> in `recount_outlets()` (wire reprints no longer counted as multiple outlets); four editorial rules
+> appended to `cbiz_style.md` (MARKET-SCOPE, MARKET-TIMING, SUMMARY-DEPTH, ATTRIB-DEDUP). Today's
+> live 07:16 edition (15 stories / 12 outlets) is healthy; the thin dry-run brief was NOT deployed —
+> the code/style fixes ride the next scheduled cron. Skills backlog from this session's learnings:
+> `OPENCLAW_SKILLS_BACKLOG_2026-06-28`.
+>
 > **2026-06-24 status:** WS1 (China Business Daily) **selection-layer rebuild SHIPPED and LIVE**
 > (commits e85b855 + 890321f). The three deviations found in the 2026-06-23 deep assessment are fixed
 > mechanically: fabricated "covered by N outlets" replaced with **real distinct-outlet corroboration**;
