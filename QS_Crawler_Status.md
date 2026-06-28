@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-28 18:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-28 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-06-28 18:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **1835 unique auto/NEV articles** across **18 outlets**
+## Cumulative: **1854 unique auto/NEV articles** across **18 outlets**
 
 ## New per day
 | date | new articles |
@@ -30,13 +30,13 @@ _Updated 2026-06-28 18:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-25 | 137 |
 | 2026-06-26 | 143 |
 | 2026-06-27 | 131 |
-| 2026-06-28 | 73 |
+| 2026-06-28 | 92 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.dongchedi.com | 964 |
-| www.d1ev.com | 319 |
+| www.dongchedi.com | 979 |
+| www.d1ev.com | 322 |
 | www.caam.org.cn | 169 |
 | www.cada.cn | 71 |
 | 36kr.com | 68 |
@@ -44,7 +44,7 @@ _Updated 2026-06-28 18:12 | discovery-only, zero LLM tokens | runs every 3h_
 | www.news.cn | 50 |
 | egs.stcn.com | 46 |
 | www.xinhuanet.com | 21 |
-| www.yicai.com | 18 |
+| www.yicai.com | 19 |
 | www.zqrb.cn | 15 |
 | cn.chinadaily.com.cn | 11 |
 | qzs.stcn.com | 7 |
@@ -56,7 +56,7 @@ _Updated 2026-06-28 18:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-06-28 — 73 articles
+### 2026-06-28 — 92 articles
 - **[在中国卖不动的车，在海外“嘎嘎乱杀”](https://36kr.com/p/3872119745172742)** — _36kr.com_ · published 2026-06-28
   在中国卖不动的车，在海外“嘎嘎乱杀” 导语 产能过剩，车企们寻求全球突围。 6月17日，在塔什干国际论坛期间，大众中国宣布了一则海外布局消息：大众、捷达落地乌兹别克斯坦。这是大众中国首次全权操盘海外出口业务。 值得一提的是，此次入局并非简单的一次性试水，而是一套完整的出海方案。初期，大众将以整车出口为主，输出途观L Pro、帕萨特Pro等多款燃油车，后续和当
 - **[汽车安全迎来新标准 汽车侧面碰撞迎20年最严标准升级](https://egs.stcn.com/news/detail/2308218.html)** — _egs.stcn.com_ · date: unknown
@@ -102,6 +102,12 @@ _Updated 2026-06-28 18:12 | discovery-only, zero LLM tokens | runs every 3h_
   今日，蔚来汽车在上海举行了ES8交付八周年纪念活动，并宣布向北京汽车博物馆捐赠蔚来ES8创始版“0001号”车。同时，蔚来ES8大五座版正式开启预订，预计于7月9日上市。这款纯电SUV搭载全域900V高压架构，配备前桥180kW感应电机和后桥340kW碳化硅永磁电机，综合最大功率520kW，峰值扭矩700N·m，零百加速仅需3.97秒。车辆还配备102kWh
 - **[比亚迪元UP焕新登场：城市代步小电动升级，续航高达505km！](https://www.d1ev.com/newsflash/304763)** — _www.d1ev.com_ · date: unknown
   近日，比亚迪新款元UP实车图曝光，已完成工信部申报。作为城市代步小型纯电SUV，新款元UP在外观细节、车身布局和三电系统上进行了多项升级。外观上，前脸灯具升级为单透镜大灯搭配竖向矩阵灯带，前保险杠重新设计，运动感更强。车身侧面充电口位置调整至后翼子板，日常充电更便利。车身尺寸微调至4335mm，轴距保持2620mm不变。 动力和续航是新款元UP的核心亮点。新
+- **[华为途灵平台技术升级，智能底盘让汽车“看](https://www.d1ev.com/newsflash/304775)** — _www.d1ev.com_ · date: unknown
+  近日，华为途灵平台技术专场上披露，自2023年11月推出以来，华为途灵平台已完成三轮结构性技术升级，技术成果已全面应用于鸿蒙智行五界系列车型。具体车型包括2023年的智界S7、问界M9，2025年的尊界S800、享界S9/S9T，以及2026年的全新问界M9、尊界S800GrandDesign。 华为途灵平台技术专家比喻，传统底盘如同“四肢发达”的运动员，而
+- **[2026车市分化加剧：燃油车贬值严重，新能源二手车交易逆势增长](https://www.d1ev.com/newsflash/304774)** — _www.d1ev.com_ · date: unknown
+  6月28日，中国车市分化现象加剧，新车市场持续大幅打折，二手车市场承压。今年1至5月，国内新车零售量为715万辆，同比下滑19%；而二手车成交627.71万辆，仅微跌0.66%，显示出较强的市场韧性。然而，二手车价格体系受到剧烈冲击，部分燃油二手车价格大幅贬值，亏损额度足以购入顶配华为MateXT非凡大师。二手车商面临降价速度跟不上车企降价频率的困境，多款燃
+- **[比亚迪自研智驾芯片璇玑A3明年量产，算力超2100TOPS](https://www.d1ev.com/newsflash/304773)** — _www.d1ev.com_ · date: unknown
+  6月28日，比亚迪计划在明年的腾势品牌量产新车上首次搭载自研智驾芯片璇玑A3。这一消息来自晚点Auto的报道，显示比亚迪在智能驾驶领域的进一步布局。据行业内部人士透露，智驾芯片从流片到实际应用在车辆上，通常需要至少一年的时间，因为需要对芯片本身、算法部署以及整车适配进行逐一验证，这使得芯片的落地时间难以压缩。 比亚迪在5月28日发布了自研智驾芯片“璇玑A3”
 - **[2026款奔驰EQB 纯电动SUV 外观和内饰细节](https://www.dongchedi.com/video/7656093742062977561)** — _www.dongchedi.com_ · date: unknown
   奔驰EQB(海外) © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有限公司 中央网信办违法和不良信息举报中心 违法和不良信息举报电话：400-140-2108 举报
 - **[不只环保！举国推广电动车核心是能源突围，很多人没看懂深层布局](https://www.dongchedi.com/article/7656092656707355160)** — _www.dongchedi.com_ · date: unknown
@@ -173,8 +179,29 @@ _Updated 2026-06-28 18:12 | discovery-only, zero LLM tokens | runs every 3h_
 - **[80%的油都白烧了？混动车真的能解决这个问题吗](https://www.dongchedi.com/video/7656355789716111934)** — _www.dongchedi.com_ · date: unknown
   扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
 - **[传祺向往M8 PHEV L：全能混动MPV，适合全家出行](https://www.dongchedi.com/article/7656354907104477758)** — _www.dongchedi.com_ · date: unknown
+- **[汽车像素](https://www.dongchedi.com/user/68862384257)** — _www.dongchedi.com_ · date: unknown
+- **[汽车前沿Tv](https://www.dongchedi.com/user/7726696469)** — _www.dongchedi.com_ · date: unknown
+- **[小9汽车攻略](https://www.dongchedi.com/user/1196695556205047)** — _www.dongchedi.com_ · date: unknown
+- **[二手埃安AION V 新一代霸王龙火出圈](https://www.dongchedi.com/video/7656412011710235161)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[佛山银河 E5 售价不到 9 万，家用纯电 SUV](https://www.dongchedi.com/video/7656405472718684697)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[小鹏MONA L03内饰官图发布 前法拉利设计师操刀/纯电增程双动力](https://www.dongchedi.com/article/7656398140803793432)** — _www.dongchedi.com_ · date: unknown
+- **[821公里续航真能让人忘了充电桩在哪？](https://www.dongchedi.com/article/7656395869096362558)** — _www.dongchedi.com_ · date: unknown
+- **[德国专家曾言：中国人究竟知不知道，电动车比汽车污染更严重！](https://www.dongchedi.com/article/7656393927452852761)** — _www.dongchedi.com_ · date: unknown
+- **[消息称比亚迪自研智驾芯片预计2027年首搭量产车型](https://www.dongchedi.com/article/7656393723361870360)** — _www.dongchedi.com_ · date: unknown
+- **[爆：现代汽车准备退出旅行车市场](https://www.dongchedi.com/article/7656392842650583576)** — _www.dongchedi.com_ · date: unknown
+- **[哈弗大狗PLUS PHEV四驱混动，电池健康度高](https://www.dongchedi.com/video/7656386690701361688)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[王者归来，谁的青春里没有一台QQ？#全新QQ3#奇瑞汽车](https://www.dongchedi.com/video/7656388272637166104)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[日媒：中国汽车三十年，外国车企从被迫合资走向主动合资](https://www.dongchedi.com/article/7656385632126157337)** — _www.dongchedi.com_ · date: unknown
+- **[巧说车市](https://www.dongchedi.com/user/56870823487)** — _www.dongchedi.com_ · date: unknown
+- **[2030年燃油车将一车难求？李斌的双90%论断究竟能否成真](https://www.dongchedi.com/article/7656379082184147480)** — _www.dongchedi.com_ · date: unknown
 - **[华为乾崑与猛士联手打造智能越野车，尊界新车售价138.8万元起](https://www.yicai.com/news/103249554.html)** — _www.yicai.com_ · date: unknown
   {{aisd}} AI生成 免责声明 【一周新事件】 1、东风股份发布首个无人物流车品牌 近日，东风汽车股份有限公司在襄阳举行东风OpenVAN无人物流车品牌全球发布会。这是东风股份在无人驾驶商用车领域的首个独立品牌，实现从末端到园区全场景覆盖。DF-2、DF-8、DF-25、DF-60四款科技感十足的无人驾驶物流车同步亮相。 一财点评：《2025年中国无人
+- **[建设全国统一大市场迎新部署：抓紧制定招商引资鼓励和禁止清单](https://www.yicai.com/news/103249839.html)** — _www.yicai.com_ · published 2026-06-23
+  {{aisd}} AI生成 免责声明 建设全国统一大市场迎来新一轮密集部署。 十四届全国人大常委会第二十三次会议于2026年6月23日至26日在北京举行。国家发改委副主任李春临作《国务院关于建设全国统一大市场工作情况的报告》。 李春临表示，统一大市场对集聚资源、推动增长、激励创新、优化分工、促进竞争的作用正在不断显现。下一步将加快构建全国统一大市场评价指标体
 
 ### 2026-06-27 — 131 articles
 - **[理想首谈电池品牌争议：不管谁家电池，都是理想汽车兜底](https://36kr.com/p/3866946087867394)** — _36kr.com_ · published 2026-06-27
