@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-28 09:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-28 12:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-06-28 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **1778 unique auto/NEV articles** across **18 outlets**
+## Cumulative: **1803 unique auto/NEV articles** across **18 outlets**
 
 ## New per day
 | date | new articles |
@@ -30,16 +30,16 @@ _Updated 2026-06-28 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-25 | 137 |
 | 2026-06-26 | 143 |
 | 2026-06-27 | 131 |
-| 2026-06-28 | 16 |
+| 2026-06-28 | 41 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.dongchedi.com | 927 |
-| www.d1ev.com | 304 |
+| www.dongchedi.com | 943 |
+| www.d1ev.com | 311 |
 | www.caam.org.cn | 168 |
-| www.cada.cn | 70 |
-| 36kr.com | 67 |
+| www.cada.cn | 71 |
+| 36kr.com | 68 |
 | www.stcn.com | 65 |
 | www.news.cn | 50 |
 | egs.stcn.com | 44 |
@@ -56,13 +56,30 @@ _Updated 2026-06-28 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-06-28 — 16 articles
+### 2026-06-28 — 41 articles
+- **[在中国卖不动的车，在海外“嘎嘎乱杀”](https://36kr.com/p/3872119745172742)** — _36kr.com_ · published 2026-06-28
+  在中国卖不动的车，在海外“嘎嘎乱杀” 导语 产能过剩，车企们寻求全球突围。 6月17日，在塔什干国际论坛期间，大众中国宣布了一则海外布局消息：大众、捷达落地乌兹别克斯坦。这是大众中国首次全权操盘海外出口业务。 值得一提的是，此次入局并非简单的一次性试水，而是一套完整的出海方案。初期，大众将以整车出口为主，输出途观L Pro、帕萨特Pro等多款燃油车，后续和当
+- **[国际资讯：美瀚拍卖--动力电池检测提高二手新能源车拍卖量](https://www.cada.cn/Trends/info_96_9086.html)** — _www.cada.cn_ · date: unknown
 - **[塔塔汽车2031财年规划：电动化加速，年销量目标翻倍](https://www.d1ev.com/newsflash/304713)** — _www.d1ev.com_ · date: unknown
   6月23日，塔塔汽车乘用车业务部门发布了面向2031财年的详细发展规划。公司计划将乘用车产品线从目前的15款扩展至25款，包括新增6款燃油车和4款全新电动汽车，并对现有车型进行超过30次迭代更新。塔塔汽车目前在印度电动车市场占据领先地位，未来规划中的4款全新电动汽车中已有两款公开，分别是Sierra EV和高端子品牌Avinya的首款车型。 塔塔汽车制定了明
 - **[捷途汽车推两款重磅新车，定义燃油方盒子新标杆](https://www.d1ev.com/newsflash/304709)** — _www.d1ev.com_ · date: unknown
   6月26日，捷途汽车在“向往就前往——捷途汽车第二届方盒子大会暨新品发布”活动中推出了两款新车型：自由者7PLUS和全新山海T1四驱版。这两款车型以其“超级方盒子三大件”——超级越野、超级安全和超级智能——重新定义了燃油方盒子市场的价值标杆。自由者7PLUS的超级置换价下调至8.99万起，限时焕新价为11.99-13.49万元；全新山海T1四驱版的限时焕新价
 - **[中国车企赴加建厂新动向：加拿大提四大合作要求](https://www.d1ev.com/newsflash/304718)** — _www.d1ev.com_ · date: unknown
   日前，加拿大工业部长梅拉妮·乔利访华结束后提出，中国车企若想获得更多电动汽车进口配额并享受较低关税，需在加拿大建立本地制造能力。今年1月，加拿大允许约4.9万辆中国电动汽车以约6%的关税税率进入市场，并取消2024年的100%关税。乔利在访华期间与比亚迪、吉利和奇瑞等中国车企会晤，讨论在加拿大投资建厂的事宜。 乔利提出了四项合作要求：一、在加拿大境内建设的组
+- **[小鹏MONAL03智能SUV：23处接口打造年轻人时尚新选择](https://www.d1ev.com/newsflash/304742)** — _www.d1ev.com_ · date: unknown
+  今日，小鹏汽车宣布其新款SUV车型MONAL03将于7月正式亮相，定位为“年轻人的第一台智能时尚SUV”。新车全车拥有23处拓展接口，包括4个后备厢洞洞板接口、5个1/4标准螺纹接口、8个无痕磁吸接口、2个座椅靠背接口和3个智能Pin口，满足多样化的个性化需求。 小鹏MONAL03的内饰设计同样引人注目，软包面积超过72%，配备拉丝金属工艺扬声器网罩和双层镀
+- **[蔚来ES8创始版“0001号”车捐赠博物馆，大五座版开启预订](https://www.d1ev.com/newsflash/304740)** — _www.d1ev.com_ · date: unknown
+  今日，安徽蔚来总经理余东明分享了蔚来ES8交付八周年纪念暨0001号车捐赠仪式现场画面。在这一重要时刻，上海蔚来汽车有限公司高级副总裁、产品体验资深专家李天舒向北京汽车博物馆正式捐赠了蔚来ES8创始版“0001号”车，象征着蔚来品牌的历史和里程碑。 此外，蔚来ES8大五座版今日开启预订，展车现已到店，预计将于7月9日正式发布上市。蔚来ES8的市场表现同样值得
+- **[英国高温下新招：电动车空调变卧室降温神器](https://www.d1ev.com/newsflash/304739)** — _www.d1ev.com_ · date: unknown
+  近日，一位英国网友在Reddit上分享了一个独特的降温方法，引起了广泛关注。面对卧室温度飙升至32℃的困境，他发现可以通过一根100毫米的管道软管将MG ZS EV的圆形空调出风口连接，将冷气导入室内，使客厅整晚保持在22℃以下。这一创新做法不仅展现了车主的创造力，也引发了网友的热烈讨论，有人戏称这是“把汽车变成了移动空调外机”。 欧洲目前正经历罕见的极端高
+- **[蔚来ES8大五座版开启预订，7月9日上市，续航655km新体验！](https://www.d1ev.com/newsflash/304738)** — _www.d1ev.com_ · date: unknown
+  今日，蔚来ES8大五座版正式开启预订，预订金5000元可抵扣10000元购车款。这款纯电SUV将于7月9日正式发布上市。新车尺寸为长5280mm、宽2010mm、高1800mm，轴距3130mm，提供七种车色和五种内饰主题。主副驾座椅配备20向调节、400mm宽腿托，二排座椅最大靠背角达138°、400mm腿托，均支持电动调节和按摩功能。前后备舱总装载空间1
+- **[五菱携手Grab进军印尼网约车市场，电动化车型再添新动力](https://www.d1ev.com/newsflash/304735)** — _www.d1ev.com_ · date: unknown
+  6月28日，上汽通用五菱宣布与东南亚出行平台Grab达成战略合作，并在印尼完成了车辆交付。此次合作标志着五菱印尼成功切入印尼出行市场，成为Grab电动化运力扩容的核心合作伙伴。五菱印尼已与Grab、GOTO等头部出行品牌建立联系，并在两年的跟进后实现了合作。 五菱印尼进一步与本土租赁公司MPM达成合作，布局租赁市场，为合作车队提供产品培训、全周期维保和技师培
+- **[福特UEV平台挑战中国车企，中型电动皮卡续航增15%](https://www.d1ev.com/newsflash/304734)** — _www.d1ev.com_ · date: unknown
+  福特汽车正在推出全新的通用电动汽车（UEV）平台，旨在打造价格更亲民的电动汽车型。首款基于该平台的车型是一款四门中型电动皮卡，起售价约3万美元。福特首席执行官吉姆·法利在采访中提到，尽管部分中国电动汽车厂商拥有极低的 电池成本，但整车控制系统能效并不突出。福特通过引入赛车领域的专业人才，实现了20%至30%的能效提升。UEV平台的核心亮点在于优化空气动力学设
+- **[大众汽车拟裁员10万，重组计划能否挽救市场信心？](https://www.d1ev.com/newsflash/304733)** — _www.d1ev.com_ · date: unknown
+  德国大众汽车近日考虑关闭四家德国工厂，并计划裁员多达10万人，占全球员工总数约六分之一，这可能是汽车行业历史上最大规模的重组。大众CEO奥利弗·布鲁姆提出，将关闭汉诺威、茨维考、埃姆登工厂及奥迪内卡苏尔姆工厂，裁员目标翻倍至10万人，并在未来五年内削减约15%投资，降至约1480亿美元。布鲁姆的目标是重组这家89年历史的公司，包括将核心大众品牌和零部件业务分
 - **[2026款奔驰EQB 纯电动SUV 外观和内饰细节](https://www.dongchedi.com/video/7656093742062977561)** — _www.dongchedi.com_ · date: unknown
   奔驰EQB(海外) © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有限公司 中央网信办违法和不良信息举报中心 违法和不良信息举报电话：400-140-2108 举报
 - **[不只环保！举国推广电动车核心是能源突围，很多人没看懂深层布局](https://www.dongchedi.com/article/7656092656707355160)** — _www.dongchedi.com_ · date: unknown
@@ -80,6 +97,26 @@ _Updated 2026-06-28 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 - **[几千块&quot;破解&quot;特斯拉FSD？灰产蔓延，出事车企一分不赔，谁敢试？](https://www.dongchedi.com/article/7656058004063928857)** — _www.dongchedi.com_ · date: unknown
 - **[被低估的换电价值！电池不折旧，长期开蔚来反而更省钱](https://www.dongchedi.com/article/7656052084656341529)** — _www.dongchedi.com_ · date: unknown
 - **[二手高端纯电SUV怎么判断 ES6先看换电权益和电池方案](https://www.dongchedi.com/video/7656053103258960409)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[9分钟补能，430km纯电续航，3.9秒破百，腾势N8L闪充版这次太香了](https://www.dongchedi.com/article/7656278271780586046)** — _www.dongchedi.com_ · date: unknown
+- **[汽车FANS舰长](https://www.dongchedi.com/user/111001589512)** — _www.dongchedi.com_ · date: unknown
+- **[能买到绝版车？比亚迪在欧洲卖啥车？](https://www.dongchedi.com/video/7656274957793968702)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[家用插混SUV选购攻略：这款车型综合实力出众，适合家用](https://www.dongchedi.com/article/7656271466803118617)** — _www.dongchedi.com_ · date: unknown
+- **[家用选车避坑指南：奇瑞风云T9L实车体验，哪款最值得买？](https://www.dongchedi.com/article/7656270936689312281)** — _www.dongchedi.com_ · date: unknown
+- **[售价 40.68 万起，蔚来全新 ES8 大型纯电 SUV 全维度解析](https://www.dongchedi.com/article/7656265151922111038)** — _www.dongchedi.com_ · date: unknown
+- **[40万级大型SUV购买考量，蔚来全新ES8的实际用车感受如何？](https://www.dongchedi.com/article/7656264504262738494)** — _www.dongchedi.com_ · date: unknown
+- **[2026仁化县汽车维修：这几家靠谱企业值得信赖](https://www.dongchedi.com/article/7656264003601564185)** — _www.dongchedi.com_ · date: unknown
+- **[纯电大型SUV出行无忧？蔚来全新ES8，家用商务都合适](https://www.dongchedi.com/article/7656263908017439294)** — _www.dongchedi.com_ · date: unknown
+- **[10万级的城市领航啥水平？20大考点实测埃安N60！都能顺利通行？](https://www.dongchedi.com/video/7656078272798966334)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[蔚来全新ES8实测：四十万级大七座，换电+大空间，全家出行新解法](https://www.dongchedi.com/article/7656263360803258942)** — _www.dongchedi.com_ · date: unknown
+- **[40万级大型纯电SUV推荐，蔚来全新ES8综合配置解析](https://www.dongchedi.com/article/7656263174425363006)** — _www.dongchedi.com_ · date: unknown
+- **[挑战38天国境大环线极狐S3整车长测第三天](https://www.dongchedi.com/video/7656263074667725337)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[宿州海磊奇瑞谢经理](https://www.dongchedi.com/user/1820405510440510)** — _www.dongchedi.com_ · date: unknown
+- **[新车降价诚意十足，40万级纯电SUV，当下入手优势在哪](https://www.dongchedi.com/article/7656261463774282302)** — _www.dongchedi.com_ · date: unknown
+- **[豪华感十足，性能出色的蔚来全新ES8，适合家庭用户选择](https://www.dongchedi.com/video/7656261296484057662)** — _www.dongchedi.com_ · date: unknown
   扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
 - **[华为乾崑与猛士联手打造智能越野车，尊界新车售价138.8万元起](https://www.yicai.com/news/103249554.html)** — _www.yicai.com_ · date: unknown
   {{aisd}} AI生成 免责声明 【一周新事件】 1、东风股份发布首个无人物流车品牌 近日，东风汽车股份有限公司在襄阳举行东风OpenVAN无人物流车品牌全球发布会。这是东风股份在无人驾驶商用车领域的首个独立品牌，实现从末端到园区全场景覆盖。DF-2、DF-8、DF-25、DF-60四款科技感十足的无人驾驶物流车同步亮相。 一财点评：《2025年中国无人
