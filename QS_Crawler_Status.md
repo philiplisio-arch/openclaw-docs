@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-28 06:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-28 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-06-28 06:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **1777 unique auto/NEV articles** across **18 outlets**
+## Cumulative: **1778 unique auto/NEV articles** across **18 outlets**
 
 ## New per day
 | date | new articles |
@@ -30,13 +30,13 @@ _Updated 2026-06-28 06:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-25 | 137 |
 | 2026-06-26 | 143 |
 | 2026-06-27 | 131 |
-| 2026-06-28 | 15 |
+| 2026-06-28 | 16 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 927 |
-| www.d1ev.com | 303 |
+| www.d1ev.com | 304 |
 | www.caam.org.cn | 168 |
 | www.cada.cn | 70 |
 | 36kr.com | 67 |
@@ -56,11 +56,13 @@ _Updated 2026-06-28 06:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-06-28 — 15 articles
+### 2026-06-28 — 16 articles
 - **[塔塔汽车2031财年规划：电动化加速，年销量目标翻倍](https://www.d1ev.com/newsflash/304713)** — _www.d1ev.com_ · date: unknown
   6月23日，塔塔汽车乘用车业务部门发布了面向2031财年的详细发展规划。公司计划将乘用车产品线从目前的15款扩展至25款，包括新增6款燃油车和4款全新电动汽车，并对现有车型进行超过30次迭代更新。塔塔汽车目前在印度电动车市场占据领先地位，未来规划中的4款全新电动汽车中已有两款公开，分别是Sierra EV和高端子品牌Avinya的首款车型。 塔塔汽车制定了明
 - **[捷途汽车推两款重磅新车，定义燃油方盒子新标杆](https://www.d1ev.com/newsflash/304709)** — _www.d1ev.com_ · date: unknown
   6月26日，捷途汽车在“向往就前往——捷途汽车第二届方盒子大会暨新品发布”活动中推出了两款新车型：自由者7PLUS和全新山海T1四驱版。这两款车型以其“超级方盒子三大件”——超级越野、超级安全和超级智能——重新定义了燃油方盒子市场的价值标杆。自由者7PLUS的超级置换价下调至8.99万起，限时焕新价为11.99-13.49万元；全新山海T1四驱版的限时焕新价
+- **[中国车企赴加建厂新动向：加拿大提四大合作要求](https://www.d1ev.com/newsflash/304718)** — _www.d1ev.com_ · date: unknown
+  日前，加拿大工业部长梅拉妮·乔利访华结束后提出，中国车企若想获得更多电动汽车进口配额并享受较低关税，需在加拿大建立本地制造能力。今年1月，加拿大允许约4.9万辆中国电动汽车以约6%的关税税率进入市场，并取消2024年的100%关税。乔利在访华期间与比亚迪、吉利和奇瑞等中国车企会晤，讨论在加拿大投资建厂的事宜。 乔利提出了四项合作要求：一、在加拿大境内建设的组
 - **[2026款奔驰EQB 纯电动SUV 外观和内饰细节](https://www.dongchedi.com/video/7656093742062977561)** — _www.dongchedi.com_ · date: unknown
   奔驰EQB(海外) © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有限公司 中央网信办违法和不良信息举报中心 违法和不良信息举报电话：400-140-2108 举报
 - **[不只环保！举国推广电动车核心是能源突围，很多人没看懂深层布局](https://www.dongchedi.com/article/7656092656707355160)** — _www.dongchedi.com_ · date: unknown
