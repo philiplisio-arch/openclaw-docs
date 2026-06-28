@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-28 15:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-28 18:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-06-28 15:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **1817 unique auto/NEV articles** across **18 outlets**
+## Cumulative: **1835 unique auto/NEV articles** across **18 outlets**
 
 ## New per day
 | date | new articles |
@@ -30,19 +30,19 @@ _Updated 2026-06-28 15:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-25 | 137 |
 | 2026-06-26 | 143 |
 | 2026-06-27 | 131 |
-| 2026-06-28 | 55 |
+| 2026-06-28 | 73 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.dongchedi.com | 950 |
-| www.d1ev.com | 318 |
-| www.caam.org.cn | 168 |
+| www.dongchedi.com | 964 |
+| www.d1ev.com | 319 |
+| www.caam.org.cn | 169 |
 | www.cada.cn | 71 |
 | 36kr.com | 68 |
 | www.stcn.com | 65 |
 | www.news.cn | 50 |
-| egs.stcn.com | 44 |
+| egs.stcn.com | 46 |
 | www.xinhuanet.com | 21 |
 | www.yicai.com | 18 |
 | www.zqrb.cn | 15 |
@@ -56,9 +56,15 @@ _Updated 2026-06-28 15:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-06-28 — 55 articles
+### 2026-06-28 — 73 articles
 - **[在中国卖不动的车，在海外“嘎嘎乱杀”](https://36kr.com/p/3872119745172742)** — _36kr.com_ · published 2026-06-28
   在中国卖不动的车，在海外“嘎嘎乱杀” 导语 产能过剩，车企们寻求全球突围。 6月17日，在塔什干国际论坛期间，大众中国宣布了一则海外布局消息：大众、捷达落地乌兹别克斯坦。这是大众中国首次全权操盘海外出口业务。 值得一提的是，此次入局并非简单的一次性试水，而是一套完整的出海方案。初期，大众将以整车出口为主，输出途观L Pro、帕萨特Pro等多款燃油车，后续和当
+- **[汽车安全迎来新标准 汽车侧面碰撞迎20年最严标准升级](https://egs.stcn.com/news/detail/2308218.html)** — _egs.stcn.com_ · date: unknown
+  e公司 张一帆 06-28 18:07 人民财讯6月28日电，7月1日起，我国将实施一批汽车安全碰撞新国标。其中《汽车侧面碰撞的乘员保护》是近二十年来最严苛的一次碰撞安全标准升级。在中国汽车技术研究中心汽车安全试验室，专家介绍，在新国标中，采用的侧面碰撞台车质量从950公斤大幅提升至1400公斤。除了碰撞上的高标准新国标即将实施，7月1日起，《电动汽车安全要
+- **[慧翰股份：公司5G](https://egs.stcn.com/news/detail/2308205.html)** — _egs.stcn.com_ · date: unknown
+  e公司 张一帆 06-28 18:07 人民财讯6月28日电，慧翰股份近日接受机构调研时表示，目前公司的5G-V2X产品已经在无人物流车等自动驾驶场景落地应用，未来随着高阶自动驾驶的渗透率不断提升，产品的应用场景会进一步拓宽，价值空间也会持续打开。另外，公司的海外eCall业务拥有全球多地区的认证资质和多年大规模量产经验，技术和客户基础扎实，未来会保持稳定向
+- **[中国汽车工业协会关于2023年第五批团体标准立项通知的函
+		[09.27]](https://www.caam.org.cn/chn/10/cate_112/con_5236179.html)** — _www.caam.org.cn_ · date: unknown
 - **[国际资讯：美瀚拍卖--动力电池检测提高二手新能源车拍卖量](https://www.cada.cn/Trends/info_96_9086.html)** — _www.cada.cn_ · date: unknown
 - **[塔塔汽车2031财年规划：电动化加速，年销量目标翻倍](https://www.d1ev.com/newsflash/304713)** — _www.d1ev.com_ · date: unknown
   6月23日，塔塔汽车乘用车业务部门发布了面向2031财年的详细发展规划。公司计划将乘用车产品线从目前的15款扩展至25款，包括新增6款燃油车和4款全新电动汽车，并对现有车型进行超过30次迭代更新。塔塔汽车目前在印度电动车市场占据领先地位，未来规划中的4款全新电动汽车中已有两款公开，分别是Sierra EV和高端子品牌Avinya的首款车型。 塔塔汽车制定了明
@@ -94,6 +100,8 @@ _Updated 2026-06-28 15:12 | discovery-only, zero LLM tokens | runs every 3h_
   6月28日，据快科技报道，我国新能源汽车保有量预计将在2025年底达到4397万辆。然而，随着新能源汽车的普及，维修成本高、维修渠道少的问题逐渐凸显。许多新能源车企提供的“三电终身质保”条款要求车辆必须在授权4S店保养维修，否则质保资格失效，导致消费者面临“买得起修不起”的困境。 商务部等9部门联合印发《关于培育壮大汽车后市场消费若干措施的通知》，从三个层面
 - **[蔚来ES8创始版“0001号”车捐赠博物馆，大五座版预订开启](https://www.d1ev.com/newsflash/304743)** — _www.d1ev.com_ · date: unknown
   今日，蔚来汽车在上海举行了ES8交付八周年纪念活动，并宣布向北京汽车博物馆捐赠蔚来ES8创始版“0001号”车。同时，蔚来ES8大五座版正式开启预订，预计于7月9日上市。这款纯电SUV搭载全域900V高压架构，配备前桥180kW感应电机和后桥340kW碳化硅永磁电机，综合最大功率520kW，峰值扭矩700N·m，零百加速仅需3.97秒。车辆还配备102kWh
+- **[比亚迪元UP焕新登场：城市代步小电动升级，续航高达505km！](https://www.d1ev.com/newsflash/304763)** — _www.d1ev.com_ · date: unknown
+  近日，比亚迪新款元UP实车图曝光，已完成工信部申报。作为城市代步小型纯电SUV，新款元UP在外观细节、车身布局和三电系统上进行了多项升级。外观上，前脸灯具升级为单透镜大灯搭配竖向矩阵灯带，前保险杠重新设计，运动感更强。车身侧面充电口位置调整至后翼子板，日常充电更便利。车身尺寸微调至4335mm，轴距保持2620mm不变。 动力和续航是新款元UP的核心亮点。新
 - **[2026款奔驰EQB 纯电动SUV 外观和内饰细节](https://www.dongchedi.com/video/7656093742062977561)** — _www.dongchedi.com_ · date: unknown
   奔驰EQB(海外) © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有限公司 中央网信办违法和不良信息举报中心 违法和不良信息举报电话：400-140-2108 举报
 - **[不只环保！举国推广电动车核心是能源突围，很多人没看懂深层布局](https://www.dongchedi.com/article/7656092656707355160)** — _www.dongchedi.com_ · date: unknown
@@ -141,6 +149,30 @@ _Updated 2026-06-28 15:12 | discovery-only, zero LLM tokens | runs every 3h_
 - **[宾利第二款SUV内饰谍照曝光：Barnato定位城市豪华纯电SUV](https://www.dongchedi.com/article/7656305158804226584)** — _www.dongchedi.com_ · date: unknown
 - **[【大熊沉浸式试车】一汽悦意08 纯电565Plus~沉浸式体验](https://www.dongchedi.com/video/7656301695148180030)** — _www.dongchedi.com_ · date: unknown
   扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[实拍阿维塔 07！轴距2940mm，增程/纯电可选！](https://www.dongchedi.com/video/7656370150215533118)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[百万级内饰豪华感！试驾全新一代雷克萨斯ES](https://www.dongchedi.com/video/7656370011011301950)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[带900V+激光雷达，租电13.58万起，蔚来还是掀桌了！](https://www.dongchedi.com/video/7656365006044627481)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[奕派M8预售19.98万起 中大型增程/纯电SUV 搭载多项华为乾崑技术](https://www.dongchedi.com/article/7656366464391709209)** — _www.dongchedi.com_ · date: unknown
+- **[20万级纯电SUV，乐道L60能耗低、续航长，全家出游很合适](https://www.dongchedi.com/video/7656363633035182617)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[5月厂商乘用车出口量TOP10全线上涨，第一竟超17万辆](https://www.dongchedi.com/article/7656359036203844158)** — _www.dongchedi.com_ · date: unknown
+- **[鸿蒙智行+华为DriveONE，17万买中大型纯电车！](https://www.dongchedi.com/article/7656361402277544510)** — _www.dongchedi.com_ · date: unknown
+- **[AION UT纯电代步小车 三电状态出色用车更省心](https://www.dongchedi.com/video/7656360834683191832)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[配双腔空悬，定位纯电中大型轿车，看广汽丰田铂智7](https://www.dongchedi.com/video/7656358740169720382)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[丰田在新能源市场杀了个回马枪，这一枪直接扎在痛点上](https://www.dongchedi.com/video/7656357936562061886)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[广汽丰田铂智7深度评测：凭均衡实力与诚意，成为家用纯电优选](https://www.dongchedi.com/video/7656357580839043646)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[丰田甩出王炸！双腔空悬+SDC减振器+激光雷达，限时14.78万起！](https://www.dongchedi.com/video/7656356151985963582)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[80%的油都白烧了？混动车真的能解决这个问题吗](https://www.dongchedi.com/video/7656355789716111934)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[传祺向往M8 PHEV L：全能混动MPV，适合全家出行](https://www.dongchedi.com/article/7656354907104477758)** — _www.dongchedi.com_ · date: unknown
 - **[华为乾崑与猛士联手打造智能越野车，尊界新车售价138.8万元起](https://www.yicai.com/news/103249554.html)** — _www.yicai.com_ · date: unknown
   {{aisd}} AI生成 免责声明 【一周新事件】 1、东风股份发布首个无人物流车品牌 近日，东风汽车股份有限公司在襄阳举行东风OpenVAN无人物流车品牌全球发布会。这是东风股份在无人驾驶商用车领域的首个独立品牌，实现从末端到园区全场景覆盖。DF-2、DF-8、DF-25、DF-60四款科技感十足的无人驾驶物流车同步亮相。 一财点评：《2025年中国无人
 
