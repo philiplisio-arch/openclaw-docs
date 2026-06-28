@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-28 21:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-29 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-06-28 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **1854 unique auto/NEV articles** across **18 outlets**
+## Cumulative: **1866 unique auto/NEV articles** across **18 outlets**
 
 ## New per day
 | date | new articles |
@@ -31,12 +31,13 @@ _Updated 2026-06-28 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-26 | 143 |
 | 2026-06-27 | 131 |
 | 2026-06-28 | 92 |
+| 2026-06-29 | 12 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.dongchedi.com | 979 |
-| www.d1ev.com | 322 |
+| www.dongchedi.com | 990 |
+| www.d1ev.com | 323 |
 | www.caam.org.cn | 169 |
 | www.cada.cn | 71 |
 | 36kr.com | 68 |
@@ -55,6 +56,26 @@ _Updated 2026-06-28 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 | gd.chinadaily.com.cn | 1 |
 
 ## Articles captured by day (newest first)
+
+### 2026-06-29 — 12 articles
+- **[比亚迪海洋网6系车型OTA升级，新增10+功能优化体验](https://www.d1ev.com/newsflash/304777)** — _www.d1ev.com_ · date: unknown
+  6月28日，比亚迪汽车海洋网销售事业部总经理张卓宣布，海洋网6系车型推出全新OTA升级，涉及10多项新增功能和10多项体验优化。此次升级特别针对海狮06、海豹06EV、海豹06GT智驾版和海豹06DM-i旅行版车型，带来了专属的新增和优化功能。 升级内容包括手车互联HUAWEI HiCar适配镜像模式，支持鸿蒙6.0及以上系统的华为手机；ICCOA Carl
+- **[当汽车遇上川美顶尖审美](https://www.dongchedi.com/video/7656462401507803673)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[东莞 小鹏 P5 2021 款，售价不到 7 万智能纯电家用轿车](https://www.dongchedi.com/video/7656447476655997465)** — _www.dongchedi.com_ · date: unknown
+  © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有限公司 中央网信办违法和不良信息举报中心 违法和不良信息举报电话：400-140-2108 举报邮箱：jubao@m
+- **[靠抹黑比亚迪赚钱？回旋镖早晚砸自己，500 万悬赏等着你](https://www.dongchedi.com/video/7656447409785946649)** — _www.dongchedi.com_ · date: unknown
+  © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有限公司 中央网信办违法和不良信息举报中心 违法和不良信息举报电话：400-140-2108 举报邮箱：jubao@m
+- **[不加油缴费，4000万辆新能源车缺席道路养护，谁为公路“续命”？](https://www.dongchedi.com/article/7656445345303560729)** — _www.dongchedi.com_ · date: unknown
+- **[自动驾驶陷入“1%死胡同”，全自动几乎不可能，司机离失业还早呢](https://www.dongchedi.com/article/7656445471787434521)** — _www.dongchedi.com_ · date: unknown
+- **[马斯克“混动只是过渡”的预言，可能要成真！](https://www.dongchedi.com/article/7656437243234206270)** — _www.dongchedi.com_ · date: unknown
+- **[纯电CLA首次OTA，大战广州城中村](https://www.dongchedi.com/video/7656435981612024344)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[车市商情](https://www.dongchedi.com/user/2123906330929517)** — _www.dongchedi.com_ · date: unknown
+- **[智能驾驶政策双轮驱动，福耀玻璃迎“玻璃即屏幕”新机遇](https://www.dongchedi.com/article/7656429765192417816)** — _www.dongchedi.com_ · date: unknown
+- **[大众之后是博世采埃孚：欧洲汽车两年裁掉10万人，谁在接盘](https://www.dongchedi.com/article/7656430929611145790)** — _www.dongchedi.com_ · date: unknown
+- **[敦煌方盒子大会燃情启幕！捷途双新车打造超级方盒子标杆](https://www.dongchedi.com/video/7656429408315785790)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
 
 ### 2026-06-28 — 92 articles
 - **[在中国卖不动的车，在海外“嘎嘎乱杀”](https://36kr.com/p/3872119745172742)** — _36kr.com_ · published 2026-06-28
