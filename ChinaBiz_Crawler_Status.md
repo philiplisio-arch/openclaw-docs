@@ -1,8 +1,8 @@
 # China Business Daily — Crawler Status
 
-_Updated 2026-06-29 03:42 | WS1 redesign source universe | discovery-only, zero LLM tokens | every 3h_
+_Updated 2026-06-29 06:41 | WS1 redesign source universe | discovery-only, zero LLM tokens | every 3h_
 
-## Cumulative: **8023 business articles** across **33 outlets**
+## Cumulative: **8042 business articles** across **33 outlets**
 
 _In Report? verdicts reflect the brief run of **2026-06-28** (generated 2026-06-28T08:56:25): **4 ✅ in / 1553 ❌ out** of 1557 in-window articles. Articles crawled after that run show ➖ (no verdict yet)._
 
@@ -10,15 +10,15 @@ _In Report? verdicts reflect the brief run of **2026-06-28** (generated 2026-06-
 | outlet | articles |
 |---|---|
 | www.stcn.com | 1693 |
-| www.nbd.com.cn | 1159 |
+| www.nbd.com.cn | 1161 |
 | www.21jingji.com | 989 |
 | www.jiemian.com | 530 |
 | www.eeo.com.cn | 510 |
 | 36kr.com | 503 |
 | m.21jingji.com | 474 |
 | www.yicai.com | 468 |
+| finance.eastmoney.com | 444 |
 | finance.people.com.cn | 434 |
-| finance.eastmoney.com | 427 |
 | finance.sina.com.cn | 353 |
 | news.cnstock.com | 151 |
 | caijing.chinadaily.com.cn | 58 |
@@ -43,7 +43,7 @@ _In Report? verdicts reflect the brief run of **2026-06-28** (generated 2026-06-
 | live.finance.sina.com.cn | 1 |
 | life.caijing.com.cn | 1 |
 
-## 2026-06-29 — 77 articles
+## 2026-06-29 — 96 articles
 | Article | Outlet | Published | In Report? | Reason |
 |---|---|---|---|---|
 | [中国公司全球化周报](https://36kr.com/p/3872954220073987) | 36kr.com | 2026-06-29 | ➖ | Not evaluated in the latest brief run |
@@ -69,6 +69,23 @@ _In Report? verdicts reflect the brief run of **2026-06-28** (generated 2026-06-
 | [精准布局热门AI赛道 主动权益翻倍基金数量达126只](https://finance.eastmoney.com/a/202606293785643072.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [知名基金经理最新调仓动向曝光](https://finance.eastmoney.com/a/202606293785642988.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [中企出海新启示：用“在地”思维解决消费者核心诉求](https://finance.eastmoney.com/a/202606293785644656.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [十大券商策略：本轮AI科技抱团 不会轻易结束！缩圈行情下需做好两手准备](https://finance.eastmoney.com/a/202606283785630047.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [多只翻倍牛股密集公告！涉英伟达概念、电子布、液冷等热门赛道](https://finance.eastmoney.com/a/202606283785619071.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [19家A股上市公司发布上半年业绩预告 多家公司预计净利同比增长超100%](https://finance.eastmoney.com/a/202606283785612646.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [6月29日国内四大证券报纸、重要财经媒体头版头条内容精华摘要](https://finance.eastmoney.com/a/202606283785624346.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [前5个月电子专用材料制造规模以上企业利润同比增长665.4%](https://finance.eastmoney.com/a/202606283785618875.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [外资机构展望下半年：稳健基本面为风险资产提供支撑](https://finance.eastmoney.com/a/202606293785640614.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [百度旗下昆仑芯科技计划在香港上市](https://finance.eastmoney.com/a/202606293785645594.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [国家能源集团发布116项新一代煤电产业链供需对接清单](https://finance.eastmoney.com/a/202606293785647269.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [SpaceX上市产生示范效应 国内商业航天全产业链迎快速发展机遇期](https://finance.eastmoney.com/a/202606293785646156.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [银河微电披露资产收购预案 拟全资控股恒泰柯 补齐中高压功率半导体版图](https://finance.eastmoney.com/a/202606283785618651.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [为灵活就业者消除后顾之忧](https://finance.eastmoney.com/a/202606293785651519.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [易控智驾在港交所公告 拟发行2613万股H股（视乎超额配股权行使与否而定） 发行价介于81.16至87.92港元/股](https://finance.eastmoney.com/a/202606293785651174.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [Momenta在港交所公告 拟发行1993万股发售股份（视乎超额配股权行使与否而定） 发行价为295.6港元/股](https://finance.eastmoney.com/a/202606293785651262.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [遇袭事件影响，伊朗缺席28日的美伊技术性谈判；汽车侧面碰撞迎20年最严标准升级；OpenAI发布新模型；半导体大牛股紧急澄清丨每经早参](https://finance.eastmoney.com/a/202606293785648934.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [哈尔滨电气集团有限公司 牢记国资央企职责使命 加快建设世界一流装备制造企业](https://finance.eastmoney.com/a/202606293785648535.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [多家中小银行补贴微信零钱提现](https://finance.eastmoney.com/a/202606293785650417.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [消费金融深耕场景提质增效](https://finance.eastmoney.com/a/202606293785650836.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [下周A股1000亿元巨额解禁来袭，一股解禁金额高达400亿](https://finance.sina.com.cn/wm/2026-06-28/doc-inieykzn3656970.shtml) | finance.sina.com.cn | 2026-06-28 | ➖ | Not evaluated in the latest brief run |
 | [半导体大牛股，紧急发布澄清声明](https://finance.sina.com.cn/stock/hyyj/2026-06-28/doc-inieyrik3533972.shtml) | finance.sina.com.cn | 2026-06-28 | ➖ | Not evaluated in the latest brief run |
 | [内存短缺对苹果和微软造成冲击，但对小型企业而言堪称“生存危机”](https://finance.sina.com.cn/stock/usstock/c/2026-06-28/doc-inieyriq2757625.shtml) | finance.sina.com.cn | 2026-06-28 | ➖ | Not evaluated in the latest brief run |
@@ -121,6 +138,8 @@ _In Report? verdicts reflect the brief run of **2026-06-28** (generated 2026-06-
 | [2026年6月29日汽车市场热点](https://www.nbd.com.cn/articles/2026-06-28/4439818.html) | www.nbd.com.cn | 2026-06-28 | ➖ | Not evaluated in the latest brief run |
 | [2026年6月29日汽车新版早参](https://www.nbd.com.cn/articles/2026-06-28/4439817.html) | www.nbd.com.cn | 2026-06-28 | ➖ | Not evaluated in the latest brief run |
 | [2026年6月29日消费市场热点](https://www.nbd.com.cn/articles/2026-06-28/4439815.html) | www.nbd.com.cn | 2026-06-28 | ➖ | Not evaluated in the latest brief run |
+| [影响市场重大事件：中国移动03星近期将择机发射，搭载星载基站验证卫星物联网业务；马斯克的太空算力计划正式确认！把100万台服务器送上天！](https://www.nbd.com.cn/articles/2026-06-28/4439727.html) | www.nbd.com.cn | 2026-06-28 | ➖ | Not evaluated in the latest brief run |
+| [遇袭事件影响，伊朗缺席28日的美伊技术性谈判；汽车侧面碰撞迎20年最严标准升级；OpenAI发布新模型；半导体大牛股紧急澄清丨每经早参](https://www.nbd.com.cn/articles/2026-06-28/4439813.html) | www.nbd.com.cn | 2026-06-28 | ➖ | Not evaluated in the latest brief run |
 | [美股科技基金遭遇创纪录流出！“AI交易”出现裂痕](https://www.stcn.com/article/detail/3984009.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [十大券商一周策略丨AI科技抱团不会轻易结束！缩圈行情下需做好两手准备](https://www.stcn.com/article/detail/3984010.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
 
