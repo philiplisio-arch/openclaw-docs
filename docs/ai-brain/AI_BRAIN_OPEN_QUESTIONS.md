@@ -2,6 +2,7 @@
 
 Status: Working draft  
 Created: 2026-06-30  
+Last updated: 2026-06-30  
 Purpose: Track unresolved questions that should guide future AI Brain design conversations.
 
 ---
@@ -121,3 +122,73 @@ Possible failure modes:
 Should AI Brain eventually have its own repository separate from `openclaw-docs`?
 
 Current answer: not yet. Use `openclaw-docs` for now, then split later if AI Brain becomes a sufficiently independent operating system.
+
+---
+
+## 9. Boot Sequence
+
+What is the minimum startup context a fresh AI instance must read before continuing an AI Brain architecture session?
+
+Current hypothesis:
+
+1. `AI_BRAIN_CURRENT_TRUTH.md`
+2. `AI_BRAIN_STATE_OF_PLAY.md`
+3. `AI_BRAIN_DECISION_LOG.md`
+4. `AI_BRAIN_OPEN_QUESTIONS.md`
+5. `AI_BRAIN_ARCHITECTURE_PROCESS.md`
+6. Manifesto only when deeper context is needed
+
+Open issue: should this be automated through a single startup prompt or command?
+
+---
+
+## 10. Checkpoint Automation
+
+How can the checkpoint process become deterministic rather than dependent on conversational discipline?
+
+Future target:
+
+```text
+Architecture Checkpoint
+  -> summarize session
+  -> update current truth
+  -> update state of play
+  -> append decisions
+  -> update open questions
+  -> append session log
+  -> generate diff
+  -> commit as one checkpoint
+```
+
+Open issue: should this be implemented through Claude Code, a script, a GitHub Action, or a dedicated AI Brain command?
+
+---
+
+## 11. Tool Reliability
+
+How should AI Brain handle required tools that appear available, then are not used, fail, or are mistakenly treated as unavailable?
+
+Session 001 exposed this as a real issue.
+
+Potential rule:
+
+- If a required tool is available, execute.
+- If it fails, report the actual failure.
+- If the AI has not tried the tool, it must not claim the tool is unavailable.
+- If repository synchronization fails, mark the checkpoint as pending, not complete.
+
+---
+
+## 12. Modeling the Decision Maker
+
+How should AI Brain model Philip's decision-making style?
+
+Sub-questions:
+
+- How does Philip recognize a good idea?
+- How does he decide what to pursue versus ignore?
+- What makes him trust a recommendation?
+- What makes him feel that the AI understands the work?
+- How does he balance creative exploration against disciplined execution?
+- What kinds of projects energize or drain him?
+- What causes him to lose track?
