@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-29 12:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-29 15:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-06-29 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **1899 unique auto/NEV articles** across **18 outlets**
+## Cumulative: **1919 unique auto/NEV articles** across **18 outlets**
 
 ## New per day
 | date | new articles |
@@ -31,24 +31,24 @@ _Updated 2026-06-29 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-26 | 143 |
 | 2026-06-27 | 131 |
 | 2026-06-28 | 92 |
-| 2026-06-29 | 45 |
+| 2026-06-29 | 65 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.dongchedi.com | 1003 |
-| www.d1ev.com | 339 |
+| www.dongchedi.com | 1013 |
+| www.d1ev.com | 343 |
 | www.caam.org.cn | 169 |
 | www.cada.cn | 71 |
-| 36kr.com | 70 |
-| www.stcn.com | 67 |
+| 36kr.com | 71 |
+| www.stcn.com | 69 |
 | www.news.cn | 50 |
-| egs.stcn.com | 46 |
+| egs.stcn.com | 47 |
 | www.xinhuanet.com | 21 |
-| www.yicai.com | 19 |
+| www.yicai.com | 20 |
 | www.zqrb.cn | 15 |
 | cn.chinadaily.com.cn | 11 |
-| qzs.stcn.com | 7 |
+| qzs.stcn.com | 8 |
 | economy.gmw.cn | 5 |
 | www.ceweekly.cn | 2 |
 | china.chinadaily.com.cn | 2 |
@@ -57,11 +57,17 @@ _Updated 2026-06-29 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-06-29 — 45 articles
+### 2026-06-29 — 65 articles
 - **[8点1氪丨两大存储巨头今日发布大规模投资计划；江淮汽车股价腰斩，章建平9日套现近3亿元；Anthropic Fable 5有望很快恢复访问](https://36kr.com/p/3873476968272902)** — _36kr.com_ · published 2026-06-29
   8点1氪丨两大存储巨头今日发布大规模投资计划；江淮汽车股价腰斩，章建平9日套现近3亿元；Anthropic Fable 5有望很快恢复访问 今日热点导览 - 《给阿嬷的情书》总票房已突破19亿元 - 梁文锋署名，DeepSeek发布最新论文 - WPS回应C盘占用问题，即将更新七月版本上线磁盘存储管理功能 - 触屏MacBook将搭载M5芯片发布，苹果计划跳
 - **[扩大汽车消费，电车修车贵的毛病要治治了](https://36kr.com/p/3870697532953606)** — _36kr.com_ · published 2026-06-29
   扩大汽车消费，电车修车贵的毛病要治治了 “新车底盘磕个坑被迫走全损，坏个大灯得花成千上万换总成。” “保险费用太贵了，比油车贵的不是一点半点。” “买车省的钱，修车一次全赔进去。” “不敢开、不敢蹭，电车养车比油车贵太多了。” 电车车主们的群体吐槽，让久被“嘲笑”的油车车主们，畅快不已。而这并不是油车党颠倒黑白的凭空杜撰，是真实发生在公社文章评论区、发生在我
+- **[全球首个自动驾驶“世界标准”落地：中国牵头，L3/L4迎来上路新阶段](https://36kr.com/p/3873892315151239)** — _36kr.com_ · published 2026-06-29
+  全球首个自动驾驶“世界标准”落地：中国牵头，L3/L4迎来上路新阶段 2026年6月22日至26日，联合国世界车辆法规协调组织第199次全体会议在瑞士日内瓦召开。会上，由中国、欧盟、英国、美国、加拿大和日本共同牵头制定的联合国自动驾驶系统全球技术法规经全体缔约方投票表决，正式获批发布。 工信部称，这是全球首个自动驾驶技术法规，提供了自动驾驶技术有序安全落地的
+- **[奇瑞成立千农科技公司 含AI及机器人业务](https://egs.stcn.com/news/detail/2308498.html)** — _egs.stcn.com_ · date: unknown
+  人民财讯6月29日电，企查查APP显示，近日，安徽千农科技有限公司成立，经营范围包含人工智能应用软件开发；软件销售；人工智能硬件销售；智能机器人的研发；智能机器人销售等。企查查股权穿透显示，该公司由奇瑞控股集团有限公司间接全资持股。
+- **[奇瑞成立千农科技公司 含AI及机器人业务](https://qzs.stcn.com/article/detail/609643.html)** — _qzs.stcn.com_ · date: unknown
+  人民财讯6月29日电，企查查APP显示，近日，安徽千农科技有限公司成立，经营范围包含人工智能应用软件开发；软件销售；人工智能硬件销售；智能机器人的研发；智能机器人销售等。企查查股权穿透显示，该公司由奇瑞控股集团有限公司间接全资持股。
 - **[比亚迪海洋网6系车型OTA升级，新增10+功能优化体验](https://www.d1ev.com/newsflash/304777)** — _www.d1ev.com_ · date: unknown
   6月28日，比亚迪汽车海洋网销售事业部总经理张卓宣布，海洋网6系车型推出全新OTA升级，涉及10多项新增功能和10多项体验优化。此次升级特别针对海狮06、海豹06EV、海豹06GT智驾版和海豹06DM-i旅行版车型，带来了专属的新增和优化功能。 升级内容包括手车互联HUAWEI HiCar适配镜像模式，支持鸿蒙6.0及以上系统的华为手机；ICCOA Carl
 - **[EV晨报 | 特斯拉发布Cybercab披露大量技术细节；Grok 4.5内测、DeepSeek推DSpark、GPT-5.6发布；德系四车企密集发布一系列降本计划 - 第一电动网](https://www.d1ev.com/news/shichang/304781)** — _www.d1ev.com_ · date: unknown
@@ -96,6 +102,14 @@ _Updated 2026-06-29 12:12 | discovery-only, zero LLM tokens | runs every 3h_
   今日，比亚迪宣布领汇M9商务旗舰MPV正式上市，提供豪华版和尊贵版两种配置，指导价分别为18.88万元和19.98万元。新车拥有皓月白、轩墨黑、凌云紫和苍岚青四款外观颜色选择，以及墨玉黑内饰。车身尺寸为5200×1970×1805mm，轴距3045mm，前脸采用青云直上前格栅和晶钻如炬LED日行灯设计，侧面为游龙悦动腰线，尾部则配备光影之眸3D尾灯。 比亚迪
 - **[“荣威家越07大五座SUV新色亮相，AI原生序列首款车型三季度发布”](https://www.d1ev.com/newsflash/304828)** — _www.d1ev.com_ · date: unknown
   6月29日，上汽荣威发布了家越07大五座SUV新车色，六款车色灵感源自“地壳美学”。这些车色包括“龙晶紫”、“玛瑙灰”、“宝石蓝”、“珍溪黑”、“钻石白”和“翡翠绿”。家越07是上汽荣威与火山引擎合作的“全新AI原生序列”首款车型，预计将于今年三季度发布。车辆设计上，家越07采用建筑式双垂直设计，车头和车尾近90度垂直角设计，前脸搭载行业首发一体式贯穿大灯，
+- **[丰田汽车5月全球销量再度下滑](https://www.d1ev.com/news/qiye/304857)** — _www.d1ev.com_ · date: unknown
+  盖世汽车讯 受中东局势扰乱供应链、加之中国市场竞争激烈的影响，丰田汽车5月全球销量连续第四个月走低。该公司6月29日公布的最新数据显示，包含子公司大发汽车在内，其5月全球销量同比下降7.4%，至885,207辆，全球产量同比下滑5.8%，为857,765辆。 从数据来看，不含大发的丰田品牌5月全球销量同比下降7.2%，至834,279辆。其中丰田在海外市场的
+- **[福特CEO承认：平价电车竞争力不足，比亚迪电池成本领先30%](https://www.d1ev.com/newsflash/304851)** — _www.d1ev.com_ · date: unknown
+  近日，福特汽车CEO吉姆·法利在访谈中承认，福特在平价电动车领域竞争力不足，其研发体系落后行业25年，难以与比亚迪竞争。法利指出，比亚迪通过 电池全产业链垂直整合，实现了电池成本比福特低30%。福特要降低电池成本，需重构电动车电机、 变速箱、逆变器的能效设计，以减少30%的电池搭载量。 法利还透露，福特已批量采购国产电动车空运至美国总部拆解对标，全方位分析比
+- **[九城角逐NIODay2026，蔚来年度盛会将迎重磅新品发布](https://www.d1ev.com/newsflash/304849)** — _www.d1ev.com_ · date: unknown
+  6月29日，蔚来宣布NIODay2026城市申办申请已截止，共有长春、重庆、哈尔滨、济南、南京、青岛、武汉、厦门8个城市参与申办。蔚来官方尚未公布NIODay2026的具体举办时间和活动内容，但根据以往惯例，预计将有重磅产品发布。 自2017年以来，NIODay已成功举办九届，每届都有重要产品和技术发布。2017年首届NIODay在北京举办，发布了首款车型E
+- **[德媒：大众计划终止与博世的自动驾驶合作](https://www.d1ev.com/news/shichang/304848)** — _www.d1ev.com_ · date: unknown
+  盖世汽车讯 德国《图片报》6月28日援引多位消息人士的信息报道称，德国汽车制造商大众集团为大范围削减成本、提升竞争力，计划终止与汽车零部件供应商博世在自动驾驶领域的合作。 报道称，该项目已投入约15亿欧元（折合17.1亿美元），却未能达到预期。大众内部评估认定，项目研发的技术尚不具备市场竞争力。大众与博世的这项合作于2022年启动，由大众旗下软件子公司Car
 - **[当汽车遇上川美顶尖审美](https://www.dongchedi.com/video/7656462401507803673)** — _www.dongchedi.com_ · date: unknown
   扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
 - **[东莞 小鹏 P5 2021 款，售价不到 7 万智能纯电家用轿车](https://www.dongchedi.com/video/7656447476655997465)** — _www.dongchedi.com_ · date: unknown
@@ -131,10 +145,27 @@ _Updated 2026-06-29 12:12 | discovery-only, zero LLM tokens | runs every 3h_
   扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
 - **[金标大众与众08：德系品质融合本土智能，解锁纯电新体验](https://www.dongchedi.com/video/7656646642367857177)** — _www.dongchedi.com_ · date: unknown
   扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[家用增程MPV试驾分享：吉利银河V900，多孩家庭出行好搭档](https://www.dongchedi.com/article/7656702985204302361)** — _www.dongchedi.com_ · date: unknown
+- **[智界RX工信部公示，搭载华为全栈旗舰技术，剑指高端纯电市场](https://www.dongchedi.com/article/7656703119737029145)** — _www.dongchedi.com_ · date: unknown
+- **[吉利下狠手！银河V900降价4万开卖，空间够大还舒适，可抄底了！](https://www.dongchedi.com/video/7656702242707341849)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[新世代BMW iX3长轴距版将于成都车展开启预售](https://www.dongchedi.com/article/7656703119505670680)** — _www.dongchedi.com_ · date: unknown
+- **[新车：东风奕派M8卖19.98万元；尊界V800/V680现身华为官网；新款比亚迪元UP实车曝光；蔚来ES8大五座版开启预订](https://www.dongchedi.com/article/7656700235904975385)** — _www.dongchedi.com_ · date: unknown
+- **[奇瑞风云广州枫兴吕梦雪](https://www.dongchedi.com/user/2279701450851770)** — _www.dongchedi.com_ · date: unknown
+- **[2026款理想L9体验：全能家用SUV，适合全家出行的旗舰车型](https://www.dongchedi.com/article/7656698959028945470)** — _www.dongchedi.com_ · date: unknown
+- **[福特CEO承认落后比亚迪25年，这次不是谦虚](https://www.dongchedi.com/article/7656699215246000665)** — _www.dongchedi.com_ · date: unknown
+- **[想近期买车的等等 7月5款SUV新车来袭 全新奔驰纯电GLC领衔](https://www.dongchedi.com/article/7656698029600195096)** — _www.dongchedi.com_ · date: unknown
+- **[下乡新能源车鱼龙混杂，看合格证一眼分清安全车与清库车型](https://www.dongchedi.com/article/7656698506861920830)** — _www.dongchedi.com_ · date: unknown
 - **[7家车企完成首轮强制ESG信披 精细化提质转型成为改进方向](https://www.stcn.com/article/detail/3984151.html)** — _www.stcn.com_ · date: unknown
   2026年是A股可持续发展报告强制披露元年，沪深北交易所划定首批强制披露主体需于4月30日前完成2025年度可持续发展报告发布。比亚迪、上汽集团、长安汽车、长城汽车、广汽集团、赛力斯、江淮汽车7家符合强制披露条件的整车企业全部按期提交报告。 根据车企发布的可持续发展报告，汽车行业虽搭建起基础ESG披露框架，但量化指标缺失、环境合规披露失真、循环经济数据单薄等
 - **[新能源汽车出口再暴涨，又一个历史性拐点即将出现](https://www.stcn.com/article/detail/3984906.html)** — _www.stcn.com_ · date: unknown
   中国新能源汽车出口，杀疯了。 2026年前五个月，新能源车出口同比增速高达110%，在整体出口中占比已拉升到45.1%，即将历史性地超越燃油车出口。 这不是一个理所当然的变化，其过程跌宕起伏： 要知道，2024年中国新能源车的出口占比，还仅有区区21.9%，且增速断崖式暴跌到6.8%。 风浪越大，鱼越贵。出海市场，从来都是风云莫测，充满不确定性。但从2025
+- **[奇瑞成立千农科技公司 含AI及机器人业务](https://www.stcn.com/article/detail/3986299.html)** — _www.stcn.com_ · date: unknown
+  人民财讯6月29日电，企查查APP显示，近日，安徽千农科技有限公司成立，经营范围包含人工智能应用软件开发；软件销售；人工智能硬件销售；智能机器人的研发；智能机器人销售等。企查查股权穿透显示，该公司由奇瑞控股集团有限公司间接全资持股。
+- **[车企遭三重压力测试：销量降、利润跌、芯片涨](https://www.stcn.com/article/detail/3986229.html)** — _www.stcn.com_ · date: unknown
+  2026年行至年中，中国汽车市场正经历一场罕见的多重压力测试。 乘联分会披露的最新数据显示，今年1~5月，全国乘用车市场累计零售711万辆，同比下降19%；汽车行业利润1440亿元，同比下降20%。同时，行业利润率降至3.4%，为五年来同期最低。 销量与利润双重承压之外，成本压力也正从供应链上游迅速传导至整车制造端——存储芯片价格飞涨。AI算力需求挤占产能，
+- **[车企遭三重压力测试：销量降、利润跌、芯片涨](https://www.yicai.com/news/103250925.html)** — _www.yicai.com_ · date: unknown
+  {{aisd}} AI生成 免责声明 2026年行至年中，中国汽车市场正经历一场罕见的多重压力测试。 乘联分会披露的最新数据显示，今年1~5月，全国乘用车市场累计零售711万辆，同比下降19%；汽车行业利润1440亿元，同比下降20%。同时，行业利润率降至3.4%，为五年来同期最低。 销量与利润双重承压之外，成本压力也正从供应链上游迅速传导至整车制造端——存
 
 ### 2026-06-28 — 92 articles
 - **[在中国卖不动的车，在海外“嘎嘎乱杀”](https://36kr.com/p/3872119745172742)** — _36kr.com_ · published 2026-06-28
