@@ -3,6 +3,7 @@
 Status: Working draft  
 Owner: Philip Lisio  
 Created: 2026-06-30  
+Last updated: 2026-06-30  
 Repository: openclaw-docs  
 Purpose: Preserve and evolve the foundational architecture emerging from AI Brain design conversations.
 
@@ -16,7 +17,7 @@ AI Brain is an emerging **external executive function**: a human-AI operating mo
 
 The original GitHub + Obsidian question remains useful, but it is now understood as one implementation layer beneath a broader architecture.
 
-The durable architecture should be organized around behaviors and governance, not around today's tools.
+The durable architecture should be organized around behaviors, governance, continuity, and execution discipline, not around today's tools.
 
 ---
 
@@ -103,6 +104,34 @@ The question is not simply "what may the AI do?" but "what governance rule deter
 
 AI Brain should help Philip stop losing track across many projects while preserving his ability to think freely, make final decisions, and steer priorities.
 
+### 4.9 Documentation reflects understanding, not chronology
+
+The GitHub record should not become a transcript or museum of prior thinking. It should become the clearest expression of the current architecture.
+
+Documents should be updated when understanding changes, not merely because a conversation occurred.
+
+### 4.10 The AI has an editorial responsibility
+
+The AI's role in architecture sessions is not only to answer questions or archive discussion. It must also act as an architectural editor: identifying conceptual thresholds, consolidating durable insights, pruning obsolete formulations, and keeping the official record coherent.
+
+### 4.11 Execution beats explanation
+
+When an action has been agreed and the required tool is available, the AI should execute first and explain afterward. If the tool is unavailable or fails, it should say so immediately and clearly.
+
+Talking around a required action is a process failure.
+
+### 4.12 Checkpoints require repository synchronization
+
+An Architecture Discovery session is not complete until the relevant GitHub documents have actually been updated or the failure to update has been explicitly recorded.
+
+A verbal checkpoint without repository synchronization is incomplete.
+
+### 4.13 GitHub is both repository of truth and boot loader
+
+GitHub is not only where official architecture is stored. It is also the boot sequence for future AI instances.
+
+Each new architecture session should begin by reconstructing context from the GitHub documents rather than relying on chat history.
+
 ---
 
 ## 5. Architectural Model
@@ -117,6 +146,7 @@ Philip
   -> Governance engine
   -> Execution layer
   -> Dashboard / briefing layer
+  -> Checkpoint / repository synchronization layer
 ```
 
 ### 5.1 Conversation streams
@@ -146,6 +176,8 @@ Key behaviors:
 - prepare morning briefings
 - recommend decisions
 - challenge drift or inconsistency
+- identify when a checkpoint is needed
+- synchronize durable understanding into GitHub
 
 ### 5.3 Entity model
 
@@ -206,22 +238,36 @@ It should help answer:
 - Which projects are active, incubating, blocked, dormant, or complete?
 - What should be ignored for now?
 
+### 5.7 Checkpoint / repository synchronization layer
+
+The checkpoint layer converts a work session into durable architecture.
+
+It should answer:
+
+- What did we learn?
+- Did our understanding change?
+- Which documents must change?
+- Were the documents actually updated?
+- What is the next starting point?
+
 ---
 
 ## 6. Tool Roles: Current Implementation Hypothesis
 
 ### GitHub
 
-GitHub is the official record for commitments.
+GitHub is the official record for commitments and the boot loader for future sessions.
 
 It should contain:
 
+- current truth / startup context
 - architecture documents
 - approved decisions
 - operating principles
 - specifications
 - prompt libraries
 - implementation notes
+- session logs
 - status reports
 - runbooks
 - source-of-truth documentation
@@ -275,10 +321,41 @@ Promote from Obsidian to GitHub only when an item becomes:
 - an implementation requirement
 - a reusable prompt or template
 - a source-of-truth reference
+- a checkpoint record
 
 ---
 
-## 8. Proposed Obsidian Structure
+## 8. Proposed GitHub Documentation Structure
+
+Current and proposed structure:
+
+```text
+docs/ai-brain/
+  AI_BRAIN_CURRENT_TRUTH.md
+  AI_BRAIN_ARCHITECTURE_MANIFESTO.md
+  AI_BRAIN_STATE_OF_PLAY.md
+  AI_BRAIN_DECISION_LOG.md
+  AI_BRAIN_OPEN_QUESTIONS.md
+  AI_BRAIN_SESSION_LOG.md
+  AI_BRAIN_ARCHITECTURE_PROCESS.md
+```
+
+Recommended future renaming, if desired:
+
+```text
+docs/ai-brain/
+  00_CURRENT_TRUTH.md
+  01_MANIFESTO.md
+  02_STATE_OF_PLAY.md
+  03_DECISION_LOG.md
+  04_OPEN_QUESTIONS.md
+  05_SESSION_LOG.md
+  06_ARCHITECTURE_PROCESS.md
+```
+
+---
+
+## 9. Proposed Obsidian Structure
 
 ```text
 AI Brain Vault/
@@ -308,7 +385,7 @@ AI Brain Vault/
 
 ---
 
-## 9. Promotion Workflow
+## 10. Promotion Workflow
 
 ```text
 Conversation
@@ -331,7 +408,21 @@ Promotion checklist:
 
 ---
 
-## 10. Initial Operating Loop
+## 11. Architecture Discovery Process
+
+AI Brain should be designed by using AI Brain principles.
+
+The Architecture Discovery Process is:
+
+```text
+Discover -> Challenge -> Consolidate -> Synchronize -> Checkpoint -> Continue
+```
+
+A session is complete only after repository synchronization has succeeded or failed transparently.
+
+---
+
+## 12. Initial Operating Loop
 
 The practical loop should be:
 
@@ -358,7 +449,7 @@ Weekly behavior:
 
 ---
 
-## 11. Current Open Questions
+## 13. Current Open Questions
 
 1. What exact entity schema should AI Brain maintain?
 2. What makes something a project versus an idea versus a theme?
@@ -367,12 +458,12 @@ Weekly behavior:
 5. How should raw conversations be captured across ChatGPT, Claude, and other interfaces?
 6. How should the system represent uncertainty, inference, and provenance?
 7. What should count as a misunderstanding of Philip's priorities?
-8. How often should GitHub documents be updated?
+8. What should the minimum boot sequence be for a new AI instance?
 9. Should AI Brain eventually have its own repository separate from openclaw-docs?
 
 ---
 
-## 12. Immediate Implementation Plan
+## 14. Immediate Implementation Plan
 
 ### Day 1
 
@@ -388,7 +479,11 @@ Create companion files:
 
 ### Day 3
 
-Create Obsidian vault structure and note templates.
+Create boot and process files:
+
+- `AI_BRAIN_CURRENT_TRUTH.md`
+- `AI_BRAIN_SESSION_LOG.md`
+- `AI_BRAIN_ARCHITECTURE_PROCESS.md`
 
 ### Day 4
 
@@ -408,7 +503,7 @@ Create first dashboard/state-of-play prototype.
 
 ---
 
-## 13. Current Status
+## 15. Current Status
 
 This document represents the first consolidation of the AI Brain design-discovery interview.
 
@@ -419,4 +514,10 @@ From: GitHub + Obsidian memory architecture
 To: AI Chief of Staff / external executive function / human-AI operating system
 ```
 
-This should now serve as the living reference document for subsequent AI Brain architecture conversations.
+Session 001 also exposed a process defect: the AI explained the need for GitHub synchronization but did not immediately execute it. That failure produced an important rule:
+
+```text
+Checkpoint incomplete until repository updated.
+```
+
+This document should now serve as the living reference document for subsequent AI Brain architecture conversations.
