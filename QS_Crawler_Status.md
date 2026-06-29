@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-29 06:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-29 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-06-29 06:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **1866 unique auto/NEV articles** across **18 outlets**
+## Cumulative: **1875 unique auto/NEV articles** across **18 outlets**
 
 ## New per day
 | date | new articles |
@@ -31,17 +31,17 @@ _Updated 2026-06-29 06:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-26 | 143 |
 | 2026-06-27 | 131 |
 | 2026-06-28 | 92 |
-| 2026-06-29 | 12 |
+| 2026-06-29 | 21 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 990 |
-| www.d1ev.com | 323 |
+| www.d1ev.com | 330 |
 | www.caam.org.cn | 169 |
 | www.cada.cn | 71 |
-| 36kr.com | 68 |
-| www.stcn.com | 65 |
+| 36kr.com | 69 |
+| www.stcn.com | 66 |
 | www.news.cn | 50 |
 | egs.stcn.com | 46 |
 | www.xinhuanet.com | 21 |
@@ -57,9 +57,25 @@ _Updated 2026-06-29 06:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-06-29 — 12 articles
+### 2026-06-29 — 21 articles
+- **[8点1氪丨两大存储巨头今日发布大规模投资计划；江淮汽车股价腰斩，章建平9日套现近3亿元；Anthropic Fable 5有望很快恢复访问](https://36kr.com/p/3873476968272902)** — _36kr.com_ · published 2026-06-29
+  8点1氪丨两大存储巨头今日发布大规模投资计划；江淮汽车股价腰斩，章建平9日套现近3亿元；Anthropic Fable 5有望很快恢复访问 今日热点导览 - 《给阿嬷的情书》总票房已突破19亿元 - 梁文锋署名，DeepSeek发布最新论文 - WPS回应C盘占用问题，即将更新七月版本上线磁盘存储管理功能 - 触屏MacBook将搭载M5芯片发布，苹果计划跳
 - **[比亚迪海洋网6系车型OTA升级，新增10+功能优化体验](https://www.d1ev.com/newsflash/304777)** — _www.d1ev.com_ · date: unknown
   6月28日，比亚迪汽车海洋网销售事业部总经理张卓宣布，海洋网6系车型推出全新OTA升级，涉及10多项新增功能和10多项体验优化。此次升级特别针对海狮06、海豹06EV、海豹06GT智驾版和海豹06DM-i旅行版车型，带来了专属的新增和优化功能。 升级内容包括手车互联HUAWEI HiCar适配镜像模式，支持鸿蒙6.0及以上系统的华为手机；ICCOA Carl
+- **[EV晨报 | 特斯拉发布Cybercab披露大量技术细节；Grok 4.5内测、DeepSeek推DSpark、GPT-5.6发布；德系四车企密集发布一系列降本计划 - 第一电动网](https://www.d1ev.com/news/shichang/304781)** — _www.d1ev.com_ · date: unknown
+  ▌要闻 ▍特斯拉发布Cybercab应急救援指南披露大量技术细节，确认L4级自动驾驶、无方向盘无踏板 IT之家6月28日消息，特斯拉悄然发布了Cybercab应急救援人员操作指南，首次以官方文件形式集中披露了这款自动驾驶无人出租车的大量技术细节。指南明确将Cybercab的自动驾驶系统归类为SAE 4级自动驾驶，代表车辆在限定的运行设计域内可全程独立完成全部
+- **[【盖世快讯】新版汽车侧面碰撞国标7月1日起实施；特斯拉“主动悬架系统”新专利公开](https://www.d1ev.com/news/shichang/304780)** — _www.d1ev.com_ · date: unknown
+  车企动态 | OEM Trend IT之家：6月28日消息，上汽通用五菱昨天宣布与东南亚头部出行平台Grab达成战略合作签约及车辆交付，Grab租赁平台批量导入缤果车型，全部投入印尼网约车营运。五菱印尼已主动链接Grab、GOTO等头部出行品牌，历经两年跟进，成功切入印尼出行市场，成为Grab电动化运力扩容的核心合作伙伴。 快科技：6月28日消息，特斯拉名为
+- **[小鹏汽车MONA L03公布23处拓展接口设计](https://www.d1ev.com/carnews/xinche/304792)** — _www.d1ev.com_ · date: unknown
+  小鹏MONA L03车型将于7月正式亮相，号称“年轻人的第一台智能时尚SUV”，市场预估售价落在13至16万元区间。 官方今日透露，这款新车全车拥有23处拓展接口。包括：4个后备厢洞洞板接口，可用于安装洞洞板，适用于露营或后备厢集市；5个1/4英寸标准螺纹接口，支持架设运动相机、手机支架等设备。 此外还有8个无痕磁吸接口，可吸附灵动按键、玩偶、墨镜盒等配件；
+- **[理想汽车正式进入澳门市场](https://www.d1ev.com/news/shichang/304791)** — _www.d1ev.com_ · date: unknown
+  盖世汽车获悉，理想汽车已在6月26日宣布正式进入澳门市场，并携手鸿粤集团于澳门金银岛开设澳门首家零售中心。同时，针对当地法规与港澳用户跨境出行需求，理想汽车已完成涵盖车窗玻璃、通信网络及智能座舱等在内的多项产品本地化适配。这是理想汽车持续深耕中国内地市场后，在港澳地区的首次拓展，标志着理想汽车的全球化战略布局迈出重要一步。 此次进入澳门市场，是理想汽车推进全
+- **[燃油车销量暴跌，但没伤到“自主”大动脉丨一句话点评](https://www.d1ev.com/news/qiye/304785)** — _www.d1ev.com_ · date: unknown
+  褪去一季度政策扰动的滤镜，2026年5月的中国乘用车市场，彻底露出了电动化转型进入深水区的真实底色。 全月，全国乘用车市场零售151.0万辆，同比下降22.1%，环比增长9.2%；今年以来累计零售709.9万辆，同比下降19.5%。 乘联会宣称，市场小幅回暖主要是得益于车市“反内卷”成效凸显，车企促销力度趋于稳定，淡化了消费者降价观望预期，叠加北京车展的热度
+- **[2026年“美国制造指数”发布：特斯拉与Jeep成前十中唯二美国车企](https://www.d1ev.com/news/shichang/304784)** — _www.d1ev.com_ · date: unknown
+  盖世汽车讯 当地时间6月24日，汽车资讯平台Cars.com发布了2026年度“美国制造指数”（American-Made Index）榜单。在该榜单前10名车型中，仅有特斯拉（Tesla）和Jeep两个美国品牌上榜，其余均为日系或韩系车型。 根据Cars.com的评估方法，该指数基于五大维度衡量车辆的“美国制造”程度：整车最终组装地点、依据《美国汽车标签法
+- **[吉利旗下路特斯电动车下月进入加拿大市场](https://www.d1ev.com/news/shichang/304783)** — _www.d1ev.com_ · date: unknown
+  盖世汽车讯 中国驻加拿大大使王迪（Wang Di）6月28日表示，吉利控股集团旗下的路特斯（Lotus）品牌电动车型将于下月进入加拿大市场，成为首批依据中加关税协议在加销售的中国产电动车。该协议源于加拿大总理马克·卡尼（Mark Carney）与中国国家主席习近平之间的磋商，允许每年最多49,000辆中国产电动车以降低后的关税税率进入加拿大。 王迪向路透社透
 - **[当汽车遇上川美顶尖审美](https://www.dongchedi.com/video/7656462401507803673)** — _www.dongchedi.com_ · date: unknown
   扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
 - **[东莞 小鹏 P5 2021 款，售价不到 7 万智能纯电家用轿车](https://www.dongchedi.com/video/7656447476655997465)** — _www.dongchedi.com_ · date: unknown
@@ -76,6 +92,8 @@ _Updated 2026-06-29 06:12 | discovery-only, zero LLM tokens | runs every 3h_
 - **[大众之后是博世采埃孚：欧洲汽车两年裁掉10万人，谁在接盘](https://www.dongchedi.com/article/7656430929611145790)** — _www.dongchedi.com_ · date: unknown
 - **[敦煌方盒子大会燃情启幕！捷途双新车打造超级方盒子标杆](https://www.dongchedi.com/video/7656429408315785790)** — _www.dongchedi.com_ · date: unknown
   扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[7家车企完成首轮强制ESG信披 精细化提质转型成为改进方向](https://www.stcn.com/article/detail/3984151.html)** — _www.stcn.com_ · date: unknown
+  2026年是A股可持续发展报告强制披露元年，沪深北交易所划定首批强制披露主体需于4月30日前完成2025年度可持续发展报告发布。比亚迪、上汽集团、长安汽车、长城汽车、广汽集团、赛力斯、江淮汽车7家符合强制披露条件的整车企业全部按期提交报告。 根据车企发布的可持续发展报告，汽车行业虽搭建起基础ESG披露框架，但量化指标缺失、环境合规披露失真、循环经济数据单薄等
 
 ### 2026-06-28 — 92 articles
 - **[在中国卖不动的车，在海外“嘎嘎乱杀”](https://36kr.com/p/3872119745172742)** — _36kr.com_ · published 2026-06-28
