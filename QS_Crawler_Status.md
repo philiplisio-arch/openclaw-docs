@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-30 00:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-30 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-06-30 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **1994 unique auto/NEV articles** across **18 outlets**
+## Cumulative: **1996 unique auto/NEV articles** across **18 outlets**
 
 ## New per day
 | date | new articles |
@@ -32,12 +32,12 @@ _Updated 2026-06-30 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-27 | 131 |
 | 2026-06-28 | 92 |
 | 2026-06-29 | 122 |
-| 2026-06-30 | 18 |
+| 2026-06-30 | 20 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.dongchedi.com | 1057 |
+| www.dongchedi.com | 1059 |
 | www.d1ev.com | 359 |
 | www.caam.org.cn | 169 |
 | www.cada.cn | 74 |
@@ -58,7 +58,7 @@ _Updated 2026-06-30 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-06-30 — 18 articles
+### 2026-06-30 — 20 articles
 - **[二手车交易市场分会](https://www.cada.cn/committee/info_27_6769.html)** — _www.cada.cn_ · date: unknown
 - **[大众ID.ERA5S内饰曝光：极简风格+高阶智能驾驶，纯电续航160km](https://www.d1ev.com/newsflash/304920)** — _www.d1ev.com_ · date: unknown
   6月29日，上汽大众发布了ID.ERA5S的内饰官图，标志着ID.ERA序列的第二款车型正式亮相。这款家用插电混动轿车以其极简风格的内饰设计，展现了“新势力”的设计理念。车内层次感强烈，空调出风口采用家族式的贯穿风格，镀铬装饰延伸至车门饰板，并配备多色氛围灯与缝线融合。ID.ERA5S提供双辐多功能方向盘和怀挡设计，中控屏比例为16:9，搭载本土化UI界面，
@@ -85,6 +85,10 @@ _Updated 2026-06-30 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 - **[宁德电池更安心 底盘舒适性也有提升 埃安i60宁德版试驾](https://www.dongchedi.com/video/7656802065394008638)** — _www.dongchedi.com_ · date: unknown
   扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
 - **[过来人忠告：买二手车，这3类车型再便宜也别碰](https://www.dongchedi.com/article/7656796032906609177)** — _www.dongchedi.com_ · date: unknown
+- **[比亚迪宋Ultra EV配合闪充的全家出行到底有便利？](https://www.dongchedi.com/video/7656860989748576793)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[惠州 ID.4 CROZZ 售价不到10万 德系家用纯电 SUV](https://www.dongchedi.com/video/7656841907389661721)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
 - **[广和通拟14.28亿元收购航盛电子股权 布局汽车电子产业链](https://www.stcn.com/article/detail/3987437.html)** — _www.stcn.com_ · date: unknown
   6月29日晚间，广和通(300638)披露重大资产购买报告书（草案），公司计划以现金形式，向深圳华建佳创等38名深圳市航盛电子股份有限公司股东收购航盛电子37.16%股份，交易总对价14.28亿元。本次交易完成后，通过一致行动协议安排，上市公司及其一致行动主体合计持有航盛电子51.40%股份，航盛电子将成为广和通控股子公司。 本次交易全部采用现金支付，不涉及
 
