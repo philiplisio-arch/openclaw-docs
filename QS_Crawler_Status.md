@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-30 09:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-30 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-06-30 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **2007 unique auto/NEV articles** across **19 outlets**
+## Cumulative: **2029 unique auto/NEV articles** across **19 outlets**
 
 ## New per day
 | date | new articles |
@@ -32,18 +32,18 @@ _Updated 2026-06-30 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-27 | 131 |
 | 2026-06-28 | 92 |
 | 2026-06-29 | 122 |
-| 2026-06-30 | 31 |
+| 2026-06-30 | 53 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.dongchedi.com | 1061 |
-| www.d1ev.com | 365 |
+| www.dongchedi.com | 1075 |
+| www.d1ev.com | 371 |
 | www.caam.org.cn | 169 |
 | 36kr.com | 75 |
 | www.stcn.com | 74 |
 | www.cada.cn | 74 |
-| www.news.cn | 52 |
+| www.news.cn | 53 |
 | egs.stcn.com | 47 |
 | www.yicai.com | 22 |
 | www.xinhuanet.com | 22 |
@@ -52,18 +52,20 @@ _Updated 2026-06-30 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 | qzs.stcn.com | 8 |
 | economy.gmw.cn | 5 |
 | www.ceweekly.cn | 2 |
+| cnews.chinadaily.com.cn | 2 |
 | china.chinadaily.com.cn | 2 |
 | www.jwview.com | 1 |
 | gd.chinadaily.com.cn | 1 |
-| cnews.chinadaily.com.cn | 1 |
 
 ## Articles captured by day (newest first)
 
-### 2026-06-30 — 31 articles
+### 2026-06-30 — 53 articles
 - **[AI原生时代，自动驾驶到底拼什么？](https://36kr.com/p/3874076936715137)** — _36kr.com_ · published 2026-06-30
   AI原生时代，自动驾驶到底拼什么？ 随着AI原生系统的普及，自动驾驶正成为一场争夺算力、软件、数据和半导体的综合竞赛。 汽车行业的高级驾驶辅助系统（ADAS）与自动驾驶（AD）发展正迈入全新阶段，生成式AI正成为这一阶段的核心特征。 如今，生成式AI正在加速行业向AI原生端到端（E2E）架构转型，这类架构能够从海量数据集中直接学习驾驶行为。与传统系统相比，端
 - **[从“代步”到“玩车” 汽车后市场激活万亿蓝海](https://cnews.chinadaily.com.cn/a/202606/30/WS6a42ff1ca310d709c2fbadf2.html)** — _cnews.chinadaily.com.cn_ · published 2026-06-30
   近日，商务部等九部门联合印发《关于培育壮大汽车后市场消费若干措施的通知》，同步公布40个汽车流通改革试点城市名单，从政策层面为汽车改装、赛事经济、经典车收藏等领域松绑。 新政明确规范汽车改装管理制度、完善行业标准、提升产业供给质量，让车主合规改车、商家依规经营，极大释放了大众汽车个性化消费需求。 改装市场爆发 全产业链迎来增长红利 政策红利持续释放，推动汽车
+- **[7月起，这些新规将影响你我生活！](https://cnews.chinadaily.com.cn/a/202606/30/WS6a43274ba310d709c2fbae49.html)** — _cnews.chinadaily.com.cn_ · published 2026-06-30
+  7月1日起，我国对外投资领域的首部行政法规——《国务院关于对外投资的规定》将正式施行。《规定》将个人投资者纳入适用范围，对于个人通过红筹结构进行的返程投资以及其他形式的、以获得股权或控制权为目的的对外直接投资均有影响。 《超龄劳动者基本权益保障暂行规定》7月1日起施行，这是我国首部明确超龄劳动者权益的专门规章，明确用人单位应及时足额支付超龄劳动者劳动报酬；一
 - **[二手车交易市场分会](https://www.cada.cn/committee/info_27_6769.html)** — _www.cada.cn_ · date: unknown
 - **[大众ID.ERA5S内饰曝光：极简风格+高阶智能驾驶，纯电续航160km](https://www.d1ev.com/newsflash/304920)** — _www.d1ev.com_ · date: unknown
   6月29日，上汽大众发布了ID.ERA5S的内饰官图，标志着ID.ERA序列的第二款车型正式亮相。这款家用插电混动轿车以其极简风格的内饰设计，展现了“新势力”的设计理念。车内层次感强烈，空调出风口采用家族式的贯穿风格，镀铬装饰延伸至车门饰板，并配备多色氛围灯与缝线融合。ID.ERA5S提供双辐多功能方向盘和怀挡设计，中控屏比例为16:9，搭载本土化UI界面，
@@ -81,6 +83,18 @@ _Updated 2026-06-30 09:12 | discovery-only, zero LLM tokens | runs every 3h_
   丰田近期再次暗示可能基于RAV4平台开发一款小型皮卡。尽管尚未确认量产计划，但这一可能性已引发关注，相关设计渲染图也随之曝光，展示了该车型若实现量产可能呈现的外观。 从渲染图来看，这款皮卡采用方正、硬朗的设计风格，强调实用性。前脸配备细长LED大灯、大尺寸格栅和厚实的前保险杠，整体造型比标准RAV4更具力量感。车身采用双排座布局，轮拱外扩，搭配黑色塑料轮眉和
 - **[2026年第26周（6.22](https://www.d1ev.com/carnews/xinche/304925)** — _www.d1ev.com_ · published 2026-06-23
   回顾上周国内车市，重磅车型不少。其中，零跑旗下首款MPV――零跑D99正式上市，新车提供增程和纯电双动力形式可选；捷途推出了自由者7 PLUS，新车采用“方盒子”造型，搭载燃油发动机；启境品牌首款车型启境GT7也于上周上市，新车定位为中大型智能猎装车，基于华为乾��赤兔平台打造，是首批搭载华为乾��智驾ADS 5的车型。接下来我们将对上周上市新车进行汇总，看
+- **[科络达亮相AI智能座舱大会，赋能车企打造可迭代智能座舱新生态](https://www.d1ev.com/news/shichang/304940)** — _www.d1ev.com_ · date: unknown
+  近日，第八届AI智能座舱大会暨2026第四届车载显示与感知技术革新峰会在上海圆满落幕。整车OTA与全域远程智能诊断头部服务商科络达受邀参会，与汽车产业链上下游企业深度交流，共同探讨AI原生座舱落地难点与解决方案。 当前，软件定义汽车成为行业主流，智能座舱已是车企差异化竞争、挖掘车辆全生命周期价值的核心领域。目前车载增值服务商业模式日趋成熟，导航、车载娱乐、车
+- **[蔚来ET9限量版“翠林染金”全球仅99台，83.8万起售尊享权益超10万](https://www.d1ev.com/newsflash/304967)** — _www.d1ev.com_ · date: unknown
+  6月30日，蔚来汽车推出了限量99台的ET9地平线特别版“翠林染金”主题车型。新车的购车方案有两种：全款整车购入价格为83.8万元起，而选择BaaS 电池租用模式的入门价为73万元。目前，新车已陆续抵达全国线下门店。 ET9地平线特别版的设计灵感来源于赤道普林西比岛，以迁徙北极燕鸥为创作核心，融合了海岛雨林的绿意与晨光落在羽翼上的鎏金质感，打造了独特的双拼车
+- **[比亚迪海豹08即将上市，第二代刀片电池产能大增](https://www.d1ev.com/newsflash/304966)** — _www.d1ev.com_ · date: unknown
+  6月29日，比亚迪执行副总裁何志奇透露，西咸基地的第二代刀片 电池产能稳步提升，产线运行顺畅。7月2日即将上市的海豹08也在西安顺利量产。比亚迪新能源汽车动力电池项目（西咸基地）位于西咸新区·秦汉 自动驾驶产业园，主要建设新能源汽车动力电池CELL、PACK生产线及相关配套设施。自3月推出第二代刀片电池及闪充技术后，订单爆发式增长，目前产能供不应求，公司正努
+- **[岚图董事长卢放炮轰车企浮夸营销：实事求是才是正道](https://www.d1ev.com/newsflash/304963)** — _www.d1ev.com_ · date: unknown
+  近日，岚图汽车董事长卢放在世界经济论坛第十七届新领军者年会上批评了部分车企的“浮夸营销”行为。卢放指出，一些企业在宣传中过度夸张，使用AI合成视频或剪辑手段，这种行为实际上是对消费者的欺骗，缺乏诚实和真诚。他强调，广告法对这些行为应有约束力，但似乎并未有效执行。 卢放还提到，公众人物和有影响力的人更应避免胡说八道，因为他们的言论会影响到更多的人。他表示自己无
+- **[最新议程｜2026智能汽车安全技术创新论坛，国内外先进专家共话安全！ - 第一电动网](https://www.d1ev.com/news/shichang/304959)** — _www.d1ev.com_ · published 2026-07-03
+  论坛背景 随着全球汽车产业加速向智能化、电动化转型，安全已成为产业可持续发展的核心基石与首要挑战。当前，高阶自动驾驶逐步从测试走向规模化落地，亟需行业凝聚安全共识。“2026智能汽车安全技术创新论坛”将于2026年7月3日在国家会展中心（上海）举办。 本次大会将与国内外先进专家聚焦“高阶自动驾驶安全”、“全球自动驾驶监管法规”、“人工智能安全”、“融合安全(
+- **[【活动通知】“合规护航 稳拓海外”](https://www.d1ev.com/news/shichang/304958)** — _www.d1ev.com_ · date: unknown
+  来源：第一电动网 作者：盖世汽车 本文地址：https://www.d1ev.com/news/shichang/304958 返回第一电动网首页 > 以上内容转载自盖世汽车，目的在于传播更多信息，如有侵仅请联系admin#d1ev.com(#替换成@)删除，转载内容并不代表第一电动网（www.d1ev.com）立场。 文中图片源自互联网，如有侵权请联系ad
 - **[最帅奇瑞家轿！奇瑞风云A9探店](https://www.dongchedi.com/video/7656841229862683161)** — _www.dongchedi.com_ · date: unknown
   扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467） 广播电视节目制作经营许可证 公司名称：重庆万象优车科技有限公司 中央网信办违法和不良信息举报中心 违法和不良信息举报电话：400-140-2108
 - **[昆明 领克 01 2023 款，售价不到 8 万省油家用混动 SUV](https://www.dongchedi.com/video/7656833962794926654)** — _www.dongchedi.com_ · date: unknown
@@ -110,6 +124,30 @@ _Updated 2026-06-30 09:12 | discovery-only, zero LLM tokens | runs every 3h_
   扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
 - **[车损超3成免费换新车？凯迪拉克甘肃车主回访给出答案](https://www.dongchedi.com/video/7656858498911257113)** — _www.dongchedi.com_ · date: unknown
   扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[AI 汽车进化史](https://www.dongchedi.com/video/7657022524076622361)** — _www.dongchedi.com_ · date: unknown
+  © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有限公司 中央网信办违法和不良信息举报中心 违法和不良信息举报电话：400-140-2108 举报邮箱：jubao@m
+- **[AI 汽车进化史](https://www.dongchedi.com/video/7657021555637502489)** — _www.dongchedi.com_ · date: unknown
+  © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有限公司 中央网信办违法和不良信息举报中心 违法和不良信息举报电话：400-140-2108 举报邮箱：jubao@m
+- **[试驾风云T9L，面面俱到平价豪华，重新理解15万级混动SUV](https://www.dongchedi.com/video/7657021166452113944)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[AI 汽车进化史](https://www.dongchedi.com/video/7657020757662466585)** — _www.dongchedi.com_ · date: unknown
+  © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有限公司 中央网信办违法和不良信息举报中心 违法和不良信息举报电话：400-140-2108 举报邮箱：jubao@m
+- **[同是紧凑SUV差价2万元，吉利博越和博越L到底怎么选？](https://www.dongchedi.com/video/7657020466049466905)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[汽车大保养要做什么？机油、刹车油、防冻液，一文说透不踩坑](https://www.dongchedi.com/article/7657019780779885080)** — _www.dongchedi.com_ · date: unknown
+- **[2026年武汉硚口汽车音响，哪家能提供音响日常维护服务？](https://www.dongchedi.com/article/7657017372691530302)** — _www.dongchedi.com_ · date: unknown
+- **[发达国家放缓电动化、中国大力扶持电动汽车的深层原因解析](https://www.dongchedi.com/article/7657015883432378904)** — _www.dongchedi.com_ · date: unknown
+- **[丰田5月全球销量83.4万辆，中国市场跌32%，纯电销量暴涨170%](https://www.dongchedi.com/article/7657015654612124222)** — _www.dongchedi.com_ · date: unknown
+- **[AI 汽车进化史](https://www.dongchedi.com/video/7657014298006536729)** — _www.dongchedi.com_ · date: unknown
+  © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有限公司 中央网信办违法和不良信息举报中心 违法和不良信息举报电话：400-140-2108 举报邮箱：jubao@m
+- **[蔚来APP大面积闪退，客服回应](https://www.dongchedi.com/article/7657014091668259352)** — _www.dongchedi.com_ · date: unknown
+- **[AI 汽车进化史](https://www.dongchedi.com/video/7657013650011472409)** — _www.dongchedi.com_ · date: unknown
+  © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有限公司 中央网信办违法和不良信息举报中心 违法和不良信息举报电话：400-140-2108 举报邮箱：jubao@m
+- **[云堆汽车](https://www.dongchedi.com/user/1134327399984476)** — _www.dongchedi.com_ · date: unknown
+- **[AI 汽车进化史](https://www.dongchedi.com/video/7657011865096536601)** — _www.dongchedi.com_ · date: unknown
+  © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有限公司 中央网信办违法和不良信息举报中心 违法和不良信息举报电话：400-140-2108 举报邮箱：jubao@m
+- **[AI对汽车产业的重塑已从概念全面转化为触手可及的产品体验 AI“上车”](https://www.news.cn/tech/20260630/0e9d424e64874119b0a894612a7636f5/c.html)** — _www.news.cn_ · published 2026-06-30
+  近日，为期9天的2026重庆国际汽车展览会落下帷幕。本届车展聚焦汽车产业智能化、电动化、网联化最新成果，总规模达16万平方米，吸引118家品牌参展，集中展示1050款车型，共发布96款新车。本届车展最大的亮点在于，AI对汽车产业的重塑已从概念全面转化为触手可及的产品体验。 我国辅助驾驶新车渗透率已超60%，并落地L3级自动驾驶车型，多国也陆续放开高阶自动驾驶
 - **[广和通拟14.28亿元收购航盛电子股权 布局汽车电子产业链](https://www.stcn.com/article/detail/3987437.html)** — _www.stcn.com_ · date: unknown
   6月29日晚间，广和通(300638)披露重大资产购买报告书（草案），公司计划以现金形式，向深圳华建佳创等38名深圳市航盛电子股份有限公司股东收购航盛电子37.16%股份，交易总对价14.28亿元。本次交易完成后，通过一致行动协议安排，上市公司及其一致行动主体合计持有航盛电子51.40%股份，航盛电子将成为广和通控股子公司。 本次交易全部采用现金支付，不涉及
 - **[前5个月汽车行业利润率仅3.4%！有车企人士疾呼“不追求暴利，但必须有利润”](https://www.stcn.com/article/detail/3987720.html)** — _www.stcn.com_ · date: unknown
