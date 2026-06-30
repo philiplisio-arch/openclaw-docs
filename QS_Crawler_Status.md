@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-01 00:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-01 03:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-01 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **2080 unique auto/NEV articles** across **19 outlets**
+## Cumulative: **2082 unique auto/NEV articles** across **19 outlets**
 
 ## New per day
 | date | new articles |
@@ -33,18 +33,18 @@ _Updated 2026-07-01 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-28 | 92 |
 | 2026-06-29 | 122 |
 | 2026-06-30 | 96 |
-| 2026-07-01 | 8 |
+| 2026-07-01 | 10 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 392 |
+| www.d1ev.com | 393 |
 | www.caam.org.cn | 170 |
 | www.cada.cn | 80 |
 | 36kr.com | 78 |
 | www.stcn.com | 76 |
-| www.news.cn | 53 |
+| www.news.cn | 54 |
 | egs.stcn.com | 49 |
 | www.yicai.com | 24 |
 | www.xinhuanet.com | 22 |
@@ -60,7 +60,7 @@ _Updated 2026-07-01 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-01 — 8 articles
+### 2026-07-01 — 10 articles
 - **[Bonus深度](https://36kr.com/p/3875691543179267)** — _36kr.com_ · published 2026-07-01
   Bonus深度｜米良川离职：揭秘小鹏机器人前代“铁三角”核心班底的出走 36氪「职场Bonus」（ID：ZhiChangHongLi） 机器人业务被推向了何小鹏下半年最需要关心的事情。 2026年6月5日，《职场Bonus》曾独家报道小鹏机器人核心产品一号位施晓鑫离职，仅5天后，何小鹏发布全员内部信，宣布亲自兼任小鹏机器人业务CEO，在其“量产和商业化的前夜
 - **[建设银行与吉利控股集团签署战略合作协议](https://egs.stcn.com/news/detail/2309339.html)** — _egs.stcn.com_ · date: unknown
@@ -74,6 +74,10 @@ _Updated 2026-07-01 00:12 | discovery-only, zero LLM tokens | runs every 3h_
   近日，德国下萨克森州州长Olaf Lies在接受德新社采访时表示，大众汽车集团可以考虑将在中国研发的车型引入德国本土生产，以此提高工厂的产能利用率，并保护工人的就业岗位。大众汽车集团的总部位于下萨克森州的沃尔夫斯堡，该州是大众的第二大股东，持有20%的普通股投票权。下萨克森州长和经济部长同时担任大众汽车监事会成员，在涉及关停工厂、大规模裁员、重大资产出售和总
 - **[“河南货车载废电池自燃 司机冷静驶离人群”](https://www.d1ev.com/newsflash/305054)** — _www.d1ev.com_ · date: unknown
   近日，河南滑县桑村乡发生了一起货车自燃事件。一辆装载废旧 电池的货车在乡镇街上突然起火，车尾冒出大量浓烟。由于街上行人车辆密集，司机没有立即停车逃生，而是将起火货车驶出人群聚集区域，开到空旷路段才停下。 目击者称，货车起火时火势还不算大，有人带着灭火器骑车追赶一里地，准备上前灭火。然而，司机下车后立即拦住众人，告知车上燃烧的是废旧电瓶，普通灭火器难以压制火势
+- **[“新国标实施：电动汽车安全升级，物理“一键断电”成标配！”](https://www.d1ev.com/newsflash/305062)** — _www.d1ev.com_ · date: unknown
+  7月1日，两项新的强制性国家标准《电动汽车安全要求》和《电动汽车用动力 蓄电池安全要求》正式生效。这两项标准旨在提升电动汽车的安全性能，特别是在整车安全和动力 电池安全方面。《电动汽车安全要求》首次引入了物理“一键断电”要求，通过物理断电装置取代软件控制，以提高事故救援的可靠性和时效性。这一变化对于电动汽车在严重碰撞或起火等紧急情况下的高压回路切断至关重要，
+- **[活力中国调研行](https://www.news.cn/photo/20260630/5cdece367c904ee28c5e0dbf01ad80e1/c.html)** — _www.news.cn_ · published 2026-06-30
+  6月30日，参观者在德赛西威展厅内了解智慧出行产品。 德赛西威是粤港澳大湾区汽车电子产业的龙头企业，总部位于广东省惠州市，聚焦智能座舱、智能驾驶和网联服务三大领域，致力于让更多人体验智慧出行。 新华社记者 梁旭 摄pagebreak 6月30日，参观者在德赛西威展厅内参观。 德赛西威是粤港澳大湾区汽车电子产业的龙头企业，总部位于广东省惠州市，聚焦智能座舱、智
 - **[建设银行与吉利控股集团签署战略合作协议](https://www.stcn.com/article/detail/3990188.html)** — _www.stcn.com_ · published 2026-06-25
   证券时报网 谢忠翔 2026-06-25 15:39 人民财讯6月30日电，建设银行6月30日消息，近日该行与浙江吉利控股集团有限公司在杭州签署战略合作协议。根据协议，双方将在出海金融支持、股权融资、创新产业孵化、长期限债券发行、银企生态联动等领域深化合作。建行表示，将依托综合融资、投行资管、全球现金管理等服务优势，支持吉利控股智能制造与技术创新。
 
