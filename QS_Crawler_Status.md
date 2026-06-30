@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-30 21:13 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-01 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-06-30 21:13 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **2072 unique auto/NEV articles** across **19 outlets**
+## Cumulative: **2080 unique auto/NEV articles** across **19 outlets**
 
 ## New per day
 | date | new articles |
@@ -33,18 +33,19 @@ _Updated 2026-06-30 21:13 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-28 | 92 |
 | 2026-06-29 | 122 |
 | 2026-06-30 | 96 |
+| 2026-07-01 | 8 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 388 |
+| www.d1ev.com | 392 |
 | www.caam.org.cn | 170 |
-| www.cada.cn | 79 |
-| 36kr.com | 77 |
-| www.stcn.com | 75 |
+| www.cada.cn | 80 |
+| 36kr.com | 78 |
+| www.stcn.com | 76 |
 | www.news.cn | 53 |
-| egs.stcn.com | 48 |
+| egs.stcn.com | 49 |
 | www.yicai.com | 24 |
 | www.xinhuanet.com | 22 |
 | www.zqrb.cn | 15 |
@@ -58,6 +59,23 @@ _Updated 2026-06-30 21:13 | discovery-only, zero LLM tokens | runs every 3h_
 | gd.chinadaily.com.cn | 1 |
 
 ## Articles captured by day (newest first)
+
+### 2026-07-01 — 8 articles
+- **[Bonus深度](https://36kr.com/p/3875691543179267)** — _36kr.com_ · published 2026-07-01
+  Bonus深度｜米良川离职：揭秘小鹏机器人前代“铁三角”核心班底的出走 36氪「职场Bonus」（ID：ZhiChangHongLi） 机器人业务被推向了何小鹏下半年最需要关心的事情。 2026年6月5日，《职场Bonus》曾独家报道小鹏机器人核心产品一号位施晓鑫离职，仅5天后，何小鹏发布全员内部信，宣布亲自兼任小鹏机器人业务CEO，在其“量产和商业化的前夜
+- **[建设银行与吉利控股集团签署战略合作协议](https://egs.stcn.com/news/detail/2309339.html)** — _egs.stcn.com_ · date: unknown
+  人民财讯6月30日电，建设银行6月30日消息，近日该行与浙江吉利控股集团有限公司在杭州签署战略合作协议。根据协议，双方将在出海金融支持、股权融资、创新产业孵化、长期限债券发行、银企生态联动等领域深化合作。建行表示，将依托综合融资、投行资管、全球现金管理等服务优势，支持吉利控股智能制造与技术创新。
+- **[2026年2月全国二手车市场深度分析](https://www.cada.cn/Data/info_86_10499.html)** — _www.cada.cn_ · date: unknown
+- **[鸿蒙智行R7年度改款来袭，华为联手奇瑞打造轿跑SUV新标杆](https://www.d1ev.com/newsflash/305058)** — _www.d1ev.com_ · date: unknown
+  6月30日，鸿蒙智行智界汽车执行董事及执行副总裁 赵长江在与网友的讨论中透露了智界R7的迭代计划。赵长江强调，智界R7的年度改款将坚持其独特的IP，并持续迭代以提升用户体验。智界R7是鸿蒙智行与奇瑞合作推出的首款轿跑SUV，采用OneBox造型设计理念，预计在2024年将成为轿跑SUV中内部空间最大的车型。 今年5月，华为常务董事余承东宣布，智界R7和智界S
+- **[比亚迪海豹08旗舰轿车7月2日上市，纯电插混双动力标配闪充](https://www.d1ev.com/newsflash/305057)** — _www.d1ev.com_ · date: unknown
+  6月30日，比亚迪宣布其海洋网旗舰轿车海豹08将于7月2日正式上市。海豹08提供两种动力版本，包括纯电和插混，均标配闪充技术，主打“续航不焦虑”。新车将提供多种车身和内饰配色，如曜石黑、海雾紫、琉光银等车身配色，以及云霜米、曦光米等内饰配色。配置方面，海豹08配备前排双零重力座椅，全车座椅通风/加热/按摩，迎宾光毯、四门电吸、全车双层静音玻璃，并提供8处磁吸
+- **[大众汽车拟全球裁员10万 德国工厂面临关闭危机](https://www.d1ev.com/newsflash/305055)** — _www.d1ev.com_ · date: unknown
+  近日，德国下萨克森州州长Olaf Lies在接受德新社采访时表示，大众汽车集团可以考虑将在中国研发的车型引入德国本土生产，以此提高工厂的产能利用率，并保护工人的就业岗位。大众汽车集团的总部位于下萨克森州的沃尔夫斯堡，该州是大众的第二大股东，持有20%的普通股投票权。下萨克森州长和经济部长同时担任大众汽车监事会成员，在涉及关停工厂、大规模裁员、重大资产出售和总
+- **[“河南货车载废电池自燃 司机冷静驶离人群”](https://www.d1ev.com/newsflash/305054)** — _www.d1ev.com_ · date: unknown
+  近日，河南滑县桑村乡发生了一起货车自燃事件。一辆装载废旧 电池的货车在乡镇街上突然起火，车尾冒出大量浓烟。由于街上行人车辆密集，司机没有立即停车逃生，而是将起火货车驶出人群聚集区域，开到空旷路段才停下。 目击者称，货车起火时火势还不算大，有人带着灭火器骑车追赶一里地，准备上前灭火。然而，司机下车后立即拦住众人，告知车上燃烧的是废旧电瓶，普通灭火器难以压制火势
+- **[建设银行与吉利控股集团签署战略合作协议](https://www.stcn.com/article/detail/3990188.html)** — _www.stcn.com_ · published 2026-06-25
+  证券时报网 谢忠翔 2026-06-25 15:39 人民财讯6月30日电，建设银行6月30日消息，近日该行与浙江吉利控股集团有限公司在杭州签署战略合作协议。根据协议，双方将在出海金融支持、股权融资、创新产业孵化、长期限债券发行、银企生态联动等领域深化合作。建行表示，将依托综合融资、投行资管、全球现金管理等服务优势，支持吉利控股智能制造与技术创新。
 
 ### 2026-06-30 — 96 articles
 - **[AI原生时代，自动驾驶到底拼什么？](https://36kr.com/p/3874076936715137)** — _36kr.com_ · published 2026-06-30
