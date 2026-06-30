@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-30 12:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-30 15:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-06-30 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **2029 unique auto/NEV articles** across **19 outlets**
+## Cumulative: **2046 unique auto/NEV articles** across **19 outlets**
 
 ## New per day
 | date | new articles |
@@ -32,15 +32,15 @@ _Updated 2026-06-30 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-27 | 131 |
 | 2026-06-28 | 92 |
 | 2026-06-29 | 122 |
-| 2026-06-30 | 53 |
+| 2026-06-30 | 70 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.dongchedi.com | 1075 |
-| www.d1ev.com | 371 |
+| www.dongchedi.com | 1088 |
+| www.d1ev.com | 374 |
 | www.caam.org.cn | 169 |
-| 36kr.com | 75 |
+| 36kr.com | 76 |
 | www.stcn.com | 74 |
 | www.cada.cn | 74 |
 | www.news.cn | 53 |
@@ -59,9 +59,11 @@ _Updated 2026-06-30 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-06-30 — 53 articles
+### 2026-06-30 — 70 articles
 - **[AI原生时代，自动驾驶到底拼什么？](https://36kr.com/p/3874076936715137)** — _36kr.com_ · published 2026-06-30
   AI原生时代，自动驾驶到底拼什么？ 随着AI原生系统的普及，自动驾驶正成为一场争夺算力、软件、数据和半导体的综合竞赛。 汽车行业的高级驾驶辅助系统（ADAS）与自动驾驶（AD）发展正迈入全新阶段，生成式AI正成为这一阶段的核心特征。 如今，生成式AI正在加速行业向AI原生端到端（E2E）架构转型，这类架构能够从海量数据集中直接学习驾驶行为。与传统系统相比，端
+- **[读懂物理AI：AI产业的下半场，不止是概念狂欢](https://36kr.com/p/3875124739570568)** — _36kr.com_ · published 2026-06-30
+  读懂物理AI：AI产业的下半场，不止是概念狂欢 2026年，AI行业的叙事正在彻底迭代。前两年大火的生成式数字AI，如今已步入增速放缓、同质化内卷、利润收缩的存量阶段；而由英伟达黄仁勋持续押注、夏季达沃斯论坛列为年度头号技术趋势的物理AI，正式接过行业接力棒，成为全球资本与科技巨头的核心布局方向。 一时间，世界模型、具身智能、物理推演成为行业热词，各类科技企
 - **[从“代步”到“玩车” 汽车后市场激活万亿蓝海](https://cnews.chinadaily.com.cn/a/202606/30/WS6a42ff1ca310d709c2fbadf2.html)** — _cnews.chinadaily.com.cn_ · published 2026-06-30
   近日，商务部等九部门联合印发《关于培育壮大汽车后市场消费若干措施的通知》，同步公布40个汽车流通改革试点城市名单，从政策层面为汽车改装、赛事经济、经典车收藏等领域松绑。 新政明确规范汽车改装管理制度、完善行业标准、提升产业供给质量，让车主合规改车、商家依规经营，极大释放了大众汽车个性化消费需求。 改装市场爆发 全产业链迎来增长红利 政策红利持续释放，推动汽车
 - **[7月起，这些新规将影响你我生活！](https://cnews.chinadaily.com.cn/a/202606/30/WS6a43274ba310d709c2fbae49.html)** — _cnews.chinadaily.com.cn_ · published 2026-06-30
@@ -95,6 +97,12 @@ _Updated 2026-06-30 12:12 | discovery-only, zero LLM tokens | runs every 3h_
   论坛背景 随着全球汽车产业加速向智能化、电动化转型，安全已成为产业可持续发展的核心基石与首要挑战。当前，高阶自动驾驶逐步从测试走向规模化落地，亟需行业凝聚安全共识。“2026智能汽车安全技术创新论坛”将于2026年7月3日在国家会展中心（上海）举办。 本次大会将与国内外先进专家聚焦“高阶自动驾驶安全”、“全球自动驾驶监管法规”、“人工智能安全”、“融合安全(
 - **[【活动通知】“合规护航 稳拓海外”](https://www.d1ev.com/news/shichang/304958)** — _www.d1ev.com_ · date: unknown
   来源：第一电动网 作者：盖世汽车 本文地址：https://www.d1ev.com/news/shichang/304958 返回第一电动网首页 > 以上内容转载自盖世汽车，目的在于传播更多信息，如有侵仅请联系admin#d1ev.com(#替换成@)删除，转载内容并不代表第一电动网（www.d1ev.com）立场。 文中图片源自互联网，如有侵权请联系ad
+- **[中国莲花Eletre电动车7月登陆加拿大市场，开启中加新能源合作新篇章](https://www.d1ev.com/newsflash/304995)** — _www.d1ev.com_ · date: unknown
+  6月30日，莲花品牌宣布其首批Eletre车型已于5月装船，预计7月抵达加拿大并进行交付，标志着中国制造电动车首次进入加拿大市场。中国驻加拿大大使王镝透露，根据中加协议，每年最多4.9万辆中国电动汽车可以较低关税税率进入加拿大。此前，加拿大对中国制造电动汽车加征100%关税，但新的贸易安排使得部分符合条件的中国电动车得以以较低税率进入市场。莲花品牌已提前完成
+- **[小鹏集团维权胜诉：自媒体造谣被判公开道歉赔偿损失](https://www.d1ev.com/newsflash/304993)** — _www.d1ev.com_ · date: unknown
+  6月30日，小鹏集团法务部对外发布声明，通报了两起名誉权侵权案件的判决结果。2026年3月，广州互联网法院对刘红斌、张靓侵害小鹏集团名誉权案件作出一审判决。法院要求刘红斌通过其今日头条、搜狐、网易号账号“我是奔波儿灞”公开道歉并赔偿损失；张靓则需通过其百家号账号“龙车Auto”公开道歉并赔偿损失。小鹏集团法务部强调，针对自媒体发布的不实陈述、侮辱、诽谤等行为
+- **[小鹏MONAL03中国首秀：续航625km，百公里加速6.6秒！](https://www.d1ev.com/newsflash/304991)** — _www.d1ev.com_ · date: unknown
+  6月30日，小鹏汽车宣布，小鹏MONAL03将推出ROAM主题套装，包含定制运动套件、专属内饰、车机主题和Nappa真皮座椅等。定制运动套件涵盖前唇、侧裙、后保险杠和高亮黑鸭尾，同时提供20英寸轮毂和车身同色系卡钳罩等选项。小鹏MONAL03将于7月2日在中国首秀并开启预售，纯电版续航最高625km，百公里综合电耗最低11.9kWh，零百加速6.6秒，超级增
 - **[最帅奇瑞家轿！奇瑞风云A9探店](https://www.dongchedi.com/video/7656841229862683161)** — _www.dongchedi.com_ · date: unknown
   扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467） 广播电视节目制作经营许可证 公司名称：重庆万象优车科技有限公司 中央网信办违法和不良信息举报中心 违法和不良信息举报电话：400-140-2108
 - **[昆明 领克 01 2023 款，售价不到 8 万省油家用混动 SUV](https://www.dongchedi.com/video/7656833962794926654)** — _www.dongchedi.com_ · date: unknown
@@ -146,6 +154,23 @@ _Updated 2026-06-30 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 - **[云堆汽车](https://www.dongchedi.com/user/1134327399984476)** — _www.dongchedi.com_ · date: unknown
 - **[AI 汽车进化史](https://www.dongchedi.com/video/7657011865096536601)** — _www.dongchedi.com_ · date: unknown
   © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有限公司 中央网信办违法和不良信息举报中心 违法和不良信息举报电话：400-140-2108 举报邮箱：jubao@m
+- **[大众新迈腾PHEV来了，1.5T插混动力，三屏车机，商务家用两不误！](https://www.dongchedi.com/article/7657072772149117465)** — _www.dongchedi.com_ · date: unknown
+- **[阿斯顿马丁汽车进化史 1915](https://www.dongchedi.com/video/7657069054800708120)** — _www.dongchedi.com_ · date: unknown
+  © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有限公司 中央网信办违法和不良信息举报中心 违法和不良信息举报电话：400-140-2108 举报邮箱：jubao@m
+- **[火星上的汽车行驶形态 十一](https://www.dongchedi.com/video/7657068336685613630)** — _www.dongchedi.com_ · date: unknown
+  © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有限公司 中央网信办违法和不良信息举报中心 违法和不良信息举报电话：400-140-2108 举报邮箱：jubao@m
+- **[3分钟讲清，比亚迪大唐的四个配置如何选择](https://www.dongchedi.com/video/7657065722384106008)** — _www.dongchedi.com_ · date: unknown
+  扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 公司名称：重庆万象优车科技有限公司 © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有
+- **[汽车零部件3D动画展示](https://www.dongchedi.com/video/7657065092613538329)** — _www.dongchedi.com_ · date: unknown
+  © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467）广播电视节目制作经营许可证 公司名称：重庆万象优车科技有限公司 中央网信办违法和不良信息举报中心 违法和不良信息举报电话：400-140-2108 举报邮箱：jubao@m
+- **[充电充电，学习学习，新能源汽车充电常识边学边用，分享给大家。](https://www.dongchedi.com/article/7657062343209320985)** — _www.dongchedi.com_ · date: unknown
+- **[小鹏MONA L03动力首曝：纯电续航625km、混动破1300km、6.6秒加速](https://www.dongchedi.com/article/7657055937412334104)** — _www.dongchedi.com_ · date: unknown
+- **[纯视觉已死，这些车企为何纷纷转向融合感知路线？](https://www.dongchedi.com/article/7657055694017348120)** — _www.dongchedi.com_ · date: unknown
+- **[全新蔚来ES8：大五座比六座七座香？40万级纯电SUV看这篇](https://www.dongchedi.com/article/7657055787629806142)** — _www.dongchedi.com_ · date: unknown
+- **[40万买纯电大SUV，ES8的900V+换电+后轮转向，你心动吗？](https://www.dongchedi.com/article/7657055486440915518)** — _www.dongchedi.com_ · date: unknown
+- **[派派的汽车笔记](https://www.dongchedi.com/user/1499374853032551)** — _www.dongchedi.com_ · date: unknown
+- **[40万出头买台5米28的大型纯电SUV，全新蔚来ES8到底值不值？](https://www.dongchedi.com/article/7657055250469405246)** — _www.dongchedi.com_ · date: unknown
+- **[一台5米2的纯电SUV，零百能干到3.97秒，还带换电？全新ES8实测](https://www.dongchedi.com/article/7657054633978118718)** — _www.dongchedi.com_ · date: unknown
 - **[AI对汽车产业的重塑已从概念全面转化为触手可及的产品体验 AI“上车”](https://www.news.cn/tech/20260630/0e9d424e64874119b0a894612a7636f5/c.html)** — _www.news.cn_ · published 2026-06-30
   近日，为期9天的2026重庆国际汽车展览会落下帷幕。本届车展聚焦汽车产业智能化、电动化、网联化最新成果，总规模达16万平方米，吸引118家品牌参展，集中展示1050款车型，共发布96款新车。本届车展最大的亮点在于，AI对汽车产业的重塑已从概念全面转化为触手可及的产品体验。 我国辅助驾驶新车渗透率已超60%，并落地L3级自动驾驶车型，多国也陆续放开高阶自动驾驶
 - **[广和通拟14.28亿元收购航盛电子股权 布局汽车电子产业链](https://www.stcn.com/article/detail/3987437.html)** — _www.stcn.com_ · date: unknown
