@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-06-30 18:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-06-30 21:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-06-30 18:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **2060 unique auto/NEV articles** across **19 outlets**
+## Cumulative: **2072 unique auto/NEV articles** across **19 outlets**
 
 ## New per day
 | date | new articles |
@@ -32,23 +32,23 @@ _Updated 2026-06-30 18:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-27 | 131 |
 | 2026-06-28 | 92 |
 | 2026-06-29 | 122 |
-| 2026-06-30 | 84 |
+| 2026-06-30 | 96 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 385 |
+| www.d1ev.com | 388 |
 | www.caam.org.cn | 170 |
+| www.cada.cn | 79 |
 | 36kr.com | 77 |
-| www.stcn.com | 74 |
-| www.cada.cn | 74 |
+| www.stcn.com | 75 |
 | www.news.cn | 53 |
-| egs.stcn.com | 47 |
-| www.yicai.com | 23 |
+| egs.stcn.com | 48 |
+| www.yicai.com | 24 |
 | www.xinhuanet.com | 22 |
 | www.zqrb.cn | 15 |
-| cn.chinadaily.com.cn | 11 |
+| cn.chinadaily.com.cn | 12 |
 | qzs.stcn.com | 8 |
 | economy.gmw.cn | 5 |
 | www.ceweekly.cn | 2 |
@@ -59,20 +59,29 @@ _Updated 2026-06-30 18:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-06-30 — 84 articles
+### 2026-06-30 — 96 articles
 - **[AI原生时代，自动驾驶到底拼什么？](https://36kr.com/p/3874076936715137)** — _36kr.com_ · published 2026-06-30
   AI原生时代，自动驾驶到底拼什么？ 随着AI原生系统的普及，自动驾驶正成为一场争夺算力、软件、数据和半导体的综合竞赛。 汽车行业的高级驾驶辅助系统（ADAS）与自动驾驶（AD）发展正迈入全新阶段，生成式AI正成为这一阶段的核心特征。 如今，生成式AI正在加速行业向AI原生端到端（E2E）架构转型，这类架构能够从海量数据集中直接学习驾驶行为。与传统系统相比，端
 - **[读懂物理AI：AI产业的下半场，不止是概念狂欢](https://36kr.com/p/3875124739570568)** — _36kr.com_ · published 2026-06-30
   读懂物理AI：AI产业的下半场，不止是概念狂欢 2026年，AI行业的叙事正在彻底迭代。前两年大火的生成式数字AI，如今已步入增速放缓、同质化内卷、利润收缩的存量阶段；而由英伟达黄仁勋持续押注、夏季达沃斯论坛列为年度头号技术趋势的物理AI，正式接过行业接力棒，成为全球资本与科技巨头的核心布局方向。 一时间，世界模型、具身智能、物理推演成为行业热词，各类科技企
 - **[汽车产业链深度观察系列（一）：欧洲Tier 1困境与中国供应链权力重构](https://36kr.com/p/3875307747602438)** — _36kr.com_ · published 2026-06-30
   汽车产业链深度观察系列（一）：欧洲Tier 1困境与中国供应链权力重构 欧洲Tier 1 大陆、采埃孚、佛瑞亚、法雷奥、舍弗勒等的困境不是周期性调整，而可能是结构性坍塌。 数据显示，五家企业平均EBIT利润率已从燃油车时代的6-8%跌至2025年的2-4%。大陆汽车业务2024年调整后EBIT利润率仅2.3%，汽车子公司欧摩威已于2025年9月独立上市。采埃
+- **[萌漫动画《“鲲小鹏”成长记》，讲述运](https://cn.chinadaily.com.cn/a/202606/30/WS6a439fd6a310d709c2fbb27e.html)** — _cn.chinadaily.com.cn_ · published 2026-06-30
+  “大家好呀，我是‘鲲小鹏’，我今年10岁了，很高兴见到大家……” 从跨越千年的神话传说到大国之翼的接装列阵，从制胜空天的能力拓展到跨越转型的奋飞航程，从紧急驰援的使命担当到频频亮相的精彩瞬间，中部战区空军在运-20即将迎来列装十周年之际，策划推出萌漫动画《“鲲小鹏”成长记》。 动画采用匠心手绘融合AI创作，以拟人化“鲲小鹏”形象表达，在优美的国风旋律中，温情
 - **[从“代步”到“玩车” 汽车后市场激活万亿蓝海](https://cnews.chinadaily.com.cn/a/202606/30/WS6a42ff1ca310d709c2fbadf2.html)** — _cnews.chinadaily.com.cn_ · published 2026-06-30
   近日，商务部等九部门联合印发《关于培育壮大汽车后市场消费若干措施的通知》，同步公布40个汽车流通改革试点城市名单，从政策层面为汽车改装、赛事经济、经典车收藏等领域松绑。 新政明确规范汽车改装管理制度、完善行业标准、提升产业供给质量，让车主合规改车、商家依规经营，极大释放了大众汽车个性化消费需求。 改装市场爆发 全产业链迎来增长红利 政策红利持续释放，推动汽车
 - **[7月起，这些新规将影响你我生活！](https://cnews.chinadaily.com.cn/a/202606/30/WS6a43274ba310d709c2fbae49.html)** — _cnews.chinadaily.com.cn_ · published 2026-06-30
   7月1日起，我国对外投资领域的首部行政法规——《国务院关于对外投资的规定》将正式施行。《规定》将个人投资者纳入适用范围，对于个人通过红筹结构进行的返程投资以及其他形式的、以获得股权或控制权为目的的对外直接投资均有影响。 《超龄劳动者基本权益保障暂行规定》7月1日起施行，这是我国首部明确超龄劳动者权益的专门规章，明确用人单位应及时足额支付超龄劳动者劳动报酬；一
+- **[比亚迪：公司正加快提升第二代刀片电池产能 以满足闪充车型的订单需求](https://egs.stcn.com/news/detail/2309286.html)** — _egs.stcn.com_ · date: unknown
+  证券时报·e公司 康殷 06-30 20:55 人民财讯6月30日电，比亚迪(002594)6月29日接受机构调研时表示，在第二代刀片电池和闪充技术以及智能化的加持下，公司订单快速增长，公司正加快提升第二代刀片电池产能，以满足闪充车型的订单需求。公司海外市场持续保持高增长态势，海外市场正成为比亚迪业绩增长的核心引擎。
 - **[关于批准安森美半导体贸易（上海）有限公司等单位为中国汽车工业协会会员单位的通知](https://www.caam.org.cn/chn/5/cate_69/con_5237181.html)** — _www.caam.org.cn_ · published 2026-06-30
   [邮箱登录] | 旧版网站 | English 邮箱登陆 @caam.org.cn 首页 协会概况 协会工作 统计数据 会员专区 行业政策 标准法规 电动·智能 行业动态 党建专栏 社会责任 首页> 文件公告 > 公示公告 >正文 关于批准安森美半导体贸易（上海）有限公司等单位为中国汽车工业协会会员单位的通知 发布时间： 2026-06-30 来源： 中汽协
 - **[二手车交易市场分会](https://www.cada.cn/committee/info_27_6769.html)** — _www.cada.cn_ · date: unknown
+- **[2026年汽车以旧换新：精准施策，绿色升级](https://www.cada.cn/Trends/info_91_10417.html)** — _www.cada.cn_ · date: unknown
+- **[关于中国汽车流通协会分支机构更名的通告](https://www.cada.cn/Trends/info_89_10242.html)** — _www.cada.cn_ · date: unknown
+- **[2025年12月全国二手车市场深度分析](https://www.cada.cn/Data/info_86_10457.html)** — _www.cada.cn_ · date: unknown
+- **[2026年3月中国汽车经销商库存预警指数为57.5%](https://www.cada.cn/Data/info_85_10476.html)** — _www.cada.cn_ · date: unknown
+- **[乘用车市场信息联席分会](https://www.cada.cn/committee/info_27_429.html)** — _www.cada.cn_ · date: unknown
 - **[大众ID.ERA5S内饰曝光：极简风格+高阶智能驾驶，纯电续航160km](https://www.d1ev.com/newsflash/304920)** — _www.d1ev.com_ · date: unknown
   6月29日，上汽大众发布了ID.ERA5S的内饰官图，标志着ID.ERA序列的第二款车型正式亮相。这款家用插电混动轿车以其极简风格的内饰设计，展现了“新势力”的设计理念。车内层次感强烈，空调出风口采用家族式的贯穿风格，镀铬装饰延伸至车门饰板，并配备多色氛围灯与缝线融合。ID.ERA5S提供双辐多功能方向盘和怀挡设计，中控屏比例为16:9，搭载本土化UI界面，
 - **[地平线HSDV2.0智驾系统震撼升级，iCARV27率先体验全场景智能驾驶](https://www.d1ev.com/newsflash/304916)** — _www.d1ev.com_ · date: unknown
@@ -129,6 +138,12 @@ _Updated 2026-06-30 18:12 | discovery-only, zero LLM tokens | runs every 3h_
   6月30日，小鹏汽车创始人 何小鹏分享了小鹏MONAL03座舱声学的产品思路。何小鹏指出，当前许多家用车音响音质粗糙，低音浑浊，加上行驶中的路噪、风噪，严重影响了听歌、接电话和听导航的体验。为此，小鹏MONAL03搭载了20扬声器AI音响，功放功率超过1000W，达到同级最大水平，甚至超过许多30万级豪华车。 小鹏MONAL03的设计团队还将其最顶尖的旗舰声
 - **[奇瑞智界股权生变：15%股份转让，华为合作深化新能源布局](https://www.d1ev.com/newsflash/305022)** — _www.d1ev.com_ · date: unknown
   6月30日，国家企业信用信息公示系统显示，安徽智界新能源汽车有限公司股权结构发生变动。奇瑞汽车不再全资持有该公司股份，而是将15%的股权转让给了郭锐、 赵长江、朱小东所关联的公司。 去年8月，奇瑞汽车与华为在深圳签署了智界品牌战略2.0合作协议，标志着智界品牌正式进入2.0阶段。根据合作协议，智界计划投入超百亿元资金，并将研发团队规模扩大至5000人，以强化
+- **[极石汽车6月交付量翻倍，小众品牌稳步崛起](https://www.d1ev.com/newsflash/305050)** — _www.d1ev.com_ · date: unknown
+  6月30日，极石汽车提前公布了6月份的交付成绩。数据显示，极石汽车6月份共交付新车2512台，同比增长99.5%，接近翻倍的涨幅。尽管总量在新能源市场中不算突出，但对于定位小众户外越野的新品牌来说，这一稳步上涨的数据已经获得了市场的认可。今年以来，极石汽车的月度交付量持续攀升，1月交付1028台，5月达到2052台，6月再次突破，创下年内新高。 去年极石汽车
+- **[奥迪A6L狂降20万！豪华车市价格战升级，燃油车时代落幕？](https://www.d1ev.com/newsflash/305046)** — _www.d1ev.com_ · date: unknown
+  近日，奥迪在中国市场的主力车型A6L出现大幅降价，终端优惠普遍超过16万元，部分城市降幅达20万元，入门裸车价降至27万元左右，降幅超过四成。这是奥迪A6L自2005年官方定名以来的历史最低价。同时，奥迪中国区域多个核心岗位发生变动，包括一汽奥迪销售公司总经理、奥迪中国销售及市场营销副总裁等，管理层持续动荡。2026年一季度，奥迪中国市场交付量约12.7万辆
+- **[武汉新能源车主新福利：私人充电桩卖电，每度净赚0.5元！](https://www.d1ev.com/newsflash/305040)** — _www.d1ev.com_ · date: unknown
+  6月30日，湖北武汉新能源车主迎来利好消息，7月1日起可在私人 充电桩上“卖电”赚钱。这一政策的实施，得益于车网互动价格机制的改革，使得车主可以利用峰谷价差低买高卖，一度电可净赚约0.5元。此前，车网互动仅在特定公共站场开展，车主需跑远路到供电公司或新能源公司旗下 充电站操作。现在，武汉落地的车网互动价格机制让私人充电桩也能广泛参与，车主只需满足充电桩支持车
 - **[最帅奇瑞家轿！奇瑞风云A9探店](https://www.dongchedi.com/video/7656841229862683161)** — _www.dongchedi.com_ · date: unknown
   扫码下载懂车帝APP © 2026 懂车帝 www.dongchedi.com 渝公网安备50010502504663号 渝ICP备2021008298号-7 增值电信业务经营许可证（渝B2-20210467） 广播电视节目制作经营许可证 公司名称：重庆万象优车科技有限公司 中央网信办违法和不良信息举报中心 违法和不良信息举报电话：400-140-2108
 - **[昆明 领克 01 2023 款，售价不到 8 万省油家用混动 SUV](https://www.dongchedi.com/video/7656833962794926654)** — _www.dongchedi.com_ · date: unknown
@@ -203,8 +218,12 @@ _Updated 2026-06-30 18:12 | discovery-only, zero LLM tokens | runs every 3h_
   6月29日晚间，广和通(300638)披露重大资产购买报告书（草案），公司计划以现金形式，向深圳华建佳创等38名深圳市航盛电子股份有限公司股东收购航盛电子37.16%股份，交易总对价14.28亿元。本次交易完成后，通过一致行动协议安排，上市公司及其一致行动主体合计持有航盛电子51.40%股份，航盛电子将成为广和通控股子公司。 本次交易全部采用现金支付，不涉及
 - **[前5个月汽车行业利润率仅3.4%！有车企人士疾呼“不追求暴利，但必须有利润”](https://www.stcn.com/article/detail/3987720.html)** — _www.stcn.com_ · date: unknown
   乘联分会日前公布的最新数据显示，2026年1~5月，中国汽车行业利润为1440亿元，利润率为3.4%，低于下游工业6.1%的平均水平。 从数据轨迹来看，汽车行业的利润率下滑并非突发。近3年，汽车行业利润率一路走低，2024年为4.3%，2025年降至4.1%，2026年一季度一度下探至3.2%。 今年1~5月，汽车行业3.4%的利润率虽较一季度略有改善，但距
+- **[比亚迪：公司正加快提升第二代刀片电池产能 以满足闪充车型的订单需求](https://www.stcn.com/article/detail/3990066.html)** — _www.stcn.com_ · published 2026-06-29
+  证券时报网 数据宝 2026-06-29 17:48 人民财讯6月30日电，比亚迪(002594)6月29日接受机构调研时表示，在第二代刀片电池和闪充技术以及智能化的加持下，公司订单快速增长，公司正加快提升第二代刀片电池产能，以满足闪充车型的订单需求。公司海外市场持续保持高增长态势，海外市场正成为比亚迪业绩增长的核心引擎。
 - **[加码未来产业，吉利科技落户成都高新区！](https://www.yicai.com/news/103253385.html)** — _www.yicai.com_ · date: unknown
   {{aisd}} AI生成 免责声明 近日，吉利科技（四川）有限公司（以下简称“四川吉利科技”）正式成立并落户于由成都高新区。 主导建设的成都未来科技城，经营范围包括工程和技术研究、试验发展、企业总部管理、企业管理咨询、人工智能应用软件开发、能量回收系统研发、资源再生利用技术研发、新兴能源技术研发、人工智能双创服务平台、物联网技术服务、数据处理和存储支持服务
+- **[脱欧十年变局，英国电动汽车市场的机遇与挑战](https://www.yicai.com/news/103253802.html)** — _www.yicai.com_ · date: unknown
+  {{aisd}} AI生成 免责声明 距离英国脱欧公投已经过去整整十年，这十年间，英国在脱欧带来的贸易壁垒与成本上升中艰难推进电动化转型。在这样的背景下，英国向中国电动车敞开大门，释出相较于欧盟更加友善和开放的态度。而如今，这扇“门”，在慢慢改变英国电动车市场的竞争版图。 脱欧后英国的政策逻辑 根据英国汽车制造商与贸易商协会（SMMT）数据，2025年中国品
 
 ### 2026-06-29 — 122 articles
 - **[8点1氪丨两大存储巨头今日发布大规模投资计划；江淮汽车股价腰斩，章建平9日套现近3亿元；Anthropic Fable 5有望很快恢复访问](https://36kr.com/p/3873476968272902)** — _36kr.com_ · published 2026-06-29
