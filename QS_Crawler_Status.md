@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-01 21:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-02 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-01 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **2156 unique auto/NEV articles** across **19 outlets**
+## Cumulative: **2164 unique auto/NEV articles** across **19 outlets**
 
 ## New per day
 | date | new articles |
@@ -34,19 +34,20 @@ _Updated 2026-07-01 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-29 | 122 |
 | 2026-06-30 | 96 |
 | 2026-07-01 | 84 |
+| 2026-07-02 | 8 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 424 |
+| www.d1ev.com | 430 |
 | www.caam.org.cn | 172 |
 | www.stcn.com | 87 |
 | 36kr.com | 87 |
 | www.cada.cn | 85 |
-| egs.stcn.com | 60 |
+| egs.stcn.com | 61 |
 | www.news.cn | 54 |
-| www.yicai.com | 25 |
+| www.yicai.com | 26 |
 | www.xinhuanet.com | 22 |
 | www.zqrb.cn | 15 |
 | cn.chinadaily.com.cn | 14 |
@@ -59,6 +60,24 @@ _Updated 2026-07-01 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 | gd.chinadaily.com.cn | 1 |
 
 ## Articles captured by day (newest first)
+
+### 2026-07-02 — 8 articles
+- **[【公告精选】比亚迪6月新能源汽车销量超40万辆；多氟多、三美股份等提示风险](https://egs.stcn.com/news/detail/2309834.html)** — _egs.stcn.com_ · date: unknown
+  7月1日晚间上市公司公告精选： 【热点】 2连板三美股份：湿电子化学品相关业务由联营公司负责，不在合并报表范围内。 2连板格科微：2亿像素产品与部分客户达成初步合作意向，但尚未形成客户产品出货。 8天4板多氟多：2025年度及2026年第一季度半导体级氢氟酸产品销售额占营收不足2%。 雅克科技：短期内部分市场观点对公司电子业务发展存在过度解读和过高预期。 龙
+- **[比亚迪6月销量破40万领跑，新能源车市竞争白热化](https://www.d1ev.com/newsflash/305231)** — _www.d1ev.com_ · date: unknown
+  2026年6月，比亚迪以403472辆的销量位居汽车销量榜首，其中王朝和海洋系列共销售340863辆，同比增长5.46%，新能源汽车累计销售超过1690万辆。上汽集团以394768辆的销量紧随其后，智己汽车销量为8000辆，同比增长8.1%，上半年累计销量达到204.5万辆，成为唯一突破200万辆大关的中国汽车企业。奇瑞集团销量为256612辆，同比增长9.
+- **[2026慕尼黑上海电子展](https://www.d1ev.com/news/shichang/305228)** — _www.d1ev.com_ · date: unknown
+  7月1日，2026慕尼黑上海电子展开幕。展会期间，高性能高可靠性模拟及混合信号芯片设计公司纳芯微发布多款面向汽车电子和泛能源应用的数模混合芯片新品，包括车规级阳光雨量传感器NSUC183x系列、车载摄像头PMIC NSR90332XX-Q1、三核EtherCAT实时控制MCU/DSP NS800RTA7系列以及110V半桥GaN驱动芯片NSD2123。同时，
+- **[红旗天工08670Max预售开启，17.98万起享670km纯电续航！](https://www.d1ev.com/newsflash/305225)** — _www.d1ev.com_ · date: unknown
+  7月1日，红旗汽车宣布新款天工08670Max正式开启预售，官方预售价为19.98万元。在叠加定金膨胀与购置税 补贴后，限时到手价降至17.98万元。该车型基于红旗天工纯电模块化平台与九章智能平台打造，定位中大型五座纯电SUV，车身尺寸为4925/1950/1680mm，轴距达到3000mm，提供宽敞的乘坐与装载空间。后备厢常规容积为643L，放倒后排座椅后
+- **[吉利神盾电池首批通过“史上最严”新国标安全认证](https://www.d1ev.com/newsflash/305224)** — _www.d1ev.com_ · date: unknown
+  7月1日，被称为“史上最严 电池安全令”的强制性国标GB38031-2025《电动汽车用动力 蓄电池安全要求》正式实施。吉利汽车集团宣布，其吉利神盾金砖电池已通过新国标的全部检测，成为行业首批全系通过认证的电池品牌。新国标对动力电池安全要求进行了重大升级，包括将安全预警时间从5分钟延长至热失控后至少2小时不起火、不爆炸；报警后5分钟内烟气不进入乘员舱；新增底
+- **[中国车企首家入选，理想汽车登台ISCA 2026发表马赫M100芯片论文](https://www.d1ev.com/newsflash/305223)** — _www.d1ev.com_ · date: unknown
+  7月1日，理想汽车登台ISCA 2026（国际计算机体系结构研讨会），发表题为《马赫M100：面向通用AI计算的编排式数据流架构》的主题演讲。ISCA与MICRO、HPCA、ASPLOS并列为全球计算体系结构四大顶级会议。理想汽车成为自2020年ISCA设立工业分区以来，首家入选并登台的中国汽车企业。登上ISCA的不是一份概念报告，而是一颗已经规模化量产上车
+- **[高德发布神算Agent AI工具 落地充电桩数字化决策体系](https://www.d1ev.com/news/shichang/305222)** — _www.d1ev.com_ · date: unknown
+  盖世汽车讯 近日，阿里旗下高德推出充电行业专属AI智能体“神算Agent”，聚焦充电桩运营核心环节，针对充电运营商、车企、能源企业，推出标准化智能决策工具，替代行业传统经验化运营模式，覆盖充电站选址、定价、运力调配等关键业务场景。 当前国内充电基础设施建设规模持续扩容，但行业结构性问题持续凸显。行业普遍存在核心站点车流集中、排队拥堵，边缘站点利用率偏低、资源
+- **[晓数点｜造车新势力6月成绩单：零跑超9万，蔚来创今年以来新高](https://www.yicai.com/news/103256095.html)** — _www.yicai.com_ · published 2026-07-01
+  打开微信，点击底部的“发现”，使用“扫一扫”即可将网页分享至朋友圈。 第一财经 2026-07-01 21:34:35 作者：方舟 责编：方舟 {{aisd}} AI生成 免责声明 方舟 6月成绩单出炉。 在今年车市销量整体下行的态势中，零跑汽车正处于逆势增长状态。 香港市场的电动化转型已进入成熟期。 这是今年以来，朱江明第二次对行业发出预警。 小鹏机器人量
 
 ### 2026-07-01 — 84 articles
 - **[Bonus深度](https://36kr.com/p/3875691543179267)** — _36kr.com_ · published 2026-07-01
