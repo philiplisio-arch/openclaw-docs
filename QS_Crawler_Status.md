@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-02 00:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-02 03:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-02 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **2164 unique auto/NEV articles** across **19 outlets**
+## Cumulative: **2167 unique auto/NEV articles** across **19 outlets**
 
 ## New per day
 | date | new articles |
@@ -34,13 +34,13 @@ _Updated 2026-07-02 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-29 | 122 |
 | 2026-06-30 | 96 |
 | 2026-07-01 | 84 |
-| 2026-07-02 | 8 |
+| 2026-07-02 | 11 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 430 |
+| www.d1ev.com | 433 |
 | www.caam.org.cn | 172 |
 | www.stcn.com | 87 |
 | 36kr.com | 87 |
@@ -61,7 +61,7 @@ _Updated 2026-07-02 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-02 — 8 articles
+### 2026-07-02 — 11 articles
 - **[【公告精选】比亚迪6月新能源汽车销量超40万辆；多氟多、三美股份等提示风险](https://egs.stcn.com/news/detail/2309834.html)** — _egs.stcn.com_ · date: unknown
   7月1日晚间上市公司公告精选： 【热点】 2连板三美股份：湿电子化学品相关业务由联营公司负责，不在合并报表范围内。 2连板格科微：2亿像素产品与部分客户达成初步合作意向，但尚未形成客户产品出货。 8天4板多氟多：2025年度及2026年第一季度半导体级氢氟酸产品销售额占营收不足2%。 雅克科技：短期内部分市场观点对公司电子业务发展存在过度解读和过高预期。 龙
 - **[比亚迪6月销量破40万领跑，新能源车市竞争白热化](https://www.d1ev.com/newsflash/305231)** — _www.d1ev.com_ · date: unknown
@@ -76,6 +76,12 @@ _Updated 2026-07-02 00:12 | discovery-only, zero LLM tokens | runs every 3h_
   7月1日，理想汽车登台ISCA 2026（国际计算机体系结构研讨会），发表题为《马赫M100：面向通用AI计算的编排式数据流架构》的主题演讲。ISCA与MICRO、HPCA、ASPLOS并列为全球计算体系结构四大顶级会议。理想汽车成为自2020年ISCA设立工业分区以来，首家入选并登台的中国汽车企业。登上ISCA的不是一份概念报告，而是一颗已经规模化量产上车
 - **[高德发布神算Agent AI工具 落地充电桩数字化决策体系](https://www.d1ev.com/news/shichang/305222)** — _www.d1ev.com_ · date: unknown
   盖世汽车讯 近日，阿里旗下高德推出充电行业专属AI智能体“神算Agent”，聚焦充电桩运营核心环节，针对充电运营商、车企、能源企业，推出标准化智能决策工具，替代行业传统经验化运营模式，覆盖充电站选址、定价、运力调配等关键业务场景。 当前国内充电基础设施建设规模持续扩容，但行业结构性问题持续凸显。行业普遍存在核心站点车流集中、排队拥堵，边缘站点利用率偏低、资源
+- **[兰博基尼Urus SE Performante发布：轻量化升级，811马力插电混动新旗舰](https://www.d1ev.com/newsflash/305234)** — _www.d1ev.com_ · date: unknown
+  7月2日，兰博基尼推出了Urus家族的高性能旗舰版本——Urus SE Performante。这款新车在轻量化、动力和底盘三大方面进行了全面技术升级。外观上，Urus SE Performante是Urus车系中碳纤维使用比例最高的车型，所有运动套件均考虑了空气动力学效率和轻量化效果。车内延续了飞行员座舱设计理念，全座舱偏向驾驶员布局，大面积碳纤维饰板搭配
+- **[奇瑞犀牛电池安全保障计划：终身质保+烧毁赔新车，车主无忧](https://www.d1ev.com/newsflash/305233)** — _www.d1ev.com_ · date: unknown
+  7月1日，奇瑞汽车宣布推出犀牛 电池安全保障计划，旨在消除消费者对电池安全的担忧。该计划涵盖了奇瑞、星途、捷途、iCAR等全系列搭载犀牛电池的车型。首先，所有车型均符合最新的国家电池安全标准，确保硬件安全。其次，若因电池质量问题导致车辆热失控或烧毁，奇瑞将赔付同款新车。此外，首任非营运车主享有三电系统终身质保，包括动力电池、驱动电机和电控单元，非人为故障的三
+- **[奇瑞犀牛电池安全承诺：赔付新车+终身质保，响应“史上最严电池安全令”](https://www.d1ev.com/newsflash/305232)** — _www.d1ev.com_ · date: unknown
+  7月1日，奇瑞汽车宣布推出“奇瑞犀牛 电池安全保障计划”，以响应国家政策法规要求。该计划包含三项承诺：首先，所有搭载犀牛电池的已售及在售车型的动力电池安全性能均满足最新国家标准；其次，若因动力电池自身原因导致整车发生热失控损毁，奇瑞将赔付同款新车；最后，针对首任购车车主且车辆使用性质为非营运的，奇瑞提供终身质保服务，涵盖三电系统：动力电池、驱动电机及电控单元
 - **[晓数点｜造车新势力6月成绩单：零跑超9万，蔚来创今年以来新高](https://www.yicai.com/news/103256095.html)** — _www.yicai.com_ · published 2026-07-01
   打开微信，点击底部的“发现”，使用“扫一扫”即可将网页分享至朋友圈。 第一财经 2026-07-01 21:34:35 作者：方舟 责编：方舟 {{aisd}} AI生成 免责声明 方舟 6月成绩单出炉。 在今年车市销量整体下行的态势中，零跑汽车正处于逆势增长状态。 香港市场的电动化转型已进入成熟期。 这是今年以来，朱江明第二次对行业发出预警。 小鹏机器人量
 
