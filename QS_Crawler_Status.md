@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-02 21:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-03 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-02 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **2222 unique auto/NEV articles** across **19 outlets**
+## Cumulative: **2235 unique auto/NEV articles** across **19 outlets**
 
 ## New per day
 | date | new articles |
@@ -35,16 +35,17 @@ _Updated 2026-07-02 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-30 | 96 |
 | 2026-07-01 | 84 |
 | 2026-07-02 | 66 |
+| 2026-07-03 | 13 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 465 |
+| www.d1ev.com | 475 |
 | www.caam.org.cn | 172 |
-| 36kr.com | 98 |
-| www.stcn.com | 94 |
-| www.cada.cn | 87 |
+| 36kr.com | 99 |
+| www.stcn.com | 95 |
+| www.cada.cn | 88 |
 | egs.stcn.com | 62 |
 | www.news.cn | 54 |
 | www.yicai.com | 28 |
@@ -60,6 +61,33 @@ _Updated 2026-07-02 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 | gd.chinadaily.com.cn | 1 |
 
 ## Articles captured by day (newest first)
+
+### 2026-07-03 — 13 articles
+- **[氪星晚报｜证监会同意宇树科技科创板IPO注册；Meta“带崩”科技股？业内人士：算力过剩系误读-36氪](https://36kr.com/p/3878550357946625)** — _36kr.com_ · published 2026-07-03
+  氪星晚报｜证监会同意宇树科技科创板IPO注册；Meta“带崩”科技股？业内人士：算力过剩系误读 大公司： 奥飞娱乐：上半年净利润同比预增305.30%—413.38% 36氪获悉，奥飞娱乐发布2026年半年度业绩预告，预计2026年上半年归属于上市公司股东的净利润为1.5亿元—1.9亿元，比上年同期增长305.30%—413.38%。 雀巢称消费者因价格压力
+- **[关于举办2026年全国行业职业技能竞赛一-第五届全国汽车流通行业职业技能竞赛汽配销售经理人赛项决赛的通知](https://www.cada.cn/training/info_43_10502.html)** — _www.cada.cn_ · date: unknown
+- **[继日本后又被韩国针对！比亚迪被韩国电动车补贴精准排除](https://www.d1ev.com/news/qiye/305338)** — _www.d1ev.com_ · date: unknown
+  快科技7月2日消息，据报道，6月30日韩国公布2026下半年电动车补贴准入企业名单，比亚迪未通过综合评审，成为韩国乘用车领域唯一落选的中国品牌。 自7月1日起，新登记比亚迪车型不再享受韩国政府购车补贴，6月30日前完成登记的车辆可沿用旧标准。 报道称，韩国气候能源环境部此次评审满分100分、60分达标，围绕研发实力、本土供应链贡献度、售后服务体系、就业贡献等
+- **[通用汽车二季度美国销量下滑4.2%](https://www.d1ev.com/news/shichang/305319)** — _www.d1ev.com_ · date: unknown
+  盖世汽车讯 通用汽车近日公布，受美国电动汽车需求疲软、经济不确定性加剧的影响，其今年第二季度在美国市场的轻型车销量同比下滑4.2%。这是通用汽车美国销量连续三个季度走低。 不过通用汽车表示，旗下GMC Sierra轻型皮卡上半年销量创下历史新高，同时多款雪佛兰跨界车二季度表现亮眼，足以证明通用汽车旗下多款走量、高利润主力车型的市场需求依旧稳健。 图片来源：雪
+- **[比亚迪闪充站突破7000座，目标2026年达2万座，5分钟充电70%新纪录](https://www.d1ev.com/newsflash/305395)** — _www.d1ev.com_ · date: unknown
+  7月2日，比亚迪在海豹08上市发布会上宣布，公司已累计建成超过7000座闪充站，覆盖全国325个城市，并计划到2026年底建成2万座闪充站。比亚迪在3月的二代刀片 电池暨闪充技术发布会上推出了全球量产单枪最大功率 充电桩——比亚迪闪充桩，单枪充电功率可达1500KW。在配备第二代刀片电池的情况下，比亚迪汽车5分钟内可实现电量从10%充至70%，9分钟充至97
+- **[奇瑞为电池安全“兜底”](https://www.d1ev.com/news/shichang/305394)** — _www.d1ev.com_ · date: unknown
+  7月1日，被业内称为“史上最严电池安全令”的强制性国家标准GB 38031-2025《电动汽车用动力蓄电池安全要求》正式实施。当晚，奇瑞汽车正式发布犀牛电池安全保障计划，推出三项“兜底”承诺，以实际行动回应消费者对电动车安全的核心关切。 新国标落地，电池安全从“逃生”走向“拒燃” 7月1日，中国新能源汽车产业迎来一个关键合规节点。GB 38031-2025《
+- **[300款车厮杀10](https://www.d1ev.com/news/shichang/305393)** — _www.d1ev.com_ · date: unknown
+  7月2日晚，小鹏MONA L03开启预售，价格定在14.38万至16.58万元。 发布会上，小鹏汽车董事长兼CEO何小鹏给了一组数据：国内10万到15万价位的乘用车市场，目前在售车型超过300款。海量车型扎堆的结果是，大部分产品只能靠降价和堆配置抢用户，真正有自研智能化能力的车型不多。同质化严重，价格战打到了极致。 图片来源：小鹏汽车 小鹏选择在这个时间点把
+- **[14万起！小鹏MONAL03开启预售，法拉利设计+图灵芯片，A级SUV市场新风暴](https://www.d1ev.com/newsflash/305392)** — _www.d1ev.com_ · date: unknown
+  7月2日，小鹏汽车宣布MONA系列首款SUV——MONAL03正式开启预售，预售价区间为14.38万-16.58万元。新车共推出纯电及超级增程共六个版型，累计交付28万台。小鹏汽车董事长何小鹏表示，L03将对10-20万级的燃油SUV市场构成挑战。L03采用法拉利前设计师胡安马·洛佩兹的设计，融入超跑元素，拥有低趴、宽体、溜背的造型，以及无边框车门等配置。在
+- **[小鹏何小鹏预言：2030年中国新能源车渗透率超90%](https://www.d1ev.com/newsflash/305391)** — _www.d1ev.com_ · date: unknown
+  7月2日，小鹏汽车在MONAL03中国首秀发布会上，小鹏集团董事长何小鹏分享了对AI在汽车行业变革的看法。 何小鹏指出，过去十年新能源汽车与燃油汽车的变革显著，预计到2030年，中国新能源汽车的渗透率将超过90%。他认为，未来汽车行业的变革将集中在AI与汽车的结合，汽车将变成四个轮子的机器人，核心在于赋予汽车“灵魂”，实现与机器人的耦合，提升客户价值。 在发
+- **[小鹏MONAL03预售破纪录！14.38万起，7月16日上市](https://www.d1ev.com/newsflash/305390)** — _www.d1ev.com_ · date: unknown
+  7月2日，小鹏汽车在MONAL03中国首秀活动上宣布了该车型的预售价为14.38万元起，并将于7月16日正式上市。小鹏汽车发文表示，MONAL03的预售订单量已经打破了小鹏所有车型同期小订纪录，显示出市场对这款新车型的高度认可。小鹏汽车副总裁@托马斯电火车也分享了这一喜讯，并鼓励消费者前往门店试驾实车，同时预告了两周后在德国的全球发布会，届时将公布正式上市价
+- **[中国智能驾驶领先全球，小鹏CEO预测L4/L5技术3](https://www.d1ev.com/newsflash/305389)** — _www.d1ev.com_ · date: unknown
+  7月2日，小鹏汽车在MONAL03中国首秀发布会上，小鹏集团董事长何小鹏分享了对中国智能辅助驾驶技术的看法。 何小鹏指出，中国在全球 自动驾驶技术法规的制定中扮演了核心角色，特别是在联合国发布的ADSGTR法规中，中国的智能辅助驾驶技术已经走在了世界前列。该法规覆盖了从L2到L5的自动驾驶技术，其中L2级别的技术将在今年12月全球范围内得到应用，这对小鹏汽车
+- **[小鹏MONA L03开启预售 预售价14.38万元起](https://www.d1ev.com/carnews/xinche/305388)** — _www.d1ev.com_ · published 2026-07-02
+  2026年7月2日，小鹏MONA L03首发亮相并同步开启预售，新车共推出6款车型，预售价区间14.38-16.58万元。小鹏MONA L03定位为紧凑型SUV，提供增程和纯电两种动力，搭载高算力图灵芯片以及第二代VLA纯视觉辅助驾驶系统。官方表示，新车将于7月16日正式上市。 外观方面，小鹏MONA L03由前法拉利外观设计负责人胡安马・洛佩兹领衔的全球设
+- **[广汽集团上半年汽车销量77.31万辆 自主品牌出口量同比增132%](https://www.stcn.com/article/detail/3995746.html)** — _www.stcn.com_ · date: unknown
+  7月2日晚间，广汽集团(601238)发布6月产销公告，上半年全集团汽车销量77.31万辆，同比增长2.35%，其中节能与新能源车销量占比达62.82%。 随着“番禺行动”改革效果传导至市场端，今年上半年，广汽自主品牌累计销量34.60万辆，同比增长35.69%。自主品牌出口量保持翻倍增速，上半年累计达12.15万辆，同比增132%，接近去年全年水平。 分品
 
 ### 2026-07-02 — 66 articles
 - **[新势力6月：零跑9万登顶，蔚来小鹏抢4万，理想小米困3万](https://36kr.com/p/3877766778925059)** — _36kr.com_ · published 2026-07-02
