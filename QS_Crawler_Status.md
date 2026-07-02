@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-02 12:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-02 15:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-02 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **2196 unique auto/NEV articles** across **19 outlets**
+## Cumulative: **2205 unique auto/NEV articles** across **19 outlets**
 
 ## New per day
 | date | new articles |
@@ -34,13 +34,13 @@ _Updated 2026-07-02 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-29 | 122 |
 | 2026-06-30 | 96 |
 | 2026-07-01 | 84 |
-| 2026-07-02 | 40 |
+| 2026-07-02 | 49 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 447 |
+| www.d1ev.com | 456 |
 | www.caam.org.cn | 172 |
 | www.stcn.com | 94 |
 | 36kr.com | 94 |
@@ -61,7 +61,7 @@ _Updated 2026-07-02 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-02 — 40 articles
+### 2026-07-02 — 49 articles
 - **[新势力6月：零跑9万登顶，蔚来小鹏抢4万，理想小米困3万](https://36kr.com/p/3877766778925059)** — _36kr.com_ · published 2026-07-02
   新势力6月：零跑9万登顶，蔚来小鹏抢4万，理想小米困3万 7月1日，新势力照例交出6月成绩单。 这是上半年的最后一个月，也是今年新车上市最密集的一个月。零跑、鸿蒙智行、蔚来、小鹏、理想、小米，六家车企手里的牌基本都打出来了，榜单再次洗牌。 零跑单独跑出一个量级，交付93376台，断层领先。这个数字比第二名鸿蒙智行多出了4万多台。 断层之下，4万台成了新的分水
 - **[8点1氪丨宾利低至27万，二手豪华燃油车价格大跳水；Anthropic回应暗藏代码检测中国用户；寒武纪市值一日蒸发700亿](https://36kr.com/p/3877746956611847)** — _36kr.com_ · published 2026-07-02
@@ -126,6 +126,24 @@ _Updated 2026-07-02 12:12 | discovery-only, zero LLM tokens | runs every 3h_
   今日，极氪汽车宣布旗下多款车型将进行OTA 7.2版本更新，此次更新将带来40项新增功能和18项体验优化。更新内容覆盖AI语音助手超级Eva的全面升级、千里浩瀚G-ASD4.0高阶智驾系统、ZeekrAIOS7全新座舱系统以及其他通用新增功能。 在AI语音助手超级Eva方面，新增了高情商拟人闲聊、复杂模糊导航规划、道路实景识别讲解等功能，提升了人机交互体验。
 - **[比亚迪第二季度纯电车型销量有望再度超越特斯拉](https://www.d1ev.com/news/qiye/305282)** — _www.d1ev.com_ · date: unknown
   盖世汽车讯 随着海外销量持续增长，中国车企比亚迪今年第二季度有望从特斯拉手中再次夺回全球纯电动车型销量冠军宝座。比亚迪最新发布的数据显示，今年第二季度公司共交付557,090辆纯电动汽车。尽管该数据较去年同期有所下滑，但大概率足以超越特斯拉。根据彭博新闻社汇总的分析师预测，特斯拉第二季度的销量约为39.65万辆。 图片来源：比亚迪 比亚迪纯电车型销量首次在2
+- **[【国际快讯】美国决定不再续签美墨加自由贸易协定；比亚迪Q2纯电销量有望再超特斯拉；法国电车市占率逼近30%](https://www.d1ev.com/news/shichang/305295)** — _www.d1ev.com_ · date: unknown
+  聚焦·新能源 比亚迪第二季度纯电车销量有望再度超越特斯拉 随着海外销量持续增长，比亚迪今年第二季度有望从特斯拉手中再次夺回全球纯电动车型销量冠军宝座。比亚迪最新发布的数据显示，今年第二季度共交付557,090辆纯电动汽车。尽管该数据较去年同期有所下滑，但大概率足以超越特斯拉。根据彭博新闻社汇总的分析师预测，特斯拉第二季度的销量约为39.65万辆。 比亚迪欧洲
+- **[《智能网联汽车 组合驾驶辅助系统安全要求》发布](https://www.d1ev.com/news/shichang/305273)** — _www.d1ev.com_ · published 2027-01-01
+  7月2日，盖世汽车获悉，近期，工业和信息化部组织制定并归口的《智能网联汽车 组合驾驶辅助系统安全要求》（GB 47955—2026）强制性国家标准由国家市场监督管理总局、国家标准化管理委员会批准发布，拟于2027年1月1日起正式实施。 2026年以来，我国搭载组合驾驶辅助功能的乘用车新车市场渗透率达到70%，其中，配备领航驾驶辅助功能（NOA）的车型渗透率超
+- **[通用汽车与美光签署车用芯片供应协议](https://www.d1ev.com/news/shichang/305274)** — _www.d1ev.com_ · date: unknown
+  盖世汽车讯 美光科技与通用汽车7月1日宣布，两家公司达成长期供货协议，美光科技将为通用汽车整车生产供应内存及存储芯片平台。 根据这份协议，通用汽车将锁定内存与存储芯片稳定货源，双方还将联合研发下一代相关技术。 图片来源：通用汽车 通用汽车表示，此次签约属于供应链关键零部件前置保障举措，并非为应对当下任何生产断供问题。美光公司则表示，其在美国本土持续扩充的产能
+- **[蔚来李斌北大毕业典礼演讲：经历6次低谷，忠于内心方能找到出路](https://www.d1ev.com/news/qiye/305310)** — _www.d1ev.com_ · date: unknown
+  【TechWeb】7月2日消息，蔚来创始人、董事长、CEO李斌今日现身北京大学2026届本科生毕业典礼，作为校友代表登台发言。 据悉，今年恰逢李斌从北大社会学系毕业30周年，他在演讲中未谈创业高光，反而坦诚分享了毕业30年来经历的对次人生与事业低谷，并以"向内求索"寄语学弟学妹。 李斌在演讲中表示，自己在毕业至今的三十年创业历程中，经历过六次事业与人生较大的
+- **[特斯拉自动驾驶技术革新：Cybercab将搭载星链，Optimus生产线启动](https://www.d1ev.com/newsflash/305309)** — _www.d1ev.com_ · date: unknown
+  近日，特斯拉在自动化生产领域取得新进展。工程副总裁拉尔斯·莫拉维透露，特斯拉FSD系统已接管工厂整车核验流程，新款车辆可自主驶入异响检测工位，通过预装麦克风捕捉杂音，将装配瑕疵反馈给工程团队。同时，特斯拉正在研发“全向听觉系统”AI，以自动识别装配缺陷。 莫拉维还披露了Cybercab 自动驾驶出租新车细节。Cybercab生产线自动化程度极高，约90%工序
+- **[奇瑞风云T7亮相：600km超长续航，20分钟快充新体验！](https://www.d1ev.com/newsflash/305308)** — _www.d1ev.com_ · date: unknown
+  7月2日，奇瑞风云新能源官方发布了全新紧凑型SUV——风云T7的外观信息。这款新车以其橙色外观和侵略性前格栅设计，展现出活力动感的风格，同时车侧和车尾保持了圆润简约的设计语言。风云T7的车身尺寸为4570/1852/1694mm，轴距达到2700mm，定位于紧凑型SUV市场。 风云T7在动力配置上，采用单电机驱动，最大功率为178千瓦，最高车速可达180km
+- **[法国6月电动汽车市占率达30%](https://www.d1ev.com/news/shichang/305307)** — _www.d1ev.com_ · date: unknown
+  盖世汽车讯 市场数据机构AAA Data发布报告称，法国6月纯电动车新车销量占乘用车总销量的三成，较2025年6月同比大增94%，该国迈入电气化转型关键临界点。 AAA Data汽车市场分析主管玛丽-洛尔·尼沃特（Marie-Laure Nivot）表示：“法国如今每卖出三台车就有一台是电动车，法国汽车市场已经跨过电气化转型临界点。” 法国电动车销量大幅增长
+- **[Wayve获28亿美元投资，AI驾驶技术颠覆传统自动驾驶](https://www.d1ev.com/newsflash/305305)** — _www.d1ev.com_ · date: unknown
+  近日，伦敦 自动驾驶初创公司Wayve获得28亿美元投资，成为资本市场的新宠。该公司拥有包括英伟达、奔驰和日产在内的科技与汽车行业投资者和战略合作伙伴。Wayve采用端到端机器学习技术，使AI能够直接将传感器数据转化为驾驶决策，工作方式更接近人类驾驶员。与传统自动驾驶方案不同，Wayve的系统设计兼容多种传感器和AI芯片，不依赖于高精地图。 Wayve的端到
+- **[比亚迪推车载服务无忧包：5G流量不限量，月包29元起](https://www.d1ev.com/newsflash/305304)** — _www.d1ev.com_ · date: unknown
+  7月2日，比亚迪汽车推出了“车载服务无忧包”，旨在为搭载5G上网功能的比亚迪车型提供不限量的车机流量服务。此前，比亚迪车主主要依赖购车时赠送的基础套餐来使用车载网络，大部分在售车型提供“全系2年免费车机流量（5GB/月）”的购车礼遇。这些免费套餐均有固定的月度流量额度，用尽后车机网络将自动断网，对于经常使用车载娱乐功能的用户来说，流量不足是一个常见问题。 “
 - **[最严汽车安全国标7月1日起实施，行业结构性洗牌加速](https://www.stcn.com/article/detail/3993632.html)** — _www.stcn.com_ · date: unknown
   7月1日起，一批关于汽车安全的新国标正式实施，涉及碰撞测试标准、动力电池安全要求、电动整车安全要求等。 其中《汽车侧面碰撞的乘员保护》是近20年来最严苛的一次碰撞安全标准升级。在新国标中，采用的侧面碰撞台车质量从950公斤大幅提升至1400公斤。 同日实施的新国标《乘用车后碰撞安全要求》，在燃油泄漏要求的基础上更新了蓄电池、车辆起火的要求，并将燃油泄漏监测从
 - **[月销9万台也“焦虑”？车企销量KPI半年达成率出炉：多数仅完成三到四成](https://www.stcn.com/article/detail/3994090.html)** — _www.stcn.com_ · date: unknown
