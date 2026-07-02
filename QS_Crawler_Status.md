@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-03 00:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-03 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-03 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **2235 unique auto/NEV articles** across **19 outlets**
+## Cumulative: **2239 unique auto/NEV articles** across **19 outlets**
 
 ## New per day
 | date | new articles |
@@ -35,13 +35,13 @@ _Updated 2026-07-03 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-30 | 96 |
 | 2026-07-01 | 84 |
 | 2026-07-02 | 66 |
-| 2026-07-03 | 13 |
+| 2026-07-03 | 17 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 475 |
+| www.d1ev.com | 479 |
 | www.caam.org.cn | 172 |
 | 36kr.com | 99 |
 | www.stcn.com | 95 |
@@ -62,7 +62,7 @@ _Updated 2026-07-03 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-03 — 13 articles
+### 2026-07-03 — 17 articles
 - **[氪星晚报｜证监会同意宇树科技科创板IPO注册；Meta“带崩”科技股？业内人士：算力过剩系误读-36氪](https://36kr.com/p/3878550357946625)** — _36kr.com_ · published 2026-07-03
   氪星晚报｜证监会同意宇树科技科创板IPO注册；Meta“带崩”科技股？业内人士：算力过剩系误读 大公司： 奥飞娱乐：上半年净利润同比预增305.30%—413.38% 36氪获悉，奥飞娱乐发布2026年半年度业绩预告，预计2026年上半年归属于上市公司股东的净利润为1.5亿元—1.9亿元，比上年同期增长305.30%—413.38%。 雀巢称消费者因价格压力
 - **[关于举办2026年全国行业职业技能竞赛一-第五届全国汽车流通行业职业技能竞赛汽配销售经理人赛项决赛的通知](https://www.cada.cn/training/info_43_10502.html)** — _www.cada.cn_ · date: unknown
@@ -86,6 +86,14 @@ _Updated 2026-07-03 00:12 | discovery-only, zero LLM tokens | runs every 3h_
   7月2日，小鹏汽车在MONAL03中国首秀发布会上，小鹏集团董事长何小鹏分享了对中国智能辅助驾驶技术的看法。 何小鹏指出，中国在全球 自动驾驶技术法规的制定中扮演了核心角色，特别是在联合国发布的ADSGTR法规中，中国的智能辅助驾驶技术已经走在了世界前列。该法规覆盖了从L2到L5的自动驾驶技术，其中L2级别的技术将在今年12月全球范围内得到应用，这对小鹏汽车
 - **[小鹏MONA L03开启预售 预售价14.38万元起](https://www.d1ev.com/carnews/xinche/305388)** — _www.d1ev.com_ · published 2026-07-02
   2026年7月2日，小鹏MONA L03首发亮相并同步开启预售，新车共推出6款车型，预售价区间14.38-16.58万元。小鹏MONA L03定位为紧凑型SUV，提供增程和纯电两种动力，搭载高算力图灵芯片以及第二代VLA纯视觉辅助驾驶系统。官方表示，新车将于7月16日正式上市。 外观方面，小鹏MONA L03由前法拉利外观设计负责人胡安马・洛佩兹领衔的全球设
+- **[14.38万起卖爆了！MONA L03打破小鹏所有车型同期小订纪录](https://www.d1ev.com/news/qiye/305400)** — _www.d1ev.com_ · date: unknown
+  快科技7月3日消息，昨晚，小鹏Mona系列第二款量产车L03开启预售，价格为14.38万元起，而据官方消息，这款车开卖即爆，预售订单量已经打破了小鹏所有车型同期小订记录。 从官方公布的预定渠道看，预定分为线上和线下两种渠道，其中前者又包含三种途径，包括小鹏汽车app、官方和微信小程序，不过需要说明的是，预定没有任何花费，点击“我要预定”即可。 L03定位紧凑
+- **[比亚迪纯电销量超越特斯拉，重夺全球单季度销冠](https://www.d1ev.com/newsflash/305399)** — _www.d1ev.com_ · date: unknown
+  7月3日，新能源车企比亚迪和特斯拉的二季度交付数据公布，比亚迪纯电车型销量超过特斯拉，重新夺回全球纯电单季度销量第一的位置。比亚迪二季度纯电车型交付557090辆，比特斯拉多出7.7万辆。特斯拉二季度全球交付48.01万辆车辆，同比上涨25%，环比提升34%，整体表现超出市场预期。今年一季度特斯拉纯电交付量小幅领先比亚迪，但二季度比亚迪凭借海外市场和多款平价
+- **[小鹏MONA L03首发亮相，预售价14.38万元起](https://www.d1ev.com/news/shichang/305398)** — _www.d1ev.com_ · date: unknown
+  7月2日，小鹏MONA首款SUV——小鹏MONA L03重磅亮相并开启预售。新车带来纯电和超级增程两种动力版本，官方预售价依次为：纯电525Max 14.38万元、纯电625Max 15.38万元、超级增程1330Max 14.98万元、纯电525Ultra SE 15.58万元、纯电625Ultra SE 16.58万元及超级增程1330Ultra SE
+- **[23万电车尚界Z7TMax首年保费仅4434元！鸿蒙智行车型保费大降](https://www.d1ev.com/newsflash/305396)** — _www.d1ev.com_ · date: unknown
+  近日，博主“闪电快飞”分享了其购买的尚界Z7TMax电动车的首年保费情况，仅花费4434元。保险方案包括交强险1000元，商业险3054.19元（含车损和三者险等），以及380元的“太保驾意险”。相比之下，2026年新能源车险行业数据显示，同价位纯电轿车首年全险普遍区间为5500-7000元，高性能版本车型保费甚至可达7000-8500元。尚界Z7TMax的
 - **[广汽集团上半年汽车销量77.31万辆 自主品牌出口量同比增132%](https://www.stcn.com/article/detail/3995746.html)** — _www.stcn.com_ · date: unknown
   7月2日晚间，广汽集团(601238)发布6月产销公告，上半年全集团汽车销量77.31万辆，同比增长2.35%，其中节能与新能源车销量占比达62.82%。 随着“番禺行动”改革效果传导至市场端，今年上半年，广汽自主品牌累计销量34.60万辆，同比增长35.69%。自主品牌出口量保持翻倍增速，上半年累计达12.15万辆，同比增132%，接近去年全年水平。 分品
 
