@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-03 06:11 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-03 09:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-03 06:11 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **2239 unique auto/NEV articles** across **19 outlets**
+## Cumulative: **2249 unique auto/NEV articles** across **19 outlets**
 
 ## New per day
 | date | new articles |
@@ -35,18 +35,18 @@ _Updated 2026-07-03 06:11 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-06-30 | 96 |
 | 2026-07-01 | 84 |
 | 2026-07-02 | 66 |
-| 2026-07-03 | 17 |
+| 2026-07-03 | 27 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 479 |
+| www.d1ev.com | 484 |
 | www.caam.org.cn | 172 |
+| www.stcn.com | 99 |
 | 36kr.com | 99 |
-| www.stcn.com | 95 |
 | www.cada.cn | 88 |
-| egs.stcn.com | 62 |
+| egs.stcn.com | 63 |
 | www.news.cn | 54 |
 | www.yicai.com | 28 |
 | www.xinhuanet.com | 22 |
@@ -62,9 +62,11 @@ _Updated 2026-07-03 06:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-03 — 17 articles
+### 2026-07-03 — 27 articles
 - **[氪星晚报｜证监会同意宇树科技科创板IPO注册；Meta“带崩”科技股？业内人士：算力过剩系误读-36氪](https://36kr.com/p/3878550357946625)** — _36kr.com_ · published 2026-07-03
   氪星晚报｜证监会同意宇树科技科创板IPO注册；Meta“带崩”科技股？业内人士：算力过剩系误读 大公司： 奥飞娱乐：上半年净利润同比预增305.30%—413.38% 36氪获悉，奥飞娱乐发布2026年半年度业绩预告，预计2026年上半年归属于上市公司股东的净利润为1.5亿元—1.9亿元，比上年同期增长305.30%—413.38%。 雀巢称消费者因价格压力
+- **[比亚迪汽车：6月16日](https://egs.stcn.com/news/detail/2310419.html)** — _egs.stcn.com_ · published 2026-07-03
+  首页 推荐 快讯 解读 股市 港股通 视听 专题 行情 数据 公众号 APP 电子报 您当前的位置： 证券时报·e公司 > 快讯 > 详情 比亚迪汽车：6月16日—6月30日新建336座闪充站 来源：人民财讯 作者：王焕城 2026-07-03 08:47 Aa 大号字 人民财讯7月3日电，比亚迪汽车消息，2026年6月16日—6月30日，比亚迪新建336座
 - **[关于举办2026年全国行业职业技能竞赛一-第五届全国汽车流通行业职业技能竞赛汽配销售经理人赛项决赛的通知](https://www.cada.cn/training/info_43_10502.html)** — _www.cada.cn_ · date: unknown
 - **[继日本后又被韩国针对！比亚迪被韩国电动车补贴精准排除](https://www.d1ev.com/news/qiye/305338)** — _www.d1ev.com_ · date: unknown
   快科技7月2日消息，据报道，6月30日韩国公布2026下半年电动车补贴准入企业名单，比亚迪未通过综合评审，成为韩国乘用车领域唯一落选的中国品牌。 自7月1日起，新登记比亚迪车型不再享受韩国政府购车补贴，6月30日前完成登记的车辆可沿用旧标准。 报道称，韩国气候能源环境部此次评审满分100分、60分达标，围绕研发实力、本土供应链贡献度、售后服务体系、就业贡献等
@@ -94,8 +96,26 @@ _Updated 2026-07-03 06:11 | discovery-only, zero LLM tokens | runs every 3h_
   7月2日，小鹏MONA首款SUV——小鹏MONA L03重磅亮相并开启预售。新车带来纯电和超级增程两种动力版本，官方预售价依次为：纯电525Max 14.38万元、纯电625Max 15.38万元、超级增程1330Max 14.98万元、纯电525Ultra SE 15.58万元、纯电625Ultra SE 16.58万元及超级增程1330Ultra SE
 - **[23万电车尚界Z7TMax首年保费仅4434元！鸿蒙智行车型保费大降](https://www.d1ev.com/newsflash/305396)** — _www.d1ev.com_ · date: unknown
   近日，博主“闪电快飞”分享了其购买的尚界Z7TMax电动车的首年保费情况，仅花费4434元。保险方案包括交强险1000元，商业险3054.19元（含车损和三者险等），以及380元的“太保驾意险”。相比之下，2026年新能源车险行业数据显示，同价位纯电轿车首年全险普遍区间为5500-7000元，高性能版本车型保费甚至可达7000-8500元。尚界Z7TMax的
+- **[EV晨报 | 小鹏MONA L03预售价14.38万起，小订已破品牌同期纪录；特斯拉Q2交付超48万辆，全球保有量突破900万辆；理想汽车再调整组织架构 - 第一电动网](https://www.d1ev.com/news/shichang/305408)** — _www.d1ev.com_ · date: unknown
+  ▌要闻 ▍小鹏MONA L03预售价14.38万起，7月16日上市，小订已破品牌同期纪录 第一电动7月2日消息，小鹏汽车在MONAL03中国首秀活动上宣布了该车型的预售价为14.38万元起，并计划于7月16日正式上市。据小鹏汽车副总裁透露，截至7月2日当晚，MONA L03的预售订单量已打破小鹏品牌历史上所有车型的同期预订纪录。MONAL03定位为“年轻人的
+- **[【盖世快讯】巴斯夫与凯雷完成涂料业务交易；通用汽车与美光签署车用芯片供应协议](https://www.d1ev.com/news/shichang/305403)** — _www.d1ev.com_ · date: unknown
+  车企动态 | OEM Trend 财联社：7月2日，国家发改委价格监测中心副主任带队赴小米集团开展工作调研。调研新能源汽车和手机市场价格运行情况，了解行业所面临的主要问题，征求规范汽车行业行为、推动行业有序竞争的意见和建议。 快科技：7月2日，广汽丰田第1000万辆量产车在广州南沙工厂正式下线，该车型为纯电轿车铂智7，广汽丰田成为国内又一家累计产量突破100
+- **[宝马X5取消经典“天地门”设计，第五代车型追求简洁流畅车尾](https://www.d1ev.com/newsflash/305411)** — _www.d1ev.com_ · date: unknown
+  7月3日，宝马发布了第五代X5，该车型在全球提供五种动力系统，包括汽/柴油、混动、纯电和 氢燃料。此次更新中，宝马取消了自1999年第一代X5以来一直沿用的上下分体式尾门（“天地门”），这一变化引起了广泛关注。宝马、阿尔宾娜和劳斯莱斯豪华级车型总监菲利普·科恩在南卡罗来纳州斯帕坦堡的X5发布活动上解释了取消这一设计的原因。他表示，即使是身材和臂长都很普通的人
+- **[苹果数字车钥匙将适配大众新车型，未来出行更便捷](https://www.d1ev.com/newsflash/305410)** — _www.d1ev.com_ · date: unknown
+  7月3日，据科技媒体报道，苹果服务器端最新代码显示大众汽车正在计划为其未来车型适配苹果Apple Wallet数字车钥匙服务。这项服务将允许用户使用iPhone或Apple Watch直接解锁/锁定车辆，或远程发动车辆、提前打开空调等。 目前，具体的适配车型和上线时间尚未披露，但苹果的“车钥匙”功能已经兼容包括阿斯顿马丁、奥迪、宝马、别克、比亚迪等在内的多个
+- **[日产大刀阔斧改革：裁员2万、关厂7家，复兴计划加速新车上市](https://www.d1ev.com/newsflash/305406)** — _www.d1ev.com_ · date: unknown
+  7月3日，日产汽车CEO伊万·埃斯皮诺萨宣布了公司全面改革计划，旨在应对经营困境。改革措施包括裁撤约2万个岗位，关闭7家工厂和2家设计中心，将年产能从350万辆降至250万辆，并减少平台数量。此外，“Re:Nissan”复兴计划将缩短新车开发周期，下一代车型开发时间将从52个月降至37个月，衍生车型从50个月缩短至30个月。 埃斯皮诺萨在反思前任管理层的失误
 - **[广汽集团上半年汽车销量77.31万辆 自主品牌出口量同比增132%](https://www.stcn.com/article/detail/3995746.html)** — _www.stcn.com_ · date: unknown
   7月2日晚间，广汽集团(601238)发布6月产销公告，上半年全集团汽车销量77.31万辆，同比增长2.35%，其中节能与新能源车销量占比达62.82%。 随着“番禺行动”改革效果传导至市场端，今年上半年，广汽自主品牌累计销量34.60万辆，同比增长35.69%。自主品牌出口量保持翻倍增速，上半年累计达12.15万辆，同比增132%，接近去年全年水平。 分品
+- **[机构：关注汽车出口带来的投资机会](https://www.stcn.com/article/detail/3996083.html)** — _www.stcn.com_ · date: unknown
+  申港证券认为，汽车行业中长期逻辑更偏“全球份额扩张+智能化升级”，出口是行业重要的支撑，智能化是行业发展的重要方向。1）因地制宜，试点先行打破流通限制：公布40个试点城市并赋予差异化定位合规化：明确汽车改装实施分级分类管理，完善标准体系与零部件CCC认证，推动改装产业走向阳光化。同时，明确传统经典车认定细则，探索贸易、展览及有条件上路，激活高净值文化消费。3
+- **[比亚迪汽车：6月16日](https://www.stcn.com/article/detail/3996156.html)** — _www.stcn.com_ · published 2026-07-02
+  证券时报网 王焕城 2026-07-02 09:41 人民财讯7月3日电，比亚迪汽车消息，2026年6月16日—6月30日，比亚迪新建336座闪充站，累计建成7018座闪充站，已覆盖全国325座城市。
+- **[新势力车企“中考”成绩出炉 马太效应凸显](https://www.stcn.com/article/detail/3996146.html)** — _www.stcn.com_ · date: unknown
+  7月伊始，多家新能源车企集中披露6月份及上半年交付数据，新势力车企“中考”成绩正式揭晓。从上半年整体表现来看，新势力阵营在车市存量竞争中展现出强劲的增长韧性，多家车企创下销量新高，头部梯队优势持续夯实，行业分化格局进一步明晰。 具体来看，今年上半年，新势力车企销量表现分化加剧。 其中，浙江零跑科技股份有限公司（以下简称“零跑汽车”）以绝对优势稳居销量榜首。上
+- **[主要领导密集会见，谁在“争夺”比亚迪？](https://www.stcn.com/article/detail/3996126.html)** — _www.stcn.com_ · date: unknown
+  不久前发布的《长春市汽车产业发展“十五五”规划（征求意见稿）》罕见提到，一汽“未来或将面临央企战略重组的压力”，要在2030年前引进一家以上新能源整车企业。 这不是一座城市的焦虑，而是当下传统汽车重镇面临的普遍问题。 回顾2025年，汽车产业区域格局出现了颠覆性变局——四川、江西晋级，全国超过十个省份汽车产量突破百万辆。新旧势力洗牌，安徽汽车产量超过广东登顶
 
 ### 2026-07-02 — 66 articles
 - **[新势力6月：零跑9万登顶，蔚来小鹏抢4万，理想小米困3万](https://36kr.com/p/3877766778925059)** — _36kr.com_ · published 2026-07-02
