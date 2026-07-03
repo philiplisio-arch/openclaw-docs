@@ -2,14 +2,37 @@
 
 ---
 document_id: 04_DAILY_STATUS
-version: v4.5
-last_updated: 2026-06-28
+version: v4.6
+last_updated: 2026-07-03
 status: OPERATIONAL
 ---
 
-DATE: 2026-06-28
+DATE: 2026-07-03
 PHASE: Post-pivot — WS1 selection-layer live + Lane-0 discovery scout built and gated OFF; convergence in progress (see OPENCLAW_AS_BUILT_STATE_2026-06-18 for last authoritative current-state reconciliation, now partly superseded by the 06-24/06-28 WS1 changes below)
 
+> **2026-07-03 status:** WS1 public site (China Business Daily, daily.thefootegroup.com) —
+> **reader-experience fixes shipped and LIVE (all 11 editions).** Operator reported text on the
+> site could not be selected/copied. Root cause (isolated by reproducing the live page in a headless
+> Chromium): **Intern Steve's chat bubble keeps its layout box while closed** (`opacity:0` but not
+> `display:none`), inflating the fixed `.steve` container to a ~500x640px invisible panel anchored
+> bottom-right with `pointer-events:auto`. That panel overlaid the lower-right of the reading column
+> and swallowed all clicks and text-selection there — so text below the top ~third of the window was
+> unselectable/uncopyable while the top strip worked (the exact "dead zone moves with the window, not
+> the text" symptom the operator described). **Fix:** `.steve{pointer-events:none}` +
+> `.steve-btn{pointer-events:auto}` in `build_site.py` STYLE_CSS (the open bubble already re-enables
+> pointer events via `.steve.open .steve-bubble`); mascot + feedback box still fully interactive.
+> Two smaller fixes landed the same session: **(a)** Steve no longer **auto-opens** its bubble on load
+> (operator: distracting) — opens only on click; **(b)** citation links in the brief are now
+> `draggable="false"` so a drag that starts on a source link **selects text instead of drag-and-dropping
+> the link** (the brief is citation-dense, 64 links/edition). All three verified live via headless
+> Chromium: dead zone gone (top element = article at every window height), drag-select works in the
+> former dead region, mascot still opens. **CAVEAT / regression risk:** these edits live in the
+> **working tree of `build_site.py` only — NOT committed**, because that file carries another agent's
+> uncommitted Steve raster-mascot rewrite (`gen_steve.py` PNG art). They deploy via the 07:10 cron
+> (which reads the working tree), so they are live and persist, but the **mascot owner should fold the
+> `pointer-events` handling into their Steve work so a future commit does not regress it.** Rationale
+> is captured in code comments in `build_site.py`.
+>
 > **2026-06-28 status:** WS1 (China Business Daily) — two workstreams this session.
 > **(1) Lane-0 discovery scout BUILT, validated, gated OFF.** An additive, non-authoritative
 > LLM/external discovery layer (`cbiz_discover.py`) that PROPOSES candidate articles into the
