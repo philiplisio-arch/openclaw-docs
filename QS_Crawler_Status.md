@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-04 00:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-04 03:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-04 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **2314 unique auto/NEV articles** across **19 outlets**
+## Cumulative: **2315 unique auto/NEV articles** across **19 outlets**
 
 ## New per day
 | date | new articles |
@@ -36,13 +36,13 @@ _Updated 2026-07-04 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-01 | 84 |
 | 2026-07-02 | 66 |
 | 2026-07-03 | 84 |
-| 2026-07-04 | 8 |
+| 2026-07-04 | 9 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 512 |
+| www.d1ev.com | 513 |
 | www.caam.org.cn | 173 |
 | 36kr.com | 110 |
 | www.stcn.com | 108 |
@@ -63,7 +63,7 @@ _Updated 2026-07-04 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-04 — 8 articles
+### 2026-07-04 — 9 articles
 - **[世界模型在自动驾驶应用，为什么卡在施工道路？](https://36kr.com/p/3879792818977411)** — _36kr.com_ · published 2026-07-04
   世界模型在自动驾驶应用，为什么卡在施工道路？ 6月下旬，Waymo宣布召回3871辆Robotaxi，原因是部分车辆在高速道路行驶时，可能未能识别封闭施工区，或错误地优先规避其他风险，导致车辆进入施工道路并继续高速行驶。 这是Waymo近两年多次召回事件中的最新一起，也是不满两月内第二次因现实道路场景触发的召回。就在5月，Waymo还曾因部分车辆无法规避道路
 - **[蔚来维权行动升级：多名侵权者被处罚，法院判决维护品牌名誉](https://www.d1ev.com/newsflash/305565)** — _www.d1ev.com_ · date: unknown
@@ -76,6 +76,8 @@ _Updated 2026-07-04 00:12 | discovery-only, zero LLM tokens | runs every 3h_
   IT之家7月3日消息，奇瑞星途宣布2027款星途ES将于7月12日上市，预售价区间为18.99-21.99万元。新车提供增程302Max激光雷达版、增程255Ultra四驱激光雷达版和纯电860Max激光雷达版三款车型。2027款星途ES新增暖云杏、星驰银两款外饰色和霞红、雅灰两款内饰色，车身尺寸为4945/1978/1480mm，轴距3000mm。搭载飞鱼
 - **[【全球汽车新技术观察】 6月上期〡业内首款！安波福推出纯视觉先进乘员分类系统；英伟达推出用于Robotaxis的开放推理模型Alpamayo 2 Super；图尔库大学开发出新型智能材料 可使汽车天窗储存太阳能并按需变换颜色](https://www.d1ev.com/news/shichang/305560)** — _www.d1ev.com_ · date: unknown
   本期全球前沿汽车技术动向如下，如需更具体的内容与分析解读，欢迎订购盖世汽车研究院《全球前瞻技术情报》。 智能网联 通用汽车将5G、Wi-Fi、UWB和GNSS集成到安装在车顶的互联中心模块中 通用汽车推出车顶互联中心模块（CHM），将5G、Wi-Fi、蓝牙、UWB、GNSS及处理器等集成于单一模块，替代传统鲨鱼鳍天线与TCU架构。 该方案减少线束和连接器数量
+- **[50万预算选9系SUV，理想L9、问界M9、蔚来ES9、极氪9X谁更值？](https://www.d1ev.com/newsflash/305568)** — _www.d1ev.com_ · date: unknown
+  近日，随着新能源汽车市场的蓬勃发展，大型SUV细分市场迎来了快速增长。2024年一季度，大型SUV的增速高达169%，成为市场的新焦点。在这一背景下，理想L9、问界M9、蔚来ES9和极氪9X等四款热门9系SUV成为消费者的关注焦点。 这四款SUV在外观设计上各具特色，理想L9延续了家族化设计，蔚来ES9则在ES8的基础上增加了水晶灯等装饰。问界M9和极氪9X
 - **[全球瞭望丨瑞士媒体：中国电动汽车已超欧美竞争对手](https://www.news.cn/world/20260703/45967b7db0ad45b3b9bf81bbb12286da/c.html)** — _www.news.cn_ · published 2026-07-03
   新华社日内瓦7月3日电（记者焦倩）瑞士《新苏黎世报》网站近日刊登评论文章指出，中国制造商在电动汽车领域已经超越欧美竞争对手，欧美通过加征关税来保护本国汽车产业，最终损害的是消费者利益。文章摘要如下： 欧美将自己视为汽车工业的摇篮，但如今中国已成为全球最大的汽车生产国和出口国。 为保护本土汽车产业，欧盟和美国对中国电动汽车加征关税。但中国汽车进入欧洲市场的趋势
 - **[车船税调整，拉开了油电同权改革大幕](https://www.yicai.com/news/103260226.html)** — _www.yicai.com_ · date: unknown
