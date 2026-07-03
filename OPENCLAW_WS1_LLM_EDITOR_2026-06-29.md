@@ -2,9 +2,9 @@
 
 ---
 document_id: OPENCLAW_WS1_LLM_EDITOR_2026-06-29
-version: v1.0
-last_updated: 2026-06-29
-status: ACTIVE (advisory mode built and gated OFF; auto-apply not built)
+version: v1.1
+last_updated: 2026-07-02
+status: ACTIVE (auto-apply mode BUILT + LIVE on the daily cron since 2026-07-02; advisory mode retained as fallback)
 builds_on: OPENCLAW_WS2B_EXECUTION_PLAN_2026-06-13 (per-stage-model, multi-pass schema)
 scope: A review/edit stage for the WS1 (China Business Daily) daily brief. Brings the
   per-stage-model, evidence-first schema designed for the weekly ALJ packet to the daily
@@ -38,8 +38,9 @@ Governing principles carried over from the WS2B plan:
   rule-compliance triage.
 - **Per-stage failover.** The reviewer names a primary and a fallback model; a provider outage
   must never block delivery.
-- **The model proposes; code disposes.** The editor is a critic — it cannot introduce a fact
-  absent from the verified evidence, and it cannot rewrite the brief in advisory mode.
+- **The model proposes; code disposes.** The editor cannot introduce a fact absent from the
+  verified evidence. In auto-apply mode (§3a) it may rewrite the brief, but only within that
+  grounding constraint, and every deterministic house gate re-runs on the revised text.
 
 ## 3. Advisory mode (built)
 
@@ -57,6 +58,31 @@ Governing principles carried over from the WS2B plan:
   pass is purely additive and non-fatal — the pipeline delivers with or without it.
 - **Gating:** `CBIZ_EDITOR=1`, OFF by default. No effect on current production behavior.
 
+## 3a. Auto-apply mode (built + LIVE, operator-approved 2026-07-02)
+
+WS1 is not client-facing yet, so the operator authorized the editor to APPLY its own
+evidence-grounded fixes rather than only critiquing (previously the flawed edition shipped with
+the critique appended). The operator reviews the assessment in Lark ex post facto.
+
+- **One call, two outputs.** `cbiz_editor.revise_brief()` asks the cross-model editor for BOTH a
+  corrected brief body AND a findings log (`action_taken` per finding). The findings become the
+  Lark assessment; the corrected body is what ships. `review_brief()` (advisory, §3) is retained
+  as the failover when the revise call is unavailable.
+- **Runs BEFORE assembly.** The editor edits the body upstream of the masthead + Sources build.
+  Because those are derived from whatever survives in the body (`story_rendered_in_body`), a story
+  the editor drops falls out of the counts and Sources automatically — no manual reconciliation.
+- **Gates re-run on the revised text.** After the editor pass, the deterministic house repairs
+  (ENGLISH-ONLY scrub, gloss grounding/relocation, undated-market detector, uncited-tail strip)
+  re-run, so an LLM edit can never reintroduce a gated defect. Validated on the 2026-07-02 edition:
+  11 fixes applied (merge dupes, reconcile counts, remove an invented gloss, correct a units
+  error, drop unsupported attributions), delivered at 0 CJK / 0 undated-market.
+- **Grounding held under fix pressure.** On findings needing a fact not in evidence, the editor
+  logged "could not add — left out rather than invent." The proposes/disposes rule survives.
+- **Fail-open.** Any error, or a too-short/truncated revised body, ships the writer's original
+  edition unchanged. The pass never blocks delivery.
+- **Gating:** still `CBIZ_EDITOR=1` (now ON in the daily cron); `CBIZ_REVISE_MAX_TOKENS` sizes the
+  revise budget (default 16000, above the review-only 8000 since it emits a full brief).
+
 ## 4. Graduation path
 
 1. Run advisory for several editions; score the editor's catches against real reader feedback
@@ -69,8 +95,10 @@ Governing principles carried over from the WS2B plan:
    HIGH english-only/market-timing findings now delivers zero CJK, and the editor raises neither
    category — leaving it free for the judgment calls a gate cannot make (forecasts/TONE, sourcing
    breadth, depth).
-3. Only then consider an **auto-apply** mode for safe, evidence-bound edits — gated, separate
-   operator approval (P-02 cron change). Prose/depth judgment stays advisory.
+3. Auto-apply mode for safe, evidence-bound edits. **DONE (operator-approved 2026-07-02):** built
+   and live on the daily cron — see §3a. Fixes are applied to the body before assembly and the
+   deterministic gates re-run on the result; the operator reviews the assessment in Lark ex post
+   facto while WS1 remains internal (non-client-facing).
 
 ## 5. Cost
 

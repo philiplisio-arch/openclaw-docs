@@ -30,6 +30,19 @@ Times all run today *is* the news. Importance is measured, not guessed — and i
 - Topic span: macro/economy, policy & regulation, finance & markets, trade & supply chain,
   technology, major company news, property, energy.
 
+### Source-universe expansion — closed loop (2026-07-02)
+Sources grow through an operator-gated loop, not free automation:
+1. **Propose** — `ws1_optimizer.py` (07:25 cron) treats source breadth as a first-class scoring
+   axis; when corroboration is thin it emails a coded proposal (`B1`, `B2`…) to add outlets.
+2. **Approve** — the operator replies `APPROVE B1`; nothing is added without that reply.
+3. **Auto-append** — `ws1_approvals.py` (06:55 cron) recognizes a source proposal by the URLs it
+   carries, probes each (`<400`), and appends brand-new hosts to `seeds.yaml` (append-only,
+   hostname-deduped). The next 3-hourly crawl picks them up. Parameter/code proposals (no URLs)
+   still queue as PENDING IMPLEMENTATION.
+Pruning stays manual: a source yielding zero over ~7d is removed with a provenance comment.
+The automated Lane-0 discovery engine (`cbiz_discover.py`, Tavily/GDELT) remains gated OFF —
+it could not deliver articles that were both fresh AND Chinese-language.
+
 ## Pipeline (reuses the crawler + WS2B refinery)
 1. **Crawl** the universe continuously (business/finance/economy section pages) — engine exists.
 2. **Extract + dedup** full text (99% fetch, GB18030-safe).
