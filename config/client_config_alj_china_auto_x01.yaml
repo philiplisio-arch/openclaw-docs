@@ -34,7 +34,7 @@ regions:
   - "turkiye"
 
 # Query and output configuration
-query_template_set: "alj_jameel_weekly_v2"   # CP-023R 2026-06-11 (was alj_china_auto_weekly_v1)
+query_template_set: "alj_jameel_weekly_v3"   # WS2 parity 2026-07-04 (v2+policy_regulation+aftersales_fleet)
 report_template:    "alj_china_auto_weekly_v1"    # NEW — to be drafted
 
 # Delivery channel
@@ -61,7 +61,9 @@ domain_exclusion:
   - electriccarscheme.com
   - innovation-village.com
 
-agent_model: "google/gemini-2.5-pro"  # WS2 PRO writing (2026-06-15)
+# agent_model removed 2026-07-04: this env var was never consumed at runtime.
+# Model routing is controlled by openclaw.json agent config. ALJ now uses
+# alj_enrichment agent (DeepSeek V4 Flash primary, Gemini Flash fallback, Kimi tertiary).
 
 delivery_channel:
   type: lark
