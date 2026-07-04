@@ -1,8 +1,8 @@
 # China Business Daily — Crawler Status
 
-_Updated 2026-07-05 00:44 | WS1 redesign source universe | discovery-only, zero LLM tokens | every 3h_
+_Updated 2026-07-05 03:42 | WS1 redesign source universe | discovery-only, zero LLM tokens | every 3h_
 
-## Cumulative: **14277 business articles** across **56 outlets**
+## Cumulative: **14289 business articles** across **56 outlets**
 
 _In Report? verdicts reflect the brief run of **2026-07-04** (generated 2026-07-04T07:35:44): **25 ✅ in / 2420 ❌ out** of 2445 in-window articles. Articles crawled after that run show ➖ (no verdict yet)._
 
@@ -10,17 +10,17 @@ _In Report? verdicts reflect the brief run of **2026-07-04** (generated 2026-07-
 | outlet | articles |
 |---|---|
 | www.stcn.com | 2636 |
-| www.nbd.com.cn | 1721 |
+| www.nbd.com.cn | 1722 |
 | finance.eastmoney.com | 1295 |
 | m.21jingji.com | 1243 |
 | finance.sina.com.cn | 1123 |
 | www.21jingji.com | 993 |
 | 36kr.com | 803 |
 | www.jiemian.com | 795 |
-| www.eeo.com.cn | 734 |
+| www.eeo.com.cn | 740 |
 | www.yicai.com | 694 |
 | finance.people.com.cn | 590 |
-| www.gelonghui.com | 377 |
+| www.gelonghui.com | 382 |
 | news.cnstock.com | 219 |
 | finance.china.com.cn | 155 |
 | stock.caijing.com.cn | 114 |
@@ -66,7 +66,7 @@ _In Report? verdicts reflect the brief run of **2026-07-04** (generated 2026-07-
 | house.hexun.com | 1 |
 | hn.mof.gov.cn | 1 |
 
-## 2026-07-05 — 46 articles
+## 2026-07-05 — 58 articles
 | Article | Outlet | Published | In Report? | Reason |
 |---|---|---|---|---|
 | [车船税调整，新能源汽车步入市场驱动新阶段](https://finance.eastmoney.com/a/202607043794217413.html) | finance.eastmoney.com | 2027-01-01 | ➖ | Not evaluated in the latest brief run |
@@ -99,6 +99,12 @@ _In Report? verdicts reflect the brief run of **2026-07-04** (generated 2026-07-
 | [亨利香恩服务公布2026年业绩指引 承诺年内实现利润改善](https://www.eeo.com.cn/2026/0705/943003.shtml) | www.eeo.com.cn | 2026-07-05 | ➖ | Not evaluated in the latest brief run |
 | [英伟达新财报受市场关注 AI基础设施收入分成模式落地](https://www.eeo.com.cn/2026/0704/943000.shtml) | www.eeo.com.cn | 2026-07-04 | ➖ | Not evaluated in the latest brief run |
 | [知名“大空头”伯里宣布做空卡特，引发AI概念股估值讨论](https://www.eeo.com.cn/2026/0704/942998.shtml) | www.eeo.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
+| [泛林集团股价创历史新高后回落 短期走势转弱](https://www.eeo.com.cn/2026/0705/943018.shtml) | www.eeo.com.cn | 2026-07-05 | ➖ | Not evaluated in the latest brief run |
+| [美联储加息预期降温 科尔黛伦矿业股价一度涨超8%](https://www.eeo.com.cn/2026/0705/943016.shtml) | www.eeo.com.cn | 2026-07-05 | ➖ | Not evaluated in the latest brief run |
+| [高途现服务纠纷负面舆情 股价周内微涨0.57%机构评级分化](https://www.eeo.com.cn/2026/0705/943012.shtml) | www.eeo.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
+| [BOSS直聘2025年Q3净利润7.75亿元 研发投入达4.08亿元](https://www.eeo.com.cn/2026/0705/943011.shtml) | www.eeo.com.cn | 2026-07-05 | ➖ | Not evaluated in the latest brief run |
+| [爱彼迎遭芝加哥市政府起诉 被指协助非法短租面临监管风险](https://www.eeo.com.cn/2026/0705/943010.shtml) | www.eeo.com.cn | 2026-07-05 | ➖ | Not evaluated in the latest brief run |
+| [百特国际推进剥离肾脏护理业务，市场关注新战略落地](https://www.eeo.com.cn/2026/0705/943008.shtml) | www.eeo.com.cn | 2026-07-05 | ➖ | Not evaluated in the latest brief run |
 | [普京签署税法修正案，意在提振国内燃油供应](https://www.gelonghui.com/live/2536926) | www.gelonghui.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [Helix正寻求收购美国数据中心资产](https://www.gelonghui.com/live/2536923) | www.gelonghui.com | 2026-07-04 | ➖ | Not evaluated in the latest brief run |
 | [AI行情乍现令人不安讯号](https://www.gelonghui.com/live/2536918) | www.gelonghui.com | unknown | ➖ | Not evaluated in the latest brief run |
@@ -106,7 +112,13 @@ _In Report? verdicts reflect the brief run of **2026-07-04** (generated 2026-07-
 | [何小鹏：中国智驾领先全球，L2级辅助驾驶将加速出海](https://www.gelonghui.com/live/2536907) | www.gelonghui.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [美伊和平协议使大量原油供应释放，全球供应过剩担忧重燃](https://www.gelonghui.com/live/2536898) | www.gelonghui.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [快讯-格隆汇](https://www.gelonghui.com/live/2536896) | www.gelonghui.com | 2026-07-04 | ➖ | Not evaluated in the latest brief run |
+| [快讯-格隆汇](https://www.gelonghui.com/live/2536957) | www.gelonghui.com | 2026-07-05 | ➖ | Not evaluated in the latest brief run |
+| [快讯-格隆汇](https://www.gelonghui.com/live/2536956) | www.gelonghui.com | 2026-07-05 | ➖ | Not evaluated in the latest brief run |
+| [巴西财长：政府信贷措施不会削弱货币政策](https://www.gelonghui.com/live/2536955) | www.gelonghui.com | 2026-07-05 | ➖ | Not evaluated in the latest brief run |
+| [国泰海通(601211)：二季度业绩超预期 预计科创投资是核心增量](https://www.gelonghui.com/news/5263062) | www.gelonghui.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [嘉友国际(603871)：贸易修复、物流成长 估值上行](https://www.gelonghui.com/news/5263060) | www.gelonghui.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [楼剑锋出任华友控股集团总裁](https://www.nbd.com.cn/articles/2026-07-04/4452339.html) | www.nbd.com.cn | 2026-07-04 | ➖ | Not evaluated in the latest brief run |
+| [63岁女富豪贪小利搞内幕交易被捕，浙江女富豪曹佩凤被判三缓四，作案时其丈夫为上市公司董事长后由其子接任](https://www.nbd.com.cn/articles/2026-07-04/4452152.html) | www.nbd.com.cn | 2026-07-04 | ➖ | Not evaluated in the latest brief run |
 | [医疗数据价值化迎行业级实践 制度技术生态协同破局流通瓶颈](https://www.stcn.com/article/detail/3998516.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [“数据要素×”大赛北京分赛正式启动 北京数据要素建设亮出阶段性成绩单](https://www.stcn.com/article/detail/3998515.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [8700亿板块迎来重要催化，兼具低PE+高股息的股票出炉（附名单）](https://www.stcn.com/article/detail/3998530.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
