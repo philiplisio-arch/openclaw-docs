@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-04 12:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-04 15:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-04 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **2329 unique auto/NEV articles** across **19 outlets**
+## Cumulative: **2334 unique auto/NEV articles** across **19 outlets**
 
 ## New per day
 | date | new articles |
@@ -36,13 +36,13 @@ _Updated 2026-07-04 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-01 | 84 |
 | 2026-07-02 | 66 |
 | 2026-07-03 | 84 |
-| 2026-07-04 | 23 |
+| 2026-07-04 | 28 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 524 |
+| www.d1ev.com | 529 |
 | www.caam.org.cn | 173 |
 | 36kr.com | 111 |
 | www.stcn.com | 110 |
@@ -63,7 +63,7 @@ _Updated 2026-07-04 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-04 — 23 articles
+### 2026-07-04 — 28 articles
 - **[世界模型在自动驾驶应用，为什么卡在施工道路？](https://36kr.com/p/3879792818977411)** — _36kr.com_ · published 2026-07-04
   世界模型在自动驾驶应用，为什么卡在施工道路？ 6月下旬，Waymo宣布召回3871辆Robotaxi，原因是部分车辆在高速道路行驶时，可能未能识别封闭施工区，或错误地优先规避其他风险，导致车辆进入施工道路并继续高速行驶。 这是Waymo近两年多次召回事件中的最新一起，也是不满两月内第二次因现实道路场景触发的召回。就在5月，Waymo还曾因部分车辆无法规避道路
 - **[为了赶上中国速度，31家汽车公司联手了](https://36kr.com/p/3880607578648838)** — _36kr.com_ · published 2026-07-04
@@ -102,6 +102,16 @@ _Updated 2026-07-04 12:12 | discovery-only, zero LLM tokens | runs every 3h_
   近日，宝马iX7纯电旗舰SUV的谍照曝光，预计将在2027年与全新一代X7一同正式发布。这款新车在设计上采用了醒目的双肾格栅和分体式灯组，日间行车灯位于上方，主大灯则下移至车头中部。宝马iX7的门把手被BMW Winglets翼片式设计取代，只需轻微触碰，电动门便会自动开启。车辆配备大尺寸轮圈和略微下沉的车顶线条，加长后车门改善了第三排乘客的上下车便利性。车
 - **[呼应外观设计 吉利银河战舰700内饰公布](https://www.d1ev.com/carnews/xinche/305583)** — _www.d1ev.com_ · date: unknown
   日前，吉利汽车公布了银河战舰700的内饰官图，该车定位插电混动硬派风格SUV，预计将于近期发布。 内饰造型呼应外观，大量使用了平直的线条以及带圆角的矩形元素，同时还大面积配软包材料，以提升整车的高级氛围感。 战舰700配有三幅式多功能方向盘、悬浮式中控屏，同时还供长条状的液晶仪表盘，甚至副驾驶前方也拥有类似的一块屏幕，可显示定位、海拔、车外温度等信息。 中控
+- **[奇瑞接管日产南非工厂，打造非洲制造出口中心，年销量目标超10万](https://www.d1ev.com/newsflash/305601)** — _www.d1ev.com_ · date: unknown
+  奇瑞汽车近日正式接管日产位于南非罗斯林的汽车制造工厂，计划在2027年中期启动整车生产前，投入数百万美元对工厂进行升级改造。奇瑞汽车执行副总裁张贵兵表示，公司希望将南非打造为非洲的制造、出口、研发及区域运营中心，长期目标是将罗斯林工厂转变为集研发、供应链运营和培训于一体的完整汽车中心，以支持奇瑞在南非年销量超过10万辆的目标。 奇瑞已承诺保留该工厂现有的全部
+- **[华为鸿蒙智行问界M9销量破30万，新一代车型三周交付过万！](https://www.d1ev.com/newsflash/305600)** — _www.d1ev.com_ · date: unknown
+  7月4日，华为终端BG CEO何刚宣布，鸿蒙智行问界M9全系累计交付量已突破30万台，其中全新一代问界M9累计交付量超过10000台。全新一代问界M9自6月14日开启全国交付，至今仅三周时间。 全新一代问界M9于5月27日正式发布，提供标准尺寸及Ultimate领世加长版两款车型，定价47.98万元起。新车搭载全新一代鸿蒙智行专属座舱，包括全新的一体式寰宇双
+- **[特斯拉三车霸榜！三年保值率超六成领先国产电动车](https://www.d1ev.com/newsflash/305596)** — _www.d1ev.com_ · date: unknown
+  7月4日，中国汽车流通协会和精真估联合发布了《2026年6月中国汽车保值率研究报告》。报告显示，在三年车龄纯电车保值率榜单中，特斯拉三款车型Model 3、Model X和Model Y分别以61.2%、60.5%和54.2%的保值率包揽前三名，显示出特斯拉在二手市场上的高认可度。比亚迪海鸥以51%的保值率位列第四，而保时捷Taycan以50.6%的保值率排
+- **[电动汽车新国标实施：购车必查三项安全核验！](https://www.d1ev.com/newsflash/305595)** — _www.d1ev.com_ · published 2027-06-30
+  近日，《电动汽车用动力 蓄电池安全要求》（GB38031-2025）正式实施，对 电池安全提出了更高要求，将强制性标准从“5分钟内报警逃生”提升至不起火、不爆炸。为保障消费者权益，购车时可进行三项核验：一是在购车合同中明确注明车辆动力电池符合新国标；二是提车时核对《机动车整车出厂合格证》或《车辆一致性证书》中的执行标准标注；三是对电池存疑时，通过工信部官方渠
+- **[从组织焕新到用户转向，昊铂埃安跑出逆势增长曲线](https://www.d1ev.com/carnews/xinche/305594)** — _www.d1ev.com_ · date: unknown
+  马路上新的埃安变多了。 这种变化并不只体现在街头能见度上，想要改变一个品牌的固有认知，往往需要一场系统性的自我更新。过去半年，昊铂埃安在销量、产品结构、用户构成和品牌表达上，都开始出现新的变化。 2026年的中国车市，仍处在高强度竞争周期。据乘联会阶段性数据，上半年乘用车零售市场整体承压，价格战延续、消费需求分化、品牌淘汰加速，使乘用车市场从增量扩张进入存量
 - **[全球瞭望丨瑞士媒体：中国电动汽车已超欧美竞争对手](https://www.news.cn/world/20260703/45967b7db0ad45b3b9bf81bbb12286da/c.html)** — _www.news.cn_ · published 2026-07-03
   新华社日内瓦7月3日电（记者焦倩）瑞士《新苏黎世报》网站近日刊登评论文章指出，中国制造商在电动汽车领域已经超越欧美竞争对手，欧美通过加征关税来保护本国汽车产业，最终损害的是消费者利益。文章摘要如下： 欧美将自己视为汽车工业的摇篮，但如今中国已成为全球最大的汽车生产国和出口国。 为保护本土汽车产业，欧盟和美国对中国电动汽车加征关税。但中国汽车进入欧洲市场的趋势
 - **[三部门调整节能、新能源汽车车船税优惠 纯电动乘用车、燃料电池乘用车不属于车船税法规定的征税范围，仍不征收车船税](https://www.stcn.com/article/detail/3998200.html)** — _www.stcn.com_ · published 2027-01-01
