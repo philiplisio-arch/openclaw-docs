@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-04 09:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-04 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-04 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **2321 unique auto/NEV articles** across **19 outlets**
+## Cumulative: **2329 unique auto/NEV articles** across **19 outlets**
 
 ## New per day
 | date | new articles |
@@ -36,16 +36,16 @@ _Updated 2026-07-04 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-01 | 84 |
 | 2026-07-02 | 66 |
 | 2026-07-03 | 84 |
-| 2026-07-04 | 15 |
+| 2026-07-04 | 23 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 517 |
+| www.d1ev.com | 524 |
 | www.caam.org.cn | 173 |
+| 36kr.com | 111 |
 | www.stcn.com | 110 |
-| 36kr.com | 110 |
 | www.cada.cn | 89 |
 | egs.stcn.com | 65 |
 | www.news.cn | 57 |
@@ -63,9 +63,11 @@ _Updated 2026-07-04 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-04 — 15 articles
+### 2026-07-04 — 23 articles
 - **[世界模型在自动驾驶应用，为什么卡在施工道路？](https://36kr.com/p/3879792818977411)** — _36kr.com_ · published 2026-07-04
   世界模型在自动驾驶应用，为什么卡在施工道路？ 6月下旬，Waymo宣布召回3871辆Robotaxi，原因是部分车辆在高速道路行驶时，可能未能识别封闭施工区，或错误地优先规避其他风险，导致车辆进入施工道路并继续高速行驶。 这是Waymo近两年多次召回事件中的最新一起，也是不满两月内第二次因现实道路场景触发的召回。就在5月，Waymo还曾因部分车辆无法规避道路
+- **[为了赶上中国速度，31家汽车公司联手了](https://36kr.com/p/3880607578648838)** — _36kr.com_ · published 2026-07-04
+  为了赶上中国速度，31家汽车公司联手了 几十年来，汽车行业一直追求复杂性的优化。比如更高的马力、更多的零部件、更精密的工程技术。如今，这种逻辑正变得不符合发展趋势。因为，电动化时代的竞争不再仅仅关乎电池，更关乎如何以软件化的速度简化制造流程。 很多人把现在形容成新时代的福特“T型车时刻”，重点不再是电动汽车本身，而是汽车制造模式的重塑。所以，真正的竞争战场正
 - **[蔚来维权行动升级：多名侵权者被处罚，法院判决维护品牌名誉](https://www.d1ev.com/newsflash/305565)** — _www.d1ev.com_ · date: unknown
   近日，蔚来法务部通报了近期在抵制网络侵权、维护合法权益方面的进展。蔚来指出，有网络账号在小红书平台发布虚假促销信息，非法套取个人信息，已向公安机关报案，多名嫌疑人被采取刑事强制措施及行政处罚。蔚来提醒广大消费者，公司采取直销模式，未委托第三方销售汽车，切勿采信非官方渠道的购车政策。 蔚来在网络维权方面取得多项生效判决。网络账号“BelieveDB”持有人董宾
 - **[2027年起新能源车不再免车船税，车主需年缴税额](https://www.d1ev.com/newsflash/305563)** — _www.d1ev.com_ · published 2027-01-01
@@ -86,6 +88,20 @@ _Updated 2026-07-04 09:12 | discovery-only, zero LLM tokens | runs every 3h_
   盖世汽车讯 美国电动汽车制造商特斯拉于7月1日上调其在韩国销售的主力车型价格，恰逢其刚刚通过韩国2026年下半年电动汽车普及项目运营商评估，引发外界对补贴制度有效性的质疑。韩国气候能源环境部7月3日回应称，特斯拉并未因通过此次评估而获得更高补贴，反而部分车型因涨价导致可获补贴金额减半。 根据官方数据，特斯拉Model 3 Premium Long Range
 - **[外观前卫轻混加持 2027款起亚Xceed新车图解](https://www.d1ev.com/carnews/xinche/305570)** — _www.d1ev.com_ · date: unknown
   起亚Xceed车型最早可以追溯到2019年，它基于起亚Ceed打造，凭借独特的跨界范收获了不少拥趸。7年过去，2027款起亚Xceed迎来全面焕新，在提升外观设计、内部配置的同时，保留了韩系车型经济耐用的特点。那么，它究竟都有哪些亮点？本期《新车图解》将为您详细解读。 外观：造型前卫 充满未来感 外观方面，新车采用全新的设计语言，和“自家兄弟”起亚EV3有着
+- **[欧盟力推“欧洲制造”电动汽车，70%本地化含量引争议](https://www.d1ev.com/newsflash/305591)** — _www.d1ev.com_ · date: unknown
+  7月4日，欧盟委员会正在推动“欧洲制造”战略，通过制定《工业加速法案》以优先支持主要采用欧洲零部件制造的电动汽车，旨在应对中国企业的竞争。目前，欧盟正在讨论的方案要求电动汽车至少70%的本地化含量。欧洲汽车供应商协会（CLEPA）支持这一提案，认为在欧洲生产的插电式 混合动力汽车和纯电动汽车的欧洲制造零部件占比已达80%至90%，70%的门槛完全具有可实现性
+- **[奇瑞汽车南非罗斯林工厂启动，中国车企非洲首座全资整车制造厂诞生](https://www.d1ev.com/newsflash/305590)** — _www.d1ev.com_ · date: unknown
+  7月4日，奇瑞汽车在南非比勒陀利亚的罗斯林工厂正式启动运营，标志着中国车企在非洲大陆的首座全资整车制造厂的诞生。该工厂曾是日产汽车在南非的唯一整车生产基地，主要生产纳瓦拉皮卡等车型。受日产全球产能重组影响，工厂近年产能利用率走低，2024年产量约1.7万辆。2026年1月，奇瑞与日产达成资产收购协议，日产退出南非本地整车制造，仅保留销售与售后网络。 罗斯林工
+- **[俄罗斯燃油危机催生中国电动车销量激增](https://www.d1ev.com/newsflash/305588)** — _www.d1ev.com_ · date: unknown
+  近日，乌克兰对俄能源基础设施的打击导致俄罗斯汽油和柴油供应紧张，部分地区零售汽油价格攀升至欧洲最高水平。在此背景下，俄罗斯人对中国电动汽车的需求激增。专门经营中国品牌汽车的ENCars公司创始人叶夫根尼·扎别林表示，该公司电动汽车销量从几周前的月销量两到三辆增至目前每天售出两到三辆，需求增长数倍。分析机构Autostat执行董事谢尔盖·乌达洛夫称，电动汽车和
+- **[哈弗H10五色亮相：方盒子新旗舰，1.5T/2.0T混动动力强](https://www.d1ev.com/newsflash/305587)** — _www.d1ev.com_ · date: unknown
+  今日，哈弗SUV宣布了长城旗舰方盒子新车——H10的五款外观配色，分别为鎏金棕、雪峰白、玄夜黑、青峦绿、暮云灰。长城H10是基于长城汽车最新的“归元”平台打造的首款方盒子车型，提供五座和六座两种布局版本。五座版车长为5138mm，六座版车长为5299mm，两者轴距均为3000mm，宽度和高度分别为2050mm和1970mm。动力方面，长城H10提供1.5T插
+- **[新世代iX3首展爆单：宝马终于有能打的纯电车了！](https://www.d1ev.com/news/qiye/305586)** — _www.d1ev.com_ · date: unknown
+  快科技7月4日消息，时隔这么多，宝马终于有一台能打的纯电动车了。 据“宝马客”近日报道，国产全新宝马iX3长轴距版正式在北京多家4S店率先开启线下展示，市场的热情迅速转化为实打实的订单。 实地走访后了解到，在首批参与展示的宝马门店中，累计吸引了接近300组感兴趣的用户到店品鉴，截至目前已收获接近100个意向订单，整体转化接近三成，也就是说，每3组进店看车的客
+- **[宝马iX7纯电SUV谍照曝光，2027年亮相，豪华电动新旗舰！](https://www.d1ev.com/newsflash/305585)** — _www.d1ev.com_ · date: unknown
+  近日，宝马iX7纯电旗舰SUV的谍照曝光，预计将在2027年与全新一代X7一同正式发布。这款新车在设计上采用了醒目的双肾格栅和分体式灯组，日间行车灯位于上方，主大灯则下移至车头中部。宝马iX7的门把手被BMW Winglets翼片式设计取代，只需轻微触碰，电动门便会自动开启。车辆配备大尺寸轮圈和略微下沉的车顶线条，加长后车门改善了第三排乘客的上下车便利性。车
+- **[呼应外观设计 吉利银河战舰700内饰公布](https://www.d1ev.com/carnews/xinche/305583)** — _www.d1ev.com_ · date: unknown
+  日前，吉利汽车公布了银河战舰700的内饰官图，该车定位插电混动硬派风格SUV，预计将于近期发布。 内饰造型呼应外观，大量使用了平直的线条以及带圆角的矩形元素，同时还大面积配软包材料，以提升整车的高级氛围感。 战舰700配有三幅式多功能方向盘、悬浮式中控屏，同时还供长条状的液晶仪表盘，甚至副驾驶前方也拥有类似的一块屏幕，可显示定位、海拔、车外温度等信息。 中控
 - **[全球瞭望丨瑞士媒体：中国电动汽车已超欧美竞争对手](https://www.news.cn/world/20260703/45967b7db0ad45b3b9bf81bbb12286da/c.html)** — _www.news.cn_ · published 2026-07-03
   新华社日内瓦7月3日电（记者焦倩）瑞士《新苏黎世报》网站近日刊登评论文章指出，中国制造商在电动汽车领域已经超越欧美竞争对手，欧美通过加征关税来保护本国汽车产业，最终损害的是消费者利益。文章摘要如下： 欧美将自己视为汽车工业的摇篮，但如今中国已成为全球最大的汽车生产国和出口国。 为保护本土汽车产业，欧盟和美国对中国电动汽车加征关税。但中国汽车进入欧洲市场的趋势
 - **[三部门调整节能、新能源汽车车船税优惠 纯电动乘用车、燃料电池乘用车不属于车船税法规定的征税范围，仍不征收车船税](https://www.stcn.com/article/detail/3998200.html)** — _www.stcn.com_ · published 2027-01-01
