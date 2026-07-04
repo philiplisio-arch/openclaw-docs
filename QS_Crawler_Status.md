@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-05 00:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-05 03:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-05 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **2347 unique auto/NEV articles** across **19 outlets**
+## Cumulative: **2348 unique auto/NEV articles** across **19 outlets**
 
 ## New per day
 | date | new articles |
@@ -37,13 +37,13 @@ _Updated 2026-07-05 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-02 | 66 |
 | 2026-07-03 | 84 |
 | 2026-07-04 | 38 |
-| 2026-07-05 | 3 |
+| 2026-07-05 | 4 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 538 |
+| www.d1ev.com | 539 |
 | www.caam.org.cn | 173 |
 | 36kr.com | 111 |
 | www.stcn.com | 110 |
@@ -64,13 +64,15 @@ _Updated 2026-07-05 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-05 — 3 articles
+### 2026-07-05 — 4 articles
 - **[“合规护航 稳拓海外”长三角汽车零部件企业出海合规与实操交流会成功举办！](https://www.d1ev.com/news/shichang/305618)** — _www.d1ev.com_ · published 2026-07-02
   2026年7月2日，由上海市汽车零部件行业协会和上海车展管理有限公司联合主办的“合规护航 稳拓海外”长三角汽车零部件企业出海合规与实操交流会在国家会展中心（上海）召开。上海市国际展览（集团）有限公司总裁徐佳、上海市汽车零部件行业协会秘书长樊泽芳、上海外联发商务咨询有限公司副总经理谢勇出席会议。长三角汽车相关产业100余家企业代表参加本次活动。 上海市国际展览
 - **[“哈尔滨、武汉、厦门入围NIODay2026，蔚来汽车年度盛会即将揭晓”](https://www.d1ev.com/newsflash/305615)** — _www.d1ev.com_ · date: unknown
   7月4日，蔚来汽车宣布了NIODay2026的申办城市最新进展，哈尔滨、武汉、厦门三座城市成功入围下一阶段。今年参与申办的城市包括长春、重庆、哈尔滨、济南、南京、青岛、武汉、厦门。蔚来官方尚未公布NIODay2026的具体举办时间和活动内容，但根据以往惯例，预计会有重磅产品发布。 自2017年起，NIODay已成功举办九届，每一届都有重要产品和技术发布。20
 - **[中国智驾技术全球领先，小鹏汽车何小鹏看好年底“走出去”](https://www.d1ev.com/newsflash/305614)** — _www.d1ev.com_ · date: unknown
   7月4日，小鹏汽车董事长兼CEO 何小鹏在接受第一财经采访时表示，中国在辅助驾驶领域无论是技术产品还是相关法规制定都处于全球领先地位。他指出，目前只有中国和美国实现了L2级辅助驾驶的大规模落地，而包括欧盟在内的其他地区尚未跟进。6月25日，中国牵头制定的联合国 自动驾驶系统全球技术法规获批发布，何小鹏认为这标志着从今年12月起，NGP、NOA等L2级驾驶辅助
+- **[2027年起新能源车将不再免征车船税，油电同权时代来临](https://www.d1ev.com/newsflash/305619)** — _www.d1ev.com_ · published 2027-01-01
+  近日，社交平台上关于新能源车是否应缴纳养路费的讨论引发热议。燃油车车主认为，新能源车长期享受税费全免政策，导致燃油车车主间接承担了养路成本，规则设计上有失公平。而新能源车主则认为，国内新能源车行业仍处于普及培育阶段，税费优惠或减免政策应继续延续，以支撑消费者购车热情，帮助行业度过成长期。 财政部、税务总局、工业和信息化部三部门联合发布公告，明确自2027年1
 
 ### 2026-07-04 — 38 articles
 - **[世界模型在自动驾驶应用，为什么卡在施工道路？](https://36kr.com/p/3879792818977411)** — _36kr.com_ · published 2026-07-04
