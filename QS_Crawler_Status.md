@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-04 06:11 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-04 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-04 06:11 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **2315 unique auto/NEV articles** across **19 outlets**
+## Cumulative: **2321 unique auto/NEV articles** across **19 outlets**
 
 ## New per day
 | date | new articles |
@@ -36,16 +36,16 @@ _Updated 2026-07-04 06:11 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-01 | 84 |
 | 2026-07-02 | 66 |
 | 2026-07-03 | 84 |
-| 2026-07-04 | 9 |
+| 2026-07-04 | 15 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 513 |
+| www.d1ev.com | 517 |
 | www.caam.org.cn | 173 |
+| www.stcn.com | 110 |
 | 36kr.com | 110 |
-| www.stcn.com | 108 |
 | www.cada.cn | 89 |
 | egs.stcn.com | 65 |
 | www.news.cn | 57 |
@@ -63,7 +63,7 @@ _Updated 2026-07-04 06:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-04 — 9 articles
+### 2026-07-04 — 15 articles
 - **[世界模型在自动驾驶应用，为什么卡在施工道路？](https://36kr.com/p/3879792818977411)** — _36kr.com_ · published 2026-07-04
   世界模型在自动驾驶应用，为什么卡在施工道路？ 6月下旬，Waymo宣布召回3871辆Robotaxi，原因是部分车辆在高速道路行驶时，可能未能识别封闭施工区，或错误地优先规避其他风险，导致车辆进入施工道路并继续高速行驶。 这是Waymo近两年多次召回事件中的最新一起，也是不满两月内第二次因现实道路场景触发的召回。就在5月，Waymo还曾因部分车辆无法规避道路
 - **[蔚来维权行动升级：多名侵权者被处罚，法院判决维护品牌名誉](https://www.d1ev.com/newsflash/305565)** — _www.d1ev.com_ · date: unknown
@@ -78,8 +78,20 @@ _Updated 2026-07-04 06:11 | discovery-only, zero LLM tokens | runs every 3h_
   本期全球前沿汽车技术动向如下，如需更具体的内容与分析解读，欢迎订购盖世汽车研究院《全球前瞻技术情报》。 智能网联 通用汽车将5G、Wi-Fi、UWB和GNSS集成到安装在车顶的互联中心模块中 通用汽车推出车顶互联中心模块（CHM），将5G、Wi-Fi、蓝牙、UWB、GNSS及处理器等集成于单一模块，替代传统鲨鱼鳍天线与TCU架构。 该方案减少线束和连接器数量
 - **[50万预算选9系SUV，理想L9、问界M9、蔚来ES9、极氪9X谁更值？](https://www.d1ev.com/newsflash/305568)** — _www.d1ev.com_ · date: unknown
   近日，随着新能源汽车市场的蓬勃发展，大型SUV细分市场迎来了快速增长。2024年一季度，大型SUV的增速高达169%，成为市场的新焦点。在这一背景下，理想L9、问界M9、蔚来ES9和极氪9X等四款热门9系SUV成为消费者的关注焦点。 这四款SUV在外观设计上各具特色，理想L9延续了家族化设计，蔚来ES9则在ES8的基础上增加了水晶灯等装饰。问界M9和极氪9X
+- **[领克20三季度上市：激光雷达加持，智能驾驶升级！](https://www.d1ev.com/newsflash/305575)** — _www.d1ev.com_ · date: unknown
+  近日，领克汽车发布了领克20无伪装实车图，预计该车型将于今年三季度正式上市。领克20基于领克Z20升级而来，官方表示新车在外观造型上更为精致，运动感得到提升，并新增了激光雷达，全面提升了高阶智能驾驶能力，实现了运动基因与智能科技的双向突破。 领克20延续了领克家族的经典设计风格，灯光系统全面焕新，换装了全新的分体式大灯组。车顶搭载了激光雷达，为高阶智能驾驶功
+- **[宝马iX7谍照曝光：纯电旗舰SUV即将登场，设计科技全面升级](https://www.d1ev.com/newsflash/305574)** — _www.d1ev.com_ · date: unknown
+  近日，德国豪华品牌宝马宣布将在2027年推出换代X7，并首次带来纯电版iX7。iX7将延续全新iX5的技术路线，外观设计更接近中期改款i7。最新谍照显示，车头将采用醒目的双肾格栅和分体式灯组，纤细的日间行车灯位于上方，主大灯则下移至车头中部。传统门把手将被BMW Winglets翼片式设计取代，乘客只需轻微触碰，电动门便会自动开启。新车还会配备大尺寸轮圈和略
+- **[特斯拉在韩国通过电动车补贴项目评估后上调车型售价](https://www.d1ev.com/news/shichang/305571)** — _www.d1ev.com_ · date: unknown
+  盖世汽车讯 美国电动汽车制造商特斯拉于7月1日上调其在韩国销售的主力车型价格，恰逢其刚刚通过韩国2026年下半年电动汽车普及项目运营商评估，引发外界对补贴制度有效性的质疑。韩国气候能源环境部7月3日回应称，特斯拉并未因通过此次评估而获得更高补贴，反而部分车型因涨价导致可获补贴金额减半。 根据官方数据，特斯拉Model 3 Premium Long Range
+- **[外观前卫轻混加持 2027款起亚Xceed新车图解](https://www.d1ev.com/carnews/xinche/305570)** — _www.d1ev.com_ · date: unknown
+  起亚Xceed车型最早可以追溯到2019年，它基于起亚Ceed打造，凭借独特的跨界范收获了不少拥趸。7年过去，2027款起亚Xceed迎来全面焕新，在提升外观设计、内部配置的同时，保留了韩系车型经济耐用的特点。那么，它究竟都有哪些亮点？本期《新车图解》将为您详细解读。 外观：造型前卫 充满未来感 外观方面，新车采用全新的设计语言，和“自家兄弟”起亚EV3有着
 - **[全球瞭望丨瑞士媒体：中国电动汽车已超欧美竞争对手](https://www.news.cn/world/20260703/45967b7db0ad45b3b9bf81bbb12286da/c.html)** — _www.news.cn_ · published 2026-07-03
   新华社日内瓦7月3日电（记者焦倩）瑞士《新苏黎世报》网站近日刊登评论文章指出，中国制造商在电动汽车领域已经超越欧美竞争对手，欧美通过加征关税来保护本国汽车产业，最终损害的是消费者利益。文章摘要如下： 欧美将自己视为汽车工业的摇篮，但如今中国已成为全球最大的汽车生产国和出口国。 为保护本土汽车产业，欧盟和美国对中国电动汽车加征关税。但中国汽车进入欧洲市场的趋势
+- **[三部门调整节能、新能源汽车车船税优惠 纯电动乘用车、燃料电池乘用车不属于车船税法规定的征税范围，仍不征收车船税](https://www.stcn.com/article/detail/3998200.html)** — _www.stcn.com_ · published 2027-01-01
+  证券时报记者 贺觉渊 7月3日，财政部、税务总局、工业和信息化部联合发布公告明确，自2027年1月1日起，取消对节能汽车减半征收车船税政策，取消对纯电动商用车、插电式（含增程式）混合动力汽车、燃料电池商用车免征车船税政策。 车船税是一种财产税，对车辆、船舶所有人或者管理人每年征收。早在2012年，三部门便发布公告，对符合条件的节能汽车减半征收车船税，对符合条
+- **[时报数说 中国乘用车欧洲市场份额首超日本](https://www.stcn.com/article/detail/3998216.html)** — _www.stcn.com_ · date: unknown
+  移动版 网页版 首页 快讯 新闻 要闻 金融 评论 产经 创投 滚动 视频 视频 直播 路演 投资 A股 公司 新股 基金 港美股 数据 数据资讯 盯盘面 看资金 追风向 解财报 淘新股 再融资 港股 基金 信披+ 全部 沪市主板 深市主板 科创板 创业板 北交所 新三板 深股通 沪股通 专题 地方 京 津 冀 晋 蒙 辽 吉 黑 沪 苏 浙 皖 闽 赣 鲁
 - **[车船税调整，拉开了油电同权改革大幕](https://www.yicai.com/news/103260226.html)** — _www.yicai.com_ · date: unknown
   {{aisd}} AI生成 免责声明 近日，新能源汽车税收优惠政策再迎调整。随着车船税免征范围收窄，新能源车与传统燃油车在税收等待遇上的“同权”趋势愈发明显。 有业内人士向记者表示，车船税每年缴纳金额通常在几百元量级，对车主实际负担影响有限，但此次政策释放的信号极为明确——新能源汽车税收优惠体系正在有序退坡。 今年6月，第一财经独家调查报道《道路养护资金已陷
 
