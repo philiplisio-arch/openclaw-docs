@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-04 15:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-04 18:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-04 15:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **2334 unique auto/NEV articles** across **19 outlets**
+## Cumulative: **2340 unique auto/NEV articles** across **19 outlets**
 
 ## New per day
 | date | new articles |
@@ -36,20 +36,20 @@ _Updated 2026-07-04 15:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-01 | 84 |
 | 2026-07-02 | 66 |
 | 2026-07-03 | 84 |
-| 2026-07-04 | 28 |
+| 2026-07-04 | 34 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 529 |
+| www.d1ev.com | 534 |
 | www.caam.org.cn | 173 |
 | 36kr.com | 111 |
 | www.stcn.com | 110 |
 | www.cada.cn | 89 |
 | egs.stcn.com | 65 |
 | www.news.cn | 57 |
-| www.yicai.com | 35 |
+| www.yicai.com | 36 |
 | www.xinhuanet.com | 23 |
 | www.zqrb.cn | 15 |
 | cn.chinadaily.com.cn | 15 |
@@ -63,7 +63,7 @@ _Updated 2026-07-04 15:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-04 — 28 articles
+### 2026-07-04 — 34 articles
 - **[世界模型在自动驾驶应用，为什么卡在施工道路？](https://36kr.com/p/3879792818977411)** — _36kr.com_ · published 2026-07-04
   世界模型在自动驾驶应用，为什么卡在施工道路？ 6月下旬，Waymo宣布召回3871辆Robotaxi，原因是部分车辆在高速道路行驶时，可能未能识别封闭施工区，或错误地优先规避其他风险，导致车辆进入施工道路并继续高速行驶。 这是Waymo近两年多次召回事件中的最新一起，也是不满两月内第二次因现实道路场景触发的召回。就在5月，Waymo还曾因部分车辆无法规避道路
 - **[为了赶上中国速度，31家汽车公司联手了](https://36kr.com/p/3880607578648838)** — _36kr.com_ · published 2026-07-04
@@ -112,6 +112,16 @@ _Updated 2026-07-04 15:12 | discovery-only, zero LLM tokens | runs every 3h_
   近日，《电动汽车用动力 蓄电池安全要求》（GB38031-2025）正式实施，对 电池安全提出了更高要求，将强制性标准从“5分钟内报警逃生”提升至不起火、不爆炸。为保障消费者权益，购车时可进行三项核验：一是在购车合同中明确注明车辆动力电池符合新国标；二是提车时核对《机动车整车出厂合格证》或《车辆一致性证书》中的执行标准标注；三是对电池存疑时，通过工信部官方渠
 - **[从组织焕新到用户转向，昊铂埃安跑出逆势增长曲线](https://www.d1ev.com/carnews/xinche/305594)** — _www.d1ev.com_ · date: unknown
   马路上新的埃安变多了。 这种变化并不只体现在街头能见度上，想要改变一个品牌的固有认知，往往需要一场系统性的自我更新。过去半年，昊铂埃安在销量、产品结构、用户构成和品牌表达上，都开始出现新的变化。 2026年的中国车市，仍处在高强度竞争周期。据乘联会阶段性数据，上半年乘用车零售市场整体承压，价格战延续、消费需求分化、品牌淘汰加速，使乘用车市场从增量扩张进入存量
+- **[海南首开右舵车测试，车企出海东盟更便捷！](https://www.d1ev.com/newsflash/305609)** — _www.d1ev.com_ · date: unknown
+  7月4日，中国·海南—东盟汽车测试与标定合作项目在海南海口正式启动，标志着全国首个系统性右舵出口车型公开道路定型测试创新机制在海口江东新区落地。该项目填补了国内无规模化右舵车辆道路定型测试场景的空白，为国内车企提供了在海南完成适配东盟路况、气候、法规的全流程整车道路标定的便利，有效压缩海外测试资金、时间成本，缩短车型研发迭代周期。 官方表示，未来将推动中国与
+- **[海南2030年全面禁售燃油车，新能源车占比将达45%](https://www.d1ev.com/newsflash/305606)** — _www.d1ev.com_ · date: unknown
+  7月4日，海南省人民政府发布了《“十五五”海南国家生态文明试验区规划（美丽海南建设“十五五”规划）》，明确提出到2030年将禁售燃油车，并预计届时新能源汽车保有量占比将从2025年的23.75%提升至45%。在“十四五”时期，海南的清洁能源岛建设已深化升级，新能源成为海南第一大电源，新能源汽车市场渗透率、保有量占比分别居全国省级地区第一、第二。 《规划》中指
+- **[中国新能源车海外销量飙升：1](https://www.d1ev.com/newsflash/305605)** — _www.d1ev.com_ · date: unknown
+  今日，乘联分会秘书长崔东树公布了中国海外市场自主品牌汽车的销量数据。2026年5月，中国海外市场自主品牌销量达到44万台，同比增长60%。1-5月累计销量为196万台，同比增长同样为60%。在海外市场，中国汽车品牌的份额存在显著差异，南半球为20%，欧洲为11%，东南亚和中东约为8%，主流地区份额在10%左右。新能源车在全球的份额为23.5%，其中欧洲为17
+- **[比亚迪方程豹豹5三周年特别版车衣发布，售价3999元](https://www.d1ev.com/newsflash/305604)** — _www.d1ev.com_ · published 2026-07-31
+  7月4日，比亚迪集团方程豹事业部总经理熊甜波宣布，为庆祝方程豹豹5定名三周年，特别版车衣已在方程豹汽车小程序上架，售价3999元，包含材料费与工时费，或可用79980积分抵扣。特别版车衣提供户外款和城市款两种选择，具体概念图已公布。此外，方程豹豹5210KM天神MAX版自5月15日上市以来，限时惊喜价为25.38万元，优惠截止至2026年7月31日。 方程豹
+- **[问界M9销量破30万，新款车型3周破万纪录！](https://www.d1ev.com/newsflash/305603)** — _www.d1ev.com_ · date: unknown
+  7月4日，华为余承东宣布，问界M9全系累计交付量突破30万台，上市两年多来迎来新的里程碑。全新一代问界M9开启交付3周内突破1万台，创下50万级交付最快破万纪录。余承东表示，这一成绩离不开车主的选择与支持，未来将持续提供更好的出行体验。 问界M9作为一款中大型家用SUV，市场热度一直很高。目前订车可获得最高56000元的购车福利，老车主增换购 补贴最多可减免
 - **[全球瞭望丨瑞士媒体：中国电动汽车已超欧美竞争对手](https://www.news.cn/world/20260703/45967b7db0ad45b3b9bf81bbb12286da/c.html)** — _www.news.cn_ · published 2026-07-03
   新华社日内瓦7月3日电（记者焦倩）瑞士《新苏黎世报》网站近日刊登评论文章指出，中国制造商在电动汽车领域已经超越欧美竞争对手，欧美通过加征关税来保护本国汽车产业，最终损害的是消费者利益。文章摘要如下： 欧美将自己视为汽车工业的摇篮，但如今中国已成为全球最大的汽车生产国和出口国。 为保护本土汽车产业，欧盟和美国对中国电动汽车加征关税。但中国汽车进入欧洲市场的趋势
 - **[三部门调整节能、新能源汽车车船税优惠 纯电动乘用车、燃料电池乘用车不属于车船税法规定的征税范围，仍不征收车船税](https://www.stcn.com/article/detail/3998200.html)** — _www.stcn.com_ · published 2027-01-01
@@ -120,6 +130,8 @@ _Updated 2026-07-04 15:12 | discovery-only, zero LLM tokens | runs every 3h_
   移动版 网页版 首页 快讯 新闻 要闻 金融 评论 产经 创投 滚动 视频 视频 直播 路演 投资 A股 公司 新股 基金 港美股 数据 数据资讯 盯盘面 看资金 追风向 解财报 淘新股 再融资 港股 基金 信披+ 全部 沪市主板 深市主板 科创板 创业板 北交所 新三板 深股通 沪股通 专题 地方 京 津 冀 晋 蒙 辽 吉 黑 沪 苏 浙 皖 闽 赣 鲁
 - **[车船税调整，拉开了油电同权改革大幕](https://www.yicai.com/news/103260226.html)** — _www.yicai.com_ · date: unknown
   {{aisd}} AI生成 免责声明 近日，新能源汽车税收优惠政策再迎调整。随着车船税免征范围收窄，新能源车与传统燃油车在税收等待遇上的“同权”趋势愈发明显。 有业内人士向记者表示，车船税每年缴纳金额通常在几百元量级，对车主实际负担影响有限，但此次政策释放的信号极为明确——新能源汽车税收优惠体系正在有序退坡。 今年6月，第一财经独家调查报道《道路养护资金已陷
+- **[安波福回应芯片紧缺：已使用大模型预警 启动国产芯片备份](https://www.yicai.com/news/103260488.html)** — _www.yicai.com_ · date: unknown
+  {{aisd}} AI生成 免责声明 在本周举行的2026慕尼黑上海电子展期间，汽车行业“缺芯”的话题引发广泛关注。随着汽车智能驾驶系统越来越先进，汽车信息娱乐系统能耗越来越大，芯片也成为汽车生产中至关重要的一部分。 全球工业科技公司安波福（Aptiv）日前向第一财经记者回应了公司如何应对芯片的涨价和缺货情况。 安波福方面表示，从去年下半年开始，全球存储芯片
 
 ### 2026-07-03 — 84 articles
 - **[氪星晚报｜证监会同意宇树科技科创板IPO注册；Meta“带崩”科技股？业内人士：算力过剩系误读-36氪](https://36kr.com/p/3878550357946625)** — _36kr.com_ · published 2026-07-03
