@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-05 21:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-06 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-05 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **2371 unique auto/NEV articles** across **19 outlets**
+## Cumulative: **2376 unique auto/NEV articles** across **19 outlets**
 
 ## New per day
 | date | new articles |
@@ -38,19 +38,20 @@ _Updated 2026-07-05 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-03 | 84 |
 | 2026-07-04 | 38 |
 | 2026-07-05 | 27 |
+| 2026-07-06 | 5 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 557 |
+| www.d1ev.com | 561 |
 | www.caam.org.cn | 173 |
 | 36kr.com | 113 |
 | www.stcn.com | 111 |
 | www.cada.cn | 90 |
 | egs.stcn.com | 66 |
 | www.news.cn | 57 |
-| www.yicai.com | 39 |
+| www.yicai.com | 40 |
 | www.xinhuanet.com | 23 |
 | www.zqrb.cn | 15 |
 | cn.chinadaily.com.cn | 15 |
@@ -63,6 +64,18 @@ _Updated 2026-07-05 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 | gd.chinadaily.com.cn | 1 |
 
 ## Articles captured by day (newest first)
+
+### 2026-07-06 — 5 articles
+- **[零跑B01/B10新车型曝光：50英寸AR](https://www.d1ev.com/newsflash/305664)** — _www.d1ev.com_ · date: unknown
+  近日，零跑汽车公布了全新B01/B10座舱细节，两款新车预计不久将上市。全新B01车型配备了50英寸虚实融合AR-HUD、17.3英寸3K超清中控屏等高科技配置，同时提供LeapSound14扬声器和主驾头枕扬声器等多种模式。而全新B10车型则以舒适性为卖点，搭载124°前排双零重力座椅，具备吸风式通风、加热、记忆&迎宾等功能，以及10点式按摩和4向腿托等豪
+- **[奇瑞汽车南非工厂升级改造 2027年投产年产5万辆](https://www.d1ev.com/newsflash/305663)** — _www.d1ev.com_ · date: unknown
+  7月3日，奇瑞汽车在南非罗斯林工厂举行了启动仪式，并宣布对该工厂进行全面升级改造。该工厂预计将在2027年中正式投产，届时年产能将达到单班5万辆。罗斯林工厂始建于1963年，原属于日产汽车。2026年1月，奇瑞汽车与日产达成协议，成功收购了这座历史悠久的工厂。 奇瑞汽车承诺保留工厂现有全部692名员工，并计划通过此次升级改造带动产业链上下游3000个就业岗位
+- **[吉利银河TT纯电轿车亮相：激光雷达+超长续航，动力强劲！](https://www.d1ev.com/newsflash/305661)** — _www.d1ev.com_ · date: unknown
+  7月5日，吉利汽车发布了旗下C级AI纯电运动轿车银河TT的官图，并宣布该车型将于次日正式亮相。银河TT的前脸设计采用了封闭式前格栅，并配备L形大灯组，车顶装备了激光雷达，可能搭载千里浩瀚辅助驾驶H7方案。车身设计上，采用了双五辐式轮圈和半隐藏式门把手，车尾则配备了贯穿式尾灯组及随速电动尾翼。 在规格方面，银河TT的长宽高分别为4999x1919x1479mm
+- **[保时捷内地停接新订单，纯电车型面临“空窗期”](https://www.d1ev.com/newsflash/305660)** — _www.d1ev.com_ · date: unknown
+  7月5日，保时捷宣布在中国内地停止接收Taycan和Macan EV的个性化选装新订单，消费者只能购买现车和在途车辆。今年4月，保时捷推出了纯电Cayenne Turbo和Turbo Coupé，但4S店要到10月才能拿到配额，预计年底至明年一季度首批交付。这意味着从2026年7月至年末，保时捷纯电车型将面临新车交付的空窗期。 保时捷2026年一季度全球交付
+- **[全球电动化迎重要拐点：中国车欧洲份额首超日本](https://www.yicai.com/news/103260816.html)** — _www.yicai.com_ · date: unknown
+  {{aisd}} AI生成 免责声明 电动化趋势使得中国车企在全球市场的竞争优势开始显现。 欧洲汽车制造商协会（ACEA）近期发布的统计数据显示，2026年5月，中国车企在欧洲【欧盟27国+英国+欧洲自由贸易联盟（EFTA）】的月度新车注册量首次超越日本车企。 无论是狭义的欧盟口径，还是拓展至欧盟+英国+EFTA的口径，五家中国主力车企5月新车注册总量同比增
 
 ### 2026-07-05 — 27 articles
 - **[汽车零部件巨头们，对人形机器人“上头”了](https://36kr.com/p/3882021170589699)** — _36kr.com_ · published 2026-07-05
