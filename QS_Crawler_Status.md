@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-05 09:11 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-05 12:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-05 09:11 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **2352 unique auto/NEV articles** across **19 outlets**
+## Cumulative: **2354 unique auto/NEV articles** across **19 outlets**
 
 ## New per day
 | date | new articles |
@@ -37,13 +37,13 @@ _Updated 2026-07-05 09:11 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-02 | 66 |
 | 2026-07-03 | 84 |
 | 2026-07-04 | 38 |
-| 2026-07-05 | 8 |
+| 2026-07-05 | 10 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 542 |
+| www.d1ev.com | 544 |
 | www.caam.org.cn | 173 |
 | 36kr.com | 112 |
 | www.stcn.com | 110 |
@@ -64,7 +64,7 @@ _Updated 2026-07-05 09:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-05 — 8 articles
+### 2026-07-05 — 10 articles
 - **[汽车零部件巨头们，对人形机器人“上头”了](https://36kr.com/p/3882021170589699)** — _36kr.com_ · published 2026-07-05
   汽车零部件巨头们，对人形机器人“上头”了 2050年，全球人形机器人会有多少？摩根士丹利说，10亿台。外加市场规模，7.5万亿美元。 这是美国投资银行摩根士丹利去年12月发布的经过调整的预测报告中，描绘的宏大愿景。还有更激进的，马斯克曾预测2040年会达到100亿台。今年的访谈中，他更新了看法：觉得那还是个保守数字。真正的瓶颈是金属和供应链，两年内机器人就会
 - **[“合规护航 稳拓海外”长三角汽车零部件企业出海合规与实操交流会成功举办！](https://www.d1ev.com/news/shichang/305618)** — _www.d1ev.com_ · published 2026-07-02
@@ -81,6 +81,10 @@ _Updated 2026-07-05 09:11 | discovery-only, zero LLM tokens | runs every 3h_
   快科技7月5日消息，据报道，连日来俄罗斯大部分地区加油站排起长龙，汽油和柴油供应持续紧张，多数地区已实施限油措施。 报道称，俄罗斯部分地区零售汽油价格已攀升至欧洲最高水平之列。实际上，燃料配给早在数月前就已蔓延至莫斯科和圣彼得堡等核心城市。 燃油短缺正意外催热俄罗斯新能源汽车市场，中国品牌成为最大受益者。 专门销售中国品牌汽车的EN Cars公司创始人扎别林
 - **[特斯拉北美推出夏日系列新品，Model Y车载冰箱、露营装备亮相](https://www.d1ev.com/newsflash/305621)** — _www.d1ev.com_ · date: unknown
   近日，特斯拉在北美线上商城推出了一系列全新「夏日系列」产品，旨在提升户外出行体验。这些产品包括车载冰箱、保温冰桶、车尾遮阳天幕等，专为Model Y设计。其中，一款即插即用的车载冰箱售价595美元，可嵌入Model Y下层储物槽，配备双独立制冷舱，温度调节范围从0华氏度至68华氏度。此外，还有专为Model Y设计的保温冰桶，售价245美元，以及官方定制车尾
+- **[丰田大动作：统一术语体系，AI助力生产效率飞跃](https://www.d1ev.com/newsflash/305633)** — _www.d1ev.com_ · date: unknown
+  丰田汽车近日宣布将统一企划、生产、销售等部门的专用术语，以削减30%的中间流程，加快汽车生产速度。目前，各部门对零部件规格的叫法各不相同，导致全流程中约195道工序需要跨部门术语转译。丰田正在搭建一套覆盖企划至销售全链路的一体化系统，计划2028年前实现各部门项目协同。这套总控系统将搭载人工智能，把分散在各部门的4.5万个专业术语精简整合为5000套通用标准
+- **[车载音响不能套用欧美方案？岚图卢放：中国人耳道不一样](https://www.d1ev.com/news/qiye/305631)** — _www.d1ev.com_ · date: unknown
+  快科技7月5日消息，岚图汽车CEO卢放日前在微博分享了岚图泰山X8音响系统背后的研发故事。 他表示，有用户在西安门店聊起泰山X8的音响说“在车里听歌是种享受”，这番话背后其实下了很多功夫。 卢放指出，很多人以为音响就是喇叭多、功率大就行，但车内空间狭小封闭，金属件容易反射杂音，不同材质吸音差异大，每个座位离喇叭远近也不同，不做针对性调校音色就会失真。 而直接
 
 ### 2026-07-04 — 38 articles
 - **[世界模型在自动驾驶应用，为什么卡在施工道路？](https://36kr.com/p/3879792818977411)** — _36kr.com_ · published 2026-07-04
