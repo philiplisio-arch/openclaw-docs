@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-06 12:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-06 15:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-06 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **2399 unique auto/NEV articles** across **19 outlets**
+## Cumulative: **2402 unique auto/NEV articles** across **19 outlets**
 
 ## New per day
 | date | new articles |
@@ -38,7 +38,7 @@ _Updated 2026-07-06 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-03 | 84 |
 | 2026-07-04 | 38 |
 | 2026-07-05 | 27 |
-| 2026-07-06 | 28 |
+| 2026-07-06 | 31 |
 
 ## By outlet
 | outlet | articles |
@@ -46,12 +46,12 @@ _Updated 2026-07-06 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 | www.dongchedi.com | 1088 |
 | www.d1ev.com | 575 |
 | www.caam.org.cn | 173 |
+| www.stcn.com | 116 |
 | 36kr.com | 115 |
-| www.stcn.com | 114 |
 | www.cada.cn | 90 |
 | egs.stcn.com | 69 |
 | www.news.cn | 57 |
-| www.yicai.com | 40 |
+| www.yicai.com | 41 |
 | www.xinhuanet.com | 23 |
 | www.zqrb.cn | 15 |
 | cn.chinadaily.com.cn | 15 |
@@ -65,7 +65,7 @@ _Updated 2026-07-06 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-06 — 28 articles
+### 2026-07-06 — 31 articles
 - **[一年落地82项新国标，电车的伪创新正被一一清算](https://36kr.com/p/3883435606994953)** — _36kr.com_ · published 2026-07-06
   一年落地82项新国标，电车的伪创新正被一一清算 2026年车市的竞争已经过半，虽然市场竞争残酷，但回望车市所取得的成绩，却也不少。 新能源渗透率突破60%，自主品牌凭借新能源弯道超车，中国汽车出海也因为新能源表现出色有望突破1000万辆年销量......可以说，短短数年，中国新能源汽车产业已经完成了从追赶、并跑到领跑的三个阶段对应角色的转变，进而改写国内甚至
 - **[平均车龄仅‌1.8年，新能源车主换车这么勤快？](https://36kr.com/p/3882021052313602)** — _36kr.com_ · published 2026-07-06
@@ -119,8 +119,14 @@ _Updated 2026-07-06 12:12 | discovery-only, zero LLM tokens | runs every 3h_
   自2027年1月1日起，节能汽车减半征收车船税政策，以及纯电动商用车、插电式（含增程式）混合动力汽车、燃料电池商用车车船税免征优惠将取消。这意味着，实施15年的新能源汽车车船税优惠政策，正式进入退出倒计时。 今年初，我国新能源汽车购置税已由“全免”调整为“减半征收”且设有免征上限。此番车船税调整，业内认为，随着我国新能源汽车税收优惠体系有序退坡，将推动新能源
 - **[零跑汽车登陆墨西哥，正式进入北美市场](https://www.stcn.com/article/detail/3999585.html)** — _www.stcn.com_ · published 2026-07-02
   证券时报网 许擎天梅 2026-07-02 12:17 人民财讯7月6日电，2026年7月，零跑B10完成墨西哥本土化认证，正式登陆当地市场并启动交付，开启北美市场拓展进程。目前，零跑B10已进入墨西哥各地门店。在此之前，该车型已在Stellantis墨西哥汽车工程研发测试中心完成本土化适配验证。该中心配备全套整车检测、排放、材料及动力测试设施。
+- **[汽车零部件，夹在成本战与价格战中间](https://www.stcn.com/article/detail/3999919.html)** — _www.stcn.com_ · date: unknown
+  2026年过半，国内汽车零部件行业正陷入前所未有的“双重挤压”困境。 从下游终端市场汽车来看，价格战已持续三年有余，从豪华品牌到自主阵营，降价幅度不断刷新认知，车企通过逐年抬升的年度降价向上游转移盈利压力；从上游来看，铜、橡胶、车规芯片等核心原材料同步大幅涨价，成本端压力持续发酵。 价格战的硝烟尚未散去，成本战的烽火已然点燃。零部件企业生存空间被两头压缩，寻
+- **[汽车零部件，夹在成本战与价格战中间](https://www.stcn.com/article/detail/3999859.html)** — _www.stcn.com_ · date: unknown
+  2026年过半，国内汽车零部件行业正陷入前所未有的“双重挤压”困境。 从下游终端市场汽车来看，价格战已持续三年有余，从豪华品牌到自主阵营，降价幅度不断刷新认知，车企通过逐年抬升的年度降价向上游转移盈利压力；从上游来看，铜、橡胶、车规芯片等核心原材料同步大幅涨价，成本端压力持续发酵。 价格战的硝烟尚未散去，成本战的烽火已然点燃。零部件企业生存空间被两头压缩，寻
 - **[全球电动化迎重要拐点：中国车欧洲份额首超日本](https://www.yicai.com/news/103260816.html)** — _www.yicai.com_ · date: unknown
   {{aisd}} AI生成 免责声明 电动化趋势使得中国车企在全球市场的竞争优势开始显现。 欧洲汽车制造商协会（ACEA）近期发布的统计数据显示，2026年5月，中国车企在欧洲【欧盟27国+英国+欧洲自由贸易联盟（EFTA）】的月度新车注册量首次超越日本车企。 无论是狭义的欧盟口径，还是拓展至欧盟+英国+EFTA的口径，五家中国主力车企5月新车注册总量同比增
+- **[汽车零部件，夹在成本战与价格战中间](https://www.yicai.com/news/103261658.html)** — _www.yicai.com_ · date: unknown
+  {{aisd}} AI生成 免责声明 2026年过半，国内汽车零部件行业正陷入前所未有的“双重挤压”困境。 从下游终端市场汽车来看，价格战已持续三年有余，从豪华品牌到自主阵营，降价幅度不断刷新认知，车企通过逐年抬升的年度降价向上游转移盈利压力；从上游来看，铜、橡胶、车规芯片等核心原材料同步大幅涨价，成本端压力持续发酵。 价格战的硝烟尚未散去，成本战的烽火已然
 
 ### 2026-07-05 — 27 articles
 - **[汽车零部件巨头们，对人形机器人“上头”了](https://36kr.com/p/3882021170589699)** — _36kr.com_ · published 2026-07-05
