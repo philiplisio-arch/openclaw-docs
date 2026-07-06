@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-06 21:13 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-07 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-06 21:13 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **2422 unique auto/NEV articles** across **19 outlets**
+## Cumulative: **2433 unique auto/NEV articles** across **19 outlets**
 
 ## New per day
 | date | new articles |
@@ -39,19 +39,20 @@ _Updated 2026-07-06 21:13 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-04 | 38 |
 | 2026-07-05 | 27 |
 | 2026-07-06 | 51 |
+| 2026-07-07 | 11 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 586 |
+| www.d1ev.com | 594 |
 | www.caam.org.cn | 174 |
-| www.stcn.com | 118 |
+| www.stcn.com | 119 |
 | 36kr.com | 117 |
 | www.cada.cn | 92 |
-| egs.stcn.com | 71 |
+| egs.stcn.com | 72 |
 | www.news.cn | 57 |
-| www.yicai.com | 41 |
+| www.yicai.com | 42 |
 | www.xinhuanet.com | 23 |
 | www.zqrb.cn | 15 |
 | cn.chinadaily.com.cn | 15 |
@@ -64,6 +65,29 @@ _Updated 2026-07-06 21:13 | discovery-only, zero LLM tokens | runs every 3h_
 | gd.chinadaily.com.cn | 1 |
 
 ## Articles captured by day (newest first)
+
+### 2026-07-07 — 11 articles
+- **[22:37长城汽车与奥托立夫签署全球战略合作框架协议](https://egs.stcn.com/news/detail/2311544.html)** — _egs.stcn.com_ · date: unknown
+- **[史上最严电池令落地实施 吉利神盾金砖电池多项实测验证“又快又好又安全”](https://www.d1ev.com/news/qiye/305816)** — _www.d1ev.com_ · published 2026-07-01
+  2026年7月1日，被誉为“史上最严”的GB 38031-2025《电动汽车用动力蓄电池安全要求》正式落地实施，首次将电池“不起火、不爆炸”纳入硬性考核标准，并明确电池充电最高温度不得超65℃，新增多项极限测试指标，彻底重塑新能源动力电池安全门槛。依托长期深耕电池安全领域的技术积淀，吉利神盾金砖电池不仅早在2025年便成为首批通过新国标全项认证的电池品牌，更
+- **[汽车电子为什么要选用无硅导热材料](https://www.d1ev.com/news/shichang/305794)** — _www.d1ev.com_ · date: unknown
+  在新能源汽车向高集成、高算力、高精密智能化快速升级的背景下，动力电池、车载电控、智能感知、座舱电子等核心部件发热密度持续攀升，同时激光雷达、车载摄像头、精密电路板、微型电气触点对环境污染物极为敏感。传统硅基导热材料在长期高温工况下易挥发低分子硅氧烷，极易造成光学镜片起雾、成像失真、电气触点碳化、接触电阻异常，最终引发零部件失效、系统故障等可靠性问题，已无法满
+- **[北汽首款电动车BAIC T1将登陆印尼市场](https://www.d1ev.com/news/shichang/305772)** — _www.d1ev.com_ · date: unknown
+  盖世汽车讯 北汽集团即将在印尼推出其首款电动车BAIC T1。该车型是北汽针对印尼市场投放的首款电动车型。 BAIC T1车身尺寸为长4337毫米、宽1860毫米、高1527毫米，轴距达2770毫米，据称在同级车型中轴距最长。该车配备自动泊车功能及12项L2级驾驶辅助功能。 图片来源：极狐 充电方面，BAIC T1支持快充，电池从30%充至80%仅需25分钟
+- **[法拉利推出限量版V12手动变速箱车型](https://www.d1ev.com/news/shichang/305773)** — _www.d1ev.com_ · date: unknown
+  盖世汽车讯 继首款纯电动车型市场反响褒贬不一后，法拉利日前推出一款搭载手动变速箱、12缸发动机的限量跑车，以此吸引偏爱内燃机轰鸣、追求纯粹机械操控感的传统车迷。 法拉利表示，这款12Cilindri Manuale基于2024款12Cilindri打造，专属限量版系列搭载全新线控手动变速箱系统。该车配备传统换挡拨杆，既能还原原汁原味的手动驾驶手感，又兼具现代
+- **[2026年5月中国车企出口新动态：比亚迪拉美一骑绝尘，奇瑞欧洲再创新高丨盖世汽车研究院](https://www.d1ev.com/news/qiye/305757)** — _www.d1ev.com_ · date: unknown
+  根据盖世汽车研究院数据，从2026年5月中国自主车企乘用车出口区域分布来看，比亚迪、吉利控股、奇瑞控股三家中国主流车企的乘用车出口格局呈现出鲜明的差异化特征：比亚迪以“拉美主导、多区域支撑”为结构核心，中美&南美市场以43,924辆遥遥领先；吉利控股则延续“一超引领、多强并进”格局，独联体国家以31,507辆稳居首位；奇瑞控股形成“双核驱动、多点支撑”态势，
+- **[小鹏MONA L03本月10日全国开启试驾](https://www.d1ev.com/news/shichang/305758)** — _www.d1ev.com_ · date: unknown
+  盖世汽车讯 新车亮相后，大量意向用户前往线下展厅实车看车，不少消费者向品牌反馈，希望能够尽快体验实车动态表现。小鹏汽车董事长兼CEO何小鹏表示，自7月10日开始，全国各线下门店会分批开放小鹏MONA L03试驾服务，意向消费者可到店亲身感受整车综合表现。 从产品研发标准来看，小鹏MONA L03在底盘调校、内饰用料、整车安全体系等核心维度，是按照30万元级别
+- **[北京现代艾尼氪V亮相：8款车色+800V快充，纯电/增程双动力来袭！](https://www.d1ev.com/newsflash/305815)** — _www.d1ev.com_ · date: unknown
+  今日，北京现代公布了艾尼氪V的8款车色命名，分别为赛博金、次元紫、伽马绿、磁力灰、光子白（素色漆）、光子白（哑光漆）、流光银、夜刃黑。4月24日 北京车展上，艾尼氪金星（IONIQ V）进行了全球首秀，未来在中国推出的车型与服务将以行星命名，全系产品将由中国设计团队原创打造。这款车型基于E-GMP纯电平台打造，支持纯电/增程双动力，具备800V快充和高效电驱
+- **[吉利银河TT全球首秀：AI纯电运动轿车亮相，续航高达725km！](https://www.d1ev.com/newsflash/305809)** — _www.d1ev.com_ · date: unknown
+  7月6日，吉利汽车在“吉利银河TT全球首秀”活动中正式发布了AI纯电运动轿车——吉利银河TT。这款新车主要针对年轻消费者，采用全新的设计语言，封闭式前格栅与狭长圆润的前大灯组相结合，展现出年轻化的视觉效果。内饰方面，银河TT采用环抱式座舱设计，并提供四种主题方案。FlymeAuto2代座舱集成了液晶仪表、大尺寸中控屏和AR-HUD抬头显示，支持三屏联动操作。
+- **[长城汽车与奥托立夫签署全球战略合作框架协议](https://www.stcn.com/article/detail/4001037.html)** — _www.stcn.com_ · published 2026-07-01
+  证券时报网 李在山 2026-07-01 19:38 人民财讯7月6日电，据长城汽车消息，7月6日，长城汽车与奥托立夫（Autoliv）（上海）管理有限公司正式签署了《全球战略合作框架协议》。此次协议的签署，标志着双方持续二十多年的合作进入了“全球范围实现供应链一体化和技术协同”的新阶段。根据最新的《全球战略合作框架协议》，双方将在全球业务拓展、供应链协作、
+- **[一家百强车商调薪折射出行业困局：7月中高层薪资停发，基层统一七折](https://www.yicai.com/news/103262426.html)** — _www.yicai.com_ · date: unknown
+  {{aisd}} AI生成 免责声明 近日，某全国百强经销商集团内部发布的"关于集团经营检讨及薪酬考核管控通知"在网上流传。通知称，因集团今年二季度出现大额亏损，集团本部及以总经理为经营单位的亏损板块内，经理级及以上人员7月薪资归零，本部基层员工工资按7折发放。 通知指出，当前二季度集团出现大额亏损，投资人已无法持续承担依靠贷款发放全员薪资的经营压力。所有亏
 
 ### 2026-07-06 — 51 articles
 - **[一年落地82项新国标，电车的伪创新正被一一清算](https://36kr.com/p/3883435606994953)** — _36kr.com_ · published 2026-07-06
