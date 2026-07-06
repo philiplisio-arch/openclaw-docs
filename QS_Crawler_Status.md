@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-06 06:11 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-06 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-06 06:11 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **2376 unique auto/NEV articles** across **19 outlets**
+## Cumulative: **2388 unique auto/NEV articles** across **19 outlets**
 
 ## New per day
 | date | new articles |
@@ -38,24 +38,24 @@ _Updated 2026-07-06 06:11 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-03 | 84 |
 | 2026-07-04 | 38 |
 | 2026-07-05 | 27 |
-| 2026-07-06 | 5 |
+| 2026-07-06 | 17 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 561 |
+| www.d1ev.com | 567 |
 | www.caam.org.cn | 173 |
-| 36kr.com | 113 |
-| www.stcn.com | 111 |
+| 36kr.com | 114 |
+| www.stcn.com | 113 |
 | www.cada.cn | 90 |
-| egs.stcn.com | 66 |
+| egs.stcn.com | 68 |
 | www.news.cn | 57 |
 | www.yicai.com | 40 |
 | www.xinhuanet.com | 23 |
 | www.zqrb.cn | 15 |
 | cn.chinadaily.com.cn | 15 |
-| qzs.stcn.com | 9 |
+| qzs.stcn.com | 10 |
 | economy.gmw.cn | 7 |
 | www.ceweekly.cn | 2 |
 | cnews.chinadaily.com.cn | 2 |
@@ -65,7 +65,14 @@ _Updated 2026-07-06 06:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-06 — 5 articles
+### 2026-07-06 — 17 articles
+- **[一年落地82项新国标，电车的伪创新正被一一清算](https://36kr.com/p/3883435606994953)** — _36kr.com_ · published 2026-07-06
+  一年落地82项新国标，电车的伪创新正被一一清算 2026年车市的竞争已经过半，虽然市场竞争残酷，但回望车市所取得的成绩，却也不少。 新能源渗透率突破60%，自主品牌凭借新能源弯道超车，中国汽车出海也因为新能源表现出色有望突破1000万辆年销量......可以说，短短数年，中国新能源汽车产业已经完成了从追赶、并跑到领跑的三个阶段对应角色的转变，进而改写国内甚至
+- **[车船税调整拉开“油电同权”大幕！新能源汽车进入市场驱动新阶段](https://egs.stcn.com/news/detail/2311138.html)** — _egs.stcn.com_ · published 2027-01-01
+  自2027年1月1日起，节能汽车减半征收车船税政策，以及纯电动商用车、插电式（含增程式）混合动力汽车、燃料电池商用车车船税免征优惠将取消。这意味着，实施15年的新能源汽车车船税优惠政策，正式进入退出倒计时。 今年初，我国新能源汽车购置税已由“全免”调整为“减半征收”且设有免征上限。此番车船税调整，业内认为，随着我国新能源汽车税收优惠体系有序退坡，将推动新能源
+- **[09:09格力电器与吉利签署战略合作框架协议](https://egs.stcn.com/news/detail/2311162.html)** — _egs.stcn.com_ · date: unknown
+- **[格力电器与吉利签署战略合作框架协议](https://qzs.stcn.com/article/detail/611699.html)** — _qzs.stcn.com_ · date: unknown
+  人民财讯7月6日电，据格力电器消息，7月3日，格力电器董事长董明珠率高管团队到访吉利全球全域安全中心，吉利控股集团董事长李书福带队接待。双方围绕汽车安全体系建设、智能制造协同发展与数字化生态建设等议题展开深入交流，并签署战略合作框架协议。
 - **[零跑B01/B10新车型曝光：50英寸AR](https://www.d1ev.com/newsflash/305664)** — _www.d1ev.com_ · date: unknown
   近日，零跑汽车公布了全新B01/B10座舱细节，两款新车预计不久将上市。全新B01车型配备了50英寸虚实融合AR-HUD、17.3英寸3K超清中控屏等高科技配置，同时提供LeapSound14扬声器和主驾头枕扬声器等多种模式。而全新B10车型则以舒适性为卖点，搭载124°前排双零重力座椅，具备吸风式通风、加热、记忆&迎宾等功能，以及10点式按摩和4向腿托等豪
 - **[奇瑞汽车南非工厂升级改造 2027年投产年产5万辆](https://www.d1ev.com/newsflash/305663)** — _www.d1ev.com_ · date: unknown
@@ -74,6 +81,22 @@ _Updated 2026-07-06 06:11 | discovery-only, zero LLM tokens | runs every 3h_
   7月5日，吉利汽车发布了旗下C级AI纯电运动轿车银河TT的官图，并宣布该车型将于次日正式亮相。银河TT的前脸设计采用了封闭式前格栅，并配备L形大灯组，车顶装备了激光雷达，可能搭载千里浩瀚辅助驾驶H7方案。车身设计上，采用了双五辐式轮圈和半隐藏式门把手，车尾则配备了贯穿式尾灯组及随速电动尾翼。 在规格方面，银河TT的长宽高分别为4999x1919x1479mm
 - **[保时捷内地停接新订单，纯电车型面临“空窗期”](https://www.d1ev.com/newsflash/305660)** — _www.d1ev.com_ · date: unknown
   7月5日，保时捷宣布在中国内地停止接收Taycan和Macan EV的个性化选装新订单，消费者只能购买现车和在途车辆。今年4月，保时捷推出了纯电Cayenne Turbo和Turbo Coupé，但4S店要到10月才能拿到配额，预计年底至明年一季度首批交付。这意味着从2026年7月至年末，保时捷纯电车型将面临新车交付的空窗期。 保时捷2026年一季度全球交付
+- **[EV晨报 | 明年起取消部分新能源汽车车船税优惠，纯电乘用车不受影响；豆包、千问陆续宣布下线智能体功能；特斯拉Robotax服务扩展至迈阿密 - 第一电动网](https://www.d1ev.com/news/shichang/305670)** — _www.d1ev.com_ · published 2027-01-01
+  ▌要闻 ▍财政部等三部门：2027年起取消部分新能源汽车车船税优惠，纯电乘用车不受影响 第一电动7月3日消息，财政部、税务总局、工业和信息化部联合发布《关于调整节能汽车、新能源汽车车船税优惠政策的公告》（2026年第19号）。公告明确，自2027年1月1日起，取消对节能汽车减半征收车船税政策，取消对纯电动商用车、插电式（含增程式）混合动力汽车、燃料电池商用车
+- **[【盖世快讯】奇瑞南非罗斯林工厂正式启用；问界M9全系累计交付突破30万台](https://www.d1ev.com/news/shichang/305667)** — _www.d1ev.com_ · date: unknown
+  车企动态 | OEM Trend 快科技：余承东近日宣布，问界M9上市两年多，迎来新的里程碑！全系累计交付突破30万台。与此同时，全新一代问界M9开启交付3周突破1万台，创50万级交付最快破万纪录。 界面新闻：近日，小鹏集团与神州租车全场景合作暨车辆交付仪式在北京举行。小鹏集团董事长、CEO何小鹏与神州租车董事长于洪飞共同出席活动，见证双方全场景合作协议签署
+- **[五菱将在印尼推出Aira EV及多款新车](https://www.d1ev.com/carnews/xinche/305677)** — _www.d1ev.com_ · published 2026-07-01
+  上汽通用五菱（SGMW）计划于2026年在印度尼西亚市场推出多款新车型，进一步拓展其产品线覆盖范围。公司代表近日在中国广西柳州表示，新车型包括即将在印尼国际车展（GIIAS）亮相的Aira EV、一款四门版Mini EV城市电动车，以及面向家庭用户的高端MPV和旗舰级SUV，同时还包括一款新型轻型商用车。 SGMW海外业务部党委副书记兼合规官刘燕（Liu Y
+- **[通用上半年在美销量仍居首位，但电动车需求持续下滑](https://www.d1ev.com/news/shichang/305676)** — _www.d1ev.com_ · date: unknown
+  盖世汽车讯 通用汽车（General Motors）近日公布2026年第二季度在美国市场销量为714,896辆，虽继续位居美国所有汽车制造商之首，但较2025年同期的746,588辆下降4.2%。2026年上半年，该公司在美国累计交付1,341,325辆汽车，同比下降6.8%，低于2025年同期的1,439,951辆。 通用汽车表示，销量下滑的部分原因在于美
+- **[美国独立日烟花引发Waymo自动驾驶车起火，安全问题再引关注](https://www.d1ev.com/newsflash/305672)** — _www.d1ev.com_ · date: unknown
+  7月4日美国独立日当晚，Waymo在旧金山运营的 自动驾驶出租车发生意外。一辆 无人驾驶的Waymo车辆在行驶中碾过路面烟花，导致车辆起火燃烧。旧金山消防部门迅速响应，扑灭了明火并将车辆拖离现场。幸运的是，事发时车内无乘客，未有人员受伤报告。 当晚，还有一段视频显示，一名行人在路口点燃烟花，Waymo车辆直接驶过正在爆炸的烟花区域。拍摄视频的乘客确认车辆无损
+- **[旧金山独立日Waymo自动驾驶车碾烟花起火，安全受考验](https://www.d1ev.com/newsflash/305668)** — _www.d1ev.com_ · date: unknown
+  7月6日，Waymo公司正在调查旧金山独立日当天发生的几起涉及 自动驾驶车辆的事故。据报道，这些事故中，自动驾驶车辆碾过了路面的烟花，其中一辆车辆因此起火。幸运的是，事故未造成人员受伤，消防部门和当地工作人员迅速到场扑灭了明火，并将涉事车辆拖离了道路。 社交媒体上流传的一段视频显示，另一辆Waymo自动驾驶车辆也碾过了一处被认定为非法燃放的烟花。Waymo公
+- **[格力电器与吉利签署战略合作框架协议](https://www.stcn.com/article/detail/3999177.html)** — _www.stcn.com_ · published 2026-07-01
+  证券时报网 李映泉 2026-07-01 06:53 人民财讯7月6日电，据格力电器消息，7月3日，格力电器董事长董明珠率高管团队到访吉利全球全域安全中心，吉利控股集团董事长李书福带队接待。双方围绕汽车安全体系建设、智能制造协同发展与数字化生态建设等议题展开深入交流，并签署战略合作框架协议。
+- **[车船税调整拉开“油电同权”大幕！新能源汽车进入市场驱动新阶段](https://www.stcn.com/article/detail/3999108.html)** — _www.stcn.com_ · published 2027-01-01
+  自2027年1月1日起，节能汽车减半征收车船税政策，以及纯电动商用车、插电式（含增程式）混合动力汽车、燃料电池商用车车船税免征优惠将取消。这意味着，实施15年的新能源汽车车船税优惠政策，正式进入退出倒计时。 今年初，我国新能源汽车购置税已由“全免”调整为“减半征收”且设有免征上限。此番车船税调整，业内认为，随着我国新能源汽车税收优惠体系有序退坡，将推动新能源
 - **[全球电动化迎重要拐点：中国车欧洲份额首超日本](https://www.yicai.com/news/103260816.html)** — _www.yicai.com_ · date: unknown
   {{aisd}} AI生成 免责声明 电动化趋势使得中国车企在全球市场的竞争优势开始显现。 欧洲汽车制造商协会（ACEA）近期发布的统计数据显示，2026年5月，中国车企在欧洲【欧盟27国+英国+欧洲自由贸易联盟（EFTA）】的月度新车注册量首次超越日本车企。 无论是狭义的欧盟口径，还是拓展至欧盟+英国+EFTA的口径，五家中国主力车企5月新车注册总量同比增
 
