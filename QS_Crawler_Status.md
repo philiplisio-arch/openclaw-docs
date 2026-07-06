@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-06 15:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-06 18:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-06 15:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **2402 unique auto/NEV articles** across **19 outlets**
+## Cumulative: **2409 unique auto/NEV articles** across **19 outlets**
 
 ## New per day
 | date | new articles |
@@ -38,18 +38,18 @@ _Updated 2026-07-06 15:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-03 | 84 |
 | 2026-07-04 | 38 |
 | 2026-07-05 | 27 |
-| 2026-07-06 | 31 |
+| 2026-07-06 | 38 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 575 |
-| www.caam.org.cn | 173 |
+| www.d1ev.com | 580 |
+| www.caam.org.cn | 174 |
 | www.stcn.com | 116 |
 | 36kr.com | 115 |
 | www.cada.cn | 90 |
-| egs.stcn.com | 69 |
+| egs.stcn.com | 70 |
 | www.news.cn | 57 |
 | www.yicai.com | 41 |
 | www.xinhuanet.com | 23 |
@@ -65,7 +65,7 @@ _Updated 2026-07-06 15:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-06 — 31 articles
+### 2026-07-06 — 38 articles
 - **[一年落地82项新国标，电车的伪创新正被一一清算](https://36kr.com/p/3883435606994953)** — _36kr.com_ · published 2026-07-06
   一年落地82项新国标，电车的伪创新正被一一清算 2026年车市的竞争已经过半，虽然市场竞争残酷，但回望车市所取得的成绩，却也不少。 新能源渗透率突破60%，自主品牌凭借新能源弯道超车，中国汽车出海也因为新能源表现出色有望突破1000万辆年销量......可以说，短短数年，中国新能源汽车产业已经完成了从追赶、并跑到领跑的三个阶段对应角色的转变，进而改写国内甚至
 - **[平均车龄仅‌1.8年，新能源车主换车这么勤快？](https://36kr.com/p/3882021052313602)** — _36kr.com_ · published 2026-07-06
@@ -75,8 +75,12 @@ _Updated 2026-07-06 15:12 | discovery-only, zero LLM tokens | runs every 3h_
 - **[09:09格力电器与吉利签署战略合作框架协议](https://egs.stcn.com/news/detail/2311162.html)** — _egs.stcn.com_ · date: unknown
 - **[零跑汽车登陆墨西哥，正式进入北美市场](https://egs.stcn.com/news/detail/2311228.html)** — _egs.stcn.com_ · date: unknown
   证券时报·e公司 李映泉 07-06 11:40 人民财讯7月6日电，2026年7月，零跑B10完成墨西哥本土化认证，正式登陆当地市场并启动交付，开启北美市场拓展进程。目前，零跑B10已进入墨西哥各地门店。在此之前，该车型已在Stellantis墨西哥汽车工程研发测试中心完成本土化适配验证。该中心配备全套整车检测、排放、材料及动力测试设施。
+- **[金龙汽车：6月客车销量4780辆 同比增长11.6%](https://egs.stcn.com/news/detail/2311363.html)** — _egs.stcn.com_ · published 2026-07-06
+  首页 推荐 快讯 解读 股市 港股通 视听 专题 行情 数据 公众号 APP 电子报 您当前的位置： 证券时报·e公司 > 快讯 > 详情 金龙汽车：6月客车销量4780辆 同比增长11.6% 来源：人民财讯 作者：周映彤 2026-07-06 17:08 Aa 大号字 人民财讯7月6日电，金龙汽车(600686)7月6日公告，2026年6月客车销售量478
 - **[格力电器与吉利签署战略合作框架协议](https://qzs.stcn.com/article/detail/611699.html)** — _qzs.stcn.com_ · date: unknown
   人民财讯7月6日电，据格力电器消息，7月3日，格力电器董事长董明珠率高管团队到访吉利全球全域安全中心，吉利控股集团董事长李书福带队接待。双方围绕汽车安全体系建设、智能制造协同发展与数字化生态建设等议题展开深入交流，并签署战略合作框架协议。
+- **[关于征集汽车企业海外数据安全合规实践案例的通知](https://www.caam.org.cn/chn/5/cate_70/con_5237189.html)** — _www.caam.org.cn_ · published 2026-07-06
+  [邮箱登录] | 旧版网站 | English 邮箱登陆 @caam.org.cn 首页 协会概况 协会工作 统计数据 会员专区 行业政策 标准法规 电动·智能 行业动态 党建专栏 社会责任 首页> 文件公告 > 会议通知 >正文 关于征集汽车企业海外数据安全合规实践案例的通知 发布时间： 2026-07-06 附件1 汽车出海企业数据安全优秀案例申报书-0
 - **[零跑B01/B10新车型曝光：50英寸AR](https://www.d1ev.com/newsflash/305664)** — _www.d1ev.com_ · date: unknown
   近日，零跑汽车公布了全新B01/B10座舱细节，两款新车预计不久将上市。全新B01车型配备了50英寸虚实融合AR-HUD、17.3英寸3K超清中控屏等高科技配置，同时提供LeapSound14扬声器和主驾头枕扬声器等多种模式。而全新B10车型则以舒适性为卖点，搭载124°前排双零重力座椅，具备吸风式通风、加热、记忆&迎宾等功能，以及10点式按摩和4向腿托等豪
 - **[奇瑞汽车南非工厂升级改造 2027年投产年产5万辆](https://www.d1ev.com/newsflash/305663)** — _www.d1ev.com_ · date: unknown
@@ -113,6 +117,16 @@ _Updated 2026-07-06 15:12 | discovery-only, zero LLM tokens | runs every 3h_
   7月6日，蔚来品牌与传播副总裁马麟通过微博宣布，蔚来品牌6月平均成交价达到44.3万元，这一价格远超国内豪华车市场整体均价，并在主流豪华品牌中位居前列。同时，蔚来ES8大五座版将于7月9日上市，标志着高端大五座SUV进入纯电时代。据乘联分会数据，2025年国内豪华车均价已降至35.8万元，而蔚来6月单月成交均价已全面超越BBA当前水平。蔚来6月交付数据亮眼，
 - **[宁德时代日赚2.3亿超十车企总和，新能源汽车行业利润率腰斩](https://www.d1ev.com/newsflash/305718)** — _www.d1ev.com_ · date: unknown
   7月6日， 宁德时代2026年一季度业绩报告显示，公司净利润高达207亿元，日均盈利约2.3亿元，远超比亚迪、上汽、吉利等十家主流车企同期净利润总和175亿元。与此同时，国内汽车行业整体利润率仅为3.4%，远低于工业平均水平6.1%。动力 电池成本占整车总价40%至50%，加之碳酸锂、车载芯片等原材料价格上涨，整车企业面临巨大成本压力。此外，国内全新车型上市
+- **[丰田越南7月推最高7,500万越南盾购车优惠](https://www.d1ev.com/news/shichang/305789)** — _www.d1ev.com_ · published 2026-07-01
+  盖世汽车讯 据外媒报道，为延续6月实现的销量增长势头，丰田越南公司（Toyota Việt Nam）与丰田财务服务越南公司（TFSVN）联合全国经销商网络，于2026年7月1日至31日期间推出多项购车促销活动。 图片来源：丰田越南公司 根据该促销计划，在活动期间完成全款支付并由经销商开具增值税发票的客户，购买指定车型——包括丰田Vios、Veloz Cros
+- **[六家上市汽车经销商集团加码人工智能布局](https://www.d1ev.com/news/shichang/305788)** — _www.d1ev.com_ · date: unknown
+  盖世汽车讯 据外媒报道，面对日益加剧的竞争压力，美国六家上市汽车经销商集团正扩大在人工智能（AI）领域的投入，以提升后台运营效率、客户响应能力及其他业务环节。此举正在提高行业整体技术门槛，对规模较小的私营经销商形成竞争压力。 图片来源：Covideo 与此同时，人工智能技术在汽车经销环节的应用持续拓展。例如，Covideo公司开发的AI驱动虚拟形象（avat
+- **[奇瑞新X系环游者：275千瓦动力，2.5米大床，四季度上市！](https://www.d1ev.com/newsflash/305787)** — _www.d1ev.com_ · date: unknown
+  今日，奇瑞汽车执行副总裁李学用宣布推出面向年轻人的新X系车型——环游者。这款新车以其275千瓦的动力和激情操控体验为卖点，同时具备方正美学设计和宽敞的内部空间，特别强调了2.5米大床房的舒适体验。环游者还搭载了猎鹰500辅助驾驶系统和XWD全自动智能四驱技术，预计将在今年四季度上市。 环游者的设计以简约方盒美学为基础，车头采用纯电车型专属的封闭式前脸，搭配复
+- **[“零跑创新运输方案：1800辆电动车乘普通货船出海巴西”](https://www.d1ev.com/newsflash/305786)** — _www.d1ev.com_ · date: unknown
+  近日，中国电动车出海面临物流运输挑战，比亚迪选择自建滚轮船队以应对。然而，并非所有车企都有此实力，零跑汽车便采取了不同的策略。据博主“电车出海”透露，由于全球汽车运输船（Ro-Ro）运力紧张，零跑开始采用FlatRack运输方案，即把整车固定在金属托架上，再用普通货船运输，减少对汽车滚装船的依赖。 零跑通过这种方式已成功将1800多辆车运至巴西，并能利用St
+- **[宝马X2中期改款曝光：新设计+纯电动iX2，2027年7月发布](https://www.d1ev.com/newsflash/305784)** — _www.d1ev.com_ · date: unknown
+  近日，新款宝马X2的测试谍照曝光，标志着这款中期改款车型即将亮相。新车预计将在2027年7月正式发布，除了传统的燃油版车型外，还将推出纯电动iX2车型。新款X2在外观和内饰方面进行了升级，有望采用宝马最新的家族式设计，前脸的双肾格栅和灯组造型将进行调整，下包围保持大尺寸矩形通风口设计。车侧预计保留现款造型，并延续半隐藏式门把手设计。尾部设计预计主要集中在后包
 - **[格力电器与吉利签署战略合作框架协议](https://www.stcn.com/article/detail/3999177.html)** — _www.stcn.com_ · published 2026-07-01
   证券时报网 李映泉 2026-07-01 06:53 人民财讯7月6日电，据格力电器消息，7月3日，格力电器董事长董明珠率高管团队到访吉利全球全域安全中心，吉利控股集团董事长李书福带队接待。双方围绕汽车安全体系建设、智能制造协同发展与数字化生态建设等议题展开深入交流，并签署战略合作框架协议。
 - **[车船税调整拉开“油电同权”大幕！新能源汽车进入市场驱动新阶段](https://www.stcn.com/article/detail/3999108.html)** — _www.stcn.com_ · published 2027-01-01
