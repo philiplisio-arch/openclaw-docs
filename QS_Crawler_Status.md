@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-07 06:11 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-07 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-07 06:11 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **2434 unique auto/NEV articles** across **19 outlets**
+## Cumulative: **2441 unique auto/NEV articles** across **19 outlets**
 
 ## New per day
 | date | new articles |
@@ -39,17 +39,17 @@ _Updated 2026-07-07 06:11 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-04 | 38 |
 | 2026-07-05 | 27 |
 | 2026-07-06 | 51 |
-| 2026-07-07 | 12 |
+| 2026-07-07 | 19 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 595 |
+| www.d1ev.com | 599 |
 | www.caam.org.cn | 174 |
 | www.stcn.com | 119 |
-| 36kr.com | 117 |
-| www.cada.cn | 92 |
+| 36kr.com | 119 |
+| www.cada.cn | 93 |
 | egs.stcn.com | 72 |
 | www.news.cn | 57 |
 | www.yicai.com | 42 |
@@ -66,8 +66,13 @@ _Updated 2026-07-07 06:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-07 — 12 articles
+### 2026-07-07 — 19 articles
+- **[别再骂造车同质化了，搞创新根本没见人买](https://36kr.com/p/3884850156138760)** — _36kr.com_ · published 2026-07-07
+  别再骂造车同质化了，搞创新根本没见人买 最近这半年，当所有车企都在进军所谓的9系旗舰、方盒子等SUV市场，或是新能源轿车领域时，全网都盛行着一个话术：中国汽车又开始走捷径了，满街的路虎和保时捷还不算完，新车各个都像一个模子里刻出来的。 眼看市场上同质化的车型越来越多，这一判断有问题吗？ 乍一看，的确就是行业现状。以前，众泰、陆风们习惯性照搬外国优秀设计，给自
+- **[长城汽车AB面：国内销量被新势力赶超，海外稳定增长](https://36kr.com/p/3884795539747077)** — _36kr.com_ · published 2026-07-07
+  长城汽车AB面：国内销量被新势力赶超，海外稳定增长 长城汽车，销量正被新势力车企快速追赶。 时间来到7月，各家车企相继交出半年考成绩单。而其中一组数据引发了业内广泛关注：长城汽车6月销量为10.81万台，海外销量为6.02万台，通过计算可以得出6月长城汽车在国内的销量为4.79万台，这其中还包含了长城皮卡的销量。 ▲长城汽车6月销量 这一数字意味着，在核心的
 - **[22:37长城汽车与奥托立夫签署全球战略合作框架协议](https://egs.stcn.com/news/detail/2311544.html)** — _egs.stcn.com_ · date: unknown
+- **[二手车鉴定评估分会](https://www.cada.cn/committee/info_27_7129.html)** — _www.cada.cn_ · date: unknown
 - **[史上最严电池令落地实施 吉利神盾金砖电池多项实测验证“又快又好又安全”](https://www.d1ev.com/news/qiye/305816)** — _www.d1ev.com_ · published 2026-07-01
   2026年7月1日，被誉为“史上最严”的GB 38031-2025《电动汽车用动力蓄电池安全要求》正式落地实施，首次将电池“不起火、不爆炸”纳入硬性考核标准，并明确电池充电最高温度不得超65℃，新增多项极限测试指标，彻底重塑新能源动力电池安全门槛。依托长期深耕电池安全领域的技术积淀，吉利神盾金砖电池不仅早在2025年便成为首批通过新国标全项认证的电池品牌，更
 - **[汽车电子为什么要选用无硅导热材料](https://www.d1ev.com/news/shichang/305794)** — _www.d1ev.com_ · date: unknown
@@ -86,6 +91,14 @@ _Updated 2026-07-07 06:11 | discovery-only, zero LLM tokens | runs every 3h_
   7月6日，吉利汽车在“吉利银河TT全球首秀”活动中正式发布了AI纯电运动轿车——吉利银河TT。这款新车主要针对年轻消费者，采用全新的设计语言，封闭式前格栅与狭长圆润的前大灯组相结合，展现出年轻化的视觉效果。内饰方面，银河TT采用环抱式座舱设计，并提供四种主题方案。FlymeAuto2代座舱集成了液晶仪表、大尺寸中控屏和AR-HUD抬头显示，支持三屏联动操作。
 - **[央视测试奕境X9智能驾驶，底盘技术成关键！](https://www.d1ev.com/newsflash/305822)** — _www.d1ev.com_ · date: unknown
   近日，央视联合奕境汽车对奕境X9的智能驾驶功能进行了测试，引起了广泛关注。奕境汽车品牌总经理曾清林在回应粉丝关于底盘重要性的问题时强调，智能驾驶的普及使得底盘的作用更加关键。他指出，底盘作为智驾的执行终端，其响应速度直接影响智驾算法的效果。同时，底盘调教的好坏直接影响智驾体验和驾乘舒适性，优秀的底盘能够减少晕车现象。此外，底盘是智驾持续迭代的硬件基础，高阶底
+- **[EV晨报 | 零跑汽车登陆墨西哥，正式进军北美市场；人社部称今年技工院校聚焦培养人工智能、新能源汽车等人才；XAI正式更名为SpaceXAI - 第一电动网](https://www.d1ev.com/news/shichang/305826)** — _www.d1ev.com_ · date: unknown
+  ▌要闻 ▍零跑汽车登陆墨西哥，正式进军北美市场 第一电动7月6日消息，零跑汽车宣布，旗下B10车型已完成墨西哥本土化认证，正式登陆当地市场并启动交付，是品牌在北美市场的拓展迈出关键一步。目前，零跑B10已进入墨西哥各地授权门店。为确保产品适配当地使用环境，零跑B10在Stellantis墨西哥汽车工程研发测试中心完成了系统性本土化验证。按照当地法规，所有进入
+- **[【盖世快讯】吉利控股与格力电器签署战略合作协议；零跑汽车正式进入北美市场](https://www.d1ev.com/news/qiye/305823)** — _www.d1ev.com_ · date: unknown
+  车企动态 | OEM Trend 盖世汽车：7月6日，零跑汽车宣布正式进入墨西哥市场，标志着其北美市场拓展进程的启动。首款车型零跑B10已完成本土化认证并开始交付，当地消费者即日起可在全国超40家授权网点体验和购买。 蓝鲸财经：7月6日，从接近保时捷的知情人士处获悉，基于对国内市场动态的持续审视，保时捷将纯电产品重心聚焦于全新纯电动Cayenne，即日起，停
+- **[赛伍技术战略投资锦美星灿，拓展汽车智能表面与消费电子功能薄膜平台布局](https://www.d1ev.com/news/shichang/305830)** — _www.d1ev.com_ · date: unknown
+  近日，苏州赛伍应用技术股份有限公司（下称“赛伍技术”）宣布，正式完成对锦美星灿新材料（安徽）有限公司（下称“锦美星灿”）的战略投资。本次投资围绕赛伍技术高分子材料平台化发展方向展开，旨在加强双方在材料开发、工艺应用、客户资源和应用场景等方面的协同基础，推动赛伍技术的高分子材料能力向汽车智能表面、智能终端科技薄膜及消费电子外观功能材料等新场景延伸。 锦美星灿：
+- **[2026年第27周（6.29](https://www.d1ev.com/carnews/xinche/305824)** — _www.d1ev.com_ · published 2026-06-29
+  回顾上周国内车市，鑫源汽车全新MPV――鑫源向上V6正式上市，新车精准瞄准了小微创业者和小型商贸企业“一车多用”的实际需求；比亚迪带来了旗下全新中大型车――海豹08，其不仅在外观和内饰实现了升级，还拥有丰富的科技与智能化配置。接下来我们将对上周上市新车进行汇总，看看有没有您喜欢的！ 1、2026款领汇M9 售价区间：18.88-19.98万元 上市时间：20
 - **[长城汽车与奥托立夫签署全球战略合作框架协议](https://www.stcn.com/article/detail/4001037.html)** — _www.stcn.com_ · published 2026-07-01
   证券时报网 李在山 2026-07-01 19:38 人民财讯7月6日电，据长城汽车消息，7月6日，长城汽车与奥托立夫（Autoliv）（上海）管理有限公司正式签署了《全球战略合作框架协议》。此次协议的签署，标志着双方持续二十多年的合作进入了“全球范围实现供应链一体化和技术协同”的新阶段。根据最新的《全球战略合作框架协议》，双方将在全球业务拓展、供应链协作、
 - **[一家百强车商调薪折射出行业困局：7月中高层薪资停发，基层统一七折](https://www.yicai.com/news/103262426.html)** — _www.yicai.com_ · date: unknown
