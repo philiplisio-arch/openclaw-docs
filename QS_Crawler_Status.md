@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-07 09:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-07 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-07 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **2441 unique auto/NEV articles** across **19 outlets**
+## Cumulative: **2448 unique auto/NEV articles** across **19 outlets**
 
 ## New per day
 | date | new articles |
@@ -39,25 +39,25 @@ _Updated 2026-07-07 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-04 | 38 |
 | 2026-07-05 | 27 |
 | 2026-07-06 | 51 |
-| 2026-07-07 | 19 |
+| 2026-07-07 | 26 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 599 |
+| www.d1ev.com | 601 |
 | www.caam.org.cn | 174 |
+| 36kr.com | 120 |
 | www.stcn.com | 119 |
-| 36kr.com | 119 |
 | www.cada.cn | 93 |
 | egs.stcn.com | 72 |
-| www.news.cn | 57 |
-| www.yicai.com | 42 |
-| www.xinhuanet.com | 23 |
+| www.news.cn | 58 |
+| www.yicai.com | 43 |
+| www.xinhuanet.com | 24 |
 | www.zqrb.cn | 15 |
 | cn.chinadaily.com.cn | 15 |
 | qzs.stcn.com | 10 |
-| economy.gmw.cn | 7 |
+| economy.gmw.cn | 8 |
 | www.ceweekly.cn | 2 |
 | cnews.chinadaily.com.cn | 2 |
 | china.chinadaily.com.cn | 2 |
@@ -66,11 +66,15 @@ _Updated 2026-07-07 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-07 — 19 articles
+### 2026-07-07 — 26 articles
 - **[别再骂造车同质化了，搞创新根本没见人买](https://36kr.com/p/3884850156138760)** — _36kr.com_ · published 2026-07-07
   别再骂造车同质化了，搞创新根本没见人买 最近这半年，当所有车企都在进军所谓的9系旗舰、方盒子等SUV市场，或是新能源轿车领域时，全网都盛行着一个话术：中国汽车又开始走捷径了，满街的路虎和保时捷还不算完，新车各个都像一个模子里刻出来的。 眼看市场上同质化的车型越来越多，这一判断有问题吗？ 乍一看，的确就是行业现状。以前，众泰、陆风们习惯性照搬外国优秀设计，给自
 - **[长城汽车AB面：国内销量被新势力赶超，海外稳定增长](https://36kr.com/p/3884795539747077)** — _36kr.com_ · published 2026-07-07
   长城汽车AB面：国内销量被新势力赶超，海外稳定增长 长城汽车，销量正被新势力车企快速追赶。 时间来到7月，各家车企相继交出半年考成绩单。而其中一组数据引发了业内广泛关注：长城汽车6月销量为10.81万台，海外销量为6.02万台，通过计算可以得出6月长城汽车在国内的销量为4.79万台，这其中还包含了长城皮卡的销量。 ▲长城汽车6月销量 这一数字意味着，在核心的
+- **[以“智造”赋能“制造”，东鼎重科重构商用车智能传动版图](https://36kr.com/p/3883777357312003)** — _36kr.com_ · published 2026-07-07
+  以“智造”赋能“制造”，东鼎重科重构商用车智能传动版图 在中国公路物流的庞大版图上，一个结构性矛盾正在日益尖锐。 当乘用车自动挡渗透率已突破90%，“无感换挡”早已成为驾乘常态，而承担全国70%以上货运周转量的重卡，却仍以手动变速箱（MT）为主。 频繁的离合与换挡操作持续消耗着驾驶员的体力与精力，不仅推高了从业门槛，更在人口红利消退的背景下，加剧了本就严峻的
+- **[电动汽车电池新国标落地](https://economy.gmw.cn/2026-07/07/content_38871161.htm)** — _economy.gmw.cn_ · published 2026-07-07
+  点击右上角微信好友 朋友圈 请使用浏览器分享功能进行分享 动力电池是新能源汽车的“心脏”，其安全问题备受关注。强制性国家标准《电动汽车用动力蓄电池安全要求》（GB 38031-2025）于2026年7月1日起实施，明确提升多项安全防护能力。新规影响几何？记者进行了采访。 “新国标包含7项单体测试、17项电池包或系统测试，涵盖了具有行业共识的动力电池安全风险场
 - **[22:37长城汽车与奥托立夫签署全球战略合作框架协议](https://egs.stcn.com/news/detail/2311544.html)** — _egs.stcn.com_ · date: unknown
 - **[二手车鉴定评估分会](https://www.cada.cn/committee/info_27_7129.html)** — _www.cada.cn_ · date: unknown
 - **[史上最严电池令落地实施 吉利神盾金砖电池多项实测验证“又快又好又安全”](https://www.d1ev.com/news/qiye/305816)** — _www.d1ev.com_ · published 2026-07-01
@@ -99,10 +103,20 @@ _Updated 2026-07-07 09:12 | discovery-only, zero LLM tokens | runs every 3h_
   近日，苏州赛伍应用技术股份有限公司（下称“赛伍技术”）宣布，正式完成对锦美星灿新材料（安徽）有限公司（下称“锦美星灿”）的战略投资。本次投资围绕赛伍技术高分子材料平台化发展方向展开，旨在加强双方在材料开发、工艺应用、客户资源和应用场景等方面的协同基础，推动赛伍技术的高分子材料能力向汽车智能表面、智能终端科技薄膜及消费电子外观功能材料等新场景延伸。 锦美星灿：
 - **[2026年第27周（6.29](https://www.d1ev.com/carnews/xinche/305824)** — _www.d1ev.com_ · published 2026-06-29
   回顾上周国内车市，鑫源汽车全新MPV――鑫源向上V6正式上市，新车精准瞄准了小微创业者和小型商贸企业“一车多用”的实际需求；比亚迪带来了旗下全新中大型车――海豹08，其不仅在外观和内饰实现了升级，还拥有丰富的科技与智能化配置。接下来我们将对上周上市新车进行汇总，看看有没有您喜欢的！ 1、2026款领汇M9 售价区间：18.88-19.98万元 上市时间：20
+- **[吉利全新中型轿车FS21即将发布，三种动力选择引爆市场！](https://www.d1ev.com/newsflash/305866)** — _www.d1ev.com_ · date: unknown
+  7月7日，吉利汽车宣布将发布全新中型轿车FS21，预计于7月10日亮相。新车已在工信部完成申报，提供1.5T燃油、2.0T燃油和1.5T混动三种动力选择。FS21采用吉利家族式设计，盾型前格栅搭配直瀑式镀铬元素，狭长灯组和贯穿式尾灯组，车顶可选装激光雷达。车身尺寸为4956/1915/1505mm，轴距2845mm，较现款星瑞全面加长。轮圈提供17、18、1
+- **[吉利星瑞L90亮相：家族新“巨无霸”中型轿车登场](https://www.d1ev.com/newsflash/305865)** — _www.d1ev.com_ · date: unknown
+  今日，吉利汽车发布了一款全新轿车的预告图，新车设计与吉利星瑞相似，但通过尾翼和鲨鱼鳍天线增强了动感气息，可能配备激光雷达。这款新车预计为吉利星瑞L90，定位中型轿车，外形尺寸为长4956mm、宽1915mm、高1505mm，轴距2845mm，整备质量1495kg至1535kg，总质量1940kg，额定载客5人，最高车速205km/h。相较于现款星瑞，星瑞L9
+- **[2026年6月汽车召回月度汇总](https://www.news.cn/auto/20260707/92309fea620646e79ef5cbe71bee1b08/c.html)** — _www.news.cn_ · published 2026-07-07
+  2026年6月汽车召回月度汇总-新华网 新华网 > > 正文 2026 07 / 07 11:26:51 来源：市场监管总局召回中心 2026年6月汽车召回月度汇总 字体： 小 中 大 分享到： 2026年6月汽车召回月度汇总 2026-07-07 11:26:51 来源：市场监管总局召回中心 【纠错】 【责任编辑:赵延心】 阅读下一篇： 深度观察 新华全媒
 - **[长城汽车与奥托立夫签署全球战略合作框架协议](https://www.stcn.com/article/detail/4001037.html)** — _www.stcn.com_ · published 2026-07-01
   证券时报网 李在山 2026-07-01 19:38 人民财讯7月6日电，据长城汽车消息，7月6日，长城汽车与奥托立夫（Autoliv）（上海）管理有限公司正式签署了《全球战略合作框架协议》。此次协议的签署，标志着双方持续二十多年的合作进入了“全球范围实现供应链一体化和技术协同”的新阶段。根据最新的《全球战略合作框架协议》，双方将在全球业务拓展、供应链协作、
+- **[2026年6月汽车召回月度汇总](https://www.xinhuanet.com/auto/20260707/92309fea620646e79ef5cbe71bee1b08/c.html)** — _www.xinhuanet.com_ · published 2026-07-07
+  2026年6月汽车召回月度汇总-新华网 新华网 > > 正文 2026 07 / 07 11:26:51 来源：市场监管总局召回中心 2026年6月汽车召回月度汇总 字体： 小 中 大 分享到： 2026年6月汽车召回月度汇总 2026-07-07 11:26:51 来源：市场监管总局召回中心 【纠错】 【责任编辑:赵延心】 阅读下一篇： 深度观察 新华全媒
 - **[一家百强车商调薪折射出行业困局：7月中高层薪资停发，基层统一七折](https://www.yicai.com/news/103262426.html)** — _www.yicai.com_ · date: unknown
   {{aisd}} AI生成 免责声明 近日，某全国百强经销商集团内部发布的"关于集团经营检讨及薪酬考核管控通知"在网上流传。通知称，因集团今年二季度出现大额亏损，集团本部及以总经理为经营单位的亏损板块内，经理级及以上人员7月薪资归零，本部基层员工工资按7折发放。 通知指出，当前二季度集团出现大额亏损，投资人已无法持续承担依靠贷款发放全员薪资的经营压力。所有亏
+- **[红旗天工08预售，领克入局旅行车市场](https://www.yicai.com/news/103263304.html)** — _www.yicai.com_ · date: unknown
+  {{aisd}} AI生成 免责声明 1.红旗天工08预售 近日，全新一代天工08开启预售，预售车型为670 Max，预售价19.98万元，限时权益叠加后可低至17.98万元。新车定位中大型纯电SUV，基于天工纯电平台与九章智能平台打造，后驱版搭载800V 高压平台、85度玄甲电池，CLTC 综合续航670公里。全系标配司南 L2 级驾驶辅助系统，城市 /
 
 ### 2026-07-06 — 51 articles
 - **[一年落地82项新国标，电车的伪创新正被一一清算](https://36kr.com/p/3883435606994953)** — _36kr.com_ · published 2026-07-06
