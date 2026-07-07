@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-08 00:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-08 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-08 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **2481 unique auto/NEV articles** across **19 outlets**
+## Cumulative: **2483 unique auto/NEV articles** across **19 outlets**
 
 ## New per day
 | date | new articles |
@@ -40,13 +40,13 @@ _Updated 2026-07-08 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-05 | 27 |
 | 2026-07-06 | 51 |
 | 2026-07-07 | 56 |
-| 2026-07-08 | 3 |
+| 2026-07-08 | 5 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 620 |
+| www.d1ev.com | 622 |
 | www.caam.org.cn | 178 |
 | 36kr.com | 124 |
 | www.stcn.com | 121 |
@@ -67,11 +67,15 @@ _Updated 2026-07-08 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-08 — 3 articles
+### 2026-07-08 — 5 articles
 - **[小鹏MONAL03首搭失能辅助系统，智能守护安全出行](https://www.d1ev.com/newsflash/305939)** — _www.d1ev.com_ · date: unknown
   7月7日，小鹏汽车官方宣布，其新车型MONAL03首次搭载驾驶员失能辅助系统。该系统能够在高速路辅助驾驶时，一旦驾驶员失去驾驶能力，车辆将自动靠边停车并呼叫救援。小鹏汽车还发布了该系统的实测视频，展示了其在紧急情况下的反应能力。小鹏汽车副总裁透露，未来该功能将通过OTA升级，扩展到普通道路，以应对驾驶员出现意外的情况，实现全链路自主救援，进一步保障行车安全。
 - **[荣威家越07大五座SUV搭载高阶智能驾驶，三季度发布多彩配色](https://www.d1ev.com/newsflash/305934)** — _www.d1ev.com_ · date: unknown
   今日，荣威汽车宣布其家越07大五座SUV将搭载Momenta R7世界模型高阶智能辅助驾驶方案。这款SUV是上汽荣威与火山引擎深度合作的“全新AI原生序列”首款车型，预计将于今年三季度发布。家越07提供多种配色，包括“龙晶紫”“玛瑙灰”“宝石蓝”“珍溪黑”“钻石白”“翡翠绿”等。车辆设计采用建筑式双垂直设计，车头和车尾近90度垂直角设计，前脸搭载行业首发一体
+- **[比亚迪双门四座纯电跑车 腾势Z官宣7月9日上市](https://www.d1ev.com/news/qiye/305944)** — _www.d1ev.com_ · date: unknown
+  快科技7月8日消息，腾势汽车官宣，旗下双门四座跑车腾势Z将于本月9日正式上市。 新车由比亚迪全球设计总监沃尔夫冈·艾格团队操刀，采用 “Pure Emotion 驭心流形” 设计语言，版本多样，除了硬顶版，还提供软顶敞篷和赛道版。 软顶敞篷版采用可伸缩软顶结构，收起后巧妙收纳于后备箱，不占用驾乘空间，座舱采用四座布局，突破传统超跑双座限制更具实用性，内饰仪表
+- **[6月汽车销量冰火两重天：比亚迪逆势增长，新势力国内发力](https://www.d1ev.com/newsflash/305943)** — _www.d1ev.com_ · date: unknown
+  近日，中国汽车市场6月销量数据出炉，比亚迪以近40万辆的销量领跑，同比增长5.46%，其中高端品牌方程豹销量同比暴涨188%，腾势增长28.9%。比亚迪的海外销量也表现强劲，6月出口17.5万辆，同比增长95%，占总销量的43.7%。零跑汽车6月销量达到9.3万辆，同比增长95%，主要增量来自国内，特别是平民战神A10的热销。蔚来和小鹏6月销量分别为4万台，
 - **[北汽集团新设整车制造企业，与千里科技合作传闻再引关注](https://www.yicai.com/news/103264468.html)** — _www.yicai.com_ · published 2026-07-02
   {{aisd}} AI生成 免责声明 天眼查信息显示，北京汽车集团有限公司（下称“北汽集团”或“北汽”）于2026年7月2日在江西景德镇设立全资子公司——江西北汽昌河汽车有限公司，注册资本1亿元，法定代表人为朱油福。 股权信息显示，该公司为北汽集团100%持股的法人独资企业，经营范围涵盖道路机动车辆生产、汽车销售、新能源汽车整车销售、汽车零部件及配件制造、汽
 
