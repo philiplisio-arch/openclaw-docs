@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-08 12:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-08 15:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-08 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **2506 unique auto/NEV articles** across **19 outlets**
+## Cumulative: **2512 unique auto/NEV articles** across **19 outlets**
 
 ## New per day
 | date | new articles |
@@ -40,17 +40,17 @@ _Updated 2026-07-08 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-05 | 27 |
 | 2026-07-06 | 51 |
 | 2026-07-07 | 56 |
-| 2026-07-08 | 28 |
+| 2026-07-08 | 34 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 636 |
+| www.d1ev.com | 641 |
 | www.caam.org.cn | 178 |
 | 36kr.com | 127 |
 | www.stcn.com | 125 |
-| www.cada.cn | 93 |
+| www.cada.cn | 94 |
 | egs.stcn.com | 77 |
 | www.news.cn | 58 |
 | www.yicai.com | 44 |
@@ -67,7 +67,7 @@ _Updated 2026-07-08 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-08 — 28 articles
+### 2026-07-08 — 34 articles
 - **[干掉日系，中国车在欧洲杀疯了，月销暴涨6成，五大玩家爆发](https://36kr.com/p/3886203577643268)** — _36kr.com_ · published 2026-07-08
   干掉日系，中国车在欧洲杀疯了，月销暴涨6成，五大玩家爆发 首超日系车，中国车强势“攻入”欧洲。 车东西7月7日消息，根据欧洲汽车制造商协会（ACEA）披露的数据，今年5月五大中国车企在欧洲市场（涵盖欧盟、欧洲自由贸易联盟及英国等超30个国家）的新车销量及市场份额首次超越日本车企，完成历史性反超。 先看数据，五家中国车企——比亚迪、上汽、吉利、奇瑞、零跑今年5
 - **[知名豪华品牌结束11年国产史，新车曾低至18万甩卖](https://36kr.com/p/3886204970152194)** — _36kr.com_ · published 2026-07-08
@@ -78,6 +78,7 @@ _Updated 2026-07-08 12:12 | discovery-only, zero LLM tokens | runs every 3h_
   证券时报 07-08 11:58 7月8日，岚图汽车正式宣布，代号“岚图珠峰”的全新MPV命名“岚图梦想家9”。新车将于下半年上市，锚定50万级旗舰市场。 按照岚图定义，赋予新品“9系智尊”的产品标签，“9”象征旗舰定位与顶级水准，“智”指向L3级自动驾驶等前瞻智能科技，“尊”则代表豪华座舱与尊崇体验，三者共同构成“9系智尊”的核心内涵。 目前在50万级豪华
 - **[鞍钢股份持股公司成立汽车钢板公司](https://egs.stcn.com/news/detail/2312236.html)** — _egs.stcn.com_ · date: unknown
   证券时报 07-08 11:58 人民财讯7月8日电，企查查APP显示，近日，鞍蒂汽车钢板（上海）有限公司成立，法定代表人为孙宇，注册资本为1亿元，经营范围包含：汽车零配件批发；汽车零配件零售；金属材料销售；金属制品销售；金属制品研发；机械零件、零部件销售等。企查查股权穿透显示，该公司由鞍钢蒂森克虏伯汽车钢有限公司全资持股，后者由鞍钢股份、蒂森克虏伯钢铁欧洲
+- **[关于中国汽车流通协会 分支机构更名的通告](https://www.cada.cn/Trends/info_89_10385.html)** — _www.cada.cn_ · date: unknown
 - **[小鹏MONAL03首搭失能辅助系统，智能守护安全出行](https://www.d1ev.com/newsflash/305939)** — _www.d1ev.com_ · date: unknown
   7月7日，小鹏汽车官方宣布，其新车型MONAL03首次搭载驾驶员失能辅助系统。该系统能够在高速路辅助驾驶时，一旦驾驶员失去驾驶能力，车辆将自动靠边停车并呼叫救援。小鹏汽车还发布了该系统的实测视频，展示了其在紧急情况下的反应能力。小鹏汽车副总裁透露，未来该功能将通过OTA升级，扩展到普通道路，以应对驾驶员出现意外的情况，实现全链路自主救援，进一步保障行车安全。
 - **[荣威家越07大五座SUV搭载高阶智能驾驶，三季度发布多彩配色](https://www.d1ev.com/newsflash/305934)** — _www.d1ev.com_ · date: unknown
@@ -114,6 +115,16 @@ _Updated 2026-07-08 12:12 | discovery-only, zero LLM tokens | runs every 3h_
   7月8日，标致汽车宣布了两款全新旗舰纯电车型“狮锐”和“琉明”，这两款车型均基于东风平台打造。标致CEO阿兰·法维强调，尽管这两款车型将保留标致品牌的独特质感，但它们不会进入欧洲市场。今年早些时候在 北京车展上，标致发布了这两款面向高端市场的概念车，并将由标致与东风联合开发，采用东风的架构和动力系统。其中一款车型风格接近508的旅行车，另一款则是尺寸大于标致
 - **[汽油供应短缺，俄罗斯掀起汽车液化石油气动力改装热潮](https://www.d1ev.com/news/shichang/306002)** — _www.d1ev.com_ · date: unknown
   盖世汽车讯 近日，俄罗斯炼油厂多次遭袭，造成该国燃油供应紧张、汽油价格上涨，各地加油站前排起长队，大批俄罗斯车主排队改装车辆，改为液化石油气（LPG）驱动。 莫斯科Garant-Gas公司主营汽车液化石油气改装业务，负责人叶戈尔·波波夫（Egor Popov）表示，改装需求近日出现暴涨。他称，“我们的预约排期已经到9月份了。” 图片来源：Avtovaz 另一
+- **[零跑B01/B10新车型盲订开启，99元享三重权益！](https://www.d1ev.com/newsflash/306033)** — _www.d1ev.com_ · date: unknown
+  7月8日，零跑汽车宣布新款B01与B10车型正式开启盲订。用户支付99元意向金，即可获得10000点专属能量积分、全新外观配色免费选装，以及优先品鉴试驾权等三重权益。零跑B01定位为中型纯电轿车，主打“年轻人的高品质智能轿车”，预售价区间为10.58万元至13.58万元。B10则是B平台首款全球化车型，定位纯电SUV，基于LEAP3.5技术架构打造，提供51
+- **[小鹏MONA系列将添两款新车型，D11与D11T即将亮相](https://www.d1ev.com/newsflash/306032)** — _www.d1ev.com_ · date: unknown
+  今日，据知情人士透露，小鹏汽车MONA系列将新增两款新车，分别为A级SUV（代号D11）和旅行车（代号D11T）。加上已推出的M03、即将上市的L03和即将推出的L05，小鹏MONA系列将拥有至少五款产品。MONA L05预计将成为该系列中价格最高的车型，而D11T的主要竞争对手可能是海豹06DM旅行版和领克07GT，起售价分别为10.98万元和16.58万
+- **[国产新能源品牌崛起！2026上半年汽车档次榜引发热议](https://www.d1ev.com/newsflash/306030)** — _www.d1ev.com_ · date: unknown
+  近日，市场调研机构杰兰路发布了2026年上半年国内汽车品牌档次排行榜，引发业界广泛讨论。该榜单将汽车品牌分为超豪华、豪华、高档、中档和经济五个档次。在超豪华品牌序列中，国产高端新能源品牌尊界、仰望与海外老牌品牌保时捷、莲花跑车并列。豪华品牌阵营则包括奔驰、宝马、奥迪等传统豪强以及问界、蔚来等国产新势力品牌。高档品牌序列涵盖了腾势、理想、凯迪拉克等主流品牌，受
+- **[标致两款旗舰纯电车型专为中国市场打造，不入欧洲市场](https://www.d1ev.com/newsflash/306029)** — _www.d1ev.com_ · date: unknown
+  7月8日，标致CEO阿兰·法维宣布，基于东风平台打造的两款旗舰纯电车型Concept6狮锐和Concept8琉明将保留标致品牌特色，但不会在欧洲市场销售。这两款车型于今年4月在 北京车展全球首发，由标致与东风联合开发，采用东风的架构和动力系统。狮锐定位为锋锐智慧旗舰轿车，琉明则定位为新一代全尺寸智能SUV，车身大于标致在欧洲销售的所有车型，并配备激光雷达和摄
+- **[美国市场新低价！菲亚特微型电动车Topolino仅售10.2万](https://www.d1ev.com/newsflash/306028)** — _www.d1ev.com_ · date: unknown
+  7月8日，菲亚特微型纯电代步车Topolino正式进入美国市场，成为当地市场上最便宜的新车。含目的地费的售价为14985美元，约合10.2万元人民币，而不含目的地费的价格为13995美元，约合95192元人民币。Topolino的最大功率为8马力，最高时速约31公里，5.0kWh的小 电池充满电后可行驶约74公里，使用普通交流电充电需要大约5小时。 新车配置
 - **[全球首款搭载L3级自动驾驶的MPV命名落定官宣](https://www.stcn.com/article/detail/4005809.html)** — _www.stcn.com_ · date: unknown
   7月8日，岚图汽车正式宣布，代号“岚图珠峰”的全新MPV命名“岚图梦想家9”。新车将于下半年上市，锚定50万级旗舰市场。 按照岚图定义，赋予新品“9系智尊”的产品标签，“9”象征旗舰定位与顶级水准，“智”指向L3级自动驾驶等前瞻智能科技，“尊”则代表豪华座舱与尊崇体验，三者共同构成“9系智尊”的核心内涵。 目前在50万级豪华新能源市场有着天然的“SUV惯性”
 - **[Momenta港股上市 与上汽智己“双向持股” 第100万台量产车落地智己汽车](https://www.stcn.com/article/detail/4005675.html)** — _www.stcn.com_ · date: unknown
