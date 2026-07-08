@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-08 21:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-09 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-08 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **2535 unique auto/NEV articles** across **19 outlets**
+## Cumulative: **2543 unique auto/NEV articles** across **19 outlets**
 
 ## New per day
 | date | new articles |
@@ -41,17 +41,18 @@ _Updated 2026-07-08 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-06 | 51 |
 | 2026-07-07 | 56 |
 | 2026-07-08 | 57 |
+| 2026-07-09 | 8 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 659 |
+| www.d1ev.com | 665 |
 | www.caam.org.cn | 178 |
-| 36kr.com | 129 |
+| 36kr.com | 130 |
 | www.stcn.com | 126 |
 | www.cada.cn | 94 |
-| egs.stcn.com | 77 |
+| egs.stcn.com | 78 |
 | www.news.cn | 59 |
 | www.yicai.com | 45 |
 | www.xinhuanet.com | 24 |
@@ -66,6 +67,24 @@ _Updated 2026-07-08 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 | gd.chinadaily.com.cn | 1 |
 
 ## Articles captured by day (newest first)
+
+### 2026-07-09 — 8 articles
+- **[对话Momenta曹旭东：登月自动驾驶，要先做出量产的「火箭」](https://36kr.com/p/3887094153771777)** — _36kr.com_ · published 2026-07-09
+  对话Momenta曹旭东：登月自动驾驶，要先做出量产的「火箭」 整理｜樊舒琪 7月8日，自动驾驶公司Momenta正式以“6880”为股票代码在港交所主板挂牌上市。开盘后，Momenta一度上涨超6%，市值突破700亿港元。 按每股295.6港元的发行价计算，假设“绿鞋”（超额配股权）全额行使，Momenta本次全球发售约2,293万股，募集资金总额约68亿
+- **[海南省政府与中国汽车技术研究中心有限公司签约](https://egs.stcn.com/news/detail/2312594.html)** — _egs.stcn.com_ · date: unknown
+  人民财讯7月8日电，据海南日报，7月8日，海南省政府与中国汽车技术研究中心有限公司签署战略合作框架协议。根据协议，双方将建立高层领导不定期会晤制度、常态化沟通联络和工作协同机制，聚焦海南清洁能源岛建设，支持中汽中心在琼布局建设政策与标准研究、热区标定与测试、进出口服务、智能网联测试、新能源及节能减排、汽车文旅及后市场等六大中心。
+- **[比亚迪海豹08下线，1700万辆新能源车里程碑达成！](https://www.d1ev.com/newsflash/306111)** — _www.d1ev.com_ · date: unknown
+  7月8日，比亚迪在西安工厂迎来了第1700万辆新能源汽车下线，标志着公司在零碳梦想道路上迈出了重要一步。继4月17日第1600万辆新能源车下线后，比亚迪仅用不到3个月时间便实现了100万辆的增长。此次下线的里程碑车型为海豹08，定位中大型轿跑，售价区间19.69万至23.99万元，提供插混和纯电两种版本，共六款配置。海豹08车身尺寸为5150mmx1999m
+- **[吉利银河A7EM创纪录：插混轿车续航2600公里仅需8.98万起](https://www.d1ev.com/newsflash/306110)** — _www.d1ev.com_ · date: unknown
+  今日，吉利汽车官方宣布，其插电式 混合动力车型吉利银河A7EM创下吉尼斯续航新纪录，实现了驾驶插混量产轿车零补能行驶最远距离，共行驶2608.360公里。今年4月，吉利汽车旗下2026款银河A7EM/A7EV双车正式上市，其中银河A7EM上市限时先享指导价8.98万元起。该车型定位为“电混家轿颠覆者”，拥有2845mm越级轴距，宣传可实现2L级超低馈电油耗，
+- **[2026上半年国内乘用车销量大跌20.2%，新能源车市仍坚挺](https://www.d1ev.com/newsflash/306109)** — _www.d1ev.com_ · date: unknown
+  2026年上半年，国内乘用车市场遭遇挑战，零售销量同比下滑20.2%，总量降至870.1万辆。新能源乘用车和燃油乘用车均受影响，零售量分别同比下跌14%和26.4%，降至470.4万辆和399.7万辆。7月8日，中国汽车流通协会乘用车市场信息联席分会发布的数据显示，6月单月乘用车市场零售量同比下降23.2%，跌至160.2万辆。其中，燃油乘用车和新能源乘用车
+- **[奔驰纯电GLC上市：续航703km，4.9秒破百，豪华科技新标杆](https://www.d1ev.com/newsflash/306106)** — _www.d1ev.com_ · date: unknown
+  7月8日，奔驰全新纯电GLC正式上市，鎏金版（5座高配）官方指导售价33.98万元。同时，晖银版（5座）和星铂版（4+2座）开启预售，售价分别为29.99万元和38.88万元。这款车型基于MB.EA纯电架构打造，外观设计融合经典与科技感，配备942颗可发光背光单元的复古盾形交互格栅和全新LED数字大灯。新车车身长宽高为4949/1970/1710mm，轴距3
+- **[小米汽车官宣全新系列SkyNomad，中文名或为“澎程”](https://www.d1ev.com/newsflash/306105)** — _www.d1ev.com_ · date: unknown
+  7月8日，小米汽车正式官宣全新产品系列名称——SkyNomad。官方配文称：“SkyNomad。天空，游牧者。一个关于空间和生活的新名字，先和大家打个招呼。”小米集团创始人雷军随后发布微博，在被问及上市时间时回复“快了”，还发布了户外大屏品牌海报。 关于SkyNomad的定位，各方报道存在细微差异。多数媒体将其描述为小米汽车旗下全新独立子品牌，但也有知情人士
+- **[“奔驰纯电GLC SUV震撼上市！续航超700km，快充仅需22分钟”](https://www.d1ev.com/newsflash/306104)** — _www.d1ev.com_ · date: unknown
+  7月8日，奔驰全新纯电GLC SUV车型正式上市，提供三种配置版本：晖银版（5座）预售价29.99万元，鎏金版（5座）售价33.98万元，星铂版（4+2座）预售价38.88万元。新车采用最新设计语言，配备942颗聚碳酸酯背光颗粒的发光格栅，以及内置星徽元素的大灯。全系标配不可打开的全景天幕，提供多种轮辋样式，车身尺寸为4949（4933）/1970（1914
 
 ### 2026-07-08 — 57 articles
 - **[干掉日系，中国车在欧洲杀疯了，月销暴涨6成，五大玩家爆发](https://36kr.com/p/3886203577643268)** — _36kr.com_ · published 2026-07-08
