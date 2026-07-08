@@ -37,10 +37,9 @@ regions:
 query_template_set: "alj_jameel_weekly_v3"   # WS2 parity 2026-07-04 (v2+policy_regulation+aftersales_fleet)
 report_template:    "alj_china_auto_weekly_v1"    # NEW — to be drafted
 
-# Delivery channel
-# Internal test delivery posture (adopted 2026-06-12): labels-not-blocks for
-# allowlisted internal-review destinations. external_client (future) = strict gate.
-delivery_mode: internal_review
+# Delivery channel — external_client 2026-07-04 (operator-approved): strict gate,
+# no internal labels, web delivery to auto.thefootegroup.com after each run.
+delivery_mode: external_client
 lark_append: true
 
 # CP-026 full-text enrichment — ADOPTED for ALJ 2026-06-12 (operator decision,
@@ -68,8 +67,7 @@ domain_exclusion:
 delivery_channel:
   type: lark
   credentials_ref: "/root/openclaw_secrets/lark_webhook_alj_china_auto_001"
-  # NOTE: pilot client — no live delivery credential exists yet.
-  # pilot_mode=true means delivery gate will hold all output for operator review.
+  # NOTE: credential live 2026-07-04; delivers to Lark + auto.thefootegroup.com.
 
 # Schedule
 schedule: null   # Manual trigger only — never added to cron
@@ -114,9 +112,5 @@ require_complete_source_appendix: true
 # used in report (yes/no), related section/bullet.
 
 # Pilot gate
-pilot_mode: true   # RESTORED 2026-06-11 after CP-023R controlled run (run blocked at
-                   # completeness gate, nothing delivered) — back to held mode per
-                   # operator-approved standing state of 2026-06-10
-                   # until operator explicitly approves each delivery
-                   # Re-enabled 2026-06-10 (operator-approved): closes ADV-017
-                   # conflict — Sunday cron now runs in held mode, no delivery
+pilot_mode: false  # OPENED 2026-07-04 (operator-approved): external delivery enabled.
+                   # Delivers to Lark doc + auto.thefootegroup.com on every clean run.
