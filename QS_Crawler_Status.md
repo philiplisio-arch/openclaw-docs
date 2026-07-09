@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-09 09:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-09 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-09 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **2558 unique auto/NEV articles** across **19 outlets**
+## Cumulative: **2570 unique auto/NEV articles** across **19 outlets**
 
 ## New per day
 | date | new articles |
@@ -41,24 +41,24 @@ _Updated 2026-07-09 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-06 | 51 |
 | 2026-07-07 | 56 |
 | 2026-07-08 | 57 |
-| 2026-07-09 | 23 |
+| 2026-07-09 | 35 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 675 |
+| www.d1ev.com | 680 |
 | www.caam.org.cn | 178 |
 | 36kr.com | 132 |
-| www.stcn.com | 128 |
+| www.stcn.com | 131 |
 | www.cada.cn | 94 |
-| egs.stcn.com | 79 |
-| www.news.cn | 59 |
+| egs.stcn.com | 81 |
+| www.news.cn | 60 |
 | www.yicai.com | 45 |
 | www.xinhuanet.com | 24 |
 | www.zqrb.cn | 15 |
 | cn.chinadaily.com.cn | 15 |
-| qzs.stcn.com | 10 |
+| qzs.stcn.com | 11 |
 | economy.gmw.cn | 8 |
 | www.ceweekly.cn | 2 |
 | cnews.chinadaily.com.cn | 2 |
@@ -68,7 +68,7 @@ _Updated 2026-07-09 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-09 — 23 articles
+### 2026-07-09 — 35 articles
 - **[对话Momenta曹旭东：登月自动驾驶，要先做出量产的「火箭」](https://36kr.com/p/3887094153771777)** — _36kr.com_ · published 2026-07-09
   对话Momenta曹旭东：登月自动驾驶，要先做出量产的「火箭」 整理｜樊舒琪 7月8日，自动驾驶公司Momenta正式以“6880”为股票代码在港交所主板挂牌上市。开盘后，Momenta一度上涨超6%，市值突破700亿港元。 按每股295.6港元的发行价计算，假设“绿鞋”（超额配股权）全额行使，Momenta本次全球发售约2,293万股，募集资金总额约68亿
 - **[第三排没了，旗舰 SUV的野心更大了](https://36kr.com/p/3887628307692036)** — _36kr.com_ · published 2026-07-09
@@ -79,6 +79,12 @@ _Updated 2026-07-09 09:12 | discovery-only, zero LLM tokens | runs every 3h_
   人民财讯7月8日电，据海南日报，7月8日，海南省政府与中国汽车技术研究中心有限公司签署战略合作框架协议。根据协议，双方将建立高层领导不定期会晤制度、常态化沟通联络和工作协同机制，聚焦海南清洁能源岛建设，支持中汽中心在琼布局建设政策与标准研究、热区标定与测试、进出口服务、智能网联测试、新能源及节能减排、汽车文旅及后市场等六大中心。
 - **[雷军：正式公布小米汽车第二个产品系列SkyNomad小米澎程](https://egs.stcn.com/news/detail/2312655.html)** — _egs.stcn.com_ · published 2026-07-09
   首页 推荐 快讯 解读 股市 港股通 视听 专题 行情 数据 公众号 APP 电子报 您当前的位置： 证券时报·e公司 > 快讯 > 详情 雷军：正式公布小米汽车第二个产品系列SkyNomad小米澎程 来源：人民财讯 作者：王焕城 2026-07-09 08:14 Aa 大号字 人民财讯7月9日电，雷军在微博表示，今天，我们正式公布小米汽车的第二个产品系列：
+- **[小鹏Robotaxi开启内测，何小鹏称Robotaxi是小鹏迈向“机器人汽车”的重要一步](https://egs.stcn.com/news/detail/2312769.html)** — _egs.stcn.com_ · date: unknown
+  证券时报 07-09 11:32 人民财讯7月9日电，记者9日获悉，小鹏集团召开Robotaxi业务首次全员会，并宣布正式启动员工内测。何小鹏表示，未来十年，所有具身智能载体本质都会成为机器人，Robotaxi是小鹏从新能源汽车迈向“机器人汽车”的重要一步，是成为小鹏物理AI版图的关键一子。基于AI时代软硬件融合的发展趋势，小鹏未来将聚焦整车平台、自动驾驶软
+- **[理想汽车：新一代理想L6产品发布会定档7月16日](https://egs.stcn.com/news/detail/2312754.html)** — _egs.stcn.com_ · published 2026-07-09
+  首页 推荐 快讯 解读 股市 港股通 视听 专题 行情 数据 公众号 APP 电子报 您当前的位置： 证券时报·e公司 > 快讯 > 详情 理想汽车：新一代理想L6产品发布会定档7月16日 来源：人民财讯 作者：王焕城 2026-07-09 11:16 Aa 大号字 人民财讯7月9日电，理想汽车消息，新一代理想L6产品发布会，定档7月16日19:30。 责任
+- **[小鹏Robotaxi开启内测，何小鹏称Robotaxi是小鹏迈向“机器人汽车”的重要一步](https://qzs.stcn.com/article/detail/612987.html)** — _qzs.stcn.com_ · date: unknown
+  人民财讯7月9日电，记者9日获悉，小鹏集团召开Robotaxi业务首次全员会，并宣布正式启动员工内测。何小鹏表示，未来十年，所有具身智能载体本质都会成为机器人，Robotaxi是小鹏从新能源汽车迈向“机器人汽车”的重要一步，是成为小鹏物理AI版图的关键一子。基于AI时代软硬件融合的发展趋势，小鹏未来将聚焦整车平台、自动驾驶软件及AI能力，打造服务全球合作伙伴
 - **[比亚迪海豹08下线，1700万辆新能源车里程碑达成！](https://www.d1ev.com/newsflash/306111)** — _www.d1ev.com_ · date: unknown
   7月8日，比亚迪在西安工厂迎来了第1700万辆新能源汽车下线，标志着公司在零碳梦想道路上迈出了重要一步。继4月17日第1600万辆新能源车下线后，比亚迪仅用不到3个月时间便实现了100万辆的增长。此次下线的里程碑车型为海豹08，定位中大型轿跑，售价区间19.69万至23.99万元，提供插混和纯电两种版本，共六款配置。海豹08车身尺寸为5150mmx1999m
 - **[吉利银河A7EM创纪录：插混轿车续航2600公里仅需8.98万起](https://www.d1ev.com/newsflash/306110)** — _www.d1ev.com_ · date: unknown
@@ -111,10 +117,28 @@ _Updated 2026-07-09 09:12 | discovery-only, zero LLM tokens | runs every 3h_
   7月9日，小米公司宣布推出小米汽车的第二个产品系列——SkyNomad小米澎程。该系列定位为“智能可变大空间SUV”，旨在满足用户对车内空间灵活性和舒适性的需求。小米澎程系列强调车辆不仅是行驶载具，更是移动的“第N空间”，能够根据用户需求智能切换车内空间布局。自2023年初起，小米汽车基于小米昆仑架构，通过车内纯平地板与长滑轨设计，实现了空间智能切换的能力。
 - **[“犀牛”开路，奇瑞纯电起风云](https://www.d1ev.com/news/shichang/306129)** — _www.d1ev.com_ · date: unknown
   今年有件很有意思的“蝴蝶效应”事件。3月23日国内油价突发地进入“9元时代”，接着 就跟多米诺骨牌似的压向了汽车销售终端4S店，就这样，“纯电时代”令行业措手不及地到来了。 而对于风口的反应，车企各异。那么，一向奉行“油电同权”战略的奇瑞，做好准备了吗？ “15万元级最美纯电轿跑风云A9，它来了！”最近，奇瑞执行副总裁李学用的视频号中，接连推出几期关于这款纯
+- **[理想L6新车型7月16日发布，续航升级成本增1.4万！](https://www.d1ev.com/newsflash/306170)** — _www.d1ev.com_ · date: unknown
+  7月9日，理想汽车宣布新一代理想L6产品发布会将于7月16日19:30举行。官方同时公布了新车的“沙丘黄”车色，并发布了座舱官图。新一代理想L6的车身尺寸为4935/1960/1735mm，轴距2920mm，与在售车型保持一致。车内搭载1.5T涡轮增压增程器， 发动机最大功率113千瓦， 电池容量从36.8kWh提升至51kWh。新车内饰延续现款车型布局，手
+- **[广西洪灾小区停电！比亚迪外放电立功 车身插满手机充电器](https://www.d1ev.com/news/qiye/306168)** — _www.d1ev.com_ · date: unknown
+  快科技7月9日消息，受今年第10号台风“美莎克”影响，广西近期出现连续强降雨，广西南宁、贵港等地遭遇严重洪涝灾害，多个小区停电。 7月7日，一段广西新能源车主在停电期间，通过车辆外放电功能免费给邻居充电的视频在网络热传，引起热议。 视频显示，在贵港一个因洪水停电的小区内，一位车主将新能源车停在楼下，通过外放电功能接出电源，车身周围插满了邻居们的手机充电器。
+- **[比亚迪第1700万辆新能源汽车下线](https://www.d1ev.com/news/qiye/306167)** — _www.d1ev.com_ · date: unknown
+  盖世汽车获悉，7月8日，比亚迪在西安工厂宣布，其第1700万辆新能源汽车正式下线，成为全球首家达成这一数量的车企。本次下线的车型为比亚迪海洋网旗舰轿车“海豹08”。 图片来源：比亚迪 据比亚迪官方数据，2026年上半年，比亚迪累计销量为1,808,511辆，其中乘用车及皮卡海外累计销售789,367辆，同比增长68%。 作为第1700万辆下线的代表车型，海豹
+- **[小米澎程SU7/YU7系列亮相：增程SUV新势力，400](https://www.d1ev.com/newsflash/306166)** — _www.d1ev.com_ · date: unknown
+  7月9日，小米澎程官方对外发布了SkyNomad品牌的首款新车外观及定位信息。该系列被定义为“驾驶者之车”，旨在满足不同用户的需求。小米澎程系列则被定位为“智能可变大空间SUV”，标志着小米在造车领域5年多的探索后，向市场交出的两份答卷。 新车SU7/YU7系列在设计上以方正硬朗的线条为主，前脸采用了全新的设计语言，前大灯组造型锐利，与SU7、YU7的设计形
+- **[小鹏Robotaxi内测首单！8个月实现L4级自动驾驶，无需激光雷达](https://www.d1ev.com/newsflash/306165)** — _www.d1ev.com_ · date: unknown
+  7月9日，小鹏汽车董事长、CEO 何小鹏宣布成为公司Robotaxi内测的第一单用户，并分享了其流畅的乘车体验。何小鹏表示，从官宣Robotaxi计划到全链路跑通、开启内测，仅用了8个月时间，这一速度超出了预期。他感谢了所有在Robotaxi项目上投入的团队成员。 小鹏Robotaxi是基于小鹏旗舰车型GX打造的中国首款全栈自研、前装量产车型。车内搭载4颗自
+- **[话语权进一步提升 护航车企加速出海 中国深度参与全球自动驾驶标准制定](https://www.news.cn/20260709/3c55f4b903994f1daa3c0912ee238c64/c.html)** — _www.news.cn_ · published 2026-07-09
+  近日，在联合国世界车辆法规协调组织（UN/WP.29）第199次全体会议上，由中国、欧盟、英国、美国、加拿大和日本共同牵头制定的联合国自动驾驶系统全球技术法规（ADS GTR）正式获批发布。 专家认为，全球首个自动驾驶系统统一技术法规的出台，标志着全球智能网联汽车法规协调实现历史性突破，也标志着中国汽车产业在全球标准体系话语权的进一步提升，有望为中国智能驾驶
 - **[中欧汽车产业双向赋能 共享“中国机遇2.0”](https://www.stcn.com/article/detail/4007706.html)** — _www.stcn.com_ · date: unknown
   西班牙车企埃夫罗与中国车企奇瑞在巴塞罗那合资运营的工厂近期启用全新生产线，德国车企大众在合肥的研发中心实现新车平台“从概念到上市”的全链条开发。一边是“借东风”，吸纳中国前沿产业新兴技术；一边是“强筋骨”，通过深耕中国市场汇聚创新力量。两幅图景，展现出“中国机遇2.0”的两种打开方式。 作为欧盟重要的经济体和汽车生产国，西班牙拥有成熟的汽车产业配套、连接欧洲
 - **[细分赛道韧性凸显 SUV扛起车市增长主线](https://www.stcn.com/article/detail/4007689.html)** — _www.stcn.com_ · date: unknown
   6月全新上市车型中SUV占比过半 单位：万元数据来源：乘联分会 汽车市场新品投放重心持续向SUV品类倾斜。中国汽车流通协会乘用车市场信息联席分会（以下简称“乘联分会”）秘书长崔东树发表文章表示，6月全新上市车型中SUV占比过半。 在国内乘用车大盘进入平稳调整阶段、行业加快优化经营结构的背景下，SUV品类市场韧性凸显，稳步支撑各大车企整体销量底盘，助力夯实经营
+- **[小鹏Robotaxi开启内测，何小鹏称Robotaxi是小鹏迈向“机器人汽车”的重要一步](https://www.stcn.com/article/detail/4008285.html)** — _www.stcn.com_ · published 2026-07-03
+  证券时报网 王小伟 2026-07-03 19:00 人民财讯7月9日电，记者9日获悉，小鹏集团召开Robotaxi业务首次全员会，并宣布正式启动员工内测。何小鹏表示，未来十年，所有具身智能载体本质都会成为机器人，Robotaxi是小鹏从新能源汽车迈向“机器人汽车”的重要一步，是成为小鹏物理AI版图的关键一子。基于AI时代软硬件融合的发展趋势，小鹏未来将聚焦
+- **[理想汽车：新一代理想L6产品发布会定档7月16日](https://www.stcn.com/article/detail/4008232.html)** — _www.stcn.com_ · date: unknown
+  移动版 网页版 首页 快讯 新闻 要闻 金融 评论 产经 创投 滚动 视频 视频 直播 路演 投资 A股 公司 新股 基金 港美股 数据 数据资讯 盯盘面 看资金 追风向 解财报 淘新股 再融资 港股 基金 信披+ 全部 沪市主板 深市主板 科创板 创业板 北交所 新三板 深股通 沪股通 专题 地方 京 津 冀 晋 蒙 辽 吉 黑 沪 苏 浙 皖 闽 赣 鲁
+- **[小米汽车第二产品系列定名澎程，雷军称其是大空间SUV](https://www.stcn.com/article/detail/4008150.html)** — _www.stcn.com_ · date: unknown
+  小米集团董事长雷军官宣SkyNomad中文名。7月9日，雷军在社交平台发文，正式公布小米汽车的第二个产品系列：SkyNomad小米澎程。 雷军称，SU7/YU7系列，是“驾驶者之车”；小米澎程系列，是“智能可变大空间SUV”。这是小米造车5年多来，面向不同的用户需求，交出的两份不同的答卷。 对于为什么要做小米澎程，雷军解释称，越来越多车主在选车的时候，不仅仅
 
 ### 2026-07-08 — 57 articles
 - **[干掉日系，中国车在欧洲杀疯了，月销暴涨6成，五大玩家爆发](https://36kr.com/p/3886203577643268)** — _36kr.com_ · published 2026-07-08
