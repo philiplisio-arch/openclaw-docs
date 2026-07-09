@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-10 00:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-10 03:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-10 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **2621 unique auto/NEV articles** across **19 outlets**
+## Cumulative: **2623 unique auto/NEV articles** across **19 outlets**
 
 ## New per day
 | date | new articles |
@@ -42,13 +42,13 @@ _Updated 2026-07-10 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-07 | 56 |
 | 2026-07-08 | 57 |
 | 2026-07-09 | 75 |
-| 2026-07-10 | 11 |
+| 2026-07-10 | 13 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 709 |
+| www.d1ev.com | 711 |
 | www.caam.org.cn | 180 |
 | 36kr.com | 139 |
 | www.stcn.com | 134 |
@@ -69,7 +69,7 @@ _Updated 2026-07-10 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-10 — 11 articles
+### 2026-07-10 — 13 articles
 - **[上半年我国新能源汽车产销量双超700万辆](https://cn.chinadaily.com.cn/a/202607/09/WS6a4fb30aa310d709c2fbcbca.html)** — _cn.chinadaily.com.cn_ · published 2026-07-09
   记者7月9日从中国汽车工业协会获悉，2026年上半年，我国新能源汽车产销分别完成743.8万辆和744.6万辆，同比均实现增长，其中纯电动汽车销量占比升至67%左右。 6月，新能源汽车产销分别完成159.8万辆和164.3万辆，同比增长均超两成，新能源汽车新车销量占汽车新车总销量的比例进一步提升，达到58.5%。 上半年，我国汽车累计出口509.6万辆，其中
 - **[11.59万起 奇瑞风云A9纯电版预售：全系标配70度电池](https://www.d1ev.com/news/qiye/306270)** — _www.d1ev.com_ · date: unknown
@@ -92,6 +92,10 @@ _Updated 2026-07-10 00:12 | discovery-only, zero LLM tokens | runs every 3h_
   2026年7月9日，奇瑞风云A9首发亮相并开启预售，新车共推出X款车型，预售价区间为11.59-13.59万元，并提供7大预售权益。新车定位为中大型车，外观采用轿跑造型，搭载灵犀智舱2.0系统。 外观方面，新车采用凌风设计语言，运动感十分浓郁。前脸配备风刃镭雕灯组，点亮后极具辨识度。两侧导流槽和下方的主动进气格栅则保证了出色的通风、散热效果。根据版本不同，车
 - **[蔚来ES8大五座版上市：豪华空间+超强装载力，续航655km！](https://www.d1ev.com/newsflash/306263)** — _www.d1ev.com_ · date: unknown
   7月9日，蔚来汽车发布了ES8大五座版，强调其核心空间设计。CEO 李斌指出，ES8大五座版通过纯电平台实现乘储分离，前后备舱分区收纳能力强，能够满足全家五人长途出行时携带21件行李的需求，同时保持座舱的豪华感。新车拥有230L前备舱和1334L后备舱，后备舱还配备268L下沉隐藏空间和三折叠隐私分舱板，提供整洁、私密的收纳体验。 蔚来ES8大五座版基于NT
+- **[昆明智己汽车经销商突关停，190余名车主维权难](https://www.d1ev.com/newsflash/306276)** — _www.d1ev.com_ · date: unknown
+  近日，云南昆明智己汽车授权经销商昆明智合悦行汽车销售服务有限公司突发经营异常，导致190余名车主面临无法提车、无法上牌等问题。7月7日，智己汽车昆明官渡用户中心人去楼空，展车、办公设备被搬离，员工集体离职。此前门店仍在正常营业，不少车主刚支付车款就收到销售离职通知。受影响车主的纠纷覆盖购车全链路，包括已付全款未提车、已提车无法上牌、保有用户担忧后续保养质保等
+- **[“电动赛车新纪元：FE赛事如何助力民用电动车技术革新”](https://www.d1ev.com/newsflash/306275)** — _www.d1ev.com_ · date: unknown
+  近日，世界电动方程式（FE）赛事受到越来越多车企的关注。尽管FE的知名度不及F1，但其在电动车技术研究方面与民用电动车的关联性极高。FE赛事中的技术挑战，如动力分配、动能回收等，对提升民用电动车性能具有重要意义。例如，FE赛车的电控系统能在极短时间内调整电机驱动电流，以保持 轮胎在最佳抓地力状态，这种技术已被应用于日产Ariya和保时捷Taycan等量产车型
 
 ### 2026-07-09 — 75 articles
 - **[对话Momenta曹旭东：登月自动驾驶，要先做出量产的「火箭」](https://36kr.com/p/3887094153771777)** — _36kr.com_ · published 2026-07-09
