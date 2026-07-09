@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-09 21:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-10 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-09 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **2610 unique auto/NEV articles** across **19 outlets**
+## Cumulative: **2621 unique auto/NEV articles** across **19 outlets**
 
 ## New per day
 | date | new articles |
@@ -42,12 +42,13 @@ _Updated 2026-07-09 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-07 | 56 |
 | 2026-07-08 | 57 |
 | 2026-07-09 | 75 |
+| 2026-07-10 | 11 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 699 |
+| www.d1ev.com | 709 |
 | www.caam.org.cn | 180 |
 | 36kr.com | 139 |
 | www.stcn.com | 134 |
@@ -56,8 +57,8 @@ _Updated 2026-07-09 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 | www.news.cn | 63 |
 | www.yicai.com | 46 |
 | www.xinhuanet.com | 24 |
+| cn.chinadaily.com.cn | 16 |
 | www.zqrb.cn | 15 |
-| cn.chinadaily.com.cn | 15 |
 | qzs.stcn.com | 11 |
 | economy.gmw.cn | 8 |
 | cnews.chinadaily.com.cn | 3 |
@@ -67,6 +68,30 @@ _Updated 2026-07-09 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 | gd.chinadaily.com.cn | 1 |
 
 ## Articles captured by day (newest first)
+
+### 2026-07-10 — 11 articles
+- **[上半年我国新能源汽车产销量双超700万辆](https://cn.chinadaily.com.cn/a/202607/09/WS6a4fb30aa310d709c2fbcbca.html)** — _cn.chinadaily.com.cn_ · published 2026-07-09
+  记者7月9日从中国汽车工业协会获悉，2026年上半年，我国新能源汽车产销分别完成743.8万辆和744.6万辆，同比均实现增长，其中纯电动汽车销量占比升至67%左右。 6月，新能源汽车产销分别完成159.8万辆和164.3万辆，同比增长均超两成，新能源汽车新车销量占汽车新车总销量的比例进一步提升，达到58.5%。 上半年，我国汽车累计出口509.6万辆，其中
+- **[11.59万起 奇瑞风云A9纯电版预售：全系标配70度电池](https://www.d1ev.com/news/qiye/306270)** — _www.d1ev.com_ · date: unknown
+  快科技7月9日消息，奇瑞风云A9纯电版正式开启预售，共推出3款车型，预售价11.59-13.59万元。 该车长宽高4836(4890)/1896(1913)/1489(1491)mm，轴距2900mm，定位中大型轿车，延续家族的设计语言，整体采用简约凌厉的年轻化造型。 车头为新能源车型封闭式前脸布局，配备分体式灯组，灯组内部搭载矩阵光源，顶配版配激光雷达，支
+- **[蔚来ES8大五座版正式上市，整车购买38.28万起](https://www.d1ev.com/news/qiye/306269)** — _www.d1ev.com_ · date: unknown
+  7月9日，蔚来宣布全场景科技旗舰SUV——蔚来ES8大五座版正式上市。ES8五座行政豪华版售价382,800元起，采用BaaS电池租用方式购买，售价274,800元起；五座行政签名版售价422,800元起，采用BaaS电池租用方式购买，售价314,800元起。蔚来ES8大五座版将于7月10日起正式开启交付。 全场景科技旗舰SUV蔚来ES8大五座版正式上市 全
+- **[蔚来ES8大五座版上市，38.28万元起，BaaS方式27.48万元起](https://www.d1ev.com/news/qiye/306266)** — _www.d1ev.com_ · published 2026-07-31
+  7月9日，蔚来宣布全场景科技旗舰SUV——蔚来ES8大五座版正式上市。ES8五座行政豪华版售价382,800元起，采用BaaS电池租用方式购买，售价274,800元起；五座行政签名版售价422,800元起，采用BaaS电池租用方式购买，售价314,800元起。蔚来ES8大五座版将于7月10日起正式开启交付。 即日起至2026年7月31日（含），锁单并购买蔚来
+- **[租电27.48万起 蔚来ES8五座版上市：102度电池包月付1128元](https://www.d1ev.com/news/qiye/306264)** — _www.d1ev.com_ · date: unknown
+  快科技7月9日消息，今晚，蔚来ES8大五座版上市，推出行政豪华版与行政签名版两款配置，整车购买售价38.28万元起，选择BaaS电池租用方案后，车价下探至27.48万元起，标配102kWh电池包，月租金为1128元。 大五座版外观内饰基本看齐已经上市的六座版，延续了蔚来家族旗舰设计语言，提供极夜黑、星澜灰、云白、南极星蓝、月辉银、曙光金、M42星云红共7款车
+- **[硬顶、敞篷、赛道版三车齐发！比亚迪腾势Z上市：130万起](https://www.d1ev.com/news/qiye/306244)** — _www.d1ev.com_ · date: unknown
+  快科技7月9日消息，今日，比亚迪旗下腾势汽车在2026英国古德伍德速度节上正式完成腾势Z的全球上市首秀。 新车一次性推出三个版本——硬顶Coupe、软顶敞篷Spider和赛道版Racing，欧洲起售价14.29万欧元，三款均搭载三电机动力系统，最大功率1604匹马力，直接对标保时捷911 Turbo S等传统超跑。 以下为三款车型的定位及价格详情： 腾势Z
+- **[为何要推出大五座版蔚来ES8 李斌四个字讲清楚了](https://www.d1ev.com/news/qiye/306245)** — _www.d1ev.com_ · date: unknown
+  快科技7月9日消息，相较于往年卷大六座，今年市场上大五座SUV明显增多了起来，比如就在今晚，五座版的蔚来ES8将上市。 那么为何有了六座版还要推出五座的呢？蔚来汽车创始人、CEO李斌公开进行回应称，答案其实很简单：用户需要。 李斌表示，他们调研时发现，很多五座SUV用户都有一个共同的困扰：后备厢稍微放乱一点，后排的人一回头就看得一清二楚，车里坐着朋友多少有点
+- **[奇瑞风云A9纯电版预售开启，续航655km，增程版续航116km起](https://www.d1ev.com/newsflash/306271)** — _www.d1ev.com_ · date: unknown
+  7月9日，奇瑞汽车宣布旗下风云A9纯电版正式开启预售，预售价区间为11.59-13.59万元。风云A9定位中大型轿车，车身尺寸为4836(4890)/1896(1913)/1489(1491)mm，轴距达到2900mm。外观设计延续家族风格，采用封闭式前脸布局和分体式灯组，顶配版配备激光雷达，支持城区+高速辅助驾驶。车侧采用半隐藏式门把手，车尾配备双层贯穿L
+- **[中国汽车出口量首破百万大关，同比激增75.1%](https://www.d1ev.com/newsflash/306267)** — _www.d1ev.com_ · date: unknown
+  6月，中国汽车出口量创下历史新高，同比增长75.1%，达到103.78万辆，首次单月出口量突破百万辆大关。这一数据由中国汽车工业协会于7月9日发布。自2021年起，中国汽车出口量开始显著增长，2021年至2025年的年出口量分别为201.5万、311.1万、491万、589.5万、709.8万辆。2026年上半年，中国汽车累计出口量超过500万辆，同比增长6
+- **[奇瑞风云A9开启预售 预售价11.59](https://www.d1ev.com/carnews/xinche/306265)** — _www.d1ev.com_ · published 2026-07-09
+  2026年7月9日，奇瑞风云A9首发亮相并开启预售，新车共推出X款车型，预售价区间为11.59-13.59万元，并提供7大预售权益。新车定位为中大型车，外观采用轿跑造型，搭载灵犀智舱2.0系统。 外观方面，新车采用凌风设计语言，运动感十分浓郁。前脸配备风刃镭雕灯组，点亮后极具辨识度。两侧导流槽和下方的主动进气格栅则保证了出色的通风、散热效果。根据版本不同，车
+- **[蔚来ES8大五座版上市：豪华空间+超强装载力，续航655km！](https://www.d1ev.com/newsflash/306263)** — _www.d1ev.com_ · date: unknown
+  7月9日，蔚来汽车发布了ES8大五座版，强调其核心空间设计。CEO 李斌指出，ES8大五座版通过纯电平台实现乘储分离，前后备舱分区收纳能力强，能够满足全家五人长途出行时携带21件行李的需求，同时保持座舱的豪华感。新车拥有230L前备舱和1334L后备舱，后备舱还配备268L下沉隐藏空间和三折叠隐私分舱板，提供整洁、私密的收纳体验。 蔚来ES8大五座版基于NT
 
 ### 2026-07-09 — 75 articles
 - **[对话Momenta曹旭东：登月自动驾驶，要先做出量产的「火箭」](https://36kr.com/p/3887094153771777)** — _36kr.com_ · published 2026-07-09
