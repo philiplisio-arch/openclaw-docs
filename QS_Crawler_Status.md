@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-10 06:11 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-10 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-10 06:11 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **2623 unique auto/NEV articles** across **19 outlets**
+## Cumulative: **2630 unique auto/NEV articles** across **19 outlets**
 
 ## New per day
 | date | new articles |
@@ -42,16 +42,16 @@ _Updated 2026-07-10 06:11 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-07 | 56 |
 | 2026-07-08 | 57 |
 | 2026-07-09 | 75 |
-| 2026-07-10 | 13 |
+| 2026-07-10 | 20 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 711 |
+| www.d1ev.com | 714 |
 | www.caam.org.cn | 180 |
-| 36kr.com | 139 |
-| www.stcn.com | 134 |
+| 36kr.com | 140 |
+| www.stcn.com | 137 |
 | www.cada.cn | 94 |
 | egs.stcn.com | 85 |
 | www.news.cn | 63 |
@@ -69,7 +69,9 @@ _Updated 2026-07-10 06:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-10 — 13 articles
+### 2026-07-10 — 20 articles
+- **[8点1氪丨老乡鸡五年五次冲击上市失败；两款燃油车重回销量榜前十；长鑫科技披露招股意向书，预计7月16日发行](https://36kr.com/p/3889047503354625)** — _36kr.com_ · published 2026-07-10
+  8点1氪丨老乡鸡五年五次冲击上市失败；两款燃油车重回销量榜前十；长鑫科技披露招股意向书，预计7月16日发行 今日热点导览 - 花呗就还款页面无法正常打开致歉 - 中芯国际市值超越贵州茅台 - iPhone 18 Pro Max成本大涨，起步价或维持在9999元 - 英伟达将与Hugging Face合作开发机器人开源模型 - 美国多州可能于下周起诉阻止派拉蒙
 - **[上半年我国新能源汽车产销量双超700万辆](https://cn.chinadaily.com.cn/a/202607/09/WS6a4fb30aa310d709c2fbcbca.html)** — _cn.chinadaily.com.cn_ · published 2026-07-09
   记者7月9日从中国汽车工业协会获悉，2026年上半年，我国新能源汽车产销分别完成743.8万辆和744.6万辆，同比均实现增长，其中纯电动汽车销量占比升至67%左右。 6月，新能源汽车产销分别完成159.8万辆和164.3万辆，同比增长均超两成，新能源汽车新车销量占汽车新车总销量的比例进一步提升，达到58.5%。 上半年，我国汽车累计出口509.6万辆，其中
 - **[11.59万起 奇瑞风云A9纯电版预售：全系标配70度电池](https://www.d1ev.com/news/qiye/306270)** — _www.d1ev.com_ · date: unknown
@@ -96,6 +98,18 @@ _Updated 2026-07-10 06:11 | discovery-only, zero LLM tokens | runs every 3h_
   近日，云南昆明智己汽车授权经销商昆明智合悦行汽车销售服务有限公司突发经营异常，导致190余名车主面临无法提车、无法上牌等问题。7月7日，智己汽车昆明官渡用户中心人去楼空，展车、办公设备被搬离，员工集体离职。此前门店仍在正常营业，不少车主刚支付车款就收到销售离职通知。受影响车主的纠纷覆盖购车全链路，包括已付全款未提车、已提车无法上牌、保有用户担忧后续保养质保等
 - **[“电动赛车新纪元：FE赛事如何助力民用电动车技术革新”](https://www.d1ev.com/newsflash/306275)** — _www.d1ev.com_ · date: unknown
   近日，世界电动方程式（FE）赛事受到越来越多车企的关注。尽管FE的知名度不及F1，但其在电动车技术研究方面与民用电动车的关联性极高。FE赛事中的技术挑战，如动力分配、动能回收等，对提升民用电动车性能具有重要意义。例如，FE赛车的电控系统能在极短时间内调整电机驱动电流，以保持 轮胎在最佳抓地力状态，这种技术已被应用于日产Ariya和保时捷Taycan等量产车型
+- **[【盖世快讯】比亚迪第1700万辆新能源车下线；6月汽车出口首破百万辆](https://www.d1ev.com/news/shichang/306281)** — _www.d1ev.com_ · date: unknown
+  车企动态 | OEM Trend 快科技：7月9日，小米澎程SkyNomad官方预热旗下首款SUV车型，公开车内空间相关信息。官方表示该车做到“看起来SUV，坐进去MPV”，依托小米2023年初从头打造的全新昆仑架构，搭载纯平地板与长滑轨设计，车内第二、第三排支持多种布局，可容纳电视、游戏主机、咖啡桌等设施，部分座椅支持旋转，能够适配单人办公、双人休闲、多人
+- **[全球7大车企利润暴跌，特斯拉、丰田、比亚迪降幅惊人](https://www.d1ev.com/newsflash/306295)** — _www.d1ev.com_ · date: unknown
+  7月10日，全球7家主要汽车厂商2025年度单车利润同比全部出现恶化。美国关税冲击和 纯电动汽车需求放缓是导致盈利能力下降的两大主因。涉及的车企包括丰田、大众、福特、通用、Stellantis以及特斯拉和比亚迪。特斯拉2025年全球交付163.6万辆，GAAP净利润38亿美元，较2024年的71亿美元暴跌46%，单车利润从2024年的约3969美元降至约23
+- **[阿斯顿·马丁下一代车型继续搭载V12发动机](https://www.d1ev.com/carnews/xinche/306293)** — _www.d1ev.com_ · date: unknown
+  阿斯顿・马丁正在开发下一代整车平台，该平台将用于未来的跑车和SUV车型，并将继续提供V12发动机选项。公司已对V12发动机进行调整，使其符合欧洲和美国的排放法规，并计划将V12车型年销量控制在1000辆以内，以获得至少持续至2035年的法规豁免。 此前，阿斯顿・马丁曾于2023年宣布与Lucid合作，由后者为其未来纯电车型供应电驱系统，但相关项目已被大幅推迟
+- **[我国汽车单月出口首超100万辆](https://www.stcn.com/article/detail/4009939.html)** — _www.stcn.com_ · date: unknown
+  证券时报记者 韩忠楠 7月9日，上半年汽车产销数据出炉。1—6月，汽车产销分别完成1499.3万辆和1501.7万辆，同比分别下降4%和4.1%。虽然行业继续承压，但降幅比前5个月进一步收窄。其中，6月份，汽车产销分别完成276万辆和281万辆，环比分别增长5.5%和6.9%，同比分别下降1.2%和3.2%。 中国汽车工业协会副秘书长陈士华表示，上半年，我国
+- **[别用旧眼光看待中国汽车的“快”](https://www.stcn.com/article/detail/4010269.html)** — _www.stcn.com_ · date: unknown
+  法拉利全球营销总监埃马努埃莱·卡兰多近日表示，暂时并不担心被中国新兴车企赶超。他认为，中国车型与法拉利产品整体特质差异很大，中国车企更像是在开发快消品，每个月都有新车推出，消费者手里的旧车很快就会显得过时。 这番表态引发关注，不在于一家超豪华跑车企业是否担心被赶超，而在于它反映出部分老牌车企观察中国汽车产业时仍习惯使用旧坐标。法拉利有品牌传统、性能追求和用户
+- **[从璇玑到马赫，车企扎堆自研智驾芯片](https://www.stcn.com/article/detail/4010276.html)** — _www.stcn.com_ · date: unknown
+  从“卷”价格到“卷”流量，车企现在又开始“卷”芯片了。 在新能源汽车赛道，一个有意思的现象正在发生：比亚迪、蔚小理、吉利等头部车企正在扎堆做全栈自研智驾芯片。 不过另一边，零跑汽车创始人朱江明却发出预警，称“当下AI智能驾驶的芯片过剩”。 当下智驾芯片行业发展如何？车企为何扎堆自研智驾芯片？高投入、长周期、重研发的芯片赛道，为何成为车企必争之地？ 头部车企纷
 
 ### 2026-07-09 — 75 articles
 - **[对话Momenta曹旭东：登月自动驾驶，要先做出量产的「火箭」](https://36kr.com/p/3887094153771777)** — _36kr.com_ · published 2026-07-09
