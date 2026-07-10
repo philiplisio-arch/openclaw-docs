@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-10 21:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-11 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-10 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **2681 unique auto/NEV articles** across **19 outlets**
+## Cumulative: **2690 unique auto/NEV articles** across **19 outlets**
 
 ## New per day
 | date | new articles |
@@ -43,23 +43,24 @@ _Updated 2026-07-10 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-08 | 57 |
 | 2026-07-09 | 75 |
 | 2026-07-10 | 71 |
+| 2026-07-11 | 9 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 740 |
+| www.d1ev.com | 745 |
 | www.caam.org.cn | 181 |
 | 36kr.com | 152 |
-| www.stcn.com | 143 |
+| www.stcn.com | 144 |
 | www.cada.cn | 95 |
-| egs.stcn.com | 87 |
+| egs.stcn.com | 88 |
 | www.news.cn | 63 |
-| www.yicai.com | 48 |
+| www.yicai.com | 49 |
 | www.xinhuanet.com | 24 |
 | cn.chinadaily.com.cn | 16 |
 | www.zqrb.cn | 15 |
-| qzs.stcn.com | 12 |
+| qzs.stcn.com | 13 |
 | economy.gmw.cn | 8 |
 | cnews.chinadaily.com.cn | 3 |
 | www.ceweekly.cn | 2 |
@@ -68,6 +69,26 @@ _Updated 2026-07-10 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 | gd.chinadaily.com.cn | 1 |
 
 ## Articles captured by day (newest first)
+
+### 2026-07-11 — 9 articles
+- **[小米汽车回应拟推出两款增程车 上市节奏正在稳步推进](https://egs.stcn.com/news/detail/2313710.html)** — _egs.stcn.com_ · date: unknown
+  证券时报·e公司 唐强 07-10 22:15 人民财讯7月10日电，小米汽车7月10日在答网友问中回应拟推出两款增程车，小米汽车表示，小米澎程不是子品牌，是小米汽车旗下的智能可变大空间SUV系列，和SU7、YU7一样，都是小米汽车的不同系列。小米澎程目前计划发布两款车型，分别是五座版和七座版，均采用增程式动力。 小米汽车表示，在2023年初，小米澎程系列正
+- **[小米汽车回应拟推出两款增程车 上市节奏正在稳步推进](https://qzs.stcn.com/article/detail/613706.html)** — _qzs.stcn.com_ · date: unknown
+  人民财讯7月10日电，小米汽车7月10日在答网友问中回应拟推出两款增程车，小米汽车表示，小米澎程不是子品牌，是小米汽车旗下的智能可变大空间SUV系列，和SU7、YU7一样，都是小米汽车的不同系列。小米澎程目前计划发布两款车型，分别是五座版和七座版，均采用增程式动力。 小米汽车表示，在2023年初，小米澎程系列正式规划立项时，动力形式就选择了增程技术，并进行了
+- **[小米澎程增程车纯电续航超500公里，日常通勤不烧油！](https://www.d1ev.com/newsflash/306453)** — _www.d1ev.com_ · date: unknown
+  近日，小米汽车对外发布了最新一期网友问答，详细介绍了小米澎程的动力方案。这款增程车型在纯电续航方面表现突出，日常通勤基本可以完全依靠电能行驶。小米澎程计划发布五座版和七座版两款车型，均采用增程式动力。官方强调，这套系统的设计思路是优先保证纯电行驶体验，燃油仅作为长途出行的补充。 根据工信部公示数据，小米澎程在WLTC工况下的纯电续航最高可达380公里，而在更
+- **[小批量、多品种混产，越疆如何治愈汽车产线的“柔性焦虑”？](https://www.d1ev.com/news/shichang/306450)** — _www.d1ev.com_ · date: unknown
+  中汽协数据显示，2026年国内汽车总销量预计为3475万辆，同比微增1%。这标志着中国汽车市场正式迈入“存量竞争、高质量发展”的新阶段——车企之间的较量，不再是谁跑得更快，而是谁造得更精、成本更低、换型更敏捷。 这对制造能力提出了极限考验：产线需同时满足高节拍、高精度、高柔性的三重诉求，而传统自动化方案往往只能做取舍。在此背景下，协作机器人的价值被重新审视，
+- **[比亚迪腾势N8亮相：5150mm大五座SUV，5分钟快充技术革新](https://www.d1ev.com/newsflash/306449)** — _www.d1ev.com_ · date: unknown
+  近日，工信部发布了第409批《道路机动车辆生产企业及产品公告》新产品公示，比亚迪腾势N8三款纯电动车型完成申报。比亚迪腾势汽车官方发布了大五座纯电SUV腾势N8的官图，新车尺寸为长5150mm、宽1999mm、高1820mm，轴距3075mm。官方宣布新车将搭载第二代刀片 电池及闪充技术，宣称“5分钟充好，9分钟充饱，零下30度只多3分钟”。 根据工信部申报
+- **[零跑B01/B10新车型7月16日上市，盲订开启，续航升级！](https://www.d1ev.com/newsflash/306448)** — _www.d1ev.com_ · date: unknown
+  7月10日，零跑汽车宣布全新B01/B10车型将于7月16日上市，这两款新车型已在7月8日开启盲订。全新零跑B01新增云黛紫、液态银外观，定位为“年轻时尚超长续航轿车”，而全新B10新增风禾青、液态银配色，定位为“全球智享长续航SUV”。全新B01车型搭载了50英寸虚实融合AR-HUD、17.3英寸3K超清中控屏、8.8英寸液晶仪表、LeapSound14扬
+- **[吉利战舰700硬派SUV亮相：插混动力+三电机四驱，综合功率830千瓦](https://www.d1ev.com/newsflash/306446)** — _www.d1ev.com_ · date: unknown
+  近日，吉利银河品牌旗下插电混动SUV战舰700在工信部最新批次新车申报名录中亮相。战舰700采用硬派设计风格，具有窄条幅式前格栅、外方内圆大灯组、扁平通气孔等设计元素，最小离地间隙230mm，接近角32°、离去角28°，确保良好的通过性。车身尺寸为4893*2028*1905mm，轴距2930mm，采用内嵌式梯形半大梁架构，相比传统非承载大梁减重约200kg
+- **[小米汽车回应拟推出两款增程车 上市节奏正在稳步推进](https://www.stcn.com/article/detail/4012435.html)** — _www.stcn.com_ · published 2026-07-09
+  界面新闻 2026-07-09 10:32 人民财讯7月10日电，小米汽车7月10日在答网友问中回应拟推出两款增程车，小米汽车表示，小米澎程不是子品牌，是小米汽车旗下的智能可变大空间SUV系列，和SU7、YU7一样，都是小米汽车的不同系列。小米澎程目前计划发布两款车型，分别是五座版和七座版，均采用增程式动力。 小米汽车表示，在2023年初，小米澎程系列正式规
+- **[广汽集团半年预亏超40亿元，二季度亏损同比近乎翻倍](https://www.yicai.com/news/103270278.html)** — _www.yicai.com_ · date: unknown
+  {{aisd}} AI生成 免责声明 7月10日晚间，广汽集团发布2026年半年度业绩预告。经财务部门初步测算，预计公司2026年半年度实现归属于母公司所有者的净利润为-40.6亿元至-45.7亿元。预计公司2026年半年度实现归属于母公司所有者的扣除非经常性损益后的净利润为-48亿元至-56亿元。 去年同期，广汽集团归属于母公司所有者的净利润-25.38亿
 
 ### 2026-07-10 — 71 articles
 - **[8点1氪丨老乡鸡五年五次冲击上市失败；两款燃油车重回销量榜前十；长鑫科技披露招股意向书，预计7月16日发行](https://36kr.com/p/3889047503354625)** — _36kr.com_ · published 2026-07-10
