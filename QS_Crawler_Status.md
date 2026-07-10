@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-11 00:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-11 03:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-11 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **2690 unique auto/NEV articles** across **19 outlets**
+## Cumulative: **2691 unique auto/NEV articles** across **19 outlets**
 
 ## New per day
 | date | new articles |
@@ -43,13 +43,13 @@ _Updated 2026-07-11 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-08 | 57 |
 | 2026-07-09 | 75 |
 | 2026-07-10 | 71 |
-| 2026-07-11 | 9 |
+| 2026-07-11 | 10 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 745 |
+| www.d1ev.com | 746 |
 | www.caam.org.cn | 181 |
 | 36kr.com | 152 |
 | www.stcn.com | 144 |
@@ -70,7 +70,7 @@ _Updated 2026-07-11 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-11 — 9 articles
+### 2026-07-11 — 10 articles
 - **[小米汽车回应拟推出两款增程车 上市节奏正在稳步推进](https://egs.stcn.com/news/detail/2313710.html)** — _egs.stcn.com_ · date: unknown
   证券时报·e公司 唐强 07-10 22:15 人民财讯7月10日电，小米汽车7月10日在答网友问中回应拟推出两款增程车，小米汽车表示，小米澎程不是子品牌，是小米汽车旗下的智能可变大空间SUV系列，和SU7、YU7一样，都是小米汽车的不同系列。小米澎程目前计划发布两款车型，分别是五座版和七座版，均采用增程式动力。 小米汽车表示，在2023年初，小米澎程系列正
 - **[小米汽车回应拟推出两款增程车 上市节奏正在稳步推进](https://qzs.stcn.com/article/detail/613706.html)** — _qzs.stcn.com_ · date: unknown
@@ -85,6 +85,8 @@ _Updated 2026-07-11 00:12 | discovery-only, zero LLM tokens | runs every 3h_
   7月10日，零跑汽车宣布全新B01/B10车型将于7月16日上市，这两款新车型已在7月8日开启盲订。全新零跑B01新增云黛紫、液态银外观，定位为“年轻时尚超长续航轿车”，而全新B10新增风禾青、液态银配色，定位为“全球智享长续航SUV”。全新B01车型搭载了50英寸虚实融合AR-HUD、17.3英寸3K超清中控屏、8.8英寸液晶仪表、LeapSound14扬
 - **[吉利战舰700硬派SUV亮相：插混动力+三电机四驱，综合功率830千瓦](https://www.d1ev.com/newsflash/306446)** — _www.d1ev.com_ · date: unknown
   近日，吉利银河品牌旗下插电混动SUV战舰700在工信部最新批次新车申报名录中亮相。战舰700采用硬派设计风格，具有窄条幅式前格栅、外方内圆大灯组、扁平通气孔等设计元素，最小离地间隙230mm，接近角32°、离去角28°，确保良好的通过性。车身尺寸为4893*2028*1905mm，轴距2930mm，采用内嵌式梯形半大梁架构，相比传统非承载大梁减重约200kg
+- **[小米澎程SUV：超500公里纯电续航，全地形极限测试！](https://www.d1ev.com/newsflash/306456)** — _www.d1ev.com_ · date: unknown
+  7月10日，小米汽车在其官方问答栏目中详细介绍了全新SUV系列小米澎程的整车测试流程。小米澎程作为品牌首款增程车型，延续了小米的高标准造车思路，投入大量测试车辆完成全场景严苛验证。小米汽车全系累计动用2684台测试车辆，总行驶里程突破3551万公里，测试覆盖国内三百多座城市。澎程系列单独投入566台测试车，累计路测里程达到428万公里，测试覆盖各类极端环境和
 - **[小米汽车回应拟推出两款增程车 上市节奏正在稳步推进](https://www.stcn.com/article/detail/4012435.html)** — _www.stcn.com_ · published 2026-07-09
   界面新闻 2026-07-09 10:32 人民财讯7月10日电，小米汽车7月10日在答网友问中回应拟推出两款增程车，小米汽车表示，小米澎程不是子品牌，是小米汽车旗下的智能可变大空间SUV系列，和SU7、YU7一样，都是小米汽车的不同系列。小米澎程目前计划发布两款车型，分别是五座版和七座版，均采用增程式动力。 小米汽车表示，在2023年初，小米澎程系列正式规
 - **[广汽集团半年预亏超40亿元，二季度亏损同比近乎翻倍](https://www.yicai.com/news/103270278.html)** — _www.yicai.com_ · date: unknown
