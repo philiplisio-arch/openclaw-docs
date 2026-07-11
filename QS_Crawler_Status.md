@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-11 09:11 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-11 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-11 09:11 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **2696 unique auto/NEV articles** across **19 outlets**
+## Cumulative: **2702 unique auto/NEV articles** across **19 outlets**
 
 ## New per day
 | date | new articles |
@@ -43,16 +43,16 @@ _Updated 2026-07-11 09:11 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-08 | 57 |
 | 2026-07-09 | 75 |
 | 2026-07-10 | 71 |
-| 2026-07-11 | 15 |
+| 2026-07-11 | 21 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 751 |
+| www.d1ev.com | 756 |
 | www.caam.org.cn | 181 |
 | 36kr.com | 152 |
-| www.stcn.com | 144 |
+| www.stcn.com | 145 |
 | www.cada.cn | 95 |
 | egs.stcn.com | 88 |
 | www.news.cn | 63 |
@@ -70,7 +70,7 @@ _Updated 2026-07-11 09:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-11 — 15 articles
+### 2026-07-11 — 21 articles
 - **[小米汽车回应拟推出两款增程车 上市节奏正在稳步推进](https://egs.stcn.com/news/detail/2313710.html)** — _egs.stcn.com_ · date: unknown
   证券时报·e公司 唐强 07-10 22:15 人民财讯7月10日电，小米汽车7月10日在答网友问中回应拟推出两款增程车，小米汽车表示，小米澎程不是子品牌，是小米汽车旗下的智能可变大空间SUV系列，和SU7、YU7一样，都是小米汽车的不同系列。小米澎程目前计划发布两款车型，分别是五座版和七座版，均采用增程式动力。 小米汽车表示，在2023年初，小米澎程系列正
 - **[小米汽车回应拟推出两款增程车 上市节奏正在稳步推进](https://qzs.stcn.com/article/detail/613706.html)** — _qzs.stcn.com_ · date: unknown
@@ -97,8 +97,20 @@ _Updated 2026-07-11 09:11 | discovery-only, zero LLM tokens | runs every 3h_
   近日，工信部新车申报名录中出现了全新比亚迪海鸥的身影，该车型在外观和尺寸上进行了显著升级。新车采用了新的设计语言，前脸线条锋利，配合狭长的多边形大灯，增强了视觉冲击力。车身尺寸方面，全新比亚迪海鸥的长宽高分别为4205mm、1810mm、1570mm，轴距达到2650mm，相较于在售车型，车身长度增加了425mm，轴距增加了150mm，整车体量接近海豚。 在
 - **[“腾势Z9S纯电动轿车亮相：双动力版本，最高时速250km/h”](https://www.d1ev.com/newsflash/306462)** — _www.d1ev.com_ · date: unknown
   7月11日，工信部公示了第409批《道路机动车辆生产企业及产品公告》新产品信息，其中腾势Z9S纯电动轿车完成申报。腾势Z9S是一款定位于纯电动轿车的车型，提供两种不同的动力版本，车身轴距为3025mm，额定载客5人。两种版本的车身长宽均为5090mm×1980mm，但高度有所不同，低功率版车身高度为1510mm，而高功率版车身高度为1490mm。 低功率版本
+- **[吉利星瑞LPLUS全球首秀，斩获双奖引领东方美学新潮流](https://www.d1ev.com/newsflash/306481)** — _www.d1ev.com_ · date: unknown
+  7月10日，吉利汽车旗下全新宽体旗舰家轿星瑞LPLUS全球首秀，以其独特的“东方时序美学”设计语言和多项创新技术获得业界关注。星瑞LPLUS在设计上融合了传统与现代，车名中的L和PLUS分别象征着空间尺寸和产品力的升级。前脸的31道立体竖格栅和“启明春晓·双透镜”前大灯，展现了其标志性的设计元素。车顶配备的激光雷达预示着辅助驾驶性能的显著提升。 星瑞LPLU
+- **[吉利星瑞LPLUS全球首秀：东方美学设计，智能升级新体验](https://www.d1ev.com/newsflash/306477)** — _www.d1ev.com_ · date: unknown
+  7月10日，吉利汽车旗下全新车型星瑞LPLUS全球首秀。新车采用“东方时序美学”设计语言，L和PLUS分别代表空间尺寸和产品力的升级。星瑞LPLUS延续家族化设计，前脸配备31道立体竖格栅和“启明春晓·双透镜”前大灯，车顶搭载激光雷达，预计辅助驾驶能力将提升。车身尺寸为4956/1915/1505mm，轴距2845mm。 星瑞LPLUS在能耗、舒适性、安全、
+- **[奇瑞iCar V25亮相：科技时尚轻旗舰SUV，1.5T增程混动系统](https://www.d1ev.com/newsflash/306476)** — _www.d1ev.com_ · date: unknown
+  近日，奇瑞iCar品牌第三款量产车型V25正式亮相工信部，并发布了高清大图。V25定位为科技时尚轻旗舰SUV，延续了V23的未来感和科技风格。新车采用方盒子设计语言，圆形大灯具有辨识度，保险杠突出力量感。车身尺寸为4636*1920*1855mm，轴距2820mm，定位A级SUV。通过性参数上，标准版接近角28°、离去角24°，选装牵引装置后离去角调整为15
+- **[奇瑞iCAR V25官图曝光：科技时尚轻旗舰SUV搭载激光雷达](https://www.d1ev.com/newsflash/306473)** — _www.d1ev.com_ · date: unknown
+  7月11日，奇瑞iCAR官方发布了旗下全新车型V25的官图。这款定位为科技时尚轻旗舰SUV的新车，延续了iCAR家族的未来风格设计，采用方盒子造型，并特别配备了车顶激光雷达。V25是一款插电式增程混合动力多用途乘用车，车身尺寸为长4636mm、宽1920mm、高1855mm，轴距2820mm，额定载客5人。 iCAR V25的最高车速达到180km/h，搭载
+- **[全新比亚迪海鸥现身：车身加长425mm](https://www.d1ev.com/carnews/xinche/306472)** — _www.d1ev.com_ · date: unknown
+  7月11日消息，在工信部最新一批次新车申报名录中，全新比亚迪海鸥现身，在外观、尺寸等方面大幅升级。 先看造型，该车启用了新设计，前脸拥有锋利的折线，配合狭长的多边形大灯，视觉冲击力更强。 车身尺寸方面，全新比亚迪海鸥长宽高分别为4205mm、1810mm、1570mm，轴距达到2650mm，相较在售车型其车身加长了425mm，轴距加长了150mm，整车体量已
 - **[小米汽车回应拟推出两款增程车 上市节奏正在稳步推进](https://www.stcn.com/article/detail/4012435.html)** — _www.stcn.com_ · published 2026-07-09
   界面新闻 2026-07-09 10:32 人民财讯7月10日电，小米汽车7月10日在答网友问中回应拟推出两款增程车，小米汽车表示，小米澎程不是子品牌，是小米汽车旗下的智能可变大空间SUV系列，和SU7、YU7一样，都是小米汽车的不同系列。小米澎程目前计划发布两款车型，分别是五座版和七座版，均采用增程式动力。 小米汽车表示，在2023年初，小米澎程系列正式规
+- **[全系655公里续航 搭载犀牛电池 奇瑞风云A9掀15万级纯电市场桌子](https://www.stcn.com/article/detail/4012716.html)** — _www.stcn.com_ · date: unknown
+  7月9日，奇瑞风云A9在北京正式开启了预售。作为风云首款纯电轿跑，该车以11.59万元起的预售定价，直击15万元级纯电普遍存在的配置加价分层问题。 此次并未如传统发布会，整场活动弱化冰冷参数，把设计、三电、智驾融入时装走秀。可以看出，奇瑞是想摆脱低价“内卷”，打造一台无明显短板的家用纯电轿跑。 奇瑞总结出轿跑四大设计维度：溜背车身、立体腰线、上扬车尾、空气动
 - **[广汽集团半年预亏超40亿元，二季度亏损同比近乎翻倍](https://www.yicai.com/news/103270278.html)** — _www.yicai.com_ · date: unknown
   {{aisd}} AI生成 免责声明 7月10日晚间，广汽集团发布2026年半年度业绩预告。经财务部门初步测算，预计公司2026年半年度实现归属于母公司所有者的净利润为-40.6亿元至-45.7亿元。预计公司2026年半年度实现归属于母公司所有者的扣除非经常性损益后的净利润为-48亿元至-56亿元。 去年同期，广汽集团归属于母公司所有者的净利润-25.38亿
 
