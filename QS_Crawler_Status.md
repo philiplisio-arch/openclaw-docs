@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-11 21:13 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-12 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-11 21:13 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **2728 unique auto/NEV articles** across **19 outlets**
+## Cumulative: **2731 unique auto/NEV articles** across **19 outlets**
 
 ## New per day
 | date | new articles |
@@ -44,12 +44,13 @@ _Updated 2026-07-11 21:13 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-09 | 75 |
 | 2026-07-10 | 71 |
 | 2026-07-11 | 47 |
+| 2026-07-12 | 3 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 772 |
+| www.d1ev.com | 775 |
 | www.caam.org.cn | 184 |
 | 36kr.com | 153 |
 | www.stcn.com | 146 |
@@ -69,6 +70,14 @@ _Updated 2026-07-11 21:13 | discovery-only, zero LLM tokens | runs every 3h_
 | gd.chinadaily.com.cn | 1 |
 
 ## Articles captured by day (newest first)
+
+### 2026-07-12 — 3 articles
+- **[日本三大车企在华销量全线下滑，本田连续29个月负增长](https://www.d1ev.com/newsflash/306516)** — _www.d1ev.com_ · date: unknown
+  7月11日，日本三大车商在中国市场的上半年新车销量数据公布，均出现同比下滑。丰田上半年销量为69.47万辆，同比减少17.1%；日产销量为23.70万辆，同比减少15.0%；本田销量为20.58万辆，同比大幅下滑34.7%。6月份单月销量同样低于去年同期，本田已连续29个月同比下滑。 具体来看，本田在华销量下滑趋势尤为明显，自2024年8月起曾连续7个月同比
+- **[小鹏G9L申报亮相：双电机430kW动力，磷酸铁锂电池加持！](https://www.d1ev.com/newsflash/306515)** — _www.d1ev.com_ · date: unknown
+  7月11日，工信部发布第409批《道路机动车辆生产企业及产品公告》新产品公示，小鹏汽车旗下全新纯电动多用途乘用车G9L完成申报。小鹏G9L的外形尺寸为长5120mm、宽1999mm、高1782/1788/1795mm，轴距达到3100mm，整备质量为2720kg/2740kg，额定载客5人，最高车速可达200km/h。 在动力配置方面，小鹏G9L采用双电机布
+- **[吉利银河TTUltra全球竞速版亮相：特罗姆瑟蓝配色+800V高压平台](https://www.d1ev.com/newsflash/306514)** — _www.d1ev.com_ · date: unknown
+  今日，吉利汽车公布银河TTUltra全球竞速版部分信息，预计该车将于近期上市。官方海报显示，该车型将提供特罗姆瑟·峡湾蓝配色，并搭配专属熏黑运动LOGO、熏黑运动轮毂、波尔多·醇红内饰。此外，银河TTUltra全球竞速版还配备大面积真碳纤维，包括前后保险杠、外后视镜等。 吉利银河TT搭载千里浩瀚辅助驾驶H7方案，全系采用800V高压平台，提供单/双电机的两驱
 
 ### 2026-07-11 — 47 articles
 - **[6月新能源车零售纯电占比68%，车船税新政影响几何？](https://36kr.com/p/3890689794963973)** — _36kr.com_ · published 2026-07-11
