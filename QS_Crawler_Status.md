@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-11 18:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-11 21:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-11 18:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **2721 unique auto/NEV articles** across **19 outlets**
+## Cumulative: **2728 unique auto/NEV articles** across **19 outlets**
 
 ## New per day
 | date | new articles |
@@ -43,17 +43,17 @@ _Updated 2026-07-11 18:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-08 | 57 |
 | 2026-07-09 | 75 |
 | 2026-07-10 | 71 |
-| 2026-07-11 | 40 |
+| 2026-07-11 | 47 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 767 |
+| www.d1ev.com | 772 |
 | www.caam.org.cn | 184 |
 | 36kr.com | 153 |
 | www.stcn.com | 146 |
-| www.cada.cn | 95 |
+| www.cada.cn | 97 |
 | egs.stcn.com | 89 |
 | www.news.cn | 64 |
 | www.yicai.com | 49 |
@@ -70,7 +70,7 @@ _Updated 2026-07-11 18:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-11 — 40 articles
+### 2026-07-11 — 47 articles
 - **[6月新能源车零售纯电占比68%，车船税新政影响几何？](https://36kr.com/p/3890689794963973)** — _36kr.com_ · published 2026-07-11
   6月新能源车零售纯电占比68%，车船税新政影响几何？ 零售渗透率突破60%后，新能源车来到分化的关键节点。 7月8日，乘联会发布全国乘用车市场数据。6月，全国乘用车市场零售160.2万辆，同比下降23.2%，环比增长6.1%；今年以来累计零售870.1万辆，同比下降20.2%。 该机构指出，6月国内乘用车市场总量承压、结构性大分化，“燃油冷、纯电热”成最大焦
 - **[小米汽车回应拟推出两款增程车 上市节奏正在稳步推进](https://egs.stcn.com/news/detail/2313710.html)** — _egs.stcn.com_ · date: unknown
@@ -87,6 +87,8 @@ _Updated 2026-07-11 18:12 | discovery-only, zero LLM tokens | runs every 3h_
   发布时间：2026-07-11 7月10日，由达安中心打造的全球首座整车级涉氢三高一体化环境风洞正式投入使用，至此，达安中心已形成以襄阳本部环境风洞和武汉涉氢三高环境风洞为主体的1+1环境风洞布局，构建起“极端环境模拟+涉氢安全验证+新能源能量管理+前沿装备测试”的一体化服务矩阵，将为行业提供更全面、更强大、更灵活的开发方案。 中国汽车工业协会常务副会长兼秘
 - **[全球首座整车级涉氢三高一体化环境风洞正式投用](https://www.caam.org.cn/chn/8/cate_81/con_5237235.html)** — _www.caam.org.cn_ · published 2026-07-11
   发布时间：2026-07-11 7月10日，由达安中心打造的全球首座整车级涉氢三高一体化环境风洞正式投入使用，至此，达安中心已形成以襄阳本部环境风洞和武汉涉氢三高环境风洞为主体的1+1环境风洞布局，构建起“极端环境模拟+涉氢安全验证+新能源能量管理+前沿装备测试”的一体化服务矩阵，将为行业提供更全面、更强大、更灵活的开发方案。 中国汽车工业协会常务副会长兼秘
+- **[2025年11月全国二手车市场深度分析](https://www.cada.cn/Data/info_86_10435.html)** — _www.cada.cn_ · date: unknown
+- **[厂家二手车分会](https://www.cada.cn/committee/info_27_8299.html)** — _www.cada.cn_ · date: unknown
 - **[小米澎程增程车纯电续航超500公里，日常通勤不烧油！](https://www.d1ev.com/newsflash/306453)** — _www.d1ev.com_ · date: unknown
   近日，小米汽车对外发布了最新一期网友问答，详细介绍了小米澎程的动力方案。这款增程车型在纯电续航方面表现突出，日常通勤基本可以完全依靠电能行驶。小米澎程计划发布五座版和七座版两款车型，均采用增程式动力。官方强调，这套系统的设计思路是优先保证纯电行驶体验，燃油仅作为长途出行的补充。 根据工信部公示数据，小米澎程在WLTC工况下的纯电续航最高可达380公里，而在更
 - **[小批量、多品种混产，越疆如何治愈汽车产线的“柔性焦虑”？](https://www.d1ev.com/news/shichang/306450)** — _www.d1ev.com_ · date: unknown
@@ -141,6 +143,16 @@ _Updated 2026-07-11 18:12 | discovery-only, zero LLM tokens | runs every 3h_
   今日，长安汽车公布了旗下全新纯电SUV——启源Q06的内饰官图。这款定位为“新锐动感SUV”的车型预计将于9月正式上市。启源Q06的内饰设计现代且实用，配备了横置悬浮中控屏和多种实体按键，便于用户操作。车内还预计搭载零重力座椅，提供多项调节功能，提升乘坐舒适性。此外，车顶采用全景天幕设计，并配备吸顶娱乐大屏，增强了车内的科技感。 启源Q06基于长安SDA天枢
 - **[一汽-大众ID.AURAT6纯电动多用途乘用车亮相工信部公告 - 第一电动网](https://www.d1ev.com/newsflash/306495)** — _www.d1ev.com_ · date: unknown
   7月11日，工信部发布了第409批《道路机动车辆生产企业及产品公告》新产品公示，一汽-大众ID.AURAT6纯电动多用途乘用车完成申报。ID.AURAT6以其4811mm的车长、1879mm的车宽、1648mm的车高以及2836mm的轴距，展现了其宽敞的空间布局。车辆额定载客5人，采用承载式车身设计，并提供多种 轮胎规格，满足不同需求。 新车ID.AURAT
+- **[比亚迪豪华超跑“腾势Z”登陆英国市场 起售价130万元](https://www.d1ev.com/newsflash/306513)** — _www.d1ev.com_ · date: unknown
+  7月9日至12日，中国新能源汽车制造商比亚迪在英国古德伍德速度节上推出了其纯电车型“腾势Z”，标志着比亚迪进一步加码英国市场。这款豪华超跑起售价为14.29万英镑，约合人民币130万元，是比亚迪旗下高端品牌腾势的新品。 比亚迪自2013年进入英国市场以来，已陆续落地电动大巴、储能等业务。2023年3月，比亚迪乘用车正式进入英国市场，至今已发布10余款产品。比
+- **[吉利银河TTUltra全球竞速版亮相：800V高压平台+激光雷达+电动尾翼](https://www.d1ev.com/newsflash/306510)** — _www.d1ev.com_ · date: unknown
+  今日，吉利银河发布了其全新C级AI纯电轿车——吉利银河TTUltra全球竞速版的技术信息。新车搭载了全域800V三电配置和千里浩瀚辅助驾驶H7方案，采用800V高压平台，提供单电机和双电机版本，峰值功率分别为245千瓦和425千瓦。标配 宁德时代磷酸铁锂 电池，CLTC工况下续航有540、640、650和725公里四种选择。 内饰方面，吉利银河TT采用了三幅
+- **[2026长春车展首发：一汽](https://www.d1ev.com/newsflash/306509)** — _www.d1ev.com_ · date: unknown
+  7月11日，2026长春国际汽车博览会拉开帷幕，一汽-大众ID.AURAT6在此次展会上首次公开亮相，其内饰设计也首次与公众见面。新车尺寸为4811/1879/1648mm，轴距达到2836mm，得房率高达85.3%。座舱内部采用大面积软触材质和镀铬装饰，首次搭载的女王副驾支持12向电动调节，并配备SPA级按摩、通风加热及迎宾记忆功能。前排座椅支持一键放平和
+- **[比亚迪技术加持，腾势N8豪华SUV重塑市场格局](https://www.d1ev.com/newsflash/306506)** — _www.d1ev.com_ · date: unknown
+  近日，腾势汽车推出了全新大五座纯电豪华SUV——腾势N8，该车型已在国家工信部第409批《道路机动车辆生产企业及产品公告》中亮相。腾势N8以其优雅大气的外观和搭载的比亚迪第二代刀片 电池及闪充技术，预示着在续航、补能、舒适性等方面将带来全新体验，有望重塑中大型豪华SUV市场的竞争格局。新车采用了圆润方正的轮廓设计，线条饱满有力，整车姿态稳重大气，同时流畅舒展
+- **[中国一汽提前三年完成国7技术储备，红旗混动车型将受益](https://www.d1ev.com/newsflash/306505)** — _www.d1ev.com_ · date: unknown
+  近日，中国一汽宣布“面向国7排放的混动专用汽油机系统性技术研究”项目通过结题验收，提前三年完成国7一体化技术方案储备。这一成果将为红旗品牌车型满足未来最严排放法规、实现绿色合规迭代提供完整的自研技术体系支撑。项目成果覆盖燃烧、电控、后处理等核心技术领域，形成从缸内燃烧到排气净化的全链条自主可控能力。 项目中，中国一汽突破了混动 发动机机内净化技术，实现了50
 - **[新华社消息丨第23届长春国际汽车博览会开幕](https://www.news.cn/20260711/ccfd187837874088bdf97195637f407f/c.html)** — _www.news.cn_ · published 2026-07-11
   新华社消息丨第23届长春国际汽车博览会开幕-新华网 新华网 > 时政 > 正文 2026 07 / 11 16:02:10 来源：新华网 新华社消息丨第23届长春国际汽车博览会开幕 字体： 小 中 大 分享到： 新华社消息丨第23届长春国际汽车博览会开幕 2026-07-11 16:02:10 来源：新华网 记者：唐成卓、唐铭泽 编导：季晓庄 新华社音视频部
 - **[小米汽车回应拟推出两款增程车 上市节奏正在稳步推进](https://www.stcn.com/article/detail/4012435.html)** — _www.stcn.com_ · published 2026-07-09
