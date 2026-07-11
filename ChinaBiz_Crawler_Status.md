@@ -1,8 +1,8 @@
 # China Business Daily — Crawler Status
 
-_Updated 2026-07-12 00:44 | WS1 redesign source universe | discovery-only, zero LLM tokens | every 3h_
+_Updated 2026-07-12 03:42 | WS1 redesign source universe | discovery-only, zero LLM tokens | every 3h_
 
-## Cumulative: **21434 business articles** across **66 outlets**
+## Cumulative: **21442 business articles** across **66 outlets**
 
 _In Report? verdicts reflect the brief run of **2026-07-11** (generated 2026-07-11T07:33:28): **20 ✅ in / 2461 ❌ out** of 2481 in-window articles. Articles crawled after that run show ➖ (no verdict yet)._
 
@@ -18,11 +18,11 @@ _In Report? verdicts reflect the brief run of **2026-07-11** (generated 2026-07-
 | www.jiemian.com | 1082 |
 | 36kr.com | 1071 |
 | www.21jingji.com | 995 |
-| www.eeo.com.cn | 985 |
+| www.eeo.com.cn | 992 |
 | www.yicai.com | 935 |
 | finance.people.com.cn | 761 |
 | finance.china.com.cn | 434 |
-| news.cnstock.com | 309 |
+| news.cnstock.com | 310 |
 | finance.ce.cn | 245 |
 | stock.caijing.com.cn | 199 |
 | www.time-weekly.com | 162 |
@@ -76,7 +76,7 @@ _In Report? verdicts reflect the brief run of **2026-07-11** (generated 2026-07-
 | gjs.mof.gov.cn | 1 |
 | ent.people.com.cn | 1 |
 
-## 2026-07-12 — 33 articles
+## 2026-07-12 — 41 articles
 | Article | Outlet | Published | In Report? | Reason |
 |---|---|---|---|---|
 | [价格翻倍！利好突袭：存储芯片，传来大消息](https://finance.eastmoney.com/a/202607113802561912.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
@@ -100,10 +100,18 @@ _In Report? verdicts reflect the brief run of **2026-07-11** (generated 2026-07-
 | [耕耘·岁月｜中国农业银行75载发展之路 - 21财经](https://m.21jingji.com/article/20260711/herald/c0e5e6b2960cacd18c2acb236cb14ff8.html) | m.21jingji.com | 2026-07-11 | ➖ | Not evaluated in the latest brief run |
 | [存款市场有新动向，5年期大额存单会大量重启吗？](https://m.21jingji.com/article/20260711/herald/4a85767c674c9c639f06ffa59b51a4a2.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [专家解读 / 以数据产权登记为抓手 探索商业银行数据资产化新路径 - 21财经](https://m.21jingji.com/article/20260711/herald/6e93e0ad7a9b86e6cd3f0a88ec509cc0.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [页面没有找到](https://news.cnstock.com/commonDetail/742292) | news.cnstock.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [江森自控发布新版楼宇自控系统 近期股价小幅上涨成交额下降](https://www.eeo.com.cn/2026/0712/953709.shtml) | www.eeo.com.cn | 2026-07-12 | ➖ | Not evaluated in the latest brief run |
 | [通用汽车二季度在华交付超35.7万辆 调整平台战略并发起海外召回](https://www.eeo.com.cn/2026/0712/953708.shtml) | www.eeo.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
 | [西南资本高股息率约9.8%](https://www.eeo.com.cn/2026/0712/953706.shtml) | www.eeo.com.cn | 2026-07-12 | ➖ | Not evaluated in the latest brief run |
 | [博地能源及部分高管遭律所提起联邦证券集体诉讼](https://www.eeo.com.cn/2026/0711/953702.shtml) | www.eeo.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
+| [比特小鹿2026年Q2财报将于8月7日披露 聚焦算力及AI云业务表现](https://www.eeo.com.cn/2026/0712/953737.shtml) | www.eeo.com.cn | 2026-07-12 | ➖ | Not evaluated in the latest brief run |
+| [捷蛙科技获机构看好AI发展前景，后续业绩增长待财报验证](https://www.eeo.com.cn/2026/0712/953736.shtml) | www.eeo.com.cn | 2026-07-12 | ➖ | Not evaluated in the latest brief run |
+| [美国力特保险丝市销率偏高 近期有董事出售股票](https://www.eeo.com.cn/2026/0712/953734.shtml) | www.eeo.com.cn | 2026-07-12 | ➖ | Not evaluated in the latest brief run |
+| [伟创力拟分拆CPI业务独立上市，该业务未来两年营收增速亮眼](https://www.eeo.com.cn/2026/0712/953733.shtml) | www.eeo.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
+| [比斯利广播集团债务重组优化资本结构 股价突破后存震荡可能](https://www.eeo.com.cn/2026/0712/953731.shtml) | www.eeo.com.cn | 2026-07-12 | ➖ | Not evaluated in the latest brief run |
+| [莫德纳等待FDA流感疫苗审批 短期走势受市场情绪影响](https://www.eeo.com.cn/2026/0712/953729.shtml) | www.eeo.com.cn | 2026-07-12 | ➖ | Not evaluated in the latest brief run |
+| [强生即将发布2026年二季度财报 机构预测营收254.8亿美元](https://www.eeo.com.cn/2026/0712/953728.shtml) | www.eeo.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
 | [快讯-格隆汇](https://www.gelonghui.com/live/2548125) | www.gelonghui.com | 2026-07-11 | ➖ | Not evaluated in the latest brief run |
 | [国内航司计划取消12日进出港航班超2800架次](https://www.gelonghui.com/live/2548115) | www.gelonghui.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [国内机场取消明日航班超1000架次](https://www.gelonghui.com/live/2548100) | www.gelonghui.com | 2026-07-11 | ➖ | Not evaluated in the latest brief run |
