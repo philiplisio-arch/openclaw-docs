@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-13 00:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-13 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-13 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **2978 unique auto/NEV articles** across **36 outlets**
+## Cumulative: **2985 unique auto/NEV articles** across **36 outlets**
 
 ## New per day
 | date | new articles |
@@ -45,7 +45,7 @@ _Updated 2026-07-13 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-10 | 71 |
 | 2026-07-11 | 47 |
 | 2026-07-12 | 244 |
-| 2026-07-13 | 6 |
+| 2026-07-13 | 13 |
 
 ## By outlet
 | outlet | articles |
@@ -57,13 +57,13 @@ _Updated 2026-07-13 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 | www.stcn.com | 146 |
 | www.cada.cn | 98 |
 | egs.stcn.com | 89 |
-| www.news.cn | 66 |
+| www.news.cn | 67 |
 | www.yicai.com | 50 |
 | auto.gasgoo.com | 43 |
 | www.xinhuanet.com | 26 |
+| vc.yiche.com | 23 |
 | auto.caijing.com.cn | 21 |
-| vc.yiche.com | 19 |
-| www.zqrb.cn | 18 |
+| www.zqrb.cn | 19 |
 | finance.eastmoney.com | 16 |
 | cn.chinadaily.com.cn | 16 |
 | news.yiche.com | 15 |
@@ -76,7 +76,7 @@ _Updated 2026-07-13 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 | m.21jingji.com | 11 |
 | cv.ce.cn | 10 |
 | economy.gmw.cn | 9 |
-| www.nbd.com.cn | 7 |
+| www.nbd.com.cn | 8 |
 | www.ceweekly.cn | 3 |
 | cnews.chinadaily.com.cn | 3 |
 | www.chinanews.com.cn | 2 |
@@ -89,18 +89,32 @@ _Updated 2026-07-13 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-13 — 6 articles
+### 2026-07-13 — 13 articles
 - **[比MEGA还科幻，国产纯电CyberVan！能睡3人能下地库，性价比更绝！](https://vc.yiche.com/vplay/10978291.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 赛道激试 奥迪RS5 Avant 积极的奶牛猫1394 海豹06最新行情：终端优惠8000左右，中型插混轿车 车图腾 东风风行携手华为，高阶智驾杀入15万级家庭市场 SUV
+- **[大五座混动SUV油耗能多低？](https://vc.yiche.com/vplay/12037769.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 10.89-14.39万 新款享界S9来了，外观变化不大，尾标改为北汽集团 十三先生Studio 蓝鲸超擎技术到底强在哪？试驾长安CS75 PLUS告诉你答案 蜗牛车志 第
+- **[全网首发！吉利中国星旗舰轿车FS21](https://vc.yiche.com/vplay/12048850.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 吉利B级宽体旗舰轿车命名确认——星瑞L PLUS Nice好车 燃油车也配激光雷达！星瑞L PLUS，后排也有小桌板和触控屏幕了？ 汽车造物工坊 10万预算入手，电
+- **[小米又出新车！小米澎程能卖爆吗？](https://vc.yiche.com/vplay/12061660.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 小米首款增程SUV归属新品牌，YU9命名取消，计划于2026年下半年亮相 启发的花椒树1462 2026北京车展|豪华运动智慧SUV新范式，昊铂S600亮相 一辆A
+- **[静态体验、动态感受全解析！小鹏MONA L03会是小鹏的下一个爆款吗？](https://vc.yiche.com/vplay/12048213.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 小鹏MONA L03 首发体验 小鹏又一次拿捏住了年轻人 玩电拾伍 小鹏MONA L03抢先沉浸解读 15万级高举高打对标YU7开发 旭车评 4K赏析2026款 法
 - **[关于中国汽车流通协会分支机构更名的通告](https://www.cada.cn/Trends/info_89_9966.html)** — _www.cada.cn_ · date: unknown
 - **[大众联手小鹏打造全新智能电动SUV，下半年上市！](https://www.d1ev.com/newsflash/306577)** — _www.d1ev.com_ · date: unknown
   7月12日，大众汽车乘用车品牌中国CEO齐泽凯宣布，与众09合作开发的新车型将于今年下半年上市。这款新车型是大众和小鹏汽车在24个月内联合开发的第二款车型，具有流畅的溜背线条和舒展修长的车身比例，车长超5米，轴距达3030mm。新车搭载了大众人本科技“行云智行”和“云栖智舱”等先进技术，包括VLA大模型全场景智能辅助驾驶、AI智能助手、超强算力，智能化水平跻
 - **[李斌预测：下半年车市企稳，纯电车型渗透率将超80%](https://www.d1ev.com/newsflash/306576)** — _www.d1ev.com_ · date: unknown
   7月12日，蔚来汽车创始人 李斌在ES8大五座版上市发布会后表示，新能源汽车市场技术路线正向纯电动车收敛。尽管今年上半年车市面临较大销售压力，6月全国乘用车市场零售同比下降23.2%，但纯电动车销量同比仅上涨3.6%。李斌对下半年市场形势持谨慎乐观态度，认为车市将有所企稳，跌幅不会进一步扩大。他指出，国内汽车市场保有量仍在增加，潜在需求依然存在，同时包括ES
+- **[汽车销售员诱导车主将车泡水，理赔后再买新车？业内人士：涉嫌保险诈骗！有人曾将宝马车故意泡水索赔58万元，被采取强制措施](https://www.nbd.com.cn/articles/2026-07-13/4468681.html)** — _www.nbd.com.cn_ · published 2026-07-13
+  每日经济新闻 2026-07-13 00:32:00 每经记者｜袁园 每经编辑｜张锦河 杨翼 “计划全损的旧车可停泊在易积水区域，全损后如需订制增购，可联系相关电话XXXXXXX。”日前，有车主在社交平台上晒出这样一则消息提示的截图。该车主在其社交平台上表示，其在看到这则“消息提示”时，有些哭笑不得。从该车主发布的消息提示截图来看，该信息疑似来源于某销售人员
 - **[智利发生汽车撞人事件致6死7伤](https://www.news.cn/20260712/a1e022cca309450795a49b26846a74b9/c.html)** — _www.news.cn_ · published 2026-07-12
+  新华社圣地亚哥7月12日电（记者朱雨博）智利瓦尔帕莱索大区总统代表米永内斯12日说，该大区比尼亚德尔马市当天发生一起汽车撞人事件，造成6人死亡、7人受伤。 米永内斯接受媒体采访时说，当地时间当天8时40分左右，一辆汽车冲入比尼亚德尔马市的科波利坎集市，撞倒多名行人，造成6人死亡、7人受伤。肇事司机被逮捕，警方已对此事件展开调查。 米永内斯表示，科波利坎集市是
+- **[智利发生汽车撞人事件致6死7伤](https://www.news.cn/world/20260712/fdc73e94daad44d1bed022624342221a/c.html)** — _www.news.cn_ · published 2026-07-12
   新华社圣地亚哥7月12日电（记者朱雨博）智利瓦尔帕莱索大区总统代表米永内斯12日说，该大区比尼亚德尔马市当天发生一起汽车撞人事件，造成6人死亡、7人受伤。 米永内斯接受媒体采访时说，当地时间当天8时40分左右，一辆汽车冲入比尼亚德尔马市的科波利坎集市，撞倒多名行人，造成6人死亡、7人受伤。肇事司机被逮捕，警方已对此事件展开调查。 米永内斯表示，科波利坎集市是
 - **[智利发生汽车撞人事件致6死7伤](https://www.xinhuanet.com/20260712/a1e022cca309450795a49b26846a74b9/c.html)** — _www.xinhuanet.com_ · published 2026-07-12
   新华社圣地亚哥7月12日电（记者朱雨博）智利瓦尔帕莱索大区总统代表米永内斯12日说，该大区比尼亚德尔马市当天发生一起汽车撞人事件，造成6人死亡、7人受伤。 米永内斯接受媒体采访时说，当地时间当天8时40分左右，一辆汽车冲入比尼亚德尔马市的科波利坎集市，撞倒多名行人，造成6人死亡、7人受伤。肇事司机被逮捕，警方已对此事件展开调查。 米永内斯表示，科波利坎集市是
+- **[​政策赋能 汽车后市场加速“换挡”升级](https://www.zqrb.cn/auto/qichedongtai/2026-07-13/A1783863793729.html)** — _www.zqrb.cn_ · published 2026-07-13
+  本报记者 郭冀川 “我想带着金毛（狗）一起自驾，但市面上很难找到合规的宠物友好改装方案。”7月7日，在中华全国总工会双井街道工会驿站联合新能源汽车俱乐部举办的职业交流沙龙上，一位车友的“吐槽”引发了在座十多位车友的强烈共鸣。大家你一言我一语，话题从宠物乘车难题迅速延展到个性化改装需求、售后维修不透明等，言语间既有对汽车后服务市场前景的强烈期待，也交织着诸多长
 
 ### 2026-07-12 — 244 articles
 - **[大众安徽首款B级智能纯电轿跑与众09完成工信部申报](https://auto.caijing.com.cn/2026/0711/5170426.shtml)** — _auto.caijing.com.cn_ · date: unknown
