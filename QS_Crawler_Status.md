@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-12 09:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-12 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-12 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **2734 unique auto/NEV articles** across **19 outlets**
+## Cumulative: **2738 unique auto/NEV articles** across **19 outlets**
 
 ## New per day
 | date | new articles |
@@ -44,13 +44,13 @@ _Updated 2026-07-12 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-09 | 75 |
 | 2026-07-10 | 71 |
 | 2026-07-11 | 47 |
-| 2026-07-12 | 6 |
+| 2026-07-12 | 10 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 778 |
+| www.d1ev.com | 782 |
 | www.caam.org.cn | 184 |
 | 36kr.com | 153 |
 | www.stcn.com | 146 |
@@ -71,7 +71,7 @@ _Updated 2026-07-12 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-12 — 6 articles
+### 2026-07-12 — 10 articles
 - **[日本三大车企在华销量全线下滑，本田连续29个月负增长](https://www.d1ev.com/newsflash/306516)** — _www.d1ev.com_ · date: unknown
   7月11日，日本三大车商在中国市场的上半年新车销量数据公布，均出现同比下滑。丰田上半年销量为69.47万辆，同比减少17.1%；日产销量为23.70万辆，同比减少15.0%；本田销量为20.58万辆，同比大幅下滑34.7%。6月份单月销量同样低于去年同期，本田已连续29个月同比下滑。 具体来看，本田在华销量下滑趋势尤为明显，自2024年8月起曾连续7个月同比
 - **[小鹏G9L申报亮相：双电机430kW动力，磷酸铁锂电池加持！](https://www.d1ev.com/newsflash/306515)** — _www.d1ev.com_ · date: unknown
@@ -84,6 +84,14 @@ _Updated 2026-07-12 09:12 | discovery-only, zero LLM tokens | runs every 3h_
   快科技7月12日消息，据Electrek报道，澳大利亚刚刚迎来了有史以来电动汽车销量最高的一个月，单月有7款电动车同时突破1000辆大关，而这7款车全部与中国有关，要么是中国品牌，要么是中国制造，连榜首的特斯拉Model Y也不例外。 根据澳大利亚汽车媒体The Driven对6月注册数据的统计，此前澳大利亚单月能稳定突破1000辆的电动车通常只有一两款，主
 - **[瑞典极星电动汽车退出美国市场，车主经销商愤怒声讨](https://www.d1ev.com/newsflash/306527)** — _www.d1ev.com_ · date: unknown
   瑞典电动汽车制造商极星（Polestar）日前宣布，由于美国政府的限制和当地业务盈利不足，公司决定退出美国市场。极星表示，尽管退出美国市场，但将继续履行车辆保修义务，并为现有车辆提供维修服务，同时继续销售库存的Polestar 3和Polestar 4车辆。 这一决定引起了车主和经销商的不满。华盛顿州的车主D.L.Byron表示，他刚购买了一辆Polesta
+- **[一汽悦意08旗舰轿跑上市，9.99万起售，纯电动增程式双动力来袭！](https://www.d1ev.com/newsflash/306548)** — _www.d1ev.com_ · date: unknown
+  今日，一汽悦意品牌旗下全新车型悦意08正式上市，新车共推出6款配置，官方指导价区间为9.99万至13.99万元。悦意08定位为B+级旗舰家用轿跑，目标受众为新时代年轻家庭用户，提供纯电动与增程式两种动力形式。新车前脸采用封闭式格栅设计，搭配分体式前灯组，灯组造型灵感取自庐山瀑布，点亮后视觉效果出色。车身侧面为溜背式轿跑轮廓，配备21英寸三色拼接运动轮圈，强化
+- **[特斯拉FSD迎拐点：自动驾驶技术将颠覆市场认知？](https://www.d1ev.com/newsflash/306545)** — _www.d1ev.com_ · date: unknown
+  7月12日，新街研究公司分析师Pierre Ferragu提出，特斯拉的FSD系统正接近一个价值认知的拐点。Ferragu将特斯拉与苹果的iPhone相提并论，指出iPhone最初被认为价格过高，但后来人们意识到它不仅仅是一部手机，而是改变了生活方式的工具。他认为特斯拉的FSD系统也将经历类似的认知转变，从单纯的驾驶辅助功能转变为提升日常生活便捷性的重要技术
+- **[奇瑞智界R7纯电版亮相：华为电机加持，双电机版性能强劲](https://www.d1ev.com/newsflash/306544)** — _www.d1ev.com_ · date: unknown
+  7月12日，工信部公示了第409批《道路机动车辆生产企业及产品公告》新产品，其中包括鸿蒙智行新款智界R7纯电版车型。此次申报的智界R7共有三款纯电动车型，均由奇瑞汽车股份有限公司生产，为5座多用途乘用车。车辆尺寸为4982×1981×1634/1650mm，轴距2950mm，最高车速可达200km/h，额定载客5人。 三款智界R7车型在动力配置上有所不同，两
+- **[猛士X700官图发布：华为联合设计，插电混动SUV新选择](https://www.d1ev.com/newsflash/306542)** — _www.d1ev.com_ · date: unknown
+  7月12日，猛士汽车官方发布了X系列首款新车——猛士X700的官图。这款新车主打“原创雄魂美学基因”和“全场景智享体验”，并由猛士汽车与华为乾崑联合设计，主要面向城市轻户外场景。猛士X700的B柱印有华为乾崑的LOGO，体现了双方的合作。工信部已发布第409批《道路机动车辆生产企业及产品公告》新产品公示，猛士X700插电式 混合动力运动型乘用车完成申报。 猛
 
 ### 2026-07-11 — 47 articles
 - **[6月新能源车零售纯电占比68%，车船税新政影响几何？](https://36kr.com/p/3890689794963973)** — _36kr.com_ · published 2026-07-11
