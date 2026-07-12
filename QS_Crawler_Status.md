@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-12 12:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-12 15:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-12 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **2738 unique auto/NEV articles** across **19 outlets**
+## Cumulative: **2741 unique auto/NEV articles** across **19 outlets**
 
 ## New per day
 | date | new articles |
@@ -44,13 +44,13 @@ _Updated 2026-07-12 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-09 | 75 |
 | 2026-07-10 | 71 |
 | 2026-07-11 | 47 |
-| 2026-07-12 | 10 |
+| 2026-07-12 | 13 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 782 |
+| www.d1ev.com | 785 |
 | www.caam.org.cn | 184 |
 | 36kr.com | 153 |
 | www.stcn.com | 146 |
@@ -71,7 +71,7 @@ _Updated 2026-07-12 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-12 — 10 articles
+### 2026-07-12 — 13 articles
 - **[日本三大车企在华销量全线下滑，本田连续29个月负增长](https://www.d1ev.com/newsflash/306516)** — _www.d1ev.com_ · date: unknown
   7月11日，日本三大车商在中国市场的上半年新车销量数据公布，均出现同比下滑。丰田上半年销量为69.47万辆，同比减少17.1%；日产销量为23.70万辆，同比减少15.0%；本田销量为20.58万辆，同比大幅下滑34.7%。6月份单月销量同样低于去年同期，本田已连续29个月同比下滑。 具体来看，本田在华销量下滑趋势尤为明显，自2024年8月起曾连续7个月同比
 - **[小鹏G9L申报亮相：双电机430kW动力，磷酸铁锂电池加持！](https://www.d1ev.com/newsflash/306515)** — _www.d1ev.com_ · date: unknown
@@ -92,6 +92,12 @@ _Updated 2026-07-12 12:12 | discovery-only, zero LLM tokens | runs every 3h_
   7月12日，工信部公示了第409批《道路机动车辆生产企业及产品公告》新产品，其中包括鸿蒙智行新款智界R7纯电版车型。此次申报的智界R7共有三款纯电动车型，均由奇瑞汽车股份有限公司生产，为5座多用途乘用车。车辆尺寸为4982×1981×1634/1650mm，轴距2950mm，最高车速可达200km/h，额定载客5人。 三款智界R7车型在动力配置上有所不同，两
 - **[猛士X700官图发布：华为联合设计，插电混动SUV新选择](https://www.d1ev.com/newsflash/306542)** — _www.d1ev.com_ · date: unknown
   7月12日，猛士汽车官方发布了X系列首款新车——猛士X700的官图。这款新车主打“原创雄魂美学基因”和“全场景智享体验”，并由猛士汽车与华为乾崑联合设计，主要面向城市轻户外场景。猛士X700的B柱印有华为乾崑的LOGO，体现了双方的合作。工信部已发布第409批《道路机动车辆生产企业及产品公告》新产品公示，猛士X700插电式 混合动力运动型乘用车完成申报。 猛
+- **[猛士X700亮相：家用SUV新选择，插混动力+华为智驾](https://www.d1ev.com/newsflash/306557)** — _www.d1ev.com_ · date: unknown
+  今日，猛士汽车宣布其新车X700正式定位于主流家用SUV市场，标志着品牌向该领域的重要拓展。猛士X700以其承载式车身设计，主打为精致家庭用户提供城市轻户外生活方式。该车型接近角/离去角最高可达30°/31°，选装牵引装置时离去角为26°，具备应对非铺装路面和轻度穿越等户外场景的能力。猛士X700承袭猛士标志性“雄魂美学”设计理念，保留狮吼梯形前脸、剑指苍穹
+- **[瑞典测试揭示：智能汽车操作更耗时，人机交互设计成安全关键](https://www.d1ev.com/newsflash/306554)** — _www.d1ev.com_ · date: unknown
+  7月12日，瑞典汽车媒体ViBilägare的最新测试显示，驾驶员完成日常车内操作所需的时间比四年前更长。这项测试要求驾驶员在封闭机场跑道上以110公里/小时的速度行驶，同时完成一系列常见车内操作，并记录车辆在完成全部任务前行驶的距离。结果显示，2022年平均行驶距离为756米，而2026年平均行驶距离为813米，增加了57米，意味着驾驶员平均需要多花约2秒
+- **[阶跃星辰发布StepEdge端侧模型，手机汽车智能新纪元！](https://www.d1ev.com/newsflash/306552)** — _www.d1ev.com_ · date: unknown
+  今日，阶跃星辰公司宣布推出StepEdge端侧模型全家桶，包含StepEdge基础模型、StepEdgeAudio、StepEdgeGUI和StepEdgeGen四款产品。这些模型专为手机、汽车等终端场景设计，旨在使Agent能够在本地快速响应，同时更好地保护用户隐私，并通过端云协同完成更复杂的任务。 StepEdge系列模型具备三大核心亮点：首先，超低本地
 
 ### 2026-07-11 — 47 articles
 - **[6月新能源车零售纯电占比68%，车船税新政影响几何？](https://36kr.com/p/3890689794963973)** — _36kr.com_ · published 2026-07-11
