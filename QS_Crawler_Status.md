@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-12 15:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-12 18:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-12 15:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **2741 unique auto/NEV articles** across **19 outlets**
+## Cumulative: **2750 unique auto/NEV articles** across **19 outlets**
 
 ## New per day
 | date | new articles |
@@ -44,21 +44,21 @@ _Updated 2026-07-12 15:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-09 | 75 |
 | 2026-07-10 | 71 |
 | 2026-07-11 | 47 |
-| 2026-07-12 | 13 |
+| 2026-07-12 | 22 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 785 |
+| www.d1ev.com | 792 |
 | www.caam.org.cn | 184 |
 | 36kr.com | 153 |
 | www.stcn.com | 146 |
 | www.cada.cn | 97 |
 | egs.stcn.com | 89 |
-| www.news.cn | 64 |
+| www.news.cn | 65 |
 | www.yicai.com | 49 |
-| www.xinhuanet.com | 24 |
+| www.xinhuanet.com | 25 |
 | cn.chinadaily.com.cn | 16 |
 | www.zqrb.cn | 15 |
 | qzs.stcn.com | 14 |
@@ -71,7 +71,7 @@ _Updated 2026-07-12 15:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-12 — 13 articles
+### 2026-07-12 — 22 articles
 - **[日本三大车企在华销量全线下滑，本田连续29个月负增长](https://www.d1ev.com/newsflash/306516)** — _www.d1ev.com_ · date: unknown
   7月11日，日本三大车商在中国市场的上半年新车销量数据公布，均出现同比下滑。丰田上半年销量为69.47万辆，同比减少17.1%；日产销量为23.70万辆，同比减少15.0%；本田销量为20.58万辆，同比大幅下滑34.7%。6月份单月销量同样低于去年同期，本田已连续29个月同比下滑。 具体来看，本田在华销量下滑趋势尤为明显，自2024年8月起曾连续7个月同比
 - **[小鹏G9L申报亮相：双电机430kW动力，磷酸铁锂电池加持！](https://www.d1ev.com/newsflash/306515)** — _www.d1ev.com_ · date: unknown
@@ -98,6 +98,24 @@ _Updated 2026-07-12 15:12 | discovery-only, zero LLM tokens | runs every 3h_
   7月12日，瑞典汽车媒体ViBilägare的最新测试显示，驾驶员完成日常车内操作所需的时间比四年前更长。这项测试要求驾驶员在封闭机场跑道上以110公里/小时的速度行驶，同时完成一系列常见车内操作，并记录车辆在完成全部任务前行驶的距离。结果显示，2022年平均行驶距离为756米，而2026年平均行驶距离为813米，增加了57米，意味着驾驶员平均需要多花约2秒
 - **[阶跃星辰发布StepEdge端侧模型，手机汽车智能新纪元！](https://www.d1ev.com/newsflash/306552)** — _www.d1ev.com_ · date: unknown
   今日，阶跃星辰公司宣布推出StepEdge端侧模型全家桶，包含StepEdge基础模型、StepEdgeAudio、StepEdgeGUI和StepEdgeGen四款产品。这些模型专为手机、汽车等终端场景设计，旨在使Agent能够在本地快速响应，同时更好地保护用户隐私，并通过端云协同完成更复杂的任务。 StepEdge系列模型具备三大核心亮点：首先，超低本地
+- **[E周看点｜小米汽车官宣第二个产品系列；零跑汽车正式进入北美市场 - 第一电动网](https://www.d1ev.com/news/shichang/306571)** — _www.d1ev.com_ · date: unknown
+  本周，新能源汽车市场有哪些大事发生？ 历时三年半打磨，雷军正式公布小米汽车第二大产品系列 7月9日，小米汽车正式揭开了其第二个产品系列的神秘面纱——“SkyNomad 小米澎程”。 这个历经三年半打磨、基于全新“小米昆仑架构”打造的“智能可变大空间SUV”，终于从传闻走向台前。 图片来源：小米汽车 澎程的用户画像，既不是刻板印象中的“奶爸宝妈”，也不是单一的
+- **[奔驰全球销量下滑6%，中国市场暴跌28%，纯电GLC能否挽回颓势？](https://www.d1ev.com/newsflash/306570)** — _www.d1ev.com_ · date: unknown
+  7月12日，梅赛德斯-奔驰集团公布了2026年二季度及上半年的销售数据。今年上半年，奔驰全球累计售出新车101.15万辆，较去年同期下降6%。在欧洲市场，奔驰交付车辆32.50万辆，同比增长5%，德国市场销量达10.53万辆，同比增长7%。北美市场销量增长显著，上半年合计销量18.09万辆，同比增长15%，美国市场贡献16.30万辆，涨幅同样为15%。然而，
+- **[比亚迪腾势Z9GT海外爆款午夜蓝配色国内上市，续航超1000公里！](https://www.d1ev.com/newsflash/306569)** — _www.d1ev.com_ · date: unknown
+  7月12日，比亚迪旗下腾势汽车总经理李慧透露，全新腾势Z9GT的午夜蓝配色在海外市场广受好评，即将引入国内市场。该车型于3月5日全球首发，官方指导价从26.98万元起，提供多种配置版本。全新腾势Z9GT是全球首款搭载比亚迪第二代刀片 电池及闪充技术的量产车型，纯电版CLTC续航最高可达1036公里，插混版纯电续航401公里，综合续航1301公里。车身尺寸为5
+- **[奔驰纯电GLC SUV三版本亮相，续航超680km，预售价29.99万起](https://www.d1ev.com/newsflash/306566)** — _www.d1ev.com_ · date: unknown
+  7月12日，全新奔驰纯电GLC SUV车型在7月8日的上市发布会上公布了三款车型：晖银版、鎏金版、星铂版。鎏金版作为首发车型已上市并开始交付，而晖银版和星铂版现已开启预售，预计年底前上市并交付。晖银版预售价为29.99万元，鎏金版售价为33.98万元，星铂版预售价为38.88万元。奔驰将根据用户反馈和市场需求同步优化客户体验。 全新奔驰纯电GLC SUV采用
+- **[比亚迪腾势Z超跑国内预售启动，1.96秒破百，挑战纽北赛道！](https://www.d1ev.com/newsflash/306565)** — _www.d1ev.com_ · date: unknown
+  7月12日，比亚迪旗下腾势汽车宣布，其全新电动超跑腾势Z将于7月13日在国内开启预售。此前，腾势Z已在英国古德伍德速度节上首发亮相，Coupe硬顶版、Spider敞篷版和Racing赛道版分别售价14.29万英镑、15.99万英镑和17.29万英镑，折合人民币约130万元、145.5万元和157.3万元。 腾势Z搭载了500kW+340kW+340kW的三电
+- **[楚能汽车首台ET车下线，迈入实车验证新阶段](https://www.d1ev.com/newsflash/306564)** — _www.d1ev.com_ · date: unknown
+  7月11日，楚能汽车在研究院试制中心总装车间举行了首台ET车下线仪式，这标志着公司首发车型正式从工程数据阶段迈入实车验证阶段。ET车即工程调试阶段，主要进行设计、制造、装配等环节的综合确认，验证工艺、工装，并进行全工装件台架性能试验、台架耐久性试验、整车试验以及内外装饰件颜色纹理认可。 楚能汽车技术研发中心的柔性数字化试制产线配备了七轴高精KUKA焊接机器人
+- **[韩国新能源汽车销量首超50%，纯电车销量翻倍增长](https://www.d1ev.com/newsflash/306563)** — _www.d1ev.com_ · date: unknown
+  7月12日，韩国新能源汽车市场传来新突破。今年上半年，韩国销售的汽车中新能源汽车占比首次超过一半，达到50.4%，创下历史新高。根据韩国汽车数据研究机构“Carisyou”的分析，今年上半年在韩国注册登记的新车数量同比增加1.4%，达到85.18万辆。其中，新能源汽车（包括混动车、纯电车、 氢燃料车）销量为42.92万辆，占比首次超过50%。 具体来看，今年
+- **[猛士X系列首款新车申报：猛士X700为城市轻户外而生，进军主流家用SUV市场](https://www.news.cn/auto/20260712/beeda5376259412c931967dab04acd22/c.html)** — _www.news.cn_ · published 2026-07-12
+  7月10日，工信部第409批《道路机动车辆生产企业及产品公告》正式公示，猛士品牌全新战略车型——猛士X700的申报信息首度曝光。作为猛士品牌X系列的首款重磅产品，新车的登场补全了品牌产品矩阵的关键拼图，标志着猛士正式进军主流家用SUV赛道，为中大型SUV市场带来打破场景边界的选择。 明晰产品序列定位，覆盖全维度出行需求 随着X系列的正式亮相，猛士品牌形成了定
+- **[猛士X系列首款新车申报：猛士X700为城市轻户外而生，进军主流家用SUV市场](https://www.xinhuanet.com/auto/20260712/beeda5376259412c931967dab04acd22/c.html)** — _www.xinhuanet.com_ · published 2026-07-12
+  7月10日，工信部第409批《道路机动车辆生产企业及产品公告》正式公示，猛士品牌全新战略车型——猛士X700的申报信息首度曝光。作为猛士品牌X系列的首款重磅产品，新车的登场补全了品牌产品矩阵的关键拼图，标志着猛士正式进军主流家用SUV赛道，为中大型SUV市场带来打破场景边界的选择。 明晰产品序列定位，覆盖全维度出行需求 随着X系列的正式亮相，猛士品牌形成了定
 
 ### 2026-07-11 — 47 articles
 - **[6月新能源车零售纯电占比68%，车船税新政影响几何？](https://36kr.com/p/3890689794963973)** — _36kr.com_ · published 2026-07-11
