@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-12 18:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-12 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-12 18:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **2750 unique auto/NEV articles** across **19 outlets**
+## Cumulative: **2752 unique auto/NEV articles** across **19 outlets**
 
 ## New per day
 | date | new articles |
@@ -44,20 +44,20 @@ _Updated 2026-07-12 18:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-09 | 75 |
 | 2026-07-10 | 71 |
 | 2026-07-11 | 47 |
-| 2026-07-12 | 22 |
+| 2026-07-12 | 24 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 792 |
+| www.d1ev.com | 793 |
 | www.caam.org.cn | 184 |
 | 36kr.com | 153 |
 | www.stcn.com | 146 |
 | www.cada.cn | 97 |
 | egs.stcn.com | 89 |
 | www.news.cn | 65 |
-| www.yicai.com | 49 |
+| www.yicai.com | 50 |
 | www.xinhuanet.com | 25 |
 | cn.chinadaily.com.cn | 16 |
 | www.zqrb.cn | 15 |
@@ -71,7 +71,7 @@ _Updated 2026-07-12 18:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-12 — 22 articles
+### 2026-07-12 — 24 articles
 - **[日本三大车企在华销量全线下滑，本田连续29个月负增长](https://www.d1ev.com/newsflash/306516)** — _www.d1ev.com_ · date: unknown
   7月11日，日本三大车商在中国市场的上半年新车销量数据公布，均出现同比下滑。丰田上半年销量为69.47万辆，同比减少17.1%；日产销量为23.70万辆，同比减少15.0%；本田销量为20.58万辆，同比大幅下滑34.7%。6月份单月销量同样低于去年同期，本田已连续29个月同比下滑。 具体来看，本田在华销量下滑趋势尤为明显，自2024年8月起曾连续7个月同比
 - **[小鹏G9L申报亮相：双电机430kW动力，磷酸铁锂电池加持！](https://www.d1ev.com/newsflash/306515)** — _www.d1ev.com_ · date: unknown
@@ -112,10 +112,14 @@ _Updated 2026-07-12 18:12 | discovery-only, zero LLM tokens | runs every 3h_
   7月11日，楚能汽车在研究院试制中心总装车间举行了首台ET车下线仪式，这标志着公司首发车型正式从工程数据阶段迈入实车验证阶段。ET车即工程调试阶段，主要进行设计、制造、装配等环节的综合确认，验证工艺、工装，并进行全工装件台架性能试验、台架耐久性试验、整车试验以及内外装饰件颜色纹理认可。 楚能汽车技术研发中心的柔性数字化试制产线配备了七轴高精KUKA焊接机器人
 - **[韩国新能源汽车销量首超50%，纯电车销量翻倍增长](https://www.d1ev.com/newsflash/306563)** — _www.d1ev.com_ · date: unknown
   7月12日，韩国新能源汽车市场传来新突破。今年上半年，韩国销售的汽车中新能源汽车占比首次超过一半，达到50.4%，创下历史新高。根据韩国汽车数据研究机构“Carisyou”的分析，今年上半年在韩国注册登记的新车数量同比增加1.4%，达到85.18万辆。其中，新能源汽车（包括混动车、纯电车、 氢燃料车）销量为42.92万辆，占比首次超过50%。 具体来看，今年
+- **[长安启源Q06即将亮相：中大型纯电轿跑SUV，6C极速闪充革新体验](https://www.d1ev.com/newsflash/306573)** — _www.d1ev.com_ · date: unknown
+  今日，长安启源宣布，其全新纯电车型启源Q06将于7月15日在上海亮相。这款中大型轿跑SUV基于长安自研SDA天枢架构打造，融合了高快充、高阶智驾和大空间等特性，旨在冲击高端纯电市场。启源Q06的外观设计延续了启源扶光美学，采用封闭式格栅和贯穿式LED日间行车灯，车顶配备激光雷达以支持高阶辅助驾驶。车身线条流畅，配备半隐藏式门把手和点阵光源组成的贯穿尾灯，车身
 - **[猛士X系列首款新车申报：猛士X700为城市轻户外而生，进军主流家用SUV市场](https://www.news.cn/auto/20260712/beeda5376259412c931967dab04acd22/c.html)** — _www.news.cn_ · published 2026-07-12
   7月10日，工信部第409批《道路机动车辆生产企业及产品公告》正式公示，猛士品牌全新战略车型——猛士X700的申报信息首度曝光。作为猛士品牌X系列的首款重磅产品，新车的登场补全了品牌产品矩阵的关键拼图，标志着猛士正式进军主流家用SUV赛道，为中大型SUV市场带来打破场景边界的选择。 明晰产品序列定位，覆盖全维度出行需求 随着X系列的正式亮相，猛士品牌形成了定
 - **[猛士X系列首款新车申报：猛士X700为城市轻户外而生，进军主流家用SUV市场](https://www.xinhuanet.com/auto/20260712/beeda5376259412c931967dab04acd22/c.html)** — _www.xinhuanet.com_ · published 2026-07-12
   7月10日，工信部第409批《道路机动车辆生产企业及产品公告》正式公示，猛士品牌全新战略车型——猛士X700的申报信息首度曝光。作为猛士品牌X系列的首款重磅产品，新车的登场补全了品牌产品矩阵的关键拼图，标志着猛士正式进军主流家用SUV赛道，为中大型SUV市场带来打破场景边界的选择。 明晰产品序列定位，覆盖全维度出行需求 随着X系列的正式亮相，猛士品牌形成了定
+- **[存储芯片与碳酸锂涨价，严重侵蚀整车企业利润](https://www.yicai.com/news/103270976.html)** — _www.yicai.com_ · date: unknown
+  {{aisd}} AI生成 免责声明 7月12日晚间，赛力斯发布《2026年半年度业绩预亏公告》。公告显示，经财务部门初步测算，公司预计2026年上半年归母净亏损为15亿元至18亿元，与去年同期净利润29.41亿元相比，同比由盈转亏。其中，核心子公司赛力斯汽车有限公司（即“问界汽车”）归母净亏损为10.5亿元至13亿元。 今年一季度，赛力斯归母净利润尚有7.
 
 ### 2026-07-11 — 47 articles
 - **[6月新能源车零售纯电占比68%，车船税新政影响几何？](https://36kr.com/p/3890689794963973)** — _36kr.com_ · published 2026-07-11
