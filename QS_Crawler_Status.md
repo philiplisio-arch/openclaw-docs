@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-13 03:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-13 06:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-13 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **2985 unique auto/NEV articles** across **36 outlets**
+## Cumulative: **2986 unique auto/NEV articles** across **37 outlets**
 
 ## New per day
 | date | new articles |
@@ -45,7 +45,7 @@ _Updated 2026-07-13 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-10 | 71 |
 | 2026-07-11 | 47 |
 | 2026-07-12 | 244 |
-| 2026-07-13 | 13 |
+| 2026-07-13 | 14 |
 
 ## By outlet
 | outlet | articles |
@@ -81,6 +81,7 @@ _Updated 2026-07-13 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 | cnews.chinadaily.com.cn | 3 |
 | www.chinanews.com.cn | 2 |
 | china.chinadaily.com.cn | 2 |
+| www.gelonghui.com | 1 |
 | www.ce.cn | 1 |
 | views.ce.cn | 1 |
 | guancha.gmw.cn | 1 |
@@ -89,7 +90,7 @@ _Updated 2026-07-13 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-13 — 13 articles
+### 2026-07-13 — 14 articles
 - **[比MEGA还科幻，国产纯电CyberVan！能睡3人能下地库，性价比更绝！](https://vc.yiche.com/vplay/10978291.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 赛道激试 奥迪RS5 Avant 积极的奶牛猫1394 海豹06最新行情：终端优惠8000左右，中型插混轿车 车图腾 东风风行携手华为，高阶智驾杀入15万级家庭市场 SUV
 - **[大五座混动SUV油耗能多低？](https://vc.yiche.com/vplay/12037769.html)** — _vc.yiche.com_ · date: unknown
@@ -105,6 +106,8 @@ _Updated 2026-07-13 03:12 | discovery-only, zero LLM tokens | runs every 3h_
   7月12日，大众汽车乘用车品牌中国CEO齐泽凯宣布，与众09合作开发的新车型将于今年下半年上市。这款新车型是大众和小鹏汽车在24个月内联合开发的第二款车型，具有流畅的溜背线条和舒展修长的车身比例，车长超5米，轴距达3030mm。新车搭载了大众人本科技“行云智行”和“云栖智舱”等先进技术，包括VLA大模型全场景智能辅助驾驶、AI智能助手、超强算力，智能化水平跻
 - **[李斌预测：下半年车市企稳，纯电车型渗透率将超80%](https://www.d1ev.com/newsflash/306576)** — _www.d1ev.com_ · date: unknown
   7月12日，蔚来汽车创始人 李斌在ES8大五座版上市发布会后表示，新能源汽车市场技术路线正向纯电动车收敛。尽管今年上半年车市面临较大销售压力，6月全国乘用车市场零售同比下降23.2%，但纯电动车销量同比仅上涨3.6%。李斌对下半年市场形势持谨慎乐观态度，认为车市将有所企稳，跌幅不会进一步扩大。他指出，国内汽车市场保有量仍在增加，潜在需求依然存在，同时包括ES
+- **[基本半导体：部分产品价格预计上调幅度最高不超过25%](https://www.gelonghui.com/live/2548625)** — _www.gelonghui.com_ · date: unknown
+  首页 > 快讯 > 快讯详情 基本半导体：部分产品价格预计上调幅度最高不超过25% 格隆汇7月13日｜基本半导体港交所公告，鉴于2026年以来随着全球人工智能(AI)、新能源汽车等新兴应用的快速发展，带动市场需求持续增长，行业供需关系维持紧平衡状态。经综合评估市场环境、成本变化及整体经营策略，集团将自2026年第三季度起，对部分产品销售价格进行适度调整，以支
 - **[汽车销售员诱导车主将车泡水，理赔后再买新车？业内人士：涉嫌保险诈骗！有人曾将宝马车故意泡水索赔58万元，被采取强制措施](https://www.nbd.com.cn/articles/2026-07-13/4468681.html)** — _www.nbd.com.cn_ · published 2026-07-13
   每日经济新闻 2026-07-13 00:32:00 每经记者｜袁园 每经编辑｜张锦河 杨翼 “计划全损的旧车可停泊在易积水区域，全损后如需订制增购，可联系相关电话XXXXXXX。”日前，有车主在社交平台上晒出这样一则消息提示的截图。该车主在其社交平台上表示，其在看到这则“消息提示”时，有些哭笑不得。从该车主发布的消息提示截图来看，该信息疑似来源于某销售人员
 - **[智利发生汽车撞人事件致6死7伤](https://www.news.cn/20260712/a1e022cca309450795a49b26846a74b9/c.html)** — _www.news.cn_ · published 2026-07-12
