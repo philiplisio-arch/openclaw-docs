@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-14 00:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-14 03:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-14 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **3160 unique auto/NEV articles** across **42 outlets**
+## Cumulative: **3173 unique auto/NEV articles** across **42 outlets**
 
 ## New per day
 | date | new articles |
@@ -46,13 +46,13 @@ _Updated 2026-07-14 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-11 | 47 |
 | 2026-07-12 | 244 |
 | 2026-07-13 | 173 |
-| 2026-07-14 | 15 |
+| 2026-07-14 | 28 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 828 |
+| www.d1ev.com | 830 |
 | www.caam.org.cn | 184 |
 | 36kr.com | 163 |
 | www.stcn.com | 148 |
@@ -61,14 +61,14 @@ _Updated 2026-07-14 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 | www.news.cn | 71 |
 | auto.gasgoo.com | 60 |
 | www.yicai.com | 53 |
-| vc.yiche.com | 38 |
+| vc.yiche.com | 42 |
+| auto.caijing.com.cn | 28 |
 | www.xinhuanet.com | 26 |
 | news.yiche.com | 24 |
 | m.21jingji.com | 23 |
 | www.zqrb.cn | 22 |
 | www.cnr.cn | 22 |
 | autodata.gasgoo.com | 22 |
-| auto.caijing.com.cn | 21 |
 | www.jwview.com | 20 |
 | www.nbd.com.cn | 19 |
 | finance.eastmoney.com | 18 |
@@ -96,9 +96,21 @@ _Updated 2026-07-14 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-14 — 15 articles
+### 2026-07-14 — 28 articles
 - **[充电模块全行业涨价，低价充电时代终结？](https://36kr.com/p/3893963246238215)** — _36kr.com_ · published 2026-07-14
   充电模块全行业涨价，低价充电时代终结？ 7月以来，优优绿能（301590.SZ）、上海安世博、通合电子科技和广东易能时代等头部充电模块企业均发布涨价函。 各家企业的涨价函措辞几乎一致：因2026年上半年以来，PCB（印制电路板）、碳化硅芯片、电阻电容、继电器及铜银金属等成本上升，上涨幅度远超预期，为保证持续稳定的供应保障，拟对全系产品涨价15%。 7月8日，
+- **[新车上市](https://auto.caijing.com.cn/2026/0713/5170710.shtml)** — _auto.caijing.com.cn_ · date: unknown
+- **[启境汽车完成工商变更 超10亿元战略增资落地](https://auto.caijing.com.cn/2026/0713/5170700.shtml)** — _auto.caijing.com.cn_ · date: unknown
+  据最新工商登记信息显示，由广汽集团与华为乾崑跨界融合打造的年轻化、高端智能电动汽车品牌——启境汽车，已完成工商登记变更，总额超10亿元战略增资正式落地。本轮增资涵盖宁德时代等多家产业与国央企资本，注册资本由21亿元增至30.15亿元。随着头部产业资本与国有资本同步入局，启境定位清晰，“广汽智造+华为科技”跨界融合模式，赢得了资本对启境投资价值的长期看好。 （
+- **[新车上市](https://auto.caijing.com.cn/2026/0713/5170692.shtml)** — _auto.caijing.com.cn_ · date: unknown
+- **[岚图汽车邵明峰：力争两年内跻身中国纯电豪华品牌前三](https://auto.caijing.com.cn/2026/0713/5170646.shtml)** — _auto.caijing.com.cn_ · date: unknown
+  7月13日，岚图汽车生态合作伙伴大会隆重召开，会上官方发布重磅纯电战略，明确下半年核心增长方向。下半年，岚图将密集发布4款战略级纯电产品，以丰富的产品矩阵与全栈自研核心技术，全力冲刺纯电市场，力争两年内跻身中国纯电豪华品牌前三。 产品层面，豪华全地形大五座岚图泰山X8 纯电版已经开启交付，主打年轻市场的潮流纯电轿跑SUV追光S将于7月开启预售，后续还将推出旗
+- **[首批通过2026版Euro NCAP最严测试 新世代BMW iX3获五星安全评级](https://auto.caijing.com.cn/2026/0713/5170606.shtml)** — _auto.caijing.com.cn_ · date: unknown
+  新世代BMW iX3近日在欧盟新车安全评鉴协会（Euro NCAP）最新测试中荣获最高五星安全评级。作为首批接受2026版全新测试标准评估的车型之一，新世代BMW iX3在多个关键项目中显著超出五星认证门槛。 2026版Euro NCAP测试体系是自2009年以来最大幅度升级。评测范围从传统碰撞测试扩展至真实道路场景下的全链路安全能力，涵盖安全驾驶、碰撞避免
+- **[中国一汽悦意08全球上市：9.99万元起，主打全场景家用轿跑](https://auto.caijing.com.cn/2026/0713/5170546.shtml)** — _auto.caijing.com.cn_ · date: unknown
+  7月12日，在第23届长春国际汽车博览会上，中国一汽全新新能源品牌首发旗舰车型——悦意08正式全球上市。新车提供增程版及565km、650km纯电版两种动力形式，共6款车型，官方指导价9.99万—13.99万元。同时，官方推出四重限时购车礼遇，包括至高3年0息金融政策、轮毂升级礼、娱乐流量礼及充电桩套装，并配套整车、三电终身质保及动力电池衰减超限只换不修等“
+- **[东风奕派纳米01智趣版上市：5.98万元起，主打8155芯片与智能座舱升级](https://auto.caijing.com.cn/2026/0713/5170534.shtml)** — _auto.caijing.com.cn_ · published 2026-07-10
+  2026年7月10日，东风奕派宣布纳米01智趣版正式上市。新车共推出305Fly、305Air、305Ultra、430Pro四款车型，官方指导价区间为5.98万至7.98万元。同步发布的还有六重限时购车权益，涵盖终身免费品质保障、0首付5年贷款2年0息等金融方案，以及充电、流量、智享等配套礼遇。 本次改款并非简单配置调整，而是基于用户真实反馈，针对国民纯电
 - **[英国市场反超特斯拉，比亚迪靠的是另一套打法](https://m.21jingji.com/article/20260713/herald/5c02fc51788342fe7582cdf1a41417ec.html)** — _m.21jingji.com_ · date: unknown
   “先被看见，再被体验，最后被认同”。 21世纪经济报道记者 焦文娟 在古德伍德速度节现场，纯电豪华超跑腾势Z被F1世界冠军简森·巴顿揭开面纱。这辆纯电超跑赛道版零百加速1.96秒，直接对标保时捷Taycan和特斯拉Model S Plaid。 （腾势Z，比亚迪供图） 该车型共推出三个版本，硬顶版14.29万英镑（折合人民币130万元）、敞篷版15.99万英镑
 - **[李斌谈技术路线往纯电收敛，预测下半年汽车市场会有所好转](https://m.21jingji.com/article/20260713/herald/a96d0ec5faf10835b75f6dd98465fbf9.html)** — _m.21jingji.com_ · date: unknown
@@ -112,12 +124,24 @@ _Updated 2026-07-14 00:12 | discovery-only, zero LLM tokens | runs every 3h_
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 13.97-17.97万 城区道路实测，试驾星越L i-HEV，油耗到底多低？ 优视汽车 换装混动，星越Li-HEV把油耗降下来后，能平替新能源了吗？ C家车探 当年花70
 - **[“五座新王” 岚图泰山X8以旗舰之姿登陆长春汽博会#岚图泰山X8#新能源SUV#长春车展](https://vc.yiche.com/vplay/12102092.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 29.29-37.99万 上市18小时大定破15000，岚图泰山X8让“8系”集体破防了？ My车轱辘 预售10.49万起！轴距2900mm+8295+1765km续航，喜
+- **[吉利又又又出新车了！](https://vc.yiche.com/vplay/12065454.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 星瑞L PLUS：“宽体”B级家轿！激光雷达+i-HEV混动，合资能争？#星瑞LPLUS大美中国车 阿康爱玩车 大美燃油旗舰星瑞L Plus 产品实力全面进阶 波妹
+- **[吉利星瑞L PLUS（FS21）首次实拍](https://vc.yiche.com/vplay/12056620.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 华为乾崑全家桶+296项升级！猛士M817预售37万起 我为车狂 适合一家四口的复式小房车！大床大厨卫，设计漂亮爆了！ 北京富日通房车 循四时律动 驭大美中国车 星
+- **[7月份吉利星愿真实行情分享，千万别买贵了！](https://vc.yiche.com/vplay/12077669.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 6.48-9.48万 国产越野之王，东风猛士“全地形”战车登场 cocofujian 全新一代问界M9对比竞品，47.98万起竞争力如何？ 汽车大事记 理想 i8 被严重低
+- **[小米户型图，汽车卷没边了](https://vc.yiche.com/vplay/12048829.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 神舟二十三号飞天，红旗金葵花以极致守护，共赴星辰山海 杠车兄弟 大众id.era 9x值得买吗 skyline990719 反击！雷军亮出底牌 硬刚遥遥领先 胎叫玩
 - **[众泰汽车预计2026年上半年归母净利润为7800万元至1.05亿元](https://www.cnr.cn/jingji/ycbd/20260713/t20260713_527708250.shtml)** — _www.cnr.cn_ · published 2026-07-13
   7月13日，众泰汽车（000980.SZ）发布公告称，预计2026年半年度归属于上市公司股东的净利润为7800万元-1.05亿元，同比扭亏为盈。业绩变动主要系公司战略收缩，注销低效分子公司获得补偿款确认收益2亿元，以及诉讼和解产生营业外收入约3000万元。（央广财经） 编辑:谢碧鹭 更多精彩资讯请在应用市场下载“央广网”客户端。欢迎提供新闻线索，24小时报料
 - **[大众汽车全球裁员风暴：10万岗位或将消失，成本劣势高达20%](https://www.d1ev.com/newsflash/306722)** — _www.d1ev.com_ · date: unknown
   7月13日，大众汽车首席执行官奥利弗·布鲁姆在内部备忘录中透露，公司可能需要额外裁减约5万个工作岗位，这是大众寻求全球裁减多达10万个职位计划的一部分，涉及旗下所有品牌，包括保时捷和奥迪。布鲁姆表示，与竞争对手相比，大众的成本劣势高达20%，因此公司及其奥迪子公司必须进一步降低成本。他倾向于采取“智能解决方案”而非关闭工厂，并考虑将未充分利用的工厂转型生产其
 - **[二手车市场逆势增长，中国新车与二手车交易比例首达1:1](https://www.d1ev.com/newsflash/306718)** — _www.d1ev.com_ · date: unknown
   7月13日，中国汽车流通协会发布消息，2026年中国二手车大会在江苏无锡圆满落幕。今年1至5月，我国二手车市场交易量达到809.5万辆，同比增长2.3%，新车消费与二手车交易比例首次达到1:1。这一增长趋势得益于新能源车购置税恢复征收，导致新车购买成本上升，而二手新能源车免征购置税，价格优势明显，从而推动了二手车市场的逆势增长。 阿里巴巴闲鱼同城总经理陈亮在
+- **[美国电动车市场寒冬加剧，加州销量暴跌40%](https://www.d1ev.com/newsflash/306729)** — _www.d1ev.com_ · date: unknown
+  近日，美国电动车市场遭遇寒冬，今年第一季度新能源汽车销量同比下滑约27%至28%，纯电市场渗透率跌至5.8%。加州作为美国最大的新能源车市场，第一季度纯电动车销量同比暴跌40.2%，市场份额从21%骤降至13.7%。特斯拉在加州的 补贴政策中受到限制，超过5万美元的车辆 补贴仅限于加州本土车企，导致特斯拉大部分主力车型无法享受补贴。 联邦电动车退税政策的取消
+- **[比亚迪推29元不限量车机流量包，五大娱乐场景任性用](https://www.d1ev.com/newsflash/306727)** — _www.d1ev.com_ · date: unknown
+  日前，比亚迪汽车宣布推出“车载服务无忧包”，用户每月支付29元即可享受不限量的车机流量服务，有效解决了流量焦虑问题。该服务将流量从原本的15GB提升至不限量，并保证网络不断线。购买后服务立即生效，期间无隐形费用或二次计费，实现一价全包。无忧包覆盖五大座舱娱乐场景，包括车内LiveHouse、移动小剧场、车载K歌房、移动游戏厅和随行办公舱，让用户的座舱娱乐体验
 - **[【经纬晚班车】商业航天概念股密集提示风险；字节跳动否认进军自动驾驶](https://www.jwview.com/jingwei/html/07-13/679124.shtml)** — _www.jwview.com_ · date: unknown
   国务院原则同意《扩大消费“十五五”规划》，其中提到，清理优化不合理限制性措施。推动汽车等消费由购买管理向使用管理转变，分年限保障“久摇不中”无车家庭购车需求。详情> 民政部网站13日公布《康复辅助器具产业扩能提质三年行动方案(2026-2028年)》。其中提到，支持符合条件的治疗性康复辅具按程序纳入基本医疗保险支付范围。详情> 近日，国家医保局、国家药监局组
 - **[城市24小时](https://www.nbd.com.cn/articles/2026-07-14/4470308.html)** — _www.nbd.com.cn_ · published 2026-07-14
