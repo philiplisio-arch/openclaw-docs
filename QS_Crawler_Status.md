@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-14 03:13 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-14 06:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-14 03:13 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **3173 unique auto/NEV articles** across **42 outlets**
+## Cumulative: **3177 unique auto/NEV articles** across **42 outlets**
 
 ## New per day
 | date | new articles |
@@ -46,7 +46,7 @@ _Updated 2026-07-14 03:13 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-11 | 47 |
 | 2026-07-12 | 244 |
 | 2026-07-13 | 173 |
-| 2026-07-14 | 28 |
+| 2026-07-14 | 32 |
 
 ## By outlet
 | outlet | articles |
@@ -61,7 +61,7 @@ _Updated 2026-07-14 03:13 | discovery-only, zero LLM tokens | runs every 3h_
 | www.news.cn | 71 |
 | auto.gasgoo.com | 60 |
 | www.yicai.com | 53 |
-| vc.yiche.com | 42 |
+| vc.yiche.com | 46 |
 | auto.caijing.com.cn | 28 |
 | www.xinhuanet.com | 26 |
 | news.yiche.com | 24 |
@@ -96,7 +96,7 @@ _Updated 2026-07-14 03:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-14 — 28 articles
+### 2026-07-14 — 32 articles
 - **[充电模块全行业涨价，低价充电时代终结？](https://36kr.com/p/3893963246238215)** — _36kr.com_ · published 2026-07-14
   充电模块全行业涨价，低价充电时代终结？ 7月以来，优优绿能（301590.SZ）、上海安世博、通合电子科技和广东易能时代等头部充电模块企业均发布涨价函。 各家企业的涨价函措辞几乎一致：因2026年上半年以来，PCB（印制电路板）、碳化硅芯片、电阻电容、继电器及铜银金属等成本上升，上涨幅度远超预期，为保证持续稳定的供应保障，拟对全系产品涨价15%。 7月8日，
 - **[新车上市](https://auto.caijing.com.cn/2026/0713/5170710.shtml)** — _auto.caijing.com.cn_ · date: unknown
@@ -132,6 +132,14 @@ _Updated 2026-07-14 03:13 | discovery-only, zero LLM tokens | runs every 3h_
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 6.48-9.48万 国产越野之王，东风猛士“全地形”战车登场 cocofujian 全新一代问界M9对比竞品，47.98万起竞争力如何？ 汽车大事记 理想 i8 被严重低
 - **[小米户型图，汽车卷没边了](https://vc.yiche.com/vplay/12048829.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 神舟二十三号飞天，红旗金葵花以极致守护，共赴星辰山海 杠车兄弟 大众id.era 9x值得买吗 skyline990719 反击！雷军亮出底牌 硬刚遥遥领先 胎叫玩
+- **[比亚迪海豹08动态驾驶 旗舰轿车百万豪华体验](https://vc.yiche.com/vplay/12103401.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 19.69-23.99万 规模反哺技术的闭环，才是比亚迪下线1700万辆背后的狠招 车哆哩 刷新记录！比亚迪第1700万辆新能源汽车下线，海豹08 极速试驾 中国汽车，只剩
+- **[30万级豪华纯电SUV标杆？奥迪Q6L e](https://vc.yiche.com/vplay/12105004.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 46.76-61.06万 奥迪Q6，如果上汽没了四环标，你抢吗？ 百车全说 与众08：德系底盘调校+双腔空悬，30万内纯电家用SUV怎么选？ 车族风 终端优惠14万起 豪华
+- **[不一样的乌梅子酱](https://vc.yiche.com/vplay/12104815.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 「趣看发布会」预售14.38万起，这价格能打吗？小鹏MONA L03预售发布会总结 趣评测 小朋友视角 试乘小鹏MONA L03 大浩评车 小鹏MONA L03无论
+- **[阿维塔07L，三巨头技术加持的全能家用纯电SUV](https://vc.yiche.com/vplay/12104290.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 华为全家桶 近3米轴距大五座 35.4英寸全景屏 阿维塔07L开箱 30秒懂车 实拍阿维塔07L：大五座、真豪华，焦点在于定价？ 车壹圈 宝马530Li：8155P
 - **[众泰汽车预计2026年上半年归母净利润为7800万元至1.05亿元](https://www.cnr.cn/jingji/ycbd/20260713/t20260713_527708250.shtml)** — _www.cnr.cn_ · published 2026-07-13
   7月13日，众泰汽车（000980.SZ）发布公告称，预计2026年半年度归属于上市公司股东的净利润为7800万元-1.05亿元，同比扭亏为盈。业绩变动主要系公司战略收缩，注销低效分子公司获得补偿款确认收益2亿元，以及诉讼和解产生营业外收入约3000万元。（央广财经） 编辑:谢碧鹭 更多精彩资讯请在应用市场下载“央广网”客户端。欢迎提供新闻线索，24小时报料
 - **[大众汽车全球裁员风暴：10万岗位或将消失，成本劣势高达20%](https://www.d1ev.com/newsflash/306722)** — _www.d1ev.com_ · date: unknown
