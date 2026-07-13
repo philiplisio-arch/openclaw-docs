@@ -2,8 +2,8 @@
 
 ---
 document_id: OPENCLAW-ISSUES-001
-version: v2.9
-last_updated: 2026-06-24
+version: v3.0
+last_updated: 2026-07-13
 status: OPERATIONAL
 ---
 
@@ -48,6 +48,11 @@ and recently resolved issues.
 | 74 | WS1 volume waste — 144-candidate cap → ~15 forced stories → 3-source/story cap meant only ~19 of ~755 in-window articles/day were ever cited; most "top" stories single-source | ✅ RESOLVED 2026-06-24 — deterministic title-token clustering consumes the full in-window corpus (no LLM long-input limit), 3→6 source cap, honest `THE TOP {n}` header (commit e85b855) |
 | 75 | WS1 silent no-delivery on crash — 2026-06-19 `category` KeyError crashed the cron with no entry in any alerts log; a no-delivery day was invisible | 🟡 PARTIAL — defensive `.get()` schema guard for the `category` KeyError shipped 2026-06-19 (commit 3d65ba0); dedicated `ALERTS.log` no-delivery alerting (spec §3.6) still OPEN |
 | 76 | WS1 verify checks numbers only — qualitative claims pass unchecked and number matching is against the pooled source set, so coincidental matches are possible | 🟡 OPEN — deeper per-cited-source number match + qualitative-claim grounding (spec §3.5) pending; verbatim-Chinese grounding foundation already in place |
+| 77 | ALJ Section 2 (Partner Brand Watch) consistently blank — partner-brand articles crowded out by authority-tier sort within 20-source cap | ✅ RESOLVED 2026-07-13 — PARTNER_RESERVE=4 guaranteed slots for toyota_lexus/dealer/china_oem tags in build_agent_input_slim.py (commit 9fa3381) |
+| 78 | WS1 GDP/macro data underweighted in editorial scoring — label_and_score prompt penalized GDP releases as "routine policy" | ✅ RESOLVED 2026-07-13 — MACRO DATA EXCEPTION added to label_and_score prompt (score floor ≥4/5); SELECTION rule added to cbiz_style.md (commit a1afe6a) |
+| 79 | Pipeline code had no GitHub remote — /root git repo was local-only; VPS failure would destroy all WS1/ALJ pipeline code | ✅ RESOLVED 2026-07-13 — philiplisio-arch/openclaw-pipeline (private) created; /root remote wired; CLAUDE.md + memory updated with standing push instructions |
+| 80 | WS1 northbound capital term unexplained at first use — Steve feedback 2026-07-12 | ✅ RESOLVED 2026-07-13 — CLARITY rule in cbiz_style.md expanded with explicit northbound capital gloss example (commit a1afe6a) |
+| 81 | WS1 regulatory dishonesty/fraud conviction stories appearing in brief — Steve feedback 2026-07-12 | ✅ RESOLVED 2026-07-12 — exclusion rule auto-added by ws1_optimizer.py nightly run; confirmed effective 2026-07-13 (no such stories in July 13 brief) |
 | T-10 | Brain Lite metrics_unavailable | ✅ CLOSED 2026-05-23 — CP-005 confirmed on 2026-05-23 and 2026-05-24 cron; validator_status=GREEN holding |
 
 ## TRACKED INPUTS — FUTURE PHASE
@@ -1489,3 +1494,136 @@ mechanical selection-layer rebuild, not a product overhaul. Shipped live 2026-06
 
 Spec: `OPENCLAW_WS1_SELECTION_REDESIGN_SPEC_2026-06-23.md`. Validation brief:
 `WS1_VALIDATION_BRIEF_2026-06-23.md`.
+
+## 2026-07-13 — WS1/ALJ editorial and sourcing fixes (Issues #77–#81)
+
+Today's session audited both the WS1 (China Business Daily) and WS2/ALJ (Jameel Motors China Auto Weekly) runs, identified five issues, and resolved all five.
+
+- **#77 RESOLVED** (commit 9fa3381): ALJ Section 2 (Partner Brand Watch) was consistently blank. Root cause: the 20-source cap uses an authority-tier + full_text + recency sort, which systematically crowded out toyota_lexus/dealer/china_oem-tagged articles when high-authority general news dominated. Fix: `PARTNER_RESERVE=4` slots are reserved for partner-brand-tagged articles before the general Chinese quota fills, with a backfill from the remaining zh pool if fewer than 4 partner articles exist.
+- **#78 RESOLVED** (commit a1afe6a): WS1 `label_and_score` (DeepSeek scoring pass) was assigning low significance scores to GDP, PMI, CPI, and NBS releases because its prompt instructed it to reward "business developments over routine official policy." A MACRO DATA EXCEPTION paragraph now mandates a significance/relevance floor of ≥4/5 for all official national statistics releases. A matching SELECTION editorial rule was added to `cbiz_style.md` requiring At a Glance placement for GDP/macro anchors.
+- **#79 RESOLVED**: The `/root` git repo had no remote. A VPS failure would have destroyed all WS1 and ALJ pipeline code with no recovery path. The `philiplisio-arch/openclaw-pipeline` repo (private) was created on GitHub and wired as the `/root` remote. Standing push instructions were added to `/root/CLAUDE.md` and to the `/root` project memory so every future session picks them up automatically.
+- **#80 RESOLVED** (commit a1afe6a): Steve feedback (2026-07-12) flagged "northbound capital" appearing without explanation. The CLARITY rule in `cbiz_style.md` was updated with a concrete gloss example: *northbound capital (Hong Kong-to-mainland Stock Connect flows)*.
+- **#81 RESOLVED** (2026-07-12 optimizer auto-run): Steve feedback (2026-07-12) flagged stories about corporate dishonesty/fraud convictions appearing in the brief. The ws1_optimizer.py nightly self-improvement loop added an exclusion rule automatically overnight July 12–13. Confirmed effective on the July 13 brief: no such stories appeared.
+
+---
+
+## Issue #77 — ALJ Section 2 (Partner Brand Watch) Blank
+
+### Status
+✅ RESOLVED 2026-07-13 — commit 9fa3381 to `openclaw-pipeline`
+
+### Discovered
+2026-07-13 — post-run audit of ALJ brief
+
+### Description
+
+Section 2 (Partner Brand Watch) of the ALJ China Auto Weekly brief was consistently blank or near-blank across multiple recent runs. The 20-source cap in `build_agent_input_slim.py` selects sources by priority: authority tier → full_text presence → recency. Toyota/Lexus, dealer-network, and China-OEM stories (tagged `toyota_lexus`, `dealer`, `china_oem`) scored below high-authority general automotive and policy sources and were squeezed out of the 20-article window before the agent ever saw them.
+
+### Impact
+
+The Partner Brand Watch section is a core deliverable of the ALJ brief. A blank section reached the client without triggering any gate or alert.
+
+### Resolution
+
+Added partner-brand slot reservation to `build_agent_input_slim.py`. After splitting zh/en results, up to `PARTNER_RESERVE=4` partner-tagged zh articles are reserved before the general zh quota (`zh_quota = max(1, int(MAX_SOURCES * 0.75))`) fills. If fewer than 4 partner articles exist, the remaining zh slots fill from the general pool. If the partner reserve has not reached the quota, the remaining spots fill from zh_all (backfill). The 75%/25% zh/en split is maintained and the overall 20-source cap is unchanged.
+
+```
+_PARTNER_TAGS = {"toyota_lexus", "dealer", "china_oem"}
+PARTNER_RESERVE = 4
+partner_zh = [r for r in zh_all if _is_partner(r)]
+general_zh  = [r for r in zh_all if not _is_partner(r)]
+reserved        = partner_zh[:PARTNER_RESERVE]
+remaining_quota = max(0, zh_quota - len(reserved))
+picked_zh       = reserved + general_zh[:remaining_quota]
+```
+
+---
+
+## Issue #78 — WS1 GDP/Macro Data Underweighted in Editorial Scoring
+
+### Status
+✅ RESOLVED 2026-07-13 — commit a1afe6a to `openclaw-pipeline`
+
+### Discovered
+2026-07-13 — Steve feedback from July 12 brief; GDP H1 readout was the top macro event but did not lead At a Glance
+
+### Description
+
+`cbiz_daily.py`'s `label_and_score` function uses a DeepSeek LLM to score each story candidate 1–5 on significance, impact, novelty, and relevance. The scoring prompt instructed the model to prefer "concrete business developments, corporate actions, and market-moving events" over "routine official policy" — a heuristic intended to filter out low-value government announcements. GDP, PMI, CPI, and NBS releases were being scored as "routine data releases" (often 2–3 out of 5 on significance), dropping them below company earnings, product launches, and single-stock news. For the international CEO audience of China Business Daily, macro data is the baseline that all investment and operational decisions reference.
+
+### Resolution
+
+Added a MACRO DATA EXCEPTION paragraph to the `label_and_score` prompt in `cbiz_daily.py`:
+
+> MACRO DATA EXCEPTION: Official national statistics releases — GDP (including half-year or quarterly readouts), CPI, PMI, NBS industrial output, trade balance, or employment figures — are high-priority signals for any international CEO audience. ALWAYS score these at least 4/5 on significance AND relevance. They are the macro baseline that all investment and operational decisions reference. Do not penalize them for being 'routine' or 'data releases'; feature them at least as prominently as equivalent company or markets stories.
+
+A corresponding SELECTION rule was appended to `cbiz_style.md`:
+
+> SELECTION: China's official national data releases (GDP — including half-year or quarterly readouts — CPI, PMI, NBS industrial output, trade balance) are high-significance macro anchors that every international CEO tracks. Always feature them in At a Glance and rank them at least as prominently as equivalent company or markets stories; do not let earnings roundups or single-stock moves displace them.
+
+---
+
+## Issue #79 — Pipeline Code Had No GitHub Remote
+
+### Status
+✅ RESOLVED 2026-07-13
+
+### Discovered
+2026-07-13 — operator asked to push pipeline commits; `git remote -v` showed no remotes
+
+### Description
+
+The `/root` git repo containing all WS1 and WS2/ALJ pipeline code (`openclaw_ws2b/`, `openclaw_phase5/`, `openclaw_phase6/`, `openclaw_phase7/`) had been initialized locally but never wired to a remote. All commits were local-only. A VPS failure, disk corruption, or accidental `rm -rf` would have destroyed the entire pipeline with no recovery path.
+
+### Impact
+
+No incremental risk while the system was running, but zero backup coverage. Every pipeline improvement since project start would have been unrecoverable on VPS loss.
+
+### Resolution
+
+1. Created `philiplisio-arch/openclaw-pipeline` (private) on GitHub via API.
+2. Added as `origin` remote on `/root` git repo.
+3. Stored PAT in `/root/.git-credentials` via credential helper store (not embedded in URL).
+4. Pushed all existing commits to `origin main` successfully.
+5. Added standing push instructions to `/root/CLAUDE.md` (auto-loaded by all sessions starting in `/root`) and to the `/root` project memory (`pipeline-repo.md`).
+6. Updated `/root/.claude/projects/-root-openclaw/memory/ws1-ops-memory-location.md` to reference the new remote.
+
+Push command: `git -C /root push origin main`
+
+---
+
+## Issue #80 — WS1 Northbound Capital Term Unexplained at First Use
+
+### Status
+✅ RESOLVED 2026-07-13 — commit a1afe6a to `openclaw-pipeline`
+
+### Discovered
+Steve feedback 2026-07-12 (collected via steve_digest.py / Web3Forms email)
+
+### Description
+
+The term "northbound capital" appeared in the WS1 brief without explanation. For the international CEO readership, "northbound capital" (Hong Kong-to-mainland Stock Connect flows) is a China-specific market mechanism that requires a brief parenthetical to be actionable. The ws1_optimizer.py auto-added a general CLARITY rule overnight 2026-07-12–13, but the rule lacked a concrete example.
+
+### Resolution
+
+CLARITY rule in `cbiz_style.md` updated with a specific gloss example:
+
+> CLARITY: Define or explain any jargon, acronym, or China-specific concept at first mention — one short parenthetical is enough (e.g., 'northbound capital (Hong Kong-to-mainland Stock Connect flows)').
+
+---
+
+## Issue #81 — WS1 Regulatory Dishonesty/Fraud Conviction Stories Appearing in Brief
+
+### Status
+✅ RESOLVED 2026-07-12 (optimizer auto-run) — confirmed effective 2026-07-13
+
+### Discovered
+Steve feedback 2026-07-12 (collected via steve_digest.py / Web3Forms email)
+
+### Description
+
+Stories about corporate dishonesty lists, fraud convictions, and regulatory blacklists were appearing in the WS1 brief. These items are typically low-relevance for the international CEO audience of China Business Daily and represent regulatory compliance enforcement noise rather than material macro or market intelligence.
+
+### Resolution
+
+The ws1_optimizer.py nightly self-improvement loop (runs 21:00 Asia/Shanghai) processed Steve's feedback and appended an editorial exclusion rule to `cbiz_style.md` automatically on the July 12–13 overnight run. The July 13 brief contained no such stories, confirming the rule is effective. No manual code change was required.
