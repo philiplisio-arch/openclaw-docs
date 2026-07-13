@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-13 21:14 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-14 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-13 21:14 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **3145 unique auto/NEV articles** across **42 outlets**
+## Cumulative: **3160 unique auto/NEV articles** across **42 outlets**
 
 ## New per day
 | date | new articles |
@@ -46,33 +46,34 @@ _Updated 2026-07-13 21:14 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-11 | 47 |
 | 2026-07-12 | 244 |
 | 2026-07-13 | 173 |
+| 2026-07-14 | 15 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 826 |
+| www.d1ev.com | 828 |
 | www.caam.org.cn | 184 |
-| 36kr.com | 162 |
+| 36kr.com | 163 |
 | www.stcn.com | 148 |
 | www.cada.cn | 99 |
 | egs.stcn.com | 90 |
 | www.news.cn | 71 |
 | auto.gasgoo.com | 60 |
 | www.yicai.com | 53 |
-| vc.yiche.com | 35 |
+| vc.yiche.com | 38 |
 | www.xinhuanet.com | 26 |
+| news.yiche.com | 24 |
+| m.21jingji.com | 23 |
 | www.zqrb.cn | 22 |
-| news.yiche.com | 22 |
+| www.cnr.cn | 22 |
 | autodata.gasgoo.com | 22 |
-| www.cnr.cn | 21 |
-| m.21jingji.com | 21 |
 | auto.caijing.com.cn | 21 |
-| www.jwview.com | 19 |
+| www.jwview.com | 20 |
+| www.nbd.com.cn | 19 |
 | finance.eastmoney.com | 18 |
 | m.ce.cn | 17 |
 | cn.chinadaily.com.cn | 17 |
-| www.nbd.com.cn | 16 |
 | auto.ce.cn | 16 |
 | qzs.stcn.com | 15 |
 | cv.ce.cn | 12 |
@@ -94,6 +95,37 @@ _Updated 2026-07-13 21:14 | discovery-only, zero LLM tokens | runs every 3h_
 | finance.caijing.com.cn | 1 |
 
 ## Articles captured by day (newest first)
+
+### 2026-07-14 — 15 articles
+- **[充电模块全行业涨价，低价充电时代终结？](https://36kr.com/p/3893963246238215)** — _36kr.com_ · published 2026-07-14
+  充电模块全行业涨价，低价充电时代终结？ 7月以来，优优绿能（301590.SZ）、上海安世博、通合电子科技和广东易能时代等头部充电模块企业均发布涨价函。 各家企业的涨价函措辞几乎一致：因2026年上半年以来，PCB（印制电路板）、碳化硅芯片、电阻电容、继电器及铜银金属等成本上升，上涨幅度远超预期，为保证持续稳定的供应保障，拟对全系产品涨价15%。 7月8日，
+- **[英国市场反超特斯拉，比亚迪靠的是另一套打法](https://m.21jingji.com/article/20260713/herald/5c02fc51788342fe7582cdf1a41417ec.html)** — _m.21jingji.com_ · date: unknown
+  “先被看见，再被体验，最后被认同”。 21世纪经济报道记者 焦文娟 在古德伍德速度节现场，纯电豪华超跑腾势Z被F1世界冠军简森·巴顿揭开面纱。这辆纯电超跑赛道版零百加速1.96秒，直接对标保时捷Taycan和特斯拉Model S Plaid。 （腾势Z，比亚迪供图） 该车型共推出三个版本，硬顶版14.29万英镑（折合人民币130万元）、敞篷版15.99万英镑
+- **[李斌谈技术路线往纯电收敛，预测下半年汽车市场会有所好转](https://m.21jingji.com/article/20260713/herald/a96d0ec5faf10835b75f6dd98465fbf9.html)** — _m.21jingji.com_ · date: unknown
+  21世纪经济报道记者 郑植文 成都报道 7月10日，蔚来创始人、董事长、CEO李斌在媒体沟通会上指出，新能源汽车的技术路线正在往纯电方向收敛， “今天再不承认这个趋势就有点掩耳盗铃。” 他预测下半年汽车市场相比上半年会有所好转，但全年来说不会有明显增长。 （作者：郑植文 编辑：吴晓宇,骆一帆 视频编辑：杨浩凯） 南方财经全媒体集团及其客户端所刊载内容的知识产
+- **[小鹏MONA L03将于7月16日正式上市 搭图灵AI智驾第二代VLA](https://news.yiche.com/xinchexiaoxi/20260713/21111458683.html)** — _news.yiche.com_ · date: unknown
+  推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 7月13日，小鹏汽车官宣：小鹏MONA L03将于7月16日正式上市。新车是小鹏首款中国与欧洲同步上市、同步发布的全球车型。本次发布会还将公布小鹏物理AI的最新布局与技术进展。立足全球标准，布局64
+- **[比亚迪泰国累计交付突破13万辆](https://news.yiche.com/zonghexinwen/20260713/21111458634.html)** — _news.yiche.com_ · date: unknown
+- **[电摩能用汽车快充？台铃飞火流星X7试驾报告](https://vc.yiche.com/vplay/12104493.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 13万买C级空间，15万买激光雷达——风云T9L五款配置怎么选？给你拆明白 汽车鹏友 原汁原味的素雅分享给大家 海芒果书房子 昂科威PLUS 小樊同学的车 新晋越野选手威麟
+- **[不充电也很省很顺，吉利星越L i](https://vc.yiche.com/vplay/12104374.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 13.97-17.97万 城区道路实测，试驾星越L i-HEV，油耗到底多低？ 优视汽车 换装混动，星越Li-HEV把油耗降下来后，能平替新能源了吗？ C家车探 当年花70
+- **[“五座新王” 岚图泰山X8以旗舰之姿登陆长春汽博会#岚图泰山X8#新能源SUV#长春车展](https://vc.yiche.com/vplay/12102092.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 29.29-37.99万 上市18小时大定破15000，岚图泰山X8让“8系”集体破防了？ My车轱辘 预售10.49万起！轴距2900mm+8295+1765km续航，喜
+- **[众泰汽车预计2026年上半年归母净利润为7800万元至1.05亿元](https://www.cnr.cn/jingji/ycbd/20260713/t20260713_527708250.shtml)** — _www.cnr.cn_ · published 2026-07-13
+  7月13日，众泰汽车（000980.SZ）发布公告称，预计2026年半年度归属于上市公司股东的净利润为7800万元-1.05亿元，同比扭亏为盈。业绩变动主要系公司战略收缩，注销低效分子公司获得补偿款确认收益2亿元，以及诉讼和解产生营业外收入约3000万元。（央广财经） 编辑:谢碧鹭 更多精彩资讯请在应用市场下载“央广网”客户端。欢迎提供新闻线索，24小时报料
+- **[大众汽车全球裁员风暴：10万岗位或将消失，成本劣势高达20%](https://www.d1ev.com/newsflash/306722)** — _www.d1ev.com_ · date: unknown
+  7月13日，大众汽车首席执行官奥利弗·布鲁姆在内部备忘录中透露，公司可能需要额外裁减约5万个工作岗位，这是大众寻求全球裁减多达10万个职位计划的一部分，涉及旗下所有品牌，包括保时捷和奥迪。布鲁姆表示，与竞争对手相比，大众的成本劣势高达20%，因此公司及其奥迪子公司必须进一步降低成本。他倾向于采取“智能解决方案”而非关闭工厂，并考虑将未充分利用的工厂转型生产其
+- **[二手车市场逆势增长，中国新车与二手车交易比例首达1:1](https://www.d1ev.com/newsflash/306718)** — _www.d1ev.com_ · date: unknown
+  7月13日，中国汽车流通协会发布消息，2026年中国二手车大会在江苏无锡圆满落幕。今年1至5月，我国二手车市场交易量达到809.5万辆，同比增长2.3%，新车消费与二手车交易比例首次达到1:1。这一增长趋势得益于新能源车购置税恢复征收，导致新车购买成本上升，而二手新能源车免征购置税，价格优势明显，从而推动了二手车市场的逆势增长。 阿里巴巴闲鱼同城总经理陈亮在
+- **[【经纬晚班车】商业航天概念股密集提示风险；字节跳动否认进军自动驾驶](https://www.jwview.com/jingwei/html/07-13/679124.shtml)** — _www.jwview.com_ · date: unknown
+  国务院原则同意《扩大消费“十五五”规划》，其中提到，清理优化不合理限制性措施。推动汽车等消费由购买管理向使用管理转变，分年限保障“久摇不中”无车家庭购车需求。详情> 民政部网站13日公布《康复辅助器具产业扩能提质三年行动方案(2026-2028年)》。其中提到，支持符合条件的治疗性康复辅具按程序纳入基本医疗保险支付范围。详情> 近日，国家医保局、国家药监局组
+- **[城市24小时](https://www.nbd.com.cn/articles/2026-07-14/4470308.html)** — _www.nbd.com.cn_ · published 2026-07-14
+  2026-07-14 00:06:04 平稳推进2030年禁售燃油车 每经记者｜刘艳美 每经编辑｜杨欢 近日，海南省人民政府对外发布《“十五五”海南国家生态文明试验区规划（美丽海南建设“十五五”规划）》（以下简称《规划》）。其中提出，“平稳推进2030年禁售燃油车”。 根据《规划》，到2030年，海南公共服务和社会运营领域新增和更换车辆（特殊用途除外）清洁能
+- **[零跑汽车徐军：中国车企出海不能只拼规模，全行业应共同为“中国新能源”加分丨向内止争·向外拓局②](https://www.nbd.com.cn/articles/2026-07-13/4470224.html)** — _www.nbd.com.cn_ · published 2026-07-13
+  2026-07-13 22:18:07 每经记者｜孙磊 每经编辑｜裴健如 “2025年汽车行业利润率跌到4.1%，是近10年新低。三年‘价格战’打下来，全行业累计损失了4712亿元。这不是我夸张，这是根据行业公开口径统计的数据。”近日，零跑汽车高级副总裁兼首席运营官徐军接受《每日经济新闻》记者采访时直言，当前国内市场新车扎堆、同质化严重，终端价格持续下探的现
+- **[蔚来李斌：新能源技术路线正向纯电动收敛，因智驾系统本身造成的损失我们不会不“兜底”](https://www.nbd.com.cn/articles/2026-07-13/4470128.html)** — _www.nbd.com.cn_ · published 2026-07-13
+  2026-07-13 21:33:05 每经记者｜李星 每经编辑｜裴健如 “今年不仅芯片在涨价，各种原材料都在涨价。蔚来ES8的单车成本因此上涨了将近2万元，如果反映到售价上，ES8大概要涨3万元才能获得差不多的毛利。主机厂的成本压力非常大。”日前，蔚来董事长李斌在接受《每日经济新闻》记者采访时直言。 不过，日前上市的蔚来ES8大五座版售价并未上涨。对此，李
 
 ### 2026-07-13 — 173 articles
 - **[雅迪守城、九号破圈、小牛逆袭：两轮电动车的格局重塑](https://36kr.com/p/3893400322161284)** — _36kr.com_ · published 2026-07-13
