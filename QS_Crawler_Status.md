@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-15 00:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-15 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-15 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **3345 unique auto/NEV articles** across **46 outlets**
+## Cumulative: **3352 unique auto/NEV articles** across **46 outlets**
 
 ## New per day
 | date | new articles |
@@ -47,7 +47,7 @@ _Updated 2026-07-15 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-12 | 244 |
 | 2026-07-13 | 173 |
 | 2026-07-14 | 183 |
-| 2026-07-15 | 17 |
+| 2026-07-15 | 24 |
 
 ## By outlet
 | outlet | articles |
@@ -55,10 +55,10 @@ _Updated 2026-07-15 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 | www.dongchedi.com | 1088 |
 | www.d1ev.com | 860 |
 | www.caam.org.cn | 185 |
-| 36kr.com | 171 |
+| 36kr.com | 173 |
 | www.stcn.com | 156 |
 | www.cada.cn | 101 |
-| egs.stcn.com | 94 |
+| egs.stcn.com | 95 |
 | www.news.cn | 74 |
 | auto.gasgoo.com | 74 |
 | vc.yiche.com | 70 |
@@ -66,9 +66,9 @@ _Updated 2026-07-15 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 | news.yiche.com | 33 |
 | m.21jingji.com | 33 |
 | www.cnr.cn | 32 |
-| www.nbd.com.cn | 30 |
+| www.nbd.com.cn | 31 |
+| auto.caijing.com.cn | 31 |
 | autodata.gasgoo.com | 29 |
-| auto.caijing.com.cn | 28 |
 | www.xinhuanet.com | 26 |
 | www.jwview.com | 25 |
 | www.zqrb.cn | 23 |
@@ -101,9 +101,21 @@ _Updated 2026-07-15 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-15 — 17 articles
+### 2026-07-15 — 24 articles
+- **[两年前全网都在算锂矿的“破产时间表”，如今救活锂的不是电动车，而是储能](https://36kr.com/p/3895095317035653)** — _36kr.com_ · published 2026-07-15
+  两年前全网都在算锂矿的“破产时间表”，如今救活锂的不是电动车，而是储能 2026年7月10日晚，两份锂企业绩预告同日出炉：中矿资源预计2026年上半年净利润10.5亿元至12.5亿元，同比增长1078%至1302%；融捷股份预计净利润9亿元至11亿元，同比增长957%至1192%。 它们不是孤例。盐湖股份预计上半年净利润60亿元至63亿元、同比增长131.3
+- **[高通、英伟达、地平线，都在做同一件事](https://36kr.com/p/3895337118907657)** — _36kr.com_ · published 2026-07-15
+  高通、英伟达、地平线，都在做同一件事 2026年过半，汽车行业交出了一份令人不安的成绩单。第一季度，行业利润率降至3.2%，创下十年新低。而几乎在同一时期，蔚来宣布其自研神玑芯片出货量突破55万颗，单车智驾硬件成本降低约一万元；理想马赫M100在5月实现量产上车，成为全球首款量产的动态数据流AI芯片。一降一升之间，一个清晰的产业信号已经发出——当利润空间被压
+- **[长安汽车：受汇率波动及原材料上涨影响，上半年利润下降](https://auto.caijing.com.cn/2026/0714/5170977.shtml)** — _auto.caijing.com.cn_ · date: unknown
+  7月14日，长安汽车发布2026年半年度业绩预告。报告期内，归属于上市公司股东的净利润预计为7.4亿元–9.7亿元，比上年同期下降57.66%-67.70%。公告解释，净利润同比下降，主要原因为受汇率波动产生汇兑损失及原材料价格上涨等因素影响。 2026年，长安汽车全球化战略全面加速，在海外市场加大品牌、产品、渠道、产能等领域的资源投入。今年上半年，长安汽车
+- **[魏建军：长城汽车发布上半年的业绩预告 销量和营业收入同比增长海外成绩显著](https://auto.caijing.com.cn/2026/0714/5170974.shtml)** — _auto.caijing.com.cn_ · date: unknown
+  长城汽车今天发布了上半年的业绩预告，整体销量和营业收入都同比增长。海外成绩显著，国内高价值车型增长，持续提升了全球品牌影响力。 关于利润下降的真实原因，也给大家如实反馈一下。第一个是海外税收政策补贴收益收回延期；第二个是受汇率波动影响。 特别要说明的是，表面的数字虽然重要，但我们更在意企业的健康发展。 在渠道经营层面，我们卖得多、发得少。国内库销比优于行业平
+- **[以用户为本践行长期主义！上汽荣威MG上半年To C势能全面释放](https://auto.caijing.com.cn/2026/0714/5170758.shtml)** — _auto.caijing.com.cn_ · date: unknown
+  2026上半年，上汽集团以204.5万辆的成绩，成为上半年销量唯一突破200万辆大关的中国汽车企业，稳居行业领先阵营，而“懂车更懂你”正是其应对市场波动的核心理念。作为上汽集团自主品牌主力军，上汽乘用车荣威、MG将这一理念落地为全面To C的战略实践，完成自上而下、从总部到终端的全面改革。战略沉下去，势能涨上来，市场与用户的积极反馈加速转化为销量增长、新能源
 - **[德国大众汽车集团：裁员或达10万人](https://egs.stcn.com/news/detail/2315421.html)** — _egs.stcn.com_ · date: unknown
   （原标题：国际车企巨头：裁员或达10万人） 人民财讯7月14日电，据路透社等媒体13日报道，德国大众汽车集团首席执行官确认，为保持竞争力，公司可能还需要再裁员5万人。这意味着，大众汽车的裁员规模将达到10万人，受竞争压力、美关税政策等因素影响，目前大众汽车面临严峻的成本压力。
+- **[三家A股车企半年预亏总额超70亿元 警惕“新车死亡谷效应”吞噬产业利润](https://egs.stcn.com/news/detail/2315417.html)** — _egs.stcn.com_ · date: unknown
+  首批国内车企半年度业绩预告出炉，“利润大撤退”成为共性特征。亏损背后，“新车死亡谷效应”开始在业绩数据中得到具象化体现。 近日，江淮汽车、广汽集团、赛力斯相继发布2026年半年度业绩预亏公告，三家合计归母净利润预亏规模达63亿元至71亿元。在国内汽车市场总销量承压、原材料价格大幅上涨、行业竞争持续白热化夹击下，揭示出当前汽车行业所面临的考验。 业内认为，如何
 - **[比亚迪腾势Z预售24小时 国内与海外累计订单破千台](https://news.yiche.com/zonghexinwen/20260714/21111483961.html)** — _news.yiche.com_ · date: unknown
   推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 7月14日，腾势汽车官方宣布，腾势Z国内预售24小时，英国古德伍德速度节上市，国内与海外累计订单超1000台。新车共推出3款车型，其中Coupe硬顶版预售价68万元，Spider敞篷版预售价78万元
 - **[岚图梦想家9的升降立标，就是中国汽车工业向上的时代符号！](https://vc.yiche.com/vplay/12109148.html)** — _vc.yiche.com_ · date: unknown
@@ -130,6 +142,8 @@ _Updated 2026-07-15 00:12 | discovery-only, zero LLM tokens | runs every 3h_
   2026-07-14 22:31:14 每经记者｜段思瑶 每经编辑｜余婷婷 7月14日，长安汽车（SZ.000625）发布2026年半年度业绩预告。报告期内，其归属于上市公司股东的净利润预计为7.4亿至9.7亿元，比上年同期下降57.66%至67.7%。对于下降的主要原因，长安汽车称“受汇率波动产生汇兑损失及原材料价格上涨等因素影响”。 图片来源：长安汽车公
 - **[中汽协澄清：“新能源车平均车龄仅1.8年”是误读，网传报道推导得出的“电车快速迭代更换”结论失真，属于统计概念误用](https://www.nbd.com.cn/articles/2026-07-14/4471585.html)** — _www.nbd.com.cn_ · published 2026-07-14
   每经网首页 > 视频快讯 > 正文 2026-07-14 23:59:24 每经编辑｜张轶 含AI生成内容 如需转载请与《每日经济新闻》报社联系。未经《每日经济新闻》报社授权，严禁转载或镜像，违者必究。 读者热线：4008890008 特别提醒：如果我们使用了您的图片，请作者与本站联系索取稿酬。如您不希望作品出现在本站，可联系我们要求撤下您的作品。 上一篇文
+- **[一辆比亚迪唐电机总成脱落，比亚迪回应：非质量问题，涉事车辆发生严重底盘磕碰导致脱落](https://www.nbd.com.cn/articles/2026-07-15/4472683.html)** — _www.nbd.com.cn_ · published 2026-07-15
+  每日经济新闻 2026-07-15 00:34:26 每经编辑｜张锦河 近日，网传一辆比亚迪唐汽车在积水道路行驶时后电机总成脱落一事引发关注。 据中国证券报·中证金牛座7月14日，比亚迪方面对记者回应称，涉事车辆涉水行驶时发生严重的底盘磕碰，导致后电机总成脱落，并非产品质量问题。 网传视频显示，事发时沈阳部分道路出现积水。一辆黑色比亚迪唐在积水路段行驶过程中
 - **[2030年起禁售燃油车 为何海南先试？](https://www.news.cn/local/20260714/88856b6a38f248be8d031de5e505d11f/c.html)** — _www.news.cn_ · published 2026-07-14
   近日，海南发布《“十五五”海南国家生态文明试验区规划（美丽海南建设“十五五”规划）》，提出平稳推进2030年禁售燃油车，到2030年，海南全省公共服务和社会运营领域新增和更换车辆（特殊用途除外）清洁能源占比、私人用车领域新增和更换车辆新能源占比达到100%。这意味着，海南将成为我国第一个禁售燃油车的省份。预计海南新能源汽车保有量占比将从2025年的23.75
 - **[德国大众汽车集团：裁员或达10万人](https://www.stcn.com/article/detail/4018672.html)** — _www.stcn.com_ · date: unknown
