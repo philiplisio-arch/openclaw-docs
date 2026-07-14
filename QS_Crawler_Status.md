@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-14 21:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-15 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-14 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **3328 unique auto/NEV articles** across **46 outlets**
+## Cumulative: **3345 unique auto/NEV articles** across **46 outlets**
 
 ## New per day
 | date | new articles |
@@ -47,28 +47,29 @@ _Updated 2026-07-14 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-12 | 244 |
 | 2026-07-13 | 173 |
 | 2026-07-14 | 183 |
+| 2026-07-15 | 17 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 856 |
+| www.d1ev.com | 860 |
 | www.caam.org.cn | 185 |
 | 36kr.com | 171 |
-| www.stcn.com | 155 |
+| www.stcn.com | 156 |
 | www.cada.cn | 101 |
-| egs.stcn.com | 93 |
+| egs.stcn.com | 94 |
+| www.news.cn | 74 |
 | auto.gasgoo.com | 74 |
-| www.news.cn | 73 |
-| vc.yiche.com | 67 |
-| www.yicai.com | 56 |
+| vc.yiche.com | 70 |
+| www.yicai.com | 57 |
+| news.yiche.com | 33 |
 | m.21jingji.com | 33 |
-| news.yiche.com | 32 |
-| www.cnr.cn | 31 |
+| www.cnr.cn | 32 |
+| www.nbd.com.cn | 30 |
 | autodata.gasgoo.com | 29 |
 | auto.caijing.com.cn | 28 |
 | www.xinhuanet.com | 26 |
-| www.nbd.com.cn | 26 |
 | www.jwview.com | 25 |
 | www.zqrb.cn | 23 |
 | finance.eastmoney.com | 20 |
@@ -99,6 +100,42 @@ _Updated 2026-07-14 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 | economy.caijing.com.cn | 1 |
 
 ## Articles captured by day (newest first)
+
+### 2026-07-15 — 17 articles
+- **[德国大众汽车集团：裁员或达10万人](https://egs.stcn.com/news/detail/2315421.html)** — _egs.stcn.com_ · date: unknown
+  （原标题：国际车企巨头：裁员或达10万人） 人民财讯7月14日电，据路透社等媒体13日报道，德国大众汽车集团首席执行官确认，为保持竞争力，公司可能还需要再裁员5万人。这意味着，大众汽车的裁员规模将达到10万人，受竞争压力、美关税政策等因素影响，目前大众汽车面临严峻的成本压力。
+- **[比亚迪腾势Z预售24小时 国内与海外累计订单破千台](https://news.yiche.com/zonghexinwen/20260714/21111483961.html)** — _news.yiche.com_ · date: unknown
+  推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 7月14日，腾势汽车官方宣布，腾势Z国内预售24小时，英国古德伍德速度节上市，国内与海外累计订单超1000台。新车共推出3款车型，其中Coupe硬顶版预售价68万元，Spider敞篷版预售价78万元
+- **[岚图梦想家9的升降立标，就是中国汽车工业向上的时代符号！](https://vc.yiche.com/vplay/12109148.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 探店全新宝马iX3长轴距版，设计太超前，融入本土智能化是卖点 玺哥驾道 长安马自达新能源不塞车 梁家辉代言EZ-60马年版上市 汽车DNA 原汁原味的素雅分享给大家
+- **[ID.AURA T6亮相长春车展，大众也开始卷内饰和智能](https://vc.yiche.com/vplay/12119858.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 一汽-大众ID.AURA T6外观品鉴 TopSpeed最速档 理想+MICHELIN 理想L9 Livis 白日梦车TECH 理想i9竟然会出Home版，而不是L
+- **[需要MPV时，愿你还年轻，小鹏X9详细测评](https://vc.yiche.com/vplay/12119907.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 30.98-36.98万 智美大五座 阿维塔07L心动了吗 汽车商业评论 昊铂S600以满配实力开启盲订，陈数、欧文同款的优雅运动触手可及 新车挖呀挖 小鹏X9：800V
+- **[金龙汽车上半年归母净利润同比预增137.44%](https://www.cnr.cn/jingji/ycbd/20260714/t20260714_527710395.shtml)** — _www.cnr.cn_ · published 2026-07-14
+  7月14日，金龙汽车（600686.SH）发布公告称，预计2026年半年度归属于上市公司股东的净利润约2.76亿元，同比增长137.44%。业绩变动主要系海外市场稳步增长，出口业务收入及占比提高。（央广财经） 编辑:谢碧鹭 更多精彩资讯请在应用市场下载“央广网”客户端。欢迎提供新闻线索，24小时报料热线400-800-0088；消费者也可通过央广网“啄木鸟消
+- **[大众集团大动作：裁员10万，停产10款车型，捷达、Taycan在列](https://www.d1ev.com/newsflash/306872)** — _www.d1ev.com_ · date: unknown
+  7月14日，大众集团宣布了新一轮重组计划，计划裁员最多10万人并关闭四座德国工厂。到2030年，大众集团旗下车型数量可能减半，未来将淘汰10款车型，包括数款电动汽车。捷达轿车和Taos SUV将停产，捷达曾是大众销量最高的汽车之一，但消费者现在更偏好SUV等空间更大的车型。保时捷品牌将不再推出新款燃油版718Boxster、Cayman以及纯电版Taycan
+- **[新能源车平均车龄仅1.8年，技术迭代快引发换车焦虑](https://www.d1ev.com/newsflash/306870)** — _www.d1ev.com_ · date: unknown
+  7月14日，奕境汽车品牌总经理曾清林就“新能源车平均车龄仅1.8年”现象发表看法。他指出，这一现象源于新能源车渗透率的快速增长，从20%增至60%以上，导致市面上新能源车多为近两三年销售，从而拉低了平均车龄。曾清林认为，技术迭代速度快是新兴行业的特点，随着行业发展，技术迭代将逐渐放缓。他强调，购车时应考虑适当超前性，如预埋896线激光雷达等硬件，并通过高频O
+- **[享界G9获北京L3自动驾驶牌照，120km/h高速智能驾驶新突破](https://www.d1ev.com/newsflash/306868)** — _www.d1ev.com_ · date: unknown
+  今日，鸿蒙智行享界汽车宣布，享界G9成为首款获批北京市L3级 自动驾驶道路测试牌照的车型，标志着其在自动驾驶领域取得重要进展。享界G9在设计之初即瞄准L3级自动驾驶要求，特别针对120km/h车速进行设计开发，以覆盖更多中国高速场景，推动行业自动驾驶技术发展。 享界G9采用“激光雷达+视觉+毫米波雷达”多传感器融合方案，搭载896线激光雷达，通过模拟仿真、封
+- **[华为鸿蒙座舱加持，奕境X9三季度上市，未来三年推5款新车](https://www.d1ev.com/newsflash/306866)** — _www.d1ev.com_ · date: unknown
+  今日，华为乾崑智能汽车解决方案官方微博宣布，奕境X9全系将搭载鸿蒙座舱HarmonySpace6。新车还首次采用17.2英寸蝶羽双联屏，居中设计视角均衡，提供宽阔视觉体验，并支持双屏互联，主副驾驶互不干扰。此外，云晰柔光技术的应用有效削弱了屏幕反光眩光。 奕境X9预计将在今年第三季度上市交付，6月8日已在成都经开区完成试制下线。奕境品牌计划在未来三年内投放5
+- **[5万元以下车型销量暴跌55%，40万元以上新能源暴涨46%：中国车市残酷分化正在加速](https://www.nbd.com.cn/articles/2026-07-14/4472386.html)** — _www.nbd.com.cn_ · published 2026-07-14
+  2026-07-14 22:56:56 每经记者｜孙桐桐 每经编辑｜余婷婷 2026年上半年的中国车市，出现了令人瞠目的“极端”表现。 一边是5万元以下车型细分市场销量同比暴跌55%，市场份额从2.8%腰斩至1.4%；另一边是40万元以上新能源汽车市场销量同比大涨46%，自主品牌豪取该级别59%份额，在高端市场从“参与者”变成“规则制定者”。 这不是周期性波
+- **[上半年，5万元以下车型销量跌掉55%！40万元以上新能源车销量猛涨46%](https://www.nbd.com.cn/articles/2026-07-14/4472673.html)** — _www.nbd.com.cn_ · published 2026-07-14
+  每日经济新闻 2026-07-14 23:57:58 每经记者｜孙桐桐 每经编辑｜程鹏 余婷婷 记者|孙桐桐 编辑|程鹏 余婷婷 杜恒峰 校对|张锦河 2026年上半年的中国车市，出现了令人瞠目的“极端”表现。 一边是5万元以下车型细分市场销量同比暴跌55%，市场份额从2.8%腰斩至1.4%；另一边是40万元以上新能源汽车市场销量同比大涨46%，自主品牌豪取
+- **[长安汽车上半年净利润预降，下半年向海外市场要增量，“天枢领航”将量产上车](https://www.nbd.com.cn/articles/2026-07-14/4472452.html)** — _www.nbd.com.cn_ · published 2026-07-14
+  2026-07-14 22:31:14 每经记者｜段思瑶 每经编辑｜余婷婷 7月14日，长安汽车（SZ.000625）发布2026年半年度业绩预告。报告期内，其归属于上市公司股东的净利润预计为7.4亿至9.7亿元，比上年同期下降57.66%至67.7%。对于下降的主要原因，长安汽车称“受汇率波动产生汇兑损失及原材料价格上涨等因素影响”。 图片来源：长安汽车公
+- **[中汽协澄清：“新能源车平均车龄仅1.8年”是误读，网传报道推导得出的“电车快速迭代更换”结论失真，属于统计概念误用](https://www.nbd.com.cn/articles/2026-07-14/4471585.html)** — _www.nbd.com.cn_ · published 2026-07-14
+  每经网首页 > 视频快讯 > 正文 2026-07-14 23:59:24 每经编辑｜张轶 含AI生成内容 如需转载请与《每日经济新闻》报社联系。未经《每日经济新闻》报社授权，严禁转载或镜像，违者必究。 读者热线：4008890008 特别提醒：如果我们使用了您的图片，请作者与本站联系索取稿酬。如您不希望作品出现在本站，可联系我们要求撤下您的作品。 上一篇文
+- **[2030年起禁售燃油车 为何海南先试？](https://www.news.cn/local/20260714/88856b6a38f248be8d031de5e505d11f/c.html)** — _www.news.cn_ · published 2026-07-14
+  近日，海南发布《“十五五”海南国家生态文明试验区规划（美丽海南建设“十五五”规划）》，提出平稳推进2030年禁售燃油车，到2030年，海南全省公共服务和社会运营领域新增和更换车辆（特殊用途除外）清洁能源占比、私人用车领域新增和更换车辆新能源占比达到100%。这意味着，海南将成为我国第一个禁售燃油车的省份。预计海南新能源汽车保有量占比将从2025年的23.75
+- **[德国大众汽车集团：裁员或达10万人](https://www.stcn.com/article/detail/4018672.html)** — _www.stcn.com_ · date: unknown
+  人民财讯7月14日电，据路透社等媒体13日报道，德国大众汽车集团首席执行官确认，为保持竞争力，公司可能还需要再裁员5万人。这意味着，大众汽车的裁员规模将达到10万人，受竞争压力、美关税政策等因素影响，目前大众汽车面临严峻的成本压力。
+- **[奇瑞提出电动汽车2.0时代的五大标准，比亚迪第1700万整车下线](https://www.yicai.com/news/103274985.html)** — _www.yicai.com_ · date: unknown
+  {{aisd}} AI生成 免责声明 【一周新车型】 1，蔚来ES8大五座版正式上市 近日，蔚来ES8大五座版正式上市并开启交付。ES8五座行政豪华版售价382800元起，采用BaaS电池租用方式购买，售价274800元起。 一财点评：ES8三次迭代的发展轨迹，也是一条清晰的汽车底层技术演进脉络。目前各种能源形势的细分市场中，纯电是唯一还在正增长的细分市场。
 
 ### 2026-07-14 — 183 articles
 - **[充电模块全行业涨价，低价充电时代终结？](https://36kr.com/p/3893963246238215)** — _36kr.com_ · published 2026-07-14
