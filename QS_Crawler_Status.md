@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-15 03:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-15 06:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-15 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **3352 unique auto/NEV articles** across **46 outlets**
+## Cumulative: **3357 unique auto/NEV articles** across **46 outlets**
 
 ## New per day
 | date | new articles |
@@ -47,7 +47,7 @@ _Updated 2026-07-15 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-12 | 244 |
 | 2026-07-13 | 173 |
 | 2026-07-14 | 183 |
-| 2026-07-15 | 24 |
+| 2026-07-15 | 29 |
 
 ## By outlet
 | outlet | articles |
@@ -56,17 +56,17 @@ _Updated 2026-07-15 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 | www.d1ev.com | 860 |
 | www.caam.org.cn | 185 |
 | 36kr.com | 173 |
-| www.stcn.com | 156 |
+| www.stcn.com | 157 |
 | www.cada.cn | 101 |
 | egs.stcn.com | 95 |
 | www.news.cn | 74 |
 | auto.gasgoo.com | 74 |
-| vc.yiche.com | 70 |
+| vc.yiche.com | 73 |
 | www.yicai.com | 57 |
 | news.yiche.com | 33 |
 | m.21jingji.com | 33 |
+| www.nbd.com.cn | 32 |
 | www.cnr.cn | 32 |
-| www.nbd.com.cn | 31 |
 | auto.caijing.com.cn | 31 |
 | autodata.gasgoo.com | 29 |
 | www.xinhuanet.com | 26 |
@@ -101,7 +101,7 @@ _Updated 2026-07-15 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-15 — 24 articles
+### 2026-07-15 — 29 articles
 - **[两年前全网都在算锂矿的“破产时间表”，如今救活锂的不是电动车，而是储能](https://36kr.com/p/3895095317035653)** — _36kr.com_ · published 2026-07-15
   两年前全网都在算锂矿的“破产时间表”，如今救活锂的不是电动车，而是储能 2026年7月10日晚，两份锂企业绩预告同日出炉：中矿资源预计2026年上半年净利润10.5亿元至12.5亿元，同比增长1078%至1302%；融捷股份预计净利润9亿元至11亿元，同比增长957%至1192%。 它们不是孤例。盐湖股份预计上半年净利润60亿元至63亿元、同比增长131.3
 - **[高通、英伟达、地平线，都在做同一件事](https://36kr.com/p/3895337118907657)** — _36kr.com_ · published 2026-07-15
@@ -124,6 +124,12 @@ _Updated 2026-07-15 03:12 | discovery-only, zero LLM tokens | runs every 3h_
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 一汽-大众ID.AURA T6外观品鉴 TopSpeed最速档 理想+MICHELIN 理想L9 Livis 白日梦车TECH 理想i9竟然会出Home版，而不是L
 - **[需要MPV时，愿你还年轻，小鹏X9详细测评](https://vc.yiche.com/vplay/12119907.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 30.98-36.98万 智美大五座 阿维塔07L心动了吗 汽车商业评论 昊铂S600以满配实力开启盲订，陈数、欧文同款的优雅运动触手可及 新车挖呀挖 小鹏X9：800V
+- **[吉利星愿最大对手来了，新款比亚迪海鸥也变大了](https://vc.yiche.com/vplay/12064509.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 6.98-8.59万 沉浸式感受蔚来ES9的音响 小巷花店分享宝 激光雷达正在变成新能源时代的“大尾翼” 区胖曰车 2026款海鸥要上市啦 秋分花030106 谁说全尺寸S
+- **[吉利全新油车 智能不输纯电](https://vc.yiche.com/vplay/12075681.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 体验领克08：无框车门+全系8295芯片，是年轻人喜欢的SUV？ 小龙MAXTV 德国味道 ID. AURA T6 HeyCar 大美中国车吉利星瑞L PLUS全球
+- **[车长4.2米，颜值更高空间更大，比亚迪全新一代海鸥来了](https://vc.yiche.com/vplay/12077151.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 6.98-8.59万 2026款海鸥要上市啦 秋分花030106 增配不加价！比亚迪2026款海鸥正式上市，售价6.99万元起 车迷情报社 2026款海鸥适合谁、怎么选？探
 - **[金龙汽车上半年归母净利润同比预增137.44%](https://www.cnr.cn/jingji/ycbd/20260714/t20260714_527710395.shtml)** — _www.cnr.cn_ · published 2026-07-14
   7月14日，金龙汽车（600686.SH）发布公告称，预计2026年半年度归属于上市公司股东的净利润约2.76亿元，同比增长137.44%。业绩变动主要系海外市场稳步增长，出口业务收入及占比提高。（央广财经） 编辑:谢碧鹭 更多精彩资讯请在应用市场下载“央广网”客户端。欢迎提供新闻线索，24小时报料热线400-800-0088；消费者也可通过央广网“啄木鸟消
 - **[大众集团大动作：裁员10万，停产10款车型，捷达、Taycan在列](https://www.d1ev.com/newsflash/306872)** — _www.d1ev.com_ · date: unknown
@@ -144,10 +150,14 @@ _Updated 2026-07-15 03:12 | discovery-only, zero LLM tokens | runs every 3h_
   每经网首页 > 视频快讯 > 正文 2026-07-14 23:59:24 每经编辑｜张轶 含AI生成内容 如需转载请与《每日经济新闻》报社联系。未经《每日经济新闻》报社授权，严禁转载或镜像，违者必究。 读者热线：4008890008 特别提醒：如果我们使用了您的图片，请作者与本站联系索取稿酬。如您不希望作品出现在本站，可联系我们要求撤下您的作品。 上一篇文
 - **[一辆比亚迪唐电机总成脱落，比亚迪回应：非质量问题，涉事车辆发生严重底盘磕碰导致脱落](https://www.nbd.com.cn/articles/2026-07-15/4472683.html)** — _www.nbd.com.cn_ · published 2026-07-15
   每日经济新闻 2026-07-15 00:34:26 每经编辑｜张锦河 近日，网传一辆比亚迪唐汽车在积水道路行驶时后电机总成脱落一事引发关注。 据中国证券报·中证金牛座7月14日，比亚迪方面对记者回应称，涉事车辆涉水行驶时发生严重的底盘磕碰，导致后电机总成脱落，并非产品质量问题。 网传视频显示，事发时沈阳部分道路出现积水。一辆黑色比亚迪唐在积水路段行驶过程中
+- **[恢复对伊海上封锁！美发动新一轮打击；西班牙2](https://www.nbd.com.cn/articles/2026-07-14/4472636.html)** — _www.nbd.com.cn_ · published 2026-07-14
+  2026-07-15 05:48:44 每经编辑｜王瀚黎 张喜威 1 隔夜市场 周二美股三大指数集体收涨，道指涨0.02%，纳指涨0.9%，标普500指数涨0.38%，大型科技股多数上涨，存储概念股大涨，SK海力士涨超27%，收盘较韩国上市股票溢价51%，闪迪涨超5%，美光科技涨近5%，英伟达、英特尔涨超4%。半导体、加密货币概念股、计算机硬件、金属与采矿板
 - **[2030年起禁售燃油车 为何海南先试？](https://www.news.cn/local/20260714/88856b6a38f248be8d031de5e505d11f/c.html)** — _www.news.cn_ · published 2026-07-14
   近日，海南发布《“十五五”海南国家生态文明试验区规划（美丽海南建设“十五五”规划）》，提出平稳推进2030年禁售燃油车，到2030年，海南全省公共服务和社会运营领域新增和更换车辆（特殊用途除外）清洁能源占比、私人用车领域新增和更换车辆新能源占比达到100%。这意味着，海南将成为我国第一个禁售燃油车的省份。预计海南新能源汽车保有量占比将从2025年的23.75
 - **[德国大众汽车集团：裁员或达10万人](https://www.stcn.com/article/detail/4018672.html)** — _www.stcn.com_ · date: unknown
   人民财讯7月14日电，据路透社等媒体13日报道，德国大众汽车集团首席执行官确认，为保持竞争力，公司可能还需要再裁员5万人。这意味着，大众汽车的裁员规模将达到10万人，受竞争压力、美关税政策等因素影响，目前大众汽车面临严峻的成本压力。
+- **[三家A股车企半年预亏总额超70亿元 警惕“新车死亡谷效应”吞噬产业利润](https://www.stcn.com/article/detail/4018808.html)** — _www.stcn.com_ · date: unknown
+  首批国内车企半年度业绩预告出炉，“利润大撤退”成为共性特征。亏损背后，“新车死亡谷效应”开始在业绩数据中得到具象化体现。 近日，江淮汽车、广汽集团、赛力斯相继发布2026年半年度业绩预亏公告，三家合计归母净利润预亏规模达63亿元至71亿元。在国内汽车市场总销量承压、原材料价格大幅上涨、行业竞争持续白热化夹击下，揭示出当前汽车行业所面临的考验。 业内认为，如何
 - **[奇瑞提出电动汽车2.0时代的五大标准，比亚迪第1700万整车下线](https://www.yicai.com/news/103274985.html)** — _www.yicai.com_ · date: unknown
   {{aisd}} AI生成 免责声明 【一周新车型】 1，蔚来ES8大五座版正式上市 近日，蔚来ES8大五座版正式上市并开启交付。ES8五座行政豪华版售价382800元起，采用BaaS电池租用方式购买，售价274800元起。 一财点评：ES8三次迭代的发展轨迹，也是一条清晰的汽车底层技术演进脉络。目前各种能源形势的细分市场中，纯电是唯一还在正增长的细分市场。
 
