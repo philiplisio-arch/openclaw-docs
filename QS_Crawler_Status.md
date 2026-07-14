@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-14 18:14 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-14 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-14 18:14 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **3309 unique auto/NEV articles** across **46 outlets**
+## Cumulative: **3328 unique auto/NEV articles** across **46 outlets**
 
 ## New per day
 | date | new articles |
@@ -46,29 +46,29 @@ _Updated 2026-07-14 18:14 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-11 | 47 |
 | 2026-07-12 | 244 |
 | 2026-07-13 | 173 |
-| 2026-07-14 | 164 |
+| 2026-07-14 | 183 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 855 |
+| www.d1ev.com | 856 |
 | www.caam.org.cn | 185 |
 | 36kr.com | 171 |
-| www.stcn.com | 153 |
+| www.stcn.com | 155 |
 | www.cada.cn | 101 |
-| egs.stcn.com | 92 |
+| egs.stcn.com | 93 |
 | auto.gasgoo.com | 74 |
 | www.news.cn | 73 |
-| vc.yiche.com | 59 |
-| www.yicai.com | 54 |
+| vc.yiche.com | 67 |
+| www.yicai.com | 56 |
+| m.21jingji.com | 33 |
+| news.yiche.com | 32 |
 | www.cnr.cn | 31 |
-| news.yiche.com | 31 |
-| m.21jingji.com | 31 |
 | autodata.gasgoo.com | 29 |
 | auto.caijing.com.cn | 28 |
 | www.xinhuanet.com | 26 |
-| www.nbd.com.cn | 25 |
+| www.nbd.com.cn | 26 |
 | www.jwview.com | 25 |
 | www.zqrb.cn | 23 |
 | finance.eastmoney.com | 20 |
@@ -82,11 +82,11 @@ _Updated 2026-07-14 18:14 | discovery-only, zero LLM tokens | runs every 3h_
 | www.ceweekly.cn | 6 |
 | www.gelonghui.com | 4 |
 | www.ce.cn | 4 |
+| guancha.gmw.cn | 3 |
 | finance.people.com.cn | 3 |
 | cnews.chinadaily.com.cn | 3 |
 | bgimg.ce.cn | 3 |
 | i.gasgoo.com | 2 |
-| guancha.gmw.cn | 2 |
 | finance.ce.cn | 2 |
 | china.chinadaily.com.cn | 2 |
 | views.ce.cn | 1 |
@@ -100,7 +100,7 @@ _Updated 2026-07-14 18:14 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-14 — 164 articles
+### 2026-07-14 — 183 articles
 - **[充电模块全行业涨价，低价充电时代终结？](https://36kr.com/p/3893963246238215)** — _36kr.com_ · published 2026-07-14
   充电模块全行业涨价，低价充电时代终结？ 7月以来，优优绿能（301590.SZ）、上海安世博、通合电子科技和广东易能时代等头部充电模块企业均发布涨价函。 各家企业的涨价函措辞几乎一致：因2026年上半年以来，PCB（印制电路板）、碳化硅芯片、电阻电容、继电器及铜银金属等成本上升，上涨幅度远超预期，为保证持续稳定的供应保障，拟对全系产品涨价15%。 7月8日，
 - **[比亚迪产品线调整：L退场、PLUS迭代、MAX上位，王朝网“大换血”](https://36kr.com/p/3894094654388869)** — _36kr.com_ · published 2026-07-14
@@ -172,6 +172,8 @@ _Updated 2026-07-14 18:14 | discovery-only, zero LLM tokens | runs every 3h_
   e公司 王小伟 07-14 07:59 人民财讯7月14日电，中信证券研报称，复盘2026年上半年，国内乘用车市场受购置税退坡、需求前置及价格观望影响整体承压，出口成为核心增量，奇瑞、比亚迪、吉利等大型自主车企海外销量同比均70%以上增长。展望2026年下半年及2027年，中信证券认为行业主线将转向出口兑现与盈利修复，头部车企有望通过多动力类型并进、海外建厂
 - **[比亚迪在泰国市场累计交付超13万辆](https://egs.stcn.com/news/detail/2314736.html)** — _egs.stcn.com_ · date: unknown
   人民财讯7月14日电，据比亚迪消息，7月12日，比亚迪汽车（泰国）有限公司宣布，比亚迪新能源汽车在泰国市场累计交付量正式突破13万辆。同时，泰国工厂迎来投产两周年，BYD SEALION 5 DM-i在泰国正式发布。
+- **[莱宝高科：2026年车载触摸屏业务板块整体销售收入能否实现同比增长存在一定不确定性](https://egs.stcn.com/news/detail/2315378.html)** — _egs.stcn.com_ · date: unknown
+  证券时报·e公司 07-14 21:05 人民财讯7月14日电，莱宝高科近日接受机构调研与现场参观时表示，车载盖板玻璃和车载触摸屏2026年一方面仍然面临产品价格持续下降的压力，国内汽车市场内卷式降价对相关供应链的传导作用对公司车载触摸屏产品板块营收和盈利能力的不利影响日益显现；一方面还面临已占据主流市场地位的In Cell结构触控显示一体化带来日益增加的替
 - **[禁售非限行 海南将成我国首个全域禁售燃油车省份](https://finance.eastmoney.com/a/202607133804228776.html)** — _finance.eastmoney.com_ · date: unknown
   海南省人民政府近日发布《“十五五”海南国家生态文明试验区规划（美丽海南建设“十五五”规划）》（以下简称《规划》），明确提出平稳推进2030年禁售燃油车。这意味着，海南将成为中国首个全域不再销售燃油车的省份。 根据《规划》，到2030年，海南全省公共服务、社会运营及私人用车领域新增和更换车辆中，新能源占比将达到100%。届时，新能源汽车保有量占比预计从2025
 - **[大众汽车掌门内部“摊牌”：还需要再裁员5万人](https://finance.eastmoney.com/a/202607133804214374.html)** — _finance.eastmoney.com_ · date: unknown
@@ -182,6 +184,8 @@ _Updated 2026-07-14 18:14 | discovery-only, zero LLM tokens | runs every 3h_
   扩消费规划落地，未来5年衣食住行、养老托育迎来这些变化 点击播报本文，约 日前，国务院批复同意《扩大消费“十五五”规划》。规划围绕服务消费、商品消费、消费新业态、居民增收等重点领域部署任务，覆盖住房、汽车、收入、假期等民生重点领域。未来5年，老百姓衣食住行、养娃养老将迎来这些新变化，一起来看。 住房 更好满足住房消费需求，优化保障性住房供给，因城施策增加改善
 - **[中国首个禁售燃油车省份确认，为什么是海南？](https://guancha.gmw.cn/2026-07/14/content_38885225.htm)** — _guancha.gmw.cn_ · published 2026-07-14
   点击右上角微信好友 朋友圈 请使用浏览器分享功能进行分享 作者：柯锐 据媒体报道，近日，海南省人民政府对外发布《“十五五”海南国家生态文明试验区规划（美丽海南建设“十五五”规划）》提出，平稳推进2030年禁售燃油车，预计届时海南新能源汽车保有量占比从2025年的23.75%提升至45%。这意味着海南将成为中国第一个不再卖燃油车的省份。 海南成为我国首个确认禁
+- **[光明网评论员：禁售油车，是海南探索绿色发展的先行先试之举](https://guancha.gmw.cn/2026-07/14/content_38885482.htm)** — _guancha.gmw.cn_ · published 2026-07-14
+  点击右上角微信好友 朋友圈 请使用浏览器分享功能进行分享 【阅读提示】海南：平稳推进2030年禁售燃油车 光明网评论员：据媒体报道，近日，海南发布《“十五五”海南国家生态文明试验区规划（美丽海南建设“十五五”规划）》（以下简称《规划》）。《规划》中关于平稳推进2030年禁售燃油车的提法，引发全网热议。 首先需要明确，禁售燃油车不等于禁行燃油车，未达报废标准的
 - **[大众汽车掌门内部“摊牌”：还需要再裁员5万人](https://industry.caijing.com.cn/20260714/5170808.shtml)** — _industry.caijing.com.cn_ · date: unknown
   最新消息显示，德国大众汽车集团的首席执行官奥利弗·布鲁默 (Oliver Blume)周一在公司内网发布的材料中表示，他认为欧洲最大汽车制造商还需要再裁员5万人。 作为背景，大众集团今年早些时候曾宣布，到2030年前将裁员5万人。布鲁默的最新表态，意味着这个数字有可能还会翻一倍。截至一季度末，大众集团在全球约有65.7万名员工。 在周一的材料中，布鲁默表示，
 - **[2026年上半年全国机动车达4.76亿辆 驾驶人达5.67亿人 新注册登记新能源汽车519.5万辆](https://legal.gmw.cn/2026-07/14/content_38885239.htm)** — _legal.gmw.cn_ · published 2026-07-14
@@ -206,6 +210,10 @@ _Updated 2026-07-14 18:14 | discovery-only, zero LLM tokens | runs every 3h_
   来源 | 说财猫 车子越卖越好的小鹏，担心的事发生了！ 据重庆官媒，重庆城市TV报道，多位小鹏X9车主，车辆行驶过程中出现趴窝。 这可是小鹏的旗舰车型啊。 猫崽在车友群看到，最近似乎集中出现了同款故障反馈。 多位小鹏X9的车主反映车辆停在地下车库，下午正常上路行驶过程中，空气悬挂突然出现漏气、车身单侧或整体塌陷，无法继续行驶。 小鹏X9车主只能原地等待救援。
 - **[重庆汽车大佬，急跌1000亿](https://m.21jingji.com/article/20260714/herald/058207bd3ad17e5a628197d6d3958664.html)** — _m.21jingji.com_ · date: unknown
   两头挤压，变招重整。 记者丨杨松 鄢子为 编辑丨鄢子为 车圈大佬张兴海，吃了一个跌停。 7月13日，其掌舵的赛力斯，A股股价大跌10%，市值未能守住1000亿元关口，较年初蒸发超1000亿元。 一天前，这家重庆车企发出公告，预计上半年净亏损15亿元-18亿元。 张兴海为首的董事会，给出两个理由：原材料涨价、计提资产减值。 “收入端，整车厂缺乏对终端消费者的议
+- **[新能源车平均车龄仅1.8年？澄清来了！](https://m.21jingji.com/article/20260714/herald/877eb049f3090619ff1a373b0bfa8e95.html)** — _m.21jingji.com_ · date: unknown
+  新能源车平均车龄仅1.8年？澄清来了！ 7月14日，中国汽车工业协会后市场分会发布关于“新能源车平均车龄”相关数据和报道的澄清声明。原文如下： 近期，有媒体引用我分会发布的《2025中国汽车后市场年度发展报告》中部分数据，发布“新能源车平均车龄仅1.8年、消费者3-5年置换电车”等报道，相关内容引发市场误读，现就有关情况澄清说明如下： 一、核心概念区分：“在
+- **[中汽协回应新能源车平均车龄仅1.8年](https://m.21jingji.com/article/20260714/herald/03d70d4130363d080132a659f7520065.html)** — _m.21jingji.com_ · date: unknown
+  7月14日，中国汽车工业协会后市场分会发布关于“新能源车平均车龄”相关数据和报道的澄清声明，表示整体存量新能源乘用车平均车龄约1.8年，不代表车主仅1.8年就更换车辆，也不代表车辆使用寿命为平均1.8年。 （作者：21视频 编辑：许婷婷 视频编辑：许婷婷） 评论 7月14日，中国汽车工业协会后市场分会发布关于“新能源车平均车龄”相关数据和报道的澄清声明，表示
 - **[中国汽车，何以领跑全球](https://m.gmw.cn/2026-07/14/content_38884966.htm)** — _m.gmw.cn_ · published 2026-07-14
   来源：光明网-《光明日报》 2026-07-14 09:22 【鸣镝】 作者：阮紫嫣 在印度尼西亚雅加达，顾客选购中国品牌电动汽车。新华社发 中国汽车，迎来一个又一个“高光时刻”。 日前，欧洲汽车制造商协会公布的数据显示，2026年5月，中国乘用车在欧洲31个主要国家的月度新车注册量首次超越日本车企。中国乘联分会秘书长崔东树对此评价道：“这是新能源赛道结构性
 - **[小鹏MONA L03将于7月16日正式上市 搭图灵AI智驾第二代VLA](https://news.yiche.com/xinchexiaoxi/20260713/21111458683.html)** — _news.yiche.com_ · date: unknown
@@ -221,6 +229,7 @@ _Updated 2026-07-14 18:14 | discovery-only, zero LLM tokens | runs every 3h_
 - **[享界G9获北京市L3级自动驾驶测试牌照](https://news.yiche.com/zonghexinwen/20260714/17111483256.html)** — _news.yiche.com_ · date: unknown
 - **[中汽协澄清：“新能源车平均车龄仅1.8年”是误读  07-14 05:35](https://news.yiche.com/zonghexinwen/20260714/17111483243.html)** — _news.yiche.com_ · date: unknown
 - **[公安部:全国机动车保有量4.76亿辆 新能源汽车保有量4897万辆  07-14 03:06](https://news.yiche.com/zonghexinwen/20260714/15111479428.html)** — _news.yiche.com_ · date: unknown
+- **[长城汽车2026年上半年业绩预告 销量与营收同比双增长  07-14 08:15](https://news.yiche.com/zonghexinwen/20260714/20111483662.html)** — _news.yiche.com_ · date: unknown
 - **[电摩能用汽车快充？台铃飞火流星X7试驾报告](https://vc.yiche.com/vplay/12104493.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 13万买C级空间，15万买激光雷达——风云T9L五款配置怎么选？给你拆明白 汽车鹏友 原汁原味的素雅分享给大家 海芒果书房子 昂科威PLUS 小樊同学的车 新晋越野选手威麟
 - **[不充电也很省很顺，吉利星越L i](https://vc.yiche.com/vplay/12104374.html)** — _vc.yiche.com_ · date: unknown
@@ -269,6 +278,22 @@ _Updated 2026-07-14 18:14 | discovery-only, zero LLM tokens | runs every 3h_
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 后驱+五连杆+标配CCD，小鹏MONA L03值得选吗？ 智选车 产品力有惊喜，小鹏MONA L03预售为何敢定价？ 东方JM 爆款预定？小鹏MONA L03动态实
 - **[燃油车市场天变了！沃尔沃XC90仅需39.99万起，终端直降24万](https://vc.yiche.com/vplay/12111899.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 63.89-78.19万 日产硬派SUV发布，全新日产Terrano概念车抢先实拍 汽车人bingo 车展实拍沃尔沃XC90：置换补贴后42.99万起 AL频道 终端优惠6
+- **[车载制氧！带激光雷达的新硬派泰钽700](https://vc.yiche.com/vplay/12114111.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 车里有制氧机还能打卫星电话，这还是你认识的北京越野吗？ 车市谈 机甲猛兽空降！猛士M817Ultimate北京车展实拍！ 车艺志 全新雷克萨斯LFA纯电概念跑车实拍
+- **[纯电运动轿车，后排有个老板座？](https://vc.yiche.com/vplay/12118703.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 停售 带着乐道L60打卡老家泰州大桥换电站 Yuxinguiyang 告别“死板”的电池：开源电池4.0 AI Battery，每一度电都替你精打细算 卡车之友网 宇宙第一
+- **[比亚迪豪华家轿汉DM](https://vc.yiche.com/vplay/12118430.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 与众08华南国际车展实拍：史上最智能的大众车为探享生活家而来 先锋汽车xfc 传祺向往E8 PHEV：底盘反馈颇像欧洲车？SDC电磁悬架功劳颇大！ 驾享来电 新乐道L60整
+- **[入门即是满配，比亚迪黑马销冠大唐EV为什么卖的这么好？](https://vc.yiche.com/vplay/12118339.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 23.99-30.99万 带着乐道L60打卡老家泰州大桥换电站 Yuxinguiyang 北京车展，比亚迪又包馆了，各类硬核技术悉数亮相 车技集合 被“神化”还是真的强？无
+- **[吉利银河全新纯电轿跑 银河TT来了！](https://vc.yiche.com/vplay/12117863.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 试驾｜捷达VS8黑武士版 家用SUV也能自带改装质感 80君的汽车视野 全新雷克萨斯LFA纯电概念跑车实拍，这颜值给个不心动的理由 汽车人bingo 来华为乾崑展台
+- **[30万级智驾下放15万？探店小鹏MONA L03，年轻人的第一台SUV有答案了！](https://vc.yiche.com/vplay/12117737.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 维修3839，19款吉利星越丨二手车整备 小鲍二手车 后驱+五连杆+标配CCD，小鹏MONA L03值得选吗？ 智选车 宋 Ultra DM-i 就多个字母 i？
+- **[吉利AMG？我真信了！](https://vc.yiche.com/vplay/12117009.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 对标比亚迪汉？吉利宽体旗舰家轿星瑞L PLUS全球首秀 汽车大事记 还未上市就斩获大奖星瑞L PLUS强在哪里？ 车快评 喜欢油车的踏实，又想要电车的智能？吉利 F
+- **[吉利FS21静态品鉴！骨子里的中国风旗舰家轿](https://vc.yiche.com/vplay/12118115.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 维修3839，19款吉利星越丨二手车整备 小鲍二手车 来上海看时尚产业盛典，刚好赶上星瑞L PLUS全球首秀 酷李cooli 起亚Telluride亮相，大七座设计
 - **[关于“新能源车平均车龄”相关数据和报道的澄清声明](https://www.caam.org.cn/chn/5/cate_69/con_5237238.html)** — _www.caam.org.cn_ · published 2026-07-14
   发布时间：2026-07-14 近期，有媒体引用我分会发布的《2025中国汽车后市场年度发展报告》中部分数据，发布“新能源车平均车龄仅1.8年、消费者3-5年置换电车”等报道，相关内容引发市场误读，现就有关情况澄清说明如下： 一、核心概念区分：“在用车平均车龄”≠“车辆置换周期”≠“车辆平均使用寿命”。本报告中发布的“在用车平均车龄”，具体指截至2025年底
 - **[车市扫描(2026年7月1日](https://www.cada.cn/Trends/info_91_10534.html)** — _www.cada.cn_ · date: unknown
@@ -363,6 +388,8 @@ _Updated 2026-07-14 18:14 | discovery-only, zero LLM tokens | runs every 3h_
   7月14日，中国车市数据显示，6月市场出现明显分化，燃油车销量同比暴跌39%，市场份额降至37.2%，而新能源车零售渗透率保持在62.8%的历史高位。燃油车销量减量占乘用车总减量的78%，显示出新能源车市场的强势主导地位。与此同时，纯燃油车同比暴跌42%，常规 混合动力车型也出现7%的同比下滑，合资品牌成为承压方，燃油车同比下降39%，而新能源车型销量同比增
 - **[澄清来了！新能源车平均车龄1.8年，非寿命短也非换车快](https://www.d1ev.com/newsflash/306835)** — _www.d1ev.com_ · date: unknown
   今日，中国汽车工业协会后市场分会针对近期关于新能源车平均车龄的误读发布澄清声明。声明指出，“在用车平均车龄”、“车辆置换周期”和“车辆平均使用寿命”是三个不同的概念，不可混淆。所谓“在用车平均车龄”是指截至2025年底我国存量新能源车辆的平均新车售出时间，并非指车辆的平均寿命或车主更换车辆的周期。报告中提到的新能源乘用车平均车龄约1.8年，仅反映了行业转型发
+- **[沈阳比亚迪唐涉水后电机脱落，官方回应非质量问题](https://www.d1ev.com/newsflash/306857)** — _www.d1ev.com_ · date: unknown
+  近日，沈阳部分道路积水导致一辆黑色比亚迪唐后电机总成脱落。视频中显示，车辆在积水中行驶时，后电机总成从底部脱落，由高压线束与车身相连，被拖行。比亚迪方面回应称，事故原因是车辆涉水时底盘严重磕碰，外力冲击导致后电机总成脱落。此次事件并非后电机总成自行脱落，也不属于产品质量问题。 比亚迪股份有限公司执行副总裁何志奇曾公开解读新能源汽车涉水能力问题。他表示，纯电动
 - **[早报 (07.14）](https://www.gelonghui.com/p/5555962)** — _www.gelonghui.com_ · date: unknown
   美伊局势升级。当地时间7月13日，特朗普称“要接管霍尔木兹海峡”、将恢复封锁伊朗、对货物运输收取20%费用。这意味着经霍尔木兹海峡的每艘超级油轮需缴费3000万美元，相比之下，伊朗此前收取费用最高为200万美元。特朗普已正式通知国会，伊朗战事重新爆发。他放话称，美国今晚和明天将“重击”伊朗。 另外，特朗普还要求中东国家支付“保护费”，点名沙特、阿联酋、卡塔尔
 - **[【经纬晚班车】商业航天概念股密集提示风险；字节跳动否认进军自动驾驶](https://www.jwview.com/jingwei/html/07-13/679124.shtml)** — _www.jwview.com_ · date: unknown
@@ -395,6 +422,8 @@ _Updated 2026-07-14 18:14 | discovery-only, zero LLM tokens | runs every 3h_
   2026-07-14 17:57:05 每经记者｜李星 每经编辑｜余婷婷 7月14日，中国汽车工业协会后市场分会（以下简称中汽协后市场分会）发布《关于“新能源车平均车龄”相关数据和报道的澄清声明》称，近期，有媒体引用《2025中国汽车后市场年度发展报告》（以下简称《报告》）中部分数据，发布“新能源车平均车龄仅1.8年、消费者3~5年置换电车”等报道，相关内容
 - **[字节否认布局智能驾驶，但智驾岗位仍在招聘，物理AI成大厂新战场](https://www.nbd.com.cn/articles/2026-07-14/4471354.html)** — _www.nbd.com.cn_ · published 2026-07-14
   2026-07-14 17:11:07 每经记者｜刘曦 每经编辑｜余婷婷 7月13日，有消息称字节跳动正探索进入自动驾驶领域，业务方向涉及自动驾驶场景“无人物流”。对此，字节跳动回应称：“字节在AI（人工智能）大模型前沿探索领域，包括物理AI领域，有很多早期研究和探索，但并没有做智能驾驶业务的计划。” 不过，官方层面的否认并未影响相关岗位的持续招聘。7月14
+- **[长安汽车：预计上半年归母净利润同比下降57.66%~67.70%](https://www.nbd.com.cn/articles/2026-07-14/4472481.html)** — _www.nbd.com.cn_ · published 2026-07-14
+  每日经济新闻 2026-07-14 20:55:43 每经AI快讯，长安汽车7月14日公告，预计2026年上半年归母净利润为7.4亿元~9.7亿元，同比下降57.66%~67.70%，上年同期盈利22.91亿元。报告期内，公司归属于上市公司股东的净利润同比下降，主要原因为受汇率波动产生汇兑损失及原材料价格上涨等因素影响。 如需转载请与《每日经济新闻》报社联系
 - **[从“大市场”到“实验场”](https://www.news.cn/fortune/20260714/5177efd5587245d891182b75ebd7b089/c.html)** — _www.news.cn_ · published 2026-07-14
   7月13日，新中国第一辆汽车下线70周年纪念活动在位于长春的中国一汽红旗会堂举行。新华社记者 张楠 摄 13日，新中国第一辆汽车下线迎来70周年，中国汽车工业协会与中国第一汽车集团有限公司在长春举办系列活动，纪念这一历史性时刻。 70年间，中国汽车工业从“一穷二白”中拓荒，在改革开放大潮中合作共赢奋力搏击，继而大力发展新能源汽车实现换道超车，从全球汽车产销的
 - **[海南：平稳推进2030年禁售燃油车](https://www.news.cn/fortune/20260714/a9e380d4958c4a0791d24a2b5a04138c/c.html)** — _www.news.cn_ · published 2026-07-14
@@ -409,8 +438,16 @@ _Updated 2026-07-14 18:14 | discovery-only, zero LLM tokens | runs every 3h_
   7月13日，新中国第一辆汽车下线70周年纪念活动在红旗会堂隆重举行。吉林省委书记、省人大常委会主任黄强，省委副书记、省长胡玉亭，省政协党组书记、主席朱国贤，省委常委、长春市委书记张恩惠，省委常委、省委秘书长王子联，省委常委、省委宣传部部长曹路宝等省市领导；工业和信息化部装备工业一司副司长、一级巡视员郭守刚，国务院国资委宣传工作局局长陈国栋、二级巡视员熊卫松等
 - **[中国汽车深入欧洲日常](https://www.stcn.com/article/detail/4017248.html)** — _www.stcn.com_ · date: unknown
   欧洲汽车制造商协会近期发布的数据显示，2026年5月，中国车企在欧洲的月度新车注册量首次超越日本车企。 近年来，中国汽车、特别是电动车正加速深入欧洲消费者的日常生活。有关国际管理咨询公司的调查显示，55%的欧洲受访者已明确表达换购中国品牌汽车的意愿。越来越多的欧洲人在购车时考虑中国车。 这些车进入了怎样的家庭、替代了哪些旧车？中国车企如何重塑欧洲市场的认知？
+- **[莱宝高科：2026年车载触摸屏业务板块整体销售收入能否实现同比增长存在一定不确定性](https://www.stcn.com/article/detail/4018507.html)** — _www.stcn.com_ · published 2026-07-03
+  证券时报网 数据宝 2026-07-03 17:33 人民财讯7月14日电，莱宝高科近日接受机构调研与现场参观时表示，车载盖板玻璃和车载触摸屏2026年一方面仍然面临产品价格持续下降的压力，国内汽车市场内卷式降价对相关供应链的传导作用对公司车载触摸屏产品板块营收和盈利能力的不利影响日益显现；一方面还面临已占据主流市场地位的In Cell结构触控显示一体化带来
+- **[深天马A半年报预告：车载专显持续领跑，AMOLED短期承压](https://www.stcn.com/article/detail/4018403.html)** — _www.stcn.com_ · date: unknown
+  7月14日晚间，深天马A(000050)发布业绩预告，预计2026年上半年归属于上市公司股东的净利润亏损7.2亿元-7.5亿元。报告期内，公司车载和专业显示业务合计营收占比超55%，营收规模和盈利水平同比实现稳健增长，有效发挥了业务压舱石的作用，其中，第二季度经营业绩环比进一步提升，业务基本面发展势能走强。尤其在车载显示业务，公司保持了在车规显示、车载仪表、
 - **[中国汽车出海新打法：新车先在国外上市，售价是国内三倍](https://www.yicai.com/news/103273594.html)** — _www.yicai.com_ · date: unknown
   {{aisd}} AI生成 免责声明 7月13日，比亚迪旗下腾势Z在国内开启预售；而就在4天前，这款中国新能源车已在欧洲正式上市。与此前的产品策略不一样，腾势Z是比亚迪首次采用“先海外、后国内上市”的方式进行售卖的车型。而这也是当前不少中国车企走向海外市场规划的新产品打法。 不仅如此，腾势Z的海外售价区间高达14.29万英镑~17.29万英镑（约合人民币13
+- **[锂矿狂欢，车企买单](https://www.yicai.com/news/103274803.html)** — _www.yicai.com_ · date: unknown
+  {{aisd}} AI生成 免责声明 7月14日晚间，天齐锂业发布2026年半年度业绩预告，预计上半年归母净利润为28.5亿元至42.5亿元，同比增长3276.35%至4934.91%。这一超过30倍的增幅，只是上半年锂矿板块业绩全面爆发的缩影。 除天齐锂业外，在第一财经记者统计的已披露中期业绩预告的十余家锂矿概念股中，无一例外全部预喜，净利润增幅从翻倍左右
+- **[出货量一年增长逾四倍，中国人形机器人密集登陆欧洲](https://www.yicai.com/news/103274599.html)** — _www.yicai.com_ · date: unknown
+  {{aisd}} AI生成 免责声明 一场人形机器人的产品发布会近日在伦敦落地。舞台上，来自上海的具身智能企业智元机器人（AgiBot）面向欧洲市场发布了合作伙伴平台，并展示了其人形机器人产品线。 这是中国人形机器人密集登陆欧洲的一个切面。中国海关统计显示，今年前5个月中国机器人出口总值达199.9亿元，产品远销150多个国家和地区，欧盟和东盟为主要出口目的
 - **[英利汽车：2026年半年度业绩预告](https://www.zqrb.cn/gscy/ggkx/2026-07-14/A1784016527772.html)** — _www.zqrb.cn_ · published 2026-07-14
   证券日报APP 安卓 IOS 证券日报微信 证券日报微博 证券日报网讯 7月14日，英利汽车发布2026年半年度业绩预告称，公司2026年半年度预计实现归属于母公司所有者的净利润为-10，500万元到-7，000万元。 （编辑 任世碧） 新一轮以旧换新落地 激发消费新动能 首先，一些地方在出台与消费品以旧换新相关的……[详情] 版权所有《证券日报》社有限责任
 
