@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-16 00:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-16 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-16 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **3523 unique auto/NEV articles** across **46 outlets**
+## Cumulative: **3525 unique auto/NEV articles** across **46 outlets**
 
 ## New per day
 | date | new articles |
@@ -48,7 +48,7 @@ _Updated 2026-07-16 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-13 | 173 |
 | 2026-07-14 | 183 |
 | 2026-07-15 | 186 |
-| 2026-07-16 | 9 |
+| 2026-07-16 | 11 |
 
 ## By outlet
 | outlet | articles |
@@ -65,13 +65,13 @@ _Updated 2026-07-16 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 | www.news.cn | 74 |
 | www.yicai.com | 59 |
 | www.cnr.cn | 41 |
+| news.yiche.com | 40 |
 | m.21jingji.com | 40 |
 | autodata.gasgoo.com | 40 |
-| news.yiche.com | 39 |
 | www.nbd.com.cn | 36 |
 | auto.caijing.com.cn | 35 |
+| www.zqrb.cn | 26 |
 | www.xinhuanet.com | 26 |
-| www.zqrb.cn | 25 |
 | www.jwview.com | 25 |
 | finance.eastmoney.com | 21 |
 | cn.chinadaily.com.cn | 18 |
@@ -102,11 +102,12 @@ _Updated 2026-07-16 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-16 — 9 articles
+### 2026-07-16 — 11 articles
 - **[为何丰田、大众、现代自研智驾先后折戟](https://36kr.com/p/3896836041999752)** — _36kr.com_ · published 2026-07-16
   为何丰田、大众、现代自研智驾先后折戟 就在6月底，德国媒体披露，大众计划终止与博世持续三年多的自动驾驶联盟（ADA）。 这曾是大众软件战略最重要的一块拼图。2022年，大众软件子公司CARIAD与博世宣布联合开发一套从L2城市脱手驾驶到L3高速公路自动驾驶的模块化系统，首款产品计划2023年量产装车。 大众当初对这套系统充满野望，不仅要用大众全系乘用车上，还
 - **[上海农商银行与奇瑞控股集团签署战略合作协议](https://egs.stcn.com/news/detail/2315908.html)** — _egs.stcn.com_ · date: unknown
   人民财讯7月15日电，7月15日，上海农商银行与奇瑞控股集团签署战略合作协议。本次协议的签署，标志着上海农商银行与奇瑞控股集团的合作迈入全面赋能新阶段。双方将聚焦汽车产业自主创新等前沿领域协同发力，赋能新能源汽车产业高质量发展，为国内汽车产业集群升级、中国汽车品牌全球化拓展注入强劲的产融动能。
+- **[魏牌V9X家庭版将于7月16日上市 搭载1.5T超级混动系统](https://news.yiche.com/info/111447180.html)** — _news.yiche.com_ · date: unknown
 - **[“车企利润暴跌60%，众泰却意外盈利：2026年中国汽车产业魔幻现实”](https://www.d1ev.com/newsflash/307039)** — _www.d1ev.com_ · date: unknown
   2026年夏天，中国汽车行业面临严峻挑战，多家主流车企遭遇亏损或利润大幅下降。广汽集团预计上半年净亏损高达40.6亿至45.7亿元，亏损同比扩大近60%。赛力斯由盈转亏，预计亏损15亿至18亿元，去年同期盈利近30亿元。北汽蓝谷和江淮汽车虽仍亏损，但亏损幅度有所收窄。与此同时，长城汽车和长安汽车利润大幅下降，长城汽车预计上半年净利润同比下滑近60%，长安汽车
 - **[三星钱包数字车钥匙再升级，支持上汽大众ID.ERA9X车型无感解锁](https://www.d1ev.com/newsflash/307036)** — _www.d1ev.com_ · date: unknown
@@ -121,6 +122,8 @@ _Updated 2026-07-16 00:12 | discovery-only, zero LLM tokens | runs every 3h_
   证券时报网 2026-07-09 16:47 人民财讯7月15日电，7月15日，上海农商银行与奇瑞控股集团签署战略合作协议。本次协议的签署，标志着上海农商银行与奇瑞控股集团的合作迈入全面赋能新阶段。双方将聚焦汽车产业自主创新等前沿领域协同发力，赋能新能源汽车产业高质量发展，为国内汽车产业集群升级、中国汽车品牌全球化拓展注入强劲的产融动能。
 - **[杭州汽车保有量首超武汉](https://www.yicai.com/news/103276924.html)** — _www.yicai.com_ · date: unknown
   {{aisd}} AI生成 免责声明 截至2026年6月底，杭州汽车保有量正式超越武汉，跻身全国汽车保有量超500万辆城市行列。 这是乘联分会秘书长崔东树在其7月15日发布的《公安部2026年上半年的上牌和驾驶员数据分析》一文中，援引公安部最新数据而披露的。 他在文章中表示，全国汽车保有量超过500万辆的城市增至9个，其中成都、重庆、北京三城超过600万辆，
+- **[纯电GLC上市补齐豪华电动SUV拼图 奔驰本土化攻势再落关键一子](https://www.zqrb.cn/auto/qichedongtai/2026-07-16/A1784114246153.html)** — _www.zqrb.cn_ · published 2026-07-16
+  7月8日，全新梅赛德斯-奔驰纯电GLC SUV鎏金版正式上市，晖银版与星铂版同步开启预售。鎏金版33.98万元的全国统一价，叠加至高超过5万元的多重上市礼遇，让这款诞生于MB.EA纯电架构的中型豪华SUV，甫一亮相就以足够的诚意搅动了纯电市场的现有格局。 当造车新势力们还在用“彩电冰箱大沙发”定义豪华时，奔驰用一款真正走量的产品告诉市场：什么才是奔驰理解的电
 
 ### 2026-07-15 — 186 articles
 - **[两年前全网都在算锂矿的“破产时间表”，如今救活锂的不是电动车，而是储能](https://36kr.com/p/3895095317035653)** — _36kr.com_ · published 2026-07-15
