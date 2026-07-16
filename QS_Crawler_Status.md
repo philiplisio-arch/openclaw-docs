@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-16 06:11 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-16 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-16 06:11 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **3531 unique auto/NEV articles** across **46 outlets**
+## Cumulative: **3550 unique auto/NEV articles** across **46 outlets**
 
 ## New per day
 | date | new articles |
@@ -48,45 +48,45 @@ _Updated 2026-07-16 06:11 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-13 | 173 |
 | 2026-07-14 | 183 |
 | 2026-07-15 | 186 |
-| 2026-07-16 | 17 |
+| 2026-07-16 | 36 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 902 |
-| 36kr.com | 188 |
+| www.d1ev.com | 912 |
+| 36kr.com | 189 |
 | www.caam.org.cn | 187 |
-| www.stcn.com | 162 |
+| www.stcn.com | 163 |
 | www.cada.cn | 102 |
 | egs.stcn.com | 100 |
-| auto.gasgoo.com | 97 |
-| vc.yiche.com | 93 |
+| auto.gasgoo.com | 98 |
+| vc.yiche.com | 94 |
 | www.news.cn | 74 |
 | www.yicai.com | 59 |
 | www.cnr.cn | 46 |
 | news.yiche.com | 40 |
 | m.21jingji.com | 40 |
 | autodata.gasgoo.com | 40 |
-| www.nbd.com.cn | 36 |
+| www.nbd.com.cn | 37 |
 | auto.caijing.com.cn | 35 |
 | www.zqrb.cn | 26 |
 | www.xinhuanet.com | 26 |
-| www.jwview.com | 25 |
-| finance.eastmoney.com | 21 |
+| www.jwview.com | 26 |
+| finance.eastmoney.com | 22 |
 | cn.chinadaily.com.cn | 18 |
 | m.ce.cn | 17 |
 | auto.ce.cn | 16 |
 | qzs.stcn.com | 15 |
 | cv.ce.cn | 12 |
-| www.chinanews.com.cn | 10 |
+| www.chinanews.com.cn | 11 |
 | economy.gmw.cn | 9 |
 | www.gelonghui.com | 7 |
 | www.ceweekly.cn | 6 |
 | www.ce.cn | 4 |
+| finance.people.com.cn | 4 |
 | i.gasgoo.com | 3 |
 | guancha.gmw.cn | 3 |
-| finance.people.com.cn | 3 |
 | cnews.chinadaily.com.cn | 3 |
 | bgimg.ce.cn | 3 |
 | m.gmw.cn | 2 |
@@ -102,14 +102,26 @@ _Updated 2026-07-16 06:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-16 — 17 articles
+### 2026-07-16 — 36 articles
 - **[为何丰田、大众、现代自研智驾先后折戟](https://36kr.com/p/3896836041999752)** — _36kr.com_ · published 2026-07-16
   为何丰田、大众、现代自研智驾先后折戟 就在6月底，德国媒体披露，大众计划终止与博世持续三年多的自动驾驶联盟（ADA）。 这曾是大众软件战略最重要的一块拼图。2022年，大众软件子公司CARIAD与博世宣布联合开发一套从L2城市脱手驾驶到L3高速公路自动驾驶的模块化系统，首款产品计划2023年量产装车。 大众当初对这套系统充满野望，不仅要用大众全系乘用车上，还
+- **[斯年智驾获3亿元C轮融资，自动驾驶重卡赛道再升温](https://36kr.com/p/3895721094842249)** — _36kr.com_ · published 2026-07-16
+  斯年智驾获3亿元C轮融资，自动驾驶重卡赛道再升温｜36氪独家 自动驾驶重卡赛道，今年显著升温。 36氪独家获悉，斯年智驾近日已完成 3 亿元 C 轮融资，由兴证资本、颐道资本联合投资，资金将主要用于新一代车规级自动驾驶方案研发。 2026年1-6月，该赛道公开披露的融资已达5起，累计金额近70亿人民币，IPO动作也非常密集。资本热的背后，自动驾驶重卡在商业化
+- **[【盖世快讯】《中国汽车行业整车成本测算规则》团体标准发布；7月中国电动汽车对加出口稳定增长](https://auto.gasgoo.com/news/202607/16I70465922C108.shtml)** — _auto.gasgoo.com_ · date: unknown
+  车企动态 | OEM Trend 财联社：7月15日，知情人士称，Lucid Group Inc.正与重组顾问合作，以扭转经营困境，消息导致这家电动汽车制造商股价跌幅创纪录。知情人士称，咨询公司AlixPartners已受聘审查Lucid运营的各个方面。他们表示，这家汽车制造商正寻求优化业务、削减成本，并确保一款新的中型车顺利推出。Lucid在声明中证实，公
 - **[上海农商银行与奇瑞控股集团签署战略合作协议](https://egs.stcn.com/news/detail/2315908.html)** — _egs.stcn.com_ · date: unknown
   人民财讯7月15日电，7月15日，上海农商银行与奇瑞控股集团签署战略合作协议。本次协议的签署，标志着上海农商银行与奇瑞控股集团的合作迈入全面赋能新阶段。双方将聚焦汽车产业自主创新等前沿领域协同发力，赋能新能源汽车产业高质量发展，为国内汽车产业集群升级、中国汽车品牌全球化拓展注入强劲的产融动能。
+- **[莫用“快消品”的逻辑造“耐用品”的汽车](https://finance.eastmoney.com/a/202607163807916933.html)** — _finance.eastmoney.com_ · date: unknown
+  从传统燃油车五到七年迭代一次，到现在部分品牌“一年换代三次”，新能源汽车前所未有的更新速度成为市场关注的热点。快速迭代本是技术加速创新的必然产物，但当迭代节奏超越了技术成熟度、用户承受力和企业承载力的边界时，问题便接踵而至。技术可以跑得比风快，但产业必须站得比山稳。汽车从来不是承载单一功能的普通商品，而是直接关乎消费者生命财产安全的耐用消费品，用“快消品”的
+- **[小词元大商机 数字贸易“出海”风正劲](https://finance.people.com.cn/n1/2026/0716/c1004-40761531.html)** — _finance.people.com.cn_ · published 2026-07-16
+  小词元大商机 数字贸易“出海”风正劲 点击播报本文，约 继新能源汽车、锂电池和光伏产业“新三样”风靡全球市场后，今年我国数字服务出口赛道迎来全新品类——词元（Token）。围绕词元的算力服务，已成为数字服务贸易的新兴赛道。 词元是大模型数据运算和输出的最小基础单元，是计量智能算力消耗、核定服务价值的重要标尺。所谓词元“出海”，是依托我国成熟完备的算力基础设施
 - **[魏牌V9X家庭版将于7月16日上市 搭载1.5T超级混动系统](https://news.yiche.com/info/111447180.html)** — _news.yiche.com_ · date: unknown
 - **[比亚迪方程豹鲨鱼皮卡正式申报了，暂定名鲨鱼，也可能叫豹鲨！](https://vc.yiche.com/vplay/12066980.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 17万买混动皮卡，乘用炮Hi4-T到底实不实在？ My车轱辘 动作频繁 比亚迪皮卡就要在国内推出了？ 中国皮卡网 出口转内销，比亚迪鲨鱼皮卡车型即将到来 LisaN
+- **[定价高了？全网吹爆的小鹏MONA L03，性价比是不是真的高？](https://vc.yiche.com/vplay/12125703.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 拿下阿维塔 06T，这才是年轻人第一台性能车 8D车社 开过一次就忘不掉的意大利疯马——阿尔法·罗密欧Giulia四叶草 说车大虾 满血智驾 小鹏MONA L03
+- **[2667辆国产汽车从广西钦州港驶向中东市场](https://www.chinanews.com.cn/cj/shipin/cns-d/2026/07-16/news1062065.shtml)** — _www.chinanews.com.cn_ · published 2026-07-16
+  发布时间：2026年07月16日 07:21 来源：中国新闻网 7月15日，中国籍滚装船“常安口”轮装载2667辆国产汽车，从广西钦州港启航驶往中东约旦亚喀巴港。 依托西部陆海新通道核心门户港优势，钦州港持续畅通车企出海物流通道。钦州海事局精准护航，助力本航次多品牌“中国制造”汽车开拓中东市场。 针对本次大批量整车出口任务，钦州海事局联动口岸各单位优化通关服
 - **[海南将禁售燃油车，释放什么信号？](https://www.cnr.cn/2013qcpd/2015xc/20260716/t20260716_527712534.shtml)** — _www.cnr.cn_ · published 2026-07-16
   近日，海南省政府发布《“十五五”海南国家生态文明试验区规划（美丽海南建设“十五五”规划）》提出，平稳推进2030年禁售燃油车，这意味着海南即将成为我国首个告别燃油车销售的省份。 作为国家生态文明试验区的核心承载地，海南始终肩负着建设美丽中国先行区的使命。在全岛封关运作、对外开放能级跃上新台阶的同时，产业形态的深度变革、监管能力的精准升级以及生态安全的更高要求
 - **[二手车市场迎结构性变革](https://www.cnr.cn/2013qcpd/2015xc/20260716/t20260716_527712533.shtml)** — _www.cnr.cn_ · published 2026-07-16
@@ -128,10 +140,36 @@ _Updated 2026-07-16 06:11 | discovery-only, zero LLM tokens | runs every 3h_
   IT之家7月15日消息，美国本田公司宣布将人工智能助手 谷歌Gemini集成至其多款车型中，包括Civic（思域）、Accord（雅阁）、Prelude、CR-V和Pilot等。这一集成使得客户能够通过谷歌账户与Gemini进行更自然的交流，无需使用固定命令句式，也不必重复已提供的信息。Gemini将随着时间自动优化，识别更复杂的细节需求，并在必要时主动询问
 - **[长安启源Q06亮相：中大型纯电轿跑SUV，800V高压快充新标杆](https://www.d1ev.com/newsflash/307032)** — _www.d1ev.com_ · date: unknown
   7月15日，长安汽车旗下中大型轿跑SUV——启源Q06正式亮相。新车基于长安SDA天枢架构打造，采用纯电驱动方案。启源Q06延续家族“扶光美学”设计理念，前脸为封闭式格栅，配备贯穿式LED日间行车灯。车身侧面线条流畅，车尾采用点阵式光源贯穿式尾灯。新车车身尺寸为4837mm×1970mm×1670mm，轴距2940mm。 智能化配置方面，启源Q06车顶集成激
+- **[【盖世快讯】《中国汽车行业整车成本测算规则》团体标准发布；7月中国电动汽车对加出口稳定增长](https://www.d1ev.com/news/shichang/307042)** — _www.d1ev.com_ · date: unknown
+  车企动态 | OEM Trend 财联社：7月15日，知情人士称，Lucid Group Inc.正与重组顾问合作，以扭转经营困境，消息导致这家电动汽车制造商股价跌幅创纪录。知情人士称，咨询公司AlixPartners已受聘审查Lucid运营的各个方面。他们表示，这家汽车制造商正寻求优化业务、削减成本，并确保一款新的中型车顺利推出。Lucid在声明中证实，公
+- **[吉利集团2026年上半年总销量超193万辆 新能源渗透率达56.9%](https://www.d1ev.com/news/shichang/307020)** — _www.d1ev.com_ · date: unknown
+  盖世汽车获悉 吉利控股集团7月15日披露的2026年上半年销量数据显示，集团总销量达到1,934,842辆，创下同期历史新高。其中新能源车型销量为1,100,893辆，较去年同期增长10%，新能源渗透率提升至56.9%。 图片来源：吉利控股集团 上市公司吉利汽车上半年累计销量为1,422,958辆，新能源车型销量799,454辆，渗透率为56%。同期，吉利汽
+- **[比亚迪官宣：辅助驾驶车型保有量超333万辆，天神之眼日生成数据达2.1亿公里](https://www.d1ev.com/news/shichang/307013)** — _www.d1ev.com_ · published 2026-07-15
+  盖世汽车获悉 2026年7月15日，比亚迪官方宣布，其搭载辅助驾驶功能的车型总保有量已突破333万辆，其中6月单月销售176,315辆。与此同时，比亚迪“天神之眼”高阶智能辅助驾驶系统每日生成的行驶数据超过2.1亿公里。 图片来源：@比亚迪汽车 “天神之眼”是比亚迪全栈自研的高阶智能辅助驾驶整体解决方案，采用A、B、C三级硬件分层。该系统以璇玑架构为技术底座
+- **[7月中国电动汽车对加出口稳定增长 配额仍有75%未使用](https://www.d1ev.com/news/shichang/306996)** — _www.d1ev.com_ · date: unknown
+  盖世汽车讯 7月中旬前，中国产电动汽车持续稳定出口加拿大，但按照当前进口节奏，很难用尽今年初加中两国关税协议敲定的4.9万辆进口配额。 首批中国产电动汽车于今年5月运抵加拿大港口，6至7月又陆续到港数千台。加拿大全球事务部最新数据显示，截至7月14日，共有6,531辆中国产电动车完成进口清关。 这一进口量仅占加拿大2026配额周期上半年额度的25%。加拿大政
+- **[宝马高管：电动车千匹马力是营销噱头 毫无意义](https://www.d1ev.com/news/qiye/306982)** — _www.d1ev.com_ · date: unknown
+  【TechWeb】7月15日消息，当下电动性能车赛道陷入千匹马力参数内卷，不少车企以四位数峰值马力作为核心营销卖点，但宝马M部门公开表态拒绝跟风。 近日，BMW M首席执行官范梅尔在接受媒体采访时表示，“如今的电动汽车市场上，大量充斥着动力参数‘或多或少有些夸张’的车型，但纯电动M3不会加入它们的行列，并非BMW M做不到，而是这样做毫无意义。” 范梅尔进一
+- **[浩思动力稀燃甲醇增程系统首发北京车展 轴向磁通电机实现民用量产突破](https://www.d1ev.com/news/shichang/306983)** — _www.d1ev.com_ · date: unknown
+  在 2026 北京车展上，浩思动力（Horse Powertrain）稀燃甲醇增程系统（HORSE D20 Methanol）完成首次公开亮相，凭借高效补能特性与低碳属性引发行业广泛关注。这套增程系统最高输出功率达 105kW，将驱动电机、电力电子单元与 2.0 升涡轮增压四缸发动机高度集成，是浩思动力多元低碳燃料技术路线落地的核心代表性成果。 浩思动力稀燃
+- **[铜价高企下的材料革命：全球汽车产业迎来“以铝代铜”浪潮](https://www.d1ev.com/news/shichang/306968)** — _www.d1ev.com_ · date: unknown
+  盖世汽车讯 今年1月末，国际铜材料价格触及近15,000美元/吨的历史峰值，一场酝酿多年的材料替代浪潮也被推至聚光灯下。从超级跑车制造商法拉利到电动汽车先驱特斯拉，从传统巨头宝马到中国造车新势力，全球汽车制造业正掀起一场从铜到铝的材料替代进程。 当铜铝价格比突破临界点：一场必然的替代 这场变革的驱动力简单而直接：铝材的价格优势十分突出，当前铝材料价格约310
+- **[全球首款IMAX车载娱乐系统2026年亮相，中国高端车将率先体验](https://www.d1ev.com/newsflash/307061)** — _www.d1ev.com_ · date: unknown
+  今日，歌尔丹拿与IMAX及IMAX China宣布达成战略合作，共同推出全球首款IMAX车载娱乐系统。该系统由歌尔丹拿与IMAX独家合作设计，预计首批系统将于2026年底产业化落地，并面向中国高端汽车制造商推广。系统采用IMAX专属增强声学架构，专为实现超高动态范围和低频性能设计，配备经IMAX认证的智能显示系统，采用大尺寸4K HDR翻折式显示屏，并搭载定
+- **[小米汽车大七座SUV澎程N90无伪实车曝光](https://www.d1ev.com/carnews/xinche/307058)** — _www.d1ev.com_ · date: unknown
+  近日有博主分享了一组小米澎程N90无伪实车上路图，展示了更多细节。 和申报信息保持一致，N90采用了典型的新能源设计风格，前脸整体分为上下两层，上边为封闭式设计，并镶嵌了SKYNOMAD的英文字母，而小米的Logo则位于机舱盖前端，下方则是梯形进气格栅。 N90还将提供特殊的版本，定位“插电式增程混合动力文化生活服务车”，整个车顶结构要明显突出车体，打开之后
+- **[比亚迪发布五款大容量磷酸铁锂电池，适配二三轮车，京东自营店上架](https://www.d1ev.com/newsflash/307055)** — _www.d1ev.com_ · date: unknown
+  7月16日，比亚迪在郑州赛车场举办了一场发布会，推出了五款适配两轮、三轮车的大容量磷酸铁锂 电池，主力型号为64V60Ah与76V60Ah。这些电池产品已在京东自营店铺上架，并启动了店铺周年优惠活动。发布会上，比亚迪展示了多项极限测试，包括赛道竞速、越野穿越和深水行驶，同时工程师现场拆解电芯讲解技术细节。这些电池产品采用汽车动力电池制造标准，经过针刺测试不会
+- **[禁售燃油车，为啥海南打响第一枪？](https://www.jwview.com/jingwei/html/07-16/679524.shtml)** — _www.jwview.com_ · date: unknown
+  禁售燃油车，为啥海南打响第一枪？ 海南将成为中国首个禁售燃油车的省份。 近日，海南省人民政府对外发布《“十五五”海南国家生态文明试验区规划(美丽海南建设“十五五”规划)》，明确提出平稳推进2030年禁售燃油车。 这意味着，燃油车退场，已经从产业讨论迈入行政落地阶段。 其实，这步棋早有布局。2018年，海南首次提出，计划在2030年前实现全岛使用新能源汽车。2
 - **[新能源销量两极分化！比亚迪市场份额已达26.2% 一汽](https://www.nbd.com.cn/articles/2026-07-15/4473021.html)** — _www.nbd.com.cn_ · published 2026-07-15
   2026-07-15 22:20:04 每经记者｜黄辛旭 每经编辑｜余婷婷 当新能源渗透率突破六成，比亚迪6月销量以22.45万辆横扫国内市场，吉利紧随其后狂飙突进——汽车产业电动化转型之路上，自主品牌已奠定统治地位。而另一边，曾经的市场“主导者”合资品牌，正经历前所未有的至暗时刻：有品牌新能源市场份额跌至0.1%、销量腰斩、明星车型哑火⋯⋯中国汽车新能源市
+- **[《中国汽车行业整车成本测算规则》团体标准正式发布；东风日产高管：我是坚定的小米支持者](https://www.nbd.com.cn/articles/2026-07-15/4473563.html)** — _www.nbd.com.cn_ · published 2026-07-15
+  2026-07-16 06:30:07 每经记者｜董天意 实习生 刘家怡 每经编辑｜余婷婷 | 2026年7月16日 星期四 | NO.1《中国汽车行业整车成本测算规则》团体标准正式发布 7月15日，由中国汽车工业协会牵头组织，国内18家主流整车企业共同参与编制的《中国汽车行业整车成本测算规则》团体标准正式发布。这是国内首套面向汽车整车领域的统一成本测算规则
 - **[上海农商银行与奇瑞控股集团签署战略合作协议](https://www.stcn.com/article/detail/4021865.html)** — _www.stcn.com_ · published 2026-07-09
   证券时报网 2026-07-09 16:47 人民财讯7月15日电，7月15日，上海农商银行与奇瑞控股集团签署战略合作协议。本次协议的签署，标志着上海农商银行与奇瑞控股集团的合作迈入全面赋能新阶段。双方将聚焦汽车产业自主创新等前沿领域协同发力，赋能新能源汽车产业高质量发展，为国内汽车产业集群升级、中国汽车品牌全球化拓展注入强劲的产融动能。
+- **[机构：全年看好汽车高端化和出海行情](https://www.stcn.com/article/detail/4022171.html)** — _www.stcn.com_ · published 2026-07-16
+  上海证券报 俞立严 2026-07-16 07:19 野村东方国际证券认为，看好汽车行业三条投资主线：1）智能化，国内智驾平权趋势逐渐确立，2026年随L3智驾政策催化及技术迭代，高阶智驾渗透率有望持续提升。整车端，建议关注强产品周期与智能化共振的整车企业；零部件端关注智驾芯片与座舱域控等核心赛道。2）出海，欧洲新能源渗透率持续向上，T链海外产能持续释放，国
 - **[杭州汽车保有量首超武汉](https://www.yicai.com/news/103276924.html)** — _www.yicai.com_ · date: unknown
   {{aisd}} AI生成 免责声明 截至2026年6月底，杭州汽车保有量正式超越武汉，跻身全国汽车保有量超500万辆城市行列。 这是乘联分会秘书长崔东树在其7月15日发布的《公安部2026年上半年的上牌和驾驶员数据分析》一文中，援引公安部最新数据而披露的。 他在文章中表示，全国汽车保有量超过500万辆的城市增至9个，其中成都、重庆、北京三城超过600万辆，
 - **[纯电GLC上市补齐豪华电动SUV拼图 奔驰本土化攻势再落关键一子](https://www.zqrb.cn/auto/qichedongtai/2026-07-16/A1784114246153.html)** — _www.zqrb.cn_ · published 2026-07-16
