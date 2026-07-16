@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-16 21:13 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-17 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-16 21:13 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **3664 unique auto/NEV articles** across **46 outlets**
+## Cumulative: **3683 unique auto/NEV articles** across **46 outlets**
 
 ## New per day
 | date | new articles |
@@ -49,28 +49,29 @@ _Updated 2026-07-16 21:13 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-14 | 183 |
 | 2026-07-15 | 186 |
 | 2026-07-16 | 150 |
+| 2026-07-17 | 19 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 937 |
+| www.d1ev.com | 943 |
 | 36kr.com | 194 |
 | www.caam.org.cn | 187 |
-| www.stcn.com | 168 |
+| www.stcn.com | 170 |
 | auto.gasgoo.com | 112 |
-| vc.yiche.com | 107 |
-| egs.stcn.com | 106 |
+| vc.yiche.com | 108 |
+| egs.stcn.com | 107 |
 | www.cada.cn | 102 |
 | www.news.cn | 77 |
 | www.yicai.com | 63 |
 | www.cnr.cn | 50 |
+| news.yiche.com | 49 |
 | autodata.gasgoo.com | 49 |
-| news.yiche.com | 47 |
-| m.21jingji.com | 46 |
-| www.nbd.com.cn | 40 |
+| m.21jingji.com | 47 |
+| www.nbd.com.cn | 43 |
 | auto.caijing.com.cn | 35 |
-| www.zqrb.cn | 26 |
+| www.zqrb.cn | 29 |
 | www.xinhuanet.com | 26 |
 | www.jwview.com | 26 |
 | finance.eastmoney.com | 23 |
@@ -101,6 +102,45 @@ _Updated 2026-07-16 21:13 | discovery-only, zero LLM tokens | runs every 3h_
 | economy.caijing.com.cn | 1 |
 
 ## Articles captured by day (newest first)
+
+### 2026-07-17 — 19 articles
+- **[零跑全新B01和B10越级上市 中国车市“10万级800V时代”启幕](https://egs.stcn.com/news/detail/2316329.html)** — _egs.stcn.com_ · date: unknown
+- **[每台成本多花3000元：存储芯片正在抽干车企最后的利润](https://m.21jingji.com/article/20260716/herald/6ed70309b9bdd5f3ed8947f88962470d.html)** — _m.21jingji.com_ · date: unknown
+  自研、锁单、换国产，车企的三条活路。 作者｜张麟 对车企来说，存储芯片正在变成比电池还要致命成本黑洞。 7月12日晚间，赛力斯发布《2026年半年度业绩预亏公告》。公告显示，经财务部门初步测算，公司预计2026年上半年归母净亏损为15亿元至18亿元，与去年同期净利润29.41亿元相比，同比由盈转亏。 赛力斯业绩报告，图片来源：赛力斯集团 对于亏损的原因，赛力
+- **[小鹏MONA L03正式上市 售12.38万元起](https://news.yiche.com/info/111498383.html)** — _news.yiche.com_ · date: unknown
+  推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 7月16日，小鹏MONA L03在德国慕尼黑正式宣布全球上市，新车推出纯电和增程两种动力共计9款车型，售价区间12.38-15.68万元。小鹏汽车表示，增程版车型预计将于8月下旬开启交付。此外，官方
+- **[小鹏MONA L03正式上市 售12.38万元起](https://news.yiche.com/xinchexiaoxi/20260716/21111498383.html)** — _news.yiche.com_ · date: unknown
+  推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 7月16日，小鹏MONA L03在德国慕尼黑正式宣布全球上市，新车推出纯电和增程两种动力共计9款车型，售价区间12.38-15.68万元。小鹏汽车表示，增程版车型预计将于8月下旬开启交付。此外，官方
+- **[全域自研重构十万级纯电格局 全新零跑B01/B10正式上市售9.58万元起](https://vc.yiche.com/vplay/12153073.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 9.98-14.98万 10万级，全都要，试驾零跑全新B10 & B01 汽车点评Car 零跑B01/B10开启盲订！增配不涨价，零跑这波够意思不？ 我为车狂 确定是十万级
+- **[智己汽车多地门店爆雷，车主维权难，员工欠薪苦](https://www.d1ev.com/newsflash/307235)** — _www.d1ev.com_ · date: unknown
+  近日，智己汽车在昆明、珠海等地的门店出现经营异常，导致车主付款后无法提车，且购车款项去向不明。智己汽车官方承诺会“兜底”，但事件处理进展缓慢，车主们普遍感到焦虑。昆明门店的员工也因欠薪数月而维权，希望智己汽车能提供解决方案。 智己汽车方面表示，由于涉及资金总额较大，且需对接多方机构，事件处理需要时间。目前，专项工作组正在加急梳理资料，积极推动各方协调进展，并
+- **[小鹏MONAL03上市1小时订单破4万6，12.38万起售！](https://www.d1ev.com/newsflash/307232)** — _www.d1ev.com_ · date: unknown
+  7月16日，小鹏汽车宣布其最新车型MONAL03上市1小时内订单量达到46859台，显示出市场对这款新车型的热烈反响。此前，小鹏汽车还透露，MONAL03上市仅7分钟，订单量就已突破20000台。小鹏MONAL03提供纯电和增程两种动力版本，起售价为12.38万元。增程版车型预计将于8月下旬开始交付。 小鹏MONAL03的设计由前法拉利外饰设计师胡安马主导，
+- **[小鹏MONAL03全球首发：9款新车型12.38万起，智能驾驶新标杆！](https://www.d1ev.com/newsflash/307230)** — _www.d1ev.com_ · date: unknown
+  7月16日，小鹏汽车在德国慕尼黑全球上市了MONAL03，提供纯电和超级增程双动力共9款车型，售价区间为12.38万至15.68万元。新车由前法拉利外饰设计师胡安马设计，搭载最高1500TOPS图灵AI芯片，具备纯电+增程双动力系统。MONAL03分为3个配置等级：Plus、Max和UltraSE，每个等级提供纯电短续航、纯电长续航和超级增程三种动力选择。P
+- **[新能源车门把手新规：告别隐藏式，安全升级！](https://www.d1ev.com/newsflash/307228)** — _www.d1ev.com_ · date: unknown
+  近日，新能源车型在门把手设计上出现了新趋势，小鹏MONAL03、新一代理想L6、魏牌V9X、五菱星光L等新车均采用了半隐藏式或传统外露式门把手设计，这一变化与即将落地的新国标密切相关。新国标由工信部牵头编制，是全球首个针对汽车车门把手的安全规范性文件，对车门把手结构及手部操作空间作出明确要求，规定车门外把手在任意状态下均应具备足够的手部操作空间，解决了电动隐
+- **[零跑汽车自信满满：四张王牌集齐，领先友商一年？](https://www.d1ev.com/newsflash/307227)** — _www.d1ev.com_ · date: unknown
+  7月16日，零跑汽车在全新B01/B10上市发布会上，公司高级副总裁曹力表示，零跑已集齐“四张王牌”，并暗示友商可能需要到明年才能跟上。曹力强调，零跑汽车拥有自主研发的产品优势，因此不再保持低调。他认为，零跑的产品如此出色，应该高调展示其优势。徐军补充说，这不是高调，而是实事求是。零跑的风格一直是做到才说，现在已经成为业界关注的焦点，因此应该实事求是地展示其
+- **[吉利银河雷霆16合1智能电驱全球首发，树立全球电驱技术新标杆](https://www.d1ev.com/news/shichang/307226)** — _www.d1ev.com_ · published 2026-07-16
+  2026年7月16日，吉利汽车集团正式发布吉利银河全球首款雷霆16合1智能电驱，凭借极致节能、运动性能和安全可靠等代际领先优势，完成了新能源电驱底层技术的突破性迭代，实现了技术实力与用户体验的全面进阶。 该套系统将率先搭载于吉利银河TT，并以实测百公里电耗8.20kWh和连续漂移超46km的优异成绩，成功斩获“驾驶量产纯电轿车环青海湖能耗最低记录”和“湿滑路
+- **[匈牙利前外交部长加入比亚迪，这把“钥匙”能打开欧洲市场的大门吗？](https://www.nbd.com.cn/articles/2026-07-16/4475252.html)** — _www.nbd.com.cn_ · published 2026-07-16
+  每日经济新闻 2026-07-16 23:20:57 每经编辑｜程鹏 每经评论员|裴健如 编辑|程鹏 杜恒峰 校对|张锦河 当地时间7月15日，匈牙利前外交部长西雅尔多在社交媒体上宣布辞去议员职务，加入中国电动汽车巨头比亚迪，担任集团对外关系及新业务线拓展的高管。 匈牙利前外交部长西雅尔多。图源：西雅尔多社交媒体 公开资料显示，西雅尔多自2002年起担任匈牙
+- **[每经热评丨比亚迪聘匈牙利前外长，这把“钥匙”能打开欧洲市场的大门吗？](https://www.nbd.com.cn/articles/2026-07-16/4475064.html)** — _www.nbd.com.cn_ · published 2026-07-16
+  2026-07-16 21:34:17 每经评论员 裴健如 当地时间7月15日，匈牙利前外交部长西雅尔多在社交媒体上宣布辞去议员职务，加入中国电动汽车巨头比亚迪，担任集团对外关系及新业务线拓展的高管。 公开资料显示，西雅尔多自2002年起担任匈牙利国民议会议员，并于2014年起担任匈牙利外长，直至今年5月。 一位执掌匈牙利外交12年、全程推动比亚迪欧洲产能落
+- **[曾年销22万辆，知名合资车企破产后，一家债权人终于拿到钱：9395万元债权已获偿469万元](https://www.nbd.com.cn/articles/2026-07-16/4475161.html)** — _www.nbd.com.cn_ · published 2026-07-16
+  每日经济新闻 2026-07-16 21:18:47 每经编辑｜何小桃 7月16日收盘后，天海电子（001365）公告，公司全资子公司鹤壁天海环球电器有限公司（以下简称“天海环球”）收到来自破产清算企业广汽菲亚特克莱斯勒汽车有限公司（以下简称“广汽菲亚特”）的债权分配款，金额为469.78万元。 根据公告，2025年11月11日，法院裁定确认天海环球普通债权
+- **[零跑全新B01和B10越级上市 中国车市“10万级800V时代”启幕](https://www.stcn.com/article/detail/4024053.html)** — _www.stcn.com_ · date: unknown
+  7月16日晚，零跑汽车正式上市两款基于B平台全方位焕新车型——定位于年轻时尚超长续航轿车全新B01，以及定位全球智享长续航SUV全新B10，官方指导价分别为9.58万—11.98万元和9.98万—12.58万元。 零跑这次并非简单的年度改款，而是按照全新车型的标准重新打造。全域800V加3C快充、C系同款前排双零重力座椅和AR-HUD、D系列同款17.3英寸
+- **[中药龙头逆市涨停，收获5连阳！小鹏传来大动作，人形机器人商业化提速（附股）](https://www.stcn.com/article/detail/4024066.html)** — _www.stcn.com_ · date: unknown
+  人形机器人产业有新进展。 中药龙头涨停 今日（7月16日），A股三大指数继续调整，中药板块逆市走强，龙头股片仔癀涨停。截至收盘，该股最新价报141.15元/股，总市值851.58亿元。7月10日以来，该股斩获五连阳，累计涨幅达27.96%。 近期，中药相关产业利好频出。7月10日，国务院发布关于《中医药振兴发展“十五五”规划》的批复，原则同意《中医药振兴发展
+- **[夯实全产业链布局 广汽集团第3000万辆整车下线](https://www.zqrb.cn/auto/qichedongtai/2026-07-17/A1784189673548.html)** — _www.zqrb.cn_ · published 2026-07-17
+  本报记者 李雯珊 7月16日，广州汽车集团股份有限公司（以下简称“广汽集团”）迎来企业发展史上的里程碑式时刻——公司累计第3000万辆整车正式下线。这个数字背后，是其深耕汽车产业多年、贯通国内国际、打通研发制造、芯片能源、全球渠道全链条的扎实布局。 “3000万辆不是终点，而是公司全产业链竞争优势集中兑现的新起点。我们持续攻坚电池超快充、低温续航等行业痛点；
+- **[汽车零部件企业多举措强化内生经营能力](https://www.zqrb.cn/auto/qichedongtai/2026-07-17/A1784189673547.html)** — _www.zqrb.cn_ · published 2026-07-17
+  本报记者 吴奕萱 Choice数据显示，截至7月16日，A股汽车零部件板块（申万二级行业）已有71家上市公司披露2026年半年度业绩预告，行业业绩显著分化。其中，18家企业预计净利润同比增长，8家同比扭亏为盈，14家净利润同比出现下滑，另有31家企业预计亏损。 商用车产业链需求复苏成为部分上市公司业绩增长的核心动因。中国汽车工业协会数据显示，2026年1月份
+- **[上市车企中期业绩预告分化明显](https://www.zqrb.cn/auto/qichedongtai/2026-07-17/A1784189673546.html)** — _www.zqrb.cn_ · published 2026-07-17
+  本报记者 李如是 据同花顺iFinD数据显示，截至7月16日记者发稿，已有一汽解放集团股份有限公司（以下简称“一汽解放”）、长城汽车股份有限公司（以下简称“长城汽车”）、广州汽车集团股份有限公司、赛力斯集团股份有限公司等13家上市车企发布半年度业绩预告。其中，预计上半年盈利的企业有7家，预计亏损的有6家。 中国汽车工业协会数据显示，今年上半年，我国汽车销量为
 
 ### 2026-07-16 — 150 articles
 - **[为何丰田、大众、现代自研智驾先后折戟](https://36kr.com/p/3896836041999752)** — _36kr.com_ · published 2026-07-16
