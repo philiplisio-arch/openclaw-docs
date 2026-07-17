@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-18 00:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-18 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-18 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **3848 unique auto/NEV articles** across **47 outlets**
+## Cumulative: **3853 unique auto/NEV articles** across **47 outlets**
 
 ## New per day
 | date | new articles |
@@ -50,18 +50,18 @@ _Updated 2026-07-18 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-15 | 186 |
 | 2026-07-16 | 150 |
 | 2026-07-17 | 165 |
-| 2026-07-18 | 19 |
+| 2026-07-18 | 24 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 979 |
+| www.d1ev.com | 980 |
 | 36kr.com | 207 |
 | www.caam.org.cn | 187 |
 | www.stcn.com | 177 |
-| auto.gasgoo.com | 133 |
-| vc.yiche.com | 122 |
+| auto.gasgoo.com | 134 |
+| vc.yiche.com | 124 |
 | egs.stcn.com | 110 |
 | www.cada.cn | 103 |
 | www.news.cn | 80 |
@@ -72,7 +72,7 @@ _Updated 2026-07-18 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 | m.21jingji.com | 55 |
 | www.nbd.com.cn | 50 |
 | auto.caijing.com.cn | 43 |
-| www.zqrb.cn | 33 |
+| www.zqrb.cn | 34 |
 | www.xinhuanet.com | 27 |
 | www.jwview.com | 27 |
 | finance.eastmoney.com | 23 |
@@ -105,13 +105,19 @@ _Updated 2026-07-18 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-18 — 19 articles
+### 2026-07-18 — 24 articles
 - **[苏州精密轴承“小巨人”冲击IPO，产品应用于机器人、汽车等领域](https://36kr.com/p/3899649439647365)** — _36kr.com_ · published 2026-07-18
   苏州精密轴承“小巨人”冲击IPO，产品应用于机器人、汽车等领域 今天“2026世界人工智能大会”在上海拉开帷幕，有200多家机器人企业参展，成为一大亮点。机器人零部件数量众多，需要产业链各方的密切配合，近期就有做机器人轴承产品的公司冲击IPO。 格隆汇获悉，近期，苏州长城精工科技股份有限公司（简称“长城精工”）向深交所递交招股书，拟在创业板上市，保荐人为中信
+- **[12.38万元杀入全球市场，小鹏MONA L03的野心与赌注](https://auto.gasgoo.com/news/202607/18I70466329C109.shtml)** — _auto.gasgoo.com_ · published 2026-07-16
+  2026年7月16日，小鹏汽车将品牌日暨MONA L03全球上市发布会设在了宝马的总部所在地——德国慕尼黑。这场发布会的选址本身就是一个宣言：中国车企不再满足于“走出去”，而是要在全球汽车工业的心脏地带正面交锋。 这场交锋的胜负，不仅关乎一款车的销量，更关乎小鹏能否在行业增速换挡、竞争从价格蔓延至技术的当下，完成从中国新势力向全球玩家的关键跃迁。 市场寒流中
 - **[工信部组织召开重点汽车生产企业座谈会 坚决抵制非理性竞争  07-17 10:06](https://news.yiche.com/zonghexinwen/20260717/22111563415.html)** — _news.yiche.com_ · date: unknown
 - **[广汽旗舰混动S7正式登陆哈萨克斯坦 深耕中亚市场  07-17 09:06](https://news.yiche.com/zonghexinwen/20260717/21111562722.html)** — _news.yiche.com_ · date: unknown
 - **[五座才是最好用的？一条视频看懂蔚来ES8 五座版](https://vc.yiche.com/vplay/12171868.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 38.28-44.68万 半价SU7？悦意08预售，颜值和配置都很顶 三个司机 蔚来全新ES8不断刷新交付纪录！众多用户们为何都选Ta？ 行动派Action 小鹏G6：全域
+- **[比亚迪鲨鱼皮卡“豹鲨”来了，霸气吗？](https://vc.yiche.com/vplay/12117618.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 10多万买增程方盒子SUV，到店体验奇瑞风云X3L 宋一車 比亚迪方程豹皮卡，鲨鱼变豹鲨，细节解读，会火吗？ 孔明说车 中置V8、鲨鱼鳃、大尾翼……长城这台“盖布赛
+- **[全新长大了的比亚迪海鸥要重新夺回销量王冠？ #比亚迪海鸥 #吉利星愿 #零跑A10 #A0级车](https://vc.yiche.com/vplay/12099628.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 6.98-8.59万 车市的卷王之王又放大招了，2026款海鸥6.99万起 车市独评 领克也存在不踩刹车即可挂挡的问题。 暖夏至121016 A00级车配激光雷达？2026
 - **[蔚来芯片子公司神玑亮相世界人工智能大会](https://www.cnr.cn/2013qcpd/hy/20260717/t20260717_527715910.shtml)** — _www.cnr.cn_ · published 2026-07-17
   央广网北京7月17日消息（记者姜鹏）7月17日，2026世界人工智能大会正式开幕，蔚来芯片子公司安徽神玑技术有限公司首次独立参展。除了展出神玑NX9031芯片和车载域控外，还在会展期间推出 “睿动” 具身智能开发平台、分布式智能体平台等AI新产品。 神玑公司致力于打造AGI 时代最好的芯片及解决方案平台，是供应范围覆盖自动驾驶、具身智能、Agent推理等领域
 - **[云南珠海智己汽车经销商跑路，200车主陷交付困局！](https://www.d1ev.com/newsflash/307422)** — _www.d1ev.com_ · date: unknown
@@ -124,6 +130,8 @@ _Updated 2026-07-18 00:12 | discovery-only, zero LLM tokens | runs every 3h_
   7月17日，印度消费者法庭作出一项具有里程碑意义的裁决，要求印度最大的汽车制造商马鲁蒂铃木向一位车主提供一辆全新的GrandVitara SUV作为替代，或赔偿200万印度卢比（约合20760美元），原因是该车主的车辆因使用E20乙醇汽油而受损。这是印度首例因E20燃料导致车辆损坏而胜诉的案件。 案件发生在恰蒂斯加尔邦赖布尔的消费者法庭，原告Premraj
 - **[云南珠海智己汽车经销商经营异常，用户款项难退，品牌承诺兜底](https://www.d1ev.com/newsflash/307415)** — _www.d1ev.com_ · date: unknown
   7月17日，智己汽车在云南、珠海等地出现门店经营异常，导致部分车主付款后无法退还款项。智己汽车品牌与用户高级总监焦樵表示，两地关店事件涉及同一投资人，部分用户被经销商“晚交付返5万”的承诺所套路，实际上是资金挪用。智己汽车将对能确认的用户订单进行兜底，但需要时间理清情况并进行甄别。 焦樵指出，激烈竞争下，经营不善的经销商会加速淘汰，这是一个换血机会。云南和珠
+- **[12.38万元杀入全球市场，小鹏MONA L03的野心与赌注](https://www.d1ev.com/news/qiye/307425)** — _www.d1ev.com_ · published 2026-07-16
+  2026年7月16日，小鹏汽车将品牌日暨MONA L03全球上市发布会设在了宝马的总部所在地——德国慕尼黑。这场发布会的选址本身就是一个宣言：中国车企不再满足于“走出去”，而是要在全球汽车工业的心脏地带正面交锋。 这场交锋的胜负，不仅关乎一款车的销量，更关乎小鹏能否在行业增速换挡、竞争从价格蔓延至技术的当下，完成从中国新势力向全球玩家的关键跃迁。 市场寒流中
 - **[美光科技拉升翻红涨超3%，盘初一度跌近6%](https://www.gelonghui.com/live/2558891)** — _www.gelonghui.com_ · published 2026-07-17
   申请认证 格隆汇公众号矩阵 格隆汇App 下载格隆汇APP 诊股宝App 下载诊股宝App 汇路演App 下载汇路演APP 极调研 加入我们 首页 社区 快讯 事件 深度 主题 专栏 行情 会员 数据 财富圈 文章 更多相关文章 快讯 更多相关快讯 查看全部股票/文章/快讯/事件/用户/财富圈搜索结果 热门股票 搜索历史 清空历史 登录 / 注册 温馨提示
 - **[工信部：汽车生产企业要坚决抵制非理性竞争](https://www.jwview.com/jingwei/html/07-17/679892.shtml)** — _www.jwview.com_ · date: unknown
@@ -142,6 +150,8 @@ _Updated 2026-07-18 00:12 | discovery-only, zero LLM tokens | runs every 3h_
   本报讯 （记者郭冀川）7月17日，工业和信息化部装备工业一司组织召开重点汽车生产企业座谈会，部署进一步规范汽车产业竞争秩序、提升汽车产品生产一致性和质量安全水平、开展汽车产品安全风险隐患排查和监督检查等重点工作。 会议要求，汽车生产企业要深入贯彻落实党中央、国务院决策部署，坚决抵制非理性竞争，加强产品测试验证与安全评估，守牢产品生产一致性和质量安全底线。 一
 - **[英唐智控：公司的自研芯片业务主要围绕着MEMS微振镜与车载显示芯片两大方向](https://www.zqrb.cn/gscy/ggkx/2026-07-17/A1784293540862.html)** — _www.zqrb.cn_ · published 2026-07-17
   证券日报APP 安卓 IOS 证券日报微信 证券日报微博 证券日报网7月17日讯 ，英唐智控在接受调研时表示，公司的自研芯片业务主要围绕着MEMS微振镜与车载显示芯片两大方向。在车载显示芯片方面，DDIC和TDDI均已实现量产，已交付至国内车企的8.4寸项目、海外客户12.3寸、21.6寸等项目，同时公司也在持续拓展新的定点项目。在MEMS微振镜方面，公司研
+- **[汽车零部件企业积极布局东南亚市场](https://www.zqrb.cn/auto/qichedongtai/2026-07-18/A1784314293481.html)** — _www.zqrb.cn_ · published 2026-07-18
+  本报记者 吴奕萱 见习记者 王楠 近期，A股汽车零部件企业海外产能布局动作频频，多家企业接连披露相关投资公告。 7月15日，飞龙汽车部件股份有限公司披露公司完成对境外两层全资主体的增资工商变更。公司向全资子公司飞龙国际私营有限公司新增1亿元，再由该平台向龙泰汽车部件（泰国）有限公司增资7亿泰铢。本次两家境外主体同步增加注册资本，是公司深化国际化产业布局、搭建
 
 ### 2026-07-17 — 165 articles
 - **[1 小时大定 4.6 万台，德国卖出两倍价：小鹏 MONA L03 到底凭什么？](https://36kr.com/p/3899046384010886)** — _36kr.com_ · published 2026-07-17
