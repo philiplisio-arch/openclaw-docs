@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-17 21:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-18 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-17 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **3829 unique auto/NEV articles** across **47 outlets**
+## Cumulative: **3848 unique auto/NEV articles** across **47 outlets**
 
 ## New per day
 | date | new articles |
@@ -50,37 +50,38 @@ _Updated 2026-07-17 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-15 | 186 |
 | 2026-07-16 | 150 |
 | 2026-07-17 | 165 |
+| 2026-07-18 | 19 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 974 |
-| 36kr.com | 206 |
+| www.d1ev.com | 979 |
+| 36kr.com | 207 |
 | www.caam.org.cn | 187 |
-| www.stcn.com | 176 |
+| www.stcn.com | 177 |
 | auto.gasgoo.com | 133 |
-| vc.yiche.com | 121 |
+| vc.yiche.com | 122 |
 | egs.stcn.com | 110 |
 | www.cada.cn | 103 |
-| www.news.cn | 79 |
+| www.news.cn | 80 |
 | www.yicai.com | 64 |
 | autodata.gasgoo.com | 60 |
-| www.cnr.cn | 56 |
+| www.cnr.cn | 57 |
+| news.yiche.com | 55 |
 | m.21jingji.com | 55 |
-| news.yiche.com | 53 |
-| www.nbd.com.cn | 48 |
+| www.nbd.com.cn | 50 |
 | auto.caijing.com.cn | 43 |
-| www.zqrb.cn | 30 |
+| www.zqrb.cn | 33 |
 | www.xinhuanet.com | 27 |
-| www.jwview.com | 26 |
+| www.jwview.com | 27 |
 | finance.eastmoney.com | 23 |
 | cn.chinadaily.com.cn | 18 |
 | m.ce.cn | 17 |
 | auto.ce.cn | 16 |
 | qzs.stcn.com | 15 |
+| www.gelonghui.com | 13 |
 | www.chinanews.com.cn | 13 |
-| www.gelonghui.com | 12 |
 | cv.ce.cn | 12 |
 | www.ceweekly.cn | 10 |
 | economy.gmw.cn | 9 |
@@ -103,6 +104,44 @@ _Updated 2026-07-17 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 | economy.caijing.com.cn | 1 |
 
 ## Articles captured by day (newest first)
+
+### 2026-07-18 — 19 articles
+- **[苏州精密轴承“小巨人”冲击IPO，产品应用于机器人、汽车等领域](https://36kr.com/p/3899649439647365)** — _36kr.com_ · published 2026-07-18
+  苏州精密轴承“小巨人”冲击IPO，产品应用于机器人、汽车等领域 今天“2026世界人工智能大会”在上海拉开帷幕，有200多家机器人企业参展，成为一大亮点。机器人零部件数量众多，需要产业链各方的密切配合，近期就有做机器人轴承产品的公司冲击IPO。 格隆汇获悉，近期，苏州长城精工科技股份有限公司（简称“长城精工”）向深交所递交招股书，拟在创业板上市，保荐人为中信
+- **[工信部组织召开重点汽车生产企业座谈会 坚决抵制非理性竞争  07-17 10:06](https://news.yiche.com/zonghexinwen/20260717/22111563415.html)** — _news.yiche.com_ · date: unknown
+- **[广汽旗舰混动S7正式登陆哈萨克斯坦 深耕中亚市场  07-17 09:06](https://news.yiche.com/zonghexinwen/20260717/21111562722.html)** — _news.yiche.com_ · date: unknown
+- **[五座才是最好用的？一条视频看懂蔚来ES8 五座版](https://vc.yiche.com/vplay/12171868.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 38.28-44.68万 半价SU7？悦意08预售，颜值和配置都很顶 三个司机 蔚来全新ES8不断刷新交付纪录！众多用户们为何都选Ta？ 行动派Action 小鹏G6：全域
+- **[蔚来芯片子公司神玑亮相世界人工智能大会](https://www.cnr.cn/2013qcpd/hy/20260717/t20260717_527715910.shtml)** — _www.cnr.cn_ · published 2026-07-17
+  央广网北京7月17日消息（记者姜鹏）7月17日，2026世界人工智能大会正式开幕，蔚来芯片子公司安徽神玑技术有限公司首次独立参展。除了展出神玑NX9031芯片和车载域控外，还在会展期间推出 “睿动” 具身智能开发平台、分布式智能体平台等AI新产品。 神玑公司致力于打造AGI 时代最好的芯片及解决方案平台，是供应范围覆盖自动驾驶、具身智能、Agent推理等领域
+- **[云南珠海智己汽车经销商跑路，200车主陷交付困局！](https://www.d1ev.com/newsflash/307422)** — _www.d1ev.com_ · date: unknown
+  近日，云南昆明、珠海等地智己汽车车主遭遇经销商突然关店跑路，导致付款后无法提车，钱款无法退还。昆明一维权群已超280人，数十人付全款未提车，昆明官渡用户中心店已被搬空。智己汽车品牌与用户高级总监焦樵回应称，云南和珠海两地关店系同一投资人所为，部分用户被经销商“晚交付返5万”的承诺套路，实质是资金挪用。 焦樵表示，能确认的用户订单智己会兜底，但需要时间理清来龙
+- **[“安全隐患凸显！隐藏式门把手将告别新车型”](https://www.d1ev.com/newsflash/307419)** — _www.d1ev.com_ · published 2027-01-01
+  近日，新能源汽车领域中的隐藏式门把手设计因其安全隐患和日常使用不便而受到质疑。数据显示，纯电控隐藏式门把手在侧面碰撞后的弹出成功率仅为67%，远低于传统机械把手。此外，在北方冬季，门把手易因积水结冰而被冻住，给车主带来不便。针对这一问题，工信部已发布《汽车车门把手安全技术要求》，规定每扇车门必须配备独立机械释放装置，自2027年1月1日起，全隐藏式门把手将无
+- **[中国新能源车企小鹏汽车海外首发新车L03 欧洲同步上市](https://www.d1ev.com/newsflash/307418)** — _www.d1ev.com_ · date: unknown
+  7月16日，小鹏汽车在德国慕尼黑举行了一场备受瞩目的发布会，正式推出了其全新车型“L03”。这一举措标志着小鹏汽车首次选择在海外市场发布其全球车型，展现了公司对国际市场的拓展决心。新产品“L03”计划在欧洲和中国市场同步上市，这一战略布局将进一步扩大小鹏汽车在全球新能源汽车市场的影响力。 在小鹏汽车发布“L03”之前，比亚迪于7月9日在英国发布了纯电超跑“腾
+- **[印度首例！乙醇汽油致损车主胜诉，马鲁蒂铃木需赔20万或换新车](https://www.d1ev.com/newsflash/307417)** — _www.d1ev.com_ · date: unknown
+  7月17日，印度消费者法庭作出一项具有里程碑意义的裁决，要求印度最大的汽车制造商马鲁蒂铃木向一位车主提供一辆全新的GrandVitara SUV作为替代，或赔偿200万印度卢比（约合20760美元），原因是该车主的车辆因使用E20乙醇汽油而受损。这是印度首例因E20燃料导致车辆损坏而胜诉的案件。 案件发生在恰蒂斯加尔邦赖布尔的消费者法庭，原告Premraj
+- **[云南珠海智己汽车经销商经营异常，用户款项难退，品牌承诺兜底](https://www.d1ev.com/newsflash/307415)** — _www.d1ev.com_ · date: unknown
+  7月17日，智己汽车在云南、珠海等地出现门店经营异常，导致部分车主付款后无法退还款项。智己汽车品牌与用户高级总监焦樵表示，两地关店事件涉及同一投资人，部分用户被经销商“晚交付返5万”的承诺所套路，实际上是资金挪用。智己汽车将对能确认的用户订单进行兜底，但需要时间理清情况并进行甄别。 焦樵指出，激烈竞争下，经营不善的经销商会加速淘汰，这是一个换血机会。云南和珠
+- **[美光科技拉升翻红涨超3%，盘初一度跌近6%](https://www.gelonghui.com/live/2558891)** — _www.gelonghui.com_ · published 2026-07-17
+  申请认证 格隆汇公众号矩阵 格隆汇App 下载格隆汇APP 诊股宝App 下载诊股宝App 汇路演App 下载汇路演APP 极调研 加入我们 首页 社区 快讯 事件 深度 主题 专栏 行情 会员 数据 财富圈 文章 更多相关文章 快讯 更多相关快讯 查看全部股票/文章/快讯/事件/用户/财富圈搜索结果 热门股票 搜索历史 清空历史 登录 / 注册 温馨提示
+- **[工信部：汽车生产企业要坚决抵制非理性竞争](https://www.jwview.com/jingwei/html/07-17/679892.shtml)** — _www.jwview.com_ · date: unknown
+  中新经纬7月17日电 工信部网站消息，7月17日，工业和信息化部装备工业一司组织召开重点汽车生产企业座谈会，部署进一步规范汽车产业竞争秩序、提升汽车产品生产一致性和质量安全水平、开展汽车产品安全风险隐患排查和监督检查等重点工作。 会议要求，汽车生产企业要深入贯彻落实党中央、国务院决策部署，坚决抵制非理性竞争，加强产品测试验证与安全评估，守牢产品生产一致性和质
+- **[工信部召开重点车企座谈会：坚决抵制非理性竞争，加强组合驾驶辅助和自动驾驶功能安全评估](https://www.nbd.com.cn/articles/2026-07-17/4476504.html)** — _www.nbd.com.cn_ · published 2026-07-17
+  2026-07-17 22:26:03 每经记者｜李星 每经编辑｜裴健如 据工业和信息化部网站消息，7月17日，工业和信息化部装备工业一司组织召开重点汽车生产企业座谈会，部署进一步规范汽车产业竞争秩序、提升汽车产品生产一致性和质量安全水平、开展汽车产品安全风险隐患排查和监督检查等重点工作。 图片来源：工信部官网 会议要求汽车生产企业坚决抵制非理性竞争，加强产
+- **[爆款“小米汽车碰撞测评”视频博主一审判了 小米法务回应：未来将持续依法维权](https://www.nbd.com.cn/articles/2026-07-17/4476317.html)** — _www.nbd.com.cn_ · published 2026-07-17
+  2026-07-17 21:16:12 每经记者｜李星 每经编辑｜裴健如 7月17日晚间，小米法务部官方微博发布消息称，近日，公司从司法机关获悉，某平台博主故意捏造并散布虚假事实，损害小米汽车商品声誉，情节严重，构成损害商品声誉罪，一审判处有期徒刑一年八个月，并处罚金。 图片来源：新浪微博（@小米法务部） 小米法务部的这一回应关联了2025年1月25日发布的
+- **[工业和信息化部部署开展汽车产品安全风险隐患排查](https://www.news.cn/fortune/20260717/32e667eb848f45528e945a33cc96da7b/c.html)** — _www.news.cn_ · published 2026-07-17
+  新华社北京7月17日电 工业和信息化部装备工业一司17日组织召开重点汽车生产企业座谈会，部署进一步规范汽车产业竞争秩序、开展汽车产品安全风险隐患排查和监督检查等重点工作。要求汽车生产企业坚决抵制非理性竞争，加强产品测试验证与安全评估，守牢产品生产一致性和质量安全底线。 会议要求，深入开展产品安全风险隐患排查，对照有关管理要求，系统查找企业自身和关键零部件供应
+- **[7月17日重要资讯一览](https://www.stcn.com/article/detail/4026794.html)** — _www.stcn.com_ · published 2026-09-01
+  重要的消息有哪些 1．财政部等三部门：分步调整部分电池产品消费税政策 财政部、海关总署、税务总局发布关于调整部分电池消费税政策的公告，自2026年9月1日起，分步调整部分电池产品消费税政策。自2026年9月1日起，对无汞原电池、金属氢化物镍蓄电池（又称氢镍蓄电池或镍氢蓄电池）、锂原电池、锂离子蓄电池、全钒液流电池按照2%税率征收消费税；自2027年9月1日起
+- **[​新能源汽车三电系统感知质量研讨会暨团体标准启动会在京成功举办](https://www.zqrb.cn/gscy/qiyexinxi/2026-07-17/A1784293540879.html)** — _www.zqrb.cn_ · published 2026-07-17
+  本报讯 （记者刘钊）日前，新能源汽车三电系统感知质量研讨会暨《新能源汽车电池、电机及电控系统用户感知质量评价指南》团体标准（以下简称“团体标准”）启动会在中国质量检验检测科学研究院成功举办。 会议汇聚了质量监管、科研院所、行业协会以及整车与供应链企业的多位专家与代表，正式启动团体标准的编制工作，并围绕三电系统感知质量评价的关键维度、行业痛点与品质优化落地路径
+- **[工业和信息化部开展汽车产品安全风险隐患排查和监督检查等重点工作](https://www.zqrb.cn/finance/hongguanjingji/2026-07-17/A1784293540875.html)** — _www.zqrb.cn_ · published 2026-07-17
+  本报讯 （记者郭冀川）7月17日，工业和信息化部装备工业一司组织召开重点汽车生产企业座谈会，部署进一步规范汽车产业竞争秩序、提升汽车产品生产一致性和质量安全水平、开展汽车产品安全风险隐患排查和监督检查等重点工作。 会议要求，汽车生产企业要深入贯彻落实党中央、国务院决策部署，坚决抵制非理性竞争，加强产品测试验证与安全评估，守牢产品生产一致性和质量安全底线。 一
+- **[英唐智控：公司的自研芯片业务主要围绕着MEMS微振镜与车载显示芯片两大方向](https://www.zqrb.cn/gscy/ggkx/2026-07-17/A1784293540862.html)** — _www.zqrb.cn_ · published 2026-07-17
+  证券日报APP 安卓 IOS 证券日报微信 证券日报微博 证券日报网7月17日讯 ，英唐智控在接受调研时表示，公司的自研芯片业务主要围绕着MEMS微振镜与车载显示芯片两大方向。在车载显示芯片方面，DDIC和TDDI均已实现量产，已交付至国内车企的8.4寸项目、海外客户12.3寸、21.6寸等项目，同时公司也在持续拓展新的定点项目。在MEMS微振镜方面，公司研
 
 ### 2026-07-17 — 165 articles
 - **[1 小时大定 4.6 万台，德国卖出两倍价：小鹏 MONA L03 到底凭什么？](https://36kr.com/p/3899046384010886)** — _36kr.com_ · published 2026-07-17
