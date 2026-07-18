@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-19 00:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-19 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-19 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **3917 unique auto/NEV articles** across **47 outlets**
+## Cumulative: **3919 unique auto/NEV articles** across **47 outlets**
 
 ## New per day
 | date | new articles |
@@ -51,7 +51,7 @@ _Updated 2026-07-19 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-16 | 150 |
 | 2026-07-17 | 165 |
 | 2026-07-18 | 84 |
-| 2026-07-19 | 4 |
+| 2026-07-19 | 6 |
 
 ## By outlet
 | outlet | articles |
@@ -61,8 +61,8 @@ _Updated 2026-07-19 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 36kr.com | 207 |
 | www.caam.org.cn | 187 |
 | www.stcn.com | 179 |
+| vc.yiche.com | 138 |
 | auto.gasgoo.com | 138 |
-| vc.yiche.com | 136 |
 | egs.stcn.com | 112 |
 | www.cada.cn | 104 |
 | www.news.cn | 80 |
@@ -106,7 +106,11 @@ _Updated 2026-07-19 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-19 — 4 articles
+### 2026-07-19 — 6 articles
+- **[为啥现在的“新能源车”越造越重？](https://vc.yiche.com/vplay/12112718.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 领克10:亚洲山脊赛道圈速新王！ 潇岳岳爱开车 岚图梦想家9 选配曝光 每一项都是“尊” 车探巴图鲁 2026北京车展丨魏牌高山9实拍！5.4米旗舰MPV，三排共轨空间解析
+- **[埃安i60选高配还是低配？新手看完轻松拿捏](https://vc.yiche.com/vplay/12131926.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 10.28-13.58万 真新能源皮卡来了！14.98万元起！长城炮Hi4-T重磅预售 EC汽车 埃安i60×《给阿嬷的情书》：当国民好车，遇见了国民好电影 擎商 近乎满分
 - **[比亚迪巴西工厂第10万辆车下线](https://www.d1ev.com/news/shichang/307470)** — _www.d1ev.com_ · date: unknown
   盖世汽车获悉，当地时间7月16日，比亚迪巴西卡马萨里工厂迎来双重节点：第10万辆新能源汽车正式下线，车型为比亚迪海鸥；同时，工厂在岗员工总数突破5500人。这是该工厂自2025年7月正式投产以来，首次同步披露产能与用工规模的双重量化成绩。 图片来源：比亚迪 据比亚迪巴西分公司介绍，卡马萨里工厂总投资约55亿雷亚尔，占地面积468万平方米，一期规划年产能15万
 - **[锂电池免税政策终结，新能源汽车成本或增1%](https://www.d1ev.com/newsflash/307531)** — _www.d1ev.com_ · published 2026-09-01
