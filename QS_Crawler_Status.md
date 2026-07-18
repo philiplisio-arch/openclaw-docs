@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-18 12:13 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-18 15:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-18 12:13 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **3886 unique auto/NEV articles** across **47 outlets**
+## Cumulative: **3895 unique auto/NEV articles** across **47 outlets**
 
 ## New per day
 | date | new articles |
@@ -50,18 +50,18 @@ _Updated 2026-07-18 12:13 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-15 | 186 |
 | 2026-07-16 | 150 |
 | 2026-07-17 | 165 |
-| 2026-07-18 | 57 |
+| 2026-07-18 | 66 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 987 |
+| www.d1ev.com | 988 |
 | 36kr.com | 207 |
 | www.caam.org.cn | 187 |
 | www.stcn.com | 179 |
-| auto.gasgoo.com | 134 |
-| vc.yiche.com | 130 |
+| auto.gasgoo.com | 138 |
+| vc.yiche.com | 133 |
 | egs.stcn.com | 112 |
 | www.cada.cn | 104 |
 | www.news.cn | 80 |
@@ -77,8 +77,8 @@ _Updated 2026-07-18 12:13 | discovery-only, zero LLM tokens | runs every 3h_
 | www.jwview.com | 27 |
 | finance.eastmoney.com | 23 |
 | cn.chinadaily.com.cn | 18 |
+| www.gelonghui.com | 17 |
 | m.ce.cn | 17 |
-| www.gelonghui.com | 16 |
 | qzs.stcn.com | 16 |
 | auto.ce.cn | 16 |
 | www.chinanews.com.cn | 13 |
@@ -105,11 +105,19 @@ _Updated 2026-07-18 12:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-18 — 57 articles
+### 2026-07-18 — 66 articles
 - **[苏州精密轴承“小巨人”冲击IPO，产品应用于机器人、汽车等领域](https://36kr.com/p/3899649439647365)** — _36kr.com_ · published 2026-07-18
   苏州精密轴承“小巨人”冲击IPO，产品应用于机器人、汽车等领域 今天“2026世界人工智能大会”在上海拉开帷幕，有200多家机器人企业参展，成为一大亮点。机器人零部件数量众多，需要产业链各方的密切配合，近期就有做机器人轴承产品的公司冲击IPO。 格隆汇获悉，近期，苏州长城精工科技股份有限公司（简称“长城精工”）向深交所递交招股书，拟在创业板上市，保荐人为中信
 - **[12.38万元杀入全球市场，小鹏MONA L03的野心与赌注](https://auto.gasgoo.com/news/202607/18I70466329C109.shtml)** — _auto.gasgoo.com_ · published 2026-07-16
   2026年7月16日，小鹏汽车将品牌日暨MONA L03全球上市发布会设在了宝马的总部所在地——德国慕尼黑。这场发布会的选址本身就是一个宣言：中国车企不再满足于“走出去”，而是要在全球汽车工业的心脏地带正面交锋。 这场交锋的胜负，不仅关乎一款车的销量，更关乎小鹏能否在行业增速换挡、竞争从价格蔓延至技术的当下，完成从中国新势力向全球玩家的关键跃迁。 市场寒流中
+- **[比亚迪巴西工厂第10万辆车下线](https://auto.gasgoo.com/news/202607/18I70466390C109.shtml)** — _auto.gasgoo.com_ · date: unknown
+  盖世汽车获悉，当地时间7月16日，比亚迪巴西卡马萨里工厂迎来双重节点：第10万辆新能源汽车正式下线，车型为比亚迪海鸥；同时，工厂在岗员工总数突破5500人。这是该工厂自2025年7月正式投产以来，首次同步披露产能与用工规模的双重量化成绩。 图片来源：比亚迪 据比亚迪巴西分公司介绍，卡马萨里工厂总投资约55亿雷亚尔，占地面积468万平方米，一期规划年产能15万
+- **[长安汽车联合中国信通院设立开放实验室 剑指全球无线通信测试](https://auto.gasgoo.com/news/202607/18I70466389C109.shtml)** — _auto.gasgoo.com_ · date: unknown
+  7月18日，盖世汽车获悉，长安汽车与中国信息通信研究院（以下简称“中国信通院”）共同宣布，双方共建的“联合创新开放实验室”已于昨日正式挂牌启用。该实验室将聚焦智能网联汽车无线通信性能验证，旨在为全球不同网络环境下的车载连接稳定性提供技术底座。 图片来源：长安汽车 据现场披露，实验室已部署全球网络模拟平台及高精度信号检测系统，能够完整复刻108个国家、超过30
+- **[大众中国国产车型正式登陆哈萨克斯坦](https://auto.gasgoo.com/news/202607/18I70466388C109.shtml)** — _auto.gasgoo.com_ · date: unknown
+  继今年6月落地乌兹别克斯坦市场后，大众汽车中国持续推进全球化出口战略，盖世汽车7月18日获悉，其携手当地授权经销商Orbis Auto完成战略合作签约，旗下一汽-大众制造车型正式登陆哈萨克斯坦，依托本土整车制造产能开拓中亚高增长汽车消费市场。 图片来源：大众汽车 本次战略合作签约仪式顺利举办，现场同步发布大众与ORBIS AUTO联合品牌标识，以双语公示战略
+- **[WAIC 2026](https://auto.gasgoo.com/news/202607/18I70466386C601.shtml)** — _auto.gasgoo.com_ · date: unknown
+  7月17日，2026世界人工智能大会（WAIC）暨人工智能全球治理高级别会议在上海世博、张江、西岸“三地四馆”同步启幕。在这场AI产业年度盛会上，蔚来旗下芯片子公司——安徽神玑技术有限公司首次以独立展商身份亮相。 图片来源：神玑 神玑公司定位为覆盖自动驾驶、具身智能、Agent推理三大领域的全域全场景芯片企业。自2025年6月成立以来，公司已完成近30亿元融
 - **[蔚来芯片子公司神玑首次独立参展世界人工智能大会，发布多款前沿AI算力产品](https://egs.stcn.com/news/detail/2316920.html)** — _egs.stcn.com_ · date: unknown
   证券时报·e公司 聂英好 07-18 08:53 人民财讯7月18日电，蔚来芯片子公司安徽神玑技术有限公司首次独立参展世界人工智能大会。除了展出神玑NX9031芯片和车载域控外，还推出“睿动”具身智能开发平台、分布式智能体平台等AI新产品。自2025年6月成立以来，神玑公司完成近30亿元融资。目前，神玑公司已形成由NX9031X、NX9031U、NX9031
 - **[比亚迪巴西工厂迎来第10万辆新能源汽车下线](https://egs.stcn.com/news/detail/2316916.html)** — _egs.stcn.com_ · published 2026-07-18
@@ -145,6 +153,12 @@ _Updated 2026-07-18 12:13 | discovery-only, zero LLM tokens | runs every 3h_
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 18.38-26.98万 蔚来ES6用户口碑分享：换电快空间大 但能耗偏高 驾享来电 2026北京国际车展｜方程豹三车齐亮相，FORMULA X造型狂野 极速试驾 用料大揭
 - **[奇瑞颜值要逆袭？风云A9静态体验，轿跑的颜值真的在线！](https://vc.yiche.com/vplay/12172043.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 不积跬步无以至千里，静态对比大众“蔚”字辈两款旅行车 妙语连珠香瓜8378 这价格，我真挑不出毛病！试驾奇瑞风云A9 跟我自驾游 预售72小时大定锁单18173台
+- **[选销冠不吃亏 吉利银河星耀8探店实拍](https://vc.yiche.com/vplay/12178791.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 12.58-17.28万 13万级配城市NOA+225km续航，星耀8远航家把B级车门槛打下来了！ 汽车言究生 星耀8远航家更新炸裂！15万级唯一带激光雷达 驾控社 核心归
+- **[领克Z20｜都市潮酷后驱纯电SUV_易车视频](https://vc.yiche.com/vplay/12178763.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 10.99-15.09万 【试驾体验】新乐道L60动态体验 denggrace261017 又有10款新车续航曝光，买车要再等等？ jilinshao940207 小个子好
+- **[法拉利CEO吐槽中国新能源车](https://vc.yiche.com/vplay/12166562.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 粉丝苦等六年 特斯拉FSD终于要进中国了？ 汽车天涯 长安猎手K50 2026款：山路作业有底气，外放补能不断电，全电作业更高效，守护青山更安心 西岸熊猫种花船长 可城可野
 - **[2026年3月全国二手车市场深度分析](https://www.cada.cn/Data/info_86_10500.html)** — _www.cada.cn_ · date: unknown
 - **[蔚来芯片子公司神玑亮相世界人工智能大会](https://www.cnr.cn/2013qcpd/hy/20260717/t20260717_527715910.shtml)** — _www.cnr.cn_ · published 2026-07-17
   央广网北京7月17日消息（记者姜鹏）7月17日，2026世界人工智能大会正式开幕，蔚来芯片子公司安徽神玑技术有限公司首次独立参展。除了展出神玑NX9031芯片和车载域控外，还在会展期间推出 “睿动” 具身智能开发平台、分布式智能体平台等AI新产品。 神玑公司致力于打造AGI 时代最好的芯片及解决方案平台，是供应范围覆盖自动驾驶、具身智能、Agent推理等领域
@@ -182,6 +196,8 @@ _Updated 2026-07-18 12:13 | discovery-only, zero LLM tokens | runs every 3h_
   7月18日，财政部、海关总署、税务总局联合发布公告，宣布从2026年9月1日起，对锂原 电池、锂离子 蓄电池等电池产品分阶段逐步恢复征收消费税。这一政策标志着国内新能源汽车税制向油电同权迈出关键一步，结束了电动汽车用锂电池长达十年的免征消费税政策。 公告明确，普通电池本身设置有4%的消费税，而电动汽车搭载的锂离子蓄电池此前享受免税优待。此次税制调整旨在推动电
 - **[丰田RAV4触控化争议：车主不满或恢复实体按键](https://www.d1ev.com/newsflash/307449)** — _www.d1ev.com_ · date: unknown
   7月18日，丰田RAV4总工程师太长根嘉纪在媒体采访中表示，新一代RAV4可能在触控化设计上过于激进。他承认，如果车主反馈不佳，丰田愿意恢复部分实体按键。新一代RAV4虽然保留了音量旋钮、空调温度按键等少量实体控制装置，但风量、出风方向和座椅加热等功能已被集成到中控触摸屏中。 太长根嘉纪透露，丰田原本计划进一步减少实体按键，团队一直在探讨实体开关的最小保留程
+- **[沃尔沃销量逆势回升，EX90订单创纪录，新车型即将亮相！](https://www.d1ev.com/newsflash/307480)** — _www.d1ev.com_ · date: unknown
+  7月18日，沃尔沃汽车公布了2026年上半年的销售数据，零售销量同比下降8%，降至32.48万辆。尽管上半年销量有所下滑，沃尔沃对下半年的市场表现持乐观态度，预计销量将有显著提升。EX60已经开始交付，旗舰纯电SUV EX90的订单量达到了历史最高水平。此外，沃尔沃计划在初秋发布两款新车，这两款车型都将采用电气化动力，市场推测更可能是插电式 混合动力车型，而
 - **[美光科技拉升翻红涨超3%，盘初一度跌近6%](https://www.gelonghui.com/live/2558891)** — _www.gelonghui.com_ · published 2026-07-17
   申请认证 格隆汇公众号矩阵 格隆汇App 下载格隆汇APP 诊股宝App 下载诊股宝App 汇路演App 下载汇路演APP 极调研 加入我们 首页 社区 快讯 事件 深度 主题 专栏 行情 会员 数据 财富圈 文章 更多相关文章 快讯 更多相关快讯 查看全部股票/文章/快讯/事件/用户/财富圈搜索结果 热门股票 搜索历史 清空历史 登录 / 注册 温馨提示
 - **[蔚来芯片子公司神玑首次独立参展世界人工智能大会，发布多款前沿AI算力产品](https://www.gelonghui.com/live/2559013)** — _www.gelonghui.com_ · date: unknown
@@ -190,6 +206,8 @@ _Updated 2026-07-18 12:13 | discovery-only, zero LLM tokens | runs every 3h_
   申请认证 格隆汇公众号矩阵 格隆汇App 下载格隆汇APP 诊股宝App 下载诊股宝App 汇路演App 下载汇路演APP 极调研 加入我们 首页 社区 快讯 事件 深度 主题 专栏 行情 会员 数据 财富圈 文章 更多相关文章 快讯 更多相关快讯 查看全部股票/文章/快讯/事件/用户/财富圈搜索结果 热门股票 搜索历史 清空历史 登录 / 注册 温馨提示
 - **[唯一自动驾驶企业！文远知行入选2026世界人工智能大会十大案例](https://www.gelonghui.com/news/5271560)** — _www.gelonghui.com_ · date: unknown
   7月17日，2026世界人工智能大会暨人工智能全球治理高级别会议(2026 WAIC)在上海开幕，国家主席习近平出席大会开幕式并发表主旨讲话。本届大会由外交部、国家发展改革委、工业和信息化部等中央单位和上海市人民政府共同主办，汇聚全球政产学研各界代表，共话人工智能创新发展与全球治理。 主论坛上，国家发展改革委同有关部门发布《中国智·惠世界(2026)》案例集
+- **[福特正在召回387911辆美国车辆](https://www.gelonghui.com/live/2559057)** — _www.gelonghui.com_ · published 2026-07-18
+  申请认证 格隆汇公众号矩阵 格隆汇App 下载格隆汇APP 诊股宝App 下载诊股宝App 汇路演App 下载汇路演APP 极调研 加入我们 首页 社区 快讯 事件 深度 主题 专栏 行情 会员 数据 财富圈 文章 更多相关文章 快讯 更多相关快讯 查看全部股票/文章/快讯/事件/用户/财富圈搜索结果 热门股票 搜索历史 清空历史 登录 / 注册 温馨提示
 - **[工信部：汽车生产企业要坚决抵制非理性竞争](https://www.jwview.com/jingwei/html/07-17/679892.shtml)** — _www.jwview.com_ · date: unknown
   中新经纬7月17日电 工信部网站消息，7月17日，工业和信息化部装备工业一司组织召开重点汽车生产企业座谈会，部署进一步规范汽车产业竞争秩序、提升汽车产品生产一致性和质量安全水平、开展汽车产品安全风险隐患排查和监督检查等重点工作。 会议要求，汽车生产企业要深入贯彻落实党中央、国务院决策部署，坚决抵制非理性竞争，加强产品测试验证与安全评估，守牢产品生产一致性和质
 - **[工信部召开重点车企座谈会：坚决抵制非理性竞争，加强组合驾驶辅助和自动驾驶功能安全评估](https://www.nbd.com.cn/articles/2026-07-17/4476504.html)** — _www.nbd.com.cn_ · published 2026-07-17
