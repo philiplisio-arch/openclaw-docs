@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-18 21:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-19 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-18 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **3913 unique auto/NEV articles** across **47 outlets**
+## Cumulative: **3917 unique auto/NEV articles** across **47 outlets**
 
 ## New per day
 | date | new articles |
@@ -51,12 +51,13 @@ _Updated 2026-07-18 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-16 | 150 |
 | 2026-07-17 | 165 |
 | 2026-07-18 | 84 |
+| 2026-07-19 | 4 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 994 |
+| www.d1ev.com | 997 |
 | 36kr.com | 207 |
 | www.caam.org.cn | 187 |
 | www.stcn.com | 179 |
@@ -70,7 +71,7 @@ _Updated 2026-07-18 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 | autodata.gasgoo.com | 60 |
 | news.yiche.com | 58 |
 | m.21jingji.com | 58 |
-| www.nbd.com.cn | 52 |
+| www.nbd.com.cn | 53 |
 | auto.caijing.com.cn | 45 |
 | www.zqrb.cn | 36 |
 | www.xinhuanet.com | 27 |
@@ -104,6 +105,16 @@ _Updated 2026-07-18 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 | economy.caijing.com.cn | 1 |
 
 ## Articles captured by day (newest first)
+
+### 2026-07-19 — 4 articles
+- **[比亚迪巴西工厂第10万辆车下线](https://www.d1ev.com/news/shichang/307470)** — _www.d1ev.com_ · date: unknown
+  盖世汽车获悉，当地时间7月16日，比亚迪巴西卡马萨里工厂迎来双重节点：第10万辆新能源汽车正式下线，车型为比亚迪海鸥；同时，工厂在岗员工总数突破5500人。这是该工厂自2025年7月正式投产以来，首次同步披露产能与用工规模的双重量化成绩。 图片来源：比亚迪 据比亚迪巴西分公司介绍，卡马萨里工厂总投资约55亿雷亚尔，占地面积468万平方米，一期规划年产能15万
+- **[锂电池免税政策终结，新能源汽车成本或增1%](https://www.d1ev.com/newsflash/307531)** — _www.d1ev.com_ · published 2026-09-01
+  近日，财政部、海关总署、税务总局联合发布公告，宣布自2026年9月1日起，对锂原 电池、锂离子 蓄电池等电池产品恢复征收消费税，结束了国内超过11年的锂电池免征消费税政策。这一政策调整标志着新能源汽车税收优惠逐步退出，与燃油车税制并轨。消费税作为价内税，将增加电池企业成本，可能影响新能源汽车终端售价。 具体来看，纯电车型的单车造车成本将增加396元至1200
+- **[武汉高票当选！蔚来NIODay2026举办城市揭晓](https://www.d1ev.com/newsflash/307521)** — _www.d1ev.com_ · date: unknown
+  7月18日，蔚来汽车宣布NIODay2026城市申办投票结果，武汉以178,854,028票领先，成为NIODay2026的举办城市。今年的申办城市包括长春、重庆、哈尔滨、济南、南京、青岛、武汉、厦门，最终哈尔滨、武汉、厦门进入投票阶段。蔚来官方尚未公布NIODay2026的具体举办时间和活动内容，但根据惯例，预计将有重磅产品发布。 自2017年起，NIOD
+- **[埃安与中创新航接连发声！电池质保期延长至8年30万公里，可根据检测结果免费维修或更换电池包](https://www.nbd.com.cn/articles/2026-07-18/4476845.html)** — _www.nbd.com.cn_ · published 2026-07-18
+  2026-07-18 23:31:41 每经记者｜黄辛旭 每经编辑｜裴健如 7月18日晚间，广汽埃安新能源汽车股份有限公司（以下简称广汽埃安）通过微信公众号“埃安”发文，宣布对部分搭载177Ah电池车辆质保服务进行升级。 图片来源：埃安官微 “近期，我们收到行驶里程超过15万公里的AION S部分用户反馈动力电池使用出现故障的问题，给大家造成了不便与顾虑，我
 
 ### 2026-07-18 — 84 articles
 - **[苏州精密轴承“小巨人”冲击IPO，产品应用于机器人、汽车等领域](https://36kr.com/p/3899649439647365)** — _36kr.com_ · published 2026-07-18
