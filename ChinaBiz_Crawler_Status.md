@@ -1,8 +1,8 @@
 # China Business Daily — Crawler Status
 
-_Updated 2026-07-19 00:43 | WS1 redesign source universe | discovery-only, zero LLM tokens | every 3h_
+_Updated 2026-07-19 03:42 | WS1 redesign source universe | discovery-only, zero LLM tokens | every 3h_
 
-## Cumulative: **28526 business articles** across **70 outlets**
+## Cumulative: **28531 business articles** across **70 outlets**
 
 _In Report? verdicts reflect the brief run of **2026-07-18** (generated 2026-07-18T07:29:58): **6 ✅ in / 2515 ❌ out** of 2521 in-window articles. Articles crawled after that run show ➖ (no verdict yet)._
 
@@ -10,15 +10,15 @@ _In Report? verdicts reflect the brief run of **2026-07-18** (generated 2026-07-
 | outlet | articles |
 |---|---|
 | www.stcn.com | 4510 |
-| finance.eastmoney.com | 3158 |
-| finance.sina.com.cn | 3070 |
+| finance.eastmoney.com | 3160 |
+| finance.sina.com.cn | 3072 |
 | m.21jingji.com | 2889 |
 | www.nbd.com.cn | 2874 |
 | www.gelonghui.com | 1760 |
 | www.jiemian.com | 1368 |
 | 36kr.com | 1353 |
 | www.eeo.com.cn | 1220 |
-| www.yicai.com | 1192 |
+| www.yicai.com | 1193 |
 | www.21jingji.com | 997 |
 | finance.people.com.cn | 954 |
 | finance.china.com.cn | 673 |
@@ -80,7 +80,7 @@ _In Report? verdicts reflect the brief run of **2026-07-18** (generated 2026-07-
 | futures.hexun.com | 1 |
 | ent.people.com.cn | 1 |
 
-## 2026-07-19 — 50 articles
+## 2026-07-19 — 55 articles
 | Article | Outlet | Published | In Report? | Reason |
 |---|---|---|---|---|
 | [2026 WAIC在上海举办：具身智能首次获列核心赛道 超200家行业企业参展](https://finance.china.com.cn/roll/20260718/6316735.shtml) | finance.china.com.cn | 2026-07-18 | ➖ | Not evaluated in the latest brief run |
@@ -88,10 +88,14 @@ _In Report? verdicts reflect the brief run of **2026-07-18** (generated 2026-07-
 | [国泰海通郁伟君：AI产业企业资本运作正当时](https://finance.eastmoney.com/a/202607183811719031.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [上交所北京卓镭激光技术股份有限公司科创板IPO审核状态变更为已问询](https://finance.eastmoney.com/a/202607183811717631.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [【环球财经】京东方科技解决方案在教科文组织“科学十年”大会引发关注](https://finance.eastmoney.com/a/202607193811719828.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [印尼投资部部长：对中印尼投资合作未来充满信心](https://finance.eastmoney.com/a/202607193811721160.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [平头哥开源AI软件栈T](https://finance.eastmoney.com/a/202607183811721351.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [“8·8服务消费节”启动 多平台开展惠民活动](https://finance.people.com.cn/n1/2026/0719/c1004-40763364.html) | finance.people.com.cn | 2026-07-19 | ➖ | Not evaluated in the latest brief run |
 | [储能全线涨价：头部企业的狂欢，中小厂的“生死劫”！](https://finance.sina.com.cn/roll/2026-07-18/doc-iniifhtw7120066.shtml) | finance.sina.com.cn | 2026-07-18 | ➖ | Not evaluated in the latest brief run |
 | [或超3250亿元！上市公司公告意外“曝光”DeepSeek估值](https://finance.sina.com.cn/jjxw/2026-07-18/doc-iniifxrz0817169.shtml) | finance.sina.com.cn | 2026-07-18 | ➖ | Not evaluated in the latest brief run |
 | [终止、下调评级接连发生，这些中小银行发生了什么？](https://finance.sina.com.cn/jjxw/2026-07-18/doc-iniifxrz0821282.shtml) | finance.sina.com.cn | 2026-07-18 | ➖ | Not evaluated in the latest brief run |
+| [仍有近200万美国人至少半年未能进入劳动力市场](https://finance.sina.com.cn/7x24/2026-07-19/doc-iniihkfq1317644.shtml) | finance.sina.com.cn | 2026-07-19 | ➖ | Not evaluated in the latest brief run |
+| [英国海上贸易行动办公室：也门沿岸海域事件重新定性为船只劫持](https://finance.sina.com.cn/7x24/2026-07-19/doc-iniihcxs1426631.shtml) | finance.sina.com.cn | 2026-07-19 | ➖ | Not evaluated in the latest brief run |
 | [“越跌越买”！私募一边密集自购，一边连续三周加仓！“优质公司还有广阔空间，仍然会是市场的主线”](https://m.21jingji.com/article/20260718/herald/8da25b1870e6091127c186ce586af06e.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [“2026年上半年外汇收支数据情况”新闻发布会文字实录](https://m.21jingji.com/article/20260718/herald/7ad20d2763f42b316215f12354959fe0.html) | m.21jingji.com | 2026-07-17 | ➖ | Not evaluated in the latest brief run |
 | [《资产管理 数据资产分类与代码》、《资产管理 数据资产登记指南》国家标准发布](https://m.21jingji.com/article/20260718/herald/504a9cc1c4d9358ea3eeed923ec2f460.html) | m.21jingji.com | 2026-07-18 | ➖ | Not evaluated in the latest brief run |
@@ -133,6 +137,7 @@ _In Report? verdicts reflect the brief run of **2026-07-18** (generated 2026-07-
 | [黑湖科技携工业Agent参展WAIC2026 今年AI相关收入增长明显](https://www.stcn.com/article/detail/4027393.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [“十五五”战略落地节点：中科星图构筑五大业务集群，以智能地球底座打通商业航天与低空经济赛道](https://www.stcn.com/article/detail/4027382.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [“获得市场认可的不是‘中国制造’的标签，而是创造有价值产品和解决方案的能力”](https://www.stcn.com/article/detail/4027379.html) | www.stcn.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [WAIC 2026](https://www.yicai.com/news/103281216.html) | www.yicai.com | unknown | ➖ | Not evaluated in the latest brief run |
 
 ## 2026-07-18 — 529 articles
 | Article | Outlet | Published | In Report? | Reason |
