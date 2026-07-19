@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-19 09:11 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-19 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-19 09:11 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **3924 unique auto/NEV articles** across **47 outlets**
+## Cumulative: **3940 unique auto/NEV articles** across **47 outlets**
 
 ## New per day
 | date | new articles |
@@ -51,25 +51,25 @@ _Updated 2026-07-19 09:11 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-16 | 150 |
 | 2026-07-17 | 165 |
 | 2026-07-18 | 84 |
-| 2026-07-19 | 11 |
+| 2026-07-19 | 27 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 998 |
-| 36kr.com | 207 |
+| www.d1ev.com | 1001 |
+| 36kr.com | 208 |
 | www.caam.org.cn | 187 |
-| www.stcn.com | 179 |
-| vc.yiche.com | 142 |
+| www.stcn.com | 180 |
+| vc.yiche.com | 145 |
 | auto.gasgoo.com | 138 |
-| egs.stcn.com | 112 |
+| egs.stcn.com | 113 |
 | www.cada.cn | 104 |
 | www.news.cn | 80 |
 | www.yicai.com | 65 |
-| www.cnr.cn | 61 |
+| www.cnr.cn | 65 |
+| news.yiche.com | 60 |
 | autodata.gasgoo.com | 60 |
-| news.yiche.com | 58 |
 | m.21jingji.com | 58 |
 | www.nbd.com.cn | 53 |
 | auto.caijing.com.cn | 45 |
@@ -85,7 +85,7 @@ _Updated 2026-07-19 09:11 | discovery-only, zero LLM tokens | runs every 3h_
 | www.chinanews.com.cn | 13 |
 | cv.ce.cn | 12 |
 | www.ceweekly.cn | 10 |
-| finance.people.com.cn | 9 |
+| finance.people.com.cn | 10 |
 | economy.gmw.cn | 9 |
 | i.gasgoo.com | 6 |
 | www.ce.cn | 4 |
@@ -106,7 +106,15 @@ _Updated 2026-07-19 09:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-19 — 11 articles
+### 2026-07-19 — 27 articles
+- **[中国公司全球化周报](https://36kr.com/p/3902011268433800)** — _36kr.com_ · published 2026-07-19
+  中国公司全球化周报｜百度萝卜快跑进军中亚无人车市场 / 面壁智能上半年累计融资超50亿元 头条大事 迪拜商会主席卢塔谈中迪双向机遇：迪拜商业论坛为企业架起对接桥梁 近年来，中国资本与企业对迪拜的投资规模增速显著。迪拜商会主席兼首席执行官卢塔指出，中企正深度融入迪拜经济，布局覆盖高端制造、数字服务、终端消费产业与商业基础设施等诸多领域。迪拜商会看好双方在 AI
+- **[10:55安徽上半年汽车出口量达100.6万辆](https://egs.stcn.com/news/detail/2317066.html)** — _egs.stcn.com_ · date: unknown
+- **[数智融合持续深化 制造业数字化转型走深向实](https://finance.people.com.cn/n1/2026/0719/c1004-40763558.html)** — _finance.people.com.cn_ · published 2026-07-19
+  数智融合持续深化 制造业数字化转型走深向实 点击播报本文，约 汽车焊装车间里，工业机器人精准完成焊接工序；精密零部件加工厂房中，数字大屏实时跳动生产数据；智能仓储中心内，物料调度程序统筹出入库全流程……如今，数字技术正加速融入制造业各领域环节，驱动传统产业转型升级，为工业经济平稳运行注入动能。 国家统计局最新数据显示，初步核算，上半年第二产业增加值25047
+- **[全新宝马X5将继续推出后驱版车型 将于2027年初上市](https://news.yiche.com/xinchexiaoxi/20260719/11111601148.html)** — _news.yiche.com_ · date: unknown
+  推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 7月19日，已完成全球首发的第五代宝马X5（底盘代号G65）传来重要消息：新车将延续后驱版本的推出计划。据悉，宝马X5 40后驱版将于2027年第一季度正式上市。 外观方面，新一代宝马X5采用了最新
+- **[NIO Day 2026举办城市定为武汉](https://news.yiche.com/zonghexinwen/20260719/09111598095.html)** — _news.yiche.com_ · date: unknown
 - **[为啥现在的“新能源车”越造越重？](https://vc.yiche.com/vplay/12112718.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 领克10:亚洲山脊赛道圈速新王！ 潇岳岳爱开车 岚图梦想家9 选配曝光 每一项都是“尊” 车探巴图鲁 2026北京车展丨魏牌高山9实拍！5.4米旗舰MPV，三排共轨空间解析
 - **[埃安i60选高配还是低配？新手看完轻松拿捏](https://vc.yiche.com/vplay/12131926.html)** — _vc.yiche.com_ · date: unknown
@@ -119,6 +127,20 @@ _Updated 2026-07-19 09:11 | discovery-only, zero LLM tokens | runs every 3h_
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 23.99-30.99万 铂智3X再升级，全系增配不增价，10万级享受越级配置的待遇 车女仔 比亚迪大唐EV和小鹏GX，谁更适配多口之家出行？ W动力 自主五强5月销量盘点
 - **[大空间长续航耐低温，红旗E](https://vc.yiche.com/vplay/12187849.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 8.98-20.18万 矿区烂路随便造？威麟R08 EV纯电皮卡打破新疆矿区市场垄断！ 电车学姐kk 1.5T+电四驱+后桥差速锁 哈弗猛龙带你翻山越岭 试车邦 理想i9官
+- **[探店上汽大众帕萨特 ePro：合资车企再战插混，这次能成功吗？](https://vc.yiche.com/vplay/12161473.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 21.59-25.59万 第一视角体验：路特斯Eletre 车族风 真新能源皮卡来了！14.98万元起！长城炮Hi4-T重磅预售 EC汽车 帕萨特和途观L都有插混了？上汽大
+- **[22.98万的问界M6纯电版香爆了？别只盯入门价错过2万的核心价值](https://vc.yiche.com/vplay/12164854.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 22.98-29.98万 问界M6：我负责优雅，它负责兜底 新视驾 北京车展问界M6迎来大量订单全系标配896线激光雷达+闭式空悬+CDC AutoLook爱路客 试驾问界
+- **[深度体验蔚来ES9 坐过就不想开了！](https://vc.yiche.com/vplay/12187268.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 49.80-62.80万 8.98万起！荣威M7黑马版把百万豪车体验拉满？ 极智电车 为何这台车令他再度惊叹？ 卓越的番茄果1483 万块洗车费险些白花！蔚来ES9被水枪冲
+- **[上半年新注册登记新能源汽车519.5万辆](https://www.cnr.cn/2013qcpd/2015xc/20260719/t20260719_527717869.shtml)** — _www.cnr.cn_ · published 2026-07-19
+  记者日前从公安部交管局获悉，2026年上半年，全国新注册登记汽车1051万辆，其中新能源汽车519.5万辆，占汽车新注册登记量的49.42%，较去年同期提高4.45个百分点。 截至6月底，全国汽车保有量达3.71亿辆，其中，新能源汽车保有量达4897万辆，占汽车总量的13.19%，较去年同期提高2.92个百分点；纯电动汽车保有量3367.5万辆，占新能源汽车
+- **[上半年，5万元以下车型销量跌掉55%](https://www.cnr.cn/2013qcpd/2015xc/20260719/t20260719_527717867.shtml)** — _www.cnr.cn_ · published 2026-07-19
+  2026年上半年的中国车市，出现了令人瞠目的“极端”表现。 一边是5万元以下车型细分市场销量同比暴跌55%，市场份额从2.8%腰斩至1.4%；另一边是40万元以上新能源汽车市场销量同比大涨46%，自主品牌豪取该级别59%份额，在高端市场从“参与者”变成“规则制定者”。 这不是周期性波动，而是结构性重构的开始。 总量承压、结构极致分化，这是上半年国内乘用车市场
+- **[中汽协澄清：新能源车平均车龄仅1.8年系误读](https://www.cnr.cn/2013qcpd/2015xc/20260719/t20260719_527717865.shtml)** — _www.cnr.cn_ · published 2026-07-19
+  中国汽车工业协会后市场分会（以下简称“中汽协后市场分会”）日前发布澄清声明称，有媒体引用分会发布的《2025中国汽车后市场年度发展报告》中部分数据，发布“新能源车平均车龄仅1.8年、消费者3-5年置换电车”等报道，相关内容引发市场误读。 中汽协后市场分会称，“在用车平均车龄”≠“车辆置换周期”≠“车辆平均使用寿命”。 “报告中发布的‘在用车平均车龄’，具体指
+- **[上半年新车销量中新能源占比近50%](https://www.cnr.cn/2013qcpd/2015xc/20260719/t20260719_527717859.shtml)** — _www.cnr.cn_ · published 2026-07-19
+  日前，中国汽车工业协会公布的最新数据显示，今年1至6月份，我国新能源汽车市场产销量、出口量均呈现稳定增长态势。新能源汽车产销量分别完成743.8万辆和744.6万辆，同比分别增长6.7%和7.3%，新能源汽车新车销量达到汽车新车总销量的49.6%。 在出口方面，1至6月份，汽车出口509.6万辆，同比增长65.3%。其中新能源汽车出口235.5万辆，同比增长
 - **[比亚迪巴西工厂第10万辆车下线](https://www.d1ev.com/news/shichang/307470)** — _www.d1ev.com_ · date: unknown
   盖世汽车获悉，当地时间7月16日，比亚迪巴西卡马萨里工厂迎来双重节点：第10万辆新能源汽车正式下线，车型为比亚迪海鸥；同时，工厂在岗员工总数突破5500人。这是该工厂自2025年7月正式投产以来，首次同步披露产能与用工规模的双重量化成绩。 图片来源：比亚迪 据比亚迪巴西分公司介绍，卡马萨里工厂总投资约55亿雷亚尔，占地面积468万平方米，一期规划年产能15万
 - **[锂电池免税政策终结，新能源汽车成本或增1%](https://www.d1ev.com/newsflash/307531)** — _www.d1ev.com_ · published 2026-09-01
@@ -127,8 +149,16 @@ _Updated 2026-07-19 09:11 | discovery-only, zero LLM tokens | runs every 3h_
   7月18日，蔚来汽车宣布NIODay2026城市申办投票结果，武汉以178,854,028票领先，成为NIODay2026的举办城市。今年的申办城市包括长春、重庆、哈尔滨、济南、南京、青岛、武汉、厦门，最终哈尔滨、武汉、厦门进入投票阶段。蔚来官方尚未公布NIODay2026的具体举办时间和活动内容，但根据惯例，预计将有重磅产品发布。 自2017年起，NIOD
 - **[广汽埃安S网约车15万公里后现电池故障！中创新航发声兜底](https://www.d1ev.com/news/qiye/307535)** — _www.d1ev.com_ · date: unknown
   快科技7月19日消息，昨日晚间，中创新航发布《关于中创新航提供广汽埃安AION S电池系统直接维保服务的公告》，宣布针对搭载其电池的部分广汽埃安AION S车辆电池故障问题，直接为车主提供免费检测与维修服务。 据悉，事件的起因是近期投诉平台上集中出现的大量车主反馈。车质网等信息显示，2026年以来，搭载中创新航177Ah磷酸铁锂电池的广汽AION S营运车辆
+- **[专家：车企一定要造电池 卖车钱都被电池厂商赚走了](https://www.d1ev.com/news/qiye/307550)** — _www.d1ev.com_ · date: unknown
+  快科技7月19日消息，日前，全国乘用车市场信息联席会秘书长崔东树发文，针对财政部等三部门发布的电池消费税调整政策，直言整车企业利润正被电池企业大幅挤压，“车企一定要造电池”，否则不可能成为世界级整车企业。 崔东树援引2025年《财富》世界500强数据指出，上榜中国车企共实现147亿美元利润，其中某电池头部企业独占71亿美元，电池以外的整车企业只占百分之十几的
+- **[小鹏图灵VLA二代全球首发，2027年海外交付目标定了！](https://www.d1ev.com/newsflash/307549)** — _www.d1ev.com_ · date: unknown
+  7月19日，小鹏汽车官方发布视频，宣布小鹏图灵第二代VLA（Vehicle Language Assistant）开启高阶智驾全球化新阶段。小鹏汽车官方强调， 自动驾驶的核心是物理AI问题，即理解真实物理世界的运行规律。小鹏图灵第二代VLA模型的起点正是基于这一理念，通过世界模型与VLA的结合，提升模型在真实世界中的理解力与行动力。 小鹏汽车第二代VLA模型
+- **[本田推出32999美元自动驾驶电动割草机，抢占20亿美元市场](https://www.d1ev.com/newsflash/307544)** — _www.d1ev.com_ · date: unknown
+  本田近日推出了一款具备 自动驾驶能力的纯电动割草机ProZisionAutonomousZTR，标志着该公司在园林设备市场的新进展。这款割草机最早于2023年以概念机形式亮相，并于今年1月在美国北卡罗来纳州的动力设备工厂启动量产。目前，这款售价32999美元的AI割草机已开始向经销商发货，本田希望借此抢占美国约20亿美元的商用割草机市场。 ProZision
 - **[埃安与中创新航接连发声！电池质保期延长至8年30万公里，可根据检测结果免费维修或更换电池包](https://www.nbd.com.cn/articles/2026-07-18/4476845.html)** — _www.nbd.com.cn_ · published 2026-07-18
   2026-07-18 23:31:41 每经记者｜黄辛旭 每经编辑｜裴健如 7月18日晚间，广汽埃安新能源汽车股份有限公司（以下简称广汽埃安）通过微信公众号“埃安”发文，宣布对部分搭载177Ah电池车辆质保服务进行升级。 图片来源：埃安官微 “近期，我们收到行驶里程超过15万公里的AION S部分用户反馈动力电池使用出现故障的问题，给大家造成了不便与顾虑，我
+- **[安徽上半年汽车出口量达100.6万辆](https://www.stcn.com/article/detail/4027477.html)** — _www.stcn.com_ · published 2026-07-18
+  证券时报网 李在山 2026-07-18 11:28 人民财讯7月19日电，据安徽日报，“今年上半年，安徽汽车出口量已经突破百万辆，比去年提前了5个月。”近日，合肥海关副关长姜开源介绍。据悉，去年，安徽省成为全国首个汽车年出口突破百万辆的省份；今年仅用6个月，全省汽车出口量就达到100.6万辆，同比增加1.2倍。同期我国汽车出口509.6万辆，同比增长65.
 
 ### 2026-07-18 — 84 articles
 - **[苏州精密轴承“小巨人”冲击IPO，产品应用于机器人、汽车等领域](https://36kr.com/p/3899649439647365)** — _36kr.com_ · published 2026-07-18
