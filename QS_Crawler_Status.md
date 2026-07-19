@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-19 12:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-19 15:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-19 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **3940 unique auto/NEV articles** across **47 outlets**
+## Cumulative: **3949 unique auto/NEV articles** across **47 outlets**
 
 ## New per day
 | date | new articles |
@@ -51,13 +51,13 @@ _Updated 2026-07-19 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-16 | 150 |
 | 2026-07-17 | 165 |
 | 2026-07-18 | 84 |
-| 2026-07-19 | 27 |
+| 2026-07-19 | 36 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 1001 |
+| www.d1ev.com | 1004 |
 | 36kr.com | 208 |
 | www.caam.org.cn | 187 |
 | www.stcn.com | 180 |
@@ -68,7 +68,7 @@ _Updated 2026-07-19 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 | www.news.cn | 80 |
 | www.yicai.com | 65 |
 | www.cnr.cn | 65 |
-| news.yiche.com | 60 |
+| news.yiche.com | 62 |
 | autodata.gasgoo.com | 60 |
 | m.21jingji.com | 58 |
 | www.nbd.com.cn | 53 |
@@ -76,16 +76,16 @@ _Updated 2026-07-19 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 | www.zqrb.cn | 36 |
 | www.xinhuanet.com | 27 |
 | www.jwview.com | 27 |
-| finance.eastmoney.com | 23 |
+| finance.eastmoney.com | 25 |
+| cn.chinadaily.com.cn | 19 |
 | www.gelonghui.com | 18 |
-| cn.chinadaily.com.cn | 18 |
 | m.ce.cn | 17 |
 | qzs.stcn.com | 16 |
 | auto.ce.cn | 16 |
 | www.chinanews.com.cn | 13 |
 | cv.ce.cn | 12 |
+| finance.people.com.cn | 11 |
 | www.ceweekly.cn | 10 |
-| finance.people.com.cn | 10 |
 | economy.gmw.cn | 9 |
 | i.gasgoo.com | 6 |
 | www.ce.cn | 4 |
@@ -106,15 +106,27 @@ _Updated 2026-07-19 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-19 — 27 articles
+### 2026-07-19 — 36 articles
 - **[中国公司全球化周报](https://36kr.com/p/3902011268433800)** — _36kr.com_ · published 2026-07-19
   中国公司全球化周报｜百度萝卜快跑进军中亚无人车市场 / 面壁智能上半年累计融资超50亿元 头条大事 迪拜商会主席卢塔谈中迪双向机遇：迪拜商业论坛为企业架起对接桥梁 近年来，中国资本与企业对迪拜的投资规模增速显著。迪拜商会主席兼首席执行官卢塔指出，中企正深度融入迪拜经济，布局覆盖高端制造、数字服务、终端消费产业与商业基础设施等诸多领域。迪拜商会看好双方在 AI
+- **[新疆阿克苏地区库车市发生3.2级地震 震源深度15公里](https://cn.chinadaily.com.cn/a/202607/19/WS6a5c75cba310d709c2fbe4f4.html)** — _cn.chinadaily.com.cn_ · published 2026-07-19
+  新疆阿克苏地区库车市发生3.2级地震 震源深度15公里 7月19日14时19分，在新疆阿克苏地区库车市（北纬41.38度，东经83.41度）发生3.2级地震，震源深度15公里。 站内搜索 搜狗搜索 中国搜索 订阅 移动 English 首页 时政 时政要闻 评论频道 理论频道 学习时代 两岸频道 资讯 独家 中国日报专稿 传媒动态 双语词解 法院公告 C财经
 - **[10:55安徽上半年汽车出口量达100.6万辆](https://egs.stcn.com/news/detail/2317066.html)** — _egs.stcn.com_ · date: unknown
+- **[江淮汽车李明：抢抓中国汽车品牌向上突破黄金期](https://finance.eastmoney.com/a/202607183811653218.html)** — _finance.eastmoney.com_ · date: unknown
+  中国基金报记者邱德坤 “中国汽车品牌进入向上突破的黄金期。”近日，安徽江淮汽车集团股份有限公司（以下简称江淮汽车）总经理李明向中国基金报记者给出了前述判断。 行业趋势支撑了上述判断。2026年以来，中国乘用车市场迈入存量竞争阶段，但高端车型的销量占比显著提升。 对比价格带来看，多个高端新能源汽车品牌的售价超50万元，尊界更是率先冲进百万元级的豪华车市场，打破
+- **[车船税优惠政策调整：新能源汽车步入市场化新阶段](https://finance.eastmoney.com/a/202607183811441774.html)** — _finance.eastmoney.com_ · published 2027-01-01
+  汽车车船税优惠政策迎来重大制度调整。近日，财政部、税务总局、工业和信息化部三部门联合发布了《关于调整节能汽车、新能源汽车车船税优惠政策的公告》（以下简称《公告》）。 《公告》明确，自2027年1月1日起，取消对节能汽车减半征收车船税政策，取消对纯电动商用车、插电式（含增程式）混合动力汽车、燃料电池商用车免征车船税政策。这意味着，实施了近15年的新能源汽车车船
 - **[数智融合持续深化 制造业数字化转型走深向实](https://finance.people.com.cn/n1/2026/0719/c1004-40763558.html)** — _finance.people.com.cn_ · published 2026-07-19
   数智融合持续深化 制造业数字化转型走深向实 点击播报本文，约 汽车焊装车间里，工业机器人精准完成焊接工序；精密零部件加工厂房中，数字大屏实时跳动生产数据；智能仓储中心内，物料调度程序统筹出入库全流程……如今，数字技术正加速融入制造业各领域环节，驱动传统产业转型升级，为工业经济平稳运行注入动能。 国家统计局最新数据显示，初步核算，上半年第二产业增加值25047
+- **[雅迪电动车探索“骑行+游乐”沉浸式消费新场景](https://finance.people.com.cn/n1/2026/0719/c1004-40763636.html)** — _finance.people.com.cn_ · published 2026-07-19
+  雅迪电动车探索“骑行+游乐”沉浸式消费新场景 点击播报本文，约 武汉欢乐谷主会场。主办方供图 蝉鸣阵阵的盛夏，武汉欢乐谷里游人如织，欢快的游乐设施与轻快的骑行声交织在一起。园区中各个骑行主题体验区游客如织，造型新潮的两轮车整齐排布，游客三五成群围坐打卡、上车试驾，特色主题巡游车队穿梭在林荫步道，年轻人举着相机记录夏日出行新玩法。 7月18日，雅迪第十届717
 - **[全新宝马X5将继续推出后驱版车型 将于2027年初上市](https://news.yiche.com/xinchexiaoxi/20260719/11111601148.html)** — _news.yiche.com_ · date: unknown
   推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 7月19日，已完成全球首发的第五代宝马X5（底盘代号G65）传来重要消息：新车将延续后驱版本的推出计划。据悉，宝马X5 40后驱版将于2027年第一季度正式上市。 外观方面，新一代宝马X5采用了最新
 - **[NIO Day 2026举办城市定为武汉](https://news.yiche.com/zonghexinwen/20260719/09111598095.html)** — _news.yiche.com_ · date: unknown
+- **[小鹏第二代VLA模型打通中欧市场 目标2027年海外交付](https://news.yiche.com/zonghexinwen/20260719/14111605604.html)** — _news.yiche.com_ · date: unknown
+  推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 7月19日，小鹏汽车官宣：第二代VLA模型已实现同一套模型打通中国与欧洲，目前正加快推进欧洲市场量产适配，目标2027年逐步向海外用户交付。 小鹏汽车官方称：自动驾驶本质是物理AI的问题。理解真实物
+- **[埃安部分搭载177Ah电池车辆质保服务升级 延至8年30万公里](https://news.yiche.com/zonghexinwen/20260719/14111605124.html)** — _news.yiche.com_ · date: unknown
+  推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 近日，埃安发布关于广汽埃安部分搭载177Ah电池车辆质保服务升级的公告。本次公告明确三大保障政策：延长电池质保至8年30万公里、大数据预警+免费检测更换、营运车辆维修超5天发放停运补贴。 据悉，故障
 - **[为啥现在的“新能源车”越造越重？](https://vc.yiche.com/vplay/12112718.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 领克10:亚洲山脊赛道圈速新王！ 潇岳岳爱开车 岚图梦想家9 选配曝光 每一项都是“尊” 车探巴图鲁 2026北京车展丨魏牌高山9实拍！5.4米旗舰MPV，三排共轨空间解析
 - **[埃安i60选高配还是低配？新手看完轻松拿捏](https://vc.yiche.com/vplay/12131926.html)** — _vc.yiche.com_ · date: unknown
@@ -155,6 +167,12 @@ _Updated 2026-07-19 12:12 | discovery-only, zero LLM tokens | runs every 3h_
   7月19日，小鹏汽车官方发布视频，宣布小鹏图灵第二代VLA（Vehicle Language Assistant）开启高阶智驾全球化新阶段。小鹏汽车官方强调， 自动驾驶的核心是物理AI问题，即理解真实物理世界的运行规律。小鹏图灵第二代VLA模型的起点正是基于这一理念，通过世界模型与VLA的结合，提升模型在真实世界中的理解力与行动力。 小鹏汽车第二代VLA模型
 - **[本田推出32999美元自动驾驶电动割草机，抢占20亿美元市场](https://www.d1ev.com/newsflash/307544)** — _www.d1ev.com_ · date: unknown
   本田近日推出了一款具备 自动驾驶能力的纯电动割草机ProZisionAutonomousZTR，标志着该公司在园林设备市场的新进展。这款割草机最早于2023年以概念机形式亮相，并于今年1月在美国北卡罗来纳州的动力设备工厂启动量产。目前，这款售价32999美元的AI割草机已开始向经销商发货，本田希望借此抢占美国约20亿美元的商用割草机市场。 ProZision
+- **[新能源车电池故障频发，中创新航电芯问题引维权潮](https://www.d1ev.com/newsflash/307565)** — _www.d1ev.com_ · date: unknown
+  近日，动力 电池行业遭遇大规模质量投诉，主要涉及搭载中创新航177Ah磷酸铁锂电芯的新能源车辆。自7月上旬至中旬，相关故障投诉达182例，主要车型为广汽埃安网约车，同时包括小鹏、零跑部分车型。故障车辆里程多集中在15万至30万公里区间，即原厂15万公里电池质保临界点。车主反映，车辆在无外力损伤情况下，续航能力急剧下降，部分车辆甚至在行驶中突然断电，电池包鼓包
+- **[长城H1012小时订单破2万，混动新物种来袭！](https://www.d1ev.com/newsflash/307564)** — _www.d1ev.com_ · date: unknown
+  7月19日，长城汽车宣布旗下新车型“大家庭方盒子新物种”长城H10在12小时内订单量达到22615台。新车共推出4款车型，预售价21.98万元起，限时权益价21.48万元起。长城H10车身尺寸根据布局分为两个版本，五座版长宽高为5138/2050/1970mm，六座版车长增加至5299mm，全系轴距统一为3000mm。新车搭载1.5T 发动机+双电机组成的H
+- **[比亚迪8系唐震撼登场，850km纯电续航挑战高端SUV市场](https://www.d1ev.com/newsflash/307558)** — _www.d1ev.com_ · date: unknown
+  今日，比亚迪王朝网销售事业部总经理路天通过微博曝光了8系唐的官方渲染图，正式官宣王朝网旗下重磅SUV新成员——8系唐。这款王朝旗舰IP的全新力作正式进入公众视野，或将于下半年正式上市。8系唐新车渲染图展现了千山翠双色车身，光影流转间，翠色漆面在明暗交替中呈现出细腻通透的高级质感，再次演绎出了盛唐的恢弘气韵。前脸与9系大唐一脉相承，气场十足，一眼便可识别出王朝
 - **[埃安与中创新航接连发声！电池质保期延长至8年30万公里，可根据检测结果免费维修或更换电池包](https://www.nbd.com.cn/articles/2026-07-18/4476845.html)** — _www.nbd.com.cn_ · published 2026-07-18
   2026-07-18 23:31:41 每经记者｜黄辛旭 每经编辑｜裴健如 7月18日晚间，广汽埃安新能源汽车股份有限公司（以下简称广汽埃安）通过微信公众号“埃安”发文，宣布对部分搭载177Ah电池车辆质保服务进行升级。 图片来源：埃安官微 “近期，我们收到行驶里程超过15万公里的AION S部分用户反馈动力电池使用出现故障的问题，给大家造成了不便与顾虑，我
 - **[安徽上半年汽车出口量达100.6万辆](https://www.stcn.com/article/detail/4027477.html)** — _www.stcn.com_ · published 2026-07-18
