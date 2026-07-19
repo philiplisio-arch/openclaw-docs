@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-19 21:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-20 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-19 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **3971 unique auto/NEV articles** across **47 outlets**
+## Cumulative: **3978 unique auto/NEV articles** across **47 outlets**
 
 ## New per day
 | date | new articles |
@@ -52,6 +52,7 @@ _Updated 2026-07-19 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-17 | 165 |
 | 2026-07-18 | 84 |
 | 2026-07-19 | 58 |
+| 2026-07-20 | 7 |
 
 ## By outlet
 | outlet | articles |
@@ -60,8 +61,8 @@ _Updated 2026-07-19 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 | www.d1ev.com | 1009 |
 | 36kr.com | 208 |
 | www.caam.org.cn | 187 |
-| www.stcn.com | 181 |
-| vc.yiche.com | 153 |
+| www.stcn.com | 182 |
+| vc.yiche.com | 158 |
 | auto.gasgoo.com | 139 |
 | egs.stcn.com | 114 |
 | www.cada.cn | 104 |
@@ -69,8 +70,8 @@ _Updated 2026-07-19 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 | www.cnr.cn | 66 |
 | www.yicai.com | 65 |
 | news.yiche.com | 62 |
+| m.21jingji.com | 60 |
 | autodata.gasgoo.com | 60 |
-| m.21jingji.com | 59 |
 | www.nbd.com.cn | 53 |
 | auto.caijing.com.cn | 45 |
 | www.zqrb.cn | 38 |
@@ -105,6 +106,22 @@ _Updated 2026-07-19 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 | economy.caijing.com.cn | 1 |
 
 ## Articles captured by day (newest first)
+
+### 2026-07-20 — 7 articles
+- **[新势力半年考：零跑登顶，理想小鹏下滑](https://m.21jingji.com/article/20260719/herald/24a9ce2475fa02660d5ea826f71d7529.html)** — _m.21jingji.com_ · published 2026-07-19
+  新势力半年考：零跑登顶，理想小鹏下滑 21世纪经济报道 21财经APP 郑植文 2026-07-19 23:02 21世纪经济报道记者 郑植文 2026年上半年，新势力车企座次重排。 中汽协数据显示，今年1至5月，国内汽车产销分别同比下降4.6%和4.2%，乘用车产销分别同比下降6.6%和6.2%；但新能源汽车仍保持增长，1至5月产销分别同比增长2.5%和3
+- **[张雪820现身！10w冲六座混动大SUV！五菱星光L](https://vc.yiche.com/vplay/12198706.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 11.28-13.58万 限时10.98万元起！五菱星光L把大六座带到了10万级 车研社 2026北京车展：理想L9 Livis全球首发，售55.98万元，5月15日上市
+- **[10万内搭载激光雷达！长安启源Q05家用纯电SUV配置很有看点](https://vc.yiche.com/vplay/12196900.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 7.99-11.49万 启境GT7实测， 加速制动噪音什么水平？ AL频道 8.99万元起，全新Q05激光极智版上市，淘宝天猫上的"甄选好车" 车友邦网 携手葡萄牙国家队，
+- **[吉利银河TT，是如何做到帅与全能兼具的？](https://vc.yiche.com/vplay/12196319.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 连创两项世界纪录！吉利银河雷霆16合1智能电驱发布：吉利银河TT 将首搭 方向对了汽车频道 2026 款巴博斯 700 改装版劳斯莱斯库里南 — 声浪、内饰与外观实
+- **[15万多买合资C级车，丰田铂智7空间宽敞但噪音明显](https://vc.yiche.com/vplay/12157000.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 16.98-22.98万 上市5年依旧能打？探店2026款极氪001 它还是更优解吗 天天汽车V 拆解铂智7座椅：工艺瑕疵还是无用设计？看完就懂了 车道漫谈 深度体验铂智7
+- **[一公里花费不到2毛钱，可油可电可甲醇，试驾吉利星耀6 EF](https://vc.yiche.com/vplay/12194898.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 7.48-12.08万 在北京车展，看到了超跑的另一种可能 车评教父 吉利汽车4月销量23.5万辆，新能源与海外表现强劲 我为车狂 吉利银河累计销量超210万辆｜“银河速度
+- **[一天办8场活动，半年上新630款！车市上演极致“内卷”](https://www.stcn.com/article/detail/4027769.html)** — _www.stcn.com_ · date: unknown
+  7月16日，国内汽车市场迎来一轮集中发布。 据不完全统计，当日共有8家车企举办品牌活动，其中6场为新车上市发布会、2场为品牌技术和用户庆典。 八家车企扎堆发声 7月16日，吉利汽车在无锡发布了“雷霆16合1智能电驱”系统，作为目前集成度最高的电驱系统，雷霆实现了电机、电控、减速器等16项硬件和功能的跨域深度集成。根据吉利释放的信息，该系统将率先搭载于新车银河
 
 ### 2026-07-19 — 58 articles
 - **[中国公司全球化周报](https://36kr.com/p/3902011268433800)** — _36kr.com_ · published 2026-07-19
