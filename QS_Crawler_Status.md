@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-20 00:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-20 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-20 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **3978 unique auto/NEV articles** across **47 outlets**
+## Cumulative: **3983 unique auto/NEV articles** across **47 outlets**
 
 ## New per day
 | date | new articles |
@@ -52,7 +52,7 @@ _Updated 2026-07-20 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-17 | 165 |
 | 2026-07-18 | 84 |
 | 2026-07-19 | 58 |
-| 2026-07-20 | 7 |
+| 2026-07-20 | 12 |
 
 ## By outlet
 | outlet | articles |
@@ -62,7 +62,7 @@ _Updated 2026-07-20 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 36kr.com | 208 |
 | www.caam.org.cn | 187 |
 | www.stcn.com | 182 |
-| vc.yiche.com | 158 |
+| vc.yiche.com | 162 |
 | auto.gasgoo.com | 139 |
 | egs.stcn.com | 114 |
 | www.cada.cn | 104 |
@@ -74,7 +74,7 @@ _Updated 2026-07-20 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 | autodata.gasgoo.com | 60 |
 | www.nbd.com.cn | 53 |
 | auto.caijing.com.cn | 45 |
-| www.zqrb.cn | 38 |
+| www.zqrb.cn | 39 |
 | www.xinhuanet.com | 27 |
 | www.jwview.com | 27 |
 | finance.eastmoney.com | 25 |
@@ -107,7 +107,7 @@ _Updated 2026-07-20 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-20 — 7 articles
+### 2026-07-20 — 12 articles
 - **[新势力半年考：零跑登顶，理想小鹏下滑](https://m.21jingji.com/article/20260719/herald/24a9ce2475fa02660d5ea826f71d7529.html)** — _m.21jingji.com_ · published 2026-07-19
   新势力半年考：零跑登顶，理想小鹏下滑 21世纪经济报道 21财经APP 郑植文 2026-07-19 23:02 21世纪经济报道记者 郑植文 2026年上半年，新势力车企座次重排。 中汽协数据显示，今年1至5月，国内汽车产销分别同比下降4.6%和4.2%，乘用车产销分别同比下降6.6%和6.2%；但新能源汽车仍保持增长，1至5月产销分别同比增长2.5%和3
 - **[张雪820现身！10w冲六座混动大SUV！五菱星光L](https://vc.yiche.com/vplay/12198706.html)** — _vc.yiche.com_ · date: unknown
@@ -120,8 +120,18 @@ _Updated 2026-07-20 00:12 | discovery-only, zero LLM tokens | runs every 3h_
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 16.98-22.98万 上市5年依旧能打？探店2026款极氪001 它还是更优解吗 天天汽车V 拆解铂智7座椅：工艺瑕疵还是无用设计？看完就懂了 车道漫谈 深度体验铂智7
 - **[一公里花费不到2毛钱，可油可电可甲醇，试驾吉利星耀6 EF](https://vc.yiche.com/vplay/12194898.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 7.48-12.08万 在北京车展，看到了超跑的另一种可能 车评教父 吉利汽车4月销量23.5万辆，新能源与海外表现强劲 我为车狂 吉利银河累计销量超210万辆｜“银河速度
+- **[保留越野纯粹性，混动版真值，全新坦克300L上市](https://vc.yiche.com/vplay/12198349.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 19.98-23.48万 长城汽车以契约精神打造中国改装文化 出行范儿 KM雷神坦克300RC模型车 壮丽的茑萝藤1541 小鹏GX正式上市：SEPA 3.0架构 + 图灵
+- **[20万级选好开的纯电，还得是智己LS6！](https://vc.yiche.com/vplay/12111514.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 22.49-28.49万 52度增程LS6用于纯电跨城通勤是否可行？ alexazibo280118 智己LS6到底适不适合北方地区?看用户真是需求! #尹哥普及新能源 尹
+- **[车展看不够？4S店深挖全新猛士M817！真实优势全讲透](https://vc.yiche.com/vplay/12197551.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 29.99-39.99万 中国新能源汽车全球市场份额超过六成，多家车企公布5月销量，市场持续向好 ritaping980214 出口转内销，比亚迪鲨鱼皮卡车型即将到来 Li
+- **[新车速递丨全新坦克300L，惊喜不止轴距加长？](https://vc.yiche.com/vplay/12197131.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 24.98-25.98万 全新坦克300预售：25.98万起 涨价了到底值不值 新能车 领克也存在不踩刹车即可挂挡的问题。 暖夏至121016 国产越野封神之作，脱胎换骨全
 - **[一天办8场活动，半年上新630款！车市上演极致“内卷”](https://www.stcn.com/article/detail/4027769.html)** — _www.stcn.com_ · date: unknown
   7月16日，国内汽车市场迎来一轮集中发布。 据不完全统计，当日共有8家车企举办品牌活动，其中6场为新车上市发布会、2场为品牌技术和用户庆典。 八家车企扎堆发声 7月16日，吉利汽车在无锡发布了“雷霆16合1智能电驱”系统，作为目前集成度最高的电驱系统，雷霆实现了电机、电控、减速器等16项硬件和功能的跨域深度集成。根据吉利释放的信息，该系统将率先搭载于新车银河
+- **[安徽今年汽车出口突破100万辆较去年提前5个月](https://www.zqrb.cn/auto/qichedongtai/2026-07-19/A1784468975959.html)** — _www.zqrb.cn_ · published 2026-07-19
+  本报记者 徐一鸣 近日，安徽省政府新闻办召开新闻发布会，就安徽省上半年外贸情况进行介绍。《证券日报》记者从会上获悉，今年上半年，安徽省汽车出口100.6万辆，同比增加1.2倍，出口汽车价值1043.6亿元，同比增加1.1倍。 据记者梳理，2025年1月份至11月份安徽省汽车出口突破100万辆，而今年汽车出口量突破100万辆比去年提前了5个月。从“前11个月破
 
 ### 2026-07-19 — 58 articles
 - **[中国公司全球化周报](https://36kr.com/p/3902011268433800)** — _36kr.com_ · published 2026-07-19
