@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-20 03:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-20 06:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-20 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **3983 unique auto/NEV articles** across **47 outlets**
+## Cumulative: **3988 unique auto/NEV articles** across **47 outlets**
 
 ## New per day
 | date | new articles |
@@ -52,17 +52,17 @@ _Updated 2026-07-20 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-17 | 165 |
 | 2026-07-18 | 84 |
 | 2026-07-19 | 58 |
-| 2026-07-20 | 12 |
+| 2026-07-20 | 17 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 1009 |
+| www.d1ev.com | 1012 |
 | 36kr.com | 208 |
 | www.caam.org.cn | 187 |
 | www.stcn.com | 182 |
-| vc.yiche.com | 162 |
+| vc.yiche.com | 164 |
 | auto.gasgoo.com | 139 |
 | egs.stcn.com | 114 |
 | www.cada.cn | 104 |
@@ -107,7 +107,7 @@ _Updated 2026-07-20 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-20 — 12 articles
+### 2026-07-20 — 17 articles
 - **[新势力半年考：零跑登顶，理想小鹏下滑](https://m.21jingji.com/article/20260719/herald/24a9ce2475fa02660d5ea826f71d7529.html)** — _m.21jingji.com_ · published 2026-07-19
   新势力半年考：零跑登顶，理想小鹏下滑 21世纪经济报道 21财经APP 郑植文 2026-07-19 23:02 21世纪经济报道记者 郑植文 2026年上半年，新势力车企座次重排。 中汽协数据显示，今年1至5月，国内汽车产销分别同比下降4.6%和4.2%，乘用车产销分别同比下降6.6%和6.2%；但新能源汽车仍保持增长，1至5月产销分别同比增长2.5%和3
 - **[张雪820现身！10w冲六座混动大SUV！五菱星光L](https://vc.yiche.com/vplay/12198706.html)** — _vc.yiche.com_ · date: unknown
@@ -128,6 +128,16 @@ _Updated 2026-07-20 03:12 | discovery-only, zero LLM tokens | runs every 3h_
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 29.99-39.99万 中国新能源汽车全球市场份额超过六成，多家车企公布5月销量，市场持续向好 ritaping980214 出口转内销，比亚迪鲨鱼皮卡车型即将到来 Li
 - **[新车速递丨全新坦克300L，惊喜不止轴距加长？](https://vc.yiche.com/vplay/12197131.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 24.98-25.98万 全新坦克300预售：25.98万起 涨价了到底值不值 新能车 领克也存在不踩刹车即可挂挡的问题。 暖夏至121016 国产越野封神之作，脱胎换骨全
+- **[比亚迪秦MAX预告图发布 定位高于秦L 插混纯电双线出击](https://vc.yiche.com/vplay/12129679.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 ［转载］宾利欧陆 GT 极速版驾驶第一视角 megankong030809 家族史上尺寸最大车型 比亚迪秦MAX新车预告 小号撩车N 比亚迪秦MAX实车亮相，配备顶
+- **[全新小鹏P7终于来了，科技复古车的味道真棒！](https://vc.yiche.com/vplay/12199301.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 20.38-30.18万 越野电摩也能办成音乐节？79bike品牌日太热闹了 离子公路 中国还有哪家车企能如此给予车主情感价值吗？ ambermeng 风云T11车大灯 小
+- **[首搭Hi4-Z混动零百4.3秒，全新坦克300上市19.98万元起 - 第一电动网](https://www.d1ev.com/news/qiye/307617)** — _www.d1ev.com_ · date: unknown
+  7月19日，“自由 去闯”全新坦克300在杭州电竞中心正式上市。新车全面升级，覆盖多种动力，全新坦克300L Hi4-T售价24.98万元、全新坦克300L Hi4-Z售价25.98万元；燃油版同步上市，全新坦克300 2.4T柴油版售价23.48万元、全新坦克300征服者售价21.68万元、全新坦克300挑战者售价19.98万元。 全新坦克300作为专为爱
+- **[19.98万起！全新坦克300L上市，纯电续航251km，动力升级更强悍](https://www.d1ev.com/newsflash/307616)** — _www.d1ev.com_ · date: unknown
+  7月19日，全新坦克300正式上市，推出5款车型，起售价19.98万元。新车在车头设计上进行了更新，新增3种颜色，并首次搭载Hi4-Z动力系统，CLTC纯电续航达到251公里。外观上，坦克300保持了方盒子造型和复古圆灯设计，中网车标Logo更新为黑化的“Tank”英文标识，增强品牌辨识度。内饰方面，采用简约几何形体设计，配备12.3英寸2K高清仪表屏与15
+- **[乐道L90销量破6万！2026款新升级，智能驾驶芯片+豪华内饰](https://www.d1ev.com/newsflash/307615)** — _www.d1ev.com_ · date: unknown
+  7月19日，乐道L90在浙江湖州完成了第60000台的交付。2026款乐道L90于4月21日上市，提供六座和七座两个版本共五款车型，整车购买价区间为26.58-29.98万元， 电池租用方案购买价区间为17.98-21.38万元。新车在外观上保持了现款车型的设计，新增了瞭望塔式激光雷达，搭载蔚来自研全球首颗5nm车规级智驾芯片神玑NX9031和蔚来世界模型整
 - **[一天办8场活动，半年上新630款！车市上演极致“内卷”](https://www.stcn.com/article/detail/4027769.html)** — _www.stcn.com_ · date: unknown
   7月16日，国内汽车市场迎来一轮集中发布。 据不完全统计，当日共有8家车企举办品牌活动，其中6场为新车上市发布会、2场为品牌技术和用户庆典。 八家车企扎堆发声 7月16日，吉利汽车在无锡发布了“雷霆16合1智能电驱”系统，作为目前集成度最高的电驱系统，雷霆实现了电机、电控、减速器等16项硬件和功能的跨域深度集成。根据吉利释放的信息，该系统将率先搭载于新车银河
 - **[安徽今年汽车出口突破100万辆较去年提前5个月](https://www.zqrb.cn/auto/qichedongtai/2026-07-19/A1784468975959.html)** — _www.zqrb.cn_ · published 2026-07-19
