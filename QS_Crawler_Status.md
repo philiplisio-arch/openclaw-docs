@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-19 18:13 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-19 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-19 18:13 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **3961 unique auto/NEV articles** across **47 outlets**
+## Cumulative: **3971 unique auto/NEV articles** across **47 outlets**
 
 ## New per day
 | date | new articles |
@@ -51,29 +51,29 @@ _Updated 2026-07-19 18:13 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-16 | 150 |
 | 2026-07-17 | 165 |
 | 2026-07-18 | 84 |
-| 2026-07-19 | 48 |
+| 2026-07-19 | 58 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 1007 |
+| www.d1ev.com | 1009 |
 | 36kr.com | 208 |
 | www.caam.org.cn | 187 |
-| www.stcn.com | 180 |
-| vc.yiche.com | 152 |
+| www.stcn.com | 181 |
+| vc.yiche.com | 153 |
 | auto.gasgoo.com | 139 |
-| egs.stcn.com | 113 |
+| egs.stcn.com | 114 |
 | www.cada.cn | 104 |
 | www.news.cn | 80 |
+| www.cnr.cn | 66 |
 | www.yicai.com | 65 |
-| www.cnr.cn | 65 |
 | news.yiche.com | 62 |
 | autodata.gasgoo.com | 60 |
 | m.21jingji.com | 59 |
 | www.nbd.com.cn | 53 |
 | auto.caijing.com.cn | 45 |
-| www.zqrb.cn | 36 |
+| www.zqrb.cn | 38 |
 | www.xinhuanet.com | 27 |
 | www.jwview.com | 27 |
 | finance.eastmoney.com | 25 |
@@ -82,7 +82,7 @@ _Updated 2026-07-19 18:13 | discovery-only, zero LLM tokens | runs every 3h_
 | m.ce.cn | 17 |
 | qzs.stcn.com | 16 |
 | auto.ce.cn | 16 |
-| www.chinanews.com.cn | 13 |
+| www.chinanews.com.cn | 15 |
 | cv.ce.cn | 12 |
 | finance.people.com.cn | 11 |
 | www.ceweekly.cn | 10 |
@@ -106,13 +106,15 @@ _Updated 2026-07-19 18:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-19 — 48 articles
+### 2026-07-19 — 58 articles
 - **[中国公司全球化周报](https://36kr.com/p/3902011268433800)** — _36kr.com_ · published 2026-07-19
   中国公司全球化周报｜百度萝卜快跑进军中亚无人车市场 / 面壁智能上半年累计融资超50亿元 头条大事 迪拜商会主席卢塔谈中迪双向机遇：迪拜商业论坛为企业架起对接桥梁 近年来，中国资本与企业对迪拜的投资规模增速显著。迪拜商会主席兼首席执行官卢塔指出，中企正深度融入迪拜经济，布局覆盖高端制造、数字服务、终端消费产业与商业基础设施等诸多领域。迪拜商会看好双方在 AI
 - **[这家新势力将改写车市格局？](https://auto.gasgoo.com/news/202607/19I70466406C109.shtml)** — _auto.gasgoo.com_ · date: unknown
 - **[新疆阿克苏地区库车市发生3.2级地震 震源深度15公里](https://cn.chinadaily.com.cn/a/202607/19/WS6a5c75cba310d709c2fbe4f4.html)** — _cn.chinadaily.com.cn_ · published 2026-07-19
   新疆阿克苏地区库车市发生3.2级地震 震源深度15公里 7月19日14时19分，在新疆阿克苏地区库车市（北纬41.38度，东经83.41度）发生3.2级地震，震源深度15公里。 站内搜索 搜狗搜索 中国搜索 订阅 移动 English 首页 时政 时政要闻 评论频道 理论频道 学习时代 两岸频道 资讯 独家 中国日报专稿 传媒动态 双语词解 法院公告 C财经
 - **[10:55安徽上半年汽车出口量达100.6万辆](https://egs.stcn.com/news/detail/2317066.html)** — _egs.stcn.com_ · date: unknown
+- **[优必选携手韩国伙伴，推动人形机器人落地汽车零部件制造场景](https://egs.stcn.com/news/detail/2317167.html)** — _egs.stcn.com_ · date: unknown
+  证券时报·e公司 07-19 20:56 人民财讯7月19日电，近日，优必选韩国合作伙伴德山JMR（Duksan JM Robotics，DSJMR）与韩国领先汽车零部件企业AJIN Industrial正式签署合作谅解备忘录。未来，优必选、德山JMR、AJIN Industrial将三方合作，共同推动Cruzr Y1、Walker S2等工业人形机器人在韩
 - **[江淮汽车李明：抢抓中国汽车品牌向上突破黄金期](https://finance.eastmoney.com/a/202607183811653218.html)** — _finance.eastmoney.com_ · date: unknown
   中国基金报记者邱德坤 “中国汽车品牌进入向上突破的黄金期。”近日，安徽江淮汽车集团股份有限公司（以下简称江淮汽车）总经理李明向中国基金报记者给出了前述判断。 行业趋势支撑了上述判断。2026年以来，中国乘用车市场迈入存量竞争阶段，但高端车型的销量占比显著提升。 对比价格带来看，多个高端新能源汽车品牌的售价超50万元，尊界更是率先冲进百万元级的豪华车市场，打破
 - **[车船税优惠政策调整：新能源汽车步入市场化新阶段](https://finance.eastmoney.com/a/202607183811441774.html)** — _finance.eastmoney.com_ · published 2027-01-01
@@ -162,6 +164,12 @@ _Updated 2026-07-19 18:13 | discovery-only, zero LLM tokens | runs every 3h_
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 9.99-12.99万 10万预算买全能SUV，带小蓝灯的吉利第4代博越L值得考虑？ 汽车甜甜圈 第四代博越L小蓝灯版，连燃油车都开始卷智能化了 公路时刻 最丑奔驰车？新C
 - **[试驾雷克萨斯L500h：不逐流，自风雅](https://vc.yiche.com/vplay/12192273.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 88.50-120.00万 价值100万的雷克萨斯LS500h，在急加速时仍展现出不凡的声浪，霸气十足。 三春雨mint 雷克萨斯LS460L 追风逐电苹果4839 开着雷
+- **[新车来袭 江淮悍途PHEV在澳洲上市](https://vc.yiche.com/vplay/12169222.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 17.98-33.18万 乐道L80租电15.68万起，Pro、Max+、Ultra+三个配置怎么选更合适？ 电车实验室 沉浸式感受蔚来ES9的音响 小巷花店分享宝 北京车
+- **[广西贵港西江工业园区洪灾后有序复工 新能源电动车产业链加速恢复](https://www.chinanews.com.cn/sh/shipin/cns-d/2026/07-19/news1062596.shtml)** — _www.chinanews.com.cn_ · published 2026-07-19
+  发布时间：2026年07月19日 20:28 来源：中国新闻网 受台风“美莎克”带来的强降雨影响，广西贵港市遭遇严重洪涝灾害，贵港西江工业园区大面积受淹。园区内中国—东盟新能源电动车生产基地，作为中国重要的新能源电动车产业集聚基地，整车及零部件全产业链受损明显。 目前，园区清淤消杀、设备检测检修工作有序开展，多家入驻企业陆续复工复产。贵港市港北区人民政府副区
+- **[工业遗产串珠成链 长春汽车故事鲜活出圈](https://www.chinanews.com.cn/cj/2026/07-19/10662562.shtml)** — _www.chinanews.com.cn_ · published 2026-07-19
+  工业遗产串珠成链 长春汽车故事鲜活出圈 中新网长春7月19日电 (高龙安 李彦国)大客车内，演员们身穿不同年代的工作服，用情景剧的方式再现1953年中国一汽建厂以来发生的感人故事：荒原上，建设者们在严寒中施工；老厂房里，工人们奋战33个昼夜，手工打造出新中国第一辆红旗高级轿车；智能工厂里，平均54秒下线一台整车…… 这是由一汽资产经营管理有限公司文旅部门(简
 - **[上半年新注册登记新能源汽车519.5万辆](https://www.cnr.cn/2013qcpd/2015xc/20260719/t20260719_527717869.shtml)** — _www.cnr.cn_ · published 2026-07-19
   记者日前从公安部交管局获悉，2026年上半年，全国新注册登记汽车1051万辆，其中新能源汽车519.5万辆，占汽车新注册登记量的49.42%，较去年同期提高4.45个百分点。 截至6月底，全国汽车保有量达3.71亿辆，其中，新能源汽车保有量达4897万辆，占汽车总量的13.19%，较去年同期提高2.92个百分点；纯电动汽车保有量3367.5万辆，占新能源汽车
 - **[上半年，5万元以下车型销量跌掉55%](https://www.cnr.cn/2013qcpd/2015xc/20260719/t20260719_527717867.shtml)** — _www.cnr.cn_ · published 2026-07-19
@@ -170,6 +178,8 @@ _Updated 2026-07-19 18:13 | discovery-only, zero LLM tokens | runs every 3h_
   中国汽车工业协会后市场分会（以下简称“中汽协后市场分会”）日前发布澄清声明称，有媒体引用分会发布的《2025中国汽车后市场年度发展报告》中部分数据，发布“新能源车平均车龄仅1.8年、消费者3-5年置换电车”等报道，相关内容引发市场误读。 中汽协后市场分会称，“在用车平均车龄”≠“车辆置换周期”≠“车辆平均使用寿命”。 “报告中发布的‘在用车平均车龄’，具体指
 - **[上半年新车销量中新能源占比近50%](https://www.cnr.cn/2013qcpd/2015xc/20260719/t20260719_527717859.shtml)** — _www.cnr.cn_ · published 2026-07-19
   日前，中国汽车工业协会公布的最新数据显示，今年1至6月份，我国新能源汽车市场产销量、出口量均呈现稳定增长态势。新能源汽车产销量分别完成743.8万辆和744.6万辆，同比分别增长6.7%和7.3%，新能源汽车新车销量达到汽车新车总销量的49.6%。 在出口方面，1至6月份，汽车出口509.6万辆，同比增长65.3%。其中新能源汽车出口235.5万辆，同比增长
+- **[每周质量报告丨先办牌照再造车 非标电动车黑灰产链条曝光](https://www.cnr.cn/newscenter/native/gd/20260719/t20260719_527718699.shtml)** — _www.cnr.cn_ · published 2026-07-19
+  去年9月，电动自行车安全技术新国标正式落地实施。新国标通过防篡改等多重硬件设计，从源头上最大限度限制了车辆违规改装和提速，目的是减少交通意外事故的发生。然而近期，记者接到线索，部分电动自行车专卖店、生产企业依然在暗中违规生产、销售超出国家标准的电动自行车。实际情况究竟如何？来看记者的调查。 专卖店销售“零公里二手车” 经销商提前办理大量车牌 浙江台州是我国电
 - **[比亚迪巴西工厂第10万辆车下线](https://www.d1ev.com/news/shichang/307470)** — _www.d1ev.com_ · date: unknown
   盖世汽车获悉，当地时间7月16日，比亚迪巴西卡马萨里工厂迎来双重节点：第10万辆新能源汽车正式下线，车型为比亚迪海鸥；同时，工厂在岗员工总数突破5500人。这是该工厂自2025年7月正式投产以来，首次同步披露产能与用工规模的双重量化成绩。 图片来源：比亚迪 据比亚迪巴西分公司介绍，卡马萨里工厂总投资约55亿雷亚尔，占地面积468万平方米，一期规划年产能15万
 - **[锂电池免税政策终结，新能源汽车成本或增1%](https://www.d1ev.com/newsflash/307531)** — _www.d1ev.com_ · published 2026-09-01
@@ -196,10 +206,20 @@ _Updated 2026-07-19 18:13 | discovery-only, zero LLM tokens | runs every 3h_
   近日，腾势汽车曝光了全新中大型纯电轿跑Z9S的道路测试照片。新车以豪华智能和运动姿态为卖点，车身尺寸为5090/1980/1490mm，轴距达到3025mm，超长轴距为后排乘客提供了更宽敞的空间。外观设计上，Z9S采用了腾势新一代“优雅之势”设计语言，分体式双星冕流星灯组和细长日行灯拓宽了视觉宽度，车身侧面的大倾角溜背线条和无框车门设计，展现了低趴修长的车身
 - **[广汽埃安电池故障频发，质保升级至8年30万公里应对维权](https://www.d1ev.com/newsflash/307583)** — _www.d1ev.com_ · date: unknown
   近日，广汽埃安多款车型因配套中创新航177Ah磷酸铁锂 电池质量问题引发车主投诉。问题包括电池鼓包、漏液和电芯炸裂等，主要发生在埃安S系列营运车辆上，故障多集中在15至30万公里区间。部分车主在车辆里程超过原厂8年15万公里电池质保标准后，遭遇续航缩水和无法充电等问题，自行更换电池需花费数万元。 面对维权，广汽埃安与中创新航发布致歉公告，并推出三项售后举措：
+- **[中国汽车出口量激增65.3%，6月首破百万大关！](https://www.d1ev.com/newsflash/307605)** — _www.d1ev.com_ · date: unknown
+  今日，据海关总署发布的数据，2026年上半年中国商品贸易出口额达到21258亿美元，同比增长17%。在这一增长中，汽车出口表现尤为突出，上半年出口额达到918亿美元，同比增长54%。6月份单月汽车出口额为182亿美元，同比增长70%，创下单月出口量首次突破100万辆的记录。此外，汽车零部件出口额在上半年达到513亿美元，同比增长7%，6月份出口额为98亿美元
+- **[坦克300新车型发布：19.98万起售，动力升级，智能驾驶新体验！](https://www.d1ev.com/newsflash/307599)** — _www.d1ev.com_ · date: unknown
+  7月19日，全新坦克300系列正式上市，共推出5款车型，售价从19.98万元起。新车在外观上延续了方盒子造型与复古圆灯设计，中网处的车标Logo改为黑化的“TANK”英文标识，提升品牌辨识度。车身尺寸方面，燃油版长宽高分别为4750×1930×1903mm，轴距2750mm；而L版长宽高分别为4886×1984×1927mm，轴距3010mm，轴距相较老款加
 - **[埃安与中创新航接连发声！电池质保期延长至8年30万公里，可根据检测结果免费维修或更换电池包](https://www.nbd.com.cn/articles/2026-07-18/4476845.html)** — _www.nbd.com.cn_ · published 2026-07-18
   2026-07-18 23:31:41 每经记者｜黄辛旭 每经编辑｜裴健如 7月18日晚间，广汽埃安新能源汽车股份有限公司（以下简称广汽埃安）通过微信公众号“埃安”发文，宣布对部分搭载177Ah电池车辆质保服务进行升级。 图片来源：埃安官微 “近期，我们收到行驶里程超过15万公里的AION S部分用户反馈动力电池使用出现故障的问题，给大家造成了不便与顾虑，我
 - **[安徽上半年汽车出口量达100.6万辆](https://www.stcn.com/article/detail/4027477.html)** — _www.stcn.com_ · published 2026-07-18
   证券时报网 李在山 2026-07-18 11:28 人民财讯7月19日电，据安徽日报，“今年上半年，安徽汽车出口量已经突破百万辆，比去年提前了5个月。”近日，合肥海关副关长姜开源介绍。据悉，去年，安徽省成为全国首个汽车年出口突破百万辆的省份；今年仅用6个月，全省汽车出口量就达到100.6万辆，同比增加1.2倍。同期我国汽车出口509.6万辆，同比增长65.
+- **[优必选携手韩国伙伴，推动人形机器人落地汽车零部件制造场景](https://www.stcn.com/article/detail/4027696.html)** — _www.stcn.com_ · published 2026-07-16
+  证券时报网 李在山 2026-07-16 16:09 人民财讯7月19日电，近日，优必选韩国合作伙伴德山JMR（Duksan JM Robotics，DSJMR）与韩国领先汽车零部件企业AJIN Industrial正式签署合作谅解备忘录。未来，优必选、德山JMR、AJIN Industrial将三方合作，共同推动Cruzr Y1、Walker S2等工业人
+- **[锂电池消费税调整 车企造电池迎来新机遇](https://www.zqrb.cn/finance/hangyedongtai/2026-07-19/A1784314293755.html)** — _www.zqrb.cn_ · published 2026-07-19
+  本报记者 李雯珊 7月17日，财政部、海关总署、税务总局联合发布《关于调整部分电池消费税政策的公告》。公告显示，自2026年9月1日起，对锂离子蓄电池等成熟电池产品按2%税率征收消费税，2027年9月1日起升至4%；同时对钠离子电池、固态电池等新兴技术实施阶段性免税至2028年12月31日。 “锂电池消费税调整，是对整车企业造电池的有力助推，有利于中国汽车产
+- **[江淮汽车：累计回购公司股份1546700股](https://www.zqrb.cn/gscy/ggkx/2026-07-19/A1784314293749.html)** — _www.zqrb.cn_ · published 2026-07-19
+  证券日报APP 安卓 IOS 证券日报微信 证券日报微博 证券日报网讯 7月19日，江淮汽车发布公告称，截至2026年7月17日，公司通过集中竞价交易方式已累计回购股份1，546，700股，占公司总股本的比例为0.0686%，成交最高价为23.37元/股，成交最低价为21.40元/股，支付的总金额为人民币34，994，797元（不含交易费用）。 （编辑 任世
 
 ### 2026-07-18 — 84 articles
 - **[苏州精密轴承“小巨人”冲击IPO，产品应用于机器人、汽车等领域](https://36kr.com/p/3899649439647365)** — _36kr.com_ · published 2026-07-18
