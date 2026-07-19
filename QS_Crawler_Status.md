@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-19 15:13 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-19 18:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-19 15:13 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **3949 unique auto/NEV articles** across **47 outlets**
+## Cumulative: **3961 unique auto/NEV articles** across **47 outlets**
 
 ## New per day
 | date | new articles |
@@ -51,18 +51,18 @@ _Updated 2026-07-19 15:13 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-16 | 150 |
 | 2026-07-17 | 165 |
 | 2026-07-18 | 84 |
-| 2026-07-19 | 36 |
+| 2026-07-19 | 48 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 1004 |
+| www.d1ev.com | 1007 |
 | 36kr.com | 208 |
 | www.caam.org.cn | 187 |
 | www.stcn.com | 180 |
-| vc.yiche.com | 145 |
-| auto.gasgoo.com | 138 |
+| vc.yiche.com | 152 |
+| auto.gasgoo.com | 139 |
 | egs.stcn.com | 113 |
 | www.cada.cn | 104 |
 | www.news.cn | 80 |
@@ -70,7 +70,7 @@ _Updated 2026-07-19 15:13 | discovery-only, zero LLM tokens | runs every 3h_
 | www.cnr.cn | 65 |
 | news.yiche.com | 62 |
 | autodata.gasgoo.com | 60 |
-| m.21jingji.com | 58 |
+| m.21jingji.com | 59 |
 | www.nbd.com.cn | 53 |
 | auto.caijing.com.cn | 45 |
 | www.zqrb.cn | 36 |
@@ -106,9 +106,10 @@ _Updated 2026-07-19 15:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-19 — 36 articles
+### 2026-07-19 — 48 articles
 - **[中国公司全球化周报](https://36kr.com/p/3902011268433800)** — _36kr.com_ · published 2026-07-19
   中国公司全球化周报｜百度萝卜快跑进军中亚无人车市场 / 面壁智能上半年累计融资超50亿元 头条大事 迪拜商会主席卢塔谈中迪双向机遇：迪拜商业论坛为企业架起对接桥梁 近年来，中国资本与企业对迪拜的投资规模增速显著。迪拜商会主席兼首席执行官卢塔指出，中企正深度融入迪拜经济，布局覆盖高端制造、数字服务、终端消费产业与商业基础设施等诸多领域。迪拜商会看好双方在 AI
+- **[这家新势力将改写车市格局？](https://auto.gasgoo.com/news/202607/19I70466406C109.shtml)** — _auto.gasgoo.com_ · date: unknown
 - **[新疆阿克苏地区库车市发生3.2级地震 震源深度15公里](https://cn.chinadaily.com.cn/a/202607/19/WS6a5c75cba310d709c2fbe4f4.html)** — _cn.chinadaily.com.cn_ · published 2026-07-19
   新疆阿克苏地区库车市发生3.2级地震 震源深度15公里 7月19日14时19分，在新疆阿克苏地区库车市（北纬41.38度，东经83.41度）发生3.2级地震，震源深度15公里。 站内搜索 搜狗搜索 中国搜索 订阅 移动 English 首页 时政 时政要闻 评论频道 理论频道 学习时代 两岸频道 资讯 独家 中国日报专稿 传媒动态 双语词解 法院公告 C财经
 - **[10:55安徽上半年汽车出口量达100.6万辆](https://egs.stcn.com/news/detail/2317066.html)** — _egs.stcn.com_ · date: unknown
@@ -120,6 +121,8 @@ _Updated 2026-07-19 15:13 | discovery-only, zero LLM tokens | runs every 3h_
   数智融合持续深化 制造业数字化转型走深向实 点击播报本文，约 汽车焊装车间里，工业机器人精准完成焊接工序；精密零部件加工厂房中，数字大屏实时跳动生产数据；智能仓储中心内，物料调度程序统筹出入库全流程……如今，数字技术正加速融入制造业各领域环节，驱动传统产业转型升级，为工业经济平稳运行注入动能。 国家统计局最新数据显示，初步核算，上半年第二产业增加值25047
 - **[雅迪电动车探索“骑行+游乐”沉浸式消费新场景](https://finance.people.com.cn/n1/2026/0719/c1004-40763636.html)** — _finance.people.com.cn_ · published 2026-07-19
   雅迪电动车探索“骑行+游乐”沉浸式消费新场景 点击播报本文，约 武汉欢乐谷主会场。主办方供图 蝉鸣阵阵的盛夏，武汉欢乐谷里游人如织，欢快的游乐设施与轻快的骑行声交织在一起。园区中各个骑行主题体验区游客如织，造型新潮的两轮车整齐排布，游客三五成群围坐打卡、上车试驾，特色主题巡游车队穿梭在林荫步道，年轻人举着相机记录夏日出行新玩法。 7月18日，雅迪第十届717
+- **[从直营转经销翻车，智己汽车渠道转型错在哪？](https://m.21jingji.com/article/20260719/herald/540977fe4e03f4d844bc146a9575ae64.html)** — _m.21jingji.com_ · date: unknown
+  从直营转经销翻车，智己汽车渠道转型错在哪？ 7月16日，上汽集团第一亿台里程碑之作智己LS9 Hyper正式上市，但智己汽车却因昆明、珠海、上海等多地经销商暴雷陷入舆论风暴。车主付全款无法提车、合格证被抵押无法上牌、门店员工被欠薪数月，引发群体维权。 对此，智己汽车官方紧急回应，成立专项工作组进驻昆明，承诺厂家垫资赎回合格证、保障订单权益，并表示将全力加快处
 - **[全新宝马X5将继续推出后驱版车型 将于2027年初上市](https://news.yiche.com/xinchexiaoxi/20260719/11111601148.html)** — _news.yiche.com_ · date: unknown
   推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 7月19日，已完成全球首发的第五代宝马X5（底盘代号G65）传来重要消息：新车将延续后驱版本的推出计划。据悉，宝马X5 40后驱版将于2027年第一季度正式上市。 外观方面，新一代宝马X5采用了最新
 - **[NIO Day 2026举办城市定为武汉](https://news.yiche.com/zonghexinwen/20260719/09111598095.html)** — _news.yiche.com_ · date: unknown
@@ -145,6 +148,20 @@ _Updated 2026-07-19 15:13 | discovery-only, zero LLM tokens | runs every 3h_
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 22.98-29.98万 问界M6：我负责优雅，它负责兜底 新视驾 北京车展问界M6迎来大量订单全系标配896线激光雷达+闭式空悬+CDC AutoLook爱路客 试驾问界
 - **[深度体验蔚来ES9 坐过就不想开了！](https://vc.yiche.com/vplay/12187268.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 49.80-62.80万 8.98万起！荣威M7黑马版把百万豪车体验拉满？ 极智电车 为何这台车令他再度惊叹？ 卓越的番茄果1483 万块洗车费险些白花！蔚来ES9被水枪冲
+- **[硬核实力、旗舰体验 比亚迪大唐EV申城试驾体验](https://vc.yiche.com/vplay/12193967.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 23.99-30.99万 纯电续航950km？比亚迪大唐置换价21.89万起！ 爱车兵团 吉利北京车展将发布中国首台原生Robotaxi原型车，能无人自主下线 罗辑车评 自
+- **[试驾埃安N60，大空间，省电，开起来很畅快](https://vc.yiche.com/vplay/12193883.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 10.98-12.98万 智界 V9实测：大车开出小车感，座椅按摩太上头 兔小黑Flymz 10-15万级标配激光雷达，稳坐销量第一！ 车主指南 当10万级的车都标配激光雷
+- **[一不小心被你学会了低成本汽车养护小妙招！](https://vc.yiche.com/vplay/11372608.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 领克也存在不踩刹车即可挂挡的问题。 暖夏至121016 智己LS6、极氪7X对手来了？昊铂S600预售，双腔空悬+四驱+激光雷达，20W拿下 车知事 第一视角体验：路特斯E
+- **[二代刀片电池+闪充技术，领汇e7比亚迪体系背书，网约车司机严选！](https://vc.yiche.com/vplay/12193673.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 9.58-14.58万 又想舒服又想野？岚图泰山X8把事办了 之乎车也 10万级最好开的营运车？领汇e7好坐更好开性价比和出行品质兼容！ 玩车的卷毛 长城炮Hi4-T——为
+- **[限时权益价31.68万起，魏牌V9X豪华家庭版Ultra上市，新车解读](https://vc.yiche.com/vplay/12193246.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 33.18-38.98万 2026款比亚迪海狮08外观展示 汽车人bingo 魏牌V9X家庭版正式上市！ 薯条旅人喝茶骑士 又一对明星夫妇对魏牌V9X出手了！张智霖、袁咏仪
+- **[告别燃油车智能拉胯！第四代博越L油电同智是什么水平](https://vc.yiche.com/vplay/12193281.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 9.99-12.99万 10万预算买全能SUV，带小蓝灯的吉利第4代博越L值得考虑？ 汽车甜甜圈 第四代博越L小蓝灯版，连燃油车都开始卷智能化了 公路时刻 最丑奔驰车？新C
+- **[试驾雷克萨斯L500h：不逐流，自风雅](https://vc.yiche.com/vplay/12192273.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 88.50-120.00万 价值100万的雷克萨斯LS500h，在急加速时仍展现出不凡的声浪，霸气十足。 三春雨mint 雷克萨斯LS460L 追风逐电苹果4839 开着雷
 - **[上半年新注册登记新能源汽车519.5万辆](https://www.cnr.cn/2013qcpd/2015xc/20260719/t20260719_527717869.shtml)** — _www.cnr.cn_ · published 2026-07-19
   记者日前从公安部交管局获悉，2026年上半年，全国新注册登记汽车1051万辆，其中新能源汽车519.5万辆，占汽车新注册登记量的49.42%，较去年同期提高4.45个百分点。 截至6月底，全国汽车保有量达3.71亿辆，其中，新能源汽车保有量达4897万辆，占汽车总量的13.19%，较去年同期提高2.92个百分点；纯电动汽车保有量3367.5万辆，占新能源汽车
 - **[上半年，5万元以下车型销量跌掉55%](https://www.cnr.cn/2013qcpd/2015xc/20260719/t20260719_527717867.shtml)** — _www.cnr.cn_ · published 2026-07-19
@@ -173,6 +190,12 @@ _Updated 2026-07-19 15:13 | discovery-only, zero LLM tokens | runs every 3h_
   7月19日，长城汽车宣布旗下新车型“大家庭方盒子新物种”长城H10在12小时内订单量达到22615台。新车共推出4款车型，预售价21.98万元起，限时权益价21.48万元起。长城H10车身尺寸根据布局分为两个版本，五座版长宽高为5138/2050/1970mm，六座版车长增加至5299mm，全系轴距统一为3000mm。新车搭载1.5T 发动机+双电机组成的H
 - **[比亚迪8系唐震撼登场，850km纯电续航挑战高端SUV市场](https://www.d1ev.com/newsflash/307558)** — _www.d1ev.com_ · date: unknown
   今日，比亚迪王朝网销售事业部总经理路天通过微博曝光了8系唐的官方渲染图，正式官宣王朝网旗下重磅SUV新成员——8系唐。这款王朝旗舰IP的全新力作正式进入公众视野，或将于下半年正式上市。8系唐新车渲染图展现了千山翠双色车身，光影流转间，翠色漆面在明暗交替中呈现出细腻通透的高级质感，再次演绎出了盛唐的恢弘气韵。前脸与9系大唐一脉相承，气场十足，一眼便可识别出王朝
+- **[小鹏MONAL03首周末试驾爆表，纯电增程双版本12.38万起](https://www.d1ev.com/newsflash/307590)** — _www.d1ev.com_ · date: unknown
+  7月19日，小鹏汽车宣布，其新车型MONAL03上市后的首个周末迎来了客流高峰，单日试驾量创下小鹏历史车型上市同期新高，同时带动了小鹏全系车型的试驾量也达到了历史新高。小鹏MONAL03于7月16日晚正式上市，提供纯电和增程两个版本，起售价为12.38万元。增程版计划于8月下旬开始交付。 小鹏MONAL03的尺寸为4650或4672x1920x1600mm，
+- **[腾势Z9S纯电轿跑曝光：2秒破百，续航920km，豪华智能新标杆](https://www.d1ev.com/newsflash/307588)** — _www.d1ev.com_ · date: unknown
+  近日，腾势汽车曝光了全新中大型纯电轿跑Z9S的道路测试照片。新车以豪华智能和运动姿态为卖点，车身尺寸为5090/1980/1490mm，轴距达到3025mm，超长轴距为后排乘客提供了更宽敞的空间。外观设计上，Z9S采用了腾势新一代“优雅之势”设计语言，分体式双星冕流星灯组和细长日行灯拓宽了视觉宽度，车身侧面的大倾角溜背线条和无框车门设计，展现了低趴修长的车身
+- **[广汽埃安电池故障频发，质保升级至8年30万公里应对维权](https://www.d1ev.com/newsflash/307583)** — _www.d1ev.com_ · date: unknown
+  近日，广汽埃安多款车型因配套中创新航177Ah磷酸铁锂 电池质量问题引发车主投诉。问题包括电池鼓包、漏液和电芯炸裂等，主要发生在埃安S系列营运车辆上，故障多集中在15至30万公里区间。部分车主在车辆里程超过原厂8年15万公里电池质保标准后，遭遇续航缩水和无法充电等问题，自行更换电池需花费数万元。 面对维权，广汽埃安与中创新航发布致歉公告，并推出三项售后举措：
 - **[埃安与中创新航接连发声！电池质保期延长至8年30万公里，可根据检测结果免费维修或更换电池包](https://www.nbd.com.cn/articles/2026-07-18/4476845.html)** — _www.nbd.com.cn_ · published 2026-07-18
   2026-07-18 23:31:41 每经记者｜黄辛旭 每经编辑｜裴健如 7月18日晚间，广汽埃安新能源汽车股份有限公司（以下简称广汽埃安）通过微信公众号“埃安”发文，宣布对部分搭载177Ah电池车辆质保服务进行升级。 图片来源：埃安官微 “近期，我们收到行驶里程超过15万公里的AION S部分用户反馈动力电池使用出现故障的问题，给大家造成了不便与顾虑，我
 - **[安徽上半年汽车出口量达100.6万辆](https://www.stcn.com/article/detail/4027477.html)** — _www.stcn.com_ · published 2026-07-18
