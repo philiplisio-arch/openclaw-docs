@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-19 06:11 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-19 09:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-19 06:11 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **3922 unique auto/NEV articles** across **47 outlets**
+## Cumulative: **3924 unique auto/NEV articles** across **47 outlets**
 
 ## New per day
 | date | new articles |
@@ -51,17 +51,17 @@ _Updated 2026-07-19 06:11 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-16 | 150 |
 | 2026-07-17 | 165 |
 | 2026-07-18 | 84 |
-| 2026-07-19 | 9 |
+| 2026-07-19 | 11 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 997 |
+| www.d1ev.com | 998 |
 | 36kr.com | 207 |
 | www.caam.org.cn | 187 |
 | www.stcn.com | 179 |
-| vc.yiche.com | 141 |
+| vc.yiche.com | 142 |
 | auto.gasgoo.com | 138 |
 | egs.stcn.com | 112 |
 | www.cada.cn | 104 |
@@ -106,7 +106,7 @@ _Updated 2026-07-19 06:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-19 — 9 articles
+### 2026-07-19 — 11 articles
 - **[为啥现在的“新能源车”越造越重？](https://vc.yiche.com/vplay/12112718.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 领克10:亚洲山脊赛道圈速新王！ 潇岳岳爱开车 岚图梦想家9 选配曝光 每一项都是“尊” 车探巴图鲁 2026北京车展丨魏牌高山9实拍！5.4米旗舰MPV，三排共轨空间解析
 - **[埃安i60选高配还是低配？新手看完轻松拿捏](https://vc.yiche.com/vplay/12131926.html)** — _vc.yiche.com_ · date: unknown
@@ -117,12 +117,16 @@ _Updated 2026-07-19 06:11 | discovery-only, zero LLM tokens | runs every 3h_
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 17.98-19.98万 国产旗舰大SUV！比亚迪唐EV新款车展亮相，全家出行无压力 我为车狂 比亚迪唐新款来了！三款配置怎么选？ 星驰电走朱雀8614 比亚迪唐系列车型讲
 - **[试驾比亚迪大唐EV四驱版，热销的原因找到了？](https://vc.yiche.com/vplay/12185679.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 23.99-30.99万 铂智3X再升级，全系增配不增价，10万级享受越级配置的待遇 车女仔 比亚迪大唐EV和小鹏GX，谁更适配多口之家出行？ W动力 自主五强5月销量盘点
+- **[大空间长续航耐低温，红旗E](https://vc.yiche.com/vplay/12187849.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 8.98-20.18万 矿区烂路随便造？威麟R08 EV纯电皮卡打破新疆矿区市场垄断！ 电车学姐kk 1.5T+电四驱+后桥差速锁 哈弗猛龙带你翻山越岭 试车邦 理想i9官
 - **[比亚迪巴西工厂第10万辆车下线](https://www.d1ev.com/news/shichang/307470)** — _www.d1ev.com_ · date: unknown
   盖世汽车获悉，当地时间7月16日，比亚迪巴西卡马萨里工厂迎来双重节点：第10万辆新能源汽车正式下线，车型为比亚迪海鸥；同时，工厂在岗员工总数突破5500人。这是该工厂自2025年7月正式投产以来，首次同步披露产能与用工规模的双重量化成绩。 图片来源：比亚迪 据比亚迪巴西分公司介绍，卡马萨里工厂总投资约55亿雷亚尔，占地面积468万平方米，一期规划年产能15万
 - **[锂电池免税政策终结，新能源汽车成本或增1%](https://www.d1ev.com/newsflash/307531)** — _www.d1ev.com_ · published 2026-09-01
   近日，财政部、海关总署、税务总局联合发布公告，宣布自2026年9月1日起，对锂原 电池、锂离子 蓄电池等电池产品恢复征收消费税，结束了国内超过11年的锂电池免征消费税政策。这一政策调整标志着新能源汽车税收优惠逐步退出，与燃油车税制并轨。消费税作为价内税，将增加电池企业成本，可能影响新能源汽车终端售价。 具体来看，纯电车型的单车造车成本将增加396元至1200
 - **[武汉高票当选！蔚来NIODay2026举办城市揭晓](https://www.d1ev.com/newsflash/307521)** — _www.d1ev.com_ · date: unknown
   7月18日，蔚来汽车宣布NIODay2026城市申办投票结果，武汉以178,854,028票领先，成为NIODay2026的举办城市。今年的申办城市包括长春、重庆、哈尔滨、济南、南京、青岛、武汉、厦门，最终哈尔滨、武汉、厦门进入投票阶段。蔚来官方尚未公布NIODay2026的具体举办时间和活动内容，但根据惯例，预计将有重磅产品发布。 自2017年起，NIOD
+- **[广汽埃安S网约车15万公里后现电池故障！中创新航发声兜底](https://www.d1ev.com/news/qiye/307535)** — _www.d1ev.com_ · date: unknown
+  快科技7月19日消息，昨日晚间，中创新航发布《关于中创新航提供广汽埃安AION S电池系统直接维保服务的公告》，宣布针对搭载其电池的部分广汽埃安AION S车辆电池故障问题，直接为车主提供免费检测与维修服务。 据悉，事件的起因是近期投诉平台上集中出现的大量车主反馈。车质网等信息显示，2026年以来，搭载中创新航177Ah磷酸铁锂电池的广汽AION S营运车辆
 - **[埃安与中创新航接连发声！电池质保期延长至8年30万公里，可根据检测结果免费维修或更换电池包](https://www.nbd.com.cn/articles/2026-07-18/4476845.html)** — _www.nbd.com.cn_ · published 2026-07-18
   2026-07-18 23:31:41 每经记者｜黄辛旭 每经编辑｜裴健如 7月18日晚间，广汽埃安新能源汽车股份有限公司（以下简称广汽埃安）通过微信公众号“埃安”发文，宣布对部分搭载177Ah电池车辆质保服务进行升级。 图片来源：埃安官微 “近期，我们收到行驶里程超过15万公里的AION S部分用户反馈动力电池使用出现故障的问题，给大家造成了不便与顾虑，我
 
