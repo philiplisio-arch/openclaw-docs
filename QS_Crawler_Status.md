@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-20 18:13 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-20 21:15 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-20 18:13 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **4070 unique auto/NEV articles** across **47 outlets**
+## Cumulative: **4112 unique auto/NEV articles** across **47 outlets**
 
 ## New per day
 | date | new articles |
@@ -52,34 +52,34 @@ _Updated 2026-07-20 18:13 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-17 | 165 |
 | 2026-07-18 | 84 |
 | 2026-07-19 | 58 |
-| 2026-07-20 | 99 |
+| 2026-07-20 | 141 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 1033 |
-| 36kr.com | 213 |
+| www.d1ev.com | 1041 |
+| 36kr.com | 215 |
 | www.caam.org.cn | 187 |
-| www.stcn.com | 185 |
-| vc.yiche.com | 166 |
-| auto.gasgoo.com | 144 |
+| www.stcn.com | 186 |
+| vc.yiche.com | 171 |
+| auto.gasgoo.com | 152 |
 | egs.stcn.com | 116 |
 | www.cada.cn | 106 |
 | www.news.cn | 81 |
+| autodata.gasgoo.com | 75 |
 | www.cnr.cn | 74 |
-| m.21jingji.com | 68 |
-| www.yicai.com | 67 |
-| autodata.gasgoo.com | 67 |
-| news.yiche.com | 66 |
-| www.nbd.com.cn | 57 |
+| m.21jingji.com | 70 |
+| www.yicai.com | 68 |
+| news.yiche.com | 67 |
+| www.nbd.com.cn | 60 |
 | auto.caijing.com.cn | 47 |
 | www.zqrb.cn | 39 |
 | www.jwview.com | 28 |
 | www.xinhuanet.com | 27 |
-| finance.eastmoney.com | 25 |
+| finance.eastmoney.com | 26 |
+| cn.chinadaily.com.cn | 20 |
 | www.gelonghui.com | 19 |
-| cn.chinadaily.com.cn | 19 |
 | m.ce.cn | 17 |
 | qzs.stcn.com | 16 |
 | auto.ce.cn | 16 |
@@ -91,8 +91,8 @@ _Updated 2026-07-20 18:13 | discovery-only, zero LLM tokens | runs every 3h_
 | i.gasgoo.com | 7 |
 | www.ce.cn | 4 |
 | industry.caijing.com.cn | 4 |
+| guancha.gmw.cn | 4 |
 | cnews.chinadaily.com.cn | 4 |
-| guancha.gmw.cn | 3 |
 | bgimg.ce.cn | 3 |
 | m.gmw.cn | 2 |
 | life.gmw.cn | 2 |
@@ -107,7 +107,7 @@ _Updated 2026-07-20 18:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-20 — 99 articles
+### 2026-07-20 — 141 articles
 - **[全款十几万打水漂，又一车企经销商暴雷，压库冲量正在逼死渠道](https://36kr.com/p/3899691428807817)** — _36kr.com_ · published 2026-07-20
   全款十几万打水漂，又一车企经销商暴雷，压库冲量正在逼死渠道 买个车，风险居然这么大？ 近期昆明、珠海等多个地区智己汽车经销商暴雷一事，在网上疯传。多位消费者反馈，在门店付完钱后，门店突然出现经营异常，既无法提车，也不能退款，智己汽车虽表示会为他们兜底，但目前未能提供任何解决方案，只有一条安抚短信。 在接受新浪财经「次世代车研所」栏目采访时，智己汽车表示，由于
 - **[WAIC汽车大洗牌：世界模型开战，无图L4量产，燃油老车原地复活](https://36kr.com/p/3902492574614918)** — _36kr.com_ · published 2026-07-20
@@ -118,6 +118,10 @@ _Updated 2026-07-20 18:13 | discovery-only, zero LLM tokens | runs every 3h_
   世界杯夺冠的西班牙，引入中国汽车+中国工人 刚刚在2026世界杯上击败阿根廷夺冠的西班牙，开始对中国汽车大摇橄榄枝。 根据一份阐述西班牙政府振兴汽车工业蓝图的工作报告，受欢迎的不只是中国汽车公司，还包括中国工人。 宁德时代与斯泰兰蒂斯联合建立的电池工厂，将从中国引入工人建设。奇瑞和北汽也将在西班牙投资，成为“旗舰合资项目”。 该报告原定于7月17日发布，而彭
 - **[五年内多出几十万辆新能源汽车，海南准备好了吗？](https://36kr.com/p/3903387892532867)** — _36kr.com_ · published 2026-07-20
   五年内多出几十万辆新能源汽车，海南准备好了吗？ 海南禁售燃油车进入倒计时。 近日发布的《“十五五”海南国家生态文明试验区规划》（下称《规划》）提出，平稳推进2030年禁售燃油车。 按照《规划》，目标到2030年，海南新能源汽车保有量占比预计提升至45%。同时，全省公共服务和社会运营领域新增和更换车辆、私人用车领域新增和更换车辆新能源占比均达到100%，车桩比
+- **[理想汽车成立芯片公司](https://36kr.com/p/3903910247663488)** — _36kr.com_ · published 2026-07-20
+  理想汽车成立芯片公司 理想汽车成立新公司，经营范围包含集成电路芯片设计。 车东西7月20日消息，日前，理想汽车成立了一家名为“芯创智核（上海）科技有限公司”的公司。 根据网络平台信息显示，芯创智核（上海）科技有限公司成立于2026年7月13日，注册资本10万元，注册地址位于中国（上海）自由贸易试验区张衡路200号2幢3层，经营范围包含技术服务、技术开发、集成
+- **[小米汽车的新大腿，能否打破僵局？](https://36kr.com/p/3903924985382534)** — _36kr.com_ · published 2026-07-20
+  小米汽车的新大腿，能否打破僵局？ 2026年1月3日，雷军给小米汽车定了一个今年的小目标：全年交付55万辆。 如今看来，压力有些大。 2026年上半年，小米汽车累计交付量约为18万辆。这意味着，如果要完成目标，接下来每个月平均需交付约6万辆。 小米汽车需要新的大腿。而放眼望去，目前堪当重任的可能只有——小米增程车。 在SU7、YU7之后，小米终于正式切入了中
 - **[埃安即将发布首台搭载全新logo车型](https://auto.caijing.com.cn/2026/0720/5172099.shtml)** — _auto.caijing.com.cn_ · published 2026-07-20
   7月19日，昊铂埃安BU总裁张雄在昊铂埃安用户节上表示，埃安将推出全新车系，其中首款车型定位中大型纯电轿车，将搭载埃安全新logo。新车计划于7月28日亮相，目标成为年轻用户的首款超级纯电。 埃安即将发布首台搭载全新logo车型 来源：财经网作者：闫祺2026-07-20 11:43 导语 新车计划于7月28日亮相，目标成为年轻用户的首款超级纯电。 编辑：靖
 - **[全新坦克300杭州上市，售价19.98万元起，多动力版本齐发](https://auto.caijing.com.cn/2026/0720/5172087.shtml)** — _auto.caijing.com.cn_ · date: unknown
@@ -131,6 +135,21 @@ _Updated 2026-07-20 18:13 | discovery-only, zero LLM tokens | runs every 3h_
   2026年7月17日至20日，2026世界人工智能大会（WAIC）在上海盛大举行。开普勒携全系新品与多场景实景作业演示重磅亮相。现场特设的重载麒麟机器人乘骑体验区，其自重300公斤、载重近1吨的硬核性能引来观众围观。 图片来源：开普勒 本次大会，开普勒重磅发布全球首款混动架构四足机器人——麒麟全系系列。全系搭载自研行星滚柱丝杠核心硬件，与工业设备技术同源，主
 - **[人形机器人第一股，杀进韩国汽车产线](https://auto.gasgoo.com/news/202607/20I70466548C601.shtml)** — _auto.gasgoo.com_ · date: unknown
   盖世汽车获悉，优必选韩国合作伙伴德山JMR（Duksan JM Robotics，DSJMR）已于近日与韩国领先汽车零部件企业AJIN Industrial正式签署合作谅解备忘录。 未来，优必选、德山JMR、AJIN Industrial将三方合作，共同推进Cruzr Y1、Walker S2等工业人形机器人在韩国首个汽车零部件生产产线的验证项目，推动人形机
+- **[新能源汽车三电系统感知质量研讨会暨团体标准启动会在京成功举办](https://auto.gasgoo.com/news/202607/20I70466568C501.shtml)** — _auto.gasgoo.com_ · date: unknown
+  日前，新能源汽车三电系统感知质量研讨会暨《新能源汽车电池、电机及电控系统用户感知质量评价指南》团体标准（以下简称“团体标准”）启动会在中国质量检验检测科学研究院成功举办。 会议汇聚质量监管、科研院所、行业协会以及整车与供应链企业的多位专家与代表，正式启动团体标准的编制工作，并围绕三电系统感知质量评价的关键维度、行业痛点与品质优化落地路径等议题展开深入研讨。会
+- **[东风汽车计划2027年在加拿大推出两款电动车型](https://auto.gasgoo.com/news/202607/20I70466436C501.shtml)** — _auto.gasgoo.com_ · date: unknown
+  盖世汽车讯 东风汽车计划于2027年在加拿大市场推出Box 01（又名Nammi Box）和Vigo两款纯电动车型，目标售价均低于35,000加元（约合25,000美元）。该公司于本周在蒙特利尔举办活动，展示了包括上述两款车型在内的多款产品，并向媒体明确了其进入加拿大市场的具体车型与定价策略。 今年早些时候，加拿大达成一项协议，允许每年最多49,000辆中国
+- **[2026年多款电动车型退出美国市场，行业调整持续深化](https://auto.gasgoo.com/news/202607/20I70466488C101.shtml)** — _auto.gasgoo.com_ · date: unknown
+  盖世汽车讯 截至2026年7月，包括本田Prologue、现代Ioniq 6、日产Ariya、特斯拉Model S/X、大众ID.4及ID Buzz、沃尔沃EX30、Polestar全系车型在内的多款电动汽车已确认退出或暂停在美国市场的销售。这一系列调整反映出美国电动车市场在政策变动、贸易壁垒与企业战略转型等多重因素影响下的结构性变化。 本田于7月16日正式
+- **[丰田发布皇冠跨界车改款设计预告，计划2026年9月中旬上市](https://auto.gasgoo.com/news/202607/20I70466493C107.shtml)** — _auto.gasgoo.com_ · date: unknown
+  盖世汽车讯 丰田汽车公司于7月15日首次公开了“皇冠·跨界车”（Crown Crossover）改款车型的外观设计。此次发布的图片为原型车，官方表示最终量产版本仍有可能调整，新车计划于2026年9月中旬正式发售。 从已公布的照片来看，该车采用黑与白双色涂装方案。尽管具体配置和性能参数尚未披露，但可明显看出车辆尾部设计有所更新。丰田方面称，新款车型实现了“具有
+- **[丰田Innova Zenix中期改款路试曝光，预计2026年底或2027年上市](https://auto.gasgoo.com/news/202607/20I70466491C101.shtml)** — _auto.gasgoo.com_ · date: unknown
+  盖世汽车讯 丰田已在印度开始对Innova Hycross中期改款车型进行道路测试。该车型预计将于2026年底或2027年正式推出，并将带来外观设计、座舱配置及舒适性等方面的多项更新。在印尼市场，Innova Hycross以“丰田Innova Zenix”之名销售，因此此次改款的升级内容有望同步应用于未来的Zenix改款车型。 据Rushlane援引最新谍
+- **[法拉利将拍卖首款电动车型Luce的首台量产车](https://auto.gasgoo.com/news/202607/20I70466514C501.shtml)** — _auto.gasgoo.com_ · date: unknown
+  盖世汽车讯 法拉利将于今年8月在蒙特雷汽车周（Monterey Car Week）拍卖其首款电动车型Luce的首台量产车——底盘编号为0的Chassis 0。该车由法拉利Tailor Made定制项目打造，拍卖所得预计将达110万美元（约合800万元人民币），全部款项将捐赠给法拉利基金会。 法拉利表示，Chassis 0以“光”为主题进行专属定制，采用名为M
+- **[现代发布电动车，暂无计划引入美国市场](https://auto.gasgoo.com/news/202607/20I70466555C107.shtml)** — _auto.gasgoo.com_ · date: unknown
+- **[丰田计划在越南推出Veloz Hybrid，初期进口销售，2027年转为本地组装](https://auto.gasgoo.com/news/202607/20I70466458C101.shtml)** — _auto.gasgoo.com_ · date: unknown
+  盖世汽车讯 丰田汽车正准备将Veloz Hybrid引入越南市场，为小型MPV细分市场增加一款搭载混合动力技术的七座多功能车型。根据多方消息，该车型初期将以整车进口方式从印度尼西亚引入，待丰田位于富寿省的混合动力车生产线建成后，再转为本地组装。 Veloz HEV；图片来源：丰田 丰田计划在富寿工厂的混合动力生产线完工后实现Veloz Hybrid的本地化生
 - **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2079015443887697920)** — _autodata.gasgoo.com_ · date: unknown
 - **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2079015358340673536)** — _autodata.gasgoo.com_ · date: unknown
 - **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2078335285790912512)** — _autodata.gasgoo.com_ · date: unknown
@@ -138,16 +157,30 @@ _Updated 2026-07-20 18:13 | discovery-only, zero LLM tokens | runs every 3h_
 - **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2078666208583503872)** — _autodata.gasgoo.com_ · date: unknown
 - **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2078726652987850752)** — _autodata.gasgoo.com_ · date: unknown
 - **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2079005938969882624)** — _autodata.gasgoo.com_ · date: unknown
+- **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2079104275379273728)** — _autodata.gasgoo.com_ · date: unknown
+- **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2079040240424202240)** — _autodata.gasgoo.com_ · date: unknown
+- **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2079134390792376320)** — _autodata.gasgoo.com_ · date: unknown
+- **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2079019798921629696)** — _autodata.gasgoo.com_ · date: unknown
+- **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2079025508761882624)** — _autodata.gasgoo.com_ · date: unknown
+- **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2079035203526471680)** — _autodata.gasgoo.com_ · date: unknown
+- **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2079032831752417280)** — _autodata.gasgoo.com_ · date: unknown
+- **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2079065132674732032)** — _autodata.gasgoo.com_ · date: unknown
+- **[美国汽油均价重回每加仑4美元高位](https://cn.chinadaily.com.cn/a/202607/20/WS6a5e18f2a310d709c2fbea32.html)** — _cn.chinadaily.com.cn_ · published 2026-07-20
+  美国汽车协会发布的数据显示，全美普通汽油平均价格20日再次上涨至每加仑4美元以上水平。这一价格去年同期为每加仑3.14美元。 此前，受美国和伊朗军事冲突等因素影响，全美普通汽油平均价格今年3月底突破4美元，创近4年来新高，并持续上扬；美伊6月中旬签署谅解备忘录后，全美普通汽油平均价格回落至4美元以下并持续走低一段时间。近期，美伊持续互袭，油价再度攀升。国际原
 - **[安徽今年汽车出口突破100万辆 较去年提前5个月](https://economy.caijing.com.cn/20260720/5172001.shtml)** — _economy.caijing.com.cn_ · date: unknown
   近日，安徽省政府新闻办召开新闻发布会，就安徽省上半年外贸情况进行介绍。《证券日报》记者从会上获悉，今年上半年，安徽省汽车出口100.6万辆，同比增加1.2倍，出口汽车价值1043.6亿元，同比增加1.1倍。 据记者梳理，2025年1月份至11月份安徽省汽车出口突破100万辆，而今年汽车出口量突破100万辆比去年提前了5个月。从“前11个月破百万辆”到“半年破
 - **[《新能源汽车维修作业安全要求》国家标准8月1日起实施](https://egs.stcn.com/news/detail/2317473.html)** — _egs.stcn.com_ · date: unknown
   证券时报·e公司 聂英好 07-20 14:50 人民财讯7月20日电，据市场监管总局消息，8月1日起，《新能源汽车维修作业安全要求》（GB/T 47439—2026）国家标准正式实施。 该标准主要规定了新能源汽车维修的人员与场地、作业准备、风险排查与处置、作业流程和操作安全等要求。该标准聚焦新能源汽车高压系统和氢燃料汽车供氢系统维修，提出了作业前、作业中和
 - **[汽车央企+科技巨头：奕境X9首台量产车下线](https://egs.stcn.com/news/detail/2317489.html)** — _egs.stcn.com_ · date: unknown
   证券时报·e公司 聂英好 07-20 17:29 7月20日，奕境X9首台量产车在成都下线。作为奕境汽车首款战略车型，奕境X9定位“新一代家庭旗舰”。 此次量产下线，标志着汽车央企与科技巨头跨界融合取得阶段性成果，也标志着奕境X9即将进入上市交付阶段。 成都正全力建设全国先进制造业基地，抢抓“车路云一体化”机遇，打造世界级汽车产业集群。奕境作为东风汽车高端化
+- **[“整车厂被钉在十字架上 左边交智能税 右边交电池税”](https://finance.eastmoney.com/a/202607203813125112.html)** — _finance.eastmoney.com_ · date: unknown
+  “整车厂被钉在十字架上，左边交智能税，右边交电池税。”2026年7月的一场内部交流中，某汽车高管用这句话形容当前整车制造环节的处境。 无独有偶。就在几天前，中国汽车工业协会副秘书长陈士华也给出了类似的判断。他在中国汽车工业高质量发展高峰论坛上指出，2026年上半年国内整车制造环节平均利润率跌至1.5%，除了价格战和上游原材料成本高位运行之外，利润正在被产业链
 - **[新能源汽车三电系统感知质量研讨会暨团体标准启动会在京举办](https://finance.people.com.cn/n1/2026/0720/c1004-40763919.html)** — _finance.people.com.cn_ · published 2026-07-20
   新能源汽车三电系统感知质量研讨会暨团体标准启动会在京举办 点击播报本文，约 日前，新能源汽车三电系统感知质量研讨会暨《新能源汽车电池、电机及电控系统用户感知质量评价指南》团体标准（以下简称“团体标准”）启动会在中国质量检验检测科学研究院成功举办。 会议汇聚质量监管、科研院所、行业协会以及整车与供应链企业的多位专家与代表，正式启动团体标准的编制工作，并围绕三电
 - **[工信部：搭载组合驾驶辅助功能的乘用车新车市场渗透率达70%](https://finance.people.com.cn/n1/2026/0720/c1004-40764217.html)** — _finance.people.com.cn_ · published 2026-07-20
   工信部：搭载组合驾驶辅助功能的乘用车新车市场渗透率达70% 点击播报本文，约 人民网北京7月20日电 （记者申佳平）7月20日，工业和信息化部总工程师王卫明在国务院新闻办公室举行的发布会上表示，我国搭载组合驾驶辅助功能的乘用车新车市场渗透率已达到70%。 王卫明介绍，2026年上半年以来，我国装备工业运行整体呈现“根基稳、亮点多、外需旺”的特点。 一是“压舱
+- **[扫码充电就像开“盲盒”？充电桩收费该好好管管了](https://guancha.gmw.cn/2026-07/20/content_38896375.htm)** — _guancha.gmw.cn_ · published 2026-07-20
+  点击右上角微信好友 朋友圈 请使用浏览器分享功能进行分享 作者：秦川 “服务费比电费还贵，这合理吗？”多位电动汽车车主向记者提出这样的疑问。据媒体调查发现，车主充电结束晚挪一会儿车，高额占位费可能已经悄悄扣除；同一根充电桩，换个入口扫码，总价居然能差出一截……电动汽车车主遭遇诸多充电收费乱象，亟需关注。这其中，服务费与占位费是消费者反映最为集中的问题。 我国
 - **[汽车洗涤壶](https://i.gasgoo.com/purchas/production/345229.html)** — _i.gasgoo.com_ · date: unknown
 - **[新势力半年考：零跑登顶，理想小鹏下滑](https://m.21jingji.com/article/20260719/herald/24a9ce2475fa02660d5ea826f71d7529.html)** — _m.21jingji.com_ · published 2026-07-19
   新势力半年考：零跑登顶，理想小鹏下滑 21世纪经济报道 21财经APP 郑植文 2026-07-19 23:02 21世纪经济报道记者 郑植文 2026年上半年，新势力车企座次重排。 中汽协数据显示，今年1至5月，国内汽车产销分别同比下降4.6%和4.2%，乘用车产销分别同比下降6.6%和6.2%；但新能源汽车仍保持增长，1至5月产销分别同比增长2.5%和3
@@ -167,12 +200,18 @@ _Updated 2026-07-20 18:13 | discovery-only, zero LLM tokens | runs every 3h_
   今年以来，汽车市场发展可谓迅猛，最近有媒体统计发现，今年平均每天有3款新车发布，这新车的上新速度比手机还快，这到底是怎么做到的？发生了什么？ 一、一天三款新车上市 据中国新闻网的报道，2026年1至5月，国内新车上市高达550款，平均每天至少推出3款新车，而同期，国内手机上市新机型才只有157款。更有意思的是另一个新闻，据新浪财经的报道，7 月 16 日，国
 - **[卖一台20万的车净赚3000元，汽车利润正在向上游转移](https://m.21jingji.com/article/20260720/herald/6e840c984d59fa0dab3b0e3070ab7acf.html)** — _m.21jingji.com_ · date: unknown
   上半年600多款新车上市，汽车行业利润率创下新低。 21世纪经济报道记者 焦文娟 在需求乏力与价格战双重挤压下，汽车行业正经历近五年来的利润低谷。 乘联分会数据显示，2026年1至5月，中国汽车行业利润为1440亿元，利润率仅为3.4%，低于下游工业6.1%的平均水平。而就在三年前，行业利润率还有5%。 今年1至5月，整车制造环节利润率仅剩1.5%。这意味着
+- **[今年上半年霍尔果斯口岸汽车出口同比增长25.7%](https://m.21jingji.com/article/20260720/herald/bd39f2ef116e330716fc0f4d3aa432b0.html)** — _m.21jingji.com_ · published 2026-07-20
+  今年上半年霍尔果斯口岸汽车出口同比增长25.7% 央视新闻客户端 2026-07-20 19:02 据霍尔果斯海关统计，今年上半年，依托区位与通道优势，全国最大商品车陆路出口口岸——霍尔果斯口岸汽车出口贸易持续升温，出口汽车21.9万辆，同比增长25.7%，出口总量、增速均创同期新高，成为新疆外贸提质增效的核心增长点。 从出口车型来看，除传统燃油汽车外，新能
+- **[新能源车“保护期”加速退场：统一标准不只“油电同权”，回归造车基本功较量](https://m.21jingji.com/article/20260720/herald/00043e4fd482eef4bd4f1cd6003eded6.html)** — _m.21jingji.com_ · published 2026-09-01
+  新能源车“保护期”加速退场：统一标准不只“油电同权”，回归造车基本功较量 我国新能源汽车产业正逐步告别“新手保护期”。 财政部、海关总署、税务总局近日发布公告，明确自2026年9月1日起，对无汞原电池、金属氢化物镍蓄电池（又称“氢镍蓄电池”或“镍氢蓄电池”）、锂原电池、锂离子蓄电池、全钒液流电池等，分步调整消费税政策。 政策明确，自2026年9月1日起，相关
 - **[埃安全新车型预告图 将于7月28日亮相](https://news.yiche.com/xinchexiaoxi/20260720/09111621005.html)** — _news.yiche.com_ · date: unknown
   推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 日前，广汽埃安发布了一组全新车型预告图，官方称之为埃安超级纯电。作为全新车系的首款车型，该车将首搭全新LOGO，定位埃安首款中大型纯电轿车，将于7月28日正式亮相。 从预告图来看，埃安首款中大型纯电
 - **[蔚来全新ES8即将迎来第130000台新车交付 将于本周完成  07-20 02:04](https://news.yiche.com/zonghexinwen/20260720/14111629157.html)** — _news.yiche.com_ · date: unknown
 - **[奕境X9首台量产车下线 将于成都车展亮相并开启交付](https://news.yiche.com/zonghexinwen/20260720/13111628201.html)** — _news.yiche.com_ · date: unknown
   推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 7月20日，奕境X9首台量产车在成都下线。作为奕境汽车首款战略车型，新车定位“新一代家庭旗舰”，即将进入上市交付阶段。 奕境X9首创“天穹智盾”安全体系，覆盖智驾、主动、被动、电池、营救、健康六大安
 - **[零跑A05新车色官图发布 解锁新风格  07-20 05:05](https://news.yiche.com/zonghexinwen/20260720/17111635568.html)** — _news.yiche.com_ · date: unknown
+- **[比亚迪海豹05DM](https://news.yiche.com/zonghexinwen/20260720/18111636830.html)** — _news.yiche.com_ · date: unknown
+  推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 7月20日，比亚迪汽车官方宣布，比亚迪在墨西哥正式发布海豹05DM-i，当地命名全新BYD KING。官方表示，海豹05DM-i的发布是比亚迪持续深耕墨西哥市场的重要一步。 海豹05DM-i搭载比亚
 - **[张雪820现身！10w冲六座混动大SUV！五菱星光L](https://vc.yiche.com/vplay/12198706.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 11.28-13.58万 限时10.98万元起！五菱星光L把大六座带到了10万级 车研社 2026北京车展：理想L9 Livis全球首发，售55.98万元，5月15日上市
 - **[10万内搭载激光雷达！长安启源Q05家用纯电SUV配置很有看点](https://vc.yiche.com/vplay/12196900.html)** — _vc.yiche.com_ · date: unknown
@@ -199,6 +238,16 @@ _Updated 2026-07-20 18:13 | discovery-only, zero LLM tokens | runs every 3h_
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 8.98万起拿下吉尼斯纪录，吉利银河A7 EM续航封神 autocarweekly 15万的C级行政范-星耀8（上） 阿唐看车 网传MG 4X电池锁电？上汽名爵：与
 - **[深度联名小黄人与大怪兽 比亚迪元UP痛车实拍简评](https://vc.yiche.com/vplay/12203424.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 7.48-11.98万 比亚迪承诺为城市领航提供保障，率先实施1年保障计划 kaifrank950603 小鹏P7+ 开得越多省得越多 家庭用户的省心之选 麻辣车评君 比亚
+- **[真人来了都不一定好使！智驾怕啥，蔚来ES8搞啥！](https://vc.yiche.com/vplay/12216031.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 38.28-44.68万 风云T9L，15万级满配SUV让你躺赢！ 电姐志 限时权益价5.98万起，星光560让你体验中型SUV，超划算！ 四轮部落 东风奕派M8预售，19
+- **[实拍腾势Z9S纯电版：30万级定位的优雅三厢设计，不止靠颜值吃饭](https://vc.yiche.com/vplay/12214988.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 33.48-41.48万 腾势Z9GT欧洲卖90万元？新款升级到底有多全面？ 佳怡一路佳境 比亚迪闪充技术驱动海外增长！曾被视为“陪跑”的中国车，如今在欧洲凭什么领跑？ 猫
+- **[配置顶，小鹏GX是真科技旗舰！为何建议买34.98万的纯电高配版？](https://vc.yiche.com/vplay/12214904.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 27.98-35.98万 小鹏GX动态体验，是物超所值，还是一分价钱一分货？ 姚姚车有道理 东风×华为联手，星海V6北京车展首发 知行动力 体验小鹏GX VLA2.0：L4
+- **[增程纯电权益价均17.99万起，昊铂S600比日产NX8和别克E7更香吗？](https://vc.yiche.com/vplay/12214680.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 19.99-22.69万 这台smart够好玩！＃smart精灵6号 胖司机出品 昊铂S600全系标配激光雷达，广汽近30年路况数据+Momenta大模型 智驾第一梯队 更
+- **[静态体验零跑A05，能否携手A10重塑纯电小车市场格局？](https://vc.yiche.com/vplay/12214260.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 中国新能源汽车全球市场份额超过六成，多家车企公布5月销量，市场持续向好 ritaping980214 不能说的秘密，这次真帮兄弟大忙了！ 阿科车生活 工信部8台新车
 - **[2023第18届俄罗斯莫斯科国际汽车及配件展览会信息](https://www.cada.cn/Trends/info_96_9651.html)** — _www.cada.cn_ · date: unknown
 - **[二手车经销商分会](https://www.cada.cn/committee/info_27_6771.html)** — _www.cada.cn_ · date: unknown
 - **[给智能汽车立规矩，为生命安全上保险](https://www.cnr.cn/2013qcpd/2015xc/20260720/t20260720_527719340.shtml)** — _www.cnr.cn_ · published 2026-07-20
@@ -265,6 +314,22 @@ _Updated 2026-07-20 18:13 | discovery-only, zero LLM tokens | runs every 3h_
   7月24日，岚图追光S将正式开启预售，定位中大型纯电轿跑SUV。新车提供七种车身颜色和三种内饰配色，搭载华为乾崑ADS5辅助驾驶系统。外观设计注重性能运动风，前脸视觉冲击力强，配备碳纤维导流槽，贯穿式日行灯设计。车身尺寸为5050/1998/1656mm，轴距3000mm，配备21英寸运动轮圈和黄色高性能卡钳。内饰方面，配备三辐式多功能方向盘，大尺寸主中控屏
 - **[汽车行业利润跌至新低，新能源车销量逆势增长](https://www.d1ev.com/newsflash/307737)** — _www.d1ev.com_ · date: unknown
   7月20日，汽车行业面临近五年来的利润低谷。据乘联分会数据，2026年1至5月中国汽车行业利润为1440亿元，利润率仅3.4%，低于下游工业6.1%的平均水平。整车制造环节利润率降至1.5%，20万元新车的整车厂商净赚不过3000元。国家统计局数据显示，前5个月纺织业营业收入利润率为3.6%，造车利润不如织布。中汽协数据显示，2026年上半年国内汽车销量99
+- **[第二届智驾大赛昆明站收官：奇瑞风云T9L、红旗天工05和蔚来ES6首夺冠亚季军](https://www.d1ev.com/news/shichang/307754)** — _www.d1ev.com_ · date: unknown
+  首次参赛的红旗天工05获得亚军，蔚来ES6则首次跻身三甲，收获季军。文远系星途星纪元ET以94.04分退居第四，华系问界M5与Momenta系智己LS8分列第六、第七。 备受期待的启境GT7（华为ADS 5）未能完全攻克园区场景，全场景能力项被扣20分，最终得分75.66分，表现未达预期。 3款车和5个智驾版本首秀 昆明站决赛共有12款车型参赛，它们是华系问
+- **[第二届智驾大赛昆明站预赛：星途星纪元ET、问界M5和奇瑞风云T9L成功晋级](https://www.d1ev.com/news/shichang/307752)** — _www.d1ev.com_ · date: unknown
+  7月18日，第二届智驾大赛昆明站预赛开跑。本次大赛全新启用的V8.4评分规则，在安全、效率和违章模块上全面加码。 8款车型、8位车手同场竞技，华系、文远系、地平线系三大阵营激烈交锋。最终，问界M5、奇瑞风云T9L和星纪元ET凭借出色发挥杀出重围，成功晋级决赛。而备受瞩目的新秀五菱华境S与奇瑞iCarV27（地平线HSD 2.0）则遗憾止步。 在总排名中，星途
+- **[年轻人的第一台小汉！比亚迪秦MAX官图发布：5分钟闪充上车](https://www.d1ev.com/news/qiye/307750)** — _www.d1ev.com_ · date: unknown
+  快科技7月20日消息，比亚迪官方日前发布秦MAX车型官图，新车已在工信部完成申报，将推出插电混动及纯电动两种版本，全系标配闪充功能。轴距达2820mm，定位高于秦L，被不少网友称为“小号汉”。 外观方面，秦MAX前脸采用家族式龙颜设计语言，造型向前压低，俯冲感十足。一条哑光银镀铬龙须饰条横向贯通整个前脸，正中镌刻王朝系列标志性小篆"秦"字标识，两端顺势衔接大
+- **[新能源汽车三电系统感知质量研讨会暨团体标准启动会在京成功举办](https://www.d1ev.com/news/shichang/307751)** — _www.d1ev.com_ · date: unknown
+  日前，新能源汽车三电系统感知质量研讨会暨《新能源汽车电池、电机及电控系统用户感知质量评价指南》团体标准（以下简称“团体标准”）启动会在中国质量检验检测科学研究院成功举办。 会议汇聚质量监管、科研院所、行业协会以及整车与供应链企业的多位专家与代表，正式启动团体标准的编制工作，并围绕三电系统感知质量评价的关键维度、行业痛点与品质优化落地路径等议题展开深入研讨。会
+- **[埃安全新中大型纯电轿车7月28日亮相，瞄准年轻用户首台超跑轿车](https://www.d1ev.com/newsflash/307772)** — _www.d1ev.com_ · date: unknown
+  7月20日，广汽昊铂埃安BU总裁张雄在昊铂埃安用户节上宣布，埃安品牌将推出全新车系，首款车型为中大型纯电轿车，并将首次搭载埃安全新的logo。这款新车计划于7月28日亮相，旨在成为年轻用户的第一台超级纯电轿车。 从预告图来看，埃安首款中大型纯电轿车采用了溜背造型设计，尾部设计则紧跟潮流，配备了贯穿式尾灯组。此外，车辆还特别搭载了黄色刹车卡钳以及运动尾翼，展现
+- **[中国留学生驾小鹏P7穿越10国抵达英国，展现中国电动车实力](https://www.d1ev.com/newsflash/307767)** — _www.d1ev.com_ · date: unknown
+  近日，一位中国留学生驾驶小鹏P7从上海出发，历时近两个月，穿越约10个国家，最终抵达英国。该留学生选择小鹏P7作为旅行工具，希望以此展示中国普通青年的真实生活，打破西方对中国的误解。他认为小鹏P7的设计代表了中国造车的最高水平，能够反映中国汽车工业的进步。 在旅途中，小鹏P7吸引了众多欧洲人的关注。他们对中国能生产出这种水准的汽车感到惊讶。在维也纳，当地年轻
+- **[蔚来萤火虫“栖息地”上市：13.33万起，420公里续航小型电动轿车](https://www.d1ev.com/newsflash/307766)** — _www.d1ev.com_ · date: unknown
+  7月20日，蔚来旗下高端智能电动品牌firefly萤火虫宣布其halo寻光系列首款车型“栖息地”正式上市。新车共推出1款配置，整车购买方案售价为13.33万元，采用BaaS 电池租用方案售价则为9.33万元。halo寻光系列的设计灵感源自森林深处的萤火虫，以“年度光”为主题，通过设计驱动转化为具体车型。新车延续萤火虫标志性的仿生学设计语言，车头以三个圆形光环
+- **[每英里3便士 英国2028年开征电动车里程税！网友请愿取消](https://www.d1ev.com/news/qiye/307764)** — _www.d1ev.com_ · published 2028-04-01
+  快科技7月20日消息，英国政府已确认将于2028年4月1日起推出全新的电动汽车消费税（eVED）制度，对纯电动车和氢燃料电池车按每英里3便士（约合人民币0.28元）征收里程税，插电混动车按每英里1.5便士征收。 该税费将在现有车辆消费税（VED）基础上额外叠加，意味着电动车主将同时承担两笔税费。 这一政策迅速引发英国车主反弹，Reddit上有网友发帖发起请愿
 - **[广汽本田合资续约到2038年](https://www.gelonghui.com/live/2560353)** — _www.gelonghui.com_ · date: unknown
   首页 > 快讯 > 快讯详情 广汽本田合资续约到2038年 格隆汇7月20日｜本田中国宣布，本田和广汽就双方旗下广汽本田汽车有限公司（简称“广汽本田”）合资合作项目正式签署战略续约协议，在股比保持不变的同时将合作期限延长至2038年。本田中国称，当前中国已发展成为全球规模最大的汽车市场，并随着电动化、智能化技术的快速发展，竞争日益激烈。在此背景下，本田和广汽
 - **[中国汽车“太能打”，才是真相](https://www.jwview.com/jingwei/html/07-20/680094.shtml)** — _www.jwview.com_ · date: unknown
@@ -277,6 +342,12 @@ _Updated 2026-07-20 18:13 | discovery-only, zero LLM tokens | runs every 3h_
   2026-07-20 17:54:24 每经记者｜孙磊 每经编辑｜裴健如 日前，《每日经济新闻》记者获悉，芯创智核（上海）科技有限公司（以下简称芯创智核）于2026年7月13日正式注册成立，注册资本10万元，法定代表人为王扬。该公司由上海理想汽车科技有限公司全资控股，实际控制人为理想汽车关联公司Leading Ideal HK Limited。 图片来源：天
 - **[四日三车密集落地 长城汽车总裁穆峰：下半年推动旗下产品覆盖更多潜力市场](https://www.nbd.com.cn/articles/2026-07-20/4483578.html)** — _www.nbd.com.cn_ · published 2026-07-20
   2026-07-20 17:39:57 每经记者｜段思瑶 每经编辑｜裴健如 进入7月中下旬，长城汽车的产品投放动作变得更加密集。 7月16日至7月19日，魏牌V9X家庭版、长城H10以及全新坦克300三款车型相继被推向市场。这一节奏在长城汽车近年来的产品投放序列中并不常见。 从产品定位来看，三款新车分别对应了不同的价格区间与用户群体，相互之间保持了较为清晰的
+- **[每经热评丨汽车“合资2.0”阶段，中国是绕不过的转型主战场](https://www.nbd.com.cn/articles/2026-07-20/4483834.html)** — _www.nbd.com.cn_ · published 2026-07-20
+  2026-07-20 20:34:33 每经评论员 裴健如 7月20日，本田中国官宣与广汽集团完成就合资公司广汽本田的战略续约，维持50∶50对等股比不变，合作周期延长至2038年。这份提前落定的“合约”，更像是一份写在成绩单边缘的战略宣言。 官方数据显示，今年上半年，本田在华整体销量约20.58万辆，同比下滑35%，且连续数月负增长。在华失速，叠加关闭在华
+- **[卖一辆10万元新车仅赚1500元？汽车行业利润率低至1.5%冰点，上游供应链企业却“赚翻了”](https://www.nbd.com.cn/articles/2026-07-20/4483675.html)** — _www.nbd.com.cn_ · published 2026-07-20
+  2026-07-20 19:51:28 每经记者｜黄辛旭 每经编辑｜裴健如 “汽车制造业行业利润水平处于历史低位，汽车整车制造的利润率只有1.5%。”在近期举办的中国汽车工业高质量发展高峰论坛上，中国汽车工业协会副秘书长陈士华抛出的行业数据，再度将国内车市的残酷竞争现状摆在公众面前。 按照1.5%的利润率测算，一辆10万元的新车，整车厂商的利润仅1500元。
+- **[合资股比不变！本田和广汽为广汽本田续上10年约，明年将有三款全新车型亮相](https://www.nbd.com.cn/articles/2026-07-20/4482533.html)** — _www.nbd.com.cn_ · published 2026-07-20
+  2026-07-20 19:18:40 每经记者｜董天意 每经编辑｜裴健如 7月20日，本田中国、广汽本田通过官方渠道双双宣布，旗下广汽本田汽车有限公司（以下简称广汽本田）合资合作项目已于今年7月正式签署战略续约协议，在股比保持不变的同时，将合作期限延长至2038年。 图片来源：本田中国官微 值得关注的是，广汽本田新协议将合资期限延长至2038年，较原合同（
 - **[工信部部署推动汽车安全治理延伸至全产业链](https://www.news.cn/fortune/20260720/e950cc1b39bd4c9c8e487a05df4e7e61/c.html)** — _www.news.cn_ · published 2026-07-20
   日前，工业和信息化部装备工业一司组织召开重点汽车生产企业座谈会，部署进一步规范汽车产业竞争秩序、提升汽车产品生产一致性和质量安全水平、开展汽车产品安全风险隐患排查和监督检查等重点工作。业内专家认为，此次座谈会释放出一个明确信号：随着汽车产业进入智能化的下半场，相关技术和功能的进步也在推动汽车安全监管从聚焦产品本身，迈向涵盖供应链、新技术、全链条的系统性治理。
 - **[一天办8场活动，半年上新630款！车市上演极致“内卷”](https://www.stcn.com/article/detail/4027769.html)** — _www.stcn.com_ · date: unknown
@@ -287,10 +358,14 @@ _Updated 2026-07-20 18:13 | discovery-only, zero LLM tokens | runs every 3h_
   编前：中国汽车工业协会（以下简称“中汽协”）发布的半年数据显示，1~6月，汽车产销分别完成1499.3万辆和1501.7万辆，同比分别下降4%和4.1%，降幅比前5个月进一步收窄。上半年，车市呈现明显分化，内需承压明显，销量两位数下降。出口超预期增长，形成稳定支撑；新旧动能持续转换，传统燃油车市场进一步萎缩，新能源汽车稳定增长。高端化全球化夯实根基，中国品牌
 - **[汽车央企+科技巨头：奕境X9首台量产车下线](https://www.stcn.com/article/detail/4029103.html)** — _www.stcn.com_ · date: unknown
   7月20日，奕境X9首台量产车在成都下线。作为奕境汽车首款战略车型，奕境X9定位“新一代家庭旗舰”。 此次量产下线，标志着汽车央企与科技巨头跨界融合取得阶段性成果，也标志着奕境X9即将进入上市交付阶段。 成都正全力建设全国先进制造业基地，抢抓“车路云一体化”机遇，打造世界级汽车产业集群。奕境作为东风汽车高端化全新布局的独立事业单元，依托东风武汉总部资源、扎根
+- **[理想汽车冯君威：AI眼镜的终局不是替代手机 是做个人AI的全场景入口](https://www.stcn.com/article/detail/4030393.html)** — _www.stcn.com_ · date: unknown
+  7月17日—20日，2026世界人工智能大会在上海举行，理想汽车携全新理想L9 Livis、全新理想L8 Livis、理想AI眼镜Livis、马赫M100芯片等产品与技术成果亮相，展示了理想从自研芯片、操作系统、大模型到底盘技术的具身智能全栈技术体系。 在WAIC 2026现场，理想AI眼镜Livis随全新理想L9、L8整车同台展出，吸引了不少观众驻足体验。
 - **[“整车厂被钉在十字架上，左边交智能税，右边交电池税”](https://www.yicai.com/news/103282999.html)** — _www.yicai.com_ · date: unknown
   {{aisd}} AI生成 免责声明 “整车厂被钉在十字架上，左边交智能税，右边交电池税。”2026年7月的一场内部交流中，某汽车高管用这句话形容当前整车制造环节的处境。 无独有偶。就在几天前，中国汽车工业协会副秘书长陈士华也给出了类似的判断。他在中国汽车工业高质量发展高峰论坛上指出，2026年上半年国内整车制造环节平均利润率跌至1.5%，除了价格战和上游原
 - **[工信部详解“新一代通信网”，推动5G](https://www.yicai.com/news/103282495.html)** — _www.yicai.com_ · date: unknown
   {{aisd}} AI生成 免责声明 “六张网”及重点领域建设是今年扩大有效投资的重要发力点，今年投资规模将超过7万亿元。 “六张网”包括水网、新型电网、算力网、新一代通信网、城市地下管网、物流网。4月28日中央政治局会议和5月9日国务院常务会议先后就“六张网”建设作出部署，要求加强规划建设并明确各领域投资重点。 7月20日，国务院新闻办举行发布会介绍202
+- **[一财社论：造车合规监管的升级箭在弦上](https://www.yicai.com/news/103283964.html)** — _www.yicai.com_ · date: unknown
+  {{aisd}} AI生成 免责声明 汽车行业的合规监管迎来新的规范场景。 最近工信部召开重点汽车生产企业座谈会，明确要求车企必须排查自身及关键零部件供应商的生产一致性问题，强化组合驾驶辅助和自动驾驶功能的安全评估，坚决抵制非理性竞争。 这是一场对车企合规监管与时俱进的升级。随着中国成为全球汽车市场的主要玩家，尤其是在全球新能源汽车领域，以及面对智能网联汽车
 - **[安徽今年汽车出口突破100万辆较去年提前5个月](https://www.zqrb.cn/auto/qichedongtai/2026-07-19/A1784468975959.html)** — _www.zqrb.cn_ · published 2026-07-19
   本报记者 徐一鸣 近日，安徽省政府新闻办召开新闻发布会，就安徽省上半年外贸情况进行介绍。《证券日报》记者从会上获悉，今年上半年，安徽省汽车出口100.6万辆，同比增加1.2倍，出口汽车价值1043.6亿元，同比增加1.1倍。 据记者梳理，2025年1月份至11月份安徽省汽车出口突破100万辆，而今年汽车出口量突破100万辆比去年提前了5个月。从“前11个月破
 
