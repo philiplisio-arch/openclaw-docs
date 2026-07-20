@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-20 09:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-20 12:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-20 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **4007 unique auto/NEV articles** across **47 outlets**
+## Cumulative: **4035 unique auto/NEV articles** across **47 outlets**
 
 ## New per day
 | date | new articles |
@@ -52,43 +52,43 @@ _Updated 2026-07-20 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-17 | 165 |
 | 2026-07-18 | 84 |
 | 2026-07-19 | 58 |
-| 2026-07-20 | 36 |
+| 2026-07-20 | 64 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 1019 |
-| 36kr.com | 208 |
+| www.d1ev.com | 1021 |
+| 36kr.com | 213 |
 | www.caam.org.cn | 187 |
 | www.stcn.com | 182 |
-| vc.yiche.com | 164 |
-| auto.gasgoo.com | 142 |
+| vc.yiche.com | 165 |
+| auto.gasgoo.com | 144 |
 | egs.stcn.com | 114 |
 | www.cada.cn | 104 |
-| www.news.cn | 80 |
-| www.cnr.cn | 71 |
+| www.news.cn | 81 |
+| www.cnr.cn | 72 |
+| autodata.gasgoo.com | 67 |
 | www.yicai.com | 65 |
-| news.yiche.com | 62 |
-| m.21jingji.com | 62 |
-| autodata.gasgoo.com | 60 |
+| m.21jingji.com | 65 |
+| news.yiche.com | 63 |
 | www.nbd.com.cn | 54 |
-| auto.caijing.com.cn | 45 |
+| auto.caijing.com.cn | 46 |
 | www.zqrb.cn | 39 |
 | www.xinhuanet.com | 27 |
 | www.jwview.com | 27 |
 | finance.eastmoney.com | 25 |
+| www.gelonghui.com | 19 |
 | cn.chinadaily.com.cn | 19 |
-| www.gelonghui.com | 18 |
 | m.ce.cn | 17 |
 | qzs.stcn.com | 16 |
 | auto.ce.cn | 16 |
 | www.chinanews.com.cn | 15 |
-| finance.people.com.cn | 12 |
+| finance.people.com.cn | 13 |
 | cv.ce.cn | 12 |
 | www.ceweekly.cn | 10 |
 | economy.gmw.cn | 9 |
-| i.gasgoo.com | 6 |
+| i.gasgoo.com | 7 |
 | www.ce.cn | 4 |
 | industry.caijing.com.cn | 4 |
 | cnews.chinadaily.com.cn | 4 |
@@ -97,30 +97,66 @@ _Updated 2026-07-20 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 | m.gmw.cn | 2 |
 | life.gmw.cn | 2 |
 | finance.ce.cn | 2 |
+| economy.caijing.com.cn | 2 |
 | china.chinadaily.com.cn | 2 |
 | views.ce.cn | 1 |
 | stock.caijing.com.cn | 1 |
 | legal.gmw.cn | 1 |
 | gd.chinadaily.com.cn | 1 |
 | finance.caijing.com.cn | 1 |
-| economy.caijing.com.cn | 1 |
 
 ## Articles captured by day (newest first)
 
-### 2026-07-20 — 36 articles
+### 2026-07-20 — 64 articles
+- **[全款十几万打水漂，又一车企经销商暴雷，压库冲量正在逼死渠道](https://36kr.com/p/3899691428807817)** — _36kr.com_ · published 2026-07-20
+  全款十几万打水漂，又一车企经销商暴雷，压库冲量正在逼死渠道 买个车，风险居然这么大？ 近期昆明、珠海等多个地区智己汽车经销商暴雷一事，在网上疯传。多位消费者反馈，在门店付完钱后，门店突然出现经营异常，既无法提车，也不能退款，智己汽车虽表示会为他们兜底，但目前未能提供任何解决方案，只有一条安抚短信。 在接受新浪财经「次世代车研所」栏目采访时，智己汽车表示，由于
+- **[WAIC汽车大洗牌：世界模型开战，无图L4量产，燃油老车原地复活](https://36kr.com/p/3902492574614918)** — _36kr.com_ · published 2026-07-20
+  WAIC汽车大洗牌：世界模型开战，无图L4量产，燃油老车原地复活 7 月 17 日，第九届世界人工智能大会（WAIC）在上海世博中心正式开幕，作为一年一度的 AI 行业盛会，今年大会依然聚集了国内外大模型公司、AI 应用、硬件厂商和机器人公司，雷科技（ID：leitech）旗下电车通（ID：dianchetong233）也派出报道团，赴上海进行现场报道。 虽
+- **[燃油车又杀回了前十](https://36kr.com/p/3903174512904064)** — _36kr.com_ · published 2026-07-20
+  燃油车又杀回了前十 今年6月，两款燃油车悄然重回销量榜前十，令市场倍感意外。其实，这不是燃油车的“大反攻”，而是一场日趋激烈的“缩圈淘汰赛”。在这场比赛里，燃油车阵营的内部割裂与两极分化正变得前所未有的剧烈。 01 家轿战场，燃油车还留着一口气 当人们的目光都紧盯着新能源车市场渗透率一次次冲高时，6月的乘用车销量榜，冷不丁上演了一出“老将回马枪”的戏码。 懂
+- **[世界杯夺冠的西班牙，引入中国汽车+中国工人](https://36kr.com/p/3903254020884101)** — _36kr.com_ · published 2026-07-20
+  世界杯夺冠的西班牙，引入中国汽车+中国工人 刚刚在2026世界杯上击败阿根廷夺冠的西班牙，开始对中国汽车大摇橄榄枝。 根据一份阐述西班牙政府振兴汽车工业蓝图的工作报告，受欢迎的不只是中国汽车公司，还包括中国工人。 宁德时代与斯泰兰蒂斯联合建立的电池工厂，将从中国引入工人建设。奇瑞和北汽也将在西班牙投资，成为“旗舰合资项目”。 该报告原定于7月17日发布，而彭
+- **[五年内多出几十万辆新能源汽车，海南准备好了吗？](https://36kr.com/p/3903387892532867)** — _36kr.com_ · published 2026-07-20
+  五年内多出几十万辆新能源汽车，海南准备好了吗？ 海南禁售燃油车进入倒计时。 近日发布的《“十五五”海南国家生态文明试验区规划》（下称《规划》）提出，平稳推进2030年禁售燃油车。 按照《规划》，目标到2030年，海南新能源汽车保有量占比预计提升至45%。同时，全省公共服务和社会运营领域新增和更换车辆、私人用车领域新增和更换车辆新能源占比均达到100%，车桩比
+- **[埃安即将发布首台搭载全新logo车型](https://auto.caijing.com.cn/2026/0720/5172099.shtml)** — _auto.caijing.com.cn_ · published 2026-07-20
+  7月19日，昊铂埃安BU总裁张雄在昊铂埃安用户节上表示，埃安将推出全新车系，其中首款车型定位中大型纯电轿车，将搭载埃安全新logo。新车计划于7月28日亮相，目标成为年轻用户的首款超级纯电。 埃安即将发布首台搭载全新logo车型 来源：财经网作者：闫祺2026-07-20 11:43 导语 新车计划于7月28日亮相，目标成为年轻用户的首款超级纯电。 编辑：靖
 - **[欧洲汽车为何无力回天](https://auto.gasgoo.com/news/202607/20I70466521C501.shtml)** — _auto.gasgoo.com_ · date: unknown
 - **[下半年，这10款重磅新车即将上市](https://auto.gasgoo.com/news/202607/20I70466523C501.shtml)** — _auto.gasgoo.com_ · date: unknown
   上一期工信部新车发布之后，底下有读者评论让我们汇总下这几期工信部的重磅新车，盘点下半年要上市的重磅车型。 话不多说，我们结合下最近这些新车曝光的信息，给大家评出下半年的10大重磅车型，如果有疏漏，欢迎评论区补充。 小米澎程系列 最近的这一波增程大SUV里，最“顶流”的应该就是小米澎程系列了。 新车预计会在下个月成都车展正式首秀，不出意外，到时候展台应该又会是
 - **[【盖世快讯】沃尔沃CEO驳斥纳瓦罗涉华言论；中创新航回应广汽埃安电池故障](https://auto.gasgoo.com/news/202607/20I70466478C109.shtml)** — _auto.gasgoo.com_ · date: unknown
   车企动态 | OEM Trend IT之家：7月19日，小鹏汽车官方发布视频，宣布小鹏图灵第二代 VLA 开启高阶智驾全球化新阶段。据介绍，世界模型与 VLA 一体两面，共同提升模型在真实世界中的理解力与行动力；即使在训练数据不足的海外市场，模型也可以通过自主生成训练数据加速泛化。目前，小鹏汽车第二代 VLA 模型已实现同一套模型打通中国与欧洲，目前正加快推
+- **[WAIC 2026](https://auto.gasgoo.com/news/202607/20I70466534C601.shtml)** — _auto.gasgoo.com_ · published 2026-07-17
+  2026年7月17日至20日，2026世界人工智能大会（WAIC）在上海盛大举行。开普勒携全系新品与多场景实景作业演示重磅亮相。现场特设的重载麒麟机器人乘骑体验区，其自重300公斤、载重近1吨的硬核性能引来观众围观。 图片来源：开普勒 本次大会，开普勒重磅发布全球首款混动架构四足机器人——麒麟全系系列。全系搭载自研行星滚柱丝杠核心硬件，与工业设备技术同源，主
+- **[人形机器人第一股，杀进韩国汽车产线](https://auto.gasgoo.com/news/202607/20I70466548C601.shtml)** — _auto.gasgoo.com_ · date: unknown
+  盖世汽车获悉，优必选韩国合作伙伴德山JMR（Duksan JM Robotics，DSJMR）已于近日与韩国领先汽车零部件企业AJIN Industrial正式签署合作谅解备忘录。 未来，优必选、德山JMR、AJIN Industrial将三方合作，共同推进Cruzr Y1、Walker S2等工业人形机器人在韩国首个汽车零部件生产产线的验证项目，推动人形机
+- **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2079015443887697920)** — _autodata.gasgoo.com_ · date: unknown
+- **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2079015358340673536)** — _autodata.gasgoo.com_ · date: unknown
+- **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2078335285790912512)** — _autodata.gasgoo.com_ · date: unknown
+- **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2078662447228141568)** — _autodata.gasgoo.com_ · date: unknown
+- **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2078666208583503872)** — _autodata.gasgoo.com_ · date: unknown
+- **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2078726652987850752)** — _autodata.gasgoo.com_ · date: unknown
+- **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2079005938969882624)** — _autodata.gasgoo.com_ · date: unknown
+- **[安徽今年汽车出口突破100万辆 较去年提前5个月](https://economy.caijing.com.cn/20260720/5172001.shtml)** — _economy.caijing.com.cn_ · date: unknown
+  近日，安徽省政府新闻办召开新闻发布会，就安徽省上半年外贸情况进行介绍。《证券日报》记者从会上获悉，今年上半年，安徽省汽车出口100.6万辆，同比增加1.2倍，出口汽车价值1043.6亿元，同比增加1.1倍。 据记者梳理，2025年1月份至11月份安徽省汽车出口突破100万辆，而今年汽车出口量突破100万辆比去年提前了5个月。从“前11个月破百万辆”到“半年破
 - **[新能源汽车三电系统感知质量研讨会暨团体标准启动会在京举办](https://finance.people.com.cn/n1/2026/0720/c1004-40763919.html)** — _finance.people.com.cn_ · published 2026-07-20
   新能源汽车三电系统感知质量研讨会暨团体标准启动会在京举办 点击播报本文，约 日前，新能源汽车三电系统感知质量研讨会暨《新能源汽车电池、电机及电控系统用户感知质量评价指南》团体标准（以下简称“团体标准”）启动会在中国质量检验检测科学研究院成功举办。 会议汇聚质量监管、科研院所、行业协会以及整车与供应链企业的多位专家与代表，正式启动团体标准的编制工作，并围绕三电
+- **[工信部：搭载组合驾驶辅助功能的乘用车新车市场渗透率达70%](https://finance.people.com.cn/n1/2026/0720/c1004-40764217.html)** — _finance.people.com.cn_ · published 2026-07-20
+  工信部：搭载组合驾驶辅助功能的乘用车新车市场渗透率达70% 点击播报本文，约 人民网北京7月20日电 （记者申佳平）7月20日，工业和信息化部总工程师王卫明在国务院新闻办公室举行的发布会上表示，我国搭载组合驾驶辅助功能的乘用车新车市场渗透率已达到70%。 王卫明介绍，2026年上半年以来，我国装备工业运行整体呈现“根基稳、亮点多、外需旺”的特点。 一是“压舱
+- **[汽车洗涤壶](https://i.gasgoo.com/purchas/production/345229.html)** — _i.gasgoo.com_ · date: unknown
 - **[新势力半年考：零跑登顶，理想小鹏下滑](https://m.21jingji.com/article/20260719/herald/24a9ce2475fa02660d5ea826f71d7529.html)** — _m.21jingji.com_ · published 2026-07-19
   新势力半年考：零跑登顶，理想小鹏下滑 21世纪经济报道 21财经APP 郑植文 2026-07-19 23:02 21世纪经济报道记者 郑植文 2026年上半年，新势力车企座次重排。 中汽协数据显示，今年1至5月，国内汽车产销分别同比下降4.6%和4.2%，乘用车产销分别同比下降6.6%和6.2%；但新能源汽车仍保持增长，1至5月产销分别同比增长2.5%和3
 - **[李斌北大演讲谈创业低谷：认识到蔚来必须提高产品体验和经营效率](https://m.21jingji.com/article/20260720/herald/3348db15219086881f1ecad7464403c8.html)** — _m.21jingji.com_ · date: unknown
   21世纪经济报道记者 郑植文 报道 日前，北京大学2026年毕业典礼上，蔚来创始人、董事长、CEO李斌在演讲中分享了人生中的三个低谷，包括蔚来创业过程中的一段艰难时光。 “2021年是蔚来的一个高光时期，市值一度突破千亿美元。进入2022年，形势急转直下，蔚来进入了持续三年多的低谷期，质疑铺天盖地，打击了团队的士气，也动摇了用户的信心。低谷之中，我们始终提醒
 - **[20多万的宾利、15万的保时捷：二手豪车市场价格集体走低](https://m.21jingji.com/article/20260720/herald/c944561e97b4b5f565dafa8966f47438.html)** — _m.21jingji.com_ · published 2026-07-20
   20多万的宾利、15万的保时捷：二手豪车市场价格集体走低 21世纪经济报道 21财经APP 郑植文 2026-07-20 08:46 21世纪经济报道记者 郑植文 近期，二手豪华车价格走低受到市场关注。 据《证券时报》报道，在山东青岛二手车市场，部分8年以上车龄的宾利飞驰挂牌价已降至26.8万元左右，入门级保时捷Macan部分车源价格约15万元，大众途锐部分
+- **[外媒：小鹏和比亚迪的欧洲战略有何不同？何小鹏：小鹏更追求科技](https://m.21jingji.com/article/20260720/herald/336bbc898b4209ed49a6d80410fa7264.html)** — _m.21jingji.com_ · date: unknown
+  21世纪经济报道记者 何煦阳 7月16日，小鹏在德国慕尼黑举行品牌全球发布会。发布会后的群访中，有外媒提问：“小鹏和比亚迪的欧洲战略有什么不一样？”小鹏集团董事长何小鹏回答：“小鹏更追求高科技，目标是成为欧洲中高端品牌。” （视频编辑：杨浩凯） （作者：何煦阳,杨浩凯 编辑：吴晓宇,张伟贤 视频编辑：杨浩凯） 南方财经全媒体集团及其客户端所刊载内容的知识产权
+- **[外媒：欧洲汽车还有优势吗？何小鹏：有起伏很正常，中国还是学生](https://m.21jingji.com/article/20260720/herald/6720c273fff54d56e5485c77f5c70f38.html)** — _m.21jingji.com_ · date: unknown
+  21世纪经济报道记者 何煦阳 7月16日，小鹏集团于德国慕尼黑举办品牌全球发布会，在发布会后的群访中，有外媒提问：“欧洲汽车对中国汽车还有什么优势？”小鹏集团董事长何小鹏回答：“我们还是学生，还有很多向欧洲车企学习的地方。每一家企业都会有高低起伏，这很正常。大家要一起合作，‘Make Difference’。” （视频编辑：杨浩凯） （作者：何煦阳,杨浩凯
+- **[奇瑞南非罗斯林工厂正式启用：计划明年年中正式投产](https://m.21jingji.com/article/20260720/herald/2d9d380b5245fe3198c0de907fdfa52d.html)** — _m.21jingji.com_ · published 2026-07-20
+  奇瑞南非罗斯林工厂正式启用：计划明年年中正式投产 21世纪经济报道 21财经APP 郑植文 2026-07-20 11:11 21世纪经济报道记者 郑植文 近日，奇瑞汽车在南非比勒陀利亚正式启用罗斯林工厂，标志着奇瑞在南非实现从进口商到本地制造商的跨越，落下全球化布局中的关键一子。 这座工厂始建于1963年，奇瑞接手后将对其进行全面升级改造，计划明年年中正式
+- **[埃安全新车型预告图 将于7月28日亮相](https://news.yiche.com/xinchexiaoxi/20260720/09111621005.html)** — _news.yiche.com_ · date: unknown
+  推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 日前，广汽埃安发布了一组全新车型预告图，官方称之为埃安超级纯电。作为全新车系的首款车型，该车将首搭全新LOGO，定位埃安首款中大型纯电轿车，将于7月28日正式亮相。 从预告图来看，埃安首款中大型纯电
 - **[张雪820现身！10w冲六座混动大SUV！五菱星光L](https://vc.yiche.com/vplay/12198706.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 11.28-13.58万 限时10.98万元起！五菱星光L把大六座带到了10万级 车研社 2026北京车展：理想L9 Livis全球首发，售55.98万元，5月15日上市
 - **[10万内搭载激光雷达！长安启源Q05家用纯电SUV配置很有看点](https://vc.yiche.com/vplay/12196900.html)** — _vc.yiche.com_ · date: unknown
@@ -143,6 +179,8 @@ _Updated 2026-07-20 09:12 | discovery-only, zero LLM tokens | runs every 3h_
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 ［转载］宾利欧陆 GT 极速版驾驶第一视角 megankong030809 家族史上尺寸最大车型 比亚迪秦MAX新车预告 小号撩车N 比亚迪秦MAX实车亮相，配备顶
 - **[全新小鹏P7终于来了，科技复古车的味道真棒！](https://vc.yiche.com/vplay/12199301.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 20.38-30.18万 越野电摩也能办成音乐节？79bike品牌日太热闹了 离子公路 中国还有哪家车企能如此给予车主情感价值吗？ ambermeng 风云T11车大灯 小
+- **[有了奇瑞捷豹路虎神行者8还找什么路虎平替？](https://vc.yiche.com/vplay/12198979.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 8.98万起拿下吉尼斯纪录，吉利银河A7 EM续航封神 autocarweekly 15万的C级行政范-星耀8（上） 阿唐看车 网传MG 4X电池锁电？上汽名爵：与
 - **[给智能汽车立规矩，为生命安全上保险](https://www.cnr.cn/2013qcpd/2015xc/20260720/t20260720_527719340.shtml)** — _www.cnr.cn_ · published 2026-07-20
   近日，工业和信息化部组织制定的《智能网联汽车 组合驾驶辅助系统安全要求》（GB 47955—2026）强制性国家标准经批准发布，拟于2027年1月1日起正式实施。该项标准充分考虑了不同产品形态和技术路线，针对基础单车道、基础多车道、领航驾驶辅助等三类组合驾驶辅助系统产品，分别提出所适用的安全要求。与相关国际法规相比，我国标准对系统设计运行范围、功能要求、驾驶
 - **[莫用“快消品”的逻辑造“耐用品”的汽车](https://www.cnr.cn/2013qcpd/2015xc/20260720/t20260720_527719337.shtml)** — _www.cnr.cn_ · published 2026-07-20
@@ -153,6 +191,8 @@ _Updated 2026-07-20 09:12 | discovery-only, zero LLM tokens | runs every 3h_
   据中国汽车工业协会统计分析，2026年1-6月，汽车销量排名前十位的企业（集团）共销售1264.9万辆，占汽车销售总量的84.2%。在上述十家企业中，与去年同期相比，吉利控股、奇瑞控股、广汽集团和长城汽车销量呈不同程度增长，其他企业销量呈不同程度下降。 编辑:董楠 更多精彩资讯请在应用市场下载“央广网”客户端。欢迎提供新闻线索，24小时报料热线400-800
 - **[上半年新能源汽车市场两极分化](https://www.cnr.cn/2013qcpd/2015xc/20260720/t20260720_527719334.shtml)** — _www.cnr.cn_ · published 2026-07-20
   当新能源汽车渗透率突破六成，比亚迪6月销量以22.45万辆横扫国内市场，吉利紧随其后狂飙突进——汽车产业电动化转型之路上，自主品牌已奠定统治地位。与此同时，曾经的市场“主导者”合资品牌，正经历前所未有的至暗时刻：有品牌新能源市场份额跌至0.1%、销量腰斩、明星车型哑火……中国新能源汽车市场的洗牌，比想象中来得更猛烈。 乘联分会最新数据显示，6月国内新能源乘用
+- **[郑州一汽车站9个售票窗口仅开1个引质疑](https://www.cnr.cn/mspd/sywzl/20260720/t20260720_527719375.shtml)** — _www.cnr.cn_ · published 2026-07-20
+  本报郑州7月16日电（记者余嘉熙 杨召奎）7月14日，有网友发布视频吐槽，郑州长途汽车中心站售票大厅的9个人工窗口仅开放1个，大批旅客顶着高温长时间排队购票，视频迅速在网上引发热议。今天，郑州长途汽车中心站工作人员回应《工人日报》记者采访时表示，该站固定开放人工窗口已增至2个，车站会根据客流变化及时增开人工窗口。 在视频中，该汽车站售票大厅的9个人工窗口有8
 - **[首搭Hi4-Z混动零百4.3秒，全新坦克300上市19.98万元起 - 第一电动网](https://www.d1ev.com/news/qiye/307617)** — _www.d1ev.com_ · date: unknown
   7月19日，“自由 去闯”全新坦克300在杭州电竞中心正式上市。新车全面升级，覆盖多种动力，全新坦克300L Hi4-T售价24.98万元、全新坦克300L Hi4-Z售价25.98万元；燃油版同步上市，全新坦克300 2.4T柴油版售价23.48万元、全新坦克300征服者售价21.68万元、全新坦克300挑战者售价19.98万元。 全新坦克300作为专为爱
 - **[19.98万起！全新坦克300L上市，纯电续航251km，动力升级更强悍](https://www.d1ev.com/newsflash/307616)** — _www.d1ev.com_ · date: unknown
@@ -173,8 +213,16 @@ _Updated 2026-07-20 09:12 | discovery-only, zero LLM tokens | runs every 3h_
   7月20日，华为公司高级副总裁、引望公司CEO靳玉志在接受采访时强调，L3是 自动驾驶发展中不可或缺的阶段。他指出，L3和L4不是对立关系，而是朝着完全自动驾驶目标的不同发展阶段。从L2到L3的转变，意味着从辅助驾驶过渡到自动驾驶，责任主体从驾驶员转移到提供自动驾驶服务的厂家或主机厂。因此，无论是法规的完善还是用户的适应，都需要一个过程，这也是为什么L3是不
 - **[【盖世快讯】沃尔沃CEO驳斥纳瓦罗涉华言论；中创新航回应广汽埃安电池故障](https://www.d1ev.com/news/shichang/307622)** — _www.d1ev.com_ · date: unknown
   车企动态 | OEM Trend IT之家：7月19日，小鹏汽车官方发布视频，宣布小鹏图灵第二代 VLA 开启高阶智驾全球化新阶段。据介绍，世界模型与 VLA 一体两面，共同提升模型在真实世界中的理解力与行动力；即使在训练数据不足的海外市场，模型也可以通过自主生成训练数据加速泛化。目前，小鹏汽车第二代 VLA 模型已实现同一套模型打通中国与欧洲，目前正加快推
+- **[奇瑞路虎联手打造神行者8：华为ADS+宁德电池，8K巨屏内饰曝光](https://www.d1ev.com/newsflash/307668)** — _www.d1ev.com_ · date: unknown
+  近日，FREELANDER神行者品牌发布了其首款量产车型神行者8的内饰官图。这款由路虎和奇瑞联合打造的车型，预计将搭载华为乾崑ADS辅助驾驶系统和 宁德时代电池。神行者8的内饰设计采用环抱式座舱，配备8K分辨率46.3英寸远端屏，同时还有15.6英寸LED中控屏和一系列豪华配置，如香氛系统、256色氛围灯和K9级光学水晶旋钮，提升车辆的精致感和高级感。 神行
+- **[人形机器人第一股，杀进韩国汽车产线](https://www.d1ev.com/news/shichang/307663)** — _www.d1ev.com_ · date: unknown
+  盖世汽车获悉，优必选韩国合作伙伴德山JMR（Duksan JM Robotics，DSJMR）已于近日与韩国领先汽车零部件企业AJIN Industrial正式签署合作谅解备忘录。 未来，优必选、德山JMR、AJIN Industrial将三方合作，共同推进Cruzr Y1、Walker S2等工业人形机器人在韩国首个汽车零部件生产产线的验证项目，推动人形机
+- **[广汽本田合资续约到2038年](https://www.gelonghui.com/live/2560353)** — _www.gelonghui.com_ · date: unknown
+  首页 > 快讯 > 快讯详情 广汽本田合资续约到2038年 格隆汇7月20日｜本田中国宣布，本田和广汽就双方旗下广汽本田汽车有限公司（简称“广汽本田”）合资合作项目正式签署战略续约协议，在股比保持不变的同时将合作期限延长至2038年。本田中国称，当前中国已发展成为全球规模最大的汽车市场，并随着电动化、智能化技术的快速发展，竞争日益激烈。在此背景下，本田和广汽
 - **[萝卜快跑与哈萨克斯坦企业签署战略合作协议；尚界汽车辟谣“脱离鸿蒙智行”丨汽车早参](https://www.nbd.com.cn/articles/2026-07-19/4477146.html)** — _www.nbd.com.cn_ · published 2026-07-19
   2026-07-20 07:00:10 每经记者｜董天意 实习生 刘家怡 每经编辑｜裴健如 丨 2026年7月20日 星期一 丨 NO.1 萝卜快跑与哈萨克斯坦企业签署战略合作协议 据百度官微7月16日消息，萝卜快跑与哈萨克斯坦企业Turlov Private Holding Ltd.（TPH）在上海签署战略合作协议，双方将共同探索在哈萨克斯坦引入无人车出行
+- **[工信部部署推动汽车安全治理延伸至全产业链](https://www.news.cn/fortune/20260720/e950cc1b39bd4c9c8e487a05df4e7e61/c.html)** — _www.news.cn_ · published 2026-07-20
+  日前，工业和信息化部装备工业一司组织召开重点汽车生产企业座谈会，部署进一步规范汽车产业竞争秩序、提升汽车产品生产一致性和质量安全水平、开展汽车产品安全风险隐患排查和监督检查等重点工作。业内专家认为，此次座谈会释放出一个明确信号：随着汽车产业进入智能化的下半场，相关技术和功能的进步也在推动汽车安全监管从聚焦产品本身，迈向涵盖供应链、新技术、全链条的系统性治理。
 - **[一天办8场活动，半年上新630款！车市上演极致“内卷”](https://www.stcn.com/article/detail/4027769.html)** — _www.stcn.com_ · date: unknown
   7月16日，国内汽车市场迎来一轮集中发布。 据不完全统计，当日共有8家车企举办品牌活动，其中6场为新车上市发布会、2场为品牌技术和用户庆典。 八家车企扎堆发声 7月16日，吉利汽车在无锡发布了“雷霆16合1智能电驱”系统，作为目前集成度最高的电驱系统，雷霆实现了电机、电控、减速器等16项硬件和功能的跨域深度集成。根据吉利释放的信息，该系统将率先搭载于新车银河
 - **[安徽今年汽车出口突破100万辆较去年提前5个月](https://www.zqrb.cn/auto/qichedongtai/2026-07-19/A1784468975959.html)** — _www.zqrb.cn_ · published 2026-07-19
