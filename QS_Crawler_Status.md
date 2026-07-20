@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-21 00:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-21 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-21 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **4132 unique auto/NEV articles** across **47 outlets**
+## Cumulative: **4145 unique auto/NEV articles** across **47 outlets**
 
 ## New per day
 | date | new articles |
@@ -53,7 +53,7 @@ _Updated 2026-07-21 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-18 | 84 |
 | 2026-07-19 | 58 |
 | 2026-07-20 | 141 |
-| 2026-07-21 | 20 |
+| 2026-07-21 | 33 |
 
 ## By outlet
 | outlet | articles |
@@ -61,10 +61,10 @@ _Updated 2026-07-21 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 | www.dongchedi.com | 1088 |
 | www.d1ev.com | 1045 |
 | 36kr.com | 216 |
+| vc.yiche.com | 191 |
 | www.caam.org.cn | 187 |
 | www.stcn.com | 186 |
-| vc.yiche.com | 180 |
-| auto.gasgoo.com | 152 |
+| auto.gasgoo.com | 154 |
 | egs.stcn.com | 116 |
 | www.cada.cn | 106 |
 | www.news.cn | 83 |
@@ -108,9 +108,13 @@ _Updated 2026-07-21 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-21 — 20 articles
+### 2026-07-21 — 33 articles
 - **[当汽车学会自己开、主动懂：WAIC 2026给出智能驾驶的新方向](https://36kr.com/p/3903713015039113)** — _36kr.com_ · published 2026-07-21
   当汽车学会自己开、主动懂：WAIC 2026给出智能驾驶的新方向 2026年7月，上海世博、张江、西岸三地四馆同时迎来了第七届世界人工智能大会。如果前两年的大会还是大模型厂商比拼参数和榜单的“军备赛”，今年展区布局已经变了模样，智算与具身智能两大板块各自汇聚了超过200家参展企业。 一个有意思的变化是，具身智能首次与智算并列成为WAIC的核心板块。展馆里甚至
+- **[现代汽车集团发布高保真研发模拟器](https://auto.gasgoo.com/news/202607/20I70466588C409.shtml)** — _auto.gasgoo.com_ · date: unknown
+  盖世汽车讯 据外媒报道，现代汽车集团（Hyundai Motor Group）在其位于韩国南阳的研发中心安装了一套高保真驾驶模拟器，能够将数月的实地赛道测试压缩至数小时的虚拟验证。该设施于2025年4月建成，历时十个月，旨在支持现代汽车、起亚和捷尼赛思（Genesis）三大品牌的研发项目。 该模拟器配备了由九台4K投影仪驱动的270度曲面显示屏，投影频率为2
+- **[《新能源汽车维修作业安全要求》国家标准将于8月1日起正式实施](https://auto.gasgoo.com/news/202607/20I70466562C108.shtml)** — _auto.gasgoo.com_ · date: unknown
+  盖世汽车获悉 8月1日起，《新能源汽车维修作业安全要求》（GB/T 47439—2026）国家标准将正式实施。该标准针对新能源汽车维修作业环节，提出了系统的安全规范要求。 图片来源：国家市场监督管理总局 标准内容涵盖维修人员资质与作业场地条件、作业前的各项准备、风险排查与应急处置、具体作业流程以及操作过程中的安全规范。在适用范围上，该标准重点聚焦新能源汽车高
 - **[新能源汽车维修安全国标将实施](https://finance.people.com.cn/n1/2026/0720/c1004-40764505.html)** — _finance.people.com.cn_ · published 2026-07-20
   新能源汽车维修安全国标将实施 2026年07月20日21:49 | 来源：新华社222 订阅已订阅已收藏收藏小字号 点击播报本文，约 国家市场监督管理总局7月20日通报，《新能源汽车维修作业安全要求》（GB/T 47439—2026）国家标准将于8月1日起实施。 该标准主要规定了新能源汽车维修的人员与场地、作业准备、风险排查与处置、作业流程和操作安全等要求。
 - **[用设计与体验定义高端！静态体验萤火虫halo寻光系列首款车型](https://vc.yiche.com/vplay/12199490.html)** — _vc.yiche.com_ · date: unknown
@@ -131,6 +135,28 @@ _Updated 2026-07-21 00:12 | discovery-only, zero LLM tokens | runs every 3h_
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 20.38-30.18万 2026北京车展|豪华运动智慧SUV新范式，昊铂S600亮相 一辆ACarTV 大众电动SUV新突破！续航730km+四驱+图灵AI，才卖20多万
 - **[雷克萨斯ES：比老款大15%，还便宜10万！能打BBA 5/6/E？](https://vc.yiche.com/vplay/12217228.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 29.99-31.27万 四缸回归！22款福克斯ST-Line VS 21款外观/内饰/动力全对比，进化了啥？ hknick220221 2026款极氪007 选装优惠 裸
+- **[试驾smart精灵5号BRABUS超能版！方盒子纯电性能猛兽实拍](https://vc.yiche.com/vplay/12220280.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 它来了，它带着大电池走来了！ 妄想车库 坐F1开GP战车！不想造摩托车，纯是瘾大？北京车展本田展台！ 易车摩托 连续8个月蝉联合资新能源销冠，2026款铂智3X真的太能打！
+- **[风云A9探店实拍，15万内最强纯电轿跑！](https://vc.yiche.com/vplay/12220203.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 这价格，我真挑不出毛病！试驾奇瑞风云A9 跟我自驾游 预售72小时大定破万 奇瑞风云A9靠什么打动人心 主试角 小鹏P7+ 超大空间 超长续航 超强智能 20万级最
+- **[10万出头的赛级燃油车？探店艾瑞泽8征服版！](https://vc.yiche.com/vplay/12219832.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 9.99-14.89万 小鹏MONA L03：开着爽，不开也爽 智驾网 奥迪E5 Sportback新系统R6增强学习大模型升级后，辅助驾驶行不行？ 智电新星 昊铂S600
+- **[比亚迪回应唐电机脱落：涉水底盘磕碰 非质量问题 但超过半个轮子就别冲了](https://vc.yiche.com/vplay/12160360.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 17.98-19.98万 全新雷克萨斯LFA纯电概念跑车实拍，这颜值给个不心动的理由 汽车人bingo 广汽+华为联手，启境GX7到底有多少硬底牌？ 彭彭的车视界 比亚迪唐
+- **[比亚迪唐电机脱落后续来了 官方回应：涉水底盘磕碰所致 不是质量问题](https://vc.yiche.com/vplay/12160626.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 17.98-19.98万 唐家族双旗舰成型 比亚迪8系唐工信部曝光 大五座旗舰SUV来了 一起去SUV 拜托了老司机：唐老电池鼓包导致信号线断裂，维修过程中失去原厂质保！
+- **[坦克300L来了 轴距拉长260毫米 两种混动可选 预售价25.98万起](https://vc.yiche.com/vplay/12143126.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 19.98-23.48万 飞手专属作业车实测！26 款长安猎手 K50太夯了 皮卡车市PiKM 轴距加长26cm，全给到L113区域，全新坦克300越野更强了？（下） 小龙
+- **[你真的需要智能汽车吗？我们问了100个人...](https://vc.yiche.com/vplay/12168788.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 重塑市场格局：哈弗猛龙PLUS以18.98万起正式开启预售 风影车都 实测比亚迪海豹08断头路掉头！转弯半径4.95米，灵活性堪比A级车 Car路里 20万内家用SUV最优
+- **[面子里子全都有！30万买纯电轿车 看看腾势Z9S](https://vc.yiche.com/vplay/12220147.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 33.48-41.48万 比亚迪硬核技术让同行无力跟风 汽车世界说老张 这一次在长春体验红旗全新一代天工08 叁佰玩速 高德地图的妙用，这个一定要知道！ 阿科车生活 我们需
+- **[实拍小鹏MONA L03，12.38万起，这个售价值得入手吗？](https://vc.yiche.com/vplay/12218264.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 12.38-15.68万 预售14.38万起，小鹏MONA L03全是年轻人心头好？ 车厘子 小鹏MONA L03超全评测！ 东风数据电台 试驾完 MONA L03，我推翻
+- **[小鹏MONA L3上市降2万，销量立竿见影，但除了价格还有啥吸引力](https://vc.yiche.com/vplay/12219923.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 12.38-15.68万 15万上1500TOPS智驾！小鹏 MONA L03 要续写爆款？ 驭鉴 开完小鹏monal03才发现这台 SUV 藏了多少硬货 十二车了么 当兄
+- **[行走的东方时序，流动的中国美学](https://vc.yiche.com/vplay/12220112.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 吉利星瑞L Plus：近5米车身+三套动力+千里浩瀚智驾 燃擎派 中式美学能带领星瑞L PLUS 突破传统B级合资车的重围吗？#星瑞LPLUS大美中国车 大谋爱侃车
 - **[“21万辆埃安S电池故障爆发，广汽埃安与中创新航紧急回应”](https://www.d1ev.com/newsflash/307789)** — _www.d1ev.com_ · date: unknown
   近日，广汽埃安S系列车型因 电池问题引发广泛关注。大量车主反映，车辆在使用过程中出现电池鼓包、漏液、电芯炸裂等问题，导致车辆无法正常行驶。据车质网、黑猫投诉等平台统计，半个月内相关投诉高达182例，涉及规模约21万辆，故障检出率达4.7%。问题电池均来自供应商中创新航，型号为177Ah磷酸铁锂。 广汽埃安和中创新航迅速作出回应，发布公告承认部分搭载中创新航1
 - **[2027款星途ES携猎鹰700系统上市，智能驾驶新标杆！](https://www.d1ev.com/newsflash/307786)** — _www.d1ev.com_ · date: unknown
