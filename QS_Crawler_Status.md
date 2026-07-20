@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-20 21:15 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-21 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-20 21:15 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **4112 unique auto/NEV articles** across **47 outlets**
+## Cumulative: **4132 unique auto/NEV articles** across **47 outlets**
 
 ## New per day
 | date | new articles |
@@ -53,30 +53,31 @@ _Updated 2026-07-20 21:15 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-18 | 84 |
 | 2026-07-19 | 58 |
 | 2026-07-20 | 141 |
+| 2026-07-21 | 20 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 1041 |
-| 36kr.com | 215 |
+| www.d1ev.com | 1045 |
+| 36kr.com | 216 |
 | www.caam.org.cn | 187 |
 | www.stcn.com | 186 |
-| vc.yiche.com | 171 |
+| vc.yiche.com | 180 |
 | auto.gasgoo.com | 152 |
 | egs.stcn.com | 116 |
 | www.cada.cn | 106 |
-| www.news.cn | 81 |
+| www.news.cn | 83 |
 | autodata.gasgoo.com | 75 |
 | www.cnr.cn | 74 |
+| www.yicai.com | 70 |
 | m.21jingji.com | 70 |
-| www.yicai.com | 68 |
 | news.yiche.com | 67 |
 | www.nbd.com.cn | 60 |
 | auto.caijing.com.cn | 47 |
 | www.zqrb.cn | 39 |
+| www.xinhuanet.com | 28 |
 | www.jwview.com | 28 |
-| www.xinhuanet.com | 27 |
 | finance.eastmoney.com | 26 |
 | cn.chinadaily.com.cn | 20 |
 | www.gelonghui.com | 19 |
@@ -84,7 +85,7 @@ _Updated 2026-07-20 21:15 | discovery-only, zero LLM tokens | runs every 3h_
 | qzs.stcn.com | 16 |
 | auto.ce.cn | 16 |
 | www.chinanews.com.cn | 15 |
-| finance.people.com.cn | 13 |
+| finance.people.com.cn | 14 |
 | cv.ce.cn | 12 |
 | www.ceweekly.cn | 10 |
 | economy.gmw.cn | 9 |
@@ -106,6 +107,48 @@ _Updated 2026-07-20 21:15 | discovery-only, zero LLM tokens | runs every 3h_
 | finance.caijing.com.cn | 1 |
 
 ## Articles captured by day (newest first)
+
+### 2026-07-21 — 20 articles
+- **[当汽车学会自己开、主动懂：WAIC 2026给出智能驾驶的新方向](https://36kr.com/p/3903713015039113)** — _36kr.com_ · published 2026-07-21
+  当汽车学会自己开、主动懂：WAIC 2026给出智能驾驶的新方向 2026年7月，上海世博、张江、西岸三地四馆同时迎来了第七届世界人工智能大会。如果前两年的大会还是大模型厂商比拼参数和榜单的“军备赛”，今年展区布局已经变了模样，智算与具身智能两大板块各自汇聚了超过200家参展企业。 一个有意思的变化是，具身智能首次与智算并列成为WAIC的核心板块。展馆里甚至
+- **[新能源汽车维修安全国标将实施](https://finance.people.com.cn/n1/2026/0720/c1004-40764505.html)** — _finance.people.com.cn_ · published 2026-07-20
+  新能源汽车维修安全国标将实施 2026年07月20日21:49 | 来源：新华社222 订阅已订阅已收藏收藏小字号 点击播报本文，约 国家市场监督管理总局7月20日通报，《新能源汽车维修作业安全要求》（GB/T 47439—2026）国家标准将于8月1日起实施。 该标准主要规定了新能源汽车维修的人员与场地、作业准备、风险排查与处置、作业流程和操作安全等要求。
+- **[用设计与体验定义高端！静态体验萤火虫halo寻光系列首款车型](https://vc.yiche.com/vplay/12199490.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 11.98-13.33万 这个时代最好的小车 蔚来萤火虫敞篷概念版【晴空布鲁斯】 河马说车吧 东风风行携手华为，高阶智驾杀入15万级家庭市场 SUV大咖 时代精英首选座驾！
+- **[比亚迪唐、大唐、钛7，怎么选？](https://vc.yiche.com/vplay/12216941.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 23.99-30.99万 自主五强5月销量盘点 奇瑞销量结构失衡 长城国内销量不足5万 车314 极狐阿尔法T7：中大型SUV的“最大号轿车”悖论 涵公子驾道 配激光雷达+
+- **[探店风云A9 11万级纯电轿跑居然这么顶!](https://vc.yiche.com/vplay/12217739.html)** — _vc.yiche.com_ · published 2026-07-20
+  2026-07-20 19:40:37内容简介 内容由作者提供，不代表易车立场 11万级纯电轿跑居然这么顶？探店风云A9。全系标配70kWh犀牛E电池，CLTC续航655km，15万级唯一不搞“入门小电池”套路的纯电轿跑。3nm座舱芯片、23扬声器伯牙之音、8安全气囊统统标配。13.59万顶配还给激光雷达+城市NOA。本期带你零距离感受这台“入门即满配”的长
+- **[探店体验奇瑞风云T9L，15万级家用混动SUV新选择](https://vc.yiche.com/vplay/12217382.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 12.99-18.69万 提车风云T9L，东方美学到货，从容生活开箱 Report汽车 鲲鹏 CDM6.0 混动系统，风云 T9L 四驱版 5 秒破百性能拉满 车舞飞扬TV
+- **[小鹏GX顶级智驾 超长续航 超大空间 百万级底盘全都有](https://vc.yiche.com/vplay/12217158.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 27.98-35.98万 无数人问磷酸铁锂电池怎么充电？钠电池有必要等吗？#尹哥普及新能源 #磷酸铁锂电池充电建议 尹哥普及新能源 小鹏GX指导价大幅下探，大型SUV大六座
+- **[小鹏MONA M03 50万级智驾 20万级配置 给年轻人超预期的体验](https://vc.yiche.com/vplay/12216976.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 11.98-15.18万 MONA L03上市，入门版12万出头还有得赚，小鹏更会降本了？ 小龙MAXTV 要“有里有面”还要好用不贵？启源A06和小鹏M03谁更懂家庭用户
+- **[小鹏P7 一个月养车就几顿火锅钱？](https://vc.yiche.com/vplay/12216948.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 20.38-30.18万 小皮：赛事中某些阶段的推进过于猛烈，导致退至P7，令人感到失望 | 26奥地利大奖赛 奶茶朋友星980428 万预算买油车还是买电车呢？油车电车怎
+- **[小鹏P7 颜值出众 智能化拉满 满足年轻人的既要又要](https://vc.yiche.com/vplay/12216920.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 20.38-30.18万 2026北京车展|豪华运动智慧SUV新范式，昊铂S600亮相 一辆ACarTV 大众电动SUV新突破！续航730km+四驱+图灵AI，才卖20多万
+- **[雷克萨斯ES：比老款大15%，还便宜10万！能打BBA 5/6/E？](https://vc.yiche.com/vplay/12217228.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 29.99-31.27万 四缸回归！22款福克斯ST-Line VS 21款外观/内饰/动力全对比，进化了啥？ hknick220221 2026款极氪007 选装优惠 裸
+- **[“21万辆埃安S电池故障爆发，广汽埃安与中创新航紧急回应”](https://www.d1ev.com/newsflash/307789)** — _www.d1ev.com_ · date: unknown
+  近日，广汽埃安S系列车型因 电池问题引发广泛关注。大量车主反映，车辆在使用过程中出现电池鼓包、漏液、电芯炸裂等问题，导致车辆无法正常行驶。据车质网、黑猫投诉等平台统计，半个月内相关投诉高达182例，涉及规模约21万辆，故障检出率达4.7%。问题电池均来自供应商中创新航，型号为177Ah磷酸铁锂。 广汽埃安和中创新航迅速作出回应，发布公告承认部分搭载中创新航1
+- **[2027款星途ES携猎鹰700系统上市，智能驾驶新标杆！](https://www.d1ev.com/newsflash/307786)** — _www.d1ev.com_ · date: unknown
+  7月20日，2027款星途ES正式上市，售价区间为16.99-19.99万元。新车在保持现有车型设计的基础上，重点升级智能化配置，搭载猎鹰700驾驶辅助系统和AI灵犀座舱，提升智能驾驶体验。星途汽车还推出辅助驾驶和动力 电池安全兜底政策，为首任车主提供高额赔偿保障。 2027款星途ES延续了在售车型的设计风格，前脸采用贯穿式LED灯组，配合大嘴格栅设计，拉伸
+- **[比亚迪突破技术瓶颈！5分钟充电70%，工信部点赞](https://www.d1ev.com/newsflash/307784)** — _www.d1ev.com_ · date: unknown
+  7月20日，比亚迪在工信部举办的新闻发布会上获得高度评价。工业和信息化部相关负责人在介绍今年上半年工业和信息化发展情况时，特别提到深圳比亚迪公司全球首推的第二代刀片 电池和兆瓦闪充系统，称其“打破了技术瓶颈”。比亚迪的第二代刀片电池在第一代基础上进行了迭代升级，提高了能量密度和安全性能。同时，兆瓦闪充系统作为比亚迪今年重点推出的超充技术方案，实现了兆瓦级充电
+- **[现代汽车集团发布高保真研发模拟器](https://www.d1ev.com/news/shichang/307780)** — _www.d1ev.com_ · date: unknown
+  盖世汽车讯 据外媒报道，现代汽车集团（Hyundai Motor Group）在其位于韩国南阳的研发中心安装了一套高保真驾驶模拟器，能够将数月的实地赛道测试压缩至数小时的虚拟验证。该设施于2025年4月建成，历时十个月，旨在支持现代汽车、起亚和捷尼赛思（Genesis）三大品牌的研发项目。 该模拟器配备了由九台4K投影仪驱动的270度曲面显示屏，投影频率为2
+- **[新能源汽车维修安全国标将实施](https://www.news.cn/20260720/78f5d468e20f46109dfa6a4acbd05c38/c.html)** — _www.news.cn_ · published 2026-07-20
+  国家市场监督管理总局7月20日通报，《新能源汽车维修作业安全要求》（GB/T 47439—2026）国家标准将于8月1日起实施。 该标准主要规定了新能源汽车维修的人员与场地、作业准备、风险排查与处置、作业流程和操作安全等要求。该标准聚焦新能源汽车高压系统和氢燃料汽车供氢系统维修，提出了作业前、作业中和作业后的关键操作要求，重点明确了防护装备及工具检查、场地环
+- **[新能源汽车维修安全国标将实施](https://www.news.cn/fortune/20260720/e488eea6caa14752a3d47dae86abdefb/c.html)** — _www.news.cn_ · published 2026-07-20
+  国家市场监督管理总局7月20日通报，《新能源汽车维修作业安全要求》（GB/T 47439—2026）国家标准将于8月1日起实施。 该标准主要规定了新能源汽车维修的人员与场地、作业准备、风险排查与处置、作业流程和操作安全等要求。该标准聚焦新能源汽车高压系统和氢燃料汽车供氢系统维修，提出了作业前、作业中和作业后的关键操作要求，重点明确了防护装备及工具检查、场地环
+- **[新能源汽车维修安全国标将实施](https://www.xinhuanet.com/20260720/78f5d468e20f46109dfa6a4acbd05c38/c.html)** — _www.xinhuanet.com_ · published 2026-07-20
+  国家市场监督管理总局7月20日通报，《新能源汽车维修作业安全要求》（GB/T 47439—2026）国家标准将于8月1日起实施。 该标准主要规定了新能源汽车维修的人员与场地、作业准备、风险排查与处置、作业流程和操作安全等要求。该标准聚焦新能源汽车高压系统和氢燃料汽车供氢系统维修，提出了作业前、作业中和作业后的关键操作要求，重点明确了防护装备及工具检查、场地环
+- **[汽车第一省，成功卫冕](https://www.yicai.com/news/103284076.html)** — _www.yicai.com_ · date: unknown
+  {{aisd}} AI生成 免责声明 国家统计局最新数据显示，2026年上半年，安徽省汽车产量达168.67万辆，位居全国各省份之首。这也是安徽继2025年上半年、2025年全年登顶全国汽车产量榜首后，再次成功实现卫冕。 从总量来看，安徽以168.67万辆的绝对优势稳居第一，广东（137.85万辆）、浙江（117.4万辆）、江苏（112.2万辆）分列二至四位
+- **[奕境X9量产，成都汽车产业能否实现“大象转身”](https://www.yicai.com/news/103284039.html)** — _www.yicai.com_ · date: unknown
+  {{aisd}} AI生成 免责声明 7月20日，东风汽车旗下奕境X9首台量产车在成都下线。 这不仅承载着东风汽车这家央企的转型使命，也是成都打造世界级新能源和智能网联汽车产业高地的重要落子。 量产 奕境汽车是华为与东风汽车全栈原生共创的新品牌，X9是奕境汽车首款战略车型，定位为“新一代家庭旗舰”。早在今年4月的华为乾崑技术大会上，奕境X9外观正式亮相，随后
 
 ### 2026-07-20 — 141 articles
 - **[全款十几万打水漂，又一车企经销商暴雷，压库冲量正在逼死渠道](https://36kr.com/p/3899691428807817)** — _36kr.com_ · published 2026-07-20
