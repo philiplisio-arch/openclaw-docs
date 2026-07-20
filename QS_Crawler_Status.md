@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-21 03:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-21 06:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-21 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **4145 unique auto/NEV articles** across **47 outlets**
+## Cumulative: **4149 unique auto/NEV articles** across **47 outlets**
 
 ## New per day
 | date | new articles |
@@ -53,7 +53,7 @@ _Updated 2026-07-21 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-18 | 84 |
 | 2026-07-19 | 58 |
 | 2026-07-20 | 141 |
-| 2026-07-21 | 33 |
+| 2026-07-21 | 37 |
 
 ## By outlet
 | outlet | articles |
@@ -61,7 +61,7 @@ _Updated 2026-07-21 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 | www.dongchedi.com | 1088 |
 | www.d1ev.com | 1045 |
 | 36kr.com | 216 |
-| vc.yiche.com | 191 |
+| vc.yiche.com | 192 |
 | www.caam.org.cn | 187 |
 | www.stcn.com | 186 |
 | auto.gasgoo.com | 154 |
@@ -79,8 +79,8 @@ _Updated 2026-07-21 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 | www.xinhuanet.com | 28 |
 | www.jwview.com | 28 |
 | finance.eastmoney.com | 26 |
+| www.gelonghui.com | 22 |
 | cn.chinadaily.com.cn | 20 |
-| www.gelonghui.com | 19 |
 | m.ce.cn | 17 |
 | qzs.stcn.com | 16 |
 | auto.ce.cn | 16 |
@@ -108,7 +108,7 @@ _Updated 2026-07-21 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-21 — 33 articles
+### 2026-07-21 — 37 articles
 - **[当汽车学会自己开、主动懂：WAIC 2026给出智能驾驶的新方向](https://36kr.com/p/3903713015039113)** — _36kr.com_ · published 2026-07-21
   当汽车学会自己开、主动懂：WAIC 2026给出智能驾驶的新方向 2026年7月，上海世博、张江、西岸三地四馆同时迎来了第七届世界人工智能大会。如果前两年的大会还是大模型厂商比拼参数和榜单的“军备赛”，今年展区布局已经变了模样，智算与具身智能两大板块各自汇聚了超过200家参展企业。 一个有意思的变化是，具身智能首次与智算并列成为WAIC的核心板块。展馆里甚至
 - **[现代汽车集团发布高保真研发模拟器](https://auto.gasgoo.com/news/202607/20I70466588C409.shtml)** — _auto.gasgoo.com_ · date: unknown
@@ -157,6 +157,8 @@ _Updated 2026-07-21 03:12 | discovery-only, zero LLM tokens | runs every 3h_
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 12.38-15.68万 15万上1500TOPS智驾！小鹏 MONA L03 要续写爆款？ 驭鉴 开完小鹏monal03才发现这台 SUV 藏了多少硬货 十二车了么 当兄
 - **[行走的东方时序，流动的中国美学](https://vc.yiche.com/vplay/12220112.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 吉利星瑞L Plus：近5米车身+三套动力+千里浩瀚智驾 燃擎派 中式美学能带领星瑞L PLUS 突破传统B级合资车的重围吗？#星瑞LPLUS大美中国车 大谋爱侃车
+- **[2026吉利牛仔⭐7万级方盒子SUV](https://vc.yiche.com/vplay/12220434.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 8.19-9.99万 蔚来es9全新的辅助驾驶，重回第一梯队了？ clararui270206 年轻人的第一台潮野城市SUV！2026款吉利牛仔限时7.59万起 麻辣车评君
 - **[“21万辆埃安S电池故障爆发，广汽埃安与中创新航紧急回应”](https://www.d1ev.com/newsflash/307789)** — _www.d1ev.com_ · date: unknown
   近日，广汽埃安S系列车型因 电池问题引发广泛关注。大量车主反映，车辆在使用过程中出现电池鼓包、漏液、电芯炸裂等问题，导致车辆无法正常行驶。据车质网、黑猫投诉等平台统计，半个月内相关投诉高达182例，涉及规模约21万辆，故障检出率达4.7%。问题电池均来自供应商中创新航，型号为177Ah磷酸铁锂。 广汽埃安和中创新航迅速作出回应，发布公告承认部分搭载中创新航1
 - **[2027款星途ES携猎鹰700系统上市，智能驾驶新标杆！](https://www.d1ev.com/newsflash/307786)** — _www.d1ev.com_ · date: unknown
@@ -165,6 +167,12 @@ _Updated 2026-07-21 03:12 | discovery-only, zero LLM tokens | runs every 3h_
   7月20日，比亚迪在工信部举办的新闻发布会上获得高度评价。工业和信息化部相关负责人在介绍今年上半年工业和信息化发展情况时，特别提到深圳比亚迪公司全球首推的第二代刀片 电池和兆瓦闪充系统，称其“打破了技术瓶颈”。比亚迪的第二代刀片电池在第一代基础上进行了迭代升级，提高了能量密度和安全性能。同时，兆瓦闪充系统作为比亚迪今年重点推出的超充技术方案，实现了兆瓦级充电
 - **[现代汽车集团发布高保真研发模拟器](https://www.d1ev.com/news/shichang/307780)** — _www.d1ev.com_ · date: unknown
   盖世汽车讯 据外媒报道，现代汽车集团（Hyundai Motor Group）在其位于韩国南阳的研发中心安装了一套高保真驾驶模拟器，能够将数月的实地赛道测试压缩至数小时的虚拟验证。该设施于2025年4月建成，历时十个月，旨在支持现代汽车、起亚和捷尼赛思（Genesis）三大品牌的研发项目。 该模拟器配备了由九台4K投影仪驱动的270度曲面显示屏，投影频率为2
+- **[快讯-格隆汇](https://www.gelonghui.com/live/2561654)** — _www.gelonghui.com_ · published 2026-07-21
+  申请认证 格隆汇公众号矩阵 格隆汇App 下载格隆汇APP 诊股宝App 下载诊股宝App 汇路演App 下载汇路演APP 极调研 加入我们 首页 社区 快讯 事件 深度 主题 专栏 行情 会员 数据 财富圈 文章 更多相关文章 快讯 更多相关快讯 查看全部股票/文章/快讯/事件/用户/财富圈搜索结果 热门股票 搜索历史 清空历史 登录 / 注册 温馨提示
+- **[美国宣布对加拿大部分产品加征50%关税](https://www.gelonghui.com/live/2561653)** — _www.gelonghui.com_ · published 2026-07-21
+  申请认证 格隆汇公众号矩阵 格隆汇App 下载格隆汇APP 诊股宝App 下载诊股宝App 汇路演App 下载汇路演APP 极调研 加入我们 首页 社区 快讯 事件 深度 主题 专栏 行情 会员 数据 财富圈 文章 更多相关文章 快讯 更多相关快讯 查看全部股票/文章/快讯/事件/用户/财富圈搜索结果 热门股票 搜索历史 清空历史 登录 / 注册 温馨提示
+- **[快讯-格隆汇](https://www.gelonghui.com/live/2561652)** — _www.gelonghui.com_ · published 2026-07-21
+  申请认证 格隆汇公众号矩阵 格隆汇App 下载格隆汇APP 诊股宝App 下载诊股宝App 汇路演App 下载汇路演APP 极调研 加入我们 首页 社区 快讯 事件 深度 主题 专栏 行情 会员 数据 财富圈 文章 更多相关文章 快讯 更多相关快讯 查看全部股票/文章/快讯/事件/用户/财富圈搜索结果 热门股票 搜索历史 清空历史 登录 / 注册 温馨提示
 - **[新能源汽车维修安全国标将实施](https://www.news.cn/20260720/78f5d468e20f46109dfa6a4acbd05c38/c.html)** — _www.news.cn_ · published 2026-07-20
   国家市场监督管理总局7月20日通报，《新能源汽车维修作业安全要求》（GB/T 47439—2026）国家标准将于8月1日起实施。 该标准主要规定了新能源汽车维修的人员与场地、作业准备、风险排查与处置、作业流程和操作安全等要求。该标准聚焦新能源汽车高压系统和氢燃料汽车供氢系统维修，提出了作业前、作业中和作业后的关键操作要求，重点明确了防护装备及工具检查、场地环
 - **[新能源汽车维修安全国标将实施](https://www.news.cn/fortune/20260720/e488eea6caa14752a3d47dae86abdefb/c.html)** — _www.news.cn_ · published 2026-07-20
