@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-21 21:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-22 00:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-21 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **4282 unique auto/NEV articles** across **47 outlets**
+## Cumulative: **4307 unique auto/NEV articles** across **47 outlets**
 
 ## New per day
 | date | new articles |
@@ -54,22 +54,23 @@ _Updated 2026-07-21 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-19 | 58 |
 | 2026-07-20 | 141 |
 | 2026-07-21 | 170 |
+| 2026-07-22 | 25 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 1072 |
-| 36kr.com | 220 |
-| vc.yiche.com | 215 |
+| www.d1ev.com | 1076 |
+| 36kr.com | 222 |
+| vc.yiche.com | 221 |
 | www.stcn.com | 188 |
 | www.caam.org.cn | 187 |
-| auto.gasgoo.com | 167 |
+| auto.gasgoo.com | 175 |
 | egs.stcn.com | 117 |
 | www.cada.cn | 106 |
 | www.cnr.cn | 87 |
 | www.news.cn | 86 |
-| autodata.gasgoo.com | 79 |
+| autodata.gasgoo.com | 84 |
 | news.yiche.com | 76 |
 | www.yicai.com | 72 |
 | www.nbd.com.cn | 71 |
@@ -107,6 +108,50 @@ _Updated 2026-07-21 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 | finance.caijing.com.cn | 1 |
 
 ## Articles captured by day (newest first)
+
+### 2026-07-22 — 25 articles
+- **[长城换下了白富美](https://36kr.com/p/3905275529741446)** — _36kr.com_ · published 2026-07-22
+  长城换下了白富美 有细心的车友发现，长城在7月19日坦克300正式上市时，将13天前预售发布的“白富美”“黑凤梨”“沙丘米”三个颜色的命名，改成了“率真白”“炫酷黑”以及“轻松米”。 不要小看这么一个细微的调整，长城因此收获了大量关注和讨论。 早在预售发布会官宣全新坦克300有“白富美”“黑凤梨”两种颜色选择时，已经有不少持币观望这款新车的消费者就对这样的命
+- **[知名电池厂陷质量风波，存在鼓包漏液风险，合作车企紧急回应](https://36kr.com/p/3905342162949255)** — _36kr.com_ · date: unknown
+- **[中国汽车出口，正往千亿大关去](https://auto.gasgoo.com/news/202607/21I70466688C108.shtml)** — _auto.gasgoo.com_ · date: unknown
+  2021年全年，中国汽车出口345亿美元。五年后的今天，仅2026年上半年，这个数字就达到了918亿美元，逼近千亿美元大关。 从345亿到半年918亿，中国汽车只用五年时间便走完了许多国家数十年的路程。 汽车改写中国出口基因 海关总署数据显示，2026年1至6月，中国商品贸易出口总额为21258亿美元，同比增长17%。其中汽车整车出口918亿美元，同比大幅增
+- **[Tech Talk](https://auto.gasgoo.com/news/202607/21I70466612C1203.shtml)** — _auto.gasgoo.com_ · date: unknown
+  海斯坦普（Gestamp）是一家专注于高度工程化汽车金属部件研发与制造的跨国企业，产品覆盖白车身、底盘及电池盒等关键领域。本届2026上海国际低碳智慧出行展览会（GSA 2026）上，海斯坦普带来了Ges‑GigaStamping™超大型一体化白车身热冲压技术、多驱动复合型前副车架以及电池盒安全防护与轻量化解决方案等一系列创新成果。 本期《盖世汽车 Tech
+- **[2026中国汽车论坛上海开幕](https://auto.gasgoo.com/news/202607/21I70466726C108.shtml)** — _auto.gasgoo.com_ · date: unknown
+  盖世汽车讯 7月21日，2026中国汽车论坛在上海嘉定正式拉开帷幕。本届论坛由中国汽车工业协会主办，以“新开局，新机遇，新征程——共绘汽车产业高质量发展新蓝图”为主题，将延续至7月23日。 图片来源：盖世汽车+AI 2026年是“十五五”规划的开局之年。本届论坛由“1场闭门峰会、1个大会论坛、1场技术领袖峰会、13个主题专题论坛”等活动构成，汇聚政产学研各界
+- **[欧盟充电网络建设超前于电动车销量 多数成员国已达标](https://auto.gasgoo.com/news/202607/21I70466600C101.shtml)** — _auto.gasgoo.com_ · date: unknown
+  盖世汽车讯 根据环保倡导组织“交通与环境”（Transport & Environment，简称T&E）近日发布的数据，截至2025年底，欧盟公共充电基础设施的建设速度已超过纯电动车（BEV）销量增长，除马耳他外，所有成员国均已满足欧盟基于电动车保有量设定的公共充电能力要求。 图片来源：花瓣网 数据显示，截至2025年底，欧盟公共充电桩数量已达110万个，是
+- **[墨西哥上半年中国品牌汽车销量增长近30% 市场份额达17%](https://auto.gasgoo.com/news/202607/21I70466629C101.shtml)** — _auto.gasgoo.com_ · date: unknown
+  盖世汽车讯 尽管墨西哥今年1月对来自中国及其他亚洲国家的汽车加征50%关税，但今年上半年中国品牌汽车在墨西哥的销量仍同比增长近30%，市场份额升至17%。根据墨西哥汽车经销商协会（Mexican Association of Automobile Distributors）的一份报告，今年前六个月，中国品牌新车销量达137,525辆，高于去年同期的107,7
+- **[小鹏汽车发布TuringViT视觉编码器](https://auto.gasgoo.com/news/202607/21I70466717C109.shtml)** — _auto.gasgoo.com_ · date: unknown
+- **[捷尼赛思考虑推出更亲民的豪华电动车](https://auto.gasgoo.com/news/202607/21I70466675C101.shtml)** — _auto.gasgoo.com_ · date: unknown
+  盖世汽车讯 韩国豪华汽车品牌捷尼赛思（Genesis）正评估推出一款面向大众市场的更平价电动车型。据捷尼赛思欧洲董事总经理彼得·克龙施纳布尔（Peter Kronschnabl）向英国《Autocar》杂志透露，该品牌正在“评估”这一可能性，但尚未作出最终决定。 这款潜在的小型电动车预计将基于现代汽车最新推出的IONIQ 3紧凑型电动掀背车打造。IONIQ
+- **[萤火虫halo寻光系列首款车型栖息地发售](https://auto.gasgoo.com/news/202607/21I70466658C107.shtml)** — _auto.gasgoo.com_ · date: unknown
+- **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2079377159238602752)** — _autodata.gasgoo.com_ · date: unknown
+- **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2079477873075961856)** — _autodata.gasgoo.com_ · date: unknown
+- **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2079392411648937984)** — _autodata.gasgoo.com_ · date: unknown
+- **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2079373473007423488)** — _autodata.gasgoo.com_ · date: unknown
+- **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2079377500436844544)** — _autodata.gasgoo.com_ · date: unknown
+- **[后备厢空间是真心大 蔚来ES8大五座版到店实拍](https://vc.yiche.com/vplay/12240755.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 38.28-44.68万 2026尊界 S800欣赏 月亮海星茶 蔚来全新ES8不断刷新交付纪录！众多用户们为何都选Ta？ 行动派Action 你的奥迪A5L鉴赏 连接的凌
+- **[上市即爆款？比亚迪海豹08凭什么？](https://vc.yiche.com/vplay/12227938.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 19.69-23.99万 昊铂S600实测 "跑山王”专治远程焦虑 6月购车补贴上线! 科技新赛道 四缸回归！22款福克斯ST-Line VS 21款外观/内饰/动力全对比
+- **[10万级纯电SUV为啥首选埃安N60？](https://vc.yiche.com/vplay/12239775.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 10.98-12.98万 越野电摩也能办成音乐节？79bike品牌日太热闹了 离子公路 日本车神话，正在被中国打穿 shanxiBai 埃安N60搭载了全球顶级的三电科技。
+- **[新车报告：2027款星途ES对比老款变化！](https://vc.yiche.com/vplay/12239971.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 17.99-20.99万 2027款星途ES 预售价18.99万起 HeyCar 深度体验2027款星途ES，意想不到的驾驶体验 车闻天下 全新一代问界M9对比竞品，47.
+- **[尺寸够大，配置够顶，旗舰7座SUV，223布局，试驾比亚迪大唐](https://vc.yiche.com/vplay/12239789.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 23.99-30.99万 智驾进阶旗舰新生！试驾比亚迪大唐EV 汽车说刊 体验比亚迪大唐：空间、配置一步到位，值得等？ 车壹圈 家用无槽点？7座大空间+950km闪充，试驾
+- **[实拍大众途昂Pro 空间燃油车最佳 智能配置丰富 油电同智](https://vc.yiche.com/vplay/12240013.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 28.90-35.99万 斯巴鲁森林人紧急变线体验 大壬车短评 出24年底老旧燃油车丰田FJ 睿智的旱柳树1476 26款大众途昂Pro五个版本怎么选？ 超充时刻 入手仅差
+- **[现代汽车全球推广All Day Energy服务：车主能躺赚电费差价](https://www.d1ev.com/news/qiye/307929)** — _www.d1ev.com_ · date: unknown
+  快科技7月21日消息，现代汽车集团今日宣布，将在全球范围推广名为“All Day Energy”的电动汽车能源服务，通过V2X双向充电技术，将电动汽车转变为“移动充电宝”，可为家庭、商业建筑、其他车辆乃至公共电网供电，车主还能通过电费差价获得额外收益。 据介绍，V2X技术的核心逻辑是利用电价的峰谷波动：在电价较低的谷电时段为车辆充电，在用电高峰期将车载电力释
+- **[Mobileye云ADAS技术2027年将搭载Stellantis新车型，全球五大车企加入REM生态](https://www.d1ev.com/newsflash/307928)** — _www.d1ev.com_ · date: unknown
+  7月21日，Mobileye宣布与Stellantis合作，计划从2027年开始将云增强型ADAS（高级驾驶辅助系统）应用于Stellantis未来部分新车型，首先在美国市场推出。Stellantis成为加入MobileyeREM智能路网技术生态系统的最新汽车制造商，目前全球十大车企中有五家为REM提供道路特征信息。 Mobileye的众源智能体系已覆盖美国
+- **[吉利银河TT Ultra全球竞速版预售开启，20.98万限量999台！](https://www.d1ev.com/newsflash/307921)** — _www.d1ev.com_ · date: unknown
+  7月21日，吉利银河TT Ultra/全球竞速版正式开启预售，限量999台，售价20.98万元。下订用户将获得总价值超49000元的专属权益，包括高定颜值包、辅助驾驶包和运动舒享包。新车搭载前后双电机四驱系统，综合功率425千瓦，配备一键boost模式，可提供20秒超频输出。800V高压架构配合75.2kWh磷酸铁锂 电池，CLTC纯电续航650公里，支持6
+- **[吉利银河TTUltra预售开启，20.98万起限量999台！](https://www.d1ev.com/newsflash/307920)** — _www.d1ev.com_ · date: unknown
+  今日，吉利汽车旗下全新纯电中大型车——吉利银河TTUltra正式开启预售，预售价为20.98万元，首发限量999台。新车以其800V高压平台为技术亮点，Ultra版特别推出“特罗姆瑟·峡湾蓝”限定色，并采用七层立体涂装工艺，配备熏黑银河Logo、专属熏黑尾标，以及熏黑轮毂和红色运动卡钳罩等独特设计。此外，车辆前后杠、后视镜还装饰有碳纤维装饰件及红色撞色亮条，
 
 ### 2026-07-21 — 170 articles
 - **[当汽车学会自己开、主动懂：WAIC 2026给出智能驾驶的新方向](https://36kr.com/p/3903713015039113)** — _36kr.com_ · published 2026-07-21
