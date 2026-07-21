@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-22 03:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-22 06:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-22 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **4307 unique auto/NEV articles** across **47 outlets**
+## Cumulative: **4309 unique auto/NEV articles** across **47 outlets**
 
 ## New per day
 | date | new articles |
@@ -54,15 +54,15 @@ _Updated 2026-07-22 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-19 | 58 |
 | 2026-07-20 | 141 |
 | 2026-07-21 | 170 |
-| 2026-07-22 | 25 |
+| 2026-07-22 | 27 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
 | www.d1ev.com | 1076 |
+| vc.yiche.com | 223 |
 | 36kr.com | 222 |
-| vc.yiche.com | 221 |
 | www.stcn.com | 188 |
 | www.caam.org.cn | 187 |
 | auto.gasgoo.com | 175 |
@@ -109,7 +109,7 @@ _Updated 2026-07-22 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-22 — 25 articles
+### 2026-07-22 — 27 articles
 - **[长城换下了白富美](https://36kr.com/p/3905275529741446)** — _36kr.com_ · published 2026-07-22
   长城换下了白富美 有细心的车友发现，长城在7月19日坦克300正式上市时，将13天前预售发布的“白富美”“黑凤梨”“沙丘米”三个颜色的命名，改成了“率真白”“炫酷黑”以及“轻松米”。 不要小看这么一个细微的调整，长城因此收获了大量关注和讨论。 早在预售发布会官宣全新坦克300有“白富美”“黑凤梨”两种颜色选择时，已经有不少持币观望这款新车的消费者就对这样的命
 - **[知名电池厂陷质量风波，存在鼓包漏液风险，合作车企紧急回应](https://36kr.com/p/3905342162949255)** — _36kr.com_ · date: unknown
@@ -144,6 +144,10 @@ _Updated 2026-07-22 03:12 | discovery-only, zero LLM tokens | runs every 3h_
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 23.99-30.99万 智驾进阶旗舰新生！试驾比亚迪大唐EV 汽车说刊 体验比亚迪大唐：空间、配置一步到位，值得等？ 车壹圈 家用无槽点？7座大空间+950km闪充，试驾
 - **[实拍大众途昂Pro 空间燃油车最佳 智能配置丰富 油电同智](https://vc.yiche.com/vplay/12240013.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 28.90-35.99万 斯巴鲁森林人紧急变线体验 大壬车短评 出24年底老旧燃油车丰田FJ 睿智的旱柳树1476 26款大众途昂Pro五个版本怎么选？ 超充时刻 入手仅差
+- **[探店丰田威兰达，现在的价格能买吗？一箱油跑1000公里](https://vc.yiche.com/vplay/12177699.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 16.98-23.08万 3.0T V6 强擎与三电机协同输出 1200 匹马力，传承勒芒赛车基因 豆焦糖导演 26款丰田威兰达 双擎2.0L两驱pro+ 产品力放在当下表
+- **[谁说省电就没性能？吉利一个电驱，拿下两项吉尼斯纪录](https://vc.yiche.com/vplay/12233685.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 比豪华更硬派，比硬派更豪华，享界G9震撼登场！ xiningjie940122 20万级唯一奔驰豪华掀背，实车比照片更惊艳，探店#smart精灵#6 电姐志 年轻人
 - **[现代汽车全球推广All Day Energy服务：车主能躺赚电费差价](https://www.d1ev.com/news/qiye/307929)** — _www.d1ev.com_ · date: unknown
   快科技7月21日消息，现代汽车集团今日宣布，将在全球范围推广名为“All Day Energy”的电动汽车能源服务，通过V2X双向充电技术，将电动汽车转变为“移动充电宝”，可为家庭、商业建筑、其他车辆乃至公共电网供电，车主还能通过电费差价获得额外收益。 据介绍，V2X技术的核心逻辑是利用电价的峰谷波动：在电价较低的谷电时段为车辆充电，在用电高峰期将车载电力释
 - **[Mobileye云ADAS技术2027年将搭载Stellantis新车型，全球五大车企加入REM生态](https://www.d1ev.com/newsflash/307928)** — _www.d1ev.com_ · date: unknown
