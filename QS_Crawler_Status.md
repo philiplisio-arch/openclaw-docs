@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-22 06:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-22 09:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-22 06:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **4309 unique auto/NEV articles** across **47 outlets**
+## Cumulative: **4330 unique auto/NEV articles** across **47 outlets**
 
 ## New per day
 | date | new articles |
@@ -54,26 +54,26 @@ _Updated 2026-07-22 06:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-19 | 58 |
 | 2026-07-20 | 141 |
 | 2026-07-21 | 170 |
-| 2026-07-22 | 27 |
+| 2026-07-22 | 48 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.dongchedi.com | 1088 |
-| www.d1ev.com | 1076 |
-| vc.yiche.com | 223 |
-| 36kr.com | 222 |
+| www.d1ev.com | 1078 |
+| 36kr.com | 225 |
+| vc.yiche.com | 224 |
 | www.stcn.com | 188 |
 | www.caam.org.cn | 187 |
-| auto.gasgoo.com | 175 |
-| egs.stcn.com | 117 |
+| auto.gasgoo.com | 182 |
+| egs.stcn.com | 118 |
 | www.cada.cn | 106 |
-| www.cnr.cn | 87 |
-| www.news.cn | 86 |
+| www.cnr.cn | 92 |
+| www.news.cn | 87 |
 | autodata.gasgoo.com | 84 |
 | news.yiche.com | 76 |
 | www.yicai.com | 72 |
-| www.nbd.com.cn | 71 |
+| www.nbd.com.cn | 72 |
 | m.21jingji.com | 71 |
 | auto.caijing.com.cn | 49 |
 | www.zqrb.cn | 42 |
@@ -109,10 +109,16 @@ _Updated 2026-07-22 06:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-22 — 27 articles
+### 2026-07-22 — 48 articles
 - **[长城换下了白富美](https://36kr.com/p/3905275529741446)** — _36kr.com_ · published 2026-07-22
   长城换下了白富美 有细心的车友发现，长城在7月19日坦克300正式上市时，将13天前预售发布的“白富美”“黑凤梨”“沙丘米”三个颜色的命名，改成了“率真白”“炫酷黑”以及“轻松米”。 不要小看这么一个细微的调整，长城因此收获了大量关注和讨论。 早在预售发布会官宣全新坦克300有“白富美”“黑凤梨”两种颜色选择时，已经有不少持币观望这款新车的消费者就对这样的命
 - **[知名电池厂陷质量风波，存在鼓包漏液风险，合作车企紧急回应](https://36kr.com/p/3905342162949255)** — _36kr.com_ · date: unknown
+- **[全链条“税补”大退潮，新能源车要涨价了？](https://36kr.com/p/3906020575352201)** — _36kr.com_ · published 2026-07-22
+  全链条“税补”大退潮，新能源车要涨价了？ 近日，财政部、海关总署、税务总局联合发布《关于调整部分电池消费税政策的公告》，对成熟储能、动力、光伏电池分步恢复征收消费税，同时给予钠离子、固态、燃料电池及新型光伏电池阶段性免税的窗口期。 此次新政策告别了沿用十余年的电池普惠性免税，其与今年启动的新能源汽车购置税调整、新能源车船税调节，同属国家新能源税收体系改革的内
+- **[头部自主品牌大幅下滑，德日系5年在华少卖500万辆](https://36kr.com/p/3906064374649992)** — _36kr.com_ · published 2026-07-22
+  头部自主品牌大幅下滑，德日系5年在华少卖500万辆 脚踢日企，拳打德企，那你是不是以为，中国车企，已经是妥妥的爽文男主了？ 但回头一看，中国车企卖10万块钱的车，赚到手里的钱，也仅仅只有1500块。根据中汽协披露，今年1-5月，国内整车制造环节，平均利润率只有可怜的1.5%。 因为车企赚钱越来越少，汽车股被网友们群嘲，直接打上了“老登股”的标签，汽车指数更是
+- **[中国车市下半场：从规模竞争走向价值竞争](https://36kr.com/p/3905465162273925)** — _36kr.com_ · published 2026-07-22
+  中国车市下半场：从规模竞争走向价值竞争 时逢盛夏高温，中国车市呈现出极具反差的冰火图景。 不久前（7月16日），包括小鹏、理想、智己、吉利等在内的8家车企同步召开发布会，从9万元家用SUV到40万级高端旗舰，从全新车型、年度改款到核心技术发布，它们都迫不及待拿出了下半年的重要产品，想要借此提前锁定市场目光。 7款新车集中在一天亮相，成为车市“内卷”最直观的外
 - **[中国汽车出口，正往千亿大关去](https://auto.gasgoo.com/news/202607/21I70466688C108.shtml)** — _auto.gasgoo.com_ · date: unknown
   2021年全年，中国汽车出口345亿美元。五年后的今天，仅2026年上半年，这个数字就达到了918亿美元，逼近千亿美元大关。 从345亿到半年918亿，中国汽车只用五年时间便走完了许多国家数十年的路程。 汽车改写中国出口基因 海关总署数据显示，2026年1至6月，中国商品贸易出口总额为21258亿美元，同比增长17%。其中汽车整车出口918亿美元，同比大幅增
 - **[Tech Talk](https://auto.gasgoo.com/news/202607/21I70466612C1203.shtml)** — _auto.gasgoo.com_ · date: unknown
@@ -127,11 +133,26 @@ _Updated 2026-07-22 06:12 | discovery-only, zero LLM tokens | runs every 3h_
 - **[捷尼赛思考虑推出更亲民的豪华电动车](https://auto.gasgoo.com/news/202607/21I70466675C101.shtml)** — _auto.gasgoo.com_ · date: unknown
   盖世汽车讯 韩国豪华汽车品牌捷尼赛思（Genesis）正评估推出一款面向大众市场的更平价电动车型。据捷尼赛思欧洲董事总经理彼得·克龙施纳布尔（Peter Kronschnabl）向英国《Autocar》杂志透露，该品牌正在“评估”这一可能性，但尚未作出最终决定。 这款潜在的小型电动车预计将基于现代汽车最新推出的IONIQ 3紧凑型电动掀背车打造。IONIQ
 - **[萤火虫halo寻光系列首款车型栖息地发售](https://auto.gasgoo.com/news/202607/21I70466658C107.shtml)** — _auto.gasgoo.com_ · date: unknown
+- **[Sila融资3亿美元扩产电池材料工厂 年产能将覆盖超10万辆电动车](https://auto.gasgoo.com/news/202607/22I70466802C501.shtml)** — _auto.gasgoo.com_ · date: unknown
+- **[电池消费税调整，拉开汽车行业“油电”同权大幕](https://auto.gasgoo.com/news/202607/22I70466788C501.shtml)** — _auto.gasgoo.com_ · published 2026-09-01
+  随着新能源汽车渗透率提升至50%左右，行业内关于“油电同权”的呼声越来越高。反映在政策层面，从购置税减半，到车船税免征取消，再到电池消费税恢复征收，新能源汽车的税收优惠“保护期”正在分阶段、有节奏地退出。 近日，财政部、海关总署、税务总局联合发布《关于调整部分电池消费税政策的公告》（以下简称“公告”），自2026年9月1日起，对锂离子蓄电池等成熟电池产品按照
+- **[汽车出海狂飙65%，1000万辆今年稳了](https://auto.gasgoo.com/news/202607/22I70466789C501.shtml)** — _auto.gasgoo.com_ · date: unknown
+  “我感觉他们有点被打服了。” 作为国内某车企公关团队的一员，K老师需要经常关注外媒，特别是西方主流媒体对中国汽车出口的舆论风向。 进入2026年以后，K老师敏锐地发现，和2024、2025年面对中国汽车冲击时的应激式惊恐不同，西方媒体和产业界人士似乎已经接受了现实，承认面对中国车企竞争时越来越力不从心。 西方媒体愈发认可，价格低只是中国汽车的表面优势，更核心
+- **[富士康电动汽车遭受重创](https://auto.gasgoo.com/news/202607/22I70466787C501.shtml)** — _auto.gasgoo.com_ · date: unknown
+  以代工iPhone闻名全球的鸿海精密-富士康，正全力向电动汽车赛道转轨。然而，关税这只“黑天鹅”却打乱了它的美国节奏。 原定去年底向一家美国客户交付的Model C中型电动跨界车，如今被迫按下暂停键。美国之前被富士康视为电动汽车重要潜力市场，这番风波毫无疑问使其业务受到严重冲击。 因此，富士康不得不将目光转向了波兰与日本。这也意味着，即便是汽车这样的全球化产
+- **[本田CR-V上半年在美售出22.6万辆 登顶美国新车销量榜首-盖世汽车资讯](https://auto.gasgoo.com/news/202607/22I70466749C107.shtml)** — _auto.gasgoo.com_ · date: unknown
+  盖世汽车讯 根据最新销售数据，本田CR-V在2026年上半年成为美国最畅销的新车车型。该车型在此期间共售出226,114辆，超越长期占据榜首的福特F-150（预估销量为209,311辆）和丰田RAV4（销量为153,955辆）。 丰田RAV4的销量同比大幅下滑36%，中断了其自2024年超越福特F-150后连续领跑美国市场的势头。报道指出，这一下滑主要源于其
+- **[2026年上半年韩国进口车市份额创新高，特斯拉与比亚迪成增长主力](https://auto.gasgoo.com/news/202607/22I70466801C101.shtml)** — _auto.gasgoo.com_ · date: unknown
+  盖世汽车讯 2026年上半年，韩国进口乘用车市场注册量达184,032辆，较去年同期的138,120辆增长33.2%，占整体乘用车市场的24.1%，创下近五年同期新高。然而数据显示，这一增长主要由特斯拉（Tesla）和中国品牌比亚迪（BYD）推动，传统德系豪华品牌则表现疲软。 根据韩国汽车数据分析机构Carisyou Data Research Instit
+- **[凯迪拉克CT5](https://auto.gasgoo.com/news/202607/22I70466806C107.shtml)** — _auto.gasgoo.com_ · date: unknown
+  盖世汽车讯 凯迪拉克正开发下一代CT5车型，该公司已确认新车仍将搭载汽油发动机，但未披露更多细节。据GM Authority援引“内部消息人士”称，新一代CT5车系将包含CT5-V Blackwing的继任车型。 目前在售的CT5-V Blackwing搭载一台机械增压6.2升LT4 V8发动机，标准输出为668马力和659磅·英尺（约合893牛·米）扭矩；
 - **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2079377159238602752)** — _autodata.gasgoo.com_ · date: unknown
 - **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2079477873075961856)** — _autodata.gasgoo.com_ · date: unknown
 - **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2079392411648937984)** — _autodata.gasgoo.com_ · date: unknown
 - **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2079373473007423488)** — _autodata.gasgoo.com_ · date: unknown
 - **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2079377500436844544)** — _autodata.gasgoo.com_ · date: unknown
+- **[零跑汽车成立置业公司 含AI相关业务](https://egs.stcn.com/news/detail/2318327.html)** — _egs.stcn.com_ · date: unknown
+  人民财讯7月22日电，企查查APP显示，近日，杭州零跑置业有限公司成立，注册资本1亿元，经营范围包含房地产开发经营；人工智能公共数据平台；储能技术服务等。企查查股权穿透显示，该公司由零跑汽车（09863.HK）全资持股。
 - **[后备厢空间是真心大 蔚来ES8大五座版到店实拍](https://vc.yiche.com/vplay/12240755.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 38.28-44.68万 2026尊界 S800欣赏 月亮海星茶 蔚来全新ES8不断刷新交付纪录！众多用户们为何都选Ta？ 行动派Action 你的奥迪A5L鉴赏 连接的凌
 - **[上市即爆款？比亚迪海豹08凭什么？](https://vc.yiche.com/vplay/12227938.html)** — _vc.yiche.com_ · date: unknown
@@ -148,6 +169,18 @@ _Updated 2026-07-22 06:12 | discovery-only, zero LLM tokens | runs every 3h_
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 16.98-23.08万 3.0T V6 强擎与三电机协同输出 1200 匹马力，传承勒芒赛车基因 豆焦糖导演 26款丰田威兰达 双擎2.0L两驱pro+ 产品力放在当下表
 - **[谁说省电就没性能？吉利一个电驱，拿下两项吉尼斯纪录](https://vc.yiche.com/vplay/12233685.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 比豪华更硬派，比硬派更豪华，享界G9震撼登场！ xiningjie940122 20万级唯一奔驰豪华掀背，实车比照片更惊艳，探店#smart精灵#6 电姐志 年轻人
+- **[追雷十年圆梦雷克萨斯全新一代ES 300h 提车环节竟还曝惊喜](https://vc.yiche.com/vplay/12227497.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 29.99-31.27万 百公里4.39升和十年，豪华不需要用力证明 掌上汽车 这次不是换皮亚洲龙了！雷克萨斯全新ES如何选？30万入手值不值？ 枫行视界 重载13吨 三个
+- **[广西南宁：新能源汽车投诉增幅明显](https://www.cnr.cn/2013qcpd/2015xc/20260722/t20260722_527722983.shtml)** — _www.cnr.cn_ · published 2026-07-22
+  中国消费者报南宁讯（何正君 记者顾艳伟）近日，广西壮族自治区南宁市市场监管局专业市场分局发布2026年上半年家用品牌汽车消费投诉分析报告。数据显示，今年上半年，该局共收到家用品牌汽车消费投诉1340起，较2025年同期增长33.6%。 从投诉时段来看，今年1月春节前夕、3月、4月，部分4S店关停退网期间，先后形成3轮投诉高峰。从投诉品类分析，新车相关投诉为维
+- **[新能源汽车维修作业安全国标8月施行](https://www.cnr.cn/2013qcpd/2015xc/20260722/t20260722_527722982.shtml)** — _www.cnr.cn_ · published 2026-07-22
+  8月1日起，《新能源汽车维修作业安全要求》（GB/T 47439—2026）国家标准正式实施。该标准主要规定了新能源汽车维修的人员与场地、作业准备、风险排查与处置、作业流程和操作安全等要求。该标准聚焦新能源汽车高压系统和氢燃料汽车供氢系统维修，提出了作业前、作业中和作业后的关键操作要求，重点明确了防护装备及工具检查、场地环境确认、作业风险识别以及B级电压电路
+- **[破解新能源汽车维修难题](https://www.cnr.cn/2013qcpd/2015xc/20260722/t20260722_527722979.shtml)** — _www.cnr.cn_ · published 2026-07-22
+  公安部交通管理局最新数据显示，截至今年6月底，我国新能源汽车保有量达4897万辆，占汽车总量的13.19%，较去年同期提高2.92个百分点。在保有量攀升、维保需求扩大的同时，消费者关于新能源汽车“维修贵、维修难”的吐槽也在增多，被业内称为“成长的烦恼”。 商务部等9部门今年6月18日发布的《关于培育壮大汽车后市场消费若干措施的通知》（以下简称《通知》）提出，
+- **[重塑产业链话语权 整车企业需精准破局](https://www.cnr.cn/2013qcpd/2015xc/20260722/t20260722_527722977.shtml)** — _www.cnr.cn_ · published 2026-07-22
+  整车上市公司半年报预告集中披露，行业整体盈利增速波动。这更多是在智能电动转型过程中，汽车产业链价值重心发生深度迁移，传统整车企业产业链主导能力、价值分配话语权阶段性弱化的集中体现，上下游盈利分化特征凸显。 截至7月中旬，多家锂矿、锂电材料企业发布上半年业绩预告，盈利实现大幅修复；而多家上市整车企业业绩预降，部分企业业绩出现亏损，产业链呈现盈利格局分化态势。整
+- **[汽车要做“十五五”减碳先锋](https://www.cnr.cn/2013qcpd/2015xc/20260722/t20260722_527722984.shtml)** — _www.cnr.cn_ · published 2026-07-22
+  日前，国务院印发《“十五五”碳达峰行动方案》（以下简称《方案》），为未来5年全国碳达峰工作划定清晰路线。汽车产业在文件中被3次提及，重点部署，成为交通领域降碳攻坚的核心抓手。依托产业结构升级、循环资源利用、交通场景低碳改造3条主线，汽车行业蕴含巨大减碳空间，是落实“十五五”碳达峰目标的先锋力量。 多元动力并行 筑牢绿色制造转型根基 《方案》提出，加快发展绿色
 - **[现代汽车全球推广All Day Energy服务：车主能躺赚电费差价](https://www.d1ev.com/news/qiye/307929)** — _www.d1ev.com_ · date: unknown
   快科技7月21日消息，现代汽车集团今日宣布，将在全球范围推广名为“All Day Energy”的电动汽车能源服务，通过V2X双向充电技术，将电动汽车转变为“移动充电宝”，可为家庭、商业建筑、其他车辆乃至公共电网供电，车主还能通过电费差价获得额外收益。 据介绍，V2X技术的核心逻辑是利用电价的峰谷波动：在电价较低的谷电时段为车辆充电，在用电高峰期将车载电力释
 - **[Mobileye云ADAS技术2027年将搭载Stellantis新车型，全球五大车企加入REM生态](https://www.d1ev.com/newsflash/307928)** — _www.d1ev.com_ · date: unknown
@@ -156,6 +189,14 @@ _Updated 2026-07-22 06:12 | discovery-only, zero LLM tokens | runs every 3h_
   7月21日，吉利银河TT Ultra/全球竞速版正式开启预售，限量999台，售价20.98万元。下订用户将获得总价值超49000元的专属权益，包括高定颜值包、辅助驾驶包和运动舒享包。新车搭载前后双电机四驱系统，综合功率425千瓦，配备一键boost模式，可提供20秒超频输出。800V高压架构配合75.2kWh磷酸铁锂 电池，CLTC纯电续航650公里，支持6
 - **[吉利银河TTUltra预售开启，20.98万起限量999台！](https://www.d1ev.com/newsflash/307920)** — _www.d1ev.com_ · date: unknown
   今日，吉利汽车旗下全新纯电中大型车——吉利银河TTUltra正式开启预售，预售价为20.98万元，首发限量999台。新车以其800V高压平台为技术亮点，Ultra版特别推出“特罗姆瑟·峡湾蓝”限定色，并采用七层立体涂装工艺，配备熏黑银河Logo、专属熏黑尾标，以及熏黑轮毂和红色运动卡钳罩等独特设计。此外，车辆前后杠、后视镜还装饰有碳纤维装饰件及红色撞色亮条，
+- **[欧洲纯电汽车销量激增33.7%，德国6月注册量同比增长48.6%](https://www.d1ev.com/newsflash/307944)** — _www.d1ev.com_ · date: unknown
+  近日，欧洲纯电汽车市场销量持续增长。2026年上半年，欧洲纯电汽车销量突破124万辆，同比增长33.7%。6月份，17个欧洲市场共注册275060辆纯电汽车，同比增长39.5%。这一数据由E-MobilityEurope和NewAutoMotive公布，覆盖的市场约占欧盟与欧洲自由贸易联盟新车市场总量的90%。6月份，每四辆新注册汽车中就有超过一辆是纯电车型
+- **[富士康电动汽车遭受重创](https://www.d1ev.com/news/shichang/307938)** — _www.d1ev.com_ · date: unknown
+  以代工iPhone闻名全球的鸿海精密-富士康，正全力向电动汽车赛道转轨。然而，关税这只“黑天鹅”却打乱了它的美国节奏。 原定去年底向一家美国客户交付的Model C中型电动跨界车，如今被迫按下暂停键。美国之前被富士康视为电动汽车重要潜力市场，这番风波毫无疑问使其业务受到严重冲击。 因此，富士康不得不将目光转向了波兰与日本。这也意味着，即便是汽车这样的全球化产
+- **[我国安排220亿元支持老旧营运货车报废更新；崔东树：6月重卡新能源渗透率达45%](https://www.nbd.com.cn/articles/2026-07-21/4490722.html)** — _www.nbd.com.cn_ · published 2026-07-21
+  2026-07-22 06:30:11 每经记者｜董天意 实习生 刘家怡 每经编辑｜余婷婷 | 2026年7月22日 星期三 | NO.1 我国安排220亿元支持老旧营运货车报废更新 7月21日，据央视新闻报道，交通运输部安全总监兼运输服务司司长蔡团结在国新办新闻发布会上表示，2026年继续实施老旧营运货车报废更新行动，安排220亿元超长期特别国债给予支持，
+- **[扩大汽车全链条消费](https://www.news.cn/tech/20260722/a86ca0b24d0a455d9cfe2a87ba4f8124/c.html)** — _www.news.cn_ · published 2026-07-22
+  图为参加2026中国环塔国际拉力赛的部分赛车在乌鲁木齐市城区巡游，向游客和市民展示风采。 新华社记者 胡虎虎摄 在山东省荣成经济开发区房车制造产业基地，工人在组装新能源房车。李信君摄（新华社发） 围绕汽车使用形成的后市场，是一个万亿级产业。据国际专业机构的报告，全球汽车后市场规模已经突破1万亿美元，预计今年亚太地区将成为全球最大的区域市场。中国乘用车平均车龄
 
 ### 2026-07-21 — 170 articles
 - **[当汽车学会自己开、主动懂：WAIC 2026给出智能驾驶的新方向](https://36kr.com/p/3903713015039113)** — _36kr.com_ · published 2026-07-21
