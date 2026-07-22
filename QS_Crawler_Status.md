@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-23 00:13 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-23 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-23 00:13 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **4466 unique auto/NEV articles** across **48 outlets**
+## Cumulative: **4472 unique auto/NEV articles** across **48 outlets**
 
 ## New per day
 | date | new articles |
@@ -55,14 +55,14 @@ _Updated 2026-07-23 00:13 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-20 | 141 |
 | 2026-07-21 | 170 |
 | 2026-07-22 | 178 |
-| 2026-07-23 | 6 |
+| 2026-07-23 | 12 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.d1ev.com | 1100 |
+| www.d1ev.com | 1104 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 237 |
+| vc.yiche.com | 239 |
 | 36kr.com | 230 |
 | auto.gasgoo.com | 206 |
 | www.stcn.com | 191 |
@@ -111,7 +111,7 @@ _Updated 2026-07-23 00:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-23 — 6 articles
+### 2026-07-23 — 12 articles
 - **[“卖一辆20万元的车，整车厂净赚不过3000元”，崔东树：头部车企的利润拐点或在四季度，“失血式”竞争倒逼成本重构，低效车型将被砍掉](https://36kr.com/p/3906491481249153)** — _36kr.com_ · published 2026-07-23
   “卖一辆20万元的车，整车厂净赚不过3000元”，崔东树：头部车企的利润拐点或在四季度，“失血式”竞争倒逼成本重构，低效车型将被砍掉 “卖一辆20万元的车，整车厂净赚不过3000元。”这并不是危言耸听，而是2026年上半年中国汽车行业的残酷现实。 乘联分会数据显示，1至5月，中国汽车行业利润为1440亿元，利润率仅为3.4%，低于下游工业6.1%的平均水平；
 - **[品质感更进一步 零跑C10新老款车型对比](https://auto.gasgoo.com/news/202607/22I70466790C501.shtml)** — _auto.gasgoo.com_ · date: unknown
@@ -120,6 +120,18 @@ _Updated 2026-07-23 00:13 | discovery-only, zero LLM tokens | runs every 3h_
 - **[成都发布&#34;人工智能+&#34;行动方案 推动高阶智能网联汽车研发量产  07-22 10:03](https://news.yiche.com/zonghexinwen/20260722/22111691509.html)** — _news.yiche.com_ · date: unknown
 - **[猎鹰500加持，2027款艾瑞泽8 PRO要让燃油车智能“站起来”！](https://vc.yiche.com/vplay/12257849.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 11.69-14.99万 万起，风云T9变狠了 shmimi920610 万内买全尺寸硬派SUV？奇瑞T1T把坑和悬念都摆出来了 优雅的旱柳树1476 油电同智落地！这台艾
+- **[新车来袭 吉利雷达PHEV四驱飞手版](https://vc.yiche.com/vplay/12169572.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 9.98-24.88万 沉浸式体验：别克至境世家 车族风 第一视角体验：宝马i5 家庭露营一车搞定，启辰VX6实拍+试驾 第一试驾 试驾吉利雷达金刚EV 双面性格 兼顾事业
+- **[2027款艾瑞泽8 PRO：燃油车泊车也能这么强](https://vc.yiche.com/vplay/12255581.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 11.69-14.99万 燃油车智能有多强？全新新艾瑞泽8 PRO首次曝光即王炸 智行侃车 2027款艾瑞泽8 PRO首曝，奇瑞的这款新车有点卷！ 中国汽车消费网 打破新能
+- **[老挝全球首禁燃油车进口，全力推进电动车时代！](https://www.d1ev.com/newsflash/308092)** — _www.d1ev.com_ · date: unknown
+  7月22日，老挝实施了一项全球最激进的电动汽车强制令，自6月1日起彻底禁止进口新的汽油和柴油乘用车，几乎所有获准进口的新车必须是电动汽车。老挝政府宣布暂停进口燃油车，禁令持续至2026年底，由工贸部负责执行。这一政策旨在推动消费者转向电动车，老挝采取了软硬兼施的政策，包括售价低于5万美元的 纯电动汽车享受全额消费税豁免，政府降低了电动车注册费，并要求运输公司
+- **[奇瑞iCAR V23马来西亚首车下线，硬派SUV风格售价约20万起](https://www.d1ev.com/newsflash/308090)** — _www.d1ev.com_ · date: unknown
+  7月22日，iCAR汽车官方宣布马来西亚首台iCARV23正式下线，新车预计7月底到店。iCaurV23是奇瑞汽车集团旗下子品牌iCaur于2025年11月向马来西亚市场推出的车型，共推出两款车型，售价区间为11.98-13.28万林吉特（约合人民币20.53-22.76万元）。该车型以硬派SUV风格设计，车身线条分明，圆形灯组与封闭式前脸设计相结合，展现出
+- **[民航局公示首批载人eVTOL适航审定合规企业名录，小鹏汇天等4家企业入选](https://www.d1ev.com/news/shichang/308089)** — _www.d1ev.com_ · date: unknown
+  盖世汽车获悉，近日，中国民用航空局适航审定司已正式公示《首批民用载人eVTOL适航审定合规企业名录》，小鹏汇天航空科技有限公司等4家国内主流载人eVTOL主机企业被纳入名单。 四家入选企业分别为：小鹏汇天航空科技有限公司、亿航智能设备（广州）有限公司、沃兰特（上海）航空科技有限公司、峰飞航空科技（昆山）有限公司。 民航局同步配套出台专属扶持政策，名录内企业可
+- **[普拉多WALD沃德版震撼上市！44.98万起，2.4T混动+四驱新体验](https://www.d1ev.com/newsflash/308085)** — _www.d1ev.com_ · date: unknown
+  7月22日，一汽丰田宣布普拉多WALD沃德版正式上市，指导价为49.98万元，限时焕新价44.98万元，购车可享至高1.5万元 补贴（不含VX车型）。新车基于全能TX版车型打造，外观套件由WALD沃德团队原创设计，采用全新硬派豪华美学，融入机甲风格设计。前脸配备“竖列式日行灯”与“矩阵式领航灯”，车身搭载多段式运动扰流组件，增强下压力，提升高速行驶稳定性。车
 
 ### 2026-07-22 — 178 articles
 - **[长城换下了白富美](https://36kr.com/p/3905275529741446)** — _36kr.com_ · published 2026-07-22
