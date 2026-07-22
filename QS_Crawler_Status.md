@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-22 21:15 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-23 00:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-22 21:15 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **4460 unique auto/NEV articles** across **48 outlets**
+## Cumulative: **4466 unique auto/NEV articles** across **48 outlets**
 
 ## New per day
 | date | new articles |
@@ -55,15 +55,16 @@ _Updated 2026-07-22 21:15 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-20 | 141 |
 | 2026-07-21 | 170 |
 | 2026-07-22 | 178 |
+| 2026-07-23 | 6 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.d1ev.com | 1100 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 236 |
-| 36kr.com | 229 |
-| auto.gasgoo.com | 203 |
+| vc.yiche.com | 237 |
+| 36kr.com | 230 |
+| auto.gasgoo.com | 206 |
 | www.stcn.com | 191 |
 | www.caam.org.cn | 187 |
 | egs.stcn.com | 120 |
@@ -71,7 +72,7 @@ _Updated 2026-07-22 21:15 | discovery-only, zero LLM tokens | runs every 3h_
 | www.cnr.cn | 98 |
 | autodata.gasgoo.com | 95 |
 | www.news.cn | 90 |
-| news.yiche.com | 87 |
+| news.yiche.com | 88 |
 | m.21jingji.com | 85 |
 | www.nbd.com.cn | 75 |
 | www.yicai.com | 73 |
@@ -109,6 +110,16 @@ _Updated 2026-07-22 21:15 | discovery-only, zero LLM tokens | runs every 3h_
 | finance.caijing.com.cn | 1 |
 
 ## Articles captured by day (newest first)
+
+### 2026-07-23 — 6 articles
+- **[“卖一辆20万元的车，整车厂净赚不过3000元”，崔东树：头部车企的利润拐点或在四季度，“失血式”竞争倒逼成本重构，低效车型将被砍掉](https://36kr.com/p/3906491481249153)** — _36kr.com_ · published 2026-07-23
+  “卖一辆20万元的车，整车厂净赚不过3000元”，崔东树：头部车企的利润拐点或在四季度，“失血式”竞争倒逼成本重构，低效车型将被砍掉 “卖一辆20万元的车，整车厂净赚不过3000元。”这并不是危言耸听，而是2026年上半年中国汽车行业的残酷现实。 乘联分会数据显示，1至5月，中国汽车行业利润为1440亿元，利润率仅为3.4%，低于下游工业6.1%的平均水平；
+- **[品质感更进一步 零跑C10新老款车型对比](https://auto.gasgoo.com/news/202607/22I70466790C501.shtml)** — _auto.gasgoo.com_ · date: unknown
+- **[马自达6e纯电轿车在泰国上市](https://auto.gasgoo.com/news/202607/22I70466859C107.shtml)** — _auto.gasgoo.com_ · date: unknown
+- **[本田确认将在北美停售Prologue电动车型](https://auto.gasgoo.com/news/202607/22I70466912C109.shtml)** — _auto.gasgoo.com_ · date: unknown
+- **[成都发布&#34;人工智能+&#34;行动方案 推动高阶智能网联汽车研发量产  07-22 10:03](https://news.yiche.com/zonghexinwen/20260722/22111691509.html)** — _news.yiche.com_ · date: unknown
+- **[猎鹰500加持，2027款艾瑞泽8 PRO要让燃油车智能“站起来”！](https://vc.yiche.com/vplay/12257849.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 11.69-14.99万 万起，风云T9变狠了 shmimi920610 万内买全尺寸硬派SUV？奇瑞T1T把坑和悬念都摆出来了 优雅的旱柳树1476 油电同智落地！这台艾
 
 ### 2026-07-22 — 178 articles
 - **[长城换下了白富美](https://36kr.com/p/3905275529741446)** — _36kr.com_ · published 2026-07-22
