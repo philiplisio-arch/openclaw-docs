@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-23 21:13 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-24 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-23 21:13 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **4627 unique auto/NEV articles** across **49 outlets**
+## Cumulative: **4641 unique auto/NEV articles** across **49 outlets**
 
 ## New per day
 | date | new articles |
@@ -56,28 +56,29 @@ _Updated 2026-07-23 21:13 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-21 | 170 |
 | 2026-07-22 | 178 |
 | 2026-07-23 | 167 |
+| 2026-07-24 | 14 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.d1ev.com | 1141 |
+| www.d1ev.com | 1147 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 262 |
+| vc.yiche.com | 263 |
 | 36kr.com | 236 |
 | auto.gasgoo.com | 221 |
-| www.stcn.com | 194 |
+| www.stcn.com | 195 |
 | www.caam.org.cn | 193 |
-| egs.stcn.com | 124 |
+| egs.stcn.com | 125 |
 | autodata.gasgoo.com | 111 |
 | www.cada.cn | 107 |
 | www.cnr.cn | 105 |
-| news.yiche.com | 95 |
-| www.news.cn | 92 |
+| news.yiche.com | 96 |
+| www.news.cn | 93 |
 | m.21jingji.com | 90 |
 | www.nbd.com.cn | 78 |
-| www.yicai.com | 76 |
+| www.yicai.com | 77 |
 | auto.caijing.com.cn | 52 |
-| www.zqrb.cn | 46 |
+| www.zqrb.cn | 48 |
 | www.gelonghui.com | 34 |
 | www.xinhuanet.com | 32 |
 | www.jwview.com | 32 |
@@ -111,6 +112,34 @@ _Updated 2026-07-23 21:13 | discovery-only, zero LLM tokens | runs every 3h_
 | finance.caijing.com.cn | 1 |
 
 ## Articles captured by day (newest first)
+
+### 2026-07-24 — 14 articles
+- **[21:15乘联分会：7月狭义乘用车零售预计152万辆 新能源预计98万辆](https://egs.stcn.com/news/detail/2319226.html)** — _egs.stcn.com_ · date: unknown
+- **[比亚迪大唐EV第1万台正式交付 里程碑时刻](https://news.yiche.com/zonghexinwen/20260723/22111705882.html)** — _news.yiche.com_ · date: unknown
+  推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 7月23日，比亚迪大唐EV迎来第1万台交付的里程碑时刻，中国足球小将创始人董路先生成为第1万台大唐EV车主。据了解，比亚迪大唐EV于6月17日上市，共四款车型，售价区间23.99-30.99万元。此
+- **[奇瑞豪掷千万款、物驰援广酉灾情  07-23 12:00](https://vc.yiche.com/vplay/12264870.html)** — _vc.yiche.com_ · date: unknown
+- **[福特与吉利成立西班牙合资公司 将共享整车产能](https://www.d1ev.com/news/shichang/308261)** — _www.d1ev.com_ · date: unknown
+  福特汽车与吉利汽车7月23日达成协议，双方将在西班牙瓦伦西亚成立合资公司，通过产能共享，为欧洲市场打造福特及吉利品牌的多种能源汽车产品，助力福特品牌积极推进产品攻势，同时加速推进吉利欧洲本地化战略落地。 图片来源：福特汽车 福特汽车公司表示，在获得监管批准后，该合资公司将于2027年上半年正式投入运营，首款全新车型将于2028年下线。 此前已有外媒报道称，福
+- **[创纪录！特斯拉自动驾驶一月事故超2021年全年：细节全涂黑](https://www.d1ev.com/news/qiye/308259)** — _www.d1ev.com_ · date: unknown
+  快科技7月23日消息，据Electrek报道，特斯拉向美国国家公路交通安全管理局（NHTSA）提交的最新事故报告显示，2026年5月其驾驶辅助系统共记录207起事故，创下单月历史最高纪录。这一数字甚至超过了2021年全年157起的事故总数。 NHTSA的常设通用命令（SGO）要求汽车制造商在碰撞发生前约30秒内若启动了高级驾驶辅助系统（ADAS），且事故达到
+- **[东风奕派M8携手华为，17.98万起售，智能座舱+超快充纯电/增程双动力](https://www.d1ev.com/newsflash/308258)** — _www.d1ev.com_ · date: unknown
+  7月23日，东风奕派M8正式上市，新车共推出5款车型，售价区间为17.98-21.98万元，限时权益价16.58-20.58万元。东风奕派M8是东风奕派与华为乾崑合作的首款车型，全系标配华为乾崑6件套，包括智驾ADS5Pro、鸿蒙座舱HarmonySpace5.2、车控、车云、鲸鳍通信和HUAWEISOUND车载音响。奕派M8搭载华为乾崑智驾ADS5Pro，
+- **[比亚迪大唐EV销量破万，足球小将董路喜提新车](https://www.d1ev.com/newsflash/308257)** — _www.d1ev.com_ · date: unknown
+  7月23日，比亚迪汽车宣布，其旗下大唐EV车型第10,000辆交付仪式成功举行，中国足球小将创始人董路成为该车型的新车主。比亚迪大唐EV于6月17日上市，官方指导价从23.99万元起，标志着比亚迪在高端SUV市场的进一步布局。 比亚迪大唐EV作为王朝网首款D级旗舰SUV，搭载了多项先进技术，包括第二代刀片 电池和全域1000V高压架构。车辆尺寸为5263×1
+- **[7月新能源车市渗透率突破64%，乘用车市场销量同比降16.8%](https://www.d1ev.com/newsflash/308256)** — _www.d1ev.com_ · date: unknown
+  今日，乘联会公布7月狭义乘用车零售市场规模约152万辆，环比下降5.1%，同比下降16.8%。新能源零售量预计98万辆左右，渗透率约64.5%，渗透率进一步提高。7月第一周市场季节性回调，日均零售3.4万辆；第二周受局部极端天气干扰，日均零售环比微增至3.9万辆；第三周高温抑制出行与购车需求，日均零售4.7万，走势略弱于常规季节性。第四周、第五周市场预计延续
+- **[福特汽车与吉利汽车成立西班牙合资公司，共享瓦伦西亚工厂产能进](https://www.d1ev.com/news/qiye/308255)** — _www.d1ev.com_ · date: unknown
+  7月23日，福特汽车与吉利汽车达成协议，双方将在西班牙瓦伦西亚成立合资公司，通过产能共享，为欧洲市场打造福特及吉利品牌的多种能源汽车产品，助力福特品牌积极推进产品攻势，加速推进吉利欧洲本地化战略落地。 在获得监管批准后，该合资公司将于2027年上半年正式投入运营，首款全新车型将于2028年下线。 福特汽车瓦伦西亚工厂年产能约50万辆，是欧洲产能规模最大、工艺
+- **[新开局锚定新机遇 汽车行业共话高质量发展新路径](https://www.news.cn/tech/20260723/9cc7c67ba8a5467e8cdd2935f686cada/c.html)** — _www.news.cn_ · published 2026-07-23
+  新华社上海7月23日电 题：新开局锚定新机遇 汽车行业共话高质量发展新路径 新华社记者唐诗凝、周蕊 7月21日至23日，以“新开局 新机遇 新征程——共绘汽车产业高质量发展新蓝图”为主题的“2026中国汽车论坛”在上海举行，探讨如何在复杂国内外形势下树立长远信心、保持战略定力，推动汽车产业发展由规模扩张转向价值跃升。 “三电”等核心技术取得一系列突破，中国品
+- **[乘联分会：7月狭义乘用车零售预计152万辆 新能源预计98万辆](https://www.stcn.com/article/detail/4038477.html)** — _www.stcn.com_ · published 2026-07-22
+  证券时报网 周映彤 2026-07-22 18:14 人民财讯7月23日电，据“乘联分会”公众号，7月传统淡季叠加高温、强降雨等极端天气，进一步抑制线下到店客流与终端成交，市场自然购车需求恢复低迷。结构上看，新能源车型凭借产品的快速迭代与性价比优势，展现出优于燃油车的市场韧性，同环比降幅均小于燃油车，持续对冲燃油车市场萎缩的缺口，缓解终端市场下行压力。 综上
+- **[中国品牌汽车欧洲销量连续两月超越日系](https://www.yicai.com/news/103290075.html)** — _www.yicai.com_ · date: unknown
+  {{aisd}} AI生成 免责声明 今年6月，中国汽车品牌在欧洲市场的新车注册量再次超过日本品牌。欧洲汽车制造商协会（ACEA）最新公布的数据显示，在欧盟、欧洲自由贸易联盟及英国市场，中国主要车企合计销量已连续两个月超越日系车企，继5月首次实现反超后，差距从约8000辆扩大至约1.3万辆。 最新登记数据显示，6月欧盟、欧洲自由贸易联盟及英国区域新车总销量达
+- **[从“卖电”到“卖调度” 新能源汽车充电行业转型正当时](https://www.zqrb.cn/auto/qichedongtai/2026-07-23/A1784809014283.html)** — _www.zqrb.cn_ · published 2026-07-23
+  本报记者 李如是 7月份以来，全国用电负荷屡创历史新高。由新能源汽车组成的“移动储能池”正在成为缓解高峰用电缺口的关键抓手。近日，武汉私人车位车网互动（以下简称“V2G”）反向售电试点正式落地，合肥、深圳等多地也同步开展V2G放电保障供电，车桩协同参与电网调度（以下简称“车能融合”）的落地场景持续扩容。 然而，与上述突破形成对照的则是新能源汽车充电行业的现实
+- **[万亿元汽车后市场激发消费新动能](https://www.zqrb.cn/auto/qichedongtai/2026-07-23/A1784809014282.html)** — _www.zqrb.cn_ · published 2026-07-23
+  本报记者 冯雨瑶 随着我国汽车保有量持续攀升、产业结构不断优化，行业已从“新车驱动”迈入“存量盘活”的全新阶段，万亿元级汽车后市场正成为拉动消费增长的新引擎。 7月20日，据中国汽车流通协会消息，2026年前6个月，全国二手车累计交易量971.32万辆，同比增长1.50%，与去年同期相比增加14.31万辆，累计交易金额为6385.30亿元。 中汽协发布的报告
 
 ### 2026-07-23 — 167 articles
 - **[“卖一辆20万元的车，整车厂净赚不过3000元”，崔东树：头部车企的利润拐点或在四季度，“失血式”竞争倒逼成本重构，低效车型将被砍掉](https://36kr.com/p/3906491481249153)** — _36kr.com_ · published 2026-07-23
