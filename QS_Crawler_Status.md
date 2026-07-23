@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-24 03:11 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-24 06:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-24 03:11 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **4643 unique auto/NEV articles** across **49 outlets**
+## Cumulative: **4644 unique auto/NEV articles** across **49 outlets**
 
 ## New per day
 | date | new articles |
@@ -56,7 +56,7 @@ _Updated 2026-07-24 03:11 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-21 | 170 |
 | 2026-07-22 | 178 |
 | 2026-07-23 | 167 |
-| 2026-07-24 | 16 |
+| 2026-07-24 | 17 |
 
 ## By outlet
 | outlet | articles |
@@ -65,7 +65,7 @@ _Updated 2026-07-24 03:11 | discovery-only, zero LLM tokens | runs every 3h_
 | www.dongchedi.com | 1088 |
 | vc.yiche.com | 263 |
 | 36kr.com | 236 |
-| auto.gasgoo.com | 221 |
+| auto.gasgoo.com | 222 |
 | www.stcn.com | 195 |
 | www.caam.org.cn | 193 |
 | egs.stcn.com | 125 |
@@ -113,7 +113,9 @@ _Updated 2026-07-24 03:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-24 — 16 articles
+### 2026-07-24 — 17 articles
+- **[福特与吉利成立西班牙合资公司 将共享整车产能](https://auto.gasgoo.com/news/202607/23I70467097C109.shtml)** — _auto.gasgoo.com_ · date: unknown
+  福特汽车与吉利汽车7月23日达成协议，双方将在西班牙瓦伦西亚成立合资公司，通过产能共享，为欧洲市场打造福特及吉利品牌的多种能源汽车产品，助力福特品牌积极推进产品攻势，同时加速推进吉利欧洲本地化战略落地。 图片来源：福特汽车 福特汽车公司表示，在获得监管批准后，该合资公司将于2027年上半年正式投入运营，首款全新车型将于2028年下线。 此前已有外媒报道称，福
 - **[21:15乘联分会：7月狭义乘用车零售预计152万辆 新能源预计98万辆](https://egs.stcn.com/news/detail/2319226.html)** — _egs.stcn.com_ · date: unknown
 - **[比亚迪大唐EV第1万台正式交付 里程碑时刻](https://news.yiche.com/zonghexinwen/20260723/22111705882.html)** — _news.yiche.com_ · date: unknown
   推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 7月23日，比亚迪大唐EV迎来第1万台交付的里程碑时刻，中国足球小将创始人董路先生成为第1万台大唐EV车主。据了解，比亚迪大唐EV于6月17日上市，共四款车型，售价区间23.99-30.99万元。此
