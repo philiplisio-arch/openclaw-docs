@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-24 00:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-24 03:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-24 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **4641 unique auto/NEV articles** across **49 outlets**
+## Cumulative: **4643 unique auto/NEV articles** across **49 outlets**
 
 ## New per day
 | date | new articles |
@@ -56,12 +56,12 @@ _Updated 2026-07-24 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-21 | 170 |
 | 2026-07-22 | 178 |
 | 2026-07-23 | 167 |
-| 2026-07-24 | 14 |
+| 2026-07-24 | 16 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.d1ev.com | 1147 |
+| www.d1ev.com | 1148 |
 | www.dongchedi.com | 1088 |
 | vc.yiche.com | 263 |
 | 36kr.com | 236 |
@@ -75,7 +75,7 @@ _Updated 2026-07-24 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 | news.yiche.com | 96 |
 | www.news.cn | 93 |
 | m.21jingji.com | 90 |
-| www.nbd.com.cn | 78 |
+| www.nbd.com.cn | 79 |
 | www.yicai.com | 77 |
 | auto.caijing.com.cn | 52 |
 | www.zqrb.cn | 48 |
@@ -113,7 +113,7 @@ _Updated 2026-07-24 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-24 — 14 articles
+### 2026-07-24 — 16 articles
 - **[21:15乘联分会：7月狭义乘用车零售预计152万辆 新能源预计98万辆](https://egs.stcn.com/news/detail/2319226.html)** — _egs.stcn.com_ · date: unknown
 - **[比亚迪大唐EV第1万台正式交付 里程碑时刻](https://news.yiche.com/zonghexinwen/20260723/22111705882.html)** — _news.yiche.com_ · date: unknown
   推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 7月23日，比亚迪大唐EV迎来第1万台交付的里程碑时刻，中国足球小将创始人董路先生成为第1万台大唐EV车主。据了解，比亚迪大唐EV于6月17日上市，共四款车型，售价区间23.99-30.99万元。此
@@ -130,6 +130,10 @@ _Updated 2026-07-24 00:12 | discovery-only, zero LLM tokens | runs every 3h_
   今日，乘联会公布7月狭义乘用车零售市场规模约152万辆，环比下降5.1%，同比下降16.8%。新能源零售量预计98万辆左右，渗透率约64.5%，渗透率进一步提高。7月第一周市场季节性回调，日均零售3.4万辆；第二周受局部极端天气干扰，日均零售环比微增至3.9万辆；第三周高温抑制出行与购车需求，日均零售4.7万，走势略弱于常规季节性。第四周、第五周市场预计延续
 - **[福特汽车与吉利汽车成立西班牙合资公司，共享瓦伦西亚工厂产能进](https://www.d1ev.com/news/qiye/308255)** — _www.d1ev.com_ · date: unknown
   7月23日，福特汽车与吉利汽车达成协议，双方将在西班牙瓦伦西亚成立合资公司，通过产能共享，为欧洲市场打造福特及吉利品牌的多种能源汽车产品，助力福特品牌积极推进产品攻势，加速推进吉利欧洲本地化战略落地。 在获得监管批准后，该合资公司将于2027年上半年正式投入运营，首款全新车型将于2028年下线。 福特汽车瓦伦西亚工厂年产能约50万辆，是欧洲产能规模最大、工艺
+- **[比亚迪大唐EV销量破万，董路成第1万台车主！](https://www.d1ev.com/newsflash/308263)** — _www.d1ev.com_ · date: unknown
+  7月23日，比亚迪大唐EV达成第1万台交付的里程碑，中国足球小将创始人董路先生成为这一万台车主。比亚迪大唐EV于6月17日上市，推出四款车型，售价区间为23.99-30.99万元。比亚迪宣布，比亚迪大汉将于8月成都车展上正式发布。 比亚迪大唐EV采用比亚迪最新家族式设计，具备超长贯穿式前日行灯和竖状大灯，展现出简洁而有力的造型。车身尺寸为5263（5302）
+- **[上月刚成立产业投资基金，如今又引进行业大咖 鸿利智汇加速“抢道”汽车照明及电子？](https://www.nbd.com.cn/articles/2026-07-23/4505147.html)** — _www.nbd.com.cn_ · published 2026-07-23
+  2026-07-24 00:15:14 每经记者｜吴泽鹏 每经编辑｜魏文艺 7月23日晚间，鸿利智汇（SZ300219，股价6.33元，市值44.81亿元）公告称，聘任邬慧海为公司副总裁。这位曾在马瑞利担任全球副总裁的汽车电子行业老将，正式加盟这家LED（发光二极管）封装龙头。 《每日经济新闻》记者（以下简称“每经记者”）注意到，就在一个月前，鸿利智汇宣布与
 - **[新开局锚定新机遇 汽车行业共话高质量发展新路径](https://www.news.cn/tech/20260723/9cc7c67ba8a5467e8cdd2935f686cada/c.html)** — _www.news.cn_ · published 2026-07-23
   新华社上海7月23日电 题：新开局锚定新机遇 汽车行业共话高质量发展新路径 新华社记者唐诗凝、周蕊 7月21日至23日，以“新开局 新机遇 新征程——共绘汽车产业高质量发展新蓝图”为主题的“2026中国汽车论坛”在上海举行，探讨如何在复杂国内外形势下树立长远信心、保持战略定力，推动汽车产业发展由规模扩张转向价值跃升。 “三电”等核心技术取得一系列突破，中国品
 - **[乘联分会：7月狭义乘用车零售预计152万辆 新能源预计98万辆](https://www.stcn.com/article/detail/4038477.html)** — _www.stcn.com_ · published 2026-07-22
