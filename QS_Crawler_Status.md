@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-25 00:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-25 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-25 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **4816 unique auto/NEV articles** across **49 outlets**
+## Cumulative: **4818 unique auto/NEV articles** across **49 outlets**
 
 ## New per day
 | date | new articles |
@@ -57,14 +57,14 @@ _Updated 2026-07-25 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-22 | 178 |
 | 2026-07-23 | 167 |
 | 2026-07-24 | 180 |
-| 2026-07-25 | 9 |
+| 2026-07-25 | 11 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.d1ev.com | 1182 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 281 |
+| vc.yiche.com | 283 |
 | auto.gasgoo.com | 243 |
 | 36kr.com | 242 |
 | www.stcn.com | 199 |
@@ -114,11 +114,15 @@ _Updated 2026-07-25 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-25 — 9 articles
+### 2026-07-25 — 11 articles
 - **[2026中国汽车论坛，参会嘉宾都说了啥？](https://auto.gasgoo.com/news/202607/24I70467295C1206.shtml)** — _auto.gasgoo.com_ · date: unknown
 - **[小鹏汽车主动召回部分X9汽车](https://egs.stcn.com/news/detail/2319521.html)** — _egs.stcn.com_ · date: unknown
 - **[广汽丰田铂智7推电池事故起火厂家兜底政策 三电终身质保](https://news.yiche.com/zonghexinwen/20260724/21111738168.html)** — _news.yiche.com_ · date: unknown
   推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 7月24日，广汽丰田在铂智7用户大会上重磅推出”电池事故起火厂家全担责“政策：只要不是外部火源蔓延造成，无论品质原因、底盘剐蹭或交通事故碰撞引发的电池事故起火，均由广汽丰田厂家直接赔付。这是行业内首
+- **[川西实测第5代帝豪，1.5L混动体验如何？首选哪个配置？](https://vc.yiche.com/vplay/12229989.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 6.29-9.79万 别盯着998了！吉利帝豪i-HEV 2L油耗7.89万起 汽车大事记 第五代帝豪i-HEV智擎混动：油耗2.22L？省油的核心不是减法，是技术加法 睛
+- **[比亚迪大汉续航申报曝光 纯电最大1008公里？](https://vc.yiche.com/vplay/12252228.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 比亚迪大汉：纯电1000km+/插混400km+ 燃擎派 全新理想L8遇冷？发布一周销量成了“不能说的秘密” 汽车大事记 2026北京车展：保时捷纯电Cayenne
 - **[广汽丰田推电池起火全赔政策，铂智7&3X新老用户终身享](https://www.d1ev.com/newsflash/308438)** — _www.d1ev.com_ · date: unknown
   7月24日，广汽丰田在铂智7用户大会上宣布推出行业首个 电池事故起火厂家全担责政策。该政策涵盖铂智7和铂智3X车型，新老用户均可享受。无论电池事故起火是由品质原因、底盘剐蹭还是交通事故碰撞引发，广汽丰田都将直接赔付。此外，即使用车超过8年，只要电池出现故障，广汽丰田也将免费更换全部电芯。 除了安心服务政策外，广汽丰田还宣布了铂智7的OTA推送计划。新增功能包
 - **[广汽丰田铂智7推电池起火全赔政策，20万级纯电轿车新标杆](https://www.d1ev.com/newsflash/308437)** — _www.d1ev.com_ · date: unknown
