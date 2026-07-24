@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-24 21:13 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-25 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-24 21:13 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **4807 unique auto/NEV articles** across **49 outlets**
+## Cumulative: **4816 unique auto/NEV articles** across **49 outlets**
 
 ## New per day
 | date | new articles |
@@ -57,28 +57,29 @@ _Updated 2026-07-24 21:13 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-22 | 178 |
 | 2026-07-23 | 167 |
 | 2026-07-24 | 180 |
+| 2026-07-25 | 9 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.d1ev.com | 1179 |
+| www.d1ev.com | 1182 |
 | www.dongchedi.com | 1088 |
 | vc.yiche.com | 281 |
-| auto.gasgoo.com | 242 |
+| auto.gasgoo.com | 243 |
 | 36kr.com | 242 |
 | www.stcn.com | 199 |
 | www.caam.org.cn | 193 |
-| egs.stcn.com | 128 |
+| egs.stcn.com | 129 |
 | autodata.gasgoo.com | 127 |
 | www.cnr.cn | 114 |
 | www.cada.cn | 107 |
-| news.yiche.com | 105 |
+| news.yiche.com | 106 |
 | www.news.cn | 96 |
 | m.21jingji.com | 92 |
-| www.nbd.com.cn | 87 |
+| www.nbd.com.cn | 89 |
 | www.yicai.com | 82 |
 | auto.caijing.com.cn | 56 |
-| www.zqrb.cn | 53 |
+| www.zqrb.cn | 54 |
 | www.gelonghui.com | 38 |
 | www.jwview.com | 34 |
 | www.xinhuanet.com | 33 |
@@ -112,6 +113,24 @@ _Updated 2026-07-24 21:13 | discovery-only, zero LLM tokens | runs every 3h_
 | finance.caijing.com.cn | 1 |
 
 ## Articles captured by day (newest first)
+
+### 2026-07-25 — 9 articles
+- **[2026中国汽车论坛，参会嘉宾都说了啥？](https://auto.gasgoo.com/news/202607/24I70467295C1206.shtml)** — _auto.gasgoo.com_ · date: unknown
+- **[小鹏汽车主动召回部分X9汽车](https://egs.stcn.com/news/detail/2319521.html)** — _egs.stcn.com_ · date: unknown
+- **[广汽丰田铂智7推电池事故起火厂家兜底政策 三电终身质保](https://news.yiche.com/zonghexinwen/20260724/21111738168.html)** — _news.yiche.com_ · date: unknown
+  推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 7月24日，广汽丰田在铂智7用户大会上重磅推出”电池事故起火厂家全担责“政策：只要不是外部火源蔓延造成，无论品质原因、底盘剐蹭或交通事故碰撞引发的电池事故起火，均由广汽丰田厂家直接赔付。这是行业内首
+- **[广汽丰田推电池起火全赔政策，铂智7&3X新老用户终身享](https://www.d1ev.com/newsflash/308438)** — _www.d1ev.com_ · date: unknown
+  7月24日，广汽丰田在铂智7用户大会上宣布推出行业首个 电池事故起火厂家全担责政策。该政策涵盖铂智7和铂智3X车型，新老用户均可享受。无论电池事故起火是由品质原因、底盘剐蹭还是交通事故碰撞引发，广汽丰田都将直接赔付。此外，即使用车超过8年，只要电池出现故障，广汽丰田也将免费更换全部电芯。 除了安心服务政策外，广汽丰田还宣布了铂智7的OTA推送计划。新增功能包
+- **[广汽丰田铂智7推电池起火全赔政策，20万级纯电轿车新标杆](https://www.d1ev.com/newsflash/308437)** — _www.d1ev.com_ · date: unknown
+  7月24日，广汽丰田举办铂智7首次用户大会，并宣布推出行业首个“ 电池起火厂家全担责”政策。该政策将“非品质问题”也纳入保障范围，明确指出，除了外部火源导致的起火外，因品质问题、底盘剐蹭或交通事故碰撞引发的电池起火，厂家将直接担责赔付，有效消除用户对电池安全的担忧。在售后服务上，广汽丰田为铂智7提供三电系统终身质保，即使用车超过8年，电池出现故障，厂家也会承
+- **[吉利银河战舰700全球首秀，1128匹马力AI越野SUV震撼登场](https://www.d1ev.com/newsflash/308436)** — _www.d1ev.com_ · date: unknown
+  7月24日，吉利银河品牌旗下全新SUV——银河战舰700在杭州全球首秀，并计划于7月26日登陆意大利米兰进行海外展演。这款AI全地形硬核SUV基于原生新能源越野架构打造，旨在提供越野性能与全家出行、长途穿越、露营旅居的豪华体验。银河战舰700车长超5米，轴距2.9米，搭载1.5T或2.0T 发动机组成的插混动力系统，其中2.0T版本配备三电机四驱系统，综合功
+- **[这份“十五五”规划明确了！2030年机场高铁站随手租车，自动驾驶重塑物流效率](https://www.nbd.com.cn/articles/2026-07-24/4511672.html)** — _www.nbd.com.cn_ · published 2026-07-24
+  2026-07-24 23:46:56 每经记者｜张蕊 每经编辑｜黄胜 7月24日，交通运输部等四部门联合印发《综合运输服务发展“十五五”规划》（以下简称《规划》）。 《规划》明确，到2030年，基本建成现代化综合运输服务体系。多层次、高品质、优体验的公众出行服务系统基本建成，全链条、一体化、韧性强的交通物流服务系统加快完善，交通物流降本提质增效稳步推进，跨
+- **[每小时“吸金”近千万！宁德时代上半年净赚432亿元，研发投入处在高位，车企利润率仍承压](https://www.nbd.com.cn/articles/2026-07-24/4511648.html)** — _www.nbd.com.cn_ · published 2026-07-24
+  2026-07-24 23:14:25 每经记者｜黄辛旭 每经编辑｜裴健如 在汽车行业利润率创下近十年新低的同时，宁德时代交出了亮眼的半年度成绩单。 7月24日晚间，宁德时代(300750.SZ)披露的最新数据显示，2026年上半年，该公司归属于上市公司股东的净利润为432.84亿元，同比增长41.98%。照此计算，宁德时代上半年日赚约2.39亿元，平均每小
+- **[奕境汽车董事长汪俊君：以全栈共创突围同质化竞争](https://www.zqrb.cn/auto/qichedongtai/2026-07-24/A1784880058762.html)** — _www.zqrb.cn_ · published 2026-07-24
+  本报记者 李如是 近日，华为乾崑智驾ADS 5首测落地奕境汽车。当前，高阶智驾、鸿蒙座舱快速普及，搭载华为智能体系已是行业常态。在这样的竞争中，后来者靠什么建立自己的护城河？ 《证券日报》记者日前专访奕境汽车董事长汪俊君，拆解这家新品牌的突围逻辑：技术端，以全栈共创模式，从底层架构与华为同步开发，追求软硬件一体化；品牌端，以东方美学“意境”“留白”为内核，跳
 
 ### 2026-07-24 — 180 articles
 - **[超17亿元入股西班牙工厂，从收购沃尔沃到共享产能，吉利汽车16年后为何再选福特？](https://36kr.com/p/3909113033119106)** — _36kr.com_ · published 2026-07-24
