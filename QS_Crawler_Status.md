@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-26 00:13 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-26 03:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-26 00:13 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **4884 unique auto/NEV articles** across **49 outlets**
+## Cumulative: **4886 unique auto/NEV articles** across **49 outlets**
 
 ## New per day
 | date | new articles |
@@ -58,21 +58,21 @@ _Updated 2026-07-26 00:13 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-23 | 167 |
 | 2026-07-24 | 180 |
 | 2026-07-25 | 68 |
-| 2026-07-26 | 9 |
+| 2026-07-26 | 11 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.d1ev.com | 1203 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 299 |
+| vc.yiche.com | 300 |
 | auto.gasgoo.com | 246 |
 | 36kr.com | 244 |
 | www.stcn.com | 200 |
 | www.caam.org.cn | 193 |
 | egs.stcn.com | 129 |
 | autodata.gasgoo.com | 127 |
-| www.cnr.cn | 123 |
+| www.cnr.cn | 124 |
 | www.cada.cn | 110 |
 | news.yiche.com | 109 |
 | www.news.cn | 96 |
@@ -115,14 +115,18 @@ _Updated 2026-07-26 00:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-26 — 9 articles
+### 2026-07-26 — 11 articles
 - **[奇瑞全球累计销量突破2000万辆 风云A9将作为第2000万辆车交付](https://auto.gasgoo.com/news/202607/25I70467401C110.shtml)** — _auto.gasgoo.com_ · published 2026-07-25
   盖世汽车获悉 2026年7月25日，奇瑞集团全球累计销量突破2000万辆。同日上市的风云A9将作为第2000万辆车交付用户。风云曾是奇瑞打造的首款车型及首款出海车型，现已焕新为新能源智能产品，风云A9定位为长续航智美纯电轿跑，被视作奇瑞产品与质量体系全面升级的代表。 图片来源：奇瑞汽车 回顾29年创业历程，奇瑞在20世纪90年代行业普遍质疑自主发展的环境下坚
 - **[奇瑞风云A9正式上市 售价10.99万元起](https://auto.gasgoo.com/news/202607/25I70467400C107.shtml)** — _auto.gasgoo.com_ · published 2026-07-25
   2026年7月25日，奇瑞汽车旗下风云序列首款纯电轿跑——风云A9正式上市。新车共推出3款配置车型，官方指导价为10.99万至12.99万元，叠加限时置换补贴后入手价为10.69万至12.69万元。 图片来源：奇瑞汽车直播截图 风云A9定位“长续航智美纯电轿跑”，采用奇瑞全新“凌风美学”设计语言，前脸为封闭式新能源设计搭配分体矩阵大灯。该设计此前已斩获202
 - **[小鹏MONA L03全维度解析，9款车型别乱下单，看完少花冤枉钱](https://vc.yiche.com/vplay/12300213.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 12.38-15.68万 只比轿车贵四千！小鹏MONA L03卖12.38万起 智电出行 15秒看完，小鹏MONA L03隐藏的小彩蛋 | KenTV 吴佩频道 近乎满分！
+- **[2030海南禁售燃油车，下一个会是谁？](https://vc.yiche.com/vplay/12231949.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 广汽3000万用户感恩！7月买昊铂HL，补贴一笔一笔算清楚！ 科记汇 体验中东土豪同款座驾，极石西安浐灞新店来啦 小马撩车 乐道L80租电15.68万起，Pro、Max+、
 - **[商务部等8部门办公厅关于印发《2026年汽车以旧换新补贴实施细则》的通知](https://www.cada.cn/Trends/info_90_10415.html)** — _www.cada.cn_ · date: unknown
+- **[“村T”开场！农牧民秀出乡村文化新风采](https://www.cnr.cn/xjfw/gstjxj/20260726/t20260726_527729655.shtml)** — _www.cnr.cn_ · published 2026-07-26
+  央广网阿克苏7月26日消息（记者丁安 通讯员李银琼）近日，一场别开生面的我们的“村T”农牧民模特大赛在新疆库车市乌恰镇甬库振兴村开展。各族群众身着各色服饰走上乡村T台，用自信与笑容走出新时代农牧民的风采，奏响乡村文化振兴的动人乐章。 活动现场 （央广网发 李银琼 摄） 比赛现场，由各村农牧民群众代表、返乡学生等群体组成的参赛队伍依次登台，国风汉服秀衣袂翩翩，
 - **[奇瑞全球累计销量突破2000万辆 风云A9将作为第2000万辆车交付](https://www.d1ev.com/news/shichang/308505)** — _www.d1ev.com_ · published 2026-07-25
   盖世汽车获悉 2026年7月25日，奇瑞集团全球累计销量突破2000万辆。同日上市的风云A9将作为第2000万辆车交付用户。风云曾是奇瑞打造的首款车型及首款出海车型，现已焕新为新能源智能产品，风云A9定位为长续航智美纯电轿跑，被视作奇瑞产品与质量体系全面升级的代表。 图片来源：奇瑞汽车 回顾29年创业历程，奇瑞在20世纪90年代行业普遍质疑自主发展的环境下坚
 - **[奇瑞风云A9正式上市 售价10.99万元起](https://www.d1ev.com/news/shichang/308503)** — _www.d1ev.com_ · published 2026-07-25
