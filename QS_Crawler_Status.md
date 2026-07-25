@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-25 18:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-25 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-25 18:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **4863 unique auto/NEV articles** across **49 outlets**
+## Cumulative: **4875 unique auto/NEV articles** across **49 outlets**
 
 ## New per day
 | date | new articles |
@@ -57,14 +57,14 @@ _Updated 2026-07-25 18:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-22 | 178 |
 | 2026-07-23 | 167 |
 | 2026-07-24 | 180 |
-| 2026-07-25 | 56 |
+| 2026-07-25 | 68 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.d1ev.com | 1195 |
+| www.d1ev.com | 1198 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 292 |
+| vc.yiche.com | 298 |
 | auto.gasgoo.com | 244 |
 | 36kr.com | 244 |
 | www.stcn.com | 200 |
@@ -72,8 +72,8 @@ _Updated 2026-07-25 18:12 | discovery-only, zero LLM tokens | runs every 3h_
 | egs.stcn.com | 129 |
 | autodata.gasgoo.com | 127 |
 | www.cnr.cn | 123 |
-| www.cada.cn | 108 |
-| news.yiche.com | 107 |
+| www.cada.cn | 109 |
+| news.yiche.com | 109 |
 | www.news.cn | 96 |
 | m.21jingji.com | 92 |
 | www.nbd.com.cn | 89 |
@@ -114,7 +114,7 @@ _Updated 2026-07-25 18:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-25 — 56 articles
+### 2026-07-25 — 68 articles
 - **[江淮汽车，成了高端但“埋”了牛散](https://36kr.com/p/3910368326391681)** — _36kr.com_ · published 2026-07-25
   江淮汽车，成了高端但“埋”了牛散 江淮，正在冰火两重天中。 6月25日，江淮汽车旗下的尊界V800和V680开启预售。在23天的时间里，两款车的预售订单便突破1万辆，其中预售价80-120万元的V800订单占比约80%。 这意味着，一款尚未公布最终售价、尚未开始交付的百万级MPV，在上市前就已经拿到了约8000辆订单。 然而，同一时间，尊界背后的江淮汽车却在
 - **[被你质疑“不行”的燃油车，又杀回来了](https://36kr.com/p/3910332145407110)** — _36kr.com_ · published 2026-07-25
@@ -137,6 +137,9 @@ _Updated 2026-07-25 18:12 | discovery-only, zero LLM tokens | runs every 3h_
   推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 7月24日，广汽丰田在铂智7用户大会上重磅推出”电池事故起火厂家全担责“政策：只要不是外部火源蔓延造成，无论品质原因、底盘剐蹭或交通事故碰撞引发的电池事故起火，均由广汽丰田厂家直接赔付。这是行业内首
 - **[吉利星越L第100万辆整车正式下线 里程碑时刻](https://news.yiche.com/zonghexinwen/20260725/14111756371.html)** — _news.yiche.com_ · date: unknown
   推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 7月25日，吉利汽车官方宣布，星越L第100万辆整车在吉利西安黑灯工厂正式下线，车型累计总销量突破 100万台。4月，吉利星越L i-HEV智擎混动上市，售价区间14.57-15.97万元。 吉利星
+- **[奇瑞风云A9正式上市 限时超级置换价10.69-12.69万元](https://news.yiche.com/info/111732424.html)** — _news.yiche.com_ · date: unknown
+- **[奇瑞风云A9正式上市 限时超级置换价10.69](https://news.yiche.com/zonghexinwen/20260725/19111732424.html)** — _news.yiche.com_ · date: unknown
+  推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 7月25日，奇瑞汽车官方发布，奇瑞风云A9正式上市。新车共推出三款车型，限时超级置换价10.69-12.69万元。同时，奇瑞集团迎来全球累计销量突破2000万里程碑时刻。 为感恩回馈2000万用户，
 - **[川西实测第5代帝豪，1.5L混动体验如何？首选哪个配置？](https://vc.yiche.com/vplay/12229989.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 6.29-9.79万 别盯着998了！吉利帝豪i-HEV 2L油耗7.89万起 汽车大事记 第五代帝豪i-HEV智擎混动：油耗2.22L？省油的核心不是减法，是技术加法 睛
 - **[比亚迪大汉续航申报曝光 纯电最大1008公里？](https://vc.yiche.com/vplay/12252228.html)** — _vc.yiche.com_ · date: unknown
@@ -159,7 +162,20 @@ _Updated 2026-07-25 18:12 | discovery-only, zero LLM tokens | runs every 3h_
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 15.99-20.99万 试驾瑞虎9 到奇瑞店免费领《四渡》热播电影票 娟子说车V 总裁您的专属座驾！奔驰V300L维努斯晖凰，商务接待家庭出行兼得 青岛美德房车汇 合资终
 - **[神行者8内饰发布：奇瑞+路虎+华为，这组合能打吗？](https://vc.yiche.com/vplay/12299142.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 奇瑞造皮卡有什么独到之处？威麟R08 PRO还挺出乎意料的 潮畔汽车 车机不该继续学手机？神行者8告诉你为什么 蕾哥玩车 路虎设计的奇瑞？神行者8静态体验 25度考
+- **[点亮小蓝灯！试驾奇瑞艾瑞泽8 PRO，打破燃油车不智能偏见](https://vc.yiche.com/vplay/12301235.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 11.69-14.99万 试驾岚图泰山X8，实力如何？ 宇宙出行指南 油电同智落地 2027款艾瑞泽8 PRO刷新燃油车智能上限 车镜 打破油车智能偏见，2027款艾瑞泽8
+- **[小鹏MONA L03深度静态+动态双测！](https://vc.yiche.com/vplay/12301221.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 12.38-15.68万 又想舒服又想野？岚图泰山X8把事办了 之乎车也 前法拉利设计师操刀！这台MONA L03颜值太美了 新智KK 25.98万起，全新坦克300，越野
+- **[全新问界M6“换电芯”后，纯电增程该怎么选？](https://vc.yiche.com/vplay/12301158.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 22.98-29.98万 奕派M8 | 以技术实力，定义华派黄金标准大六座 鱼广场客mia 帕加尼风神深度评测——置身有史以来最美汽车内饰之中 yangevan280831
+- **[10个月13000公里用车总结，吉利银河A7是否值得吗？](https://vc.yiche.com/vplay/12301123.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 11.28-15.08万 “为你加电，共启新程”吉利银河A7 EV专享版实力进阶 车市大搜索 时代精英首选座驾！岚图泰山X8领衔全系亮相华中国际车展 璇姐探车 想买车别着急
+- **[比油车省油比电车省事，试驾第5代帝豪 i](https://vc.yiche.com/vplay/12300864.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 6.29-9.79万 千万级豪车教父来华！世界汽车设计风向彻底转变 车圈闰土 2026北京车展 传祺E8 车事经典 东风奕派M8上市 限时权益价16.58万起 全系满配华为
+- **[花油车的钱，办混动的事？一汽](https://vc.yiche.com/vplay/12300241.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 19.99-22.49万 买德系插混，千万不能错过这两台新车！16.99万起售即高配！ 好车直说 德国味道 ID. AURA T6 HeyCar 山东女婿“新”标配-一汽大
 - **[后市场精品服务分会](https://www.cada.cn/committee/info_27_6767.html)** — _www.cada.cn_ · date: unknown
+- **[商务部 工业和信息化部 公安部 海关总署关于进一步加强二手车出口管理工作的通知](https://www.cada.cn/Trends/info_90_10383.html)** — _www.cada.cn_ · date: unknown
 - **[扩大汽车全链条消费](https://www.cnr.cn/2013qcpd/2015xc/20260725/t20260725_527728480.shtml)** — _www.cnr.cn_ · published 2026-07-25
   围绕汽车使用形成的后市场，是一个万亿级产业。据国际专业机构的报告，全球汽车后市场规模已经突破1万亿美元，预计今年亚太地区将成为全球最大的区域市场。中国乘用车平均车龄7年以上的占比突破50%，将迎来汽车后市场快速增长期。 当前，有关部门正不断完善配套措施，并与汽车流通消费改革试点工作协同发力，做大做优汽车后市场服务供给，满足百姓多样化、品质化消费需求，让汽车后
 - **[填补行业空白 21家车企联手制定“静谧标尺”](https://www.cnr.cn/2013qcpd/2015xc/20260725/t20260725_527728479.shtml)** — _www.cnr.cn_ · published 2026-07-25
@@ -210,6 +226,12 @@ _Updated 2026-07-25 18:12 | discovery-only, zero LLM tokens | runs every 3h_
   7月25日，零跑汽车对外公布了A05纯电小车的设计细节，该车型已陆续到店，预计不久将正式上市。零跑A05以其2.6平方米的超大内饰软包和7层云感舒享座椅为亮点，提供了256色环抱式氛围灯和独创的悬浮式IPBAR，可放置多种官方DIY附件。车辆支持多种座椅模式，包括冲浪板、小憩躺卧、大床、宠物&搬家以及隐私收纳模式，同时拥有33处储物空间和超大双层后备厢，基础
 - **[奇瑞集团全球销量破2000万，连续23年出口第一](https://www.d1ev.com/newsflash/308482)** — _www.d1ev.com_ · date: unknown
   7月25日，奇瑞集团宣布全球累计销量突破2000万辆，连续23年保持中国品牌乘用车出口的领先地位。奇瑞汽车自1997年成立以来，成为国内最早突破100万辆、300万辆和500万辆汽车销量的自主品牌企业集团之一。目前，奇瑞集团的业务已扩展至全球130多个国家和地区，6月份单月出口量达到191062辆，连续四个月刷新中国汽车单月出口纪录。 上半年，奇瑞集团累计出
+- **[比亚迪仰望U8升级13项功能，百万级越野新体验！](https://www.d1ev.com/newsflash/308498)** — _www.d1ev.com_ · date: unknown
+  近日，比亚迪仰望U8车型迎来OTA升级，涉及豪华版2023款和越野玩家版2024款车型，新增13项功能及多项优化。此次升级包括顶部状态栏新增灵动岛通知、通话时导航播报可自主开关、行车记录仪支持自动录制、全局字号三挡可调、一键关闭车外灯、外后视镜自动防眩目、一键无痕功能、泊车无感唤起、爱奇艺播放页上线“奇观”功能以及自动退电功能。 比亚迪仰望U8豪华版于202
+- **[奇瑞风云A9纯电轿跑上市，655km续航10.69万起](https://www.d1ev.com/newsflash/308496)** — _www.d1ev.com_ · date: unknown
+  7月25日，奇瑞汽车旗下风云A9纯电轿跑正式上市，起售价为10.99万元。风云A9提供655km Pro版、Max版以及Max激光雷达版三种配置，价格分别为10.99万元、11.99万元和12.99万元。车身尺寸为4836×1896×1489mm，轴距2900mm，提供七种车色和两种内饰颜色选择。整车风阻系数0.223Cd，搭载单电机，最大功率178kW，最
+- **[比亚迪方程豹钛7EV闪充版交付提速，4月订单陆续发运](https://www.d1ev.com/newsflash/308493)** — _www.d1ev.com_ · date: unknown
+  7月25日，比亚迪集团方程豹事业部总经理熊甜波透露，方程豹钛7EV闪充版车型本月交付量显著增加，4月的大部分订单已完成交付。熊甜波表示，对于尚未提到车的客户，比亚迪正在加紧发运交付中。比亚迪方程豹钛7EV闪充版于4月29日上市，起售价为19.98万元，提供675km后驱闪充版和755km后驱闪充版两种配置。此外，755km后驱车型可选装3万元的“四驱进阶选装
 - **[这份“十五五”规划明确了！2030年机场高铁站随手租车，自动驾驶重塑物流效率](https://www.nbd.com.cn/articles/2026-07-24/4511672.html)** — _www.nbd.com.cn_ · published 2026-07-24
   2026-07-24 23:46:56 每经记者｜张蕊 每经编辑｜黄胜 7月24日，交通运输部等四部门联合印发《综合运输服务发展“十五五”规划》（以下简称《规划》）。 《规划》明确，到2030年，基本建成现代化综合运输服务体系。多层次、高品质、优体验的公众出行服务系统基本建成，全链条、一体化、韧性强的交通物流服务系统加快完善，交通物流降本提质增效稳步推进，跨
 - **[每小时“吸金”近千万！宁德时代上半年净赚432亿元，研发投入处在高位，车企利润率仍承压](https://www.nbd.com.cn/articles/2026-07-24/4511648.html)** — _www.nbd.com.cn_ · published 2026-07-24
