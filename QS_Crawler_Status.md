@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-25 09:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-25 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-25 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **4832 unique auto/NEV articles** across **49 outlets**
+## Cumulative: **4849 unique auto/NEV articles** across **49 outlets**
 
 ## New per day
 | date | new articles |
@@ -57,21 +57,21 @@ _Updated 2026-07-25 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-22 | 178 |
 | 2026-07-23 | 167 |
 | 2026-07-24 | 180 |
-| 2026-07-25 | 25 |
+| 2026-07-25 | 42 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.d1ev.com | 1185 |
+| www.d1ev.com | 1189 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 284 |
+| vc.yiche.com | 291 |
 | auto.gasgoo.com | 244 |
-| 36kr.com | 242 |
+| 36kr.com | 244 |
 | www.stcn.com | 200 |
 | www.caam.org.cn | 193 |
 | egs.stcn.com | 129 |
 | autodata.gasgoo.com | 127 |
-| www.cnr.cn | 121 |
+| www.cnr.cn | 123 |
 | www.cada.cn | 107 |
 | news.yiche.com | 106 |
 | www.news.cn | 96 |
@@ -79,12 +79,12 @@ _Updated 2026-07-25 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 | www.nbd.com.cn | 89 |
 | www.yicai.com | 82 |
 | auto.caijing.com.cn | 56 |
-| www.zqrb.cn | 54 |
+| www.zqrb.cn | 55 |
 | www.gelonghui.com | 38 |
 | www.jwview.com | 34 |
 | www.xinhuanet.com | 33 |
 | finance.eastmoney.com | 29 |
-| finance.people.com.cn | 23 |
+| finance.people.com.cn | 24 |
 | cn.chinadaily.com.cn | 23 |
 | www.chinanews.com.cn | 22 |
 | qzs.stcn.com | 17 |
@@ -114,13 +114,19 @@ _Updated 2026-07-25 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-25 — 25 articles
+### 2026-07-25 — 42 articles
+- **[江淮汽车，成了高端但“埋”了牛散](https://36kr.com/p/3910368326391681)** — _36kr.com_ · published 2026-07-25
+  江淮汽车，成了高端但“埋”了牛散 江淮，正在冰火两重天中。 6月25日，江淮汽车旗下的尊界V800和V680开启预售。在23天的时间里，两款车的预售订单便突破1万辆，其中预售价80-120万元的V800订单占比约80%。 这意味着，一款尚未公布最终售价、尚未开始交付的百万级MPV，在上市前就已经拿到了约8000辆订单。 然而，同一时间，尊界背后的江淮汽车却在
+- **[被你质疑“不行”的燃油车，又杀回来了](https://36kr.com/p/3910332145407110)** — _36kr.com_ · published 2026-07-25
+  被你质疑“不行”的燃油车，又杀回来了 今年上半年，燃油车市场的表现相当有意思。 年初，国内乘用车销量前十榜单中，还有7款燃油车集体杀入，让人们觉得燃油阵营的地位稳固。其中，吉利博越L甚至以3.4万辆的月销量位列榜单第二，仅次于小米YU7，是开年燃油车的销量担当，也盖过了一众新能源车。 但随后，市场风向快速转变。 随着新能源购车刺激政策落地，电车竞争力大幅提升
 - **[2026中国汽车论坛，参会嘉宾都说了啥？](https://auto.gasgoo.com/news/202607/24I70467295C1206.shtml)** — _auto.gasgoo.com_ · date: unknown
 - **[车芯协同，聚力致远](https://auto.gasgoo.com/news/202607/23I70467073C108.shtml)** — _auto.gasgoo.com_ · published 2026-07-15
   2026年7月15日下午，由中国汽车工业协会（中汽协）主办、扬杰科技承办的“车芯协同，聚力致远 | 中国汽车出海供应链风险研讨会”在扬州成功举办。中汽协副秘书长李邵华莅临指导，扬杰科技CEO陈润生，副总裁徐小兵、王金雄携核心团队出席会议。 图片来源：扬杰科技 会议现场大咖云集，一汽、东风、长安、上汽、广汽、奇瑞等十五家车企领导，国内外头部Tier1零部件企业
 - **[小鹏汽车主动召回部分X9汽车](https://egs.stcn.com/news/detail/2319521.html)** — _egs.stcn.com_ · date: unknown
 - **[中国是世界经济扩容提质重要引擎](https://finance.people.com.cn/n1/2026/0725/c1004-40767757.html)** — _finance.people.com.cn_ · published 2026-07-25
   中国是世界经济扩容提质重要引擎 点击播报本文，约 本届世界杯足球赛上中国品牌从此前的单向赞助和展示转变为深度参与赛事的“技术合作伙伴”，欧洲高温炙烤下中国制造的空调等制冷设备供不应求，比亚迪巴西工厂迎来第10万辆新能源汽车下线……透过这些跳动的商业脉搏，一个图景清晰可见：在深度互嵌的全球化时代，世界经济不是你输我赢的零和博弈，中国发展持续为世界经济贡献增量，
+- **[“中国制造”何以驰骋海外？](https://finance.people.com.cn/n1/2026/0725/c1004-40767771.html)** — _finance.people.com.cn_ · published 2026-07-25
+  财经观察 “中国制造”何以驰骋海外？ 点击播报本文，约 热浪席卷欧洲，中国空调“一机难求”；新能源重型商用车“组团”出海，订单量屡创新高；机电产品出口持续“爆单”，连续十几个月创新高…… 一系列亮眼外贸图景勾勒出上半年进出口向好态势，最新发布的数据更印证了“中国制造”的强劲动能：上半年，我国货物进出口总额同比增长16.9%。 历经数十年改革开放深耕，“中国制
 - **[广汽丰田铂智7推电池事故起火厂家兜底政策 三电终身质保](https://news.yiche.com/zonghexinwen/20260724/21111738168.html)** — _news.yiche.com_ · date: unknown
   推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 7月24日，广汽丰田在铂智7用户大会上重磅推出”电池事故起火厂家全担责“政策：只要不是外部火源蔓延造成，无论品质原因、底盘剐蹭或交通事故碰撞引发的电池事故起火，均由广汽丰田厂家直接赔付。这是行业内首
 - **[川西实测第5代帝豪，1.5L混动体验如何？首选哪个配置？](https://vc.yiche.com/vplay/12229989.html)** — _vc.yiche.com_ · date: unknown
@@ -129,6 +135,20 @@ _Updated 2026-07-25 09:12 | discovery-only, zero LLM tokens | runs every 3h_
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 比亚迪大汉：纯电1000km+/插混400km+ 燃擎派 全新理想L8遇冷？发布一周销量成了“不能说的秘密” 汽车大事记 2026北京车展：保时捷纯电Cayenne
 - **[禁售燃油车？不慌！东风日产NX8给出了最优解](https://vc.yiche.com/vplay/12289202.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 15.99-20.99万 东风日产NX8，合资价格屠夫！大五座SUV 14.99万起，值得买吗？ 阿康爱玩车 6万必火 配置贼高 实拍体验零跑A05 有车以后 东风日产新能
+- **[比亚迪再添爆款！续航1310km+云辇](https://vc.yiche.com/vplay/12294599.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 23.98-32.98万 零跑D99底盘实拍，聊优势和不足，这套底盘到底适合谁？ 哔哔车事 这台才是腾势N9的终极完成体？ 公路伝说 总裁您的专属座驾！奔驰V300L维努斯
+- **[纯电续航至高725km 阿维塔07L即将上市 24.99万预售价还有的降吗？](https://vc.yiche.com/vplay/12286367.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 大幅加长！阿维塔07L来了 超级的水蜜桃8292 拒绝“傻大”内卷！阿维塔07L，要重新定义大五座SUV？ 老司机侃侃车 本来冲张凌赫去的 结果被阿维塔07L种草了
+- **[吉利第一台方盒子，不是样子货](https://vc.yiche.com/vplay/12297469.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 老越野要废 新关中王来了 云游汽车 越野老炮和钢琴家达成共识｜吉利原生新能源越野架构什么来头？ 引擎密码 银河战舰700：吉利首款AI全地形硬核SUV，4秒级破百+
+- **[海豹08，比亚迪海洋网旗舰力作](https://vc.yiche.com/vplay/12297098.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 19.69-23.99万 比亚迪第1700万辆下线就是海豹08！车型详解及选买分析 爆哥说车 海豹08，第一现场真实体验 石头SKP 陪伴中国家庭35年，捷达来“电”了 说
+- **[银河战舰700，吉利bingo！](https://vc.yiche.com/vplay/12296412.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 纽北赛道风云再起，保时捷Taycan刷新纪录，小米SU7 Ultra能否再战？ 红导演 越野老炮和钢琴家达成共识｜吉利原生新能源越野架构什么来头？ 引擎密码 老越野
+- **[银河战舰700，吉利可不只是想玩玩而已](https://vc.yiche.com/vplay/12296307.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 探店体验2027款星海V9，奶爸告诉你这样买准没错 快上车Go 最时髦的方盒子？抢先体验吉利银河战舰700！ AutoLab 百万级质感硬核SUV 银河战舰700
+- **[东风日产辛宇：从赛道到街道日产新能源的技术和车型被消费者认可](https://vc.yiche.com/vplay/12298127.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 15.99-20.99万 试驾瑞虎9 到奇瑞店免费领《四渡》热播电影票 娟子说车V 总裁您的专属座驾！奔驰V300L维努斯晖凰，商务接待家庭出行兼得 青岛美德房车汇 合资终
 - **[扩大汽车全链条消费](https://www.cnr.cn/2013qcpd/2015xc/20260725/t20260725_527728480.shtml)** — _www.cnr.cn_ · published 2026-07-25
   围绕汽车使用形成的后市场，是一个万亿级产业。据国际专业机构的报告，全球汽车后市场规模已经突破1万亿美元，预计今年亚太地区将成为全球最大的区域市场。中国乘用车平均车龄7年以上的占比突破50%，将迎来汽车后市场快速增长期。 当前，有关部门正不断完善配套措施，并与汽车流通消费改革试点工作协同发力，做大做优汽车后市场服务供给，满足百姓多样化、品质化消费需求，让汽车后
 - **[填补行业空白 21家车企联手制定“静谧标尺”](https://www.cnr.cn/2013qcpd/2015xc/20260725/t20260725_527728479.shtml)** — _www.cnr.cn_ · published 2026-07-25
@@ -143,6 +163,10 @@ _Updated 2026-07-25 09:12 | discovery-only, zero LLM tokens | runs every 3h_
   首页 > 新闻频道 > 央广网国内 > 国内滚动 新疆库车市发生3.4级地震 震源深度17公里 2026-07-25 06:30:19 来源：央视新闻客户端 中国地震台网正式测定：7月25日2时28分，在新疆阿克苏地区库车市（北纬41.29度，东经83.90度）发生3.4级地震，震源深度17公里。 （总台央视记者 张腾飞） 编辑:杨璇铄 更多精彩资讯请在应用
 - **[总台报道有反馈丨浙江台州排查非标电动车产销链条：涉事单位停业整改](https://www.cnr.cn/newscenter/native/gd/20260725/t20260725_527728357.shtml)** — _www.cnr.cn_ · published 2026-07-25
   最近，总台《每周质量报告》栏目曝光了浙江台州电动自行车产业链变相架空国家安全标准，违规生产、销售超标准电动自行车问题。节目播出后，台州市市场监督管理局、市公安局交管支队迅速组织人员，对全市电动车销售门店、生产企业展开全面排查。截至目前，台州市共出动相关执法人员超过2500人次，检查电动自行车及其配套产品生产企业60家，检查电动车销售单位两千余家次，已立案42
+- **[电池全场景兜底保障，广汽丰田铂智7发布全新用车安全政策](https://www.cnr.cn/2013qcpd/cz/20260725/t20260725_527728873.shtml)** — _www.cnr.cn_ · published 2026-07-25
+  央广网北京7月25日消息（记者董楠）7月24日，广汽丰田举办铂智7用户大会，会上发布全新电池安全保障政策，推出 “电池事故起火厂家全担责” 服务方案，这一方案首次将底盘剐蹭、交通事故碰撞等非质量问题引发的电池起火纳入厂家赔付范畴。按照政策约定，除外部火源蔓延造成的起火情形外，车辆质量缺陷、底盘剐蹭、碰撞事故导致的电池起火，相关损失均由广汽丰田承担，该保障覆盖
+- **[“中国制造”何以驰骋海外？](https://www.cnr.cn/tech/gstj/20260725/t20260725_527728796.shtml)** — _www.cnr.cn_ · published 2026-07-25
+  热浪席卷欧洲，中国空调“一机难求”；新能源重型商用车“组团”出海，订单量屡创新高；机电产品出口持续“爆单”，连续十几个月创新高…… 一系列亮眼外贸图景勾勒出上半年进出口向好态势，最新发布的数据更印证了“中国制造”的强劲动能：上半年，我国货物进出口总额同比增长16.9%。 历经数十年改革开放深耕，“中国制造”的全球足迹不断延伸、国际影响力稳步攀升。恰逢“十五五
 - **[广汽丰田推电池起火全赔政策，铂智7&3X新老用户终身享](https://www.d1ev.com/newsflash/308438)** — _www.d1ev.com_ · date: unknown
   7月24日，广汽丰田在铂智7用户大会上宣布推出行业首个 电池事故起火厂家全担责政策。该政策涵盖铂智7和铂智3X车型，新老用户均可享受。无论电池事故起火是由品质原因、底盘剐蹭还是交通事故碰撞引发，广汽丰田都将直接赔付。此外，即使用车超过8年，只要电池出现故障，广汽丰田也将免费更换全部电芯。 除了安心服务政策外，广汽丰田还宣布了铂智7的OTA推送计划。新增功能包
 - **[广汽丰田铂智7推电池起火全赔政策，20万级纯电轿车新标杆](https://www.d1ev.com/newsflash/308437)** — _www.d1ev.com_ · date: unknown
@@ -155,6 +179,14 @@ _Updated 2026-07-25 09:12 | discovery-only, zero LLM tokens | runs every 3h_
   7月25日，梅赛德斯-奔驰宣布其GLA车型即将迎来第三代，预计将于美国东部时间7月29日下午1时30分（北京时间30日凌晨1时30分）举行特别发布活动。新一代GLA将与宝马X1和奥迪Q3等车型竞争，并预计提供燃油版和纯电版车型。纯电车型将替代EQA，奔驰也将统一燃油车与纯电车的设计体系，不再因动力形式不同而打造两套外观不同的产品线。 新一代GLA的车身尺寸预
 - **[奔驰GLA全新升级：纯电续航720km，2026年底上市！](https://www.d1ev.com/newsflash/308445)** — _www.d1ev.com_ · date: unknown
   近日，新款奔驰GLA的谍照被曝光，揭示了这款基于梅赛德斯模块化架构（MMA）打造的新车的多项特点。新车将提供纯电和48V轻混两种动力版本，其中纯电版GLAEQ预计于2026年底上市，而48V轻混版则预计在2027年初与消费者见面。谍照中的测试车展示了更富运动气息的车身线条、轿跑风格的车顶设计以及纤细的D柱造型，前脸可能采用与CLA概念车相似的贯穿式设计。 内
+- **[广汽丰田铂智7承诺电池终身质保，事故起火全赔付](https://www.d1ev.com/newsflash/308468)** — _www.d1ev.com_ · date: unknown
+  7月24日，广汽丰田在铂智7用户大会上宣布了一项重大政策，即“ 电池事故起火厂家全担责”。该政策涵盖了非外部火源引起的电池事故起火，无论是品质问题、底盘剐蹭还是交通事故碰撞，广汽丰田都将直接赔付。此外，铂智7提供了三电系统终身质保，并在设计阶段通过更高标准验证以确保耐久性，设计目标达到20年以上，承诺即使超过8年使用期限，电池出现故障也免费更换全部电芯。 广
+- **[中国汽车出口量激增53%，俄罗斯成最大买家](https://www.d1ev.com/newsflash/308466)** — _www.d1ev.com_ · date: unknown
+  7月25日，乘联分会秘书长崔东树披露最新数据，2026年上半年中国汽车出口量达到531万辆，同比增长53%。其中，俄罗斯成为中国汽车出口的最大目的国，上半年累计出口448157辆，6月单月出口量为84451辆。巴西、英国、澳大利亚、比利时等国也位列出口目的地前列。6月份中国汽车出口量达到107万辆，同比增长73%，环比增长8%。出口增长主要受海外市场需求、中
+- **[合资纯电终于开窍！北京现代艾尼氪V定档9月上市](https://www.d1ev.com/news/qiye/308465)** — _www.d1ev.com_ · date: unknown
+  快科技7月25日消息，北京现代艾尼氪V将于9月正式上市，新车基于E-GMP纯电平台打造，搭载智趣数字座舱，并提供纯电和增程双动力可选。 外观方面，艾尼氪V由现代中国设计中心主导，采用低趴楔形车身及溜背式轿跑造型。 封闭式前脸搭配细长LED灯带，侧面采用无框式车门设计，配备半隐藏式门把手及V型空气动力学轮毂。尾部采用次元光刃灯组与星轨贯穿式尾灯组合。 尺寸方面
+- **[奥迪A2E-Tron纯电小车曝光：尺寸最小，今秋发布 - 第一电动网](https://www.d1ev.com/newsflash/308462)** — _www.d1ev.com_ · date: unknown
+  7月25日，汽车媒体AutoCar发布博文，分享了一组奥迪A2E-tron的路测图。这款新车定位为入门级纯电动车型，计划在A1和Q2退役后承接其细分市场定位。奥迪A2E-tron将成为奥迪在售车型中尺寸最小的一款，定位介于A3掀背车与Q2跨界车之间。外观上，新车整体轮廓接近缩小版Q4E-tron，同时吸收老款A2的圆润设计特征。由于该车并非直接替代现有单一车
 - **[这份“十五五”规划明确了！2030年机场高铁站随手租车，自动驾驶重塑物流效率](https://www.nbd.com.cn/articles/2026-07-24/4511672.html)** — _www.nbd.com.cn_ · published 2026-07-24
   2026-07-24 23:46:56 每经记者｜张蕊 每经编辑｜黄胜 7月24日，交通运输部等四部门联合印发《综合运输服务发展“十五五”规划》（以下简称《规划》）。 《规划》明确，到2030年，基本建成现代化综合运输服务体系。多层次、高品质、优体验的公众出行服务系统基本建成，全链条、一体化、韧性强的交通物流服务系统加快完善，交通物流降本提质增效稳步推进，跨
 - **[每小时“吸金”近千万！宁德时代上半年净赚432亿元，研发投入处在高位，车企利润率仍承压](https://www.nbd.com.cn/articles/2026-07-24/4511648.html)** — _www.nbd.com.cn_ · published 2026-07-24
@@ -163,6 +195,8 @@ _Updated 2026-07-25 09:12 | discovery-only, zero LLM tokens | runs every 3h_
   证券时报网 朱雨蒙 2026-07-24 13:14 7月24日，为进一步规范汽车产业竞争秩序，提升汽车产品生产一致性和质量安全水平，工业和信息化部装备工业一司赴广汽埃安新能源汽车股份有限公司、肇庆小鹏新能源投资有限公司，开展道路机动车辆生产企业产品安全保障能力和生产一致性监督检查，重点检查企业的智能网联汽车安全保障能力、设计开发及生产能力、生产一致性保证能
 - **[奕境汽车董事长汪俊君：以全栈共创突围同质化竞争](https://www.zqrb.cn/auto/qichedongtai/2026-07-24/A1784880058762.html)** — _www.zqrb.cn_ · published 2026-07-24
   本报记者 李如是 近日，华为乾崑智驾ADS 5首测落地奕境汽车。当前，高阶智驾、鸿蒙座舱快速普及，搭载华为智能体系已是行业常态。在这样的竞争中，后来者靠什么建立自己的护城河？ 《证券日报》记者日前专访奕境汽车董事长汪俊君，拆解这家新品牌的突围逻辑：技术端，以全栈共创模式，从底层架构与华为同步开发，追求软硬件一体化；品牌端，以东方美学“意境”“留白”为内核，跳
+- **[竞争格局迭代叠加智能化升级 全球化竞争打开汽车产业长期增量](https://www.zqrb.cn/auto/qichedongtai/2026-07-25/A1784909288851.html)** — _www.zqrb.cn_ · published 2026-07-25
+  本报记者 马宇薇 7月21日至23日，2026中国汽车论坛在上海嘉定举办。本次论坛围绕产业高质量发展开展多维度深度研讨，凝聚形成多项关键产业共识。 中国汽车工业协会副会长兼秘书长付炳锋在论坛上提出，汽车产业想要行稳致远，必须坚守长期主义；行业各方要秉持创新思维、保持稳健发展心态，开展良性有序竞争，推动全行业回归理性发展轨道。 竞争格局深度迭代 当前，汽车行业
 
 ### 2026-07-24 — 180 articles
 - **[超17亿元入股西班牙工厂，从收购沃尔沃到共享产能，吉利汽车16年后为何再选福特？](https://36kr.com/p/3909113033119106)** — _36kr.com_ · published 2026-07-24
