@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-26 03:11 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-26 06:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-26 03:11 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **4886 unique auto/NEV articles** across **49 outlets**
+## Cumulative: **4890 unique auto/NEV articles** across **49 outlets**
 
 ## New per day
 | date | new articles |
@@ -58,7 +58,7 @@ _Updated 2026-07-26 03:11 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-23 | 167 |
 | 2026-07-24 | 180 |
 | 2026-07-25 | 68 |
-| 2026-07-26 | 11 |
+| 2026-07-26 | 15 |
 
 ## By outlet
 | outlet | articles |
@@ -75,15 +75,15 @@ _Updated 2026-07-26 03:11 | discovery-only, zero LLM tokens | runs every 3h_
 | www.cnr.cn | 124 |
 | www.cada.cn | 110 |
 | news.yiche.com | 109 |
-| www.news.cn | 96 |
+| www.news.cn | 97 |
 | m.21jingji.com | 92 |
-| www.nbd.com.cn | 89 |
+| www.nbd.com.cn | 90 |
 | www.yicai.com | 84 |
 | auto.caijing.com.cn | 58 |
 | www.zqrb.cn | 55 |
-| www.gelonghui.com | 38 |
+| www.gelonghui.com | 39 |
+| www.xinhuanet.com | 34 |
 | www.jwview.com | 34 |
-| www.xinhuanet.com | 33 |
 | finance.eastmoney.com | 29 |
 | finance.people.com.cn | 25 |
 | cn.chinadaily.com.cn | 23 |
@@ -115,7 +115,7 @@ _Updated 2026-07-26 03:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-26 — 11 articles
+### 2026-07-26 — 15 articles
 - **[奇瑞全球累计销量突破2000万辆 风云A9将作为第2000万辆车交付](https://auto.gasgoo.com/news/202607/25I70467401C110.shtml)** — _auto.gasgoo.com_ · published 2026-07-25
   盖世汽车获悉 2026年7月25日，奇瑞集团全球累计销量突破2000万辆。同日上市的风云A9将作为第2000万辆车交付用户。风云曾是奇瑞打造的首款车型及首款出海车型，现已焕新为新能源智能产品，风云A9定位为长续航智美纯电轿跑，被视作奇瑞产品与质量体系全面升级的代表。 图片来源：奇瑞汽车 回顾29年创业历程，奇瑞在20世纪90年代行业普遍质疑自主发展的环境下坚
 - **[奇瑞风云A9正式上市 售价10.99万元起](https://auto.gasgoo.com/news/202607/25I70467400C107.shtml)** — _auto.gasgoo.com_ · published 2026-07-25
@@ -137,6 +137,14 @@ _Updated 2026-07-26 03:11 | discovery-only, zero LLM tokens | runs every 3h_
   2026年7月25日，奇瑞风云A9正式上市，新车共推出3款配置，官方指导价10.99-12.99万元，限时超级置换价10.69-12.69万元。此外，官方还推出多项上市权益，包括金融礼、补能礼和流量礼等。 外观方面，奇瑞风云A9基于凌风美学设计语言打造，前脸配备玄影立体徽标以及风刃星钻大灯，视觉效果动感时尚，极具辨识度。车身侧面采用半隐藏式门把手，支持触摸和
 - **[杨紫代言！奇瑞风云A9纯电轿跑上市：10.69万元起](https://www.d1ev.com/news/qiye/308500)** — _www.d1ev.com_ · date: unknown
   快科技7月25日消息，今日晚间，奇瑞风云A9正式上市，定位为长续航智美纯电轿跑，由知名演员杨紫担任代言人。 售价方面，655km Pro版限时超级置换价为10.69万元，655km Max版为11.69万元，655km Max激光雷达版为12.69万元。车主还可享受999元购买价值3999元充电桩权益，进一步降低了用车门槛。 作为一款纯电轿跑，风云A9遵循了
+- **[德国柏林发生汽车冲撞行人事件致多人受伤](https://www.gelonghui.com/live/2572469)** — _www.gelonghui.com_ · published 2026-07-26
+  申请认证 格隆汇公众号矩阵 格隆汇App 下载格隆汇APP 诊股宝App 下载诊股宝App 汇路演App 下载汇路演APP 极调研 加入我们 首页 社区 快讯 事件 深度 主题 专栏 行情 会员 数据 财富圈 文章 更多相关文章 快讯 更多相关快讯 查看全部股票/文章/快讯/事件/用户/财富圈搜索结果 热门股票 搜索历史 清空历史 登录 / 注册 温馨提示
+- **[德国柏林发生汽车冲撞行人事件 多人受伤](https://www.nbd.com.cn/articles/2026-07-26/4512119.html)** — _www.nbd.com.cn_ · published 2026-07-26
+  每经网首页 > 首发快讯 > 正文 2026-07-26 06:09:02 每经AI快讯，当地时间7月25日晚，德国柏林蒂尔加滕公园附近发生一起汽车冲撞行人事件，造成多人受伤。 警方和救援人员已赶到现场处置。目前具体伤亡人数尚未公布，事件原因及性质仍在调查中。（央视新闻） 特别提醒：如果我们使用了您的图片，请作者与本站联系索取稿酬。如您不希望作品出现在本站，
+- **[德国柏林发生汽车冲撞行人事件致多人受伤](https://www.news.cn/20260726/fde3b91a60654f82ac23905a5fc828ca/c.html)** — _www.news.cn_ · published 2026-07-26
+  德国柏林发生汽车冲撞行人事件致多人受伤-新华网 新华网 > > 正文 2026 07 / 26 05:45:37 来源：新华网 德国柏林发生汽车冲撞行人事件致多人受伤 字体： 小 中 大 分享到： 德国柏林发生汽车冲撞行人事件致多人受伤 2026-07-26 05:45:37 来源：新华网 新华社柏林7月25日电（记者杜哲宇 褚怡）据德国警方消息，德国首都柏
+- **[德国柏林发生汽车冲撞行人事件致多人受伤](https://www.xinhuanet.com/20260726/fde3b91a60654f82ac23905a5fc828ca/c.html)** — _www.xinhuanet.com_ · published 2026-07-26
+  德国柏林发生汽车冲撞行人事件致多人受伤-新华网 新华网 > > 正文 2026 07 / 26 05:45:37 来源：新华网 德国柏林发生汽车冲撞行人事件致多人受伤 字体： 小 中 大 分享到： 德国柏林发生汽车冲撞行人事件致多人受伤 2026-07-26 05:45:37 来源：新华网 新华社柏林7月25日电（记者杜哲宇 褚怡）据德国警方消息，德国首都柏
 
 ### 2026-07-25 — 68 articles
 - **[江淮汽车，成了高端但“埋”了牛散](https://36kr.com/p/3910368326391681)** — _36kr.com_ · published 2026-07-25
