@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-25 12:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-25 15:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-25 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **4849 unique auto/NEV articles** across **49 outlets**
+## Cumulative: **4859 unique auto/NEV articles** across **49 outlets**
 
 ## New per day
 | date | new articles |
@@ -57,14 +57,14 @@ _Updated 2026-07-25 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-22 | 178 |
 | 2026-07-23 | 167 |
 | 2026-07-24 | 180 |
-| 2026-07-25 | 42 |
+| 2026-07-25 | 52 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.d1ev.com | 1189 |
+| www.d1ev.com | 1193 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 291 |
+| vc.yiche.com | 292 |
 | auto.gasgoo.com | 244 |
 | 36kr.com | 244 |
 | www.stcn.com | 200 |
@@ -72,13 +72,13 @@ _Updated 2026-07-25 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 | egs.stcn.com | 129 |
 | autodata.gasgoo.com | 127 |
 | www.cnr.cn | 123 |
-| www.cada.cn | 107 |
-| news.yiche.com | 106 |
+| www.cada.cn | 108 |
+| news.yiche.com | 107 |
 | www.news.cn | 96 |
 | m.21jingji.com | 92 |
 | www.nbd.com.cn | 89 |
-| www.yicai.com | 82 |
-| auto.caijing.com.cn | 56 |
+| www.yicai.com | 83 |
+| auto.caijing.com.cn | 58 |
 | www.zqrb.cn | 55 |
 | www.gelonghui.com | 38 |
 | www.jwview.com | 34 |
@@ -114,11 +114,15 @@ _Updated 2026-07-25 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-25 — 42 articles
+### 2026-07-25 — 52 articles
 - **[江淮汽车，成了高端但“埋”了牛散](https://36kr.com/p/3910368326391681)** — _36kr.com_ · published 2026-07-25
   江淮汽车，成了高端但“埋”了牛散 江淮，正在冰火两重天中。 6月25日，江淮汽车旗下的尊界V800和V680开启预售。在23天的时间里，两款车的预售订单便突破1万辆，其中预售价80-120万元的V800订单占比约80%。 这意味着，一款尚未公布最终售价、尚未开始交付的百万级MPV，在上市前就已经拿到了约8000辆订单。 然而，同一时间，尊界背后的江淮汽车却在
 - **[被你质疑“不行”的燃油车，又杀回来了](https://36kr.com/p/3910332145407110)** — _36kr.com_ · published 2026-07-25
   被你质疑“不行”的燃油车，又杀回来了 今年上半年，燃油车市场的表现相当有意思。 年初，国内乘用车销量前十榜单中，还有7款燃油车集体杀入，让人们觉得燃油阵营的地位稳固。其中，吉利博越L甚至以3.4万辆的月销量位列榜单第二，仅次于小米YU7，是开年燃油车的销量担当，也盖过了一众新能源车。 但随后，市场风向快速转变。 随着新能源购车刺激政策落地，电车竞争力大幅提升
+- **[岚图追光S开启预售 预售价30.99万元 定义全球首款科技FUV](https://auto.caijing.com.cn/2026/0724/5173353.shtml)** — _auto.caijing.com.cn_ · date: unknown
+  7月24日，岚图汽车在武汉举办“人生追光，许我闪耀”预售发布会，宣布旗下全新车型岚图追光S正式开启预售，预售价30.99万元。该车定位为全球首款科技FUV（Fashion、Fun、Future、Full），以超跑美学、全系标配四激光雷达智驾方案及旗舰底盘架构为核心卖点，面向年轻消费市场。发布现场，岚图追光S全球代言人杨洋亮相，并现场下订成为该车全球001号车
+- **[领克07GT预售3.5万辆背后的差异化逻辑与品牌“向宽”之路](https://auto.caijing.com.cn/2026/0724/5173272.shtml)** — _auto.caijing.com.cn_ · date: unknown
+  在国内汽车市场竞争激烈环境下，领克07GT交出24天预售订单突破3.5万辆的成绩。这款定位15-20万元插混旅行车市场的新品，为何能打破旅行车细分市场的固有难题？领克品牌在新的十年又有何战略规划？发布会后，吉利汽车集团高级副总裁、领克汽车销售公司总经理林杰携核心高管团队接受了媒体采访，直面行业热点。 领克汽车销售公司总经理林杰 07GT破局之道：赛道增长、产
 - **[2026中国汽车论坛，参会嘉宾都说了啥？](https://auto.gasgoo.com/news/202607/24I70467295C1206.shtml)** — _auto.gasgoo.com_ · date: unknown
 - **[车芯协同，聚力致远](https://auto.gasgoo.com/news/202607/23I70467073C108.shtml)** — _auto.gasgoo.com_ · published 2026-07-15
   2026年7月15日下午，由中国汽车工业协会（中汽协）主办、扬杰科技承办的“车芯协同，聚力致远 | 中国汽车出海供应链风险研讨会”在扬州成功举办。中汽协副秘书长李邵华莅临指导，扬杰科技CEO陈润生，副总裁徐小兵、王金雄携核心团队出席会议。 图片来源：扬杰科技 会议现场大咖云集，一汽、东风、长安、上汽、广汽、奇瑞等十五家车企领导，国内外头部Tier1零部件企业
@@ -129,6 +133,8 @@ _Updated 2026-07-25 12:12 | discovery-only, zero LLM tokens | runs every 3h_
   财经观察 “中国制造”何以驰骋海外？ 点击播报本文，约 热浪席卷欧洲，中国空调“一机难求”；新能源重型商用车“组团”出海，订单量屡创新高；机电产品出口持续“爆单”，连续十几个月创新高…… 一系列亮眼外贸图景勾勒出上半年进出口向好态势，最新发布的数据更印证了“中国制造”的强劲动能：上半年，我国货物进出口总额同比增长16.9%。 历经数十年改革开放深耕，“中国制
 - **[广汽丰田铂智7推电池事故起火厂家兜底政策 三电终身质保](https://news.yiche.com/zonghexinwen/20260724/21111738168.html)** — _news.yiche.com_ · date: unknown
   推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 7月24日，广汽丰田在铂智7用户大会上重磅推出”电池事故起火厂家全担责“政策：只要不是外部火源蔓延造成，无论品质原因、底盘剐蹭或交通事故碰撞引发的电池事故起火，均由广汽丰田厂家直接赔付。这是行业内首
+- **[吉利星越L第100万辆整车正式下线 里程碑时刻](https://news.yiche.com/zonghexinwen/20260725/14111756371.html)** — _news.yiche.com_ · date: unknown
+  推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 7月25日，吉利汽车官方宣布，星越L第100万辆整车在吉利西安黑灯工厂正式下线，车型累计总销量突破 100万台。4月，吉利星越L i-HEV智擎混动上市，售价区间14.57-15.97万元。 吉利星
 - **[川西实测第5代帝豪，1.5L混动体验如何？首选哪个配置？](https://vc.yiche.com/vplay/12229989.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 6.29-9.79万 别盯着998了！吉利帝豪i-HEV 2L油耗7.89万起 汽车大事记 第五代帝豪i-HEV智擎混动：油耗2.22L？省油的核心不是减法，是技术加法 睛
 - **[比亚迪大汉续航申报曝光 纯电最大1008公里？](https://vc.yiche.com/vplay/12252228.html)** — _vc.yiche.com_ · date: unknown
@@ -149,6 +155,9 @@ _Updated 2026-07-25 12:12 | discovery-only, zero LLM tokens | runs every 3h_
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 探店体验2027款星海V9，奶爸告诉你这样买准没错 快上车Go 最时髦的方盒子？抢先体验吉利银河战舰700！ AutoLab 百万级质感硬核SUV 银河战舰700
 - **[东风日产辛宇：从赛道到街道日产新能源的技术和车型被消费者认可](https://vc.yiche.com/vplay/12298127.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 15.99-20.99万 试驾瑞虎9 到奇瑞店免费领《四渡》热播电影票 娟子说车V 总裁您的专属座驾！奔驰V300L维努斯晖凰，商务接待家庭出行兼得 青岛美德房车汇 合资终
+- **[神行者8内饰发布：奇瑞+路虎+华为，这组合能打吗？](https://vc.yiche.com/vplay/12299142.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 奇瑞造皮卡有什么独到之处？威麟R08 PRO还挺出乎意料的 潮畔汽车 车机不该继续学手机？神行者8告诉你为什么 蕾哥玩车 路虎设计的奇瑞？神行者8静态体验 25度考
+- **[后市场精品服务分会](https://www.cada.cn/committee/info_27_6767.html)** — _www.cada.cn_ · date: unknown
 - **[扩大汽车全链条消费](https://www.cnr.cn/2013qcpd/2015xc/20260725/t20260725_527728480.shtml)** — _www.cnr.cn_ · published 2026-07-25
   围绕汽车使用形成的后市场，是一个万亿级产业。据国际专业机构的报告，全球汽车后市场规模已经突破1万亿美元，预计今年亚太地区将成为全球最大的区域市场。中国乘用车平均车龄7年以上的占比突破50%，将迎来汽车后市场快速增长期。 当前，有关部门正不断完善配套措施，并与汽车流通消费改革试点工作协同发力，做大做优汽车后市场服务供给，满足百姓多样化、品质化消费需求，让汽车后
 - **[填补行业空白 21家车企联手制定“静谧标尺”](https://www.cnr.cn/2013qcpd/2015xc/20260725/t20260725_527728479.shtml)** — _www.cnr.cn_ · published 2026-07-25
@@ -187,12 +196,22 @@ _Updated 2026-07-25 12:12 | discovery-only, zero LLM tokens | runs every 3h_
   快科技7月25日消息，北京现代艾尼氪V将于9月正式上市，新车基于E-GMP纯电平台打造，搭载智趣数字座舱，并提供纯电和增程双动力可选。 外观方面，艾尼氪V由现代中国设计中心主导，采用低趴楔形车身及溜背式轿跑造型。 封闭式前脸搭配细长LED灯带，侧面采用无框式车门设计，配备半隐藏式门把手及V型空气动力学轮毂。尾部采用次元光刃灯组与星轨贯穿式尾灯组合。 尺寸方面
 - **[奥迪A2E-Tron纯电小车曝光：尺寸最小，今秋发布 - 第一电动网](https://www.d1ev.com/newsflash/308462)** — _www.d1ev.com_ · date: unknown
   7月25日，汽车媒体AutoCar发布博文，分享了一组奥迪A2E-tron的路测图。这款新车定位为入门级纯电动车型，计划在A1和Q2退役后承接其细分市场定位。奥迪A2E-tron将成为奥迪在售车型中尺寸最小的一款，定位介于A3掀背车与Q2跨界车之间。外观上，新车整体轮廓接近缩小版Q4E-tron，同时吸收老款A2的圆润设计特征。由于该车并非直接替代现有单一车
+- **[大众纯电小车销量超7万！挑战雷诺5，迎战中国品牌](https://www.d1ev.com/newsflash/308478)** — _www.d1ev.com_ · date: unknown
+  7月24日，大众集团宣布其新一批纯电小车开局超出预期，其中大众ID.Polo、斯柯达Epiq和CUPRA Roval等入门级车型已获得超过70000份订单。大众ID.Polo获得约25000份订单，其余订单来自斯柯达Epiq和CUPRA Roval。此外，大众ID.Cross也在欧洲上市，预计订单量将随着交付展开进一步提升。 这四款车虽然外形不同，但机械基础
+- **[哈啰智能电动车搭载鸿蒙系统亮相内蒙古“十六运”](https://www.d1ev.com/newsflash/308476)** — _www.d1ev.com_ · date: unknown
+  7月25日，为助力内蒙古“十六运”氛围营造及保障赛事期间市民安全绿色出行，上海哈啰普惠科技有限公司在包头市投放了1000辆哈啰智能电动车。这些电动车是哈啰全国首款搭载OpenHarmony系统的新型电动车，具备显示屏功能，将随时刊播“十六运”的宣传海报。 这款电动车搭载了全新升级的5英寸鸿蒙高清交互智慧屏幕，内置完整高德地图，并配备高精定位系统。在骑行过程中
+- **[吉利星越L销量破百万，中国品牌高端SUV新纪录诞生](https://www.d1ev.com/newsflash/308473)** — _www.d1ev.com_ · date: unknown
+  7月25日，吉利汽车宣布旗下高端燃油SUV星越L总销量突破100万台，成为首个达到这一里程碑的中国品牌高端燃油SUV。吉利官方透露，第100万辆星越L于今日在西安黑灯工厂下线，并举行了相应的下线仪式。 吉利星越Li-HEV智擎混动车型延续了在售车型的整体设计，采用东方美学设计理念。车辆配置方面，星越Li-HEV配备了25.6英寸HUD、12.3英寸液晶仪表以
+- **[日本汽车壁垒开始松动！中国汽车巨头比亚迪进军车市](https://www.d1ev.com/news/qiye/308470)** — _www.d1ev.com_ · date: unknown
+  快科技7月25日消息，据报道，日本全国微型车协会联合会会长赤间俊一日前接受采访时表示，欢迎中国汽车巨头比亚迪进入日本微型车市场，并称“这是对微型车未来前景的认可，令人欣喜”。 赤间俊一表示，虽然对日本车企来说比亚迪会成为竞争对手，但还是希望共同带动行业发展。 比亚迪将于28日发售纯电微型车“RACCO”（海獭），定价预计在250万至300万日元之间（约合人民
 - **[这份“十五五”规划明确了！2030年机场高铁站随手租车，自动驾驶重塑物流效率](https://www.nbd.com.cn/articles/2026-07-24/4511672.html)** — _www.nbd.com.cn_ · published 2026-07-24
   2026-07-24 23:46:56 每经记者｜张蕊 每经编辑｜黄胜 7月24日，交通运输部等四部门联合印发《综合运输服务发展“十五五”规划》（以下简称《规划》）。 《规划》明确，到2030年，基本建成现代化综合运输服务体系。多层次、高品质、优体验的公众出行服务系统基本建成，全链条、一体化、韧性强的交通物流服务系统加快完善，交通物流降本提质增效稳步推进，跨
 - **[每小时“吸金”近千万！宁德时代上半年净赚432亿元，研发投入处在高位，车企利润率仍承压](https://www.nbd.com.cn/articles/2026-07-24/4511648.html)** — _www.nbd.com.cn_ · published 2026-07-24
   2026-07-24 23:14:25 每经记者｜黄辛旭 每经编辑｜裴健如 在汽车行业利润率创下近十年新低的同时，宁德时代交出了亮眼的半年度成绩单。 7月24日晚间，宁德时代(300750.SZ)披露的最新数据显示，2026年上半年，该公司归属于上市公司股东的净利润为432.84亿元，同比增长41.98%。照此计算，宁德时代上半年日赚约2.39亿元，平均每小
 - **[进一步规范产业竞争秩序 工信部赴两家车企开展监督检查](https://www.stcn.com/article/detail/4041134.html)** — _www.stcn.com_ · published 2026-07-24
   证券时报网 朱雨蒙 2026-07-24 13:14 7月24日，为进一步规范汽车产业竞争秩序，提升汽车产品生产一致性和质量安全水平，工业和信息化部装备工业一司赴广汽埃安新能源汽车股份有限公司、肇庆小鹏新能源投资有限公司，开展道路机动车辆生产企业产品安全保障能力和生产一致性监督检查，重点检查企业的智能网联汽车安全保障能力、设计开发及生产能力、生产一致性保证能
+- **[稳市信号密集释放；美国关税再“续命”](https://www.yicai.com/news/103292034.html)** — _www.yicai.com_ · date: unknown
+  {{aisd}} AI生成 免责声明 稳市信号密集释放 从上周开始，A股经历一波明显下跌。监管部门、国资平台、上市公司、金融机构等多方协同发力，呵护A股基本盘。 国资“国家队”率先大手笔入手。19日晚间，中国国新宣布使用股票回购增持专项再贷款及配套资金超500亿元增持央企股票，中国诚通宣布完成近百亿元增持，传递“国家队”出手稳定市场的明确信号。 随后，多家央
 - **[奕境汽车董事长汪俊君：以全栈共创突围同质化竞争](https://www.zqrb.cn/auto/qichedongtai/2026-07-24/A1784880058762.html)** — _www.zqrb.cn_ · published 2026-07-24
   本报记者 李如是 近日，华为乾崑智驾ADS 5首测落地奕境汽车。当前，高阶智驾、鸿蒙座舱快速普及，搭载华为智能体系已是行业常态。在这样的竞争中，后来者靠什么建立自己的护城河？ 《证券日报》记者日前专访奕境汽车董事长汪俊君，拆解这家新品牌的突围逻辑：技术端，以全栈共创模式，从底层架构与华为同步开发，追求软硬件一体化；品牌端，以东方美学“意境”“留白”为内核，跳
 - **[竞争格局迭代叠加智能化升级 全球化竞争打开汽车产业长期增量](https://www.zqrb.cn/auto/qichedongtai/2026-07-25/A1784909288851.html)** — _www.zqrb.cn_ · published 2026-07-25
