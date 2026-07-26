@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-26 09:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-26 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-26 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **4906 unique auto/NEV articles** across **49 outlets**
+## Cumulative: **4925 unique auto/NEV articles** across **49 outlets**
 
 ## New per day
 | date | new articles |
@@ -58,23 +58,23 @@ _Updated 2026-07-26 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-23 | 167 |
 | 2026-07-24 | 180 |
 | 2026-07-25 | 68 |
-| 2026-07-26 | 31 |
+| 2026-07-26 | 50 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.d1ev.com | 1207 |
+| www.d1ev.com | 1210 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 308 |
+| vc.yiche.com | 313 |
 | auto.gasgoo.com | 246 |
 | 36kr.com | 244 |
-| www.stcn.com | 200 |
+| www.stcn.com | 201 |
 | www.caam.org.cn | 193 |
-| egs.stcn.com | 129 |
+| egs.stcn.com | 130 |
+| www.cnr.cn | 128 |
 | autodata.gasgoo.com | 127 |
-| www.cnr.cn | 124 |
+| news.yiche.com | 111 |
 | www.cada.cn | 110 |
-| news.yiche.com | 109 |
 | www.news.cn | 98 |
 | m.21jingji.com | 92 |
 | www.nbd.com.cn | 91 |
@@ -84,10 +84,10 @@ _Updated 2026-07-26 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 | www.gelonghui.com | 39 |
 | www.xinhuanet.com | 35 |
 | www.jwview.com | 34 |
-| finance.eastmoney.com | 29 |
+| finance.eastmoney.com | 31 |
 | finance.people.com.cn | 25 |
+| www.chinanews.com.cn | 23 |
 | cn.chinadaily.com.cn | 23 |
-| www.chinanews.com.cn | 22 |
 | qzs.stcn.com | 17 |
 | m.ce.cn | 17 |
 | www.ceweekly.cn | 16 |
@@ -115,11 +115,20 @@ _Updated 2026-07-26 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-26 — 31 articles
+### 2026-07-26 — 50 articles
 - **[奇瑞全球累计销量突破2000万辆 风云A9将作为第2000万辆车交付](https://auto.gasgoo.com/news/202607/25I70467401C110.shtml)** — _auto.gasgoo.com_ · published 2026-07-25
   盖世汽车获悉 2026年7月25日，奇瑞集团全球累计销量突破2000万辆。同日上市的风云A9将作为第2000万辆车交付用户。风云曾是奇瑞打造的首款车型及首款出海车型，现已焕新为新能源智能产品，风云A9定位为长续航智美纯电轿跑，被视作奇瑞产品与质量体系全面升级的代表。 图片来源：奇瑞汽车 回顾29年创业历程，奇瑞在20世纪90年代行业普遍质疑自主发展的环境下坚
 - **[奇瑞风云A9正式上市 售价10.99万元起](https://auto.gasgoo.com/news/202607/25I70467400C107.shtml)** — _auto.gasgoo.com_ · published 2026-07-25
   2026年7月25日，奇瑞汽车旗下风云序列首款纯电轿跑——风云A9正式上市。新车共推出3款配置车型，官方指导价为10.99万至12.99万元，叠加限时置换补贴后入手价为10.69万至12.69万元。 图片来源：奇瑞汽车直播截图 风云A9定位“长续航智美纯电轿跑”，采用奇瑞全新“凌风美学”设计语言，前脸为封闭式新能源设计搭配分体矩阵大灯。该设计此前已斩获202
+- **[【e公司观察】新能源汽车供应链权责体系有待进一步厘清](https://egs.stcn.com/news/detail/2319860.html)** — _egs.stcn.com_ · date: unknown
+  近期，搭载中创新航177Ah磷酸铁锂电池的广汽埃安AION S车型出现批量电池故障。车辆行驶至特定里程区间后，集中出现电芯大面积鼓包、电解液泄漏、高压绝缘失效等问题，多辆网约车在高速行驶和载客途中突然断电，安全隐患不容忽视。 广汽埃安火速发布公开致歉公告，同步推出质保升级、营运误工补贴等全套兜底方案。中创新航的公告措辞则相对模糊。截至目前，双方均未公布电池故
+- **[奇瑞汽车累计销量突破2000万辆 出口占比超三分之一](https://finance.eastmoney.com/a/202607253821162722.html)** — _finance.eastmoney.com_ · date: unknown
+  奇瑞汽车累计销量突破2000万辆 出口占比超三分之一 中新社合肥7月25日电 (记者张俊)奇瑞控股集团有限公司(以下简称“奇瑞”)25日披露，其累计汽车销量突破2000万辆，其中出口近700万辆，占比超三分之一。 今年上半年，奇瑞累计出口汽车94.38万辆，同比增长71.5%，连续4个月刷新中国车企单月出口纪录。奇瑞在欧洲市场表现亮眼，出口汽车17.4万辆，
+- **[金改前沿｜“可选项”变“必选项”，汽车产业变革呼唤保险战略协同 _ 东方财富网](https://finance.eastmoney.com/a/202607253821161065.html)** — _finance.eastmoney.com_ · date: unknown
+  新华财经上海7月25日电（记者王淑娟）年产销3400万辆、年出口冲刺千万辆……中国汽车产业正以前所未有的速度改写全球格局。在这场产业叙事中，保险正在被推到变革的核心位置。从智能驾驶到车企出海的全链条风险保障，保险与汽车的深度融合已从“可选项”变为“必选项”。 变革加速，新风险催生保障需求 2026年上半年，我国汽车产销量达到1501.7万辆，其中新能源汽车销
+- **[奕境X9将于8月开启预售 8月21日成都车展正式交付](https://news.yiche.com/xinchexiaoxi/20260726/11111776845.html)** — _news.yiche.com_ · date: unknown
+  推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 7月25日，奕境汽车品牌总经理曾清林在社交媒体上宣布，奕境汽车首款车型奕境X9将于8月开启预售。据了解，奕境X9首台量产车已于7月20日下线，该车将于8月21日成都车展上亮相并开启交付。 奕境X9首
+- **[7月狭义乘用车零售预计152万辆](https://news.yiche.com/xiaoliangshuju/20260726/09111773889.html)** — _news.yiche.com_ · date: unknown
 - **[小鹏MONA L03全维度解析，9款车型别乱下单，看完少花冤枉钱](https://vc.yiche.com/vplay/12300213.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 12.38-15.68万 只比轿车贵四千！小鹏MONA L03卖12.38万起 智电出行 15秒看完，小鹏MONA L03隐藏的小彩蛋 | KenTV 吴佩频道 近乎满分！
 - **[2030海南禁售燃油车，下一个会是谁？](https://vc.yiche.com/vplay/12231949.html)** — _vc.yiche.com_ · date: unknown
@@ -140,9 +149,29 @@ _Updated 2026-07-26 09:12 | discovery-only, zero LLM tokens | runs every 3h_
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 17.39-21.99万 通勤自驾全适配，别克至境L7纯电海南自驾实测，戳中自驾党心坎 胖川侃车 更安全的800V？晴报局绝密档案：代号“奥特能”，即刻破译！ 晴了个车车
 - **[吉利银河战舰700静态体验](https://vc.yiche.com/vplay/12301410.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 全球仅5台！开箱价值一个小目标的帕加尼Zonda R超跑提车vlog 微光海边停车少女 银河战舰700，吉利可不只是想玩玩而已 闪电花总 实拍22款奔驰gls450
+- **[质说新车：掀起纯电长续航平权革命 吉利博越REV](https://vc.yiche.com/vplay/12305176.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 11.39-12.69万 能装下你所有情绪，给你底气的生活搭档！吉利博越REV，续航拉满，全维进阶！ CarLife 腾势Z9GT欧洲卖90万元？新款升级到底有多全面？ 佳
+- **[圆梦！奇瑞风云A9上市，就是我的理想dream car](https://vc.yiche.com/vplay/12305043.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 圆梦时刻！小叔喜提人生首辆摩托车，坦言若无女婿鼎力帮衬 jiayieric 华为智驾+三电机3.7秒破百！阿维塔07L有多香？ 客代表AUTO 热销见担当！全新腾势
+- **[10万级家用纯电SUV 舒适配置与续航补强 零跑B10能不能闭眼冲？](https://vc.yiche.com/vplay/12291757.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 9.98-14.98万 800V+激光雷达下放10万级，零跑B01和B10两款车该怎么选？ 嘻哈车 有人尾门关不上，岚图泰山X8直接全网直播展示上交叉轴！ 聊车的赓哥1米9
+- **[月销超8千台 增程与纯电双向选择 零跑D19凭啥能当销冠？](https://vc.yiche.com/vplay/12291491.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 21.98-26.98万 勇闯老城区，实测零跑D19驾驶辅助是夯是拉？ AL频道 21.98万起全系四驱，零跑D19为何在5月摘得桂冠？ 汤圆猫020515 零跑D19白车
+- **[新车报告！风云A9优缺点点评，他能成为奇瑞下一个爆款吗？](https://vc.yiche.com/vplay/12304490.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 10.99-12.99万 真新能源皮卡来了！14.98万元起！长城炮Hi4-T重磅预售 EC汽车 拆椅见真章！星途ET5家用智驾优选 车大拿TV 半价Model 3？风云A
 - **[商务部等8部门办公厅关于印发《2026年汽车以旧换新补贴实施细则》的通知](https://www.cada.cn/Trends/info_90_10415.html)** — _www.cada.cn_ · date: unknown
+- **[加速“绿色出海” 我国乘用车首次实现碳足迹全覆盖](https://www.chinanews.com.cn/cj/2026/07-26/10666639.shtml)** — _www.chinanews.com.cn_ · published 2026-07-26
+  加速“绿色出海” 我国乘用车首次实现碳足迹全覆盖 记者昨天(25日)从中国汽车技术研究中心获悉，我国乘用车首次实现碳足迹全覆盖。 中国汽车产业链碳公示平台最新数据显示，截至2026年7月，这一平台已收集全国92家乘用车企业12100余款车型碳足迹数据，全面覆盖国内全系乘用车型与主流进口车型。专家表示，这标志着我国汽车产业碳数据管理体系迈向规模化、体系化新阶段
 - **[“村T”开场！农牧民秀出乡村文化新风采](https://www.cnr.cn/xjfw/gstjxj/20260726/t20260726_527729655.shtml)** — _www.cnr.cn_ · published 2026-07-26
   央广网阿克苏7月26日消息（记者丁安 通讯员李银琼）近日，一场别开生面的我们的“村T”农牧民模特大赛在新疆库车市乌恰镇甬库振兴村开展。各族群众身着各色服饰走上乡村T台，用自信与笑容走出新时代农牧民的风采，奏响乡村文化振兴的动人乐章。 活动现场 （央广网发 李银琼 摄） 比赛现场，由各村农牧民群众代表、返乡学生等群体组成的参赛队伍依次登台，国风汉服秀衣袂翩翩，
+- **[卖新车捆绑指定车险，这个“行业习惯”合法吗？](https://www.cnr.cn/2013qcpd/2015xc/20260726/t20260726_527730101.shtml)** — _www.cnr.cn_ · published 2026-07-26
+  本报讯（记者 王英鸽 通讯员 杨祎钒 胡明东 蒋映含）好不容易选到心仪的车，却被告知提车前需购买指定车险，否则无法提车，还要支付违约金。近日，上海市金山区人民法院审结了一起买卖合同纠纷案，最终经法院调解，双方协商一致解除合同，某汽车销售公司退还购车款项。 2025年2月，陈女士在上海某汽车销售公司订购了一辆新车，支付20000元定金并签订了《代销合同》，合同
+- **[电池消费税调整，拉开汽车行业“油电”同权大幕](https://www.cnr.cn/2013qcpd/2015xc/20260726/t20260726_527730100.shtml)** — _www.cnr.cn_ · published 2026-07-26
+  随着新能源汽车渗透率提升至50%左右，行业内关于“油电同权”的呼声越来越高。反映在政策层面，从购置税减半，到车船税免征取消，再到电池消费税恢复征收，新能源汽车的税收优惠“保护期”正在分阶段、有节奏地退出。 近日，财政部、海关总署、税务总局联合发布《关于调整部分电池消费税政策的公告》（以下简称“公告”），自2026年9月1日起，对锂离子蓄电池等成熟电池产品按照
+- **[电动汽车不是快消品](https://www.cnr.cn/2013qcpd/2015xc/20260726/t20260726_527730099.shtml)** — _www.cnr.cn_ · published 2026-07-26
+  “传统燃油车平均车龄高达8.2年，超六成车辆服役超过7年；而新能源车平均车龄仅1.8年——比很多人的换手机周期都短。”日前，有媒体援引某报告数据、称车主“把电车当手机换”的解读，引发争议。 中汽协后市场分会随后声明，上述报道是引用《2025中国汽车后市场年度发展报告》中部分数据发布的，但报道推导得出的结论失真，属于统计概念误用。“整体存量新能源乘用车平均车龄
+- **[刚提新车就连闯5个红灯，当事人：以为临牌不会被查，交警：罚款750元、驾驶证记30分](https://www.cnr.cn/newscenter/native/gd/20260726/t20260726_527730198.shtml)** — _www.cnr.cn_ · published 2026-07-26
+  新车上路，挂临牌本是合法过渡期，可有人却把它当成了交通违法的“掩护”。近日，浙江省宁波市奉化区一名驾驶人因轻信“临牌不会被查”的谣言，在夜间接连闯下5个红灯，最终被奉化交管大队依法查处。 事情发生在奉化江口街道，奉化交管大队江口中队民警在视频巡查中发现，一辆未悬挂正式号牌的灰色轿车行驶轨迹异常，在多个路口对红灯视若无睹，径直加速通过。监控画面显示，该车在夜色
 - **[奇瑞全球累计销量突破2000万辆 风云A9将作为第2000万辆车交付](https://www.d1ev.com/news/shichang/308505)** — _www.d1ev.com_ · published 2026-07-25
   盖世汽车获悉 2026年7月25日，奇瑞集团全球累计销量突破2000万辆。同日上市的风云A9将作为第2000万辆车交付用户。风云曾是奇瑞打造的首款车型及首款出海车型，现已焕新为新能源智能产品，风云A9定位为长续航智美纯电轿跑，被视作奇瑞产品与质量体系全面升级的代表。 图片来源：奇瑞汽车 回顾29年创业历程，奇瑞在20世纪90年代行业普遍质疑自主发展的环境下坚
 - **[奇瑞风云A9正式上市 售价10.99万元起](https://www.d1ev.com/news/shichang/308503)** — _www.d1ev.com_ · published 2026-07-25
@@ -161,6 +190,12 @@ _Updated 2026-07-26 09:12 | discovery-only, zero LLM tokens | runs every 3h_
   7月25日，奇瑞汽车宣布旗下全新车型风云A9正式上市，推出三款车型，限时超级置换价区间为10.69-12.69万元。为庆祝全球累计销量突破2000万，奇瑞集团推出多项优惠政策，包括限时免费赠送运动套件、高定车漆、副驾零重力悠然座椅等权益，以及动力 电池安全兜底、辅助驾驶兜底、整车终身质保和终身保养套餐。此外，还提供金融礼、补能礼和流量礼等多重优惠。 奇瑞风云
 - **[特斯拉Robotaxi服务或将登陆南美，自动驾驶网约车全球扩张加速](https://www.d1ev.com/newsflash/308508)** — _www.d1ev.com_ · date: unknown
   近日，特斯拉在南美洲的招聘信息透露出其 自动驾驶出租车服务Robotaxi可能即将扩展至国际市场。特斯拉正在哥伦比亚和智利招聘AI安全运营专员，这些岗位将负责监督自动驾驶网约车网络的日常运营，并进行动态数据采集。具体而言，特斯拉在哥伦比亚的波哥大和麦德林埃尔波夫拉多以及智利的圣地亚哥拉斯孔德斯招聘全职工程岗位，职责包括驾驶工程测试车辆采集数据、撰写驾驶报告以
+- **[Waymo自动驾驶事故率低于人类68%，安全性能获权威验证](https://www.d1ev.com/newsflash/308524)** — _www.d1ev.com_ · date: unknown
+  7月26日，美国公路安全保险协会（IIHS）发布研究显示，Waymo 自动驾驶出租车事故率比人类驾驶员低68%，事故严重程度也更低。研究分析了2021至2024年美国联邦政府的自动驾驶出租车事故报告数据，主要聚焦于Waymo。Waymo已在美国11座城市提供服务，累计完成数千万次载客服务。研究期间约5000万英里的自动驾驶行驶里程中，Waymo事故数量比人类
+- **[极氪汽车境外自驾游遇锁车难题，紧急推出“跨境守护”功能](https://www.d1ev.com/newsflash/308520)** — _www.d1ev.com_ · date: unknown
+  近日，极氪汽车针对境外自驾游用户遇到的车机功能受限问题发布官方说明。用户在境外长途自驾游时，因车辆安全保护机制被触发，导致车机部分功能受限，影响了旅途体验。极氪汽车已为该用户解决问题，并建立了专项保障沟通通道，确保全程响应无延迟。 极氪汽车紧急联动车机、数字化及售后服务保障团队，对出境车辆安全守护策略做出调整。首先，极氪APP上线了“跨境守护”快速解锁入口，
+- **[Waymo自动驾驶事故率低68%！安全性能远超人类驾驶员](https://www.d1ev.com/newsflash/308516)** — _www.d1ev.com_ · date: unknown
+  7月26日，美国公路安全保险协会（IIHS）发布最新研究，对Waymo 自动驾驶出租车的安全性进行了系统性分析。研究覆盖了2021年至2024年间Waymo在凤凰城、旧金山、洛杉矶和奥斯汀四个城市的联邦事故报告数据，涉及约5000万英里的 无人驾驶行驶里程。结果显示，Waymo的事故率比人类驾驶员低68%，且事故严重程度更低。每百万英里人类驾驶员发生事故4.
 - **[德国柏林发生汽车冲撞行人事件致多人受伤](https://www.gelonghui.com/live/2572469)** — _www.gelonghui.com_ · published 2026-07-26
   申请认证 格隆汇公众号矩阵 格隆汇App 下载格隆汇APP 诊股宝App 下载诊股宝App 汇路演App 下载汇路演APP 极调研 加入我们 首页 社区 快讯 事件 深度 主题 专栏 行情 会员 数据 财富圈 文章 更多相关文章 快讯 更多相关快讯 查看全部股票/文章/快讯/事件/用户/财富圈搜索结果 热门股票 搜索历史 清空历史 登录 / 注册 温馨提示
 - **[德国柏林发生汽车冲撞行人事件 多人受伤](https://www.nbd.com.cn/articles/2026-07-26/4512119.html)** — _www.nbd.com.cn_ · published 2026-07-26
@@ -171,6 +206,8 @@ _Updated 2026-07-26 09:12 | discovery-only, zero LLM tokens | runs every 3h_
   德国柏林发生汽车冲撞行人事件致多人受伤-新华网 新华网 > > 正文 2026 07 / 26 05:45:37 来源：新华网 德国柏林发生汽车冲撞行人事件致多人受伤 字体： 小 中 大 分享到： 德国柏林发生汽车冲撞行人事件致多人受伤 2026-07-26 05:45:37 来源：新华网 新华社柏林7月25日电（记者杜哲宇 褚怡）据德国警方消息，德国首都柏
 - **[柏林发生汽车撞人事件致1死14伤](https://www.news.cn/20260726/9f12e8136274406fa7cb06236031c99b/c.html)** — _www.news.cn_ · published 2026-07-26
   新华社柏林7月25日电（记者杜哲宇 车云龙）德国柏林警方25日说，柏林市中心当晚发生一起汽车冲撞行人事件，造成至少1人死亡、14人受伤，其中多人伤势严重。 柏林警方在社交媒体上说，据初步判断，一辆汽车在蒂尔加滕公园附近撞倒多人。目前伤者正在接受救治。警方正全力搜捕嫌疑人。 据德国《图片报》报道，事故发生在当天22时左右。一名男子从肇事车辆出来后徒步逃离现场。
+- **[【e公司观察】新能源汽车供应链权责体系有待进一步厘清](https://www.stcn.com/article/detail/4041602.html)** — _www.stcn.com_ · date: unknown
+  近期，搭载中创新航177Ah磷酸铁锂电池的广汽埃安AION S车型出现批量电池故障。车辆行驶至特定里程区间后，集中出现电芯大面积鼓包、电解液泄漏、高压绝缘失效等问题，多辆网约车在高速行驶和载客途中突然断电，安全隐患不容忽视。 广汽埃安火速发布公开致歉公告，同步推出质保升级、营运误工补贴等全套兜底方案。中创新航的公告措辞则相对模糊。截至目前，双方均未公布电池故
 - **[德国柏林发生汽车冲撞行人事件致多人受伤](https://www.xinhuanet.com/20260726/fde3b91a60654f82ac23905a5fc828ca/c.html)** — _www.xinhuanet.com_ · published 2026-07-26
   德国柏林发生汽车冲撞行人事件致多人受伤-新华网 新华网 > > 正文 2026 07 / 26 05:45:37 来源：新华网 德国柏林发生汽车冲撞行人事件致多人受伤 字体： 小 中 大 分享到： 德国柏林发生汽车冲撞行人事件致多人受伤 2026-07-26 05:45:37 来源：新华网 新华社柏林7月25日电（记者杜哲宇 褚怡）据德国警方消息，德国首都柏
 - **[柏林发生汽车撞人事件致1死14伤](https://www.xinhuanet.com/20260726/9f12e8136274406fa7cb06236031c99b/c.html)** — _www.xinhuanet.com_ · published 2026-07-26
