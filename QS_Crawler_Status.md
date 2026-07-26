@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-26 15:13 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-26 18:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-26 15:13 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **4931 unique auto/NEV articles** across **49 outlets**
+## Cumulative: **4938 unique auto/NEV articles** across **49 outlets**
 
 ## New per day
 | date | new articles |
@@ -58,14 +58,14 @@ _Updated 2026-07-26 15:13 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-23 | 167 |
 | 2026-07-24 | 180 |
 | 2026-07-25 | 68 |
-| 2026-07-26 | 56 |
+| 2026-07-26 | 63 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.d1ev.com | 1210 |
+| www.d1ev.com | 1215 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 313 |
+| vc.yiche.com | 314 |
 | auto.gasgoo.com | 246 |
 | 36kr.com | 244 |
 | www.stcn.com | 202 |
@@ -73,7 +73,7 @@ _Updated 2026-07-26 15:13 | discovery-only, zero LLM tokens | runs every 3h_
 | egs.stcn.com | 130 |
 | www.cnr.cn | 128 |
 | autodata.gasgoo.com | 127 |
-| news.yiche.com | 111 |
+| news.yiche.com | 112 |
 | www.cada.cn | 110 |
 | www.news.cn | 98 |
 | www.nbd.com.cn | 92 |
@@ -115,7 +115,7 @@ _Updated 2026-07-26 15:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-26 — 56 articles
+### 2026-07-26 — 63 articles
 - **[奇瑞风云A9正式上市：全系标配70kWh电池与激光雷达智驾，定价锁定15万元以内](https://auto.caijing.com.cn/2026/0725/5173453.shtml)** — _auto.caijing.com.cn_ · date: unknown
   7月25日，奇瑞风云序列全新纯电轿跑，风云A9正式上市。新车全系指导价均设定在15万元以内，以“长续航智美纯电轿跑”定位，将70kWh大容量电池、含激光雷达的高阶驾驶辅助、23扬声器音响及零重力座椅等配置列为标配，用一次到位的方式回应了年轻用户对纯电轿跑“不将就”的需求。 风云A9此次推出的车型版本，全系无差别搭载5项同级独有与4项同级领先配置，直接从续航、
 - **[奇瑞全球累计销量突破2000万辆 风云A9将作为第2000万辆车交付](https://auto.gasgoo.com/news/202607/25I70467401C110.shtml)** — _auto.gasgoo.com_ · published 2026-07-25
@@ -131,6 +131,8 @@ _Updated 2026-07-26 15:13 | discovery-only, zero LLM tokens | runs every 3h_
 - **[奕境X9将于8月开启预售 8月21日成都车展正式交付](https://news.yiche.com/xinchexiaoxi/20260726/11111776845.html)** — _news.yiche.com_ · date: unknown
   推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 7月25日，奕境汽车品牌总经理曾清林在社交媒体上宣布，奕境汽车首款车型奕境X9将于8月开启预售。据了解，奕境X9首台量产车已于7月20日下线，该车将于8月21日成都车展上亮相并开启交付。 奕境X9首
 - **[7月狭义乘用车零售预计152万辆](https://news.yiche.com/xiaoliangshuju/20260726/09111773889.html)** — _news.yiche.com_ · date: unknown
+- **[奇瑞风云T7即将开启小订 搭载犀牛电池/续航600km](https://news.yiche.com/xinchexiaoxi/20260726/15111782979.html)** — _news.yiche.com_ · date: unknown
+  推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 7月26日，奇瑞汽车宣布风云T7国内小订即将开启。风云T7采用家族话设计语言，轴距2700mm。值得一提的是该车将搭载犀牛电池，包含三项“兜底”承诺，分别为全系满足最新国家标准、动力电池安全承诺以及
 - **[小鹏MONA L03全维度解析，9款车型别乱下单，看完少花冤枉钱](https://vc.yiche.com/vplay/12300213.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 12.38-15.68万 只比轿车贵四千！小鹏MONA L03卖12.38万起 智电出行 15秒看完，小鹏MONA L03隐藏的小彩蛋 | KenTV 吴佩频道 近乎满分！
 - **[2030海南禁售燃油车，下一个会是谁？](https://vc.yiche.com/vplay/12231949.html)** — _vc.yiche.com_ · date: unknown
@@ -161,6 +163,8 @@ _Updated 2026-07-26 15:13 | discovery-only, zero LLM tokens | runs every 3h_
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 21.98-26.98万 勇闯老城区，实测零跑D19驾驶辅助是夯是拉？ AL频道 21.98万起全系四驱，零跑D19为何在5月摘得桂冠？ 汤圆猫020515 零跑D19白车
 - **[新车报告！风云A9优缺点点评，他能成为奇瑞下一个爆款吗？](https://vc.yiche.com/vplay/12304490.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 10.99-12.99万 真新能源皮卡来了！14.98万元起！长城炮Hi4-T重磅预售 EC汽车 拆椅见真章！星途ET5家用智驾优选 车大拿TV 半价Model 3？风云A
+- **[长城欧拉5解锁全球出行新选择，成为中国车企的“出海新样本”](https://vc.yiche.com/vplay/12298904.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 欧拉为中国汽车出海提供“欧拉样本” 苏老师说车 与KPL选手现场开黑？欧拉5车展带你峡谷上分！ 汽车品评 岚图泰山X8小巷辅助驾驶测试—窄路、错车、让行全交给它就行
 - **[商务部等8部门办公厅关于印发《2026年汽车以旧换新补贴实施细则》的通知](https://www.cada.cn/Trends/info_90_10415.html)** — _www.cada.cn_ · date: unknown
 - **[加速“绿色出海” 我国乘用车首次实现碳足迹全覆盖](https://www.chinanews.com.cn/cj/2026/07-26/10666639.shtml)** — _www.chinanews.com.cn_ · published 2026-07-26
   加速“绿色出海” 我国乘用车首次实现碳足迹全覆盖 记者昨天(25日)从中国汽车技术研究中心获悉，我国乘用车首次实现碳足迹全覆盖。 中国汽车产业链碳公示平台最新数据显示，截至2026年7月，这一平台已收集全国92家乘用车企业12100余款车型碳足迹数据，全面覆盖国内全系乘用车型与主流进口车型。专家表示，这标志着我国汽车产业碳数据管理体系迈向规模化、体系化新阶段
@@ -200,6 +204,16 @@ _Updated 2026-07-26 15:13 | discovery-only, zero LLM tokens | runs every 3h_
   近日，极氪汽车针对境外自驾游用户遇到的车机功能受限问题发布官方说明。用户在境外长途自驾游时，因车辆安全保护机制被触发，导致车机部分功能受限，影响了旅途体验。极氪汽车已为该用户解决问题，并建立了专项保障沟通通道，确保全程响应无延迟。 极氪汽车紧急联动车机、数字化及售后服务保障团队，对出境车辆安全守护策略做出调整。首先，极氪APP上线了“跨境守护”快速解锁入口，
 - **[Waymo自动驾驶事故率低68%！安全性能远超人类驾驶员](https://www.d1ev.com/newsflash/308516)** — _www.d1ev.com_ · date: unknown
   7月26日，美国公路安全保险协会（IIHS）发布最新研究，对Waymo 自动驾驶出租车的安全性进行了系统性分析。研究覆盖了2021年至2024年间Waymo在凤凰城、旧金山、洛杉矶和奥斯汀四个城市的联邦事故报告数据，涉及约5000万英里的 无人驾驶行驶里程。结果显示，Waymo的事故率比人类驾驶员低68%，且事故严重程度更低。每百万英里人类驾驶员发生事故4.
+- **[E周看点｜福特与吉利成立西班牙合资公司；特斯拉Q2净利润下滑5%至11亿美元 - 第一电动网](https://www.d1ev.com/news/shichang/308548)** — _www.d1ev.com_ · date: unknown
+  本周，新能源汽车市场有哪些大事发生？ 亿纬锂能回应美国专利诉讼及337调查，称不存在侵权 盖世汽车讯 7月24日，亿纬锂能发布公告称，公司关注到LG Energy Solution及其子公司于当地时间7月21日在美国德州东区法院针对亿纬锂能提起专利侵权诉讼，并同步向美国国际贸易委员会（ITC）发起337调查。截至本公告披露日，亿纬锂能暂未收到上述案件正式法律
+- **[“机车界比亚迪”张雪曝光电动大踏板，3万元起售性能超群](https://www.d1ev.com/newsflash/308547)** — _www.d1ev.com_ · date: unknown
+  近日，机车领域创业者张雪因一则趣味短视频在社交平台走红。视频中，张雪深夜叫代驾回家时被代驾小哥认出，其日常代步座驾比亚迪秦L引发网友热议。大家评价他“机车造得比谁都野，汽车用得比谁都省”，低调务实的生活风格圈粉无数。张雪机车与比亚迪的发展路径相似，都深耕技术、凭借韧劲实现国产突破。 张雪机车近期曝光了品牌首款电动大踏板的产品规划，新车定价3万元以上，主打运动
+- **[大众安徽新车型OTA升级：智能座舱、互联体验大提升！](https://www.d1ev.com/newsflash/308546)** — _www.d1ev.com_ · date: unknown
+  7月26日，大众安徽宣布旗下与众06、与众07两款车型迎来新一轮OTA升级，重点在于提升智能座舱、互联体验和智驾性能。此次升级针对智能座舱体验进行了UI界面与视觉细节的优化，语音响应速度提升，并支持连续指令输入，同时影音界面也得到升级，增强了娱乐生态的体验。 在手机互联方面，升级后的系统简化了连接步骤，使得CarPlay设备能够自动置顶，新增了快捷唤起方式，
+- **[奇瑞风云T7开启国内小订，600km续航+20分钟快充来袭！](https://www.d1ev.com/newsflash/308544)** — _www.d1ev.com_ · date: unknown
+  7月26日，奇瑞风云新能源宣布风云T7国内小订即将开启。风云T7已在海外以“LEPASL6”的名称上市。新车采用风云新能源最新一代极简电动化设计语言，封闭式车身搭配狭长锐利的分体式LED大灯，下包围运动饰板强化整车冲击力。车身尺寸为4570*1852*1694mm，轴距2700mm，定位紧凑型SUV。侧面采用溜背式车顶线条，搭配黑色熏黑轮眉与多辐运动轮毂；车
+- **[华为享界G9：豪华硬派SUV新标杆，1300公里续航+L3自动驾驶](https://www.d1ev.com/newsflash/308542)** — _www.d1ev.com_ · date: unknown
+  7月26日，华为智选车产品总监彭磊在微博分享了方盒子车型的分类。他将车型分为三类：纯粹越野车、豪华硬派SUV和城市豪华SUV。纯粹越野车越野能力强，但舒适性较差；豪华硬派SUV如享界G9，兼顾舒适性和越野能力，配备差速锁等硬件；城市豪华SUV更注重舒适性，越野能力较弱。 享界G9是鸿蒙智行首款科技豪华硬派SUV，搭载华为自研电机，标配四驱，800V高压增程，
 - **[德国柏林发生汽车冲撞行人事件致多人受伤](https://www.gelonghui.com/live/2572469)** — _www.gelonghui.com_ · published 2026-07-26
   申请认证 格隆汇公众号矩阵 格隆汇App 下载格隆汇APP 诊股宝App 下载诊股宝App 汇路演App 下载汇路演APP 极调研 加入我们 首页 社区 快讯 事件 深度 主题 专栏 行情 会员 数据 财富圈 文章 更多相关文章 快讯 更多相关快讯 查看全部股票/文章/快讯/事件/用户/财富圈搜索结果 热门股票 搜索历史 清空历史 登录 / 注册 温馨提示
 - **[柏林汽车冲撞行人事件已致1死16伤 警方通缉21岁嫌疑人](https://www.gelonghui.com/live/2572681)** — _www.gelonghui.com_ · date: unknown
