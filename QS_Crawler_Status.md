@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-27 03:11 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-27 06:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-27 03:11 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **4962 unique auto/NEV articles** across **50 outlets**
+## Cumulative: **4963 unique auto/NEV articles** across **50 outlets**
 
 ## New per day
 | date | new articles |
@@ -59,7 +59,7 @@ _Updated 2026-07-27 03:11 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-24 | 180 |
 | 2026-07-25 | 68 |
 | 2026-07-26 | 70 |
-| 2026-07-27 | 17 |
+| 2026-07-27 | 18 |
 
 ## By outlet
 | outlet | articles |
@@ -76,7 +76,7 @@ _Updated 2026-07-27 03:11 | discovery-only, zero LLM tokens | runs every 3h_
 | autodata.gasgoo.com | 127 |
 | news.yiche.com | 112 |
 | www.cada.cn | 110 |
-| www.news.cn | 98 |
+| www.news.cn | 99 |
 | www.nbd.com.cn | 94 |
 | m.21jingji.com | 92 |
 | www.yicai.com | 85 |
@@ -117,7 +117,7 @@ _Updated 2026-07-27 03:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-27 — 17 articles
+### 2026-07-27 — 18 articles
 - **[北京汽车博物馆携手美驰图落地国内首家联名概念店，以车模文化赋能汽车消费新生态](https://culture.gmw.cn/2026-07/26/content_38908210.htm)** — _culture.gmw.cn_ · published 2026-07-26
   点击右上角微信好友 朋友圈 请使用浏览器分享功能进行分享 跨界新范式·文创新地标 ——北京汽车博物馆携手美驰图落地国内首家联名概念店，以车模文化赋能汽车消费新生态 光明网讯（见习记者 姜姝琪）7月26日，北京汽车博物馆与美驰图合作备忘录签约暨“像素车库——北京汽车博物馆×比美高联名概念店”启幕仪式在北京汽车博物馆举行。北京汽车博物馆党组书记、馆长刘井权，美昌
 - **[丰田凯美瑞月销1.7万优惠6万起，13万预算可入手！如何选配置？](https://vc.yiche.com/vplay/12309957.html)** — _vc.yiche.com_ · date: unknown
@@ -150,6 +150,8 @@ _Updated 2026-07-27 03:11 | discovery-only, zero LLM tokens | runs every 3h_
   每经网首页 > AI电视拆条 > 正文 每日经济新闻 2026-07-26 22:51:16 内容无需标注 如需转载请与《每日经济新闻》报社联系。未经《每日经济新闻》报社授权，严禁转载或镜像，违者必究。 读者热线：4008890008 特别提醒：如果我们使用了您的图片，请作者与本站联系索取稿酬。如您不希望作品出现在本站，可联系我们要求撤下您的作品。 上一篇文
 - **[2026年7月27日汽车新版早参](https://www.nbd.com.cn/articles/2026-07-26/4512467.html)** — _www.nbd.com.cn_ · published 2026-07-26
   每经网首页 > AI电视拆条 > 正文 每日经济新闻 2026-07-26 22:48:21 内容无需标注 如需转载请与《每日经济新闻》报社联系。未经《每日经济新闻》报社授权，严禁转载或镜像，违者必究。 读者热线：4008890008 特别提醒：如果我们使用了您的图片，请作者与本站联系索取稿酬。如您不希望作品出现在本站，可联系我们要求撤下您的作品。 上一篇文
+- **[柏林汽车撞人事件犯罪嫌疑人被警方击毙](https://www.news.cn/world/20260727/375d0f2eed0541fda9385d9bd2ffd106/c.html)** — _www.news.cn_ · published 2026-07-27
+  新华社柏林7月26日电 德国警方26日傍晚发布声明说，25日晚在柏林市中心制造汽车撞人事件的在逃嫌疑人已被警方击毙。 声明说，当地时间26日18时左右，柏林警方在施潘道区发现该嫌疑人。初步调查显示，嫌疑人当时手持利器冲向警员，被警方击毙。 25日晚，该嫌疑人驾驶一辆厢式货车在柏林市中心的蒂尔加滕公园附近冲撞人群，随后疑似持械伤人，造成1人死亡、29人受伤。
 - **[中汽股份：宁波试验场项目由宁波前湾新区下属宁波海创汽车科技有限公司出资投建](https://www.zqrb.cn/gscy/ggkx/2026-07-26/A1784909288896.html)** — _www.zqrb.cn_ · published 2026-07-26
   证券日报APP 安卓 IOS 证券日报微信 证券日报微博 证券日报网7月26日讯 ，中汽股份在接受调研时表示，宁波试验场项目由宁波前湾新区下属宁波海创汽车科技有限公司出资投建，公司通过增资扩股参股宁波前湾新区欣湾智能技术服务有限公司，运营宁波试验场项目。该项目现阶段处于在建状态，计划2029年建成并正式投产运营。项目投用后，公司将派驻管理团队负责日常经营管理
 
