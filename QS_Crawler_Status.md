@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-26 18:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-26 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-26 18:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **4938 unique auto/NEV articles** across **49 outlets**
+## Cumulative: **4945 unique auto/NEV articles** across **49 outlets**
 
 ## New per day
 | date | new articles |
@@ -58,15 +58,15 @@ _Updated 2026-07-26 18:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-23 | 167 |
 | 2026-07-24 | 180 |
 | 2026-07-25 | 68 |
-| 2026-07-26 | 63 |
+| 2026-07-26 | 70 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.d1ev.com | 1215 |
+| www.d1ev.com | 1220 |
 | www.dongchedi.com | 1088 |
 | vc.yiche.com | 314 |
-| auto.gasgoo.com | 246 |
+| auto.gasgoo.com | 247 |
 | 36kr.com | 244 |
 | www.stcn.com | 202 |
 | www.caam.org.cn | 193 |
@@ -81,7 +81,7 @@ _Updated 2026-07-26 18:12 | discovery-only, zero LLM tokens | runs every 3h_
 | www.yicai.com | 85 |
 | auto.caijing.com.cn | 59 |
 | www.zqrb.cn | 55 |
-| www.gelonghui.com | 41 |
+| www.gelonghui.com | 42 |
 | www.xinhuanet.com | 35 |
 | www.jwview.com | 34 |
 | finance.eastmoney.com | 31 |
@@ -115,13 +115,14 @@ _Updated 2026-07-26 18:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-26 — 63 articles
+### 2026-07-26 — 70 articles
 - **[奇瑞风云A9正式上市：全系标配70kWh电池与激光雷达智驾，定价锁定15万元以内](https://auto.caijing.com.cn/2026/0725/5173453.shtml)** — _auto.caijing.com.cn_ · date: unknown
   7月25日，奇瑞风云序列全新纯电轿跑，风云A9正式上市。新车全系指导价均设定在15万元以内，以“长续航智美纯电轿跑”定位，将70kWh大容量电池、含激光雷达的高阶驾驶辅助、23扬声器音响及零重力座椅等配置列为标配，用一次到位的方式回应了年轻用户对纯电轿跑“不将就”的需求。 风云A9此次推出的车型版本，全系无差别搭载5项同级独有与4项同级领先配置，直接从续航、
 - **[奇瑞全球累计销量突破2000万辆 风云A9将作为第2000万辆车交付](https://auto.gasgoo.com/news/202607/25I70467401C110.shtml)** — _auto.gasgoo.com_ · published 2026-07-25
   盖世汽车获悉 2026年7月25日，奇瑞集团全球累计销量突破2000万辆。同日上市的风云A9将作为第2000万辆车交付用户。风云曾是奇瑞打造的首款车型及首款出海车型，现已焕新为新能源智能产品，风云A9定位为长续航智美纯电轿跑，被视作奇瑞产品与质量体系全面升级的代表。 图片来源：奇瑞汽车 回顾29年创业历程，奇瑞在20世纪90年代行业普遍质疑自主发展的环境下坚
 - **[奇瑞风云A9正式上市 售价10.99万元起](https://auto.gasgoo.com/news/202607/25I70467400C107.shtml)** — _auto.gasgoo.com_ · published 2026-07-25
   2026年7月25日，奇瑞汽车旗下风云序列首款纯电轿跑——风云A9正式上市。新车共推出3款配置车型，官方指导价为10.99万至12.99万元，叠加限时置换补贴后入手价为10.69万至12.69万元。 图片来源：奇瑞汽车直播截图 风云A9定位“长续航智美纯电轿跑”，采用奇瑞全新“凌风美学”设计语言，前脸为封闭式新能源设计搭配分体矩阵大灯。该设计此前已斩获202
+- **[现代汽车推出全球车联网服务](https://auto.gasgoo.com/news/202607/26I70467456C409.shtml)** — _auto.gasgoo.com_ · date: unknown
 - **[【e公司观察】新能源汽车供应链权责体系有待进一步厘清](https://egs.stcn.com/news/detail/2319860.html)** — _egs.stcn.com_ · date: unknown
   近期，搭载中创新航177Ah磷酸铁锂电池的广汽埃安AION S车型出现批量电池故障。车辆行驶至特定里程区间后，集中出现电芯大面积鼓包、电解液泄漏、高压绝缘失效等问题，多辆网约车在高速行驶和载客途中突然断电，安全隐患不容忽视。 广汽埃安火速发布公开致歉公告，同步推出质保升级、营运误工补贴等全套兜底方案。中创新航的公告措辞则相对模糊。截至目前，双方均未公布电池故
 - **[奇瑞汽车累计销量突破2000万辆 出口占比超三分之一](https://finance.eastmoney.com/a/202607253821162722.html)** — _finance.eastmoney.com_ · date: unknown
@@ -214,11 +215,23 @@ _Updated 2026-07-26 18:12 | discovery-only, zero LLM tokens | runs every 3h_
   7月26日，奇瑞风云新能源宣布风云T7国内小订即将开启。风云T7已在海外以“LEPASL6”的名称上市。新车采用风云新能源最新一代极简电动化设计语言，封闭式车身搭配狭长锐利的分体式LED大灯，下包围运动饰板强化整车冲击力。车身尺寸为4570*1852*1694mm，轴距2700mm，定位紧凑型SUV。侧面采用溜背式车顶线条，搭配黑色熏黑轮眉与多辐运动轮毂；车
 - **[华为享界G9：豪华硬派SUV新标杆，1300公里续航+L3自动驾驶](https://www.d1ev.com/newsflash/308542)** — _www.d1ev.com_ · date: unknown
   7月26日，华为智选车产品总监彭磊在微博分享了方盒子车型的分类。他将车型分为三类：纯粹越野车、豪华硬派SUV和城市豪华SUV。纯粹越野车越野能力强，但舒适性较差；豪华硬派SUV如享界G9，兼顾舒适性和越野能力，配备差速锁等硬件；城市豪华SUV更注重舒适性，越野能力较弱。 享界G9是鸿蒙智行首款科技豪华硬派SUV，搭载华为自研电机，标配四驱，800V高压增程，
+- **[现代汽车推出全球车联网服务](https://www.d1ev.com/news/shichang/308558)** — _www.d1ev.com_ · date: unknown
+  盖世汽车讯 据外媒报道，现代汽车集团（Hyundai Motor Group）宣布推出其全新的全球车联网（V2X）能源服务AllDayEnergy。 图片来源：现代汽车 AllDayEnergy将现代汽车现有的V2X服务整合到一个统一的全球品牌下，为不同市场和服务类型的客户提供一致且值得信赖的体验。 该服务初期将涵盖V1G智能充电，随后将扩展至V2G（车网互
+- **[工信部突击检查广汽埃安、小鹏汽车，严查智能网联汽车安全保障](https://www.d1ev.com/newsflash/308556)** — _www.d1ev.com_ · date: unknown
+  7月24日，工信部装备工业一司对广汽埃安和小鹏汽车进行了道路机动车辆生产企业产品安全保障能力和生产一致性监督检查。此次监督检查的重点内容包括企业智能网联汽车的安全保障能力、设计开发及生产能力、生产一致性保证能力等生产准入条件的保持情况。 在监督检查过程中，工信部现场随机抽取了样车和动力 电池，并将这些样本转送至相关机构进行国家标准符合性的检验检测。生产一致性
+- **[奇瑞风云T7开启小订：600km续航+20分钟快充，家用纯电SUV新选择](https://www.d1ev.com/newsflash/308554)** — _www.d1ev.com_ · date: unknown
+  今日，奇瑞风云新能源宣布风云T7国内小订即将开启，该车型已在海外以“LEPASL6”的名称上市。风云T7搭载单电机驱动，最大功率178kW，最高车速可达180km/h，满足城市道路与高速巡航需求。全系标配犀牛 电池，CLTC标准续航统一达到600km，打破同级车型续航差距。补能效率方面，电量从30%充至80%仅需20分钟，缓解长途出行的补能焦虑。 风云T7采
+- **[路虎极光L价格跳水超六成，燃油车市场受新能源冲击明显](https://www.d1ev.com/newsflash/308551)** — _www.d1ev.com_ · date: unknown
+  近日，受新能源汽车市场竞争加剧的影响，路虎揽胜极光L的终端售价出现大幅下降。杭州某车行报出169800元的清仓价，跌幅超过六成。这一价格并非个例，全国多地门店也出现了17.98万入手极光L的情况。早年以进口形式入市的极光L，落地价最高接近90万元，如今价格暴跌，令不少老车主感到贬值速度惊人。 价格暴跌的原因主要有两个。首先，揽胜极光L燃油版已全面停产，经销商
+- **[奇瑞风云T7小订开启，犀牛电池加持，600km续航仅20分钟快充！](https://www.d1ev.com/newsflash/308550)** — _www.d1ev.com_ · date: unknown
+  7月26日，奇瑞汽车宣布风云T7国内小订即将开启。风云T7采用家族化设计语言，轴距2700mm，车身尺寸为4570*1852*1694mm。新车外观采用风云新能源最新一代极简电动化设计，封闭式车身搭配分体式LED大灯，下包围运动饰板强化冲击力，风格前卫激进。侧面溜背式车顶线条搭配黑色熏黑轮眉与多辐运动轮毂，降低视觉厚重感。车尾配备贯穿式LED尾灯，灯组横向拉
 - **[德国柏林发生汽车冲撞行人事件致多人受伤](https://www.gelonghui.com/live/2572469)** — _www.gelonghui.com_ · published 2026-07-26
   申请认证 格隆汇公众号矩阵 格隆汇App 下载格隆汇APP 诊股宝App 下载诊股宝App 汇路演App 下载汇路演APP 极调研 加入我们 首页 社区 快讯 事件 深度 主题 专栏 行情 会员 数据 财富圈 文章 更多相关文章 快讯 更多相关快讯 查看全部股票/文章/快讯/事件/用户/财富圈搜索结果 热门股票 搜索历史 清空历史 登录 / 注册 温馨提示
 - **[柏林汽车冲撞行人事件已致1死16伤 警方通缉21岁嫌疑人](https://www.gelonghui.com/live/2572681)** — _www.gelonghui.com_ · date: unknown
   首页 > 快讯 > 快讯详情 柏林汽车冲撞行人事件已致1死16伤 警方通缉21岁嫌疑人 格隆汇7月26日｜据央视，当地时间25日晚，德国柏林蒂尔加滕公园内发生车辆冲撞人群事件，目前已造成1人死亡、16人受伤，其中3人伤势危重、8人严重、5人受轻伤。柏林警方已发布公开协查通报，追捕21岁的男性嫌疑人阿卜杜勒·B。警方称，此人可能携带武器并具有危险性，呼吁公众发
 - **[福特公司召回超56万辆汽车](https://www.gelonghui.com/live/2572662)** — _www.gelonghui.com_ · published 2026-07-26
+  申请认证 格隆汇公众号矩阵 格隆汇App 下载格隆汇APP 诊股宝App 下载诊股宝App 汇路演App 下载汇路演APP 极调研 加入我们 首页 社区 快讯 事件 深度 主题 专栏 行情 会员 数据 财富圈 文章 更多相关文章 快讯 更多相关快讯 查看全部股票/文章/快讯/事件/用户/财富圈搜索结果 热门股票 搜索历史 清空历史 登录 / 注册 温馨提示
+- **[以军空袭加沙地带中部 造成多名巴勒斯坦人伤亡](https://www.gelonghui.com/live/2572823)** — _www.gelonghui.com_ · published 2026-07-26
   申请认证 格隆汇公众号矩阵 格隆汇App 下载格隆汇APP 诊股宝App 下载诊股宝App 汇路演App 下载汇路演APP 极调研 加入我们 首页 社区 快讯 事件 深度 主题 专栏 行情 会员 数据 财富圈 文章 更多相关文章 快讯 更多相关快讯 查看全部股票/文章/快讯/事件/用户/财富圈搜索结果 热门股票 搜索历史 清空历史 登录 / 注册 温馨提示
 - **[德国柏林发生汽车冲撞行人事件 多人受伤](https://www.nbd.com.cn/articles/2026-07-26/4512119.html)** — _www.nbd.com.cn_ · published 2026-07-26
   每经网首页 > 首发快讯 > 正文 2026-07-26 06:09:02 每经AI快讯，当地时间7月25日晚，德国柏林蒂尔加滕公园附近发生一起汽车冲撞行人事件，造成多人受伤。 警方和救援人员已赶到现场处置。目前具体伤亡人数尚未公布，事件原因及性质仍在调查中。（央视新闻） 特别提醒：如果我们使用了您的图片，请作者与本站联系索取稿酬。如您不希望作品出现在本站，
