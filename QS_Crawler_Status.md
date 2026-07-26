@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-26 06:11 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-26 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-26 06:11 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **4890 unique auto/NEV articles** across **49 outlets**
+## Cumulative: **4906 unique auto/NEV articles** across **49 outlets**
 
 ## New per day
 | date | new articles |
@@ -58,14 +58,14 @@ _Updated 2026-07-26 06:11 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-23 | 167 |
 | 2026-07-24 | 180 |
 | 2026-07-25 | 68 |
-| 2026-07-26 | 15 |
+| 2026-07-26 | 31 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.d1ev.com | 1203 |
+| www.d1ev.com | 1207 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 300 |
+| vc.yiche.com | 308 |
 | auto.gasgoo.com | 246 |
 | 36kr.com | 244 |
 | www.stcn.com | 200 |
@@ -75,14 +75,14 @@ _Updated 2026-07-26 06:11 | discovery-only, zero LLM tokens | runs every 3h_
 | www.cnr.cn | 124 |
 | www.cada.cn | 110 |
 | news.yiche.com | 109 |
-| www.news.cn | 97 |
+| www.news.cn | 98 |
 | m.21jingji.com | 92 |
-| www.nbd.com.cn | 90 |
-| www.yicai.com | 84 |
+| www.nbd.com.cn | 91 |
+| www.yicai.com | 85 |
 | auto.caijing.com.cn | 58 |
 | www.zqrb.cn | 55 |
 | www.gelonghui.com | 39 |
-| www.xinhuanet.com | 34 |
+| www.xinhuanet.com | 35 |
 | www.jwview.com | 34 |
 | finance.eastmoney.com | 29 |
 | finance.people.com.cn | 25 |
@@ -115,7 +115,7 @@ _Updated 2026-07-26 06:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-26 — 15 articles
+### 2026-07-26 — 31 articles
 - **[奇瑞全球累计销量突破2000万辆 风云A9将作为第2000万辆车交付](https://auto.gasgoo.com/news/202607/25I70467401C110.shtml)** — _auto.gasgoo.com_ · published 2026-07-25
   盖世汽车获悉 2026年7月25日，奇瑞集团全球累计销量突破2000万辆。同日上市的风云A9将作为第2000万辆车交付用户。风云曾是奇瑞打造的首款车型及首款出海车型，现已焕新为新能源智能产品，风云A9定位为长续航智美纯电轿跑，被视作奇瑞产品与质量体系全面升级的代表。 图片来源：奇瑞汽车 回顾29年创业历程，奇瑞在20世纪90年代行业普遍质疑自主发展的环境下坚
 - **[奇瑞风云A9正式上市 售价10.99万元起](https://auto.gasgoo.com/news/202607/25I70467400C107.shtml)** — _auto.gasgoo.com_ · published 2026-07-25
@@ -124,6 +124,22 @@ _Updated 2026-07-26 06:11 | discovery-only, zero LLM tokens | runs every 3h_
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 12.38-15.68万 只比轿车贵四千！小鹏MONA L03卖12.38万起 智电出行 15秒看完，小鹏MONA L03隐藏的小彩蛋 | KenTV 吴佩频道 近乎满分！
 - **[2030海南禁售燃油车，下一个会是谁？](https://vc.yiche.com/vplay/12231949.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 广汽3000万用户感恩！7月买昊铂HL，补贴一笔一笔算清楚！ 科记汇 体验中东土豪同款座驾，极石西安浐灞新店来啦 小马撩车 乐道L80租电15.68万起，Pro、Max+、
+- **[试驾帝豪混动i](https://vc.yiche.com/vplay/12304742.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 6.29-9.79万 帝豪i-HEV进川西，实测2.7L/100km油耗。 不二车 中国帝豪，全球超420万用户，向上系列焕新上市起售5.59万 罗辑车评 买混动怕油耗高？
+- **[入门即满配！传祺M8 HEV现优惠5000，家用商务混动MPV](https://vc.yiche.com/vplay/12304686.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 18.98-23.98万 个性家用两不误 东风日产N7选购指南 玩车教授 合资中型SUV 可选5座或7座布局 福特锐界L有什么配置亮点值得买？ 天天汽车V 宋 Ultra
+- **[银河M9最新版本千里浩瀚H5实测！颠覆你以前对吉利智驾的认知！](https://vc.yiche.com/vplay/12297182.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 18.38-26.98万 实拍大众途昂Pro 空间燃油车最佳 智能配置丰富 油电同智 车市百晓生 宝马Z4改A90外观套件 气势磅礴珊瑚8319 到底谁是最强SUV 新车新
+- **[30万级“含华量”最高的越野SUV 全新猛士M817新车到店感受](https://vc.yiche.com/vplay/12302208.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 29.99-39.99万 全新猛士M817真实体验！30万级到底值不值？ X基地 预售10.49万起！轴距2900mm+8295+1765km续航，喜欢吗？ 车界懂大咖 买
+- **[20万级纯电SUV续航901km？探店全新岚图知音](https://vc.yiche.com/vplay/12301935.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 20.29-24.29万 2026北京车展东风汽车展台，偶遇中小学生探馆团 车道漫谈 沉浸式百万级驾控体验智己LS8，出众的8系旗舰SUV 侃车驿站 火星PHEV超级电混皮
+- **[停产12年，奇瑞终于把QQ复产了](https://vc.yiche.com/vplay/12301865.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 5.89-7.89万 开着阿维塔07L 听海浪的声音，开启美好假期 玮玮DAO来 直击西安车展 奇瑞展台 三车占据C位 玮哥WeTalk 岚图追光L旗舰插混登场，800V高
+- **[探店：至境7纯电，“876”+五恒健康座舱+逍遥智行真实战力如何？](https://vc.yiche.com/vplay/12301837.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 17.39-21.99万 通勤自驾全适配，别克至境L7纯电海南自驾实测，戳中自驾党心坎 胖川侃车 更安全的800V？晴报局绝密档案：代号“奥特能”，即刻破译！ 晴了个车车
+- **[吉利银河战舰700静态体验](https://vc.yiche.com/vplay/12301410.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 全球仅5台！开箱价值一个小目标的帕加尼Zonda R超跑提车vlog 微光海边停车少女 银河战舰700，吉利可不只是想玩玩而已 闪电花总 实拍22款奔驰gls450
 - **[商务部等8部门办公厅关于印发《2026年汽车以旧换新补贴实施细则》的通知](https://www.cada.cn/Trends/info_90_10415.html)** — _www.cada.cn_ · date: unknown
 - **[“村T”开场！农牧民秀出乡村文化新风采](https://www.cnr.cn/xjfw/gstjxj/20260726/t20260726_527729655.shtml)** — _www.cnr.cn_ · published 2026-07-26
   央广网阿克苏7月26日消息（记者丁安 通讯员李银琼）近日，一场别开生面的我们的“村T”农牧民模特大赛在新疆库车市乌恰镇甬库振兴村开展。各族群众身着各色服饰走上乡村T台，用自信与笑容走出新时代农牧民的风采，奏响乡村文化振兴的动人乐章。 活动现场 （央广网发 李银琼 摄） 比赛现场，由各村农牧民群众代表、返乡学生等群体组成的参赛队伍依次登台，国风汉服秀衣袂翩翩，
@@ -137,14 +153,30 @@ _Updated 2026-07-26 06:11 | discovery-only, zero LLM tokens | runs every 3h_
   2026年7月25日，奇瑞风云A9正式上市，新车共推出3款配置，官方指导价10.99-12.99万元，限时超级置换价10.69-12.69万元。此外，官方还推出多项上市权益，包括金融礼、补能礼和流量礼等。 外观方面，奇瑞风云A9基于凌风美学设计语言打造，前脸配备玄影立体徽标以及风刃星钻大灯，视觉效果动感时尚，极具辨识度。车身侧面采用半隐藏式门把手，支持触摸和
 - **[杨紫代言！奇瑞风云A9纯电轿跑上市：10.69万元起](https://www.d1ev.com/news/qiye/308500)** — _www.d1ev.com_ · date: unknown
   快科技7月25日消息，今日晚间，奇瑞风云A9正式上市，定位为长续航智美纯电轿跑，由知名演员杨紫担任代言人。 售价方面，655km Pro版限时超级置换价为10.69万元，655km Max版为11.69万元，655km Max激光雷达版为12.69万元。车主还可享受999元购买价值3999元充电桩权益，进一步降低了用车门槛。 作为一款纯电轿跑，风云A9遵循了
+- **[中国汽车出口上半年激增53%，俄罗斯成最大买家](https://www.d1ev.com/newsflash/308513)** — _www.d1ev.com_ · date: unknown
+  7月26日，据全国乘用车市场信息联席会秘书长崔东树发布的最新数据，2026年上半年中国汽车出口量达到531万辆，同比增长53%。6月份单月出口量为107万辆，同比增长73%，环比增长8%，超出预期。俄罗斯成为中国汽车出口第一大目的国，上半年对俄出口整车448,157辆，同比增量高达267,411辆，涨幅约148%。6月份对俄出口达到84,451辆，单月增量5
+- **[盖世周报 | 中国车在海外销量大增；丰田将削减零部件种类 - 第一电动网](https://www.d1ev.com/news/shichang/308512)** — _www.d1ev.com_ · date: unknown
+  本周，国内外汽车行业有哪些大事发生？ 中国品牌汽车在海外市场销量大增 一份销量报告显示，尽管墨西哥今年1月大幅加征关税，意在遏制亚洲进口车增长，但上半年中国品牌汽车在墨西哥销量仍大涨近30%，从去年同期的107,712辆增至137,525辆，占墨西哥新车总销量的17%，去年同期这一比例仅为14%。 图片来源：比亚迪 不止于此，受中东冲突推高燃油价格、平价电动
+- **[奇瑞风云A9震撼上市，限时优惠+终身质保引爆新能源市场！](https://www.d1ev.com/newsflash/308510)** — _www.d1ev.com_ · date: unknown
+  7月25日，奇瑞汽车宣布旗下全新车型风云A9正式上市，推出三款车型，限时超级置换价区间为10.69-12.69万元。为庆祝全球累计销量突破2000万，奇瑞集团推出多项优惠政策，包括限时免费赠送运动套件、高定车漆、副驾零重力悠然座椅等权益，以及动力 电池安全兜底、辅助驾驶兜底、整车终身质保和终身保养套餐。此外，还提供金融礼、补能礼和流量礼等多重优惠。 奇瑞风云
+- **[特斯拉Robotaxi服务或将登陆南美，自动驾驶网约车全球扩张加速](https://www.d1ev.com/newsflash/308508)** — _www.d1ev.com_ · date: unknown
+  近日，特斯拉在南美洲的招聘信息透露出其 自动驾驶出租车服务Robotaxi可能即将扩展至国际市场。特斯拉正在哥伦比亚和智利招聘AI安全运营专员，这些岗位将负责监督自动驾驶网约车网络的日常运营，并进行动态数据采集。具体而言，特斯拉在哥伦比亚的波哥大和麦德林埃尔波夫拉多以及智利的圣地亚哥拉斯孔德斯招聘全职工程岗位，职责包括驾驶工程测试车辆采集数据、撰写驾驶报告以
 - **[德国柏林发生汽车冲撞行人事件致多人受伤](https://www.gelonghui.com/live/2572469)** — _www.gelonghui.com_ · published 2026-07-26
   申请认证 格隆汇公众号矩阵 格隆汇App 下载格隆汇APP 诊股宝App 下载诊股宝App 汇路演App 下载汇路演APP 极调研 加入我们 首页 社区 快讯 事件 深度 主题 专栏 行情 会员 数据 财富圈 文章 更多相关文章 快讯 更多相关快讯 查看全部股票/文章/快讯/事件/用户/财富圈搜索结果 热门股票 搜索历史 清空历史 登录 / 注册 温馨提示
 - **[德国柏林发生汽车冲撞行人事件 多人受伤](https://www.nbd.com.cn/articles/2026-07-26/4512119.html)** — _www.nbd.com.cn_ · published 2026-07-26
   每经网首页 > 首发快讯 > 正文 2026-07-26 06:09:02 每经AI快讯，当地时间7月25日晚，德国柏林蒂尔加滕公园附近发生一起汽车冲撞行人事件，造成多人受伤。 警方和救援人员已赶到现场处置。目前具体伤亡人数尚未公布，事件原因及性质仍在调查中。（央视新闻） 特别提醒：如果我们使用了您的图片，请作者与本站联系索取稿酬。如您不希望作品出现在本站，
+- **[加速“绿色出海” 我国乘用车首次实现碳足迹全覆盖](https://www.nbd.com.cn/articles/2026-07-26/4512139.html)** — _www.nbd.com.cn_ · published 2026-07-26
+  央视新闻 2026-07-26 08:00:38 记者昨天（25日）从中国汽车技术研究中心获悉，我国乘用车首次实现碳足迹全覆盖。 中国汽车产业链碳公示平台最新数据显示，截至2026年7月，这一平台已收集全国92家乘用车企业12100余款车型碳足迹数据，全面覆盖国内全系乘用车型与主流进口车型。专家表示，这标志着我国汽车产业碳数据管理体系迈向规模化、体系化新阶段
 - **[德国柏林发生汽车冲撞行人事件致多人受伤](https://www.news.cn/20260726/fde3b91a60654f82ac23905a5fc828ca/c.html)** — _www.news.cn_ · published 2026-07-26
   德国柏林发生汽车冲撞行人事件致多人受伤-新华网 新华网 > > 正文 2026 07 / 26 05:45:37 来源：新华网 德国柏林发生汽车冲撞行人事件致多人受伤 字体： 小 中 大 分享到： 德国柏林发生汽车冲撞行人事件致多人受伤 2026-07-26 05:45:37 来源：新华网 新华社柏林7月25日电（记者杜哲宇 褚怡）据德国警方消息，德国首都柏
+- **[柏林发生汽车撞人事件致1死14伤](https://www.news.cn/20260726/9f12e8136274406fa7cb06236031c99b/c.html)** — _www.news.cn_ · published 2026-07-26
+  新华社柏林7月25日电（记者杜哲宇 车云龙）德国柏林警方25日说，柏林市中心当晚发生一起汽车冲撞行人事件，造成至少1人死亡、14人受伤，其中多人伤势严重。 柏林警方在社交媒体上说，据初步判断，一辆汽车在蒂尔加滕公园附近撞倒多人。目前伤者正在接受救治。警方正全力搜捕嫌疑人。 据德国《图片报》报道，事故发生在当天22时左右。一名男子从肇事车辆出来后徒步逃离现场。
 - **[德国柏林发生汽车冲撞行人事件致多人受伤](https://www.xinhuanet.com/20260726/fde3b91a60654f82ac23905a5fc828ca/c.html)** — _www.xinhuanet.com_ · published 2026-07-26
   德国柏林发生汽车冲撞行人事件致多人受伤-新华网 新华网 > > 正文 2026 07 / 26 05:45:37 来源：新华网 德国柏林发生汽车冲撞行人事件致多人受伤 字体： 小 中 大 分享到： 德国柏林发生汽车冲撞行人事件致多人受伤 2026-07-26 05:45:37 来源：新华网 新华社柏林7月25日电（记者杜哲宇 褚怡）据德国警方消息，德国首都柏
+- **[柏林发生汽车撞人事件致1死14伤](https://www.xinhuanet.com/20260726/9f12e8136274406fa7cb06236031c99b/c.html)** — _www.xinhuanet.com_ · published 2026-07-26
+  新华社柏林7月25日电（记者杜哲宇 车云龙）德国柏林警方25日说，柏林市中心当晚发生一起汽车冲撞行人事件，造成至少1人死亡、14人受伤，其中多人伤势严重。 柏林警方在社交媒体上说，据初步判断，一辆汽车在蒂尔加滕公园附近撞倒多人。目前伤者正在接受救治。警方正全力搜捕嫌疑人。 据德国《图片报》报道，事故发生在当天22时左右。一名男子从肇事车辆出来后徒步逃离现场。
+- **[奇瑞尹同跃：2000万辆以后，我们不再参加内卷](https://www.yicai.com/news/103292248.html)** — _www.yicai.com_ · published 2026-07-25
+  {{aisd}} AI生成 免责声明 2026年7月25日，奇瑞集团全球累计销量正式突破2000万辆。同一天即将迎来上市的风云A9，将作为奇瑞集团第2000万辆车，正式交付给用户。 “2000万辆之后，我们不再参加内卷，我们不再只追求销量，而是要追求品牌向上，追求价值更大的创造，追求技术更多的突破，追求客户满意度更大的提升。”7月25日，奇瑞汽车董事长尹同跃
 
 ### 2026-07-25 — 68 articles
 - **[江淮汽车，成了高端但“埋”了牛散](https://36kr.com/p/3910368326391681)** — _36kr.com_ · published 2026-07-25
