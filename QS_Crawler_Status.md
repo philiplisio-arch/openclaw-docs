@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-26 21:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-27 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-26 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **4945 unique auto/NEV articles** across **49 outlets**
+## Cumulative: **4955 unique auto/NEV articles** across **50 outlets**
 
 ## New per day
 | date | new articles |
@@ -59,13 +59,14 @@ _Updated 2026-07-26 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-24 | 180 |
 | 2026-07-25 | 68 |
 | 2026-07-26 | 70 |
+| 2026-07-27 | 10 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.d1ev.com | 1220 |
+| www.d1ev.com | 1221 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 314 |
+| vc.yiche.com | 318 |
 | auto.gasgoo.com | 247 |
 | 36kr.com | 244 |
 | www.stcn.com | 202 |
@@ -76,12 +77,12 @@ _Updated 2026-07-26 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 | news.yiche.com | 112 |
 | www.cada.cn | 110 |
 | www.news.cn | 98 |
-| www.nbd.com.cn | 92 |
+| www.nbd.com.cn | 94 |
 | m.21jingji.com | 92 |
 | www.yicai.com | 85 |
 | auto.caijing.com.cn | 59 |
-| www.zqrb.cn | 55 |
-| www.gelonghui.com | 42 |
+| www.zqrb.cn | 56 |
+| www.gelonghui.com | 43 |
 | www.xinhuanet.com | 35 |
 | www.jwview.com | 34 |
 | finance.eastmoney.com | 31 |
@@ -112,8 +113,31 @@ _Updated 2026-07-26 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 | legal.gmw.cn | 1 |
 | gd.chinadaily.com.cn | 1 |
 | finance.caijing.com.cn | 1 |
+| culture.gmw.cn | 1 |
 
 ## Articles captured by day (newest first)
+
+### 2026-07-27 — 10 articles
+- **[北京汽车博物馆携手美驰图落地国内首家联名概念店，以车模文化赋能汽车消费新生态](https://culture.gmw.cn/2026-07/26/content_38908210.htm)** — _culture.gmw.cn_ · published 2026-07-26
+  点击右上角微信好友 朋友圈 请使用浏览器分享功能进行分享 跨界新范式·文创新地标 ——北京汽车博物馆携手美驰图落地国内首家联名概念店，以车模文化赋能汽车消费新生态 光明网讯（见习记者 姜姝琪）7月26日，北京汽车博物馆与美驰图合作备忘录签约暨“像素车库——北京汽车博物馆×比美高联名概念店”启幕仪式在北京汽车博物馆举行。北京汽车博物馆党组书记、馆长刘井权，美昌
+- **[丰田凯美瑞月销1.7万优惠6万起，13万预算可入手！如何选配置？](https://vc.yiche.com/vplay/12309957.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 17.18-25.98万 凯美瑞售价降至12万，丰田似乎已耗尽最后的资本 鱼日光飞机961018 丰田凯美瑞：中型车市场的标杆与常青树，年轻消费者的首选车型 布丁代码070
+- **[顶配不到13万，风云A9打破新能源车价格壁垒](https://vc.yiche.com/vplay/12308578.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 10.99-12.99万 今天体验了新上市的岚图泰山 X8 的各个方面。 怡然的翠菊花1422 预售72小时大定破万 奇瑞风云A9靠什么打动人心 主试角 奥迪S3城市道路高
+- **[深度试驾红旗H7 PHEV，20万级532车型的强有力对手](https://vc.yiche.com/vplay/12307906.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 实拍星途揽月 C-DM 四驱舒适长途无压力 读卖汽车 9.79万起 全新海狮05DM-i 家用级SUV优选 大河汽车 明明只是机械故障，为何只能选择退赛？ 天府国际
+- **[吉利银河战舰 700](https://vc.yiche.com/vplay/12307759.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 老越野要废 新关中王来了 云游汽车 阿维塔 07L，智能辅助驾驶实测！ 懂车一姐 银河战舰700，吉利可不只是想玩玩而已 闪电花总 第五代传祺GS4来啦~全家出行超
+- **[“消费品以旧换新政策带动销售额超1.25万亿，新能源车换新占比激增”](https://www.d1ev.com/newsflash/308560)** — _www.d1ev.com_ · date: unknown
+  今日，商务部最新数据显示，今年以来，消费品以旧换新政策累计带动相关商品销售额超过1.25万亿元，惠及1.69亿人次。其中，绿色产品尤其是新能源汽车受到市场青睐，6月份享受汽车以旧换新补贴的新能源车占比达到65.4%。智能消费领域也呈现出加速扩容的趋势，1—6月份，数码和智能产品销售量同比增长13.4%，6月单月增长更是高达32.0%，智能眼镜成为新的消费热点
+- **[德国内政部长：柏林汽车撞人事件疑似恐怖袭击](https://www.gelonghui.com/live/2572910)** — _www.gelonghui.com_ · published 2026-07-26
+  申请认证 格隆汇公众号矩阵 格隆汇App 下载格隆汇APP 诊股宝App 下载诊股宝App 汇路演App 下载汇路演APP 极调研 加入我们 首页 社区 快讯 事件 深度 主题 专栏 行情 会员 数据 财富圈 文章 更多相关文章 快讯 更多相关快讯 查看全部股票/文章/快讯/事件/用户/财富圈搜索结果 热门股票 搜索历史 清空历史 登录 / 注册 温馨提示
+- **[2026年7月27日汽车市场热点](https://www.nbd.com.cn/articles/2026-07-26/4512470.html)** — _www.nbd.com.cn_ · published 2026-07-26
+  每经网首页 > AI电视拆条 > 正文 每日经济新闻 2026-07-26 22:51:16 内容无需标注 如需转载请与《每日经济新闻》报社联系。未经《每日经济新闻》报社授权，严禁转载或镜像，违者必究。 读者热线：4008890008 特别提醒：如果我们使用了您的图片，请作者与本站联系索取稿酬。如您不希望作品出现在本站，可联系我们要求撤下您的作品。 上一篇文
+- **[2026年7月27日汽车新版早参](https://www.nbd.com.cn/articles/2026-07-26/4512467.html)** — _www.nbd.com.cn_ · published 2026-07-26
+  每经网首页 > AI电视拆条 > 正文 每日经济新闻 2026-07-26 22:48:21 内容无需标注 如需转载请与《每日经济新闻》报社联系。未经《每日经济新闻》报社授权，严禁转载或镜像，违者必究。 读者热线：4008890008 特别提醒：如果我们使用了您的图片，请作者与本站联系索取稿酬。如您不希望作品出现在本站，可联系我们要求撤下您的作品。 上一篇文
+- **[中汽股份：宁波试验场项目由宁波前湾新区下属宁波海创汽车科技有限公司出资投建](https://www.zqrb.cn/gscy/ggkx/2026-07-26/A1784909288896.html)** — _www.zqrb.cn_ · published 2026-07-26
+  证券日报APP 安卓 IOS 证券日报微信 证券日报微博 证券日报网7月26日讯 ，中汽股份在接受调研时表示，宁波试验场项目由宁波前湾新区下属宁波海创汽车科技有限公司出资投建，公司通过增资扩股参股宁波前湾新区欣湾智能技术服务有限公司，运营宁波试验场项目。该项目现阶段处于在建状态，计划2029年建成并正式投产运营。项目投用后，公司将派驻管理团队负责日常经营管理
 
 ### 2026-07-26 — 70 articles
 - **[奇瑞风云A9正式上市：全系标配70kWh电池与激光雷达智驾，定价锁定15万元以内](https://auto.caijing.com.cn/2026/0725/5173453.shtml)** — _auto.caijing.com.cn_ · date: unknown
