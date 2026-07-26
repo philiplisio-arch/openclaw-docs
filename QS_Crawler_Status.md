@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-27 00:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-27 03:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-27 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **4955 unique auto/NEV articles** across **50 outlets**
+## Cumulative: **4962 unique auto/NEV articles** across **50 outlets**
 
 ## New per day
 | date | new articles |
@@ -59,14 +59,14 @@ _Updated 2026-07-27 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-24 | 180 |
 | 2026-07-25 | 68 |
 | 2026-07-26 | 70 |
-| 2026-07-27 | 10 |
+| 2026-07-27 | 17 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.d1ev.com | 1221 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 318 |
+| vc.yiche.com | 325 |
 | auto.gasgoo.com | 247 |
 | 36kr.com | 244 |
 | www.stcn.com | 202 |
@@ -117,7 +117,7 @@ _Updated 2026-07-27 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-27 — 10 articles
+### 2026-07-27 — 17 articles
 - **[北京汽车博物馆携手美驰图落地国内首家联名概念店，以车模文化赋能汽车消费新生态](https://culture.gmw.cn/2026-07/26/content_38908210.htm)** — _culture.gmw.cn_ · published 2026-07-26
   点击右上角微信好友 朋友圈 请使用浏览器分享功能进行分享 跨界新范式·文创新地标 ——北京汽车博物馆携手美驰图落地国内首家联名概念店，以车模文化赋能汽车消费新生态 光明网讯（见习记者 姜姝琪）7月26日，北京汽车博物馆与美驰图合作备忘录签约暨“像素车库——北京汽车博物馆×比美高联名概念店”启幕仪式在北京汽车博物馆举行。北京汽车博物馆党组书记、馆长刘井权，美昌
 - **[丰田凯美瑞月销1.7万优惠6万起，13万预算可入手！如何选配置？](https://vc.yiche.com/vplay/12309957.html)** — _vc.yiche.com_ · date: unknown
@@ -128,6 +128,20 @@ _Updated 2026-07-27 00:12 | discovery-only, zero LLM tokens | runs every 3h_
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 实拍星途揽月 C-DM 四驱舒适长途无压力 读卖汽车 9.79万起 全新海狮05DM-i 家用级SUV优选 大河汽车 明明只是机械故障，为何只能选择退赛？ 天府国际
 - **[吉利银河战舰 700](https://vc.yiche.com/vplay/12307759.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 老越野要废 新关中王来了 云游汽车 阿维塔 07L，智能辅助驾驶实测！ 懂车一姐 银河战舰700，吉利可不只是想玩玩而已 闪电花总 第五代传祺GS4来啦~全家出行超
+- **[如果帅是GT的第一门槛，比亚迪海豹06GT一定榜上有名](https://vc.yiche.com/vplay/12246131.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 12.89-18.68万 带保时捷女车主看理想L9 Livis，她竟然... 晚安看云 一公里仅花5分钱，上汽大通大拿超级增程开进蒲河大集 车市儿热搜 闪充+云辇，海豹06
+- **[真的可以吊打其他9系旗舰吗？比亚迪大唐真实试驾测评](https://vc.yiche.com/vplay/12275846.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 23.99-30.99万 丰田BZ WOODLAND：融合科幻外观与卓越性能的纯电新选择 红乌龙白衫150316 比亚迪大唐EV23.99万起，“大车”市场将重新洗牌？ 车
+- **[激光雷达上车，有纯电有增程！全新深蓝S05长这样](https://vc.yiche.com/vplay/12251787.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 11.99-17.99万 深蓝能买？”央企"新势力，全球销量超80万，深圳交强险限时免单！ 阿康爱玩车 全新一代问界M9为何成为50万级豪华SUV购车首选？ 车动力 深蓝S
+- **[低调大气的旗舰气场，蔚来ES8大五座版才是首选](https://vc.yiche.com/vplay/12310685.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 38.28-44.68万 48V轻混双动力 5.4秒破百+空气悬架 探店宝马X6 车视玩家 Ferrari 458 SpecialeA 柠檬导演小姐 实拍小鹏G6 纯电增程
+- **[东风奕派M8上市17.98万起，深度解析这台热门新车！](https://vc.yiche.com/vplay/12310622.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 17.98-21.98万 华为乾崑六件套+宁德高比能电池，东风奕派M8限时权益价16.58万起！选车一步到位！ EC汽车 华为乾崑六件套塞进20万的车？东风奕派M8你不看看
+- **[限时超级置换价10.69万起！奇瑞风云A9携655km续航来袭](https://vc.yiche.com/vplay/12310300.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 10.99-12.99万 近乎满分！风云A9L安全实力彻底封神 第壹台车 风云A9获德国红点设计奖，直接登上时装秀场 之乎车也 当奇瑞开始谈设计，风云A9交出一份怎样的答卷
+- **[三伏天开测星瑞 i](https://vc.yiche.com/vplay/12310797.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 9.87-14.67万 一公里仅花5分钱，上汽大通大拿超级增程开进蒲河大集 车市儿热搜 2026吉利汽车百城盛典暨万辆交车仪式郑州站 大河车市 张雪在弯道磨倔强，吉利在直道
 - **[“消费品以旧换新政策带动销售额超1.25万亿，新能源车换新占比激增”](https://www.d1ev.com/newsflash/308560)** — _www.d1ev.com_ · date: unknown
   今日，商务部最新数据显示，今年以来，消费品以旧换新政策累计带动相关商品销售额超过1.25万亿元，惠及1.69亿人次。其中，绿色产品尤其是新能源汽车受到市场青睐，6月份享受汽车以旧换新补贴的新能源车占比达到65.4%。智能消费领域也呈现出加速扩容的趋势，1—6月份，数码和智能产品销售量同比增长13.4%，6月单月增长更是高达32.0%，智能眼镜成为新的消费热点
 - **[德国内政部长：柏林汽车撞人事件疑似恐怖袭击](https://www.gelonghui.com/live/2572910)** — _www.gelonghui.com_ · published 2026-07-26
