@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-28 00:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-28 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-28 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **5109 unique auto/NEV articles** across **51 outlets**
+## Cumulative: **5115 unique auto/NEV articles** across **51 outlets**
 
 ## New per day
 | date | new articles |
@@ -60,14 +60,14 @@ _Updated 2026-07-28 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-25 | 68 |
 | 2026-07-26 | 70 |
 | 2026-07-27 | 148 |
-| 2026-07-28 | 16 |
+| 2026-07-28 | 22 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.d1ev.com | 1247 |
+| www.d1ev.com | 1249 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 352 |
+| vc.yiche.com | 355 |
 | auto.gasgoo.com | 265 |
 | 36kr.com | 253 |
 | www.stcn.com | 210 |
@@ -83,7 +83,7 @@ _Updated 2026-07-28 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 | www.yicai.com | 90 |
 | auto.caijing.com.cn | 59 |
 | www.zqrb.cn | 56 |
-| www.gelonghui.com | 46 |
+| www.gelonghui.com | 47 |
 | www.xinhuanet.com | 37 |
 | www.jwview.com | 34 |
 | finance.eastmoney.com | 33 |
@@ -119,7 +119,7 @@ _Updated 2026-07-28 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-28 — 16 articles
+### 2026-07-28 — 22 articles
 - **[大众集团中国交付量减少25.9%，密集推出本土化新品能否止住颓势？](https://36kr.com/p/3913771738453124)** — _36kr.com_ · published 2026-07-28
   大众集团中国交付量减少25.9%，密集推出本土化新品能否止住颓势？ 7月24日，大众集团发布2026年上半年业绩，其收入1581.02亿欧元，同比微降0.2%；营业利润59.31亿欧元，同比减少11.6%；税后利润31.03亿欧元，同比减少30.7%；营业利润率为3.8%，上年同期为4.2%；全球交付412.57万辆，同比减少6.3%。 同时，大众集团调整了
 - **[在英国，中国汽车销量已反超日韩](https://36kr.com/p/3913519784974215)** — _36kr.com_ · published 2026-07-28
@@ -143,10 +143,22 @@ _Updated 2026-07-28 00:12 | discovery-only, zero LLM tokens | runs every 3h_
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 6.29-9.79万 10个月13000公里用车总结，吉利银河A7是否值得吗？ 大榆说车 买混动怕油耗高？他也可以帮你！#吉尼斯2L油耗纪录保持者#第5代帝豪i-HEV智擎
 - **[第5代帝豪i](https://vc.yiche.com/vplay/12324874.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 6.29-9.79万 比丰田普锐斯还低12%！第五代帝豪i-HEV上市 国民家轿进入2L时代 汽车白话 再向上！第五代帝豪i-HEV智擎混动上市 大河车市 静态体验豪华科技
+- **[长城多款混动新车申报，不插电能便宜多少](https://vc.yiche.com/vplay/12264527.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 12.39-14.99万 “可城可野”的方盒子 新增潮电版车型 哈弗大狗 PLUS 新能源到底如何？ 天天汽车V 试驾岚图泰山X8，实力如何？ 宇宙出行指南 北京车展探馆，
+- **[丰田锋兰达落地参考+优缺点介绍，买前请知晓！](https://vc.yiche.com/vplay/12301690.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 13.28-17.28万 日产三杰对决？让我们聚焦HRV看看它的表现如何 LaneLine界线 10万级代步SUV探店锋兰达 专治新手停车难、用车成本高、后排拥挤难题 车视
+- **[6万级纯电车，东风纳米01和极狐贝塔T1，选谁更值？](https://vc.yiche.com/vplay/12287333.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 6.28-7.98万 极狐问道V9预售补贴价奔着20万去了！新能源中大型MPV热闹了 爽姐加个电 蔚来ET5T焕新 纯电旅行车升级 #蔚来 #2026北京车展 #蔚来ET5
 - **[中国工信部：全国累计发放智能网联汽车测试示范牌照超2万张](https://www.chinanews.com.cn/cj/2026/07-27/10667557.shtml)** — _www.chinanews.com.cn_ · published 2026-07-27
   中国工信部：全国累计发放智能网联汽车测试示范牌照超2万张 中新社北京7月27日电 (记者 刘亮)中国工信部装备工业一司司长郭守刚27日在北京介绍，中国智能网联汽车试点示范稳步推进，全国各地累计发放测试示范牌照超过2万张，开放测试示范道路超5.7万公里，累计测试超过2.2亿公里；20个“车路云一体化”试点城市部署各类智能化设备超6万套，服务各类车辆超过十万台。
 - **[德国柏林汽车撞人事件嫌疑人被警方击毙](https://www.chinanews.com.cn/gj/2026/07-27/10666971.shtml)** — _www.chinanews.com.cn_ · published 2026-07-27
   德国柏林汽车撞人事件嫌疑人被警方击毙 中新社柏林7月26日电 德国柏林警方26日晚确认，柏林市中心汽车冲撞人群事件嫌疑人在警方行动中被击毙。 警方通过社交媒体称，当天18时左右，警方在柏林施潘道区一处园区内发现嫌疑人。根据目前掌握的情况，嫌疑人手持锐器冲向执勤警员，警方随后开枪。尽管消防救援人员立即实施抢救，嫌疑人仍在现场死亡。 德国内政部长多布林特表示，目
+- **[极狐阿尔法T7内饰曝光，华为技术加持，增程纯电双版本来袭！](https://www.d1ev.com/newsflash/308710)** — _www.d1ev.com_ · date: unknown
+  近日，疑似全新极狐阿尔法T7的内饰谍照曝光，新车内饰设计眼熟，与小米YU7有相似之处。极狐阿尔法T7主打年轻市场，将提供纯电和增程动力版本，预计售价约20万元。车内采用环抱式风格，配备与小米YU7相似的天际屏设计，中控台下方设有空调出风口、手机无线充电面板和双杯架，同时提供电子怀档杆。 极狐阿尔法T7定位中大型五座SUV，长宽高分别为5020/1996/16
+- **[深蓝S05内饰升级：悬浮星舰设计+纯电增程双动力选择](https://www.d1ev.com/newsflash/308709)** — _www.d1ev.com_ · date: unknown
+  7月28日，深蓝汽车发布了深蓝S05的最新内饰官图，展示了其全新悬浮星舰设计。新车内饰提供星云紫、热浪橙、星岩灰三种颜色选择，并采用高级木纹理装饰面板。配置上，深蓝S05配备了三辐多功能方向盘、大尺寸悬浮中控屏、HUD抬头显示，以及手机无线充电、前排双杯架、电子怀挡设计。此外，新车还拥有256色悬浮式环抱氛围灯，支持随情景模式律动变化。 在空间方面，深蓝S0
+- **[快讯-格隆汇](https://www.gelonghui.com/live/2575241)** — _www.gelonghui.com_ · published 2026-07-28
+  申请认证 格隆汇公众号矩阵 格隆汇App 下载格隆汇APP 诊股宝App 下载诊股宝App 汇路演App 下载汇路演APP 极调研 加入我们 首页 社区 快讯 事件 深度 主题 专栏 行情 会员 数据 财富圈 文章 更多相关文章 快讯 更多相关快讯 查看全部股票/文章/快讯/事件/用户/财富圈搜索结果 热门股票 搜索历史 清空历史 登录 / 注册 温馨提示
 - **[聚焦产业变革前沿 2026世界智能网联汽车大会将于10月在京举办](https://www.stcn.com/article/detail/4043631.html)** — _www.stcn.com_ · date: unknown
   7月27日，2026世界智能网联汽车大会媒体圆桌会在北京召开。工业和信息化部装备工业一司、交通运输部科技司、北京市经济和信息化局、工业和信息化部装备工业发展中心、中国信息通信研究院、中国汽车工业协会、中国汽车工程学会、中汽中心等单位相关负责人和专家代表介绍有关情况。 世界智能网联汽车大会是我国首个经国务院批准的国家级智能网联汽车专业会议，自2018年起已连续
 - **[壹快评｜尹同跃“不再内卷”宣言，喊出汽车行业回归长期主义的心声](https://www.yicai.com/news/103294052.html)** — _www.yicai.com_ · date: unknown
