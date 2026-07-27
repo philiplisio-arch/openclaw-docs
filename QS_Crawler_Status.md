@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-27 21:15 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-28 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-27 21:15 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **5093 unique auto/NEV articles** across **51 outlets**
+## Cumulative: **5109 unique auto/NEV articles** across **51 outlets**
 
 ## New per day
 | date | new articles |
@@ -60,33 +60,34 @@ _Updated 2026-07-27 21:15 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-25 | 68 |
 | 2026-07-26 | 70 |
 | 2026-07-27 | 148 |
+| 2026-07-28 | 16 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.d1ev.com | 1247 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 346 |
-| auto.gasgoo.com | 264 |
-| 36kr.com | 251 |
-| www.stcn.com | 209 |
+| vc.yiche.com | 352 |
+| auto.gasgoo.com | 265 |
+| 36kr.com | 253 |
+| www.stcn.com | 210 |
 | www.caam.org.cn | 195 |
 | www.cnr.cn | 136 |
 | autodata.gasgoo.com | 134 |
 | egs.stcn.com | 132 |
-| news.yiche.com | 117 |
+| news.yiche.com | 119 |
 | www.cada.cn | 110 |
 | www.news.cn | 102 |
 | www.nbd.com.cn | 99 |
-| m.21jingji.com | 94 |
-| www.yicai.com | 89 |
+| m.21jingji.com | 95 |
+| www.yicai.com | 90 |
 | auto.caijing.com.cn | 59 |
 | www.zqrb.cn | 56 |
 | www.gelonghui.com | 46 |
 | www.xinhuanet.com | 37 |
 | www.jwview.com | 34 |
 | finance.eastmoney.com | 33 |
-| www.chinanews.com.cn | 27 |
+| www.chinanews.com.cn | 29 |
 | finance.people.com.cn | 25 |
 | cn.chinadaily.com.cn | 23 |
 | qzs.stcn.com | 19 |
@@ -117,6 +118,39 @@ _Updated 2026-07-27 21:15 | discovery-only, zero LLM tokens | runs every 3h_
 | culture.gmw.cn | 1 |
 
 ## Articles captured by day (newest first)
+
+### 2026-07-28 — 16 articles
+- **[大众集团中国交付量减少25.9%，密集推出本土化新品能否止住颓势？](https://36kr.com/p/3913771738453124)** — _36kr.com_ · published 2026-07-28
+  大众集团中国交付量减少25.9%，密集推出本土化新品能否止住颓势？ 7月24日，大众集团发布2026年上半年业绩，其收入1581.02亿欧元，同比微降0.2%；营业利润59.31亿欧元，同比减少11.6%；税后利润31.03亿欧元，同比减少30.7%；营业利润率为3.8%，上年同期为4.2%；全球交付412.57万辆，同比减少6.3%。 同时，大众集团调整了
+- **[在英国，中国汽车销量已反超日韩](https://36kr.com/p/3913519784974215)** — _36kr.com_ · published 2026-07-28
+  在英国，中国汽车销量已反超日韩 编者按： 2025年，中国车企在欧洲全年新车销量达81.1万辆，市场份额跃升至6.1%。今年 5 月，中国车企欧洲月度销量更是历史性反超日系。中国制造的电动车正从“边缘参与者”成长为欧洲汽车电动化转型的核心力量。 然而，销量数字背后，真实的出海图景远比报表复杂。关税壁垒、本土化博弈、消费认知的破冰与重塑……这些都无法在办公室里
+- **[现代汽车上半年营业利润同比下滑25.8%](https://auto.gasgoo.com/news/202607/27I70467510C109.shtml)** — _auto.gasgoo.com_ · date: unknown
+  盖世汽车讯 现代汽车于7月23日公布2026年第二季度及上半年经营业绩。尽管公司实现历史最高季度和上半年营收，但盈利能力显著承压。 数据显示，现代汽车第二季度合并营收为49.2153万亿韩元，同比增长1.9%，创下单季历史新高；但营业利润为2.8509万亿韩元，同比减少20.8%；营业利润率降至5.8%。同期全球销量为991,885辆，同比下降6.9%。其中
+- **[裁减约5万个岗位的计划仍在推进！大众财务总监坦言：中国车企出海带来竞争压力，公司应对措施不足](https://m.21jingji.com/article/20260727/herald/6a0ceed7842dd83ddce27bee145dcfaf.html)** — _m.21jingji.com_ · date: unknown
+  裁减约5万个岗位的计划仍在推进！大众财务总监坦言：中国车企出海带来竞争压力，公司应对措施不足 记者|刘曦 编辑|程鹏 余婷婷 杜恒峰 校对|梁露月 当地时间7月24日，大众汽车集团公布2026年上半年财报。受全球市场竞争加剧、成本压力上升以及市场需求变化等因素影响，大众汽车集团盈利能力显著回落，上半年税后利润同比下降超三成，全年业绩预期进一步承压。 财报显示
+- **[工信部：全国各地累计发放智能网联汽车测试示范牌照超2万张](https://news.yiche.com/zonghexinwen/20260727/21111810321.html)** — _news.yiche.com_ · date: unknown
+  推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 7月27日，据相关媒体报道，2026世界智能网联汽车大会将于2026年10月中旬在北京举办。工业和信息化部装备工业一司司长郭守刚表示，全国各地累计发放智能网联汽车测试示范牌照超过2万张。 同时，郭守
+- **[在英国，中国汽车销量已反超日韩｜出海欧洲①  07-27 02:39](https://news.yiche.com/guoji/20260727/14111804704.html)** — _news.yiche.com_ · date: unknown
+- **[又有新9系面世!置换价10.69万起，续航655公里，大空间轿跑](https://vc.yiche.com/vplay/12325077.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 10.99-12.99万 时代精英首选座驾！岚图泰山X8领衔全系亮相华中国际车展 璇姐探车 探店风云A9：这颜值这配置，谁顶得住？！ 高氏观市 当奇瑞开始谈设计，风云A9交
+- **[抢先试驾比亚迪大唐！用户硬核需求全听到，卖爆是必然？](https://vc.yiche.com/vplay/12324580.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 23.99-30.99万 20多万的福特智趣烈马！车顶一升变Loft，自带厨房+冷暖箱，还住啥酒店？ 智电趣驾 智能又灵活的全尺寸SUV！体验比亚迪大唐EV 中国汽车消费网
+- **[试驾问界M6增程版，优缺点都有哪些？纯电增程怎么选？](https://vc.yiche.com/vplay/12324405.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 22.98-29.98万 主打赛事基因，上市价比预售更优惠！领克07GT 14.58万起！ 枫行视界 沉浸式感受蔚来ES9的音响 小巷花店分享宝 新乐道L60整车购买19.
+- **[4.3秒破百！全尺寸SUV蔚来ES9是否值得入手？](https://vc.yiche.com/vplay/12320870.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 49.80-62.80万 新版本智驾体验总结：一个字——“顺” 近海小猫做饭花店 全网最细，全方位解析蔚来ES9车衣应该怎么贴 WangJohn 蔚来es9全新的辅助驾驶，
+- **[全球低耗王者，第5代帝豪i](https://vc.yiche.com/vplay/12324888.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 6.29-9.79万 10个月13000公里用车总结，吉利银河A7是否值得吗？ 大榆说车 买混动怕油耗高？他也可以帮你！#吉尼斯2L油耗纪录保持者#第5代帝豪i-HEV智擎
+- **[第5代帝豪i](https://vc.yiche.com/vplay/12324874.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 6.29-9.79万 比丰田普锐斯还低12%！第五代帝豪i-HEV上市 国民家轿进入2L时代 汽车白话 再向上！第五代帝豪i-HEV智擎混动上市 大河车市 静态体验豪华科技
+- **[中国工信部：全国累计发放智能网联汽车测试示范牌照超2万张](https://www.chinanews.com.cn/cj/2026/07-27/10667557.shtml)** — _www.chinanews.com.cn_ · published 2026-07-27
+  中国工信部：全国累计发放智能网联汽车测试示范牌照超2万张 中新社北京7月27日电 (记者 刘亮)中国工信部装备工业一司司长郭守刚27日在北京介绍，中国智能网联汽车试点示范稳步推进，全国各地累计发放测试示范牌照超过2万张，开放测试示范道路超5.7万公里，累计测试超过2.2亿公里；20个“车路云一体化”试点城市部署各类智能化设备超6万套，服务各类车辆超过十万台。
+- **[德国柏林汽车撞人事件嫌疑人被警方击毙](https://www.chinanews.com.cn/gj/2026/07-27/10666971.shtml)** — _www.chinanews.com.cn_ · published 2026-07-27
+  德国柏林汽车撞人事件嫌疑人被警方击毙 中新社柏林7月26日电 德国柏林警方26日晚确认，柏林市中心汽车冲撞人群事件嫌疑人在警方行动中被击毙。 警方通过社交媒体称，当天18时左右，警方在柏林施潘道区一处园区内发现嫌疑人。根据目前掌握的情况，嫌疑人手持锐器冲向执勤警员，警方随后开枪。尽管消防救援人员立即实施抢救，嫌疑人仍在现场死亡。 德国内政部长多布林特表示，目
+- **[聚焦产业变革前沿 2026世界智能网联汽车大会将于10月在京举办](https://www.stcn.com/article/detail/4043631.html)** — _www.stcn.com_ · date: unknown
+  7月27日，2026世界智能网联汽车大会媒体圆桌会在北京召开。工业和信息化部装备工业一司、交通运输部科技司、北京市经济和信息化局、工业和信息化部装备工业发展中心、中国信息通信研究院、中国汽车工业协会、中国汽车工程学会、中汽中心等单位相关负责人和专家代表介绍有关情况。 世界智能网联汽车大会是我国首个经国务院批准的国家级智能网联汽车专业会议，自2018年起已连续
+- **[壹快评｜尹同跃“不再内卷”宣言，喊出汽车行业回归长期主义的心声](https://www.yicai.com/news/103294052.html)** — _www.yicai.com_ · date: unknown
+  {{aisd}} AI生成 免责声明 近日，在奇瑞集团全球累计销量突破2000万辆之际，奇瑞集团董事长尹同跃公开发声：“2000万辆之后，我们不再参加内卷，不再只追求销量，而是要追求品牌向上，追求价值更大的创造，追求技术更多的突破，追求客户满意度更大的提升。”（见第一财经报道奇瑞尹同跃：2000万辆以后，我们不再参加内卷） 这番表态不止显示了尹同跃个人的清醒
 
 ### 2026-07-27 — 148 articles
 - **[触目惊心，60款车半年卖不出10台](https://36kr.com/p/3913174008370309)** — _36kr.com_ · published 2026-07-27
