@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-27 15:13 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-27 18:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-27 15:13 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **5039 unique auto/NEV articles** across **51 outlets**
+## Cumulative: **5064 unique auto/NEV articles** across **51 outlets**
 
 ## New per day
 | date | new articles |
@@ -59,25 +59,25 @@ _Updated 2026-07-27 15:13 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-24 | 180 |
 | 2026-07-25 | 68 |
 | 2026-07-26 | 70 |
-| 2026-07-27 | 94 |
+| 2026-07-27 | 119 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.d1ev.com | 1236 |
+| www.d1ev.com | 1239 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 334 |
+| vc.yiche.com | 343 |
 | auto.gasgoo.com | 256 |
-| 36kr.com | 249 |
-| www.stcn.com | 207 |
+| 36kr.com | 251 |
+| www.stcn.com | 208 |
 | www.caam.org.cn | 195 |
 | www.cnr.cn | 135 |
 | autodata.gasgoo.com | 134 |
-| egs.stcn.com | 130 |
-| news.yiche.com | 115 |
+| egs.stcn.com | 131 |
+| news.yiche.com | 117 |
 | www.cada.cn | 110 |
-| www.news.cn | 100 |
-| www.nbd.com.cn | 95 |
+| www.news.cn | 101 |
+| www.nbd.com.cn | 98 |
 | m.21jingji.com | 93 |
 | www.yicai.com | 88 |
 | auto.caijing.com.cn | 59 |
@@ -86,10 +86,10 @@ _Updated 2026-07-27 15:13 | discovery-only, zero LLM tokens | runs every 3h_
 | www.xinhuanet.com | 36 |
 | www.jwview.com | 34 |
 | finance.eastmoney.com | 33 |
-| www.chinanews.com.cn | 25 |
+| www.chinanews.com.cn | 27 |
 | finance.people.com.cn | 25 |
 | cn.chinadaily.com.cn | 23 |
-| qzs.stcn.com | 18 |
+| qzs.stcn.com | 19 |
 | m.ce.cn | 17 |
 | www.ceweekly.cn | 16 |
 | auto.ce.cn | 16 |
@@ -118,7 +118,7 @@ _Updated 2026-07-27 15:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-27 — 94 articles
+### 2026-07-27 — 119 articles
 - **[触目惊心，60款车半年卖不出10台](https://36kr.com/p/3913174008370309)** — _36kr.com_ · published 2026-07-27
   触目惊心，60款车半年卖不出10台 “月销量破万的车才40款，但半年销量不到10辆的竟然有60款，太夸张了。”前几天，上半年车型销量出炉后，身边的同行这样感慨道。 毕竟，今年上半年新车扎堆上市，热闹的景象之下，按理说畅销到爆款的车应该更多，滞销的车应该更少。而月销破万的爆款车数量还没有滞销的车多，难免让他大吃一惊。 据统计，上半年国内上市新车达到了701款（
 - **[电动自行车新国标下，九号需要新剧本](https://36kr.com/p/3913194034124164)** — _36kr.com_ · published 2026-07-27
@@ -129,6 +129,9 @@ _Updated 2026-07-27 15:13 | discovery-only, zero LLM tokens | runs every 3h_
   车企物理AI终落地，小鹏IRON开启小批量试产，理想年内发布 在新能源汽车竞争越发白热化之后，车企们也正在寻找下一个新的业务增长点。 造车新势力之一的小鹏，在具身智能业务领域就传来了新进展。 据媒体报道，小鹏的人形机器人近日已经在广州工厂开启了小批量生产，并且人形机器人的量产产线也进入了最后的联调阶段，意味着正式量产已进入了倒计时。 （图源：小鹏） 对于小鹏
 - **[AI推荐车型时在引用谁？](https://36kr.com/p/3913133920572803)** — _36kr.com_ · published 2026-07-27
   AI推荐车型时在引用谁？ 摘要 AI回答汽车问题时引用的信源，高度集中于汽车垂类媒体这一类平台。信源引用率TOP20平台中，汽车垂类媒体占77.2%，信源贡献率TOP20中占70.0%；且头部高度集中，排名靠前的几家垂类媒体与其后平台之间存在明显的量级差距。 集中不等于统一：五个主流AI平台的信源偏好差异明显，同一平台的PC端与APP端也可能不同。有的平台高
+- **[两年涌出十几家“第一股”，自动驾驶仍在为盈利搏命](https://36kr.com/p/3911899520832644)** — _36kr.com_ · date: unknown
+- **[从载人到载货，智驾公司挤进无人配送赛道](https://36kr.com/p/3913568305075591)** — _36kr.com_ · published 2026-07-27
+  从载人到载货，智驾公司挤进无人配送赛道 7月23日，卓驭科技举办常州工厂开业仪式，卓驭科技CEO沈劭劼现场表示，该工厂主要生产和检测智驾域控制器，未来将承接包括L4级智驾产品的新增订单，卓驭L4级无人智能物流车已经在部分城市开展试运营。 过去一段时间里，入局无人物流车市场的智驾公司还有不少： 佑驾创新与滴滴送货签署战略合作；轻舟智航与奇瑞商用车合作，联合开发
 - **[7月车市，有反转？](https://auto.gasgoo.com/news/202607/27I70467255C501.shtml)** — _auto.gasgoo.com_ · date: unknown
   6月靠半年度冲量撬动的小幅修复，让市场对7月走势多了几分反转期待。但进入传统淡季后，冲量透支效应叠加极端天气干扰，车市很快回归真实需求驱动的低平台运行。中国汽车流通协会乘用车市场信息联席分会（以下简称“乘联分会”）最新预判显示，7月狭义乘用车零售预计152万辆，环比下降5.1%，同比下滑16.8%。 图片来源：智己汽车 总量承压的底色之下，结构性裂变仍在加速
 - **[德国二季度插电式电动车市占率达37.7%](https://auto.gasgoo.com/news/202607/27I70467450C101.shtml)** — _auto.gasgoo.com_ · date: unknown
@@ -153,6 +156,8 @@ _Updated 2026-07-27 15:13 | discovery-only, zero LLM tokens | runs every 3h_
 - **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2081556815706476544)** — _autodata.gasgoo.com_ · date: unknown
 - **[北京汽车博物馆携手美驰图落地国内首家联名概念店，以车模文化赋能汽车消费新生态](https://culture.gmw.cn/2026-07/26/content_38908210.htm)** — _culture.gmw.cn_ · published 2026-07-26
   点击右上角微信好友 朋友圈 请使用浏览器分享功能进行分享 跨界新范式·文创新地标 ——北京汽车博物馆携手美驰图落地国内首家联名概念店，以车模文化赋能汽车消费新生态 光明网讯（见习记者 姜姝琪）7月26日，北京汽车博物馆与美驰图合作备忘录签约暨“像素车库——北京汽车博物馆×比美高联名概念店”启幕仪式在北京汽车博物馆举行。北京汽车博物馆党组书记、馆长刘井权，美昌
+- **[渤海汽车：购买资产并配套募资事项获证监会同意注册批复](https://egs.stcn.com/news/detail/2320234.html)** — _egs.stcn.com_ · date: unknown
+  人民财讯7月27日电，渤海汽车(600960)7月27日公告，公司拟通过发行股份及支付现金的方式购买北京海纳川汽车部件股份有限公司持有的北京北汽模塑科技有限公司51%的股权、海纳川安道拓（廊坊）座椅有限公司51%的股权、廊坊莱尼线束系统有限公司50%的股权并募集配套资金事项获得中国证监会同意注册批复。
 - **[小米澎程官宣定档7月30日 两款新车正式登场](https://finance.eastmoney.com/a/202607273821341195.html)** — _finance.eastmoney.com_ · date: unknown
   小米澎程官宣定档7月30日 两款新车正式登场 7月27日，小米澎程官方宣布，小米汽车技术发布会定档7月30日晚上7点。 据介绍，本次技术发布，主要介绍「小米昆仑技术架构」。其中包含：小米昆仑平台、小米昆仑超级增程、小米昆仑全域安全。 同时，小米澎程 N90 Max和小米澎程 N70 Max两款智能可变大空间SUV，将正式登场。 （文章来源：蓝鲸新闻） 7月2
 - **[合资车企跌破25%份额红线](https://finance.eastmoney.com/a/202607273821905327.html)** — _finance.eastmoney.com_ · date: unknown
@@ -165,8 +170,12 @@ _Updated 2026-07-27 15:13 | discovery-only, zero LLM tokens | runs every 3h_
   推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 7月27日，宝马集团公布了全新一代宝马X5更多信息，将在中国市场同时提供燃油和纯电版本。纯电版本命名为新世代宝马iX5，搭载新世代电驱技术与大圆柱电池，CLTC续航超1000公里。 全新一代宝马X5
 - **[比亚迪大汉最新官图 将于8月21日成都车展正式亮相](https://news.yiche.com/xinchexiaoxi/20260727/14111805475.html)** — _news.yiche.com_ · date: unknown
   推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 7月27日，比亚迪王朝网销售事业部总经理路天在社交媒体上发布了一组比亚迪大汉最新官图。作为比亚迪王朝网旗下全新D级旗舰轿车，大汉将于8月21日开幕的成都车展上正式亮相。 外观方面，比亚迪大汉传承比亚
+- **[广汽丰田：破除电车焦虑的“硬核”定心丸  07-27 03:44](https://news.yiche.com/xinchexiaoxi/20260727/15111806550.html)** — _news.yiche.com_ · date: unknown
+- **[全新红旗H7将于8月13日开启预售 搭载插电混动系统  07-27 02:15](https://news.yiche.com/xinchexiaoxi/20260727/14111803909.html)** — _news.yiche.com_ · date: unknown
 - **[中国新能源汽车“出海”提速，跨境车险如何破局？](https://qzs.stcn.com/article/detail/618732.html)** — _qzs.stcn.com_ · date: unknown
   作为“中国智造”的亮丽名片，我国新能源汽车“出海”进程持续提速，全球化布局不断深化。同时，智能驾驶技术迭代叠加多元跨境场景，车企在海外市场遭遇差异化车险准入门槛与投保困境。 近日，围绕如何顺应汽车产业出海大势、升级保险保障体系，更好赋能中国新能源汽车“走出去”，成为行业热议焦点。 “出海”提速下的保险难题 从2023年起，我国汽车出口已连续三年位列全球第一。
+- **[渤海汽车：购买资产并配套募资事项获证监会同意注册批复](https://qzs.stcn.com/article/detail/618963.html)** — _qzs.stcn.com_ · date: unknown
+  人民财讯7月27日电，渤海汽车(600960)7月27日公告，公司拟通过发行股份及支付现金的方式购买北京海纳川汽车部件股份有限公司持有的北京北汽模塑科技有限公司51%的股权、海纳川安道拓（廊坊）座椅有限公司51%的股权、廊坊莱尼线束系统有限公司50%的股权并募集配套资金事项获得中国证监会同意注册批复。
 - **[丰田凯美瑞月销1.7万优惠6万起，13万预算可入手！如何选配置？](https://vc.yiche.com/vplay/12309957.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 17.18-25.98万 凯美瑞售价降至12万，丰田似乎已耗尽最后的资本 鱼日光飞机961018 丰田凯美瑞：中型车市场的标杆与常青树，年轻消费者的首选车型 布丁代码070
 - **[顶配不到13万，风云A9打破新能源车价格壁垒](https://vc.yiche.com/vplay/12308578.html)** — _vc.yiche.com_ · date: unknown
@@ -207,6 +216,24 @@ _Updated 2026-07-27 15:13 | discovery-only, zero LLM tokens | runs every 3h_
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 抢先实拍｜神级代步小车-零跑A05 汽车Hero 出口转内销，比亚迪鲨鱼皮卡车型即将到来 LisaNantong 零跑A05：小姐姐的第一台车：好看、好开、好停，还
 - **[13万内家用纯电SUV探店 零跑B10配置全面越级](https://vc.yiche.com/vplay/12310076.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 9.98-14.98万 10万级价格50万级享受，零跑双车诚意上市 车评指南 阿维塔07L，隔音下功夫了！音响换华为了？ 高转青年 吊打所有新势力！零跑5月爆火，主力车型全
+- **[四缸仿赛+V4巡航！QJ这两款车型你们觉得怎么样?](https://vc.yiche.com/vplay/12319631.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 阿维塔 07L，智能辅助驾驶实测！ 懂车一姐 昊铂S600实测 "跑山王”专治远程焦虑 6月购车补贴上线! 科技新赛道 宝马iX3长轴距版，续航破9的续航王者 二喵说车 享
+- **[从荒滩造车到全球2000万，这才是中国车企全球化范本](https://vc.yiche.com/vplay/12317510.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 这才是男人该开的车，千扭电混皮卡，悍途PHEV #悍途PHEV #北京车展 千斤顶说车 2026北京车展 直击搭载华为乾崑舱内激光的全新深蓝S07 修车技工王师傅 更宽、更
+- **[试驾纯电轿跑风云A9 骨相美才是真高级](https://vc.yiche.com/vplay/12319309.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 10.99-12.99万 19.98万起，全新坦克300上市，到底变没变？ 车尚时刻 福特升顶房车，首选奇瑞瑞弗X500，大品牌更有保障 商务车那些事 一枚升降立标，打破百
+- **[少有的美貌与实力并存！试驾奇瑞风云A9](https://vc.yiche.com/vplay/12318539.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 10.99-12.99万 当奇瑞开始谈设计，风云A9交出一份怎样的答卷？ 答答买车 奇瑞风云A9，72小时大定1.8万台，俘获女性用户和年轻人 罗辑车评 奇瑞第2000万辆
+- **[限时10.69万起，续航655km，奇瑞风云A9超详细解析](https://vc.yiche.com/vplay/12318455.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 10.99-12.99万 探店风云A9：这颜值这配置，谁顶得住？！ 高氏观市 告别焦虑，拥抱山野乐趣，EZ-60 重新定义—驾享之旅 水滴汽车 车企办高定大秀？超模、主编齐
+- **[最美纯电轿跑 抢先试驾风云A9 实车质感绝了！](https://vc.yiche.com/vplay/12317839.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 10.99-12.99万 两地车牌卡罗拉旅行版展现出的高速行驶姿态 小狗月980623 颜值能打续航拉满，风云A9才是真卷王！ AutoVideo 香格里拉极限路况，岚图泰
+- **[限时10.69万起，风云A9能给纯电轿跑市场带来新活力吗？](https://vc.yiche.com/vplay/12317699.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 10.99-12.99万 极氪007单电机霸王 两年半苦练回归 油电局 试驾2027款星海V9，辅助驾驶配置升级，驾驶质感表现又如何？ 汽车网评 理想i9官宣了！ tian
+- **[比亚迪海豹08作为家用车，它合格吗？](https://vc.yiche.com/vplay/12316180.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 19.69-23.99万 20万级别给905km续航+闪充+后轮转向+空悬，要卷死友商？ 新车评 中国汽车，只剩6家？ 老船票子970810 19万多买中大型轿车！比亚迪海
+- **[这一届年轻人的Dream Car](https://vc.yiche.com/vplay/12316250.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 10.99-12.99万 车企办高定大秀？超模、主编齐蹲群，风云A9到底藏了什么大招？ 智行马力 探店风云A9 11万级纯电轿跑居然这么顶! 科技新赛道 全系标配800v，
 - **[柏林汽车撞人事件犯罪嫌疑人被警方击毙](https://world.gmw.cn/2026-07/27/content_38908666.htm)** — _world.gmw.cn_ · published 2026-07-27
   点击右上角微信好友 朋友圈 请使用浏览器分享功能进行分享 新华社柏林7月26日电 德国警方26日傍晚发布声明说，25日晚在柏林市中心制造汽车撞人事件的在逃嫌疑人已被警方击毙。 声明说，当地时间26日18时左右，柏林警方在施潘道区发现该嫌疑人。初步调查显示，嫌疑人当时手持利器冲向警员，被警方击毙。 25日晚，该嫌疑人驾驶一辆厢式货车在柏林市中心的蒂尔加滕公园附
 - **[·
@@ -215,6 +242,10 @@ _Updated 2026-07-27 15:13 | discovery-only, zero LLM tokens | runs every 3h_
     2026年5月汽车出口情况简析](https://www.caam.org.cn/chn/5/cate_39/con_5237221.html)** — _www.caam.org.cn_ · date: unknown
 - **[德国内政部长称柏林汽车撞人事件疑似恐怖袭击](https://www.chinanews.com.cn/gj/2026/07-27/10666972.shtml)** — _www.chinanews.com.cn_ · published 2026-07-27
   德国内政部长称柏林汽车撞人事件疑似恐怖袭击 中新社柏林7月26日电 德国联邦内政部长多布林特26日表示，柏林25日晚发生的汽车撞人事件疑似为一起恐怖袭击。 多布林特当日下午在新闻发布会上表示，目前掌握的所有迹象均指向这一结论。嫌疑人不仅将汽车作为武器，据称还曾持刀袭击路人。 多布林特表示，目前该事件造成1人遇难、29人受伤，其中多人伤势严重。目前犯罪嫌疑人仍
+- **[铂智7新增电池起火全担责，买纯电终于有了“定心丸”](https://www.chinanews.com.cn/cj/shipin/2026/07-27/news1063397.shtml)** — _www.chinanews.com.cn_ · published 2026-07-27
+  即时 时政 财经 同心 东西问 国际 社会 理论·评论 中国侨网 大湾区 文娱 体育 教育 法治 健康 生活 铸牢中华民族共同体意识 宗教 一带一路 中国—东盟商贸资讯平台 中国新闻周刊 国是直通车 创意 直播 视频 图片 专栏 各地 安徽 | 北京 | 重庆 | 福建 | 甘肃 | 贵州 | 广东 | 广西 | 海南 | 河北 | 河南 | 湖北 | 湖南
+- **[德国柏林汽车撞人事件已致1死16伤](https://www.chinanews.com.cn/gj/2026/07-26/10666841.shtml)** — _www.chinanews.com.cn_ · published 2026-07-26
+  德国柏林汽车撞人事件已致1死16伤 中新社柏林7月26日电(记者 马秀秀)德国柏林25日晚发生汽车撞人事件。根据警方26日凌晨通报，目前已造成一人死亡、16人受伤。 据警方通报，当日22时左右，一辆汽车在柏林蒂尔加滕公园区域撞倒多人，司机随后离开车辆并逃离现场。 死者为一名女子。消防部门表示，在16名伤者中，3人伤势危及生命，8人重伤。重伤及生命垂危人员均已
 - **[二手车交易量直逼新车 新能源车保值率提升](https://www.cnr.cn/2013qcpd/2015xc/20260727/t20260727_527731817.shtml)** — _www.cnr.cn_ · published 2026-07-27
   过去一段时间，二手车交易存在明显“柠檬市场”现象：信息不对称导致活跃度不高，甚至出现劣币驱逐良币。如今，这种状况正在悄然改变。2026年中国二手车大会上公布的数据显示，今年前5个月新车消费与二手车交易比例基本持平，二手车交易呈现加速发展势头。 放眼未来，二手车市场仍大有可为。中国汽车流通协会副会长罗磊指出，二手车行业长期向好的基本面没有变，庞大的汽车保有量构
 - **[跳出同质化泥潭，新能源车才有星辰大海](https://www.cnr.cn/2013qcpd/2015xc/20260727/t20260727_527731816.shtml)** — _www.cnr.cn_ · published 2026-07-27
@@ -261,6 +292,12 @@ _Updated 2026-07-27 15:13 | discovery-only, zero LLM tokens | runs every 3h_
   【TechWeb】面对中国汽车品牌在欧洲市场的迅猛攻势，大众集团首席执行官奥利弗·布鲁姆近日发出严厉警告，呼吁欧盟立即采取行动，将针对中国产汽车的额外关税覆盖范围扩大至插电混动车型（PHEV）。他直言，如果欧盟拖延决策，仅需一年时间，消费者习惯一旦固化，欧洲本土车企丢失的市场份额将面临永久性流失的风险。 政策“真空期”遭利用：中国插混在欧洲暴涨112% 目前
 - **[纯电续航超1000km 全新宝马X5国产版官图](https://www.d1ev.com/carnews/xinche/308630)** — _www.d1ev.com_ · date: unknown
   近日，全新一代宝马X5国产版官图正式发布。据悉，新车将于2027年正式上市，提供燃油版和纯电版可选。其中纯电版本基于800V高压架构打造，CLTC纯电续航里程超1000km。 外观部分，新车全面融入新世代设计理念，辨识度极高。前脸采用动态数字LED灯组，将日间行车灯与近光灯融为一体。另外，新车祸害提供“双斜线”与“双X”两种灯光图案供用户自由切换。 新车配色
+- **[国产智能座舱超越特斯拉，王高飞预测自动驾驶审批提速将助力出口增长](https://www.d1ev.com/newsflash/308675)** — _www.d1ev.com_ · date: unknown
+  近日，微博CEO王高飞（来去之间）在社交平台分享了他对国产汽车智能座舱与特斯拉 自动驾驶系统的看法。王高飞认为，国产汽车智能座舱的整体实力已经超越了特斯拉。他通过在纽约实测特斯拉FSDv14系统的经历指出，尽管该系统具备一定的自动驾驶能力，但在行驶过程中仍存在需要完善的问题，例如无法自主驶入HOV高乘载车道和路口突发倒车行为，全程需要人工随时准备接管。 王高
+- **[长鑫科技首日暴涨465%，蔚来李斌1.58亿战略投资浮盈7.4亿](https://www.d1ev.com/news/qiye/308671)** — _www.d1ev.com_ · date: unknown
+  【TechWeb】今日，国内存储芯片龙头长鑫科技（股票代码：688825）正式登陆科创板，上演了一场载入A股史册的资本首秀。上市首日，长鑫科技股价高开471.59%，开盘价报49.5元/股，盘中涨幅一度触及531.06%。截至收盘，股价报49元，涨幅达465%，总市值飙升至3.28万亿元，一举超越工商银行，成为A股市值最高的公司。 李斌现身上市答谢晚宴，1.
+- **[哪吒汽车南宁基地设备拍卖，债务危机下国资投入难收回](https://www.d1ev.com/newsflash/308670)** — _www.d1ev.com_ · date: unknown
+  7月27日，南宁市青秀区人民法院在阿里司法拍卖平台上开拍哪吒汽车南宁基地的全套生产机械设备，涉及467件整车制造设备，评估价和起拍价均为6030.79万元。这些设备属于合众新能源旗下两家南宁项目公司，位于伶俐工业园昌隆路厂区，包括冲压生产线、装配机械手、整车检测线等全套造车配套设备。拍卖的原因是多起债务执行案件，包括南宁本地企业因买卖纠纷申请执行4568万余
 - **[德国内政部长：柏林汽车撞人事件疑似恐怖袭击](https://www.gelonghui.com/live/2572910)** — _www.gelonghui.com_ · published 2026-07-26
   申请认证 格隆汇公众号矩阵 格隆汇App 下载格隆汇APP 诊股宝App 下载诊股宝App 汇路演App 下载汇路演APP 极调研 加入我们 首页 社区 快讯 事件 深度 主题 专栏 行情 会员 数据 财富圈 文章 更多相关文章 快讯 更多相关快讯 查看全部股票/文章/快讯/事件/用户/财富圈搜索结果 热门股票 搜索历史 清空历史 登录 / 注册 温馨提示
 - **[乘联分会秘书长崔东树：1](https://www.gelonghui.com/live/2573736)** — _www.gelonghui.com_ · published 2026-07-27
@@ -273,10 +310,18 @@ _Updated 2026-07-27 15:13 | discovery-only, zero LLM tokens | runs every 3h_
   每经网首页 > AI电视拆条 > 正文 每日经济新闻 2026-07-26 22:48:21 内容无需标注 如需转载请与《每日经济新闻》报社联系。未经《每日经济新闻》报社授权，严禁转载或镜像，违者必究。 读者热线：4008890008 特别提醒：如果我们使用了您的图片，请作者与本站联系索取稿酬。如您不希望作品出现在本站，可联系我们要求撤下您的作品。 上一篇文
 - **[我国乘用车首次实现碳足迹全覆盖；崔东树：上半年我国进口汽车20万辆](https://www.nbd.com.cn/articles/2026-07-26/4512341.html)** — _www.nbd.com.cn_ · published 2026-07-26
   2026-07-27 06:30:13 每经记者｜董天意 实习生 刘家怡 每经编辑｜余婷婷 | 2026年7月27日 星期一 | NO.1 我国乘用车首次实现碳足迹全覆盖 7月26日，据央视新闻报道，记者25日从中国汽车技术研究中心获悉，我国乘用车首次实现碳足迹全覆盖。中国汽车产业链碳公示平台最新数据显示，截至2026年7月，这一平台已收集全国92家乘用车企
+- **[利润率近十年腰斩至3.4%，中国汽车业进入“微利生存时代”](https://www.nbd.com.cn/articles/2026-07-27/4513898.html)** — _www.nbd.com.cn_ · published 2026-07-27
+  2026-07-27 15:35:10 每经记者｜黄辛旭 每经编辑｜余婷婷 汽车制造业利润率创下近十年新低。 中国汽车工业协会（以下简称中汽协）数据显示，2017年我国汽车制造业利润率为7.8%，如今已回落至3.4%——近十年间行业盈利水平连年走低，利润率腰斩。 “当下，国内有130多个汽车品牌，今年上半年有500多款新车投放，汽车制造业利润率持续走低。汽车
+- **[工信部检查埃安、小鹏，与电池故障有关？内部人士：没听说有必然关联，或是全行业督查](https://www.nbd.com.cn/articles/2026-07-27/4517087.html)** — _www.nbd.com.cn_ · published 2026-07-27
+  2026-07-27 17:43:19 每经记者｜孙磊 每经编辑｜余婷婷 近日，工业和信息化部（以下简称工信部）新闻中心官方账号工信微报发布消息称，为进一步规范汽车产业竞争秩序、提升汽车产品生产一致性和质量安全水平，工信部装备工业一司赴广汽埃安新能源汽车股份有限公司（以下简称广汽埃安）、肇庆小鹏新能源投资有限公司开展道路机动车辆生产企业产品安全保障能力和生产
+- **[大众汽车上半年交付量仅降6.3%、税后利润却跌超三成，财务总监坦言：中国车企出海施压欧洲，大众应对措施不足](https://www.nbd.com.cn/articles/2026-07-27/4517146.html)** — _www.nbd.com.cn_ · published 2026-07-27
+  2026-07-27 16:15:43 每经记者｜刘曦 每经编辑｜余婷婷 当地时间7月24日，大众汽车集团公布2026年上半年财报。受全球市场竞争加剧、成本压力上升以及市场需求变化等因素影响，大众汽车集团盈利能力显著回落，上半年税后利润同比下降超三成，全年业绩预期进一步承压。 财报显示，上半年，大众汽车集团实现营业总收入1581亿欧元，较去年同期的1584亿
 - **[柏林汽车撞人事件犯罪嫌疑人被警方击毙](https://www.news.cn/world/20260727/375d0f2eed0541fda9385d9bd2ffd106/c.html)** — _www.news.cn_ · published 2026-07-27
   新华社柏林7月26日电 德国警方26日傍晚发布声明说，25日晚在柏林市中心制造汽车撞人事件的在逃嫌疑人已被警方击毙。 声明说，当地时间26日18时左右，柏林警方在施潘道区发现该嫌疑人。初步调查显示，嫌疑人当时手持利器冲向警员，被警方击毙。 25日晚，该嫌疑人驾驶一辆厢式货车在柏林市中心的蒂尔加滕公园附近冲撞人群，随后疑似持械伤人，造成1人死亡、29人受伤。
 - **[柏林汽车撞人事件犯罪嫌疑人被警方击毙](https://www.news.cn/20260727/6808b7d695014929917dd4577b278111/c.html)** — _www.news.cn_ · published 2026-07-27
   新华社柏林7月26日电 德国警方26日傍晚发布声明说，25日晚在柏林市中心制造汽车撞人事件的在逃嫌疑人已被警方击毙。 声明说，当地时间26日18时左右，柏林警方在施潘道区发现该嫌疑人。初步调查显示，嫌疑人当时手持利器冲向警员，被警方击毙。 25日晚，该嫌疑人驾驶一辆厢式货车在柏林市中心的蒂尔加滕公园附近冲撞人群，随后疑似持械伤人，造成1人死亡、29人受伤。
+- **[千余台国产汽车从南京港出口中东](https://www.news.cn/photo/20260727/dac27ef6584f4b1daa6d01fad9f705ce/c.html)** — _www.news.cn_ · published 2026-07-27
+  7月26日，在南京港，准备出口的汽车驶入“安吉11”号滚装船（无人机照片）。 7月27日，在南京港出入境边防检查站等部门高效保障下，满载1175台国产汽车的“安吉11”号滚装船从江苏南京港出发直航沙特。这是南京港近一个月内第二次批量出口整装汽车。 新华社发（费伯俊摄）pagebreak 7月25日在南京港拍摄的等待装船的国产汽车（无人机照片）。 7月27日，
 - **[中国新能源汽车“出海”提速，跨境车险如何破局？](https://www.stcn.com/article/detail/4041956.html)** — _www.stcn.com_ · date: unknown
   作为“中国智造”的亮丽名片，我国新能源汽车“出海”进程持续提速，全球化布局不断深化。同时，智能驾驶技术迭代叠加多元跨境场景，车企在海外市场遭遇差异化车险准入门槛与投保困境。 近日，围绕如何顺应汽车产业出海大势、升级保险保障体系，更好赋能中国新能源汽车“走出去”，成为行业热议焦点。 “出海”提速下的保险难题 从2023年起，我国汽车出口已连续三年位列全球第一。
 - **[关键核心技术待突破 产能存结构性问题汽车产业亟待由规模扩张转向价值跃升](https://www.stcn.com/article/detail/4041912.html)** — _www.stcn.com_ · date: unknown
@@ -287,6 +332,8 @@ _Updated 2026-07-27 15:13 | discovery-only, zero LLM tokens | runs every 3h_
   “6月份合资加外资品牌的市场占比只剩24.5%。四分之一的份额，放在三年前没人敢信，今天就实实在在摆在眼前。”近日，在2026中国汽车论坛“新合资时代的品牌破局之道”主题论坛上，东风日产汽车销售有限公司副总经理王骞用这样一组数据开场。 这是中国汽车论坛品牌专题论坛举办七年以来，首次为合资品牌开设专场。这也与合资品牌在华的真实处境息息相关。 近五六年间，合资与
 - **[合资车企，跌破25%份额红线](https://www.stcn.com/article/detail/4042579.html)** — _www.stcn.com_ · date: unknown
   “6月份合资加外资品牌的市场占比只剩24.5%。四分之一的份额，放在三年前没人敢信，今天就实实在在摆在眼前。”近日，在2026中国汽车论坛“新合资时代的品牌破局之道”主题论坛上，东风日产汽车销售有限公司副总经理王骞用这样一组数据开场。 这是中国汽车论坛品牌专题论坛举办七年以来，首次为合资品牌开设专场。这也与合资品牌在华的真实处境息息相关。 近五六年间，合资与
+- **[渤海汽车：购买资产并配套募资事项获证监会同意注册批复](https://www.stcn.com/article/detail/4043358.html)** — _www.stcn.com_ · published 2026-07-24
+  证券时报网 李在山 2026-07-24 16:55 人民财讯7月27日电，渤海汽车(600960)7月27日公告，公司拟通过发行股份及支付现金的方式购买北京海纳川汽车部件股份有限公司持有的北京北汽模塑科技有限公司51%的股权、海纳川安道拓（廊坊）座椅有限公司51%的股权、廊坊莱尼线束系统有限公司50%的股权并募集配套资金事项获得中国证监会同意注册批复。
 - **[柏林汽车撞人事件犯罪嫌疑人被警方击毙](https://www.xinhuanet.com/20260727/6808b7d695014929917dd4577b278111/c.html)** — _www.xinhuanet.com_ · published 2026-07-27
   新华社柏林7月26日电 德国警方26日傍晚发布声明说，25日晚在柏林市中心制造汽车撞人事件的在逃嫌疑人已被警方击毙。 声明说，当地时间26日18时左右，柏林警方在施潘道区发现该嫌疑人。初步调查显示，嫌疑人当时手持利器冲向警员，被警方击毙。 25日晚，该嫌疑人驾驶一辆厢式货车在柏林市中心的蒂尔加滕公园附近冲撞人群，随后疑似持械伤人，造成1人死亡、29人受伤。
 - **[一场跨越16年的合作对话：看清中国汽车出海的话语权重构](https://www.yicai.com/news/103293153.html)** — _www.yicai.com_ · date: unknown
