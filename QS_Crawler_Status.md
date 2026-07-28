@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-29 00:11 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-29 03:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-29 00:11 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **5263 unique auto/NEV articles** across **51 outlets**
+## Cumulative: **5264 unique auto/NEV articles** across **51 outlets**
 
 ## New per day
 | date | new articles |
@@ -61,14 +61,14 @@ _Updated 2026-07-29 00:11 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-26 | 70 |
 | 2026-07-27 | 148 |
 | 2026-07-28 | 161 |
-| 2026-07-29 | 9 |
+| 2026-07-29 | 10 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.d1ev.com | 1278 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 380 |
+| vc.yiche.com | 381 |
 | auto.gasgoo.com | 280 |
 | 36kr.com | 260 |
 | www.stcn.com | 216 |
@@ -120,13 +120,15 @@ _Updated 2026-07-29 00:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-29 — 9 articles
+### 2026-07-29 — 10 articles
 - **[商务部：中方敦促土方尊重世贸组织专家组裁决 采取切实行动](https://cn.chinadaily.com.cn/a/202607/29/WS6a68d339a310d709c2fc0420.html)** — _cn.chinadaily.com.cn_ · published 2026-07-29
   7月28日，商务部条约法律司负责人就世贸组织发布我诉土耳其电动汽车和其他车辆限制措施世贸争端案专家组报告答记者问。 有记者问：日内瓦时间7月28日，世贸组织公布了中国诉土耳其电动汽车和其他车辆限制措施世贸争端案专家组报告。请问中方对此有何评论？ 答：我们注意到，世贸组织散发了中国诉土耳其电动汽车和其他车辆限制措施案（案件编号：DS629）专家组报告。专家组支
 - **[广汽埃安全新车系RAY官宣](https://egs.stcn.com/news/detail/2320784.html)** — _egs.stcn.com_ · published 2026-07-28
   首页 推荐 快讯 解读 股市 港股通 视听 专题 行情 数据 公众号 APP 电子报 您当前的位置： 证券时报·e公司 > 快讯 > 详情 广汽埃安全新车系RAY官宣 来源：人民财讯 作者：柚西 2026-07-28 22:56 Aa 大号字 人民财讯7月28日电，7月28日，广汽埃安官宣推出RAY全新车系，其首台车型为中大型纯电轿车Ray 7，将采用全新L
 - **[商务部条约法律司负责人就世贸组织发布我诉土耳其电动汽车和其他车辆限制措施世贸争端案专家组报告答记者问](https://egs.stcn.com/news/detail/2320790.html)** — _egs.stcn.com_ · date: unknown
   证券时报·e公司 钟恬 07-29 00:00 人民财讯7月28日电，商务部条约法律司负责人就世贸组织发布我诉土耳其电动汽车和其他车辆限制措施世贸争端案专家组报告答记者问。 有记者问：日内瓦时间7月28日，世贸组织公布了中国诉土耳其电动汽车和其他车辆限制措施世贸争端案专家组报告。请问中方对此有何评论？ 答：我们注意到，世贸组织散发了中国诉土耳其电动汽车和其他
+- **[埃安生日放狠招！这次不发新车，直接上新整车系？](https://vc.yiche.com/vplay/12330509.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 智界 V9实测：大车开出小车感，座椅按摩太上头 兔小黑Flymz 马自达EZ-60值得买吗？主要看这三点！ AUTO攻略 大湾区车展最懂钓鱼人的车！“中国钓王”天元邓刚共创
 - **[英官员称在英吉利海峡遭法军舰射击 法方暂无回应](https://www.cnr.cn/newscenter/sq/20260728/t20260728_527734994.shtml)** — _www.cnr.cn_ · published 2026-07-28
   当地时间28日，英国保守党影子内阁内政大臣克里斯·菲尔普在社交媒体发文称，当天，他乘船在英吉利海峡视察非法移民偷渡情况时，遭附近一艘法国军舰实弹射击。英国政府表示，已就此与法国方面联系，以了解事件具体情况。 据悉，菲尔普当时正在船上接受采访，一艘法国军舰从后方发射了17发实弹。菲尔普表示，“现场没有任何事先通知，也没有正在进行军事演习的公告。感觉像是警告射击
 - **[埃安发布全新车系Ray，打造年轻人的超级纯电轿车Ray 7](https://www.d1ev.com/carnews/xinche/308847)** — _www.d1ev.com_ · date: unknown
