@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-28 12:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-28 15:16 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-28 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **5150 unique auto/NEV articles** across **51 outlets**
+## Cumulative: **5193 unique auto/NEV articles** across **51 outlets**
 
 ## New per day
 | date | new articles |
@@ -60,35 +60,35 @@ _Updated 2026-07-28 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-25 | 68 |
 | 2026-07-26 | 70 |
 | 2026-07-27 | 148 |
-| 2026-07-28 | 57 |
+| 2026-07-28 | 100 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.d1ev.com | 1261 |
+| www.d1ev.com | 1265 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 364 |
-| auto.gasgoo.com | 265 |
-| 36kr.com | 254 |
-| www.stcn.com | 211 |
-| www.caam.org.cn | 195 |
+| vc.yiche.com | 369 |
+| auto.gasgoo.com | 276 |
+| 36kr.com | 255 |
+| www.stcn.com | 213 |
+| www.caam.org.cn | 196 |
+| autodata.gasgoo.com | 144 |
 | www.cnr.cn | 142 |
-| egs.stcn.com | 134 |
-| autodata.gasgoo.com | 134 |
-| news.yiche.com | 119 |
+| egs.stcn.com | 137 |
+| news.yiche.com | 120 |
 | www.cada.cn | 110 |
 | www.news.cn | 102 |
 | www.nbd.com.cn | 101 |
 | m.21jingji.com | 96 |
-| www.yicai.com | 90 |
+| www.yicai.com | 91 |
 | auto.caijing.com.cn | 59 |
 | www.zqrb.cn | 56 |
 | www.gelonghui.com | 47 |
 | www.xinhuanet.com | 37 |
 | www.jwview.com | 34 |
-| finance.eastmoney.com | 33 |
-| www.chinanews.com.cn | 29 |
-| finance.people.com.cn | 25 |
+| finance.eastmoney.com | 34 |
+| www.chinanews.com.cn | 31 |
+| finance.people.com.cn | 26 |
 | cn.chinadaily.com.cn | 23 |
 | qzs.stcn.com | 20 |
 | m.ce.cn | 17 |
@@ -119,18 +119,60 @@ _Updated 2026-07-28 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-28 — 57 articles
+### 2026-07-28 — 100 articles
 - **[大众集团中国交付量减少25.9%，密集推出本土化新品能否止住颓势？](https://36kr.com/p/3913771738453124)** — _36kr.com_ · published 2026-07-28
   大众集团中国交付量减少25.9%，密集推出本土化新品能否止住颓势？ 7月24日，大众集团发布2026年上半年业绩，其收入1581.02亿欧元，同比微降0.2%；营业利润59.31亿欧元，同比减少11.6%；税后利润31.03亿欧元，同比减少30.7%；营业利润率为3.8%，上年同期为4.2%；全球交付412.57万辆，同比减少6.3%。 同时，大众集团调整了
 - **[在英国，中国汽车销量已反超日韩](https://36kr.com/p/3913519784974215)** — _36kr.com_ · published 2026-07-28
   在英国，中国汽车销量已反超日韩 编者按： 2025年，中国车企在欧洲全年新车销量达81.1万辆，市场份额跃升至6.1%。今年 5 月，中国车企欧洲月度销量更是历史性反超日系。中国制造的电动车正从“边缘参与者”成长为欧洲汽车电动化转型的核心力量。 然而，销量数字背后，真实的出海图景远比报表复杂。关税壁垒、本土化博弈、消费认知的破冰与重塑……这些都无法在办公室里
 - **[8点1氪丨李斌现身长鑫科技答谢晚宴；瑞幸打赢“泰国瑞幸”，获赔近2000万；澳门政府发布美素佳儿奶粉铅超标事件最新检测结果](https://36kr.com/p/3914520847570307)** — _36kr.com_ · published 2026-07-28
   8点1氪丨李斌现身长鑫科技答谢晚宴；瑞幸打赢“泰国瑞幸”，获赔近2000万；澳门政府发布美素佳儿奶粉铅超标事件最新检测结果 今日热点导览 - 2026暑期档电影票房已突破57亿 - 茅台多地直营店：53度、500ml飞天茅台售价提至1719元/瓶 - 长鑫科技上市半日，7名高管晋升“10亿身家” - 巴西总统卢拉：美持续在关税上对巴施压系战略错误 - 苹果公
+- **[比亚迪超越丰田，就在2030？](https://36kr.com/p/3913862758208649)** — _36kr.com_ · published 2026-07-28
+  比亚迪超越丰田，就在2030？ “即便无法进入美国市场，比亚迪也有望在五年内从丰田手中抢走全球第一。” 这是比亚迪执行副总裁、海外业务负责人李珂在7月中旬接受欧洲媒体采访时的表态。 同样在7月中旬播出的在NHK电视台节目中，丰田汽车会长丰田章男表态，“公司内部对待中国竞争对手的傲慢态度必须停止”。甚至有一位丰田工程师认为，丰田汽车“正在输给中国”。 让人感觉
 - **[现代汽车上半年营业利润同比下滑25.8%](https://auto.gasgoo.com/news/202607/27I70467510C109.shtml)** — _auto.gasgoo.com_ · date: unknown
   盖世汽车讯 现代汽车于7月23日公布2026年第二季度及上半年经营业绩。尽管公司实现历史最高季度和上半年营收，但盈利能力显著承压。 数据显示，现代汽车第二季度合并营收为49.2153万亿韩元，同比增长1.9%，创下单季历史新高；但营业利润为2.8509万亿韩元，同比减少20.8%；营业利润率降至5.8%。同期全球销量为991,885辆，同比下降6.9%。其中
+- **[小鹏集团公布澳大利亚市场规划：2026年五款新车，2027年智驾落地](https://auto.gasgoo.com/news/202607/28I70467618C109.shtml)** — _auto.gasgoo.com_ · date: unknown
+  盖世汽车获悉 小鹏集团近日在墨尔本发布澳大利亚长期战略，涉及产品、渠道、售后及智能技术。 图片来源：小鹏汽车 产品方面，小鹏澳新计划六个月内推出五款全新车型，投放节奏与中国市场同步。旗舰车型X9已公布售价，澳大利亚8.99万澳元起，新西兰10.49万新西兰元起，现已开放预订。MONA L03右舵版确认于2026年第四季度上市，2026款G6及另外两款未公开车
+- **[最难堪的半年，中国汽车请绝地反击](https://auto.gasgoo.com/news/202607/28I70467597C108.shtml)** — _auto.gasgoo.com_ · date: unknown
+  “强渡湘江血如注，三军今日奔何处。” 伍修权的诗句，记录了红军长征损失最惨重的一幕。 1934年11月底，湘江战役五天血战，让中央红军从8.6万人锐减至3万余。当地百姓从此流传：“三年不饮湘江水，十年不食湘江鱼。” 2026年的中国汽车行业，正在经历自己的“湘江战役”。毫不夸张，中国国内车市，居然跌出了美国次贷危机的水平，同比降幅高达两成。 从本土车企，到全
+- **[【盖世快讯】小米汽车将发布昆仑架构；哪吒工厂全套生产设备被司法拍卖](https://auto.gasgoo.com/news/202607/28I70467525C501.shtml)** — _auto.gasgoo.com_ · date: unknown
+  车企动态 | OEM Trend 盖世汽车：小米汽车定于7月30日（本周四）晚7点举办技术发布活动，届时将介绍“小米昆仑技术架构”。该架构由昆仑平台、昆仑超级增程及昆仑全域安全三部分构成。本次发布活动中，两款智能可变大空间SUV将正式登场，分别为小米澎程N90 Max和N70 Max。 快科技：7月27日，理想汽车产品线负责人李昕旸披露理想i6最新量产进度：
+- **[Stellantis同意将Free2move汽车共享业务出售给Mutares](https://auto.gasgoo.com/news/202607/28I70467633C109.shtml)** — _auto.gasgoo.com_ · date: unknown
+  盖世汽车获悉，7月28日，Stellantis集团和Mutares SE&Co.KGaA（下称“Mutares”，ISIN：DE000A2NB650）宣布达成协议：将Stellantis集团Free2move的汽车共享业务全部股权出售给Mutares。取决于惯例成交条件，本交易预计将于2026年年底完成。 图片来源：Stellantis 此次出售的Free2
+- **[崔东树：没必要纠结国内车企最终会剩下几家](https://auto.gasgoo.com/news/202607/28I70467630C108.shtml)** — _auto.gasgoo.com_ · date: unknown
+  业内常年热议一个问题：激烈价格战与智能化重投入之下，国内车企最终会剩下多少家？ 中国汽车流通协会乘联分会负责人崔东树却有不同的研判逻辑。他明确提出，评判产业长期终局不能只看市面上有多少车标，企业是否具备完整自研体系、规模化产能与全球化配套能力才是核心衡量标准。 在他看来，电动化、智能化彻底重构产业底层逻辑，未来国内汽车产业会走出清晰分化路径：缺少全产业链支撑
+- **[上汽系人事调整，卢晓调任上汽乘用车，徐平接棒上汽通用](https://auto.gasgoo.com/news/202607/28I70467631C109.shtml)** — _auto.gasgoo.com_ · date: unknown
+  盖世汽车讯，7月28日，上汽集团旗下上汽乘用车、上汽通用两大乘用车板块宣布人事变动。卢晓调任上汽乘用车总经理，其上汽通用总经理一职由徐平接任。二人都长期扎根泛亚汽车技术中心，兼具研发、规划、经营复合能力。本次人事调整还实现了上汽自主、合资板块电动化经验互通。 根据上汽乘用车官方公告，原上汽乘用车总经理王骏拥有近四十年上汽全产业链从业经历，业务覆盖合资整车、自
+- **[奇瑞旗下iCAR V27将亮相GIIAS 2026](https://auto.gasgoo.com/news/202607/28I70467570C101.shtml)** — _auto.gasgoo.com_ · date: unknown
+- **[智能网联汽车累计测试超2.2亿公里，L2级辅助驾驶渗透率达70.5%](https://auto.gasgoo.com/news/202607/28I70467610C601.shtml)** — _auto.gasgoo.com_ · published 2026-07-27
+  2026年7月27日，世界智能网联汽车大会媒体圆桌会于北京召开。本届大会以“汇智聚能 网联无限——稳步迈进自动驾驶新时代”为主题，围绕产业关键节点与重大议题，共设置三场全体会议。 图片来源：花瓣网 会上，工业和信息化部装备工业一司司长郭守刚介绍了智能网联汽车测试示范的最新情况。截至目前，全国范围内已累计发放智能网联汽车测试示范牌照超过2万张，开放测试示范道路
+- **[广濑爱丽丝一笑，揭开了日本汽车最后的“遮羞布”](https://auto.gasgoo.com/news/202607/28I70467599C108.shtml)** — _auto.gasgoo.com_ · date: unknown
+  明黄的背景色下，身穿一袭红衣，有一只萌哒哒海獭作为搭档，日本国民级女神广濑爱丽丝露出她标志性的治愈式笑容，将比亚迪针对日本市场开发的最新力作RACCO（海獭）车型，介绍给了观众。 不久之前，比亚迪为了推动其最新的纯电“轻自动车”（K-Car）产品海獭在日上市，精心制作了一支电视广告片。从文案到场景，乃至于选角和妆容，全片的画风呈现高度日式风格，乍一看就与本田
+- **[沃尔沃韩国发布旗舰纯电轿车ES90](https://auto.gasgoo.com/news/202607/28I70467565C107.shtml)** — _auto.gasgoo.com_ · date: unknown
+- **[vivo数字车钥匙拓展广汽丰田适配 铂智7为首批支持车型](https://auto.gasgoo.com/news/202607/28I70467609C109.shtml)** — _auto.gasgoo.com_ · date: unknown
+  盖世汽车获悉 近日，vivo数字车钥匙功能完成对广汽丰田车型的适配工作，首批适用车型锁定为今年3月上市的纯电轿车铂智7。据官方信息，后续该品牌旗下更多车型也将逐步纳入支持范围。 图片来源：@OriginOS 至此，vivo数字车钥匙已覆盖包括别克、比亚迪、长安、吉利在内的多个汽车品牌，跨品牌兼容能力持续拓宽。 作为此次适配的先行车型，广汽丰田铂智7于3月29
+- **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2081918911875002368)** — _autodata.gasgoo.com_ · date: unknown
+- **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2081924417809170432)** — _autodata.gasgoo.com_ · date: unknown
+- **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2081927890776772608)** — _autodata.gasgoo.com_ · date: unknown
+- **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2081929117002510336)** — _autodata.gasgoo.com_ · date: unknown
+- **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2081622598239277056)** — _autodata.gasgoo.com_ · date: unknown
+- **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2081677494980333568)** — _autodata.gasgoo.com_ · date: unknown
+- **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2081677679970111488)** — _autodata.gasgoo.com_ · date: unknown
+- **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2081677754096046080)** — _autodata.gasgoo.com_ · date: unknown
+- **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2081909228418252800)** — _autodata.gasgoo.com_ · date: unknown
+- **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2081908898943090688)** — _autodata.gasgoo.com_ · date: unknown
 - **[12:07零跑汽车成立精密制造公司，含智能机器人的研发业务](https://egs.stcn.com/news/detail/2320531.html)** — _egs.stcn.com_ · date: unknown
 - **[【e线情报】智能网联汽车产业“十五五”规划将加快出台，自动驾驶技术产业化进程提速，该公司产品已在智能网联示范区域开展部署应用](https://egs.stcn.com/news/detail/2320352.html)** — _egs.stcn.com_ · published 2026-07-28
   首页 推荐 快讯 解读 股市 港股通 视听 专题 行情 数据 公众号 APP 电子报 您当前的位置： 证券时报·e公司 > vip > 详情 【e线情报】智能网联汽车产业“十五五”规划将加快出台，自动驾驶技术产业化进程提速，该公司产品已在智能网联示范区域开展部署应用 来源：证券时报·e公司 作者：e公司 2026-07-28 09:47 Aa 大号字 核心看
+- **[0人报名！哪吒汽车南宁工厂设备司法拍卖流拍！](https://egs.stcn.com/news/detail/2320545.html)** — _egs.stcn.com_ · date: unknown
+  证券时报 07-28 14:29 记者查阅阿里资产平台发现，此前被债权人申请破产重整的哪吒汽车，悄然开启了设备司法拍卖。 7月27日，南宁市青秀区人民法院在阿里司法拍卖平台，公开拍卖哪吒汽车南宁生产基地的全套整车制造机械设备，虽然有2100多人围观，不过0人报名，最后以流拍收场。 拍卖地址标注为南宁市青秀区伶俐镇昌隆路88号，这是哪吒汽车南宁生产基地所在地。
+- **[比亚迪计划今年8月发布人形机器人](https://egs.stcn.com/news/detail/2320573.html)** — _egs.stcn.com_ · date: unknown
+  证券时报 07-28 14:29 人民财讯7月28日电，近日，有消息称比亚迪人形机器人即将发布。7月28日，比亚迪方面回应记者称，比亚迪计划于8月在“迪空间”发布人形机器人。 7月25日，比亚迪迪空间微信公众号曾发布一张画有人形机器人的海报，并称“八月初，有个新朋友，想来认识你”。 海报介绍信息显示，“它不会带着一堆参数和名词出场，可能是你走近的时候，它微微
+- **[2026年上半年全国电动汽车充电设施快速发展 同比增长43.2%](https://egs.stcn.com/news/detail/2320595.html)** — _egs.stcn.com_ · date: unknown
+  证券时报 07-28 14:29 人民财讯7月28日电，7月28日，国家能源局发布2026年上半年全国电动汽车充电设施数据。根据国家充电设施监测服务平台数据，截至2026年6月底，我国电动汽车充电基础设施（枪）总数达到2305.7万个，同比增长43.2%。其中，公共充电设施（枪）500.9万个，同比增长22.3%；私人充电设施（枪）1804.8万个，同比增长
+- **[上汽通用、乘用车同日换帅 上汽集团两年后再掀人事风暴](https://finance.eastmoney.com/a/202607283823389838.html)** — _finance.eastmoney.com_ · date: unknown
+  7月28日，上汽通用和上汽乘用车几乎同时宣布换帅。执掌上汽通用汽车近两年的卢晓调任上汽乘用车总经理，原华域汽车总经理徐平接任上汽通用总经理。 一位接近上汽集团的知情人士向第一财经记者表示：“伴随此次人事调整的，还有多位上汽集团体系内‘一把手’。” 上汽集团将迎来两年来新一轮高管大换血。 回溯2024年，上汽完成集团顶层换届，王晓秋、贾健旭接棒后开启近十年力度
+- **[从“在中国”到“为全球” 汽车产业加速技术协作](https://finance.people.com.cn/n1/2026/0728/c1004-40769600.html)** — _finance.people.com.cn_ · published 2026-07-28
+  从“在中国”到“为全球” 汽车产业加速技术协作 点击播报本文，约 人民网北京7月28日电 （记者孙阳）7月22日，地平线与大众汽车集团正式宣布，通过CARIAD与地平线的合资公司酷睿程（CARIZON），大众汽车集团将进一步深化与地平线在AI基座大模型领域的技术合作。根据协议，酷睿程将基于白盒授权模式，依托地平线先进的AI基座大模型能力，自主开发并加速构建大
 - **[裁减约5万个岗位的计划仍在推进！大众财务总监坦言：中国车企出海带来竞争压力，公司应对措施不足](https://m.21jingji.com/article/20260727/herald/6a0ceed7842dd83ddce27bee145dcfaf.html)** — _m.21jingji.com_ · date: unknown
   裁减约5万个岗位的计划仍在推进！大众财务总监坦言：中国车企出海带来竞争压力，公司应对措施不足 记者|刘曦 编辑|程鹏 余婷婷 杜恒峰 校对|梁露月 当地时间7月24日，大众汽车集团公布2026年上半年财报。受全球市场竞争加剧、成本压力上升以及市场需求变化等因素影响，大众汽车集团盈利能力显著回落，上半年税后利润同比下降超三成，全年业绩预期进一步承压。 财报显示
 - **[李斌又赢麻了？蔚来1.58亿战略投资长鑫科技，首日浮盈超7亿](https://m.21jingji.com/article/20260728/herald/434311fef0608bac5b9113479a2745fd.html)** — _m.21jingji.com_ · published 2026-07-28
@@ -138,6 +180,8 @@ _Updated 2026-07-28 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 - **[工信部：全国各地累计发放智能网联汽车测试示范牌照超2万张](https://news.yiche.com/zonghexinwen/20260727/21111810321.html)** — _news.yiche.com_ · date: unknown
   推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 7月27日，据相关媒体报道，2026世界智能网联汽车大会将于2026年10月中旬在北京举办。工业和信息化部装备工业一司司长郭守刚表示，全国各地累计发放智能网联汽车测试示范牌照超过2万张。 同时，郭守
 - **[在英国，中国汽车销量已反超日韩｜出海欧洲①  07-27 02:39](https://news.yiche.com/guoji/20260727/14111804704.html)** — _news.yiche.com_ · date: unknown
+- **[上汽通用汽车宣布高层人事变动 徐平担任总经理](https://news.yiche.com/zonghexinwen/20260728/14111830974.html)** — _news.yiche.com_ · date: unknown
+  推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 7月28日，上汽通用汽车宣布高层人事变动，徐平接替卢晓担任上汽通用汽车总经理。原华域汽车系统股份有限公司总经理徐平担任上汽通用汽车总经理。 据官方介绍，在上汽集团体系内，徐平还曾担任上汽集团技术中心
 - **[零跑汽车成立精密制造公司，含智能机器人的研发业务](https://qzs.stcn.com/article/detail/619220.html)** — _qzs.stcn.com_ · date: unknown
   人民财讯7月28日电，企查查APP显示，近日，湖州凌昇精密制造有限公司成立，法定代表人为巫存，注册资本为2.1亿元，经营范围包含：汽车零部件及配件制造；电子元器件制造；电动机制造；工业机器人制造；智能机器人的研发等。企查查股权穿透显示，该公司由零跑汽车旗下浙江凌昇动力科技有限公司全资持股。
 - **[又有新9系面世!置换价10.69万起，续航655公里，大空间轿跑](https://vc.yiche.com/vplay/12325077.html)** — _vc.yiche.com_ · date: unknown
@@ -176,10 +220,26 @@ _Updated 2026-07-28 12:12 | discovery-only, zero LLM tokens | runs every 3h_
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 23.99-30.99万 23.99万起!比亚迪大唐便宜吗?有何套路?买哪款更值? wananhui 拆椅见真章！星途ET5家用智驾优选 车大拿TV 空气悬架+后轮转向，2
 - **[新手开小鹏P7四驱版下赛道？结果一个字](https://vc.yiche.com/vplay/12328696.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 20.38-30.18万 合资PK新势力，丰田铂智7对比小鹏P7，20万级纯电轿车怎么选？ 评车青年 2022年，您还会选择小鹏P7这款新能源车型吗？ yalena 新能源
+- **[不用充电的省油全能家轿，探店吉利第5代帝豪i](https://vc.yiche.com/vplay/12329466.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 6.29-9.79万 2026年我劝你买这台油车，6.19万买一个抄底的机会不多了 水滴汽车 7.89万起 吉利帝豪i-HEV智擎混动重庆上市 辣些车事 第一视角体验吉利帝
+- **[欣哲快评丨2000匹莲花纯电空力跑车Evija 英国赛道体验](https://vc.yiche.com/vplay/12329410.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 停售 CEA架构首款车型量产，与众07带来了哪些惊喜？ 冀大大选车 柴油版江铃驭胜S350 成就的白桦树1341 香格里拉极限路况，岚图泰山X8稳稳通行 annazihan
+- **[奇瑞风云A9性价比是真高，但好开嘛？](https://vc.yiche.com/vplay/12329361.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 10.99-12.99万 智己ls9hyper体验试驾的一天 ashley 上汽大众ID.家族又来王炸，5S智驾灯语势能拉满 未知车域 角斗士组队发现重装穿越 辉煌的树袋熊
+- **[日供约45元，蔚来萤火虫寻光值得入手吗？](https://vc.yiche.com/vplay/12328703.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 11.98-13.33万 零跑C16电动把手对比效果展示出色。 JimHubei 捷途首款纯电方盒子来了！2.5米大床+四驱，城市户外两头爽！ 电车学姐kk 谁在撬动北美电
+- **[A级新能源SUV年中大盘点，为什么说埃安i60最懂中国家庭？](https://vc.yiche.com/vplay/12328556.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 10.28-13.58万 华为智驾+三电机3.7秒破百！阿维塔07L有多香？ 客代表AUTO 5月销量再破万，埃安i60这次升级宁德版值得买吗？ 答答买车 新款享界S9来了
+- **[2026世界智能网联汽车大会媒体圆桌会在北京召开](https://www.caam.org.cn/chn/8/cate_82/con_5237252.html)** — _www.caam.org.cn_ · published 2026-07-28
+  发布时间：2026-07-28 来源：世界智能网联汽车大会 7月27日，2026世界智能网联汽车大会媒体圆桌会在北京召开。工业和信息化部装备工业一司司长郭守刚，交通运输部科技司副司长翁优灵，北京市经济和信息化局副局长苏国斌，工业和信息化部装备工业发展中心主任、世界智能网联汽车大会组委会秘书长瞿国春，中国汽车工业协会副会长兼秘书长付炳锋，中国汽车工程学会副秘书
 - **[中国工信部：全国累计发放智能网联汽车测试示范牌照超2万张](https://www.chinanews.com.cn/cj/2026/07-27/10667557.shtml)** — _www.chinanews.com.cn_ · published 2026-07-27
   中国工信部：全国累计发放智能网联汽车测试示范牌照超2万张 中新社北京7月27日电 (记者 刘亮)中国工信部装备工业一司司长郭守刚27日在北京介绍，中国智能网联汽车试点示范稳步推进，全国各地累计发放测试示范牌照超过2万张，开放测试示范道路超5.7万公里，累计测试超过2.2亿公里；20个“车路云一体化”试点城市部署各类智能化设备超6万套，服务各类车辆超过十万台。
 - **[德国柏林汽车撞人事件嫌疑人被警方击毙](https://www.chinanews.com.cn/gj/2026/07-27/10666971.shtml)** — _www.chinanews.com.cn_ · published 2026-07-27
   德国柏林汽车撞人事件嫌疑人被警方击毙 中新社柏林7月26日电 德国柏林警方26日晚确认，柏林市中心汽车冲撞人群事件嫌疑人在警方行动中被击毙。 警方通过社交媒体称，当天18时左右，警方在柏林施潘道区一处园区内发现嫌疑人。根据目前掌握的情况，嫌疑人手持锐器冲向执勤警员，警方随后开枪。尽管消防救援人员立即实施抢救，嫌疑人仍在现场死亡。 德国内政部长多布林特表示，目
+- **[上半年汽车行业利润下降近2成 多重压力下企业业绩分化](https://www.chinanews.com.cn/cj/2026/07-28/10667843.shtml)** — _www.chinanews.com.cn_ · published 2026-07-28
+  上半年汽车行业利润下降近2成 多重压力下企业业绩分化 2026年上半年，中国汽车行业业绩喜忧参半。7月27日，国家统计局发布的1至6月工业企业利润数据显示，1至6月汽车制造业实现营业收入51893.2亿元，同比增长1.8%；但利润总额仅为1953.5亿元，同比下降19.5%，营业收入利润率降至3.8%。业内专家表示，原材料成本持续提升、汇率波动、市场竞争加剧
+- **[村咖火爆、新能源汽车下乡 乡村消费也可以很时尚](https://www.chinanews.com.cn/cj/2026/07-28/10667830.shtml)** — _www.chinanews.com.cn_ · published 2026-07-28
+  村咖火爆、新能源汽车下乡 乡村消费也可以很时尚 乡村消费也可以很时尚 消费是观察农业农村经济的一个窗口。2025年乡村消费品零售额达6.8万亿元，增长4.1%，增速比城镇快0.5个百分点。最新数据显示，今年上半年乡村消费品零售额为33216亿元，增长2.5%，高于城镇增速1.3个百分点。乡村消费的韧性持续凸显，成为扩大内需的重要力量。 乡村消费保持强劲增长，
 - **[新能源车电池泡水报废 法院判保险公司全赔](https://www.cnr.cn/2013qcpd/2015xc/20260728/t20260728_527733586.shtml)** — _www.cnr.cn_ · published 2026-07-28
   记者 聂国春 传统汽车被淹或涉水损坏发动机，保险均要赔付。那么，新能源汽车电池被泡水该如何理赔呢？近日，北京金融法院公布了一起典型案例，该案例中车主最终拿到了全损理赔。 案情显示，在保险期内，张先生驾驶他的新能源汽车在积水路段行驶时发生事故。保险公司接到报案后派人到现场查勘，并同意由维修店对锂离子动力电池进行拆解定损。维修店随后出具了报价单，列明需要更换动力
 - **[新能源汽车下乡带来深刻变革](https://www.cnr.cn/2013qcpd/2015xc/20260728/t20260728_527733585.shtml)** — _www.cnr.cn_ · published 2026-07-28
@@ -220,6 +280,14 @@ _Updated 2026-07-28 12:12 | discovery-only, zero LLM tokens | runs every 3h_
   7月28日，据外媒BMWBlog报道，宝马计划于2028年推出i4敞篷版，内部代号为“NA3”。这将是宝马首款量产的纯电动四座敞篷车，也是新世代3系家族的新成员。i4敞篷版从立项之初便作为一款纯电车型开发，因此无需迁就 发动机、 变速箱等燃油车机械结构，理论上可以优化车轮布置和轴距，以扩大乘坐空间。 i4敞篷版预计将沿用现款4系敞篷的软顶结构，而非F33时代
 - **[中国汽车行业利润率连年下滑，上半年仅3.8%，车企面临上游成本挤压](https://www.d1ev.com/newsflash/308759)** — _www.d1ev.com_ · date: unknown
   7月28日，乘联分会披露的数据显示，2026年上半年中国汽车行业利润率为3.8%，利润总额1954亿元，同比下降20%，低于下游工业企业6.5%的利润率平均水平。上半年中国汽车生产量为1510万辆，同比下降4%；行业收入51893亿元，同比增长1.8%；成本46100亿元，同比增长2.8%。单车收入34.4万元，同比增长5%，单车成本30.5万元，同比增长6
+- **[上汽系人事调整，卢晓调任上汽乘用车，徐平接棒上汽通用](https://www.d1ev.com/news/qiye/308776)** — _www.d1ev.com_ · date: unknown
+  盖世汽车讯，7月28日，上汽集团旗下上汽乘用车、上汽通用两大乘用车板块宣布人事变动。卢晓调任上汽乘用车总经理，其上汽通用总经理一职由徐平接任。二人都长期扎根泛亚汽车技术中心，兼具研发、规划、经营复合能力。本次人事调整还实现了上汽自主、合资板块电动化经验互通。 根据上汽乘用车官方公告，原上汽乘用车总经理王骏拥有近四十年上汽全产业链从业经历，业务覆盖合资整车、自
+- **[崔东树：没必要纠结国内车企最终会剩下几家](https://www.d1ev.com/news/shichang/308798)** — _www.d1ev.com_ · date: unknown
+  业内常年热议一个问题：激烈价格战与智能化重投入之下，国内车企最终会剩下多少家？ 中国汽车流通协会乘联分会负责人崔东树却有不同的研判逻辑。他明确提出，评判产业长期终局不能只看市面上有多少车标，企业是否具备完整自研体系、规模化产能与全球化配套能力才是核心衡量标准。 在他看来，电动化、智能化彻底重构产业底层逻辑，未来国内汽车产业会走出清晰分化路径：缺少全产业链支撑
+- **[Stellantis同意将Free2move汽车共享业务出售给Mutares](https://www.d1ev.com/news/shichang/308797)** — _www.d1ev.com_ · date: unknown
+  盖世汽车获悉，7月28日，Stellantis集团和Mutares SE&Co.KGaA（下称“Mutares”，ISIN：DE000A2NB650）宣布达成协议：将Stellantis集团Free2move的汽车共享业务全部股权出售给Mutares。取决于惯例成交条件，本交易预计将于2026年年底完成。 图片来源：Stellantis 此次出售的Free2
+- **[沃尔沃“556”项目曝光：吉利全力支持打造旗舰D级轿车](https://www.d1ev.com/newsflash/308789)** — _www.d1ev.com_ · date: unknown
+  今日，沃尔沃被曝正在筹备推出内部代号为“556”的全新D级超豪华旗舰轿车，该车型定位对标尊界S800，预计将超越在售S90车型，成为沃尔沃规格最高的轿车产品。这款新车拟定为中国专属车型，将采用与XC70等车型相同的联合开发模式，沃尔沃中国负责产品定义、把控安全标准与整车认证等，而三电开发、整车工程及供应链等则由吉利中国研发团队负责。 代号“556”的新车，将
 - **[快讯-格隆汇](https://www.gelonghui.com/live/2575241)** — _www.gelonghui.com_ · published 2026-07-28
   申请认证 格隆汇公众号矩阵 格隆汇App 下载格隆汇APP 诊股宝App 下载诊股宝App 汇路演App 下载汇路演APP 极调研 加入我们 首页 社区 快讯 事件 深度 主题 专栏 行情 会员 数据 财富圈 文章 更多相关文章 快讯 更多相关快讯 查看全部股票/文章/快讯/事件/用户/财富圈搜索结果 热门股票 搜索历史 清空历史 登录 / 注册 温馨提示
 - **[中国汽车业利润率近十年腰斩至3.4%！中汽协副会长：国内现有130多个汽车品牌，上半年500多款新车投放市场，竞争激烈](https://www.nbd.com.cn/articles/2026-07-28/4517978.html)** — _www.nbd.com.cn_ · published 2026-07-28
@@ -230,8 +298,14 @@ _Updated 2026-07-28 12:12 | discovery-only, zero LLM tokens | runs every 3h_
   7月27日，2026世界智能网联汽车大会媒体圆桌会在北京召开。工业和信息化部装备工业一司、交通运输部科技司、北京市经济和信息化局、工业和信息化部装备工业发展中心、中国信息通信研究院、中国汽车工业协会、中国汽车工程学会、中汽中心等单位相关负责人和专家代表介绍有关情况。 世界智能网联汽车大会是我国首个经国务院批准的国家级智能网联汽车专业会议，自2018年起已连续
 - **[零跑汽车成立精密制造公司，含智能机器人的研发业务](https://www.stcn.com/article/detail/4044483.html)** — _www.stcn.com_ · published 2026-07-22
   证券时报网 2026-07-22 08:50 人民财讯7月28日电，企查查APP显示，近日，湖州凌昇精密制造有限公司成立，法定代表人为巫存，注册资本为2.1亿元，经营范围包含：汽车零部件及配件制造；电子元器件制造；电动机制造；工业机器人制造；智能机器人的研发等。企查查股权穿透显示，该公司由零跑汽车旗下浙江凌昇动力科技有限公司全资持股。
+- **[比亚迪计划今年8月发布人形机器人](https://www.stcn.com/article/detail/4044599.html)** — _www.stcn.com_ · published 2026-07-18
+  证券时报网 李在山 2026-07-18 11:28 人民财讯7月28日电，近日，有消息称比亚迪人形机器人即将发布。7月28日，比亚迪方面回应记者称，比亚迪计划于8月在“迪空间”发布人形机器人。 7月25日，比亚迪迪空间微信公众号曾发布一张画有人形机器人的海报，并称“八月初，有个新朋友，想来认识你”。 海报介绍信息显示，“它不会带着一堆参数和名词出场，可能是
+- **[0人报名！哪吒汽车南宁工厂设备司法拍卖流拍！](https://www.stcn.com/article/detail/4044514.html)** — _www.stcn.com_ · published 2026-07-27
+  澎湃新闻 2026-07-27 19:28 记者查阅阿里资产平台发现，此前被债权人申请破产重整的哪吒汽车，悄然开启了设备司法拍卖。 7月27日，南宁市青秀区人民法院在阿里司法拍卖平台，公开拍卖哪吒汽车南宁生产基地的全套整车制造机械设备，虽然有2100多人围观，不过0人报名，最后以流拍收场。 拍卖地址标注为南宁市青秀区伶俐镇昌隆路88号，这是哪吒汽车南宁生产基
 - **[壹快评｜尹同跃“不再内卷”宣言，喊出汽车行业回归长期主义的心声](https://www.yicai.com/news/103294052.html)** — _www.yicai.com_ · date: unknown
   {{aisd}} AI生成 免责声明 近日，在奇瑞集团全球累计销量突破2000万辆之际，奇瑞集团董事长尹同跃公开发声：“2000万辆之后，我们不再参加内卷，不再只追求销量，而是要追求品牌向上，追求价值更大的创造，追求技术更多的突破，追求客户满意度更大的提升。”（见第一财经报道奇瑞尹同跃：2000万辆以后，我们不再参加内卷） 这番表态不止显示了尹同跃个人的清醒
+- **[上汽通用、乘用车同日换帅，上汽集团两年后再掀人事风暴](https://www.yicai.com/news/103294968.html)** — _www.yicai.com_ · date: unknown
+  {{aisd}} AI生成 免责声明 7月28日，上汽通用和上汽乘用车几乎同时宣布换帅。执掌上汽通用汽车近两年的卢晓调任上汽乘用车总经理，原华域汽车总经理徐平接任上汽通用总经理。 一位接近上汽集团的知情人士向第一财经记者表示：“伴随此次人事调整的，还有多位上汽集团体系内‘一把手’。” 上汽集团将迎来两年来新一轮高管大换血。 回溯2024年，上汽完成集团顶层换
 
 ### 2026-07-27 — 148 articles
 - **[触目惊心，60款车半年卖不出10台](https://36kr.com/p/3913174008370309)** — _36kr.com_ · published 2026-07-27
