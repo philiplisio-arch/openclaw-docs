@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-29 03:11 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-29 06:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-29 03:11 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **5264 unique auto/NEV articles** across **51 outlets**
+## Cumulative: **5266 unique auto/NEV articles** across **51 outlets**
 
 ## New per day
 | date | new articles |
@@ -61,7 +61,7 @@ _Updated 2026-07-29 03:11 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-26 | 70 |
 | 2026-07-27 | 148 |
 | 2026-07-28 | 161 |
-| 2026-07-29 | 10 |
+| 2026-07-29 | 12 |
 
 ## By outlet
 | outlet | articles |
@@ -78,11 +78,11 @@ _Updated 2026-07-29 03:11 | discovery-only, zero LLM tokens | runs every 3h_
 | egs.stcn.com | 140 |
 | news.yiche.com | 124 |
 | www.cada.cn | 110 |
-| www.nbd.com.cn | 106 |
+| www.nbd.com.cn | 107 |
 | www.news.cn | 104 |
 | m.21jingji.com | 96 |
 | www.yicai.com | 94 |
-| auto.caijing.com.cn | 59 |
+| auto.caijing.com.cn | 60 |
 | www.zqrb.cn | 57 |
 | www.gelonghui.com | 49 |
 | www.xinhuanet.com | 38 |
@@ -120,7 +120,8 @@ _Updated 2026-07-29 03:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-29 — 10 articles
+### 2026-07-29 — 12 articles
+- **[广汽埃安推全新车系"Ray"，定位面向年轻人](https://auto.caijing.com.cn/2026/0728/5173993.shtml)** — _auto.caijing.com.cn_ · date: unknown
 - **[商务部：中方敦促土方尊重世贸组织专家组裁决 采取切实行动](https://cn.chinadaily.com.cn/a/202607/29/WS6a68d339a310d709c2fc0420.html)** — _cn.chinadaily.com.cn_ · published 2026-07-29
   7月28日，商务部条约法律司负责人就世贸组织发布我诉土耳其电动汽车和其他车辆限制措施世贸争端案专家组报告答记者问。 有记者问：日内瓦时间7月28日，世贸组织公布了中国诉土耳其电动汽车和其他车辆限制措施世贸争端案专家组报告。请问中方对此有何评论？ 答：我们注意到，世贸组织散发了中国诉土耳其电动汽车和其他车辆限制措施案（案件编号：DS629）专家组报告。专家组支
 - **[广汽埃安全新车系RAY官宣](https://egs.stcn.com/news/detail/2320784.html)** — _egs.stcn.com_ · published 2026-07-28
@@ -135,6 +136,8 @@ _Updated 2026-07-29 03:11 | discovery-only, zero LLM tokens | runs every 3h_
   7月28日是埃安成立纪念日。一直以来，埃安坚持以科技普惠打造国民好车，收获200万用户认可。站在第十年的开端，埃安正式发布全新车型Ray，首款车型Ray 7正式亮相，新车拥有超高颜值、超级底盘、超级三电、超级智能四大优势，是年轻人的超级纯电。 在生日当天，昊铂埃安BU总裁张雄与刚入职埃安的毕业生一同献唱《夜空中最亮的星》，副总裁杨龙在广州塔下点燃生日蜡烛。迈
 - **[比亚迪人形机器人8月“上岗”](https://www.nbd.com.cn/articles/2026-07-28/4524677.html)** — _www.nbd.com.cn_ · published 2026-07-28
   每经网首页 > 视频快讯 > 正文 2026-07-28 23:28:00 内容为转载 特别提醒：如果我们使用了您的图片，请作者与本站联系索取稿酬。如您不希望作品出现在本站，可联系我们要求撤下您的作品。 上一篇文章 航天电器：控股子公司泰州航宇拟以公开挂牌方式增资扩股 下一篇文章 美股三大指数全部转涨 道指涨1.2% 欢迎关注每日经济新闻APP 0
+- **[福特汽车二季度调整后每股收益为0.42美元 高于市场预期](https://www.nbd.com.cn/articles/2026-07-29/4524757.html)** — _www.nbd.com.cn_ · published 2026-07-29
+  每日经济新闻 2026-07-29 05:44:53 每经AI快讯，当地时间7月28日消息，福特汽车二季度调整后每股收益（EPS）为0.42美元，分析师预期0.36美元。预计全年调整后EBIT为100亿~110亿美元，公司原本预计85亿~105亿美元。 如需转载请与《每日经济新闻》报社联系。 未经《每日经济新闻》报社授权，严禁转载或镜像，违者必究。 读者热线
 - **[广汽埃安全新车系RAY官宣](https://www.stcn.com/article/detail/4046066.html)** — _www.stcn.com_ · date: unknown
   移动版 网页版 首页 快讯 新闻 要闻 金融 评论 产经 创投 滚动 视频 视频 直播 路演 投资 A股 公司 新股 基金 港美股 数据 数据资讯 盯盘面 看资金 追风向 解财报 淘新股 再融资 港股 基金 信披+ 全部 沪市主板 深市主板 科创板 创业板 北交所 新三板 深股通 沪股通 专题 地方 京 津 冀 晋 蒙 辽 吉 黑 沪 苏 浙 皖 闽 赣 鲁
 - **[商务部条约法律司负责人就世贸组织发布我诉土耳其电动汽车和其他车辆限制措施世贸争端案专家组报告答记者问](https://www.stcn.com/article/detail/4046056.html)** — _www.stcn.com_ · published 2026-07-28
