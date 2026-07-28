@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-28 21:15 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-29 00:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-28 21:15 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **5254 unique auto/NEV articles** across **51 outlets**
+## Cumulative: **5263 unique auto/NEV articles** across **51 outlets**
 
 ## New per day
 | date | new articles |
@@ -61,35 +61,36 @@ _Updated 2026-07-28 21:15 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-26 | 70 |
 | 2026-07-27 | 148 |
 | 2026-07-28 | 161 |
+| 2026-07-29 | 9 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.d1ev.com | 1277 |
+| www.d1ev.com | 1278 |
 | www.dongchedi.com | 1088 |
 | vc.yiche.com | 380 |
 | auto.gasgoo.com | 280 |
 | 36kr.com | 260 |
-| www.stcn.com | 214 |
+| www.stcn.com | 216 |
 | www.caam.org.cn | 196 |
 | autodata.gasgoo.com | 148 |
-| www.cnr.cn | 142 |
-| egs.stcn.com | 138 |
+| www.cnr.cn | 143 |
+| egs.stcn.com | 140 |
 | news.yiche.com | 124 |
 | www.cada.cn | 110 |
-| www.nbd.com.cn | 105 |
+| www.nbd.com.cn | 106 |
 | www.news.cn | 104 |
 | m.21jingji.com | 96 |
 | www.yicai.com | 94 |
 | auto.caijing.com.cn | 59 |
-| www.zqrb.cn | 56 |
+| www.zqrb.cn | 57 |
 | www.gelonghui.com | 49 |
 | www.xinhuanet.com | 38 |
 | www.jwview.com | 35 |
 | finance.eastmoney.com | 35 |
 | www.chinanews.com.cn | 32 |
 | finance.people.com.cn | 28 |
-| cn.chinadaily.com.cn | 23 |
+| cn.chinadaily.com.cn | 24 |
 | qzs.stcn.com | 21 |
 | m.ce.cn | 17 |
 | www.ceweekly.cn | 16 |
@@ -118,6 +119,26 @@ _Updated 2026-07-28 21:15 | discovery-only, zero LLM tokens | runs every 3h_
 | culture.gmw.cn | 1 |
 
 ## Articles captured by day (newest first)
+
+### 2026-07-29 — 9 articles
+- **[商务部：中方敦促土方尊重世贸组织专家组裁决 采取切实行动](https://cn.chinadaily.com.cn/a/202607/29/WS6a68d339a310d709c2fc0420.html)** — _cn.chinadaily.com.cn_ · published 2026-07-29
+  7月28日，商务部条约法律司负责人就世贸组织发布我诉土耳其电动汽车和其他车辆限制措施世贸争端案专家组报告答记者问。 有记者问：日内瓦时间7月28日，世贸组织公布了中国诉土耳其电动汽车和其他车辆限制措施世贸争端案专家组报告。请问中方对此有何评论？ 答：我们注意到，世贸组织散发了中国诉土耳其电动汽车和其他车辆限制措施案（案件编号：DS629）专家组报告。专家组支
+- **[广汽埃安全新车系RAY官宣](https://egs.stcn.com/news/detail/2320784.html)** — _egs.stcn.com_ · published 2026-07-28
+  首页 推荐 快讯 解读 股市 港股通 视听 专题 行情 数据 公众号 APP 电子报 您当前的位置： 证券时报·e公司 > 快讯 > 详情 广汽埃安全新车系RAY官宣 来源：人民财讯 作者：柚西 2026-07-28 22:56 Aa 大号字 人民财讯7月28日电，7月28日，广汽埃安官宣推出RAY全新车系，其首台车型为中大型纯电轿车Ray 7，将采用全新L
+- **[商务部条约法律司负责人就世贸组织发布我诉土耳其电动汽车和其他车辆限制措施世贸争端案专家组报告答记者问](https://egs.stcn.com/news/detail/2320790.html)** — _egs.stcn.com_ · date: unknown
+  证券时报·e公司 钟恬 07-29 00:00 人民财讯7月28日电，商务部条约法律司负责人就世贸组织发布我诉土耳其电动汽车和其他车辆限制措施世贸争端案专家组报告答记者问。 有记者问：日内瓦时间7月28日，世贸组织公布了中国诉土耳其电动汽车和其他车辆限制措施世贸争端案专家组报告。请问中方对此有何评论？ 答：我们注意到，世贸组织散发了中国诉土耳其电动汽车和其他
+- **[英官员称在英吉利海峡遭法军舰射击 法方暂无回应](https://www.cnr.cn/newscenter/sq/20260728/t20260728_527734994.shtml)** — _www.cnr.cn_ · published 2026-07-28
+  当地时间28日，英国保守党影子内阁内政大臣克里斯·菲尔普在社交媒体发文称，当天，他乘船在英吉利海峡视察非法移民偷渡情况时，遭附近一艘法国军舰实弹射击。英国政府表示，已就此与法国方面联系，以了解事件具体情况。 据悉，菲尔普当时正在船上接受采访，一艘法国军舰从后方发射了17发实弹。菲尔普表示，“现场没有任何事先通知，也没有正在进行军事演习的公告。感觉像是警告射击
+- **[埃安发布全新车系Ray，打造年轻人的超级纯电轿车Ray 7](https://www.d1ev.com/carnews/xinche/308847)** — _www.d1ev.com_ · date: unknown
+  7月28日是埃安成立纪念日。一直以来，埃安坚持以科技普惠打造国民好车，收获200万用户认可。站在第十年的开端，埃安正式发布全新车型Ray，首款车型Ray 7正式亮相，新车拥有超高颜值、超级底盘、超级三电、超级智能四大优势，是年轻人的超级纯电。 在生日当天，昊铂埃安BU总裁张雄与刚入职埃安的毕业生一同献唱《夜空中最亮的星》，副总裁杨龙在广州塔下点燃生日蜡烛。迈
+- **[比亚迪人形机器人8月“上岗”](https://www.nbd.com.cn/articles/2026-07-28/4524677.html)** — _www.nbd.com.cn_ · published 2026-07-28
+  每经网首页 > 视频快讯 > 正文 2026-07-28 23:28:00 内容为转载 特别提醒：如果我们使用了您的图片，请作者与本站联系索取稿酬。如您不希望作品出现在本站，可联系我们要求撤下您的作品。 上一篇文章 航天电器：控股子公司泰州航宇拟以公开挂牌方式增资扩股 下一篇文章 美股三大指数全部转涨 道指涨1.2% 欢迎关注每日经济新闻APP 0
+- **[广汽埃安全新车系RAY官宣](https://www.stcn.com/article/detail/4046066.html)** — _www.stcn.com_ · date: unknown
+  移动版 网页版 首页 快讯 新闻 要闻 金融 评论 产经 创投 滚动 视频 视频 直播 路演 投资 A股 公司 新股 基金 港美股 数据 数据资讯 盯盘面 看资金 追风向 解财报 淘新股 再融资 港股 基金 信披+ 全部 沪市主板 深市主板 科创板 创业板 北交所 新三板 深股通 沪股通 专题 地方 京 津 冀 晋 蒙 辽 吉 黑 沪 苏 浙 皖 闽 赣 鲁
+- **[商务部条约法律司负责人就世贸组织发布我诉土耳其电动汽车和其他车辆限制措施世贸争端案专家组报告答记者问](https://www.stcn.com/article/detail/4046056.html)** — _www.stcn.com_ · published 2026-07-28
+  证券时报网 江聃 2026-07-28 15:59 人民财讯7月28日电，商务部条约法律司负责人就世贸组织发布我诉土耳其电动汽车和其他车辆限制措施世贸争端案专家组报告答记者问。 有记者问：日内瓦时间7月28日，世贸组织公布了中国诉土耳其电动汽车和其他车辆限制措施世贸争端案专家组报告。请问中方对此有何评论？ 答：我们注意到，世贸组织散发了中国诉土耳其电动汽车和
+- **[上半年全国电动汽车充电基础设施同比增长43.2% 充电网络日趋完善 有效缓解新能源汽车里程焦虑](https://www.zqrb.cn/finance/hangyedongtai/2026-07-28/A1785246602496.html)** — _www.zqrb.cn_ · published 2026-07-28
+  本报记者 杜雨萌 7月28日，国家能源局发布2026年上半年全国电动汽车充电设施数据。据国家充电设施监测服务平台数据统计，截至2026年6月底，我国电动汽车充电基础设施（枪）总数达2305.7万个，同比增长43.2%。其中，公共充电设施（枪）500.9万个，同比增长22.3%，额定总功率达2.47亿千瓦，单枪平均功率约为49.35千瓦；私人充电设施（枪）18
 
 ### 2026-07-28 — 161 articles
 - **[大众集团中国交付量减少25.9%，密集推出本土化新品能否止住颓势？](https://36kr.com/p/3913771738453124)** — _36kr.com_ · published 2026-07-28
