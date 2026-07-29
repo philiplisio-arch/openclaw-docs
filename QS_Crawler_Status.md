@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-29 21:13 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-30 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-29 21:13 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **5399 unique auto/NEV articles** across **51 outlets**
+## Cumulative: **5404 unique auto/NEV articles** across **51 outlets**
 
 ## New per day
 | date | new articles |
@@ -62,6 +62,7 @@ _Updated 2026-07-29 21:13 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-27 | 148 |
 | 2026-07-28 | 161 |
 | 2026-07-29 | 145 |
+| 2026-07-30 | 5 |
 
 ## By outlet
 | outlet | articles |
@@ -71,18 +72,18 @@ _Updated 2026-07-29 21:13 | discovery-only, zero LLM tokens | runs every 3h_
 | vc.yiche.com | 405 |
 | auto.gasgoo.com | 300 |
 | 36kr.com | 268 |
-| www.stcn.com | 223 |
+| www.stcn.com | 224 |
 | www.caam.org.cn | 198 |
 | autodata.gasgoo.com | 158 |
 | www.cnr.cn | 152 |
-| egs.stcn.com | 142 |
-| news.yiche.com | 128 |
-| www.nbd.com.cn | 116 |
+| egs.stcn.com | 143 |
+| news.yiche.com | 129 |
+| www.nbd.com.cn | 117 |
 | www.cada.cn | 111 |
 | www.news.cn | 109 |
 | m.21jingji.com | 101 |
 | www.yicai.com | 97 |
-| www.zqrb.cn | 60 |
+| www.zqrb.cn | 61 |
 | auto.caijing.com.cn | 60 |
 | www.gelonghui.com | 53 |
 | www.xinhuanet.com | 39 |
@@ -119,6 +120,17 @@ _Updated 2026-07-29 21:13 | discovery-only, zero LLM tokens | runs every 3h_
 | culture.gmw.cn | 1 |
 
 ## Articles captured by day (newest first)
+
+### 2026-07-30 — 5 articles
+- **[上海制定测绘地理信息条例 规范智能网联汽车等测绘活动](https://egs.stcn.com/news/detail/2321213.html)** — _egs.stcn.com_ · published 2026-10-01
+  证券时报 07-29 23:53 人民财讯7月29日电，7月29日，上海市第十六届人民代表大会常务委员会第三十二次会议表决通过《上海市测绘地理信息条例》，《条例》将自2026年10月1日起施行。 《条例》明确上海相对独立的平面坐标系统的法律地位，并要求与国家坐标系统相联系。明确卫星导航定位基准站的建设和运行维护，要符合国家有关法律法规、技术规范和标准。上海市
+- **[7月1-26日乘用车零售112.3万辆](https://news.yiche.com/xiaoliangshuju/20260729/21111864932.html)** — _news.yiche.com_ · date: unknown
+- **[零跑成立精密制造公司，业务涵盖智能机器人研发，“造人”或成车企“第二增长曲线”](https://www.nbd.com.cn/articles/2026-07-29/4525535.html)** — _www.nbd.com.cn_ · published 2026-07-29
+  2026-07-29 22:19:03 每经记者｜孙磊 每经编辑｜余婷婷 造车新势力正加速扩张业务版图。 公开信息显示，湖州凌昇精密制造有限公司于近日成立，注册资本高达2.1亿元，经营范围横跨汽车零部件与工业机器人制造、智能机器人研发等领域。股权穿透显示，该公司由零跑汽车旗下浙江凌昇动力科技有限公司全资持股。 有观点称，零跑汽车或将打造机器人。对此，《每日经
+- **[上海制定测绘地理信息条例 规范智能网联汽车等测绘活动](https://www.stcn.com/article/detail/4048237.html)** — _www.stcn.com_ · published 2026-07-27
+  证券时报网 韩忠楠 2026-07-27 21:51 人民财讯7月29日电，7月29日，上海市第十六届人民代表大会常务委员会第三十二次会议表决通过《上海市测绘地理信息条例》，《条例》将自2026年10月1日起施行。 《条例》明确上海相对独立的平面坐标系统的法律地位，并要求与国家坐标系统相联系。明确卫星导航定位基准站的建设和运行维护，要符合国家有关法律法规、技
+- **[吉利汽车拿下智驾安全001号认证 体系化能力树立行业新标杆](https://www.zqrb.cn/auto/qichedongtai/2026-07-29/A1785311042950.html)** — _www.zqrb.cn_ · published 2026-07-29
+  本报记者 刘钊 7月20日，吉利汽车获得行业首张组合驾驶辅助安全管理体系认证证书，证书编号为001。作为《智能网联汽车 组合驾驶辅助系统安全要求》强制性国家标准的核心起草单位之一，吉利不仅深度参与了行业安全规则制定，还率先将标准要求转化为覆盖研发、测试、生产和服务的管理体系，实现了从标准制定者到安全实践引领者的跨越。 随着组合驾驶辅助功能加快普及，汽车行业正
 
 ### 2026-07-29 — 145 articles
 - **[L2渗透率破70%，中国车企狂卷智驾：自研芯片、VLA/世界模型全开花](https://36kr.com/p/3915288958539657)** — _36kr.com_ · published 2026-07-29
