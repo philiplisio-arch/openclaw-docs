@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-29 15:13 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-29 18:16 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-29 15:13 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **5344 unique auto/NEV articles** across **51 outlets**
+## Cumulative: **5383 unique auto/NEV articles** across **51 outlets**
 
 ## New per day
 | date | new articles |
@@ -61,37 +61,37 @@ _Updated 2026-07-29 15:13 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-26 | 70 |
 | 2026-07-27 | 148 |
 | 2026-07-28 | 161 |
-| 2026-07-29 | 90 |
+| 2026-07-29 | 129 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.d1ev.com | 1278 |
+| www.d1ev.com | 1279 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 390 |
-| auto.gasgoo.com | 293 |
-| 36kr.com | 266 |
-| www.stcn.com | 220 |
+| vc.yiche.com | 400 |
+| auto.gasgoo.com | 300 |
+| 36kr.com | 268 |
+| www.stcn.com | 222 |
 | www.caam.org.cn | 198 |
-| autodata.gasgoo.com | 154 |
-| www.cnr.cn | 150 |
+| autodata.gasgoo.com | 155 |
+| www.cnr.cn | 151 |
 | egs.stcn.com | 142 |
-| news.yiche.com | 126 |
-| www.cada.cn | 110 |
+| news.yiche.com | 128 |
+| www.nbd.com.cn | 115 |
+| www.cada.cn | 111 |
 | www.news.cn | 109 |
-| www.nbd.com.cn | 109 |
-| m.21jingji.com | 97 |
+| m.21jingji.com | 99 |
 | www.yicai.com | 96 |
 | auto.caijing.com.cn | 60 |
 | www.zqrb.cn | 58 |
-| www.gelonghui.com | 52 |
+| www.gelonghui.com | 53 |
 | www.xinhuanet.com | 39 |
-| finance.eastmoney.com | 38 |
+| finance.eastmoney.com | 39 |
 | www.jwview.com | 36 |
 | www.chinanews.com.cn | 32 |
-| finance.people.com.cn | 30 |
+| finance.people.com.cn | 31 |
 | cn.chinadaily.com.cn | 24 |
-| qzs.stcn.com | 21 |
+| qzs.stcn.com | 22 |
 | www.ceweekly.cn | 18 |
 | m.ce.cn | 17 |
 | auto.ce.cn | 16 |
@@ -120,7 +120,7 @@ _Updated 2026-07-29 15:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-29 — 90 articles
+### 2026-07-29 — 129 articles
 - **[L2渗透率破70%，中国车企狂卷智驾：自研芯片、VLA/世界模型全开花](https://36kr.com/p/3915288958539657)** — _36kr.com_ · published 2026-07-29
   L2渗透率破70%，中国车企狂卷智驾：自研芯片、VLA/世界模型全开花 在日前举办的2026世界智能网联汽车大会媒体圆桌会上，工业和信息化部装备工业一司司长郭守刚表示，今年以来，国内L2级组合辅助驾驶功能乘用车渗透率已达70.5%，领航辅助驾驶功能乘用车渗透率达到了34.2%。 按照数据分析机构JATO Dynamics公布的信息，2025年欧洲五国（德国、
 - **[召回超3万辆，X9车主等来小鹏“低头”](https://36kr.com/p/3915327419668097)** — _36kr.com_ · published 2026-07-29
@@ -133,6 +133,8 @@ _Updated 2026-07-29 15:13 | discovery-only, zero LLM tokens | runs every 3h_
   市场份额跌破25%红线，合资车企进入最惊险时刻 车东西7月27日消息，日前，在上海举办的2026中国汽车论坛首次设立了“新合资时代的品牌破局之道”为主题的闭门与专题论坛。 论坛伊始，东风日产汽车销售有限公司副总经理王骞便抛出一组引人注目的数据：“2026年6月，合资及外资品牌在中国汽车市场的份额仅剩24.5%，约四分之一。” 东风日产汽车销售有限公司副总经理
 - **[缺席新能源汽车下乡，零跑把目光瞄准了海外](https://36kr.com/p/3916110999852930)** — _36kr.com_ · published 2026-07-29
   缺席新能源汽车下乡，零跑把目光瞄准了海外 渠道方面的海外优势，未来能不能一直持续？ 不久前，新能源汽车下乡活动启动，155款车型的下乡名单，让消费者们挑花了眼。 但在这份名单中，以性价比著称的零跑汽车，这次却没有一款车型入选，让人百思不得其解。 毕竟，小米SU7、特斯拉Model 3等20万元以上车型，都能被新能源汽车下乡名单选中，主流产品在10万元左右、部
+- **[比亚迪AI团队首次曝光，哈工大机器人基因亮眼，大模型首发即SOTA](https://36kr.com/p/3916234018156166)** — _36kr.com_ · date: unknown
+- **[新能源车企押注逻辑：降低风险和成本供应链协同](https://36kr.com/p/3916380390190464)** — _36kr.com_ · date: unknown
 - **[广汽埃安推全新车系"Ray"，定位面向年轻人](https://auto.caijing.com.cn/2026/0728/5173993.shtml)** — _auto.caijing.com.cn_ · date: unknown
 - **[大众否认呼吁欧盟对中国混动汽车加征关税](https://auto.gasgoo.com/news/202607/29I70467637C109.shtml)** — _auto.gasgoo.com_ · date: unknown
 - **[超过杭州仅次上海，合肥"三战封神"赌赢汽车和科技](https://auto.gasgoo.com/news/202607/29I70467743C108.shtml)** — _auto.gasgoo.com_ · published 2026-07-27
@@ -157,12 +159,24 @@ _Updated 2026-07-29 15:13 | discovery-only, zero LLM tokens | runs every 3h_
   根据盖世汽车研究院数据，2026年6月乘用车集团销量呈现“自主进、合资退”特征，头部自主品牌断层式领跑优势进一步扩大，合资集团销量持续承压下行，新能源新势力内部排位发生关键性洗牌，行业集团化分层竞争格局愈发明显。 盖世汽车研究院“2026年6月乘用车集团销量排行榜”的详细排名及销量表现如下： 第一位，比亚迪汽车，6月销量397,292辆 第二位，吉利控股集团
 - **[人事变动｜确认！陶海龙出任华域汽车总经理-盖世汽车资讯](https://auto.gasgoo.com/news/202607/29I70467778C103.shtml)** — _auto.gasgoo.com_ · date: unknown
   盖世汽车讯，7月29日，华域汽车发布第十一届董事会第八次会议决议公告。因前任总经理徐平工作调动离职，董事会正式聘任陶海龙担任公司总经理，同时提名其为第十一届董事会非独立董事候选人，全部任职时间和本届董事会保持一致。 本次人事调整属于上汽集团整车、零部件板块大范围轮岗的组成部分，和上汽乘用车、上汽通用管理层更迭同步落地。陶海龙拥有正高级工程师职称，三十余年深耕
+- **[7月前26日乘用车零售同比降18%，新能源渗透率65.7%](https://auto.gasgoo.com/news/202607/29I70467817C501.shtml)** — _auto.gasgoo.com_ · date: unknown
+  盖世汽车获悉，中国汽车流通协会乘用车市场信息联席分会（以下简称“乘联分会”）发布的最新车市扫描分析数据显示，7月1日至26日，全国乘用车市场呈现零售与批发销量同比、环比均下滑的态势，新能源市场表现相对平稳。 在零售方面，7月1-26日，全国乘用车市场零售112.3万辆，同比去年7月同期下降18%，较上月同期下降13%。今年以来累计零售982.4万辆，同比下降
+- **[【2026年全球汽车零部件供应商百强榜】出炉：中国17家企业上榜！](https://auto.gasgoo.com/news/202607/29I70467785C103.shtml)** — _auto.gasgoo.com_ · date: unknown
+  美东时间7月28日，《美国汽车新闻》（Automotive News）重磅发布了2026年全球汽车零部件供应商百强榜，榜单依据供应商2025年面向汽车制造商（OEM）的销售收入进行排名。 今年榜单最明显的一个趋势是：中国汽车零部件企业整体实力持续提升，在全球产业格局中的影响力进一步增强。 注：由于部分企业股权和组织架构发生变化，今年榜单统计口径也进行了部分调
+- **[丰田在印度推出全新Hilux 起售价319.9万卢比](https://auto.gasgoo.com/news/202607/29I70467764C101.shtml)** — _auto.gasgoo.com_ · published 2026-07-28
+  盖世汽车讯 丰田基洛斯卡汽车公司（Toyota Kirloskar Motor，TKM）于2026年7月28日（星期二）在印度推出第九代Hilux皮卡，起售价为319.9万卢比（不含税）。新车提供三款自动挡车型——4x2 GX、4x4 GX和4x4 VX，价格分别为319.9万卢比、336.9万卢比和366.9万卢比（均不含税）。即日起接受预订，客户交付计划
+- **[梅赛德斯-奔驰日本启动CLA纯电版预订，起售价668万日元，最高续航771公里-盖世汽车资讯](https://auto.gasgoo.com/news/202607/29I70467804C101.shtml)** — _auto.gasgoo.com_ · published 2026-07-29
+  盖世汽车讯 梅赛德斯-奔驰日本公司于2026年7月29日宣布推出全新纯电动车“CLA with EQ Technology”及“CLA Shooting Brake with EQ Technology”，并即日起开始接受预订。这是CLA车系首次推出纯电动版本（BEV），共提供四门轿跑与旅行版两种车身形式，每种均设“CLA 200”和“CLA 250+”两个
+- **[本田考虑2029年推出加高版雅阁混动车型](https://auto.gasgoo.com/news/202607/29I70467806C101.shtml)** — _auto.gasgoo.com_ · date: unknown
+- **[福特汽车二季度净亏13亿美元](https://auto.gasgoo.com/news/202607/29I70467814C109.shtml)** — _auto.gasgoo.com_ · date: unknown
+- **[Momenta获德国全境L4自动驾驶测试许可](https://auto.gasgoo.com/news/202607/29I70467790C601.shtml)** — _auto.gasgoo.com_ · date: unknown
 - **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2082266391682625536)** — _autodata.gasgoo.com_ · date: unknown
 - **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2082271705941299200)** — _autodata.gasgoo.com_ · date: unknown
 - **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2082275380273233920)** — _autodata.gasgoo.com_ · date: unknown
 - **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2082267736640733184)** — _autodata.gasgoo.com_ · date: unknown
 - **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2082246047575977984)** — _autodata.gasgoo.com_ · date: unknown
 - **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2082331727626915840)** — _autodata.gasgoo.com_ · date: unknown
+- **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2082371957578944512)** — _autodata.gasgoo.com_ · date: unknown
 - **[商务部：中方敦促土方尊重世贸组织专家组裁决 采取切实行动](https://cn.chinadaily.com.cn/a/202607/29/WS6a68d339a310d709c2fc0420.html)** — _cn.chinadaily.com.cn_ · published 2026-07-29
   7月28日，商务部条约法律司负责人就世贸组织发布我诉土耳其电动汽车和其他车辆限制措施世贸争端案专家组报告答记者问。 有记者问：日内瓦时间7月28日，世贸组织公布了中国诉土耳其电动汽车和其他车辆限制措施世贸争端案专家组报告。请问中方对此有何评论？ 答：我们注意到，世贸组织散发了中国诉土耳其电动汽车和其他车辆限制措施案（案件编号：DS629）专家组报告。专家组支
 - **[汽车产业调整中展现韧性活力](https://economy.gmw.cn/2026-07/29/content_38914406.htm)** — _economy.gmw.cn_ · published 2026-07-29
@@ -180,20 +194,34 @@ _Updated 2026-07-29 15:13 | discovery-only, zero LLM tokens | runs every 3h_
   当前，世界百年变局正在演进，全球产业格局加速重构。 在此进程中，中国汽车产业实现跨越式发展，出口量持续跃升，市场格局多点开花。 其中，新能源汽车成为拉动出口的核心引擎。 值得注意的是，我国汽车产业在取得突破式发展的同时，也给保险业提出了新的时代命题——如何实现与车企协同出海？险企不仅要提供风险保障，更要跳出单一风险保障范畴，输出体系化的新能源车生态“中国方案
 - **[比亚迪李云飞：王传福个人没有直接投资长鑫科技](https://finance.eastmoney.com/a/202607293824919674.html)** — _finance.eastmoney.com_ · date: unknown
   比亚迪李云飞：王传福个人没有直接投资长鑫科技 近日，关于比亚迪董事长王传福个人参投长鑫科技（688825.SH）的消息，引发外界关注。 7月28日深夜，比亚迪集团品牌及公关处总经理李云飞独家回应《每日经济新闻》记者称，比亚迪所有的投资，均由比亚迪股份有限公司直投，没有管理第三方的资金，也没有管理所有高管个人的资金。“所以，王总（王传福）个人并没有直接投资长鑫
+- **[小米、吉利双双大涨！多家车企股价异动 发生了什么？](https://finance.eastmoney.com/a/202607293825177582.html)** — _finance.eastmoney.com_ · date: unknown
+  小米、吉利双双大涨！多家车企股价异动 发生了什么？ 7月29日，小米集团、吉利汽车等车企股价迎来大涨。小米集团股价盘中涨幅超过9%，吉利汽车一度涨超7%。 今日，小米集团董事长雷军发布微博称，“小米做增程不晚，增程市场大有可为”。 在雷军看来，增程还是纯电，从来不是路线之争，只有产品体验的高下之分，增程市场需求依旧旺盛，用户愿意为优秀的增程产品买单。同时，增
 - **[以赛促研，中国车跑出加速度（产经视野·做强做优做大实体经济）](https://finance.people.com.cn/n1/2026/0729/c1004-40769816.html)** — _finance.people.com.cn_ · published 2026-07-29
   中国品牌汽车在世界赛场屡创佳绩—— 以赛促研，中国车跑出加速度（产经视野·做强做优做大实体经济） 点击播报本文，约 | 7月12日，2026赛季国际汽联TCR世界巡回赛葡萄牙站，中国车手马青骅驾驶吉利赛车在赛道上行驶。 | 当地时间5月10日，意大利米萨诺赛道，2026赛季国际汽联TCR世界巡回赛第一站第二回合正赛最后一圈，中国车手马青骅驾驶的蓝色吉利星瑞T
 - **[合格评定国际标准化人才能力提升活动在京举办](https://finance.people.com.cn/n1/2026/0729/c1004-40770267.html)** — _finance.people.com.cn_ · published 2026-07-29
   合格评定国际标准化人才能力提升活动在京举办 2026年07月29日11:08 | 来源：人民网222 订阅已订阅已收藏收藏小字号 点击播报本文，约 人民网北京7月29日电 （记者孙博洋）近日，为深入贯彻新时代人才强国战略与国家标准化战略，落实 “十五五”合格评定高质量发展工作部署，聚焦低空经济、测试装备、新能源汽车、人工智能等新兴重点产业人才需求，2026
+- **[构筑品质生态 业界探索汽车产业出海新路径](https://finance.people.com.cn/n1/2026/0729/c1004-40770430.html)** — _finance.people.com.cn_ · published 2026-07-29
+  构筑品质生态 业界探索汽车产业出海新路径 点击播报本文，约 人民网北京7月29日电 （记者乔雪峰）当前，高水平对外开放持续走深走实，我国汽车产业出海迈入提质升级新阶段。行业发展重心已从单纯产品外销转向全链条生态共建，产业各界协同探索多元出海路径，以体系化竞争力深耕全球市场，持续擦亮中国制造、中国服务的国际名片。 有观点认为，我国汽车产业如今正形成多层级、优势
 - **[汽车座椅头枕麦克风、扬声器](https://i.gasgoo.com/purchas/production/345418.html)** — _i.gasgoo.com_ · date: unknown
 - **[上半年全国电动汽车充电基础设施同比增长43.2% 充电网络日趋完善](https://industry.caijing.com.cn/20260729/5174079.shtml)** — _industry.caijing.com.cn_ · date: unknown
   7月28日，国家能源局发布2026年上半年全国电动汽车充电设施数据。据国家充电设施监测服务平台数据统计，截至2026年6月底，我国电动汽车充电基础设施（枪）总数达2305.7万个，同比增长43.2%。其中，公共充电设施（枪）500.9万个，同比增长22.3%，额定总功率达2.47亿千瓦，单枪平均功率约为49.35千瓦；私人充电设施（枪）1804.8万个，同比
 - **[上汽人事风暴持续：吴赟接掌上汽大众，采购负责人张荃拟履新](https://m.21jingji.com/article/20260729/herald/2461121749763d8050a19f4f83c59294.html)** — _m.21jingji.com_ · date: unknown
   上汽人事风暴持续：吴赟接掌上汽大众，采购负责人张荃拟履新 长期由研发、供应链人才把持的车企一号位，如今迎来人事背景的干部。 21世纪经济报道记者 郑植文 继上汽通用、上汽乘用车相继更换负责人后，上汽集团新一轮管理层调整仍在继续。 《21汽车·一见Auto》独家获悉，上汽大众总经理陶海龙将转任华域汽车总经理，现任上汽大众人事与组织执行副总经理吴赟接任上汽大众总
+- **[李书福拿下福特汽车，震惊行业！](https://m.21jingji.com/article/20260729/herald/acf539322fa96c1150a877e31b1de301.html)** — _m.21jingji.com_ · date: unknown
+  关注投资家，设为星标⭐，您会收到最新推送 作者 | 钱游 来源 | 电商最前线 7月23日，吉利汽车在港交所发布公告，宣布以2.21亿欧元收购福特西班牙公司34%股权。福特继续持有66%股权，双方将共同运营位于西班牙瓦伦西亚的阿尔穆萨费斯整车工厂。 吉利由此进入福特在欧洲的重要制造体系，直接获得成熟工厂、生产线、供应链、技术工人和本地合规资源。 这座工厂拥有
+- **[理想汽车、小米集团、零跑汽车，集体上涨！](https://m.21jingji.com/article/20260729/herald/9bd7df714b7b9599459fa2cb2bc0ce85.html)** — _m.21jingji.com_ · published 2026-07-29
+  理想汽车、小米集团、零跑汽车，集体上涨！ 证券日报之声 2026-07-29 14:49 7月29日，恒生港股通汽车主题指数强势上涨。截至发稿时，成分股理想汽车-W上涨10.21%，小米集团-W涨超8%，零跑汽车上涨7.53%，赛力斯、小鹏集团-W等个股跟涨。 恒生港股通汽车主题指数旨在反映可通过港股通买卖、业务涉及汽车生产主题价值链的香港上市公司之表现。数
 - **[上半年全国电动汽车充电设施快速发展](https://m.gmw.cn/2026-07/29/content_38914590.htm)** — _m.gmw.cn_ · published 2026-07-29
   来源：光明网-《光明日报》 2026-07-29 03:05 上半年全国电动汽车充电设施快速发展 基础设施（枪）总数同比增长43.2% 光明日报北京7月28日电 记者张翼28日从国家能源局获悉，根据国家充电设施监测服务平台数据，截至今年6月底，我国电动汽车充电基础设施（枪）总数达到2305.7万个，同比增长43.2%。 具体来看，公共充电设施（枪）500.9
 - **[福特汽车2026年二季度财报 营收483亿美元](https://news.yiche.com/zonghexinwen/20260729/11111852456.html)** — _news.yiche.com_ · date: unknown
   推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 7月29日，福特汽车发布2026年二季度财报，营业收入483亿美元，调整后息税前利润25亿美元，比去年同期增长4亿美元，调整后息税前利润率5.2%，同比增长0.9%。 福特汽车总裁兼CEO吉姆·法利
 - **[比亚迪海獭RACCO日本上市 税前起售价214.5万日元  07-28 02:22](https://news.yiche.com/zonghexinwen/20260728/14111830723.html)** — _news.yiche.com_ · date: unknown
+- **[Momenta获德国全境L4级自动驾驶测试许可 欧洲布局迎关键节点](https://news.yiche.com/zonghexinwen/20260729/17111862780.html)** — _news.yiche.com_ · date: unknown
+  推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 近日，Momenta正式获得德国联邦机动车运输管理局（KBA）颁发许可，可在德国全国范围内的城市道路进行L4级自动驾驶测试。此次获批，标志着Momenta欧洲布局迎来关键节点，德国无人驾驶业务落地进
+- **[网传智驾“小蓝灯”将被禁用 车企或将调整产品设计](https://news.yiche.com/zonghexinwen/20260729/15111858853.html)** — _news.yiche.com_ · published 2026-07-27
+  推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 7月29日，有消息称，因“小蓝灯”不符合GB4785《汽车及挂车外部照明和光信号装置的安装规定》要求，乘用车安装“小蓝灯”将被禁止。“小蓝灯”是车企用于标识辅助驾驶工作状态的车身外部蓝色指示灯。 另
+- **[中国太保副总裁俞斌：保险机构服务新能源车“走出去”，不能只停留在承保环节](https://qzs.stcn.com/article/detail/619703.html)** — _qzs.stcn.com_ · date: unknown
+  新能源车“出海”主要面临哪些风险？保险机构如何更好地服务中国新能源车“走出去”？ 在近日举行的中国汽车论坛期间，中国太保副总裁俞斌接受券商中国记者书面专访，就新能源车出海风险保障、未来车险趋势等热点话题，分享了中国太保的实践成果与战略思考。 俞斌指出，当前，中国新能源车出海正从“产品出口”向“产业链出海、服务体系出海”升级，保险服务也需要向全链条风险管理延伸
 - **[埃安生日放狠招！这次不发新车，直接上新整车系？](https://vc.yiche.com/vplay/12330509.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 智界 V9实测：大车开出小车感，座椅按摩太上头 兔小黑Flymz 马自达EZ-60值得买吗？主要看这三点！ AUTO攻略 大湾区车展最懂钓鱼人的车！“中国钓王”天元邓刚共创
 - **[到店体验小鹏MONA L03，能否满足年轻人的智能时尚需求？](https://vc.yiche.com/vplay/12336256.html)** — _vc.yiche.com_ · date: unknown
@@ -214,10 +242,32 @@ _Updated 2026-07-29 15:13 | discovery-only, zero LLM tokens | runs every 3h_
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 红旗双旗舰出击，重塑豪华新标准 星车测谎仪 3.9秒的红旗，H7不一样了 懂车生活记 实测奥迪E5，试试德系操控纯电瓦罐能有多香!？ 小芋驾到FF 30万预算买上汽
 - **[308匹马力！5秒级加速！油耗低至4.XL？蓝牌混动这么猛？](https://vc.yiche.com/vplay/12343655.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 14.98-22.98万 谁说大马力一定费油？0元换新拿下这台B级轿跑 璇姐探车 从18名到第1！环塔SS4赛段，猛士M817逆袭夺冠 胖川侃车 街头偶遇法拉利 812，这
+- **[吉利出越野车了，银河战舰700。](https://vc.yiche.com/vplay/12349479.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 银河战舰700为何能满载直拔“尼三锅”？ 熊猫听雨树 这一次在长春体验红旗全新一代天工08 叁佰玩速 2026 款宝马 iX3（469 马力）——内饰与外观评测 a
+- **[座位少了，价格低了，但是真的更豪华了！探店蔚来ES8 五座版](https://vc.yiche.com/vplay/12348170.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 38.28-44.68万 跨越15000公里！“全新腾势Z9GT”横跨欧亚大陆重走丝绸之路 极速试驾 奥迪RS5声浪实录 欣哲频道 把生活揣进你的车，蔚来ES8五座版首试！
+- **[全家出行首选！星途揽月CDM六/七座可选，180km纯电通勤零油耗](https://vc.yiche.com/vplay/12348023.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 20.99-23.39万 新能源车销量超过燃油车？听听贾老师的见解 海星茶190815 赤龙驭道 斯堪称王天津最帅SCANIA 650S V8卡车动态展示！ czZoe 现
+- **[中创新航177Ah电池事件：广汽埃安这波操作，真没毛病！](https://vc.yiche.com/vplay/12336557.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 13.98-15.68万 埃安智悦生活LIVE PARTY燃动长沙多元场景构建有温度用户生态 车视云 大型SUV穿越闹市，小鹏GX辅助驾驶实测打分 C家车探 打破空间认知！
+- **[大型SUV销冠的新答案 蔚来ES8大五座版 截然不同的新体验？](https://vc.yiche.com/vplay/12347463.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 38.28-44.68万 蔚来全新ES8 热销密码是什么？ 新车部落 9.99万起的B级轿车，增程/纯电可选，一汽悦意08试驾体验（下） 牛奔试车 15万买C级车？风云A9
+- **[试驾比亚迪大唐EV：一家人坐得舒服，一个人开得过瘾](https://vc.yiche.com/vplay/12346574.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 23.99-30.99万 海外投资人探访长城基地，解开长城欧拉5风靡多国的答案 懂车生活记 自主五强5月销量盘点 奇瑞销量结构失衡 长城国内销量不足5万 车314 比亚迪大
+- **[混动性能/智驾表现出乎预料～动态体验全新红旗H7](https://vc.yiche.com/vplay/12345657.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 15万级唯一运动旅行车，领克07GT你心动吗？ 这车值么 A级纯电SUV再次刷新标杆高度 老李撩车 试驾全新红旗H7，可行政可运动可居家 车核 颠覆老印象！试驾全新
+- **[20万的比亚迪还能这么火！海豹08到底强在哪儿？](https://vc.yiche.com/vplay/12344957.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 19.69-23.99万 新能源重卡江湖，正在书写“深一豹”自己的传奇 卡车之友网 有人尾门关不上，岚图泰山X8直接全网直播展示上交叉轴！ 聊车的赓哥1米9 中国汽车，只剩
+- **[测试官丨欧拉5混动，电车的质感，油车的省心它都有？](https://vc.yiche.com/vplay/12347120.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 7.98-9.98万 探店问界M6:年轻人绕不开的一台网红新锐智慧SUV 头号汽车 长城欧拉5焕新登场 引领时尚家用出行新风向 我为车狂 坚持长期主义，欧拉5把选择权交给用
+- **[这是全球油耗最低的车 到店来跟大家聊聊吉利帝豪i](https://vc.yiche.com/vplay/12345930.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 6.29-9.79万 德国味道 ID. AURA T6 HeyCar 新乐道L60整车购买19.28万起，智驾系统如何？ 虎哥说车TV 中国帝豪，全球超420万用户，向上系
 - **[·
     2026年5月新能源汽车产销情况简析](https://www.caam.org.cn/chn/5/cate_39/con_5237224.html)** — _www.caam.org.cn_ · date: unknown
 - **[·
     2026年5月乘用车产销情况简析](https://www.caam.org.cn/chn/5/cate_39/con_5237220.html)** — _www.caam.org.cn_ · date: unknown
+- **[车市扫描(2026年7月20日](https://www.cada.cn/Trends/info_91_10542.html)** — _www.cada.cn_ · date: unknown
+  乘用车：7月1-26日，全国乘用车市场零售112.3万辆，同比去年7月同期下降18%，较上月同期下降13%，今年以来累计零售982.4万辆，同比下降20%；7月1-26日，全国乘用车厂商批发117.2万辆，同比去年7月同期下降18%，较上月同期下降33%，今年以来累计批发1,371.8万辆，同比下降7%。新能源：7月1-26日，全国乘用车新能源市场零售73.
 - **[充电网络日趋完善 有效缓解新能源汽车里程焦虑](https://www.ceweekly.cn/economic/industry/2026/0729/497946.html)** — _www.ceweekly.cn_ · date: unknown
 - **[新能源车险出海需构筑体系化“生态圈”](https://www.ceweekly.cn/finance/banking/2026/0729/497952.html)** — _www.ceweekly.cn_ · date: unknown
   当前，世界百年变局正在演进，全球产业格局加速重构。 在此进程中，中国汽车产业实现跨越式发展，出口量持续跃升，市场格局多点开花。 其中，新能源汽车成为拉动出口的核心引擎。 值得注意的是，我国汽车产业在取得突破式发展的同时，也给保险业提出了新的时代命题——如何实现与车企协同出海？险企不仅要提供风险保障，更要跳出单一风险保障范畴，输出体系化的新能源车生态“中国方案
@@ -237,13 +287,19 @@ _Updated 2026-07-29 15:13 | discovery-only, zero LLM tokens | runs every 3h_
   央广网北京7月29日消息（记者姜鹏）7月28日，埃安迎来成立十周年，并正式发布全新车系Ray，首款车型Ray 7亮相，新车拥有高颜值、超级底盘、超级三电、超级智能四大优势。当天，昊铂埃安BU总裁张雄还与刚入职埃安的毕业生一同献唱，副总裁杨龙在广州塔下点燃生日蜡烛。 如今，新能源市场正迎来深刻变革，年轻用户已经成为新能源汽车的消费主力。他们渴望更先进的技术，也
 - **[一次性看够车载加榴炮射击瞬间](https://www.cnr.cn/js2014/zdgz/20260729/t20260729_527735690.shtml)** — _www.cnr.cn_ · published 2026-07-29
   首页 > 央广军事 > 最新动态 一次性看够车载加榴炮射击瞬间 2026-07-29 13:15:30 来源：央广军事 近日，陆军第77集团军某旅组织车载加榴炮分队实弹射击考核，检验部队精准毁伤能力。 （央广网·军事频道 作者：蔡从润 禹翔超 范鲁港 魏广通） 编辑:韩懿文 更多精彩资讯请在应用市场下载“央广网”客户端。欢迎提供新闻线索，24小时报料热线40
+- **[涉及上汽通用、上汽乘用车，上汽集团旗下四大板块总经理调整](https://www.cnr.cn/2013qcpd/djfb/20260729/t20260729_527735957.shtml)** — _www.cnr.cn_ · published 2026-07-29
+  央广网北京7月29日消息（记者姜鹏）7月28日，上汽乘用车和上汽通用先后宣布总经理调整，其中原上汽通用汽车有限公司总经理卢晓接替王骏，担任上汽乘用车总经理；原华域汽车总经理徐平接任上汽通用总经理。 7月29日，华域汽车发布公告称，徐平因工作调动，向公司董事会提交了书面辞职申请，申请辞去公司第十一届董事会董事、董事会战略与ESG可持续发展委员会委员及总经理职务
 - **[埃安发布全新车系Ray，打造年轻人的超级纯电轿车Ray 7](https://www.d1ev.com/carnews/xinche/308847)** — _www.d1ev.com_ · date: unknown
   7月28日是埃安成立纪念日。一直以来，埃安坚持以科技普惠打造国民好车，收获200万用户认可。站在第十年的开端，埃安正式发布全新车型Ray，首款车型Ray 7正式亮相，新车拥有超高颜值、超级底盘、超级三电、超级智能四大优势，是年轻人的超级纯电。 在生日当天，昊铂埃安BU总裁张雄与刚入职埃安的毕业生一同献唱《夜空中最亮的星》，副总裁杨龙在广州塔下点燃生日蜡烛。迈
+- **[中汽测评发布CCRT 2026首批车型评价结果](https://www.d1ev.com/news/qiye/308851)** — _www.d1ev.com_ · date: unknown
+  7 月 28 日，2026 汽车测评技术趋势研讨会在长春顺利举办。本次会议由中汽中心汽车测评管理中心（以下简称“中汽测评”）主办，长春汽车检测中心有限责任公司（以下简称“中汽长检”）协办，行业机构、整车及供应链企业技术专家及媒体代表参会。会议集中发布中国汽车消费者研究与评价（CCRT）评价成果，组织多个测评体系技术专家委员会会议开展专题研讨，同步开放专业试验
 - **[快讯-格隆汇](https://www.gelonghui.com/live/2579134)** — _www.gelonghui.com_ · published 2026-07-29
   申请认证 格隆汇公众号矩阵 格隆汇App 下载格隆汇APP 诊股宝App 下载诊股宝App 汇路演App 下载汇路演APP 极调研 加入我们 首页 社区 快讯 事件 深度 主题 专栏 行情 会员 数据 财富圈 文章 更多相关文章 快讯 更多相关快讯 查看全部股票/文章/快讯/事件/用户/财富圈搜索结果 热门股票 搜索历史 清空历史 登录 / 注册 温馨提示
 - **[公司问答丨鲁阳节能：现阶段两大板块应收账款周转及客户回款情况较去年同期有所改善](https://www.gelonghui.com/live/2579470)** — _www.gelonghui.com_ · date: unknown
   格隆汇7月29日｜有投资者在互动平台向鲁阳节能提问，请问2026上半年汽车衬垫、工业过滤业务营收情况如何；目前两大板块应收账款周转、客户回款有无改善？是否有新增头部客户导入？ 鲁阳节能回复称，2026年上半年，公司汽车衬垫、工业过滤业务整体经营情况平稳有序。现阶段两大板块应收账款周转及客户回款情况较去年同期有所改善，具体经营数据请以公司后续披露的定期报告为准
 - **[智驾“小蓝灯”将被禁用](https://www.gelonghui.com/live/2579457)** — _www.gelonghui.com_ · published 2026-07-29
+  申请认证 格隆汇公众号矩阵 格隆汇App 下载格隆汇APP 诊股宝App 下载诊股宝App 汇路演App 下载汇路演APP 极调研 加入我们 首页 社区 快讯 事件 深度 主题 专栏 行情 会员 数据 财富圈 文章 更多相关文章 快讯 更多相关快讯 查看全部股票/文章/快讯/事件/用户/财富圈搜索结果 热门股票 搜索历史 清空历史 登录 / 注册 温馨提示
+- **[快讯-格隆汇](https://www.gelonghui.com/live/2579933)** — _www.gelonghui.com_ · published 2026-07-29
   申请认证 格隆汇公众号矩阵 格隆汇App 下载格隆汇APP 诊股宝App 下载诊股宝App 汇路演App 下载汇路演APP 极调研 加入我们 首页 社区 快讯 事件 深度 主题 专栏 行情 会员 数据 财富圈 文章 更多相关文章 快讯 更多相关快讯 查看全部股票/文章/快讯/事件/用户/财富圈搜索结果 热门股票 搜索历史 清空历史 登录 / 注册 温馨提示
 - **[“手搓”飞行器、拼装新能源车 香港学子北京科创逐梦](https://www.jwview.com/jingwei/html/07-29/681351.shtml)** — _www.jwview.com_ · date: unknown
   “手搓”飞行器、拼装新能源车 香港学子北京科创逐梦 “手搓”新能源车，设计“硬核”飞行器……7月28日，“缔造未来”青少年创新发展项目之新时代筑梦计划新能源、航空航天及工程技术主题深度创科实践训练营结营仪式在北京举行。本期训练营设置两大实训方向，航空航天及工程技术组专注飞行器设计与试飞调试，新能源组则聚焦新能源汽车的拼装、改造与上路测试，近150名香港初、高
@@ -255,6 +311,18 @@ _Updated 2026-07-29 15:13 | discovery-only, zero LLM tokens | runs every 3h_
   2026-07-29 06:30:02 实习生 刘家怡 每经编辑｜余婷婷 | 2026年7月29日 星期三 | NO.1 上半年全国电动汽车充电设施同比增长43.2% 7月28日，国家能源局发布2026年上半年全国电动汽车充电设施数据。根据国家充电设施监测服务平台数据，截至2026年6月底，我国电动汽车充电基础设施（枪）总数达到2305.7万个，同比增长43
 - **[独家丨比亚迪李云飞：王传福个人没有直接投资长鑫科技](https://www.nbd.com.cn/articles/2026-07-29/4525218.html)** — _www.nbd.com.cn_ · published 2026-07-29
   2026-07-29 12:42:09 每经记者｜李星 每经编辑｜余婷婷 近日，关于比亚迪董事长王传福个人参投长鑫科技（688825.SH）的消息，引发外界关注。 7月28日深夜，比亚迪集团品牌及公关处总经理李云飞独家回应《每日经济新闻》记者称，比亚迪所有的投资，均由比亚迪股份有限公司直投，没有管理第三方的资金，也没有管理所有高管个人的资金。“所以，王总（王
+- **[智驾“小蓝灯”不符合国标？多款车型辅助驾驶标识灯或面临调整](https://www.nbd.com.cn/articles/2026-07-29/4525383.html)** — _www.nbd.com.cn_ · published 2026-07-29
+  2026-07-29 15:52:55 每经记者｜刘曦 每经编辑｜余婷婷 “智驾小蓝灯本身不符合相关要求。”7月29日，一位自动驾驶行业人士向《每日经济新闻》记者表示。 日前，有消息称，由于“小蓝灯”不符合GB 4785-2019《汽车及挂车外部照明和光信号装置的安装规定》（以下简称《安装规定》），未来乘用车安装“小蓝灯”或将受到限制。《安装规定》为现行强制
+- **[港股强势收高，恒指涨近2%！汽车股全线大涨](https://www.nbd.com.cn/articles/2026-07-29/4525486.html)** — _www.nbd.com.cn_ · published 2026-07-29
+  2026-07-29 17:54:18 每经记者｜曾子建 每经编辑｜袁东 今日（7月29日）港股市场延续近期强势表现。 截至收盘，恒生指数报25807.92点，上涨497.07点，涨幅1.96%，继续创下本轮反弹以来的新高。 恒生科技指数收盘报4864.73点，上涨134.12点，涨幅2.84%。 重要成分股方面，汽车股集体走强。其中，理想汽车-W（HK02
+- **[比亚迪李云飞：王传福没有直接投资长鑫科技，除了比亚迪，他也没有以个人身份投资任何一家公司](https://www.nbd.com.cn/articles/2026-07-29/4525503.html)** — _www.nbd.com.cn_ · published 2026-07-29
+  每日经济新闻 2026-07-29 16:59:34 每经记者｜李星 每经编辑｜梁露月 余婷婷 记者|李星 编辑|梁露月 余婷婷 杜恒峰 校对|段炼 近日，关于比亚迪董事长王传福个人参投长鑫科技（688825.SH）的消息，引发外界关注。 7月28日深夜，比亚迪集团品牌及公关处总经理李云飞回应《每日经济新闻》记者称，比亚迪所有的投资，均由比亚迪股份有限公司直
+- **[不符合国标，智驾“小蓝灯”或将被禁用？车企回应：已知晓，将严格遵循规定](https://www.nbd.com.cn/articles/2026-07-29/4525473.html)** — _www.nbd.com.cn_ · published 2026-07-29
+  每日经济新闻 2026-07-29 16:33:07 每经编辑｜梁露月 “智驾小蓝灯本身不符合相关要求。”7月29日，一位自动驾驶行业人士向《每日经济新闻》记者表示。 日前，有消息称，由于“小蓝灯”不符合GB 4785-2019《汽车及挂车外部照明和光信号装置的安装规定》（以下简称《安装规定》），未来乘用车安装“小蓝灯”或将受到限制。《安装规定》为现行强制性
+- **[恒生科技涨2.84%，腾讯涨超4%；汽车股大爆发，理想涨近10%，零跑涨超9%；PCB、存储概念股普跌丨港股收盘](https://www.nbd.com.cn/articles/2026-07-29/4525457.html)** — _www.nbd.com.cn_ · published 2026-07-29
+  每日经济新闻 2026-07-29 16:23:57 每经记者｜杜宇 每经编辑｜金冥羽 记者|杜宇 编辑|金冥羽 杜恒峰 校对|何小桃 7月29日，香港恒生指数收涨1.96%，恒生科技指数收涨2.84%。汽车板块领涨，理想汽车涨近10%，零跑汽车涨超9%，奇瑞汽车涨超8%，吉利汽车涨超6%。PCB、存储概念跌幅居前，芯碁微装跌超15%，胜宏科技跌近8%，建滔
+- **[ETF今日收评](https://www.nbd.com.cn/articles/2026-07-29/4525362.html)** — _www.nbd.com.cn_ · published 2026-07-29
+  2026-07-29 15:19:55 每经记者｜叶峰 每经编辑｜赵云 市场探底回升，三大指数集体收涨。从板块来看，大消费板块逆势走强，食品饮料方向领涨，零售概念表现活跃，大金融板块午后走高；下跌方面，脑机接口概念盘中震荡调整。 ETF上涨方面，港股通汽车ETF涨超6%。 有券商表示，随着智能化技术的加速落地，部分车企凭借领先的智能驾驶与智能座舱技术，正处于
 - **[自动驾驶摆渡项目落地乌鲁木齐天山国际机场](https://www.news.cn/fortune/20260729/73a9ee07df434840966ff934d6641f72/c.html)** — _www.news.cn_ · published 2026-07-29
   7月28日，国内大型枢纽机场机坪规模化载人自动驾驶项目落地乌鲁木齐天山国际机场。 该项目采用“云控调度+自动驾驶摆渡车+车载交互”一体化方案，具备自主巡航、自动避障、精准进站等全场景能力，可适配高寒、高温、多风沙等极端气候。 记者：白志强、郝玉 新华社音视频部制作 【纠错】 【责任编辑:刘阳】 7月28日，国内大型枢纽机场机坪规模化载人自动驾驶项目落地乌鲁木
 - **[六年深耕，岚图汽车在新能源汽车市场竞争中跑出确定性](https://www.news.cn/auto/20260729/310ac7b4a2cb46a69d1d5481a7525c9a/c.html)** — _www.news.cn_ · published 2026-07-29
@@ -277,6 +345,10 @@ _Updated 2026-07-29 15:13 | discovery-only, zero LLM tokens | runs every 3h_
   7月28日，国家能源局发布2026年上半年全国电动汽车充电设施数据。据国家充电设施监测服务平台数据统计，截至2026年6月底，我国电动汽车充电基础设施（枪）总数达2305.7万个，同比增长43.2%。其中，公共充电设施（枪）500.9万个，同比增长22.3%，额定总功率达2.47亿千瓦，单枪平均功率约为49.35千瓦；私人充电设施（枪）1804.8万个，同比
 - **[汽车产业调整中展现韧性活力（锐财经·年中经济观察⑫）](https://www.stcn.com/article/detail/4046748.html)** — _www.stcn.com_ · date: unknown
   中国汽车工业协会（以下简称“中汽协”）近日发布的数据显示，上半年，中国汽车产销分别完成1499.3万辆和1501.7万辆；新能源汽车产销分别完成743.8万辆和744.6万辆；中国汽车累计出口509.6万辆。 上半年，新能源汽车渗透率持续攀升，自主品牌市占率稳居七成以上，汽车出口规模再创新高，中国汽车产业运行平稳，展现出强大的产业韧性和结构升级活力。 运行总
+- **[小米集团涨近9%，明晚将发布新车](https://www.stcn.com/article/detail/4047841.html)** — _www.stcn.com_ · published 2026-07-27
+  证券时报网 数据宝 2026-07-27 21:34 7月29日，小米集团、吉利汽车等车企股价大涨。 今日，小米集团董事长雷军发布微博称，“小米做增程不晚，增程市场大有可为”。 在雷军看来，增程还是纯电，从来不是路线之争，只有产品体验的高下之分，增程市场需求依旧旺盛，用户愿意为优秀的增程产品买单。同时，增程系统本身也在经历断代式的进化，小米澎程采用的大电池增
+- **[中国太保副总裁俞斌：保险机构服务新能源车“走出去”，不能只停留在承保环节](https://www.stcn.com/article/detail/4047835.html)** — _www.stcn.com_ · date: unknown
+  新能源车“出海”主要面临哪些风险？保险机构如何更好地服务中国新能源车“走出去”？ 在近日举行的中国汽车论坛期间，中国太保副总裁俞斌接受券商中国记者书面专访，就新能源车出海风险保障、未来车险趋势等热点话题，分享了中国太保的实践成果与战略思考。 俞斌指出，当前，中国新能源车出海正从“产品出口”向“产业链出海、服务体系出海”升级，保险服务也需要向全链条风险管理延伸
 - **[六年深耕，岚图汽车在新能源汽车市场竞争中跑出确定性](https://www.xinhuanet.com/auto/20260729/310ac7b4a2cb46a69d1d5481a7525c9a/c.html)** — _www.xinhuanet.com_ · published 2026-07-29
   六年，在汽车工业的长周期中不过一瞬，却足以改写一个产业的竞争格局。 随着新能源汽车竞争进入“下半场”，汽车企业聚焦的是能否在长周期中稳定交付、持续研发、保障安全、服务用户，并最终穿越波动的市场周期。 岚图，恰恰在这个节点上交出了一份值得审视的答卷。自2020年7月品牌发布以来，岚图依托东风体系半个多世纪的造车积淀，以全价值链自主掌控为底座，以市场化机制创新为
 - **[越野赛道沦为红海，年内新车投放近20款](https://www.yicai.com/news/103296176.html)** — _www.yicai.com_ · date: unknown
