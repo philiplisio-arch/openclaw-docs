@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-30 03:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-30 06:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-30 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **5406 unique auto/NEV articles** across **51 outlets**
+## Cumulative: **5407 unique auto/NEV articles** across **51 outlets**
 
 ## New per day
 | date | new articles |
@@ -62,7 +62,7 @@ _Updated 2026-07-30 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-27 | 148 |
 | 2026-07-28 | 161 |
 | 2026-07-29 | 145 |
-| 2026-07-30 | 7 |
+| 2026-07-30 | 8 |
 
 ## By outlet
 | outlet | articles |
@@ -83,7 +83,7 @@ _Updated 2026-07-30 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 | www.news.cn | 109 |
 | m.21jingji.com | 101 |
 | www.yicai.com | 97 |
-| www.zqrb.cn | 61 |
+| www.zqrb.cn | 62 |
 | auto.caijing.com.cn | 61 |
 | www.gelonghui.com | 53 |
 | www.xinhuanet.com | 39 |
@@ -121,7 +121,7 @@ _Updated 2026-07-30 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-30 — 7 articles
+### 2026-07-30 — 8 articles
 - **[比亚迪位列2026年《财富》世界500强第91位](https://auto.caijing.com.cn/2026/0729/5174170.shtml)** — _auto.caijing.com.cn_ · date: unknown
 - **[上海制定测绘地理信息条例 规范智能网联汽车等测绘活动](https://egs.stcn.com/news/detail/2321213.html)** — _egs.stcn.com_ · published 2026-10-01
   证券时报 07-29 23:53 人民财讯7月29日电，7月29日，上海市第十六届人民代表大会常务委员会第三十二次会议表决通过《上海市测绘地理信息条例》，《条例》将自2026年10月1日起施行。 《条例》明确上海相对独立的平面坐标系统的法律地位，并要求与国家坐标系统相联系。明确卫星导航定位基准站的建设和运行维护，要符合国家有关法律法规、技术规范和标准。上海市
@@ -134,6 +134,8 @@ _Updated 2026-07-30 03:12 | discovery-only, zero LLM tokens | runs every 3h_
   证券时报网 韩忠楠 2026-07-27 21:51 人民财讯7月29日电，7月29日，上海市第十六届人民代表大会常务委员会第三十二次会议表决通过《上海市测绘地理信息条例》，《条例》将自2026年10月1日起施行。 《条例》明确上海相对独立的平面坐标系统的法律地位，并要求与国家坐标系统相联系。明确卫星导航定位基准站的建设和运行维护，要符合国家有关法律法规、技
 - **[吉利汽车拿下智驾安全001号认证 体系化能力树立行业新标杆](https://www.zqrb.cn/auto/qichedongtai/2026-07-29/A1785311042950.html)** — _www.zqrb.cn_ · published 2026-07-29
   本报记者 刘钊 7月20日，吉利汽车获得行业首张组合驾驶辅助安全管理体系认证证书，证书编号为001。作为《智能网联汽车 组合驾驶辅助系统安全要求》强制性国家标准的核心起草单位之一，吉利不仅深度参与了行业安全规则制定，还率先将标准要求转化为覆盖研发、测试、生产和服务的管理体系，实现了从标准制定者到安全实践引领者的跨越。 随着组合驾驶辅助功能加快普及，汽车行业正
+- **[电动汽车充电网络持续织密 产业链企业动态调整业务布局](https://www.zqrb.cn/auto/qichedongtai/2026-07-29/A1785333712887.html)** — _www.zqrb.cn_ · published 2026-07-29
+  本报记者 吴奕萱 见习记者 王楠 7月28日，国家能源局发布2026年上半年全国电动汽车充电设施数据。根据国家充电设施监测服务平台数据，截至2026年6月底，我国电动汽车充电基础设施（枪）总数达到2305.7万个，同比增长43.2%。其中，公共充电设施（枪）500.9万个，同比增长22.3%；私人充电设施（枪）1804.8万个，同比增长50.4%。 “私人充
 
 ### 2026-07-29 — 145 articles
 - **[L2渗透率破70%，中国车企狂卷智驾：自研芯片、VLA/世界模型全开花](https://36kr.com/p/3915288958539657)** — _36kr.com_ · published 2026-07-29
