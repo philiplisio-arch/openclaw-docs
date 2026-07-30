@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-31 00:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-31 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-31 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **5528 unique auto/NEV articles** across **52 outlets**
+## Cumulative: **5533 unique auto/NEV articles** across **52 outlets**
 
 ## New per day
 | date | new articles |
@@ -63,14 +63,14 @@ _Updated 2026-07-31 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-28 | 161 |
 | 2026-07-29 | 145 |
 | 2026-07-30 | 124 |
-| 2026-07-31 | 5 |
+| 2026-07-31 | 10 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.d1ev.com | 1280 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 427 |
+| vc.yiche.com | 430 |
 | auto.gasgoo.com | 326 |
 | 36kr.com | 278 |
 | www.stcn.com | 234 |
@@ -84,7 +84,7 @@ _Updated 2026-07-31 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 | www.cada.cn | 111 |
 | m.21jingji.com | 105 |
 | www.yicai.com | 98 |
-| www.zqrb.cn | 63 |
+| www.zqrb.cn | 65 |
 | auto.caijing.com.cn | 61 |
 | www.gelonghui.com | 56 |
 | finance.eastmoney.com | 41 |
@@ -123,16 +123,26 @@ _Updated 2026-07-31 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-31 — 5 articles
+### 2026-07-31 — 10 articles
 - **[特斯拉全球纯电动车累计产量突破1000万](https://auto.gasgoo.com/news/202607/30I70467962C501.shtml)** — _auto.gasgoo.com_ · date: unknown
 - **[小米汽车发布全新技术平台](https://egs.stcn.com/news/detail/2321648.html)** — _egs.stcn.com_ · date: unknown
   证券时报·e公司 钟恬 07-30 23:54 人民财讯7月30日电，7月30日，小米集团举办造车以来的第二场技术发布会，发布小米汽车全新技术平台：小米昆仑技术架构。这是小米继摩德纳纯电平台后推出的第二套技术架构，包含小米昆仑平台、小米昆仑超级增程和小米昆仑全域安全三大核心技术。雷军称，小米昆仑技术架构历时三年半打造，目标是造一台既有SUV外观、驾驶性和通过
+- **[海洋网的新“技术旗舰”，比亚迪海狮07到底硬在哪？](https://vc.yiche.com/vplay/12360728.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 18.98-23.98万 小鹏GX正式上市：SEPA 3.0架构 + 图灵芯片，30万级旗舰新标杆？ 车族风 狮驭西北境鉴非凡 比亚迪海狮双车淬炼高原全能实力 随风探车 2
+- **[低定价+长续航 MG 07击穿纯电超跑行业壁垒](https://vc.yiche.com/vplay/12369268.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 吉利银河V900上市：26.98万起，5.3米MPV直接对标空客头等舱 轮下无限 日本车神话，正在被中国打穿 shanxiBai 租电方案最低不到16万，乐道L80
+- **[年中购车避坑指南！带你实地探店拆解埃安i60真实底价](https://vc.yiche.com/vplay/12367609.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 10.28-13.58万 20万唯一双腔空悬+高阶智驾 昊铂S600直接卷疯同级 新智KK 车长5米 续航730km的大五座SUV 与众08空间与实用度表现如何？ 驾春秋
 - **[8月新规来了，事关个人贷款、电动汽车、暑期旅游等](https://www.jwview.com/jingwei/html/07-31/681580.shtml)** — _www.jwview.com_ · date: unknown
   中新经纬7月31日电 (熊思怡)2026年8月起一大波新规将施行，影响你我生活。 (中新经纬APP) 中新经纬版权所有，未经书面授权，任何单位及个人不得转载、摘编或以其它方式使用。 本网站所刊载信息，不代表中新经纬观点。 刊用本网站稿件，务经书面授权。 未经授权禁止转载、摘编、复制及建立镜像，违者将依法追究法律责任。 [京B2-20230170] [京ICP
 - **[小米汽车发布全新技术平台](https://www.stcn.com/article/detail/4050806.html)** — _www.stcn.com_ · published 2026-07-29
   证券时报网 王小伟 2026-07-29 17:45 人民财讯7月30日电，7月30日，小米集团举办造车以来的第二场技术发布会，发布小米汽车全新技术平台：小米昆仑技术架构。这是小米继摩德纳纯电平台后推出的第二套技术架构，包含小米昆仑平台、小米昆仑超级增程和小米昆仑全域安全三大核心技术。雷军称，小米昆仑技术架构历时三年半打造，目标是造一台既有SUV外观、驾驶性
 - **[昂瑞微：公司积极开拓手机卫星通信、车载通信、低空经济等新兴应用领域](https://www.zqrb.cn/gscy/ggkx/2026-07-30/A1785401608368.html)** — _www.zqrb.cn_ · published 2026-07-30
   证券日报APP 安卓 IOS 证券日报微信 证券日报微博 证券日报网7月30日讯 ，昂瑞微在接受调研时表示，全球射频前端市场曾长期由国际巨头主导，国内射频前端厂商起步较晚、基础技术相对薄弱，但市场份额稳步提升。在中低端市场，进入门槛相对较低，参与者较多，同质化竞争较为激烈，利润空间持续压缩；在高端市场，国内部分头部射频前端企业凭借多年技术研发与市场积累，持续
+- **[算力重构汽车产业突围新路径](https://www.zqrb.cn/auto/qichedongtai/2026-07-31/A1785401608397.html)** — _www.zqrb.cn_ · published 2026-07-31
+  本报记者 马宇薇 “如果说产业上半场比拼的是电量，下半场比拼的就是算力。”在近日举行的2026中国汽车论坛上，重庆长安汽车股份有限公司执行副总裁、阿维塔科技（重庆）股份有限公司董事长王辉直言。 事实上，这一观点已逐渐成为行业共识。来自多家车企的相关负责人表示，智能化是汽车下半场的核心赛道，算力则是支撑汽车智能化落地的核心底层硬件。行业已跳出单一硬件比拼，正式
+- **[从“拼电量”到“拼算力”汽车产业下半场怎么走](https://www.zqrb.cn/review/jizheguancha/2026-07-31/A1785401608395.html)** — _www.zqrb.cn_ · published 2026-07-31
+  ■李春莲 在电动化浪潮席卷全球的十余年间，中国新能源汽车产业完成了一场波澜壮阔的上半场突围。续航里程、电池容量、快充速度成为车企比拼的主要指标，企业扎堆迭代动力电池技术：从磷酸铁锂到三元锂电，从400公里续航进阶至1000公里以上超长续航。这场以“拼电量、拼补能”为核心的硬件竞赛，推动我国新能源汽车产销量连续多年稳居全球第一，并实现了对传统燃油车产业的弯道超
 
 ### 2026-07-30 — 124 articles
 - **[「轻越野」成新王，比亚迪/吉利/鸿蒙集体押注，硬派越野沦为小众玩具](https://36kr.com/p/3916689821800066)** — _36kr.com_ · published 2026-07-30
