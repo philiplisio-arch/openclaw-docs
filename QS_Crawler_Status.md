@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-31 03:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-31 06:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-31 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **5533 unique auto/NEV articles** across **52 outlets**
+## Cumulative: **5535 unique auto/NEV articles** across **52 outlets**
 
 ## New per day
 | date | new articles |
@@ -63,7 +63,7 @@ _Updated 2026-07-31 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-28 | 161 |
 | 2026-07-29 | 145 |
 | 2026-07-30 | 124 |
-| 2026-07-31 | 10 |
+| 2026-07-31 | 12 |
 
 ## By outlet
 | outlet | articles |
@@ -85,7 +85,7 @@ _Updated 2026-07-31 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 | m.21jingji.com | 105 |
 | www.yicai.com | 98 |
 | www.zqrb.cn | 65 |
-| auto.caijing.com.cn | 61 |
+| auto.caijing.com.cn | 63 |
 | www.gelonghui.com | 56 |
 | finance.eastmoney.com | 41 |
 | www.xinhuanet.com | 40 |
@@ -123,7 +123,9 @@ _Updated 2026-07-31 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-31 — 10 articles
+### 2026-07-31 — 12 articles
+- **[新车上市](https://auto.caijing.com.cn/2026/0730/5174475.shtml)** — _auto.caijing.com.cn_ · date: unknown
+- **[新车上市](https://auto.caijing.com.cn/2026/0730/5174256.shtml)** — _auto.caijing.com.cn_ · date: unknown
 - **[特斯拉全球纯电动车累计产量突破1000万](https://auto.gasgoo.com/news/202607/30I70467962C501.shtml)** — _auto.gasgoo.com_ · date: unknown
 - **[小米汽车发布全新技术平台](https://egs.stcn.com/news/detail/2321648.html)** — _egs.stcn.com_ · date: unknown
   证券时报·e公司 钟恬 07-30 23:54 人民财讯7月30日电，7月30日，小米集团举办造车以来的第二场技术发布会，发布小米汽车全新技术平台：小米昆仑技术架构。这是小米继摩德纳纯电平台后推出的第二套技术架构，包含小米昆仑平台、小米昆仑超级增程和小米昆仑全域安全三大核心技术。雷军称，小米昆仑技术架构历时三年半打造，目标是造一台既有SUV外观、驾驶性和通过
