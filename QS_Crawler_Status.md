@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-30 21:15 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-31 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-30 21:15 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **5523 unique auto/NEV articles** across **52 outlets**
+## Cumulative: **5528 unique auto/NEV articles** across **52 outlets**
 
 ## New per day
 | date | new articles |
@@ -63,6 +63,7 @@ _Updated 2026-07-30 21:15 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-28 | 161 |
 | 2026-07-29 | 145 |
 | 2026-07-30 | 124 |
+| 2026-07-31 | 5 |
 
 ## By outlet
 | outlet | articles |
@@ -70,25 +71,25 @@ _Updated 2026-07-30 21:15 | discovery-only, zero LLM tokens | runs every 3h_
 | www.d1ev.com | 1280 |
 | www.dongchedi.com | 1088 |
 | vc.yiche.com | 427 |
-| auto.gasgoo.com | 325 |
+| auto.gasgoo.com | 326 |
 | 36kr.com | 278 |
-| www.stcn.com | 233 |
+| www.stcn.com | 234 |
 | www.caam.org.cn | 198 |
 | autodata.gasgoo.com | 163 |
 | www.cnr.cn | 158 |
-| egs.stcn.com | 149 |
+| egs.stcn.com | 150 |
 | news.yiche.com | 133 |
 | www.nbd.com.cn | 124 |
 | www.news.cn | 111 |
 | www.cada.cn | 111 |
 | m.21jingji.com | 105 |
 | www.yicai.com | 98 |
-| www.zqrb.cn | 62 |
+| www.zqrb.cn | 63 |
 | auto.caijing.com.cn | 61 |
 | www.gelonghui.com | 56 |
 | finance.eastmoney.com | 41 |
 | www.xinhuanet.com | 40 |
-| www.jwview.com | 37 |
+| www.jwview.com | 38 |
 | www.chinanews.com.cn | 34 |
 | finance.people.com.cn | 34 |
 | cn.chinadaily.com.cn | 24 |
@@ -121,6 +122,17 @@ _Updated 2026-07-30 21:15 | discovery-only, zero LLM tokens | runs every 3h_
 | culture.gmw.cn | 1 |
 
 ## Articles captured by day (newest first)
+
+### 2026-07-31 — 5 articles
+- **[特斯拉全球纯电动车累计产量突破1000万](https://auto.gasgoo.com/news/202607/30I70467962C501.shtml)** — _auto.gasgoo.com_ · date: unknown
+- **[小米汽车发布全新技术平台](https://egs.stcn.com/news/detail/2321648.html)** — _egs.stcn.com_ · date: unknown
+  证券时报·e公司 钟恬 07-30 23:54 人民财讯7月30日电，7月30日，小米集团举办造车以来的第二场技术发布会，发布小米汽车全新技术平台：小米昆仑技术架构。这是小米继摩德纳纯电平台后推出的第二套技术架构，包含小米昆仑平台、小米昆仑超级增程和小米昆仑全域安全三大核心技术。雷军称，小米昆仑技术架构历时三年半打造，目标是造一台既有SUV外观、驾驶性和通过
+- **[8月新规来了，事关个人贷款、电动汽车、暑期旅游等](https://www.jwview.com/jingwei/html/07-31/681580.shtml)** — _www.jwview.com_ · date: unknown
+  中新经纬7月31日电 (熊思怡)2026年8月起一大波新规将施行，影响你我生活。 (中新经纬APP) 中新经纬版权所有，未经书面授权，任何单位及个人不得转载、摘编或以其它方式使用。 本网站所刊载信息，不代表中新经纬观点。 刊用本网站稿件，务经书面授权。 未经授权禁止转载、摘编、复制及建立镜像，违者将依法追究法律责任。 [京B2-20230170] [京ICP
+- **[小米汽车发布全新技术平台](https://www.stcn.com/article/detail/4050806.html)** — _www.stcn.com_ · published 2026-07-29
+  证券时报网 王小伟 2026-07-29 17:45 人民财讯7月30日电，7月30日，小米集团举办造车以来的第二场技术发布会，发布小米汽车全新技术平台：小米昆仑技术架构。这是小米继摩德纳纯电平台后推出的第二套技术架构，包含小米昆仑平台、小米昆仑超级增程和小米昆仑全域安全三大核心技术。雷军称，小米昆仑技术架构历时三年半打造，目标是造一台既有SUV外观、驾驶性
+- **[昂瑞微：公司积极开拓手机卫星通信、车载通信、低空经济等新兴应用领域](https://www.zqrb.cn/gscy/ggkx/2026-07-30/A1785401608368.html)** — _www.zqrb.cn_ · published 2026-07-30
+  证券日报APP 安卓 IOS 证券日报微信 证券日报微博 证券日报网7月30日讯 ，昂瑞微在接受调研时表示，全球射频前端市场曾长期由国际巨头主导，国内射频前端厂商起步较晚、基础技术相对薄弱，但市场份额稳步提升。在中低端市场，进入门槛相对较低，参与者较多，同质化竞争较为激烈，利润空间持续压缩；在高端市场，国内部分头部射频前端企业凭借多年技术研发与市场积累，持续
 
 ### 2026-07-30 — 124 articles
 - **[「轻越野」成新王，比亚迪/吉利/鸿蒙集体押注，硬派越野沦为小众玩具](https://36kr.com/p/3916689821800066)** — _36kr.com_ · published 2026-07-30
