@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-30 12:14 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-30 15:15 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-30 12:14 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **5454 unique auto/NEV articles** across **52 outlets**
+## Cumulative: **5476 unique auto/NEV articles** across **52 outlets**
 
 ## New per day
 | date | new articles |
@@ -62,32 +62,32 @@ _Updated 2026-07-30 12:14 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-27 | 148 |
 | 2026-07-28 | 161 |
 | 2026-07-29 | 145 |
-| 2026-07-30 | 55 |
+| 2026-07-30 | 77 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.d1ev.com | 1279 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 413 |
-| auto.gasgoo.com | 307 |
-| 36kr.com | 271 |
-| www.stcn.com | 230 |
+| vc.yiche.com | 420 |
+| auto.gasgoo.com | 315 |
+| 36kr.com | 272 |
+| www.stcn.com | 231 |
 | www.caam.org.cn | 198 |
-| autodata.gasgoo.com | 161 |
+| autodata.gasgoo.com | 162 |
 | www.cnr.cn | 158 |
 | egs.stcn.com | 146 |
-| news.yiche.com | 130 |
+| news.yiche.com | 131 |
 | www.nbd.com.cn | 119 |
+| www.news.cn | 111 |
 | www.cada.cn | 111 |
-| www.news.cn | 110 |
-| m.21jingji.com | 101 |
+| m.21jingji.com | 102 |
 | www.yicai.com | 98 |
 | www.zqrb.cn | 62 |
 | auto.caijing.com.cn | 61 |
 | www.gelonghui.com | 54 |
 | finance.eastmoney.com | 41 |
-| www.xinhuanet.com | 39 |
+| www.xinhuanet.com | 40 |
 | www.jwview.com | 36 |
 | finance.people.com.cn | 33 |
 | www.chinanews.com.cn | 32 |
@@ -122,13 +122,14 @@ _Updated 2026-07-30 12:14 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-30 — 55 articles
+### 2026-07-30 — 77 articles
 - **[「轻越野」成新王，比亚迪/吉利/鸿蒙集体押注，硬派越野沦为小众玩具](https://36kr.com/p/3916689821800066)** — _36kr.com_ · published 2026-07-30
   「轻越野」成新王，比亚迪/吉利/鸿蒙集体押注，硬派越野沦为小众玩具 最近一段时间，车圈几乎要被鸿蒙智行即将发布的新车享界G9刷屏了。然而这款有「鸿蒙智行首款越野车」之称的产品，却不被诸多越野爱好者看好，原因竟是这款车不够「硬派」。 的确，硬派越野的标志是「非承载式车身+专业四驱系统+差速锁」，可搭载承载式车身的享界G9，连第一关都没能过去。这类搭载承载式车身
 - **[车圈人事巨震，仨月27位高管调整，4位CEO被换](https://36kr.com/p/3917444339019145)** — _36kr.com_ · published 2026-07-30
   车圈人事巨震，仨月27位高管调整，4位CEO被换 27位高管变动、4位CEO调整！车圈人事风暴持续。 在今天和昨天，上汽集团发生了人事巨震，一口气传出了6位高管层面的轮换，覆盖了上汽集团旗下大部分板块。 而在近期，汽车行业中的人事调整可谓密集而频繁。据车东西不完全统计，在近3个月的时间内，出现了至少27位高管职位变动，总经理、CEO级别的调整就有9次。 20
 - **[每车一年可节省20万油费，中国重汽、三一、东风等聚焦电动重卡，这块香饽饽为何难觅新能源汽车踪影？](https://36kr.com/p/3917464308438917)** — _36kr.com_ · published 2026-07-30
   每车一年可节省20万油费，中国重汽、三一、东风等聚焦电动重卡，这块香饽饽为何难觅新能源汽车踪影？ 新能源重卡市场增长，传统车企占优，新势力需找定位。 7月23日，国家发展改革委、国家能源局联合印发《可再生能源发展"十五五"规划》，明确提出大力推动交通运输行业可再生能源消费，推广绿电直连等新业态，加快推动新能源重卡规模化利用，推动新能源汽车"绿车充绿电"。 两
+- **[中国将规范智驾小蓝灯滥用，修订汽车灯光国标](https://36kr.com/p/3917442639457668)** — _36kr.com_ · date: unknown
 - **[比亚迪位列2026年《财富》世界500强第91位](https://auto.caijing.com.cn/2026/0729/5174170.shtml)** — _auto.caijing.com.cn_ · date: unknown
 - **[百强榜 | 全球汽车Tier1，正在经历一场权力大换血 ​-盖世汽车资讯](https://auto.gasgoo.com/news/202607/30I70467822C103.shtml)** — _auto.gasgoo.com_ · date: unknown
   《中国方案向全球——中国汽车供应链崛起深调研》系列开篇 终于，在等待数周后，2026年全球汽车零部件百强榜带着好消息来了。 17家中国企业上榜，再次刷新历史成绩。 总数首次超越美国（16家）、德国（15家），稳居全球第二梯队首位；宁德时代一路跃升至全球第三，硬生生撕开了欧美日垄断多年的Top3阵营；全球收入涨幅榜前五名里，中国企业独占四席，普遍两位数的营收增
@@ -141,9 +142,24 @@ _Updated 2026-07-30 12:14 | discovery-only, zero LLM tokens | runs every 3h_
   盖世汽车讯 韩国车企起亚汽车董事奥拉西奥·查韦斯（Horacio Chavez）7月29日透露，起亚将在墨西哥生产并销售纯电动汽车。 查韦斯在墨西哥总统克劳迪娅·辛鲍姆（Claudia Sheinbaum）的每日新闻发布会上表示，起亚汽车将在墨西哥投入6.49亿美元。查韦斯还补充道：“起亚本次投资用于生产线改造，现有工厂将继续投入使用。” 图片来源：起亚汽车
 - **[盖世汽车CEO周晓莺受邀参加一汽交流会](https://auto.gasgoo.com/news/202607/30I70467930C106.shtml)** — _auto.gasgoo.com_ · date: unknown
 - **[东风汽车千伏电驱与兆瓦超充桩样机下线](https://auto.gasgoo.com/news/202607/30I70467927C109.shtml)** — _auto.gasgoo.com_ · date: unknown
+- **[从座舱显示到全车光电交互：沂普光电的战略跃迁和车载光学的价值重构](https://auto.gasgoo.com/news/202607/30I70467932C103.shtml)** — _auto.gasgoo.com_ · date: unknown
+- **[法拉利首款电动车Luce售罄今年全部配额](https://auto.gasgoo.com/news/202607/30I70467946C501.shtml)** — _auto.gasgoo.com_ · date: unknown
+  盖世汽车讯 法拉利首款纯电动车型Luce在发布不到两个月内已售罄其2026年全部生产配额，共计约500辆。尽管该车起售价高达55万欧元（约合64万美元），且自5月25日在罗马发布以来遭遇广泛设计批评，但订单仍迅速被市场消化。客户交付预计从今年10月开始，目前尚未有车辆交付至用户手中。 据《金融时报》报道，法拉利未就具体销售数据置评，仅表示将在7月30日发布的
+- **[大汉车长超5256mm，纯电续航最高1008km](https://auto.gasgoo.com/news/202607/30I70467957C107.shtml)** — _auto.gasgoo.com_ · date: unknown
+- **[三菱汽车计划推出新一代Delica D:6，或将搭载300马力PHEV系统](https://auto.gasgoo.com/news/202607/30I70467939C101.shtml)** — _auto.gasgoo.com_ · date: unknown
+  盖世汽车讯 三菱汽车旗下旗舰跨界多功能车Delica D:5或将迎来历史性的换代。据相关消息，新一代车型Delica D:6正在开发中，预计将以插电式混合动力（PHEV）为主要动力形式，输出功率约300马力，售价或定于700万日元区间。 现款Delica D:5最初于2007年发布，至今已接近20年。尽管在2019年进行了大幅改款，并于2026年1月再次实施
+- **[奔驰将在新一代大型电动车中使用含75%再生铝材料](https://auto.gasgoo.com/news/202607/30I70467943C101.shtml)** — _auto.gasgoo.com_ · date: unknown
+  盖世汽车讯 梅赛德斯-奔驰将成为欧洲首家在量产车型中采用Hydro Circal回收铝的汽车制造商，该材料将应用于下一代大型电动车。新材料的消费后回收铝含量至少为75%，而目前Hydro供应的铝材中回收含量约为25%。 这些废料来自报废车辆、建筑和基础设施。Hydro表示，在靠近生产地收集废料有助于缩短区域供应链。将回收铝含量从四分之一提升至四分之三是一项技
+- **[日本熊本7.1级地震致丰田、日产部分工厂停产](https://auto.gasgoo.com/news/202607/30I70467947C101.shtml)** — _auto.gasgoo.com_ · date: unknown
+  盖世汽车讯 7月28日，日本熊本地区发生7.1级地震，已造成至少13人死亡，并导致建筑、道路及电力设施损毁。丰田和日产在震中附近约93英里处的工厂虽未直接受损，但因供应链问题及周边地区安全考量，两家公司决定暂停部分生产运营。这可能影响部分雷克萨斯和日产车型在美国市场的供应。 图片来源：丰田 丰田宫田工厂约90%的车辆出口至海外市场，包括美国。雷克萨斯ES轿车
+- **[奔驰纯电GLC越南开启预订，33.99亿越南盾起](https://auto.gasgoo.com/news/202607/30I70467915C101.shtml)** — _auto.gasgoo.com_ · date: unknown
+  盖世汽车讯 梅赛德斯-奔驰越南经销商已开始接受全新一代纯电GLC的预订。据经销商信息，首发版本为GLC 400 4Matic，预计售价约33.99亿越南盾。新一代GLC将全面切换至纯电驱动系统，标志着该车型在越南市场的重大技术转型。 图片来源：奔驰，非本文越南版本 动力与续航 GLC 400 4Matic搭载双电机四驱系统，最大功率483马力，匹配4Mati
+- **[美国2026年第二季度混动车型销量创新高](https://auto.gasgoo.com/news/202607/30I70467948C108.shtml)** — _auto.gasgoo.com_ · date: unknown
+  盖世汽车讯 根据市场研究机构Omdia的估算，2026年第二季度，美国轻型新车销量中，混合动力、插电式混合动力及纯电动车型合计占比达24%，高于2025年同期的22%。其中，混合动力电动车（HEV）市场份额升至16%，创历史新高；而纯电动车（BEV）和插电式混合动力车（PHEV）的市场份额则双双下降。 数据显示，2026年第二季度，纯电动车占美国轻型新车销量
 - **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2082637675981586432)** — _autodata.gasgoo.com_ · date: unknown
 - **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2082638929029906432)** — _autodata.gasgoo.com_ · date: unknown
 - **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2082641395104501760)** — _autodata.gasgoo.com_ · date: unknown
+- **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2082639009233387520)** — _autodata.gasgoo.com_ · date: unknown
 - **[上海制定测绘地理信息条例 规范智能网联汽车等测绘活动](https://egs.stcn.com/news/detail/2321213.html)** — _egs.stcn.com_ · published 2026-10-01
   证券时报 07-29 23:53 人民财讯7月29日电，7月29日，上海市第十六届人民代表大会常务委员会第三十二次会议表决通过《上海市测绘地理信息条例》，《条例》将自2026年10月1日起施行。 《条例》明确上海相对独立的平面坐标系统的法律地位，并要求与国家坐标系统相联系。明确卫星导航定位基准站的建设和运行维护，要符合国家有关法律法规、技术规范和标准。上海市
 - **[金杯汽车等成立汽车零部件公司](https://egs.stcn.com/news/detail/2321356.html)** — _egs.stcn.com_ · date: unknown
@@ -159,9 +175,13 @@ _Updated 2026-07-30 12:14 | discovery-only, zero LLM tokens | runs every 3h_
   首个自动驾驶机场摆渡项目落地新疆 2026年07月30日07:36 | 来源：人民网－人民日报222 订阅已订阅已收藏收藏小字号 点击播报本文，约 本报乌鲁木齐7月29日电 （记者李亚楠）7月28日，中国首个自动驾驶机场摆渡项目在乌鲁木齐天山国际机场启用。此次项目的车辆是由新疆机场集团天博产业联合宇通打造的12米高端纯电动客车，通过性更强。 目前，新疆机场集
 - **[中国汽车标准化研究院：“小蓝灯”滥用存隐患 相关国标修订已启动](https://finance.people.com.cn/n1/2026/0730/c1004-40770761.html)** — _finance.people.com.cn_ · published 2026-07-30
   中国汽车标准化研究院：“小蓝灯”滥用存隐患 相关国标修订已启动 2026年07月30日08:27 | 来源：人民网222 订阅已订阅已收藏收藏小字号 点击播报本文，约 人民网北京7月30日电 （记者申佳平）近日，一则关于乘用车“小蓝灯”将被禁止安装的消息引发网友关注。7月29日，中国汽车标准化研究院通过官方微信公众号回应表示，当前“小蓝灯”存在灯光滥用情况，
+- **[X9在高温中“趴窝”，小鹏的高端路还怎么走？](https://m.21jingji.com/article/20260730/herald/76d1fd9d8ef68ecc43c473c2a90c902f.html)** — _m.21jingji.com_ · date: unknown
+  多线扩张的小鹏，栽在了品控上。 文/王慧莹 编辑/子夜 一场40℃高温，把小鹏汽车的旗舰车型“烤”出了原形。 近日，作为小鹏“冲高”的旗舰MPV，小鹏X9在重庆高温天气下集中爆发空气弹簧故障，车身塌陷、行驶“趴窝”的案例在社交媒体中接连出现。 7月16日，小鹏作出官方回应。公告中，小鹏承认部分X9用户在高温等极端场景遭遇空气弹簧故障，并就不佳用车体验向车主致
 - **[7月1-26日乘用车零售112.3万辆](https://news.yiche.com/xiaoliangshuju/20260729/21111864932.html)** — _news.yiche.com_ · date: unknown
 - **[比亚迪海獭RACCO首周锁单定金突破5000台 起售价214.5万日元](https://news.yiche.com/zonghexinwen/20260730/11111879018.html)** — _news.yiche.com_ · date: unknown
   推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 7月30日，据相关媒体报道，比亚迪海獭RACCO正式开启预售后，首周锁单定金突破5000台。据悉，在今年东京车展亮相期间，海獭原型车就已收获3万份意向订单。新车税前起售价214.5万日元（约合人民币
+- **[比亚迪大汉更多信息公布 将于8月21日成都车展正式亮相](https://news.yiche.com/xinchexiaoxi/20260730/13111883102.html)** — _news.yiche.com_ · date: unknown
+  推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 7月30日，比亚迪王朝网销售事业部总经理路天在社交媒体上公布了比亚迪大汉车型更多信息。比亚迪大汉定位王朝网旗下全新D级旗舰轿车，提供纯电和插混两种动力，纯电车型最大CLTC续航可达1008km，并提
 - **[首个自动驾驶机场摆渡项目落地新疆](https://politics.gmw.cn/2026-07/30/content_38916624.htm)** — _politics.gmw.cn_ · published 2026-07-30
   点击右上角微信好友 朋友圈 请使用浏览器分享功能进行分享 本报乌鲁木齐7月29日电 （记者李亚楠）7月28日，中国首个自动驾驶机场摆渡项目在乌鲁木齐天山国际机场启用。此次项目的车辆是由新疆机场集团天博产业联合宇通打造的12米高端纯电动客车，通过性更强。 目前，新疆机场集团已在乌鲁木齐天山国际机场累计投用各类自动驾驶车辆、自动操控设备百余台。无人行李牵引车承担
 - **[【AI试车】比亚迪大汉，纯电续航可达1008km，比亚迪新能源旗舰轿车，AI首测](https://vc.yiche.com/vplay/12324881.html)** — _vc.yiche.com_ · date: unknown
@@ -180,6 +200,20 @@ _Updated 2026-07-30 12:14 | discovery-only, zero LLM tokens | runs every 3h_
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 23.99-30.99万 比亚迪大唐EV预售53天，收获了超15万台订单！你们觉得转换成销量能到多少 车圈小隆哥 A级纯电SUV再次刷新标杆高度 老李撩车 火星PHEV超级
 - **[小鹏GX 全尺寸SUV 月均花费仅一千块？](https://vc.yiche.com/vplay/12357333.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 27.98-35.98万 埋头搞科技的小鹏，能做好一台豪华旗舰SUV吗？ 就是你的VC 探店体验小鹏GX，今年最火的大SUV确实给力 分秒汽车 30万级六座SUV黑马，小鹏
+- **[【邦你试驾】混动性能出色/空间有惊喜 试驾福特锐界L](https://vc.yiche.com/vplay/12361099.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 22.98-30.98万 试驾福特锐界L，三排六座的合资混动大SUV价格竟如此超值 分秒汽车 同级无短板！2026 款福特锐界 L 限时入手划算 驭鉴 领克07GT正式上市
+- **[5万级纯电代步小车首推！缤果Pro为何值得买？只聊干货](https://vc.yiche.com/vplay/12360532.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 5.68-7.08万 5.68万起，精致小车最优解缤果pro 爱车兵团 红旗HQ9入手31.28万起，高低配差价20万！买入门版足够吗？ 枫行视界 售价5.68-7.08万
+- **[探店｜蔚来ES8大五座版，可不只是为了实用那么简单_易车视频](https://vc.yiche.com/vplay/12360644.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 38.28-44.68万 把生活揣进你的车，蔚来ES8五座版首试！ 二萌er 两驱推沟里，领克07GT四驱才最香，不接受反驳 胖川侃车 为啥国产车配置拉满，却难称高端？ 区
+- **[不吹不黑，超详解读：小鹏MONA L03到底怎么样？](https://vc.yiche.com/vplay/12360588.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 12.38-15.68万 开箱乐道L80，双舱大五座，全系标配空悬不止于空间，一半的价格给你蔚来ES9同样的换电服务体验！ 车各有志 新能源车销量超过燃油车？听听贾老师的见
+- **[比亚迪海獭VS海鸥：国内真的不如日本版本？](https://vc.yiche.com/vplay/12360245.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 比亚迪K-CAR上市，海獭专打日本市场！ 汽车大事记 雷克萨斯：市场快节奏里的慢动作 童济仁汽车评论 30万到70万！岚图梦想家全系选购指南！ 蜗牛车志 日产硬派S
+- **[探店实拍比亚迪海豹08，19.69万起双动力大轿车全系闪充+高阶智驾](https://vc.yiche.com/vplay/12360154.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 19.69-23.99万 19万多买中大型轿车！比亚迪海豹08EV优缺点汇总 牛车小试 赤龙驭道 斯堪称王天津最帅SCANIA 650S V8卡车动态展示！ czZoe 2
+- **[蔚来萤火虫，原来我们低估它了？租电不到8万值吗？](https://vc.yiche.com/vplay/12360056.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 11.98-13.33万 105kW⚟120kW🏎️激发动力潜能！ 烟火红伞开车小站 去掉一个电机，只为碰撞更安全？探店沃尔沃EM90：安全到每个细节 汽湃 当某品牌销售拒
 - **[电动汽车充电网络持续织密](https://www.ceweekly.cn/economic/industry/2026/0730/497997.html)** — _www.ceweekly.cn_ · date: unknown
 - **[汽车产业调整中展现韧性活力](https://www.cnr.cn/2013qcpd/2015xc/20260730/t20260730_527736737.shtml)** — _www.cnr.cn_ · published 2026-07-30
   上半年，中国汽车出口创新高，自主品牌国内市占率创新高—— 汽车产业调整中展现韧性活力 中国汽车工业协会（以下简称“中汽协”）近日发布的数据显示，上半年，中国汽车产销分别完成1499.3万辆和1501.7万辆；新能源汽车产销分别完成743.8万辆和744.6万辆；中国汽车累计出口509.6万辆。 上半年，新能源汽车渗透率持续攀升，自主品牌市占率稳居七成以上，汽
@@ -203,6 +237,8 @@ _Updated 2026-07-30 12:14 | discovery-only, zero LLM tokens | runs every 3h_
   每日经济新闻 2026-07-30 12:08:26 每经记者｜杜恒峰 每经编辑｜梁露月 记者|杜恒峰 编辑|梁露月 杜波 校对|段炼 7月30日早盘，A股四大指数集体下跌。截至中午休市，上证指数跌1.15%，深证成指跌3.79%，创业板指跌5.89%，科创综指跌6.25%。沪深两市半日成交额1.45万亿，较上个交易日缩量264亿。全市场超3400只个股下跌
 - **[从“卖出去”到“走进去” 中国汽车出海进入深水区](https://www.news.cn/fortune/20260730/99ebd0ad88d246c198e96963770d771d/c.html)** — _www.news.cn_ · published 2026-07-30
   今年4月28日，中国车企吉利在法国巴黎举行活动，宣布两款电动车在法上市。图为人们参观吉利E5电动汽车。新华社记者 邬惠我 摄 吉利与福特将在西班牙瓦伦西亚工厂成立合资公司、小鹏在德国完成小鹏图灵AI智驾的本地化验收测试、地平线与大众宣布进一步深化在AI基座大模型领域的技术合作……近期中国车企出海步伐正在进一步提速，从单纯的整车外销，逐步转向产能共建、智能技术
+- **[从“卖出去”到“走进去” 中国汽车出海进入深水区](https://www.news.cn/20260730/3d5d8903a73b49df9f23dcd5677f4ba9/c.html)** — _www.news.cn_ · published 2026-07-30
+  今年4月28日，中国车企吉利在法国巴黎举行活动，宣布两款电动车在法上市。图为人们参观吉利E5电动汽车。新华社记者 邬惠我 摄 吉利与福特将在西班牙瓦伦西亚工厂成立合资公司、小鹏在德国完成小鹏图灵AI智驾的本地化验收测试、地平线与大众宣布进一步深化在AI基座大模型领域的技术合作……近期中国车企出海步伐正在进一步提速，从单纯的整车外销，逐步转向产能共建、智能技术
 - **[上海制定测绘地理信息条例 规范智能网联汽车等测绘活动](https://www.stcn.com/article/detail/4048237.html)** — _www.stcn.com_ · published 2026-07-27
   证券时报网 韩忠楠 2026-07-27 21:51 人民财讯7月29日电，7月29日，上海市第十六届人民代表大会常务委员会第三十二次会议表决通过《上海市测绘地理信息条例》，《条例》将自2026年10月1日起施行。 《条例》明确上海相对独立的平面坐标系统的法律地位，并要求与国家坐标系统相联系。明确卫星导航定位基准站的建设和运行维护，要符合国家有关法律法规、技
 - **[多方监督打通账期治理堵点 护航汽车产业良性发展](https://www.stcn.com/article/detail/4048316.html)** — _www.stcn.com_ · date: unknown
@@ -217,6 +253,10 @@ _Updated 2026-07-30 12:14 | discovery-only, zero LLM tokens | runs every 3h_
   今日（7月30日）沪指早间窄幅震荡，创业板指、科创50均跌超3%，半导体、光刻机、玻璃基板、CPO等板块跌幅居前，白酒、贵金属、教育、旅游等板块领涨。 创新药概念震荡拉升，海南海药一度涨停，九典制药、哈药股份、新赣江、联环药业、万邦医药跟涨。 消息面上，安永近日发布的报告中提到，到2032年，全球前25大生物制药企业预计将面临超过3700亿美元的潜在增长缺口
 - **[出海成车企增长“主引擎” 产业链分享“新四化”盛宴](https://www.stcn.com/article/detail/4048742.html)** — _www.stcn.com_ · date: unknown
   奇瑞汽车生产的新车在码头装船出口 汽车行业上市公司半年报正在陆续披露，出海和汽车“新四化”成为其业绩变化的动因。一方面，在新能源汽车出口赋能下，出海成为奇瑞汽车、比亚迪、吉利汽车等业绩增长的“主引擎”之一，单月出口量等多项纪录被刷新；另一方面，受益于电动化、智能化、网联化、共享化等汽车“新四化”的变革，宁德时代、速腾聚创、地平线等拿下新的市场份额。 业内专家
+- **[吉视传媒牵手中国一汽探索央地合作 广电数字能力切入汽车产业](https://www.stcn.com/article/detail/4048948.html)** — _www.stcn.com_ · date: unknown
+  近日，吉林省上市广电企业吉视传媒（601929.SH）与央企中国一汽举行合作座谈会，双方围绕品牌营销、信息化建设、全媒体宣传、用户联动、数字产业融合等领域达成合作共识，将探索汽车制造与广电数字传媒双向赋能新模式。此次合作标志着吉视传媒“文化+科技”转型战略落地再进一步，依托本土头部制造企业资源，公司将开拓政企数字化、内容商业化跨界增量空间。 作为吉林本地两大
+- **[从“卖出去”到“走进去” 中国汽车出海进入深水区](https://www.xinhuanet.com/20260730/3d5d8903a73b49df9f23dcd5677f4ba9/c.html)** — _www.xinhuanet.com_ · published 2026-07-30
+  今年4月28日，中国车企吉利在法国巴黎举行活动，宣布两款电动车在法上市。图为人们参观吉利E5电动汽车。新华社记者 邬惠我 摄 吉利与福特将在西班牙瓦伦西亚工厂成立合资公司、小鹏在德国完成小鹏图灵AI智驾的本地化验收测试、地平线与大众宣布进一步深化在AI基座大模型领域的技术合作……近期中国车企出海步伐正在进一步提速，从单纯的整车外销，逐步转向产能共建、智能技术
 - **[福特单季再亏13亿美元：靠燃油车撑起利润，电动化仍在交学费](https://www.yicai.com/news/103297974.html)** — _www.yicai.com_ · date: unknown
   {{aisd}} AI生成 免责声明 当地时间7月28日，福特汽车发布了2026年第二季度财报。 福特在通用会计准则（GAAP）下录得13.27亿美元净亏损，公司同时宣布上调全年盈利预期。对于这份财报，市场给予积极反应，股价连续两日小幅上涨。 但在亮眼的资本市场表现之下，隐忧依旧凸显。身处全球电动化、智能化浪潮，福特电动车业务持续亏损的困境，尚未找到破解方案
 - **[吉利汽车拿下智驾安全001号认证 体系化能力树立行业新标杆](https://www.zqrb.cn/auto/qichedongtai/2026-07-29/A1785311042950.html)** — _www.zqrb.cn_ · published 2026-07-29
