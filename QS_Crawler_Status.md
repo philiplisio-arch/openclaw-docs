@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-30 06:11 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-30 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-30 06:11 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **5407 unique auto/NEV articles** across **51 outlets**
+## Cumulative: **5427 unique auto/NEV articles** across **52 outlets**
 
 ## New per day
 | date | new articles |
@@ -62,35 +62,35 @@ _Updated 2026-07-30 06:11 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-27 | 148 |
 | 2026-07-28 | 161 |
 | 2026-07-29 | 145 |
-| 2026-07-30 | 8 |
+| 2026-07-30 | 28 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.d1ev.com | 1279 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 406 |
-| auto.gasgoo.com | 300 |
-| 36kr.com | 268 |
-| www.stcn.com | 224 |
+| vc.yiche.com | 409 |
+| auto.gasgoo.com | 302 |
+| 36kr.com | 269 |
+| www.stcn.com | 228 |
 | www.caam.org.cn | 198 |
 | autodata.gasgoo.com | 158 |
-| www.cnr.cn | 152 |
+| www.cnr.cn | 155 |
 | egs.stcn.com | 143 |
 | news.yiche.com | 129 |
-| www.nbd.com.cn | 117 |
+| www.nbd.com.cn | 118 |
 | www.cada.cn | 111 |
 | www.news.cn | 109 |
 | m.21jingji.com | 101 |
-| www.yicai.com | 97 |
+| www.yicai.com | 98 |
 | www.zqrb.cn | 62 |
 | auto.caijing.com.cn | 61 |
-| www.gelonghui.com | 53 |
+| www.gelonghui.com | 54 |
+| finance.eastmoney.com | 41 |
 | www.xinhuanet.com | 39 |
-| finance.eastmoney.com | 39 |
 | www.jwview.com | 36 |
 | www.chinanews.com.cn | 32 |
-| finance.people.com.cn | 31 |
+| finance.people.com.cn | 32 |
 | cn.chinadaily.com.cn | 24 |
 | qzs.stcn.com | 22 |
 | www.ceweekly.cn | 18 |
@@ -113,6 +113,7 @@ _Updated 2026-07-30 06:11 | discovery-only, zero LLM tokens | runs every 3h_
 | world.gmw.cn | 1 |
 | views.ce.cn | 1 |
 | tech.caijing.com.cn | 1 |
+| politics.gmw.cn | 1 |
 | ln.news.cn | 1 |
 | legal.gmw.cn | 1 |
 | gd.chinadaily.com.cn | 1 |
@@ -121,17 +122,56 @@ _Updated 2026-07-30 06:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-30 — 8 articles
+### 2026-07-30 — 28 articles
+- **[「轻越野」成新王，比亚迪/吉利/鸿蒙集体押注，硬派越野沦为小众玩具](https://36kr.com/p/3916689821800066)** — _36kr.com_ · published 2026-07-30
+  「轻越野」成新王，比亚迪/吉利/鸿蒙集体押注，硬派越野沦为小众玩具 最近一段时间，车圈几乎要被鸿蒙智行即将发布的新车享界G9刷屏了。然而这款有「鸿蒙智行首款越野车」之称的产品，却不被诸多越野爱好者看好，原因竟是这款车不够「硬派」。 的确，硬派越野的标志是「非承载式车身+专业四驱系统+差速锁」，可搭载承载式车身的享界G9，连第一关都没能过去。这类搭载承载式车身
 - **[比亚迪位列2026年《财富》世界500强第91位](https://auto.caijing.com.cn/2026/0729/5174170.shtml)** — _auto.caijing.com.cn_ · date: unknown
+- **[百强榜 | 全球汽车Tier1，正在经历一场权力大换血 ​-盖世汽车资讯](https://auto.gasgoo.com/news/202607/30I70467822C103.shtml)** — _auto.gasgoo.com_ · date: unknown
+  《中国方案向全球——中国汽车供应链崛起深调研》系列开篇 终于，在等待数周后，2026年全球汽车零部件百强榜带着好消息来了。 17家中国企业上榜，再次刷新历史成绩。 总数首次超越美国（16家）、德国（15家），稳居全球第二梯队首位；宁德时代一路跃升至全球第三，硬生生撕开了欧美日垄断多年的Top3阵营；全球收入涨幅榜前五名里，中国企业独占四席，普遍两位数的营收增
+- **[年薪翻倍也挖不来人，车企决定自己养](https://auto.gasgoo.com/news/202607/30I70467816C108.shtml)** — _auto.gasgoo.com_ · date: unknown
 - **[上海制定测绘地理信息条例 规范智能网联汽车等测绘活动](https://egs.stcn.com/news/detail/2321213.html)** — _egs.stcn.com_ · published 2026-10-01
   证券时报 07-29 23:53 人民财讯7月29日电，7月29日，上海市第十六届人民代表大会常务委员会第三十二次会议表决通过《上海市测绘地理信息条例》，《条例》将自2026年10月1日起施行。 《条例》明确上海相对独立的平面坐标系统的法律地位，并要求与国家坐标系统相联系。明确卫星导航定位基准站的建设和运行维护，要符合国家有关法律法规、技术规范和标准。上海市
+- **[出海成车企增长“主引擎” 产业链分享“新四化”盛宴](https://finance.eastmoney.com/a/202607303825509828.html)** — _finance.eastmoney.com_ · date: unknown
+  多家车企上半年出口量大增 汽车行业上市公司半年报正在陆续披露，出海和汽车“新四化”成为其业绩变化的动因。一方面，在新能源汽车出口赋能下，出海成为奇瑞汽车、比亚迪、吉利汽车等业绩增长的“主引擎”之一，单月出口量等多项纪录被刷新；另一方面，受益于电动化、智能化、网联化、共享化等汽车“新四化”的变革，宁德时代、速腾聚创、地平线等拿下新的市场份额。 业内专家对上海证
+- **[多方监督打通账期治理堵点 护航汽车产业良性发展](https://finance.eastmoney.com/a/202607303825506424.html)** — _finance.eastmoney.com_ · date: unknown
+  为引导汽车产业理性竞争、畅通产业链资金循环，监管层正持续丰富治理工具箱。近日，工业和信息化部办公厅、装备工业一司推出创新治理举措，一方面邀请部分媒体担任首批“汽车行业账期问题监督员”，另一方面明确加快编制汽车企业供应商货款支付规范指引，多管齐下破解账期难题。 吸纳媒体力量参与账期监督，是破解行业内卷的有益探索，也意味着对汽车行业的账期治理正从“单向监管”走向
+- **[首个自动驾驶机场摆渡项目落地新疆](https://finance.people.com.cn/n1/2026/0730/c1004-40770640.html)** — _finance.people.com.cn_ · published 2026-07-30
+  首个自动驾驶机场摆渡项目落地新疆 2026年07月30日07:36 | 来源：人民网－人民日报222 订阅已订阅已收藏收藏小字号 点击播报本文，约 本报乌鲁木齐7月29日电 （记者李亚楠）7月28日，中国首个自动驾驶机场摆渡项目在乌鲁木齐天山国际机场启用。此次项目的车辆是由新疆机场集团天博产业联合宇通打造的12米高端纯电动客车，通过性更强。 目前，新疆机场集
 - **[7月1-26日乘用车零售112.3万辆](https://news.yiche.com/xiaoliangshuju/20260729/21111864932.html)** — _news.yiche.com_ · date: unknown
+- **[首个自动驾驶机场摆渡项目落地新疆](https://politics.gmw.cn/2026-07/30/content_38916624.htm)** — _politics.gmw.cn_ · published 2026-07-30
+  点击右上角微信好友 朋友圈 请使用浏览器分享功能进行分享 本报乌鲁木齐7月29日电 （记者李亚楠）7月28日，中国首个自动驾驶机场摆渡项目在乌鲁木齐天山国际机场启用。此次项目的车辆是由新疆机场集团天博产业联合宇通打造的12米高端纯电动客车，通过性更强。 目前，新疆机场集团已在乌鲁木齐天山国际机场累计投用各类自动驾驶车辆、自动操控设备百余台。无人行李牵引车承担
 - **[【AI试车】比亚迪大汉，纯电续航可达1008km，比亚迪新能源旗舰轿车，AI首测](https://vc.yiche.com/vplay/12324881.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 比亚迪继大唐之后，大汉也即将发布，但其设计显得较为陈旧。 九雨天151217 谁能告诉mega为啥跌价 北瀚行阿力 两台兰博基尼在街道上的回头率究竟有多高？ 聚焦的
+- **[探店理想i6：最不像SUV却纯电设计但月销2万多，凭啥？](https://vc.yiche.com/vplay/12350060.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 24.98-26.98万 全家出行无压力 哈弗大狗PLUS大空间满配舒适 家用太香了 汽车白话 特斯拉Roadster即将登场？四电机方案隐藏了哪些技术亮点 清背包社 宜商
+- **[养成系车型，埃安i60算不算首创？](https://vc.yiche.com/vplay/12354246.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 10.28-13.58万 极限趴窝实测，奥迪E7X到底表现如何？ 汽车天涯 去掉一个电机，只为碰撞更安全？探店沃尔沃EM90：安全到每个细节 汽湃 帕加尼风神深度评测——置
+- **[MG07预售：百年车企纯电智能轿跑，15万内能打吗?](https://vc.yiche.com/vplay/12357949.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 连续100次零百加速无衰减，难在哪？ 大家车言论 连续100次零百加速是刷数据？MG 07主动散热电驱解读，究竟测啥？ 汪港智车观 2026款凯迪拉克凯威德车展实拍
+- **[汽车产业调整中展现韧性活力](https://www.cnr.cn/2013qcpd/2015xc/20260730/t20260730_527736737.shtml)** — _www.cnr.cn_ · published 2026-07-30
+  上半年，中国汽车出口创新高，自主品牌国内市占率创新高—— 汽车产业调整中展现韧性活力 中国汽车工业协会（以下简称“中汽协”）近日发布的数据显示，上半年，中国汽车产销分别完成1499.3万辆和1501.7万辆；新能源汽车产销分别完成743.8万辆和744.6万辆；中国汽车累计出口509.6万辆。 上半年，新能源汽车渗透率持续攀升，自主品牌市占率稳居七成以上，汽
+- **[新能源车险出海需构筑体系化“生态圈”](https://www.cnr.cn/2013qcpd/2015xc/20260730/t20260730_527736736.shtml)** — _www.cnr.cn_ · published 2026-07-30
+  当前，世界百年变局正在演进，全球产业格局加速重构。 在此进程中，中国汽车产业实现跨越式发展，出口量持续跃升，市场格局多点开花。 其中，新能源汽车成为拉动出口的核心引擎。 值得注意的是，我国汽车产业在取得突破式发展的同时，也给保险业提出了新的时代命题——如何实现与车企协同出海？险企不仅要提供风险保障，更要跳出单一风险保障范畴，输出体系化的新能源车生态“中国方案
+- **[新能源车“小蓝灯”增多，辅助驾驶成了加塞“靶子”？](https://www.cnr.cn/2013qcpd/2015xc/20260730/t20260730_527736735.shtml)** — _www.cnr.cn_ · published 2026-07-30
+  潮新闻客户端 记者 范国飞 最近，很多人发现，路上亮起蓝色指示灯的新能源汽车越来越多。这些在车头、车尾以及车身侧面亮起的“小蓝灯”，正是车辆开启高阶辅助驾驶功能的标志。 如今，智能辅助驾驶功能普及率越来越高，但随之而来的争议也持续发酵。一些车主发现，开启辅助驾驶后，车辆会自动亮起“小蓝灯”并严格保持安全车距，反倒成了其他车辆加塞的突破口。不少人吐槽，辅助驾驶
+- **[拿森科技(2261.HK)今起招股，入场费1129港元](https://www.gelonghui.com/live/2581698)** — _www.gelonghui.com_ · date: unknown
+  首页 > 快讯 > 快讯详情 拿森科技(2261.HK)今起招股，入场费1129港元 格隆汇7月30日｜开发智能驾驶运动控制技术的拿森科技(2261.HK)今日起至下周二(8月4日)招股，全球发售5759.45万股H股，其中香港发售占10%，其余为国际发售，发售价介乎10.42港元-11.18港元，集资最多6.44亿港元。一手100股，入场费1129.27港
 - **[零跑成立精密制造公司，业务涵盖智能机器人研发，“造人”或成车企“第二增长曲线”](https://www.nbd.com.cn/articles/2026-07-29/4525535.html)** — _www.nbd.com.cn_ · published 2026-07-29
   2026-07-29 22:19:03 每经记者｜孙磊 每经编辑｜余婷婷 造车新势力正加速扩张业务版图。 公开信息显示，湖州凌昇精密制造有限公司于近日成立，注册资本高达2.1亿元，经营范围横跨汽车零部件与工业机器人制造、智能机器人研发等领域。股权穿透显示，该公司由零跑汽车旗下浙江凌昇动力科技有限公司全资持股。 有观点称，零跑汽车或将打造机器人。对此，《每日经
+- **[李想欢迎雷军加入增程赛道；红旗超快充电池实现重大技术突破](https://www.nbd.com.cn/articles/2026-07-29/4525692.html)** — _www.nbd.com.cn_ · published 2026-07-29
+  2026-07-30 06:30:03 每经记者｜董天意 实习生 刘家怡 每经编辑｜余婷婷 | 2026年7月30日 星期四 | NO.1 乘联分会：7月1日至26日，全国乘用车市场零售112.3万辆 7月29日，乘联分会发布最新数据显示，7月1日至26日，全国乘用车市场零售112.3万辆，同比去年7月同期下降18%，较上月同期下降13%，今年以来累计零售9
 - **[上海制定测绘地理信息条例 规范智能网联汽车等测绘活动](https://www.stcn.com/article/detail/4048237.html)** — _www.stcn.com_ · published 2026-07-27
   证券时报网 韩忠楠 2026-07-27 21:51 人民财讯7月29日电，7月29日，上海市第十六届人民代表大会常务委员会第三十二次会议表决通过《上海市测绘地理信息条例》，《条例》将自2026年10月1日起施行。 《条例》明确上海相对独立的平面坐标系统的法律地位，并要求与国家坐标系统相联系。明确卫星导航定位基准站的建设和运行维护，要符合国家有关法律法规、技
+- **[多方监督打通账期治理堵点 护航汽车产业良性发展](https://www.stcn.com/article/detail/4048316.html)** — _www.stcn.com_ · date: unknown
+  证券时报记者 韩忠楠 为引导汽车产业理性竞争、畅通产业链资金循环，监管层正持续丰富治理工具箱。近日，工业和信息化部办公厅、装备工业一司推出创新治理举措，一方面邀请部分媒体担任首批“汽车行业账期问题监督员”，另一方面明确加快编制汽车企业供应商货款支付规范指引，多管齐下破解账期难题。 吸纳媒体力量参与账期监督，是破解行业内卷的有益探索，也意味着对汽车行业的账期治
+- **[中信建投：商用车及摩托车板块配置价值凸显 积极增配机器人及智驾底部α标的](https://www.stcn.com/article/detail/4048461.html)** — _www.stcn.com_ · published 2026-07-29
+  证券时报网 2026-07-29 08:15 人民财讯7月30日电，中信建投指出，基于景气度及估值、成长空间这两条投资脉络，当前时间重点提示商用车、摩托车板块及机器人、智驾等物理AI板块的配置机会，前者出海支撑高景气及盈利兑现，且或受益于当前低估值稳健红利风格；后者股价经过近期剧烈回调已处于历史低位，产业趋势及成长空间依旧清晰，建议积极配置已经深入卡位的优质
+- **[保险服务新能源汽车出海 不能只停留在承保环节](https://www.stcn.com/article/detail/4048329.html)** — _www.stcn.com_ · date: unknown
+  证券时报记者 邓雄鹰 当前，中国汽车出海正由“产品出口”迈入“产业链出海”新阶段。新能源汽车出海面临哪些主要风险？保险机构又该如何更好赋能中国新能源汽车“出海”？近日，中国太保副总裁俞斌接受了证券时报记者专访，围绕新能源汽车出海风险保障、海外车险发展趋势等热点议题，分享了中国太保相关实践成果与战略思考。 俞斌表示，保险机构服务新能源汽车“出海”，不能只停留在
+- **[电动汽车充电网络持续织密 产业链企业动态调整业务布局](https://www.stcn.com/article/detail/4048532.html)** — _www.stcn.com_ · date: unknown
+  7月28日，国家能源局发布2026年上半年全国电动汽车充电设施数据。根据国家充电设施监测服务平台数据，截至2026年6月底，我国电动汽车充电基础设施（枪）总数达到2305.7万个，同比增长43.2%。其中，公共充电设施（枪）500.9万个，同比增长22.3%；私人充电设施（枪）1804.8万个，同比增长50.4%。 “私人充电设施增速持续领跑，本质上是新能源
+- **[福特单季再亏13亿美元：靠燃油车撑起利润，电动化仍在交学费](https://www.yicai.com/news/103297974.html)** — _www.yicai.com_ · date: unknown
+  {{aisd}} AI生成 免责声明 当地时间7月28日，福特汽车发布了2026年第二季度财报。 福特在通用会计准则（GAAP）下录得13.27亿美元净亏损，公司同时宣布上调全年盈利预期。对于这份财报，市场给予积极反应，股价连续两日小幅上涨。 但在亮眼的资本市场表现之下，隐忧依旧凸显。身处全球电动化、智能化浪潮，福特电动车业务持续亏损的困境，尚未找到破解方案
 - **[吉利汽车拿下智驾安全001号认证 体系化能力树立行业新标杆](https://www.zqrb.cn/auto/qichedongtai/2026-07-29/A1785311042950.html)** — _www.zqrb.cn_ · published 2026-07-29
   本报记者 刘钊 7月20日，吉利汽车获得行业首张组合驾驶辅助安全管理体系认证证书，证书编号为001。作为《智能网联汽车 组合驾驶辅助系统安全要求》强制性国家标准的核心起草单位之一，吉利不仅深度参与了行业安全规则制定，还率先将标准要求转化为覆盖研发、测试、生产和服务的管理体系，实现了从标准制定者到安全实践引领者的跨越。 随着组合驾驶辅助功能加快普及，汽车行业正
 - **[电动汽车充电网络持续织密 产业链企业动态调整业务布局](https://www.zqrb.cn/auto/qichedongtai/2026-07-29/A1785333712887.html)** — _www.zqrb.cn_ · published 2026-07-29
