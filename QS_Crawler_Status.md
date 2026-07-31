@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-31 18:14 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-07-31 21:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-31 18:14 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **5630 unique auto/NEV articles** across **52 outlets**
+## Cumulative: **5644 unique auto/NEV articles** across **52 outlets**
 
 ## New per day
 | date | new articles |
@@ -63,22 +63,22 @@ _Updated 2026-07-31 18:14 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-28 | 161 |
 | 2026-07-29 | 145 |
 | 2026-07-30 | 124 |
-| 2026-07-31 | 107 |
+| 2026-07-31 | 121 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.d1ev.com | 1281 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 449 |
+| vc.yiche.com | 456 |
 | auto.gasgoo.com | 347 |
-| 36kr.com | 282 |
-| www.stcn.com | 242 |
+| 36kr.com | 283 |
+| www.stcn.com | 243 |
 | www.caam.org.cn | 198 |
+| autodata.gasgoo.com | 169 |
 | www.cnr.cn | 168 |
-| autodata.gasgoo.com | 167 |
-| egs.stcn.com | 154 |
-| news.yiche.com | 140 |
+| egs.stcn.com | 155 |
+| news.yiche.com | 141 |
 | www.nbd.com.cn | 128 |
 | www.news.cn | 113 |
 | www.cada.cn | 112 |
@@ -86,7 +86,7 @@ _Updated 2026-07-31 18:14 | discovery-only, zero LLM tokens | runs every 3h_
 | www.yicai.com | 99 |
 | www.zqrb.cn | 66 |
 | auto.caijing.com.cn | 64 |
-| www.gelonghui.com | 56 |
+| www.gelonghui.com | 57 |
 | finance.eastmoney.com | 43 |
 | www.xinhuanet.com | 40 |
 | www.jwview.com | 39 |
@@ -123,7 +123,7 @@ _Updated 2026-07-31 18:14 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-07-31 — 107 articles
+### 2026-07-31 — 121 articles
 - **[狠人李书福，16年后再出手](https://36kr.com/p/3919020520451463)** — _36kr.com_ · published 2026-07-31
   狠人李书福，16年后再出手 7月23日，西班牙瓦伦西亚省阿尔穆萨费斯，首相桑切斯亲自赶到工厂站台，见证吉利汽车与福特签下一份在16年前几乎不可能出现的协议：吉利全资附属公司Geely SPV出资2.21亿欧元，收购福特西班牙公司34%股权，福特保留66%，双方共同运营这座1976年投产、曾经是美国以外最大福特生产基地的老厂。 把时间倒回2010年，几乎同样的
 - **[顶配预售价 30 万元，小米澎程不当「红米汽车」](https://36kr.com/p/3918264341147271)** — _36kr.com_ · published 2026-07-31
@@ -132,6 +132,8 @@ _Updated 2026-07-31 18:14 | discovery-only, zero LLM tokens | runs every 3h_
   全球份额调查：日企在半导体材料领域居首 日本企业保持较高份额的硅晶圆 在硅晶圆领域，信越化学工业份额居首；在光刻胶领域，日企包揽前3名。2025年，日本企业在半导体材料领域表现坚挺，但在作为支柱产业的汽车领域却陷入停滞…… 《日本经济新闻》的2025年“主要商品和服务市场份额调查”显示，日本企业在半导体相关材料领域保持了较高份额。随着人工智能（AI）的普及，
 - **[新能源车还有哪些反人类设计要“改邪归正”？](https://36kr.com/p/3919256702031494)** — _36kr.com_ · published 2026-07-31
   新能源车还有哪些反人类设计要“改邪归正”？ 进入7月，国内是物理按键等回归，国外是特斯拉大灯亮度超标被投诉，新能源车的反人类设计在逐渐被修正。 工信部密集出手，多项强制国标直指过去几年新能源车企疯狂追逐的“网红设计”——隐藏式门把手、屏幕换挡、触控转向灯，统统被划了红线。 监管层的态度非常明确：汽车可以智能，但必须安全。这一次，靠一块大屏包打天下的时代，可能
+- **[中国销量下滑20%，海外订单近10万，“新世代”能撑起宝马的中国市场吗？](https://36kr.com/p/3919425327552388)** — _36kr.com_ · published 2026-07-31
+  中国销量下滑20%，海外订单近10万，“新世代”能撑起宝马的中国市场吗？ 7月30日，宝马集团发布2026年上半年报告。其收入622.66亿欧元，同比减少8%；税前利润40.45亿欧元，同比减少29.4%。 在交付量上，其全球交付115.67万辆汽车，同比减少4.2%。其中，宝马品牌交付100.47万辆，同比减少6.2%；MINI品牌交付14.95万辆，同比
 - **[新车上市](https://auto.caijing.com.cn/2026/0730/5174475.shtml)** — _auto.caijing.com.cn_ · date: unknown
 - **[新车上市](https://auto.caijing.com.cn/2026/0730/5174256.shtml)** — _auto.caijing.com.cn_ · date: unknown
 - **[汽车要闻｜汽车周回顾（7.27～7.31）_资讯_极速侠_财经网 - CAIJING.COM.CN](https://auto.caijing.com.cn/2026/0731/5174662.shtml)** — _auto.caijing.com.cn_ · date: unknown
@@ -179,6 +181,8 @@ _Updated 2026-07-31 18:14 | discovery-only, zero LLM tokens | runs every 3h_
 - **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2082996118768726016)** — _autodata.gasgoo.com_ · date: unknown
 - **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2083000280324222976)** — _autodata.gasgoo.com_ · date: unknown
 - **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2083045456907743232)** — _autodata.gasgoo.com_ · date: unknown
+- **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2083096766445137920)** — _autodata.gasgoo.com_ · date: unknown
+- **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2083094297023496192)** — _autodata.gasgoo.com_ · date: unknown
 - **[小米汽车发布全新技术平台](https://egs.stcn.com/news/detail/2321648.html)** — _egs.stcn.com_ · date: unknown
   证券时报·e公司 钟恬 07-30 23:54 人民财讯7月30日电，7月30日，小米集团举办造车以来的第二场技术发布会，发布小米汽车全新技术平台：小米昆仑技术架构。这是小米继摩德纳纯电平台后推出的第二套技术架构，包含小米昆仑平台、小米昆仑超级增程和小米昆仑全域安全三大核心技术。雷军称，小米昆仑技术架构历时三年半打造，目标是造一台既有SUV外观、驾驶性和通过
 - **[工信部：稳步提高汽车、动力电池等产品再生材料使用比例](https://egs.stcn.com/news/detail/2321726.html)** — _egs.stcn.com_ · date: unknown
@@ -188,6 +192,8 @@ _Updated 2026-07-31 18:14 | discovery-only, zero LLM tokens | runs every 3h_
   人民财讯7月31日电，火山引擎消息，今天，新一代视频生成模型Seedance 2.5正式发布。针对企业用户，火山引擎将于近期上线API服务。 徐工集团、小鹏汽车、智元机器人、灵初智能、微分智飞、穹彻智能、Xspark AI（无界智航）等多家企业已与火山引擎达成合作意向，将率先接入Seedance 2.5。
 - **[继峰股份：控股子公司获约2.7亿元乘用车座椅总成项目定点](https://egs.stcn.com/news/detail/2321984.html)** — _egs.stcn.com_ · date: unknown
   e公司 胡华雄 07-31 18:08 人民财讯7月31日电，继峰股份(603997)7月31日公告，控股子公司继峰座椅（泰国）有限公司近期收到客户的《提名信》，获得两个乘用车座椅总成项目定点，将为客户开发、生产整车座椅总成产品。根据客户规划，上述两个项目预计分别于2027年8月和2027年9月开始量产，项目生命周期均为4年，预计生命周期总金额约为2.7亿元
+- **[比亚迪成为赫尔辛基小丑冰球俱乐部官方合作伙伴](https://egs.stcn.com/news/detail/2322123.html)** — _egs.stcn.com_ · date: unknown
+  人民财讯7月31日电，比亚迪宣布与芬兰冰球俱乐部——赫尔辛基小丑冰球俱乐部（Jokerit Helsinki）达成合作，正式成为其官方合作伙伴。此次合作期至2028年，这是比亚迪首次涉足冰球领域，标志着其深化芬兰及北欧市场布局的战略决心。
 - **[从“拼电量”到“拼算力” 汽车产业下半场怎么走](https://finance.eastmoney.com/a/202607313827149076.html)** — _finance.eastmoney.com_ · date: unknown
   在电动化浪潮席卷全球的十余年间，中国新能源汽车产业完成了一场波澜壮阔的上半场突围。续航里程、电池容量、快充速度成为车企比拼的主要指标，企业扎堆迭代动力电池技术：从磷酸铁锂到三元锂电，从400公里续航进阶至1000公里以上超长续航。这场以“拼电量、拼补能”为核心的硬件竞赛，推动我国新能源汽车产销量连续多年稳居全球第一，并实现了对传统燃油车产业的弯道超车。 如今
 - **[低增长与下滑成二季度主旋律 跨国车企破局仍看中国](https://finance.eastmoney.com/a/202607313828307184.html)** — _finance.eastmoney.com_ · date: unknown
@@ -207,6 +213,8 @@ _Updated 2026-07-31 18:14 | discovery-only, zero LLM tokens | runs every 3h_
   推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 7月31日，比亚迪海狮08内饰官图发布。新车以环抱式轻奢座舱为核心，兼顾豪华质感、科技配置与多座乘坐舒适性，将为家用、商务出行市场带来全新选择。 从官图中可以看到，比亚迪海狮08采用海洋美学2.0设
 - **[比亚迪秦MAX将于8月上市 搭载第二代刀片电池及闪充技术](https://news.yiche.com/xinchexiaoxi/20260731/17111914021.html)** — _news.yiche.com_ · date: unknown
   推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 7月31日，比亚迪王朝网销售事业部总经理路天在社交媒体上宣布，比亚迪秦MAX展车已陆续到店，将于8月正式上市。 外观方面，比亚迪秦MAX采用了比亚迪龙颜美学设计理念，车头十分低趴，营造出了向前俯冲的
+- **[上海市委网信办联合多部门对汽车类“自媒体”开展合规指导](https://news.yiche.com/zonghexinwen/20260731/20111915632.html)** — _news.yiche.com_ · date: unknown
+  推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 从相关渠道获悉，为深入推进规范汽车行业网上信息传播秩序专项整治行动，根据日常巡查和网民举报线索，上海市委网信办联合市经信委、市市场监管局、市公安局网安总队等部门召开专题会议，对一批粉丝量大、内容生产
 - **[海洋网的新“技术旗舰”，比亚迪海狮07到底硬在哪？](https://vc.yiche.com/vplay/12360728.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 18.98-23.98万 小鹏GX正式上市：SEPA 3.0架构 + 图灵芯片，30万级旗舰新标杆？ 车族风 狮驭西北境鉴非凡 比亚迪海狮双车淬炼高原全能实力 随风探车 2
 - **[低定价+长续航 MG 07击穿纯电超跑行业壁垒](https://vc.yiche.com/vplay/12369268.html)** — _vc.yiche.com_ · date: unknown
@@ -251,6 +259,20 @@ _Updated 2026-07-31 18:14 | discovery-only, zero LLM tokens | runs every 3h_
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 38.28-44.68万 阿尔法S5：8295座舱芯片+全栈自研智驾，智能配置拉满国产轿车 车族风 全新奥迪E7X：900V高压平台+Momenta智驾，德系纯电旗舰来袭
 - **[一天堵25小时的立交桥 蔚来ES8能否智驾通过](https://vc.yiche.com/vplay/12388245.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 38.28-44.68万 未来的豪华SUV，应该是什么样？ 汽车之友 大五座PK！蔚来ES8和岚图泰山X8谁更值得买？ 车314 乐道L60智驾体验 北瀚行阿力 不浮夸的豪
+- **[续航/空间/配置对比 7万买小型纯电SUV QQ3 EV与缤果Pro谁更值？](https://vc.yiche.com/vplay/12389120.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 5.89-7.89万 奇瑞QQ3 EV和五菱缤果Pro，谁才是日常代步最优选？ W动力 银河星耀7，如何做到既省油又安全？ 功夫汽车 开全新QQ3出逃山野，解锁惬意露营日常
+- **[颜值 智能 空间都得要 全新QQ3四款车型如何挑选？](https://vc.yiche.com/vplay/12388833.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 5.89-7.89万 0714威麟R08 EV出口 科技研习社 NBA球星字母哥被奇瑞QQ3整破防了，小车大空间，惊到跷二郎腿。 极光汽车 沉浸式开奇瑞QQ3 城野周末 带
+- **[保罗车闻丨关于纯电GLC 你需要了解这些](https://vc.yiche.com/vplay/12388826.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 33.98-51.80万 选购特顺，生活更加顺畅。 启迪的害羞乌龟1336 和阿维塔07L的日月贝大片 懂车生活记 集齐华为乾崑六件套+全铝底盘，奕境X9凭什么剑指50万级
+- **[吉利第5代帝豪i](https://vc.yiche.com/vplay/12388392.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 6.29-9.79万 2026年汽车下乡补贴政策：农村购车最高可减免3万元，符合条件者可直接领取补贴 拥抱的米兰花1498 怎么买增程 发电指标最重要 云游汽车 油耗2.2
+- **[想买经久耐用的越野车，为何只推荐丰田普拉多？](https://vc.yiche.com/vplay/12388378.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 44.98-55.98万 智界 V9实测：大车开出小车感，座椅按摩太上头 兔小黑Flymz 未来的豪华SUV，应该是什么样？ 汽车之友 张雪机车与丰田霸道相撞，谁能料到，霸
+- **[比亚迪海獭上市，日本车企的基本盘悬了](https://vc.yiche.com/vplay/12375127.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 哈弗猛龙 PLUS 上新三元锂版！长城打的什么算盘？ 车界面PRO 买靠谱的大厂混动，一汽-大众双 PHEV 打造德系精工品质 扉旅汽车 比亚迪做了什么 让日本网友
+- **[40万买三缸神车还要看缘分？丰田GR YARiS绝不是普通雅力士！](https://vc.yiche.com/vplay/12387391.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 39.98-40.28万 看大神如何将488改造成恩佐的风格 信任的佩兰草1439 香格里拉极限路况，岚图泰山X8稳稳通行 annazihan040121 跑高速不花钱的重
 - **[2026年6月份全国新能源乘用车市场深度分析报告](https://www.cada.cn/Trends/info_91_10545.html)** — _www.cada.cn_ · published 2026-07-31
   2026年6月份全国新能源乘用车市场深度分析报告 时间: 2026-07-31 14:21:00 来源: 作者：中国汽车流通协会乘用车市场信息联席分会 本文为中国汽车流通协会乘用车市场信息联席分会发布的权威深度市场分析报告，涵盖了： 一、整体总市场 二、细分总市场 三、出口市场 四、厂商表现 五、车型大类细分市场 六、品牌定位细分市场 七、国别定位细分市场
 - **[从“拼电量”到“拼算力” 汽车产业下半场怎么走](https://www.ceweekly.cn/economic/industry/2026/0731/498069.html)** — _www.ceweekly.cn_ · date: unknown
@@ -281,6 +303,8 @@ _Updated 2026-07-31 18:14 | discovery-only, zero LLM tokens | runs every 3h_
   乘联分会数据显示，2026年5月国内新能源乘用车零售渗透率达62.9%，创下历史新高，意味着每卖出10辆新车就有6辆以上是新能源车，国内车市“油退电进”的趋势进一步凸显。 国内市场结构性分化明显，自主品牌新能源车渗透率高达81.4%，头部20家车企月销量破万，合计占据93.4%的市场份额，消费者购车决策已从油电权衡转向对优质新能源车型的精细化筛选。 出口端同
 - **[颜值与实力在线，30万左右最新SUV车型推荐这款](https://www.d1ev.com/news/qiye/308859)** — _www.d1ev.com_ · date: unknown
   在中高端SUV市场，面对层出不穷的新款车型，不少消费者陷入选择困境——既要空间够大满足家庭出行，又要智能科技跟上潮流，还要续航补能无焦虑，兼顾豪华质感与实用性。30万左右最新SUV车型怎么选？今天我们就对四款热门新款SUV进行横向对比，看看谁更能击中你的用车痛点。 全新奔驰纯电GLC 一、量身定制的空间与舒适座舱 专为中国市场打造的长轴距版本，4933/19
+- **[福特CEO：中国车企十年内将进入美国市场](https://www.gelonghui.com/live/2586501)** — _www.gelonghui.com_ · date: unknown
+  格隆汇7月31日｜据路透，福特汽车CEO吉姆·法利在员工大会上强调，尽管美国已经对中国汽车设置多重贸易壁垒，公司仍在为中国车企可能于未来5至10年进入美国市场提前做准备。 法利和其他高管在员工大会的问答环节表示， 中国车企较可能在接近10年时进入美国市场。与此同时，参议院正推动进一步扩大中国汽车销售禁令，试图阻止中国品牌进入美国——全球第二大、利润最丰厚的汽
 - **[8月新规来了，事关个人贷款、电动汽车、暑期旅游等](https://www.jwview.com/jingwei/html/07-31/681580.shtml)** — _www.jwview.com_ · date: unknown
   中新经纬7月31日电 (熊思怡)2026年8月起一大波新规将施行，影响你我生活。 (中新经纬APP) 中新经纬版权所有，未经书面授权，任何单位及个人不得转载、摘编或以其它方式使用。 本网站所刊载信息，不代表中新经纬观点。 刊用本网站稿件，务经书面授权。 未经授权禁止转载、摘编、复制及建立镜像，违者将依法追究法律责任。 [京B2-20230170] [京ICP
 - **[6月国内外超721万辆汽车被召回，美系占48.35%](https://www.jwview.com/jingwei/html/07-31/681693.shtml)** — _www.jwview.com_ · date: unknown
@@ -315,6 +339,8 @@ _Updated 2026-07-31 18:14 | discovery-only, zero LLM tokens | runs every 3h_
   国务院近期印发的《“十五五”碳达峰行动方案》指出，“十五五”时期是实现碳达峰的关键期、攻坚期。《方案》设定交通领域低碳转型目标，明确到2030年，新能源汽车保有量占比力争达到30%，新能源营运交通工具保有量占比达到25%。 目前国内新能源汽车增量端渗透率已逼近五成，但存量市场转型进度明显滞后。根据公安部的数据，截至今年6月底，全国机动车保有量达4.76亿辆，
 - **[小鹏汽车、智元机器人等将率先接入Seedance 2.5](https://www.stcn.com/article/detail/4052007.html)** — _www.stcn.com_ · published 2026-07-24
   证券时报网 王小伟 2026-07-24 17:17 人民财讯7月31日电，火山引擎消息，今天，新一代视频生成模型Seedance 2.5正式发布。针对企业用户，火山引擎将于近期上线API服务。 徐工集团、小鹏汽车、智元机器人、灵初智能、微分智飞、穹彻智能、Xspark AI（无界智航）等多家企业已与火山引擎达成合作意向，将率先接入Seedance 2.5。
+- **[比亚迪成为赫尔辛基小丑冰球俱乐部官方合作伙伴](https://www.stcn.com/article/detail/4053310.html)** — _www.stcn.com_ · published 2026-07-29
+  证券时报网 李在山 2026-07-29 19:26 人民财讯7月31日电，比亚迪宣布与芬兰冰球俱乐部——赫尔辛基小丑冰球俱乐部（Jokerit Helsinki）达成合作，正式成为其官方合作伙伴。此次合作期至2028年，这是比亚迪首次涉足冰球领域，标志着其深化芬兰及北欧市场布局的战略决心。
 - **[丰田上半年在华少卖了143000辆车](https://www.yicai.com/news/103300858.html)** — _www.yicai.com_ · published 2026-07-30
   {{aisd}} AI生成 免责声明 2026年7月30日，丰田汽车公布产销数据显示，6月在中国市场销量为11.53万辆，同比大幅下降26.9%。 这是丰田在华销量连续第五个月同比下滑。 整个上半年，丰田在华销量为69.47万辆，比上年同期整整少卖了14.3万辆车，同比跌幅为17.1%。 丰田在月度报告中称，受汽油价格上涨等因素影响，严峻的市场环境持续，销量
 - **[昂瑞微：公司积极开拓手机卫星通信、车载通信、低空经济等新兴应用领域](https://www.zqrb.cn/gscy/ggkx/2026-07-30/A1785401608368.html)** — _www.zqrb.cn_ · published 2026-07-30
