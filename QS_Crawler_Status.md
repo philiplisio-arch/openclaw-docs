@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-08-01 00:13 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-08-01 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-08-01 00:13 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **5648 unique auto/NEV articles** across **52 outlets**
+## Cumulative: **5651 unique auto/NEV articles** across **52 outlets**
 
 ## New per day
 | date | new articles |
@@ -64,14 +64,14 @@ _Updated 2026-08-01 00:13 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-29 | 145 |
 | 2026-07-30 | 124 |
 | 2026-07-31 | 121 |
-| 2026-08-01 | 4 |
+| 2026-08-01 | 7 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.d1ev.com | 1281 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 457 |
+| vc.yiche.com | 458 |
 | auto.gasgoo.com | 349 |
 | 36kr.com | 283 |
 | www.stcn.com | 243 |
@@ -85,9 +85,9 @@ _Updated 2026-08-01 00:13 | discovery-only, zero LLM tokens | runs every 3h_
 | www.cada.cn | 112 |
 | m.21jingji.com | 105 |
 | www.yicai.com | 99 |
-| www.zqrb.cn | 66 |
+| www.zqrb.cn | 67 |
 | auto.caijing.com.cn | 64 |
-| www.gelonghui.com | 57 |
+| www.gelonghui.com | 58 |
 | finance.eastmoney.com | 43 |
 | www.xinhuanet.com | 40 |
 | www.jwview.com | 39 |
@@ -124,14 +124,20 @@ _Updated 2026-08-01 00:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-08-01 — 4 articles
+### 2026-08-01 — 7 articles
 - **[长城汽车：Hi4面向全球的智能四驱](https://auto.gasgoo.com/news/202607/31I70468184C106.shtml)** — _auto.gasgoo.com_ · date: unknown
 - **[工信部监督检查奇瑞、蔚来、江汽](https://auto.gasgoo.com/news/202607/31I70468183C108.shtml)** — _auto.gasgoo.com_ · date: unknown
   7月30日至31日，工业和信息化部（下称工信部）装备工业一司赴奇瑞汽车股份有限公司、蔚来汽车科技（安徽）有限公司、安徽江淮汽车集团股份有限公司，开展道路机动车辆生产企业产品安全保障能力和生产一致性监督检查。此次检查旨在进一步规范汽车产业竞争秩序，提升汽车产品生产一致性和质量安全水平。 图片来源：奇瑞汽车 检查组重点核查了企业智能网联汽车安全保障能力、设计开发
 - **[中国汽车杀进韩流腹地!零跑A05凭什么敢站在明洞街C位](https://vc.yiche.com/vplay/12388672.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 第二代腾势D9正式上市！带闪充，升级双阀云辇-C！ 汽车洋葱圈 告别插混短板！试驾一汽-大众探岳L PHEV，全能家用SUV登场 极速领航 小车大空间、还有高阶辅助
+- **[小鹏MONA L03开着咋样？聊聊](https://vc.yiche.com/vplay/12388014.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 12.38-15.68万 定价看齐零跑？纯电/增程都有 小鹏MONA L03 正式上市 小号撩车N 奇瑞官宣续约！从旅途路透看懂杨紫和T9L的超高适配度 高豆豆说车 雅迪、
+- **[崔东树：上半年锂电池全口径总需求同比增长53% 行业增长转向多元支撑](https://www.gelonghui.com/live/2586958)** — _www.gelonghui.com_ · date: unknown
+  首页 > 快讯 > 快讯详情 崔东树：上半年锂电池全口径总需求同比增长53% 行业增长转向多元支撑 格隆汇8月1日｜乘联分会崔东树发文表示，2026年上半年锂电池全口径总需求达106890万度，同比大幅增长53%，行业增长由过去新能源车单一拉动转向储能、海外出口、商用车多元支撑新格局。新能源车合计需求79319万度，同比增长37%，但国内新能源乘用车零售需求
 - **[神行者品牌拥有相对独立决策权 文飞：首款车型月销量目标破万，但数字并非唯一标准](https://www.nbd.com.cn/articles/2026-07-31/4528599.html)** — _www.nbd.com.cn_ · published 2026-07-31
   2026-07-31 22:39:05 每经记者｜黄辛旭 每经编辑｜余婷婷 正式立项两年之后，FREELANDER神行者品牌终于要交出自己的第一份答卷。7月30日，其首款车型神行者8量产下线，8月开启预售。 “当前智能新能源汽车行业竞争极其激烈，科技企业也纷纷入局，整个行业容错率很低，一步错就可能满盘皆输。”FREELANDER神行者全球CEO（首席执行官）
+- **[长安汽车终止长安科技30亿元增资扩股方案计划 尽快启动新一轮市场化融资](https://www.zqrb.cn/auto/qichedongtai/2026-07-31/A1785506280725.html)** — _www.zqrb.cn_ · published 2026-07-31
+  本报记者 冯雨瑶 7月31日晚间，重庆长安汽车股份有限公司（以下简称“长安汽车”）发布公告称，公司于7月30日召开第九届董事会第六十一次会议，审议通过了《关于终止全资子公司增资扩股的议案》《关于终止向全资子公司增资的议案》。其中，《关于终止向全资子公司增资的议案》已经通过公司独立董事专门会议审议，尚需提交股东会审议。 长安汽车方面表示，因长安科技智能化创新超
 
 ### 2026-07-31 — 121 articles
 - **[狠人李书福，16年后再出手](https://36kr.com/p/3919020520451463)** — _36kr.com_ · published 2026-07-31
