@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-07-31 21:13 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-08-01 00:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-07-31 21:13 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **5644 unique auto/NEV articles** across **52 outlets**
+## Cumulative: **5648 unique auto/NEV articles** across **52 outlets**
 
 ## New per day
 | date | new articles |
@@ -64,14 +64,15 @@ _Updated 2026-07-31 21:13 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-29 | 145 |
 | 2026-07-30 | 124 |
 | 2026-07-31 | 121 |
+| 2026-08-01 | 4 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.d1ev.com | 1281 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 456 |
-| auto.gasgoo.com | 347 |
+| vc.yiche.com | 457 |
+| auto.gasgoo.com | 349 |
 | 36kr.com | 283 |
 | www.stcn.com | 243 |
 | www.caam.org.cn | 198 |
@@ -79,7 +80,7 @@ _Updated 2026-07-31 21:13 | discovery-only, zero LLM tokens | runs every 3h_
 | www.cnr.cn | 168 |
 | egs.stcn.com | 155 |
 | news.yiche.com | 141 |
-| www.nbd.com.cn | 128 |
+| www.nbd.com.cn | 129 |
 | www.news.cn | 113 |
 | www.cada.cn | 112 |
 | m.21jingji.com | 105 |
@@ -122,6 +123,15 @@ _Updated 2026-07-31 21:13 | discovery-only, zero LLM tokens | runs every 3h_
 | culture.gmw.cn | 1 |
 
 ## Articles captured by day (newest first)
+
+### 2026-08-01 — 4 articles
+- **[长城汽车：Hi4面向全球的智能四驱](https://auto.gasgoo.com/news/202607/31I70468184C106.shtml)** — _auto.gasgoo.com_ · date: unknown
+- **[工信部监督检查奇瑞、蔚来、江汽](https://auto.gasgoo.com/news/202607/31I70468183C108.shtml)** — _auto.gasgoo.com_ · date: unknown
+  7月30日至31日，工业和信息化部（下称工信部）装备工业一司赴奇瑞汽车股份有限公司、蔚来汽车科技（安徽）有限公司、安徽江淮汽车集团股份有限公司，开展道路机动车辆生产企业产品安全保障能力和生产一致性监督检查。此次检查旨在进一步规范汽车产业竞争秩序，提升汽车产品生产一致性和质量安全水平。 图片来源：奇瑞汽车 检查组重点核查了企业智能网联汽车安全保障能力、设计开发
+- **[中国汽车杀进韩流腹地!零跑A05凭什么敢站在明洞街C位](https://vc.yiche.com/vplay/12388672.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 第二代腾势D9正式上市！带闪充，升级双阀云辇-C！ 汽车洋葱圈 告别插混短板！试驾一汽-大众探岳L PHEV，全能家用SUV登场 极速领航 小车大空间、还有高阶辅助
+- **[神行者品牌拥有相对独立决策权 文飞：首款车型月销量目标破万，但数字并非唯一标准](https://www.nbd.com.cn/articles/2026-07-31/4528599.html)** — _www.nbd.com.cn_ · published 2026-07-31
+  2026-07-31 22:39:05 每经记者｜黄辛旭 每经编辑｜余婷婷 正式立项两年之后，FREELANDER神行者品牌终于要交出自己的第一份答卷。7月30日，其首款车型神行者8量产下线，8月开启预售。 “当前智能新能源汽车行业竞争极其激烈，科技企业也纷纷入局，整个行业容错率很低，一步错就可能满盘皆输。”FREELANDER神行者全球CEO（首席执行官）
 
 ### 2026-07-31 — 121 articles
 - **[狠人李书福，16年后再出手](https://36kr.com/p/3919020520451463)** — _36kr.com_ · published 2026-07-31
