@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-08-01 18:13 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-08-01 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-08-01 18:13 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **5762 unique auto/NEV articles** across **53 outlets**
+## Cumulative: **5773 unique auto/NEV articles** across **53 outlets**
 
 ## New per day
 | date | new articles |
@@ -64,28 +64,28 @@ _Updated 2026-08-01 18:13 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-29 | 145 |
 | 2026-07-30 | 124 |
 | 2026-07-31 | 121 |
-| 2026-08-01 | 118 |
+| 2026-08-01 | 129 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.d1ev.com | 1281 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 475 |
+| vc.yiche.com | 476 |
 | auto.gasgoo.com | 357 |
 | 36kr.com | 286 |
-| www.stcn.com | 254 |
+| www.stcn.com | 256 |
 | www.caam.org.cn | 198 |
 | www.cnr.cn | 177 |
-| egs.stcn.com | 170 |
+| egs.stcn.com | 172 |
 | autodata.gasgoo.com | 169 |
-| news.yiche.com | 150 |
-| www.nbd.com.cn | 136 |
+| news.yiche.com | 152 |
+| www.nbd.com.cn | 137 |
 | www.news.cn | 114 |
 | www.cada.cn | 112 |
 | m.21jingji.com | 106 |
 | www.yicai.com | 102 |
-| www.gelonghui.com | 73 |
+| www.gelonghui.com | 74 |
 | www.zqrb.cn | 67 |
 | auto.caijing.com.cn | 67 |
 | finance.eastmoney.com | 43 |
@@ -93,8 +93,8 @@ _Updated 2026-08-01 18:13 | discovery-only, zero LLM tokens | runs every 3h_
 | www.jwview.com | 40 |
 | www.chinanews.com.cn | 36 |
 | finance.people.com.cn | 36 |
-| qzs.stcn.com | 26 |
-| cn.chinadaily.com.cn | 25 |
+| qzs.stcn.com | 27 |
+| cn.chinadaily.com.cn | 26 |
 | www.ceweekly.cn | 20 |
 | m.ce.cn | 17 |
 | auto.ce.cn | 16 |
@@ -125,7 +125,7 @@ _Updated 2026-08-01 18:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-08-01 — 118 articles
+### 2026-08-01 — 129 articles
 - **[车型越多，死得越快？全球车企正在抛弃车海战术](https://36kr.com/p/3919400657163911)** — _36kr.com_ · published 2026-08-01
   车型越多，死得越快？全球车企正在抛弃车海战术 最近，大众集团宣布计划大幅削减产品阵容，未来可能砍掉多达一半车型。 这不是第一家要实行“精简主义”的车企。除大众之外，丰田也在重新检视现有产品策略，未来或许要通过精简车型与等级配置，降低开发成本，提高整体盈利能力。而奔驰、日产、福特、长城、吉利、长安也陆续告别车海战术。 精简、剥离、告别粗放。这似乎是当前全球车企
 - **[日赚超2亿元，但宁德时代对现状并不满意](https://36kr.com/p/3919485213011589)** — _36kr.com_ · published 2026-08-01
@@ -157,6 +157,8 @@ _Updated 2026-08-01 18:13 | discovery-only, zero LLM tokens | runs every 3h_
   在墨西哥首都墨西哥城科约阿坎区一家吉利汽车经销商门店展厅，几名顾客正在轮流体验新能源车的功能。顾客马努埃尔不到10分钟就爱上一款SUV，他说：“这款车的交互系统和全景影像系统都很棒。我看好中国品牌汽车，因为同等价位下，中国车的功能更多、体验更好。” 销售经理埃里克表示，周末或有促销活动时，门店会更加繁忙，“一些车型很容易脱销”。埃里克指着身旁一辆展示车告诉记
 - **[拥有吉利造车基因，“浙”家卫星超级工厂不简单](https://cn.chinadaily.com.cn/a/202608/01/WS6a6d9af3a310d709c2fc0f4c.html)** — _cn.chinadaily.com.cn_ · published 2026-08-01
   浙江台州，一座融合了汽车批量化制造基因的卫星超级工厂正高效运转。该工厂将吉利成熟的大规模量产能力与传统航天工艺深度融合，建成了国内首个商业航天卫星制造工厂。2021年首星下线后，如今制造一颗卫星仅需28天。目前已有72颗卫星在轨，实现100%可靠运行。依托台州“制造之都”的模具加工优势，这些卫星通过国家队火箭发射升空，主要服务远洋、巡检等B端场景，未来还将推
+- **[充电桩CCC认证今起强制实施](https://cn.chinadaily.com.cn/a/202608/01/WS6a6de569a310d709c2fc0f98.html)** — _cn.chinadaily.com.cn_ · published 2026-08-01
+  为强化产品质量风险源头治理，维护广大人民群众生命健康和财产安全，8月1日起，市场监管总局（国家认监委）对电动汽车供电设备强制性产品认证（CCC认证）管理开始强制实施，通过开展防触电、短路保护、耐火耐燃等关键安全指标测试和企业现场质量保证能力、产品一致性检查，切实筑牢产品质量安全底线。 随着我国新能源汽车的不断普及和发展，电动汽车供电设备（俗称充电桩）已经成为
 - **[小米汽车：7月交付量持续超过30000台](https://egs.stcn.com/news/detail/2322187.html)** — _egs.stcn.com_ · published 2026-08-01
   首页 推荐 快讯 解读 股市 港股通 视听 专题 行情 数据 公众号 APP 电子报 您当前的位置： 证券时报·e公司 > 快讯 > 详情 小米汽车：7月交付量持续超过30000台 来源：人民财讯 作者：许擎天梅 2026-08-01 09:05 Aa 大号字 人民财讯8月1日电，小米汽车微博发布消息，2026年7月，小米汽车交付量持续超过30000台。 责
 - **[华阳集团：公司为小米澎程汽车配套多类汽车电子产品](https://egs.stcn.com/news/detail/2322209.html)** — _egs.stcn.com_ · published 2026-08-01
@@ -186,6 +188,9 @@ _Updated 2026-08-01 18:13 | discovery-only, zero LLM tokens | runs every 3h_
   首页 推荐 快讯 解读 股市 港股通 视听 专题 行情 数据 公众号 APP 电子报 您当前的位置： 证券时报·e公司 > 快讯 > 详情 吉利汽车7月销量超25万辆 创同期新高 来源：人民财讯 作者：朱雨蒙 2026-08-01 17:33 Aa 大号字 人民财讯8月1日电，据吉利汽车集团消息，吉利汽车7月销量超25万辆，创同期新高；海外出口销量10.7万
 - **[奇瑞集团7月销量27.7万辆 同比增长23.3%](https://egs.stcn.com/news/detail/2322237.html)** — _egs.stcn.com_ · date: unknown
   e公司 吴志 08-01 12:54 人民财讯8月1日电，据奇瑞集团消息，2026年7月，奇瑞集团销售汽车276820辆，同比增长23.3%。其中，出口202533辆，同比增长70.1%，连续五个月刷新中国汽车单月出口纪录，成为中国首个单月出口突破20万辆的车企。7月份，集团销售新能源汽车129067辆，同比增长97.5%，创单月新能源销量新高。1—7月，奇
+- **[首个月交付10万台新势力品牌出现！多家车企公布7月销量数据](https://egs.stcn.com/news/detail/2322262.html)** — _egs.stcn.com_ · date: unknown
+  8月1日，多家车企公布7月销量数据，部分车企数据表现亮眼。 典型代表是零跑汽车。零跑7月交付量达101267台，同比增长102%；单月交付首次突破10万台大关，成为国内首个达成单月超10万台量级交付的造车新势力品牌。 零跑汽车创始人、董事长兼CEO朱江明在7月销量收官视频中表示：“从月销879台到10万，我们走了整整6年，过去不敢想的事，今天成了。8月我们还
+- **[20:00上汽集团7月整车销售33.9万辆](https://egs.stcn.com/news/detail/2322261.html)** — _egs.stcn.com_ · date: unknown
 - **[长安汽车终止长安科技30亿元增资扩股方案](https://finance.ce.cn/stock/gsgdbd/202608/t20260801_3122097.shtml)** — _finance.ce.cn_ · published 2026-08-01
   本报记者 冯雨瑶 7月31日晚间，重庆长安汽车股份有限公司（以下简称“长安汽车”）发布公告称，公司于7月30日召开第九届董事会第六十一次会议，审议通过了《关于终止全资子公司增资扩股的议案》《关于终止向全资子公司增资的议案》。其中，《关于终止向全资子公司增资的议案》已经通过公司独立董事专门会议审议，尚需提交股东会审议。 长安汽车方面表示，因长安科技智能化创新超
 - **[电动汽车充电桩CCC认证8月1日起强制实施](https://finance.people.com.cn/n1/2026/0801/c1004-40772177.html)** — _finance.people.com.cn_ · published 2026-08-01
@@ -209,12 +214,17 @@ _Updated 2026-08-01 18:13 | discovery-only, zero LLM tokens | runs every 3h_
   推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 8月1日，极氪汽车官方公布最新销量数据：7月新车交付35837辆，同比增长111%，再创品牌单月交付历史新高；同时，品牌全球累计用户规模突破85万大关，标志着其在豪华新能源市场的竞争力持续攀升。 在
 - **[奇瑞集团7月销量276820辆 出口202533辆](https://news.yiche.com/xiaoliangshuju/20260801/16111939790.html)** — _news.yiche.com_ · date: unknown
   推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 8月1日，奇瑞集团公布最新销量数据：奇瑞集团7月销量276820辆。其中新能源汽车129067辆，同比增长97.5%。单月新能源销量创历史新高，出口202533辆，同比增长70.1%，成为中国首个单
+- **[吉利汽车7月销量250161辆 海外出口销量106663辆](https://news.yiche.com/xiaoliangshuju/20260801/18111940649.html)** — _news.yiche.com_ · date: unknown
+  推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 8月1日，吉利汽车公布最新销量数据：7月销量250161辆，再创同期新高；海外出口销量连续两个月破10万辆。7月新能源销量160165辆，同比增长23%，新能源销量占比64%。 具体来看，吉利中国星
+- **[比亚迪7月乘用车销售411072辆 海外销售179841辆  08-01 06:47](https://news.yiche.com/xiaoliangshuju/20260801/18111940664.html)** — _news.yiche.com_ · date: unknown
 - **[小米汽车：7月交付量持续超过30000台](https://qzs.stcn.com/article/detail/620613.html)** — _qzs.stcn.com_ · date: unknown
   券中社APP 登录 首页 快讯 视听 要闻 基金 券中号 全媒体 手机号登录/注册 手机号 验证码 获取短信验证码 图形验证码 我已经阅读并同意 《用户服务协议》 《隐私协议》 账号 密码 确认 首次登录会自动创建账号 小米汽车：7月交付量持续超过30000台 人民财讯 作者：许擎天梅 | 09:05发布 人民财讯8月1日电，小米汽车微博发布消息，2026年
 - **[华阳集团：公司为小米澎程汽车配套多类汽车电子产品](https://qzs.stcn.com/article/detail/620637.html)** — _qzs.stcn.com_ · date: unknown
   券中社APP 登录 首页 快讯 视听 要闻 基金 券中号 全媒体 手机号登录/注册 手机号 验证码 获取短信验证码 图形验证码 我已经阅读并同意 《用户服务协议》 《隐私协议》 账号 密码 确认 首次登录会自动创建账号 华阳集团：公司为小米澎程汽车配套多类汽车电子产品 人民财讯 作者：许擎天梅 | 12:06发布 人民财讯8月1日电，华阳集团(002906)
 - **[比亚迪：7月销量超41.9万辆 海外销量近18万辆](https://qzs.stcn.com/article/detail/620675.html)** — _qzs.stcn.com_ · date: unknown
   券中社APP 登录 首页 快讯 视听 要闻 基金 券中号 全媒体 手机号登录/注册 手机号 验证码 获取短信验证码 图形验证码 我已经阅读并同意 《用户服务协议》 《隐私协议》 账号 密码 确认 首次登录会自动创建账号 比亚迪：7月销量超41.9万辆 海外销量近18万辆 人民财讯 作者：朱雨蒙 | 18:03发布 人民财讯8月1日电，据比亚迪消息，比亚迪7月
+- **[【财闻联播】多家品牌金饰价格下调！新势力车企7月交付数据公布](https://qzs.stcn.com/article/detail/620687.html)** — _qzs.stcn.com_ · date: unknown
+  ★ 宏观动态 ★ 充电桩CCC认证自8月1日起开始强制实施 8月1日起，市场监管总局（国家认监委）对电动汽车供电设备强制性产品认证（CCC认证）管理开始强制实施，通过开展防触电、短路保护、耐火耐燃等关键安全指标测试和企业现场质量保证能力、产品一致性检查，切实筑牢产品质量安全底线。8月1日起，未获得CCC认证的电动汽车供电设备，不得出厂、销售、进口或者在其他经
 - **[中国汽车杀进韩流腹地!零跑A05凭什么敢站在明洞街C位](https://vc.yiche.com/vplay/12388672.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 第二代腾势D9正式上市！带闪充，升级双阀云辇-C！ 汽车洋葱圈 告别插混短板！试驾一汽-大众探岳L PHEV，全能家用SUV登场 极速领航 小车大空间、还有高阶辅助
 - **[小鹏MONA L03开着咋样？聊聊](https://vc.yiche.com/vplay/12388014.html)** — _vc.yiche.com_ · date: unknown
@@ -253,6 +263,8 @@ _Updated 2026-08-01 18:13 | discovery-only, zero LLM tokens | runs every 3h_
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 奇瑞用风云T7证明：中国车不搞“双重标准” 阿杰的车酷 奇瑞出王炸！风云T7重新定义家用纯电SUV 布鲁斯李86 享界g9外部配置解析!今天官方正式发布 焦糖远方宝
 - **[这设计过时没？ 静态体验雷克萨斯RX](https://vc.yiche.com/vplay/12389001.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 38.00-61.90万 2011款雷克萨斯RX270 典雅版 136628KM 底盘检修整备作业！ susanluo210524 什么样的二手车可以买？ 新八闲唠 30-
+- **[开了1400公里之后，我觉得蔚来ET5……](https://vc.yiche.com/vplay/12391087.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 29.80-31.30万 三菱欧蓝德 LS yujiecarter 我用AI改出了独一无二的全新坦克300，真的太酷了 轿车情报 蔚来ET5冠军版解读，运动元素加持，防倾杆
 - **[电动汽车充电桩CCC认证8月1日起强制实施](https://www.ce.cn/xwzx/gnsz/gdxw/202608/t20260801_3122217.shtml)** — _www.ce.cn_ · published 2026-08-01
   新华社北京8月1日电 市场监管总局（国家认监委）对电动汽车供电设备强制性产品认证（CCC认证）管理8月1日起强制实施，通过开展防触电、短路保护、耐火耐燃等关键安全指标测试和企业现场质量保证能力、产品一致性检查，切实筑牢产品质量安全底线。 随着我国新能源汽车的不断普及和发展，电动汽车供电设备（俗称充电桩）已经成为服务百姓出行需求的重要基础设施。8月1日起，未获
 - **[沈阳为甲醇新能源乘用车消费补贴10%](https://www.cnr.cn/ln/gstjln/20260801/t20260801_527740638.shtml)** — _www.cnr.cn_ · published 2026-08-01
@@ -305,6 +317,8 @@ _Updated 2026-08-01 18:13 | discovery-only, zero LLM tokens | runs every 3h_
   申请认证 格隆汇公众号矩阵 格隆汇App 下载格隆汇APP 诊股宝App 下载诊股宝App 汇路演App 下载汇路演APP 极调研 加入我们 首页 社区 快讯 事件 深度 主题 专栏 行情 会员 数据 财富圈 文章 更多相关文章 快讯 更多相关快讯 查看全部股票/文章/快讯/事件/用户/财富圈搜索结果 热门股票 搜索历史 清空历史 登录 / 注册 温馨提示
 - **[塔塔汽车7月份汽车销量39641辆，同比增长37%](https://www.gelonghui.com/live/2587509)** — _www.gelonghui.com_ · published 2026-08-01
   申请认证 格隆汇公众号矩阵 格隆汇App 下载格隆汇APP 诊股宝App 下载诊股宝App 汇路演App 下载汇路演APP 极调研 加入我们 首页 社区 快讯 事件 深度 主题 专栏 行情 会员 数据 财富圈 文章 更多相关文章 快讯 更多相关快讯 查看全部股票/文章/快讯/事件/用户/财富圈搜索结果 热门股票 搜索历史 清空历史 登录 / 注册 温馨提示
+- **[上汽集团7月整车销售33.9万辆](https://www.gelonghui.com/live/2587581)** — _www.gelonghui.com_ · published 2026-08-01
+  申请认证 格隆汇公众号矩阵 格隆汇App 下载格隆汇APP 诊股宝App 下载诊股宝App 汇路演App 下载汇路演APP 极调研 加入我们 首页 社区 快讯 事件 深度 主题 专栏 行情 会员 数据 财富圈 文章 更多相关文章 快讯 更多相关快讯 查看全部股票/文章/快讯/事件/用户/财富圈搜索结果 热门股票 搜索历史 清空历史 登录 / 注册 温馨提示
 - **[多家新势力车企7月销量公布](https://www.jwview.com/jingwei/html/08-01/681801.shtml)** — _www.jwview.com_ · date: unknown
   中新经纬8月1日电 8月第一天，多家车企公布2026年7月份交付量。 据小米汽车官微，2026年7月，小米汽车交付量持续超过30000台。 中新经纬查询发现，小米汽车已连续4个月交付量超3万台。 据鸿蒙智行官微：7月鸿蒙智行交付45046台，1-7月累计交付28.6万台，同比增长13.7%。截至目前，鸿蒙智行全系累计交付突破148万台，持续刷新中国新势力品牌
 - **[神行者品牌拥有相对独立决策权 文飞：首款车型月销量目标破万，但数字并非唯一标准](https://www.nbd.com.cn/articles/2026-07-31/4528599.html)** — _www.nbd.com.cn_ · published 2026-07-31
@@ -323,6 +337,8 @@ _Updated 2026-08-01 18:13 | discovery-only, zero LLM tokens | runs every 3h_
   每日经济新闻 2026-08-01 18:05:14 每经AI快讯，8月1日，比亚迪公布最新销售数据，7月份销售419211辆，海外销售近18万辆。 2026年1-7月累计销售2227722辆，新能源汽车累计销售超1730万辆 。 如需转载请与《每日经济新闻》报社联系。 未经《每日经济新闻》报社授权，严禁转载或镜像，违者必究。 读者热线：4008890008
 - **[吉利汽车7月销量超25万辆](https://www.nbd.com.cn/articles/2026-08-01/4529243.html)** — _www.nbd.com.cn_ · published 2026-08-01
   每日经济新闻 2026-08-01 17:42:30 每经AI快讯，8月1日，吉利汽车公布最新销量数据，7月销量250161辆，连续5个月同环比双增长。新能源方面，7月销量(含吉利、领克、极氪)160165辆，同比增长23%，新能源销量占比64%。7月海外出口达106663辆，同比增长202%，环比增长4%，连续7个月实现同环比双增长。新能源产品出口销量62
+- **[7月销量战报公布：零跑成首家月销超10万辆新势力品牌，多数汽车品牌实现同比增长](https://www.nbd.com.cn/articles/2026-08-01/4529277.html)** — _www.nbd.com.cn_ · published 2026-08-01
+  2026-08-01 20:06:51 每经记者｜李星 每经编辑｜余婷婷 8月1日，多家车企陆续公布7月战绩，零跑汽车成最大“赢家”。 零跑汽车发布的最新数据显示，7月其交付量约10.13万辆，同比增长102%，单月交付首次突破10万辆大关，成为国内首个达成单月交付超10万辆量级的造车新势力品牌。 同为新势力品牌的蔚来、小鹏、理想、小米汽车在7月份的单月交付
 - **[电动汽车充电桩CCC认证8月1日起强制实施](https://www.news.cn/legal/20260801/4e8a24d071944ed29a90d67eedd36e82/c.html)** — _www.news.cn_ · published 2026-08-01
   新华社北京8月1日电 市场监管总局（国家认监委）对电动汽车供电设备强制性产品认证（CCC认证）管理8月1日起强制实施，通过开展防触电、短路保护、耐火耐燃等关键安全指标测试和企业现场质量保证能力、产品一致性检查，切实筑牢产品质量安全底线。 随着我国新能源汽车的不断普及和发展，电动汽车供电设备（俗称充电桩）已经成为服务百姓出行需求的重要基础设施。8月1日起，未获
 - **[小米汽车：7月交付量持续超过30000台](https://www.stcn.com/article/detail/4053639.html)** — _www.stcn.com_ · date: unknown
@@ -347,6 +363,10 @@ _Updated 2026-08-01 18:13 | discovery-only, zero LLM tokens | runs every 3h_
   移动版 网页版 首页 快讯 新闻 要闻 金融 评论 产经 创投 滚动 视频 视频 直播 路演 投资 A股 公司 新股 基金 港美股 数据 数据资讯 盯盘面 看资金 追风向 解财报 淘新股 再融资 港股 基金 信披+ 全部 沪市主板 深市主板 科创板 创业板 北交所 新三板 深股通 沪股通 专题 地方 京 津 冀 晋 蒙 辽 吉 黑 沪 苏 浙 皖 闽 赣 鲁
 - **[吉利汽车7月销量超25万辆 创同期新高](https://www.stcn.com/article/detail/4053774.html)** — _www.stcn.com_ · date: unknown
   移动版 网页版 首页 快讯 新闻 要闻 金融 评论 产经 创投 滚动 视频 视频 直播 路演 投资 A股 公司 新股 基金 港美股 数据 数据资讯 盯盘面 看资金 追风向 解财报 淘新股 再融资 港股 基金 信披+ 全部 沪市主板 深市主板 科创板 创业板 北交所 新三板 深股通 沪股通 专题 地方 京 津 冀 晋 蒙 辽 吉 黑 沪 苏 浙 皖 闽 赣 鲁
+- **[上汽集团7月整车销售33.9万辆](https://www.stcn.com/article/detail/4053811.html)** — _www.stcn.com_ · date: unknown
+  移动版 网页版 首页 快讯 新闻 要闻 金融 评论 产经 创投 滚动 视频 视频 直播 路演 投资 A股 公司 新股 基金 港美股 数据 数据资讯 盯盘面 看资金 追风向 解财报 淘新股 再融资 港股 基金 信披+ 全部 沪市主板 深市主板 科创板 创业板 北交所 新三板 深股通 沪股通 专题 地方 京 津 冀 晋 蒙 辽 吉 黑 沪 苏 浙 皖 闽 赣 鲁
+- **[首个月交付10万台新势力品牌出现！多家车企公布7月销量数据](https://www.stcn.com/article/detail/4053814.html)** — _www.stcn.com_ · date: unknown
+  8月1日，多家车企公布7月销量数据，部分车企数据表现亮眼。 典型代表是零跑汽车。零跑7月交付量达101267台，同比增长102%；单月交付首次突破10万台大关，成为国内首个达成单月超10万台量级交付的造车新势力品牌。 零跑汽车创始人、董事长兼CEO朱江明在7月销量收官视频中表示：“从月销879台到10万，我们走了整整6年，过去不敢想的事，今天成了。8月我们还
 - **[首个月销破10万辆的新势力出现了](https://www.yicai.com/news/103301627.html)** — _www.yicai.com_ · published 2026-08-01
   打开微信，点击底部的“发现”，使用“扫一扫”即可将网页分享至朋友圈。 第一财经 2026-08-01 10:58:51 听新闻 作者：葛慧 责编：张骁 {{aisd}} AI生成 免责声明 第一财经记者获悉，在刚刚过去的7月，零跑汽车交付超10万辆。这是零跑月销首次突破10万辆，零跑也是目前首个月度交付超过10万辆的新势力车企。 葛慧 这是第一财经依托多年深
 - **[新势力车企7月销量分化加剧：10万、3万及其他](https://www.yicai.com/news/103301710.html)** — _www.yicai.com_ · date: unknown
