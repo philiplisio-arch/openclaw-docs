@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-08-02 00:14 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-08-02 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-08-02 00:14 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **5782 unique auto/NEV articles** across **53 outlets**
+## Cumulative: **5783 unique auto/NEV articles** across **53 outlets**
 
 ## New per day
 | date | new articles |
@@ -65,14 +65,14 @@ _Updated 2026-08-02 00:14 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-30 | 124 |
 | 2026-07-31 | 121 |
 | 2026-08-01 | 129 |
-| 2026-08-02 | 9 |
+| 2026-08-02 | 10 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.d1ev.com | 1281 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 477 |
+| vc.yiche.com | 478 |
 | auto.gasgoo.com | 363 |
 | 36kr.com | 286 |
 | www.stcn.com | 256 |
@@ -126,7 +126,7 @@ _Updated 2026-08-02 00:14 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-08-02 — 9 articles
+### 2026-08-02 — 10 articles
 - **[小鹏汽车7月交付38,027台](https://auto.gasgoo.com/news/202608/1I70468310C901.shtml)** — _auto.gasgoo.com_ · date: unknown
 - **[小米汽车7月交付再超3万辆](https://auto.gasgoo.com/news/202608/1I70468313C110.shtml)** — _auto.gasgoo.com_ · date: unknown
   盖世汽车讯 8月1日，小米汽车如期对外公布上月交付成绩，2026年7月，小米汽车单月交付量持续超过30000辆，这是继今年4月首次突破三万大关后，小米汽车连续第四个月将月交付标杆稳定在这一高位区间。 图片来源：小米汽车 “持续超过”四个字，透露出小米汽车产能爬坡与供应链韧性已进入良性轨道。不同于部分新势力在突破关键节点后出现波动，小米自SU7系列全面放量以来
@@ -138,6 +138,8 @@ _Updated 2026-08-02 00:14 | discovery-only, zero LLM tokens | runs every 3h_
   推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 8月1日，上汽集团公布最新销量数据：7月上汽集团整车销售33.9万辆，1-7月累计销售238.4万辆。其中，自主品牌板块销量加速攀升，1-7月上汽乘用车同比增长53.4%，智己汽车增长82.4%；新
 - **[奇瑞风云A9L半年用车报告！智驾表现如何？底盘真的主打舒适性？](https://vc.yiche.com/vplay/12390324.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 14.99-23.69万 路边停车被贴条，一招撤销有妙招 阿伟汽车 看不见的底盘才见良心，风云A9L凭啥对标百万豪车 车来车往Clcw 风云A9L获中汽中心电安全测评五星认
+- **[车长超奔驰S级！比亚迪大汉发布，纯电续航1008km，8月首发](https://vc.yiche.com/vplay/12334422.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 颜值已圈粉无数，还有宁德/华为/麦格纳，20万级极狐阿尔法T7有多能打？ 客代表AUTO 岚图泰山X8，把百万配置拉到30万级 晓见知微 两台兰博基尼在街道上的回头
 - **[奇瑞集团7月销量27.7万辆 同比增长23.3%](https://www.nbd.com.cn/articles/2026-08-01/4529196.html)** — _www.nbd.com.cn_ · published 2026-08-01
   每日经济新闻 2026-08-01 15:51:16 每经AI快讯，8月1日，奇瑞集团公布，2026年7月，奇瑞集团销售汽车276,820辆，同比增长23.3%。其中，出口202,533辆，同比增长70.1%，成为中国首个单月出口突破20万辆的车企。7月份，集团销售新能源汽车129,067辆，同比增长97.5%。1-7月，奇瑞集团累计销量汽车1,634,35
 
