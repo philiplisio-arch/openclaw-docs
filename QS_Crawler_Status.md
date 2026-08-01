@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-08-01 12:16 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-08-01 15:14 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-08-01 12:16 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **5712 unique auto/NEV articles** across **53 outlets**
+## Cumulative: **5731 unique auto/NEV articles** across **53 outlets**
 
 ## New per day
 | date | new articles |
@@ -64,30 +64,30 @@ _Updated 2026-08-01 12:16 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-29 | 145 |
 | 2026-07-30 | 124 |
 | 2026-07-31 | 121 |
-| 2026-08-01 | 68 |
+| 2026-08-01 | 87 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.d1ev.com | 1281 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 468 |
-| auto.gasgoo.com | 352 |
+| vc.yiche.com | 471 |
+| auto.gasgoo.com | 355 |
 | 36kr.com | 286 |
-| www.stcn.com | 251 |
+| www.stcn.com | 252 |
 | www.caam.org.cn | 198 |
-| www.cnr.cn | 174 |
+| www.cnr.cn | 175 |
 | autodata.gasgoo.com | 169 |
-| egs.stcn.com | 163 |
-| news.yiche.com | 145 |
-| www.nbd.com.cn | 133 |
+| egs.stcn.com | 167 |
+| news.yiche.com | 149 |
+| www.nbd.com.cn | 134 |
 | www.news.cn | 113 |
 | www.cada.cn | 112 |
 | m.21jingji.com | 105 |
 | www.yicai.com | 100 |
 | www.zqrb.cn | 67 |
 | auto.caijing.com.cn | 67 |
-| www.gelonghui.com | 64 |
+| www.gelonghui.com | 66 |
 | finance.eastmoney.com | 43 |
 | www.xinhuanet.com | 40 |
 | www.jwview.com | 40 |
@@ -125,7 +125,7 @@ _Updated 2026-08-01 12:16 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-08-01 — 68 articles
+### 2026-08-01 — 87 articles
 - **[车型越多，死得越快？全球车企正在抛弃车海战术](https://36kr.com/p/3919400657163911)** — _36kr.com_ · published 2026-08-01
   车型越多，死得越快？全球车企正在抛弃车海战术 最近，大众集团宣布计划大幅削减产品阵容，未来可能砍掉多达一半车型。 这不是第一家要实行“精简主义”的车企。除大众之外，丰田也在重新检视现有产品策略，未来或许要通过精简车型与等级配置，降低开发成本，提高整体盈利能力。而奔驰、日产、福特、长城、吉利、长安也陆续告别车海战术。 精简、剥离、告别粗放。这似乎是当前全球车企
 - **[日赚超2亿元，但宁德时代对现状并不满意](https://36kr.com/p/3919485213011589)** — _36kr.com_ · published 2026-08-01
@@ -145,6 +145,11 @@ _Updated 2026-08-01 12:16 | discovery-only, zero LLM tokens | runs every 3h_
 - **[17家车企抢“定损权”，4S集团截杀同行70%利润，保司开3000家优选店...事故车生态迎来剧变？](https://auto.gasgoo.com/news/202608/1I70468146C108.shtml)** — _auto.gasgoo.com_ · date: unknown
   2026年上半年，保险和事故车承修方的"朋友圈"彻底分裂了。 一家宝马4S店外拓人员深夜蹲守高速出口抢事故车，另一家直接杀到车主家门口，返点从20%一路哄抬到30%。结果修到一半，高返点承诺被单方面撕毁，车主还堵门维权。 更无奈的是，杭州一家奥迪4S店刚给一辆A3换了1.6万的左前大灯，车主事后发现灯是副厂的，直接索要赔偿，并找来媒体曝光。店方却也发怒回怼：
 - **[汽车品牌法务部终难两全](https://auto.gasgoo.com/news/202608/1I70468261C108.shtml)** — _auto.gasgoo.com_ · date: unknown
+- **[鸿蒙智行7月交付45046台，多车型热销](https://auto.gasgoo.com/news/202608/1I70468269C110.shtml)** — _auto.gasgoo.com_ · date: unknown
+  盖世汽车 8月1日，鸿蒙智行对外发布7月交付成绩单。品牌当月新车交付量达到45046台；今年1至7月整体累计交付28.6万台，较去年同期上涨13.7%。 随着持续交付落地，鸿蒙智行全系车型累计交付总量突破148万台，刷新国内新势力车企整体交付速度纪录，用户保有规模持续扩容。 从销量结构来看，品牌多款主力车型均跑出亮眼交付表现，高中低端细分市场多点开花，没有单
+- **[人事变动｜长安汽车执行副总裁彭陶因工作变动离任-盖世汽车资讯](https://auto.gasgoo.com/news/202608/1I70468268C901.shtml)** — _auto.gasgoo.com_ · date: unknown
+  盖世汽车讯 7月31日晚，重庆长安汽车股份有限公司对外发布高管人事变动公告，披露公司管理层迎来调整：执行副总裁彭陶卸任所有职务。 根据深交所披露的官方公告文件，彭陶此次离职原因标注为工作变动，在离开执行副总裁岗位的同时，不再兼任长安汽车任何管理职务。公告明确提及 “另有任用”，并未对外披露其新任职的具体单位与岗位。 按照上市公司信批要求，公告完整公示了彭陶个
+- **[中国乘用车市场展望](https://auto.gasgoo.com/news/202607/31I70468182C106.shtml)** — _auto.gasgoo.com_ · date: unknown
 - **[中国品牌汽车持续走俏墨西哥市场](https://cen.ce.cn/more/202608/t20260801_3122096.shtml)** — _cen.ce.cn_ · published 2026-08-01
   在墨西哥首都墨西哥城科约阿坎区一家吉利汽车经销商门店展厅，几名顾客正在轮流体验新能源车的功能。顾客马努埃尔不到10分钟就爱上一款SUV，他说：“这款车的交互系统和全景影像系统都很棒。我看好中国品牌汽车，因为同等价位下，中国车的功能更多、体验更好。” 销售经理埃里克表示，周末或有促销活动时，门店会更加繁忙，“一些车型很容易脱销”。埃里克指着身旁一辆展示车告诉记
 - **[小米汽车：7月交付量持续超过30000台](https://egs.stcn.com/news/detail/2322187.html)** — _egs.stcn.com_ · published 2026-08-01
@@ -163,6 +168,13 @@ _Updated 2026-08-01 12:16 | discovery-only, zero LLM tokens | runs every 3h_
   人民财讯8月1日电，据深蓝汽车消息，2026年7月，深蓝汽车全球销量29213辆，同比增长7.52%；2026年1—7月，深蓝汽车全球累计销量193369辆，同比增长13.48%，其中海外累计销量44508辆，同比增长87.48%。
 - **[华泰证券：汽车板块基金持仓和估值至历史低位 关注三季度末内销景气度改善情况](https://egs.stcn.com/news/detail/2322191.html)** — _egs.stcn.com_ · date: unknown
   数据宝 08-01 11:20 人民财讯8月1日电，华泰证券研报称，2026年二季度汽车板块基金重仓持股占比降至1.65%，为2021年以来最低，估值处近5年15%以下分位，仓位与估值同处历史相对低位。研报认为本轮减配的主因是内需退潮压低了板块盈利预期，AI主线的虹吸则加速了筹码出清，把减仓压缩到一个季度内快速完成。四个核心子板块全部减配但分化明显：乘用车减
+- **[充电桩CCC认证自8月1日起开始强制实施](https://egs.stcn.com/news/detail/2322226.html)** — _egs.stcn.com_ · date: unknown
+  e公司 吴志 08-01 12:54 人民财讯8月1日电，8月1日起，市场监管总局（国家认监委）对电动汽车供电设备强制性产品认证（CCC认证）管理开始强制实施，通过开展防触电、短路保护、耐火耐燃等关键安全指标测试和企业现场质量保证能力、产品一致性检查，切实筑牢产品质量安全底线。 随着我国新能源汽车的不断普及和发展，电动汽车供电设备（俗称充电桩）已经成为服务百
+- **[12:21岚图汽车2026年7月交付13189辆](https://egs.stcn.com/news/detail/2322212.html)** — _egs.stcn.com_ · date: unknown
+- **[蔚来公司7月交付新车35934台 同比增长71%](https://egs.stcn.com/news/detail/2322214.html)** — _egs.stcn.com_ · date: unknown
+  e公司 吴志 08-01 12:54 人民财讯8月1日电，据蔚来消息，2026年7月，蔚来公司交付新车35934台，同比增长71.0%。其中，蔚来品牌交付新车20008台，同比增长57.9%；乐道品牌交付新车10155台，同比增长69.9%；firefly萤火虫品牌交付新车5771台，同比增长143.9%。2026年前七个月，蔚来公司共交付新车227057台
+- **[小鹏集团7月交付新车38027台 同比增长约4%](https://egs.stcn.com/news/detail/2322213.html)** — _egs.stcn.com_ · published 2026-08-01
+  首页 推荐 快讯 解读 股市 港股通 视听 专题 行情 数据 公众号 APP 电子报 您当前的位置： 证券时报·e公司 > 快讯 > 详情 小鹏集团7月交付新车38027台 同比增长约4% 来源：人民财讯 作者：许擎天梅 2026-08-01 12:11 Aa 大号字 人民财讯8月1日电，8月1日，小鹏集团公布7月交付成绩。7月，小鹏集团共交付新车38027
 - **[长安汽车终止长安科技30亿元增资扩股方案](https://finance.ce.cn/stock/gsgdbd/202608/t20260801_3122097.shtml)** — _finance.ce.cn_ · published 2026-08-01
   本报记者 冯雨瑶 7月31日晚间，重庆长安汽车股份有限公司（以下简称“长安汽车”）发布公告称，公司于7月30日召开第九届董事会第六十一次会议，审议通过了《关于终止全资子公司增资扩股的议案》《关于终止向全资子公司增资的议案》。其中，《关于终止向全资子公司增资的议案》已经通过公司独立董事专门会议审议，尚需提交股东会审议。 长安汽车方面表示，因长安科技智能化创新超
 - **[AION Y Plus黑·白武士纪念版上市 官方一口价8.98万元](https://news.yiche.com/xinchexiaoxi/20260801/11111929716.html)** — _news.yiche.com_ · date: unknown
@@ -172,6 +184,14 @@ _Updated 2026-08-01 12:16 | discovery-only, zero LLM tokens | runs every 3h_
 - **[理想汽车7月交付30468辆](https://news.yiche.com/xiaoliangshuju/20260801/10111928300.html)** — _news.yiche.com_ · date: unknown
 - **[小米汽车7月交付量超3万台 澎程系列预计9月上市](https://news.yiche.com/xiaoliangshuju/20260801/09111926385.html)** — _news.yiche.com_ · date: unknown
   推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 8月1日，小米汽车公布最新销量数据，7月交付量持续超过30000台。小米澎程系列预计9月正式上市，届时将公布最终售价、完整配置、交付排期等全部信息。 小米澎程N90 Max和小米澎程N70 Max两
+- **[岚图汽车7月交付13189辆 岚图追光S将于8月15日上市](https://news.yiche.com/xiaoliangshuju/20260801/13111934327.html)** — _news.yiche.com_ · date: unknown
+  推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 8月1日，岚图汽车发布最新交付数据：7月交付13189辆，1-7月累计交付89453辆，同比增长31%。依托高端智慧新能源“SUV+MPV+轿车”全矩阵，岚图加速驱动品牌规模化增长。 岚图追光S预售
+- **[小鹏集团7月交付新车38027台 全球累计交付120万台](https://news.yiche.com/xiaoliangshuju/20260801/12111933020.html)** — _news.yiche.com_ · date: unknown
+  推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 8月1日，小鹏集团公布最新交付数据。7月，小鹏集团共交付新车38027台，同比增长约4%。截至7月，小鹏集团全球累计交付量突破120万台。 在全球化方面，小鹏持续深化海外市场布局。目前，小鹏已进入全
+- **[蔚来公司7月交付新车35934台 累计交付新车1224649台](https://news.yiche.com/xiaoliangshuju/20260801/12111932778.html)** — _news.yiche.com_ · date: unknown
+  推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 8月1日，蔚来公司公布最新销量数据。蔚来公司7月交付新车35934台，同比增长71.0%。其中，蔚来品牌交付新车20008台，同比增长57.9%；乐道品牌交付新车10155台，同比增长69.9%；f
+- **[极氪7月交付新车35837辆 全球用户突破85万](https://news.yiche.com/zonghexinwen/20260801/12111930670.html)** — _news.yiche.com_ · date: unknown
+  推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 8月1日，极氪汽车官方公布最新销量数据：7月新车交付35837辆，同比增长111%，再创品牌单月交付历史新高；同时，品牌全球累计用户规模突破85万大关，标志着其在豪华新能源市场的竞争力持续攀升。 在
 - **[小米汽车：7月交付量持续超过30000台](https://qzs.stcn.com/article/detail/620613.html)** — _qzs.stcn.com_ · date: unknown
   券中社APP 登录 首页 快讯 视听 要闻 基金 券中号 全媒体 手机号登录/注册 手机号 验证码 获取短信验证码 图形验证码 我已经阅读并同意 《用户服务协议》 《隐私协议》 账号 密码 确认 首次登录会自动创建账号 小米汽车：7月交付量持续超过30000台 人民财讯 作者：许擎天梅 | 09:05发布 人民财讯8月1日电，小米汽车微博发布消息，2026年
 - **[华阳集团：公司为小米澎程汽车配套多类汽车电子产品](https://qzs.stcn.com/article/detail/620637.html)** — _qzs.stcn.com_ · date: unknown
@@ -200,6 +220,12 @@ _Updated 2026-08-01 12:16 | discovery-only, zero LLM tokens | runs every 3h_
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 5.98-9.28万 华中国际车展，李清照带你奕派科技展台 智行马力 5.98 万起贝塔 S3 上市，99 秒换电 + 可充可换双模式 autocarweekly 纳米01
 - **[7.98万起，顶配10万可入手！奇瑞瑞虎7L就该直接看中高配？](https://vc.yiche.com/vplay/12395777.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 8.59-10.69万 星途EX6量产概念车：双色车身，6颗智驾小蓝灯 轮下无限 翻倍增长，包揽前二…以色列汽车4月销量解读 大榆说车 走！带你开最新敞篷法拉利 大家车言论
+- **[小鹏P7+给出全新答案，溜背造型回头率拉满的成年人理想轿跑](https://vc.yiche.com/vplay/12396757.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 18.68-19.88万 你以为小鹏还在卖车？它一季度财报彻底暴露了！ chenelsa910710 一年卖车少花冤枉钱小鹏这话车圈为什么难统一 阿乌龙max 宋 Ultr
+- **[大车也好开好坐！小鹏X9三排同舒适实测，拒绝第三排小板凳](https://vc.yiche.com/vplay/12396729.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 30.98-36.98万 小鹏X9高温集体趴窝，空悬故障到底是谁的锅？ 电车情报局 口碑销量双炸裂 魏牌高山坐稳MPV天花板 车界 又想舒服又想野？岚图泰山X8把事办了 之
+- **[五菱纯电宽体轻客扬光Pro上市，9.48](https://vc.yiche.com/vplay/12395665.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 9.98-14.98万 同样开五年 燃油车置换日产NX8到底能省多少？ 新八闲唠 3.9秒零百加速配云辇底盘 全维度体验六座豪华腾势N9 车视玩家 启辰VX6升顶版，家庭露
 - **[沈阳为甲醇新能源乘用车消费补贴10%](https://www.cnr.cn/ln/gstjln/20260801/t20260801_527740638.shtml)** — _www.cnr.cn_ · published 2026-08-01
   记者7月31日获悉，为进一步活跃沈阳市汽车消费市场，鼓励甲醇新能源乘用车消费，促进沈阳市汽车产业高质量发展，沈阳市人民政府决定：从2026年7月1日起，开展沈阳市甲醇新能源乘用车消费补贴活动，资金总额4亿元。 本次消费补贴面向所有在沈阳市商务局官方网站公示的甲醇新能源汽车销售企业购买甲醇新能源乘用车新车的个人消费者发放。活动不限户籍，不限上牌地域。 个人消费
 - **[“汽车+”消费加速跑](https://www.cnr.cn/2013qcpd/2015xc/20260801/t20260801_527740690.shtml)** — _www.cnr.cn_ · published 2026-08-01
@@ -212,6 +238,8 @@ _Updated 2026-08-01 12:16 | discovery-only, zero LLM tokens | runs every 3h_
   中新网武汉7月24日电 (袁英)武汉海关24日发布消息，今年1月至6月，湖北出口汽车(含底盘)货值161.9亿元(人民币，下同)，同比增长76.4%；其中，电动汽车出口86.5亿元，同比增长109.6%；出口额占汽车整车出口额比重达53%。 从市场分布看，湖北超七成汽车整车出口流向共建“一带一路”国家。新能源汽车持续深耕欧洲、东盟等市场，自主品牌出口规模占湖
 - **[快递外卖电动车须悬挂专用号牌 北京新规今起施行](https://www.cnr.cn/newscenter/native/gd/20260801/t20260801_527740827.shtml)** — _www.cnr.cn_ · published 2026-08-01
   今天（1日），《北京市快递、外卖行业非机动车管理办法（试行）》正式施行。新规明确用于快递、外卖服务的电动自行车须登记并悬挂专用号牌，实行“专车专用”。停止用于快递外卖服务的，应在停用之日起30日内变更普通号牌。同时，新购置用于快递、外卖服务的电动自行车，应符合2024年版《电动自行车安全技术规范》国家标准并列入北京市产品目录。 编辑:高杨 更多精彩资讯请在应
+- **[2026中国经济半年报丨四大优势 读懂中国产业凭什么“能”](https://www.cnr.cn/newscenter/native/gd/20260801/t20260801_527741254.shtml)** — _www.cnr.cn_ · published 2026-08-01
+  今年上半年，一组出口数据格外亮眼：电动汽车出口增长68.7%，锂电池出口增长37.6%，工业机器人出口增长18.6%，3D打印机出口激增109.3%……从“新三样”到“新新三样”，中国产业正以强劲势头走向世界。 中国产业凭什么这么“能”？答案，藏在四大优势之中。 监制：赵刚 记者：杨亚楠 金昱希 合作机构：西安外国语大学 设计制作：张卓越 审核专家：王秀丽
 - **[崔东树：上半年锂电池全口径总需求同比增长53% 行业增长转向多元支撑](https://www.gelonghui.com/live/2586958)** — _www.gelonghui.com_ · date: unknown
   首页 > 快讯 > 快讯详情 崔东树：上半年锂电池全口径总需求同比增长53% 行业增长转向多元支撑 格隆汇8月1日｜乘联分会崔东树发文表示，2026年上半年锂电池全口径总需求达106890万度，同比大幅增长53%，行业增长由过去新能源车单一拉动转向储能、海外出口、商用车多元支撑新格局。新能源车合计需求79319万度，同比增长37%，但国内新能源乘用车零售需求
 - **[岚图汽车7月交付13189辆](https://www.gelonghui.com/live/2587356)** — _www.gelonghui.com_ · published 2026-08-01
@@ -226,6 +254,10 @@ _Updated 2026-08-01 12:16 | discovery-only, zero LLM tokens | runs every 3h_
   首页 > 快讯 > 快讯详情 西安汽车消费补贴政策升级 新车二手车都有补贴 格隆汇8月1日｜据“西安发布”，8月1日起，西安汽车消费补贴政策升级。个人消费者购买纳入《减免车辆购置税的新能源汽车车型目录》的新能源乘用车，按照购车发票价格的2%给予补贴，最高补贴1万元。对购买2026年新发布上市的新款新能源车型新车：购车发票价格在9万元（含）—15万元的，增加补
 - **[华泰证券：汽车板块基金持仓和估值至历史低位 关注三季度末内销景气度改善情况](https://www.gelonghui.com/news/5278761)** — _www.gelonghui.com_ · date: unknown
   华泰证券研报称，2026年二季度汽车板块基金重仓持股占比降至1.65%，为2021年以来最低，估值处近5年15%以下分位，仓位与估值同处历史相对低位。研报认为本轮减配的主因是内需退潮压低了板块盈利预期，AI主线的虹吸则加速了筹码出清，把减仓压缩到一个季度内快速完成。四个核心子板块全部减配但分化明显：乘用车减配最深、基本面最弱，商用车盈利在改善而持仓与股价跌幅
+- **[快讯-格隆汇](https://www.gelonghui.com/live/2587465)** — _www.gelonghui.com_ · published 2026-08-01
+  申请认证 格隆汇公众号矩阵 格隆汇App 下载格隆汇APP 诊股宝App 下载诊股宝App 汇路演App 下载汇路演APP 极调研 加入我们 首页 社区 快讯 事件 深度 主题 专栏 行情 会员 数据 财富圈 文章 更多相关文章 快讯 更多相关快讯 查看全部股票/文章/快讯/事件/用户/财富圈搜索结果 热门股票 搜索历史 清空历史 登录 / 注册 温馨提示
+- **[充电桩CCC认证自8月1日起开始强制实施](https://www.gelonghui.com/live/2587424)** — _www.gelonghui.com_ · published 2026-08-01
+  申请认证 格隆汇公众号矩阵 格隆汇App 下载格隆汇APP 诊股宝App 下载诊股宝App 汇路演App 下载汇路演APP 极调研 加入我们 首页 社区 快讯 事件 深度 主题 专栏 行情 会员 数据 财富圈 文章 更多相关文章 快讯 更多相关快讯 查看全部股票/文章/快讯/事件/用户/财富圈搜索结果 热门股票 搜索历史 清空历史 登录 / 注册 温馨提示
 - **[多家新势力车企7月销量公布](https://www.jwview.com/jingwei/html/08-01/681801.shtml)** — _www.jwview.com_ · date: unknown
   中新经纬8月1日电 8月第一天，多家车企公布2026年7月份交付量。 据小米汽车官微，2026年7月，小米汽车交付量持续超过30000台。 中新经纬查询发现，小米汽车已连续4个月交付量超3万台。 据鸿蒙智行官微：7月鸿蒙智行交付45046台，1-7月累计交付28.6万台，同比增长13.7%。截至目前，鸿蒙智行全系累计交付突破148万台，持续刷新中国新势力品牌
 - **[神行者品牌拥有相对独立决策权 文飞：首款车型月销量目标破万，但数字并非唯一标准](https://www.nbd.com.cn/articles/2026-07-31/4528599.html)** — _www.nbd.com.cn_ · published 2026-07-31
@@ -238,6 +270,8 @@ _Updated 2026-08-01 12:16 | discovery-only, zero LLM tokens | runs every 3h_
   每经网首页 > 首发快讯 > 正文 每日经济新闻 2026-08-01 11:29:18 每经AI快讯，8月1日，极氪7月交付新车35837辆，同比增长111%。 如需转载请与《每日经济新闻》报社联系。未经《每日经济新闻》报社授权，严禁转载或镜像，违者必究。 读者热线：4008890008 特别提醒：如果我们使用了您的图片，请作者与本站联系索取稿酬。如您不希
 - **[零跑汽车：7月全球交付101267台，同比增长102%](https://www.nbd.com.cn/articles/2026-08-01/4529118.html)** — _www.nbd.com.cn_ · published 2026-08-01
   每日经济新闻 2026-08-01 11:12:20 每经AI快讯，8月1日，零跑汽车公布7月交付数据显示，7月全球交付101267台，同比增长102%。单月交付首次突破10万台大关，成为国内首个月交付破10万台的造车新势力品牌。 如需转载请与《每日经济新闻》报社联系。 未经《每日经济新闻》报社授权，严禁转载或镜像，违者必究。 读者热线：4008890008
+- **[多家车企公布7月“成绩单”：零跑交付超10万台，鸿蒙智行交付4.5万台，小鹏交付3.8万台，理想、小米、极氪超3万台](https://www.nbd.com.cn/articles/2026-08-01/4529144.html)** — _www.nbd.com.cn_ · published 2026-08-01
+  每日经济新闻 2026-08-01 12:28:03 每经编辑｜张锦河 8月1日，多家车企公布7月交付数据。 零跑汽车：7月交付量达101267台，同比增长102%，单月交付首次突破10万台大关，成为国内首个达成单月超10万台量级交付的造车新势力品牌。 鸿蒙智行：7月交付45,046台，1~7月累计交付28.6万台，同比增长13.7%。截至目前，鸿蒙智行全系
 - **[小米汽车：7月交付量持续超过30000台](https://www.stcn.com/article/detail/4053639.html)** — _www.stcn.com_ · date: unknown
   移动版 网页版 首页 快讯 新闻 要闻 金融 评论 产经 创投 滚动 视频 视频 直播 路演 投资 A股 公司 新股 基金 港美股 数据 数据资讯 盯盘面 看资金 追风向 解财报 淘新股 再融资 港股 基金 信披+ 全部 沪市主板 深市主板 科创板 创业板 北交所 新三板 深股通 沪股通 专题 地方 京 津 冀 晋 蒙 辽 吉 黑 沪 苏 浙 皖 闽 赣 鲁
 - **[华泰证券：汽车板块基金持仓和估值至历史低位 关注三季度末内销景气度改善情况](https://www.stcn.com/article/detail/4053654.html)** — _www.stcn.com_ · published 2026-07-30
@@ -254,6 +288,8 @@ _Updated 2026-08-01 12:16 | discovery-only, zero LLM tokens | runs every 3h_
   移动版 网页版 首页 快讯 新闻 要闻 金融 评论 产经 创投 滚动 视频 视频 直播 路演 投资 A股 公司 新股 基金 港美股 数据 数据资讯 盯盘面 看资金 追风向 解财报 淘新股 再融资 港股 基金 信披+ 全部 沪市主板 深市主板 科创板 创业板 北交所 新三板 深股通 沪股通 专题 地方 京 津 冀 晋 蒙 辽 吉 黑 沪 苏 浙 皖 闽 赣 鲁
 - **[深蓝汽车：7月全球销量29213辆 同比增长7.52%](https://www.stcn.com/article/detail/4053657.html)** — _www.stcn.com_ · date: unknown
   人民财讯8月1日电，据深蓝汽车消息，2026年7月，深蓝汽车全球销量29213辆，同比增长7.52%；2026年1—7月，深蓝汽车全球累计销量193369辆，同比增长13.48%，其中海外累计销量44508辆，同比增长87.48%。
+- **[充电桩CCC认证自8月1日起开始强制实施](https://www.stcn.com/article/detail/4053730.html)** — _www.stcn.com_ · published 2026-07-31
+  证券时报网 梁谦刚 2026-07-31 06:46 人民财讯8月1日电，8月1日起，市场监管总局（国家认监委）对电动汽车供电设备强制性产品认证（CCC认证）管理开始强制实施，通过开展防触电、短路保护、耐火耐燃等关键安全指标测试和企业现场质量保证能力、产品一致性检查，切实筑牢产品质量安全底线。 随着我国新能源汽车的不断普及和发展，电动汽车供电设备（俗称充电桩
 - **[首个月销破10万辆的新势力出现了](https://www.yicai.com/news/103301627.html)** — _www.yicai.com_ · published 2026-08-01
   打开微信，点击底部的“发现”，使用“扫一扫”即可将网页分享至朋友圈。 第一财经 2026-08-01 10:58:51 听新闻 作者：葛慧 责编：张骁 {{aisd}} AI生成 免责声明 第一财经记者获悉，在刚刚过去的7月，零跑汽车交付超10万辆。这是零跑月销首次突破10万辆，零跑也是目前首个月度交付超过10万辆的新势力车企。 葛慧 这是第一财经依托多年深
 - **[长安汽车终止长安科技30亿元增资扩股方案计划 尽快启动新一轮市场化融资](https://www.zqrb.cn/auto/qichedongtai/2026-07-31/A1785506280725.html)** — _www.zqrb.cn_ · published 2026-07-31
