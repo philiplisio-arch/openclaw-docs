@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-08-01 06:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-08-01 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-08-01 06:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **5651 unique auto/NEV articles** across **52 outlets**
+## Cumulative: **5660 unique auto/NEV articles** across **52 outlets**
 
 ## New per day
 | date | new articles |
@@ -64,7 +64,7 @@ _Updated 2026-08-01 06:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-29 | 145 |
 | 2026-07-30 | 124 |
 | 2026-07-31 | 121 |
-| 2026-08-01 | 7 |
+| 2026-08-01 | 16 |
 
 ## By outlet
 | outlet | articles |
@@ -72,29 +72,29 @@ _Updated 2026-08-01 06:12 | discovery-only, zero LLM tokens | runs every 3h_
 | www.d1ev.com | 1281 |
 | www.dongchedi.com | 1088 |
 | vc.yiche.com | 458 |
-| auto.gasgoo.com | 349 |
+| auto.gasgoo.com | 351 |
 | 36kr.com | 283 |
-| www.stcn.com | 243 |
+| www.stcn.com | 244 |
 | www.caam.org.cn | 198 |
+| www.cnr.cn | 169 |
 | autodata.gasgoo.com | 169 |
-| www.cnr.cn | 168 |
-| egs.stcn.com | 155 |
+| egs.stcn.com | 156 |
 | news.yiche.com | 141 |
-| www.nbd.com.cn | 129 |
+| www.nbd.com.cn | 130 |
 | www.news.cn | 113 |
 | www.cada.cn | 112 |
 | m.21jingji.com | 105 |
 | www.yicai.com | 99 |
 | www.zqrb.cn | 67 |
-| auto.caijing.com.cn | 64 |
+| auto.caijing.com.cn | 66 |
 | www.gelonghui.com | 58 |
 | finance.eastmoney.com | 43 |
 | www.xinhuanet.com | 40 |
 | www.jwview.com | 39 |
 | www.chinanews.com.cn | 36 |
 | finance.people.com.cn | 35 |
+| qzs.stcn.com | 24 |
 | cn.chinadaily.com.cn | 24 |
-| qzs.stcn.com | 23 |
 | www.ceweekly.cn | 20 |
 | m.ce.cn | 17 |
 | auto.ce.cn | 16 |
@@ -124,18 +124,35 @@ _Updated 2026-08-01 06:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-08-01 — 7 articles
+### 2026-08-01 — 16 articles
+- **[吉利将设立2030实验室，聚焦前瞻技术创新与研究](https://auto.caijing.com.cn/2026/0731/5174738.shtml)** — _auto.caijing.com.cn_ · date: unknown
+  7月31日，吉利汽车集团CEO淦家阅在2026年度中期经营工作大会上表示，今年下半年，吉利将以全域AI为引擎加速技术迭代，设立2030实验室，强化前瞻技术创新与研究，攻克声学、光学、全域安全、功率半导体、数字底盘、具身智能、数据科学、大模型和智能体等前沿领域，储备面向2030战略前瞻颠覆性技术，实现智能化体验的行业领先。 此外，在产品层面，吉利将全面推进燃油
+- **[一汽-大众ID. AURA T6开启盲订：智电2.0首作瞄准智能座舱第一梯队_新车上市_极速侠_财经网 - CAIJING.COM.CN](https://auto.caijing.com.cn/2026/0731/5174609.shtml)** — _auto.caijing.com.cn_ · date: unknown
+  7月30日，一汽-大众在佛山举办ID. AURA T6挚友抢鲜品鉴会，并同步启动新车盲订通道。作为一汽-大众智电2.0时代首款产品，ID. AURA T6定位纯电中型SUV，核心卖点集中在底层电子电气架构、AI交互、视听生态与空间利用率四个维度，试图以本土化研发成果扭转外界对大众品牌智能化水平的固有认知。 盲订期间，用户支付99元订金可抵扣2000元购车款。
 - **[长城汽车：Hi4面向全球的智能四驱](https://auto.gasgoo.com/news/202607/31I70468184C106.shtml)** — _auto.gasgoo.com_ · date: unknown
 - **[工信部监督检查奇瑞、蔚来、江汽](https://auto.gasgoo.com/news/202607/31I70468183C108.shtml)** — _auto.gasgoo.com_ · date: unknown
   7月30日至31日，工业和信息化部（下称工信部）装备工业一司赴奇瑞汽车股份有限公司、蔚来汽车科技（安徽）有限公司、安徽江淮汽车集团股份有限公司，开展道路机动车辆生产企业产品安全保障能力和生产一致性监督检查。此次检查旨在进一步规范汽车产业竞争秩序，提升汽车产品生产一致性和质量安全水平。 图片来源：奇瑞汽车 检查组重点核查了企业智能网联汽车安全保障能力、设计开发
+- **[【全球汽车新技术观察】 7月上期](https://auto.gasgoo.com/news/202607/31I70468094C409.shtml)** — _auto.gasgoo.com_ · date: unknown
+- **[17家车企抢“定损权”，4S集团截杀同行70%利润，保司开3000家优选店...事故车生态迎来剧变？](https://auto.gasgoo.com/news/202608/1I70468146C108.shtml)** — _auto.gasgoo.com_ · date: unknown
+  2026年上半年，保险和事故车承修方的"朋友圈"彻底分裂了。 一家宝马4S店外拓人员深夜蹲守高速出口抢事故车，另一家直接杀到车主家门口，返点从20%一路哄抬到30%。结果修到一半，高返点承诺被单方面撕毁，车主还堵门维权。 更无奈的是，杭州一家奥迪4S店刚给一辆A3换了1.6万的左前大灯，车主事后发现灯是副厂的，直接索要赔偿，并找来媒体曝光。店方却也发怒回怼：
+- **[小米汽车：7月交付量持续超过30000台](https://egs.stcn.com/news/detail/2322187.html)** — _egs.stcn.com_ · published 2026-08-01
+  首页 推荐 快讯 解读 股市 港股通 视听 专题 行情 数据 公众号 APP 电子报 您当前的位置： 证券时报·e公司 > 快讯 > 详情 小米汽车：7月交付量持续超过30000台 来源：人民财讯 作者：许擎天梅 2026-08-01 09:05 Aa 大号字 人民财讯8月1日电，小米汽车微博发布消息，2026年7月，小米汽车交付量持续超过30000台。 责
+- **[小米汽车：7月交付量持续超过30000台](https://qzs.stcn.com/article/detail/620613.html)** — _qzs.stcn.com_ · date: unknown
+  券中社APP 登录 首页 快讯 视听 要闻 基金 券中号 全媒体 手机号登录/注册 手机号 验证码 获取短信验证码 图形验证码 我已经阅读并同意 《用户服务协议》 《隐私协议》 账号 密码 确认 首次登录会自动创建账号 小米汽车：7月交付量持续超过30000台 人民财讯 作者：许擎天梅 | 09:05发布 人民财讯8月1日电，小米汽车微博发布消息，2026年
 - **[中国汽车杀进韩流腹地!零跑A05凭什么敢站在明洞街C位](https://vc.yiche.com/vplay/12388672.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 第二代腾势D9正式上市！带闪充，升级双阀云辇-C！ 汽车洋葱圈 告别插混短板！试驾一汽-大众探岳L PHEV，全能家用SUV登场 极速领航 小车大空间、还有高阶辅助
 - **[小鹏MONA L03开着咋样？聊聊](https://vc.yiche.com/vplay/12388014.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 12.38-15.68万 定价看齐零跑？纯电/增程都有 小鹏MONA L03 正式上市 小号撩车N 奇瑞官宣续约！从旅途路透看懂杨紫和T9L的超高适配度 高豆豆说车 雅迪、
+- **[沈阳为甲醇新能源乘用车消费补贴10%](https://www.cnr.cn/ln/gstjln/20260801/t20260801_527740638.shtml)** — _www.cnr.cn_ · published 2026-08-01
+  记者7月31日获悉，为进一步活跃沈阳市汽车消费市场，鼓励甲醇新能源乘用车消费，促进沈阳市汽车产业高质量发展，沈阳市人民政府决定：从2026年7月1日起，开展沈阳市甲醇新能源乘用车消费补贴活动，资金总额4亿元。 本次消费补贴面向所有在沈阳市商务局官方网站公示的甲醇新能源汽车销售企业购买甲醇新能源乘用车新车的个人消费者发放。活动不限户籍，不限上牌地域。 个人消费
 - **[崔东树：上半年锂电池全口径总需求同比增长53% 行业增长转向多元支撑](https://www.gelonghui.com/live/2586958)** — _www.gelonghui.com_ · date: unknown
   首页 > 快讯 > 快讯详情 崔东树：上半年锂电池全口径总需求同比增长53% 行业增长转向多元支撑 格隆汇8月1日｜乘联分会崔东树发文表示，2026年上半年锂电池全口径总需求达106890万度，同比大幅增长53%，行业增长由过去新能源车单一拉动转向储能、海外出口、商用车多元支撑新格局。新能源车合计需求79319万度，同比增长37%，但国内新能源乘用车零售需求
 - **[神行者品牌拥有相对独立决策权 文飞：首款车型月销量目标破万，但数字并非唯一标准](https://www.nbd.com.cn/articles/2026-07-31/4528599.html)** — _www.nbd.com.cn_ · published 2026-07-31
   2026-07-31 22:39:05 每经记者｜黄辛旭 每经编辑｜余婷婷 正式立项两年之后，FREELANDER神行者品牌终于要交出自己的第一份答卷。7月30日，其首款车型神行者8量产下线，8月开启预售。 “当前智能新能源汽车行业竞争极其激烈，科技企业也纷纷入局，整个行业容错率很低，一步错就可能满盘皆输。”FREELANDER神行者全球CEO（首席执行官）
+- **[小米汽车：2026年7月交付量超3万台](https://www.nbd.com.cn/articles/2026-08-01/4529079.html)** — _www.nbd.com.cn_ · published 2026-08-01
+  每经网首页 > 首发快讯 > 正文 每日经济新闻 2026-08-01 09:06:18 每经AI快讯，8月1日，小米汽车公布数据显示，2026年7月交付量持续超过3万台。 如需转载请与《每日经济新闻》报社联系。未经《每日经济新闻》报社授权，严禁转载或镜像，违者必究。 读者热线：4008890008 特别提醒：如果我们使用了您的图片，请作者与本站联系索取稿酬
+- **[小米汽车：7月交付量持续超过30000台](https://www.stcn.com/article/detail/4053639.html)** — _www.stcn.com_ · date: unknown
+  移动版 网页版 首页 快讯 新闻 要闻 金融 评论 产经 创投 滚动 视频 视频 直播 路演 投资 A股 公司 新股 基金 港美股 数据 数据资讯 盯盘面 看资金 追风向 解财报 淘新股 再融资 港股 基金 信披+ 全部 沪市主板 深市主板 科创板 创业板 北交所 新三板 深股通 沪股通 专题 地方 京 津 冀 晋 蒙 辽 吉 黑 沪 苏 浙 皖 闽 赣 鲁
 - **[长安汽车终止长安科技30亿元增资扩股方案计划 尽快启动新一轮市场化融资](https://www.zqrb.cn/auto/qichedongtai/2026-07-31/A1785506280725.html)** — _www.zqrb.cn_ · published 2026-07-31
   本报记者 冯雨瑶 7月31日晚间，重庆长安汽车股份有限公司（以下简称“长安汽车”）发布公告称，公司于7月30日召开第九届董事会第六十一次会议，审议通过了《关于终止全资子公司增资扩股的议案》《关于终止向全资子公司增资的议案》。其中，《关于终止向全资子公司增资的议案》已经通过公司独立董事专门会议审议，尚需提交股东会审议。 长安汽车方面表示，因长安科技智能化创新超
 
