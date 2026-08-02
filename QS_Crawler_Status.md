@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-08-02 12:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-08-02 15:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-08-02 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **5804 unique auto/NEV articles** across **53 outlets**
+## Cumulative: **5820 unique auto/NEV articles** across **53 outlets**
 
 ## New per day
 | date | new articles |
@@ -65,23 +65,23 @@ _Updated 2026-08-02 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-30 | 124 |
 | 2026-07-31 | 121 |
 | 2026-08-01 | 129 |
-| 2026-08-02 | 31 |
+| 2026-08-02 | 47 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.d1ev.com | 1281 |
+| www.d1ev.com | 1285 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 479 |
+| vc.yiche.com | 485 |
 | auto.gasgoo.com | 365 |
 | 36kr.com | 286 |
-| www.stcn.com | 256 |
+| www.stcn.com | 258 |
 | www.caam.org.cn | 198 |
 | www.cnr.cn | 184 |
-| egs.stcn.com | 172 |
+| egs.stcn.com | 174 |
 | autodata.gasgoo.com | 169 |
 | news.yiche.com | 154 |
-| www.nbd.com.cn | 138 |
+| www.nbd.com.cn | 139 |
 | www.news.cn | 114 |
 | www.cada.cn | 112 |
 | m.21jingji.com | 106 |
@@ -92,8 +92,8 @@ _Updated 2026-08-02 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 | finance.eastmoney.com | 45 |
 | www.xinhuanet.com | 40 |
 | www.jwview.com | 40 |
+| www.chinanews.com.cn | 37 |
 | finance.people.com.cn | 37 |
-| www.chinanews.com.cn | 36 |
 | qzs.stcn.com | 27 |
 | cn.chinadaily.com.cn | 26 |
 | www.ceweekly.cn | 20 |
@@ -126,7 +126,7 @@ _Updated 2026-08-02 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-08-02 — 31 articles
+### 2026-08-02 — 47 articles
 - **[权益一口价9.48万元起，五菱扬光Pro正式上市，剑指新能源高效轻客市场](https://auto.caijing.com.cn/2026/0801/5174789.shtml)** — _auto.caijing.com.cn_ · date: unknown
   7月31日，五菱汽车正式推出全新“超能商用高效轻客”，五菱扬光Pro。新车依托五菱正向开发的新能源商用车架构，提供2座封窗版、6座客车版及9座客车版三大系列共5款车型，上市权益一口价最低至9.48万元，旨在为城配物流、商旅通勤及个体经营等多元商用场景提供高性价比的电动化解决方案。 长期以来，城市配送用户在运营中普遍面临三重现实困境：市区商超及老旧小区2.2米
 - **[小鹏汽车7月交付38,027台](https://auto.gasgoo.com/news/202608/1I70468310C901.shtml)** — _auto.gasgoo.com_ · date: unknown
@@ -142,6 +142,10 @@ _Updated 2026-08-02 12:12 | discovery-only, zero LLM tokens | runs every 3h_
   当“上海地铁21年来首次涨价”的消息冲上热搜时，无数打工人的第一反应是翻开钱包，在心里或者朋友圈哀嚎“连地铁都坐不起了”。 “这是逼着我买车吗？”一位朋友开起了玩笑，“这该不会是为了拯救你们汽车行业出的招吧？” “没错，地铁票涨价，对汽车市场来说的确是好事，但并不只是因为可能倒逼居民降低对公共交通的依赖，转向私家车。” 我脑海里跳出的第一个词是“通缩”，第二
 - **[电动汽车开了5年 电池应该在什么水平？新国标规范→](https://bgimg.ce.cn/xwzx/gnsz/gdxw/202608/t20260802_3123113.shtml)** — _bgimg.ce.cn_ · published 2026-08-02
   电动汽车车主可能有这样的疑问：车上的动力电池衰减状态如何？电池到底还能用多久？ 日前，电动汽车动力电池耐久性国家标准实施，参照这一标准，消费者就可以清楚了解，电动汽车动力电池的状态究竟如何。 动力电池是电动汽车的核心部件，其耐久性直接影响车辆使用体验、售后保障、二手流通乃至回收利用，电动汽车电池耐久性推荐性国家标准，主要涵盖电池可用能量状态，耐久性限值设定等
+- **[吉利宣布成立吉利汽车集团销售总公司](https://egs.stcn.com/news/detail/2322343.html)** — _egs.stcn.com_ · published 2026-08-02
+  首页 推荐 快讯 解读 股市 港股通 视听 专题 行情 数据 公众号 APP 电子报 您当前的位置： 证券时报·e公司 > 快讯 > 详情 吉利宣布成立吉利汽车集团销售总公司 来源：人民财讯 作者：王小伟 2026-08-02 14:44 Aa 大号字 人民财讯8月2日电，2日，吉利控股集团方面宣布，吉利汽车集团成立吉利汽车集团销售总公司，进一步加强旗下品牌
+- **[长安汽车：7月交付20.71万辆](https://egs.stcn.com/news/detail/2322340.html)** — _egs.stcn.com_ · published 2026-08-02
+  首页 推荐 快讯 解读 股市 港股通 视听 专题 行情 数据 公众号 APP 电子报 您当前的位置： 证券时报·e公司 > 快讯 > 详情 长安汽车：7月交付20.71万辆 来源：人民财讯 作者：王焕城 2026-08-02 14:18 Aa 大号字 人民财讯8月2日电，长安汽车宣布，7月交付20.71万辆，其中，新能源交付96500辆，同比增长28.8%。
 - **[零跑汽车冲上热搜！首个超10万辆！“过去不敢想的事今天成了”](https://finance.eastmoney.com/a/202608013829066078.html)** — _finance.eastmoney.com_ · date: unknown
   【导读】零跑汽车月度交付量首超10万辆，中国车企排位赛有变；零跑汽车创始人朱江明：“过去不敢想的事，今天成了。” 8月1日，“首个月销破10万辆的新势力出现了”冲上百度热搜。 7月，零跑汽车的交付量首超10万辆，达10.13万辆，成为首家月度交付量超10万辆的造车新势力。 这也让外界更为关注7月的车企销量（交付量）所呈现的2026年下半年汽车市场趋势。 总销
 - **[新势力车企7月销量分化加剧：10万、3万及其他](https://finance.eastmoney.com/a/202608013829041125.html)** — _finance.eastmoney.com_ · date: unknown
@@ -164,8 +168,22 @@ _Updated 2026-08-02 12:12 | discovery-only, zero LLM tokens | runs every 3h_
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 颜值已圈粉无数，还有宁德/华为/麦格纳，20万级极狐阿尔法T7有多能打？ 客代表AUTO 岚图泰山X8，把百万配置拉到30万级 晓见知微 两台兰博基尼在街道上的回头
 - **[质说新车：柔雅设计诠释东方豪华 雷克萨斯ES 300h](https://vc.yiche.com/vplay/12412178.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 29.99-31.27万 比亚迪方程豹“三轮越野车”画面，震惊外网！ 乌龙信箱lulu 试驾全新一代ES300h，看看它的表现怎么样！ 即刻视驾 140度电闯黔山 晏荣江：
+- **[随处可见的高级感，试驾体验蔚来ES9](https://vc.yiche.com/vplay/12414278.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 49.80-62.80万 AUDI E7X 公路新王 28.98万起预售 车事经典 为何这台车令他再度惊叹？ 卓越的番茄果1483 半价SU7？悦意08预售，颜值和配置都很
+- **[买四驱还是两驱？一条视频聊懂吉利银河星耀7选买！](https://vc.yiche.com/vplay/12379117.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 10.88-13.98万 名爵/吉利【全球出行一日要闻 6月2日】 行联社 吉利，为何要造一辆四驱插混B级车？ 功夫汽车 2027款奥迪A6 allroad首发亮相，宽体瓦
+- **[探店零跑全新B01，年轻人的第一台纯电轿车！](https://vc.yiche.com/vplay/12414369.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 8.98-14.97万 MG总经理rap出圈很real！若想冲销量，深耕下沉市场才是破局关键 车界江湖 开丰田铂智7自驾游，4小时到潮汕不充电，电车后劲太大了 关你车事 自
+- **[更适合年轻人的美式优雅豪华？别克至境L7纯电版](https://vc.yiche.com/vplay/12394349.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 17.39-21.99万 享界S9T为何卖得好？我开了半年找到了答案！ 新车评 2026款极氪007静态体验，外观与内饰全方位展示 汽车人bingo 最大马力超1400匹，
+- **[8万多买丰田SUV，油耗3毛多一公里，锋兰达优缺点体验](https://vc.yiche.com/vplay/12359328.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 13.28-17.28万 丰田锋兰达空间测评，储物空间表现不错，乘坐空间表现如何？ 汽车系小富老师 学车不用再紧张！领汇e3让练车变轻松 新智KK “舒享&够用”10万预算
+- **[重新定义燃油车的价值，#捷途自由者7PLUS 真正做到越野平权。](https://vc.yiche.com/vplay/12384969.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 14.49-15.99万 静态实拍｜全新起亚赛图斯，合资紧凑SUV实力选手 车圈高秘书 方盒子双雄上市，自由者7 PLUS与山海T1四驱版硬核解读#第二届捷途方盒子大会 三
 - **[电动汽车开了5年 电池应该在什么水平？新国标规范→](https://www.ce.cn/xwzx/gnsz/gdxw/202608/t20260802_3123113.shtml)** — _www.ce.cn_ · published 2026-08-02
   电动汽车车主可能有这样的疑问：车上的动力电池衰减状态如何？电池到底还能用多久？ 日前，电动汽车动力电池耐久性国家标准实施，参照这一标准，消费者就可以清楚了解，电动汽车动力电池的状态究竟如何。 动力电池是电动汽车的核心部件，其耐久性直接影响车辆使用体验、售后保障、二手流通乃至回收利用，电动汽车电池耐久性推荐性国家标准，主要涵盖电池可用能量状态，耐久性限值设定等
+- **[电动汽车充电桩CCC认证自8月1日起开始强制实施](https://www.chinanews.com.cn/cj/2026/08-01/10670440.shtml)** — _www.chinanews.com.cn_ · published 2026-08-01
+  电动汽车充电桩CCC认证自8月1日起开始强制实施 中新网8月1日电 据“市说新语”微信公众号消息，为强化产品质量风险源头治理，维护广大人民群众生命健康和财产安全，8月1日起，市场监管总局(国家认监委)对电动汽车供电设备强制性产品认证(CCC认证)管理开始强制实施，通过开展防触电、短路保护、耐火耐燃等关键安全指标测试和企业现场质量保证能力、产品一致性检查，切实
 - **[充电桩行业需跳出“错配式饱和”](https://www.cnr.cn/2013qcpd/2015xc/20260802/t20260802_527742426.shtml)** — _www.cnr.cn_ · published 2026-08-02
   根据相关统计数据，目前国内车桩比已经接近2:1（每2辆新能源汽车就有1台充电设施）。车桩比2:1正是国家早期充电基础设施专项规划设定的远景目标，达到这个水平，意味着全国充电设施总量足以覆盖绝大多数新能源汽车日常充电需求，达到全球领先的硬件配套水平。 仅凭这项数据，很容易得出“充电桩够用了”“市场饱和”的结论。但需要注意的是，上述数据包含高达逾1600万台私人
 - **[优化消费环境，基础设施全面补短板](https://www.cnr.cn/2013qcpd/2015xc/20260802/t20260802_527742425.shtml)** — _www.cnr.cn_ · published 2026-08-02
@@ -180,10 +198,24 @@ _Updated 2026-08-02 12:12 | discovery-only, zero LLM tokens | runs every 3h_
   电动汽车车主可能有这样的疑问：车上的动力电池衰减状态如何？电池到底还能用多久？ 日前，电动汽车动力电池耐久性国家标准实施，参照这一标准，消费者就可以清楚了解，电动汽车动力电池的状态究竟如何。 动力电池是电动汽车的核心部件，其耐久性直接影响车辆使用体验、售后保障、二手流通乃至回收利用，电动汽车电池耐久性推荐性国家标准，主要涵盖电池可用能量状态，耐久性限值设定等
 - **[电动汽车开了5年 电池应该在什么水平？新国标规范→](https://www.cnr.cn/tech/gstj/20260802/t20260802_527742515.shtml)** — _www.cnr.cn_ · published 2026-08-02
   电动汽车车主可能有这样的疑问：车上的动力电池衰减状态如何？电池到底还能用多久？ 日前，电动汽车动力电池耐久性国家标准实施，参照这一标准，消费者就可以清楚了解，电动汽车动力电池的状态究竟如何。 动力电池是电动汽车的核心部件，其耐久性直接影响车辆使用体验、售后保障、二手流通乃至回收利用，电动汽车电池耐久性推荐性国家标准，主要涵盖电池可用能量状态，耐久性限值设定等
+- **[小米澎程新车碰撞测试超行业标准，安全性能大揭秘！](https://www.d1ev.com/newsflash/308938)** — _www.d1ev.com_ · date: unknown
+  今日，小米澎程系列新车的碰撞测试实录视频由小米创办人、董事长兼CEO雷军分享。视频中展示了小米澎程在安全方面的严格测试，包括全向碰撞测试，其测试标准远超行业通行标准。具体来说，正面碰撞测试中，小米澎程的速度为64km/h，高于C-NCAP的56km/h；正面25%偏置碰撞测试中，小米澎程的速度为72km/h，超过中保研要求的64km/h；侧面碰撞测试中，小米
+- **[零跑汽车月销首破10万，累计销量超85万台！](https://www.d1ev.com/newsflash/308934)** — _www.d1ev.com_ · date: unknown
+  今日，零跑汽车官方宣布，旗下C10、C11、C16三款车型全球累计销量已突破85万台。此外，零跑B01/B10汽车7月全球销售近2.5万台，全球累计销量突破26万台。在7月份，零跑汽车全球交付量创下新纪录，达到101267台，同比增长102%，月销首次突破10万台，成为目前首个月度交付超过10万辆的新势力车企。 零跑汽车高级副总裁曹力表示，公司有信心完成全年
+- **[线上接单、线下暗改：谁在打通新能源车外挂电池的“灰色通道”？](https://www.d1ev.com/carnews/xinche/308931)** — _www.d1ev.com_ · date: unknown
+  伴随新能源汽车市场渗透率持续走高，存量车售后维保体系的供需矛盾正日渐凸显。 一品汽车APP数据显示，到2028年“脱保”车辆将达到98万辆，2032年将升至720万辆。未来8年时间内，我国动力电池质保到期的新能源汽车总量将逼近2000万辆。 早年投入市场的新能源汽车，如今已陆续步入动力电池衰减周期。大量车辆走完原厂质保周期后，车主陷入了“整车更换动力电池成本
+- **[盖世周报 | 陶海龙出任华域汽车总经理；高通拿下宝马大单 - 第一电动网](https://www.d1ev.com/news/shichang/308929)** — _www.d1ev.com_ · date: unknown
+  本周，国内外汽车行业有哪些大事发生？ 20家媒体记者受邀担任汽车行业账期问题监督员 盖世汽车获悉，近日，工业和信息化部办公厅、装备工业一司组织召开媒体座谈会，通报推动重点汽车企业缩短供应商账期有关情况，并邀请20家中央媒体、财经媒体和相关行业媒体记者担任首批“汽车行业账期问题监督员”。 图片来源：摄图网 会议透露，自2025年6月以来，工业和信息化部已推动1
 - **[现代和起亚上半年在欧洲的电动汽车销量超过10万辆](https://www.gelonghui.com/live/2587905)** — _www.gelonghui.com_ · date: unknown
   首页 > 快讯 > 快讯详情 现代和起亚上半年在欧洲的电动汽车销量超过10万辆 格隆汇8月2日｜据韩联社，现代汽车公司和起亚汽车公司周日表示，今年上半年，这两家韩国汽车制造商在欧洲售出了超过10万辆电动汽车，以加强其在该地区的地位。现代和起亚表示，2026年上半年欧洲共售出131,032辆电动汽车，比上半年的92,365辆大幅增长41.8%。这两家公司预计，
 - **[奇瑞集团7月销量27.7万辆 同比增长23.3%](https://www.nbd.com.cn/articles/2026-08-01/4529196.html)** — _www.nbd.com.cn_ · published 2026-08-01
   每日经济新闻 2026-08-01 15:51:16 每经AI快讯，8月1日，奇瑞集团公布，2026年7月，奇瑞集团销售汽车276,820辆，同比增长23.3%。其中，出口202,533辆，同比增长70.1%，成为中国首个单月出口突破20万辆的车企。7月份，集团销售新能源汽车129,067辆，同比增长97.5%。1-7月，奇瑞集团累计销量汽车1,634,35
+- **[长安汽车：7月交付20.71万辆](https://www.nbd.com.cn/articles/2026-08-02/4529468.html)** — _www.nbd.com.cn_ · published 2026-08-02
+  每经网首页 > 首发快讯 > 正文 每日经济新闻 2026-08-02 14:21:53 每经AI快讯，8月2日，长安汽车官方微博宣布，7月交付20.71万辆，其中，新能源交付96500辆，同比增长28.8%。 如需转载请与《每日经济新闻》报社联系。未经《每日经济新闻》报社授权，严禁转载或镜像，违者必究。 读者热线：4008890008 特别提醒：如果我们使
+- **[吉利宣布成立吉利汽车集团销售总公司](https://www.stcn.com/article/detail/4053984.html)** — _www.stcn.com_ · published 2026-08-01
+  证券时报网 朱雨蒙 2026-08-01 17:33 人民财讯8月2日电，2日，吉利控股集团方面宣布，吉利汽车集团成立吉利汽车集团销售总公司，进一步加强旗下品牌营销资源协同。这是“一个吉利”战略在营销体系的具体落地。
+- **[长安汽车：7月交付20.71万辆](https://www.stcn.com/article/detail/4053978.html)** — _www.stcn.com_ · date: unknown
+  移动版 网页版 首页 快讯 新闻 要闻 金融 评论 产经 创投 滚动 视频 视频 直播 路演 投资 A股 公司 新股 基金 港美股 数据 数据资讯 盯盘面 看资金 追风向 解财报 淘新股 再融资 港股 基金 信披+ 全部 沪市主板 深市主板 科创板 创业板 北交所 新三板 深股通 沪股通 专题 地方 京 津 冀 晋 蒙 辽 吉 黑 沪 苏 浙 皖 闽 赣 鲁
 
 ### 2026-08-01 — 129 articles
 - **[车型越多，死得越快？全球车企正在抛弃车海战术](https://36kr.com/p/3919400657163911)** — _36kr.com_ · published 2026-08-01
