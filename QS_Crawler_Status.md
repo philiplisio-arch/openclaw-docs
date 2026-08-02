@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-08-02 18:13 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-08-02 21:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-08-02 18:13 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **5834 unique auto/NEV articles** across **53 outlets**
+## Cumulative: **5844 unique auto/NEV articles** across **53 outlets**
 
 ## New per day
 | date | new articles |
@@ -65,19 +65,19 @@ _Updated 2026-08-02 18:13 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-30 | 124 |
 | 2026-07-31 | 121 |
 | 2026-08-01 | 129 |
-| 2026-08-02 | 61 |
+| 2026-08-02 | 71 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.d1ev.com | 1290 |
+| www.d1ev.com | 1292 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 485 |
+| vc.yiche.com | 490 |
 | auto.gasgoo.com | 365 |
 | 36kr.com | 286 |
 | www.stcn.com | 260 |
 | www.caam.org.cn | 198 |
-| www.cnr.cn | 184 |
+| www.cnr.cn | 185 |
 | egs.stcn.com | 178 |
 | autodata.gasgoo.com | 169 |
 | news.yiche.com | 155 |
@@ -87,11 +87,11 @@ _Updated 2026-08-02 18:13 | discovery-only, zero LLM tokens | runs every 3h_
 | m.21jingji.com | 106 |
 | www.yicai.com | 102 |
 | www.gelonghui.com | 75 |
-| auto.caijing.com.cn | 68 |
+| auto.caijing.com.cn | 69 |
 | www.zqrb.cn | 67 |
 | finance.eastmoney.com | 46 |
+| www.jwview.com | 41 |
 | www.xinhuanet.com | 40 |
-| www.jwview.com | 40 |
 | www.chinanews.com.cn | 37 |
 | finance.people.com.cn | 37 |
 | qzs.stcn.com | 27 |
@@ -126,9 +126,11 @@ _Updated 2026-08-02 18:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-08-02 — 61 articles
+### 2026-08-02 — 71 articles
 - **[权益一口价9.48万元起，五菱扬光Pro正式上市，剑指新能源高效轻客市场](https://auto.caijing.com.cn/2026/0801/5174789.shtml)** — _auto.caijing.com.cn_ · date: unknown
   7月31日，五菱汽车正式推出全新“超能商用高效轻客”，五菱扬光Pro。新车依托五菱正向开发的新能源商用车架构，提供2座封窗版、6座客车版及9座客车版三大系列共5款车型，上市权益一口价最低至9.48万元，旨在为城配物流、商旅通勤及个体经营等多元商用场景提供高性价比的电动化解决方案。 长期以来，城市配送用户在运营中普遍面临三重现实困境：市区商超及老旧小区2.2米
+- **[长安汽车7月交付20.71万辆，新能源交付96500辆](https://auto.caijing.com.cn/2026/0802/5174806.shtml)** — _auto.caijing.com.cn_ · date: unknown
+  已连续6个月同比大涨；新能源7月交付96500辆，同比增长28.8%。 8月2日，长安汽车公布，2026年7月交付20.71万辆，其中海外交付82300辆，同比增长79.1%，已连续6个月同比大涨；新能源7月交付96500辆，同比增长28.8%。 面向未来，沃尔沃汽车将继续以开放共赢的姿... 宝马集团BMW i 数字情感交互概念车全球首发
 - **[小鹏汽车7月交付38,027台](https://auto.gasgoo.com/news/202608/1I70468310C901.shtml)** — _auto.gasgoo.com_ · date: unknown
 - **[小米汽车7月交付再超3万辆](https://auto.gasgoo.com/news/202608/1I70468313C110.shtml)** — _auto.gasgoo.com_ · date: unknown
   盖世汽车讯 8月1日，小米汽车如期对外公布上月交付成绩，2026年7月，小米汽车单月交付量持续超过30000辆，这是继今年4月首次突破三万大关后，小米汽车连续第四个月将月交付标杆稳定在这一高位区间。 图片来源：小米汽车 “持续超过”四个字，透露出小米汽车产能爬坡与供应链韧性已进入良性轨道。不同于部分新势力在突破关键节点后出现波动，小米自SU7系列全面放量以来
@@ -190,6 +192,16 @@ _Updated 2026-08-02 18:13 | discovery-only, zero LLM tokens | runs every 3h_
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 13.28-17.28万 丰田锋兰达空间测评，储物空间表现不错，乘坐空间表现如何？ 汽车系小富老师 学车不用再紧张！领汇e3让练车变轻松 新智KK “舒享&够用”10万预算
 - **[重新定义燃油车的价值，#捷途自由者7PLUS 真正做到越野平权。](https://vc.yiche.com/vplay/12384969.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 14.49-15.99万 静态实拍｜全新起亚赛图斯，合资紧凑SUV实力选手 车圈高秘书 方盒子双雄上市，自由者7 PLUS与山海T1四驱版硬核解读#第二届捷途方盒子大会 三
+- **[量产版实车实拍！平踏+混动，QJ鸿150GT试驾报告](https://vc.yiche.com/vplay/12417197.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 百年轿跑梦，15万级就能圆？MG 07预售炸了！ 飞驰哥说车 开箱乐道L80，双舱大五座，全系标配空悬不止于空间，一半的价格给你蔚来ES9同样的换电服务体验！ 车各有志 沉
+- **[第五代帝豪i](https://vc.yiche.com/vplay/12416385.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 6.29-9.79万 与众08，把看不见的算法，变成看得见的奇观 30秒懂车 领汇营运车辆6年/60万公里质保，可靠品质从非一蹴而就 壹车讯 6万级燃油家轿，吉利帝豪和长安
+- **[最长纯电续航650km 权益后9.99万起的轿跑 一汽悦意08值得买吗？](https://vc.yiche.com/vplay/12415937.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 9.99-13.99万 9.99万起！一汽悦意08上市，压力给到谁？ 星车测谎仪 10.49 万起！一汽悦意 08 正式预售，家用轿跑卷疯了 客代表AUTO 明明只是机械故
+- **[最美比亚迪海豹08动态试驾来了！](https://vc.yiche.com/vplay/12415545.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 19.69-23.99万 99%车的终点，岚图泰山X8的起点！英雄坡？我看是平地！ X基地 四驱旗舰预扣25万，海豹08到底越级在哪里？ 龙车Auto 刨根问底丨小鹏MON
+- **[探店｜智能化燃油车？体验艾瑞泽8PRO_易车视频](https://vc.yiche.com/vplay/12416147.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 11.69-14.99万 体验2027款艾瑞泽8 PRO，燃油家轿也能实现油电同智 智行马力 国产家轿怎么选，艾瑞泽8Pro推荐1.6T版本 C家车探 源自国产AION但仍
 - **[电动汽车开了5年 电池应该在什么水平？新国标规范→](https://www.ce.cn/xwzx/gnsz/gdxw/202608/t20260802_3123113.shtml)** — _www.ce.cn_ · published 2026-08-02
   电动汽车车主可能有这样的疑问：车上的动力电池衰减状态如何？电池到底还能用多久？ 日前，电动汽车动力电池耐久性国家标准实施，参照这一标准，消费者就可以清楚了解，电动汽车动力电池的状态究竟如何。 动力电池是电动汽车的核心部件，其耐久性直接影响车辆使用体验、售后保障、二手流通乃至回收利用，电动汽车电池耐久性推荐性国家标准，主要涵盖电池可用能量状态，耐久性限值设定等
 - **[电动汽车充电桩CCC认证自8月1日起开始强制实施](https://www.chinanews.com.cn/cj/2026/08-01/10670440.shtml)** — _www.chinanews.com.cn_ · published 2026-08-01
@@ -208,6 +220,8 @@ _Updated 2026-08-02 18:13 | discovery-only, zero LLM tokens | runs every 3h_
   电动汽车车主可能有这样的疑问：车上的动力电池衰减状态如何？电池到底还能用多久？ 日前，电动汽车动力电池耐久性国家标准实施，参照这一标准，消费者就可以清楚了解，电动汽车动力电池的状态究竟如何。 动力电池是电动汽车的核心部件，其耐久性直接影响车辆使用体验、售后保障、二手流通乃至回收利用，电动汽车电池耐久性推荐性国家标准，主要涵盖电池可用能量状态，耐久性限值设定等
 - **[电动汽车开了5年 电池应该在什么水平？新国标规范→](https://www.cnr.cn/tech/gstj/20260802/t20260802_527742515.shtml)** — _www.cnr.cn_ · published 2026-08-02
   电动汽车车主可能有这样的疑问：车上的动力电池衰减状态如何？电池到底还能用多久？ 日前，电动汽车动力电池耐久性国家标准实施，参照这一标准，消费者就可以清楚了解，电动汽车动力电池的状态究竟如何。 动力电池是电动汽车的核心部件，其耐久性直接影响车辆使用体验、售后保障、二手流通乃至回收利用，电动汽车电池耐久性推荐性国家标准，主要涵盖电池可用能量状态，耐久性限值设定等
+- **[比亚迪披露2026年7月新能源汽车产销数据 当月销量达41.92万辆](https://www.cnr.cn/jingji/gundong/20260802/t20260802_527743541.shtml)** — _www.cnr.cn_ · published 2026-08-02
+  8月2日，比亚迪（002594.SZ）发布公告披露2026年7月产销快报：当期公司新能源汽车产量为42.02万辆，销量达41.92万辆。细分品类来看，新能源乘用车销量41.11万辆，其中纯电动车型销量23.31万辆，插电式混合动力车型销量17.80万辆；新能源商用车销量为8139辆。（央广财经） 编辑:邹煦晨 更多精彩资讯请在应用市场下载“央广网”客户端。欢
 - **[小米澎程新车碰撞测试超行业标准，安全性能大揭秘！](https://www.d1ev.com/newsflash/308938)** — _www.d1ev.com_ · date: unknown
   今日，小米澎程系列新车的碰撞测试实录视频由小米创办人、董事长兼CEO雷军分享。视频中展示了小米澎程在安全方面的严格测试，包括全向碰撞测试，其测试标准远超行业通行标准。具体来说，正面碰撞测试中，小米澎程的速度为64km/h，高于C-NCAP的56km/h；正面25%偏置碰撞测试中，小米澎程的速度为72km/h，超过中保研要求的64km/h；侧面碰撞测试中，小米
 - **[零跑汽车月销首破10万，累计销量超85万台！](https://www.d1ev.com/newsflash/308934)** — _www.d1ev.com_ · date: unknown
@@ -226,8 +240,14 @@ _Updated 2026-08-02 18:13 | discovery-only, zero LLM tokens | runs every 3h_
   8月2日，据快科技报道，未来八年内，国内将有近2000万辆新能源汽车电池面临脱保问题。到2028年，脱保车辆数量将达到98万辆，而到了2032年，这一数字将激增至720万辆。随着早期新能源汽车电池衰减问题普遍出现，原厂换 电池费用昂贵，部分老旧车型的换电成本甚至超过了车辆残值。 面对高昂的正规维保成本和续航焦虑，市场上出现了新能源车加装外挂电池的灰色改装产业
 - **[长城魏牌V9X升级：20+新功能，150+项升级，智能驾驶再进化！](https://www.d1ev.com/newsflash/308945)** — _www.d1ev.com_ · date: unknown
   8月2日，长城汽车旗下魏牌宣布，魏牌V9X车型进行了首次OTA升级，新增20多项功能并升级150多项功能。此次升级包括小魏同学Agent语音多地址导航，能够智能识别并规划包含多个地址的路线；生活小百科功能，提供语音交互式问答；以及AI识别功能，支持精确和模糊语音指令的识别。 升级内容还涉及高德地图的AI红绿灯领航功能，根据信号灯数据和交通流变化提供导航服务；
+- **[奇瑞汽车7月销量劲增24.1%，智界品牌销量飙升227.7%](https://www.d1ev.com/newsflash/308957)** — _www.d1ev.com_ · date: unknown
+  8月2日，奇瑞汽车公布了2026年7月的销量数据，五大品牌总销量达到261,876辆，同比增长约24.1%。其中，奇瑞品牌7月销量为183,615辆，同比增长28%，今年累计销量达到1,102,029辆，同比增长25.7%。星途品牌7月销量8,376辆，同比增长0.6%，今年累计销量41,564辆，同比下降39.3%。捷途品牌7月销量50,108辆，同比增长
+- **[比亚迪海豹06全新亮相：B级轿跑革新，预扣价10.5万起](https://www.d1ev.com/newsflash/308954)** — _www.d1ev.com_ · date: unknown
+  近日，比亚迪海豹06实车亮相，定位B级满配轿跑，外观大幅革新。新车延续海洋家族溜背轿跑造型，尺寸为4870×1890×1495mm，轴距2820mm。车头采用俯冲式封闭式前脸，双L型大灯搭配运动包围，车顶搭载激光雷达，配备比亚迪天神之眼5.0智驾系统，实现城市全场景领航辅助。 内饰方面，海豹06采用环抱简约座舱，全系换装电子怀挡。中高配车型车内大面积软质包覆
 - **[现代和起亚上半年在欧洲的电动汽车销量超过10万辆](https://www.gelonghui.com/live/2587905)** — _www.gelonghui.com_ · date: unknown
   首页 > 快讯 > 快讯详情 现代和起亚上半年在欧洲的电动汽车销量超过10万辆 格隆汇8月2日｜据韩联社，现代汽车公司和起亚汽车公司周日表示，今年上半年，这两家韩国汽车制造商在欧洲售出了超过10万辆电动汽车，以加强其在该地区的地位。现代和起亚表示，2026年上半年欧洲共售出131,032辆电动汽车，比上半年的92,365辆大幅增长41.8%。这两家公司预计，
+- **[新能源车企7月销量：比亚迪领跑，小米保持月超3万](https://www.jwview.com/jingwei/html/08-02/681869.shtml)** — _www.jwview.com_ · date: unknown
+  中新经纬8月2日电 多家新能源车企先后披露7月产销数据。 比亚迪2日公告，7月新能源汽车销量约41.92万辆，2025年同期为34.43万辆。在乘用车中，纯电动车销量约23.31万辆，插电式混合动力车销量约17.80万辆。 蔚来2日在港交所公告，2026年7月交付35934辆汽车，同比增长71.0%。有关交付包括公司旗下蔚来品牌的汽车20008辆，公司旗下乐
 - **[奇瑞集团7月销量27.7万辆 同比增长23.3%](https://www.nbd.com.cn/articles/2026-08-01/4529196.html)** — _www.nbd.com.cn_ · published 2026-08-01
   每日经济新闻 2026-08-01 15:51:16 每经AI快讯，8月1日，奇瑞集团公布，2026年7月，奇瑞集团销售汽车276,820辆，同比增长23.3%。其中，出口202,533辆，同比增长70.1%，成为中国首个单月出口突破20万辆的车企。7月份，集团销售新能源汽车129,067辆，同比增长97.5%。1-7月，奇瑞集团累计销量汽车1,634,35
 - **[长安汽车：7月交付20.71万辆](https://www.nbd.com.cn/articles/2026-08-02/4529468.html)** — _www.nbd.com.cn_ · published 2026-08-02
