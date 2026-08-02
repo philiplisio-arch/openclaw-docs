@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-08-03 00:13 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-08-03 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-08-03 00:13 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **5860 unique auto/NEV articles** across **53 outlets**
+## Cumulative: **5864 unique auto/NEV articles** across **53 outlets**
 
 ## New per day
 | date | new articles |
@@ -66,14 +66,14 @@ _Updated 2026-08-03 00:13 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-31 | 121 |
 | 2026-08-01 | 129 |
 | 2026-08-02 | 71 |
-| 2026-08-03 | 16 |
+| 2026-08-03 | 20 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.d1ev.com | 1294 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 494 |
+| vc.yiche.com | 497 |
 | auto.gasgoo.com | 366 |
 | 36kr.com | 286 |
 | www.stcn.com | 263 |
@@ -82,7 +82,7 @@ _Updated 2026-08-03 00:13 | discovery-only, zero LLM tokens | runs every 3h_
 | egs.stcn.com | 180 |
 | autodata.gasgoo.com | 169 |
 | news.yiche.com | 156 |
-| www.nbd.com.cn | 142 |
+| www.nbd.com.cn | 143 |
 | www.news.cn | 114 |
 | www.cada.cn | 112 |
 | m.21jingji.com | 106 |
@@ -127,7 +127,7 @@ _Updated 2026-08-03 00:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-08-03 — 16 articles
+### 2026-08-03 — 20 articles
 - **[车企降本勿丢安全底线](https://auto.gasgoo.com/news/202608/2I70468341C108.shtml)** — _auto.gasgoo.com_ · date: unknown
 - **[新能源汽车龙头，7月销量出炉！多家A股车企，最新公告！](https://egs.stcn.com/news/detail/2322429.html)** — _egs.stcn.com_ · date: unknown
   8月2日晚间，上市车企陆续披露的7月份产销快报显示，当月多家公司销量同比实现显著增长。 对比细分数据不难发现，随着新能源汽车渗透率持续提升，车企新能源板块销售增速维持快速增长态势，同时，海外出口已成为车企重要增长极，比亚迪、上汽、长城海外销量同比均实现了较大增幅。 公告显示，比亚迪(002594)7月公司合计销量达41.92万辆，去年同期销量为34.43万辆
@@ -142,6 +142,12 @@ _Updated 2026-08-03 00:13 | discovery-only, zero LLM tokens | runs every 3h_
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 19.99-22.69万 岚图泰山每小时70公里紧急变线 大壬车短评 20万内配四驱双腔空悬，昊铂S600别人选配它标配 智电汽车 20万把雷达、空悬和800V装车，昊铂S
 - **[打破燃油车智能偏见的实力派 探店2027款艾瑞泽8 PRO](https://vc.yiche.com/vplay/12416686.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 11.69-14.99万 国产家轿怎么选，艾瑞泽8Pro推荐1.6T版本 C家车探 10万级国产家轿天花板，艾瑞泽8PRO 配置直接拉满 车舞飞扬TV 10万元级燃油车也能
+- **[10%-70%五分钟充满，比亚迪秦MAX来了_易车视频](https://vc.yiche.com/vplay/12357501.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 15-20万预算4.9米大五座，Momenta R7高阶智驾 亮丽的藏红花1578 备受瞩目的“超大杯”，抢先实拍比亚迪秦MAX！ 车厘子 静态体验比亚迪秦MAX，
+- **[比亚迪大汉官图发布 5.2米车长 纯电最长跑1008公里](https://vc.yiche.com/vplay/12342444.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 比亚迪大汉对标 BBA 旗舰，国产车终于硬刚百万级 掌尚车市 比亚迪的大汉长这样！预约26年爆款！ X基地 奔驰AMG G63 硬派越野天花板 男人的终极梦想座驾
+- **[试驾吉利熊猫勇士：5万级轻户外小车，代步玩趣两不误](https://vc.yiche.com/vplay/12114965.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 4.69-5.39万 集齐华为乾崑六件套+全铝底盘，奕境X9凭什么剑指50万级？ 阿杰的车酷 宁德电池+4.39万，吉利熊猫勇士，真敢给！ 不二车 月销破9万辆！吉利银河4
 - **[哪吒汽车南宁基地设备流拍，降价后二拍仍无人问津](https://www.d1ev.com/newsflash/308961)** — _www.d1ev.com_ · date: unknown
   8月2日，阿里司法拍卖平台信息显示，位于南宁市青秀区伶俐镇昌隆路88号的一批机械设备因无人出价而流拍，起拍价约6030.79万元。该地点为哪吒汽车南宁生产基地，设备归属于合众新能源汽车股份有限公司（ 合众新能源）的子公司和孙公司——广西宁达汽车科技有限公司和南宁宁达新能源汽车有限公司。目前，这批设备的起售价已降至4824.63万元，二拍将于8月12日开启，但
 - **[比亚迪方程豹“钛9”即将亮相，全尺寸SUV搭载550kW动力系统](https://www.d1ev.com/newsflash/308959)** — _www.d1ev.com_ · date: unknown
@@ -150,6 +156,8 @@ _Updated 2026-08-03 00:13 | discovery-only, zero LLM tokens | runs every 3h_
   每经网首页 > 视频快讯 > 正文 2026-08-02 22:29:35 每经编辑｜彭柯睿 内容无需标注 如需转载请与《每日经济新闻》报社联系。未经《每日经济新闻》报社授权，严禁转载或镜像，违者必究。 读者热线：4008890008 特别提醒：如果我们使用了您的图片，请作者与本站联系索取稿酬。如您不希望作品出现在本站，可联系我们要求撤下您的作品。 上一篇文
 - **[长城汽车：2026年7月汽车销量10.81万台](https://www.nbd.com.cn/articles/2026-08-02/4529507.html)** — _www.nbd.com.cn_ · published 2026-08-02
   每日经济新闻 2026-08-02 15:54:25 每经AI快讯，8月2日，长城汽车公告称，2026年7月，公司汽车销量108,067台，同比增长3.54%，本年累计销量691,962台，同比增长2.64%。7月，海外销售62,015台，1—7月累计销售353,441台；新能源车销售34,651台，1—7月累计销售179,285台。 如需转载请与《每日经济
+- **[莫斯科餐厅发生爆炸；美政府建议中东美公民做好撤离准备；美使馆：中东局势或进一步升级；多车企公布7月“成绩单”](https://www.nbd.com.cn/articles/2026-08-02/4529368.html)** — _www.nbd.com.cn_ · published 2026-08-02
+  每日经济新闻 2026-08-02 07:50:08 每经编辑｜张锦河 张明双 张喜威 向江林 标题点睛 当地时间8月1日，俄罗斯国家反恐委员会表示，莫斯科市中心一家餐厅发生的事故系自制爆炸装置爆炸所致。 通报称，一名女子企图携带自制爆炸装置闯入餐厅，被餐厅保安阻拦，随后爆炸装置启动，该女子和保安当场死亡。此外，事故还造成一名顾客死亡。截至目前，事故已造成3
 - **[新能源汽车龙头，7月销量出炉！多家A股车企，最新公告！](https://www.stcn.com/article/detail/4054182.html)** — _www.stcn.com_ · date: unknown
   8月2日晚间，上市车企陆续披露的7月份产销快报显示，当月多家公司销量同比实现显著增长。 对比细分数据不难发现，随着新能源汽车渗透率持续提升，车企新能源板块销售增速维持快速增长态势，同时，海外出口已成为车企重要增长极，比亚迪、上汽、长城海外销量同比均实现了较大增幅。 公告显示，比亚迪(002594)7月公司合计销量达41.92万辆，去年同期销量为34.43万辆
 - **[蔚来公司与密云文旅合作，开创汽车文旅双向赋能新范式](https://www.stcn.com/article/detail/4054183.html)** — _www.stcn.com_ · published 2026-08-01
