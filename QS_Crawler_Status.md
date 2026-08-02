@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-08-02 06:11 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-08-02 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-08-02 06:11 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **5783 unique auto/NEV articles** across **53 outlets**
+## Cumulative: **5787 unique auto/NEV articles** across **53 outlets**
 
 ## New per day
 | date | new articles |
@@ -65,7 +65,7 @@ _Updated 2026-08-02 06:11 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-30 | 124 |
 | 2026-07-31 | 121 |
 | 2026-08-01 | 129 |
-| 2026-08-02 | 10 |
+| 2026-08-02 | 14 |
 
 ## By outlet
 | outlet | articles |
@@ -87,13 +87,13 @@ _Updated 2026-08-02 06:11 | discovery-only, zero LLM tokens | runs every 3h_
 | m.21jingji.com | 106 |
 | www.yicai.com | 102 |
 | www.gelonghui.com | 74 |
+| auto.caijing.com.cn | 68 |
 | www.zqrb.cn | 67 |
-| auto.caijing.com.cn | 67 |
 | finance.eastmoney.com | 43 |
 | www.xinhuanet.com | 40 |
 | www.jwview.com | 40 |
+| finance.people.com.cn | 37 |
 | www.chinanews.com.cn | 36 |
-| finance.people.com.cn | 36 |
 | qzs.stcn.com | 27 |
 | cn.chinadaily.com.cn | 26 |
 | www.ceweekly.cn | 20 |
@@ -102,13 +102,13 @@ _Updated 2026-08-02 06:11 | discovery-only, zero LLM tokens | runs every 3h_
 | cv.ce.cn | 12 |
 | i.gasgoo.com | 11 |
 | economy.gmw.cn | 10 |
+| www.ce.cn | 6 |
 | industry.caijing.com.cn | 6 |
-| www.ce.cn | 5 |
 | m.gmw.cn | 5 |
 | guancha.gmw.cn | 4 |
 | cnews.chinadaily.com.cn | 4 |
+| bgimg.ce.cn | 4 |
 | finance.ce.cn | 3 |
-| bgimg.ce.cn | 3 |
 | stock.caijing.com.cn | 2 |
 | life.gmw.cn | 2 |
 | economy.caijing.com.cn | 2 |
@@ -126,7 +126,9 @@ _Updated 2026-08-02 06:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-08-02 — 10 articles
+### 2026-08-02 — 14 articles
+- **[权益一口价9.48万元起，五菱扬光Pro正式上市，剑指新能源高效轻客市场](https://auto.caijing.com.cn/2026/0801/5174789.shtml)** — _auto.caijing.com.cn_ · date: unknown
+  7月31日，五菱汽车正式推出全新“超能商用高效轻客”，五菱扬光Pro。新车依托五菱正向开发的新能源商用车架构，提供2座封窗版、6座客车版及9座客车版三大系列共5款车型，上市权益一口价最低至9.48万元，旨在为城配物流、商旅通勤及个体经营等多元商用场景提供高性价比的电动化解决方案。 长期以来，城市配送用户在运营中普遍面临三重现实困境：市区商超及老旧小区2.2米
 - **[小鹏汽车7月交付38,027台](https://auto.gasgoo.com/news/202608/1I70468310C901.shtml)** — _auto.gasgoo.com_ · date: unknown
 - **[小米汽车7月交付再超3万辆](https://auto.gasgoo.com/news/202608/1I70468313C110.shtml)** — _auto.gasgoo.com_ · date: unknown
   盖世汽车讯 8月1日，小米汽车如期对外公布上月交付成绩，2026年7月，小米汽车单月交付量持续超过30000辆，这是继今年4月首次突破三万大关后，小米汽车连续第四个月将月交付标杆稳定在这一高位区间。 图片来源：小米汽车 “持续超过”四个字，透露出小米汽车产能爬坡与供应链韧性已进入良性轨道。不同于部分新势力在突破关键节点后出现波动，小米自SU7系列全面放量以来
@@ -134,12 +136,18 @@ _Updated 2026-08-02 06:11 | discovery-only, zero LLM tokens | runs every 3h_
 - **[比亚迪7月销量突破41.9万辆](https://auto.gasgoo.com/news/202608/1I70468309C110.shtml)** — _auto.gasgoo.com_ · date: unknown
 - **[奇瑞7月出口首破20万辆](https://auto.gasgoo.com/news/202608/1I70468308C901.shtml)** — _auto.gasgoo.com_ · date: unknown
 - **[蔚来7月交付35,934辆，同比增长71%](https://auto.gasgoo.com/news/202608/1I70468307C110.shtml)** — _auto.gasgoo.com_ · date: unknown
+- **[电动汽车开了5年 电池应该在什么水平？新国标规范→](https://bgimg.ce.cn/xwzx/gnsz/gdxw/202608/t20260802_3123113.shtml)** — _bgimg.ce.cn_ · published 2026-08-02
+  电动汽车车主可能有这样的疑问：车上的动力电池衰减状态如何？电池到底还能用多久？ 日前，电动汽车动力电池耐久性国家标准实施，参照这一标准，消费者就可以清楚了解，电动汽车动力电池的状态究竟如何。 动力电池是电动汽车的核心部件，其耐久性直接影响车辆使用体验、售后保障、二手流通乃至回收利用，电动汽车电池耐久性推荐性国家标准，主要涵盖电池可用能量状态，耐久性限值设定等
+- **[电动汽车充电桩CCC认证8月1日起强制实施](https://finance.people.com.cn/n1/2026/0802/c1004-40772244.html)** — _finance.people.com.cn_ · published 2026-08-02
+  电动汽车充电桩CCC认证8月1日起强制实施 2026年08月02日06:47 | 来源：新华网222 订阅已订阅已收藏收藏小字号 点击播报本文，约 新华社北京8月1日电 市场监管总局（国家认监委）对电动汽车供电设备强制性产品认证（CCC认证）管理8月1日起强制实施，通过开展防触电、短路保护、耐火耐燃等关键安全指标测试和企业现场质量保证能力、产品一致性检查，切
 - **[上汽集团7月整车销售33.9万辆 1](https://news.yiche.com/xiaoliangshuju/20260801/21111940948.html)** — _news.yiche.com_ · date: unknown
   推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 8月1日，上汽集团公布最新销量数据：7月上汽集团整车销售33.9万辆，1-7月累计销售238.4万辆。其中，自主品牌板块销量加速攀升，1-7月上汽乘用车同比增长53.4%，智己汽车增长82.4%；新
 - **[奇瑞风云A9L半年用车报告！智驾表现如何？底盘真的主打舒适性？](https://vc.yiche.com/vplay/12390324.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 14.99-23.69万 路边停车被贴条，一招撤销有妙招 阿伟汽车 看不见的底盘才见良心，风云A9L凭啥对标百万豪车 车来车往Clcw 风云A9L获中汽中心电安全测评五星认
 - **[车长超奔驰S级！比亚迪大汉发布，纯电续航1008km，8月首发](https://vc.yiche.com/vplay/12334422.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 颜值已圈粉无数，还有宁德/华为/麦格纳，20万级极狐阿尔法T7有多能打？ 客代表AUTO 岚图泰山X8，把百万配置拉到30万级 晓见知微 两台兰博基尼在街道上的回头
+- **[电动汽车开了5年 电池应该在什么水平？新国标规范→](https://www.ce.cn/xwzx/gnsz/gdxw/202608/t20260802_3123113.shtml)** — _www.ce.cn_ · published 2026-08-02
+  电动汽车车主可能有这样的疑问：车上的动力电池衰减状态如何？电池到底还能用多久？ 日前，电动汽车动力电池耐久性国家标准实施，参照这一标准，消费者就可以清楚了解，电动汽车动力电池的状态究竟如何。 动力电池是电动汽车的核心部件，其耐久性直接影响车辆使用体验、售后保障、二手流通乃至回收利用，电动汽车电池耐久性推荐性国家标准，主要涵盖电池可用能量状态，耐久性限值设定等
 - **[奇瑞集团7月销量27.7万辆 同比增长23.3%](https://www.nbd.com.cn/articles/2026-08-01/4529196.html)** — _www.nbd.com.cn_ · published 2026-08-01
   每日经济新闻 2026-08-01 15:51:16 每经AI快讯，8月1日，奇瑞集团公布，2026年7月，奇瑞集团销售汽车276,820辆，同比增长23.3%。其中，出口202,533辆，同比增长70.1%，成为中国首个单月出口突破20万辆的车企。7月份，集团销售新能源汽车129,067辆，同比增长97.5%。1-7月，奇瑞集团累计销量汽车1,634,35
 
