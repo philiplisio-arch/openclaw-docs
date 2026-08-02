@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-08-02 21:13 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-08-03 00:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-08-02 21:13 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **5844 unique auto/NEV articles** across **53 outlets**
+## Cumulative: **5860 unique auto/NEV articles** across **53 outlets**
 
 ## New per day
 | date | new articles |
@@ -66,26 +66,27 @@ _Updated 2026-08-02 21:13 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-31 | 121 |
 | 2026-08-01 | 129 |
 | 2026-08-02 | 71 |
+| 2026-08-03 | 16 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.d1ev.com | 1292 |
+| www.d1ev.com | 1294 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 490 |
-| auto.gasgoo.com | 365 |
+| vc.yiche.com | 494 |
+| auto.gasgoo.com | 366 |
 | 36kr.com | 286 |
-| www.stcn.com | 260 |
+| www.stcn.com | 263 |
 | www.caam.org.cn | 198 |
 | www.cnr.cn | 185 |
-| egs.stcn.com | 178 |
+| egs.stcn.com | 180 |
 | autodata.gasgoo.com | 169 |
-| news.yiche.com | 155 |
-| www.nbd.com.cn | 140 |
+| news.yiche.com | 156 |
+| www.nbd.com.cn | 142 |
 | www.news.cn | 114 |
 | www.cada.cn | 112 |
 | m.21jingji.com | 106 |
-| www.yicai.com | 102 |
+| www.yicai.com | 103 |
 | www.gelonghui.com | 75 |
 | auto.caijing.com.cn | 69 |
 | www.zqrb.cn | 67 |
@@ -125,6 +126,38 @@ _Updated 2026-08-02 21:13 | discovery-only, zero LLM tokens | runs every 3h_
 | cen.ce.cn | 1 |
 
 ## Articles captured by day (newest first)
+
+### 2026-08-03 — 16 articles
+- **[车企降本勿丢安全底线](https://auto.gasgoo.com/news/202608/2I70468341C108.shtml)** — _auto.gasgoo.com_ · date: unknown
+- **[新能源汽车龙头，7月销量出炉！多家A股车企，最新公告！](https://egs.stcn.com/news/detail/2322429.html)** — _egs.stcn.com_ · date: unknown
+  8月2日晚间，上市车企陆续披露的7月份产销快报显示，当月多家公司销量同比实现显著增长。 对比细分数据不难发现，随着新能源汽车渗透率持续提升，车企新能源板块销售增速维持快速增长态势，同时，海外出口已成为车企重要增长极，比亚迪、上汽、长城海外销量同比均实现了较大增幅。 公告显示，比亚迪(002594)7月公司合计销量达41.92万辆，去年同期销量为34.43万辆
+- **[蔚来公司与密云文旅合作，开创汽车文旅双向赋能新范式](https://egs.stcn.com/news/detail/2322436.html)** — _egs.stcn.com_ · date: unknown
+  人民财讯8月2日电，8月2日，蔚来公司宣布与密云文旅携手合作，面向京津冀蔚来、乐道、firefly萤火虫三品牌用户打造汽车+文旅一体化出行新体验。双方将依托各自资源优势与场景联动，共同促进绿色出行与文旅消费的融合发展，开创汽车文旅双向赋能新范式。同日，乐道密云门店正式开业。
+- **[蔚来公司与密云文旅携手合作 打造汽车+文旅一体化出行新体验  08-02 10:29](https://news.yiche.com/zonghexinwen/20260802/22111964765.html)** — _news.yiche.com_ · date: unknown
+- **[20万级最省心豪华纯电！沃尔沃EX30年轻人代步闭眼首选](https://vc.yiche.com/vplay/12417267.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 20.08-26.38万 坦克700亮相西安曲江金地广场，超高人气引爆现场 车驰神往 MTCU加持，欧马可Z1到底强在哪？ 卡车新势力 千万级豪车教父来华！世界汽车设计风向
+- **[26款本田CR](https://vc.yiche.com/vplay/12417141.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 18.59-24.99万 80后“叛逆中登”挑战写高考作文#手写信#街头挑战#在拍一种很新的vlog#东风本田#CRV 说车的城五 2013款自动四驱本田CR-V 芝士红伞
+- **[试驾昊铂S600纯电版，运动化外观兼顾舒适，底盘表现超预期](https://vc.yiche.com/vplay/12417127.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 19.99-22.69万 岚图泰山每小时70公里紧急变线 大壬车短评 20万内配四驱双腔空悬，昊铂S600别人选配它标配 智电汽车 20万把雷达、空悬和800V装车，昊铂S
+- **[打破燃油车智能偏见的实力派 探店2027款艾瑞泽8 PRO](https://vc.yiche.com/vplay/12416686.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 11.69-14.99万 国产家轿怎么选，艾瑞泽8Pro推荐1.6T版本 C家车探 10万级国产家轿天花板，艾瑞泽8PRO 配置直接拉满 车舞飞扬TV 10万元级燃油车也能
+- **[哪吒汽车南宁基地设备流拍，降价后二拍仍无人问津](https://www.d1ev.com/newsflash/308961)** — _www.d1ev.com_ · date: unknown
+  8月2日，阿里司法拍卖平台信息显示，位于南宁市青秀区伶俐镇昌隆路88号的一批机械设备因无人出价而流拍，起拍价约6030.79万元。该地点为哪吒汽车南宁生产基地，设备归属于合众新能源汽车股份有限公司（ 合众新能源）的子公司和孙公司——广西宁达汽车科技有限公司和南宁宁达新能源汽车有限公司。目前，这批设备的起售价已降至4824.63万元，二拍将于8月12日开启，但
+- **[比亚迪方程豹“钛9”即将亮相，全尺寸SUV搭载550kW动力系统](https://www.d1ev.com/newsflash/308959)** — _www.d1ev.com_ · date: unknown
+  8月2日，比亚迪方程豹品牌发布了新车“钛9”的预告视频，展示了新车的侧面剪影，并暗示“钛9不会等太久”。此前，比亚迪集团方程豹事业部总经理熊甜波在微博透露，钛9和方程S将于下半年亮相，目前仍在不断优化中。网上已出现钛9的内外饰谍照，预计钛9将是一款方盒子全尺寸SUV，采用大六座布局，并延续家族设计语言。 钛9有望搭载2.0T涡轮增压 发动机+双电机系统，综合
+- **[美国近120万辆特斯拉汽车遭调查 故障表现为车辆前下横向连杆脱落 主要涉及2018至2020款Model 3和2021至2023款ModelY车型](https://www.nbd.com.cn/articles/2026-08-02/4529648.html)** — _www.nbd.com.cn_ · published 2026-08-02
+  每经网首页 > 视频快讯 > 正文 2026-08-02 22:29:35 每经编辑｜彭柯睿 内容无需标注 如需转载请与《每日经济新闻》报社联系。未经《每日经济新闻》报社授权，严禁转载或镜像，违者必究。 读者热线：4008890008 特别提醒：如果我们使用了您的图片，请作者与本站联系索取稿酬。如您不希望作品出现在本站，可联系我们要求撤下您的作品。 上一篇文
+- **[长城汽车：2026年7月汽车销量10.81万台](https://www.nbd.com.cn/articles/2026-08-02/4529507.html)** — _www.nbd.com.cn_ · published 2026-08-02
+  每日经济新闻 2026-08-02 15:54:25 每经AI快讯，8月2日，长城汽车公告称，2026年7月，公司汽车销量108,067台，同比增长3.54%，本年累计销量691,962台，同比增长2.64%。7月，海外销售62,015台，1—7月累计销售353,441台；新能源车销售34,651台，1—7月累计销售179,285台。 如需转载请与《每日经济
+- **[新能源汽车龙头，7月销量出炉！多家A股车企，最新公告！](https://www.stcn.com/article/detail/4054182.html)** — _www.stcn.com_ · date: unknown
+  8月2日晚间，上市车企陆续披露的7月份产销快报显示，当月多家公司销量同比实现显著增长。 对比细分数据不难发现，随着新能源汽车渗透率持续提升，车企新能源板块销售增速维持快速增长态势，同时，海外出口已成为车企重要增长极，比亚迪、上汽、长城海外销量同比均实现了较大增幅。 公告显示，比亚迪(002594)7月公司合计销量达41.92万辆，去年同期销量为34.43万辆
+- **[蔚来公司与密云文旅合作，开创汽车文旅双向赋能新范式](https://www.stcn.com/article/detail/4054183.html)** — _www.stcn.com_ · published 2026-08-01
+  证券时报网 许擎天梅 2026-08-01 12:21 人民财讯8月2日电，8月2日，蔚来公司宣布与密云文旅携手合作，面向京津冀蔚来、乐道、firefly萤火虫三品牌用户打造汽车+文旅一体化出行新体验。双方将依托各自资源优势与场景联动，共同促进绿色出行与文旅消费的融合发展，开创汽车文旅双向赋能新范式。同日，乐道密云门店正式开业。
+- **[新能源汽车龙头，7月销量出炉！多家A股车企，最新公告！](https://www.stcn.com/article/detail/4054174.html)** — _www.stcn.com_ · date: unknown
+  8月2日晚间，上市车企陆续披露的7月份产销快报显示，当月多家公司销量同比实现显著增长。 对比细分数据不难发现，随着新能源汽车渗透率持续提升，车企新能源板块销售增速维持快速增长态势，同时，海外出口已成为车企重要增长极，比亚迪、上汽、长城海外销量同比均实现了较大增幅。 公告显示，比亚迪(002594)7月公司合计销量达41.92万辆，去年同期销量为34.43万辆
+- **[30亿改造产线、砍掉燃油车，奇瑞捷豹路虎豪赌新品牌](https://www.yicai.com/news/103301853.html)** — _www.yicai.com_ · date: unknown
+  {{aisd}} AI生成 免责声明 7月30日，FREELANDER神行者品牌首款量产车型神行者8在常熟工厂下线。这款被定位为“豪华科技全地形SUV”的新车，是奇瑞与捷豹路虎合资3.0模式的首个落地产品，承载着奇瑞品牌向上和捷豹路虎电动化转型的双重任务。 神行者8定于8月10日开启预售，9月启动交付。奇瑞捷豹路虎表示，FREELANDER目标面向全球市场，
 
 ### 2026-08-02 — 71 articles
 - **[权益一口价9.48万元起，五菱扬光Pro正式上市，剑指新能源高效轻客市场](https://auto.caijing.com.cn/2026/0801/5174789.shtml)** — _auto.caijing.com.cn_ · date: unknown
