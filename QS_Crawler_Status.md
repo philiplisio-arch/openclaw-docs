@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-08-02 09:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-08-02 12:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-08-02 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **5787 unique auto/NEV articles** across **53 outlets**
+## Cumulative: **5804 unique auto/NEV articles** across **53 outlets**
 
 ## New per day
 | date | new articles |
@@ -65,31 +65,31 @@ _Updated 2026-08-02 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-07-30 | 124 |
 | 2026-07-31 | 121 |
 | 2026-08-01 | 129 |
-| 2026-08-02 | 14 |
+| 2026-08-02 | 31 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.d1ev.com | 1281 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 478 |
-| auto.gasgoo.com | 363 |
+| vc.yiche.com | 479 |
+| auto.gasgoo.com | 365 |
 | 36kr.com | 286 |
 | www.stcn.com | 256 |
 | www.caam.org.cn | 198 |
-| www.cnr.cn | 177 |
+| www.cnr.cn | 184 |
 | egs.stcn.com | 172 |
 | autodata.gasgoo.com | 169 |
-| news.yiche.com | 153 |
+| news.yiche.com | 154 |
 | www.nbd.com.cn | 138 |
 | www.news.cn | 114 |
 | www.cada.cn | 112 |
 | m.21jingji.com | 106 |
 | www.yicai.com | 102 |
-| www.gelonghui.com | 74 |
+| www.gelonghui.com | 75 |
 | auto.caijing.com.cn | 68 |
 | www.zqrb.cn | 67 |
-| finance.eastmoney.com | 43 |
+| finance.eastmoney.com | 45 |
 | www.xinhuanet.com | 40 |
 | www.jwview.com | 40 |
 | finance.people.com.cn | 37 |
@@ -103,11 +103,12 @@ _Updated 2026-08-02 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 | i.gasgoo.com | 11 |
 | economy.gmw.cn | 10 |
 | www.ce.cn | 6 |
+| m.gmw.cn | 6 |
 | industry.caijing.com.cn | 6 |
-| m.gmw.cn | 5 |
 | guancha.gmw.cn | 4 |
 | cnews.chinadaily.com.cn | 4 |
 | bgimg.ce.cn | 4 |
+| politics.gmw.cn | 3 |
 | finance.ce.cn | 3 |
 | stock.caijing.com.cn | 2 |
 | life.gmw.cn | 2 |
@@ -116,7 +117,6 @@ _Updated 2026-08-02 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 | world.gmw.cn | 1 |
 | views.ce.cn | 1 |
 | tech.caijing.com.cn | 1 |
-| politics.gmw.cn | 1 |
 | ln.news.cn | 1 |
 | legal.gmw.cn | 1 |
 | gd.chinadaily.com.cn | 1 |
@@ -126,7 +126,7 @@ _Updated 2026-08-02 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-08-02 — 14 articles
+### 2026-08-02 — 31 articles
 - **[权益一口价9.48万元起，五菱扬光Pro正式上市，剑指新能源高效轻客市场](https://auto.caijing.com.cn/2026/0801/5174789.shtml)** — _auto.caijing.com.cn_ · date: unknown
   7月31日，五菱汽车正式推出全新“超能商用高效轻客”，五菱扬光Pro。新车依托五菱正向开发的新能源商用车架构，提供2座封窗版、6座客车版及9座客车版三大系列共5款车型，上市权益一口价最低至9.48万元，旨在为城配物流、商旅通勤及个体经营等多元商用场景提供高性价比的电动化解决方案。 长期以来，城市配送用户在运营中普遍面临三重现实困境：市区商超及老旧小区2.2米
 - **[小鹏汽车7月交付38,027台](https://auto.gasgoo.com/news/202608/1I70468310C901.shtml)** — _auto.gasgoo.com_ · date: unknown
@@ -136,18 +136,52 @@ _Updated 2026-08-02 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 - **[比亚迪7月销量突破41.9万辆](https://auto.gasgoo.com/news/202608/1I70468309C110.shtml)** — _auto.gasgoo.com_ · date: unknown
 - **[奇瑞7月出口首破20万辆](https://auto.gasgoo.com/news/202608/1I70468308C901.shtml)** — _auto.gasgoo.com_ · date: unknown
 - **[蔚来7月交付35,934辆，同比增长71%](https://auto.gasgoo.com/news/202608/1I70468307C110.shtml)** — _auto.gasgoo.com_ · date: unknown
+- **[盖世周报 | 陶海龙出任华域汽车总经理；高通拿下宝马大单-盖世汽车资讯](https://auto.gasgoo.com/news/202608/2I70468134C109.shtml)** — _auto.gasgoo.com_ · date: unknown
+  本周，国内外汽车行业有哪些大事发生？ 20家媒体记者受邀担任汽车行业账期问题监督员 盖世汽车获悉，近日，工业和信息化部办公厅、装备工业一司组织召开媒体座谈会，通报推动重点汽车企业缩短供应商账期有关情况，并邀请20家中央媒体、财经媒体和相关行业媒体记者担任首批“汽车行业账期问题监督员”。 图片来源：摄图网 会议透露，自2025年6月以来，工业和信息化部已推动1
+- **[上海地铁或涨价，汽车市场开香槟吧](https://auto.gasgoo.com/news/202608/2I70468342C108.shtml)** — _auto.gasgoo.com_ · date: unknown
+  当“上海地铁21年来首次涨价”的消息冲上热搜时，无数打工人的第一反应是翻开钱包，在心里或者朋友圈哀嚎“连地铁都坐不起了”。 “这是逼着我买车吗？”一位朋友开起了玩笑，“这该不会是为了拯救你们汽车行业出的招吧？” “没错，地铁票涨价，对汽车市场来说的确是好事，但并不只是因为可能倒逼居民降低对公共交通的依赖，转向私家车。” 我脑海里跳出的第一个词是“通缩”，第二
 - **[电动汽车开了5年 电池应该在什么水平？新国标规范→](https://bgimg.ce.cn/xwzx/gnsz/gdxw/202608/t20260802_3123113.shtml)** — _bgimg.ce.cn_ · published 2026-08-02
   电动汽车车主可能有这样的疑问：车上的动力电池衰减状态如何？电池到底还能用多久？ 日前，电动汽车动力电池耐久性国家标准实施，参照这一标准，消费者就可以清楚了解，电动汽车动力电池的状态究竟如何。 动力电池是电动汽车的核心部件，其耐久性直接影响车辆使用体验、售后保障、二手流通乃至回收利用，电动汽车电池耐久性推荐性国家标准，主要涵盖电池可用能量状态，耐久性限值设定等
+- **[零跑汽车冲上热搜！首个超10万辆！“过去不敢想的事今天成了”](https://finance.eastmoney.com/a/202608013829066078.html)** — _finance.eastmoney.com_ · date: unknown
+  【导读】零跑汽车月度交付量首超10万辆，中国车企排位赛有变；零跑汽车创始人朱江明：“过去不敢想的事，今天成了。” 8月1日，“首个月销破10万辆的新势力出现了”冲上百度热搜。 7月，零跑汽车的交付量首超10万辆，达10.13万辆，成为首家月度交付量超10万辆的造车新势力。 这也让外界更为关注7月的车企销量（交付量）所呈现的2026年下半年汽车市场趋势。 总销
+- **[新势力车企7月销量分化加剧：10万、3万及其他](https://finance.eastmoney.com/a/202608013829041125.html)** — _finance.eastmoney.com_ · date: unknown
+  8月1日，多家造车新势力相继交出7月成绩单，新势力市场的分化趋势进一步加剧。 7月是传统的销售淡季，但零跑汽车单月销量破10万辆，将头部标杆推至新高度。除了零跑外，极氪和昊铂埃安BU环比也在逆势上涨，其他品牌则随季节变化出现了不同程度的环比下降。 头部冲进10万辆，腰部在3万辆阵营的混战、以及尾部阵营的下滑，共同勾勒出一个加速分化的竞争格局。 具体来看，零跑
 - **[电动汽车充电桩CCC认证8月1日起强制实施](https://finance.people.com.cn/n1/2026/0802/c1004-40772244.html)** — _finance.people.com.cn_ · published 2026-08-02
   电动汽车充电桩CCC认证8月1日起强制实施 2026年08月02日06:47 | 来源：新华网222 订阅已订阅已收藏收藏小字号 点击播报本文，约 新华社北京8月1日电 市场监管总局（国家认监委）对电动汽车供电设备强制性产品认证（CCC认证）管理8月1日起强制实施，通过开展防触电、短路保护、耐火耐燃等关键安全指标测试和企业现场质量保证能力、产品一致性检查，切
+- **[电动汽车充电桩CCC认证8月1日起强制实施](https://m.gmw.cn/2026-08/02/content_38922445.htm)** — _m.gmw.cn_ · published 2026-08-02
+  来源：新华网 2026-08-02 07:52 新华社北京8月1日电 市场监管总局（国家认监委）对电动汽车供电设备强制性产品认证（CCC认证）管理8月1日起强制实施，通过开展防触电、短路保护、耐火耐燃等关键安全指标测试和企业现场质量保证能力、产品一致性检查，切实筑牢产品质量安全底线。 随着我国新能源汽车的不断普及和发展，电动汽车供电设备（俗称充电桩）已经成为
 - **[上汽集团7月整车销售33.9万辆 1](https://news.yiche.com/xiaoliangshuju/20260801/21111940948.html)** — _news.yiche.com_ · date: unknown
   推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 8月1日，上汽集团公布最新销量数据：7月上汽集团整车销售33.9万辆，1-7月累计销售238.4万辆。其中，自主品牌板块销量加速攀升，1-7月上汽乘用车同比增长53.4%，智己汽车增长82.4%；新
+- **[小米汽车：澎程配备低速慢行灯](https://news.yiche.com/xinchexiaoxi/20260802/10111952985.html)** — _news.yiche.com_ · date: unknown
+  推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 日前，小米汽车发布了答网友问（第265集），针对澎程系列新车的滑轨和座椅旋转与市面其他车的区别、澎程驾驶体验、小米龙甲电池55摄氏度热失控无热蔓延是什么意思等问题进行了解答。 市面上挺多车都有滑轨和
+- **[电动汽车开了5年 电池应该在什么水平？新国标规范→](https://politics.gmw.cn/2026-08/02/content_38922432.htm)** — _politics.gmw.cn_ · published 2026-08-02
+  点击右上角微信好友 朋友圈 请使用浏览器分享功能进行分享 电动汽车车主可能有这样的疑问：车上的动力电池衰减状态如何？电池到底还能用多久？ 日前，电动汽车动力电池耐久性国家标准实施，参照这一标准，消费者就可以清楚了解，电动汽车动力电池的状态究竟如何。 动力电池是电动汽车的核心部件，其耐久性直接影响车辆使用体验、售后保障、二手流通乃至回收利用，电动汽车电池耐久性
+- **[电动汽车充电桩CCC认证8月1日起强制实施](https://politics.gmw.cn/2026-08/02/content_38922323.htm)** — _politics.gmw.cn_ · published 2026-08-02
+  点击右上角微信好友 朋友圈 请使用浏览器分享功能进行分享 新华社北京8月1日电 市场监管总局（国家认监委）对电动汽车供电设备强制性产品认证（CCC认证）管理8月1日起强制实施，通过开展防触电、短路保护、耐火耐燃等关键安全指标测试和企业现场质量保证能力、产品一致性检查，切实筑牢产品质量安全底线。 随着我国新能源汽车的不断普及和发展，电动汽车供电设备（俗称充电桩
 - **[奇瑞风云A9L半年用车报告！智驾表现如何？底盘真的主打舒适性？](https://vc.yiche.com/vplay/12390324.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 14.99-23.69万 路边停车被贴条，一招撤销有妙招 阿伟汽车 看不见的底盘才见良心，风云A9L凭啥对标百万豪车 车来车往Clcw 风云A9L获中汽中心电安全测评五星认
 - **[车长超奔驰S级！比亚迪大汉发布，纯电续航1008km，8月首发](https://vc.yiche.com/vplay/12334422.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 颜值已圈粉无数，还有宁德/华为/麦格纳，20万级极狐阿尔法T7有多能打？ 客代表AUTO 岚图泰山X8，把百万配置拉到30万级 晓见知微 两台兰博基尼在街道上的回头
+- **[质说新车：柔雅设计诠释东方豪华 雷克萨斯ES 300h](https://vc.yiche.com/vplay/12412178.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 29.99-31.27万 比亚迪方程豹“三轮越野车”画面，震惊外网！ 乌龙信箱lulu 试驾全新一代ES300h，看看它的表现怎么样！ 即刻视驾 140度电闯黔山 晏荣江：
 - **[电动汽车开了5年 电池应该在什么水平？新国标规范→](https://www.ce.cn/xwzx/gnsz/gdxw/202608/t20260802_3123113.shtml)** — _www.ce.cn_ · published 2026-08-02
   电动汽车车主可能有这样的疑问：车上的动力电池衰减状态如何？电池到底还能用多久？ 日前，电动汽车动力电池耐久性国家标准实施，参照这一标准，消费者就可以清楚了解，电动汽车动力电池的状态究竟如何。 动力电池是电动汽车的核心部件，其耐久性直接影响车辆使用体验、售后保障、二手流通乃至回收利用，电动汽车电池耐久性推荐性国家标准，主要涵盖电池可用能量状态，耐久性限值设定等
+- **[充电桩行业需跳出“错配式饱和”](https://www.cnr.cn/2013qcpd/2015xc/20260802/t20260802_527742426.shtml)** — _www.cnr.cn_ · published 2026-08-02
+  根据相关统计数据，目前国内车桩比已经接近2:1（每2辆新能源汽车就有1台充电设施）。车桩比2:1正是国家早期充电基础设施专项规划设定的远景目标，达到这个水平，意味着全国充电设施总量足以覆盖绝大多数新能源汽车日常充电需求，达到全球领先的硬件配套水平。 仅凭这项数据，很容易得出“充电桩够用了”“市场饱和”的结论。但需要注意的是，上述数据包含高达逾1600万台私人
+- **[优化消费环境，基础设施全面补短板](https://www.cnr.cn/2013qcpd/2015xc/20260802/t20260802_527742425.shtml)** — _www.cnr.cn_ · published 2026-08-02
+  基础设施建设是优化汽车消费环境、扩大汽车消费的重要基础。到2030年，在国内建成充电基础设施4000万个，其中公共充电桩900万个，公共充电容量达到5亿千瓦，形成支撑超过1亿辆电动汽车充电需求的充电服务能力……《扩大消费“十五五”规划》（以下简称《规划》）不仅指出了扩大汽车消费的一系列发展路径，也明确了相关基础设施建设的目标。同时，《规划》还强调完善汽车维修
+- **[让车友“小众爱好”变“大众选择”](https://www.cnr.cn/2013qcpd/2015xc/20260802/t20260802_527742423.shtml)** — _www.cnr.cn_ · published 2026-08-02
+  房车露营、汽车改装，这些一度属于部分车友的“小众爱好”，有望在政策推动下成为“大众选择”。 近日，商务部等9部门联合印发《关于培育壮大汽车后市场消费若干措施的通知》（以下简称《措施》），围绕六大领域出台17条举措，以破除不合理限制，培育新业态，打造新场景，激发汽车后市场活力。 中国汽车流通协会负责人表示，当前中国汽车市场已由增量市场步入增量、存量并重阶段，汽
+- **[“K型”分化改写车市生存法则](https://www.cnr.cn/2013qcpd/2015xc/20260802/t20260802_527742422.shtml)** — _www.cnr.cn_ · published 2026-08-02
+  “K型”分化是当前解读宏观经济最直观的标签，这种分层、分化的特征在汽车市场展现得更为明显。 2026年上半年国内车市走出极致割裂的行情：高端新能源汽车市场持续扩容、利润回升，传统中低端燃油车市场大幅收缩、“内卷”加剧。一条向上、一条向下的曲线，彻底终结了过去的行业普涨红利，重塑了产业的底层生存逻辑，价格竞争不再是淘汰对手的有效利器。 从长期来看，“K型”分化
+- **[汽车产品迭代竞速 质量安全底线须守住](https://www.cnr.cn/2013qcpd/2015xc/20260802/t20260802_527742421.shtml)** — _www.cnr.cn_ · published 2026-08-02
+  当下，新能源汽车产业正处在提速升级期，行业竞争白热化，车企产品迭代节奏加快，但汽车质量与安全的底线，绝不能打折让步。 近日，工业和信息化部赴两家新能源车企开展专项监督检查，针对智能网联安全、整车研发设计、生产线合规管控等环节进行核验，并抽检整车、动力电池核心部件，压实车企安全主体责任。 此前有公司部分营运车型出现电池鼓包、漏液隐患，还有车企因空气弹簧缺陷召回
+- **[电动汽车开了5年 电池应该在什么水平？新国标规范](https://www.cnr.cn/newscenter/native/gd/kx/20260802/t20260802_527742272.shtml)** — _www.cnr.cn_ · published 2026-08-02
+  电动汽车车主可能有这样的疑问：车上的动力电池衰减状态如何？电池到底还能用多久？ 日前，电动汽车动力电池耐久性国家标准实施，参照这一标准，消费者就可以清楚了解，电动汽车动力电池的状态究竟如何。 动力电池是电动汽车的核心部件，其耐久性直接影响车辆使用体验、售后保障、二手流通乃至回收利用，电动汽车电池耐久性推荐性国家标准，主要涵盖电池可用能量状态，耐久性限值设定等
+- **[电动汽车开了5年 电池应该在什么水平？新国标规范→](https://www.cnr.cn/tech/gstj/20260802/t20260802_527742515.shtml)** — _www.cnr.cn_ · published 2026-08-02
+  电动汽车车主可能有这样的疑问：车上的动力电池衰减状态如何？电池到底还能用多久？ 日前，电动汽车动力电池耐久性国家标准实施，参照这一标准，消费者就可以清楚了解，电动汽车动力电池的状态究竟如何。 动力电池是电动汽车的核心部件，其耐久性直接影响车辆使用体验、售后保障、二手流通乃至回收利用，电动汽车电池耐久性推荐性国家标准，主要涵盖电池可用能量状态，耐久性限值设定等
+- **[现代和起亚上半年在欧洲的电动汽车销量超过10万辆](https://www.gelonghui.com/live/2587905)** — _www.gelonghui.com_ · date: unknown
+  首页 > 快讯 > 快讯详情 现代和起亚上半年在欧洲的电动汽车销量超过10万辆 格隆汇8月2日｜据韩联社，现代汽车公司和起亚汽车公司周日表示，今年上半年，这两家韩国汽车制造商在欧洲售出了超过10万辆电动汽车，以加强其在该地区的地位。现代和起亚表示，2026年上半年欧洲共售出131,032辆电动汽车，比上半年的92,365辆大幅增长41.8%。这两家公司预计，
 - **[奇瑞集团7月销量27.7万辆 同比增长23.3%](https://www.nbd.com.cn/articles/2026-08-01/4529196.html)** — _www.nbd.com.cn_ · published 2026-08-01
   每日经济新闻 2026-08-01 15:51:16 每经AI快讯，8月1日，奇瑞集团公布，2026年7月，奇瑞集团销售汽车276,820辆，同比增长23.3%。其中，出口202,533辆，同比增长70.1%，成为中国首个单月出口突破20万辆的车企。7月份，集团销售新能源汽车129,067辆，同比增长97.5%。1-7月，奇瑞集团累计销量汽车1,634,35
 
