@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-08-04 03:13 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-08-04 06:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-08-04 03:13 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **6028 unique auto/NEV articles** across **53 outlets**
+## Cumulative: **6029 unique auto/NEV articles** across **53 outlets**
 
 ## New per day
 | date | new articles |
@@ -67,7 +67,7 @@ _Updated 2026-08-04 03:13 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-08-01 | 129 |
 | 2026-08-02 | 71 |
 | 2026-08-03 | 159 |
-| 2026-08-04 | 25 |
+| 2026-08-04 | 26 |
 
 ## By outlet
 | outlet | articles |
@@ -79,7 +79,7 @@ _Updated 2026-08-04 03:13 | discovery-only, zero LLM tokens | runs every 3h_
 | 36kr.com | 297 |
 | www.stcn.com | 268 |
 | www.caam.org.cn | 209 |
-| www.cnr.cn | 193 |
+| www.cnr.cn | 194 |
 | egs.stcn.com | 183 |
 | autodata.gasgoo.com | 177 |
 | news.yiche.com | 162 |
@@ -128,7 +128,7 @@ _Updated 2026-08-04 03:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-08-04 — 25 articles
+### 2026-08-04 — 26 articles
 - **[欧洲车企业绩因对中国市场依赖度而分化](https://36kr.com/p/3923514480946564)** — _36kr.com_ · date: unknown
 - **[小鹏的物理AI前夜：机器人一号位出走，X9召回拷问量产基本功](https://36kr.com/p/3923610760517249)** — _36kr.com_ · published 2026-08-04
   小鹏的物理AI前夜：机器人一号位出走，X9召回拷问量产基本功 7月，小鹏同时站在两个截然不同的现场里。 一个在机器人产线。 据媒体报道，7月24日，小鹏人形机器人IRON在广州工厂开启小批量试生产，量产产线进入最后联调。按照此前小鹏披露的节奏，IRON计划在2026年底量产，2027年一季度先进入小鹏线下门店，承担导览、导购等服务。 此前负责该项目的负责人已
@@ -155,6 +155,8 @@ _Updated 2026-08-04 03:13 | discovery-only, zero LLM tokens | runs every 3h_
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 29.99-31.27万 这台10万级国产电车不简单，刚拿下一个吉尼斯世界纪录 一直评 成都试驾雷克萨斯ES 300h：不是面子，是开一天都不累的巴适 波帆说车 宋 Ult
 - **[比亚迪8系唐来了！续航850公里，价格或在唐L之上](https://vc.yiche.com/vplay/12365159.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 凭啥中保研拿高分？腾势N9闪充版在线直播拆车 加油洪西西 简单明了 也很狠！悦己 顾家 无低配 阿维塔07L预售24.99万起 ycop218349448 吉姆尼尾
+- **[山西省调整汽车以旧换新补贴实施方式](https://www.cnr.cn/sx/gstjsx/20260804/t20260804_527745699.shtml)** — _www.cnr.cn_ · published 2026-08-04
+  原标题： 我省调整汽车以旧换新补贴实施方式 暂停公证摇号 为进一步便利广大消费者申领汽车以旧换新补贴，激活汽车消费市场，7月31日，山西省商务厅发布通告，决定自即日起调整我省汽车以旧换新补贴实施方式，暂停公证摇号，同时取消前期已中签消费者3个月资格有效期的限制。 通告明确，所有符合条件的消费者可自通告发布之日起，按要求直接提交补贴申请，无需再提供中签截图。后
 - **[赛力斯7月新能源车销量同比大跌45.65%，累计销量下滑6.31%](https://www.d1ev.com/newsflash/309104)** — _www.d1ev.com_ · date: unknown
   今日，赛力斯集团股份有限公司发布了2026年7月份的产销快报。根据数据显示，赛力斯新能源汽车7月份的销量为24,229辆，相较于去年同期下降了45.65%。今年1-7月的累计销量为203,006辆，同比减少了6.31%。 具体来看，赛力斯汽车在7月份的销量为20,480辆，同比下滑50.86%；1-7月累计销量为181,250辆，同比减少6.53%。其他车型
 - **[腾势Z9S预售开启，纯电续航1100km领跑市场！](https://www.d1ev.com/newsflash/309099)** — _www.d1ev.com_ · date: unknown
