@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-08-04 00:13 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-08-04 03:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-08-04 00:13 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **6023 unique auto/NEV articles** across **53 outlets**
+## Cumulative: **6028 unique auto/NEV articles** across **53 outlets**
 
 ## New per day
 | date | new articles |
@@ -67,15 +67,15 @@ _Updated 2026-08-04 00:13 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-08-01 | 129 |
 | 2026-08-02 | 71 |
 | 2026-08-03 | 159 |
-| 2026-08-04 | 20 |
+| 2026-08-04 | 25 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.d1ev.com | 1325 |
+| www.d1ev.com | 1327 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 518 |
-| auto.gasgoo.com | 380 |
+| vc.yiche.com | 519 |
+| auto.gasgoo.com | 381 |
 | 36kr.com | 297 |
 | www.stcn.com | 268 |
 | www.caam.org.cn | 209 |
@@ -90,7 +90,7 @@ _Updated 2026-08-04 00:13 | discovery-only, zero LLM tokens | runs every 3h_
 | www.yicai.com | 106 |
 | www.gelonghui.com | 81 |
 | auto.caijing.com.cn | 76 |
-| www.zqrb.cn | 69 |
+| www.zqrb.cn | 70 |
 | finance.eastmoney.com | 47 |
 | www.jwview.com | 43 |
 | www.xinhuanet.com | 40 |
@@ -128,13 +128,15 @@ _Updated 2026-08-04 00:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-08-04 — 20 articles
+### 2026-08-04 — 25 articles
 - **[欧洲车企业绩因对中国市场依赖度而分化](https://36kr.com/p/3923514480946564)** — _36kr.com_ · date: unknown
 - **[小鹏的物理AI前夜：机器人一号位出走，X9召回拷问量产基本功](https://36kr.com/p/3923610760517249)** — _36kr.com_ · published 2026-08-04
   小鹏的物理AI前夜：机器人一号位出走，X9召回拷问量产基本功 7月，小鹏同时站在两个截然不同的现场里。 一个在机器人产线。 据媒体报道，7月24日，小鹏人形机器人IRON在广州工厂开启小批量试生产，量产产线进入最后联调。按照此前小鹏披露的节奏，IRON计划在2026年底量产，2027年一季度先进入小鹏线下门店，承担导览、导购等服务。 此前负责该项目的负责人已
 - **[智驾走向十字路口，底层架构的分野与归一](https://36kr.com/p/3923498265958280)** — _36kr.com_ · published 2026-08-04
   智驾走向十字路口，底层架构的分野与归一 2026年的智能驾驶行业，弥漫着一种微妙的气息。 如果以两年为周期回望，2024年还是“端到端”取代模块化架构的颠覆之年，彼时，谁能率先将感知、规划、控制揉进一张神经网络，谁就握住了通往高阶智驾的门票。但到了2026年中，单纯的端到端已经不够看了。行业里最前沿的讨论，早已从“是不是端到端”转向了“端到端之上，如何理解世
 - **[蔚来公司与密云文旅携手合作，乐道用户享景区门票优惠、酒店折扣等专属权益](https://auto.caijing.com.cn/2026/0803/5175010.shtml)** — _auto.caijing.com.cn_ · date: unknown
+- **[小鹏G9L正式官宣，定位“全球大五座科技旗舰”](https://auto.gasgoo.com/news/202608/3I70468422C109.shtml)** — _auto.gasgoo.com_ · date: unknown
+  盖世汽车讯 8月3日，小鹏汽车正式官宣全新中大型SUV——小鹏G9L，定位“全球大五座科技旗舰”，号称“30万级科技标杆”。 小鹏汽车董事长何小鹏表示，G9L三年前立项时，他给研发团队出的题目是：面向全球做一台大五座科技旗舰SUV，成为30万级别的科技标杆，要跟市面上99%的同级车型全面对标。如今，团队交出了答卷。 图片来源：小鹏汽车 G9L在安全上继承小鹏
 - **[吉利银河TT！真运动还是样子货？](https://vc.yiche.com/vplay/12434417.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 重塑市场 顶配只要24.98万 全域舒享旗舰MPV极狐问道V9上市 玉婕驾到 40天全程陪伴连接亿万球迷的观赛热情！吉利银河这波世界杯营销赢麻了！ 谈车帮 中国车企
 - **[静态评测奇瑞风云T7](https://vc.yiche.com/vplay/12434403.html)** — _vc.yiche.com_ · date: unknown
@@ -151,10 +153,16 @@ _Updated 2026-08-04 00:13 | discovery-only, zero LLM tokens | runs every 3h_
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 星途ET5智驾2小时大挑战 地平线HSD V1.6一镜到底 汽车长镜头 头等舱级享受MPV卖到16.99万起？星海V9太香了 爱车兵团 工程师未雨绸缪？上汽大众ID
 - **[盘山路实测雷克萨斯全新一代ES，变化很大但依然熟悉](https://vc.yiche.com/vplay/12434095.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 29.99-31.27万 这台10万级国产电车不简单，刚拿下一个吉尼斯世界纪录 一直评 成都试驾雷克萨斯ES 300h：不是面子，是开一天都不累的巴适 波帆说车 宋 Ult
+- **[比亚迪8系唐来了！续航850公里，价格或在唐L之上](https://vc.yiche.com/vplay/12365159.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 凭啥中保研拿高分？腾势N9闪充版在线直播拆车 加油洪西西 简单明了 也很狠！悦己 顾家 无低配 阿维塔07L预售24.99万起 ycop218349448 吉姆尼尾
 - **[赛力斯7月新能源车销量同比大跌45.65%，累计销量下滑6.31%](https://www.d1ev.com/newsflash/309104)** — _www.d1ev.com_ · date: unknown
   今日，赛力斯集团股份有限公司发布了2026年7月份的产销快报。根据数据显示，赛力斯新能源汽车7月份的销量为24,229辆，相较于去年同期下降了45.65%。今年1-7月的累计销量为203,006辆，同比减少了6.31%。 具体来看，赛力斯汽车在7月份的销量为20,480辆，同比下滑50.86%；1-7月累计销量为181,250辆，同比减少6.53%。其他车型
 - **[腾势Z9S预售开启，纯电续航1100km领跑市场！](https://www.d1ev.com/newsflash/309099)** — _www.d1ev.com_ · date: unknown
   8月3日，腾势汽车宣布旗下全新车型Z9S正式开启预售，预售价区间为31.98-38.98万元。新车共推出3款车型，纯电续航最远可达1100km（CLTC），在量产纯电车中续航表现领先。腾势Z9S延续了“优雅之势”设计语言，车身尺寸为5090/1980/1490mm，轴距3025mm，提供7款外观颜色和3款内饰配色。内饰方面，新车采用环抱式座舱布局，配备Nap
+- **[小米汽车涉水新突破：N70Max涉水650mm，应急浮水3分钟脱困](https://www.d1ev.com/newsflash/309112)** — _www.d1ev.com_ · date: unknown
+  8月4日，小米汽车发布《答网友问（第267集）》，针对澎程涉水模式及应急浮水脱困能力进行回应。小米澎程全系车型均配备涉水模式，具备一定的涉水行驶能力。N70Max的最高涉水深度为650mm，而N90Max则为750mm。两车在硬件配置上完全一致，但N70Max因车身尺寸更小、重量更轻，针对其特性进行了单独调校，确保在650mm涉水深度内动力能有效传递。 小米
+- **[东风岚图武汉旗舰店开业：3万平超大规模，日交付100台新车](https://www.d1ev.com/newsflash/309109)** — _www.d1ev.com_ · date: unknown
+  8月3日，东风汽车宣布旗下东风岚图武汉黄金工厂旗舰店在武汉经开区正式启幕。该旗舰店是东风岚图全国最大旗舰店，全域总使用规模超3万平方米。门店集新车展示、定制改装、品牌文化、售后维保、超充补能于一体，与岚图智慧工厂仅“一墙之隔”，新车下线后可通过专属通道数分钟直达交付区。店内配备21个专属交付工位，单日最高可完成100台新车交付；103个维修工位搭配全套专业设
 - **[快讯-格隆汇](https://www.gelonghui.com/live/2590291)** — _www.gelonghui.com_ · published 2026-08-04
   申请认证 格隆汇公众号矩阵 格隆汇App 下载格隆汇APP 诊股宝App 下载诊股宝App 汇路演App 下载汇路演APP 极调研 加入我们 首页 社区 快讯 事件 深度 主题 专栏 行情 会员 数据 财富圈 文章 更多相关文章 快讯 更多相关快讯 查看全部股票/文章/快讯/事件/用户/财富圈搜索结果 热门股票 搜索历史 清空历史 登录 / 注册 温馨提示
 - **[快讯-格隆汇](https://www.gelonghui.com/live/2590276)** — _www.gelonghui.com_ · published 2026-08-03
@@ -167,6 +175,8 @@ _Updated 2026-08-04 00:13 | discovery-only, zero LLM tokens | runs every 3h_
   2025年，安徽汽车产量、新能源汽车产量、汽车出口量三项指标均位居全国第一。可以说，安徽是中国汽车产业版图上一颗耀眼的新星。 “活力中国调研行”安徽站带您开启新能源汽车产业链的解码之旅。 记者：危颖、屈彦 新华社音视频部制作
 - **[ChinaJoy参观人次创新高！机器人、汽车都来抢年轻人了](https://www.yicai.com/news/103303702.html)** — _www.yicai.com_ · date: unknown
   {{aisd}} AI生成 免责声明 8月3日，第23届ChinaJoy在上海闭幕。本届展会规模超14万平米，吸引来自全球35个国家和地区的900余家企业参展，四天整体参观人次达43.89万，同比增长6.97%，创历史新高。 从人群结构看，本届ChinaJoy参观的18-29岁年轻群体占比达65%，外省来沪观众占比63%。专业观众参与创新高，达到了4.4万人
+- **[中国车企“出海”保持高增长](https://www.zqrb.cn/auto/qichedongtai/2026-08-04/A1785776351768.html)** — _www.zqrb.cn_ · published 2026-08-04
+  本报记者 李昱丞 中国车企“出海”维持强劲势头。根据车企最新披露的销量数据，7月份多家车企在海外取得同比两位数甚至三位数的销量增长。 龙头企业比亚迪股份有限公司（以下简称“比亚迪”）7月份销售新能源汽车41.92万辆，其中海外销量达18.05万辆，同比增速超过120%，再创历史新高。从占比看，比亚迪新能源汽车海外销量占比达43.07%，已成为销量的关键支撑。
 
 ### 2026-08-03 — 159 articles
 - **[国家花了2000亿补贴帮大家买车，但上半年车市仍下滑20%](https://36kr.com/p/3923074494442883)** — _36kr.com_ · published 2026-08-03
