@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-08-04 12:17 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-08-04 15:14 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-08-04 12:17 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **6091 unique auto/NEV articles** across **55 outlets**
+## Cumulative: **6114 unique auto/NEV articles** across **55 outlets**
 
 ## New per day
 | date | new articles |
@@ -67,54 +67,54 @@ _Updated 2026-08-04 12:17 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-08-01 | 129 |
 | 2026-08-02 | 71 |
 | 2026-08-03 | 159 |
-| 2026-08-04 | 88 |
+| 2026-08-04 | 111 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.d1ev.com | 1333 |
+| www.d1ev.com | 1337 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 524 |
-| auto.gasgoo.com | 396 |
-| 36kr.com | 299 |
+| vc.yiche.com | 526 |
+| auto.gasgoo.com | 400 |
+| 36kr.com | 300 |
 | www.stcn.com | 271 |
 | www.caam.org.cn | 210 |
 | www.cnr.cn | 200 |
+| autodata.gasgoo.com | 186 |
 | egs.stcn.com | 183 |
-| autodata.gasgoo.com | 182 |
-| news.yiche.com | 164 |
+| news.yiche.com | 165 |
 | www.nbd.com.cn | 149 |
 | www.news.cn | 117 |
 | m.21jingji.com | 115 |
 | www.cada.cn | 112 |
 | www.yicai.com | 106 |
 | www.gelonghui.com | 83 |
-| auto.caijing.com.cn | 76 |
+| auto.caijing.com.cn | 77 |
 | www.zqrb.cn | 71 |
 | finance.eastmoney.com | 48 |
 | www.jwview.com | 43 |
 | www.xinhuanet.com | 40 |
+| finance.people.com.cn | 38 |
 | www.chinanews.com.cn | 37 |
-| finance.people.com.cn | 37 |
 | cn.chinadaily.com.cn | 28 |
 | qzs.stcn.com | 27 |
 | www.ceweekly.cn | 21 |
-| m.ce.cn | 17 |
-| auto.ce.cn | 16 |
+| m.ce.cn | 19 |
+| auto.ce.cn | 17 |
 | i.gasgoo.com | 13 |
 | cv.ce.cn | 13 |
 | economy.gmw.cn | 10 |
 | www.ce.cn | 9 |
 | m.gmw.cn | 8 |
 | industry.caijing.com.cn | 7 |
+| finance.ce.cn | 5 |
 | guancha.gmw.cn | 4 |
-| finance.ce.cn | 4 |
 | cnews.chinadaily.com.cn | 4 |
 | bgimg.ce.cn | 4 |
 | politics.gmw.cn | 3 |
+| economy.caijing.com.cn | 3 |
 | stock.caijing.com.cn | 2 |
 | life.gmw.cn | 2 |
-| economy.caijing.com.cn | 2 |
 | china.chinadaily.com.cn | 2 |
 | world.gmw.cn | 1 |
 | views.ce.cn | 1 |
@@ -130,7 +130,7 @@ _Updated 2026-08-04 12:17 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-08-04 — 88 articles
+### 2026-08-04 — 111 articles
 - **[欧洲车企业绩因对中国市场依赖度而分化](https://36kr.com/p/3923514480946564)** — _36kr.com_ · date: unknown
 - **[小鹏的物理AI前夜：机器人一号位出走，X9召回拷问量产基本功](https://36kr.com/p/3923610760517249)** — _36kr.com_ · published 2026-08-04
   小鹏的物理AI前夜：机器人一号位出走，X9召回拷问量产基本功 7月，小鹏同时站在两个截然不同的现场里。 一个在机器人产线。 据媒体报道，7月24日，小鹏人形机器人IRON在广州工厂开启小批量试生产，量产产线进入最后联调。按照此前小鹏披露的节奏，IRON计划在2026年底量产，2027年一季度先进入小鹏线下门店，承担导览、导购等服务。 此前负责该项目的负责人已
@@ -140,7 +140,13 @@ _Updated 2026-08-04 12:17 | discovery-only, zero LLM tokens | runs every 3h_
   七月车市的两个真相：国内拼技术，海外抢时间 内需降温，出口加速，已经成为2026年中国车市的鲜明标签。一慢一快之间，中国车企一直以来追求的“全球化”目标，终于从少数车企的布局成为了全行业的共识。 中国汽车工业协会数据显示，今年上半年我国汽车销量为1501.7万辆，同比下降4.1%；其中，国内销量为992.1万辆，同比下降21.1%。与此同时，汽车出口达到50
 - **[旧车残值堪比废铁，我拿什么去换新车？](https://36kr.com/p/3924496724392066)** — _36kr.com_ · published 2026-08-04
   旧车残值堪比废铁，我拿什么去换新车？ 人人都说，今年新车市场的混乱度是前所未有的。经过多年的车市鏖战，终端市场一轮接一轮地洗牌，呈现在所人面前的景象就是，只要你愿意掏钱，就有数不胜数的选项供以挑选。 和往年相比，以BBA为首的豪华品牌为了促销，在入门级车型上都早早给出了十万元以上的优惠；大众、丰田们被逼得只能赔本赚吆喝，再多的委屈也得打碎牙往肚里咽；就算趁势
+- **[中国车企的泰国“大考”：47%市占率高点之后，合规门槛全面抬升](https://36kr.com/p/3924678685391240)** — _36kr.com_ · published 2026-08-04
+  中国车企的泰国“大考”：47%市占率高点之后，合规门槛全面抬升 从“敞开大门”到“设卡立规”，泰国的政策转向折射出一个深层逻辑：作为东南亚最具汽车工业基础的国家，泰国不满足于做海外品牌的消费市场，而是要成为东南亚新能源汽车的制造枢纽。泰国市场的重大政策转变，对中国汽车的出海大业，有着举足轻重的参照意义。 当中国汽车超越日韩占据泰国汽车市场第一大份额后，泰国电
 - **[蔚来公司与密云文旅携手合作，乐道用户享景区门票优惠、酒店折扣等专属权益](https://auto.caijing.com.cn/2026/0803/5175010.shtml)** — _auto.caijing.com.cn_ · date: unknown
+- **[赛力斯7月新能源车销量24229辆](https://auto.caijing.com.cn/2026/0804/5175213.shtml)** — _auto.caijing.com.cn_ · date: unknown
+  8月3日，赛力斯公告，公司2026年7月份整车产量为27572辆，同比下降40.73%；销量为26679辆，同比下降44.35%。其中，新能源汽车产量为24577辆，同比下降44.47%，销量为24229辆，同比下降45.65%；赛力斯汽车产量为20931辆，同比下降50.52%，销量为20480辆，同比下降50.86%；其他车型产量为2995辆，同比增长3
+- **[跳出同质化内卷，AI原生汽车的产业破局之路](https://auto.ce.cn/auto/gundong/202608/t20260804_3128258.shtml)** — _auto.ce.cn_ · published 2026-08-04
+  当前全球AI产业正处于从弱人工智能向通用人工智能迭代的关键窗口期，从生活服务到产业生产，AI智能体完成了从“被动对话”到“主动办事”的能力升级，通用人工智能的落地进程持续提速，并全面转向场景落地与价值兑现，AI的能力边界持续向物理场景延伸，“数字赋能实体、技术落地场景”成为行业共识。 而在AI赋能实体产业的众多赛道中，汽车行业被视为最具潜力的落地场景与核心载
 - **[小鹏G9L正式官宣，定位“全球大五座科技旗舰”](https://auto.gasgoo.com/news/202608/3I70468422C109.shtml)** — _auto.gasgoo.com_ · date: unknown
   盖世汽车讯 8月3日，小鹏汽车正式官宣全新中大型SUV——小鹏G9L，定位“全球大五座科技旗舰”，号称“30万级科技标杆”。 小鹏汽车董事长何小鹏表示，G9L三年前立项时，他给研发团队出的题目是：面向全球做一台大五座科技旗舰SUV，成为30万级别的科技标杆，要跟市面上99%的同级车型全面对标。如今，团队交出了答卷。 图片来源：小鹏汽车 G9L在安全上继承小鹏
 - **[【盖世快讯】小鹏汽车官宣G9L；小米汽车官方回应澎程长滑轨养护相关争议](https://auto.gasgoo.com/news/202608/4I70468447C501.shtml)** — _auto.gasgoo.com_ · date: unknown
@@ -169,11 +175,21 @@ _Updated 2026-08-04 12:17 | discovery-only, zero LLM tokens | runs every 3h_
   根据盖世汽车研究院数据，2026年上半年，乘用车越野、高端和猎装三大细分市场呈现出场景分化、品牌上攻的多元竞争态势。越野车型销量榜单中，奇瑞系四车入榜，轻越野主导；高端车型领域，特斯拉双车领先，理想i6、小米YU7/SU7等新能源渗透加深；猎装车型赛道极氪双车包揽前二。三大市场走向虽异，却共同印证自主车企凭场景切割与产品定义能力，正重塑竞争版图。 2026上
 - **[马自达新型CX](https://auto.gasgoo.com/news/202608/4I70468494C101.shtml)** — _auto.gasgoo.com_ · date: unknown
   盖世汽车讯 马自达近期推出的新型CX-5在日本市场获得超过1万台订单，并一度暂停接受新订单。该车型搭载马自达自主研发的混合动力系统，未采用丰田提供的混动技术。公司表示，此举是为了维持其“人马一体”的驾驶理念与品牌调性。 图片来源：马自达 根据公开信息，新型CX-5是马自达推进产品高端化战略的重要一环。尽管售价较以往车型有所提升，但市场反应积极，首阶段订单迅速
+- **[RoadGrid获资助，建印度本土充电桩厂](https://auto.gasgoo.com/news/202608/4I70468567C101.shtml)** — _auto.gasgoo.com_ · date: unknown
+  盖世汽车讯 新德里消息，电动汽车充电技术公司RoadGrid India已获得印度科学技术部下属科技发展局（Technology Development Board, TDB）提供的13亿卢比（约合1.56亿人民币）资金支持，用于建设其专利“通用型EV充电桩”的制造与组装工厂。 该笔资金将用于推进RoadGrid总额为27.5亿卢比的项目，其中18亿卢比将投
+- **[【快讯】日本将因地震损失2万辆汽车产量](https://auto.gasgoo.com/news/202608/4I70468577C108.shtml)** — _auto.gasgoo.com_ · date: unknown
+- **[多家车企押注美国低速电动车市场](https://auto.gasgoo.com/news/202608/4I70468570C101.shtml)** — _auto.gasgoo.com_ · date: unknown
+- **[现代汽车将在土耳其启动IONIQ 3量产，瞄准欧洲B级电动车市场](https://auto.gasgoo.com/news/202608/4I70468571C109.shtml)** — _auto.gasgoo.com_ · published 2026-07-30
+  盖世汽车讯 现代汽车集团执行董事长郑义宣（Euisun Chung）于2026年7月30日访问位于土耳其伊兹密特的现代汽车土耳其工厂（Hyundai Motor Türkiye），亲自检查即将投产的IONIQ 3车型的生产准备情况与量产质量。这是该工厂自1997年启用以来首次生产纯电动车，标志着现代汽车依托既有海外生产基地推进欧洲电动化战略的重要一步。 郑义
 - **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2084434241310568448)** — _autodata.gasgoo.com_ · date: unknown
 - **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2084440605567107072)** — _autodata.gasgoo.com_ · date: unknown
 - **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2084445724874518528)** — _autodata.gasgoo.com_ · date: unknown
 - **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2084449462678859776)** — _autodata.gasgoo.com_ · date: unknown
 - **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2084461012001112064)** — _autodata.gasgoo.com_ · date: unknown
+- **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2084475817722261504)** — _autodata.gasgoo.com_ · date: unknown
+- **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2084483311580360704)** — _autodata.gasgoo.com_ · date: unknown
+- **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2084483624857120768)** — _autodata.gasgoo.com_ · date: unknown
+- **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2084486004802301952)** — _autodata.gasgoo.com_ · date: unknown
 - **[优化充电体验 未来五年 新能源汽车充电全面升级](https://cn.chinadaily.com.cn/a/202608/04/WS6a712361a310d709c2fc13ff.html)** — _cn.chinadaily.com.cn_ · published 2026-08-04
   国家发展改革委、国家能源局日前印发《新型电力系统建设“十五五”规划》，提出到2030年，充电基础设施总量超过4000万个，大功率充电设施约30万个，形成支撑超过1.1亿辆电动汽车的充电服务能力。未来5年，电动汽车充电将有这些变化↓↓↓ 充电基础设施网络 加快构建城市面状、公路线状、乡村点状布局的充电基础设施网络。 高速公路充电 推动高速公路服务区充电设施更新
 - **[活力中国调研行](https://cn.chinadaily.com.cn/a/202608/04/WS6a715c81a310d709c2fc159b.html)** — _cn.chinadaily.com.cn_ · published 2026-08-04
@@ -182,16 +198,28 @@ _Updated 2026-08-04 12:17 | discovery-only, zero LLM tokens | runs every 3h_
   助力自动化未来 采埃孚商用车推出可扩展360°系统 2026年德国汉诺威国际交通运输博览会（IAA Transportation）开幕前，采埃孚在其举办的商用车技术日活动上首次发布全新卡车和挂车主动安全技术。该技术核心是一套可扩展360°安全系统，将传感、感知、制动与转向集成为一个协同控制的整体解决方案，可全面提升各类行驶工况下的整车安全性能，也为商用车实现
 - **[一座汽车城的“绿色新解”](https://district.ce.cn/newarea/roll/202608/t20260804_3127961.shtml)** — _district.ce.cn_ · published 2026-08-04
   本报记者 李荣 上海嘉定是国际汽车城，很多汽车产业重磅项目都落户于此。记者走访了解到，嘉定工业区正围绕甲醇电动商用车新产业，探索从车辆制造、场景应用到能源补给的“示范链”闭环。 两年前，吉利旗下远程新能源商用车集团宣布，在嘉定工业区布局甲醇电动商用车项目。目前，该项目进展顺利。据最新消息，继新能源商用车项目基地启用、甲醇电动渣土车在上海首发交付、上海首个甲醇
+- **[一座汽车城的“绿色新解”](https://economy.caijing.com.cn/20260804/5175210.shtml)** — _economy.caijing.com.cn_ · date: unknown
+  上海嘉定是国际汽车城，很多汽车产业重磅项目都落户于此。记者走访了解到，嘉定工业区正围绕甲醇电动商用车新产业，探索从车辆制造、场景应用到能源补给的“示范链”闭环。 两年前，吉利旗下远程新能源商用车集团宣布，在嘉定工业区布局甲醇电动商用车项目。目前，该项目进展顺利。据最新消息，继新能源商用车项目基地启用、甲醇电动渣土车在上海首发交付、上海首个甲醇综合加注站改造投
 - **[整车成本测算标准落地 消费者告别糊涂买车](https://fashion.ce.cn/yw/202608/t20260804_3126569.shtml)** — _fashion.ce.cn_ · date: unknown
   整车成本测算标准落地 消费者告别糊涂买车 近日，中国汽车工业协会（以下简称中汽协）发布团体标准《中国汽车行业整车成本测算规则》（T—CAAMTB 373—2026）（以下简称《成本规则》）。业内普遍认为，此项团体标准的正式落地，将有效遏制车市无序内卷式价格竞争，整治虚假优惠、低配低价、新车上市即大幅降价等侵害消费者权益的市场乱象，推动汽车行业迈入规范化发展阶
+- **[小米汽车定制的香氛机出保后坏了 厂家只能换不能修，消费者投诉后已免费换新](https://finance.ce.cn/stock/gsgdbd/202608/t20260804_3128436.shtml)** — _finance.ce.cn_ · published 2026-08-04
+  首次返修的服务单（来源：受访者） 二次返修的服务单（来源：受访者） 信网·信号新闻8月4日讯 近日，河南王先生向信号新闻(0532-80889431)反映，自己购买小米汽车时，花费399元选购的车载香氛机用了近两年后坏掉了，由于出了保修期，需要自费处理，并且因为执行“以换代修”政策，想继续使用，只能再花319元买台新的。王先生对这款小米香氛机的耐用性和售后政
 - **[中国车企“出海”保持高增长](https://finance.eastmoney.com/a/202608043830153872.html)** — _finance.eastmoney.com_ · date: unknown
   中国车企“出海”维持强劲势头。根据车企最新披露的销量数据，7月份多家车企在海外取得同比两位数甚至三位数的销量增长。 龙头企业比亚迪股份有限公司（以下简称“比亚迪”）7月份销售新能源汽车41.92万辆，其中海外销量达18.05万辆，同比增速超过120%，再创历史新高。从占比看，比亚迪新能源汽车海外销量占比达43.07%，已成为销量的关键支撑。 吉利汽车控股有限
+- **[我国将建成可支撑超1.1亿辆电动汽车出行的充电基础设施网络](https://finance.people.com.cn/n1/2026/0804/c1004-40773746.html)** — _finance.people.com.cn_ · published 2026-08-04
+  我国将建成可支撑超1.1亿辆电动汽车出行的充电基础设施网络 2026年08月04日13:45 | 来源：人民网222 订阅已订阅已收藏收藏小字号 点击播报本文，约 人民网北京8月4日电 （记者杨曦）国家发展改革委、国家能源局日前印发《新型电力系统建设“十五五”规划》（以下简称《规划》）。《规划》提出到2030年，充电基础设施总量超过4000万个，大功率充电设
 - **[“500亿太便宜了，我们至少值2000亿”，零跑汽车董事长放话：造车也可以是印钞机](https://m.21jingji.com/article/20260804/herald/f7d8e6aa9d549939b783a7a78d4d0422.html)** — _m.21jingji.com_ · date: unknown
+- **[跳出同质化内卷，AI原生汽车的产业破局之路](https://m.ce.cn/qc/qyw/202608/t20260804_3128259.shtml)** — _m.ce.cn_ · published 2026-08-04
+  当前全球AI产业正处于从弱人工智能向通用人工智能迭代的关键窗口期，从生活服务到产业生产，AI智能体完成了从“被动对话”到“主动办事”的能力升级，通用人工智能的落地进程持续提速，并全面转向场景落地与价值兑现，AI的能力边界持续向物理场景延伸，“数字赋能实体、技术落地场景”成为行业共识。 而在AI赋能实体产业的众多赛道中，汽车行业被视为最具潜力的落地场景与核心载
+- **[跳出同质化内卷，AI原生汽车的产业破局之路](https://m.ce.cn/qc/gd/202608/t20260804_3128260.shtml)** — _m.ce.cn_ · published 2026-08-04
+  当前全球AI产业正处于从弱人工智能向通用人工智能迭代的关键窗口期，从生活服务到产业生产，AI智能体完成了从“被动对话”到“主动办事”的能力升级，通用人工智能的落地进程持续提速，并全面转向场景落地与价值兑现，AI的能力边界持续向物理场景延伸，“数字赋能实体、技术落地场景”成为行业共识。 而在AI赋能实体产业的众多赛道中，汽车行业被视为最具潜力的落地场景与核心载
 - **[在安徽 来一趟新能源汽车造车之旅](https://m.gmw.cn/2026-08/04/content_38926085.htm)** — _m.gmw.cn_ · published 2026-08-04
   来源：新华社 2026-08-04 10:03 2025年，安徽汽车产量、新能源汽车产量、汽车出口量三项指标均位居全国第一。可以说，安徽是中国汽车产业版图上一颗耀眼的新星。 “活力中国调研行”安徽站带您开启新能源汽车产业链的解码之旅。 记者：危颖、屈彦 新华社音视频部制作 1000部仅1部爆款，AI短剧不能只剩“多”和“快” 暴雨来袭 甘肃陇南全力开展防汛抗
 - **[小鹏G9L内饰官图 搭载寰宇星空头等舱/AI主动贴合零重力座椅](https://news.yiche.com/xinchexiaoxi/20260804/10112004814.html)** — _news.yiche.com_ · date: unknown
   推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 8月4日，小鹏汽车正式发布了全球大五座科技旗舰小鹏G9L内饰官图。小鹏G9L搭载寰宇星空头等舱，并首发全体型AI主动贴合座椅技术。 内饰方面，小鹏G9L采用寰宇星空头等舱，采用全新撒哈拉橙内饰配色。
 - **[蔚来ES9将于本周迎来第2万台交付](https://news.yiche.com/xiaoliangshuju/20260804/10112005423.html)** — _news.yiche.com_ · date: unknown
+- **[日产汽车发布2026财年第一季度业绩 合并经营利润779亿日元](https://news.yiche.com/zonghexinwen/20260804/14112014836.html)** — _news.yiche.com_ · date: unknown
+  推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 日前，日产汽车发布2026财年第一季度业绩，合并经营利润同比提升1570亿日元，达到779亿日元；“Re:Nissan”计划顺利推进，第一季度实现额外节省成本600亿日元；重申2026财年经营利润预
 - **[吉利银河TT！真运动还是样子货？](https://vc.yiche.com/vplay/12434417.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 重塑市场 顶配只要24.98万 全域舒享旗舰MPV极狐问道V9上市 玉婕驾到 40天全程陪伴连接亿万球迷的观赛热情！吉利银河这波世界杯营销赢麻了！ 谈车帮 中国车企
 - **[静态评测奇瑞风云T7](https://vc.yiche.com/vplay/12434403.html)** — _vc.yiche.com_ · date: unknown
@@ -219,6 +247,10 @@ _Updated 2026-08-04 12:17 | discovery-only, zero LLM tokens | runs every 3h_
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 91.80-250.80万 蔚来ES9智驾体验：精准选道，轻松应对高架桥下复杂路况 秀丽的蝴蝶鱼1469 保时捷卡宴 北星停车岛 保时捷中国纯电的独苗，纯电卡宴Turbo赛
 - **[颠覆认知！今年二手车销量与新车平齐，新能源车保值率追平油车](https://vc.yiche.com/vplay/12428033.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 2026 款宝马 iX3（469 马力）——内饰与外观评测 aliceYujie 奇瑞又被央视点名了 汽车天涯 猛！地表最硬核，全球制造龙头认准猛士917蛟龙战甲 黎Sir
+- **[蔚来ET5T，买新能源旅行车绕不开的选择！](https://vc.yiche.com/vplay/12443699.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 29.80-31.30万 上海某地下车库，疑似蔚来汽车着火 燃擎派 MPV別乱买！极狐问道V9解决了所有商务家用痛点 电驹 体验不一样的驾驶乐趣！蔚来ET5t搭载空气悬挂系
+- **[放弃BBA选雷克萨斯NX350h？省心保值才是王道！](https://vc.yiche.com/vplay/12443335.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 29.98-42.08万 雷克萨斯NX全系直降4万，该不该直接买NX350h？哪个版本值得买？ 枫行视界 优惠4万起，雷克萨斯NX350h入门版仍要30万+值不值？比GLC
 - **[中国汽车工业协会关于《纯电动客车用电源管理芯片技术要求及试验方法》团体标准征求意见的通知](https://www.caam.org.cn/chn/10/cate_114/con_5237261.html)** — _www.caam.org.cn_ · published 2026-08-04
   发布时间：2026-08-04 来源：中汽协会行业发展部 各有关单位及行业专家: 《纯电动客车用电源管理芯片技术要求及试验方法》团体标准已完成征求意见稿及编制说明。现根据《中国汽车工业协会标准制修订管理办法》有关规定，向社会广泛征求意见。请有关单位及行业专家提出宝贵意见，并于2026年9月4日前，将书面意见以邮件形式反馈至协会汽车芯片专委会秘书处。 2026
 - **[电动汽车供电设备CCC认证8月1日起开始强制实施](https://www.ce.cn/cysc/zljd/gd/202608/t20260804_3126851.shtml)** — _www.ce.cn_ · published 2026-08-04
@@ -261,6 +293,14 @@ _Updated 2026-08-04 12:17 | discovery-only, zero LLM tokens | runs every 3h_
   快科技8月4日消息，今日，小鹏汽车正式发布G9L内饰官图，新车定位“全球大五座科技旗舰”，车长5120mm，轴距3100mm，比现款G9加长102mm，全部用于扩充后排腿部空间。 从官图来看，座舱整体走的是科技豪华路线，中控台采用双享悬浮中岛设计，收纳与便利兼得，一二排乘客各有独立功能区域。 座舱内搭载三大黑科技，全球首发全体型AI主动贴合座椅技术、AI主动
 - **[三菱汽车二季度营业利润接近翻倍 达到6,200万美元](https://www.d1ev.com/news/qiye/309155)** — _www.d1ev.com_ · date: unknown
   盖世汽车讯 三菱汽车首席运营官Keisuke Kishiura 8月3日公布，在截至6月30日的财年第一财季，公司整体营业利润从56亿日元（约合3,160万美元）增至101亿日元（约合6,180万美元），规模接近翻倍。 销量下滑、促销补贴增加，叠加中东冲突引发的经营扰动，对三菱汽车的盈利形成拖累。该公司称，中东冲突导致4月至6月的营业利润减少了20亿日元（约
+- **[入门级纯电SUV 沃尔沃或将推出EX50车型](https://www.d1ev.com/carnews/xinche/309186)** — _www.d1ev.com_ · date: unknown
+  近日，沃尔沃产品规划曝光：将推全新入门级纯电SUV，或命名为EX50，并作为EX40的直接继任者，尺寸和配置等全面升级，售价反而有望低于现款在售的EX40。 目前新车的消息不多，但根据现有披露来看，新车将于2027年秋季发布，与EX60采用相同的SPA3平台，内外设计可参考新款沃尔沃EX60车型。 沃尔沃EX60 沃尔沃EX60 动力部分，新车将标配800V
+- **[小米汽车OS升级：新增画框泊车辅助，20kW家充桩预约充电功能](https://www.d1ev.com/newsflash/309183)** — _www.d1ev.com_ · date: unknown
+  今日，小米汽车宣布其澎湃OS系统迎来1.17.0版本的灰度更新，此次更新带来了多项新功能和优化。新增功能包括画框泊车辅助、车头泊入辅助和车尾泊出辅助，这些辅助功能旨在提升用户的泊车体验。此外，小米汽车App现在支持远程开启快速制冷或制热功能，为用户提供了更多的便利。 在充电方面，更新新增了20kW家用直流 充电桩车端预约充电与智能复充能力，进一步增强了车辆的
+- **[蔚来NT3.0平台新车型曝光：5米车长+3米轴距，智能驾驶升级！](https://www.d1ev.com/newsflash/309182)** — _www.d1ev.com_ · date: unknown
+  近日，蔚来汽车的路试车谍照曝光，预计为基于NT3.0平台打造的全新中大型旅行车。新车尺寸全面放大，车长预计突破5米，轴距突破3米，尺寸远超现款ET5T。更长的车身和轴距提升了后排腿部空间和后备箱储物容积，同时延续了NT3.0平台的前备厢结构，提供前后双储物空间。新车还搭载了三激光雷达感知系统，辅以4D成像毫米波雷达与多颗800万像素高清车载摄像头，智能驾驶方
+- **[全新旗舰大五座SUV 小鹏G9L内饰官图发布](https://www.d1ev.com/carnews/xinche/309180)** — _www.d1ev.com_ · date: unknown
+  日前，小鹏发布了全新中大型五座SUV小鹏G9L内饰官图，新车定位30万级科技旗舰，提供纯电、增程双动力，全系搭载800V快充，9分钟即可补能450km。 车内采用寰宇星空头等舱设计，撒哈拉橙星绒皮革营造高级氛围，配备88英寸AR-HUD与9英寸流媒体后视镜。前排悬浮中岛带双50W升降无线充，座椅内置91个压力传感器，可AI自适应贴合各类身形。后排配备21.4
 - **[快讯-格隆汇](https://www.gelonghui.com/live/2590291)** — _www.gelonghui.com_ · published 2026-08-04
   申请认证 格隆汇公众号矩阵 格隆汇App 下载格隆汇APP 诊股宝App 下载诊股宝App 汇路演App 下载汇路演APP 极调研 加入我们 首页 社区 快讯 事件 深度 主题 专栏 行情 会员 数据 财富圈 文章 更多相关文章 快讯 更多相关快讯 查看全部股票/文章/快讯/事件/用户/财富圈搜索结果 热门股票 搜索历史 清空历史 登录 / 注册 温馨提示
 - **[快讯-格隆汇](https://www.gelonghui.com/live/2590276)** — _www.gelonghui.com_ · published 2026-08-03
