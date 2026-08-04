@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-08-04 18:15 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-08-04 21:14 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-08-04 18:15 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **6148 unique auto/NEV articles** across **55 outlets**
+## Cumulative: **6172 unique auto/NEV articles** across **55 outlets**
 
 ## New per day
 | date | new articles |
@@ -67,35 +67,35 @@ _Updated 2026-08-04 18:15 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-08-01 | 129 |
 | 2026-08-02 | 71 |
 | 2026-08-03 | 159 |
-| 2026-08-04 | 145 |
+| 2026-08-04 | 169 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.d1ev.com | 1342 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 527 |
-| auto.gasgoo.com | 400 |
+| vc.yiche.com | 531 |
+| auto.gasgoo.com | 403 |
 | 36kr.com | 300 |
-| www.stcn.com | 272 |
+| www.stcn.com | 273 |
 | www.caam.org.cn | 210 |
 | www.cnr.cn | 201 |
-| autodata.gasgoo.com | 186 |
+| autodata.gasgoo.com | 188 |
 | egs.stcn.com | 183 |
-| news.yiche.com | 168 |
-| www.nbd.com.cn | 153 |
-| www.news.cn | 119 |
+| news.yiche.com | 171 |
+| www.nbd.com.cn | 155 |
+| www.news.cn | 120 |
 | m.21jingji.com | 117 |
 | www.cada.cn | 112 |
 | www.yicai.com | 106 |
-| www.gelonghui.com | 85 |
-| auto.caijing.com.cn | 78 |
+| www.gelonghui.com | 86 |
+| auto.caijing.com.cn | 79 |
 | www.zqrb.cn | 71 |
 | finance.eastmoney.com | 48 |
-| www.jwview.com | 43 |
+| www.jwview.com | 44 |
 | www.xinhuanet.com | 41 |
 | www.chinanews.com.cn | 39 |
-| finance.people.com.cn | 38 |
+| finance.people.com.cn | 39 |
 | cn.chinadaily.com.cn | 28 |
 | qzs.stcn.com | 27 |
 | m.ce.cn | 22 |
@@ -103,22 +103,22 @@ _Updated 2026-08-04 18:15 | discovery-only, zero LLM tokens | runs every 3h_
 | auto.ce.cn | 20 |
 | i.gasgoo.com | 13 |
 | cv.ce.cn | 13 |
-| www.ce.cn | 10 |
+| www.ce.cn | 11 |
 | economy.gmw.cn | 10 |
 | m.gmw.cn | 8 |
-| industry.caijing.com.cn | 7 |
+| industry.caijing.com.cn | 8 |
 | finance.ce.cn | 6 |
-| bgimg.ce.cn | 5 |
+| bgimg.ce.cn | 6 |
 | guancha.gmw.cn | 4 |
 | cnews.chinadaily.com.cn | 4 |
 | politics.gmw.cn | 3 |
 | economy.caijing.com.cn | 3 |
+| tech.caijing.com.cn | 2 |
 | stock.caijing.com.cn | 2 |
 | life.gmw.cn | 2 |
 | china.chinadaily.com.cn | 2 |
 | world.gmw.cn | 1 |
 | views.ce.cn | 1 |
-| tech.caijing.com.cn | 1 |
 | ln.news.cn | 1 |
 | legal.gmw.cn | 1 |
 | gd.chinadaily.com.cn | 1 |
@@ -130,7 +130,7 @@ _Updated 2026-08-04 18:15 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-08-04 — 145 articles
+### 2026-08-04 — 169 articles
 - **[欧洲车企业绩因对中国市场依赖度而分化](https://36kr.com/p/3923514480946564)** — _36kr.com_ · date: unknown
 - **[小鹏的物理AI前夜：机器人一号位出走，X9召回拷问量产基本功](https://36kr.com/p/3923610760517249)** — _36kr.com_ · published 2026-08-04
   小鹏的物理AI前夜：机器人一号位出走，X9召回拷问量产基本功 7月，小鹏同时站在两个截然不同的现场里。 一个在机器人产线。 据媒体报道，7月24日，小鹏人形机器人IRON在广州工厂开启小批量试生产，量产产线进入最后联调。按照此前小鹏披露的节奏，IRON计划在2026年底量产，2027年一季度先进入小鹏线下门店，承担导览、导购等服务。 此前负责该项目的负责人已
@@ -147,6 +147,8 @@ _Updated 2026-08-04 18:15 | discovery-only, zero LLM tokens | runs every 3h_
   8月3日，赛力斯公告，公司2026年7月份整车产量为27572辆，同比下降40.73%；销量为26679辆，同比下降44.35%。其中，新能源汽车产量为24577辆，同比下降44.47%，销量为24229辆，同比下降45.65%；赛力斯汽车产量为20931辆，同比下降50.52%，销量为20480辆，同比下降50.86%；其他车型产量为2995辆，同比增长3
 - **[腾势Z9S正式开启预售：31.98万元起，定位科技豪华智能轿车](https://auto.caijing.com.cn/2026/0804/5175143.shtml)** — _auto.caijing.com.cn_ · date: unknown
   8月3日，腾势品牌正式宣布，旗下全新中大型纯电轿车，腾势Z9S开启预售。新车共推出闪充尊荣型、闪充旗舰型、易三方闪充性能型三款配置，预售价区间为31.98万元至38.98万元。 作为腾势9系旗舰家族的新成员，腾势Z9S与百万级超跑腾势Z、性能旗舰腾势Z9GT技术同源，聚焦智能与悦己体验，以纯电续航、充电速度、驾控性能与智能交互等多项硬核参数，切入豪华纯电轿车
+- **[长城汽车配合警方侦破MCN机构造谣案 嫌疑人已被依法处罚](https://auto.caijing.com.cn/2026/0804/5175277.shtml)** — _auto.caijing.com.cn_ · date: unknown
+  日前，长城汽车发现某MCN机构操纵批量账号，恶意翻炒2022年已澄清的旧闻，蓄意造谣、抹黑长城汽车品牌及产品。企业随即向公安机关报案。目前，该案件已成功侦破，违法嫌疑人被依法处罚。 长城汽车表示，网络空间不是法外之地，未来将继续配合有关部门打击行业黑灰产，维护企业合法权益。同时呼吁广大网友理性甄别网络信息，不信谣、不传谣，共同维护清朗有序的网络环境。(长城汽
 - **[跳出同质化内卷，AI原生汽车的产业破局之路](https://auto.ce.cn/auto/gundong/202608/t20260804_3128258.shtml)** — _auto.ce.cn_ · published 2026-08-04
   当前全球AI产业正处于从弱人工智能向通用人工智能迭代的关键窗口期，从生活服务到产业生产，AI智能体完成了从“被动对话”到“主动办事”的能力升级，通用人工智能的落地进程持续提速，并全面转向场景落地与价值兑现，AI的能力边界持续向物理场景延伸，“数字赋能实体、技术落地场景”成为行业共识。 而在AI赋能实体产业的众多赛道中，汽车行业被视为最具潜力的落地场景与核心载
 - **[日产汽车二季度实现扭亏为盈](https://auto.ce.cn/auto/gundong/202608/t20260804_3128570.shtml)** — _auto.ce.cn_ · published 2026-08-04
@@ -189,6 +191,10 @@ _Updated 2026-08-04 18:15 | discovery-only, zero LLM tokens | runs every 3h_
 - **[多家车企押注美国低速电动车市场](https://auto.gasgoo.com/news/202608/4I70468570C101.shtml)** — _auto.gasgoo.com_ · date: unknown
 - **[现代汽车将在土耳其启动IONIQ 3量产，瞄准欧洲B级电动车市场](https://auto.gasgoo.com/news/202608/4I70468571C109.shtml)** — _auto.gasgoo.com_ · published 2026-07-30
   盖世汽车讯 现代汽车集团执行董事长郑义宣（Euisun Chung）于2026年7月30日访问位于土耳其伊兹密特的现代汽车土耳其工厂（Hyundai Motor Türkiye），亲自检查即将投产的IONIQ 3车型的生产准备情况与量产质量。这是该工厂自1997年启用以来首次生产纯电动车，标志着现代汽车依托既有海外生产基地推进欧洲电动化战略的重要一步。 郑义
+- **[丰田Harrier部分改款](https://auto.gasgoo.com/news/202608/4I70468592C101.shtml)** — _auto.gasgoo.com_ · date: unknown
+- **[Jaecoo在印尼发布J7 SIVP车型，支持自动泊车与远程召唤](https://auto.gasgoo.com/news/202608/4I70468597C101.shtml)** — _auto.gasgoo.com_ · date: unknown
+  盖世汽车讯 中国车企Jaecoo在2026年印尼国际车展（GIIAS 2026）上发布了搭载“智能代客泊车”（Smart Intelligent Valet Parking，简称SIVP）技术的Jaecoo J7 SIVP车型。该车型可在指定区域内自主寻找停车位并完成泊车操作，用户离开车辆后可通过手机应用远程召唤车辆返回接送点。 Jaecoo印尼产品负责人R
+- **[丰田bZ4X Touring版亮相东南亚](https://auto.gasgoo.com/news/202608/4I70468602C101.shtml)** — _auto.gasgoo.com_ · date: unknown
 - **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2084434241310568448)** — _autodata.gasgoo.com_ · date: unknown
 - **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2084440605567107072)** — _autodata.gasgoo.com_ · date: unknown
 - **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2084445724874518528)** — _autodata.gasgoo.com_ · date: unknown
@@ -198,8 +204,12 @@ _Updated 2026-08-04 18:15 | discovery-only, zero LLM tokens | runs every 3h_
 - **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2084483311580360704)** — _autodata.gasgoo.com_ · date: unknown
 - **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2084483624857120768)** — _autodata.gasgoo.com_ · date: unknown
 - **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2084486004802301952)** — _autodata.gasgoo.com_ · date: unknown
+- **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2084479613316345856)** — _autodata.gasgoo.com_ · date: unknown
+- **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2084566510545289216)** — _autodata.gasgoo.com_ · date: unknown
 - **[《智能网联汽车 自动驾驶系统安全要求》强制性国家标准正式发布](https://bgimg.ce.cn/xwzx/gnsz/gdxw/202608/t20260804_3128645.shtml)** — _bgimg.ce.cn_ · published 2026-08-04
   2026年7月30日，工业和信息化部组织制定并归口的《智能网联汽车 自动驾驶系统安全要求》（GB 44721—2026）强制性国家标准由国家市场监督管理总局、国家标准化管理委员会批准发布，拟于2027年7月1日起正式实施。 近年来，新一轮科技革命与产业变革持续深化，我国自动驾驶技术加速迭代突破，智能网联汽车道路测试示范有序推进，2025年两款L3级（有条件自
+- **[自动驾驶系统安全要求国家标准发布](https://bgimg.ce.cn/xwzx/gnsz/gdxw/202608/t20260804_3128689.shtml)** — _bgimg.ce.cn_ · published 2026-08-04
+  新华社北京8月4日电（记者唐诗凝、周圆）记者4日从工业和信息化部获悉，《智能网联汽车 自动驾驶系统安全要求》（GB 44721—2026）强制性国家标准近日由国家市场监督管理总局、国家标准化管理委员会批准发布，拟于2027年7月1日起正式实施。 近年来，新一轮科技革命与产业变革持续深化，我国自动驾驶技术加速迭代突破，智能网联汽车道路测试示范有序推进，2025
 - **[优化充电体验 未来五年 新能源汽车充电全面升级](https://cn.chinadaily.com.cn/a/202608/04/WS6a712361a310d709c2fc13ff.html)** — _cn.chinadaily.com.cn_ · published 2026-08-04
   国家发展改革委、国家能源局日前印发《新型电力系统建设“十五五”规划》，提出到2030年，充电基础设施总量超过4000万个，大功率充电设施约30万个，形成支撑超过1.1亿辆电动汽车的充电服务能力。未来5年，电动汽车充电将有这些变化↓↓↓ 充电基础设施网络 加快构建城市面状、公路线状、乡村点状布局的充电基础设施网络。 高速公路充电 推动高速公路服务区充电设施更新
 - **[活力中国调研行](https://cn.chinadaily.com.cn/a/202608/04/WS6a715c81a310d709c2fc159b.html)** — _cn.chinadaily.com.cn_ · published 2026-08-04
@@ -220,6 +230,10 @@ _Updated 2026-08-04 18:15 | discovery-only, zero LLM tokens | runs every 3h_
   中国车企“出海”维持强劲势头。根据车企最新披露的销量数据，7月份多家车企在海外取得同比两位数甚至三位数的销量增长。 龙头企业比亚迪股份有限公司（以下简称“比亚迪”）7月份销售新能源汽车41.92万辆，其中海外销量达18.05万辆，同比增速超过120%，再创历史新高。从占比看，比亚迪新能源汽车海外销量占比达43.07%，已成为销量的关键支撑。 吉利汽车控股有限
 - **[我国将建成可支撑超1.1亿辆电动汽车出行的充电基础设施网络](https://finance.people.com.cn/n1/2026/0804/c1004-40773746.html)** — _finance.people.com.cn_ · published 2026-08-04
   我国将建成可支撑超1.1亿辆电动汽车出行的充电基础设施网络 2026年08月04日13:45 | 来源：人民网222 订阅已订阅已收藏收藏小字号 点击播报本文，约 人民网北京8月4日电 （记者杨曦）国家发展改革委、国家能源局日前印发《新型电力系统建设“十五五”规划》（以下简称《规划》）。《规划》提出到2030年，充电基础设施总量超过4000万个，大功率充电设
+- **[自动驾驶系统安全要求国家标准发布](https://finance.people.com.cn/n1/2026/0804/c1004-40773861.html)** — _finance.people.com.cn_ · published 2026-08-04
+  自动驾驶系统安全要求国家标准发布 点击播报本文，约 新华社北京8月4日电（记者唐诗凝、周圆）记者4日从工业和信息化部获悉，《智能网联汽车 自动驾驶系统安全要求》（GB 44721—2026）强制性国家标准近日由国家市场监督管理总局、国家标准化管理委员会批准发布，拟于2027年7月1日起正式实施。 近年来，新一轮科技革命与产业变革持续深化，我国自动驾驶技术加速
+- **[7月车市两极分化：自主抢占全球市场，合资持续失守燃油车份额](https://industry.caijing.com.cn/20260804/5175221.shtml)** — _industry.caijing.com.cn_ · date: unknown
+  每经记者｜孙桐桐 每经编辑｜余婷婷 7月，我国汽车行业结构性变革持续深化。 据乘联分会此前初步推算，7月国内狭义乘用车零售约152万辆，环比下降5.1%；新能源车零售渗透率则攀升至64.5%。燃油车市场持续萎缩，行业增量不再来自大盘扩容，而是存量份额重新分配。 随着多家车企陆续发布月度产销快报，头部车企格局分化加剧：自主品牌依靠新能源产品迭代、海外市场强势扩
 - **[“500亿太便宜了，我们至少值2000亿”，零跑汽车董事长放话：造车也可以是印钞机](https://m.21jingji.com/article/20260804/herald/f7d8e6aa9d549939b783a7a78d4d0422.html)** — _m.21jingji.com_ · date: unknown
 - **[抓住下一个“长鑫”
                     四大汽车重镇的芯片遗憾，还来得及弥补吗？](https://m.21jingji.com/article/20260804/herald/9a66076276ef497e35845e9eb1dc36a6.html)** — _m.21jingji.com_ · date: unknown
@@ -247,6 +261,12 @@ _Updated 2026-08-04 18:15 | discovery-only, zero LLM tokens | runs every 3h_
 - **[2027款埃安RT将于8月5日上市](https://news.yiche.com/xinchexiaoxi/20260804/16112018323.html)** — _news.yiche.com_ · date: unknown
 - **[《智能网联汽车 自动驾驶系统安全要求》强制性国家标准发布](https://news.yiche.com/zonghexinwen/20260804/17112018465.html)** — _news.yiche.com_ · published 2027-07-01
   推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 日前，工信部组织制定的《智能网联汽车 自动驾驶系统安全要求》强制性国家标准由国家市场监督管理总局、国家标准化管理委员会批准发布，拟于2027年7月1日起正式实施。《智能网联汽车 自动驾驶系统安全要求
+- **[小鹏G9L珠峰白/峡湾灰车身配色官图 搭载寰宇星空头等舱  08-04 08:36](https://news.yiche.com/zonghexinwen/20260804/20112019116.html)** — _news.yiche.com_ · date: unknown
+- **[乘联会：7月国内车企新能源乘用车预估批售量达147万辆](https://news.yiche.com/zonghexinwen/20260804/20112019075.html)** — _news.yiche.com_ · date: unknown
+  推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 8月4日，据乘联月度初步数据综合测算，7月国内车企新能源乘用车预估批售量达147万辆，同比上涨23%、环比下降1%，同比实现2026年各月最高增速，且环比下滑幅度优于季节指数，标志着国内新能源汽车板
+- **[广汽集团1-7月销量超88万辆 新能源车销量31.17万辆  08-04 06:04](https://news.yiche.com/xiaoliangshuju/20260804/18112018640.html)** — _news.yiche.com_ · date: unknown
+- **[AI大模型竞速上车：汽车开启“大脑”突围战](https://tech.caijing.com.cn/20260804/5175293.shtml)** — _tech.caijing.com.cn_ · published 2026-14-13
+  导语：AI大模型竞速“上车”是汽车行业从“硬件定义”转向“软件定义”的必然趋势。 编辑｜靖程 作者｜蒋菁 2026年，AI大模型规模化上车成为智能汽车产业确定性趋势。 近日，特斯拉中国正式在部分车型车机中上线基于本土大语言模型“豆包”的智能语音助手，率先开启外资车企在华本土AI适配新阶段。 随着多家车企纷纷落地车载大模型，行业竞争从概念试水迈入量产落地时代，
 - **[吉利银河TT！真运动还是样子货？](https://vc.yiche.com/vplay/12434417.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 重塑市场 顶配只要24.98万 全域舒享旗舰MPV极狐问道V9上市 玉婕驾到 40天全程陪伴连接亿万球迷的观赛热情！吉利银河这波世界杯营销赢麻了！ 谈车帮 中国车企
 - **[静态评测奇瑞风云T7](https://vc.yiche.com/vplay/12434403.html)** — _vc.yiche.com_ · date: unknown
@@ -280,6 +300,14 @@ _Updated 2026-08-04 18:15 | discovery-only, zero LLM tokens | runs every 3h_
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 29.98-42.08万 雷克萨斯NX全系直降4万，该不该直接买NX350h？哪个版本值得买？ 枫行视界 优惠4万起，雷克萨斯NX350h入门版仍要30万+值不值？比GLC
 - **[比亚迪你这真叫改款？2027款海豹06堪比换代！](https://vc.yiche.com/vplay/12445540.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 9.68-12.98万 7 月汽车销量榜单：比亚迪占据首位，奇瑞等品牌紧随其后 幸运的棉花糖小狐1398 海洋网一出手，海豹06实力横着走！ 车主指南 智驾无订阅、超充不妥
+- **[吉利银河星舰7 EM](https://vc.yiche.com/vplay/12442565.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 10.18-12.98万 华系最好五座SUV！岚图泰山X8上市，权益后售价28.29万起 汽车很听话 可以玩不封顶 纵横F700昆明车展36.49万开启预售 凤眼观车 不到
+- **[10万级混动大六座SUV，五菱把这事办成了，探店星光L](https://vc.yiche.com/vplay/12450503.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 11.28-13.58万 腾势N8内饰已经被媒体吹爆，真的吗？ 趣评车轱辘 比亚迪大汉对标 BBA 旗舰，国产车终于硬刚百万级 掌尚车市 人民的大六座，探店实拍星光L！内饰
+- **[一汽悦意08 ：十万级家轿更优选 纯电/增程随心选！](https://vc.yiche.com/vplay/12449887.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 9.99-13.99万 5.98 万起贝塔 S3 上市，99 秒换电 + 可充可换双模式 autocarweekly 腾势N8内饰已经被媒体吹爆，真的吗？ 趣评车轱辘 5.
+- **[10万级家轿能给闪充+激光雷达！比亚迪2027款海豹06，升级了哪？](https://vc.yiche.com/vplay/12448613.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 9.68-12.98万 比亚迪，你管这叫年款升级？看2027款海豹06如何挤爆牙膏 Nice好车 看大神如何将488改造成恩佐的风格 信任的佩兰草1439 长安启源Q06亮
 - **[中国汽车工业协会关于《纯电动客车用电源管理芯片技术要求及试验方法》团体标准征求意见的通知](https://www.caam.org.cn/chn/10/cate_114/con_5237261.html)** — _www.caam.org.cn_ · published 2026-08-04
   发布时间：2026-08-04 来源：中汽协会行业发展部 各有关单位及行业专家: 《纯电动客车用电源管理芯片技术要求及试验方法》团体标准已完成征求意见稿及编制说明。现根据《中国汽车工业协会标准制修订管理办法》有关规定，向社会广泛征求意见。请有关单位及行业专家提出宝贵意见，并于2026年9月4日前，将书面意见以邮件形式反馈至协会汽车芯片专委会秘书处。 2026
 - **[电动汽车供电设备CCC认证8月1日起开始强制实施](https://www.ce.cn/cysc/zljd/gd/202608/t20260804_3126851.shtml)** — _www.ce.cn_ · published 2026-08-04
@@ -288,6 +316,8 @@ _Updated 2026-08-04 18:15 | discovery-only, zero LLM tokens | runs every 3h_
   近日，中国汽车工业协会（以下简称中汽协）发布团体标准《中国汽车行业整车成本测算规则》（T—CAAMTB 373—2026）（以下简称《成本规则》）。业内普遍认为，此项团体标准的正式落地，将有效遏制车市无序内卷式价格竞争，整治虚假优惠、低配低价、新车上市即大幅降价等侵害消费者权益的市场乱象，推动汽车行业迈入规范化发展阶段。 车企盈利空间持续压缩 当前国内新车市
 - **[《智能网联汽车 自动驾驶系统安全要求》强制性国家标准正式发布](https://www.ce.cn/xwzx/gnsz/gdxw/202608/t20260804_3128645.shtml)** — _www.ce.cn_ · published 2026-08-04
   2026年7月30日，工业和信息化部组织制定并归口的《智能网联汽车 自动驾驶系统安全要求》（GB 44721—2026）强制性国家标准由国家市场监督管理总局、国家标准化管理委员会批准发布，拟于2027年7月1日起正式实施。 近年来，新一轮科技革命与产业变革持续深化，我国自动驾驶技术加速迭代突破，智能网联汽车道路测试示范有序推进，2025年两款L3级（有条件自
+- **[自动驾驶系统安全要求国家标准发布](https://www.ce.cn/xwzx/gnsz/gdxw/202608/t20260804_3128689.shtml)** — _www.ce.cn_ · published 2026-08-04
+  新华社北京8月4日电（记者唐诗凝、周圆）记者4日从工业和信息化部获悉，《智能网联汽车 自动驾驶系统安全要求》（GB 44721—2026）强制性国家标准近日由国家市场监督管理总局、国家标准化管理委员会批准发布，拟于2027年7月1日起正式实施。 近年来，新一轮科技革命与产业变革持续深化，我国自动驾驶技术加速迭代突破，智能网联汽车道路测试示范有序推进，2025
 - **[中国车企“出海”保持高增长](https://www.ceweekly.cn/economic/industry/2026/0804/498215.html)** — _www.ceweekly.cn_ · date: unknown
   中国车企“出海”维持强劲势头。根据车企最新披露的销量数据，7月份多家车企在海外取得同比两位数甚至三位数的销量增长。 龙头企业比亚迪股份有限公司（以下简称“比亚迪”）7月份销售新能源汽车41.92万辆，其中海外销量达18.05万辆，同比增速超过120%，再创历史新高。从占比看，比亚迪新能源汽车海外销量占比达43.07%，已成为销量的关键支撑。 吉利汽车控股有限
 - **[《智能网联汽车 自动驾驶系统安全要求》强制性国家标准发布](https://www.chinanews.com.cn/cj/2026/08-04/10671816.shtml)** — _www.chinanews.com.cn_ · published 2026-08-04
@@ -360,6 +390,10 @@ _Updated 2026-08-04 18:15 | discovery-only, zero LLM tokens | runs every 3h_
   据工信部网站8月4日消息，2026年7月30日，工业和信息化部组织制定并归口的《智能网联汽车 自动驾驶系统安全要求》（GB 44721—2026）强制性国家标准由国家市场监督管理总局、国家标准化管理委员会批准发布，拟于2027年7月1日起正式实施。 近年来，新一轮科技革命与产业变革持续深化，我国自动驾驶技术加速迭代突破，智能网联汽车道路测试示范有序推进，20
 - **[《智能网联汽车 自动驾驶系统安全要求》强制性国家标准正式发布](https://www.gelonghui.com/p/5895238)** — _www.gelonghui.com_ · published 2026-07-30
   据工信部网站8月4日消息，2026年7月30日，工业和信息化部组织制定并归口的《智能网联汽车 自动驾驶系统安全要求》（GB 44721—2026）强制性国家标准由国家市场监督管理总局、国家标准化管理委员会批准发布，拟于2027年7月1日起正式实施。 近年来，新一轮科技革命与产业变革持续深化，我国自动驾驶技术加速迭代突破，智能网联汽车道路测试示范有序推进，20
+- **[乘联分会：7月新能源乘用车预估批发销量147万辆，同比增长23%](https://www.gelonghui.com/p/5898655)** — _www.gelonghui.com_ · date: unknown
+  7月新能源乘用车市场预判 2026年7月，国内新能源乘用车市场迎来亮眼复苏行情，据乘联月度初步数据综合测算，当月国内车企新能源乘用车预估批售量达147万辆，同比上涨23%、环比下降1%，同比实现2026年各月最高增速，且环比下滑幅度优于季节指数，标志着国内新能源汽车板块复苏态势初步显现。反观整体车市，大盘走势承压偏弱，新能源车已然成为国内乘用车市场核心增长亮
+- **[《智能网联汽车 自动驾驶系统安全要求》强制性国标发布](https://www.jwview.com/jingwei/html/08-04/682169.shtml)** — _www.jwview.com_ · published 2026-07-30
+  中新经纬8月4日电 工信部网站4日消息，2026年7月30日，工业和信息化部组织制定并归口的《智能网联汽车 自动驾驶系统安全要求》(GB 44721—2026)强制性国家标准由国家市场监督管理总局、国家标准化管理委员会批准发布，拟于2027年7月1日起正式实施。 近年来，新一轮科技革命与产业变革持续深化，我国自动驾驶技术加速迭代突破，智能网联汽车道路测试示范
 - **[增收不增利！新泉股份半年报出炉：短期借款飙升18倍，对多家车企计提坏账](https://www.nbd.com.cn/articles/2026-08-03/4530813.html)** — _www.nbd.com.cn_ · published 2026-08-03
   2026-08-03 21:47:13 每经记者｜蔡鼎 每经编辑｜魏文艺 今年上半年，新泉股份（SH603179，股价39.80元，市值284.25亿元）交出了一份“增收不增利”的成绩单。 8月3日晚间，新泉股份披露2026年半年度报告。报告期内，公司实现营收80.15亿元，同比增长7.45%；归母净利润4.14亿元，同比下降1.90%；扣非归母净利润4.1
 - **[一边暴涨一边大跌！7月车市两极分化：自主抢占全球市场，合资持续失守燃油车份额](https://www.nbd.com.cn/articles/2026-08-03/4530743.html)** — _www.nbd.com.cn_ · published 2026-08-03
@@ -374,6 +408,10 @@ _Updated 2026-08-04 18:15 | discovery-only, zero LLM tokens | runs every 3h_
   2026-08-04 16:46:58 每经记者｜黄辛旭 每经编辑｜余婷婷 8月3日，据媒体报道，奇瑞汽车已同意通过可转换债券方式向韩国汽车制造商KG Mobility（KGM）投资7500万美元（约5亿元人民币），若全部转股，奇瑞将持有该公司约10%股权。 “奇瑞汽车与韩国KG Mobility Corp（KGM）在获得政府相关部门批准后签署了合作协议。根
 - **[比亚迪、上汽、长城……多家车企7月销量出炉！自主抢占全球市场，合资持续失守燃油车份额](https://www.nbd.com.cn/articles/2026-08-04/4531517.html)** — _www.nbd.com.cn_ · published 2026-08-04
   每日经济新闻 2026-08-04 14:47:04 每经记者｜孙桐桐 每经编辑｜何小桃 余婷婷 记者|孙桐桐 编辑|何小桃 余婷婷 杜波 校对|金冥羽 7月，我国汽车行业结构性变革持续深化。 据乘联分会此前初步推算，7月国内狭义乘用车零售约152万辆，环比下降5.1%；新能源车零售渗透率则攀升至64.5%。燃油车市场持续萎缩，行业增量不再来自大盘扩容，而是
+- **[7月出口了20万辆，中国汽车出口大厂，在韩国重大布局](https://www.nbd.com.cn/articles/2026-08-04/4531932.html)** — _www.nbd.com.cn_ · published 2026-08-04
+  每日经济新闻 2026-08-04 19:46:41 每经记者｜黄辛旭 每经编辑｜梁露月 余婷婷 记者|黄辛旭 编辑|梁露月 余婷婷 杜恒峰 校对|段炼 8月3日，据媒体报道，奇瑞汽车已同意通过可转换债券方式向韩国汽车制造商KG Mobility（KGM）投资7500万美元（约5亿元人民币），若全部转股，奇瑞将持有该公司约10%股权。 “奇瑞汽车与韩国KG
+- **[被传交付严重超期、糊弄客户，知名独角兽车企创始人回应：都没证据，将依法采取措施，“本人长期与美国交管局保持沟通，对方表示肯定”](https://www.nbd.com.cn/articles/2026-08-04/4531930.html)** — _www.nbd.com.cn_ · published 2026-08-04
+  每日经济新闻 2026-08-04 19:46:28 每经记者｜刘曦 每经编辑｜段炼 余婷婷 “交付车辆是我们最核心的工作。库存零部件安装在车上，本身就是车企的合法操作，所谓‘严重超期’和‘糊弄用户’都是没有证据的表述。”8月4日，苇渡科技创始人、董事长兼CEO（首席执行官）韩文在接受《每日经济新闻》记者独家采访时对日前关于苇渡科技陷入经营风波的传闻进行了回
 - **[活力中国调研行丨在安徽 来一趟新能源汽车造车之旅](https://www.news.cn/local/20260803/a7a9e945dd854b1887fd0b8622c8c337/c.html)** — _www.news.cn_ · published 2026-08-03
   2025年，安徽汽车产量、新能源汽车产量、汽车出口量三项指标均位居全国第一。可以说，安徽是中国汽车产业版图上一颗耀眼的新星。 “活力中国调研行”安徽站带您开启新能源汽车产业链的解码之旅。 记者：危颖、屈彦 新华社音视频部制作
 - **[一座汽车城的“绿色新解”](https://www.news.cn/fortune/20260804/10c7f0e36f314309b954ab625d06b627/c.html)** — _www.news.cn_ · published 2026-08-04
@@ -382,6 +420,8 @@ _Updated 2026-08-04 18:15 | discovery-only, zero LLM tokens | runs every 3h_
   2026年7月30日，工业和信息化部组织制定并归口的《智能网联汽车 自动驾驶系统安全要求》（GB 44721—2026）强制性国家标准由国家市场监督管理总局、国家标准化管理委员会批准发布，拟于2027年7月1日起正式实施。 近年来，新一轮科技革命与产业变革持续深化，我国自动驾驶技术加速迭代突破，智能网联汽车道路测试示范有序推进，2025年两款L3级（有条件自
 - **[丰田预计本财年净利润同比下降15.5%](https://www.news.cn/20260804/51b528276e6b455398915be4ee21e695/c.html)** — _www.news.cn_ · published 2026-08-04
   新华社东京8月4日电（记者李诗萌 蓝建中）日本丰田汽车公司4日上调本财年（2026年4月至2027年3月）净利润预期。不过，上调后的预期仍低于上一财年，净利润预计将连续第3年下降。 丰田当天发布财报说，预计本财年净利润为3.25万亿日元（1美元约合157日元），同比下降15.5%；营业利润为3.4万亿日元，同比下降9.7%。 丰田表示，鉴于日元汇率波动，公司
+- **[自动驾驶系统安全要求国家标准发布](https://www.news.cn/politics/20260804/b872e55762d9456080314e506299e4b6/c.html)** — _www.news.cn_ · published 2026-08-04
+  新华社北京8月4日电（记者唐诗凝、周圆）记者4日从工业和信息化部获悉，《智能网联汽车 自动驾驶系统安全要求》（GB 44721—2026）强制性国家标准近日由国家市场监督管理总局、国家标准化管理委员会批准发布，拟于2027年7月1日起正式实施。 近年来，新一轮科技革命与产业变革持续深化，我国自动驾驶技术加速迭代突破，智能网联汽车道路测试示范有序推进，2025
 - **[【图片新闻】 7000车位双燃料汽车运输船“洁净之星”轮在龙口投运](https://www.stcn.com/article/detail/4056480.html)** — _www.stcn.com_ · date: unknown
   日前，由中集来福士为希腊建造的7000车位双燃料汽车运输船“洁净之星”轮在山东港口烟台港龙口港区投入运营。该船配备液化天然气（LNG）动力系统，同时采用“氨预留”设计，后期可升级为氨燃料动力系统，并满足国际海事组织最新的新能源汽车海运安全标准，获得挪威船级社“氨预留”和“电动汽车装载”双认证。中新社发 唐克/摄
 - **[新型电力系统建设“十五五”规划发布 二〇三〇年建成可支撑逾亿辆电动汽车出行的充电基础设施网络](https://www.stcn.com/article/detail/4056479.html)** — _www.stcn.com_ · date: unknown
@@ -390,6 +430,8 @@ _Updated 2026-08-04 18:15 | discovery-only, zero LLM tokens | runs every 3h_
   近日在半年财报会上，大众汽车集团管理层详解了未来发展规划，这份覆盖产品阵容、产能网络、软件路线、组织架构全链条的完整改革方案，早在7月9日就已由管理董事会提交监事会审议。 这套方案包含12项举措，配套大众汽车2030目标图景，包括逐步削减至多50%车型、精简组织架构与投资股权布局、削减产能等多个方面的瘦身计划。 这是大众汽车成立近90年来力度最大的一次系统性
 - **[《智能网联汽车 自动驾驶系统安全要求》强制性国家标准正式发布](https://www.stcn.com/article/detail/4057636.html)** — _www.stcn.com_ · published 2026-07-30
   证券时报网 朱雨蒙 2026-07-30 17:53 人民财讯8月4日电，2026年7月30日，工业和信息化部组织制定并归口的《智能网联汽车 自动驾驶系统安全要求》（GB 44721—2026）强制性国家标准由国家市场监督管理总局、国家标准化管理委员会批准发布，拟于2027年7月1日起正式实施。 《智能网联汽车 自动驾驶系统安全要求》适用于搭载L3级、L4级
+- **[工信部最新发布！事关自动驾驶](https://www.stcn.com/article/detail/4058380.html)** — _www.stcn.com_ · date: unknown
+  《智能网联汽车 自动驾驶系统安全要求》强制性国家标准正式发布。 8月4日，工信部发布消息，《智能网联汽车 自动驾驶系统安全要求》强制性国家标准正式发布，标准从企业全生命周期保障、系统动态驾驶任务、人机交互与用户告知、检验检测方法四个方面提出要求。其中明确，L3级智驾需具备驾驶人接管能力监测功能。 具体来看，7月30日，工业和信息化部组织制定并归口的《智能网联
 - **[丰田预计本财年净利润同比下降15.5%](https://www.xinhuanet.com/20260804/51b528276e6b455398915be4ee21e695/c.html)** — _www.xinhuanet.com_ · published 2026-08-04
   新华社东京8月4日电（记者李诗萌 蓝建中）日本丰田汽车公司4日上调本财年（2026年4月至2027年3月）净利润预期。不过，上调后的预期仍低于上一财年，净利润预计将连续第3年下降。 丰田当天发布财报说，预计本财年净利润为3.25万亿日元（1美元约合157日元），同比下降15.5%；营业利润为3.4万亿日元，同比下降9.7%。 丰田表示，鉴于日元汇率波动，公司
 - **[ChinaJoy参观人次创新高！机器人、汽车都来抢年轻人了](https://www.yicai.com/news/103303702.html)** — _www.yicai.com_ · date: unknown
