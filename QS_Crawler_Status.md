@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-08-05 00:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-08-05 03:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-08-05 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **6188 unique auto/NEV articles** across **55 outlets**
+## Cumulative: **6194 unique auto/NEV articles** across **55 outlets**
 
 ## New per day
 | date | new articles |
@@ -68,16 +68,16 @@ _Updated 2026-08-05 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-08-02 | 71 |
 | 2026-08-03 | 159 |
 | 2026-08-04 | 169 |
-| 2026-08-05 | 16 |
+| 2026-08-05 | 22 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.d1ev.com | 1347 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 532 |
+| vc.yiche.com | 535 |
 | auto.gasgoo.com | 403 |
-| 36kr.com | 302 |
+| 36kr.com | 305 |
 | www.stcn.com | 273 |
 | www.caam.org.cn | 210 |
 | www.cnr.cn | 201 |
@@ -131,17 +131,29 @@ _Updated 2026-08-05 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-08-05 — 16 articles
+### 2026-08-05 — 22 articles
 - **[涉及自动驾驶，强制性国家标准正式发布](https://36kr.com/p/3925157914622081)** — _36kr.com_ · published 2026-08-05
   涉及自动驾驶，强制性国家标准正式发布 8月4日，工业和信息化部（以下简称工信部）发布消息显示，2026年7月30日，工信部组织制定并归口的《智能网联汽车 自动驾驶系统安全要求》（GB 44721—2026）强制性国家标准由国家市场监督管理总局、国家标准化管理委员会批准发布，拟于2027年7月1日起正式实施。 图片来源：工信部官网 据悉，《智能网联汽车 自动驾
 - **[奇瑞QQ太想进步了](https://36kr.com/p/3925086810969732)** — _36kr.com_ · published 2026-08-05
   奇瑞QQ太想进步了 “全新QQ3连续四个月销量破万，锁定A0级明星产品。” 在最新出炉的7月官方销量成绩推文里，奇瑞汽车专门点名表扬了QQ3。这款纯电小车从今年3月30日上市起就成为同级细分市场的黑马，为奇瑞新能源连续四个月销量突破10万辆贡献关键增量。 不过，奇瑞似乎觉得QQ3卖得还不够多。 根据奇瑞汽车官网，踏入8月QQ3的销售政策进一步加码。官方在保留
+- **[“车企牌”电池相继上车，不只是PK宁德时代](https://36kr.com/p/3925382191708552)** — _36kr.com_ · published 2026-08-05
+  “车企牌”电池相继上车，不只是PK宁德时代 “车企牌”电池正在不断涌现，并交付上车。鸿蒙智行推出了巨鲸电池，理想汽车推出了理想牌电池，不久前的7月30日晚，小米正式对外发布了龙甲电池。 车企正试图通过自有电池品牌，将电池的每个技术点攥在手中，并抢占用户心智。 这些汽车品牌的统一做法，就是“穿透式管理”，从电芯到电池包的技术和性能标准，车企全部主导定义，甚至部
+- **[自动驾驶五年定型，为L3建“孤岛”还是为L4搭“桥”？算力需求已给出答案](https://36kr.com/p/3925157615777922)** — _36kr.com_ · published 2026-08-05
+  自动驾驶五年定型，为L3建“孤岛”还是为L4搭“桥”？算力需求已给出答案 中国汽车行业期盼多年的针对L3/L4的新国标，终于敲定落地时间。 日前，工业和信息化部就《智能网联汽车自动驾驶系统安全要求》强制性国家标准（报批稿）向社会公开征求意见。 ▲自动驾驶系统强制性国家标准（报批稿）公开征求意见 该标准拟取代原有推荐性国家标准，首次以强制性技术规范形式为L3、
+- **[出海欧洲②：中国车企在西班牙“落子生根”](https://36kr.com/p/3925086225012610)** — _36kr.com_ · published 2026-08-05
+  出海欧洲②：中国车企在西班牙“落子生根” 编者按： 2025年，中国车企在欧洲全年新车销量达81.1万辆，市场份额跃升至6.1%。今年 5 月，中国车企欧洲月度销量更是历史性反超日系。中国制造的电动车正从“边缘参与者”成长为欧洲汽车电动化转型的核心力量。 然而，销量数字背后，真实的出海图景远比报表复杂。关税壁垒、本土化博弈、消费认知的破冰与重塑……这些都无法
 - **[《智能网联汽车自动驾驶系统安全要求》强制性国家标准正式发布](https://finance.eastmoney.com/a/202608043831209919.html)** — _finance.eastmoney.com_ · published 2026-07-30
   2026年7月30日，工业和信息化部组织制定并归口的《智能网联汽车自动驾驶系统安全要求》（GB 44721—2026）强制性国家标准由国家市场监督管理总局、国家标准化管理委员会批准发布，拟于2027年7月1日起正式实施。 近年来，新一轮科技革命与产业变革持续深化，我国自动驾驶技术加速迭代突破，智能网联汽车道路测试示范有序推进，2025年两款L3级（有条件自动
 - **[广汽集团三款MPV车型菲律宾上市 构筑GAC MPV Family产品矩阵](https://news.yiche.com/zonghexinwen/20260804/21112019527.html)** — _news.yiche.com_ · date: unknown
   推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 日前，广汽官方发布，旗下All-New GAC GN6、GAC E8 HEV及GAC GN8 PHEV Executive三款MPV车型正式在菲律宾上市，组成GAC MPV Family产品矩阵。
 - **[油耗直达2L级！第5代帝豪i](https://vc.yiche.com/vplay/12451665.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 6.29-9.79万 第5代吉利帝豪HEV，1大技术突破 5大跃升 晓青车论坛 探索底盘灯的无限魅力 —— ILAMP 底盘灯 月草原mia 四代帝豪音响改装，配备低音炮与
+- **[比亚迪宋Pro DM真实行情分享：别选错买贵，否则真后悔！](https://vc.yiche.com/vplay/12416637.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 10.28-13.38万 10万级混动标杆车型，荣威M7黑马版到店体验 星星CAR 敢为人先，更需普济大众。4nm芯片突破！比亚迪定义中国智能驾驶新高度 海盐茶wind 告
+- **[探店奇瑞风云A9，运动套件免费送，选中配该有的都带了](https://vc.yiche.com/vplay/12452701.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 10.99-12.99万 捷达焕新启航！中国智慧+德系品质基因，造好国民智能电动车 新时代车评 理工男逆袭？11.59万起的风云A9，凭啥让女生和年轻人抢着买 新智KK 全
+- **[十万块的纯电SUV，开始卷后驱和五连杆了！MG4X到底行不行？](https://vc.yiche.com/vplay/12452358.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 9.98-11.68万 第二代腾势D9正式上市！带闪充，升级双阀云辇-C！ 汽车洋葱圈 9.28万起，后五连杆+半固态电池+高阶驾驶辅助！ 第一视角体验名爵MG4X,看下是
 - **[理想直播拆车4小时，车企找到了比降价更狠的打法](https://www.d1ev.com/news/qiye/309213)** — _www.d1ev.com_ · date: unknown
   今天下午3点起，一辆新一代理想L6被架上直播台。四个多小时里，它被拆成座椅、车身、安全结构、底盘、电池五个部分。官方给这场直播的说明是：每一刀都切在配置单上“看不见”的地方。 拆到某个部件，工程师会停下来讲这里当初为什么这么设计、在成本和性能之间做了什么取舍。弹幕里的疑问被实时挑出来回答。 这是理想第一次拆自己的车，也是今年中国车企的第四场。 而在几年前，某
 - **[自动驾驶的国标来了：开得不如老司机，不让上路](https://www.d1ev.com/news/zhengce/309212)** — _www.d1ev.com_ · published 2026-07-30
