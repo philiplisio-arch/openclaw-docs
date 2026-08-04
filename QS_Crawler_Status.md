@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-08-04 21:14 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-08-05 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-08-04 21:14 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **6172 unique auto/NEV articles** across **55 outlets**
+## Cumulative: **6188 unique auto/NEV articles** across **55 outlets**
 
 ## New per day
 | date | new articles |
@@ -68,30 +68,31 @@ _Updated 2026-08-04 21:14 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-08-02 | 71 |
 | 2026-08-03 | 159 |
 | 2026-08-04 | 169 |
+| 2026-08-05 | 16 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.d1ev.com | 1342 |
+| www.d1ev.com | 1347 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 531 |
+| vc.yiche.com | 532 |
 | auto.gasgoo.com | 403 |
-| 36kr.com | 300 |
+| 36kr.com | 302 |
 | www.stcn.com | 273 |
 | www.caam.org.cn | 210 |
 | www.cnr.cn | 201 |
 | autodata.gasgoo.com | 188 |
 | egs.stcn.com | 183 |
-| news.yiche.com | 171 |
-| www.nbd.com.cn | 155 |
-| www.news.cn | 120 |
+| news.yiche.com | 172 |
+| www.nbd.com.cn | 156 |
+| www.news.cn | 121 |
 | m.21jingji.com | 117 |
 | www.cada.cn | 112 |
-| www.yicai.com | 106 |
-| www.gelonghui.com | 86 |
+| www.yicai.com | 108 |
+| www.gelonghui.com | 88 |
 | auto.caijing.com.cn | 79 |
 | www.zqrb.cn | 71 |
-| finance.eastmoney.com | 48 |
+| finance.eastmoney.com | 49 |
 | www.jwview.com | 44 |
 | www.xinhuanet.com | 41 |
 | www.chinanews.com.cn | 39 |
@@ -129,6 +130,40 @@ _Updated 2026-08-04 21:14 | discovery-only, zero LLM tokens | runs every 3h_
 | cen.ce.cn | 1 |
 
 ## Articles captured by day (newest first)
+
+### 2026-08-05 — 16 articles
+- **[涉及自动驾驶，强制性国家标准正式发布](https://36kr.com/p/3925157914622081)** — _36kr.com_ · published 2026-08-05
+  涉及自动驾驶，强制性国家标准正式发布 8月4日，工业和信息化部（以下简称工信部）发布消息显示，2026年7月30日，工信部组织制定并归口的《智能网联汽车 自动驾驶系统安全要求》（GB 44721—2026）强制性国家标准由国家市场监督管理总局、国家标准化管理委员会批准发布，拟于2027年7月1日起正式实施。 图片来源：工信部官网 据悉，《智能网联汽车 自动驾
+- **[奇瑞QQ太想进步了](https://36kr.com/p/3925086810969732)** — _36kr.com_ · published 2026-08-05
+  奇瑞QQ太想进步了 “全新QQ3连续四个月销量破万，锁定A0级明星产品。” 在最新出炉的7月官方销量成绩推文里，奇瑞汽车专门点名表扬了QQ3。这款纯电小车从今年3月30日上市起就成为同级细分市场的黑马，为奇瑞新能源连续四个月销量突破10万辆贡献关键增量。 不过，奇瑞似乎觉得QQ3卖得还不够多。 根据奇瑞汽车官网，踏入8月QQ3的销售政策进一步加码。官方在保留
+- **[《智能网联汽车自动驾驶系统安全要求》强制性国家标准正式发布](https://finance.eastmoney.com/a/202608043831209919.html)** — _finance.eastmoney.com_ · published 2026-07-30
+  2026年7月30日，工业和信息化部组织制定并归口的《智能网联汽车自动驾驶系统安全要求》（GB 44721—2026）强制性国家标准由国家市场监督管理总局、国家标准化管理委员会批准发布，拟于2027年7月1日起正式实施。 近年来，新一轮科技革命与产业变革持续深化，我国自动驾驶技术加速迭代突破，智能网联汽车道路测试示范有序推进，2025年两款L3级（有条件自动
+- **[广汽集团三款MPV车型菲律宾上市 构筑GAC MPV Family产品矩阵](https://news.yiche.com/zonghexinwen/20260804/21112019527.html)** — _news.yiche.com_ · date: unknown
+  推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 日前，广汽官方发布，旗下All-New GAC GN6、GAC E8 HEV及GAC GN8 PHEV Executive三款MPV车型正式在菲律宾上市，组成GAC MPV Family产品矩阵。
+- **[油耗直达2L级！第5代帝豪i](https://vc.yiche.com/vplay/12451665.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 6.29-9.79万 第5代吉利帝豪HEV，1大技术突破 5大跃升 晓青车论坛 探索底盘灯的无限魅力 —— ILAMP 底盘灯 月草原mia 四代帝豪音响改装，配备低音炮与
+- **[理想直播拆车4小时，车企找到了比降价更狠的打法](https://www.d1ev.com/news/qiye/309213)** — _www.d1ev.com_ · date: unknown
+  今天下午3点起，一辆新一代理想L6被架上直播台。四个多小时里，它被拆成座椅、车身、安全结构、底盘、电池五个部分。官方给这场直播的说明是：每一刀都切在配置单上“看不见”的地方。 拆到某个部件，工程师会停下来讲这里当初为什么这么设计、在成本和性能之间做了什么取舍。弹幕里的疑问被实时挑出来回答。 这是理想第一次拆自己的车，也是今年中国车企的第四场。 而在几年前，某
+- **[自动驾驶的国标来了：开得不如老司机，不让上路](https://www.d1ev.com/news/zhengce/309212)** — _www.d1ev.com_ · published 2026-07-30
+  2026年7月30日，工业和信息化部牵头制定的《智能网联汽车 自动驾驶系统安全要求》（GB 44721—2026）正式发布。2027年7月1日起实施。 它管的是两类车：搭载L3级（有条件自动驾驶）和L4级（高度自动驾驶）系统的车。L0到L2那类“辅助驾驶”，不在此列。 在这份标准出来之前，L3在国内只开过一次口子。 2025年12月，工信部批了首批两款L3级
+- **[【国际快讯】日本将因地震损失2万辆汽车产量；日产汽车二季度扭亏为盈；三菱二季度营业利润几近翻倍](https://www.d1ev.com/news/shichang/309171)** — _www.d1ev.com_ · date: unknown
+  聚焦·传统车企新动向 日产汽车二季度实现扭亏为盈 日产汽车8月3日公布，依托经营状况改善与严格成本管控，今年第二季度实现净利润37亿日元（折合2,400万美元），而去年同期，日产录得净亏损1,157亿日元。这也是日产时隔两年，再次实现季度利润。 三菱汽车二季度营业利润接近翻倍 三菱汽车首席运营官Keisuke Kishiura 8月3日公布，今年第二季度（4
+- **[10个车主里面有8个都愿帮李斌卖车！蔚来ES8 NPS纯电车第一](https://www.d1ev.com/news/qiye/309166)** — _www.d1ev.com_ · date: unknown
+  快科技8月4日消息，蔚来汽车官方今日发文介绍，据杰兰路《蔚来ES8用户画像与NPS研究》及《2026年度上半年新能源汽车品牌健康度研究》报告显示： 蔚来ES8车型净推荐值达85.3，位居纯电车型第一。相当于每10位车主中，就有8个以上车主，愿意向身边亲友推荐购买蔚来ES8。 净推荐值是用来衡量用户满意度与忠诚度的指标，净推荐值越高，表明用户满意度和品牌口碑越
+- **[2026年上半年越野/高端/猎装销量榜：自主车企集体上攻，新能源渗透加深丨盖世汽车研究院](https://www.d1ev.com/news/shichang/309149)** — _www.d1ev.com_ · date: unknown
+  根据盖世汽车研究院数据，2026年上半年，乘用车越野、高端和猎装三大细分市场呈现出场景分化、品牌上攻的多元竞争态势。越野车型销量榜单中，奇瑞系四车入榜，轻越野主导；高端车型领域，特斯拉双车领先，理想i6、小米YU7/SU7等新能源渗透加深；猎装车型赛道极氪双车包揽前二。三大市场走向虽异，却共同印证自主车企凭场景切割与产品定义能力，正重塑竞争版图。 2026上
+- **[快讯-格隆汇](https://www.gelonghui.com/live/2592743)** — _www.gelonghui.com_ · published 2026-08-05
+  申请认证 格隆汇公众号矩阵 格隆汇App 下载格隆汇APP 诊股宝App 下载诊股宝App 汇路演App 下载汇路演APP 极调研 加入我们 首页 社区 快讯 事件 深度 主题 专栏 行情 会员 数据 财富圈 文章 更多相关文章 快讯 更多相关快讯 查看全部股票/文章/快讯/事件/用户/财富圈搜索结果 热门股票 搜索历史 清空历史 登录 / 注册 温馨提示
+- **[黄仁勋官宣Alpamayo 2 Super正式开源商用](https://www.gelonghui.com/live/2592700)** — _www.gelonghui.com_ · date: unknown
+  首页 > 快讯 > 快讯详情 黄仁勋官宣Alpamayo 2 Super正式开源商用 格隆汇8月4日｜英伟达CEO黄仁勋在X上发文称，今天正式推出Alpamayo 2 Super，这是英伟达面向自动驾驶车辆(AV)领域的尖端开源推理模型。除了基础的视觉感知，Alpamayo还具备理解和推理复杂世界的能力——在行动前进行深度思考。它是无人驾驶出租车、卡车、接驳
+- **[国内最大自航式纯电驱深海海缆敷设船“蓝海领航”在江苏下水](https://www.nbd.com.cn/articles/2026-08-04/4532254.html)** — _www.nbd.com.cn_ · published 2026-08-04
+  每经网首页 > 首发快讯 > 正文 2026-08-04 23:41:16 每经AI快讯，8月4日，国内最大自航式纯电驱深海海缆敷设船“蓝海领航”在江苏启东完成下水作业，标志着这艘海上风电领域的大国重器向正式交付运营迈出坚实一步。“蓝海领航”由中国船舶集团708研究所自主设计，其满载排水量达3.5万吨，中央转盘最大载缆量16000吨，载缆规模位居亚洲前列。（
+- **[看展丨从第一代卡车到飞行汽车，来老厂房看一汽家底](https://www.news.cn/fortune/20260804/9a7790b041204e6f8980475514cac905/c.html)** — _www.news.cn_ · published 2026-08-04
+  从带有“大鼻头”的新中国第一辆汽车，到智能网联的氢燃料电池卡车；从以“中国龙”为车头标志的我国第一辆轿车，到能垂直起飞的飞行汽车……在新中国第一辆汽车下线70周年之际，中国一汽博物馆近日对外开放，用不同年代的150余台实物展车和珍贵史料，展现“新中国汽车工业摇篮”从无到有、由弱变强的跨越。 中国一汽博物馆位于吉林省长春市中国一汽厂区1号门内的一座清水红砖的老
+- **[全球销量第一的车企，汽车营业利润率降至6%以下](https://www.yicai.com/news/103305305.html)** — _www.yicai.com_ · date: unknown
+  {{aisd}} AI生成 免责声明 8月4日，丰田汽车发布2027财年第一季度（2026年4月至6月）财报，其单季销售额达13.53万亿日元（1 人民币 ≈ 23.3181 日元，约合人民币5800亿元），同比增长10.4%，创下季度营收新高，归属于丰田的净利润为1.48万亿日元（约合人民币634.8亿元），同比增长约76%。 丰田本季度账面利润的强劲增长
+- **[自动驾驶首部强标落地：专设17页安全档案附录](https://www.yicai.com/news/103305302.html)** — _www.yicai.com_ · published 2027-07-01
+  {{aisd}} AI生成 免责声明 8月4日，工信部官网显示，强制性国家标准《智能网联汽车 自动驾驶系统安全要求》（GB 44721—2026）（下称“L3/L4强标”）已发布，拟于2027年7月1日起实施，这是我国首部针对L3级（有条件自动驾驶）和L4级（高度自动驾驶）系统的强制性国家标准。 多位受访专家和企业内人士均向第一财经表示，L3/L4强标的发布
 
 ### 2026-08-04 — 169 articles
 - **[欧洲车企业绩因对中国市场依赖度而分化](https://36kr.com/p/3923514480946564)** — _36kr.com_ · date: unknown
