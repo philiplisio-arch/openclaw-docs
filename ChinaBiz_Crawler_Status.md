@@ -1,8 +1,8 @@
 # China Business Daily — Crawler Status
 
-_Updated 2026-08-06 00:48 | WS1 redesign source universe | discovery-only, zero LLM tokens | every 3h_
+_Updated 2026-08-06 03:42 | WS1 redesign source universe | discovery-only, zero LLM tokens | every 3h_
 
-## Cumulative: **46970 business articles** across **79 outlets**
+## Cumulative: **47041 business articles** across **79 outlets**
 
 _In Report? verdicts reflect the brief run of **2026-08-05** (generated 2026-08-05T07:27:57): **81 ✅ in / 2041 ❌ out** of 2122 in-window articles. Articles crawled after that run show ➖ (no verdict yet)._
 
@@ -10,17 +10,17 @@ _In Report? verdicts reflect the brief run of **2026-08-05** (generated 2026-08-
 | outlet | articles |
 |---|---|
 | www.stcn.com | 6740 |
-| finance.eastmoney.com | 5685 |
-| finance.sina.com.cn | 5629 |
-| m.21jingji.com | 5190 |
+| finance.eastmoney.com | 5698 |
+| finance.sina.com.cn | 5674 |
+| m.21jingji.com | 5191 |
 | www.nbd.com.cn | 4502 |
-| www.gelonghui.com | 3520 |
+| www.gelonghui.com | 3523 |
 | www.jiemian.com | 2081 |
 | 36kr.com | 1901 |
 | www.yicai.com | 1861 |
-| www.eeo.com.cn | 1760 |
+| www.eeo.com.cn | 1767 |
 | finance.people.com.cn | 1424 |
-| finance.china.com.cn | 1367 |
+| finance.china.com.cn | 1369 |
 | www.21jingji.com | 1000 |
 | news.cnstock.com | 598 |
 | www.time-weekly.com | 534 |
@@ -89,10 +89,12 @@ _In Report? verdicts reflect the brief run of **2026-08-05** (generated 2026-08-
 | client.sina.com.cn | 1 |
 | bond.hexun.com | 1 |
 
-## 2026-08-06 — 96 articles
+## 2026-08-06 — 167 articles
 | Article | Outlet | Published | In Report? | Reason |
 |---|---|---|---|---|
 | [无锡银行：股东兴达尼龙、神伟化工拟合计减持4310万股股份](https://finance.caijing.com.cn/20260805/5175535.shtml) | finance.caijing.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
+| [纠治旅游业导游乱象、强制消费，多个旅行社被点名](https://finance.china.com.cn/industry/20260805/6319467.shtml) | finance.china.com.cn | 2026-08-05 | ➖ | Not evaluated in the latest brief run |
+| [大商所焦炭期权将于9月2日上市](https://finance.china.com.cn/news/20260805/6319463.shtml) | finance.china.com.cn | 2026-08-05 | ➖ | Not evaluated in the latest brief run |
 | [中际旭创H股 高盛多头权益从5.95%升至11.9%](https://finance.eastmoney.com/a/202608053832847458.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [深圳：多举措打造最具活力与效率的产业金融中心和科技金融中心](https://finance.eastmoney.com/a/202608053832924567.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [长三角一体化示范区上半年成绩单出炉：两区一县GDP同比增长6.3%](https://finance.eastmoney.com/a/202608053832911262.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
@@ -108,6 +110,64 @@ _In Report? verdicts reflect the brief run of **2026-08-05** (generated 2026-08-
 | [从24%到20%！多家消金公司下调个人贷款年化利率上限](https://finance.eastmoney.com/a/202608053832935471.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [“竹知了”事件持续发酵，汽车行业的舆论账该如何清算？](https://finance.eastmoney.com/a/202608053832925522.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [宝洁官宣收购老牌保健品公司 瞄准快速增长的营养补剂市场](https://finance.eastmoney.com/a/202608053832903467.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [150亿元人民币国债在港发行 助推人民币国际化](https://finance.eastmoney.com/a/202608063832955372.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [定价“新锚”加快试水 多地落地DR基准利率贷款](https://finance.eastmoney.com/a/202608063832955734.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [建圈强链 全栈生态 场景营城成都高新区：三个维度书写产业“进化论”](https://finance.eastmoney.com/a/202608063832956696.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [加快培育新增长点 绿色燃料产业支持政策将出](https://finance.eastmoney.com/a/202608063832956080.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [上半年中国企业信用指数为161.88](https://finance.eastmoney.com/a/202608063832956318.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [飙升的科技股还能买吗？资深策略师Yardeni认为该板块现在是打折价](https://finance.eastmoney.com/a/202608063832956473.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [多机构调研汽车业上市公司 全球化与新业务获关注](https://finance.eastmoney.com/a/202608063832954737.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [阳光股份拟以不超过9.8亿元跨界投建算力项目](https://finance.eastmoney.com/a/202608063832954451.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [广州海关优化通关服务助力“清凉家电”出口稳步增长](https://finance.eastmoney.com/a/202608063832954317.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [金价上涨带动黄金股走强 多因素主导后期走势](https://finance.eastmoney.com/a/202608063832954259.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [包装资质 虚假申贷 套现失联警惕金融“黑灰产”围猎“征信白户”](https://finance.eastmoney.com/a/202608063832954979.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [从支付枢纽到养老生态 银联“四个一”体系探路养老金融](https://finance.eastmoney.com/a/202608063832951750.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [美国银行CEO：每年花2.5亿美元为员工买减肥药 但这钱花得值](https://finance.eastmoney.com/a/202608063832946542.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [美日联手救市960亿：比特币持有者为何紧盯美债安全](https://finance.sina.com.cn/blockchain/roll/2026-08-05/doc-inimfmyv1501601.shtml) | finance.sina.com.cn | 2026-08-05 | ➖ | Not evaluated in the latest brief run |
+| [8月5日增减持汇总：兰州银行等4股披露拟增持情况，利扬芯片等4股披露拟减持情况（表）](https://finance.sina.com.cn/jjxw/2026-08-05/doc-inimhttv3388529.shtml) | finance.sina.com.cn | 2026-08-05 | ➖ | Not evaluated in the latest brief run |
+| [美国拟禁止进口中国产新型光收发模块，外交部回应](https://finance.sina.com.cn/china/2026-08-05/doc-inimhpmx3492343.shtml) | finance.sina.com.cn | 2026-08-05 | ➖ | Not evaluated in the latest brief run |
+| [汇兑损益或成利润表变量 出海上市公司直面汇率风控大考](https://finance.sina.com.cn/roll/2026-08-06/doc-inimieix4199289.shtml) | finance.sina.com.cn | 2026-08-06 | ➖ | Not evaluated in the latest brief run |
+| [国家清退梯次利用企业资质 动力电池回收产业迎洗牌](https://finance.sina.com.cn/jjxw/2026-08-06/doc-inimieix4197811.shtml) | finance.sina.com.cn | 2026-08-06 | ➖ | Not evaluated in the latest brief run |
+| [“女生洗澡，大叔帮搓背”，“中国锅王”苏泊尔AI广告辣眼睛，已紧急下架！股价已连跌4天，去年销售费用达24亿元](https://finance.sina.com.cn/jjxw/2026-08-06/doc-inimhxzz4303550.shtml) | finance.sina.com.cn | 2026-08-06 | ➖ | Not evaluated in the latest brief run |
+| [过去一年新增诉讼、仲裁涉案金额近13亿元 重药控股360亿元应收账款困住现金流](https://finance.sina.com.cn/roll/2026-08-06/doc-inimhxzt3323448.shtml) | finance.sina.com.cn | 2026-08-06 | ➖ | Not evaluated in the latest brief run |
+| [牧原股份：7 月公司销售商品猪 666.1 万头，均价同比下降25.59%](https://finance.sina.com.cn/jjxw/2026-08-05/doc-inimhttv3439351.shtml) | finance.sina.com.cn | 2026-08-05 | ➖ | Not evaluated in the latest brief run |
+| [广东明珠一子公司停产整改：去年归母净利润比上市公司还高，预计三季度铁精粉产销量将减少](https://finance.sina.com.cn/roll/2026-08-05/doc-inimhtuc4406768.shtml) | finance.sina.com.cn | 2026-08-05 | ➖ | Not evaluated in the latest brief run |
+| [无锡银行两家一致行动人股东拟合计减持不超1.96%股份，均为IPO前取得](https://finance.sina.com.cn/jjxw/2026-08-05/doc-inimhtuf1163066.shtml) | finance.sina.com.cn | 2026-08-05 | ➖ | Not evaluated in the latest brief run |
+| [最高涨3100%、570%！两只亏损物业股逆势走出翻倍行情，什么情况？](https://finance.sina.com.cn/roll/2026-08-05/doc-inimhttx5006463.shtml) | finance.sina.com.cn | 2026-08-05 | ➖ | Not evaluated in the latest brief run |
+| [“车灯一哥”星宇股份再闯港股，前常州女首富左手分红，右手拟募资](https://finance.sina.com.cn/wm/2026-08-05/doc-inimhttx5003220.shtml) | finance.sina.com.cn | 2026-08-05 | ➖ | Not evaluated in the latest brief run |
+| [兆日科技拟发行股份购买资产，标的公司实控人涉及此前控制权变更计划](https://finance.sina.com.cn/roll/2026-08-05/doc-inimhttx5001076.shtml) | finance.sina.com.cn | 2026-08-05 | ➖ | Not evaluated in the latest brief run |
+| [港股收评：恒指涨0.24% 科指涨0.97% 科网股活跃 黄金股、PCB概念股大涨](https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-05/doc-inimhawf5211002.shtml) | finance.sina.com.cn | 2026-08-05 | ➖ | Not evaluated in the latest brief run |
+| [盛松成：房地产转型发展应把握好楼宇经济机遇](https://finance.sina.com.cn/zl/china/2026-08-05/zl-inimhiec5140523.shtml) | finance.sina.com.cn | 2026-08-05 | ➖ | Not evaluated in the latest brief run |
+| [宏桥控股百亿定增暴露吃相难看？小股东疑为魏桥系资本腾挪买单](https://finance.sina.com.cn/stock/observe/2026-08-05/doc-inimhiei4560298.shtml) | finance.sina.com.cn | 2026-08-05 | ➖ | Not evaluated in the latest brief run |
+| [小鹏汽车前7月销量领跌：X9大规模召回重创口碑 新车GX定价大降表现仍不及预期](https://finance.sina.com.cn/stock/observe/2026-08-05/doc-inimhiei4554699.shtml) | finance.sina.com.cn | 2026-08-05 | ➖ | Not evaluated in the latest brief run |
+| [拿森科技港股IPO：NBC产品放量驱动营收高增 下游客户议价压制盈利 板块情绪降温下估值仍显著高于同业](https://finance.sina.com.cn/stock/observe/2026-08-05/doc-inimhawp1433420.shtml) | finance.sina.com.cn | 2026-08-05 | ➖ | Not evaluated in the latest brief run |
+| [四大AMC高频增持银行股：一场耐心资本的多赢布局](https://finance.sina.com.cn/roll/2026-08-05/doc-inimhpni1271808.shtml) | finance.sina.com.cn | 2026-08-05 | ➖ | Not evaluated in the latest brief run |
+| [36万亿银行理财大洗牌，公募基金跻身第四大配置资产](https://finance.sina.com.cn/roll/2026-08-05/doc-inimhicz3566595.shtml) | finance.sina.com.cn | 2026-08-05 | ➖ | Not evaluated in the latest brief run |
+| [自营理财总规模同比下降22.3%，上半年7家中小银行存续规模“归零”](https://finance.sina.com.cn/roll/2026-08-05/doc-inimhiec5137751.shtml) | finance.sina.com.cn | 2026-08-05 | ➖ | Not evaluated in the latest brief run |
+| [拼手速！五年期大额存单重返银行“货架”，部分产品已售罄](https://finance.sina.com.cn/stock/zqgd/2026-08-05/doc-inimhawf5161154.shtml) | finance.sina.com.cn | 2026-08-05 | ➖ | Not evaluated in the latest brief run |
+| [宝武镁业：镁合金车身一体化铸件已成为2025年各大新能源车企最为关切的镁应用热点](https://finance.sina.com.cn/stock/relnews/cn/2026-08-05/doc-inimhpmz5120452.shtml) | finance.sina.com.cn | 2026-08-05 | ➖ | Not evaluated in the latest brief run |
+| [新铝时代：公司自成立以来，一直专注于以电池盒箱体为核心产品的新能源汽车动力电池系统铝合金零部件的研发、生产和销售](https://finance.sina.com.cn/stock/relnews/cn/2026-08-05/doc-inimhpni1268399.shtml) | finance.sina.com.cn | 2026-08-05 | ➖ | Not evaluated in the latest brief run |
+| [恩捷股份：截至2026年7月31日，公司尚未开展回购](https://finance.sina.com.cn/stock/relnews/cn/2026-08-05/doc-inimhpni1261398.shtml) | finance.sina.com.cn | 2026-08-05 | ➖ | Not evaluated in the latest brief run |
+| [8月5日晚间公告集锦](https://finance.sina.com.cn/jjxw/2026-08-05/doc-inimhtuc4381695.shtml) | finance.sina.com.cn | 2026-08-05 | ➖ | Not evaluated in the latest brief run |
+| [金价大涨2%，老铺黄金们却“涨不动”了！世界黄金协会：短期内首饰市场难快速回暖](https://finance.sina.com.cn/roll/2026-08-05/doc-inimhttv3388102.shtml) | finance.sina.com.cn | 2026-08-05 | ➖ | Not evaluated in the latest brief run |
+| [二季度利润亮眼股价却下跌近6% 口服减重药能撑起诺和诺德的中长期预期吗？](https://finance.sina.com.cn/roll/2026-08-05/doc-inimhpni1281192.shtml) | finance.sina.com.cn | 2026-08-05 | ➖ | Not evaluated in the latest brief run |
+| [纠治旅游行业导游乱象、强制消费！多个旅行社被点名](https://finance.sina.com.cn/roll/2026-08-05/doc-inimhpni1278735.shtml) | finance.sina.com.cn | 2026-08-05 | ➖ | Not evaluated in the latest brief run |
+| [嘉士伯撤回9500万元分红上诉！*ST西发2.92亿元监管账户解冻，退市边缘迎来重整曙光？](https://finance.sina.com.cn/jjxw/2026-08-05/doc-inimhpni1277563.shtml) | finance.sina.com.cn | 2026-08-05 | ➖ | Not evaluated in the latest brief run |
+| [谈不拢就散！壹网壹创终止收购联世传奇100%股权，承诺一个月内不再筹划重大资产重组](https://finance.sina.com.cn/roll/2026-08-05/doc-inimhpni1274724.shtml) | finance.sina.com.cn | 2026-08-05 | ➖ | Not evaluated in the latest brief run |
+| [“韩股不能投资，太坑散户”，一篇美媒专栏逼急韩方](https://finance.sina.com.cn/roll/2026-08-05/doc-inimhpni1276165.shtml) | finance.sina.com.cn | 2026-08-05 | ➖ | Not evaluated in the latest brief run |
+| [首日57.3%顶格涨幅已不新鲜，多只转债上市一周内价格翻倍，新券愈发火爆](https://finance.sina.com.cn/roll/2026-08-05/doc-inimhpnf4500266.shtml) | finance.sina.com.cn | 2026-08-05 | ➖ | Not evaluated in the latest brief run |
+| [茂化实华一天更正13份财报 会计差错致各期“经营活动现金流量净额”均下调](https://finance.sina.com.cn/jjxw/2026-08-05/doc-inimhpmx3503845.shtml) | finance.sina.com.cn | 2026-08-05 | ➖ | Not evaluated in the latest brief run |
+| [谷歌AI业务迎重大人事变动 Alphabet股价应声跌逾5%](https://finance.sina.com.cn/world/2026-08-06/doc-inimhyac1090767.shtml) | finance.sina.com.cn | 2026-08-06 | ➖ | Not evaluated in the latest brief run |
+| [沙特主权财富基金联合库什纳旗下Affinity Partners完成550亿美元收购EA交易](https://finance.sina.com.cn/stock/usstock/c/2026-08-05/doc-inimhpnf4496081.shtml) | finance.sina.com.cn | 2026-08-05 | ➖ | Not evaluated in the latest brief run |
+| [汇丰超六成利润源自香港市场，下半年计划推出首批稳定币](https://finance.sina.com.cn/roll/2026-08-05/doc-inimhpmz5071427.shtml) | finance.sina.com.cn | 2026-08-05 | ➖ | Not evaluated in the latest brief run |
+| [多家中小银行股权拍卖现流拍 专家：建议银行对外常态化披露股权变动底层缘由，明确风险归属](https://finance.sina.com.cn/roll/2026-08-05/doc-inimhpmz5067917.shtml) | finance.sina.com.cn | 2026-08-05 | ➖ | Not evaluated in the latest brief run |
+| [四川10家县级农商行获批解散，中小银行“减量提质”加速推进](https://finance.sina.com.cn/jjxw/2026-08-05/doc-inimhiec5188390.shtml) | finance.sina.com.cn | 2026-08-05 | ➖ | Not evaluated in the latest brief run |
+| [泰康人寿新疆哈密中心支公司被罚16.5万元：财务、业务数据不真实](https://finance.sina.com.cn/jryx/fd/2026-08-05/doc-inimhpnf4469701.shtml) | finance.sina.com.cn | 2026-08-05 | ➖ | Not evaluated in the latest brief run |
+| [美联储官员卡什卡利称通胀仍过高 呼吁立即开始渐进式加息](https://finance.sina.com.cn/world/2026-08-06/doc-inimhxzz4285504.shtml) | finance.sina.com.cn | 2026-08-06 | ➖ | Not evaluated in the latest brief run |
+| [美联储卡什卡利：“现在是时候开始缓慢上调”利率了](https://finance.sina.com.cn/stock/usstock/c/2026-08-05/doc-inimhpni1272951.shtml) | finance.sina.com.cn | 2026-08-05 | ➖ | Not evaluated in the latest brief run |
+| [欧洲债市：欧洲债券在油价下跌之际持稳](https://finance.sina.com.cn/world/2026-08-06/doc-inimhyac1075404.shtml) | finance.sina.com.cn | 2026-08-06 | ➖ | Not evaluated in the latest brief run |
+| [SpaceX债券在高评级债券中跌幅居前](https://finance.sina.com.cn/stock/usstock/c/2026-08-05/doc-inimhttx4998333.shtml) | finance.sina.com.cn | 2026-08-05 | ➖ | Not evaluated in the latest brief run |
+| [华安基金：7月美联储议息会议按兵不动，内部分裂加剧](https://finance.sina.com.cn/money/fund/jjh/2026-08-05/doc-inimhiec5130039.shtml) | finance.sina.com.cn | 2026-08-05 | ➖ | Not evaluated in the latest brief run |
 | [美股芯片巨头AMD股价大跌7%，市值跌破8000亿美元](https://m.21jingji.com/article/20260805/herald/5a01acdf977f3b1cffb4e23e1e83620a.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [美股深夜走高，半导体股翻红，金银大涨，国际油价下挫](https://m.21jingji.com/article/20260805/herald/81bb4ec3357378eaefbea3813c945305.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [中际旭创H股，高盛大幅加仓！幻方量化，多只产品年内负收益](https://m.21jingji.com/article/20260805/herald/7fff3420009d2033a1203c4c821b6714.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
@@ -127,6 +187,7 @@ _In Report? verdicts reflect the brief run of **2026-08-05** (generated 2026-08-
 | [南向资金翻倍涌入 恒生科技7月逆势涨8%](https://m.21jingji.com/article/20260806/76570d3efd27acd5fb43c3aec26fa8c2.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [SpaceX营收大增股价却跳水 星链造血难撑AI与航天投入](https://m.21jingji.com/article/20260806/3e3bf8472b091f1455a03a4deb7c616d.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [AMD营收创新高 CPU阵营正掀起新排位赛](https://m.21jingji.com/article/20260806/afef7302629789b87a4548e8e80f210c.html) | m.21jingji.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [美股开盘：标普、道指创新高，SpaceX、AMD大跌](https://m.21jingji.com/article/20260805/herald/1d9486b69143860b5dcd38f85e89ca53.html) | m.21jingji.com | 2026-08-05 | ➖ | Not evaluated in the latest brief run |
 | [上海证监局通报卓然股份案阶段性调查进展情况](https://www.csrc.gov.cn/shanghai/c100581/c7650089/content.shtml) | www.csrc.gov.cn | unknown | ➖ | Not evaluated in the latest brief run |
 | [中国证监会市场禁入决定书（郭新峰）](https://www.csrc.gov.cn/csrc/c101927/c7470684/content.shtml) | www.csrc.gov.cn | unknown | ➖ | Not evaluated in the latest brief run |
 | [关于对海南海控能源股份有限公司、李峥嵘、范煜晟、赵叶勇采取出具警示函措施的决定](https://www.csrc.gov.cn/hainan/c104738/c7650119/content.shtml) | www.csrc.gov.cn | 2026-08-05 | ➖ | Not evaluated in the latest brief run |
@@ -135,6 +196,13 @@ _In Report? verdicts reflect the brief run of **2026-08-05** (generated 2026-08-
 | [科磊发布FY2026Q4超预期财报 盘后股价下跌9%](https://www.eeo.com.cn/2026/0806/987565.shtml) | www.eeo.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
 | [露露乐蒙（LULU）创始人旧言论引日本抵制，或影响当地市场拓展](https://www.eeo.com.cn/2026/0805/987563.shtml) | www.eeo.com.cn | 2026-08-05 | ➖ | Not evaluated in the latest brief run |
 | [道达尔（TTE）收购欧洲四国风光资产 出售成熟资产股权获18亿欧元](https://www.eeo.com.cn/2026/0805/987562.shtml) | www.eeo.com.cn | 2026-08-05 | ➖ | Not evaluated in the latest brief run |
+| [美高梅中国面临母公司收购后股东策略调整相关中期风险](https://www.eeo.com.cn/2026/0806/987585.shtml) | www.eeo.com.cn | 2026-08-06 | ➖ | Not evaluated in the latest brief run |
+| [华美银行无息存款占比达26% 环比明显提升客户粘性增强](https://www.eeo.com.cn/2026/0806/987584.shtml) | www.eeo.com.cn | 2026-08-06 | ➖ | Not evaluated in the latest brief run |
+| [Floor &amp; Decor（FND）Q2业绩超预期，财报后股价上涨近7%](https://www.eeo.com.cn/2026/0806/987582.shtml) | www.eeo.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
+| [在岸人民币兑美元较周二夜盘收盘涨15点](https://www.eeo.com.cn/2026/0806/987581.shtml) | www.eeo.com.cn | 2026-08-06 | ➖ | Not evaluated in the latest brief run |
+| [麦当劳(MCD)发布2026年Q2财报 利润超预期增长明显放缓](https://www.eeo.com.cn/2026/0806/987580.shtml) | www.eeo.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
+| [西部数据所属科技板块估值或受9月降息预期变动影响](https://www.eeo.com.cn/2026/0806/987579.shtml) | www.eeo.com.cn | 2026-08-06 | ➖ | Not evaluated in the latest brief run |
+| [红迪网（RDDT）Q2业绩亮眼但股价大跌，CEO预警AI冲击流量](https://www.eeo.com.cn/2026/0806/987577.shtml) | www.eeo.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
 | [美债在定价什么？](https://www.gelonghui.com/p/5922139.html) | www.gelonghui.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [美债在定价什么？](https://www.gelonghui.com/p/5922139) | www.gelonghui.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [公告精选︱菱电电控：拟6亿元投建“菱电电控新能源电控产业园扩产扩建项目”；爱丽家居：相关核查工作已完成 股票将于8月6日复牌](https://www.gelonghui.com/p/5922135) | www.gelonghui.com | unknown | ➖ | Not evaluated in the latest brief run |
@@ -143,6 +211,9 @@ _In Report? verdicts reflect the brief run of **2026-08-05** (generated 2026-08-
 | [欧股收盘涨跌不一](https://www.gelonghui.com/live/2595286) | www.gelonghui.com | 2026-08-05 | ➖ | Not evaluated in the latest brief run |
 | [PayPal将为三大核心部门设定收入目标](https://www.gelonghui.com/live/2595280) | www.gelonghui.com | 2026-08-05 | ➖ | Not evaluated in the latest brief run |
 | [快讯-格隆汇](https://www.gelonghui.com/live/2595270) | www.gelonghui.com | 2026-08-05 | ➖ | Not evaluated in the latest brief run |
+| [快讯-格隆汇](https://www.gelonghui.com/live/2595451) | www.gelonghui.com | 2026-08-06 | ➖ | Not evaluated in the latest brief run |
+| [快讯-格隆汇](https://www.gelonghui.com/live/2595430) | www.gelonghui.com | 2026-08-06 | ➖ | Not evaluated in the latest brief run |
+| [加纳央行黄金采购计划2025年亏损19亿美元](https://www.gelonghui.com/live/2595423) | www.gelonghui.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [欧洲主要股指收盘涨跌不一](https://www.jiemian.com/article/14881556.html) | www.jiemian.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [8月5日晚间公告集锦](https://www.jiemian.com/article/14881412.html) | www.jiemian.com | 2026-08-06 | ➖ | Not evaluated in the latest brief run |
 | [过去一年新增诉讼、仲裁涉案金额近13亿元 重药控股360亿元应收账款困住现金流](https://www.nbd.com.cn/articles/2026-08-05/4533405.html) | www.nbd.com.cn | 2026-08-05 | ➖ | Not evaluated in the latest brief run |
