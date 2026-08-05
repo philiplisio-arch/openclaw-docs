@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-08-06 00:13 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-08-06 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-08-06 00:13 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **6335 unique auto/NEV articles** across **56 outlets**
+## Cumulative: **6344 unique auto/NEV articles** across **56 outlets**
 
 ## New per day
 | date | new articles |
@@ -69,14 +69,14 @@ _Updated 2026-08-06 00:13 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-08-03 | 159 |
 | 2026-08-04 | 169 |
 | 2026-08-05 | 155 |
-| 2026-08-06 | 8 |
+| 2026-08-06 | 17 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.d1ev.com | 1348 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 554 |
+| vc.yiche.com | 561 |
 | auto.gasgoo.com | 422 |
 | 36kr.com | 309 |
 | www.stcn.com | 277 |
@@ -86,7 +86,7 @@ _Updated 2026-08-06 00:13 | discovery-only, zero LLM tokens | runs every 3h_
 | egs.stcn.com | 190 |
 | news.yiche.com | 181 |
 | www.nbd.com.cn | 171 |
-| www.news.cn | 125 |
+| www.news.cn | 126 |
 | m.21jingji.com | 121 |
 | www.cada.cn | 115 |
 | www.yicai.com | 110 |
@@ -105,7 +105,7 @@ _Updated 2026-08-06 00:13 | discovery-only, zero LLM tokens | runs every 3h_
 | auto.ce.cn | 21 |
 | www.ce.cn | 17 |
 | cv.ce.cn | 16 |
-| i.gasgoo.com | 14 |
+| i.gasgoo.com | 15 |
 | economy.gmw.cn | 11 |
 | bgimg.ce.cn | 11 |
 | industry.caijing.com.cn | 9 |
@@ -133,17 +133,35 @@ _Updated 2026-08-06 00:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-08-06 — 8 articles
+### 2026-08-06 — 17 articles
 - **[印度昌迪加尔大学新型“车辆安全系统”获专利 旨在打击日益猖獗的车辆盗窃案件](https://auto.gasgoo.com/news/202608/5I70468772C409.shtml)** — _auto.gasgoo.com_ · date: unknown
   盖世汽车讯 据外媒报道，印度昌迪加尔大学（Chandigarh University）研究员Ashish Sharma教授凭借其创新的智能车辆安全系统获得了设计专利。该系统能够检测入侵者，拍摄照片和视频，追踪车辆位置，并通过手机即时提醒车主。 图片来源：昌迪加尔大学 *特别声明：本文为技术类文章，禁止转载或大篇幅摘录！违规转载，法律必究。 本文地址：http
 - **[1-6月比亚迪乘用车出口目的地TOP10](https://auto.gasgoo.com/news/202608/5I70468740C110.shtml)** — _auto.gasgoo.com_ · date: unknown
 - **[韩国研究团队开发出混合动力电池粘合剂 可提高电动汽车的续航里程](https://auto.gasgoo.com/news/202608/5I70468771C409.shtml)** — _auto.gasgoo.com_ · date: unknown
 - **[武汉元丰汽车零部件研发生产基地落户武汉经开区](https://egs.stcn.com/news/detail/2323680.html)** — _egs.stcn.com_ · date: unknown
   e公司 08-06 00:00 人民财讯8月5日电，据武汉经开区消息，8月5日，武汉经开区与西上海旗下控股子公司武汉元丰汽车零部件有限公司签约。西上海再次追投武汉经开区，建设武汉元丰汽车零部件研发生产基地，进一步增强经开区在智能底盘执行部件领域的供给能力。该项目总投资约1.56亿元，将重点布局电子驻车液压盘式制动器（EPB）等线控制动产品，新增自动化工艺设备
+- **[车载大型充电宝采购项目](https://i.gasgoo.com/purchas/production/345548.html)** — _i.gasgoo.com_ · date: unknown
+  请登录 免费注册 采购商客服 欢欢＠盖世汽车供应链 供应商客服 悠悠＠盖世汽车 盖世客服 豆豆＠盖世汽车 商务合作 市场合作 新闻合作 企业认证 企业推广 个人认证 专家智库 共创咨询 大数据 我收藏的公司 发布采购项目 我发布的项目 我的名片夹 我的公司信息 我报名的项目 我的访客 提示 验证码输入错误 如有疑问请发邮件至data-group@gasgoo
+- **[数字豪华新范本 全新奔驰纯电GLC](https://vc.yiche.com/vplay/12469690.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 33.98-51.80万 奔驰 GLC 纯电 VS 宝马 iX3 到底怎么选？一句话总结：宝马赢麻了 丁丁说车 奇瑞风云T7即将上市 闪电快飞 奔驰GLC“纯电版”初体验，
+- **[15-20万纯电SUV—5款力荐！_易车视频](https://vc.yiche.com/vplay/12391976.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 14.38-16.58万 上半年销量差距360万台，比亚迪却放话5年超越丰田，胜算几何？ 车域无疆 15万级SUV硬实力横评深蓝S07太卷了 小didi车评 这就是上市半年
+- **[吉利上“硬菜”！84.87%得房率+千里浩瀚H3，限时8.98万起！](https://vc.yiche.com/vplay/12410904.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 8.98-13.18万 新能源车销量超过燃油车？听听贾老师的见解 海星茶190815 造型优雅，内饰精致！吉利银河A7 EV与EM如何选？ 极速试驾 奇瑞风云T7即将上市
+- **[它变得更潮了！比亚迪2027款海豹06](https://vc.yiche.com/vplay/12468836.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 9.68-12.98万 令人惊叹的宝马第六代电驱技术？全新宝马 iX3 动力电池深度剖析！ 光年派1019 海豹06颜值有多高？10万级家轿也有审美价值 小白买车 海洋网：
+- **[国补预售价16.99万元起，至境L7纯电版这么顶，谁还买新势力？ #别克至境L7纯电](https://vc.yiche.com/vplay/12468661.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 17.39-21.99万 探店别克至境L7纯电，老钱风“876”车型，订车送拉夫劳伦礼盒 智驭车联 0元油转电，至境 L7这波要爆 车动力 好稳好稳！台风天顶着暴雨跑高速，
+- **[卷成这样才16.99万元起！别克至境L7纯电预售](https://vc.yiche.com/vplay/12468206.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 17.39-21.99万 15万级唯一运动旅行车，领克07GT你心动吗？ 这车值么 重塑市场 顶配只要24.98万 全域舒享旗舰MPV极狐问道V9上市 玉婕驾到 试驾日产N
+- **[2027款艾瑞泽8 PRO即将上市！奇瑞燃油车智能化真不客气了](https://vc.yiche.com/vplay/12468976.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 11.69-14.99万 放弃合资双擎，选第5代帝豪i-HEV到底值不值？ 之乎车也 2026年汽车下乡补贴政策：农村购车最高可减免3万元，符合条件者可直接领取补贴 拥抱的
 - **[占比35%！韩国每卖3辆电动汽车，就有1辆是中国造！中国产特斯拉是主力](https://www.nbd.com.cn/articles/2026-08-05/4533372.html)** — _www.nbd.com.cn_ · published 2026-08-05
   每日经济新闻 2026-08-05 22:49:48 每经编辑｜段炼 据韩联社8月4日报道，今年上半年，在韩国售出的电动汽车中，中国制造汽车首次超过三分之一。 韩国汽车移动产业协会4日发布分析报告显示，今年1月至6月，在韩国新登记的中国制造电动汽车接近7万辆，同比增长178.7%，在整体新登记的电动汽车中占比升至35%。 韩国汽车移动产业协会表示，中国产电车
 - **[从增程“吃肉”到纯电“反攻”，蔚来秦力洪预判：中国新能源车市动力格局正迎来拐点](https://www.nbd.com.cn/articles/2026-08-05/4533241.html)** — _www.nbd.com.cn_ · published 2026-08-05
   2026-08-05 21:23:39 每经记者｜李星 每经编辑｜余婷婷 “去年第四季度没‘翘尾’，今年应该同比会好。”日前，蔚来联合创始人、总裁秦力洪在接受《每日经济新闻》记者采访时表示。 秦力洪作出这一预测的依据是，7月以来国内汽车市场下滑趋势已在放缓。去年四季度地方性“以旧换新”补贴开始退出，导致同期基数偏低，这为今年同比数据提供了结构性支撑。 对于上
+- **[俄无人机厂负责人遭汽车炸弹袭击](https://www.news.cn/world/20260806/878a5d4a76044ae69b796fd6a64fd8b0/c.html)** — _www.news.cn_ · published 2026-08-06
+  新华社莫斯科8月5日电（记者黄河）俄罗斯媒体5日报道称，俄罗斯中部斯维尔德洛夫斯克州首府叶卡捷琳堡市郊一村庄4日发生汽车爆炸事件，乌拉尔无人机厂总经理受重伤，其保镖被炸身亡。 报道称，该厂总经理弗拉基米尔·特卡丘克在爆炸中身受重伤，被送往医院重症监护室。特卡丘克的司机兼保镖在爆炸中身亡。现场视频显示，特卡丘克乘坐的奔驰车在爆炸中被烧毁。 俄有关部门已立案侦查
 - **[武汉元丰汽车零部件研发生产基地落户武汉经开区](https://www.stcn.com/article/detail/4060508.html)** — _www.stcn.com_ · date: unknown
   人民财讯8月5日电，据武汉经开区消息，8月5日，武汉经开区与西上海旗下控股子公司武汉元丰汽车零部件有限公司签约。西上海再次追投武汉经开区，建设武汉元丰汽车零部件研发生产基地，进一步增强经开区在智能底盘执行部件领域的供给能力。该项目总投资约1.56亿元，将重点布局电子驻车液压盘式制动器（EPB）等线控制动产品，新增自动化工艺设备、研发测试中心及相关配套设施。
 - **[一财社论：智能网联汽车产业发展，安全永远要放在第一位](https://www.yicai.com/news/103306927.html)** — _www.yicai.com_ · published 2027-07-01
