@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-08-05 21:13 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-08-06 00:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-08-05 21:13 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **6327 unique auto/NEV articles** across **56 outlets**
+## Cumulative: **6335 unique auto/NEV articles** across **56 outlets**
 
 ## New per day
 | date | new articles |
@@ -69,6 +69,7 @@ _Updated 2026-08-05 21:13 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-08-03 | 159 |
 | 2026-08-04 | 169 |
 | 2026-08-05 | 155 |
+| 2026-08-06 | 8 |
 
 ## By outlet
 | outlet | articles |
@@ -76,19 +77,19 @@ _Updated 2026-08-05 21:13 | discovery-only, zero LLM tokens | runs every 3h_
 | www.d1ev.com | 1348 |
 | www.dongchedi.com | 1088 |
 | vc.yiche.com | 554 |
-| auto.gasgoo.com | 419 |
+| auto.gasgoo.com | 422 |
 | 36kr.com | 309 |
-| www.stcn.com | 276 |
+| www.stcn.com | 277 |
 | www.caam.org.cn | 210 |
 | www.cnr.cn | 209 |
 | autodata.gasgoo.com | 196 |
-| egs.stcn.com | 189 |
+| egs.stcn.com | 190 |
 | news.yiche.com | 181 |
-| www.nbd.com.cn | 169 |
+| www.nbd.com.cn | 171 |
 | www.news.cn | 125 |
 | m.21jingji.com | 121 |
 | www.cada.cn | 115 |
-| www.yicai.com | 109 |
+| www.yicai.com | 110 |
 | www.gelonghui.com | 90 |
 | auto.caijing.com.cn | 80 |
 | www.zqrb.cn | 72 |
@@ -131,6 +132,22 @@ _Updated 2026-08-05 21:13 | discovery-only, zero LLM tokens | runs every 3h_
 | cen.ce.cn | 1 |
 
 ## Articles captured by day (newest first)
+
+### 2026-08-06 — 8 articles
+- **[印度昌迪加尔大学新型“车辆安全系统”获专利 旨在打击日益猖獗的车辆盗窃案件](https://auto.gasgoo.com/news/202608/5I70468772C409.shtml)** — _auto.gasgoo.com_ · date: unknown
+  盖世汽车讯 据外媒报道，印度昌迪加尔大学（Chandigarh University）研究员Ashish Sharma教授凭借其创新的智能车辆安全系统获得了设计专利。该系统能够检测入侵者，拍摄照片和视频，追踪车辆位置，并通过手机即时提醒车主。 图片来源：昌迪加尔大学 *特别声明：本文为技术类文章，禁止转载或大篇幅摘录！违规转载，法律必究。 本文地址：http
+- **[1-6月比亚迪乘用车出口目的地TOP10](https://auto.gasgoo.com/news/202608/5I70468740C110.shtml)** — _auto.gasgoo.com_ · date: unknown
+- **[韩国研究团队开发出混合动力电池粘合剂 可提高电动汽车的续航里程](https://auto.gasgoo.com/news/202608/5I70468771C409.shtml)** — _auto.gasgoo.com_ · date: unknown
+- **[武汉元丰汽车零部件研发生产基地落户武汉经开区](https://egs.stcn.com/news/detail/2323680.html)** — _egs.stcn.com_ · date: unknown
+  e公司 08-06 00:00 人民财讯8月5日电，据武汉经开区消息，8月5日，武汉经开区与西上海旗下控股子公司武汉元丰汽车零部件有限公司签约。西上海再次追投武汉经开区，建设武汉元丰汽车零部件研发生产基地，进一步增强经开区在智能底盘执行部件领域的供给能力。该项目总投资约1.56亿元，将重点布局电子驻车液压盘式制动器（EPB）等线控制动产品，新增自动化工艺设备
+- **[占比35%！韩国每卖3辆电动汽车，就有1辆是中国造！中国产特斯拉是主力](https://www.nbd.com.cn/articles/2026-08-05/4533372.html)** — _www.nbd.com.cn_ · published 2026-08-05
+  每日经济新闻 2026-08-05 22:49:48 每经编辑｜段炼 据韩联社8月4日报道，今年上半年，在韩国售出的电动汽车中，中国制造汽车首次超过三分之一。 韩国汽车移动产业协会4日发布分析报告显示，今年1月至6月，在韩国新登记的中国制造电动汽车接近7万辆，同比增长178.7%，在整体新登记的电动汽车中占比升至35%。 韩国汽车移动产业协会表示，中国产电车
+- **[从增程“吃肉”到纯电“反攻”，蔚来秦力洪预判：中国新能源车市动力格局正迎来拐点](https://www.nbd.com.cn/articles/2026-08-05/4533241.html)** — _www.nbd.com.cn_ · published 2026-08-05
+  2026-08-05 21:23:39 每经记者｜李星 每经编辑｜余婷婷 “去年第四季度没‘翘尾’，今年应该同比会好。”日前，蔚来联合创始人、总裁秦力洪在接受《每日经济新闻》记者采访时表示。 秦力洪作出这一预测的依据是，7月以来国内汽车市场下滑趋势已在放缓。去年四季度地方性“以旧换新”补贴开始退出，导致同期基数偏低，这为今年同比数据提供了结构性支撑。 对于上
+- **[武汉元丰汽车零部件研发生产基地落户武汉经开区](https://www.stcn.com/article/detail/4060508.html)** — _www.stcn.com_ · date: unknown
+  人民财讯8月5日电，据武汉经开区消息，8月5日，武汉经开区与西上海旗下控股子公司武汉元丰汽车零部件有限公司签约。西上海再次追投武汉经开区，建设武汉元丰汽车零部件研发生产基地，进一步增强经开区在智能底盘执行部件领域的供给能力。该项目总投资约1.56亿元，将重点布局电子驻车液压盘式制动器（EPB）等线控制动产品，新增自动化工艺设备、研发测试中心及相关配套设施。
+- **[一财社论：智能网联汽车产业发展，安全永远要放在第一位](https://www.yicai.com/news/103306927.html)** — _www.yicai.com_ · published 2027-07-01
+  {{aisd}} AI生成 免责声明 日前，《智能网联汽车自动驾驶系统安全要求》（GB 44721—2026）强制性国家标准正式发布，拟于2027年7月1日起正式实施。“标准”立足我国产业发展与行业监管实际需求，兼顾技术可行性、产业适配性与落地实操性，构建了维度完整、要求清晰、适配国情的安全要求体系，为自动驾驶产品明确了统一的安全准入基线。 近年来，我国智能
 
 ### 2026-08-05 — 155 articles
 - **[涉及自动驾驶，强制性国家标准正式发布](https://36kr.com/p/3925157914622081)** — _36kr.com_ · published 2026-08-05
