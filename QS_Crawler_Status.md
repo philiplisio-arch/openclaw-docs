@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-08-07 00:13 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-08-07 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-08-07 00:13 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **6471 unique auto/NEV articles** across **57 outlets**
+## Cumulative: **6472 unique auto/NEV articles** across **57 outlets**
 
 ## New per day
 | date | new articles |
@@ -70,14 +70,14 @@ _Updated 2026-08-07 00:13 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-08-04 | 169 |
 | 2026-08-05 | 155 |
 | 2026-08-06 | 134 |
-| 2026-08-07 | 10 |
+| 2026-08-07 | 11 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.d1ev.com | 1369 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 576 |
+| vc.yiche.com | 577 |
 | auto.gasgoo.com | 438 |
 | 36kr.com | 309 |
 | www.stcn.com | 281 |
@@ -135,7 +135,7 @@ _Updated 2026-08-07 00:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-08-07 — 10 articles
+### 2026-08-07 — 11 articles
 - **[特斯拉起诉加拿大曼尼托巴省将其排除在电动车补贴计划之外](https://auto.gasgoo.com/news/202608/6I70468864C501.shtml)** — _auto.gasgoo.com_ · date: unknown
   盖世汽车讯 据外媒报道，特斯拉已就加拿大曼尼托巴省将其排除在省级电动车补贴计划之外一事提起诉讼，该案目前已进入法庭审理阶段。 曼尼托巴省政府正请求该省王座法院驳回特斯拉的司法复审申请。特斯拉表示，自被剔除出补贴名单以来，其加拿大客户已损失至少56万加元的补贴金额。 曼尼托巴省于2024年夏季启动了一项总额为2,500万加元的电动车补贴计划，向购买价格低于7万
 - **[608.5GWh背后：全球电动汽车动力电池竞争进入“中国平台化扩张”时代](https://auto.gasgoo.com/news/202608/6I70468944C501.shtml)** — _auto.gasgoo.com_ · date: unknown
@@ -148,6 +148,8 @@ _Updated 2026-08-07 00:13 | discovery-only, zero LLM tokens | runs every 3h_
   21世纪经济报道记者 何煦阳 《21汽车·一见Auto》从多方独立信源处获悉，前小鹏集团产品副总裁陈永海已加入众擎机器人，担任运营总裁，向董事长及CEO赵同阳汇报。 陈永海此前是高德地图产品运营的负责人，2022年加入小鹏，后又负责其产品中心。 一位知情人士告诉《21汽车·一见Auto》，陈永海今年1月从小鹏集团离职，后众擎创始人赵同阳邀请陈永海加入众擎。另
 - **[宝马3系在华累计销量突破200万辆，新世代i3成都车展亮相](https://m.21jingji.com/article/20260806/herald/ff1fef35343c3cc48de7702afa8ad69c.html)** — _m.21jingji.com_ · date: unknown
   8月6日，宝马中国宣布，BMW 3系在中国市场累计销量突破200万辆。该车型自1975年问世以来历经七代传承，全球累计销量超千万辆。 据宝马方面透露，基于Neue Klasse原生纯电平台开发的新世代BMW i3将在8月21日开幕的成都车展正式亮相。该车型计划2026年第四季度由华晨宝马投产上市，采用800V高压架构，CLTC续航超1000公里，充电10分钟
+- **[福特不讲武德！大马力混动+四驱+6L级油耗，价格也很香！](https://vc.yiche.com/vplay/12424232.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 22.98-30.98万 23万级最均衡家用SUV！26款锐界L真没短板 说车的佳鑫 不到18万拿下合资大七座!2026款福特锐界l是真正懂中国家庭的车 evanHaina
 - **[特斯拉FSD超速被罚，司机辩称“自动驾驶”不背锅](https://www.d1ev.com/newsflash/309462)** — _www.d1ev.com_ · date: unknown
   8月5日，美国科罗拉多州帕克市警方公布了一起涉及特斯拉FSD功能的交通违法案例。一辆特斯拉在限速45英里/小时的道路上以64英里/小时的速度行驶，被警方拦截。驾驶员辩称自己开启了“ 自动驾驶”，因此超速不关他的事。警方强调，无论车辆配备何种辅助驾驶功能，驾驶员仍需对车辆安全运行承担法律责任。 特斯拉所有量产车所配备的辅助驾驶系统均属于L2级，尽管特斯拉将其系
 - **[深蓝S05纯电新车型上市，售价11.99万起，续航620km，3C超充15分钟充能](https://www.d1ev.com/newsflash/309457)** — _www.d1ev.com_ · date: unknown
