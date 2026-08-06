@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-08-06 21:13 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-08-07 00:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-08-06 21:13 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **6461 unique auto/NEV articles** across **57 outlets**
+## Cumulative: **6471 unique auto/NEV articles** across **57 outlets**
 
 ## New per day
 | date | new articles |
@@ -70,14 +70,15 @@ _Updated 2026-08-06 21:13 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-08-04 | 169 |
 | 2026-08-05 | 155 |
 | 2026-08-06 | 134 |
+| 2026-08-07 | 10 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.d1ev.com | 1367 |
+| www.d1ev.com | 1369 |
 | www.dongchedi.com | 1088 |
 | vc.yiche.com | 576 |
-| auto.gasgoo.com | 435 |
+| auto.gasgoo.com | 438 |
 | 36kr.com | 309 |
 | www.stcn.com | 281 |
 | www.cnr.cn | 220 |
@@ -87,10 +88,10 @@ _Updated 2026-08-06 21:13 | discovery-only, zero LLM tokens | runs every 3h_
 | news.yiche.com | 188 |
 | www.nbd.com.cn | 175 |
 | www.news.cn | 130 |
-| m.21jingji.com | 122 |
+| m.21jingji.com | 126 |
 | www.cada.cn | 116 |
 | www.yicai.com | 111 |
-| www.gelonghui.com | 92 |
+| www.gelonghui.com | 93 |
 | auto.caijing.com.cn | 81 |
 | www.zqrb.cn | 73 |
 | finance.eastmoney.com | 53 |
@@ -133,6 +134,26 @@ _Updated 2026-08-06 21:13 | discovery-only, zero LLM tokens | runs every 3h_
 | cen.ce.cn | 1 |
 
 ## Articles captured by day (newest first)
+
+### 2026-08-07 — 10 articles
+- **[特斯拉起诉加拿大曼尼托巴省将其排除在电动车补贴计划之外](https://auto.gasgoo.com/news/202608/6I70468864C501.shtml)** — _auto.gasgoo.com_ · date: unknown
+  盖世汽车讯 据外媒报道，特斯拉已就加拿大曼尼托巴省将其排除在省级电动车补贴计划之外一事提起诉讼，该案目前已进入法庭审理阶段。 曼尼托巴省政府正请求该省王座法院驳回特斯拉的司法复审申请。特斯拉表示，自被剔除出补贴名单以来，其加拿大客户已损失至少56万加元的补贴金额。 曼尼托巴省于2024年夏季启动了一项总额为2,500万加元的电动车补贴计划，向购买价格低于7万
+- **[608.5GWh背后：全球电动汽车动力电池竞争进入“中国平台化扩张”时代](https://auto.gasgoo.com/news/202608/6I70468944C501.shtml)** — _auto.gasgoo.com_ · date: unknown
+- **[奥迪发布最高效车型A2 e-tron测试照](https://auto.gasgoo.com/news/202608/6I70468916C107.shtml)** — _auto.gasgoo.com_ · date: unknown
+- **[神行者8首台量产车下线，奇瑞董事长尹同跃与苏州市领导签名纪念](https://m.21jingji.com/article/20260806/herald/af76f08407ef528466232b520c2a1525.html)** — _m.21jingji.com_ · date: unknown
+  21世纪经济报道记者 何煦阳 7月30日，神行者8首台量产车在奇瑞与捷豹路虎合资的常熟工厂下线，奇瑞董事长尹同跃与江苏省委常委、苏州市委书记范波共同签名纪念。 （视频编辑：章启良） （作者：何煦阳,章启良 编辑：吴晓宇,张明艳 视频编辑：章启良） 南方财经全媒体集团及其客户端所刊载内容的知识产权均属其旗下媒体。未经书面授权，任何人不得以任何方式使用。详情或获
+- **[摩托车比汽车更赚钱？本田Q1利润翻倍，单季狂赚5307亿日元](https://m.21jingji.com/article/20260806/herald/a3f7ddd085f4da4da5e09aded114548b.html)** — _m.21jingji.com_ · date: unknown
+  日前，本田汽车发布2027财年第一财季（2026年4月至6月）财报，多项指标创下历史新高。 数据显示，当季营业收入6.06万亿日元（约合380亿美元），同比增长13.5%；营业利润5307.67亿日元，较上年同期增长117.4%，创季度历史新高；归母净利润4509.15亿日元（约合29亿美元），同比增长129.3%。这是本田六个季度以来首次实现季度利润同比增
+- **[陈永海加入众擎机器人担任运营总裁，曾担任小鹏集团产品副总裁](https://m.21jingji.com/article/20260806/herald/f4b144a2aa90a8c064e8a2ebd2245e19.html)** — _m.21jingji.com_ · date: unknown
+  21世纪经济报道记者 何煦阳 《21汽车·一见Auto》从多方独立信源处获悉，前小鹏集团产品副总裁陈永海已加入众擎机器人，担任运营总裁，向董事长及CEO赵同阳汇报。 陈永海此前是高德地图产品运营的负责人，2022年加入小鹏，后又负责其产品中心。 一位知情人士告诉《21汽车·一见Auto》，陈永海今年1月从小鹏集团离职，后众擎创始人赵同阳邀请陈永海加入众擎。另
+- **[宝马3系在华累计销量突破200万辆，新世代i3成都车展亮相](https://m.21jingji.com/article/20260806/herald/ff1fef35343c3cc48de7702afa8ad69c.html)** — _m.21jingji.com_ · date: unknown
+  8月6日，宝马中国宣布，BMW 3系在中国市场累计销量突破200万辆。该车型自1975年问世以来历经七代传承，全球累计销量超千万辆。 据宝马方面透露，基于Neue Klasse原生纯电平台开发的新世代BMW i3将在8月21日开幕的成都车展正式亮相。该车型计划2026年第四季度由华晨宝马投产上市，采用800V高压架构，CLTC续航超1000公里，充电10分钟
+- **[特斯拉FSD超速被罚，司机辩称“自动驾驶”不背锅](https://www.d1ev.com/newsflash/309462)** — _www.d1ev.com_ · date: unknown
+  8月5日，美国科罗拉多州帕克市警方公布了一起涉及特斯拉FSD功能的交通违法案例。一辆特斯拉在限速45英里/小时的道路上以64英里/小时的速度行驶，被警方拦截。驾驶员辩称自己开启了“ 自动驾驶”，因此超速不关他的事。警方强调，无论车辆配备何种辅助驾驶功能，驾驶员仍需对车辆安全运行承担法律责任。 特斯拉所有量产车所配备的辅助驾驶系统均属于L2级，尽管特斯拉将其系
+- **[深蓝S05纯电新车型上市，售价11.99万起，续航620km，3C超充15分钟充能](https://www.d1ev.com/newsflash/309457)** — _www.d1ev.com_ · date: unknown
+  8月6日，新款深蓝S05正式上市，推出5款纯电车型，售价区间11.99-15.19万元，限时优惠价11.59-14.49万元。新车延续家族“共生美学”设计理念，升级星际飞翼设计语言，主要针对灯组细节进行升级。车身尺寸为4620/1900/1600mm，轴距2880mm，配备无框车门、半隐藏式车门把手和18英寸轮圈。内饰方面，提供星云紫、热浪橙、星岩灰三种颜色
+- **[华阳集团(002906.SZ)：公司推出的AIBOX产品已获得车企平台型定点项目，即将实现量产](https://www.gelonghui.com/news/5281642)** — _www.gelonghui.com_ · date: unknown
+  格隆汇8月6日丨华阳集团(002906.SZ)在投资者关系中表示，有被问到：公司AI BOX产品介绍及市场进展？ 答：公司与英特尔联合打造AIBOX产品，依托华阳自研AAOP软件开放平台与SOA架构，通过标准化高速接口便捷接入，无需改动原车架构，即可为平台化座舱方案搭建强劲的AI算力底座，支撑35B及以上级别的端侧大模型本地化部署，并依托端云协同架构，实现多
 
 ### 2026-08-06 — 134 articles
 - **[东风新能源L系三车首发，覆盖纯电、插混、增程三大路径](https://auto.caijing.com.cn/2026/0806/5175636.shtml)** — _auto.caijing.com.cn_ · date: unknown
