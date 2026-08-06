@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-08-06 18:13 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-08-06 21:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-08-06 18:13 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **6443 unique auto/NEV articles** across **57 outlets**
+## Cumulative: **6461 unique auto/NEV articles** across **57 outlets**
 
 ## New per day
 | date | new articles |
@@ -69,27 +69,27 @@ _Updated 2026-08-06 18:13 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-08-03 | 159 |
 | 2026-08-04 | 169 |
 | 2026-08-05 | 155 |
-| 2026-08-06 | 116 |
+| 2026-08-06 | 134 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.d1ev.com | 1363 |
+| www.d1ev.com | 1367 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 569 |
+| vc.yiche.com | 576 |
 | auto.gasgoo.com | 435 |
 | 36kr.com | 309 |
-| www.stcn.com | 279 |
-| www.cnr.cn | 219 |
+| www.stcn.com | 281 |
+| www.cnr.cn | 220 |
 | www.caam.org.cn | 211 |
 | autodata.gasgoo.com | 202 |
-| egs.stcn.com | 191 |
+| egs.stcn.com | 192 |
 | news.yiche.com | 188 |
-| www.nbd.com.cn | 174 |
+| www.nbd.com.cn | 175 |
 | www.news.cn | 130 |
 | m.21jingji.com | 122 |
 | www.cada.cn | 116 |
-| www.yicai.com | 110 |
+| www.yicai.com | 111 |
 | www.gelonghui.com | 92 |
 | auto.caijing.com.cn | 81 |
 | www.zqrb.cn | 73 |
@@ -99,7 +99,7 @@ _Updated 2026-08-06 18:13 | discovery-only, zero LLM tokens | runs every 3h_
 | www.xinhuanet.com | 43 |
 | www.chinanews.com.cn | 41 |
 | cn.chinadaily.com.cn | 32 |
-| qzs.stcn.com | 27 |
+| qzs.stcn.com | 28 |
 | m.ce.cn | 26 |
 | auto.ce.cn | 25 |
 | www.ceweekly.cn | 21 |
@@ -134,7 +134,7 @@ _Updated 2026-08-06 18:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-08-06 — 116 articles
+### 2026-08-06 — 134 articles
 - **[东风新能源L系三车首发，覆盖纯电、插混、增程三大路径](https://auto.caijing.com.cn/2026/0806/5175636.shtml)** — _auto.caijing.com.cn_ · date: unknown
   8月5日，东风风神新能源L系三款新车，风神L8Y、L8+、L9正式亮相。三款车型分别聚焦年轻家庭、智能科技家庭和三代同堂大家庭，覆盖纯电、插混、增程三种动力形式，以差异化定位回应不同家庭阶段的出行需求。据悉，三款新车将于8月起陆续上市。 三款车型统一采用新能源家族式前脸，并首次启用发光版“双飞燕”品牌标识。外观色彩方面，风神L8Y提供“琉璃紫”车身色，风神L
 - **[丰田第一财季净利润增长75.6%,上调全年业绩预期](https://auto.ce.cn/auto/gundong/202608/t20260806_3131976.shtml)** — _auto.ce.cn_ · published 2026-08-06
@@ -191,6 +191,8 @@ _Updated 2026-08-06 18:13 | discovery-only, zero LLM tokens | runs every 3h_
   e公司 08-06 00:00 人民财讯8月5日电，据武汉经开区消息，8月5日，武汉经开区与西上海旗下控股子公司武汉元丰汽车零部件有限公司签约。西上海再次追投武汉经开区，建设武汉元丰汽车零部件研发生产基地，进一步增强经开区在智能底盘执行部件领域的供给能力。该项目总投资约1.56亿元，将重点布局电子驻车液压盘式制动器（EPB）等线控制动产品，新增自动化工艺设备
 - **[均普智能交付全球头部车企方向盘智能装配线](https://egs.stcn.com/news/detail/2323985.html)** — _egs.stcn.com_ · date: unknown
   人民财讯8月6日电，据均普智能消息，2026年7月，均普智能为某世界500强头部车企打造并交付了新一代方向盘智能装配线，助力其核心转向系统零部件实现高效、高精度、柔性化量产。该产线可兼容40余种配置组合，以30秒行业领先节拍实现单日近千台产出。
+- **[松原安全获欧洲汽车制造商定点 项目生命周期销售额约6.91亿元](https://egs.stcn.com/news/detail/2324030.html)** — _egs.stcn.com_ · date: unknown
+  8月6日晚间，松原安全(300893)发布公告，全资子公司松原（安徽）汽车安全系统有限公司近日获得某欧洲汽车制造商S客户X项目定点，将为该项目在欧洲地区供应方向盘与安全气囊产品，项目生命周期7年，对应销售额约6.91亿元。 松原安全表示，本次定点是公司再次获得S客户项目定点，将继续强化公司在汽车被动安全系统领域的地位，同时进一步深化出海及国际化战略。 近期，
 - **[多机构调研汽车业上市公司 全球化与新业务获关注](https://finance.ce.cn/stock/gsgdbd/202608/t20260806_3130384.shtml)** — _finance.ce.cn_ · published 2026-08-06
   近期，汽车行业相关上市公司受到机构投资者的广泛关注。据同花顺iFinD数据初步统计，按调研日期统计，7月1日至8月5日上午12时，共有39家A股汽车行业上市公司迎来机构调研，累计调研总次数为61次，参与调研的机构数量超过500家。 汽车行业上市公司获机构多次调研 分行业来看，上述被调研的上市公司中，汽车零部件领域公司数量占绝对多数，达30家；商用车、乘用车、
 - **[多机构调研汽车业上市公司 全球化与新业务获关注](https://finance.eastmoney.com/a/202608063832954737.html)** — _finance.eastmoney.com_ · date: unknown
@@ -230,6 +232,8 @@ _Updated 2026-08-06 18:13 | discovery-only, zero LLM tokens | runs every 3h_
   推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 8月6日，大众官方发布了，与众09四款全新外观颜色。四款颜色分别为晴海蓝、暮光紫、素月白、耀夜黑。新车基于大众人本科技与黄金标准打造，在设计、空间、智能等方面带来全维突破。 据此前申报信息，与众09
 - **[smart精灵#2量产版最新谍照 将于10月巴黎车展首发](https://news.yiche.com/xinchexiaoxi/20260806/15112066259.html)** — _news.yiche.com_ · date: unknown
   推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 8月6日，易车编辑拍摄到了一组smart精灵#2量产版车型最新谍照。该车由梅赛德斯-奔驰设计团队操刀设计，基于smart内部研发团队专为超紧凑车型打造的全新架构打造。据悉，smart精灵#2量产版将
+- **[监管整治汽车金融乱象！剑指“高息高返”、“零首付”“低首付”诱导购车](https://qzs.stcn.com/article/detail/622177.html)** — _qzs.stcn.com_ · date: unknown
+  越来越多地方金融监管局，正在深化整治辖内金融机构与第三方合作平台的无序竞争，包括汽车金融、普惠金融以及与第三方机构各类合作等。汽车金融领域，“高息高返”是重点整顿现象。 为维护消费者合法权益，记者独家获悉，华东某金融监管局下发了关于汽车金融的最新监管要求。该金融监管局对辖内金融机构审慎制定商用车金融业务发展规划、加强商用车金融业务全流程管理、强化商用车保险保
 - **[国内最大自航式纯电驱布缆船“蓝海领航”下水](https://tech.gmw.cn/2026-08/06/content_38929679.htm)** — _tech.gmw.cn_ · published 2026-08-06
   点击右上角微信好友 朋友圈 请使用浏览器分享功能进行分享 8月4日，中国船舶集团七〇八所自主研发设计的国内最大自航式纯电驱深海海缆敷设船“蓝海领航”在江苏下水。这艘海上风电领域的大国重器建成后，将承担我国深远海风电场高压海缆敷设、跨洋海底电力线缆铺设等关键任务。 该船满载排水量达3.5万吨，中央转盘最大载缆量16000吨，船长139.8米，具备DP-2动力定
 - **[数字豪华新范本 全新奔驰纯电GLC](https://vc.yiche.com/vplay/12469690.html)** — _vc.yiche.com_ · date: unknown
@@ -262,6 +266,20 @@ _Updated 2026-08-06 18:13 | discovery-only, zero LLM tokens | runs every 3h_
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 12.38-15.68万 12.38万的小鹏MONA L03能买吗？优缺点体验给你答案 牛奔试车 十几万啥都有，友商直呼受不鸟......10分钟跟着镜头看小鹏MONA L
 - **[《夏东评车》享界G9](https://vc.yiche.com/vplay/12480876.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 特斯拉Model X电机高发故障维修：行驶异响修复案例分享 鹿光030426 特斯拉座椅防夹挑战 特斯拉Tesla 享界G9开启预售：50万级SUV市场迎来“破局者
+- **[赛道测试 途观L 插电混动 2026款 ePRO 1.5T 143km 旗舰版](https://vc.yiche.com/vplay/12487617.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 19.19-20.79万 家族畅销325万辆！途观L ePro登场，亏电油耗才4升多？ 优视汽车 第一视角体验：岚图FREE+ 车族风 幽默：谁会驾驶SUV下赛道？ 一喵1
+- **[奇瑞QQ3 EV探店：短时间月销破万，主要因为做对了这5件事！](https://vc.yiche.com/vplay/12489346.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 5.89-7.89万 2027款格瑞维亚上市，标配15.6英寸中控大屏，合资MPV新选择 玩车专家 试驾全新奇瑞QQ3：别只看大空间，这些细节也有点惊喜 驾春秋 风云T7品
+- **[大众与众08，一台披着大众外衣的小鹏？车很好但没人买？](https://vc.yiche.com/vplay/12489255.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 22.99-28.99万 德系底盘搭配高阶智驾，与众08日常出行稳妥省心！ 车圈一沫 22万级大五座的舒适配置拉满了 功夫汽车 宋 Ultra DM-i 就多个字母 i？
+- **[探店广汽丰田铂智3X，省心智能全都要！](https://vc.yiche.com/vplay/12491299.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 10.98-15.98万 9.48万起有何优缺点 丰田2026款铂智3X实测 玩车指南 谁说电车不过山海关？铂智3X东北地区合资新能源销量第一！ 整辆好车 丰田铂智3X权益
+- **[限时16.99万起！别克至境L7纯电能买吗？有啥优缺点？](https://vc.yiche.com/vplay/12486420.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 17.39-21.99万 腾势N8即将登场，全新内饰让业内惊呼 玺哥驾道 新能源车销量超过燃油车？听听贾老师的见解 海星茶190815 合资典范，见证了无数经典！上汽通用再
+- **[年轻人一眼心动只要10万？奇瑞风云A9好看好开怎么选？](https://vc.yiche.com/vplay/12484208.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 10.99-12.99万 15万级最美纯电轿跑！风云A9拿红点奖，颜值配置直接越级 汽车很听话 奇瑞2000万辆交付，董事长尹同跃放话，纯电不再客气了！风云a9居然，一来就
+- **[强动力不费油！新蒙迪欧运动版实测，E混动太香了！](https://vc.yiche.com/vplay/12486609.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 14.98-22.98万 18款福特蒙迪欧，看在价格的面子上丨二手车评测 小鲍二手车 奥迪RS5声浪实录 欣哲频道 大湾区车展最懂钓鱼人的车！“中国钓王”天元邓刚共创的山海
 - **[自动驾驶迈向“有标可依”](https://views.ce.cn/view/ent/202608/t20260806_3130530.shtml)** — _views.ce.cn_ · published 2026-08-06
   近日，《智能网联汽车 自动驾驶系统安全要求》强制性国家标准正式发布，将于2027年7月1日起实施。作为规范L3、L4级高级别自动驾驶的核心准则，该标准的出台恰逢其时。长期以来，部分车企夸大宣传自动驾驶功能，误导消费者，诱发交通安全事故。此次强制标准落地，让自动驾驶安全监管有更具刚性的标准依据，为产业健康发展保驾护航。 随着智能网联汽车产业快速迭代，自动驾驶技
 - **[直击家用痛点，东风风神新能源8系双车齐发性价比拉满](https://www.caam.org.cn/chn/8/cate_81/con_5237262.html)** — _www.caam.org.cn_ · published 2026-08-05
@@ -289,6 +307,8 @@ _Updated 2026-08-06 18:13 | discovery-only, zero LLM tokens | runs every 3h_
   依托刚发布的“十五五”新型电力系统规划，我国明确2030年充电基础设施总量超4000万个，大功率充电设施达30万个，形成支撑超1.1亿辆新能源车的服务能力，覆盖城乡全场景出行需求。 未来五年将构建城市面状、公路线状、乡村点状的布局体系，完成高速服务区充电改造，实现非特殊区域的县乡公共充电全覆盖，同步沿核心货运通道布局重卡大功率充电站点，补齐此前的场景短板。
 - **[2026中国国际新能源和智能网联汽车展览会十月将在京举办](https://www.cnr.cn/2013qcpd/cz/20260806/t20260806_527750859.shtml)** — _www.cnr.cn_ · published 2026-08-06
   央广网北京8月6日消息（记者姜鹏）7月27日，2026世界智能网联汽车大会媒体圆桌会在北京召开。工业和信息化部装备工业一司司长郭守刚，交通运输部科技司副司长翁优灵，北京市经济和信息化局副局长苏国斌，工业和信息化部装备工业发展中心主任、世界智能网联汽车大会组委会秘书长瞿国春，中国汽车工业协会副会长兼秘书长付炳锋等专家代表出席会议。会议由工业和信息化部新闻发言人
+- **[滴滴旗下99携手巴西领先租车企业Movida 共建绿色出行生态](https://www.cnr.cn/tech/techgd/20260806/t20260806_527750912.shtml)** — _www.cnr.cn_ · published 2026-08-06
+  当地时间8月4日，滴滴旗下巴西一站式本地生活服务平台99与巴西领先的汽车租赁企业Movida签署合作协议，双方将面向99平台网约车司机推出包含新能源汽车在内的优惠租赁计划，预计未来三年惠及至少5万名司机。此次合作将进一步降低新能源汽车进入网约车运营场景的门槛，持续为中国新能源产业链协同出海探索新模式。 滴滴创始人、董事长兼CEO程维，滴滴国际业务负责人朱景士
 - **[华为发布尊界V800/V680旗舰MPV，L3自动驾驶76.6万起售](https://www.d1ev.com/newsflash/309239)** — _www.d1ev.com_ · date: unknown
   今日，华为在尊界时代旗舰MPV及华为全场景新品发布会上，由华为常务董事余承东正式发布了两款旗舰MPV车型——尊界V800和V680。尊界V800特别引人注目，其采用面向L3 自动驾驶的原生整车架构，以全感知、全冗余、全融合作为设计准则。在自动驾驶计算冗余架构方面，实现了双组传感器、双连接器、双SoC芯片、双路电源的四重备份，确保在单一路径出现故障时，冗余系统
 - **[比亚迪巴西推首款柔性燃料混动车 宋Pro超级混动版亮相](https://www.d1ev.com/newsflash/309234)** — _www.d1ev.com_ · date: unknown
@@ -319,6 +339,14 @@ _Updated 2026-08-06 18:13 | discovery-only, zero LLM tokens | runs every 3h_
   8月6日，中国汽车工业协会最新数据显示，理想汽车在2026年上半年豪华乘用车销量中位居榜首。小米集团董事长特别助理徐洁云对此表示祝贺，但网友指出，小米汽车以185055台的销量排在第15位，而理想汽车以180620台位列第16位。徐洁云回应称，由于第一代SU7停售，新一代SU7交付延迟，导致SU7系列有近3个月无销量，因此“半年”与“2026上半年”有所不同
 - **[“公测时代”终结：2026年中国汽车行业迎来监管风暴](https://www.d1ev.com/newsflash/309421)** — _www.d1ev.com_ · date: unknown
   2026年夏天，中国汽车行业“公测时代”即将结束。这一时代特征是车企将未经充分验证的软硬件产品推向市场，让消费者暴露问题，再通过OTA、召回等方式补救。部分车企为加快上市节奏，删减必要测试环节，导致新车硬件验证不足，软件问题频发。2026年上半年，中国市场推出超600款新车，汽车行业利润率降至3.4%，整车制造利润率仅为1.5%。同期，国家市场监督管理总局发
+- **[奇瑞F700插电混动皮卡上市，31.49万起售，续航1300km支持800V快充](https://www.d1ev.com/newsflash/309451)** — _www.d1ev.com_ · date: unknown
+  8月6日，奇瑞高端插电混动皮卡纵横F700正式上市，推出3款车型，售价31.49-35.49万元，限时权益价29.99-33.99万元。新车外观硬派，车身尺寸5495mm/2050mm/1985mm，轴距3350mm，定位大型皮卡。具备32度接近角、15度离去角、45度最大爬坡角度，900mm最大涉水深度和IP68级防水。货箱容积1300L，具备3.5T牵引
+- **[深蓝S05新车型上市：11.99万起，激光雷达加持，续航最高达1310km](https://www.d1ev.com/newsflash/309449)** — _www.d1ev.com_ · date: unknown
+  今日，全新深蓝S05新能源汽车正式上市，共推出5款车型，售价区间为11.99-15.19万元，限时优惠价为11.59-14.49万元。新车在设计上升级了星际飞翼2.0设计语言，风阻系数低至0.25Cd，大灯组内部改为Y字形结构，前脸下部灯组及外后视镜集成了“智驾小蓝灯”。车身采用半隐藏式门把手、无框车门，配备智能电动尾门及18英寸星璇运动轮毂，车顶新增激光雷
+- **[凯迪拉克CT5销量遇冷，新能源车崛起挑战传统豪华市场](https://www.d1ev.com/newsflash/309448)** — _www.d1ev.com_ · date: unknown
+  8月6日，凯迪拉克CT5终端优惠力度加大，入门裸车最低成交价降至17.99万元。尽管优惠幅度空前，销量却未见回暖。CT5曾是与宝马3系竞争的二线豪华轿车，但今年市场热度降温，上半年累计零售仅15366台，二季度单月销量多在两千台左右。一线豪华品牌如宝马3系、奔驰C级、奥迪A4L终端优惠加大，消费者更倾向于选择品牌力更强的BBA。凯迪拉克长期依靠降价走量，导致
+- **[再续20年盟约，上汽通用重构合资车企生存范式](https://www.d1ev.com/carnews/xinche/309446)** — _www.d1ev.com_ · date: unknown
+  "基于对上汽通用发展前景的高度认可，股东双方决定将合资期限延长20年。"上汽集团董事长王晓秋在战略续约现场的表态，道出了两大行业巨头深耕合作、笃定前行的核心共识。 8月5日，上汽集团与通用汽车正式签署合资续约协议，官宣将上汽通用汽车合资期限延长20年，合作周期延续至2047年。 上汽通用的合资项目1997年3月签约，原合约期限30年，将于2027年6月到期。
 - **[研报掘金丨方正证券：予江淮汽车&quot;强烈推荐&quot;评级，华为生态助力成长重塑](https://www.gelonghui.com/live/2596727)** — _www.gelonghui.com_ · date: unknown
   首页 > 快讯 > 快讯详情 研报掘金丨方正证券：予江淮汽车"强烈推荐"评级，华为生态助力成长重塑 格隆汇8月6日｜方正证券研报指出，江淮汽车尊界破局超豪华乘用车市场，华为生态助力成长重塑。在战略合作领域，公司与华为围绕产品开发、智能化技术、生产制造及渠道销售展开深度合作，共同打造超高端新能源品牌“尊界”。首款车型尊界S800上市后快速打开超豪华新能源市场，
 - **[鲁阳节能(002088.SZ)：汽车衬垫 CCMAX、E2K、HBD 系列产品现已实现量产销售](https://www.gelonghui.com/news/5281060)** — _www.gelonghui.com_ · date: unknown
@@ -333,6 +361,8 @@ _Updated 2026-08-06 18:13 | discovery-only, zero LLM tokens | runs every 3h_
   2026-08-06 06:30:03 每经记者｜董天意 实习生 刘家怡 每经编辑｜余婷婷 | 2026年8月6日 星期四 | NO.1 乘联分会：7月全国乘用车零售同比下降18% 8月5日，乘联分会初步统计数据显示，7月1至31日，全国乘用车市场零售150.6万辆，同比下降18%，环比下降6%。同期，全国乘用车新能源市场零售97万辆，同比下降2%，环比下降
 - **[沪指飘红，煤炭、PCB板块走强，教育、汽车整车股下挫](https://www.nbd.com.cn/articles/2026-08-06/4534011.html)** — _www.nbd.com.cn_ · published 2026-08-06
   每日经济新闻 2026-08-06 15:21:50 每经记者｜黄胜 每经编辑｜张锦河 记者|黄胜 编辑|张锦河 杜恒峰 校对|程鹏 8月6日A股收盘，沪指涨0.57%，深成指跌0.24%，创业板指跌0.55%，科创综指上涨1.25%。沪深两市成交额2.53万亿，较上一个交易日缩量1309亿，全市场超2700只个股上涨。 煤炭板块集体走强，昊华能源、潞安环能
+- **[一年8折，小米YU7成为7月纯电车保值率榜首](https://www.nbd.com.cn/articles/2026-08-06/4534216.html)** — _www.nbd.com.cn_ · published 2026-08-06
+  2026-08-06 19:03:45 每经记者｜董天意 每经编辑｜余婷婷 日前，中国汽车流通协会和精真估联合发布了《2026年7月中国汽车保值率研究报告》（以下简称《报告》）。《报告》显示，2026年7月主要纯电动车型中，小米YU7、理想MEGA、ZEEKR 009一年车龄保值率分别为82.8%、79.7%、75.4%，位居榜单前三，SU7（75.3%）位
 - **[俄无人机厂负责人遭汽车炸弹袭击](https://www.news.cn/world/20260806/878a5d4a76044ae69b796fd6a64fd8b0/c.html)** — _www.news.cn_ · published 2026-08-06
   新华社莫斯科8月5日电（记者黄河）俄罗斯媒体5日报道称，俄罗斯中部斯维尔德洛夫斯克州首府叶卡捷琳堡市郊一村庄4日发生汽车爆炸事件，乌拉尔无人机厂总经理受重伤，其保镖被炸身亡。 报道称，该厂总经理弗拉基米尔·特卡丘克在爆炸中身受重伤，被送往医院重症监护室。特卡丘克的司机兼保镖在爆炸中身亡。现场视频显示，特卡丘克乘坐的奔驰车在爆炸中被烧毁。 俄有关部门已立案侦查
 - **[俄无人机厂负责人遭汽车炸弹袭击](https://www.news.cn/20260806/6ad9824d479e4825bf653b7077835ed2/c.html)** — _www.news.cn_ · published 2026-08-06
@@ -349,10 +379,16 @@ _Updated 2026-08-06 18:13 | discovery-only, zero LLM tokens | runs every 3h_
   8月4日，工信部官网显示，强制性国家标准《智能网联汽车 自动驾驶系统安全要求》（GB 44721—2026）（以下简称“强制国标”）已发布，拟于2027年7月1日起实施。这是我国首部针对L3级（有条件自动驾驶）和L4级（高度自动驾驶）系统的强制性国家标准。 强制国标要求自动驾驶系统安全水平应至少达到“合格且专注驾驶人的水平”，这意味着未来高级别自动驾驶系统有
 - **[智能网联汽车产业发展，安全永远要放在第一位](https://www.stcn.com/article/detail/4060828.html)** — _www.stcn.com_ · published 2027-07-01
   日前，《智能网联汽车自动驾驶系统安全要求》（GB 44721—2026）强制性国家标准正式发布，拟于2027年7月1日起正式实施。“标准”立足我国产业发展与行业监管实际需求，兼顾技术可行性、产业适配性与落地实操性，构建了维度完整、要求清晰、适配国情的安全要求体系，为自动驾驶产品明确了统一的安全准入基线。 近年来，我国智能网联汽车、自动驾驶技术加速迭代突破，产
+- **[监管整治汽车金融乱象！剑指“高息高返”、“零首付”“低首付”诱导购车](https://www.stcn.com/article/detail/4062148.html)** — _www.stcn.com_ · date: unknown
+  越来越多地方金融监管局，正在深化整治辖内金融机构与第三方合作平台的无序竞争，包括汽车金融、普惠金融以及与第三方机构各类合作等。汽车金融领域，“高息高返”是重点整顿现象。 为维护消费者合法权益，记者独家获悉，华东某金融监管局下发了关于汽车金融的最新监管要求。该金融监管局对辖内金融机构审慎制定商用车金融业务发展规划、加强商用车金融业务全流程管理、强化商用车保险保
+- **[松原安全获欧洲汽车制造商定点 项目生命周期销售额约6.91亿元](https://www.stcn.com/article/detail/4062416.html)** — _www.stcn.com_ · date: unknown
+  8月6日晚间，松原安全(300893)发布公告，全资子公司松原（安徽）汽车安全系统有限公司近日获得某欧洲汽车制造商S客户X项目定点，将为该项目在欧洲地区供应方向盘与安全气囊产品，项目生命周期7年，对应销售额约6.91亿元。 松原安全表示，本次定点是公司再次获得S客户项目定点，将继续强化公司在汽车被动安全系统领域的地位，同时进一步深化出海及国际化战略。 近期，
 - **[俄无人机厂负责人遭汽车炸弹袭击](https://www.xinhuanet.com/20260806/6ad9824d479e4825bf653b7077835ed2/c.html)** — _www.xinhuanet.com_ · published 2026-08-06
   新华社莫斯科8月5日电（记者黄河）俄罗斯媒体5日报道称，俄罗斯中部斯维尔德洛夫斯克州首府叶卡捷琳堡市郊一村庄4日发生汽车爆炸事件，乌拉尔无人机厂总经理受重伤，其保镖被炸身亡。 报道称，该厂总经理弗拉基米尔·特卡丘克在爆炸中身受重伤，被送往医院重症监护室。特卡丘克的司机兼保镖在爆炸中身亡。现场视频显示，特卡丘克乘坐的奔驰车在爆炸中被烧毁。 俄有关部门已立案侦查
 - **[一财社论：智能网联汽车产业发展，安全永远要放在第一位](https://www.yicai.com/news/103306927.html)** — _www.yicai.com_ · published 2027-07-01
   {{aisd}} AI生成 免责声明 日前，《智能网联汽车自动驾驶系统安全要求》（GB 44721—2026）强制性国家标准正式发布，拟于2027年7月1日起正式实施。“标准”立足我国产业发展与行业监管实际需求，兼顾技术可行性、产业适配性与落地实操性，构建了维度完整、要求清晰、适配国情的安全要求体系，为自动驾驶产品明确了统一的安全准入基线。 近年来，我国智能
+- **[英国7月销量前十榜，中国汽车拿下三席](https://www.yicai.com/news/103308277.html)** — _www.yicai.com_ · date: unknown
+  {{aisd}} AI生成 免责声明 根据英国汽车制造商与贸易商协会（SMMT）今日发布的最新数据，英国新车市场7月同比增长11.7%，注册量为156,571辆，创下2019年以来最佳表现。 SMMT认为，尽管去年同期基数相对较低，但这一表现标志着市场连续第八个月增长，行业正延续向疫情前水平恢复的长期趋势。 增长主要得益于电动汽车的普及，其中插电式混合动力汽
 - **[自动驾驶安全强制国标落地 产品安全准入基线已明确](https://www.zqrb.cn/auto/qichedongtai/2026-08-06/A1785916523658.html)** — _www.zqrb.cn_ · published 2026-08-06
   本报记者李静 实习生张子轩 8月4日，工业和信息化部（以下简称“工信部”）组织制定并归口的《智能网联汽车 自动驾驶系统安全要求》（GB 44721—2026）强制性国家标准（以下简称“新国标”），拟于2027年7月1日起正式实施。 这是我国首部针对L3级（有条件自动驾驶）和L4级（高度自动驾驶）系统的强制性国标。工信部表示，新国标的发布实施，为自动驾驶产品明
 
