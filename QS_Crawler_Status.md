@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-08-08 03:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-08-08 06:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-08-08 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **6595 unique auto/NEV articles** across **57 outlets**
+## Cumulative: **6596 unique auto/NEV articles** across **57 outlets**
 
 ## New per day
 | date | new articles |
@@ -71,7 +71,7 @@ _Updated 2026-08-08 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-08-05 | 155 |
 | 2026-08-06 | 134 |
 | 2026-08-07 | 117 |
-| 2026-08-08 | 17 |
+| 2026-08-08 | 18 |
 
 ## By outlet
 | outlet | articles |
@@ -92,7 +92,7 @@ _Updated 2026-08-08 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 | m.21jingji.com | 129 |
 | www.cada.cn | 116 |
 | www.yicai.com | 113 |
-| www.gelonghui.com | 95 |
+| www.gelonghui.com | 96 |
 | auto.caijing.com.cn | 83 |
 | www.zqrb.cn | 74 |
 | finance.eastmoney.com | 53 |
@@ -136,7 +136,7 @@ _Updated 2026-08-08 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-08-08 — 17 articles
+### 2026-08-08 — 18 articles
 - **[包钢股份成功研发800MPa级增强成形性稀土热轧汽车钢](https://egs.stcn.com/news/detail/2324555.html)** — _egs.stcn.com_ · date: unknown
   人民财讯8月7日电，据包钢股份消息，近日，包钢股份成功研制出800MPa级增强成形性稀土热轧汽车结构用钢。该产品采用“稀土净化钢质+纳米析出强化”复合技术，兼具高强度、高塑性与优异的扩孔性能，可适用于商用车高承载、复杂变形的汽车结构件。产品已通过某知名商用车配套厂的试模及批量应用验证。
 - **[自动驾驶国标发布，小鹏接受央视采访：汽车交付后仍要监测其安全](https://m.21jingji.com/article/20260807/herald/f90cb928e8588de9e4a6783bc91cd9a1.html)** — _m.21jingji.com_ · date: unknown
@@ -157,6 +157,8 @@ _Updated 2026-08-08 03:12 | discovery-only, zero LLM tokens | runs every 3h_
   8月7日，工信部公示了第410批《道路机动车辆生产企业及产品公告》新产品，东风猛士X700正式完成申报。这款插电式 混合动力运动型乘用车提供增程版和插混版两种配置，车身尺寸均为5035mm×1999mm，轴距2920mm。增程版高度1890mm，整备质量2500kg；插混版高度1910mm，整备质量2650kg。两款车型均搭载智新科技股份有限公司生产的149
 - **[广汽传祺越7硬派混动SUV亮相，9月预售开启！](https://www.d1ev.com/newsflash/309656)** — _www.d1ev.com_ · date: unknown
   近日，广汽传祺全新车型越7正式发布并开启预定，预计9月开始预售。越7定位为插电硬派风格混动SUV，采用方盒子造型，整车线条刚劲平直，传承硬派越野的力量感。前脸为封闭式设计，搭配纵向排列的三颗日间行车灯，具备高辨识度。车顶前部安装了激光雷达，前翼子板处配备了传感器硬件，将搭载高阶辅助驾驶功能。车型尺寸长宽高分别为5045/2004/1933mm，轴距为2900
+- **[快讯-格隆汇](https://www.gelonghui.com/live/2600559)** — _www.gelonghui.com_ · published 2026-08-08
+  申请认证 格隆汇公众号矩阵 格隆汇App 下载格隆汇APP 诊股宝App 下载诊股宝App 汇路演App 下载汇路演APP 极调研 加入我们 首页 社区 快讯 事件 深度 主题 专栏 行情 会员 数据 财富圈 文章 更多相关文章 快讯 更多相关快讯 查看全部股票/文章/快讯/事件/用户/财富圈搜索结果 热门股票 搜索历史 清空历史 登录 / 注册 温馨提示
 - **[太突然！雪佛兰被曝将停止在华销售，通用汽车回应：不会停产，现有中国车主售后服务保障不会缩水！年销量曾超60万辆，如今已不足万辆](https://www.nbd.com.cn/articles/2026-08-07/4535750.html)** — _www.nbd.com.cn_ · published 2026-08-07
   每日经济新闻 2026-08-07 22:28:58 每经编辑｜段炼 8月6日，一则“雪佛兰将停止在华销售”的消息在汽车圈炸开了锅。不少雪佛兰车主慌了：我的车以后还能修吗？配件还有地方买吗？当天，通用汽车正式回应——不会停产，中国现有车主的售后服务保障不会缩水，经销商网络照常运转。 但这个回应背后，藏着一个更大的故事：曾经在中国年销超过60万辆的美系品牌，正
 - **[浙江世宝抛出13.94亿元定增计划 拟重点布局汽车线控转向产业化](https://www.nbd.com.cn/articles/2026-08-07/4535671.html)** — _www.nbd.com.cn_ · published 2026-08-07
