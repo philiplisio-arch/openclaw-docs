@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-08-07 12:14 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-08-07 15:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-08-07 12:14 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **6520 unique auto/NEV articles** across **57 outlets**
+## Cumulative: **6534 unique auto/NEV articles** across **57 outlets**
 
 ## New per day
 | date | new articles |
@@ -70,28 +70,28 @@ _Updated 2026-08-07 12:14 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-08-04 | 169 |
 | 2026-08-05 | 155 |
 | 2026-08-06 | 134 |
-| 2026-08-07 | 59 |
+| 2026-08-07 | 73 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.d1ev.com | 1373 |
+| www.d1ev.com | 1379 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 585 |
-| auto.gasgoo.com | 449 |
+| vc.yiche.com | 587 |
+| auto.gasgoo.com | 452 |
 | 36kr.com | 309 |
 | www.stcn.com | 281 |
-| www.cnr.cn | 226 |
+| www.cnr.cn | 227 |
 | www.caam.org.cn | 211 |
 | autodata.gasgoo.com | 206 |
 | egs.stcn.com | 193 |
-| news.yiche.com | 190 |
+| news.yiche.com | 191 |
 | www.nbd.com.cn | 177 |
 | www.news.cn | 131 |
 | m.21jingji.com | 126 |
 | www.cada.cn | 116 |
 | www.yicai.com | 111 |
-| www.gelonghui.com | 94 |
+| www.gelonghui.com | 95 |
 | auto.caijing.com.cn | 81 |
 | www.zqrb.cn | 73 |
 | finance.eastmoney.com | 53 |
@@ -135,7 +135,7 @@ _Updated 2026-08-07 12:14 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-08-07 — 59 articles
+### 2026-08-07 — 73 articles
 - **[特斯拉起诉加拿大曼尼托巴省将其排除在电动车补贴计划之外](https://auto.gasgoo.com/news/202608/6I70468864C501.shtml)** — _auto.gasgoo.com_ · date: unknown
   盖世汽车讯 据外媒报道，特斯拉已就加拿大曼尼托巴省将其排除在省级电动车补贴计划之外一事提起诉讼，该案目前已进入法庭审理阶段。 曼尼托巴省政府正请求该省王座法院驳回特斯拉的司法复审申请。特斯拉表示，自被剔除出补贴名单以来，其加拿大客户已损失至少56万加元的补贴金额。 曼尼托巴省于2024年夏季启动了一项总额为2,500万加元的电动车补贴计划，向购买价格低于7万
 - **[608.5GWh背后：全球电动汽车动力电池竞争进入“中国平台化扩张”时代](https://auto.gasgoo.com/news/202608/6I70468944C501.shtml)** — _auto.gasgoo.com_ · date: unknown
@@ -161,6 +161,10 @@ _Updated 2026-08-07 12:14 | discovery-only, zero LLM tokens | runs every 3h_
   盖世汽车讯 根据俄罗斯汽车市场分析机构“АВТОСТАТ”（Autostat）援引AO“PPK”数据，2026年7月俄罗斯共售出12.21万辆新车，为今年以来单月最高销量。 图片来源：花瓣网 此前，2026年销量最高的月份为4月，当月销量为11.75万辆。自今年3月以来，俄罗斯新车月度销量已连续五个月突破10万辆。 数据显示，7月新车销量环比6月（11.63
 - **[Zoox将于8月10日在拉斯维加斯推出付费自动驾驶出租车服务](https://auto.gasgoo.com/news/202608/7I70468918C101.shtml)** — _auto.gasgoo.com_ · date: unknown
   盖世汽车讯 亚马逊（Amazon）旗下自动驾驶公司Zoox于8月6日宣布，将于8月10日起在美国内华达州拉斯维加斯正式推出付费自动驾驶出租车（robotaxi）服务。此举标志着该公司首次实现商业化运营，旨在扩大业务规模并与Alphabet旗下的Waymo展开竞争。 Zoox自去年起已在拉斯维加斯和加利福尼亚州旧金山的部分区域向公众提供免费无人驾驶接驳服务。今
+- **[1-6月中国乘用车出海，谁在领航？](https://auto.gasgoo.com/news/202608/7I70468985C110.shtml)** — _auto.gasgoo.com_ · date: unknown
+- **[小鹏双班制赶MONA L03产能](https://auto.gasgoo.com/news/202608/7I70468980C501.shtml)** — _auto.gasgoo.com_ · date: unknown
+- **[陶氏和安道拓联合推出可持续汽车座椅解决方案](https://auto.gasgoo.com/news/202608/7I70468992C409.shtml)** — _auto.gasgoo.com_ · date: unknown
+  盖世汽车讯 据外媒报道，材料科学公司陶氏（Dow）与汽车座椅制造商安道拓（Adient）携手，正式推出新一代聚氨酯座椅解决方案SPECFLEX™ REN。该产品采用ISCC PLUS认证的生物基原料，并通过质量平衡法实现。 图片来源：陶氏 “此次合作彰显了陶氏化学致力于通过材料科学创新推动可持续出行发展的承诺。SPECFLEX™ REN的推出，使我们的合作伙
 - **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2085359245573373952)** — _autodata.gasgoo.com_ · date: unknown
 - **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2085527759974805504)** — _autodata.gasgoo.com_ · date: unknown
 - **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2085532722771148800)** — _autodata.gasgoo.com_ · date: unknown
@@ -189,6 +193,8 @@ _Updated 2026-08-07 12:14 | discovery-only, zero LLM tokens | runs every 3h_
   推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 8月7日，零跑A10第10万台整车正式下线，从3月26日上市至今仅用时135天，刷新零跑十万台下线新速度，同时刷新10万内SUV十万销量新纪录。 作为零跑全新A平台首款全球化车型，零跑A10官方指导
 - **[蔚来换电突破1.2亿次 第五代换电站今日投入运营](https://news.yiche.com/zonghexinwen/20260807/10112081565.html)** — _news.yiche.com_ · date: unknown
   推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 8月7日，蔚来累计提供换电服务突破1.2亿次。蔚来换电网络建设已经形成规模化网络效应，为用户带来“加电和加油一样方便”的差异化体验优势。 用户换电电量累计63.5亿kWh，相当于317万家庭日常一年
+- **[smart精灵#2申报图 将于10月巴黎车展首发](https://news.yiche.com/xinchexiaoxi/20260807/14112088838.html)** — _news.yiche.com_ · date: unknown
+  推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 日前，我们在工信部网站上获取到了一组smart精灵#2申报图。新车由梅赛德斯-奔驰设计团队操刀设计，基于全新架构打造，将于10月巴黎车展首发。 smart精灵#2与此前北京车展发布的原型概念车基本一
 - **[齐心集团中选长安汽车电子商城项目](https://qzs.stcn.com/article/detail/622354.html)** — _qzs.stcn.com_ · date: unknown
   券中社APP 登录 首页 快讯 视听 要闻 基金 券中号 全媒体 手机号登录/注册 手机号 验证码 获取短信验证码 图形验证码 我已经阅读并同意 《用户服务协议》 《隐私协议》 账号 密码 确认 首次登录会自动创建账号 齐心集团中选长安汽车电子商城项目 人民财讯 作者：李在山 | 12:07发布 人民财讯8月7日电，据齐心集团消息，近日，齐心集团中选长安汽车
 - **[福特不讲武德！大马力混动+四驱+6L级油耗，价格也很香！](https://vc.yiche.com/vplay/12424232.html)** — _vc.yiche.com_ · date: unknown
@@ -209,6 +215,10 @@ _Updated 2026-08-07 12:14 | discovery-only, zero LLM tokens | runs every 3h_
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 试驾岚图泰山X8，实力如何？ 宇宙出行指南 小鹏GX 作为小鹏的第一款大型SUV，可以说相当诚意！ 叁佰玩速 三车齐发！东风风神给家用市场立了把新尺 智行侃车 《夏
 - **[5分钟速看新车](https://vc.yiche.com/vplay/12499503.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 全“家”福登场！东风风神L8Y/L8+/L9补齐全家庭用车需求 午焰驾道 还在纠结买哪种动力？东风风神直接把三个选项端上来了 宇尘说车 三车齐发！东风新能源L系满配
+- **[10万纯电想“封神”！看看Ta行不行？](https://vc.yiche.com/vplay/12501596.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 星途ET5这次OTA把安全卷到了时速130公里 女司机2姐 全新宝马iX3已抵达门店，售价即将揭晓 友好的薄荷草1492 直击家用痛点，东风风神新能源8系为市场开出
+- **[这就是中式豪华的能力？ 蔚来ES9表现如何](https://vc.yiche.com/vplay/12482815.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 49.80-62.80万 为何这台车令他再度惊叹？ 卓越的番茄果1483 ES9通道版 lzq小同学 蔚来ES9：极致静谧感 具像化了！ 路YAO知马力 蔚来ES9凭借优于
 - **[禁售燃油车在海南如何落地](https://views.ce.cn/view/ent/202608/t20260807_3134010.shtml)** — _views.ce.cn_ · published 2026-08-07
   对话人： 周珊珊 人民日报评论员 李 萌 海南日报评论员 周珊珊：全国首个确定禁售燃油车的省份，为什么是海南？政策渐进式推进、不搞“一刀切”，体现了怎样的分寸感？ 李萌：早在2018年，中央文件就明确提出在海南岛逐步禁止销售燃油汽车；一年后，2030年全域禁售写入省级规划。前不久发布的《“十五五”海南国家生态文明试验区规划（美丽海南建设“十五五”规划）》提出
 - **[多地购车补贴再加码 助力汽车消费市场升温](https://www.ce.cn/xwzx/gnsz/gdxw/202608/t20260807_3134306.shtml)** — _www.ce.cn_ · published 2026-08-07
@@ -225,6 +235,8 @@ _Updated 2026-08-07 12:14 | discovery-only, zero LLM tokens | runs every 3h_
   近日，湖南省汽车商会和湖南车展组委会联合发布多项数据，包括2026年上半年湖南省乘用车新车上险量、长沙乘用车新车上险量、湖南省新能源新车上险量、长沙新能源汽车新车上险量（均为乘用车），湖南上半年新车销量榜由此出炉。作为省会城市，长沙继续展现出断层式领跑格局，在新能源车销量方面尤为明显。 数据均源自湖南省汽车商会、湖南车展组委会 数据显示，上半年湖南省乘用车新
 - **[搭载天枢领航智能驾驶辅助系统，全新深蓝S05上市](https://www.cnr.cn/2013qcpd/cz/20260807/t20260807_527751793.shtml)** — _www.cnr.cn_ · published 2026-08-07
   央广网北京8月7日消息（记者姜鹏）8月6日，全新深蓝S05正式上市，提供520智行版、520智臻版、520智臻版激光版、620智臻版、620智臻激光版共5款车型，限时优惠价为11.59万元—14.49万元。 作为深蓝汽车专为年轻家庭用户打造的产品，全新深蓝S05不仅带来CLTC 620km超长纯电续航，更实现“智能进阶、驾乘进阶、空间进阶、时尚进阶”四大维度
+- **[多地购车补贴再加码 助力汽车消费市场升温](https://www.cnr.cn/newscenter/native/gd/20260807/t20260807_527752009.shtml)** — _www.cnr.cn_ · published 2026-08-07
+  今年以来 多地为促进汽车消费 陆续推出购车消费补贴 陕西多地加码新能源汽车消费补贴 在榆林东沙汽车产业园的一家汽车品牌店内，销售顾问正耐心为前来购车的市民刘先生讲解车辆性能与补贴细则，几番体验下来，刘先生对车辆性能和补贴方案都很满意。 在产业园内另外一家汽车品牌店的展厅内，“政府消费券叠加企业让利”的宣传展架格外醒目，工作人员也正向看车市民详细介绍购车补贴政
 - **[特斯拉FSD超速被罚，司机辩称“自动驾驶”不背锅](https://www.d1ev.com/newsflash/309462)** — _www.d1ev.com_ · date: unknown
   8月5日，美国科罗拉多州帕克市警方公布了一起涉及特斯拉FSD功能的交通违法案例。一辆特斯拉在限速45英里/小时的道路上以64英里/小时的速度行驶，被警方拦截。驾驶员辩称自己开启了“ 自动驾驶”，因此超速不关他的事。警方强调，无论车辆配备何种辅助驾驶功能，驾驶员仍需对车辆安全运行承担法律责任。 特斯拉所有量产车所配备的辅助驾驶系统均属于L2级，尽管特斯拉将其系
 - **[深蓝S05纯电新车型上市，售价11.99万起，续航620km，3C超充15分钟充能](https://www.d1ev.com/newsflash/309457)** — _www.d1ev.com_ · date: unknown
@@ -237,9 +249,23 @@ _Updated 2026-08-07 12:14 | discovery-only, zero LLM tokens | runs every 3h_
   8月7日，上汽大众宣布ID.ERA5S将于8月11日开启预售。这款新车的尺寸为长4836mm、宽1880mm、高1505mm，轴距为2766mm。动力方面，ID.ERA5S将搭载1.5T插电混动系统， 发动机最大净功率为77kW，驱动电机额定功率为57.6kW，峰值功率为130kW。上汽大众已公布新车的五款外观颜色和两款内饰颜色，新车内饰采用环抱一体式布局，
 - **[挪威7月汽车销量：小鹏汽车首进前三，国产新能源崛起](https://www.d1ev.com/newsflash/309535)** — _www.d1ev.com_ · date: unknown
   近日，易车根据挪威官方机构和本土汽车协会的数据，发布了2026年7月挪威汽车市场的销量盘点。在这次的销量排名中，小鹏汽车首次跻身挪威汽车全品牌销量前三，紧随丰田和大众之后。丰田以1260辆的销量位居榜首，大众以985辆的成绩位列第二，而小鹏汽车以843辆的销量排在第三位，与大众的差距逐渐缩小。 沃尔沃、宝马和奔驰等传统豪华品牌在挪威市场的销量分别为726辆、
+- **[已克服芯片短缺，小鹏采取双班制，赶MONA L03产能](https://www.d1ev.com/news/shichang/309546)** — _www.d1ev.com_ · date: unknown
+  盖世汽车讯 8月7日，小鹏汽车MONA系列研发负责人姜文通过微博，就MONA L03交付延迟向锁单用户致歉，并公布最新生产进展。 姜文表示，近期受全球AI需求火热影响，高端制程芯片供货出现波动，对8月份生产带来一定冲击。目前供应链问题已逐步克服，工厂已切换为双班全力生产，8月产能效率几乎翻倍。预计 9、10月将全力拉到最大产能。 生产节奏方面，7月处于小范围
+- **[蔚来换电突破1.2亿次 第4000座换电站今日投运](https://www.d1ev.com/news/shichang/309522)** — _www.d1ev.com_ · date: unknown
+  盖世汽车获悉 8月7日，蔚来宣布换电服务累计突破1.2亿次。同日，蔚来第4000座换电站及首批第五代换电站正式投入运营。该换电网络将面向蔚来、乐道及firefly萤火虫三品牌用户提供服务。 图片来源：@蔚来汽车 数据显示，蔚来换电站累计换电电量达63.5亿千瓦时，相当于可供超过317万户家庭一年的生活用电。在补能效率方面，相较充电模式，换电为用户累计节省约9
+- **[魏牌V9XEV纯电动多用途车亮相：6座大空间，220km/h极速体验](https://www.d1ev.com/newsflash/309588)** — _www.d1ev.com_ · date: unknown
+  8月7日，工信部发布了第410批《道路机动车辆生产企业及产品公告》新产品公示，其中魏牌V9XEV纯电动多用途乘用车完成申报。这款新车以其独特的设计和性能参数引起关注，车身外形尺寸为长5299mm、宽2025mm、高1825mm，轴距达到3150mm，额定载客（含驾驶员）为6座。新车的前轮距为1736mm，后轮距为1726mm，前悬949mm，后悬1200mm
+- **[华晨宝马iX3长轴版亮相：中型纯电SUV新选择](https://www.d1ev.com/newsflash/309583)** — _www.d1ev.com_ · date: unknown
+  8月7日，工信部发布了第410批《道路机动车辆生产企业及产品公告》新产品公示，华晨宝马旗下纯电动多用途乘用车宝马iX340L完成申报。这款中型纯电SUV由华晨宝马汽车有限公司国产，车身尺寸为4885mm/1895mm/1634mm，轴距3005mm，相比现款有所加长。整备质量2255kg，总质量2695kg，额定载客5人，最高车速可达200km/h。 宝马i
+- **[奇瑞智界RX新版本曝光：华为电机加持，最高时速255km/h！](https://www.d1ev.com/newsflash/309580)** — _www.d1ev.com_ · date: unknown
+  8月7日，工信部公示了第410批《道路机动车辆生产企业及产品公告》新产品信息，奇瑞汽车股份有限公司生产的智界RX纯电动多用途乘用车完成新版本申报。智界RX尺寸为5020×2007×1600/1585mm，轴距3000mm，额定载客人数5人，提供Ultra和Ultra+版本。 智界RX有两种 电池配置版本，磷酸铁锂版和三元锂版。磷酸铁锂版整备质量2285kg，
+- **[上汽大众ID.ERA5X纯电SUV申报：175km/h极速，丰富选装配置亮相](https://www.d1ev.com/newsflash/309579)** — _www.d1ev.com_ · date: unknown
+  8月7日，工信部发布了第410批《道路机动车辆生产企业及产品公告》新产品公示，上汽大众ID.ERA5X纯电动多用途乘用车完成申报。这款紧凑型SUV的车身尺寸为长4560mm、宽1896mm、高1630mm，轴距2815mm，额定载客5人，整备质量1685kg，总质量2135kg，最高车速可达175km/h。 ID.ERA5X提供丰富的选装配置，包括不同样式的
 - **[华阳集团(002906.SZ)：公司推出的AIBOX产品已获得车企平台型定点项目，即将实现量产](https://www.gelonghui.com/news/5281642)** — _www.gelonghui.com_ · date: unknown
   格隆汇8月6日丨华阳集团(002906.SZ)在投资者关系中表示，有被问到：公司AI BOX产品介绍及市场进展？ 答：公司与英特尔联合打造AIBOX产品，依托华阳自研AAOP软件开放平台与SOA架构，通过标准化高速接口便捷接入，无需改动原车架构，即可为平台化座舱方案搭建强劲的AI算力底座，支撑35B及以上级别的端侧大模型本地化部署，并依托端云协同架构，实现多
 - **[齐心集团中选长安汽车电子商城项目](https://www.gelonghui.com/live/2598994)** — _www.gelonghui.com_ · published 2026-08-07
+  申请认证 格隆汇公众号矩阵 格隆汇App 下载格隆汇APP 诊股宝App 下载诊股宝App 汇路演App 下载汇路演APP 极调研 加入我们 首页 社区 快讯 事件 深度 主题 专栏 行情 会员 数据 财富圈 文章 更多相关文章 快讯 更多相关快讯 查看全部股票/文章/快讯/事件/用户/财富圈搜索结果 热门股票 搜索历史 清空历史 登录 / 注册 温馨提示
+- **[中汽协：6月汽车整车进口3.8万辆，同比下降10.1%](https://www.gelonghui.com/live/2599281)** — _www.gelonghui.com_ · published 2026-08-07
   申请认证 格隆汇公众号矩阵 格隆汇App 下载格隆汇APP 诊股宝App 下载诊股宝App 汇路演App 下载汇路演APP 极调研 加入我们 首页 社区 快讯 事件 深度 主题 专栏 行情 会员 数据 财富圈 文章 更多相关文章 快讯 更多相关快讯 查看全部股票/文章/快讯/事件/用户/财富圈搜索结果 热门股票 搜索历史 清空历史 登录 / 注册 温馨提示
 - **[港澳地区居民每年在惠州购房近5000套；比亚迪销量跻身全球车企第六丨大湾区财经早参](https://www.nbd.com.cn/articles/2026-08-06/4534266.html)** — _www.nbd.com.cn_ · published 2026-08-06
   2026-08-07 07:00:08 每经记者｜孔泽思 每经编辑｜袁东 ｜2026年8月7日 星期五｜ NO.1 广东上半年高技术制造业销售收入增长11.8% “广东发布”微信公众号8月6日消息，最新税收数据显示，2026年上半年广东省制造业累计销售收入同比增长9.3%，高技术制造业销售收入增长11.8%。 点评：数据反映出广东工业生产活力强劲，高端制造赛
