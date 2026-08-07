@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-08-07 09:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-08-07 12:14 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-08-07 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **6486 unique auto/NEV articles** across **57 outlets**
+## Cumulative: **6520 unique auto/NEV articles** across **57 outlets**
 
 ## New per day
 | date | new articles |
@@ -70,28 +70,28 @@ _Updated 2026-08-07 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-08-04 | 169 |
 | 2026-08-05 | 155 |
 | 2026-08-06 | 134 |
-| 2026-08-07 | 25 |
+| 2026-08-07 | 59 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.d1ev.com | 1370 |
+| www.d1ev.com | 1373 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 577 |
-| auto.gasgoo.com | 443 |
+| vc.yiche.com | 585 |
+| auto.gasgoo.com | 449 |
 | 36kr.com | 309 |
 | www.stcn.com | 281 |
-| www.cnr.cn | 225 |
+| www.cnr.cn | 226 |
 | www.caam.org.cn | 211 |
-| autodata.gasgoo.com | 202 |
-| egs.stcn.com | 192 |
-| news.yiche.com | 188 |
+| autodata.gasgoo.com | 206 |
+| egs.stcn.com | 193 |
+| news.yiche.com | 190 |
 | www.nbd.com.cn | 177 |
-| www.news.cn | 130 |
+| www.news.cn | 131 |
 | m.21jingji.com | 126 |
 | www.cada.cn | 116 |
 | www.yicai.com | 111 |
-| www.gelonghui.com | 93 |
+| www.gelonghui.com | 94 |
 | auto.caijing.com.cn | 81 |
 | www.zqrb.cn | 73 |
 | finance.eastmoney.com | 53 |
@@ -100,28 +100,29 @@ _Updated 2026-08-07 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 | www.xinhuanet.com | 43 |
 | www.chinanews.com.cn | 41 |
 | cn.chinadaily.com.cn | 32 |
-| qzs.stcn.com | 28 |
+| qzs.stcn.com | 29 |
 | m.ce.cn | 26 |
 | auto.ce.cn | 25 |
 | www.ceweekly.cn | 21 |
-| www.ce.cn | 18 |
+| www.ce.cn | 19 |
 | cv.ce.cn | 17 |
 | i.gasgoo.com | 15 |
-| bgimg.ce.cn | 12 |
-| economy.gmw.cn | 11 |
+| bgimg.ce.cn | 13 |
+| economy.gmw.cn | 12 |
+| m.gmw.cn | 9 |
 | industry.caijing.com.cn | 9 |
-| m.gmw.cn | 8 |
 | finance.ce.cn | 7 |
 | cnews.chinadaily.com.cn | 5 |
 | guancha.gmw.cn | 4 |
+| views.ce.cn | 3 |
 | politics.gmw.cn | 3 |
 | economy.caijing.com.cn | 3 |
-| views.ce.cn | 2 |
 | tech.caijing.com.cn | 2 |
 | stock.caijing.com.cn | 2 |
 | life.gmw.cn | 2 |
 | district.ce.cn | 2 |
 | china.chinadaily.com.cn | 2 |
+| cen.ce.cn | 2 |
 | world.gmw.cn | 1 |
 | tech.gmw.cn | 1 |
 | ln.news.cn | 1 |
@@ -131,11 +132,10 @@ _Updated 2026-08-07 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 | fashion.ce.cn | 1 |
 | digital.gmw.cn | 1 |
 | culture.gmw.cn | 1 |
-| cen.ce.cn | 1 |
 
 ## Articles captured by day (newest first)
 
-### 2026-08-07 — 25 articles
+### 2026-08-07 — 59 articles
 - **[特斯拉起诉加拿大曼尼托巴省将其排除在电动车补贴计划之外](https://auto.gasgoo.com/news/202608/6I70468864C501.shtml)** — _auto.gasgoo.com_ · date: unknown
   盖世汽车讯 据外媒报道，特斯拉已就加拿大曼尼托巴省将其排除在省级电动车补贴计划之外一事提起诉讼，该案目前已进入法庭审理阶段。 曼尼托巴省政府正请求该省王座法院驳回特斯拉的司法复审申请。特斯拉表示，自被剔除出补贴名单以来，其加拿大客户已损失至少56万加元的补贴金额。 曼尼托巴省于2024年夏季启动了一项总额为2,500万加元的电动车补贴计划，向购买价格低于7万
 - **[608.5GWh背后：全球电动汽车动力电池竞争进入“中国平台化扩张”时代](https://auto.gasgoo.com/news/202608/6I70468944C501.shtml)** — _auto.gasgoo.com_ · date: unknown
@@ -150,6 +150,29 @@ _Updated 2026-08-07 09:12 | discovery-only, zero LLM tokens | runs every 3h_
   当前全球AI产业正处于从弱人工智能向通用人工智能迭代的关键窗口期，从生活服务到产业生产，AI智能体完成了从“被动对话”到“主动办事”的能力升级，通用人工智能的落地进程持续提速，并全面转向场景落地与价值兑现，AI的能力边界持续向物理场景延伸，“数字赋能实体、技术落地场景”成为行业共识。 而在AI赋能实体产业的众多赛道中，汽车行业被视为最具潜力的落地场景与核心载
 - **[东南亚Q2车市：印尼领衔大涨34%，新加坡EV占比超6成](https://auto.gasgoo.com/news/202608/7I70468960C110.shtml)** — _auto.gasgoo.com_ · date: unknown
   对电动汽车日益增长的需求正成为东南亚汽车市场的重要驱动力，从印度尼西亚、马来西亚到泰国和越南，电动汽车销量均呈现上升态势。 根据《日经亚洲》对该地区主要汽车市场4月至6月销售数据的分析，受印尼、马来西亚和泰国强劲增长的带动，整体销量较上年同期增长约11%。 印尼第二季度依然是东南亚最大的汽车市场，销量同比增长34%，达到227,545辆。政府激励措施以及消费
+- **[比亚迪RACCO日本上市一周，售出741台，日方负责人目标年底达万辆](https://auto.gasgoo.com/news/202608/7I70468914C101.shtml)** — _auto.gasgoo.com_ · date: unknown
+  盖世汽车讯 比亚迪于7月28日在日本市场推出的轻型电动车“RACCO”，上市约一周销量已达741辆。比亚迪日本公司社长东福寺厚树在8月5日的媒体试乘会上透露了这一数据。 车型定位：专为日本市场设计的轻EV RACCO是专为日本轻型车标准量身设计的纯电动车。该车采用日本轻型车市场中流行的超高顶车身造型，全系标配电动滑动门，以契合日本消费者的使用需求。 图片来源
+- **[蔚来换电突破1.2亿次 第4000座换电站今日投运](https://auto.gasgoo.com/news/202608/7I70468968C501.shtml)** — _auto.gasgoo.com_ · date: unknown
+  盖世汽车获悉 8月7日，蔚来宣布换电服务累计突破1.2亿次。同日，蔚来第4000座换电站及首批第五代换电站正式投入运营。该换电网络将面向蔚来、乐道及firefly萤火虫三品牌用户提供服务。 图片来源：@蔚来汽车 数据显示，蔚来换电站累计换电电量达63.5亿千瓦时，相当于可供超过317万户家庭一年的生活用电。在补能效率方面，相较充电模式，换电为用户累计节省约9
+- **[丰田2026年上半年全球销量达539万辆](https://auto.gasgoo.com/news/202608/7I70468838C101.shtml)** — _auto.gasgoo.com_ · date: unknown
+- **[保时捷推出纯电动Macan GTS 零百加速3.8秒](https://auto.gasgoo.com/news/202608/7I70468837C101.shtml)** — _auto.gasgoo.com_ · date: unknown
+  盖世汽车讯 保时捷已正式推出纯电动Macan GTS车型，作为Macan Electric车系中定位介于4S与Turbo之间的高性能版本。该车型搭载双电机四驱系统，系统最大输出功率为571马力（420千瓦），峰值扭矩达955牛·米，0-100公里/小时加速时间为3.8秒，最高时速为250公里/小时。 图片来源：保时捷中国 Macan GTS Electric
+- **[2026年7月俄罗斯新车销量创年内新高](https://auto.gasgoo.com/news/202608/7I70468852C101.shtml)** — _auto.gasgoo.com_ · date: unknown
+  盖世汽车讯 根据俄罗斯汽车市场分析机构“АВТОСТАТ”（Autostat）援引AO“PPK”数据，2026年7月俄罗斯共售出12.21万辆新车，为今年以来单月最高销量。 图片来源：花瓣网 此前，2026年销量最高的月份为4月，当月销量为11.75万辆。自今年3月以来，俄罗斯新车月度销量已连续五个月突破10万辆。 数据显示，7月新车销量环比6月（11.63
+- **[Zoox将于8月10日在拉斯维加斯推出付费自动驾驶出租车服务](https://auto.gasgoo.com/news/202608/7I70468918C101.shtml)** — _auto.gasgoo.com_ · date: unknown
+  盖世汽车讯 亚马逊（Amazon）旗下自动驾驶公司Zoox于8月6日宣布，将于8月10日起在美国内华达州拉斯维加斯正式推出付费自动驾驶出租车（robotaxi）服务。此举标志着该公司首次实现商业化运营，旨在扩大业务规模并与Alphabet旗下的Waymo展开竞争。 Zoox自去年起已在拉斯维加斯和加利福尼亚州旧金山的部分区域向公众提供免费无人驾驶接驳服务。今
+- **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2085359245573373952)** — _autodata.gasgoo.com_ · date: unknown
+- **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2085527759974805504)** — _autodata.gasgoo.com_ · date: unknown
+- **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2085532722771148800)** — _autodata.gasgoo.com_ · date: unknown
+- **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2085533048324636672)** — _autodata.gasgoo.com_ · date: unknown
+- **[多地购车补贴再加码 助力汽车消费市场升温](https://bgimg.ce.cn/xwzx/gnsz/gdxw/202608/t20260807_3134306.shtml)** — _bgimg.ce.cn_ · published 2026-08-07
+  今年以来 多地为促进汽车消费 陆续推出购车消费补贴 陕西多地加码新能源汽车消费补贴 在榆林东沙汽车产业园的一家汽车品牌店内，销售顾问正耐心为前来购车的市民刘先生讲解车辆性能与补贴细则，几番体验下来，刘先生对车辆性能和补贴方案都很满意。 在产业园内另外一家汽车品牌店的展厅内，“政府消费券叠加企业让利”的宣传展架格外醒目，工作人员也正向看车市民详细介绍购车补贴政
+- **[中国品牌汽车在南非持续“圈粉”（国际视点）](https://cen.ce.cn/more/202608/t20260807_3134209.shtml)** — _cen.ce.cn_ · published 2026-08-07
+  本报记者 邹松 南非汽车商业委员会日前发布的2026年6月产销数据显示，该国当月新车销量达54482辆，同比增长15.3％，取得2007年以来同期最佳表现。当前，南非汽车市场正加快向电动化、低碳化转型。在政策激励与全球供应链重塑的推动下，新能源汽车在当地的渗透率稳步提升。 在此进程中，中国品牌汽车以智能化、电动化为支点，凭借高性价比产品与本地化服务持续拓展市
+- **[自动驾驶有了统一“准入门槛”](https://economy.gmw.cn/2026-08/07/content_38931575.htm)** — _economy.gmw.cn_ · published 2026-08-07
+  点击右上角微信好友 朋友圈 请使用浏览器分享功能进行分享 划定车企的责任范围，强化系统动态驾驶任务执行能力—— 自动驾驶有了统一“准入门槛” 近日，工业和信息化部组织制定并归口的《智能网联汽车 自动驾驶系统安全要求》强制性国家标准获批发布，拟于2027年7月1日起正式实施。多方分析认为，该标准划定了车企的责任范围，明确了自动驾驶系统的安全水平并规范了人机交互
+- **[齐心集团中选长安汽车电子商城项目](https://egs.stcn.com/news/detail/2324246.html)** — _egs.stcn.com_ · published 2026-08-07
+  首页 推荐 快讯 解读 股市 港股通 视听 专题 行情 数据 公众号 APP 电子报 您当前的位置： 证券时报·e公司 > 快讯 > 详情 齐心集团中选长安汽车电子商城项目 来源：人民财讯 作者：李在山 2026-08-07 12:07 Aa 大号字 人民财讯8月7日电，据齐心集团消息，近日，齐心集团中选长安汽车电子商城项目。公司将依托一站式政企数字化采购服
 - **[自动驾驶有了统一“准入门槛”（锐财经）](https://finance.people.com.cn/n1/2026/0807/c1004-40775325.html)** — _finance.people.com.cn_ · published 2026-08-07
   划定车企的责任范围，强化系统动态驾驶任务执行能力—— 自动驾驶有了统一“准入门槛”（锐财经） 点击播报本文，约 | 近日，在四川省乐山市市中区一家大型商业购物中心内，消费者选购新款智能汽车。 | 近日，工业和信息化部组织制定并归口的《智能网联汽车 自动驾驶系统安全要求》强制性国家标准获批发布，拟于2027年7月1日起正式实施。多方分析认为，该标准划定了车企的
 - **[神行者8首台量产车下线，奇瑞董事长尹同跃与苏州市领导签名纪念](https://m.21jingji.com/article/20260806/herald/af76f08407ef528466232b520c2a1525.html)** — _m.21jingji.com_ · date: unknown
@@ -160,8 +183,36 @@ _Updated 2026-08-07 09:12 | discovery-only, zero LLM tokens | runs every 3h_
   21世纪经济报道记者 何煦阳 《21汽车·一见Auto》从多方独立信源处获悉，前小鹏集团产品副总裁陈永海已加入众擎机器人，担任运营总裁，向董事长及CEO赵同阳汇报。 陈永海此前是高德地图产品运营的负责人，2022年加入小鹏，后又负责其产品中心。 一位知情人士告诉《21汽车·一见Auto》，陈永海今年1月从小鹏集团离职，后众擎创始人赵同阳邀请陈永海加入众擎。另
 - **[宝马3系在华累计销量突破200万辆，新世代i3成都车展亮相](https://m.21jingji.com/article/20260806/herald/ff1fef35343c3cc48de7702afa8ad69c.html)** — _m.21jingji.com_ · date: unknown
   8月6日，宝马中国宣布，BMW 3系在中国市场累计销量突破200万辆。该车型自1975年问世以来历经七代传承，全球累计销量超千万辆。 据宝马方面透露，基于Neue Klasse原生纯电平台开发的新世代BMW i3将在8月21日开幕的成都车展正式亮相。该车型计划2026年第四季度由华晨宝马投产上市，采用800V高压架构，CLTC续航超1000公里，充电10分钟
+- **[多地购车补贴再加码 助力汽车消费市场升温](https://m.gmw.cn/2026-08/07/content_38932128.htm)** — _m.gmw.cn_ · published 2026-08-07
+  来源：央视财经 2026-08-07 10:42 今年以来 多地为促进汽车消费 陆续推出购车消费补贴 陕西多地加码新能源汽车消费补贴 在榆林东沙汽车产业园的一家汽车品牌店内，销售顾问正耐心为前来购车的市民刘先生讲解车辆性能与补贴细则，几番体验下来，刘先生对车辆性能和补贴方案都很满意。 在产业园内另外一家汽车品牌店的展厅内，“政府消费券叠加企业让利”的宣传展架
+- **[零跑A10第10万台整车下线 里程碑时刻](https://news.yiche.com/xiaoliangshuju/20260807/11112084146.html)** — _news.yiche.com_ · date: unknown
+  推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 8月7日，零跑A10第10万台整车正式下线，从3月26日上市至今仅用时135天，刷新零跑十万台下线新速度，同时刷新10万内SUV十万销量新纪录。 作为零跑全新A平台首款全球化车型，零跑A10官方指导
+- **[蔚来换电突破1.2亿次 第五代换电站今日投入运营](https://news.yiche.com/zonghexinwen/20260807/10112081565.html)** — _news.yiche.com_ · date: unknown
+  推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 8月7日，蔚来累计提供换电服务突破1.2亿次。蔚来换电网络建设已经形成规模化网络效应，为用户带来“加电和加油一样方便”的差异化体验优势。 用户换电电量累计63.5亿kWh，相当于317万家庭日常一年
+- **[齐心集团中选长安汽车电子商城项目](https://qzs.stcn.com/article/detail/622354.html)** — _qzs.stcn.com_ · date: unknown
+  券中社APP 登录 首页 快讯 视听 要闻 基金 券中号 全媒体 手机号登录/注册 手机号 验证码 获取短信验证码 图形验证码 我已经阅读并同意 《用户服务协议》 《隐私协议》 账号 密码 确认 首次登录会自动创建账号 齐心集团中选长安汽车电子商城项目 人民财讯 作者：李在山 | 12:07发布 人民财讯8月7日电，据齐心集团消息，近日，齐心集团中选长安汽车
 - **[福特不讲武德！大马力混动+四驱+6L级油耗，价格也很香！](https://vc.yiche.com/vplay/12424232.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 22.98-30.98万 23万级最均衡家用SUV！26款锐界L真没短板 说车的佳鑫 不到18万拿下合资大七座!2026款福特锐界l是真正懂中国家庭的车 evanHaina
+- **[拆三台纯电卷王！昔日50万降到30万，减配啥了？大唐居然最惊喜？](https://vc.yiche.com/vplay/12493532.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 23.99-30.99万 那些跟特斯拉比的，还有什么可比的！深度体验大唐EV 三个司机 哈蒙德试驾兰博基尼Revuelto 不靠谱实验室 小鹏GX价格揭晓，李斌称其直指蔚来
+- **[奔驰设计配上吉利狠活，实探全新一代smart精灵1号，这次它真的变强了](https://vc.yiche.com/vplay/12501470.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 15.29-24.99万 全新一代smart精灵#1：这次终于不用只靠脸了 千寻玩车 哈蒙德试驾兰博基尼Revuelto 不靠谱实验室 从AION到RAY：埃安第十年，扔掉
+- **[质说新车：入门价位畅享高阶智驾 零跑A10](https://vc.yiche.com/vplay/12501225.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 6.58-8.68万 证监会五问零跑汽车请给我一个完美的解释？ #零跑汽车 冰哥说车 5月份新势力销量排名，这些车企月销都超过了3万！ 十三先生Studio 试驾全新雷克萨
+- **[10万级纯电SUV，前排双C位座椅！东风风神L8Y到底能不能打！](https://vc.yiche.com/vplay/12501148.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 延迟50年的叛逆：TWR Supercat 驾驭无界 15万级SUV硬实力横评深蓝S07太卷了 小didi车评 直击家用痛点，东风风神新能源8系为市场开出两剂“猛药
+- **[纯电紧凑SUV新卷王？3C快充+0甲醛只要10万级！](https://vc.yiche.com/vplay/12384822.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 紧凑车身有惊喜？欧拉5空间表现如何？ 智电新星 腾势 Z 亮相 2026 粤港澳车展，重新定义百万级超跑标准 知行动力 直击家用痛点，东风风神新能源8系为市场开出两
+- **[十万级纯电SUV黑马～东风风神L8Y](https://vc.yiche.com/vplay/12500616.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 雅迪、爱玛利润率远超理想汽车，电动自行车暗藏多少溢价？ 汽车系超老师 五星大平层既视感 全新一代传祺向往E8 PHEV太顶了 汽车拍拍 直击家用痛点，东风风神新能源
+- **[东风风神L8Y 年轻人的第一辆纯电SUV](https://vc.yiche.com/vplay/12492020.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 试驾岚图泰山X8，实力如何？ 宇宙出行指南 小鹏GX 作为小鹏的第一款大型SUV，可以说相当诚意！ 叁佰玩速 三车齐发！东风风神给家用市场立了把新尺 智行侃车 《夏
+- **[5分钟速看新车](https://vc.yiche.com/vplay/12499503.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 全“家”福登场！东风风神L8Y/L8+/L9补齐全家庭用车需求 午焰驾道 还在纠结买哪种动力？东风风神直接把三个选项端上来了 宇尘说车 三车齐发！东风新能源L系满配
+- **[禁售燃油车在海南如何落地](https://views.ce.cn/view/ent/202608/t20260807_3134010.shtml)** — _views.ce.cn_ · published 2026-08-07
+  对话人： 周珊珊 人民日报评论员 李 萌 海南日报评论员 周珊珊：全国首个确定禁售燃油车的省份，为什么是海南？政策渐进式推进、不搞“一刀切”，体现了怎样的分寸感？ 李萌：早在2018年，中央文件就明确提出在海南岛逐步禁止销售燃油汽车；一年后，2030年全域禁售写入省级规划。前不久发布的《“十五五”海南国家生态文明试验区规划（美丽海南建设“十五五”规划）》提出
+- **[多地购车补贴再加码 助力汽车消费市场升温](https://www.ce.cn/xwzx/gnsz/gdxw/202608/t20260807_3134306.shtml)** — _www.ce.cn_ · published 2026-08-07
+  今年以来 多地为促进汽车消费 陆续推出购车消费补贴 陕西多地加码新能源汽车消费补贴 在榆林东沙汽车产业园的一家汽车品牌店内，销售顾问正耐心为前来购车的市民刘先生讲解车辆性能与补贴细则，几番体验下来，刘先生对车辆性能和补贴方案都很满意。 在产业园内另外一家汽车品牌店的展厅内，“政府消费券叠加企业让利”的宣传展架格外醒目，工作人员也正向看车市民详细介绍购车补贴政
 - **[从少数人专属到全民可选，自主纯电轿跑改写车市规则](https://www.cnr.cn/2013qcpd/2015xc/20260807/t20260807_527751286.shtml)** — _www.cnr.cn_ · published 2026-08-07
   曾经被贴上“小众、高端”标签的轿跑车型，正迎来集中上市的爆发期。近期，启境GT7、吉利银河TT、奇瑞风云A9等多款自主品牌纯电轿跑密集亮相、上市，覆盖11万~30万元的主流中高端轿车价格区间。不同于燃油车时代轿跑动辄数十万元的定价、仅供少数消费者体验的属性，这批全新纯电轿跑兼顾颜值、性能与实用性，以极具竞争力的定价和差异化产品体验，快速重塑了B级纯电轿车市场
 - **[从单极依赖到开放采购，汽车供应链的多元突围](https://www.cnr.cn/2013qcpd/2015xc/20260807/t20260807_527751285.shtml)** — _www.cnr.cn_ · published 2026-08-07
@@ -172,18 +223,30 @@ _Updated 2026-08-07 09:12 | discovery-only, zero LLM tokens | runs every 3h_
   近期，据海外媒体Electrek报道，海外部分特斯拉HW3老车主遭遇一场OTA升级引发的安全隐患。据报道，特斯拉向400余万辆搭载老款HW3自动驾驶硬件的车型推送FSDV14Lite版本更新后，车辆自动驾驶ECU主板满载运行，温度飙升至96℃，频繁弹出过热故障警报，FSD功能强制下线，车主只能靠边停车降温才能恢复辅助驾驶；更有车辆因长期高温直接烧毁自动驾驶计
 - **[湖南上半年乘用车新车销量榜出炉](https://www.cnr.cn/hunan/gstjhunan/20260807/t20260807_527751438.shtml)** — _www.cnr.cn_ · published 2026-08-07
   近日，湖南省汽车商会和湖南车展组委会联合发布多项数据，包括2026年上半年湖南省乘用车新车上险量、长沙乘用车新车上险量、湖南省新能源新车上险量、长沙新能源汽车新车上险量（均为乘用车），湖南上半年新车销量榜由此出炉。作为省会城市，长沙继续展现出断层式领跑格局，在新能源车销量方面尤为明显。 数据均源自湖南省汽车商会、湖南车展组委会 数据显示，上半年湖南省乘用车新
+- **[搭载天枢领航智能驾驶辅助系统，全新深蓝S05上市](https://www.cnr.cn/2013qcpd/cz/20260807/t20260807_527751793.shtml)** — _www.cnr.cn_ · published 2026-08-07
+  央广网北京8月7日消息（记者姜鹏）8月6日，全新深蓝S05正式上市，提供520智行版、520智臻版、520智臻版激光版、620智臻版、620智臻激光版共5款车型，限时优惠价为11.59万元—14.49万元。 作为深蓝汽车专为年轻家庭用户打造的产品，全新深蓝S05不仅带来CLTC 620km超长纯电续航，更实现“智能进阶、驾乘进阶、空间进阶、时尚进阶”四大维度
 - **[特斯拉FSD超速被罚，司机辩称“自动驾驶”不背锅](https://www.d1ev.com/newsflash/309462)** — _www.d1ev.com_ · date: unknown
   8月5日，美国科罗拉多州帕克市警方公布了一起涉及特斯拉FSD功能的交通违法案例。一辆特斯拉在限速45英里/小时的道路上以64英里/小时的速度行驶，被警方拦截。驾驶员辩称自己开启了“ 自动驾驶”，因此超速不关他的事。警方强调，无论车辆配备何种辅助驾驶功能，驾驶员仍需对车辆安全运行承担法律责任。 特斯拉所有量产车所配备的辅助驾驶系统均属于L2级，尽管特斯拉将其系
 - **[深蓝S05纯电新车型上市，售价11.99万起，续航620km，3C超充15分钟充能](https://www.d1ev.com/newsflash/309457)** — _www.d1ev.com_ · date: unknown
   8月6日，新款深蓝S05正式上市，推出5款纯电车型，售价区间11.99-15.19万元，限时优惠价11.59-14.49万元。新车延续家族“共生美学”设计理念，升级星际飞翼设计语言，主要针对灯组细节进行升级。车身尺寸为4620/1900/1600mm，轴距2880mm，配备无框车门、半隐藏式车门把手和18英寸轮圈。内饰方面，提供星云紫、热浪橙、星岩灰三种颜色
 - **[东南亚Q2车市：印尼领衔大涨34%，新加坡EV占比超6成](https://www.d1ev.com/news/shichang/309492)** — _www.d1ev.com_ · date: unknown
   对电动汽车日益增长的需求正成为东南亚汽车市场的重要驱动力，从印度尼西亚、马来西亚到泰国和越南，电动汽车销量均呈现上升态势。 根据《日经亚洲》对该地区主要汽车市场4月至6月销售数据的分析，受印尼、马来西亚和泰国强劲增长的带动，整体销量较上年同期增长约11%。 印尼第二季度依然是东南亚最大的汽车市场，销量同比增长34%，达到227,545辆。政府激励措施以及消费
+- **[一汽-大众捷达M6纯电轿车内饰曝光，简约风格搭配“大床模式”座椅 - 第一电动网](https://www.d1ev.com/newsflash/309540)** — _www.d1ev.com_ · date: unknown
+  今日，一汽-大众旗下捷达品牌首款纯电轿车捷达M6的内饰官图发布。新车内饰设计简约，配备全液晶仪表和大尺寸悬浮中控屏，双辐多功能方向盘，以及隐藏式氛围灯、手机无线充电面板和全景天幕等配置。座椅方面，前排座椅可完全放平，与后排座椅形成“大床模式”。 捷达M6纯电动轿车车身尺寸为长4806mm、宽1868或1895mm、高1500mm，轴距2820mm。额定载客5
+- **[大众ID.ERA5S开启预售，1.5T插电混动轿车亮相](https://www.d1ev.com/newsflash/309539)** — _www.d1ev.com_ · date: unknown
+  8月7日，上汽大众宣布ID.ERA5S将于8月11日开启预售。这款新车的尺寸为长4836mm、宽1880mm、高1505mm，轴距为2766mm。动力方面，ID.ERA5S将搭载1.5T插电混动系统， 发动机最大净功率为77kW，驱动电机额定功率为57.6kW，峰值功率为130kW。上汽大众已公布新车的五款外观颜色和两款内饰颜色，新车内饰采用环抱一体式布局，
+- **[挪威7月汽车销量：小鹏汽车首进前三，国产新能源崛起](https://www.d1ev.com/newsflash/309535)** — _www.d1ev.com_ · date: unknown
+  近日，易车根据挪威官方机构和本土汽车协会的数据，发布了2026年7月挪威汽车市场的销量盘点。在这次的销量排名中，小鹏汽车首次跻身挪威汽车全品牌销量前三，紧随丰田和大众之后。丰田以1260辆的销量位居榜首，大众以985辆的成绩位列第二，而小鹏汽车以843辆的销量排在第三位，与大众的差距逐渐缩小。 沃尔沃、宝马和奔驰等传统豪华品牌在挪威市场的销量分别为726辆、
 - **[华阳集团(002906.SZ)：公司推出的AIBOX产品已获得车企平台型定点项目，即将实现量产](https://www.gelonghui.com/news/5281642)** — _www.gelonghui.com_ · date: unknown
   格隆汇8月6日丨华阳集团(002906.SZ)在投资者关系中表示，有被问到：公司AI BOX产品介绍及市场进展？ 答：公司与英特尔联合打造AIBOX产品，依托华阳自研AAOP软件开放平台与SOA架构，通过标准化高速接口便捷接入，无需改动原车架构，即可为平台化座舱方案搭建强劲的AI算力底座，支撑35B及以上级别的端侧大模型本地化部署，并依托端云协同架构，实现多
+- **[齐心集团中选长安汽车电子商城项目](https://www.gelonghui.com/live/2598994)** — _www.gelonghui.com_ · published 2026-08-07
+  申请认证 格隆汇公众号矩阵 格隆汇App 下载格隆汇APP 诊股宝App 下载诊股宝App 汇路演App 下载汇路演APP 极调研 加入我们 首页 社区 快讯 事件 深度 主题 专栏 行情 会员 数据 财富圈 文章 更多相关文章 快讯 更多相关快讯 查看全部股票/文章/快讯/事件/用户/财富圈搜索结果 热门股票 搜索历史 清空历史 登录 / 注册 温馨提示
 - **[港澳地区居民每年在惠州购房近5000套；比亚迪销量跻身全球车企第六丨大湾区财经早参](https://www.nbd.com.cn/articles/2026-08-06/4534266.html)** — _www.nbd.com.cn_ · published 2026-08-06
   2026-08-07 07:00:08 每经记者｜孔泽思 每经编辑｜袁东 ｜2026年8月7日 星期五｜ NO.1 广东上半年高技术制造业销售收入增长11.8% “广东发布”微信公众号8月6日消息，最新税收数据显示，2026年上半年广东省制造业累计销售收入同比增长9.3%，高技术制造业销售收入增长11.8%。 点评：数据反映出广东工业生产活力强劲，高端制造赛
 - **[中国机械工业联合会：新能源汽车上半年渗透率达49.6%；韩国上半年销售电车中超三分之一为中国制造](https://www.nbd.com.cn/articles/2026-08-06/4534178.html)** — _www.nbd.com.cn_ · published 2026-08-06
   2026-08-07 06:30:03 每经记者｜董天意 实习生 刘家怡 每经编辑｜余婷婷 | 2026年8月7日 星期五 | NO.1 中国机械工业联合会：新能源汽车上半年渗透率达49.6% 8月6日，中国机械工业联合会发布的2026年上半年机械工业经济运行情况显示，新能源汽车在整体汽车市场承压背景下实现逆势增长，市场渗透率达到49.6%，成为拉动汽车行业
+- **[自动驾驶有了统一“准入门槛”](https://www.news.cn/sci-tech/20260807/203f334499b04ddc823905b1bd28eb80/c.html)** — _www.news.cn_ · published 2026-08-07
+  近日，工业和信息化部组织制定并归口的《智能网联汽车 自动驾驶系统安全要求》强制性国家标准获批发布，拟于2027年7月1日起正式实施。多方分析认为，该标准划定了车企的责任范围，明确了自动驾驶系统的安全水平并规范了人机交互的方式，标志着我国L3级、L4级自动驾驶有了统一的“准入门槛”。 两套国标构建完整监管体系 近年来，新一轮科技革命与产业变革持续深化，我国自动
 
 ### 2026-08-06 — 134 articles
 - **[东风新能源L系三车首发，覆盖纯电、插混、增程三大路径](https://auto.caijing.com.cn/2026/0806/5175636.shtml)** — _auto.caijing.com.cn_ · date: unknown
