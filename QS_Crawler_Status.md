@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-08-08 00:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-08-08 03:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-08-08 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **6592 unique auto/NEV articles** across **57 outlets**
+## Cumulative: **6595 unique auto/NEV articles** across **57 outlets**
 
 ## New per day
 | date | new articles |
@@ -71,14 +71,14 @@ _Updated 2026-08-08 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-08-05 | 155 |
 | 2026-08-06 | 134 |
 | 2026-08-07 | 117 |
-| 2026-08-08 | 14 |
+| 2026-08-08 | 17 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.d1ev.com | 1391 |
+| www.d1ev.com | 1392 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 592 |
+| vc.yiche.com | 593 |
 | auto.gasgoo.com | 458 |
 | 36kr.com | 309 |
 | www.stcn.com | 284 |
@@ -94,7 +94,7 @@ _Updated 2026-08-08 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 | www.yicai.com | 113 |
 | www.gelonghui.com | 95 |
 | auto.caijing.com.cn | 83 |
-| www.zqrb.cn | 73 |
+| www.zqrb.cn | 74 |
 | finance.eastmoney.com | 53 |
 | finance.people.com.cn | 46 |
 | www.jwview.com | 44 |
@@ -136,7 +136,7 @@ _Updated 2026-08-08 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-08-08 — 14 articles
+### 2026-08-08 — 17 articles
 - **[包钢股份成功研发800MPa级增强成形性稀土热轧汽车钢](https://egs.stcn.com/news/detail/2324555.html)** — _egs.stcn.com_ · date: unknown
   人民财讯8月7日电，据包钢股份消息，近日，包钢股份成功研制出800MPa级增强成形性稀土热轧汽车结构用钢。该产品采用“稀土净化钢质+纳米析出强化”复合技术，兼具高强度、高塑性与优异的扩孔性能，可适用于商用车高承载、复杂变形的汽车结构件。产品已通过某知名商用车配套厂的试模及批量应用验证。
 - **[自动驾驶国标发布，小鹏接受央视采访：汽车交付后仍要监测其安全](https://m.21jingji.com/article/20260807/herald/f90cb928e8588de9e4a6783bc91cd9a1.html)** — _m.21jingji.com_ · date: unknown
@@ -145,6 +145,8 @@ _Updated 2026-08-08 00:12 | discovery-only, zero LLM tokens | runs every 3h_
   21世纪经济报道记者 何煦阳 近期，长城汽车宣布长城 H10 拓展坞首搭小米车端滑轨接口，支持小米汽车车顶滑轨装配。长城H10上市21小时大定突破31836台，长城汽车董事长魏建军发布视频感谢。 目前，除长城H10外，比亚迪、广丰和郑州日产已有车型接入小米CarloT，小米“朋友圈”持续扩大。 （视频编辑：章启良） （作者：何煦阳,章启良 编辑：吴晓宇,张明
 - **[大通大家7批量交付享道出行，换电MPV杀入高端专车市场](https://m.21jingji.com/article/20260807/herald/4e3f2891e171eb593ad20aa8b93a788e.html)** — _m.21jingji.com_ · published 2026-08-07
   大通大家7批量交付享道出行，换电MPV杀入高端专车市场 21世纪经济报道 21财经APP 郑植文 上海报道 2026-08-07 22:30 21世纪经济报道记者 郑植文 上海报道 8月6日，上汽大通大家7首批百台车辆正式交付享道出行，加入其高端专车车队。这是继2022年氢能源MPV商业化运营之后，双方在多人出行领域的又一次规模化合作。 大家7定位纯电MPV
+- **[提车6小时就报废，比亚迪大唐遭泥头车重创！结果……](https://vc.yiche.com/vplay/12429895.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 23.99-30.99万 逛店实拍｜2026款昊铂S600到底香在哪? 驾享生活V 开海豹08打卡不一样的博物馆系列 一豫见古墓博物馆 大河汽车 昊铂HT 15万级的价格
 - **[新疆阿克苏地区库车市发生3.3级地震，震源深度21千米](https://www.cnr.cn/newscenter/native/gd/20260807/t20260807_527752815.shtml)** — _www.cnr.cn_ · published 2026-08-07
   首页 > 新闻频道 > 央广网国内 > 国内滚动 新疆阿克苏地区库车市发生3.3级地震，震源深度21千米 2026-08-07 23:42:11 来源：中国地震台网 中国地震台网正式测定：8月7日21时58分在新疆阿克苏地区库车市（北纬41.21度，东经83.34度）发生3.3级地震，震源深度21千米。 编辑:吴海波 更多精彩资讯请在应用市场下载“央广网”客
 - **[比亚迪海豹06新色亮相，2027款展车全国300+门店同步首发](https://www.d1ev.com/newsflash/309654)** — _www.d1ev.com_ · date: unknown
@@ -153,6 +155,8 @@ _Updated 2026-08-08 00:12 | discovery-only, zero LLM tokens | runs every 3h_
   今日，大众高尔夫混动版在西班牙市场正式上市，提供Style和R-Line两种版本，起售价为35,800欧元，约合人民币27.9万元。这款 油电混合动力（HEV）车型专为不选择插电式 混合动力（PHEV）的用户设计，直接对标丰田卡罗拉。新车搭载1.5升TSIevo2汽油发动机和两台电动机，综合最大功率170马力，最大扭矩309牛·米，零百加速时间为7.5秒，最
 - **[东风猛士X700申报亮相，插电混动硬派SUV新选择](https://www.d1ev.com/newsflash/309651)** — _www.d1ev.com_ · date: unknown
   8月7日，工信部公示了第410批《道路机动车辆生产企业及产品公告》新产品，东风猛士X700正式完成申报。这款插电式 混合动力运动型乘用车提供增程版和插混版两种配置，车身尺寸均为5035mm×1999mm，轴距2920mm。增程版高度1890mm，整备质量2500kg；插混版高度1910mm，整备质量2650kg。两款车型均搭载智新科技股份有限公司生产的149
+- **[广汽传祺越7硬派混动SUV亮相，9月预售开启！](https://www.d1ev.com/newsflash/309656)** — _www.d1ev.com_ · date: unknown
+  近日，广汽传祺全新车型越7正式发布并开启预定，预计9月开始预售。越7定位为插电硬派风格混动SUV，采用方盒子造型，整车线条刚劲平直，传承硬派越野的力量感。前脸为封闭式设计，搭配纵向排列的三颗日间行车灯，具备高辨识度。车顶前部安装了激光雷达，前翼子板处配备了传感器硬件，将搭载高阶辅助驾驶功能。车型尺寸长宽高分别为5045/2004/1933mm，轴距为2900
 - **[太突然！雪佛兰被曝将停止在华销售，通用汽车回应：不会停产，现有中国车主售后服务保障不会缩水！年销量曾超60万辆，如今已不足万辆](https://www.nbd.com.cn/articles/2026-08-07/4535750.html)** — _www.nbd.com.cn_ · published 2026-08-07
   每日经济新闻 2026-08-07 22:28:58 每经编辑｜段炼 8月6日，一则“雪佛兰将停止在华销售”的消息在汽车圈炸开了锅。不少雪佛兰车主慌了：我的车以后还能修吗？配件还有地方买吗？当天，通用汽车正式回应——不会停产，中国现有车主的售后服务保障不会缩水，经销商网络照常运转。 但这个回应背后，藏着一个更大的故事：曾经在中国年销超过60万辆的美系品牌，正
 - **[浙江世宝抛出13.94亿元定增计划 拟重点布局汽车线控转向产业化](https://www.nbd.com.cn/articles/2026-08-07/4535671.html)** — _www.nbd.com.cn_ · published 2026-08-07
@@ -165,6 +169,8 @@ _Updated 2026-08-08 00:12 | discovery-only, zero LLM tokens | runs every 3h_
   {{aisd}} AI生成 免责声明 随着国内新能源市场竞争加剧，行业出现“新车效应死亡谷”现象，即新车上市短期热度拉满后，订单、声量随即快速回落，新产品的销售生命周期大幅缩短，依靠单款车型持续走量越来越难。汽车新品扎堆迭代下，车企不得不调整产品投放节奏。 近日，大众汽车（安徽）数字化销售服务有限公司CEO刘展术向记者表示，“新车效应死亡谷”现象是当前市场客
 - **[蔚来换电突破1.2亿次，零跑第10万辆A10量产下线](https://www.yicai.com/news/103310278.html)** — _www.yicai.com_ · published 2026-08-07
   {{aisd}} AI生成 免责声明 【一周新事件】 1，蔚来换电突破1.2亿次 2026年8月7日08:09:16，蔚来换电突破1.2亿次。蔚来1049座高速换电站连通550座城市，已经打通9纵11横16大城市群高速换电网络。同日，蔚来首批第五代换电站在北京、上海、广州、苏州、合肥、成都、泉州七座城市投入运营，firefly萤火虫正式接入蔚来换电体系。蔚来
+- **[汽车商品出口保持高增长 中国车企加速拓展全球市场](https://www.zqrb.cn/auto/qichedongtai/2026-08-08/A1786089234435.html)** — _www.zqrb.cn_ · published 2026-08-08
+  本报记者 张文湘 见习记者 占健宇 中国汽车产业全球化进程正在提速。8月6日，中国汽车工业协会（以下简称“中汽协”）整理的海关总署数据显示，2026年6月份，国内汽车商品进出口总额达318.2亿美元，同比增长35.5%。汽车出口的持续强势，成为拉动中国整体对外贸易规模增长的重要动力。 汽车出口持续高速增长的同时，国内车企海外布局也在不断深化，中国汽车“出海”
 
 ### 2026-08-07 — 117 articles
 - **[工信部发布新一轮新车公告，埃安Ray 7引发关注](https://auto.caijing.com.cn/2026/0807/5176020.shtml)** — _auto.caijing.com.cn_ · published 2026-08-07
