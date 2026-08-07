@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-08-07 21:15 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-08-08 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-08-07 21:15 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **6578 unique auto/NEV articles** across **57 outlets**
+## Cumulative: **6592 unique auto/NEV articles** across **57 outlets**
 
 ## New per day
 | date | new articles |
@@ -71,26 +71,27 @@ _Updated 2026-08-07 21:15 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-08-05 | 155 |
 | 2026-08-06 | 134 |
 | 2026-08-07 | 117 |
+| 2026-08-08 | 14 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.d1ev.com | 1388 |
+| www.d1ev.com | 1391 |
 | www.dongchedi.com | 1088 |
 | vc.yiche.com | 592 |
 | auto.gasgoo.com | 458 |
 | 36kr.com | 309 |
-| www.stcn.com | 283 |
-| www.cnr.cn | 228 |
+| www.stcn.com | 284 |
+| www.cnr.cn | 229 |
 | www.caam.org.cn | 211 |
 | autodata.gasgoo.com | 209 |
 | news.yiche.com | 198 |
-| egs.stcn.com | 195 |
-| www.nbd.com.cn | 178 |
+| egs.stcn.com | 196 |
+| www.nbd.com.cn | 181 |
 | www.news.cn | 133 |
-| m.21jingji.com | 126 |
+| m.21jingji.com | 129 |
 | www.cada.cn | 116 |
-| www.yicai.com | 111 |
+| www.yicai.com | 113 |
 | www.gelonghui.com | 95 |
 | auto.caijing.com.cn | 83 |
 | www.zqrb.cn | 73 |
@@ -134,6 +135,36 @@ _Updated 2026-08-07 21:15 | discovery-only, zero LLM tokens | runs every 3h_
 | culture.gmw.cn | 1 |
 
 ## Articles captured by day (newest first)
+
+### 2026-08-08 — 14 articles
+- **[包钢股份成功研发800MPa级增强成形性稀土热轧汽车钢](https://egs.stcn.com/news/detail/2324555.html)** — _egs.stcn.com_ · date: unknown
+  人民财讯8月7日电，据包钢股份消息，近日，包钢股份成功研制出800MPa级增强成形性稀土热轧汽车结构用钢。该产品采用“稀土净化钢质+纳米析出强化”复合技术，兼具高强度、高塑性与优异的扩孔性能，可适用于商用车高承载、复杂变形的汽车结构件。产品已通过某知名商用车配套厂的试模及批量应用验证。
+- **[自动驾驶国标发布，小鹏接受央视采访：汽车交付后仍要监测其安全](https://m.21jingji.com/article/20260807/herald/f90cb928e8588de9e4a6783bc91cd9a1.html)** — _m.21jingji.com_ · date: unknown
+  21世纪经济报道记者 何煦阳 近日，《智能网联汽车 自动驾驶系统安全要求》强制性国家标准正式发布，标准的出台进一步完善了自动驾驶产业标准体系。8月5日，央视新闻围绕新标准出台推出专题报道，小鹏集团作为行业代表受邀接受专题采访。 （视频编辑：章启良） （作者：何煦阳,章启良 编辑：吴晓宇,张明艳 视频编辑：章启良） 南方财经全媒体集团及其客户端所刊载内容的知识
+- **[雷军“拿下”魏建军！长城汽车接入小米生态](https://m.21jingji.com/article/20260807/herald/d02448b33db5ab979b120b0c3b768bb4.html)** — _m.21jingji.com_ · date: unknown
+  21世纪经济报道记者 何煦阳 近期，长城汽车宣布长城 H10 拓展坞首搭小米车端滑轨接口，支持小米汽车车顶滑轨装配。长城H10上市21小时大定突破31836台，长城汽车董事长魏建军发布视频感谢。 目前，除长城H10外，比亚迪、广丰和郑州日产已有车型接入小米CarloT，小米“朋友圈”持续扩大。 （视频编辑：章启良） （作者：何煦阳,章启良 编辑：吴晓宇,张明
+- **[大通大家7批量交付享道出行，换电MPV杀入高端专车市场](https://m.21jingji.com/article/20260807/herald/4e3f2891e171eb593ad20aa8b93a788e.html)** — _m.21jingji.com_ · published 2026-08-07
+  大通大家7批量交付享道出行，换电MPV杀入高端专车市场 21世纪经济报道 21财经APP 郑植文 上海报道 2026-08-07 22:30 21世纪经济报道记者 郑植文 上海报道 8月6日，上汽大通大家7首批百台车辆正式交付享道出行，加入其高端专车车队。这是继2022年氢能源MPV商业化运营之后，双方在多人出行领域的又一次规模化合作。 大家7定位纯电MPV
+- **[新疆阿克苏地区库车市发生3.3级地震，震源深度21千米](https://www.cnr.cn/newscenter/native/gd/20260807/t20260807_527752815.shtml)** — _www.cnr.cn_ · published 2026-08-07
+  首页 > 新闻频道 > 央广网国内 > 国内滚动 新疆阿克苏地区库车市发生3.3级地震，震源深度21千米 2026-08-07 23:42:11 来源：中国地震台网 中国地震台网正式测定：8月7日21时58分在新疆阿克苏地区库车市（北纬41.21度，东经83.34度）发生3.3级地震，震源深度21千米。 编辑:吴海波 更多精彩资讯请在应用市场下载“央广网”客
+- **[比亚迪海豹06新色亮相，2027款展车全国300+门店同步首发](https://www.d1ev.com/newsflash/309654)** — _www.d1ev.com_ · date: unknown
+  今日，比亚迪汽车海洋网销售事业部总经理张卓发布了2027款海豹06全新车色官图，新色命名尚未公布。同时，2027款海豹06首批展车已抵达全国118城300+门店。比亚迪2027款海豹06定位为“B级满配家轿”，整体设计延续在售车型，主要在细节上有所调整。新车前脸更为简洁，车尾采用贯穿设计尾灯组，造型有所调整。车顶搭载激光雷达，预示新车将支持辅助驾驶功能。 2
+- **[大众高尔夫混动版西班牙上市，27.9万起售，挑战丰田卡罗拉](https://www.d1ev.com/newsflash/309653)** — _www.d1ev.com_ · date: unknown
+  今日，大众高尔夫混动版在西班牙市场正式上市，提供Style和R-Line两种版本，起售价为35,800欧元，约合人民币27.9万元。这款 油电混合动力（HEV）车型专为不选择插电式 混合动力（PHEV）的用户设计，直接对标丰田卡罗拉。新车搭载1.5升TSIevo2汽油发动机和两台电动机，综合最大功率170马力，最大扭矩309牛·米，零百加速时间为7.5秒，最
+- **[东风猛士X700申报亮相，插电混动硬派SUV新选择](https://www.d1ev.com/newsflash/309651)** — _www.d1ev.com_ · date: unknown
+  8月7日，工信部公示了第410批《道路机动车辆生产企业及产品公告》新产品，东风猛士X700正式完成申报。这款插电式 混合动力运动型乘用车提供增程版和插混版两种配置，车身尺寸均为5035mm×1999mm，轴距2920mm。增程版高度1890mm，整备质量2500kg；插混版高度1910mm，整备质量2650kg。两款车型均搭载智新科技股份有限公司生产的149
+- **[太突然！雪佛兰被曝将停止在华销售，通用汽车回应：不会停产，现有中国车主售后服务保障不会缩水！年销量曾超60万辆，如今已不足万辆](https://www.nbd.com.cn/articles/2026-08-07/4535750.html)** — _www.nbd.com.cn_ · published 2026-08-07
+  每日经济新闻 2026-08-07 22:28:58 每经编辑｜段炼 8月6日，一则“雪佛兰将停止在华销售”的消息在汽车圈炸开了锅。不少雪佛兰车主慌了：我的车以后还能修吗？配件还有地方买吗？当天，通用汽车正式回应——不会停产，中国现有车主的售后服务保障不会缩水，经销商网络照常运转。 但这个回应背后，藏着一个更大的故事：曾经在中国年销超过60万辆的美系品牌，正
+- **[浙江世宝抛出13.94亿元定增计划 拟重点布局汽车线控转向产业化](https://www.nbd.com.cn/articles/2026-08-07/4535671.html)** — _www.nbd.com.cn_ · published 2026-08-07
+  2026-08-07 21:17:21 每经记者｜陈俊杰 每经编辑｜张益铭 8月7日，浙江世宝（SZ002703，股价15.09元，市值124.14亿元）披露《2026年度向特定对象发行A股股票预案》。预案显示，本次发行拟募集资金总额不超过13.94亿元，扣除发行费用后将投向汽车线控转向系统产业化建设、乘用车新一代智能上转系统产业化建设等五大项目，重点加码智
+- **[通用汽车：雪佛兰不会停产，现有中国车主售后服务保障不会缩水](https://www.nbd.com.cn/articles/2026-08-07/4535798.html)** — _www.nbd.com.cn_ · published 2026-08-07
+  每经网首页 > 视频快讯 > 正文 2026-08-07 23:58:14 内容无须标注 特别提醒：如果我们使用了您的图片，请作者与本站联系索取稿酬。如您不希望作品出现在本站，可联系我们要求撤下您的作品。 上一篇文章 昔日明星科技股，“科学家”实控人王宇翔被立案调查！公司遭遇巨额亏损，大量银行账户遭司法冻结，已面临退市危机 下一篇文章 上半年铝行业利润同比增
+- **[包钢股份成功研发800MPa级增强成形性稀土热轧汽车钢](https://www.stcn.com/article/detail/4064877.html)** — _www.stcn.com_ · published 2026-08-05
+  证券时报网 刘良文 2026-08-05 21:27 人民财讯8月7日电，据包钢股份消息，近日，包钢股份成功研制出800MPa级增强成形性稀土热轧汽车结构用钢。该产品采用“稀土净化钢质+纳米析出强化”复合技术，兼具高强度、高塑性与优异的扩孔性能，可适用于商用车高承载、复杂变形的汽车结构件。产品已通过某知名商用车配套厂的试模及批量应用验证。
+- **[“新车死亡谷”效应加剧，大众安徽维持高频产品上新节奏](https://www.yicai.com/news/103310274.html)** — _www.yicai.com_ · date: unknown
+  {{aisd}} AI生成 免责声明 随着国内新能源市场竞争加剧，行业出现“新车效应死亡谷”现象，即新车上市短期热度拉满后，订单、声量随即快速回落，新产品的销售生命周期大幅缩短，依靠单款车型持续走量越来越难。汽车新品扎堆迭代下，车企不得不调整产品投放节奏。 近日，大众汽车（安徽）数字化销售服务有限公司CEO刘展术向记者表示，“新车效应死亡谷”现象是当前市场客
+- **[蔚来换电突破1.2亿次，零跑第10万辆A10量产下线](https://www.yicai.com/news/103310278.html)** — _www.yicai.com_ · published 2026-08-07
+  {{aisd}} AI生成 免责声明 【一周新事件】 1，蔚来换电突破1.2亿次 2026年8月7日08:09:16，蔚来换电突破1.2亿次。蔚来1049座高速换电站连通550座城市，已经打通9纵11横16大城市群高速换电网络。同日，蔚来首批第五代换电站在北京、上海、广州、苏州、合肥、成都、泉州七座城市投入运营，firefly萤火虫正式接入蔚来换电体系。蔚来
 
 ### 2026-08-07 — 117 articles
 - **[工信部发布新一轮新车公告，埃安Ray 7引发关注](https://auto.caijing.com.cn/2026/0807/5176020.shtml)** — _auto.caijing.com.cn_ · published 2026-08-07
