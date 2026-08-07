@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-08-07 18:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-08-07 21:15 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-08-07 18:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **6552 unique auto/NEV articles** across **57 outlets**
+## Cumulative: **6578 unique auto/NEV articles** across **57 outlets**
 
 ## New per day
 | date | new articles |
@@ -70,29 +70,29 @@ _Updated 2026-08-07 18:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-08-04 | 169 |
 | 2026-08-05 | 155 |
 | 2026-08-06 | 134 |
-| 2026-08-07 | 91 |
+| 2026-08-07 | 117 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.d1ev.com | 1382 |
+| www.d1ev.com | 1388 |
 | www.dongchedi.com | 1088 |
 | vc.yiche.com | 592 |
-| auto.gasgoo.com | 452 |
+| auto.gasgoo.com | 458 |
 | 36kr.com | 309 |
-| www.stcn.com | 281 |
+| www.stcn.com | 283 |
 | www.cnr.cn | 228 |
 | www.caam.org.cn | 211 |
-| autodata.gasgoo.com | 206 |
-| news.yiche.com | 197 |
-| egs.stcn.com | 193 |
-| www.nbd.com.cn | 177 |
-| www.news.cn | 132 |
+| autodata.gasgoo.com | 209 |
+| news.yiche.com | 198 |
+| egs.stcn.com | 195 |
+| www.nbd.com.cn | 178 |
+| www.news.cn | 133 |
 | m.21jingji.com | 126 |
 | www.cada.cn | 116 |
 | www.yicai.com | 111 |
 | www.gelonghui.com | 95 |
-| auto.caijing.com.cn | 81 |
+| auto.caijing.com.cn | 83 |
 | www.zqrb.cn | 73 |
 | finance.eastmoney.com | 53 |
 | finance.people.com.cn | 46 |
@@ -104,10 +104,10 @@ _Updated 2026-08-07 18:12 | discovery-only, zero LLM tokens | runs every 3h_
 | auto.ce.cn | 27 |
 | m.ce.cn | 26 |
 | www.ceweekly.cn | 21 |
-| www.ce.cn | 19 |
+| www.ce.cn | 20 |
 | cv.ce.cn | 17 |
 | i.gasgoo.com | 15 |
-| bgimg.ce.cn | 13 |
+| bgimg.ce.cn | 14 |
 | economy.gmw.cn | 12 |
 | m.gmw.cn | 9 |
 | industry.caijing.com.cn | 9 |
@@ -135,7 +135,11 @@ _Updated 2026-08-07 18:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-08-07 — 91 articles
+### 2026-08-07 — 117 articles
+- **[工信部发布新一轮新车公告，埃安Ray 7引发关注](https://auto.caijing.com.cn/2026/0807/5176020.shtml)** — _auto.caijing.com.cn_ · published 2026-08-07
+  8月7日，工信部发布新一轮新车公告，其中埃安发布的全新车系首款超级纯电轿车埃安Ray 7引发广泛关注。从公告信息中可以看到，埃安Ray 7采用量子星环家族设计语言，车长接近5米，轴距2920mm，整车原创造型低趴宽体。同时，新车还搭载了华为电驱、宁德时代电池，配备激光雷达，支持高阶驾驶辅助。标配ABS及EDR系统。 工信部发布新一轮新车公告，埃安Ray 7引
+- **[纵横F700全球上市：29.99万元起，定位豪华越野皮卡](https://auto.caijing.com.cn/2026/0807/5175857.shtml)** — _auto.caijing.com.cn_ · published 2026-08-06
+  2026年8月6日，云南大理。纵横品牌首款皮卡车型，纵横F700正式全球上市。新车定位“全领域豪华越野皮卡”，推出3款版型，指导价31.49万-35.49万元，限时权益价29.99万-33.99万元，同步公布7项上市购车礼遇。 这不是一次常规的产品发布。在皮卡市场从“工具车”向“生活方式载体”转变的全球浪潮中，纵横F700选择以“玩不封顶”为核心理念，试图从
 - **[开拓情侣、新婚夫妻“两人市场”，别克至境L7纯电预售16.99万元起](https://auto.ce.cn/auto/gundong/202608/t20260807_3134603.shtml)** — _auto.ce.cn_ · published 2026-08-07
   从别克高端新能源子品牌至境首款车型，到上汽与通用战略续约后的首款车型，至境L7的含金量不断提升。 8月5日，作为上汽通用汽车战略续约后的首款车型——别克至境L7纯电正式开启预售，推出702奢享版、702奢享智行版与702艾维亚版三款配置，国补预售权益价16.99万—20.69万元。而2025年9月28日，增程版至境L7则是作为别克高端新能源子品牌“至境”的首
 - **[至境开启首次全系车型整车级迭代，至境OS V2.1 OTA升级在即](https://auto.ce.cn/auto/gundong/202608/t20260807_3134632.shtml)** — _auto.ce.cn_ · published 2026-08-07
@@ -169,18 +173,34 @@ _Updated 2026-08-07 18:12 | discovery-only, zero LLM tokens | runs every 3h_
 - **[小鹏双班制赶MONA L03产能](https://auto.gasgoo.com/news/202608/7I70468980C501.shtml)** — _auto.gasgoo.com_ · date: unknown
 - **[陶氏和安道拓联合推出可持续汽车座椅解决方案](https://auto.gasgoo.com/news/202608/7I70468992C409.shtml)** — _auto.gasgoo.com_ · date: unknown
   盖世汽车讯 据外媒报道，材料科学公司陶氏（Dow）与汽车座椅制造商安道拓（Adient）携手，正式推出新一代聚氨酯座椅解决方案SPECFLEX™ REN。该产品采用ISCC PLUS认证的生物基原料，并通过质量平衡法实现。 图片来源：陶氏 “此次合作彰显了陶氏化学致力于通过材料科学创新推动可持续出行发展的承诺。SPECFLEX™ REN的推出，使我们的合作伙
+- **[雷克萨斯下一代LFA原型车亮相古德伍德，或成丰田首款搭载全固态电池的量产车](https://auto.gasgoo.com/news/202608/7I70468868C101.shtml)** — _auto.gasgoo.com_ · date: unknown
+  盖世汽车讯 在英国举办的2026年古德伍德速度节（Goodwood Festival of Speed）上，雷克萨斯（Lexus）展示了其下一代超级跑车的开发原型车。该车在众多高性能燃油跑车轰鸣声中几乎无声地完成赛道行驶，进一步印证了其作为纯电动车（BEV）的开发方向。 这款车型被视为初代“LFA”的实质继任者。雷克萨斯已于2025年12月发布下一代超级跑车
+- **[小鹏G9L累计路测里程超674万公里](https://auto.gasgoo.com/news/202608/7I70469015C501.shtml)** — _auto.gasgoo.com_ · date: unknown
+- **[车载芯片的军备竞赛，该回归体验本质了](https://auto.gasgoo.com/news/202608/7I70469010C601.shtml)** — _auto.gasgoo.com_ · date: unknown
+  如今聊智能汽车，算力参数几乎成了必聊项。发布会PPT上的TOPS数字越标越大，评测文章里芯片型号是标配，不少人选车时先看算力，比盯零百加速还上心。 车载算力俨然成了智能汽车时代的新马力。几年前十几TOPS就能撑得起旗舰名号，如今单芯片没上千TOPS都不好意思称高端，算力膨胀的速度比车市价格战卷得还凶。 据乘联分会预测，2026年中国高算力智驾芯片市场规模预计
+- **[圆满落幕丨盖世汽车研究院年中闭门沙龙](https://auto.gasgoo.com/news/202608/7I70469008C106.shtml)** — _auto.gasgoo.com_ · date: unknown
+- **[加热座椅成新车买家最期待配置，超47%受访者列为首选](https://auto.gasgoo.com/news/202608/7I70468898C101.shtml)** — _auto.gasgoo.com_ · published 2026-08-04
+  盖世汽车讯 根据汽车市场研究机构AutoPacific于2026年8月4日发布的调查结果，在计划未来三年内购买新车的消费者中，加热座椅已成为最受欢迎的车辆配置，超过其他所有舒适性与安全性功能。 该调查覆盖了近19,000名持有驾照且有意购车的用户。结果显示，47%的受访者将加热座椅列为下一辆新车的必备功能，使其高居“最想要配置”榜单首位。这一需求在2025年
+- **[特伦甘纳邦汽车前主管加入马恒达集团](https://auto.gasgoo.com/news/202608/7I70468915C101.shtml)** — _auto.gasgoo.com_ · date: unknown
 - **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2085359245573373952)** — _autodata.gasgoo.com_ · date: unknown
 - **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2085527759974805504)** — _autodata.gasgoo.com_ · date: unknown
 - **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2085532722771148800)** — _autodata.gasgoo.com_ · date: unknown
 - **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2085533048324636672)** — _autodata.gasgoo.com_ · date: unknown
+- **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2085536721863852032)** — _autodata.gasgoo.com_ · date: unknown
+- **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2085646150395375616)** — _autodata.gasgoo.com_ · date: unknown
+- **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2085611997747195904)** — _autodata.gasgoo.com_ · date: unknown
 - **[多地购车补贴再加码 助力汽车消费市场升温](https://bgimg.ce.cn/xwzx/gnsz/gdxw/202608/t20260807_3134306.shtml)** — _bgimg.ce.cn_ · published 2026-08-07
   今年以来 多地为促进汽车消费 陆续推出购车消费补贴 陕西多地加码新能源汽车消费补贴 在榆林东沙汽车产业园的一家汽车品牌店内，销售顾问正耐心为前来购车的市民刘先生讲解车辆性能与补贴细则，几番体验下来，刘先生对车辆性能和补贴方案都很满意。 在产业园内另外一家汽车品牌店的展厅内，“政府消费券叠加企业让利”的宣传展架格外醒目，工作人员也正向看车市民详细介绍购车补贴政
+- **[自动驾驶有了安全准入基线 从这些方面读懂新国标](https://bgimg.ce.cn/xwzx/gnsz/gdxw/202608/t20260807_3134777.shtml)** — _bgimg.ce.cn_ · published 2026-08-07
+  新华社北京8月7日电 题：自动驾驶有了安全准入基线 从这些方面读懂新国标 新华社记者唐诗凝 工业和信息化部组织制定并归口的《智能网联汽车 自动驾驶系统安全要求》（GB 44721—2026）强制性国家标准近日批准发布，拟于2027年7月1日起正式实施。 这份标准适用于搭载L3级（有条件自动驾驶）、L4级（高度自动驾驶）系统的载客和载货车辆，不适用于自动泊车系
 - **[中国品牌汽车在南非持续“圈粉”（国际视点）](https://cen.ce.cn/more/202608/t20260807_3134209.shtml)** — _cen.ce.cn_ · published 2026-08-07
   本报记者 邹松 南非汽车商业委员会日前发布的2026年6月产销数据显示，该国当月新车销量达54482辆，同比增长15.3％，取得2007年以来同期最佳表现。当前，南非汽车市场正加快向电动化、低碳化转型。在政策激励与全球供应链重塑的推动下，新能源汽车在当地的渗透率稳步提升。 在此进程中，中国品牌汽车以智能化、电动化为支点，凭借高性价比产品与本地化服务持续拓展市
 - **[自动驾驶有了统一“准入门槛”](https://economy.gmw.cn/2026-08/07/content_38931575.htm)** — _economy.gmw.cn_ · published 2026-08-07
   点击右上角微信好友 朋友圈 请使用浏览器分享功能进行分享 划定车企的责任范围，强化系统动态驾驶任务执行能力—— 自动驾驶有了统一“准入门槛” 近日，工业和信息化部组织制定并归口的《智能网联汽车 自动驾驶系统安全要求》强制性国家标准获批发布，拟于2027年7月1日起正式实施。多方分析认为，该标准划定了车企的责任范围，明确了自动驾驶系统的安全水平并规范了人机交互
 - **[齐心集团中选长安汽车电子商城项目](https://egs.stcn.com/news/detail/2324246.html)** — _egs.stcn.com_ · published 2026-08-07
   首页 推荐 快讯 解读 股市 港股通 视听 专题 行情 数据 公众号 APP 电子报 您当前的位置： 证券时报·e公司 > 快讯 > 详情 齐心集团中选长安汽车电子商城项目 来源：人民财讯 作者：李在山 2026-08-07 12:07 Aa 大号字 人民财讯8月7日电，据齐心集团消息，近日，齐心集团中选长安汽车电子商城项目。公司将依托一站式政企数字化采购服
+- **[20:31浙江世宝：拟定增募资不超13.94亿元 用于汽车线控转向系统产业化建设等项目](https://egs.stcn.com/news/detail/2324509.html)** — _egs.stcn.com_ · date: unknown
+- **[20:21蔚来首批第五代换电站投入运营](https://egs.stcn.com/news/detail/2324507.html)** — _egs.stcn.com_ · date: unknown
 - **[自动驾驶有了统一“准入门槛”（锐财经）](https://finance.people.com.cn/n1/2026/0807/c1004-40775325.html)** — _finance.people.com.cn_ · published 2026-08-07
   划定车企的责任范围，强化系统动态驾驶任务执行能力—— 自动驾驶有了统一“准入门槛”（锐财经） 点击播报本文，约 | 近日，在四川省乐山市市中区一家大型商业购物中心内，消费者选购新款智能汽车。 | 近日，工业和信息化部组织制定并归口的《智能网联汽车 自动驾驶系统安全要求》强制性国家标准获批发布，拟于2027年7月1日起正式实施。多方分析认为，该标准划定了车企的
 - **[神行者8首台量产车下线，奇瑞董事长尹同跃与苏州市领导签名纪念](https://m.21jingji.com/article/20260806/herald/af76f08407ef528466232b520c2a1525.html)** — _m.21jingji.com_ · date: unknown
@@ -211,6 +231,8 @@ _Updated 2026-08-07 18:12 | discovery-only, zero LLM tokens | runs every 3h_
   推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 日前，我们在工信部网站上获取到了一组新款问界M8纯电版申报图。新车搭载单电机后驱系统，峰值功率可达227kW。 从申报图来看，新车前脸采用横向贯穿式细长灯带大灯，下方搭配封闭式网状进气格栅，外围镶嵌
 - **[五菱全新MPV星光M申报图 搭载插电混动系统](https://news.yiche.com/xinchexiaoxi/20260807/15112090703.html)** — _news.yiche.com_ · date: unknown
   推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 8月7日，工信部发布最新一期新车申报图，上汽通用五菱全新MPV星光M正式现身。该车采用传统MPV造型，动力当面搭载1.5T发动机与电机组成的插电混动系统。 造型方面，星光M保持了MPV传统的经典造型
+- **[蔚来第4000座换电站落成 首座第五代换电站投入运营](https://news.yiche.com/zonghexinwen/20260807/19112097585.html)** — _news.yiche.com_ · date: unknown
+  推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 8月7日，蔚来第4000座换电站暨首座第五代换电站在福建泉州侨乡体育馆落成。同日，蔚来首批第五代换电站在北京、上海、广州、苏州、合肥、成都、泉州七座城市投入运营，firefly萤火虫正式接入蔚来换电
 - **[齐心集团中选长安汽车电子商城项目](https://qzs.stcn.com/article/detail/622354.html)** — _qzs.stcn.com_ · date: unknown
   券中社APP 登录 首页 快讯 视听 要闻 基金 券中号 全媒体 手机号登录/注册 手机号 验证码 获取短信验证码 图形验证码 我已经阅读并同意 《用户服务协议》 《隐私协议》 账号 密码 确认 首次登录会自动创建账号 齐心集团中选长安汽车电子商城项目 人民财讯 作者：李在山 | 12:07发布 人民财讯8月7日电，据齐心集团消息，近日，齐心集团中选长安汽车
 - **[福特不讲武德！大马力混动+四驱+6L级油耗，价格也很香！](https://vc.yiche.com/vplay/12424232.html)** — _vc.yiche.com_ · date: unknown
@@ -249,6 +271,8 @@ _Updated 2026-08-07 18:12 | discovery-only, zero LLM tokens | runs every 3h_
   对话人： 周珊珊 人民日报评论员 李 萌 海南日报评论员 周珊珊：全国首个确定禁售燃油车的省份，为什么是海南？政策渐进式推进、不搞“一刀切”，体现了怎样的分寸感？ 李萌：早在2018年，中央文件就明确提出在海南岛逐步禁止销售燃油汽车；一年后，2030年全域禁售写入省级规划。前不久发布的《“十五五”海南国家生态文明试验区规划（美丽海南建设“十五五”规划）》提出
 - **[多地购车补贴再加码 助力汽车消费市场升温](https://www.ce.cn/xwzx/gnsz/gdxw/202608/t20260807_3134306.shtml)** — _www.ce.cn_ · published 2026-08-07
   今年以来 多地为促进汽车消费 陆续推出购车消费补贴 陕西多地加码新能源汽车消费补贴 在榆林东沙汽车产业园的一家汽车品牌店内，销售顾问正耐心为前来购车的市民刘先生讲解车辆性能与补贴细则，几番体验下来，刘先生对车辆性能和补贴方案都很满意。 在产业园内另外一家汽车品牌店的展厅内，“政府消费券叠加企业让利”的宣传展架格外醒目，工作人员也正向看车市民详细介绍购车补贴政
+- **[自动驾驶有了安全准入基线 从这些方面读懂新国标](https://www.ce.cn/xwzx/gnsz/gdxw/202608/t20260807_3134777.shtml)** — _www.ce.cn_ · published 2026-08-07
+  新华社北京8月7日电 题：自动驾驶有了安全准入基线 从这些方面读懂新国标 新华社记者唐诗凝 工业和信息化部组织制定并归口的《智能网联汽车 自动驾驶系统安全要求》（GB 44721—2026）强制性国家标准近日批准发布，拟于2027年7月1日起正式实施。 这份标准适用于搭载L3级（有条件自动驾驶）、L4级（高度自动驾驶）系统的载客和载货车辆，不适用于自动泊车系
 - **[从少数人专属到全民可选，自主纯电轿跑改写车市规则](https://www.cnr.cn/2013qcpd/2015xc/20260807/t20260807_527751286.shtml)** — _www.cnr.cn_ · published 2026-08-07
   曾经被贴上“小众、高端”标签的轿跑车型，正迎来集中上市的爆发期。近期，启境GT7、吉利银河TT、奇瑞风云A9等多款自主品牌纯电轿跑密集亮相、上市，覆盖11万~30万元的主流中高端轿车价格区间。不同于燃油车时代轿跑动辄数十万元的定价、仅供少数消费者体验的属性，这批全新纯电轿跑兼顾颜值、性能与实用性，以极具竞争力的定价和差异化产品体验，快速重塑了B级纯电轿车市场
 - **[从单极依赖到开放采购，汽车供应链的多元突围](https://www.cnr.cn/2013qcpd/2015xc/20260807/t20260807_527751285.shtml)** — _www.cnr.cn_ · published 2026-08-07
@@ -295,6 +319,18 @@ _Updated 2026-08-07 18:12 | discovery-only, zero LLM tokens | runs every 3h_
   近日，雪佛兰退出中国市场的消息引发关注。通用汽车回应称，合资企业将继续在中国生产雪佛兰产品，并探索海外市场机遇。同时，将为现有中国雪佛兰车主提供完善的售后服务保障。目前，雪佛兰在北京、重庆、湖北等多个省市已无经销商。雪佛兰官方客服表示，北京地区确实没有经销商，现在雪佛兰车型可以销售的城市非常少。该工作人员还建议买车可以考虑一下别克，称二者同属上汽通用，别克产
 - **[smart终于想起老本行！全新微型纯电双座轿车精灵#2申报](https://www.d1ev.com/news/qiye/309618)** — _www.d1ev.com_ · date: unknown
   快科技8月7日消息，Smart自从转型新能源后，造的车一个比一个大，车长甚至达到了5米级，完全抛弃了初心，直到这款车的出现。 在工信部最新一期新车申报名录中，smart精灵#2正式亮相，该车彻底回归微型代步车，也代表smart的转变。 新车整体设计与概念车相类似，圆润的三角形大灯组内置三段式LED日行灯，前包围采用了大尺寸的散热开口，两侧还搭配了纵向通风开口
+- **[蔚来首批第五代换电站上线：萤火虫终于可以换电池了](https://www.d1ev.com/news/qiye/309648)** — _www.d1ev.com_ · date: unknown
+  快科技8月7日消息，今日，蔚来第4000座换电站暨首座第五代换电站在福建泉州侨乡体育馆落成。 第五代换电站兼容蔚来、乐道、firefly萤火虫三品牌全系车型，标志着firefly萤火虫正式接入蔚来换电体系。 作为一款支持换电的智能电动高端小车，firefly萤火虫从产品定义之初便将换电能力融入整车架构。 依托蔚来第五代换电站，firefly萤火虫可实现3分钟
+- **[小米汽车内饰大揭秘：SU7、YU7与澎程系列设计理念大不同](https://www.d1ev.com/newsflash/309646)** — _www.d1ev.com_ · date: unknown
+  8月7日，小米汽车在其官方渠道更新了答网友问栏目，针对用户关心的内饰设计和SU7、YU7车型差异进行了详细回应。官方强调，SU7和YU7车型的内饰设计思路完全不同，其核心在于车型定位的区分。SU7和YU7定位为驾驶者之车，设计理念为“Design for Passion”，强调驾驶体验和主副驾驶的平等体验。而小米澎程系列则定位为智能可变大空间SUV，设计理念
+- **[蔚来ET9将配备120度电池，换电站突破1.2亿次里程碑](https://www.d1ev.com/newsflash/309645)** — _www.d1ev.com_ · date: unknown
+  8月7日，蔚来汽车在泉州的面对面活动中，公司创始人、董事长、CEO 李斌针对ET9车型是否会配备更大 电池的问题进行了回应。李斌透露，蔚来目前采用三元体系电池，未来将推出120度电池包，且所有车型均可使用。此外，蔚来汽车去年8月在成都车展上宣布，新车型将标配100kWh长续航电池包，起售价保持不变，并调整购车权益。同时，蔚来还提供75kWh及100kWh电池
+- **[圆满落幕丨智竞全球·2026盖世汽车研究院年中闭门沙龙](https://www.d1ev.com/news/shichang/309643)** — _www.d1ev.com_ · date: unknown
+  2026年，中国汽车产业正在经历一场由增量竞争向价值竞争转变的深层调整。一方面，国内市场竞争进入白热化阶段，价格战持续向产业链传导，企业盈利空间承压；另一方面，中国汽车全球化进程不断提速，出口规模持续增长，车企出海已从产品输出迈向品牌、技术与产业链能力的综合竞争。面对欧洲等成熟市场在品牌认知、技术标准和体系能力上的高门槛，中国汽车产业亟需完成从“规模领先”到
+- **[小鹏汽车官宣：G9L累计路测里程超674万公里，覆盖全球26个国家及地区](https://www.d1ev.com/news/shichang/309642)** — _www.d1ev.com_ · date: unknown
+  盖世汽车获悉，小鹏汽车在8月7日宣布，小鹏G9L在3年前立项，路测跨越26个国家及地区，在全球复杂路况与极端环境中反复验证，累计测试里程超过674万公里。 此前8月3日，小鹏汽车正式官宣全新中大型SUV——小鹏G9L，定位“全球大五座科技旗舰”，号称“30万级科技标杆”。 图片来源：小鹏汽车 小鹏汽车董事长何小鹏表示，G9L三年前立项时，他给研发团队出的题目
+- **[德国汽车巨头逆境求生：采埃孚降本裁员，大陆集团、舍弗勒多元布局](https://www.d1ev.com/newsflash/309641)** — _www.d1ev.com_ · date: unknown
+  近日，德国三大汽车零部件制造商采埃孚、大陆集团和舍弗勒公布了2026年上半年的财报。尽管这些公司通过降本裁员、资产处置和布局军工等多元方式改善经营，盈利状况有所修复，但转型的阵痛仍在继续。采埃孚上半年营收193亿欧元，同比下滑2%，但调整后息税前利润同比增长13%，利润率从4.3%攀升至5%。调整后自由现金流同比暴涨113%，达到9.89亿欧元。然而，这一利
 - **[华阳集团(002906.SZ)：公司推出的AIBOX产品已获得车企平台型定点项目，即将实现量产](https://www.gelonghui.com/news/5281642)** — _www.gelonghui.com_ · date: unknown
   格隆汇8月6日丨华阳集团(002906.SZ)在投资者关系中表示，有被问到：公司AI BOX产品介绍及市场进展？ 答：公司与英特尔联合打造AIBOX产品，依托华阳自研AAOP软件开放平台与SOA架构，通过标准化高速接口便捷接入，无需改动原车架构，即可为平台化座舱方案搭建强劲的AI算力底座，支撑35B及以上级别的端侧大模型本地化部署，并依托端云协同架构，实现多
 - **[齐心集团中选长安汽车电子商城项目](https://www.gelonghui.com/live/2598994)** — _www.gelonghui.com_ · published 2026-08-07
@@ -305,10 +341,18 @@ _Updated 2026-08-07 18:12 | discovery-only, zero LLM tokens | runs every 3h_
   2026-08-07 07:00:08 每经记者｜孔泽思 每经编辑｜袁东 ｜2026年8月7日 星期五｜ NO.1 广东上半年高技术制造业销售收入增长11.8% “广东发布”微信公众号8月6日消息，最新税收数据显示，2026年上半年广东省制造业累计销售收入同比增长9.3%，高技术制造业销售收入增长11.8%。 点评：数据反映出广东工业生产活力强劲，高端制造赛
 - **[中国机械工业联合会：新能源汽车上半年渗透率达49.6%；韩国上半年销售电车中超三分之一为中国制造](https://www.nbd.com.cn/articles/2026-08-06/4534178.html)** — _www.nbd.com.cn_ · published 2026-08-06
   2026-08-07 06:30:03 每经记者｜董天意 实习生 刘家怡 每经编辑｜余婷婷 | 2026年8月7日 星期五 | NO.1 中国机械工业联合会：新能源汽车上半年渗透率达49.6% 8月6日，中国机械工业联合会发布的2026年上半年机械工业经济运行情况显示，新能源汽车在整体汽车市场承压背景下实现逆势增长，市场渗透率达到49.6%，成为拉动汽车行业
+- **[风云A9L出现爆漆等问题 奇瑞：提供免费检修 品质部门已优化生产流程](https://www.nbd.com.cn/articles/2026-08-07/4535619.html)** — _www.nbd.com.cn_ · published 2026-08-07
+  2026-08-07 21:05:51 每经记者｜黄辛旭 每经编辑｜余婷婷 针对近期风云A9L车主反馈车门包边位置漆面起泡、爆漆相关问题，8月7日，奇瑞汽车方面向《每日经济新闻》记者回复称：“经排查，该情况为车门内钣折边区域涂胶、密封工艺执行偏差导致局部漆面出现褶皱，仅表现为局部小范围漆面轻微褶皱，对车身结构无影响。” 奇瑞汽车方面称，将提供免费检修修复，且
 - **[自动驾驶有了统一“准入门槛”](https://www.news.cn/sci-tech/20260807/203f334499b04ddc823905b1bd28eb80/c.html)** — _www.news.cn_ · published 2026-08-07
   近日，工业和信息化部组织制定并归口的《智能网联汽车 自动驾驶系统安全要求》强制性国家标准获批发布，拟于2027年7月1日起正式实施。多方分析认为，该标准划定了车企的责任范围，明确了自动驾驶系统的安全水平并规范了人机交互的方式，标志着我国L3级、L4级自动驾驶有了统一的“准入门槛”。 两套国标构建完整监管体系 近年来，新一轮科技革命与产业变革持续深化，我国自动
 - **[自动驾驶新国标都“强制”了什么](https://www.news.cn/politics/20260807/22353bd3616f462287dc6cdc6f402afc/c.html)** — _www.news.cn_ · published 2026-08-07
   自动驾驶新国标都“强制”了什么-新华网 新华网 > > 正文 2026 08 / 07 14:28:55 来源：新华网 自动驾驶新国标都“强制”了什么 字体： 小 中 大 分享到： 自动驾驶新国标都“强制”了什么 2026-08-07 14:28:55 来源：新华网 【纠错】 【责任编辑:底东娜】 阅读下一篇： 深度观察 新华全媒头条丨 让“小哥”们的奔忙之
+- **[自动驾驶有了安全准入基线 从这些方面读懂新国标](https://www.news.cn/20260807/933a530f113d4e72a6b368ef7db58fad/c.html)** — _www.news.cn_ · published 2026-08-07
+  新华社北京8月7日电 题：自动驾驶有了安全准入基线 从这些方面读懂新国标 新华社记者唐诗凝 工业和信息化部组织制定并归口的《智能网联汽车 自动驾驶系统安全要求》（GB 44721—2026）强制性国家标准近日批准发布，拟于2027年7月1日起正式实施。 这份标准适用于搭载L3级（有条件自动驾驶）、L4级（高度自动驾驶）系统的载客和载货车辆，不适用于自动泊车系
+- **[浙江世宝：拟定增募资不超13.94亿元 用于汽车线控转向系统产业化建设等项目](https://www.stcn.com/article/detail/4064761.html)** — _www.stcn.com_ · published 2026-08-07
+  证券时报网 数据宝 2026-08-07 17:02 人民财讯8月7日电，浙江世宝(002703)8月7日公告，公司拟向特定对象发行A股股票募集资金总额不超过13.94亿元（含本数），扣除发行费用后的净额拟投资于汽车线控转向系统产业化建设项目、乘用车新一代智能上转系统产业化建设项目、汽车电子PPK产品智能化技术改造项目、线控转向及角模块系统研发能力建设改造提
+- **[蔚来首批第五代换电站投入运营](https://www.stcn.com/article/detail/4064749.html)** — _www.stcn.com_ · published 2026-08-02
+  证券时报网 王小伟 2026-08-02 22:53 人民财讯8月7日电，8月7日，蔚来第4000座换电站暨首座第五代换电站在福建泉州落成，同日，蔚来首批第五代换电站在北京、上海、广州、苏州等七座城市投入运营，firefly萤火虫正式接入蔚来换电体系。
 
 ### 2026-08-06 — 134 articles
 - **[东风新能源L系三车首发，覆盖纯电、插混、增程三大路径](https://auto.caijing.com.cn/2026/0806/5175636.shtml)** — _auto.caijing.com.cn_ · date: unknown
