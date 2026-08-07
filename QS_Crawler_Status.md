@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-08-07 15:13 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-08-07 18:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-08-07 15:13 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **6534 unique auto/NEV articles** across **57 outlets**
+## Cumulative: **6552 unique auto/NEV articles** across **57 outlets**
 
 ## New per day
 | date | new articles |
@@ -70,24 +70,24 @@ _Updated 2026-08-07 15:13 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-08-04 | 169 |
 | 2026-08-05 | 155 |
 | 2026-08-06 | 134 |
-| 2026-08-07 | 73 |
+| 2026-08-07 | 91 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.d1ev.com | 1379 |
+| www.d1ev.com | 1382 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 587 |
+| vc.yiche.com | 592 |
 | auto.gasgoo.com | 452 |
 | 36kr.com | 309 |
 | www.stcn.com | 281 |
-| www.cnr.cn | 227 |
+| www.cnr.cn | 228 |
 | www.caam.org.cn | 211 |
 | autodata.gasgoo.com | 206 |
+| news.yiche.com | 197 |
 | egs.stcn.com | 193 |
-| news.yiche.com | 191 |
 | www.nbd.com.cn | 177 |
-| www.news.cn | 131 |
+| www.news.cn | 132 |
 | m.21jingji.com | 126 |
 | www.cada.cn | 116 |
 | www.yicai.com | 111 |
@@ -101,8 +101,8 @@ _Updated 2026-08-07 15:13 | discovery-only, zero LLM tokens | runs every 3h_
 | www.chinanews.com.cn | 41 |
 | cn.chinadaily.com.cn | 32 |
 | qzs.stcn.com | 29 |
+| auto.ce.cn | 27 |
 | m.ce.cn | 26 |
-| auto.ce.cn | 25 |
 | www.ceweekly.cn | 21 |
 | www.ce.cn | 19 |
 | cv.ce.cn | 17 |
@@ -135,7 +135,11 @@ _Updated 2026-08-07 15:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-08-07 — 73 articles
+### 2026-08-07 — 91 articles
+- **[开拓情侣、新婚夫妻“两人市场”，别克至境L7纯电预售16.99万元起](https://auto.ce.cn/auto/gundong/202608/t20260807_3134603.shtml)** — _auto.ce.cn_ · published 2026-08-07
+  从别克高端新能源子品牌至境首款车型，到上汽与通用战略续约后的首款车型，至境L7的含金量不断提升。 8月5日，作为上汽通用汽车战略续约后的首款车型——别克至境L7纯电正式开启预售，推出702奢享版、702奢享智行版与702艾维亚版三款配置，国补预售权益价16.99万—20.69万元。而2025年9月28日，增程版至境L7则是作为别克高端新能源子品牌“至境”的首
+- **[至境开启首次全系车型整车级迭代，至境OS V2.1 OTA升级在即](https://auto.ce.cn/auto/gundong/202608/t20260807_3134632.shtml)** — _auto.ce.cn_ · published 2026-08-07
+  打破合资车型智能化“出厂即封顶”固有认知，别克至境将推送至境OS V2.1全量全场景OTA升级，这也是上汽通用汽车首次面向至境全系车型的整车级迭代。 8月5日，上汽、通用刚完成合资续约签约，别克随即献上贺礼。同日，别克高端新能源子品牌至境宣布将推送至境OS V2.1全量全场景OTA升级，覆盖人机交互、出行规划、智能泊车、辅助驾驶四大核心场景。此次OTA升级，
 - **[特斯拉起诉加拿大曼尼托巴省将其排除在电动车补贴计划之外](https://auto.gasgoo.com/news/202608/6I70468864C501.shtml)** — _auto.gasgoo.com_ · date: unknown
   盖世汽车讯 据外媒报道，特斯拉已就加拿大曼尼托巴省将其排除在省级电动车补贴计划之外一事提起诉讼，该案目前已进入法庭审理阶段。 曼尼托巴省政府正请求该省王座法院驳回特斯拉的司法复审申请。特斯拉表示，自被剔除出补贴名单以来，其加拿大客户已损失至少56万加元的补贴金额。 曼尼托巴省于2024年夏季启动了一项总额为2,500万加元的电动车补贴计划，向购买价格低于7万
 - **[608.5GWh背后：全球电动汽车动力电池竞争进入“中国平台化扩张”时代](https://auto.gasgoo.com/news/202608/6I70468944C501.shtml)** — _auto.gasgoo.com_ · date: unknown
@@ -195,6 +199,18 @@ _Updated 2026-08-07 15:13 | discovery-only, zero LLM tokens | runs every 3h_
   推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 8月7日，蔚来累计提供换电服务突破1.2亿次。蔚来换电网络建设已经形成规模化网络效应，为用户带来“加电和加油一样方便”的差异化体验优势。 用户换电电量累计63.5亿kWh，相当于317万家庭日常一年
 - **[smart精灵#2申报图 将于10月巴黎车展首发](https://news.yiche.com/xinchexiaoxi/20260807/14112088838.html)** — _news.yiche.com_ · date: unknown
   推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 日前，我们在工信部网站上获取到了一组smart精灵#2申报图。新车由梅赛德斯-奔驰设计团队操刀设计，基于全新架构打造，将于10月巴黎车展首发。 smart精灵#2与此前北京车展发布的原型概念车基本一
+- **[2027款奇瑞风云A9L正式上市 限时售13.99万起](https://news.yiche.com/xinchexiaoxi/20260807/17112095428.html)** — _news.yiche.com_ · date: unknown
+  推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 8月7日，2027款奇瑞风云A9L正式上市，共推出四款车型，售价区间14.99-20.79万元；限时红包价13.99-19.79万元。 | 2027款奇瑞风云A9L上市 | || |---|---|
+- **[埃安Ray 7申报图 定位中大型超级纯电轿车/Ray系列首款车型](https://news.yiche.com/zonghexinwen/20260807/16112091905.html)** — _news.yiche.com_ · date: unknown
+  推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 日前，我们在工信部网站上获取到了一组埃安Ray 7申报图。新车为埃安发布全新车系Ray的首款超级纯电车型，定位中大型超级纯电轿车，搭载埃安焕新logo和多项全新技术。 外观方面，新车外观采用全新设计
+- **[新款比亚迪海豹07 EV申报图 搭载激光雷达](https://news.yiche.com/xinchexiaoxi/20260807/15112091320.html)** — _news.yiche.com_ · date: unknown
+  推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 8月7日，工信部发布最新一期新车申报图，新款比亚迪海豹07 EV车型现身。新车采用比亚迪海洋网最新的设计语言，颜值上更加时尚动感。值得一提的是，新车车顶配备了激光雷达，也预示着该车将搭载比亚迪天神之
+- **[魏牌V9X纯电版申报图 定位六座纯电旗舰SUV](https://news.yiche.com/xinchexiaoxi/20260807/15112090714.html)** — _news.yiche.com_ · date: unknown
+  推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 日前，我们在工信部网站上获取到了一组魏牌V9X纯电版申报图。作为归元S平台衍生的纯电动力版本，新车定位大型豪华六座纯电动SUV，延续家族旗舰外观设计，进一步丰富V9X产品矩阵。 从申报图可以看到，魏
+- **[新款问界M8纯电版申报图 搭载单电机后驱系统](https://news.yiche.com/xinchexiaoxi/20260807/15112089935.html)** — _news.yiche.com_ · date: unknown
+  推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 日前，我们在工信部网站上获取到了一组新款问界M8纯电版申报图。新车搭载单电机后驱系统，峰值功率可达227kW。 从申报图来看，新车前脸采用横向贯穿式细长灯带大灯，下方搭配封闭式网状进气格栅，外围镶嵌
+- **[五菱全新MPV星光M申报图 搭载插电混动系统](https://news.yiche.com/xinchexiaoxi/20260807/15112090703.html)** — _news.yiche.com_ · date: unknown
+  推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 8月7日，工信部发布最新一期新车申报图，上汽通用五菱全新MPV星光M正式现身。该车采用传统MPV造型，动力当面搭载1.5T发动机与电机组成的插电混动系统。 造型方面，星光M保持了MPV传统的经典造型
 - **[齐心集团中选长安汽车电子商城项目](https://qzs.stcn.com/article/detail/622354.html)** — _qzs.stcn.com_ · date: unknown
   券中社APP 登录 首页 快讯 视听 要闻 基金 券中号 全媒体 手机号登录/注册 手机号 验证码 获取短信验证码 图形验证码 我已经阅读并同意 《用户服务协议》 《隐私协议》 账号 密码 确认 首次登录会自动创建账号 齐心集团中选长安汽车电子商城项目 人民财讯 作者：李在山 | 12:07发布 人民财讯8月7日电，据齐心集团消息，近日，齐心集团中选长安汽车
 - **[福特不讲武德！大马力混动+四驱+6L级油耗，价格也很香！](https://vc.yiche.com/vplay/12424232.html)** — _vc.yiche.com_ · date: unknown
@@ -219,6 +235,16 @@ _Updated 2026-08-07 15:13 | discovery-only, zero LLM tokens | runs every 3h_
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 星途ET5这次OTA把安全卷到了时速130公里 女司机2姐 全新宝马iX3已抵达门店，售价即将揭晓 友好的薄荷草1492 直击家用痛点，东风风神新能源8系为市场开出
 - **[这就是中式豪华的能力？ 蔚来ES9表现如何](https://vc.yiche.com/vplay/12482815.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 49.80-62.80万 为何这台车令他再度惊叹？ 卓越的番茄果1483 ES9通道版 lzq小同学 蔚来ES9：极致静谧感 具像化了！ 路YAO知马力 蔚来ES9凭借优于
+- **[赛道测试 奇瑞QQ3EV 2026款 420km 分享版](https://vc.yiche.com/vplay/12504732.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 5.89-7.89万 王力宏同款第二代腾势 D9，藏着当代出行的新答案 极客安迪GKer 4K法拉利812 Competizione Aperta（敞篷版）｜霜白富士哑光
+- **[探店吉利银河M7远航家，实力全面体验舒适，12万级插混首选！](https://vc.yiche.com/vplay/12506797.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 11.98-14.78万 粉丝苦等六年 特斯拉FSD终于要进中国了？ 汽车天涯 启境GX7全球首秀！华为乾崑技术加持，这台“阔”五座SUV要爆了？ 满足的藏红花1509 卷
+- **[东风风神L8Y，十万级纯电优等生](https://vc.yiche.com/vplay/12506489.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 火星PHEV超级电混皮卡，打破传统偏见！ 驯车手记 东风风神L系三车齐发，这波转型诚意够不够？ 汽候局 当某品牌销售拒绝外卖员进店 Cybercab：科技不落下任何
+- **[深度体验阿维塔06T，增程、纯电双动力，哪个配置最值得买？](https://vc.yiche.com/vplay/12505460.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 21.99-27.99万 阿维塔董事长:智驾便利性要为安全让步 鼓励的鹦鹉螺1400 试驾一汽悦意08 央企造车真的不将就 新智KK 2027款艾瑞泽8PRO——50米循迹
+- **[10万级纯电SUV静态实测！东风风神L8Y这款车到底值不值得入手？](https://vc.yiche.com/vplay/12505131.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 沉浸式体验2026款宝马M3 Competition，一台让人又爱又恨的性能车 大头说干货 东风风神L系三台新车一起上，这是要把家用市场包圆了？ 倪可的方向盘 三台
 - **[禁售燃油车在海南如何落地](https://views.ce.cn/view/ent/202608/t20260807_3134010.shtml)** — _views.ce.cn_ · published 2026-08-07
   对话人： 周珊珊 人民日报评论员 李 萌 海南日报评论员 周珊珊：全国首个确定禁售燃油车的省份，为什么是海南？政策渐进式推进、不搞“一刀切”，体现了怎样的分寸感？ 李萌：早在2018年，中央文件就明确提出在海南岛逐步禁止销售燃油汽车；一年后，2030年全域禁售写入省级规划。前不久发布的《“十五五”海南国家生态文明试验区规划（美丽海南建设“十五五”规划）》提出
 - **[多地购车补贴再加码 助力汽车消费市场升温](https://www.ce.cn/xwzx/gnsz/gdxw/202608/t20260807_3134306.shtml)** — _www.ce.cn_ · published 2026-08-07
@@ -237,6 +263,8 @@ _Updated 2026-08-07 15:13 | discovery-only, zero LLM tokens | runs every 3h_
   央广网北京8月7日消息（记者姜鹏）8月6日，全新深蓝S05正式上市，提供520智行版、520智臻版、520智臻版激光版、620智臻版、620智臻激光版共5款车型，限时优惠价为11.59万元—14.49万元。 作为深蓝汽车专为年轻家庭用户打造的产品，全新深蓝S05不仅带来CLTC 620km超长纯电续航，更实现“智能进阶、驾乘进阶、空间进阶、时尚进阶”四大维度
 - **[多地购车补贴再加码 助力汽车消费市场升温](https://www.cnr.cn/newscenter/native/gd/20260807/t20260807_527752009.shtml)** — _www.cnr.cn_ · published 2026-08-07
   今年以来 多地为促进汽车消费 陆续推出购车消费补贴 陕西多地加码新能源汽车消费补贴 在榆林东沙汽车产业园的一家汽车品牌店内，销售顾问正耐心为前来购车的市民刘先生讲解车辆性能与补贴细则，几番体验下来，刘先生对车辆性能和补贴方案都很满意。 在产业园内另外一家汽车品牌店的展厅内，“政府消费券叠加企业让利”的宣传展架格外醒目，工作人员也正向看车市民详细介绍购车补贴政
+- **[未来五年充电设施全面升级 现存充电桩相关企业超97万家](https://www.cnr.cn/tech/techyw/kan/20260806/t20260806_527750441.shtml)** — _www.cnr.cn_ · published 2026-08-06
+  依托刚发布的“十五五”新型电力系统规划，我国明确2030年充电基础设施总量超4000万个，大功率充电设施达30万个，形成支撑超1.1亿辆新能源车的服务能力，覆盖城乡全场景出行需求。 未来五年将构建城市面状、公路线状、乡村点状的布局体系，完成高速服务区充电改造，实现非特殊区域的县乡公共充电全覆盖，同步沿核心货运通道布局重卡大功率充电站点，补齐此前的场景短板。
 - **[特斯拉FSD超速被罚，司机辩称“自动驾驶”不背锅](https://www.d1ev.com/newsflash/309462)** — _www.d1ev.com_ · date: unknown
   8月5日，美国科罗拉多州帕克市警方公布了一起涉及特斯拉FSD功能的交通违法案例。一辆特斯拉在限速45英里/小时的道路上以64英里/小时的速度行驶，被警方拦截。驾驶员辩称自己开启了“ 自动驾驶”，因此超速不关他的事。警方强调，无论车辆配备何种辅助驾驶功能，驾驶员仍需对车辆安全运行承担法律责任。 特斯拉所有量产车所配备的辅助驾驶系统均属于L2级，尽管特斯拉将其系
 - **[深蓝S05纯电新车型上市，售价11.99万起，续航620km，3C超充15分钟充能](https://www.d1ev.com/newsflash/309457)** — _www.d1ev.com_ · date: unknown
@@ -261,6 +289,12 @@ _Updated 2026-08-07 15:13 | discovery-only, zero LLM tokens | runs every 3h_
   8月7日，工信部公示了第410批《道路机动车辆生产企业及产品公告》新产品信息，奇瑞汽车股份有限公司生产的智界RX纯电动多用途乘用车完成新版本申报。智界RX尺寸为5020×2007×1600/1585mm，轴距3000mm，额定载客人数5人，提供Ultra和Ultra+版本。 智界RX有两种 电池配置版本，磷酸铁锂版和三元锂版。磷酸铁锂版整备质量2285kg，
 - **[上汽大众ID.ERA5X纯电SUV申报：175km/h极速，丰富选装配置亮相](https://www.d1ev.com/newsflash/309579)** — _www.d1ev.com_ · date: unknown
   8月7日，工信部发布了第410批《道路机动车辆生产企业及产品公告》新产品公示，上汽大众ID.ERA5X纯电动多用途乘用车完成申报。这款紧凑型SUV的车身尺寸为长4560mm、宽1896mm、高1630mm，轴距2815mm，额定载客5人，整备质量1685kg，总质量2135kg，最高车速可达175km/h。 ID.ERA5X提供丰富的选装配置，包括不同样式的
+- **[尺寸看齐尊界V680 国产纯电奔驰VLE亮相：竞争理想MEGA](https://www.d1ev.com/news/qiye/309626)** — _www.d1ev.com_ · date: unknown
+  快科技8月7日消息，在工信部最新一批次新车申报名录中，国产奔驰VLE正式现身，该车定位大型纯电MPV，预计售价50万级，竞争目标直指理想MEGA、极氪009。 国产版基本延续了海外车型的设计，前脸大尺寸格栅十分吸睛，且可以选装发光格栅或AMG格栅，大灯内部融入三叉星元素，点亮后强化辨识度。 车身尺寸方面，其长宽高分别为5310/2000/1922mm，轴距3
+- **[雪佛兰退出中国市场？通用回应：继续生产，专注出口及新能源车](https://www.d1ev.com/newsflash/309621)** — _www.d1ev.com_ · date: unknown
+  近日，雪佛兰退出中国市场的消息引发关注。通用汽车回应称，合资企业将继续在中国生产雪佛兰产品，并探索海外市场机遇。同时，将为现有中国雪佛兰车主提供完善的售后服务保障。目前，雪佛兰在北京、重庆、湖北等多个省市已无经销商。雪佛兰官方客服表示，北京地区确实没有经销商，现在雪佛兰车型可以销售的城市非常少。该工作人员还建议买车可以考虑一下别克，称二者同属上汽通用，别克产
+- **[smart终于想起老本行！全新微型纯电双座轿车精灵#2申报](https://www.d1ev.com/news/qiye/309618)** — _www.d1ev.com_ · date: unknown
+  快科技8月7日消息，Smart自从转型新能源后，造的车一个比一个大，车长甚至达到了5米级，完全抛弃了初心，直到这款车的出现。 在工信部最新一期新车申报名录中，smart精灵#2正式亮相，该车彻底回归微型代步车，也代表smart的转变。 新车整体设计与概念车相类似，圆润的三角形大灯组内置三段式LED日行灯，前包围采用了大尺寸的散热开口，两侧还搭配了纵向通风开口
 - **[华阳集团(002906.SZ)：公司推出的AIBOX产品已获得车企平台型定点项目，即将实现量产](https://www.gelonghui.com/news/5281642)** — _www.gelonghui.com_ · date: unknown
   格隆汇8月6日丨华阳集团(002906.SZ)在投资者关系中表示，有被问到：公司AI BOX产品介绍及市场进展？ 答：公司与英特尔联合打造AIBOX产品，依托华阳自研AAOP软件开放平台与SOA架构，通过标准化高速接口便捷接入，无需改动原车架构，即可为平台化座舱方案搭建强劲的AI算力底座，支撑35B及以上级别的端侧大模型本地化部署，并依托端云协同架构，实现多
 - **[齐心集团中选长安汽车电子商城项目](https://www.gelonghui.com/live/2598994)** — _www.gelonghui.com_ · published 2026-08-07
@@ -273,6 +307,8 @@ _Updated 2026-08-07 15:13 | discovery-only, zero LLM tokens | runs every 3h_
   2026-08-07 06:30:03 每经记者｜董天意 实习生 刘家怡 每经编辑｜余婷婷 | 2026年8月7日 星期五 | NO.1 中国机械工业联合会：新能源汽车上半年渗透率达49.6% 8月6日，中国机械工业联合会发布的2026年上半年机械工业经济运行情况显示，新能源汽车在整体汽车市场承压背景下实现逆势增长，市场渗透率达到49.6%，成为拉动汽车行业
 - **[自动驾驶有了统一“准入门槛”](https://www.news.cn/sci-tech/20260807/203f334499b04ddc823905b1bd28eb80/c.html)** — _www.news.cn_ · published 2026-08-07
   近日，工业和信息化部组织制定并归口的《智能网联汽车 自动驾驶系统安全要求》强制性国家标准获批发布，拟于2027年7月1日起正式实施。多方分析认为，该标准划定了车企的责任范围，明确了自动驾驶系统的安全水平并规范了人机交互的方式，标志着我国L3级、L4级自动驾驶有了统一的“准入门槛”。 两套国标构建完整监管体系 近年来，新一轮科技革命与产业变革持续深化，我国自动
+- **[自动驾驶新国标都“强制”了什么](https://www.news.cn/politics/20260807/22353bd3616f462287dc6cdc6f402afc/c.html)** — _www.news.cn_ · published 2026-08-07
+  自动驾驶新国标都“强制”了什么-新华网 新华网 > > 正文 2026 08 / 07 14:28:55 来源：新华网 自动驾驶新国标都“强制”了什么 字体： 小 中 大 分享到： 自动驾驶新国标都“强制”了什么 2026-08-07 14:28:55 来源：新华网 【纠错】 【责任编辑:底东娜】 阅读下一篇： 深度观察 新华全媒头条丨 让“小哥”们的奔忙之
 
 ### 2026-08-06 — 134 articles
 - **[东风新能源L系三车首发，覆盖纯电、插混、增程三大路径](https://auto.caijing.com.cn/2026/0806/5175636.shtml)** — _auto.caijing.com.cn_ · date: unknown
