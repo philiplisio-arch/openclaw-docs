@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-08-08 12:14 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-08-08 15:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-08-08 12:14 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **6622 unique auto/NEV articles** across **59 outlets**
+## Cumulative: **6631 unique auto/NEV articles** across **59 outlets**
 
 ## New per day
 | date | new articles |
@@ -71,18 +71,18 @@ _Updated 2026-08-08 12:14 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-08-05 | 155 |
 | 2026-08-06 | 134 |
 | 2026-08-07 | 117 |
-| 2026-08-08 | 44 |
+| 2026-08-08 | 53 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.d1ev.com | 1399 |
+| www.d1ev.com | 1405 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 597 |
+| vc.yiche.com | 599 |
 | auto.gasgoo.com | 458 |
 | 36kr.com | 309 |
 | www.stcn.com | 284 |
-| www.cnr.cn | 232 |
+| www.cnr.cn | 233 |
 | www.caam.org.cn | 211 |
 | autodata.gasgoo.com | 209 |
 | news.yiche.com | 199 |
@@ -138,7 +138,7 @@ _Updated 2026-08-08 12:14 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-08-08 — 44 articles
+### 2026-08-08 — 53 articles
 - **[包钢股份成功研发800MPa级增强成形性稀土热轧汽车钢](https://egs.stcn.com/news/detail/2324555.html)** — _egs.stcn.com_ · date: unknown
   人民财讯8月7日电，据包钢股份消息，近日，包钢股份成功研制出800MPa级增强成形性稀土热轧汽车结构用钢。该产品采用“稀土净化钢质+纳米析出强化”复合技术，兼具高强度、高塑性与优异的扩孔性能，可适用于商用车高承载、复杂变形的汽车结构件。产品已通过某知名商用车配套厂的试模及批量应用验证。
 - **[09:30济南再发5000万汽车购新补贴，8月20日起申报](https://egs.stcn.com/news/detail/2324599.html)** — _egs.stcn.com_ · date: unknown
@@ -170,6 +170,10 @@ _Updated 2026-08-08 12:14 | discovery-only, zero LLM tokens | runs every 3h_
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 29.99-31.27万 试驾全新一代ES 300h：没有笨重感，开起来轻盈，静谧性相当好 功夫汽车 三国语言丝滑讲解，腾势Z展示国际实力 百一购车班 雷克萨斯 ES 新一
 - **[10万级纯电SUV，竟然有这配置？](https://vc.yiche.com/vplay/12510969.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 东风风神L8 Y 经典“双燕舞东风” 回归了！ 老司机出品 动力油耗双在线 家用长途全能打 30秒懂车 东风风神L8Y｜舒适平权！家庭纯电SUV新选择？ 若楠不加糖
+- **[十万级纯电市场迎来新兵，东风风神L8Y表现如何？](https://vc.yiche.com/vplay/12519096.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 纯电紧凑SUV新卷王？3C快充+零甲醛只要10万级！ 车轮哥Wheelsboy 10万级大满配 东风风神L8Y：纯电SUV新选择 95号张同学 腾势N8全新内饰有大
+- **[不堆激光雷达的小鹏GX，靠第二代VLA能坐稳“新科技旗舰”吗？](https://vc.yiche.com/vplay/12508148.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 27.98-35.98万 深度测评小鹏GX(第四集)，拆解它的尾部结构和用料 张麻子说车 试驾完小鹏GX，我知道它为啥敢卖40万了 科技每日推送 26.98万起 比预售降1
 - **[【忠阳车评】为自动驾驶系好安全带](https://www.ce.cn/xwzx/gnsz/gdxw/202608/t20260808_3134853.shtml)** — _www.ce.cn_ · published 2026-08-08
   日前，工信部组织制定的《智能网联汽车 自动驾驶系统安全要求》（GB 44721—2026）强制性国家标准，由国家市场监督管理总局、国家标准化管理委员会批准发布，拟于2027年7月1日起正式实施。这标志着我国L3级（有条件自动驾驶）、L4级（高度自动驾驶）系统有了统一的“准入门槛”。 随着新一轮科技革命和产业变革持续深化，我国自动驾驶技术加速迭代突破，智能网联
 - **[新疆阿克苏地区库车市发生3.3级地震，震源深度21千米](https://www.cnr.cn/newscenter/native/gd/20260807/t20260807_527752815.shtml)** — _www.cnr.cn_ · published 2026-08-07
@@ -180,6 +184,8 @@ _Updated 2026-08-08 12:14 | discovery-only, zero LLM tokens | runs every 3h_
   行车路上，智能汽车如何精准识别驾乘人员？语音指令的反馈速度、中控大屏的触控效果如何？这些功能平稳运行的背后，离不开智能网联汽车测试员的层层把关。 2024年7月，人社部会同有关部门向社会发布了19个新职业，智能网联汽车测试员被正式纳入国家职业分类体系。该职业被明确定义为：使用工具、量具、检测仪器及设备，对智能网联汽车及其相关零部件进行功能验证和测试的人员。
 - **[远程控车不能越俎代庖](https://www.cnr.cn/2013qcpd/2015xc/20260808/t20260808_527753228.shtml)** — _www.cnr.cn_ · published 2026-08-08
   近日，车主自驾遭车企“远程控车”一事引发全网热议。虽然核心驾驶功能尚在，但车机等均无法正常使用，这对于智能汽车而言，与“锁车”无异。车企设置防盗风控可以理解，但不能以“为你好”为由替用户作主。出发前未充分提醒，“出事后”又说规则藏在协议小字里，如此“安全保护”，保护的是谁？不得而知。智能汽车越“聪明”，权力边界越要清晰。涉及车辆功能限制，应充分告知、由用户选
+- **[雪佛兰退出中国？通用汽车：将转出口](https://www.cnr.cn/2013qcpd/djfb/20260808/t20260808_527753551.shtml)** — _www.cnr.cn_ · published 2026-08-08
+  央广网北京8月8日消息（记者姜鹏）日前，有消息称雪佛兰品牌将停止在华销售，退出中国市场，通用汽车方面向央广网记者表示，上汽通用将继续在国内生产雪佛兰，并且积极探索在美国以往的海外市场机遇。 这也意味着雪佛兰在华业务将转为出口，向全球其他市场进行销售，在中国市场则将逐步停止销售。 对于现有的雪佛兰品牌中国车主的售后服务问题，通用汽车进一步向央广网表示，将继续坚
 - **[比亚迪海豹06新色亮相，2027款展车全国300+门店同步首发](https://www.d1ev.com/newsflash/309654)** — _www.d1ev.com_ · date: unknown
   今日，比亚迪汽车海洋网销售事业部总经理张卓发布了2027款海豹06全新车色官图，新色命名尚未公布。同时，2027款海豹06首批展车已抵达全国118城300+门店。比亚迪2027款海豹06定位为“B级满配家轿”，整体设计延续在售车型，主要在细节上有所调整。新车前脸更为简洁，车尾采用贯穿设计尾灯组，造型有所调整。车顶搭载激光雷达，预示新车将支持辅助驾驶功能。 2
 - **[大众高尔夫混动版西班牙上市，27.9万起售，挑战丰田卡罗拉](https://www.d1ev.com/newsflash/309653)** — _www.d1ev.com_ · date: unknown
@@ -202,6 +208,18 @@ _Updated 2026-08-08 12:14 | discovery-only, zero LLM tokens | runs every 3h_
   今日，比亚迪汽车海洋网销售事业部总经理张卓发布了海豹06预热视频，宣布新车将于8月11日19:30在深圳上市。海豹06定位为“B级满配家轿”，采用全新海洋美学设计，配备逐浪星河大灯和全新贯穿式尾灯。此外，海豹06搭载了天神之眼B-辅助驾驶激光版，提供DM-i和EV两种动力版本。新车拥有2820mm超长轴距，提供多种车色选择，并配备18英寸星辉轮毂。 新款海豹
 - **[广汽传祺E8HEV+油电混动新车型亮相：7座大空间，最高车速170km/h](https://www.d1ev.com/newsflash/309678)** — _www.d1ev.com_ · date: unknown
   8月8日，工信部发布了第410批《道路机动车辆生产企业及产品公告》新产品公示，广汽传祺E8HEV+车型完成申报。该车型是一款汽油/电混合动力多用途乘用车，不支持外接充电，采用承载式底盘结构。车身尺寸为5000mm/1900mm/1786mm，轴距达到3000mm，额定载客（含驾驶员）为7座。 广汽传祺E8HEV+搭载型号为4A15J4的 发动机，由广州祺盛动
+- **[比亚迪腾势N8L升级：无麦K歌、哨兵模式、智能导航新体验](https://www.d1ev.com/newsflash/309698)** — _www.d1ev.com_ · date: unknown
+  近日，比亚迪腾势N8L（非闪充版）进行了V1.4.0版本更新，涉及多项功能优化。此次更新包括新增无麦K歌4种音效选择、哨兵模式预约功能、小势数字形象语音交互、通话时导航播报开关、停车助手订单主动提醒、全景界面后视镜展开折叠快捷入口等。同时，导航功能得到增强，新增顺路搜索结果列表显示绕行时间和距离信息，以及在搜索 充电站时推荐附近闪充站并支持快捷筛选。DiLi
+- **[福特董事长警告：中国车企即将冲击美国市场，美国车企需做好准备](https://www.d1ev.com/newsflash/309697)** — _www.d1ev.com_ · date: unknown
+  近日，福特汽车执行董事长比尔·福特在接受美国媒体采访时表示，美国汽车行业需要为与中国车企的正面竞争做好准备，并接受中国车企可能大规模进入美国市场的事实。他强调，美国汽车产业必须学会在开放市场中与中国同行竞争，不能永远依赖政策壁垒。比尔·福特认为，美国车企需要提前准备应对中国车企突破限制进入本土市场，因为政策壁垒是暂时的，而产品力才是关键。 比尔·福特指出，汽
+- **[路虎揽胜新款车型曝光：外观升级，动力系统大改，纯电续航提升！](https://www.d1ev.com/newsflash/309693)** — _www.d1ev.com_ · date: unknown
+  近日，新款路虎揽胜的路试谍照曝光，揭示了即将到来的改款细节。新车在外观设计上进行了调整，包括前灯组内部结构的更新和前包围样式的轻微改动。尽管测试车覆盖着伪装，但前格栅造型依旧清晰可辨，保持了路虎揽胜的高辨识度。 此次改款的重点不仅限于外观，官方透露，新款路虎揽胜还将在驾驶辅助系统、智能座舱以及底盘调校方面进行优化升级，旨在全面提升日常用车体验。在动力系统方面
+- **[小米汽车SU7OTA1.17更新：智能泊车升级，安全驾驶新体验](https://www.d1ev.com/newsflash/309692)** — _www.d1ev.com_ · date: unknown
+  8月8日，小米汽车宣布启动SU7OTA1.17版本的分批推送更新，此次更新涉及泊车、行车、座舱、充电等多个方面，并引入了多项高频实用功能。在泊车辅助方面，新增的画框泊车功能允许用户在没有标准车位线的情况下，通过中控屏幕设定停车位置，车辆将自动完成泊入。此外，还新增了车头泊入和车尾泊出功能，提升了在垂直和斜列车位中的停车灵活性。 行车与安全辅助方面，城市和高速
+- **[小米汽车OTA升级：智能驾驶新功能，座舱体验大提升](https://www.d1ev.com/newsflash/309691)** — _www.d1ev.com_ · date: unknown
+  今日，小米汽车发布了OTA1.17版本更新，涉及第一代和第二代XiaomiSU7车型，重点升级了辅助驾驶和智能座舱两大功能。在辅助驾驶方面，新增了画框泊车辅助功能，允许在无车位线的空地上自定义泊车位置；同时引入了车头泊入辅助和车尾泊出辅助功能，适配垂直和斜列车位。行车辅助功能也得到了优化，提升了驾驶平顺性和乘坐舒适性，特别是在城市领航辅助和高速领航辅助方面。
+- **[小米SU7Ultra升级：智能泊车新功能，家庭充电桩预约充电来袭！](https://www.d1ev.com/newsflash/309690)** — _www.d1ev.com_ · date: unknown
+  今日，小米SU7Ultra发布了OTA1.17版本更新，涉及辅助驾驶和智能座舱两大维度，旨在提升用户体验。此次更新为小米SU7Ultra车型带来了多项新功能和优化。 在辅助驾驶方面，新增了画框泊车辅助功能，允许用户在无车位线的空地上自定义泊车位置。同时，车头泊入辅助功能和车尾泊出辅助功能也得到了增强，适配更多类型的车位。行车辅助场景下的加减速控制策略得到优化
 - **[快讯-格隆汇](https://www.gelonghui.com/live/2600559)** — _www.gelonghui.com_ · published 2026-08-08
   申请认证 格隆汇公众号矩阵 格隆汇App 下载格隆汇APP 诊股宝App 下载诊股宝App 汇路演App 下载汇路演APP 极调研 加入我们 首页 社区 快讯 事件 深度 主题 专栏 行情 会员 数据 财富圈 文章 更多相关文章 快讯 更多相关快讯 查看全部股票/文章/快讯/事件/用户/财富圈搜索结果 热门股票 搜索历史 清空历史 登录 / 注册 温馨提示
 - **[福特据悉计划推出四门版燃油Mustang，预计2030年前上市](https://www.gelonghui.com/live/2600793)** — _www.gelonghui.com_ · published 2026-08-08
