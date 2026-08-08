@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-08-08 21:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-08-09 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-08-08 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **6643 unique auto/NEV articles** across **59 outlets**
+## Cumulative: **6645 unique auto/NEV articles** across **59 outlets**
 
 ## New per day
 | date | new articles |
@@ -72,6 +72,7 @@ _Updated 2026-08-08 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-08-06 | 134 |
 | 2026-08-07 | 117 |
 | 2026-08-08 | 65 |
+| 2026-08-09 | 2 |
 
 ## By outlet
 | outlet | articles |
@@ -93,13 +94,13 @@ _Updated 2026-08-08 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 | www.cada.cn | 116 |
 | www.yicai.com | 113 |
 | www.gelonghui.com | 99 |
-| auto.caijing.com.cn | 84 |
+| auto.caijing.com.cn | 85 |
 | www.zqrb.cn | 74 |
 | finance.eastmoney.com | 55 |
 | finance.people.com.cn | 46 |
 | www.jwview.com | 44 |
 | www.xinhuanet.com | 43 |
-| www.chinanews.com.cn | 41 |
+| www.chinanews.com.cn | 42 |
 | cn.chinadaily.com.cn | 32 |
 | qzs.stcn.com | 29 |
 | auto.ce.cn | 27 |
@@ -137,6 +138,11 @@ _Updated 2026-08-08 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 | culture.gmw.cn | 1 |
 
 ## Articles captured by day (newest first)
+
+### 2026-08-09 — 2 articles
+- **[汽车要闻｜汽车周回顾（8.03～8.07）](https://auto.caijing.com.cn/2026/0807/5175920.shtml)** — _auto.caijing.com.cn_ · date: unknown
+- **[巴西前7个月汽车产量增长8.3% 新能源汽车销量翻番](https://www.chinanews.com.cn/gj/2026/08-08/10674037.shtml)** — _www.chinanews.com.cn_ · published 2026-08-08
+  巴西前7个月汽车产量增长8.3% 新能源汽车销量翻番 中新社圣保罗8月7日电 巴西全国汽车制造商协会7日公布数据显示，今年前7个月，巴西累计生产汽车162.61万辆，同比增长8.3%；累计销售新车170万辆，同比增长17.9%，汽车工业保持稳健增长。 数据显示，7月份巴西汽车产量为25.39万辆，同比增长5.9%，环比增长3.1%；新车销量达27.95万辆，
 
 ### 2026-08-08 — 65 articles
 - **[蔚来第4000座换电站落成 第五代换电站七城同步投运](https://auto.caijing.com.cn/2026/0807/5176031.shtml)** — _auto.caijing.com.cn_ · published 2026-08-07
