@@ -1,8 +1,8 @@
 # China Business Daily — Crawler Status
 
-_Updated 2026-08-09 00:42 | WS1 redesign source universe | discovery-only, zero LLM tokens | every 3h_
+_Updated 2026-08-09 03:43 | WS1 redesign source universe | discovery-only, zero LLM tokens | every 3h_
 
-## Cumulative: **49897 business articles** across **81 outlets**
+## Cumulative: **49902 business articles** across **81 outlets**
 
 _In Report? verdicts reflect the brief run of **2026-08-08** (generated 2026-08-08T07:38:05): **121 ✅ in / 2181 ❌ out** of 2302 in-window articles. Articles crawled after that run show ➖ (no verdict yet)._
 
@@ -14,11 +14,11 @@ _In Report? verdicts reflect the brief run of **2026-08-08** (generated 2026-08-
 | finance.sina.com.cn | 6084 |
 | m.21jingji.com | 5539 |
 | www.nbd.com.cn | 4744 |
-| www.gelonghui.com | 3814 |
+| www.gelonghui.com | 3815 |
 | www.jiemian.com | 2190 |
 | www.yicai.com | 1932 |
 | 36kr.com | 1901 |
-| www.eeo.com.cn | 1889 |
+| www.eeo.com.cn | 1893 |
 | finance.china.com.cn | 1504 |
 | finance.people.com.cn | 1498 |
 | www.21jingji.com | 1000 |
@@ -91,7 +91,7 @@ _In Report? verdicts reflect the brief run of **2026-08-08** (generated 2026-08-
 | client.sina.com.cn | 1 |
 | bond.hexun.com | 1 |
 
-## 2026-08-09 — 34 articles
+## 2026-08-09 — 39 articles
 | Article | Outlet | Published | In Report? | Reason |
 |---|---|---|---|---|
 | [中国经济底子越扎实，人民币越有公信力](https://finance.eastmoney.com/a/202608083835872189.html) | finance.eastmoney.com | unknown | ➖ | Not evaluated in the latest brief run |
@@ -112,6 +112,10 @@ _In Report? verdicts reflect the brief run of **2026-08-08** (generated 2026-08-
 | [闪迪（SNDK）手握大额长协锁营收 拟140亿美元回购显信心](https://www.eeo.com.cn/2026/0809/991134.shtml) | www.eeo.com.cn | 2026-08-09 | ➖ | Not evaluated in the latest brief run |
 | [莫霍克工业公司（MHK）董事高位减持5.91万股，套现约777万美元](https://www.eeo.com.cn/2026/0808/991130.shtml) | www.eeo.com.cn | 2026-08-08 | ➖ | Not evaluated in the latest brief run |
 | [培生(PSO)上半年营收17.79亿英镑 AI落地及收购推进业务发展](https://www.eeo.com.cn/2026/0808/991127.shtml) | www.eeo.com.cn | 2026-08-08 | ➖ | Not evaluated in the latest brief run |
+| [创力（LTRX）副总经理郝龙拟减持不超9万股 涉资约75.69万元](https://www.eeo.com.cn/2026/0809/991146.shtml) | www.eeo.com.cn | 2026-08-09 | ➖ | Not evaluated in the latest brief run |
+| [应用光电（AAOI）2026年Q2营收创新高重回盈利，Q3业绩指引强劲](https://www.eeo.com.cn/2026/0809/991145.shtml) | www.eeo.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
+| [奥尔巴尼国际（AIN）获储亿银行分析师首予持有评级](https://www.eeo.com.cn/2026/0809/991144.shtml) | www.eeo.com.cn | unknown | ➖ | Not evaluated in the latest brief run |
+| [资管巨头富达增持亿航智能（EH）至449万股 成第一大外部股东](https://www.eeo.com.cn/2026/0809/991140.shtml) | www.eeo.com.cn | 2026-08-09 | ➖ | Not evaluated in the latest brief run |
 | [AI股神Leopold Aschenbrenner重返投资舞台，向芯片制造初创公司Source Foundry投资5亿美元](https://www.gelonghui.com/live/2601183) | www.gelonghui.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [纳瓦尔回应开源威胁论：闭源护城河不会消失，AI竞争本质仍是对抗性的](https://www.gelonghui.com/live/2601179) | www.gelonghui.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [AI基金Situational Awareness已告知投资者暂不接受新资金](https://www.gelonghui.com/live/2601178) | www.gelonghui.com | unknown | ➖ | Not evaluated in the latest brief run |
@@ -119,6 +123,7 @@ _In Report? verdicts reflect the brief run of **2026-08-08** (generated 2026-08-
 | [SK海力士拟推出约710亿美元股东回报方案，股票回购规模达284亿美元](https://www.gelonghui.com/live/2601144) | www.gelonghui.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [一船只在阿曼以东海域遭袭起火](https://www.gelonghui.com/live/2601123) | www.gelonghui.com | 2026-08-08 | ➖ | Not evaluated in the latest brief run |
 | [我国多家上市公司宣布收到美国关税退税](https://www.gelonghui.com/live/2601111) | www.gelonghui.com | unknown | ➖ | Not evaluated in the latest brief run |
+| [快讯-格隆汇](https://www.gelonghui.com/live/2601265) | www.gelonghui.com | 2026-08-09 | ➖ | Not evaluated in the latest brief run |
 | [一船只在阿曼以东海域遭袭起火](https://www.jiemian.com/article/14895119.html) | www.jiemian.com | unknown | ➖ | Not evaluated in the latest brief run |
 | [巴菲特退休后，伯克希尔半年净赚超2400亿元，暴增超110%，前五大持仓曝光！公司股价却没跑赢大盘，新CEO仍未获投资者充分信任](https://www.nbd.com.cn/articles/2026-08-08/4536241.html) | www.nbd.com.cn | 2026-08-08 | ➖ | Not evaluated in the latest brief run |
 | [星海V6开启预售，华为乾崑智驾下探至10万元级市场](https://www.nbd.com.cn/articles/2026-08-08/4536234.html) | www.nbd.com.cn | 2026-08-08 | ➖ | Not evaluated in the latest brief run |
