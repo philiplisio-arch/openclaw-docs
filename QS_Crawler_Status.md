@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-08-08 15:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-08-08 18:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-08-08 15:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **6631 unique auto/NEV articles** across **59 outlets**
+## Cumulative: **6635 unique auto/NEV articles** across **59 outlets**
 
 ## New per day
 | date | new articles |
@@ -71,14 +71,14 @@ _Updated 2026-08-08 15:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-08-05 | 155 |
 | 2026-08-06 | 134 |
 | 2026-08-07 | 117 |
-| 2026-08-08 | 53 |
+| 2026-08-08 | 57 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.d1ev.com | 1405 |
+| www.d1ev.com | 1406 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 599 |
+| vc.yiche.com | 600 |
 | auto.gasgoo.com | 458 |
 | 36kr.com | 309 |
 | www.stcn.com | 284 |
@@ -89,7 +89,7 @@ _Updated 2026-08-08 15:12 | discovery-only, zero LLM tokens | runs every 3h_
 | egs.stcn.com | 197 |
 | www.nbd.com.cn | 181 |
 | www.news.cn | 133 |
-| m.21jingji.com | 130 |
+| m.21jingji.com | 132 |
 | www.cada.cn | 116 |
 | www.yicai.com | 113 |
 | www.gelonghui.com | 99 |
@@ -138,7 +138,7 @@ _Updated 2026-08-08 15:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-08-08 — 53 articles
+### 2026-08-08 — 57 articles
 - **[包钢股份成功研发800MPa级增强成形性稀土热轧汽车钢](https://egs.stcn.com/news/detail/2324555.html)** — _egs.stcn.com_ · date: unknown
   人民财讯8月7日电，据包钢股份消息，近日，包钢股份成功研制出800MPa级增强成形性稀土热轧汽车结构用钢。该产品采用“稀土净化钢质+纳米析出强化”复合技术，兼具高强度、高塑性与优异的扩孔性能，可适用于商用车高承载、复杂变形的汽车结构件。产品已通过某知名商用车配套厂的试模及批量应用验证。
 - **[09:30济南再发5000万汽车购新补贴，8月20日起申报](https://egs.stcn.com/news/detail/2324599.html)** — _egs.stcn.com_ · date: unknown
@@ -155,6 +155,10 @@ _Updated 2026-08-08 15:12 | discovery-only, zero LLM tokens | runs every 3h_
 - **[大通大家7批量交付享道出行，换电MPV杀入高端专车市场](https://m.21jingji.com/article/20260807/herald/4e3f2891e171eb593ad20aa8b93a788e.html)** — _m.21jingji.com_ · published 2026-08-07
   大通大家7批量交付享道出行，换电MPV杀入高端专车市场 21世纪经济报道 21财经APP 郑植文 上海报道 2026-08-07 22:30 21世纪经济报道记者 郑植文 上海报道 8月6日，上汽大通大家7首批百台车辆正式交付享道出行，加入其高端专车车队。这是继2022年氢能源MPV商业化运营之后，双方在多人出行领域的又一次规模化合作。 大家7定位纯电MPV
 - **[雪佛兰将停止在中国市场销售？通用汽车仍未正面回应](https://m.21jingji.com/article/20260808/herald/733f974cb415247148a204055382303c.html)** — _m.21jingji.com_ · date: unknown
+- **[热财经 | 二十年抛物线，写尽“雪佛兰”汽车在华兴衰 - 21财经](https://m.21jingji.com/article/20260808/herald/b10b4b1b68c8e023374e547d80904fef.html)** — _m.21jingji.com_ · date: unknown
+  热财经 | 二十年抛物线，写尽“雪佛兰”汽车在华兴衰 来源：羊城派 近日，当“退出中国市场”的传言再次将雪佛兰推上风口浪尖，通用汽车的回应证实了一个更复杂的现实：雪佛兰将在中国停止销售，但保留生产，专供出口。这一进一退之间，折射出的并非单纯一个品牌的溃败，而是合资2.0时代残酷的生存法则，年销量已跌至八千余辆的“大黄蜂”，正在用最务实的方式，为自己在华二十年
+- **[“高管与经销商纠纷” 竟是AI捏造，奇瑞表示对造谣账号继续追责](https://m.21jingji.com/article/20260808/herald/ff2e60eda100f7661cb414361db1a419.html)** — _m.21jingji.com_ · published 2026-08-08
+  “高管与经销商纠纷” 竟是AI捏造，奇瑞表示对造谣账号继续追责 羊城派 2026-08-08 15:43 来源：羊城派 针对近期编造和散布谣言、侵犯公司及高管名誉权等不法行为，奇瑞通过报案、提起民事诉讼等措施依法正当维权，奇瑞集团法务部通过微博，将阶段性结果对外进行了通报： 案件一：针对此前网传“奇瑞高管与经销商纠纷” 的恶意谣言，经奇瑞公司报案后，芜湖市公
 - **[自动驾驶有了安全准入基线 从这些方面读懂新国标](https://m.gmw.cn/2026-08/08/content_38933210.htm)** — _m.gmw.cn_ · published 2026-08-08
   来源：新华网 2026-08-08 09:39 新华社北京8月7日电 题：自动驾驶有了安全准入基线 从这些方面读懂新国标 新华社记者唐诗凝 工业和信息化部组织制定并归口的《智能网联汽车 自动驾驶系统安全要求》（GB 44721—2026）强制性国家标准近日批准发布，拟于2027年7月1日起正式实施。 这份标准适用于搭载L3级（有条件自动驾驶）、L4级（高度自
 - **[北汽集团即将迎来第‌4000万名用户 全品牌车型集体亮相  08-08 11:21](https://news.yiche.com/zonghexinwen/20260808/11112112712.html)** — _news.yiche.com_ · date: unknown
@@ -174,6 +178,8 @@ _Updated 2026-08-08 15:12 | discovery-only, zero LLM tokens | runs every 3h_
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 纯电紧凑SUV新卷王？3C快充+零甲醛只要10万级！ 车轮哥Wheelsboy 10万级大满配 东风风神L8Y：纯电SUV新选择 95号张同学 腾势N8全新内饰有大
 - **[不堆激光雷达的小鹏GX，靠第二代VLA能坐稳“新科技旗舰”吗？](https://vc.yiche.com/vplay/12508148.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 27.98-35.98万 深度测评小鹏GX(第四集)，拆解它的尾部结构和用料 张麻子说车 试驾完小鹏GX，我知道它为啥敢卖40万了 科技每日推送 26.98万起 比预售降1
+- **[全新奔驰纯电GLC,兼顾智能、舒适与长期可靠](https://vc.yiche.com/vplay/12510290.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 33.98-51.80万 到店实拍奔驰纯电GLC：这台纯电车，真的不比新势力差 驾享来电 数字豪华新范本 全新奔驰纯电GLC LAC庆舍 奔驰 GLC 纯电 VS 宝马 i
 - **[【忠阳车评】为自动驾驶系好安全带](https://www.ce.cn/xwzx/gnsz/gdxw/202608/t20260808_3134853.shtml)** — _www.ce.cn_ · published 2026-08-08
   日前，工信部组织制定的《智能网联汽车 自动驾驶系统安全要求》（GB 44721—2026）强制性国家标准，由国家市场监督管理总局、国家标准化管理委员会批准发布，拟于2027年7月1日起正式实施。这标志着我国L3级（有条件自动驾驶）、L4级（高度自动驾驶）系统有了统一的“准入门槛”。 随着新一轮科技革命和产业变革持续深化，我国自动驾驶技术加速迭代突破，智能网联
 - **[新疆阿克苏地区库车市发生3.3级地震，震源深度21千米](https://www.cnr.cn/newscenter/native/gd/20260807/t20260807_527752815.shtml)** — _www.cnr.cn_ · published 2026-08-07
@@ -220,6 +226,8 @@ _Updated 2026-08-08 15:12 | discovery-only, zero LLM tokens | runs every 3h_
   今日，小米汽车发布了OTA1.17版本更新，涉及第一代和第二代XiaomiSU7车型，重点升级了辅助驾驶和智能座舱两大功能。在辅助驾驶方面，新增了画框泊车辅助功能，允许在无车位线的空地上自定义泊车位置；同时引入了车头泊入辅助和车尾泊出辅助功能，适配垂直和斜列车位。行车辅助功能也得到了优化，提升了驾驶平顺性和乘坐舒适性，特别是在城市领航辅助和高速领航辅助方面。
 - **[小米SU7Ultra升级：智能泊车新功能，家庭充电桩预约充电来袭！](https://www.d1ev.com/newsflash/309690)** — _www.d1ev.com_ · date: unknown
   今日，小米SU7Ultra发布了OTA1.17版本更新，涉及辅助驾驶和智能座舱两大维度，旨在提升用户体验。此次更新为小米SU7Ultra车型带来了多项新功能和优化。 在辅助驾驶方面，新增了画框泊车辅助功能，允许用户在无车位线的空地上自定义泊车位置。同时，车头泊入辅助功能和车尾泊出辅助功能也得到了增强，适配更多类型的车位。行车辅助场景下的加减速控制策略得到优化
+- **[小米澎程系列汽车9月上市，累计实测里程428万公里！](https://www.d1ev.com/newsflash/309703)** — _www.d1ev.com_ · date: unknown
+  今日，小米创办人、董事长兼CEO雷军发文宣布，小米澎程系列汽车自3年半前立项，2年前开始路测，预计将于9月份正式上市。在7月30日的小米澎程技术发布会上，澎程系列两款全新车型——大七座旗舰增程SUV N90Max与大五座四驱增程SUV N70Max亮相，并公布了预售价格。此外，小米官方透露，截至6月30日，澎程系列累计道路测试626天，历经两冬两夏，投入测试
 - **[快讯-格隆汇](https://www.gelonghui.com/live/2600559)** — _www.gelonghui.com_ · published 2026-08-08
   申请认证 格隆汇公众号矩阵 格隆汇App 下载格隆汇APP 诊股宝App 下载诊股宝App 汇路演App 下载汇路演APP 极调研 加入我们 首页 社区 快讯 事件 深度 主题 专栏 行情 会员 数据 财富圈 文章 更多相关文章 快讯 更多相关快讯 查看全部股票/文章/快讯/事件/用户/财富圈搜索结果 热门股票 搜索历史 清空历史 登录 / 注册 温馨提示
 - **[福特据悉计划推出四门版燃油Mustang，预计2030年前上市](https://www.gelonghui.com/live/2600793)** — _www.gelonghui.com_ · published 2026-08-08
