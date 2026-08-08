@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-08-09 03:11 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-08-09 06:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-08-09 03:11 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **6645 unique auto/NEV articles** across **59 outlets**
+## Cumulative: **6646 unique auto/NEV articles** across **59 outlets**
 
 ## New per day
 | date | new articles |
@@ -72,14 +72,14 @@ _Updated 2026-08-09 03:11 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-08-06 | 134 |
 | 2026-08-07 | 117 |
 | 2026-08-08 | 65 |
-| 2026-08-09 | 2 |
+| 2026-08-09 | 3 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.d1ev.com | 1408 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 604 |
+| vc.yiche.com | 605 |
 | auto.gasgoo.com | 458 |
 | 36kr.com | 309 |
 | www.stcn.com | 284 |
@@ -139,8 +139,10 @@ _Updated 2026-08-09 03:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-08-09 — 2 articles
+### 2026-08-09 — 3 articles
 - **[汽车要闻｜汽车周回顾（8.03～8.07）](https://auto.caijing.com.cn/2026/0807/5175920.shtml)** — _auto.caijing.com.cn_ · date: unknown
+- **[比亚迪秦MAX 8月13日上市，2820mm轴距+630km续航，B级闪充轿车来了](https://vc.yiche.com/vplay/12466302.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 速成车不可久留；造车应坚持长期主义 区胖曰车 比亚迪秦MAX实车亮相，配备顶置激光雷达，提供纯电和插混系统选项 启发的草莓松鼠1468 比亚迪秦MAX DM 实车体
 - **[巴西前7个月汽车产量增长8.3% 新能源汽车销量翻番](https://www.chinanews.com.cn/gj/2026/08-08/10674037.shtml)** — _www.chinanews.com.cn_ · published 2026-08-08
   巴西前7个月汽车产量增长8.3% 新能源汽车销量翻番 中新社圣保罗8月7日电 巴西全国汽车制造商协会7日公布数据显示，今年前7个月，巴西累计生产汽车162.61万辆，同比增长8.3%；累计销售新车170万辆，同比增长17.9%，汽车工业保持稳健增长。 数据显示，7月份巴西汽车产量为25.39万辆，同比增长5.9%，环比增长3.1%；新车销量达27.95万辆，
 
