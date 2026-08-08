@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-08-08 06:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-08-08 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-08-08 06:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **6596 unique auto/NEV articles** across **57 outlets**
+## Cumulative: **6607 unique auto/NEV articles** across **59 outlets**
 
 ## New per day
 | date | new articles |
@@ -71,12 +71,12 @@ _Updated 2026-08-08 06:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-08-05 | 155 |
 | 2026-08-06 | 134 |
 | 2026-08-07 | 117 |
-| 2026-08-08 | 18 |
+| 2026-08-08 | 29 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.d1ev.com | 1392 |
+| www.d1ev.com | 1397 |
 | www.dongchedi.com | 1088 |
 | vc.yiche.com | 593 |
 | auto.gasgoo.com | 458 |
@@ -92,10 +92,10 @@ _Updated 2026-08-08 06:12 | discovery-only, zero LLM tokens | runs every 3h_
 | m.21jingji.com | 129 |
 | www.cada.cn | 116 |
 | www.yicai.com | 113 |
-| www.gelonghui.com | 96 |
+| www.gelonghui.com | 97 |
 | auto.caijing.com.cn | 83 |
 | www.zqrb.cn | 74 |
-| finance.eastmoney.com | 53 |
+| finance.eastmoney.com | 55 |
 | finance.people.com.cn | 46 |
 | www.jwview.com | 44 |
 | www.xinhuanet.com | 43 |
@@ -105,7 +105,7 @@ _Updated 2026-08-08 06:12 | discovery-only, zero LLM tokens | runs every 3h_
 | auto.ce.cn | 27 |
 | m.ce.cn | 26 |
 | www.ceweekly.cn | 21 |
-| www.ce.cn | 20 |
+| www.ce.cn | 21 |
 | cv.ce.cn | 17 |
 | i.gasgoo.com | 15 |
 | bgimg.ce.cn | 14 |
@@ -126,8 +126,10 @@ _Updated 2026-08-08 06:12 | discovery-only, zero LLM tokens | runs every 3h_
 | cen.ce.cn | 2 |
 | world.gmw.cn | 1 |
 | tech.gmw.cn | 1 |
+| scitech.ce.cn | 1 |
 | ln.news.cn | 1 |
 | legal.gmw.cn | 1 |
+| intl.ce.cn | 1 |
 | gd.chinadaily.com.cn | 1 |
 | finance.caijing.com.cn | 1 |
 | fashion.ce.cn | 1 |
@@ -136,17 +138,27 @@ _Updated 2026-08-08 06:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-08-08 — 18 articles
+### 2026-08-08 — 29 articles
 - **[包钢股份成功研发800MPa级增强成形性稀土热轧汽车钢](https://egs.stcn.com/news/detail/2324555.html)** — _egs.stcn.com_ · date: unknown
   人民财讯8月7日电，据包钢股份消息，近日，包钢股份成功研制出800MPa级增强成形性稀土热轧汽车结构用钢。该产品采用“稀土净化钢质+纳米析出强化”复合技术，兼具高强度、高塑性与优异的扩孔性能，可适用于商用车高承载、复杂变形的汽车结构件。产品已通过某知名商用车配套厂的试模及批量应用验证。
+- **[汽车商品出口保持高增长 中国车企加速拓展全球市场](https://finance.eastmoney.com/a/202608083835581437.html)** — _finance.eastmoney.com_ · date: unknown
+  中国汽车产业全球化进程正在提速。8月6日，中国汽车工业协会（以下简称“中汽协”）整理的海关总署数据显示，2026年6月份，国内汽车商品进出口总额达318.2亿美元，同比增长35.5%。汽车出口的持续强势，成为拉动中国整体对外贸易规模增长的重要动力。 汽车出口持续高速增长的同时，国内车企海外布局也在不断深化，中国汽车“出海”正展现出更为全面的竞争力。 进出口结
+- **[雪佛兰被曝将停止在华销售 通用汽车回应：不会停产 现有中国车主售后服务保障不会缩水！](https://finance.eastmoney.com/a/202608073835541356.html)** — _finance.eastmoney.com_ · date: unknown
+  8月6日，一则“雪佛兰将停止在华销售”的消息在汽车圈炸开了锅。不少雪佛兰车主慌了：我的车以后还能修吗？配件还有地方买吗？当天，通用汽车正式回应——不会停产，中国现有车主的售后服务保障不会缩水，经销商网络照常运转。 但这个回应背后，藏着一个更大的故事：曾经在中国年销超过60万辆的美系品牌，正在悄悄转换角色——从“在中国卖车”变成“在中国造车卖全球”。 通用汽车
+- **[巴西前7个月汽车产量增长8.3% 新能源汽车销量翻番](https://intl.ce.cn/sjjj/qy/202608/t20260808_3134960.shtml)** — _intl.ce.cn_ · published 2026-08-08
+  中新社圣保罗8月7日电 巴西全国汽车制造商协会7日公布数据显示，今年前7个月，巴西累计生产汽车162.61万辆，同比增长8.3%；累计销售新车170万辆，同比增长17.9%，汽车工业保持稳健增长。 数据显示，7月份巴西汽车产量为25.39万辆，同比增长5.9%，环比增长3.1%；新车销量达27.95万辆，同比增长14.9%，创今年以来单月最高水平。今年前7个
 - **[自动驾驶国标发布，小鹏接受央视采访：汽车交付后仍要监测其安全](https://m.21jingji.com/article/20260807/herald/f90cb928e8588de9e4a6783bc91cd9a1.html)** — _m.21jingji.com_ · date: unknown
   21世纪经济报道记者 何煦阳 近日，《智能网联汽车 自动驾驶系统安全要求》强制性国家标准正式发布，标准的出台进一步完善了自动驾驶产业标准体系。8月5日，央视新闻围绕新标准出台推出专题报道，小鹏集团作为行业代表受邀接受专题采访。 （视频编辑：章启良） （作者：何煦阳,章启良 编辑：吴晓宇,张明艳 视频编辑：章启良） 南方财经全媒体集团及其客户端所刊载内容的知识
 - **[雷军“拿下”魏建军！长城汽车接入小米生态](https://m.21jingji.com/article/20260807/herald/d02448b33db5ab979b120b0c3b768bb4.html)** — _m.21jingji.com_ · date: unknown
   21世纪经济报道记者 何煦阳 近期，长城汽车宣布长城 H10 拓展坞首搭小米车端滑轨接口，支持小米汽车车顶滑轨装配。长城H10上市21小时大定突破31836台，长城汽车董事长魏建军发布视频感谢。 目前，除长城H10外，比亚迪、广丰和郑州日产已有车型接入小米CarloT，小米“朋友圈”持续扩大。 （视频编辑：章启良） （作者：何煦阳,章启良 编辑：吴晓宇,张明
 - **[大通大家7批量交付享道出行，换电MPV杀入高端专车市场](https://m.21jingji.com/article/20260807/herald/4e3f2891e171eb593ad20aa8b93a788e.html)** — _m.21jingji.com_ · published 2026-08-07
   大通大家7批量交付享道出行，换电MPV杀入高端专车市场 21世纪经济报道 21财经APP 郑植文 上海报道 2026-08-07 22:30 21世纪经济报道记者 郑植文 上海报道 8月6日，上汽大通大家7首批百台车辆正式交付享道出行，加入其高端专车车队。这是继2022年氢能源MPV商业化运营之后，双方在多人出行领域的又一次规模化合作。 大家7定位纯电MPV
+- **[自动驾驶有了安全准入基线](https://scitech.ce.cn/sy/zx/202608/t20260808_3134902.shtml)** — _scitech.ce.cn_ · published 2026-08-08
+  工业和信息化部组织制定并归口的《智能网联汽车 自动驾驶系统安全要求》（GB 44721—2026）强制性国家标准近日批准发布，拟于2027年7月1日起正式实施。 这份标准适用于搭载L3级（有条件自动驾驶）、L4级（高度自动驾驶）系统的载客和载货车辆，不适用于自动泊车系统。标准具体包含哪些核心安全要求，将对行业带来哪些影响？记者采访了标准起草人、中国汽车标准化
 - **[提车6小时就报废，比亚迪大唐遭泥头车重创！结果……](https://vc.yiche.com/vplay/12429895.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 23.99-30.99万 逛店实拍｜2026款昊铂S600到底香在哪? 驾享生活V 开海豹08打卡不一样的博物馆系列 一豫见古墓博物馆 大河汽车 昊铂HT 15万级的价格
+- **[【忠阳车评】为自动驾驶系好安全带](https://www.ce.cn/xwzx/gnsz/gdxw/202608/t20260808_3134853.shtml)** — _www.ce.cn_ · published 2026-08-08
+  日前，工信部组织制定的《智能网联汽车 自动驾驶系统安全要求》（GB 44721—2026）强制性国家标准，由国家市场监督管理总局、国家标准化管理委员会批准发布，拟于2027年7月1日起正式实施。这标志着我国L3级（有条件自动驾驶）、L4级（高度自动驾驶）系统有了统一的“准入门槛”。 随着新一轮科技革命和产业变革持续深化，我国自动驾驶技术加速迭代突破，智能网联
 - **[新疆阿克苏地区库车市发生3.3级地震，震源深度21千米](https://www.cnr.cn/newscenter/native/gd/20260807/t20260807_527752815.shtml)** — _www.cnr.cn_ · published 2026-08-07
   首页 > 新闻频道 > 央广网国内 > 国内滚动 新疆阿克苏地区库车市发生3.3级地震，震源深度21千米 2026-08-07 23:42:11 来源：中国地震台网 中国地震台网正式测定：8月7日21时58分在新疆阿克苏地区库车市（北纬41.21度，东经83.34度）发生3.3级地震，震源深度21千米。 编辑:吴海波 更多精彩资讯请在应用市场下载“央广网”客
 - **[比亚迪海豹06新色亮相，2027款展车全国300+门店同步首发](https://www.d1ev.com/newsflash/309654)** — _www.d1ev.com_ · date: unknown
@@ -157,7 +169,19 @@ _Updated 2026-08-08 06:12 | discovery-only, zero LLM tokens | runs every 3h_
   8月7日，工信部公示了第410批《道路机动车辆生产企业及产品公告》新产品，东风猛士X700正式完成申报。这款插电式 混合动力运动型乘用车提供增程版和插混版两种配置，车身尺寸均为5035mm×1999mm，轴距2920mm。增程版高度1890mm，整备质量2500kg；插混版高度1910mm，整备质量2650kg。两款车型均搭载智新科技股份有限公司生产的149
 - **[广汽传祺越7硬派混动SUV亮相，9月预售开启！](https://www.d1ev.com/newsflash/309656)** — _www.d1ev.com_ · date: unknown
   近日，广汽传祺全新车型越7正式发布并开启预定，预计9月开始预售。越7定位为插电硬派风格混动SUV，采用方盒子造型，整车线条刚劲平直，传承硬派越野的力量感。前脸为封闭式设计，搭配纵向排列的三颗日间行车灯，具备高辨识度。车顶前部安装了激光雷达，前翼子板处配备了传感器硬件，将搭载高阶辅助驾驶功能。车型尺寸长宽高分别为5045/2004/1933mm，轴距为2900
+- **[长城魏牌高山8Hi4混动SUV亮相：7座大空间，190km/h极速！](https://www.d1ev.com/newsflash/309665)** — _www.d1ev.com_ · date: unknown
+  8月8日，工信部发布了第410批《道路机动车辆生产企业及产品公告》新产品公示，长城魏牌全新高山8Hi4 混合动力多用途乘用车完成申报。该车型采用汽油/电混合动力，不提供外接充电功能，车身尺寸为长5280mm×宽1960mm×高1900mm，轴距3145mm，额定载客7座。动力方面，搭载长城汽车股份有限公司生产的GW4N20B 发动机，排量1998ml，功率1
+- **[“智驾”非全自动驾驶！温州司机捡鞋引发高速事故被罚](https://www.d1ev.com/newsflash/309662)** — _www.d1ev.com_ · date: unknown
+  今日，公安部交通管理局公布了一起因驾驶员分心导致的交通事故案例。7月23日，在浙江温州绕城高速上，郑某在开启智能辅助驾驶功能时，因弯腰捡拾儿子掉落的拖鞋导致车辆偏离方向，撞上中央护栏，造成车辆严重受损。幸运的是，事故中无人受伤，也未影响到其他车辆。郑某表示，在弯腰时不小心触碰到方向盘，导致智能辅助驾驶系统退出，从而引发事故。 交警对郑某进行了安全教育，并依法
+- **[中国首部自动驾驶国标2027年实施，L3/L4级车辆将受监管](https://www.d1ev.com/newsflash/309661)** — _www.d1ev.com_ · published 2027-07-01
+  近日，中国首部针对L3级有条件 自动驾驶和L4级高度自动驾驶的强制性国家标准《智能网联汽车自动驾驶系统安全要求》（GB44721-2026）由国家市场监督管理总局和国家标准化管理委员会正式批准发布，将于2027年7月1日起施行。该标准由工信部归口、中汽中心牵头制定，适用于搭载L3级、L4级系统的M类（载客）和N类（载货）车辆，不包括自动泊车系统和L0到L2级
+- **[零跑Lafa5纯电动轿车亮相：最高时速180km/h，支持激光雷达选装](https://www.d1ev.com/newsflash/309660)** — _www.d1ev.com_ · date: unknown
+  8月8日，工信部公示了第410批《道路机动车辆生产企业及产品公告》新产品信息，其中新款零跑Lafa5纯电动轿车完成申报。此次申报涉及三款零跑Lafa5纯电动轿车，均采用承载式车身设计，额定载客5人，轴距2735mm，最高车速可达180km/h， 轮胎规格提供225/45R19或235/45R19两种选择。 具体来看，FZ7000BEVB05J版本的整备质量为
+- **[一汽-大众速腾LHEV混动版亮相：镍钴锰电池+EDR系统 - 第一电动网](https://www.d1ev.com/newsflash/309658)** — _www.d1ev.com_ · date: unknown
+  近日，工信部发布了第410批《道路机动车辆生产企业及产品公告》新产品公示，一汽-大众速腾LHEV两款新车型完成申报。这两款车型均为汽油/电混合动力，不支持外接充电，采用镍钴锰三元锂蓄 电池，由南京市欣旺达新能源有限公司提供。 发动机型号为FAV，排量1498ml，功率81kW；驱动电机额定功率60kW/峰值功率110kW，最高车速163km/h。两款车型均配
 - **[快讯-格隆汇](https://www.gelonghui.com/live/2600559)** — _www.gelonghui.com_ · published 2026-08-08
+  申请认证 格隆汇公众号矩阵 格隆汇App 下载格隆汇APP 诊股宝App 下载诊股宝App 汇路演App 下载汇路演APP 极调研 加入我们 首页 社区 快讯 事件 深度 主题 专栏 行情 会员 数据 财富圈 文章 更多相关文章 快讯 更多相关快讯 查看全部股票/文章/快讯/事件/用户/财富圈搜索结果 热门股票 搜索历史 清空历史 登录 / 注册 温馨提示
+- **[福特据悉计划推出四门版燃油Mustang，预计2030年前上市](https://www.gelonghui.com/live/2600793)** — _www.gelonghui.com_ · published 2026-08-08
   申请认证 格隆汇公众号矩阵 格隆汇App 下载格隆汇APP 诊股宝App 下载诊股宝App 汇路演App 下载汇路演APP 极调研 加入我们 首页 社区 快讯 事件 深度 主题 专栏 行情 会员 数据 财富圈 文章 更多相关文章 快讯 更多相关快讯 查看全部股票/文章/快讯/事件/用户/财富圈搜索结果 热门股票 搜索历史 清空历史 登录 / 注册 温馨提示
 - **[太突然！雪佛兰被曝将停止在华销售，通用汽车回应：不会停产，现有中国车主售后服务保障不会缩水！年销量曾超60万辆，如今已不足万辆](https://www.nbd.com.cn/articles/2026-08-07/4535750.html)** — _www.nbd.com.cn_ · published 2026-08-07
   每日经济新闻 2026-08-07 22:28:58 每经编辑｜段炼 8月6日，一则“雪佛兰将停止在华销售”的消息在汽车圈炸开了锅。不少雪佛兰车主慌了：我的车以后还能修吗？配件还有地方买吗？当天，通用汽车正式回应——不会停产，中国现有车主的售后服务保障不会缩水，经销商网络照常运转。 但这个回应背后，藏着一个更大的故事：曾经在中国年销超过60万辆的美系品牌，正
