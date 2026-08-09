@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-08-09 06:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-08-09 09:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-08-09 06:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **6646 unique auto/NEV articles** across **59 outlets**
+## Cumulative: **6653 unique auto/NEV articles** across **59 outlets**
 
 ## New per day
 | date | new articles |
@@ -72,24 +72,24 @@ _Updated 2026-08-09 06:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-08-06 | 134 |
 | 2026-08-07 | 117 |
 | 2026-08-08 | 65 |
-| 2026-08-09 | 3 |
+| 2026-08-09 | 10 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.d1ev.com | 1408 |
+| www.d1ev.com | 1410 |
 | www.dongchedi.com | 1088 |
 | vc.yiche.com | 605 |
-| auto.gasgoo.com | 458 |
+| auto.gasgoo.com | 459 |
 | 36kr.com | 309 |
-| www.stcn.com | 284 |
-| www.cnr.cn | 233 |
+| www.stcn.com | 285 |
+| www.cnr.cn | 234 |
 | www.caam.org.cn | 211 |
 | autodata.gasgoo.com | 209 |
 | news.yiche.com | 200 |
-| egs.stcn.com | 197 |
+| egs.stcn.com | 198 |
 | www.nbd.com.cn | 181 |
-| www.news.cn | 133 |
+| www.news.cn | 134 |
 | m.21jingji.com | 132 |
 | www.cada.cn | 116 |
 | www.yicai.com | 113 |
@@ -139,12 +139,26 @@ _Updated 2026-08-09 06:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-08-09 — 3 articles
+### 2026-08-09 — 10 articles
 - **[汽车要闻｜汽车周回顾（8.03～8.07）](https://auto.caijing.com.cn/2026/0807/5175920.shtml)** — _auto.caijing.com.cn_ · date: unknown
+- **[盖世周报 | 上汽与通用合资公司续约20年；自动驾驶“国标”来了-盖世汽车资讯](https://auto.gasgoo.com/news/202608/9I70469022C108.shtml)** — _auto.gasgoo.com_ · date: unknown
+  本周，国内外汽车行业有哪些大事发生？ 上汽与通用续约，期限延长20年至2047年 8月5日，上汽集团与通用汽车正式签署战略续约协议，将双方合资企业上汽通用汽车的合资期限延长20年，至2047年。 上汽通用合资合约签署于1995年10月31日，合资公司于1997年6月正式成立，原合约期限为30年，原定于2027年6月到期。 图片来源：上汽通用汽车 据悉，续约后
+- **[新疆阿克苏地区库车市发生3.2级地震](https://egs.stcn.com/news/detail/2324668.html)** — _egs.stcn.com_ · published 2026-08-09
+  首页 推荐 快讯 解读 股市 港股通 视听 专题 行情 数据 公众号 APP 电子报 您当前的位置： 证券时报·e公司 > 快讯 > 详情 新疆阿克苏地区库车市发生3.2级地震 来源：人民财讯 作者：郑灶金 2026-08-09 07:59 Aa 大号字 人民财讯8月9日电，中国地震台网正式测定：8月9日1时12分，在新疆阿克苏地区库车市（北纬41.18度，
 - **[比亚迪秦MAX 8月13日上市，2820mm轴距+630km续航，B级闪充轿车来了](https://vc.yiche.com/vplay/12466302.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 速成车不可久留；造车应坚持长期主义 区胖曰车 比亚迪秦MAX实车亮相，配备顶置激光雷达，提供纯电和插混系统选项 启发的草莓松鼠1468 比亚迪秦MAX DM 实车体
 - **[巴西前7个月汽车产量增长8.3% 新能源汽车销量翻番](https://www.chinanews.com.cn/gj/2026/08-08/10674037.shtml)** — _www.chinanews.com.cn_ · published 2026-08-08
   巴西前7个月汽车产量增长8.3% 新能源汽车销量翻番 中新社圣保罗8月7日电 巴西全国汽车制造商协会7日公布数据显示，今年前7个月，巴西累计生产汽车162.61万辆，同比增长8.3%；累计销售新车170万辆，同比增长17.9%，汽车工业保持稳健增长。 数据显示，7月份巴西汽车产量为25.39万辆，同比增长5.9%，环比增长3.1%；新车销量达27.95万辆，
+- **[新疆阿克苏地区库车市发生3.2级地震 震源深度16公里](https://www.cnr.cn/newscenter/native/gd/20260809/t20260809_527754283.shtml)** — _www.cnr.cn_ · published 2026-08-09
+  首页 > 新闻频道 > 央广网国内 > 国内滚动 新疆阿克苏地区库车市发生3.2级地震 震源深度16公里 2026-08-09 07:07:53 来源：央视新闻客户端 中国地震台网正式测定：8月9日1时12分，在新疆阿克苏地区库车市（北纬41.18度，东经83.72度）发生3.2级地震，震源深度16公里。 （总台央视记者 张腾飞） 编辑:郑皓月 更多精彩资讯
+- **[日产新车研发周期缩短一半！高管：这速度是跟中国车企学的](https://www.d1ev.com/news/qiye/309738)** — _www.d1ev.com_ · date: unknown
+  快科技8月9日消息，据Carscoops报道，日产近日在横滨总部举行的活动上透露，通过借鉴中国车企的研发模式，日产将全新车型研发周期从50个月缩短至37个月，改款车型从50个月压缩至30个月，提速40%。 日产企业高管山口和之表示，如果公司无法更快地将新产品推向市场，就无法生存，他以即将推出的全新Skyline为例，该车从立项到完成仅用时26个月，比现款车型
+- **[盖世周报 | 上汽与通用合资公司续约20年；自动驾驶“国标”来了 - 第一电动网](https://www.d1ev.com/news/shichang/309735)** — _www.d1ev.com_ · date: unknown
+  本周，国内外汽车行业有哪些大事发生？ 上汽与通用续约，期限延长20年至2047年 8月5日，上汽集团与通用汽车正式签署战略续约协议，将双方合资企业上汽通用汽车的合资期限延长20年，至2047年。 上汽通用合资合约签署于1995年10月31日，合资公司于1997年6月正式成立，原合约期限为30年，原定于2027年6月到期。 图片来源：上汽通用汽车 据悉，续约后
+- **[活力中国调研行丨新能源车为什么选“它” ？不止于“减重”](https://www.news.cn/fortune/20260808/2a742bccfa2f49258cb49d03e20f88c4/c.html)** — _www.news.cn_ · published 2026-08-08
+  一辆新能源车，车身里藏着一种比铝轻三分之一的金属材料——镁合金。它让汽车更轻、续航更长，还具有减震和电磁屏蔽的作用，连商场扫地机器人都用上了它。“活力中国调研行”采访团记者走进安徽宝镁，看这种新材料如何给汽车“减重”。 记者：危颖、屈彦 新华社音视频部制作 【纠错】 【责任编辑:施歌】 一辆新能源车，车身里藏着一种比铝轻三分之一的金属材料——镁合金。它让汽车
+- **[新疆阿克苏地区库车市发生3.2级地震](https://www.stcn.com/article/detail/4065475.html)** — _www.stcn.com_ · date: unknown
+  移动版 网页版 首页 快讯 新闻 要闻 金融 评论 产经 创投 滚动 视频 视频 直播 路演 投资 A股 公司 新股 基金 港美股 数据 数据资讯 盯盘面 看资金 追风向 解财报 淘新股 再融资 港股 基金 信披+ 全部 沪市主板 深市主板 科创板 创业板 北交所 新三板 深股通 沪股通 专题 地方 京 津 冀 晋 蒙 辽 吉 黑 沪 苏 浙 皖 闽 赣 鲁
 
 ### 2026-08-08 — 65 articles
 - **[蔚来第4000座换电站落成 第五代换电站七城同步投运](https://auto.caijing.com.cn/2026/0807/5176031.shtml)** — _auto.caijing.com.cn_ · published 2026-08-07
