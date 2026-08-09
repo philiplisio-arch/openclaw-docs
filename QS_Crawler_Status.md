@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-08-10 00:13 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-08-10 03:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-08-10 00:13 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **6692 unique auto/NEV articles** across **60 outlets**
+## Cumulative: **6696 unique auto/NEV articles** across **60 outlets**
 
 ## New per day
 | date | new articles |
@@ -73,14 +73,14 @@ _Updated 2026-08-10 00:13 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-08-07 | 117 |
 | 2026-08-08 | 65 |
 | 2026-08-09 | 44 |
-| 2026-08-10 | 5 |
+| 2026-08-10 | 9 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
 | www.d1ev.com | 1421 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 618 |
+| vc.yiche.com | 622 |
 | auto.gasgoo.com | 459 |
 | 36kr.com | 309 |
 | www.stcn.com | 285 |
@@ -141,13 +141,21 @@ _Updated 2026-08-10 00:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-08-10 — 5 articles
+### 2026-08-10 — 9 articles
 - **[分钱不花开新车！5米车长+二排头等舱，锐界L限时0元换购](https://vc.yiche.com/vplay/12535574.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 22.98-30.98万 锐界L混动，全家安心出游神器，大空间低油耗长续航 罗辑车评 不到18万拿下合资大七座!2026款福特锐界l是真正懂中国家庭的车 evanHaina
 - **[预售16.99万起，扎实更越级！别克至境L7纯电是新主流选择！](https://vc.yiche.com/vplay/12534615.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 17.39-21.99万 省下20万去越野不香吗？哈弗H9硬刚普拉多，就差临门一脚 汽湃 预售16.99万元起！别克至境L7纯电要做“国民婚车首选”？ 买车问问 一代人有一
 - **[极狐阿尔法T5如何选？增程建议买12.28万高配，纯电可选入门版！](https://vc.yiche.com/vplay/12534489.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 11.38-15.88万 第一视角体验：极狐阿尔法T5 车族风 全新世代宝马iX3已抵达经销商处，预计即将正式公布售价！ 诚实的北极熊1453 全新阿尔法 T5 主打家用，
+- **[2.0T油电混动，燃油可选激光雷达，吉利星越L PLUS申报](https://vc.yiche.com/vplay/12511844.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 众泰汽车一辆车没卖却挣了一个亿？ 懂车 三菱欧蓝德 LS yujiecarter 实际体验新宾利飞驰的豪华 满电Club 6万级A00安全王？易至EV3把1500M
+- **[比亚迪海狮08，家用/商务都hold住！定什么价格合适？](https://vc.yiche.com/vplay/12420501.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 比亚迪海狮08与大唐并非兄弟车型，但两者都备受关注。 qhddeng911021 海狮08正式亮相，续航里程达900公里，起售价约为19.98万元 糖银河屋顶mom
+- **[面子里子都有，比亚迪“最狠9系”来了](https://vc.yiche.com/vplay/12480701.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 方程豹钛9即将上市！#方程豹钛9 #方程豹钛7 #方程豹 冰哥说车 电池新国标实施，8月七款新车申报，看看用的什么电池 图说汽车 家用SUV、百万定制越野齐上新！盘
+- **[实测奥迪E5，试试德系操控纯电瓦罐能有多香!？](https://vc.yiche.com/vplay/12255336.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 23.59-31.99万 高端三电技术下放只要9.98万起 2027款埃安RT上市 车大拿TV 直降3万！奥迪E5 Sportback怎么买不踩坑？ 嘻哈车 不仅身板大脑子
 - **[标致2030年前推7款新车，电动版208和2008领衔登场](https://www.d1ev.com/newsflash/309771)** — _www.d1ev.com_ · date: unknown
   近日，标致宣布将根据FaSTLAne战略，在2030年前推出7款新车，并在欧洲市场展开新一轮产品攻势。标致CEO阿兰·法韦透露，换代将从208和2008开始，随后覆盖308、308SW和408所在的紧凑型车市场。全新纯电版208和2008将率先登场，现有燃油及混动车型也会迎来更新。接下来，C级车市场将有3款新车取代308两厢车、308SW旅行车和408。 全
 - **[未来城市开车不超速？地理围栏技术让汽车自动限速](https://www.d1ev.com/newsflash/309770)** — _www.d1ev.com_ · date: unknown
