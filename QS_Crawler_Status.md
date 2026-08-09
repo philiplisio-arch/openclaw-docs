@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-08-09 15:13 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-08-09 18:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-08-09 15:13 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **6674 unique auto/NEV articles** across **60 outlets**
+## Cumulative: **6679 unique auto/NEV articles** across **60 outlets**
 
 ## New per day
 | date | new articles |
@@ -72,14 +72,14 @@ _Updated 2026-08-09 15:13 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-08-06 | 134 |
 | 2026-08-07 | 117 |
 | 2026-08-08 | 65 |
-| 2026-08-09 | 31 |
+| 2026-08-09 | 36 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.d1ev.com | 1412 |
+| www.d1ev.com | 1416 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 611 |
+| vc.yiche.com | 612 |
 | auto.gasgoo.com | 459 |
 | 36kr.com | 309 |
 | www.stcn.com | 285 |
@@ -140,7 +140,7 @@ _Updated 2026-08-09 15:13 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-08-09 — 31 articles
+### 2026-08-09 — 36 articles
 - **[汽车要闻｜汽车周回顾（8.03～8.07）](https://auto.caijing.com.cn/2026/0807/5175920.shtml)** — _auto.caijing.com.cn_ · date: unknown
 - **[盖世周报 | 上汽与通用合资公司续约20年；自动驾驶“国标”来了-盖世汽车资讯](https://auto.gasgoo.com/news/202608/9I70469022C108.shtml)** — _auto.gasgoo.com_ · date: unknown
   本周，国内外汽车行业有哪些大事发生？ 上汽与通用续约，期限延长20年至2047年 8月5日，上汽集团与通用汽车正式签署战略续约协议，将双方合资企业上汽通用汽车的合资期限延长20年，至2047年。 上汽通用合资合约签署于1995年10月31日，合资公司于1997年6月正式成立，原合约期限为30年，原定于2027年6月到期。 图片来源：上汽通用汽车 据悉，续约后
@@ -168,6 +168,8 @@ _Updated 2026-08-09 15:13 | discovery-only, zero LLM tokens | runs every 3h_
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 6.28-7.98万 新款极狐贝塔T1，变化不少，亲民代步怎么选？ 孔明说车 2027款埃安RT，9万级宁德长续航全能家轿 河马说车吧 新能源车销量超过燃油车？听听贾老师的
 - **[提车等2个月？探店比亚迪大唐：配置、价格都到位](https://vc.yiche.com/vplay/12530940.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 23.99-30.99万 兆瓦闪充+二代刀片电池+950公里续航，探店比亚迪大唐EV 柯南探车 空气悬架+后轮转向，25万级比亚迪大唐旗舰配置一步到位 驾享生活V 时代精英
+- **[电池新国标实施，8月七款新车申报，看看用的什么电池](https://vc.yiche.com/vplay/12519054.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 实拍方程豹钛9：中控配备超大双联屏 hlmartin060818 男人的纯粹“大玩具”，试驾方盒子英力士掷弹兵 奶爸教选车 前5个月，比亚迪销量如何？未来会怎么样？
 - **[巴西前7个月汽车产量增长8.3% 新能源汽车销量翻番](https://www.chinanews.com.cn/gj/2026/08-08/10674037.shtml)** — _www.chinanews.com.cn_ · published 2026-08-08
   巴西前7个月汽车产量增长8.3% 新能源汽车销量翻番 中新社圣保罗8月7日电 巴西全国汽车制造商协会7日公布数据显示，今年前7个月，巴西累计生产汽车162.61万辆，同比增长8.3%；累计销售新车170万辆，同比增长17.9%，汽车工业保持稳健增长。 数据显示，7月份巴西汽车产量为25.39万辆，同比增长5.9%，环比增长3.1%；新车销量达27.95万辆，
 - **[新疆阿克苏地区库车市发生3.2级地震 震源深度16公里](https://www.cnr.cn/newscenter/native/gd/20260809/t20260809_527754283.shtml)** — _www.cnr.cn_ · published 2026-08-09
@@ -190,6 +192,14 @@ _Updated 2026-08-09 15:13 | discovery-only, zero LLM tokens | runs every 3h_
   8月9日，高盛发布的研究报告对小米汽车的市场表现持乐观态度。报告预测，小米汽车在2026年将交付50万辆，2027年增至77万辆，到2028年有望达到103.6万辆，正式跨入年销百万的门槛。分析指出，小米汽车在产能搭建和供应链管控方面展现出强大的执行能力，产能爬坡速度位于行业第一梯队，交付规模稳步增长。此外，小米在智能终端和AIoT业务中积累的庞大用户群体，
 - **[蔚来第4,000座换电站落成暨第五代换电站投入运营](https://www.d1ev.com/news/qiye/309752)** — _www.d1ev.com_ · date: unknown
   【TechWeb】8月9日消息，蔚来第4,000座换电站暨首座第五代换电站近日在福建泉州侨乡体育馆落成，同日，蔚来首批第五代换电站在北京、上海、广州、苏州、合肥、成都、泉州七座城市投入运营，firefly萤火虫正式接入蔚来换电体系。 活动现场，蔚来创始人、董事长、CEO李斌表示：“从2018年第一座换电站到今天第4,000座换电站在泉州落成，蔚来能源基础设施
+- **[E周看点｜宁德时代61.8亿元分红落地；小鹏双班制赶MONA L03产能 - 第一电动网](https://www.d1ev.com/news/shichang/309762)** — _www.d1ev.com_ · date: unknown
+  本周，新能源汽车市场有哪些大事发生？ 小鹏采取双班制，赶MONA L03产能 盖世汽车讯 8月7日，小鹏汽车MONA系列研发负责人姜文通过微博，就MONA L03交付延迟向锁单用户致歉，并公布最新生产进展。 姜文表示，近期受全球AI需求火热影响，高端制程芯片供货出现波动，对8月份生产带来一定冲击。目前供应链问题已逐步克服，工厂已切换为双班全力生产，8月产能效
+- **[享界G9预售72小时订单破万，43.98万起售，L3自动驾驶+800V高压平台](https://www.d1ev.com/newsflash/309761)** — _www.d1ev.com_ · date: unknown
+  近日，享界汽车官方宣布，旗下首款豪华硬派SUV享界G9开启预售72小时后，累计订单量已突破15000台，新车预售价为43.98万元起。享界G9采用全新设计语言，车头大灯造型独特，支持选装激光投影大灯，能投射示宽光毯，并能根据雨雾等恶劣路况自动调整灯光色温，提升灯光穿透力。 在智能化方面，享界G9搭载L3级 自动驾驶架构，配备华为乾崑ADS5高阶智驾系统，搭配
+- **[比亚迪海豹06焕新登场：10.5万起售，动力升级，家用新选择](https://www.d1ev.com/newsflash/309758)** — _www.d1ev.com_ · date: unknown
+  8月11日，比亚迪将推出2027款海豹06，市场预估起售价约10.5万元。新车在外观上进行了全面革新，采用封闭式前脸和一体化大灯，风格更偏向家用化，取消了运动感较强的导流槽结构，使前脸更加简洁。车身侧面保留了溜背轿跑轮廓，搭配黑色悬浮车顶和多辐式运动轮毂，车尾则配备了贯穿式尾灯和黑化处理的后包围，提升了整车的时尚感和视觉层次。 内饰方面，2027款海豹06采
+- **[宝马联手克莱姆森大学打造太阳能电动车，日晒续航超50公里！](https://www.d1ev.com/newsflash/309755)** — _www.d1ev.com_ · date: unknown
+  今日，克莱姆森大学DeepOrange17项目团队与宝马合作开发的Luminetta原型车引起关注。这款小型纯电轿跑搭载了超过1700块光伏 电池，其设计旨在改变人们对太阳能汽车续航能力有限的固有印象。Luminetta原型车在城市短途通勤中，一天内太阳能发电的电量甚至超过了行驶消耗的电量。这一成果是在特定条件下实现的，包括超轻车身和极短通勤距离。 Lumi
 - **[申港证券：MLCC开启新一轮涨价 关注订单溢出和国产替代](https://www.gelonghui.com/live/2601442)** — _www.gelonghui.com_ · date: unknown
   首页 > 快讯 > 快讯详情 申港证券：MLCC开启新一轮涨价 关注订单溢出和国产替代 格隆汇8月9日｜申港证券表示，AI对高端MLCC需求带动日韩龙头厂商产能转向高端规格，以及智能驾驶渗透率提高，国内厂商有望受益订单溢出和国产份额替代，具备高容高压、车规级MLCC量产能力的国产厂商有望率先受益。国产龙头企业中报业绩预告了较好的同比增长，三环集团MLCC产品
 - **[绿控传动启动IPO申购：依托核心技术壁垒 拓宽新能源商用车赛道](https://www.jwview.com/jingwei/html/08-09/682771.shtml)** — _www.jwview.com_ · published 2026-08-10
