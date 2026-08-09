@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-08-10 03:11 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-08-10 06:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-08-10 03:11 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **6696 unique auto/NEV articles** across **60 outlets**
+## Cumulative: **6698 unique auto/NEV articles** across **60 outlets**
 
 ## New per day
 | date | new articles |
@@ -73,7 +73,7 @@ _Updated 2026-08-10 03:11 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-08-07 | 117 |
 | 2026-08-08 | 65 |
 | 2026-08-09 | 44 |
-| 2026-08-10 | 9 |
+| 2026-08-10 | 11 |
 
 ## By outlet
 | outlet | articles |
@@ -98,7 +98,7 @@ _Updated 2026-08-10 03:11 | discovery-only, zero LLM tokens | runs every 3h_
 | auto.caijing.com.cn | 86 |
 | www.zqrb.cn | 74 |
 | finance.eastmoney.com | 57 |
-| finance.people.com.cn | 46 |
+| finance.people.com.cn | 47 |
 | www.jwview.com | 45 |
 | www.xinhuanet.com | 44 |
 | www.chinanews.com.cn | 42 |
@@ -110,7 +110,7 @@ _Updated 2026-08-10 03:11 | discovery-only, zero LLM tokens | runs every 3h_
 | www.ce.cn | 21 |
 | cv.ce.cn | 17 |
 | i.gasgoo.com | 15 |
-| bgimg.ce.cn | 14 |
+| bgimg.ce.cn | 15 |
 | economy.gmw.cn | 12 |
 | m.gmw.cn | 10 |
 | industry.caijing.com.cn | 9 |
@@ -141,7 +141,11 @@ _Updated 2026-08-10 03:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-08-10 — 9 articles
+### 2026-08-10 — 11 articles
+- **[新能源汽车领跑全球](https://bgimg.ce.cn/xwzx/gnsz/gdxw/202608/t20260810_3137006.shtml)** — _bgimg.ce.cn_ · published 2026-08-10
+  续航里程不断提升、能耗逐步下降、智能座舱体验广受认可……近年来，中国新能源汽车的技术进步有目共睹。新能源汽车不仅成为国内消费者的主流选择，也成为拉动中国汽车出口持续增长的核心动力。 数据显示，2025年，中国汽车出口709.8万辆，连续三年位居全球第一。其中，新能源汽车出口261.5万辆，同比增长103.7%，成为拉动出口的核心动力。进入2026年，我国汽车
+- **[新能源汽车全产业链低碳路径成形](https://finance.people.com.cn/n1/2026/0810/c1004-40776451.html)** — _finance.people.com.cn_ · published 2026-08-10
+  “企业绿色低碳发展研究”第二阶段成果发布 新能源汽车全产业链低碳路径成形 2026年08月10日05:55 | 来源：人民网－人民日报222 订阅已订阅已收藏收藏小字号 点击播报本文，约 本报西安8月9日电 （记者张丹华）8月6日，在2026能源经济与碳达峰碳中和高质量发展论坛上，人民日报中国品牌发展研究院正式发布“企业绿色低碳发展研究”第二阶段成果。本阶段
 - **[分钱不花开新车！5米车长+二排头等舱，锐界L限时0元换购](https://vc.yiche.com/vplay/12535574.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 22.98-30.98万 锐界L混动，全家安心出游神器，大空间低油耗长续航 罗辑车评 不到18万拿下合资大七座!2026款福特锐界l是真正懂中国家庭的车 evanHaina
 - **[预售16.99万起，扎实更越级！别克至境L7纯电是新主流选择！](https://vc.yiche.com/vplay/12534615.html)** — _vc.yiche.com_ · date: unknown
