@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-08-09 18:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-08-09 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-08-09 18:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **6679 unique auto/NEV articles** across **60 outlets**
+## Cumulative: **6687 unique auto/NEV articles** across **60 outlets**
 
 ## New per day
 | date | new articles |
@@ -72,18 +72,18 @@ _Updated 2026-08-09 18:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-08-06 | 134 |
 | 2026-08-07 | 117 |
 | 2026-08-08 | 65 |
-| 2026-08-09 | 36 |
+| 2026-08-09 | 44 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.d1ev.com | 1416 |
+| www.d1ev.com | 1419 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 612 |
+| vc.yiche.com | 615 |
 | auto.gasgoo.com | 459 |
 | 36kr.com | 309 |
 | www.stcn.com | 285 |
-| www.cnr.cn | 239 |
+| www.cnr.cn | 240 |
 | www.caam.org.cn | 211 |
 | autodata.gasgoo.com | 209 |
 | news.yiche.com | 200 |
@@ -94,7 +94,7 @@ _Updated 2026-08-09 18:12 | discovery-only, zero LLM tokens | runs every 3h_
 | www.cada.cn | 116 |
 | www.yicai.com | 113 |
 | www.gelonghui.com | 100 |
-| auto.caijing.com.cn | 85 |
+| auto.caijing.com.cn | 86 |
 | www.zqrb.cn | 74 |
 | finance.eastmoney.com | 57 |
 | finance.people.com.cn | 46 |
@@ -140,8 +140,10 @@ _Updated 2026-08-09 18:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-08-09 — 36 articles
+### 2026-08-09 — 44 articles
 - **[汽车要闻｜汽车周回顾（8.03～8.07）](https://auto.caijing.com.cn/2026/0807/5175920.shtml)** — _auto.caijing.com.cn_ · date: unknown
+- **[阿维塔07L正式上市 售价22.99万元起 全系标配华为乾崑智驾ADS 5](https://auto.caijing.com.cn/2026/0809/5176100.shtml)** — _auto.caijing.com.cn_ · published 2026-09-06
+  8月8日，阿维塔科技在杭州宣布，“智美大五座豪华SUV”阿维塔07L正式上市。新车推出Elite纯电版、Max+纯电版、Ultra三电机纯电版三个车型版本，官方售价区间为22.99万元至27.99万元，限时权益价21.99万元至26.99万元。即日起，用户可通过阿维塔App、官网、小程序及全国门店订购。2026年9月6日前下定，可享至高价值6.1万元限时购车
 - **[盖世周报 | 上汽与通用合资公司续约20年；自动驾驶“国标”来了-盖世汽车资讯](https://auto.gasgoo.com/news/202608/9I70469022C108.shtml)** — _auto.gasgoo.com_ · date: unknown
   本周，国内外汽车行业有哪些大事发生？ 上汽与通用续约，期限延长20年至2047年 8月5日，上汽集团与通用汽车正式签署战略续约协议，将双方合资企业上汽通用汽车的合资期限延长20年，至2047年。 上汽通用合资合约签署于1995年10月31日，合资公司于1997年6月正式成立，原合约期限为30年，原定于2027年6月到期。 图片来源：上汽通用汽车 据悉，续约后
 - **[新疆阿克苏地区库车市发生3.2级地震](https://egs.stcn.com/news/detail/2324668.html)** — _egs.stcn.com_ · published 2026-08-09
@@ -170,6 +172,12 @@ _Updated 2026-08-09 18:12 | discovery-only, zero LLM tokens | runs every 3h_
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 23.99-30.99万 兆瓦闪充+二代刀片电池+950公里续航，探店比亚迪大唐EV 柯南探车 空气悬架+后轮转向，25万级比亚迪大唐旗舰配置一步到位 驾享生活V 时代精英
 - **[电池新国标实施，8月七款新车申报，看看用的什么电池](https://vc.yiche.com/vplay/12519054.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 实拍方程豹钛9：中控配备超大双联屏 hlmartin060818 男人的纯粹“大玩具”，试驾方盒子英力士掷弹兵 奶爸教选车 前5个月，比亚迪销量如何？未来会怎么样？
+- **[新车探店实拍：泰钽700，40万内找不到第二台这样的满配越野](https://vc.yiche.com/vplay/12534657.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 42.98万 三年省出一台车钱，买皮卡我只选威麟R08 EV 车界江湖 详细静态体验泰坦700！到底值不值得等？掰开了揉碎了给你讲清楚 知车一分钟 29.98万起，泰钽70
+- **[不用等插混了？纯电大唐EV真能满足全部用途？比亚迪真下本了吗？](https://vc.yiche.com/vplay/12534132.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 23.99-30.99万 狂揽15万辆订单，比亚迪大唐如何搅局全尺寸SUV市场 燕赵女司机 下雨当然要去露营啊！乐道L80 花王辉 比亚迪大唐上市23.99万起！直击理想L
+- **[奔里奔气——吉利银河星耀6_易车视频](https://vc.yiche.com/vplay/12507819.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 7.48-12.08万 中国智造牵手足球盛宴 杨学良: 吉利为何重仓世界杯？ 中国汽车报 奔驰EQS500轮毂轮胎升级：275/45R21 面包远山码头 卓驭赋能！合资智能
 - **[巴西前7个月汽车产量增长8.3% 新能源汽车销量翻番](https://www.chinanews.com.cn/gj/2026/08-08/10674037.shtml)** — _www.chinanews.com.cn_ · published 2026-08-08
   巴西前7个月汽车产量增长8.3% 新能源汽车销量翻番 中新社圣保罗8月7日电 巴西全国汽车制造商协会7日公布数据显示，今年前7个月，巴西累计生产汽车162.61万辆，同比增长8.3%；累计销售新车170万辆，同比增长17.9%，汽车工业保持稳健增长。 数据显示，7月份巴西汽车产量为25.39万辆，同比增长5.9%，环比增长3.1%；新车销量达27.95万辆，
 - **[新疆阿克苏地区库车市发生3.2级地震 震源深度16公里](https://www.cnr.cn/newscenter/native/gd/20260809/t20260809_527754283.shtml)** — _www.cnr.cn_ · published 2026-08-09
@@ -184,6 +192,8 @@ _Updated 2026-08-09 18:12 | discovery-only, zero LLM tokens | runs every 3h_
   近年来，芜湖市全力发展壮大智能网联新能源汽车产业，一体推进研发、整车、零部件、后市场发展，推动汽车产业向“微笑曲线”两端延伸，构建汽车全产业链、全生态链、全价值链。去年，汽车产业营收6872亿元，其中服务收入超2500亿元，成为汽车产业发展的重要增长极。 围绕科技研发服务，芜湖强化企业创新主体地位，打造多层次科创平台，建成省级以上汽车创新平台62家、授权专利
 - **[夯实基础 蓄力全年丨新能源汽车产业链提速 产业升级筑牢增长支点](https://www.cnr.cn/china/news/20260809/t20260809_527754540.shtml)** — _www.cnr.cn_ · published 2026-08-09
   央广网北京8月9日消息（记者李思默）据中央广播电视总台中国之声《新闻和报纸摘要》报道，中国之声特别策划《夯实基础 蓄力全年》8月9日推出：《新能源汽车产业链提速，产业升级筑牢增长支点》。 暑期出行旺季，不少人自驾出游，新能源汽车成为热门选择。今年上半年，新能源汽车产销规模突破700万辆，新能源汽车新车销量占汽车新车总销量的比重接近五成。 中国汽车战略与政策研
+- **[“触摸到全球汽车产业未来发展脉搏”（2026中非人文交流年）](https://www.cnr.cn/newscenter/native/gd/20260809/t20260809_527755270.shtml)** — _www.cnr.cn_ · published 2026-08-09
+  新能源汽车技术研修期间，北京工业职业技术学院教师协助南非学员进行车辆故障诊断。陈洋 摄 “在中国的学习时光，让我更深入地理解了文化交流的意义”“中国之行收获满满，我们愿当南中职业教育合作的使者”……日前，在中国驻南非大使馆举行的座谈会上，36名南非学员分享了他们在中国参加培训的经历和感受。这些学员来自南非6所公立职业技术院校，在南非高等教育与培训部全额资助下
 - **[日产新车研发周期缩短一半！高管：这速度是跟中国车企学的](https://www.d1ev.com/news/qiye/309738)** — _www.d1ev.com_ · date: unknown
   快科技8月9日消息，据Carscoops报道，日产近日在横滨总部举行的活动上透露，通过借鉴中国车企的研发模式，日产将全新车型研发周期从50个月缩短至37个月，改款车型从50个月压缩至30个月，提速40%。 日产企业高管山口和之表示，如果公司无法更快地将新产品推向市场，就无法生存，他以即将推出的全新Skyline为例，该车从立项到完成仅用时26个月，比现款车型
 - **[盖世周报 | 上汽与通用合资公司续约20年；自动驾驶“国标”来了 - 第一电动网](https://www.d1ev.com/news/shichang/309735)** — _www.d1ev.com_ · date: unknown
@@ -200,6 +210,12 @@ _Updated 2026-08-09 18:12 | discovery-only, zero LLM tokens | runs every 3h_
   8月11日，比亚迪将推出2027款海豹06，市场预估起售价约10.5万元。新车在外观上进行了全面革新，采用封闭式前脸和一体化大灯，风格更偏向家用化，取消了运动感较强的导流槽结构，使前脸更加简洁。车身侧面保留了溜背轿跑轮廓，搭配黑色悬浮车顶和多辐式运动轮毂，车尾则配备了贯穿式尾灯和黑化处理的后包围，提升了整车的时尚感和视觉层次。 内饰方面，2027款海豹06采
 - **[宝马联手克莱姆森大学打造太阳能电动车，日晒续航超50公里！](https://www.d1ev.com/newsflash/309755)** — _www.d1ev.com_ · date: unknown
   今日，克莱姆森大学DeepOrange17项目团队与宝马合作开发的Luminetta原型车引起关注。这款小型纯电轿跑搭载了超过1700块光伏 电池，其设计旨在改变人们对太阳能汽车续航能力有限的固有印象。Luminetta原型车在城市短途通勤中，一天内太阳能发电的电量甚至超过了行驶消耗的电量。这一成果是在特定条件下实现的，包括超轻车身和极短通勤距离。 Lumi
+- **[座椅加热成新车必备！消费者愿为舒适配置买单](https://www.d1ev.com/newsflash/309769)** — _www.d1ev.com_ · date: unknown
+  近日，AutoPacific的最新调查揭示了新车消费者对舒适和便利配置的日益增长的需求。调查显示，座椅加热功能成为消费者最青睐的配置之一，47%的受访者希望新车配备此项功能，甚至超过了前后驻车雷达的45%。调查覆盖了超过19,000名计划在未来三年内购买新车的美国持照消费者。 在其他配置方面，44%的消费者希望配备后向AEB（自动紧急制动），而主驾驶座椅电动
+- **[大众ID.ERA5X纯电SUV亮相：激光雷达加持，智能驾驶新突破](https://www.d1ev.com/newsflash/309766)** — _www.d1ev.com_ · date: unknown
+  近日，工信部发布第410批《道路机动车辆生产企业及产品公告》新产品公示，上汽大众ID.ERA5X纯电动多用途乘用车完成申报。ID.ERA5X作为ID.ERA家族首款纯电车型，定位为“超能纯电SUV”，是大众全球首款基于CMP平台打造、搭载CEA电子电气架构的量产车型。新车前脸采用贯穿式灯带搭配发光Logo，并配备灵眸矩阵LED大灯，车身长宽高分别为4560m
+- **[新兴产业爆发式增长，新能源车、光伏企业注销数同比上升](https://www.d1ev.com/newsflash/309765)** — _www.d1ev.com_ · date: unknown
+  8月8日，市场监管总局发布数据显示，今年上半年全国新设“8大新兴产业+9大未来产业”相关企业56.1万户。其中，8大新兴产业包括新一代信息技术、新能源、新材料等，9大未来产业涵盖元宇宙、脑机接口等前沿领域。部分领域如生成式人工智能、人形机器人呈现爆发式增长，分别新增企业5.5万户和11.6万户，同比分别增长28.0%和9.5%。 制造业企业转型升级步伐加快，
 - **[申港证券：MLCC开启新一轮涨价 关注订单溢出和国产替代](https://www.gelonghui.com/live/2601442)** — _www.gelonghui.com_ · date: unknown
   首页 > 快讯 > 快讯详情 申港证券：MLCC开启新一轮涨价 关注订单溢出和国产替代 格隆汇8月9日｜申港证券表示，AI对高端MLCC需求带动日韩龙头厂商产能转向高端规格，以及智能驾驶渗透率提高，国内厂商有望受益订单溢出和国产份额替代，具备高容高压、车规级MLCC量产能力的国产厂商有望率先受益。国产龙头企业中报业绩预告了较好的同比增长，三环集团MLCC产品
 - **[绿控传动启动IPO申购：依托核心技术壁垒 拓宽新能源商用车赛道](https://www.jwview.com/jingwei/html/08-09/682771.shtml)** — _www.jwview.com_ · published 2026-08-10
