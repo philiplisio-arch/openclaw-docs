@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-08-10 15:15 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-08-10 18:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-08-10 15:15 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **6770 unique auto/NEV articles** across **60 outlets**
+## Cumulative: **6797 unique auto/NEV articles** across **60 outlets**
 
 ## New per day
 | date | new articles |
@@ -73,41 +73,41 @@ _Updated 2026-08-10 15:15 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-08-07 | 117 |
 | 2026-08-08 | 65 |
 | 2026-08-09 | 44 |
-| 2026-08-10 | 83 |
+| 2026-08-10 | 110 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.d1ev.com | 1436 |
+| www.d1ev.com | 1441 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 626 |
-| auto.gasgoo.com | 475 |
+| vc.yiche.com | 628 |
+| auto.gasgoo.com | 476 |
 | 36kr.com | 309 |
 | www.stcn.com | 286 |
-| www.cnr.cn | 244 |
-| autodata.gasgoo.com | 217 |
+| www.cnr.cn | 245 |
+| autodata.gasgoo.com | 220 |
 | www.caam.org.cn | 211 |
-| news.yiche.com | 204 |
+| news.yiche.com | 206 |
 | egs.stcn.com | 198 |
-| www.nbd.com.cn | 182 |
-| www.news.cn | 138 |
+| www.nbd.com.cn | 183 |
+| www.news.cn | 139 |
 | m.21jingji.com | 133 |
 | www.cada.cn | 116 |
 | www.yicai.com | 114 |
 | www.gelonghui.com | 103 |
 | auto.caijing.com.cn | 86 |
 | www.zqrb.cn | 74 |
-| finance.eastmoney.com | 57 |
+| finance.eastmoney.com | 58 |
 | finance.people.com.cn | 48 |
 | www.xinhuanet.com | 45 |
 | www.jwview.com | 45 |
 | www.chinanews.com.cn | 43 |
 | cn.chinadaily.com.cn | 32 |
+| auto.ce.cn | 31 |
+| m.ce.cn | 30 |
 | qzs.stcn.com | 29 |
-| auto.ce.cn | 27 |
-| m.ce.cn | 26 |
+| www.ceweekly.cn | 23 |
 | www.ce.cn | 22 |
-| www.ceweekly.cn | 21 |
 | cv.ce.cn | 20 |
 | i.gasgoo.com | 15 |
 | bgimg.ce.cn | 15 |
@@ -141,7 +141,15 @@ _Updated 2026-08-10 15:15 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-08-10 — 83 articles
+### 2026-08-10 — 110 articles
+- **[新能源汽车充电将全面升级](https://auto.ce.cn/auto/gundong/202608/t20260810_3139260.shtml)** — _auto.ce.cn_ · published 2026-08-10
+  近日，国家发展改革委、国家能源局联合印发《新型电力系统建设“十五五”规划》，明确到2030年国内充电基础设施总量突破4000万个、大功率充电设施达30万个，整体可承载1.1亿辆电动汽车补能需求，为未来五年充换电产业划定清晰发展蓝图。针对本次规划核心变化、市场测算逻辑、车主充电改善、产业链发展机遇等行业焦点，《中国经营报》记者专访了中国充电联盟开放服务平台总经
+- **[自动驾驶行业驶入变革深水区](https://auto.ce.cn/auto/gundong/202608/t20260810_3139257.shtml)** — _auto.ce.cn_ · published 2026-08-10
+  告别营销驱动时代，中国自动驾驶行业迈入合规化高质量发展新阶段。 2026年7月以来，工业和信息化部先后发布《智能网联汽车 组合驾驶辅助系统安全要求》（GB 47955—2026）和《智能网联汽车 自动驾驶系统安全要求》（GB 44721—2026）两套强制性国标，分别于 2027 年 1 月、2027年 7 月实施，构建起从 L2 辅助驾驶到L3、L4 高阶
+- **[为自动驾驶系好安全带](https://auto.ce.cn/auto/gundong/202608/t20260810_3139242.shtml)** — _auto.ce.cn_ · published 2026-08-10
+  日前，工信部组织制定的《智能网联汽车 自动驾驶系统安全要求》（GB 44721—2026）强制性国家标准，由国家市场监督管理总局、国家标准化管理委员会批准发布，拟于2027年7月1日起正式实施。这标志着我国L3级（有条件自动驾驶）、L4级（高度自动驾驶）系统有了统一的“准入门槛”。 随着新一轮科技革命和产业变革持续深化，我国自动驾驶技术加速迭代突破，智能网联
+- **[新能源汽车领跑全球](https://auto.ce.cn/auto/gundong/202608/t20260810_3139237.shtml)** — _auto.ce.cn_ · published 2026-08-10
+  续航里程不断提升、能耗逐步下降、智能座舱体验广受认可……近年来，中国新能源汽车的技术进步有目共睹。新能源汽车不仅成为国内消费者的主流选择，也成为拉动中国汽车出口持续增长的核心动力。 数据显示，2025年，中国汽车出口709.8万辆，连续三年位居全球第一。其中，新能源汽车出口261.5万辆，同比增长103.7%，成为拉动出口的核心动力。进入2026年，我国汽车
 - **[新能源车不能再让消费者当“小白鼠”了](https://auto.gasgoo.com/news/202608/10I70469030C108.shtml)** — _auto.gasgoo.com_ · date: unknown
   曾经被认为代表汽车工业未来的特斯拉，也被质量问题拖住了。 当地时间7月31日，美国NHTSA宣布对近120万辆特斯拉车型，启动安全缺陷的初步调查。本次调查对象是弗里蒙特工厂生产的 2018-2020 款 Model 3、2021-2023 款 Model Y。 据称，监管机构已经收到了150多起投诉，这些投诉表示，特斯拉的前悬架下横向连杆，存在行驶中脱落风险
 - **[合资新能源转型最速！东风日产N序列第四款车型NX7亮相](https://auto.gasgoo.com/news/202608/10I70469018C107.shtml)** — _auto.gasgoo.com_ · date: unknown
@@ -170,6 +178,8 @@ _Updated 2026-08-10 15:15 | discovery-only, zero LLM tokens | runs every 3h_
 - **[2026年1-6月中国乘用车出口到哪了](https://auto.gasgoo.com/news/202608/10I70469045C110.shtml)** — _auto.gasgoo.com_ · date: unknown
 - **[传大众将重构美国市场战略 推出皮卡车型](https://auto.gasgoo.com/news/202608/10I70469044C109.shtml)** — _auto.gasgoo.com_ · date: unknown
   盖世汽车讯 据路透社近日报道，一位消息人士透露，德国汽车集团大众计划全面调整美国市场战略，更换管理层并更新产品矩阵，其中包含一款全新皮卡车型。 该消息人士表示，曾任大众高端品牌奥迪销售负责人的马尔科·舒伯特（Marco Schubert）将赴美国任职，接替即将离职的谢尔·格鲁纳（Kjell Gruner）。德国媒体《商报》率先报道了大众上述计划。 对于上述报
+- **[7月卖了147万辆！新能源车正在成为“大多数”’](https://auto.gasgoo.com/news/202608/10I70469063C108.shtml)** — _auto.gasgoo.com_ · date: unknown
+  8月初，乘联分会发布7月新能源乘用车厂商批发销量快讯。据月度初步数据综合测算，当月国内车企新能源乘用车预估批售量达147万辆，同比增长23%，环比下降1%，同比增速为2026年以来各月最高。 反观整体车市，大盘走势承压偏弱，新能源车已成为国内乘用车市场核心增长亮点，新旧能源车型市场分化格局持续加剧。 渗透率逼近七成，新能源车越卖越稳 7月新能源车市实现同比2
 - **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2086635532586299392)** — _autodata.gasgoo.com_ · date: unknown
 - **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2086676533174579200)** — _autodata.gasgoo.com_ · date: unknown
 - **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2086660234112811008)** — _autodata.gasgoo.com_ · date: unknown
@@ -178,6 +188,9 @@ _Updated 2026-08-10 15:15 | discovery-only, zero LLM tokens | runs every 3h_
 - **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2086247453362991104)** — _autodata.gasgoo.com_ · date: unknown
 - **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2086257681780846592)** — _autodata.gasgoo.com_ · date: unknown
 - **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2086609830524108800)** — _autodata.gasgoo.com_ · date: unknown
+- **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2086630197078671360)** — _autodata.gasgoo.com_ · date: unknown
+- **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2086703034162364416)** — _autodata.gasgoo.com_ · date: unknown
+- **[盖世全球汽车产业大数据](https://autodata.gasgoo.com/information/imView/articleDetails/2086729387993608192)** — _autodata.gasgoo.com_ · date: unknown
 - **[新能源汽车领跑全球](https://bgimg.ce.cn/xwzx/gnsz/gdxw/202608/t20260810_3137006.shtml)** — _bgimg.ce.cn_ · published 2026-08-10
   续航里程不断提升、能耗逐步下降、智能座舱体验广受认可……近年来，中国新能源汽车的技术进步有目共睹。新能源汽车不仅成为国内消费者的主流选择，也成为拉动中国汽车出口持续增长的核心动力。 数据显示，2025年，中国汽车出口709.8万辆，连续三年位居全球第一。其中，新能源汽车出口261.5万辆，同比增长103.7%，成为拉动出口的核心动力。进入2026年，我国汽车
 - **[江淮新能源EZ6全球上市暨2026商用车用户大会举行](https://cv.ce.cn/news/202608/t20260810_3137163.shtml)** — _cv.ce.cn_ · published 2026-08-10
@@ -190,6 +203,8 @@ _Updated 2026-08-10 15:15 | discovery-only, zero LLM tokens | runs every 3h_
   点击右上角微信好友 朋友圈 请使用浏览器分享功能进行分享 济南消费者无需再领取补贴资格、重庆将电动自行车纳入补贴范围、西安二手车也可以享受补贴……记者注意到，近期不少地方正在基于自身特色，进一步完善汽车消费补贴政策。业内专家表示，目前国内汽车消费市场仍然有较大政策发挥空间，通过简化申报流程、加码补贴资金、扩大补贴范围等方式，各地有望进一步释放汽车消费潜力，刺
 - **[新能源汽车领跑全球](https://economy.gmw.cn/2026-08/10/content_38934683.htm)** — _economy.gmw.cn_ · published 2026-08-10
   点击右上角微信好友 朋友圈 请使用浏览器分享功能进行分享 续航里程不断提升、能耗逐步下降、智能座舱体验广受认可……近年来，中国新能源汽车的技术进步有目共睹。新能源汽车不仅成为国内消费者的主流选择，也成为拉动中国汽车出口持续增长的核心动力。 数据显示，2025年，中国汽车出口709.8万辆，连续三年位居全球第一。其中，新能源汽车出口261.5万辆，同比增长10
+- **[经销商人士证实：雪佛兰已暂停在华新车销售](https://finance.eastmoney.com/a/202608103836546886.html)** — _finance.eastmoney.com_ · date: unknown
+  经销商人士证实：雪佛兰已暂停在华新车销售 近日，雪佛兰退出中国市场话题在业内引发热议。通用中国今日回应第一财经记者称，在中国，凯迪拉克与别克在各自的细分市场中具备良好的竞争优势，能够支持业务的可持续增长；而合资企业旗下的雪佛兰产品线则最契合出口市场需求。 通用中国方面强调，雪佛兰产品将继续在中国生产，并积极探索在美国以外的海外市场机遇。对于现有的中国雪佛兰车
 - **[新能源汽车全产业链低碳路径成形](https://finance.people.com.cn/n1/2026/0810/c1004-40776451.html)** — _finance.people.com.cn_ · published 2026-08-10
   “企业绿色低碳发展研究”第二阶段成果发布 新能源汽车全产业链低碳路径成形 2026年08月10日05:55 | 来源：人民网－人民日报222 订阅已订阅已收藏收藏小字号 点击播报本文，约 本报西安8月9日电 （记者张丹华）8月6日，在2026能源经济与碳达峰碳中和高质量发展论坛上，人民日报中国品牌发展研究院正式发布“企业绿色低碳发展研究”第二阶段成果。本阶段
 - **[活力中国调研行](https://finance.people.com.cn/n1/2026/0810/c1004-40776949.html)** — _finance.people.com.cn_ · published 2026-08-10
@@ -198,6 +213,14 @@ _Updated 2026-08-10 15:15 | discovery-only, zero LLM tokens | runs every 3h_
   济南消费者无需再领取补贴资格、重庆将电动自行车纳入补贴范围、西安二手车也可以享受补贴……记者注意到，近期不少地方正在基于自身特色，进一步完善汽车消费补贴政策。业内专家表示，目前国内汽车消费市场仍然有较大政策发挥空间，通过简化申报流程、加码补贴资金、扩大补贴范围等方式，各地有望进一步释放汽车消费潜力，刺激国内汽车市场回暖。 据不完全统计，自2026年7月底以来
 - **[车企如何直面同质化困局？阿维塔高管称：要会提供情绪价值](https://m.21jingji.com/article/20260810/herald/2866b683109fb4f003532afd49692885.html)** — _m.21jingji.com_ · date: unknown
   8月8日，阿维塔07L在杭州电竞中心正式上市，限时起售价21.99万元。在发布会前的一次群访上，提及汽车市场正在面临一场同质化困局时，阿维塔总裁陈卓称车企需要坚持三大方向，分别是：坚持原创设计、找准细分群体、提供情绪价值。 （作者：易思琳 编辑：张伟贤 视频编辑：许婷婷） 南方财经全媒体集团及其客户端所刊载内容的知识产权均属其旗下媒体。未经书面授权，任何人不
+- **[新能源汽车充电将全面升级](https://m.ce.cn/qc/gd/202608/t20260810_3139323.shtml)** — _m.ce.cn_ · published 2026-08-10
+  近日，国家发展改革委、国家能源局联合印发《新型电力系统建设“十五五”规划》，明确到2030年国内充电基础设施总量突破4000万个、大功率充电设施达30万个，整体可承载1.1亿辆电动汽车补能需求，为未来五年充换电产业划定清晰发展蓝图。针对本次规划核心变化、市场测算逻辑、车主充电改善、产业链发展机遇等行业焦点，《中国经营报》记者专访了中国充电联盟开放服务平台总经
+- **[自动驾驶行业驶入变革深水区](https://m.ce.cn/qc/gd/202608/t20260810_3139322.shtml)** — _m.ce.cn_ · published 2026-08-10
+  告别营销驱动时代，中国自动驾驶行业迈入合规化高质量发展新阶段。 2026年7月以来，工业和信息化部先后发布《智能网联汽车 组合驾驶辅助系统安全要求》（GB 47955—2026）和《智能网联汽车 自动驾驶系统安全要求》（GB 44721—2026）两套强制性国标，分别于 2027 年 1 月、2027年 7 月实施，构建起从 L2 辅助驾驶到L3、L4 高阶
+- **[为自动驾驶系好安全带](https://m.ce.cn/qc/gd/202608/t20260810_3139319.shtml)** — _m.ce.cn_ · published 2026-08-10
+  日前，工信部组织制定的《智能网联汽车 自动驾驶系统安全要求》（GB 44721—2026）强制性国家标准，由国家市场监督管理总局、国家标准化管理委员会批准发布，拟于2027年7月1日起正式实施。这标志着我国L3级（有条件自动驾驶）、L4级（高度自动驾驶）系统有了统一的“准入门槛”。 随着新一轮科技革命和产业变革持续深化，我国自动驾驶技术加速迭代突破，智能网联
+- **[新能源汽车领跑全球](https://m.ce.cn/qc/gd/202608/t20260810_3139318.shtml)** — _m.ce.cn_ · published 2026-08-10
+  续航里程不断提升、能耗逐步下降、智能座舱体验广受认可……近年来，中国新能源汽车的技术进步有目共睹。新能源汽车不仅成为国内消费者的主流选择，也成为拉动中国汽车出口持续增长的核心动力。 数据显示，2025年，中国汽车出口709.8万辆，连续三年位居全球第一。其中，新能源汽车出口261.5万辆，同比增长103.7%，成为拉动出口的核心动力。进入2026年，我国汽车
 - **[小鹏G9L将于8月11日正式亮相 同步开启预售](https://news.yiche.com/xinchexiaoxi/20260810/09112159424.html)** — _news.yiche.com_ · date: unknown
   推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 8月10日，小鹏汽车董事长何小鹏在社交媒体上透露，小鹏G9L将于8月11日正式亮相，并同步开启预售。小鹏G9L采用家族设计语言，搭载小鹏第二代VLA首次重大升级版本以及寰宇星空座舱。动力方面搭载80
 - **[全新捷途山海L7 PLUS将于8月18日上市 智能驾驶辅助系统升级](https://news.yiche.com/xinchexiaoxi/20260810/11112161641.html)** — _news.yiche.com_ · date: unknown
@@ -206,6 +229,10 @@ _Updated 2026-08-10 15:15 | discovery-only, zero LLM tokens | runs every 3h_
   推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 近日，上汽MG品牌正式官宣：MG 07新增两款插电式混合动力车型——245舒享版和245激光雷达版，将于8月21日成都车展正式上市。新车搭载上汽自研DMH全域超混系统、宁德时代电池、Momenta
 - **[奇瑞风云T7将于8月12日开启预售 搭载犀牛电池/续航600km](https://news.yiche.com/xinchexiaoxi/20260810/12112164296.html)** — _news.yiche.com_ · date: unknown
   推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 8月10日，奇瑞风云宣布风云T7将于8月12日开启预售。风云T7采用家族化设计语言，搭载犀牛电池，标配续航600km。 外观方面，风云T7采用风云新能源最新一代极简电动化设计语言，封闭式车身搭配狭长
+- **[宝马M3 40周年限量版将于成都车展上市 限量发售20台](https://news.yiche.com/xinchexiaoxi/20260810/15112172204.html)** — _news.yiche.com_ · date: unknown
+  推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 8月10日，我们从官方获悉，BMW M系列将推出M3 40周年限量版车型，该车型将于8月21日开幕的成都国际车展正式上市。新车涵盖四门轿车与旅行车两种车身形式，全球仅限量发售20台。 外观方面，专属
+- **[魏牌V8X将于8月14日上市 搭载混动系统/综合续航1659km](https://news.yiche.com/xinchexiaoxi/20260810/15112170368.html)** — _news.yiche.com_ · date: unknown
+  推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 易车讯 我们从魏牌官方获悉，魏牌V8X将于8月14日正式上市。该车已在7月29日开启预订，立即下订尊享限时先享权益，2000元订金抵5000元购车尾款，试驾购车享100000积分。 造型方面，魏牌V8X与V
 - **[分钱不花开新车！5米车长+二排头等舱，锐界L限时0元换购](https://vc.yiche.com/vplay/12535574.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 22.98-30.98万 锐界L混动，全家安心出游神器，大空间低油耗长续航 罗辑车评 不到18万拿下合资大七座!2026款福特锐界l是真正懂中国家庭的车 evanHaina
 - **[预售16.99万起，扎实更越级！别克至境L7纯电是新主流选择！](https://vc.yiche.com/vplay/12534615.html)** — _vc.yiche.com_ · date: unknown
@@ -228,10 +255,18 @@ _Updated 2026-08-10 15:15 | discovery-only, zero LLM tokens | runs every 3h_
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 奇瑞风云T9L新增猎鹰700选装，1.1 万解锁全场景NOA 极速N哥 谁说高端配置只能贵价买单？MG07直接把30万级配置打下来！ 轰动车界 实拍红旗越野车越野性
 - **[试驾小鹏 GX 大车亦灵活，科技重塑家用旗舰](https://vc.yiche.com/vplay/12541986.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 27.98-35.98万 谁能拒绝在深夜失眠时，观看一集令人放松的房车露营视频，尤其是在暴雨中呢！ 三船长021123 探店岚图泰山X8，6.1㎡座舱宽适到犯规 才华横溢南
+- **[行政中岛都给配上四电机了！小鹏G9L全球首发智能四电机行政中岛](https://vc.yiche.com/vplay/12535273.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 何小鹏的“意难平”，小鹏G9L能补齐遗憾，打赢对手吗？ 买车网 30万级科技标杆 小鹏G9L底气何来？ 车门视车 探店实拍体验奇瑞风云A9，10.69万起就有290
+- **[奔驰电车值得买吗？30万的纯电GLC体验如何?](https://vc.yiche.com/vplay/12544457.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 33.98-51.80万 纯电奔驰GLC预售34.9万起，配置很堆料，上市价格多少合适？ 十三先生Studio 东风日产N7交付一周年 5万+车主认证 合作新能源到底有啥魔
 - **[从上汽集团与通用汽车续约谈起](https://views.ce.cn/view/ent/202608/t20260810_3137279.shtml)** — _views.ce.cn_ · published 2026-08-10
   上汽集团与通用汽车近日续约20年，通用汽车成为又一家选择“长期绑定”中国市场的跨国车企。此前，广汽集团与本田汽车也已签署合资续约协议。在销量下滑、市场份额萎缩的背景下，续约的原因值得思考。 数据显示，广汽本田年销量从超80万辆降至约35万辆，降幅达56%；上汽通用在华销量从200多万辆降至2025年的53.5万辆，流失近3/4。数字虽然冰冷，但跨国车企的选择
 - **[从流程简化到资金加码 多地完善汽车消费补贴政策](https://www.ce.cn/xwzx/gnsz/gdxw/202608/t20260810_3137133.shtml)** — _www.ce.cn_ · published 2026-08-10
   济南消费者无需再领取补贴资格、重庆将电动自行车纳入补贴范围、西安二手车也可以享受补贴……记者注意到，近期不少地方正在基于自身特色，进一步完善汽车消费补贴政策。业内专家表示，目前国内汽车消费市场仍然有较大政策发挥空间，通过简化申报流程、加码补贴资金、扩大补贴范围等方式，各地有望进一步释放汽车消费潜力，刺激国内汽车市场回暖。 据不完全统计，自2026年7月底以来
+- **[活力中国调研行](https://www.ceweekly.cn/economic/auto/2026/0810/498491.html)** — _www.ceweekly.cn_ · date: unknown
+  今年7月份，奇瑞单月出口突破20万辆，成为第一个单月出口破20万辆的中国汽车品牌。这家车企是如何做到的？记者走进位于安徽芜湖的智界超级工厂，寻找答案。 这份亮眼出海成绩背后，是中国制造业的持续变强。国家的工业实力，托举起中国汽车产业的腾飞。汽车产业的突围壮大，又成为国家强盛的生动缩影。面向全球市场，属于中国汽车的时代，值得期待！
+- **[从全国备件总仓到区域服务中心，普洛斯与零跑汽车深化合作](https://www.ceweekly.cn/economic/auto/2026/0807/498427.html)** — _www.ceweekly.cn_ · date: unknown
+  近日，普洛斯两江汽车产业园迎来零跑汽车服务中心正式开业。普洛斯凭借深耕产业的积累，洞悉西南地区新能源汽车产业需求，实现了园区产业定位聚焦优化与软硬件焕新升级。在此基础上，零跑汽车服务中心依托园区高品质空间和专业运营服务，对重庆区域用户服务能力显著提升。该项目落地，进一步增强了园区汽车产业客户集聚效应，是普洛斯领先资产管理运营的体现，也为区域经济活力与产业发展
 - **[从流程简化到资金加码 多地完善汽车消费补贴政策](https://www.chinanews.com.cn/cj/2026/08-10/10674923.shtml)** — _www.chinanews.com.cn_ · published 2026-08-10
   从流程简化到资金加码 多地完善汽车消费补贴政策 济南消费者无需再领取补贴资格、重庆将电动自行车纳入补贴范围、西安二手车也可以享受补贴……记者注意到，近期不少地方正在基于自身特色，进一步完善汽车消费补贴政策。业内专家表示，目前国内汽车消费市场仍然有较大政策发挥空间，通过简化申报流程、加码补贴资金、扩大补贴范围等方式，各地有望进一步释放汽车消费潜力，刺激国内汽车
 - **[消费者告别糊涂买车](https://www.cnr.cn/2013qcpd/2015xc/20260810/t20260810_527755575.shtml)** — _www.cnr.cn_ · published 2026-08-10
@@ -242,6 +277,8 @@ _Updated 2026-08-10 15:15 | discovery-only, zero LLM tokens | runs every 3h_
   “与安徽新能源汽车产业共同成长。”8月3日，在接受“活力中国调研行”记者采访时，国轩高科高级副总裁、工研总院院长周复说的一句话可谓意味深长。 刚刚过去的上半年，安徽省汽车产业再一次交出完美成绩单。今年1月至6月，全省汽车产量168.67万辆、新能源汽车产量88.18万辆，汽车出口量100.6万辆、汽车出口额1043.6亿元，四项均居全国第一。 从去年底拿下汽
 - **[从流程简化到资金加码 多地完善汽车消费补贴政策](https://www.cnr.cn/newscenter/native/gd/20260810/t20260810_527756213.shtml)** — _www.cnr.cn_ · published 2026-08-10
   济南消费者无需再领取补贴资格、重庆将电动自行车纳入补贴范围、西安二手车也可以享受补贴……记者注意到，近期不少地方正在基于自身特色，进一步完善汽车消费补贴政策。业内专家表示，目前国内汽车消费市场仍然有较大政策发挥空间，通过简化申报流程、加码补贴资金、扩大补贴范围等方式，各地有望进一步释放汽车消费潜力，刺激国内汽车市场回暖。 据不完全统计，自2026年7月底以来
+- **[338项重要国家标准发布 涉及智能网联汽车自动驾驶等](https://www.cnr.cn/jingji/ycbd/20260810/t20260810_527756633.shtml)** — _www.cnr.cn_ · published 2026-08-10
+  央广网北京8月10日消息（记者 邵蓝洁）近日，市场监管总局（国家标准委）批准发布338项重要国家标准。其中，强制性国家标准15项，推荐性国家标准323项，涉及高新技术领域、传统产业、安全生产、百姓生活等方面。该批标准发布后将在推动产业高质量发展、提升人民群众生活品质、保障生命财产安全等方面发挥重要作用。 在高新技术领域方面，发布人工智能医疗器械质量要求和评价
 - **[标致2030年前推7款新车，电动版208和2008领衔登场](https://www.d1ev.com/newsflash/309771)** — _www.d1ev.com_ · date: unknown
   近日，标致宣布将根据FaSTLAne战略，在2030年前推出7款新车，并在欧洲市场展开新一轮产品攻势。标致CEO阿兰·法韦透露，换代将从208和2008开始，随后覆盖308、308SW和408所在的紧凑型车市场。全新纯电版208和2008将率先登场，现有燃油及混动车型也会迎来更新。接下来，C级车市场将有3款新车取代308两厢车、308SW旅行车和408。 全
 - **[未来城市开车不超速？地理围栏技术让汽车自动限速](https://www.d1ev.com/newsflash/309770)** — _www.d1ev.com_ · date: unknown
@@ -276,6 +313,16 @@ _Updated 2026-08-10 15:15 | discovery-only, zero LLM tokens | runs every 3h_
   8月10日，奇瑞风云宣布其全新纯电SUV——风云T7将于8月12日开启预售。风云T7定位为“全球品质纯电SUV”，采用家族化设计语言，搭载犀牛 电池，标配续航600km。新车外观采用风云新能源最新一代极简电动化设计，封闭式车身搭配狭长锐利的分体式LED大灯，车身尺寸为4570*1852*1694mm，轴距2700mm，定位紧凑型SUV。侧面溜背式车顶线条，搭
 - **[奇瑞捷途山海L7PLUS升级版8月18日上市，智能驾驶辅助系统焕新登场](https://www.d1ev.com/newsflash/309842)** — _www.d1ev.com_ · date: unknown
   8月10日，奇瑞汽车宣布，全新捷途山海L7PLUS将于8月18日上市。新车将重点升级智能驾驶辅助系统，搭载猎鹰700智能驾驶辅助系统，提升车辆的智能化水平。 在售捷途山海L7PLUS插混SUV于2025年8月上市，搭载1.5T插混动力，共提供6款配置车型，上市指导价11.99万元起。在售车型长宽高分别为4810x1930x1705毫米，轴距为2820毫米。车
+- **[广汽GOVYAirCab飞行汽车高温高原测试成功，开启商业化新征程](https://www.d1ev.com/newsflash/309881)** — _www.d1ev.com_ · date: unknown
+  今日，广汽高域宣布其首款量产型多旋翼飞行汽车GOVYAirCab在甘肃民勤完成了超过3个月的夏季测试。测试期间，该飞行汽车面临高温、高海拔、阵风沙尘等复杂气候条件，试飞架次超过500架，试验科目超过100项。在极端工况下，GOVYAirCab成功进行了多轮超长距离自动航线飞行测试，实现了超30公里长航程的迭代试炼，并在全维度风场适应性测试中展现了优异的机身稳
+- **[2025年纯电车价低于混动！中国制造助力全球市场降价](https://www.d1ev.com/newsflash/309880)** — _www.d1ev.com_ · date: unknown
+  今日，据日经新闻报道，2025年全球 纯电动汽车（EV）的平均价格已低于混合动力车（HV）价格。这一现象的出现，主要得益于电池等零部件价格的下跌，以及中国EV通过大规模生产降低制造成本，并大量流入新兴国家市场。根据美国调查公司MobilityGlobal的数据，2025年销售的EV平均价格约为3.7万美元，较2020年下跌9%；而HV平均价格约为3.9万美元
+- **[日系车混动护城河被中国EV攻破！全球电车均价首次低于混动](https://www.d1ev.com/news/qiye/309879)** — _www.d1ev.com_ · date: unknown
+  快科技8月10日消息，据日本经济新闻报道，美国调查公司Mobility Global汇总数据显示，2025年全球纯电动汽车平均价格约为3.7万美元（约24.96万元人民币），首次低于混合动力车的3.9万美元（约26.32万元人民币）。 这对在混动领域占据优势的日本车企而言，意味着核心护城河正在被中国EV攻破。 数据显示，2025年全球电动汽车均价较2020年
+- **[比亚迪杀入日本腹地！首款k](https://www.d1ev.com/news/qiye/309878)** — _www.d1ev.com_ · date: unknown
+  快科技8月10日消息，据报道，比亚迪日本法人今日宣布，旗下纯电轻型车“海獭”Racco上市仅两周，订单量突破1000辆，刷新比亚迪车型在日本市场的最快订单纪录。 Racco于7月28日正式上市，截至8月9日已获得1002辆订单，提前超过上市两周1000辆的初期目标。比亚迪计划在2026年底前拿下1万辆订单。比亚迪日本法人称“订单进展顺利”。 购车用户调查中显
+- **[斯巴鲁纯电车销量低迷，高额促销反蚀利润](https://www.d1ev.com/newsflash/309876)** — _www.d1ev.com_ · date: unknown
+  近日，斯巴鲁在美国市场扩大了其纯电动车型阵容，从一款增至三款，包括Solterra、Uncharted和Trailseeker。尽管斯巴鲁在每款电动车型上投入的销售激励约为燃油车的三倍，但这一策略并未带来预期的销量增长。今年4月至6月，斯巴鲁每卖出一辆Solterra，平均要拿出9,650美元用于促销；Uncharted和Trailseeker的促销费用也分
 - **[远程新能源商用车第60万台下线](https://www.gelonghui.com/live/2602249)** — _www.gelonghui.com_ · published 2026-08-10
   申请认证 格隆汇公众号矩阵 格隆汇App 下载格隆汇APP 诊股宝App 下载诊股宝App 汇路演App 下载汇路演APP 极调研 加入我们 首页 社区 快讯 事件 深度 主题 专栏 行情 会员 数据 财富圈 文章 更多相关文章 快讯 更多相关快讯 查看全部股票/文章/快讯/事件/用户/财富圈搜索结果 热门股票 搜索历史 清空历史 登录 / 注册 温馨提示
 - **[西菱动力(300733.SZ)：公司汽车零部件业务产销量从整体上看仍然保持稳健增长](https://www.gelonghui.com/news/5282541)** — _www.gelonghui.com_ · date: unknown
@@ -284,12 +331,16 @@ _Updated 2026-08-10 15:15 | discovery-only, zero LLM tokens | runs every 3h_
   首页 > 快讯 > 快讯详情 经销商人士证实：雪佛兰已暂停在华新车销售 格隆汇8月10日｜据一财，近日，雪佛兰退出中国市场话题在业内引发热议。通用中国今日回应称，在中国，凯迪拉克与别克在各自的细分市场中具备良好的竞争优势，能够支持业务的可持续增长；而合资企业旗下的雪佛兰产品线则最契合出口市场需求。通用中国方面强调，雪佛兰产品将继续在中国生产，并积极探索在美国
 - **[崔东树：上半年自主新能源乘用车海外市场份额24%；7月德国纯电新车市场份额逼近30%](https://www.nbd.com.cn/articles/2026-08-09/4536472.html)** — _www.nbd.com.cn_ · published 2026-08-09
   2026-08-10 06:30:05 每经记者｜董天意 实习生 刘家怡 每经编辑｜余婷婷 | 2026年8月10日 星期一 | NO.1 崔东树：上半年自主新能源乘用车海外市场份额24% 8月9日，中国汽车流通协会乘联分会负责人崔东树发文称，2026年1至6月，自主新能源乘用车海外市场销量份额为24%，较2025年同期提升10个百分点，增长主要贡献是欧盟市
+- **[上半年出口 6930 辆！通用汽车回应雪佛兰停售传闻：持续在华生产，探索美以外海外市场](https://www.nbd.com.cn/articles/2026-08-10/4537397.html)** — _www.nbd.com.cn_ · published 2026-08-10
+  2026-08-10 17:41:21 每经记者｜黄辛旭 每经编辑｜裴健如 近期，“雪佛兰在中国市场停售”话题持续引发热议。 8月10日，通用汽车中国方面向《每日经济新闻》记者表示：“我们的合资企业将继续在中国生产雪佛兰产品，并积极探索在美国以外的海外市场的机遇。” 根据公开资料，自2005年雪佛兰由上汽通用正式引入中国进行国产销售至今已有20余年。早期，赛
 - **[从流程简化到资金加码 多地完善汽车消费补贴政策](https://www.news.cn/fortune/20260810/f0b13096c61b40a99b731ebd8a7d9e91/c.html)** — _www.news.cn_ · published 2026-08-10
   济南消费者无需再领取补贴资格、重庆将电动自行车纳入补贴范围、西安二手车也可以享受补贴……记者注意到，近期不少地方正在基于自身特色，进一步完善汽车消费补贴政策。业内专家表示，目前国内汽车消费市场仍然有较大政策发挥空间，通过简化申报流程、加码补贴资金、扩大补贴范围等方式，各地有望进一步释放汽车消费潜力，刺激国内汽车市场回暖。 据不完全统计，自2026年7月底以来
 - **[从上汽集团与通用汽车续约谈起](https://www.news.cn/fortune/20260810/8b191635fc34430c96e2f40d4b5854dc/c.html)** — _www.news.cn_ · published 2026-08-10
   能够在中国市场闯出来的产品、技术和团队，放到全球任何市场，都具备强大的竞争力 上汽集团与通用汽车近日续约20年，通用汽车成为又一家选择“长期绑定”中国市场的跨国车企。此前，广汽集团与本田汽车也已签署合资续约协议。在销量下滑、市场份额萎缩的背景下，续约的原因值得思考。 数据显示，广汽本田年销量从超80万辆降至约35万辆，降幅达56%；上汽通用在华销量从200多
 - **[上汽集团与通用汽车签署合资续约协议 合资期限延长20年至2047年](https://www.news.cn/auto/20260810/8966db33b1d74e619c3984deea3774ad/c.html)** — _www.news.cn_ · published 2026-08-10
   2026年8月5日 ，“共赴新境——上汽通用汽车合资续约签约仪式”在上海世界会客厅举行。上汽集团与通用汽车正式签署合资续约协议，将上汽通用汽车合资期限延长20年至2047年。双方表示，此次合作续约是基于近30年成功合作的基础，在全球汽车产业深刻变革背景下，上汽集团和通用汽车对中国汽车市场长期价值以及对上汽通用汽车转型能力和发展前景投下的一张信心票。双方股东将
+- **[通讯丨中国自动驾驶出租车“驶入”阿联酋](https://www.news.cn/20260810/f6bca91ad57c44e0a7c1b96f35d733bc/c.html)** — _www.news.cn_ · published 2026-08-10
+  这是7月31日在阿联酋迪拜街头拍摄的“萝卜快跑”无人驾驶出租车。新华社记者 温新年 摄 新华社迪拜8月10日电 通讯｜中国自动驾驶出租车“驶入”阿联酋 新华社记者夏晓 温新年 8月的阿联酋迪拜，中午室外气温接近50摄氏度。记者在迪拜的朱迈拉海滨打开“萝卜快跑”手机应用，不到两分钟，一辆黑色汽车缓缓停靠路边。没有驾驶员，也没有方向盘。手机解锁车门，凉意扑面而来
 - **[从流程简化到资金加码 多地完善汽车消费补贴政策](https://www.stcn.com/article/detail/4066400.html)** — _www.stcn.com_ · date: unknown
   济南消费者无需再领取补贴资格、重庆将电动自行车纳入补贴范围、西安二手车也可以享受补贴……记者注意到，近期不少地方正在基于自身特色，进一步完善汽车消费补贴政策。业内专家表示，目前国内汽车消费市场仍然有较大政策发挥空间，通过简化申报流程、加码补贴资金、扩大补贴范围等方式，各地有望进一步释放汽车消费潜力，刺激国内汽车市场回暖。 据不完全统计，自2026年7月底以来
 - **[上汽集团与通用汽车签署合资续约协议 合资期限延长20年至2047年](https://www.xinhuanet.com/auto/20260810/8966db33b1d74e619c3984deea3774ad/c.html)** — _www.xinhuanet.com_ · published 2026-08-10
