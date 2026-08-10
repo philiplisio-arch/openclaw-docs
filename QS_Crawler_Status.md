@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-08-10 21:12 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-08-11 00:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-08-10 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **6813 unique auto/NEV articles** across **60 outlets**
+## Cumulative: **6819 unique auto/NEV articles** across **60 outlets**
 
 ## New per day
 | date | new articles |
@@ -74,28 +74,29 @@ _Updated 2026-08-10 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-08-08 | 65 |
 | 2026-08-09 | 44 |
 | 2026-08-10 | 126 |
+| 2026-08-11 | 6 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.d1ev.com | 1446 |
+| www.d1ev.com | 1447 |
 | www.dongchedi.com | 1088 |
 | vc.yiche.com | 631 |
-| auto.gasgoo.com | 477 |
+| auto.gasgoo.com | 478 |
 | 36kr.com | 309 |
-| www.stcn.com | 286 |
+| www.stcn.com | 287 |
 | www.cnr.cn | 245 |
 | autodata.gasgoo.com | 220 |
 | www.caam.org.cn | 211 |
-| news.yiche.com | 206 |
-| egs.stcn.com | 198 |
+| news.yiche.com | 207 |
+| egs.stcn.com | 199 |
 | www.nbd.com.cn | 185 |
 | www.news.cn | 140 |
 | m.21jingji.com | 134 |
 | www.cada.cn | 116 |
 | www.yicai.com | 115 |
 | www.gelonghui.com | 104 |
-| auto.caijing.com.cn | 86 |
+| auto.caijing.com.cn | 87 |
 | www.zqrb.cn | 74 |
 | finance.eastmoney.com | 58 |
 | finance.people.com.cn | 48 |
@@ -140,6 +141,19 @@ _Updated 2026-08-10 21:12 | discovery-only, zero LLM tokens | runs every 3h_
 | culture.gmw.cn | 1 |
 
 ## Articles captured by day (newest first)
+
+### 2026-08-11 — 6 articles
+- **[阿维塔07L入局大五座家庭市场 将助推品牌月销重回万辆](https://auto.caijing.com.cn/2026/0810/5176299.shtml)** — _auto.caijing.com.cn_ · date: unknown
+  8月8日，阿维塔科技在杭州上市全新大五座SUV阿维塔07L，进一步补强产品矩阵。在上市后的群访中，阿维塔总裁陈卓表示，基于产品力的持续打磨，有信心推动品牌重返月销万台规模。与此同时，公司披露了渠道扩张、出海时间表及后续旗舰车型规划，在行业淘汰赛中逆势加码。 双车覆盖大五座市场，阿维塔07L锚定家庭多场景 按照阿维塔科技副总裁孙百功的划分，阿维塔07与07L在
+- **[阿维塔07L正式上市，成为首批搭载华为乾崑智驾ADS 5车型](https://auto.gasgoo.com/news/202608/10I70469043C501.shtml)** — _auto.gasgoo.com_ · date: unknown
+  8月8日，长安阿维塔旗下中大型豪华纯电SUV——阿维塔07L于杭州正式上市。 新车定位“智美大五座豪华SUV”，共推出Elite纯电版、Max+纯电版和Ultra三电机纯电版三款车型，官方指导价22.99万元至27.99万元，限时权益价为21.99万元至26.99万元。 图片来源：阿维塔 作为本次上市的核心亮点，阿维塔07L成为首批搭载华为乾崑智驾ADS 5
+- **[多家两轮车企发布半年报 九号公司上半年两轮车销量同比增长19%](https://egs.stcn.com/news/detail/2325248.html)** — _egs.stcn.com_ · date: unknown
+  8月10日晚间，九号公司(689009)发布2026年半年报，上半年公司实现营业收入143.57亿元，同比增长22.28%；归母净利润10.08亿元，同比下降18.79%，经营活动产生的现金流量净额为19.67亿元。本报告期，公司营业收入同比增长，销售规模进一步扩大。汇率波动导致本期产生汇兑损失，上年同期为汇兑收益，公司利润同比回落。 拆解来看，电动两轮车业
+- **[方程S系列首搭比亚迪智慧生态2.0](https://news.yiche.com/xinchexiaoxi/20260810/21112178714.html)** — _news.yiche.com_ · date: unknown
+- **[杰兰路2026上半年新能源售后服务能力排名：蔚来公司第一](https://www.d1ev.com/news/qiye/309913)** — _www.d1ev.com_ · date: unknown
+  【TechWeb】8月10日消息，研究机构杰兰路公布《2026年度上半年新能源汽车品牌售后服务能力研究》。蔚来公司总分较上期提升0.25分，而行业整体平均得分较上期回落1.41分。在“回店体验”和“渠道认可度”两个子板块上，蔚来得分继续小幅爬升。 榜单显示，新能源售后市场的头部阵营已趋于固化，早期布局者积累的服务网络和运营经验形成一定竞争壁垒。蔚来、乐道、f
+- **[多家两轮车企发布半年报 九号公司上半年两轮车销量同比增长19%](https://www.stcn.com/article/detail/4068036.html)** — _www.stcn.com_ · date: unknown
+  8月10日晚间，九号公司(689009)发布2026年半年报，上半年公司实现营业收入143.57亿元，同比增长22.28%；归母净利润10.08亿元，同比下降18.79%，经营活动产生的现金流量净额为19.67亿元。本报告期，公司营业收入同比增长，销售规模进一步扩大。汇率波动导致本期产生汇兑损失，上年同期为汇兑收益，公司利润同比回落。 拆解来看，电动两轮车业
 
 ### 2026-08-10 — 126 articles
 - **[新能源汽车充电将全面升级](https://auto.ce.cn/auto/gundong/202608/t20260810_3139260.shtml)** — _auto.ce.cn_ · published 2026-08-10
