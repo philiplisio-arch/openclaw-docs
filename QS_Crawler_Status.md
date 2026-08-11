@@ -1,6 +1,6 @@
 # QS Week Crawler — Live Status
 
-_Updated 2026-08-11 06:11 | discovery-only, zero LLM tokens | runs every 3h_
+_Updated 2026-08-11 09:12 | discovery-only, zero LLM tokens | runs every 3h_
 
 > ## 🔍 Search Criteria
 > **Method:** direct crawl of each outlet's section/listing pages (NOT search-engine results)  
@@ -12,7 +12,7 @@ _Updated 2026-08-11 06:11 | discovery-only, zero LLM tokens | runs every 3h_
 > 汽车 (auto) · 车型 (model) · 车企 (automaker) · 整车 (vehicle) · 乘用车 (passenger veh) · 商用车 (commercial veh) · 电动车 (EV) · 燃油车 (ICE) · 电动汽车 · 新能源车 · 新车 (new model) · 车展 (auto show) · 车市 · 车载 · 比亚迪 (BYD) · 蔚来 (NIO) · 理想汽车 (Li Auto) · 小鹏 (XPeng) · 吉利 (Geely) · 长安汽车 (Changan) · 奇瑞 (Chery) · 埃安 (AION) · 雷克萨斯 (Lexus) · 丰田 (Toyota) · 混动 (hybrid) · 纯电 (BEV) · 智能驾驶 (autonomous driving) · 自动驾驶 · 充电桩 · 新能源 (NEV) · 电池 (battery) · 出口 (export) · 充电 (charging) · 氢能 (hydrogen) · 续航 (range)  
 > **Excluded:** encyclopedias, off-topic (bicycles/trains), stale archives, homepages/hubs
 
-## Cumulative: **6821 unique auto/NEV articles** across **60 outlets**
+## Cumulative: **6833 unique auto/NEV articles** across **60 outlets**
 
 ## New per day
 | date | new articles |
@@ -74,24 +74,24 @@ _Updated 2026-08-11 06:11 | discovery-only, zero LLM tokens | runs every 3h_
 | 2026-08-08 | 65 |
 | 2026-08-09 | 44 |
 | 2026-08-10 | 126 |
-| 2026-08-11 | 8 |
+| 2026-08-11 | 20 |
 
 ## By outlet
 | outlet | articles |
 |---|---|
-| www.d1ev.com | 1448 |
+| www.d1ev.com | 1449 |
 | www.dongchedi.com | 1088 |
-| vc.yiche.com | 632 |
-| auto.gasgoo.com | 478 |
+| vc.yiche.com | 634 |
+| auto.gasgoo.com | 479 |
 | 36kr.com | 309 |
 | www.stcn.com | 287 |
-| www.cnr.cn | 245 |
+| www.cnr.cn | 249 |
 | autodata.gasgoo.com | 220 |
 | www.caam.org.cn | 211 |
 | news.yiche.com | 207 |
-| egs.stcn.com | 199 |
-| www.nbd.com.cn | 185 |
-| www.news.cn | 140 |
+| egs.stcn.com | 200 |
+| www.nbd.com.cn | 186 |
+| www.news.cn | 141 |
 | m.21jingji.com | 134 |
 | www.cada.cn | 116 |
 | www.yicai.com | 115 |
@@ -105,8 +105,8 @@ _Updated 2026-08-11 06:11 | discovery-only, zero LLM tokens | runs every 3h_
 | www.chinanews.com.cn | 43 |
 | cn.chinadaily.com.cn | 32 |
 | auto.ce.cn | 31 |
+| qzs.stcn.com | 30 |
 | m.ce.cn | 30 |
-| qzs.stcn.com | 29 |
 | www.ceweekly.cn | 23 |
 | www.ce.cn | 22 |
 | cv.ce.cn | 20 |
@@ -142,20 +142,43 @@ _Updated 2026-08-11 06:11 | discovery-only, zero LLM tokens | runs every 3h_
 
 ## Articles captured by day (newest first)
 
-### 2026-08-11 — 8 articles
+### 2026-08-11 — 20 articles
 - **[阿维塔07L入局大五座家庭市场 将助推品牌月销重回万辆](https://auto.caijing.com.cn/2026/0810/5176299.shtml)** — _auto.caijing.com.cn_ · date: unknown
   8月8日，阿维塔科技在杭州上市全新大五座SUV阿维塔07L，进一步补强产品矩阵。在上市后的群访中，阿维塔总裁陈卓表示，基于产品力的持续打磨，有信心推动品牌重返月销万台规模。与此同时，公司披露了渠道扩张、出海时间表及后续旗舰车型规划，在行业淘汰赛中逆势加码。 双车覆盖大五座市场，阿维塔07L锚定家庭多场景 按照阿维塔科技副总裁孙百功的划分，阿维塔07与07L在
 - **[阿维塔07L正式上市，成为首批搭载华为乾崑智驾ADS 5车型](https://auto.gasgoo.com/news/202608/10I70469043C501.shtml)** — _auto.gasgoo.com_ · date: unknown
   8月8日，长安阿维塔旗下中大型豪华纯电SUV——阿维塔07L于杭州正式上市。 新车定位“智美大五座豪华SUV”，共推出Elite纯电版、Max+纯电版和Ultra三电机纯电版三款车型，官方指导价22.99万元至27.99万元，限时权益价为21.99万元至26.99万元。 图片来源：阿维塔 作为本次上市的核心亮点，阿维塔07L成为首批搭载华为乾崑智驾ADS 5
+- **[台风天必看！近百款新能源车涉水能力盘点，最深的可涉水1米？](https://auto.gasgoo.com/news/202608/11I70469079C108.shtml)** — _auto.gasgoo.com_ · date: unknown
 - **[多家两轮车企发布半年报 九号公司上半年两轮车销量同比增长19%](https://egs.stcn.com/news/detail/2325248.html)** — _egs.stcn.com_ · date: unknown
   8月10日晚间，九号公司(689009)发布2026年半年报，上半年公司实现营业收入143.57亿元，同比增长22.28%；归母净利润10.08亿元，同比下降18.79%，经营活动产生的现金流量净额为19.67亿元。本报告期，公司营业收入同比增长，销售规模进一步扩大。汇率波动导致本期产生汇兑损失，上年同期为汇兑收益，公司利润同比回落。 拆解来看，电动两轮车业
+- **[华宏科技：目前暂未从事新能源汽车废旧电池拆解业务](https://egs.stcn.com/news/detail/2325324.html)** — _egs.stcn.com_ · date: unknown
+  人民财讯8月11日电，华宏科技(002645)8月11日在互动平台表示，公司目前暂未从事新能源汽车废旧电池拆解业务。但公司将持续关注该行业的发展动态与政策导向，并结合公司整体战略规划与实际经营需要，决定后续是否开展相关业务。
 - **[方程S系列首搭比亚迪智慧生态2.0](https://news.yiche.com/xinchexiaoxi/20260810/21112178714.html)** — _news.yiche.com_ · date: unknown
+- **[华宏科技：目前暂未从事新能源汽车废旧电池拆解业务](https://qzs.stcn.com/article/detail/623244.html)** — _qzs.stcn.com_ · date: unknown
+  人民财讯8月11日电，华宏科技(002645)8月11日在互动平台表示，公司目前暂未从事新能源汽车废旧电池拆解业务。但公司将持续关注该行业的发展动态与政策导向，并结合公司整体战略规划与实际经营需要，决定后续是否开展相关业务。
 - **[蔚来ET5T智驾体验，乐道车主直呼好](https://vc.yiche.com/vplay/12545983.html)** — _vc.yiche.com_ · date: unknown
   易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 29.80-31.30万 蔚来冠军版怎么来的？得回FE方程式比赛看看 清田野yoyo 汽车博主和户外博主互换职业8小时，我能赢吗？ 盛嘉成 蔚来李斌，重庆汽车论坛20260
+- **[挑战北京多种路况 奔驰纯电GLC的驾驶辅助究竟好不好用？](https://vc.yiche.com/vplay/12552416.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 33.98-51.80万 L3 架构四激光雷达 + 后轮转向，岚图泰山有多能打？ 驭电客 预算35万看豪华SUV，奔驰纯电GLC鎏金版来了 一同选车 少女心爆棚，甲壳虫大集
+- **[银河战舰700太猛！2.0T+三电机，性能数据燃油车不敢想？](https://vc.yiche.com/vplay/12548321.html)** — _vc.yiche.com_ · date: unknown
+  易车app 易车小程序 推荐您访问易车国际站 Visit the BitAuto International website for more exciting content 收藏成功 未上市 国产新能源GT车型是否纯正？这一价位段是否极具吸引力？深入体验领克07GT 柔美的雪貂1409 全网争议尘埃落定！银河战舰700满载复刻尼三锅挑战成功 一起去SUV
+- **[600款新车背后：车市进入尾部出清周期](https://www.cnr.cn/2013qcpd/2015xc/20260811/t20260811_527757104.shtml)** — _www.cnr.cn_ · published 2026-08-11
+  据统计，今年1-6月，国内上市新车数量超600款（含年度小改、配置衍生、限量特供车等全口径统计），平均每月超100款，平均每天至少有3款新车上市。 然而上半年，全市场累计卖出个位数的车型竟有60款左右，部分车型单月上牌量仅1-3辆，如神龙富康ES600上半年累计仅3辆、启辰D60 EV多次月度上牌仅1辆，长期处于市场边缘。 海量新车扎堆投放与大量车型滞销形成
+- **[首部L3、L4级自动驾驶强制国标发布](https://www.cnr.cn/2013qcpd/2015xc/20260811/t20260811_527757103.shtml)** — _www.cnr.cn_ · published 2026-08-11
+  8月4日，记者获悉，《智能网联汽车 自动驾驶系统安全要求》（GB 44721—2026）强制性国家标准近日由国家市场监督管理总局、国家标准化管理委员会批准发布，拟于2027年7月1日起正式实施。据了解，该标准适用于搭载L3级、L4级（高度自动驾驶）系统的M类和N类车辆，不适用于自动泊车系统。 工业和信息化部装备工业一司相关负责人表示，一方面，该标准健全了企业
+- **[未来五年，新能源汽车将实现“用车创收”](https://www.cnr.cn/2013qcpd/2015xc/20260811/t20260811_527757102.shtml)** — _www.cnr.cn_ · published 2026-08-11
+  国家发展改革委、国家能源局日前发布《新型电力系统建设“十五五”规划》。未来五年，这张越来越“绿”的电网，将怎样改变我们的日常出行和生活成本？北京日报客户端记者专访了电力行业规划研究与监测预警中心综合战略规划研究所所长王雪松。 规划明确，到2030年，非化石能源发电量占比要达到50%，意味着风光等绿电将撑起“半边天”。王雪松指出，这不仅是减排承诺，更是从根源上
+- **[中国车企“出海”保持高增长](https://www.cnr.cn/2013qcpd/2015xc/20260811/t20260811_527757101.shtml)** — _www.cnr.cn_ · published 2026-08-11
+  中国车企“出海”维持强劲势头。根据车企最新披露的销量数据，7月份多家车企在海外取得同比两位数甚至三位数的销量增长。 龙头企业比亚迪股份有限公司（以下简称“比亚迪”）7月份销售新能源汽车41.92万辆，其中海外销量达18.05万辆，同比增速超过120%，再创历史新高。从占比看，比亚迪新能源汽车海外销量占比达43.07%，已成为销量的关键支撑。 吉利汽车控股有限
 - **[杰兰路2026上半年新能源售后服务能力排名：蔚来公司第一](https://www.d1ev.com/news/qiye/309913)** — _www.d1ev.com_ · date: unknown
   【TechWeb】8月10日消息，研究机构杰兰路公布《2026年度上半年新能源汽车品牌售后服务能力研究》。蔚来公司总分较上期提升0.25分，而行业整体平均得分较上期回落1.41分。在“回店体验”和“渠道认可度”两个子板块上，蔚来得分继续小幅爬升。 榜单显示，新能源售后市场的头部阵营已趋于固化，早期布局者积累的服务网络和运营经验形成一定竞争壁垒。蔚来、乐道、f
 - **[中国车企横扫英国市场，日系车市占率急剧下滑](https://www.d1ev.com/newsflash/309921)** — _www.d1ev.com_ · published 2026-08-06
   2026年8月6日，英国汽车制造商与贸易商协会（SMMT）发布的数据显示，中国车企在英国市场表现强劲，7月销量前十车型中有三席被中国车企占据。奇瑞旗下JAECOO7、JAECOO5以及上汽名爵MGHS三款车合计销量达7893辆，市场份额超5%。2026年上半年，中国新能源汽车在英国销量达18.3万辆，同比增长超110%，市场份额升至16.1%，超过日系和韩系
+- **[台风天必看！近百款新能源车涉水能力盘点，最深的可涉水1米？](https://www.d1ev.com/news/shichang/309929)** — _www.d1ev.com_ · date: unknown
+  台风“白海豚”来了。 如果你在浙江或者上海，这两天应该已经切身感受到了。 朋友圈里不是在晒“海景房”，就是在转发各种车辆泡水“趴窝”的视频。 而在这些抛锚的车辆里，燃油车似乎格外常见。 毕竟，燃油车天生怕水。发动机一旦进水，轻则熄火，重则直接“顶缸”。 反倒是新能源车主，在这种时候显得淡定了不少。 毕竟电动车没有传统燃油发动机，也不存在进气系统吸水导致发动机
+- **[7月我国汽车经销商库存系数为1.48；通用汽车中国：雪佛兰未来将继续在中国生产丨汽车早参](https://www.nbd.com.cn/articles/2026-08-10/4537524.html)** — _www.nbd.com.cn_ · published 2026-08-10
+  2026-08-11 07:00:04 每经记者｜裴健如 每经编辑｜余婷婷 NO.1 7月我国汽车经销商库存系数为1.48 8月10日，中国汽车流通协会发布的2026年7月“汽车经销商库存”调查结果显示，7月我国汽车经销商综合库存系数为1.48，环比下降6.3%，同比上升9.6%。7月全国乘用车市场零售150.6万辆，以此测算，7月末汽车经销商库存总量约22
+- **[通讯｜中国自动驾驶出租车“驶入”阿联酋-新华网](https://www.news.cn/tech/20260811/cb66934806c7444a961f5512c9aaedbb/c.html)** — _www.news.cn_ · published 2026-08-11
+  新华社迪拜8月10日电 通讯｜中国自动驾驶出租车“驶入”阿联酋 新华社记者夏晓 温新年 8月的阿联酋迪拜，中午室外气温接近50摄氏度。记者在迪拜的朱迈拉海滨打开“萝卜快跑”手机应用，不到两分钟，一辆黑色汽车缓缓停靠路边。没有驾驶员，也没有方向盘。手机解锁车门，凉意扑面而来，车内宽敞整洁，语音提示“请系好安全带”后，车辆平稳起步。 汽车沿着海滨路驰骋，车窗外，
 - **[多家两轮车企发布半年报 九号公司上半年两轮车销量同比增长19%](https://www.stcn.com/article/detail/4068036.html)** — _www.stcn.com_ · date: unknown
   8月10日晚间，九号公司(689009)发布2026年半年报，上半年公司实现营业收入143.57亿元，同比增长22.28%；归母净利润10.08亿元，同比下降18.79%，经营活动产生的现金流量净额为19.67亿元。本报告期，公司营业收入同比增长，销售规模进一步扩大。汇率波动导致本期产生汇兑损失，上年同期为汇兑收益，公司利润同比回落。 拆解来看，电动两轮车业
 
