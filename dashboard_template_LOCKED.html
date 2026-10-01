@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OpenClaw — Project Dashboard</title>
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f4f5f7; color: #1a1a2e; font-size: 13px; line-height: 1.5; }
+
+  /* Header */
+  .header { background: #1a1a2e; color: #fff; padding: 14px 20px; display: flex; align-items: center; justify-content: space-between; }
+  .header h1 { font-size: 16px; font-weight: 700; letter-spacing: 0.5px; }
+  .header-meta { font-size: 11px; color: #8892a4; text-align: right; }
+  .phase-badge { background: #2563eb; color: #fff; font-size: 10px; font-weight: 700; padding: 2px 8px; border-radius: 10px; letter-spacing: 0.5px; margin-left: 10px; }
+
+  /* Layout */
+  .main { padding: 16px; display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px; }
+  .full-width { grid-column: 1 / -1; }
+  .two-col { grid-column: span 2; }
+
+  /* Cards */
+  .card { background: #fff; border-radius: 8px; border: 1px solid #e2e6ea; overflow: hidden; }
+  .card-header { padding: 10px 14px; border-bottom: 1px solid #e2e6ea; display: flex; align-items: center; justify-content: space-between; }
+  .card-title { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.7px; color: #5a6270; }
+  .card-body { padding: 12px 14px; }
+
+  /* Status badges */
+  .badge { display: inline-block; font-size: 10px; font-weight: 700; padding: 2px 7px; border-radius: 9px; letter-spacing: 0.3px; }
+  .badge-green  { background: #d1fae5; color: #065f46; }
+  .badge-yellow { background: #fef9c3; color: #854d0e; }
+  .badge-red    { background: #fee2e2; color: #991b1b; }
+  .badge-blue   { background: #dbeafe; color: #1e40af; }
+  .badge-grey   { background: #f1f3f5; color: #5a6270; }
+  .badge-orange { background: #ffedd5; color: #9a3412; }
+
+  /* Gate streak */
+  .streak-row { display: flex; align-items: center; gap: 6px; margin-bottom: 10px; }
+  .streak-pip { width: 22px; height: 22px; border-radius: 50%; border: 2px solid #e2e6ea; background: #f4f5f7; display: flex; align-items: center; justify-content: center; font-size: 9px; font-weight: 700; color: #c0c7d0; }
+  .streak-pip.done { background: #d1fae5; border-color: #6ee7b7; color: #065f46; }
+  .streak-pip.held { background: #fef9c3; border-color: #fcd34d; color: #854d0e; }
+  .streak-label { font-size: 11px; color: #5a6270; }
+
+  /* Delivery history */
+  .delivery-row { display: flex; align-items: flex-start; gap: 10px; padding: 8px 0; border-bottom: 1px solid #f1f3f5; }
+  .delivery-row:last-child { border-bottom: none; }
+  .delivery-date { font-size: 11px; color: #5a6270; min-width: 70px; }
+  .delivery-detail { flex: 1; }
+  .delivery-title { font-size: 12px; font-weight: 600; margin-bottom: 2px; }
+  .delivery-meta { font-size: 11px; color: #5a6270; }
+
+  /* Workstream cards */
+  .ws-number { font-size: 10px; font-weight: 700; color: #8892a4; }
+  .ws-name { font-size: 13px; font-weight: 700; margin: 2px 0 6px; }
+  .ws-stat { display: flex; justify-content: space-between; font-size: 11px; padding: 3px 0; border-bottom: 1px solid #f1f3f5; }
+  .ws-stat:last-child { border-bottom: none; }
+  .ws-stat-label { color: #5a6270; }
+  .ws-stat-value { font-weight: 600; }
+  .ws-blocker { background: #fff7ed; border: 1px solid #fed7aa; border-radius: 5px; padding: 6px 9px; margin-top: 8px; font-size: 11px; color: #9a3412; }
+  .ws-blocker strong { display: block; margin-bottom: 2px; font-size: 10px; text-transform: uppercase; letter-spacing: 0.3px; }
+
+  /* Tables */
+  table { width: 100%; border-collapse: collapse; }
+  th { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; color: #8892a4; padding: 6px 8px; text-align: left; border-bottom: 1px solid #e2e6ea; background: #f8f9fb; }
+  td { padding: 7px 8px; border-bottom: 1px solid #f1f3f5; font-size: 12px; vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  .issue-id { font-family: monospace; font-size: 11px; font-weight: 700; color: #5a6270; }
+  .cp-id { font-family: monospace; font-size: 11px; font-weight: 700; }
+
+  /* Next actions */
+  .action-item { display: flex; gap: 10px; padding: 7px 0; border-bottom: 1px solid #f1f3f5; align-items: flex-start; }
+  .action-item:last-child { border-bottom: none; }
+  .action-num { font-size: 11px; font-weight: 700; color: #2563eb; min-width: 18px; }
+  .action-ws { font-size: 10px; font-weight: 700; color: #8892a4; text-transform: uppercase; letter-spacing: 0.3px; min-width: 30px; margin-top: 1px; }
+  .action-text { font-size: 12px; flex: 1; }
+  .action-text .sub { font-size: 11px; color: #5a6270; margin-top: 1px; }
+
+  /* Footer */
+  .footer { text-align: center; padding: 12px; font-size: 11px; color: #8892a4; border-top: 1px solid #e2e6ea; background: #fff; margin-top: 4px; }
+
+  /* Progress bar */
+  .progress-bar { background: #e2e6ea; border-radius: 4px; height: 6px; margin: 6px 0; overflow: hidden; }
+  .progress-fill { height: 100%; border-radius: 4px; background: #2563eb; }
+
+  /* Section divider */
+  .section-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.7px; color: #8892a4; padding: 14px 16px 4px; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div style="display:flex;align-items:center;">
+    <h1>OPENCLAW</h1>
+    <span class="phase-badge">PHASE D — CONTROLLED PILOT</span>
+  </div>
+  <div class="header-meta">
+    Last updated: 2026-05-22<br>
+    Gate streak: <strong style="color:#fcd34d">0 / 10</strong> clean external deliveries
+  </div>
+</div>
+
+<!-- WORKSTREAMS -->
+<div class="section-label">Workstreams</div>
+<div class="main">
+
+  <!-- WS1 -->
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">WS1 — Daily China Monitor</span>
+      <span class="badge badge-green">ACTIVE</span>
+    </div>
+    <div class="card-body">
+      <div class="ws-number">WORKSTREAM 1</div>
+      <div class="ws-name">china_monitor_001</div>
+      <div class="ws-stat"><span class="ws-stat-label">Cadence</span><span class="ws-stat-value">Daily — 06:30 CST cron</span></div>
+      <div class="ws-stat"><span class="ws-stat-label">Pilot mode</span><span class="ws-stat-value">Operator review each delivery</span></div>
+      <div class="ws-stat"><span class="ws-stat-label">Last delivery</span><span class="ws-stat-value">2026-05-22 — CLEAN / HELD</span></div>
+      <div class="ws-stat"><span class="ws-stat-label">Validator</span><span class="ws-stat-value">GREEN 25/25/0</span></div>
+      <div class="ws-stat"><span class="ws-stat-label">Retrieval</span><span class="ws-stat-value">Brave + Baidu</span></div>
+      <div class="ws-stat"><span class="ws-stat-label">Brain Lite</span><span class="ws-stat-value">Active — brain_context=true</span></div>
+      <div style="margin-top:10px;">
+        <div style="font-size:11px;color:#5a6270;margin-bottom:4px;">Gate streak — 0 of 10 clean external deliveries</div>
+        <div class="streak-row">
+          <div class="streak-pip held" title="Delivery 1 — degraded">H</div>
+          <div class="streak-pip held" title="Delivery 2 — held operator decision">H</div>
+          <div class="streak-pip">3</div><div class="streak-pip">4</div><div class="streak-pip">5</div>
+          <div class="streak-pip">6</div><div class="streak-pip">7</div><div class="streak-pip">8</div>
+          <div class="streak-pip">9</div><div class="streak-pip">10</div>
+        </div>
+        <div style="font-size:10px;color:#8892a4;margin-top:4px;">H = held (not counted) &nbsp;·&nbsp; filled = clean external delivery</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- WS2 -->
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">WS2 — ALJ China Auto Weekly</span>
+      <span class="badge badge-orange">BLOCKED</span>
+    </div>
+    <div class="card-body">
+      <div class="ws-number">WORKSTREAM 2</div>
+      <div class="ws-name">alj_china_auto_001</div>
+      <div class="ws-stat"><span class="ws-stat-label">Cadence</span><span class="ws-stat-value">Weekly — manual trigger</span></div>
+      <div class="ws-stat"><span class="ws-stat-label">Pilot mode</span><span class="ws-stat-value">true — all output held</span></div>
+      <div class="ws-stat"><span class="ws-stat-label">Retrieval</span><span class="ws-stat-value">Baidu only</span></div>
+      <div class="ws-stat"><span class="ws-stat-label">Source filter</span><span class="ws-stat-value">Chinese / China-market only</span></div>
+      <div class="ws-stat"><span class="ws-stat-label">Pilot runs</span><span class="ws-stat-value">0 of 3 target</span></div>
+      <div class="ws-stat"><span class="ws-stat-label">Client config</span><span class="ws-stat-value badge badge-green" style="font-size:10px;">DRAFTED ✓</span></div>
+      <div class="ws-stat"><span class="ws-stat-label">Query templates</span><span class="ws-stat-value badge badge-green" style="font-size:10px;">DRAFTED ✓</span></div>
+      <div class="ws-stat"><span class="ws-stat-label">Product spec</span><span class="ws-stat-value badge badge-green" style="font-size:10px;">DRAFTED ✓</span></div>
+      <div class="ws-blocker">
+        <strong>⛔ Blocked on</strong>
+        CP-006 approval + Claude Code implementation (Baidu-only retrieval). Also: Issue #49 fix + ARTIFACTNAMESPACE typo fix before first run.
+      </div>
+    </div>
+  </div>
+
+  <!-- WS3 -->
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">WS3 — Browser Retrieval</span>
+      <span class="badge badge-grey">PAUSED</span>
+    </div>
+    <div class="card-body">
+      <div class="ws-number">WORKSTREAM 3</div>
+      <div class="ws-name">Browser Retrieval Research Track</div>
+      <div class="ws-stat"><span class="ws-stat-label">Phase 1</span><span class="ws-stat-value">COMPLETE — ADV-013 filed</span></div>
+      <div class="ws-stat"><span class="ws-stat-label">Phase 2</span><span class="ws-stat-value">NOT AUTHORIZED</span></div>
+      <div class="ws-stat"><span class="ws-stat-label">Western sources</span><span class="ws-stat-value">✓ Retrievable</span></div>
+      <div class="ws-stat"><span class="ws-stat-label">Chinese sources</span><span class="ws-stat-value">✓ Retrievable (Sina Finance)</span></div>
+      <div class="ws-stat"><span class="ws-stat-label">Hard paywalls</span><span class="ws-stat-value">✓ Correctly blocked</span></div>
+      <div class="ws-stat"><span class="ws-stat-label">Soft paywalls</span><span class="ws-stat-value">⚠ Untested</span></div>
+      <div class="ws-blocker" style="background:#f0f9ff;border-color:#bae6fd;color:#0c4a6e;">
+        <strong>⏸ Hold condition</strong>
+        Resume only after ALJ Pilot Output #2–3. Restart gate: snippet limitations documented + appendix working + operator approval.
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- DELIVERY HISTORY -->
+<div class="section-label">Phase D Delivery History</div>
+<div class="main" style="padding-top:0;">
+  <div class="card two-col">
+    <div class="card-header"><span class="card-title">WS1 Deliveries</span><span class="badge badge-grey">0/10 gate streak</span></div>
+    <div class="card-body">
+      <div class="delivery-row">
+        <div class="delivery-date">2026-05-22<br><span style="font-size:10px;color:#8892a4;">06:32 CST</span></div>
+        <div class="delivery-detail">
+          <div class="delivery-title">Delivery 2 — CLEAN <span class="badge badge-yellow">HELD — operator decision</span></div>
+          <div class="delivery-meta">8 bullets (3 ET + 5 AL) · Validator GREEN 25/25/0 · Brave=39 Baidu=45 · CP-002/003/004 confirmed · T-04 compliant · Does not count toward gate streak</div>
+        </div>
+      </div>
+      <div class="delivery-row">
+        <div class="delivery-date">2026-05-21<br><span style="font-size:10px;color:#8892a4;">06:31 CST</span></div>
+        <div class="delivery-detail">
+          <div class="delivery-title">Delivery 1 — DEGRADED <span class="badge badge-red">HELD — quality</span></div>
+          <div class="delivery-meta">4 bullets delivered (2 ET + 2 AL of 8) · mapping_size=7 · 12 out-of-range source numbers · 4 bullets removed by scrubber · Issue #50 raised · CP-001–004 deployed same session</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CHANGE PACKETS -->
+  <div class="card">
+    <div class="card-header"><span class="card-title">Active Change Packets</span></div>
+    <div class="card-body" style="padding:0;">
+      <table>
+        <thead><tr><th>CP</th><th>Description</th><th>Status</th></tr></thead>
+        <tbody>
+          <tr><td class="cp-id">CP-001</td><td>Brain Lite validation path</td><td><span class="badge badge-yellow">PARTIAL</span></td></tr>
+          <tr><td class="cp-id">CP-002</td><td>ET/AL content specificity</td><td><span class="badge badge-green">CONFIRMED</span></td></tr>
+          <tr><td class="cp-id">CP-003</td><td>LinkedIn format rewrite</td><td><span class="badge badge-green">CONFIRMED</span></td></tr>
+          <tr><td class="cp-id">CP-004</td><td>Source provenance labels</td><td><span class="badge badge-green">CONFIRMED</span></td></tr>
+          <tr><td class="cp-id">CP-005</td><td>Brain Lite validator_status</td><td><span class="badge badge-blue">DEPLOYED — confirms 05-23</span></td></tr>
+          <tr><td class="cp-id">CP-006</td><td>Baidu-only retrieval (ALJ)</td><td><span class="badge badge-orange">PROPOSED</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-- ISSUES + NEXT ACTIONS -->
+<div class="section-label">Open Issues &amp; Next Actions</div>
+<div class="main" style="padding-top:0;">
+
+  <!-- Issues -->
+  <div class="card two-col">
+    <div class="card-header"><span class="card-title">Open Issues</span></div>
+    <div class="card-body" style="padding:0;">
+      <table>
+        <thead><tr><th>ID</th><th>Description</th><th>Scope</th><th>Status</th></tr></thead>
+        <tbody>
+          <tr>
+            <td class="issue-id">#47</td>
+            <td>Intermediate retrieval artifacts not client-namespaced</td>
+            <td><span class="badge badge-red">Pre-production</span></td>
+            <td>OPEN — operator decision required</td>
+          </tr>
+          <tr>
+            <td class="issue-id">#49</td>
+            <td>run_light_to_lark.sh loader vars not fully exported</td>
+            <td><span class="badge badge-red">Pre-production</span></td>
+            <td>OPEN — Claude Code fix needed before ALJ run</td>
+          </tr>
+          <tr>
+            <td class="issue-id">#50</td>
+            <td>Thin retrieval package (Delivery 1 degraded)</td>
+            <td><span class="badge badge-yellow">Monitoring</span></td>
+            <td>Did not recur Delivery 2 — watching</td>
+          </tr>
+          <tr>
+            <td class="issue-id">T-07</td>
+            <td>LinkedIn Draft non-refresh across runs</td>
+            <td><span class="badge badge-grey">Editorial</span></td>
+            <td>OPEN — Phase 7 editorial workstream</td>
+          </tr>
+          <tr>
+            <td class="issue-id">T-10</td>
+            <td>Brain Lite validator_status = UNKNOWN in run_summary</td>
+            <td><span class="badge badge-blue">CP-005</span></td>
+            <td>CP-005 deployed — confirms 2026-05-23 cron</td>
+          </tr>
+          <tr>
+            <td class="issue-id">TYPO</td>
+            <td>OPENCLAW_ARTIFACTNAMESPACE missing underscore (run_light_to_lark.sh lines 190/193)</td>
+            <td><span class="badge badge-red">Pre-production</span></td>
+            <td>OPEN — fix before ALJ run</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Next Actions -->
+  <div class="card">
+    <div class="card-header"><span class="card-title">Next Actions</span></div>
+    <div class="card-body">
+      <div class="action-item">
+        <div class="action-num">1</div>
+        <div class="action-ws">WS1</div>
+        <div class="action-text">
+          Confirm CP-005 / T-10 on 2026-05-23 cron
+          <div class="sub">validator_status should populate in run_summary</div>
+        </div>
+      </div>
+      <div class="action-item">
+        <div class="action-num">2</div>
+        <div class="action-ws">WS2</div>
+        <div class="action-text">
+          Approve CP-006 → Claude Code session
+          <div class="sub">Implement Baidu-only + fix #49 + fix ARTIFACTNAMESPACE typo + check query template format</div>
+        </div>
+      </div>
+      <div class="action-item">
+        <div class="action-num">3</div>
+        <div class="action-ws">WS2</div>
+        <div class="action-text">
+          Issue #47 formal decision
+          <div class="sub">Adopt no-concurrent-runs operating rule, or namespace intermediate artifacts</div>
+        </div>
+      </div>
+      <div class="action-item">
+        <div class="action-num">4</div>
+        <div class="action-ws">WS2</div>
+        <div class="action-text">
+          First ALJ pilot run — manual trigger
+          <div class="sub">After CP-006 implemented and #49 / typo resolved</div>
+        </div>
+      </div>
+      <div class="action-item">
+        <div class="action-num">5</div>
+        <div class="action-ws">WS1</div>
+        <div class="action-text">
+          Continue daily review + scoring
+          <div class="sub">Feedback register + scorecard every delivery</div>
+        </div>
+      </div>
+      <div class="action-item">
+        <div class="action-num">6</div>
+        <div class="action-ws">WS3</div>
+        <div class="action-text">
+          Hold — no action until ALJ Pilot #2–3
+          <div class="sub">Resume only with documented snippet limitation + operator approval</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- PROJECT ARC -->
+<div class="section-label">Project Arc — Origin to Vision</div>
+<div style="padding: 0 16px 16px;">
+
+  <!-- Five-Layer Architecture Status -->
+  <div class="card full-width" style="margin-bottom:14px;">
+    <div class="card-header"><span class="card-title">Five-Layer Architecture — Build Status</span></div>
+    <div class="card-body">
+      <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:10px;">
+        <div style="text-align:center;">
+          <div style="font-size:10px;font-weight:700;color:#5a6270;margin-bottom:4px;">LAYER 1</div>
+          <div style="font-size:12px;font-weight:700;margin-bottom:4px;">Monitoring</div>
+          <span class="badge badge-green">OPERATIONAL</span>
+          <div style="font-size:10px;color:#5a6270;margin-top:4px;">0% fabrication · validator-gated · daily cron</div>
+        </div>
+        <div style="text-align:center;">
+          <div style="font-size:10px;font-weight:700;color:#5a6270;margin-bottom:4px;">LAYER 2</div>
+          <div style="font-size:12px;font-weight:700;margin-bottom:4px;">Content Intelligence</div>
+          <span class="badge badge-blue">PHASE D ACTIVE</span>
+          <div style="font-size:10px;color:#5a6270;margin-top:4px;">Editorial quality · client-specific briefs · scoring</div>
+        </div>
+        <div style="text-align:center;">
+          <div style="font-size:10px;font-weight:700;color:#5a6270;margin-bottom:4px;">LAYER 3</div>
+          <div style="font-size:12px;font-weight:700;margin-bottom:4px;">Document Intelligence</div>
+          <span class="badge badge-grey">PLANNED</span>
+          <div style="font-size:10px;color:#5a6270;margin-top:4px;">Corpus · entity layer · passage-level citations</div>
+        </div>
+        <div style="text-align:center;">
+          <div style="font-size:10px;font-weight:700;color:#5a6270;margin-bottom:4px;">LAYER 4</div>
+          <div style="font-size:12px;font-weight:700;margin-bottom:4px;">Memory</div>
+          <span class="badge badge-yellow">BRAIN LITE LIVE</span>
+          <div style="font-size:10px;color:#5a6270;margin-top:4px;">Brain Lite: 7-day digest · Brain Medium/Full: future</div>
+        </div>
+        <div style="text-align:center;">
+          <div style="font-size:10px;font-weight:700;color:#5a6270;margin-bottom:4px;">LAYER 5</div>
+          <div style="font-size:12px;font-weight:700;margin-bottom:4px;">Query Layer</div>
+          <span class="badge badge-grey">LONGER HORIZON</span>
+          <div style="font-size:10px;color:#5a6270;margin-top:4px;">On-demand briefs · profile queries · precedent queries</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Timeline -->
+  <div class="card full-width">
+    <div class="card-header"><span class="card-title">Phase History &amp; Roadmap</span></div>
+    <div class="card-body" style="padding:16px 14px;">
+
+      <div style="position:relative;">
+
+        <!-- Timeline spine -->
+        <div style="position:absolute;left:90px;top:0;bottom:0;width:2px;background:linear-gradient(to bottom,#d1fae5 0%,#d1fae5 62%,#2563eb 62%,#2563eb 68%,#e2e6ea 68%,#e2e6ea 100%);"></div>
+
+        <!-- COMPLETED -->
+        <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:0.7px;color:#065f46;background:#d1fae5;display:inline-block;padding:2px 8px;border-radius:8px;margin-bottom:10px;margin-left:100px;">Completed</div>
+
+        <div style="display:flex;align-items:flex-start;margin-bottom:10px;">
+          <div style="min-width:88px;text-align:right;padding-right:16px;font-size:10px;color:#5a6270;padding-top:2px;">Mar 2026</div>
+          <div style="width:12px;height:12px;border-radius:50%;background:#6ee7b7;border:2px solid #065f46;margin-right:14px;margin-top:2px;flex-shrink:0;"></div>
+          <div>
+            <div style="font-size:12px;font-weight:700;">Phases 1–3 — Prototype Build</div>
+            <div style="font-size:11px;color:#5a6270;">Pipeline layer · signal layer · enrichment layer. Basic daily delivery running. ~48% citation fabrication at this stage.</div>
+          </div>
+        </div>
+
+        <div style="display:flex;align-items:flex-start;margin-bottom:10px;">
+          <div style="min-width:88px;text-align:right;padding-right:16px;font-size:10px;color:#5a6270;padding-top:2px;">Apr 2026</div>
+          <div style="width:12px;height:12px;border-radius:50%;background:#6ee7b7;border:2px solid #065f46;margin-right:14px;margin-top:2px;flex-shrink:0;"></div>
+          <div>
+            <div style="font-size:12px;font-weight:700;">Phase 4 — Control Layer</div>
+            <div style="font-size:11px;color:#5a6270;">Non-technical operator interface. Baidu integration added. Lark + WeChat delivery channels.</div>
+          </div>
+        </div>
+
+        <div style="display:flex;align-items:flex-start;margin-bottom:10px;">
+          <div style="min-width:88px;text-align:right;padding-right:16px;font-size:10px;color:#5a6270;padding-top:2px;">Apr 2026</div>
+          <div style="width:12px;height:12px;border-radius:50%;background:#6ee7b7;border:2px solid #065f46;margin-right:14px;margin-top:2px;flex-shrink:0;"></div>
+          <div>
+            <div style="font-size:12px;font-weight:700;">Phase 5 — Infrastructure Layer</div>
+            <div style="font-size:11px;color:#5a6270;">VPS-hosted production infrastructure. Retrieval pipeline, orchestration, cron scheduling established.</div>
+          </div>
+        </div>
+
+        <div style="display:flex;align-items:flex-start;margin-bottom:10px;">
+          <div style="min-width:88px;text-align:right;padding-right:16px;font-size:10px;color:#5a6270;padding-top:2px;">May 1–7</div>
+          <div style="width:12px;height:12px;border-radius:50%;background:#6ee7b7;border:2px solid #065f46;margin-right:14px;margin-top:2px;flex-shrink:0;"></div>
+          <div>
+            <div style="font-size:12px;font-weight:700;">Phase 6 — Soft Layer (6.1–6.8)</div>
+            <div style="font-size:11px;color:#5a6270;">Locked citation schema · resolver · scrubber · validator · delivery gate. Fabrication rate: 48% → <strong>0%</strong>. Foundational trust architecture complete.</div>
+          </div>
+        </div>
+
+        <div style="display:flex;align-items:flex-start;margin-bottom:10px;">
+          <div style="min-width:88px;text-align:right;padding-right:16px;font-size:10px;color:#5a6270;padding-top:2px;">May 6–11</div>
+          <div style="width:12px;height:12px;border-radius:50%;background:#6ee7b7;border:2px solid #065f46;margin-right:14px;margin-top:2px;flex-shrink:0;"></div>
+          <div>
+            <div style="font-size:12px;font-weight:700;">Phase 7 Entry A — Trust Gate</div>
+            <div style="font-size:11px;color:#5a6270;">5 consecutive clean deliveries confirmed. Gate closed May 11.</div>
+          </div>
+        </div>
+
+        <div style="display:flex;align-items:flex-start;margin-bottom:10px;">
+          <div style="min-width:88px;text-align:right;padding-right:16px;font-size:10px;color:#5a6270;padding-top:2px;">May 9–11</div>
+          <div style="width:12px;height:12px;border-radius:50%;background:#6ee7b7;border:2px solid #065f46;margin-right:14px;margin-top:2px;flex-shrink:0;"></div>
+          <div>
+            <div style="font-size:12px;font-weight:700;">Phase 7 Entry B — Infrastructure &amp; Access</div>
+            <div style="font-size:11px;color:#5a6270;">VPS docs repo · CoWork access model · client config schema · multi-client test harness design.</div>
+          </div>
+        </div>
+
+        <div style="display:flex;align-items:flex-start;margin-bottom:16px;">
+          <div style="min-width:88px;text-align:right;padding-right:16px;font-size:10px;color:#5a6270;padding-top:2px;">May 11–20</div>
+          <div style="width:12px;height:12px;border-radius:50%;background:#6ee7b7;border:2px solid #065f46;margin-right:14px;margin-top:2px;flex-shrink:0;"></div>
+          <div>
+            <div style="font-size:12px;font-weight:700;">Phase 7 Entry C — Brain Lite &amp; Client Config</div>
+            <div style="font-size:11px;color:#5a6270;">Brain Lite deployed · 14-field run_summary schema · namespace isolation verified · synthetic client end-to-end test passed. Gate closed May 20.</div>
+          </div>
+        </div>
+
+        <!-- CURRENT -->
+        <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:0.7px;color:#1e40af;background:#dbeafe;display:inline-block;padding:2px 8px;border-radius:8px;margin-bottom:10px;margin-left:100px;">Current position</div>
+
+        <div style="display:flex;align-items:flex-start;margin-bottom:16px;">
+          <div style="min-width:88px;text-align:right;padding-right:16px;font-size:10px;color:#1e40af;font-weight:700;padding-top:2px;">May 20 →</div>
+          <div style="width:14px;height:14px;border-radius:50%;background:#2563eb;border:2px solid #1e40af;margin-right:13px;margin-top:2px;flex-shrink:0;box-shadow:0 0 0 3px #bfdbfe;"></div>
+          <div>
+            <div style="font-size:12px;font-weight:700;color:#1e40af;">Phase D — Controlled Pilot <span class="badge badge-blue" style="vertical-align:middle;">ACTIVE</span></div>
+            <div style="font-size:11px;color:#5a6270;margin-top:2px;">WS1: Daily China Monitor · WS2: ALJ China Auto Weekly (building) · WS3: Browser Retrieval Phase 1 complete. Gate: 10 consecutive clean external deliveries required to close.</div>
+          </div>
+        </div>
+
+        <!-- UPCOMING -->
+        <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:0.7px;color:#5a6270;background:#f1f3f5;display:inline-block;padding:2px 8px;border-radius:8px;margin-bottom:10px;margin-left:100px;">Upcoming</div>
+
+        <div style="display:flex;align-items:flex-start;margin-bottom:10px;">
+          <div style="min-width:88px;text-align:right;padding-right:16px;font-size:10px;color:#5a6270;padding-top:2px;">Target Jun 2026</div>
+          <div style="width:12px;height:12px;border-radius:50%;background:#fff;border:2px solid #c0c7d0;margin-right:14px;margin-top:2px;flex-shrink:0;"></div>
+          <div>
+            <div style="font-size:12px;font-weight:700;color:#5a6270;">Phase D Close — Paid Pilot Gate Opens</div>
+            <div style="font-size:11px;color:#8892a4;">10 clean external deliveries confirmed. First revenue-eligible client. ALJ brief internally validated.</div>
+          </div>
+        </div>
+
+        <div style="display:flex;align-items:flex-start;margin-bottom:10px;">
+          <div style="min-width:88px;text-align:right;padding-right:16px;font-size:10px;color:#5a6270;padding-top:2px;">Month 3–4</div>
+          <div style="width:12px;height:12px;border-radius:50%;background:#fff;border:2px solid #c0c7d0;margin-right:14px;margin-top:2px;flex-shrink:0;"></div>
+          <div>
+            <div style="font-size:12px;font-weight:700;color:#5a6270;">Document Intelligence — Layer 3</div>
+            <div style="font-size:11px;color:#8892a4;">Corpus layer · entity layer · passage-level citation enforcement. Verified briefs stored as structured, retrievable documents. Bridge to Memory and Query layers.</div>
+          </div>
+        </div>
+
+        <div style="display:flex;align-items:flex-start;margin-bottom:10px;">
+          <div style="min-width:88px;text-align:right;padding-right:16px;font-size:10px;color:#5a6270;padding-top:2px;">Month 4–6</div>
+          <div style="width:12px;height:12px;border-radius:50%;background:#fff;border:2px solid #c0c7d0;margin-right:14px;margin-top:2px;flex-shrink:0;"></div>
+          <div>
+            <div style="font-size:12px;font-weight:700;color:#5a6270;">Brain Medium + Browser Retrieval Phase 2</div>
+            <div style="font-size:11px;color:#8892a4;">Entity tracking: structured profiles for companies, regulatory bodies, recurring actors. Full-article retrieval integrated into live pipeline (if authorized).</div>
+          </div>
+        </div>
+
+        <div style="display:flex;align-items:flex-start;margin-bottom:10px;">
+          <div style="min-width:88px;text-align:right;padding-right:16px;font-size:10px;color:#5a6270;padding-top:2px;">Month 6–8</div>
+          <div style="width:12px;height:12px;border-radius:50%;background:#fff;border:2px solid #c0c7d0;margin-right:14px;margin-top:2px;flex-shrink:0;"></div>
+          <div>
+            <div style="font-size:12px;font-weight:700;color:#5a6270;">Brain Full + Query Layer (Superpower)</div>
+            <div style="font-size:11px;color:#8892a4;">Full corpus + entity architecture active. On-demand brief generation from any question. Profile queries ("What challenges does Company X face in China?") + precedent queries.</div>
+          </div>
+        </div>
+
+        <div style="display:flex;align-items:flex-start;">
+          <div style="min-width:88px;text-align:right;padding-right:16px;font-size:10px;color:#5a6270;padding-top:2px;">Month 8–10</div>
+          <div style="width:12px;height:12px;border-radius:50%;background:#fff;border:2px solid #c0c7d0;margin-right:14px;margin-top:2px;flex-shrink:0;"></div>
+          <div>
+            <div style="font-size:12px;font-weight:700;color:#5a6270;">Full Platform</div>
+            <div style="font-size:11px;color:#8892a4;">Multi-client scaling. Document Intelligence client-facing. Query layer live. Operator dashboard across all clients. Commercial launch as a multi-client business intelligence platform for PR and public affairs firms.</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="footer">
+  OpenClaw Project Dashboard · Phase D Controlled Pilot · Updated daily by scheduled task · <em>Data from workspace docs + VPS sync artifacts</em>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,116 @@
+# WS2/ALJ DAILY EXPERIMENT LEG (operator-approved 2026-06-12): same conditions as
+# production ALJ (enriched, labeled, held) but DAILY at 07:32, appended to the ALJ
+# Lark doc. Feedback-loop instrument; never a delivery candidate.
+# client_config_alj_china_auto_001.yaml
+# Client: ALJ China Auto Weekly Brief
+# Schema: Phase B approved field set + Phase D ALJ extensions (marked NEW FIELD)
+# Status: APPROVED — operator confirmed 2026-05-23
+# ─────────────────────────────────────────────────────────────────────
+
+# Identity
+client_id: alj_china_auto_x01
+client_name: "ALJ China Auto Weekly Brief"
+
+# Namespace — must equal client_id for full artifact traceability
+artifact_namespace: alj_china_auto_x01
+
+# Topic focus — drives retrieval query construction
+# CP-023R (operator-approved 2026-06-11): refocused on Jameel Motors
+topic_focus:
+  - "Jameel Motors partner brands in China: BYD, GAC/AION, Geely/Farizon, Changan, Chery (Omoda/Jaecoo), SAIC/MG, JMC — sales, strategy, products"
+  - "Partner brands outside China: launches and expansion in Jameel territories (Saudi/GCC, Türkiye, UK, Poland, Morocco, South Africa, Iraq, UAE)"
+  - "China NEV market pulse: CAAM/CPCA data, NEV penetration, price competition, battery/PHEV/charging technology"
+  - "China auto export corridors and trade policy: tariffs (EU, Türkiye, Gulf), localization, overseas plants"
+  - "Toyota and Lexus competitive position in China and vs Chinese brands globally"
+  - "Distribution and dealer economics in China and export markets"
+  - "Media-angle raw material for Jameel Motors executive commentary"
+
+# Geographic coverage
+regions:
+  - "china"
+  - "middle_east"
+  - "europe"
+  - "africa"
+  - "turkiye"
+
+# Query and output configuration
+query_template_set: "alj_jameel_weekly_v3"   # WS2 parity 2026-07-04 (v2+policy_regulation+aftersales_fleet)
+report_template:    "alj_china_auto_weekly_v1"    # NEW — to be drafted
+
+# Delivery channel — external_client 2026-07-04 (operator-approved): strict gate,
+# no internal labels, web delivery to auto.thefootegroup.com after each run.
+delivery_mode: external_client
+lark_append: true
+
+# CP-026 full-text enrichment — ADOPTED for ALJ 2026-06-12 (operator decision,
+# scoring packet 2026-06-12): agent reads full article text (up to 6,000 chars)
+# instead of headline+lede. WS1 remains HOLD (brevity regression unresolved).
+enrichment: true
+
+# Corrective audit 2026-06-12 (operator-directed): encyclopedia and
+# low-authority/commercial domains are not client-grade citation sources.
+# Matches host or any subdomain (filter_results CP-025 mechanism, ALJ-only).
+domain_exclusion:
+  - wikipedia.org
+  - baike.baidu.com
+  - wikiwand.com
+  - fandom.com
+  - made-in-china.com
+  - alibaba.com
+  - electriccarscheme.com
+  - innovation-village.com
+
+# agent_model removed 2026-07-04: this env var was never consumed at runtime.
+# Model routing is controlled by openclaw.json agent config. ALJ now uses
+# alj_enrichment agent (DeepSeek V4 Flash primary, Gemini Flash fallback, Kimi tertiary).
+
+delivery_channel:
+  type: lark
+  credentials_ref: "/root/openclaw_secrets/lark_webhook_alj_china_auto_001"
+  # NOTE: credential live 2026-07-04; delivers to Lark + auto.thefootegroup.com.
+
+# Schedule
+schedule: null   # Manual trigger only — never added to cron
+
+# Retrieval providers
+source_preferences:
+  mode: crawler          # WS-C live cutover 2026-06-18: source from curated scrape frontier (operator-approved); web retrieval skipped
+  priority_providers:
+    - brave              # CP-023R 2026-06-11: Brave enabled (international coverage)
+    - baidu
+  # NEW FIELD
+  brave_enabled: true    # CP-023R 2026-06-11 (operator-approved)
+  # NOTE: If retrieval orchestrator requires implementation change to support
+  # baidu-only, this must be handled as a scoped Phase D change packet.
+
+# Source filtering                                # NEW FIELD block
+source_filter:
+  chinese_only: false      # CP-023R 2026-06-11: international sources allowed (Section 4 only)
+  source_region: china_plus_international
+  source_language: zh_en
+
+# Lookback windows                                # NEW FIELD block
+lookback_days: 7           # Primary window — last 7 days
+context_days: 30           # Secondary context window — major strategic developments only
+
+# Brain Lite context injection
+brain_context: false   # Disabled — no run history exists yet for this client
+
+# Output sections
+output_sections:
+  executive_take:             true
+  advisory_layer:             true
+  linkedin_draft:             false   # Not required for this product
+  regional_source_list:       false   # Replaced by complete source appendix below
+
+# Source appendix requirement                     # NEW FIELD
+require_complete_source_appendix: true
+# This is a non-negotiable product requirement. A report without a complete
+# Chinese Source Appendix must not be approved for external delivery.
+# Appendix must include: source number, Chinese title, English title,
+# publisher, date, full URL, blurb/snippet, ALJ relevance note,
+# used in report (yes/no), related section/bullet.
+
+# Pilot gate
+pilot_mode: false  # OPENED 2026-07-04 (operator-approved): external delivery enabled.
+                   # Delivers to Lark doc + auto.thefootegroup.com on every clean run.

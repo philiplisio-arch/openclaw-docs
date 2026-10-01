@@ -1,0 +1,1629 @@
+# OPENCLAW — ISSUES LOG
+
+---
+document_id: OPENCLAW-ISSUES-001
+version: v3.0
+last_updated: 2026-07-13
+status: OPERATIONAL
+---
+
+## CONTEXT
+
+This log covers Issues #34 onward. Issues #1–#33 are recorded in historical
+daily status and session handover documents in `/old/`. Issue numbering is
+cumulative across the project lifecycle. The current log retains only active
+and recently resolved issues.
+
+## OPEN ISSUES SUMMARY
+
+| # | Title | Status |
+|---|-------|--------|
+| 46 | OPENCLAW_ARTIFACT_NAMESPACE not propagating to scrubber subprocess | ✅ RESOLVED — 2026-05-20 |
+| 47 | Intermediate retrieval artifacts not client-namespaced | ✅ RESOLVED 2026-06-09 — all 7 phase5 intermediates namespaced via OPENCLAW_ARTIFACT_NAMESPACE; orchestrator scripts + run_light_to_lark.sh updated; legacy un-namespaced files in data/ pending cleanup |
+| 48 | Delivery relay not client-namespaced — test runs deliver to live channel | ✅ RESOLVED — 2026-05-20 |
+| 49 | run_light_to_lark.sh — OPENCLAW_CLIENT_ID and other loader vars assigned without export | ✅ RESOLVED 2026-05-23 — 6 missing exports added; all 9 loader vars confirmed in subshell smoke test |
+| 50 | Thin retrieval package — mapping_size=7 on 2026-05-21 run; 4 bullets removed | 🟡 MONITORING — did not recur D2, D3, or D4; Baidu 48h filter deployed; continue watching |
+| 51 | light_to_lark.log gap — 2026-05-22 run absent from log; pipeline confirmed complete via artifacts | ✅ RESOLVED 2026-05-22 — not reproduced; snapshot timing artefact |
+| 52 | light_to_lark.log appeared to have no 2026-05-22 or 2026-05-23 run entries | ✅ RESOLVED 2026-05-23 — root cause: log lines have no timestamp prefixes; grep for dates returns zero by construction; deliveries not missing |
+| 53 | light_to_lark.log no timestamp line prefixes | ✅ RESOLVED 2026-05-23 — ISO timestamps added to run_light_to_lark.sh log emitter; active from 2026-05-24 cron |
+| 54 | Broadcaster-level dedup gap — dedup.py URL-key dedup does not catch same-story CCTV entries across broadcast slots or subdomains | 🟡 OPEN — operator decision required on CP scope and timing |
+| 55 | WS1 SIGNAL block (US/EU/ME regional summary) leaking into ALJ delivery payload via run_light_to_lark.sh heredoc | ✅ RESOLVED 2026-06-01 — CP-015 deployed; SIGNAL block gated to WS1 template only |
+| 56 | Phase 5 orchestrator exits non-zero (code 1) on all ALJ runs while producing valid output; CP-012 recovery path handling cleanly | 🟡 OPEN — not blocking; recovery reliable; root cause unknown |
+| 57 | LAST_HASH_FILE not client-namespaced — /root/openclaw_phase5/data/last_delivery_hash.txt shared across clients; WS1 and ALJ will overwrite each other's hash once both deliver live | ✅ RESOLVED 2026-06-01 — confirmed pre-existing; LAST_HASH_FILE already namespaced via OPENCLAW_ARTIFACT_NAMESPACE |
+| 58 | Geographic footer present in final_output_scrubbed | ✅ RESOLVED 2026-06-02 — CP-019 v2 validated on D13; footer confirmed absent from final_output_scrubbed |
+| 59 | light_to_lark.log D5–D8 entries absent from local sync | ✅ RESOLVED 2026-06-01 — sync staleness confirmed; D10/D11 present in log; ISO timestamp fix (Issue #53) active |
+| 60 | query_builder.py hardcoded to WS1 — ignores ALJ client config entirely (topic_focus, baidu_only, lookback_days, source_language, chinese_only); all ALJ pilot runs to date used WS1 US/EU/ME queries; ALJ Lark credential is live so pilot_mode=true is the only delivery gate | ✅ RESOLVED 2026-06-03 — query_builder.py reads OPENCLAW_QUERY_TEMPLATE; ALJ dispatches to 7 RQT-002 v1.1 Baidu queries; WS1 unchanged |
+| 61 | run_light_to_lark.sh positional argument ignored — bare client_id argument (e.g. alj_china_auto_001) discarded by catch-all; CLIENT_ID always defaulted to china_monitor_001 | ✅ RESOLVED 2026-06-02 — *) CLIENT_ID="$1"; shift fix deployed by Claude Code |
+| 62 | ALJ SOURCES appendix URL fabrication — agent rewrites source URLs to plausible-but-wrong paths | ✅ RESOLVED 2026-06-03 — citation_sub.py strips agent Section 8; deterministic SOURCES appended from retrieval package; WS1 unaffected |
+| 63 | ALJ CP-020 freshness label inconsistency — same source labeled CONTEXT-7D inline and NEW-24H in SOURCES appendix | 🟡 OPEN — agent applying inconsistent labels; CP-020 prompt needs tightening; was blocked on #62 (now resolved) |
+| 65 | tv.cctv.com URL in ALJ scrubbed output | ✅ CLOSED 2026-06-04 — false alarm; agent Section 8 hallucination; CP-025 confirmed working; citation_sub.py strips Section 8 before delivery |
+| 66 | Cross-source citation misbinding — agent attaches real facts from one source to a different low-authority cited source | 🟡 OPEN — generator mechanism identified and removed 2026-06-10 (Issue #67 shared-session contamination); detector (ADV-015 Option B, spec approved 2026-06-10) in calibration; downgrade/close decision after Option B replay + clean delivery evidence |
+| 67 | Cross-client agent session contamination — gateway agent china_pr_enrichment appended every run (all clients) to one persistent 6.3MB session; --session-id recorded but not isolating; June 9 ALJ runs caused June 10 WS1 run to emit ALJ-format output citing an out-of-package ALJ source | ✅ RESOLVED 2026-06-10 — run_phase5_offline.sh clears agent session store before each run; live-tested; first cron validation 2026-06-11; evidence: OPENCLAW_DIAG_JUNE10_BLOCK_2026-06-10.md; old contaminated session preserved in container at sessions_bak_20260610 |
+| 68 | WS2/ALJ crash since 2026-06-15 — per-client Pro-model override passed `--model` to `openclaw agent`, which has no such flag (and OPENCLAW_AGENT_MODEL is read by nothing); every ALJ run exited non-zero and delivered a BLOCKED-grade placeholder | ✅ RESOLVED 2026-06-18 — removed the unsupported flag from run_phase5_offline.sh; per-client model now set in client config. Live runs deliver again |
+| 69 | citation_alignment false "misaligned" on English briefs over Chinese-only sources — English entity names (MIIT, Ouyang Minggao, Zotye) can't match CJK source text; 9 false misaligns/run | ✅ RESOLVED 2026-06-18 — scorer excludes unaliased Latin entities vs CJK-only evidence (scores on numbers + aliased/matchable entities); entity_aliases expanded; verified 9→0 with no real misbinding missed |
+| 70 | Completeness gate brittle to markdown headers — agent intermittently bolds section headers (`**SECTION 1**`); the `^SECTION 1` regex didn't match, blocking ~half of otherwise-complete, fully-cited runs | ✅ RESOLVED 2026-06-18 — run_light_to_lark.sh completeness regexes made markdown-tolerant; verified against the actual blocked output |
+| 71 | WS2 GitHub source-list publish stalled all day — REL→CORE_ZH crawler refactor broke daily_report.py's `crawl.REL` reference; cron `&&` chain crashed the publish step after each (working) crawl | ✅ RESOLVED 2026-06-18 — daily_report.py updated (with fallback); republished (470 articles/17 outlets) |
+| 72 | WS1 fabricated corroboration — "covered by N outlets" was free-text emitted by the clustering LLM, never computed from distinct cluster outlets (the 2026-06-22 brief claimed four stories "covered by 10 outlets" from an 8-outlet pool) | ✅ RESOLVED 2026-06-24 — `recount_outlets()` replaces it with real COUNT(DISTINCT outlet) over actual cluster members; LLM free-text count deleted (commit e85b855) |
+| 73 | WS1 stale-story leakage / date-blind ranking — window admitted on crawl-time `first_seen` not publish date; ranker saw no dates and had no recency term; 35 articles 3–12 days old leaked into the 2026-06-23 window, 46% undated (the "old earnings as today's news" operator flag) | ✅ RESOLVED 2026-06-24 — publish-time window (`PUB_WINDOW_DAYS`), URL/meta date normalization, future-date guard, undated bucket ranked last, authority×corroboration×recency-decay ranking (commits e85b855, 890321f) |
+| 74 | WS1 volume waste — 144-candidate cap → ~15 forced stories → 3-source/story cap meant only ~19 of ~755 in-window articles/day were ever cited; most "top" stories single-source | ✅ RESOLVED 2026-06-24 — deterministic title-token clustering consumes the full in-window corpus (no LLM long-input limit), 3→6 source cap, honest `THE TOP {n}` header (commit e85b855) |
+| 75 | WS1 silent no-delivery on crash — 2026-06-19 `category` KeyError crashed the cron with no entry in any alerts log; a no-delivery day was invisible | 🟡 PARTIAL — defensive `.get()` schema guard for the `category` KeyError shipped 2026-06-19 (commit 3d65ba0); dedicated `ALERTS.log` no-delivery alerting (spec §3.6) still OPEN |
+| 76 | WS1 verify checks numbers only — qualitative claims pass unchecked and number matching is against the pooled source set, so coincidental matches are possible | 🟡 OPEN — deeper per-cited-source number match + qualitative-claim grounding (spec §3.5) pending; verbatim-Chinese grounding foundation already in place |
+| 77 | ALJ Section 2 (Partner Brand Watch) consistently blank — partner-brand articles crowded out by authority-tier sort within 20-source cap | ✅ RESOLVED 2026-07-13 — PARTNER_RESERVE=4 guaranteed slots for toyota_lexus/dealer/china_oem tags in build_agent_input_slim.py (commit 9fa3381) |
+| 78 | WS1 GDP/macro data underweighted in editorial scoring — label_and_score prompt penalized GDP releases as "routine policy" | ✅ RESOLVED 2026-07-13 — MACRO DATA EXCEPTION added to label_and_score prompt (score floor ≥4/5); SELECTION rule added to cbiz_style.md (commit a1afe6a) |
+| 79 | Pipeline code had no GitHub remote — /root git repo was local-only; VPS failure would destroy all WS1/ALJ pipeline code | ✅ RESOLVED 2026-07-13 — philiplisio-arch/openclaw-pipeline (private) created; /root remote wired; CLAUDE.md + memory updated with standing push instructions |
+| 80 | WS1 northbound capital term unexplained at first use — Steve feedback 2026-07-12 | ✅ RESOLVED 2026-07-13 — CLARITY rule in cbiz_style.md expanded with explicit northbound capital gloss example (commit a1afe6a) |
+| 81 | WS1 regulatory dishonesty/fraud conviction stories appearing in brief — Steve feedback 2026-07-12 | ✅ RESOLVED 2026-07-12 — exclusion rule auto-added by ws1_optimizer.py nightly run; confirmed effective 2026-07-13 (no such stories in July 13 brief) |
+| T-10 | Brain Lite metrics_unavailable | ✅ CLOSED 2026-05-23 — CP-005 confirmed on 2026-05-23 and 2026-05-24 cron; validator_status=GREEN holding |
+
+## TRACKED INPUTS — FUTURE PHASE
+
+| # | Title | Origin |
+|---|-------|--------|
+| T-01 | Freshness signaling not distinguished in output | Advisory note 2026-05-08 |
+| T-02 | Source authority classification — lower-authority sources uncalibrated | ADV-014 approved 2026-06-06 — Layer 1 (domain exclusion) in Claude Code queue; Layer 2 (snippet quality floor) dry-run approved |
+| T-03 | Chinese-source diversity — not yet consistently rich across categories | Advisory note 2026-05-08 |
+| T-04 | Advisory language calibration — claim strength exceeds evidence in places | ✅ CLOSED — 2026-05-19 |
+| T-05 | Middle East content drift — coverage not consistently anchored to China linkage | Advisory note 2026-05-08 |
+| T-06 | scrubber_report.json not found at expected path on 2026-05-08 06:32 run | ✅ RESOLVED — 2026-05-11 |
+| T-07 | LinkedIn Draft non-refresh — identical output across consecutive runs | Content observation 2026-05-11 |
+| T-08 | Double [BRAIN_LITE] summary_write_started on first confirmation run | ✅ RESOLVED — 2026-05-11 |
+| T-09 | CoWork VPS direct access not implemented — daily post-run report not operational | ✅ RESOLVED — 2026-05-13 |
+| T-10 | Brain Lite metrics_unavailable — ids_seen/ids_kept/ids_removed = 0 in run_summary | 🔧 CP-001 PARTIALLY VALIDATED 2026-05-22 — metrics populated; validator_status UNKNOWN; CP-005 approved, pending deployment |
+
+## RESOLVED ISSUES SUMMARY
+
+| # | Title | Status |
+|---|-------|--------|
+| 34 | Citation System Instability | ✅ RESOLVED |
+| 35 | result_id Generation Drift Under Citation Padding | ✅ RESOLVED (2026-05-03) |
+| 36 | Agent Format Non-Determinism in Live Cron Runs | ✅ RESOLVED (2026-05-03) |
+| 37 | Offline Script Missing Agent Output Save Step | ✅ RESOLVED (2026-05-05) |
+| 39 | Lark Delivery Uses Pre-Scrubber Content | ✅ RESOLVED (2026-05-04) |
+| 40 | 3-Day Filter Threshold Creates Fragility in Off-Schedule Runs | ✅ RESOLVED (2026-05-04) |
+| 41 | Scrubber Placeholder Text Delivered to Lark on Unsupported Citation Format | ✅ RESOLVED (2026-05-05) |
+| 42 | SerpAPI Key Invalid — Baidu Retrieval Failure | ✅ RESOLVED (2026-05-06) |
+| 43 | Agent Result ID Fabrication Rate Elevated | ✅ RESOLVED (2026-05-07) |
+| 44 | Valid Sources Not Surfacing in Delivered Output | ✅ RESOLVED (2026-05-08) |
+| 45 | 2026-05-19 delivery failure — Step 9.3/9.4 deployment sequence | ✅ RESOLVED (2026-05-19) |
+
+---
+
+## Issue #67 — Cross-Client Agent Session Contamination
+
+### Status
+✅ RESOLVED 2026-06-10 — fix deployed (per-run session reset in run_phase5_offline.sh); first cron validation 2026-06-11.
+
+### Description
+The gateway agent `china_pr_enrichment` (shared by all clients) appended every run to a single persistent session (`agent:china_pr_enrichment:main`, 6.3 MB, 577 messages mixing ALJ and WS1 turns); the `--session-id` passed per run was recorded but did not isolate. After five ALJ runs on 2026-06-09, the 2026-06-10 WS1 run received a correct prompt (verified byte-for-byte) but emitted ALJ-format output citing an ALJ source not in the WS1 package with a memory-mutated URL — the same signature as Issue #66. Gates blocked the delivery correctly. Full evidence chain: OPENCLAW_DIAG_JUNE10_BLOCK_2026-06-10.md. The contaminated session is preserved in-container at `sessions_bak_20260610/` as evidence for #66 analysis.
+
+---
+
+## Issue #66 — Cross-Source Citation Misbinding
+
+### Status
+🟡 OPEN — downgraded from high severity 2026-06-10. The generator mechanism (Issue #67 shared-session contamination) was identified and removed 2026-06-10; the detector (ADV-015 Option B snippet alignment, spec approved 2026-06-10) is in calibration. Close decision after Option B replay results plus clean-delivery evidence under session isolation.
+
+### Discovered
+2026-06-06 — retrieval package analysis, D17 post-run review
+
+### Description
+
+The agent produces an Executive Take or Advisory Layer bullet by absorbing
+facts from one or more higher-authority retrieval results, then cites a
+different lower-authority source that does not support the specific claim.
+
+The current validator confirms only that the cited result_id exists in the
+retrieval package. It does not test whether the cited source's content
+supports the specific claim — it is **citation-structure safe** but not
+**client-factual-grounding safe**.
+
+D17 confirmed instance: ET Bullet 2 stated the European Commission declared
+EU-China trade "not sustainable" and that UK FM Yvette Cooper is visiting
+China. The cited source (res_0a5837f3bb9f, h5.article.smbae.cn) had a
+snippet entirely about US-China tariffs. Zero evidence for the EC or Yvette
+Cooper appeared in any of the 12 retrieval package snippets.
+
+Likely failure pattern: agent absorbed real facts from one or more
+higher-authority sources, combined them into a single bullet, and bound
+the citation to a lower-authority topically adjacent source. This is
+distinct from the previous fabricated-result_id problem (Issue #43,
+resolved 2026-05-07). The cited result_id is real; the grounding is false.
+
+### Root Cause Contributing Factors
+
+1. **No source authority filter** — low-quality aggregators and TV shell
+   pages enter the retrieval package identically to primary reporting;
+   agent cannot distinguish them (ADV-014).
+2. **No claim-source alignment check** — validator confirms result_id
+   syntax only; no mechanism detects misbinding (ADV-015).
+3. **Snippet quality** — CCTV TV shell snippets are navigation menus, not
+   article content; h5.article.smbae.cn snippet is a pagination widget;
+   agent receives no substantive grounding for these sources.
+
+### Impact
+
+Validator GREEN status is insufficient to guarantee client-safe factual
+grounding. High-stakes claims may appear properly cited while unsupported
+by the cited source. Client credibility risk if cited sources are checked.
+
+### Immediate Mitigation
+
+Manual operator spot-check for all Executive Take bullets involving:
+named officials, government bodies, ministerial travel, regulatory actions,
+quoted language, trade/sanctions measures, financial figures, major
+corporate transactions, or diplomatic/military claims.
+Added to OPENCLAW_PHASE_D_OPERATOR_REVIEW_PROCEDURE.md Step 2A.
+
+### Required Resolution
+
+- ADV-014 Layer 1: domain exclusion list in filter_results.py (Claude Code)
+- ADV-014 Layer 2: snippet quality floor after dry-run calibration
+- ADV-015 Option B: automated snippet alignment check spec and implementation
+  — entity overlap + quote/number matching; WARN/HOLD behaviour in Phase D;
+  test against D17 failure + 5–10 prior outputs before live deployment
+- Exit criteria: D17 failure case detected by new check; false-positive
+  rate reviewed by operator; no live deployment until held-mode test approved
+
+### External Consultant Assessment (2026-06-06)
+
+Confirmed: "OpenClaw has largely solved fabricated citation IDs. It has
+not yet solved false claim-source grounding. That is the next trust layer
+required for client-grade intelligence."
+
+---
+
+## Issue #57 — LAST_HASH_FILE Not Client-Namespaced
+
+### Status
+✅ RESOLVED — 2026-06-01 — confirmed pre-existing; LAST_HASH_FILE already namespaced via OPENCLAW_ARTIFACT_NAMESPACE
+
+### Discovered
+2026-05-24 — Claude Code Lark proxy investigation / CP-016 drafting
+
+### Description
+
+`run_light_to_lark.sh:268` reads and writes
+`/root/openclaw_phase5/data/last_delivery_hash.txt` for every client.
+Once both WS1 and ALJ deliver live, the two clients will overwrite each
+other's hash. This causes false-blocks (a new delivery blocked because
+the other client just delivered different content that hashed the same
+slot) or false-allows (a duplicate delivered because the other client
+overwrote the hash since the last run).
+
+### Impact
+
+No impact while ALJ is in pilot_mode=true (delivery never reaches the
+hash check). Becomes a real collision risk the moment both clients
+deliver live simultaneously or on overlapping cron schedules.
+
+### Resolution Required
+
+CP-017: namespace `LAST_HASH_FILE` per `$OPENCLAW_ARTIFACT_NAMESPACE`,
+mirroring how `final_output_${OPENCLAW_ARTIFACT_NAMESPACE}.txt` is
+already namespaced. One-line fix. Should be bundled with CP-016 before
+ALJ goes live.
+
+---
+
+## Issue #56 — Orchestrator Exit=1 on ALJ Runs
+
+### Status
+🟡 OPEN — not blocking; CP-012 recovery path handling cleanly
+
+### Discovered
+2026-05-24 — ALJ pilot run analysis
+
+### Description
+
+Phase 5 orchestrator consistently exits non-zero (code 1) on all ALJ
+pilot runs while producing structurally valid 8-section output. Both
+ALJ pilot runs (18:56 UTC and 19:21 UTC on 2026-05-24) showed
+`orchestrator exit code = 1` with `output complete heuristic = true`
+and the recovery path engaging. The agent itself reports `status=0`.
+The non-zero exit originates somewhere in the orchestrator wrapper
+after the agent completes.
+
+### Impact
+
+Not blocking — CP-012's recovery design handles this correctly and
+delivery proceeds. However, the underlying cause is unknown and could
+mask a real failure in a future template or edge case.
+
+### Resolution Required
+
+Investigate with `bash -x` on next manual ALJ run. Check lines 3–163
+of the ALJ run log (`/root/openclaw_logs/phase5_run_20260524_192104.log`)
+for the stderr or step that produces the exit=1. File as CP or close as
+benign once root cause is confirmed.
+
+---
+
+## Issue #55 — WS1 SIGNAL Block Leaking Into ALJ Payload
+
+### Status
+✅ RESOLVED — 2026-06-01
+
+### Discovered
+2026-05-24 — ALJ pilot run log analysis (lines 307–317 of run log)
+
+### Description
+
+The Python heredoc at `run_light_to_lark.sh:110–166` appends a
+United States / Europe / Middle East regional summary (SIGNAL block) to
+every delivery payload. This block bins retrieved source titles into
+geographic buckets by URL substring. For WS1 (china_monitor_001) this
+is a reasonable summary. For ALJ (alj_china_auto_001) it is WS1-specific
+content that has no place in an ALJ China Auto Weekly Brief.
+
+The content appeared in the delivery payload in the 2026-05-24 ALJ pilot
+run log. It is not in the scrubbed output file (scrubbing happens before
+the SIGNAL block is appended), but it is in the final Lark payload.
+
+### Impact
+
+Not blocking for pilot_mode=true (delivery never pushes to Lark).
+Would appear as spurious WS1-branded content in any live ALJ delivery.
+Breaks the ALJ product spec.
+
+### Resolution Required
+
+CP-015: make the SIGNAL block template-aware. For
+`alj_china_auto_weekly_v1`, either skip the block entirely or replace it
+with an ALJ-appropriate summary (e.g. China/GCC source breakdown). For
+WS1 default, behavior unchanged.
+
+---
+
+## Issue #54 — Broadcaster-Level Dedup Gap
+
+### Status
+🟡 OPEN — operator decision required
+
+### Discovered
+2026-05-23 — Claude Code dedup.py assessment
+
+### Description
+
+`dedup.py` keys on full URL only. CCTV near-duplicates survive deduplication because distinct broadcast-slot URLs differ per slot and per subdomain (`tv.cctv.com` vs `tv.cctv.cn`). Same story can appear multiple times in the retrieval package under different URLs.
+
+### Impact
+
+CCTV slot duplicates inflate the retrieval package with redundant content. Agent may cite multiple CCTV entries covering the same story, reducing source diversity in the delivered brief.
+
+### Resolution Required
+
+Operator decision on CP scope and timing. Proposed fix: broadcaster-level dedup on `(publisher, date, normalized_title_core)` stripping slot prefix.
+
+---
+
+## Issue #53 — light_to_lark.log No Timestamp Line Prefixes
+
+### Status
+✅ RESOLVED — 2026-05-23
+
+### Description
+
+All log lines in `light_to_lark.log` lacked timestamp prefixes, making it impossible to grep for specific dates to locate run boundaries.
+
+### Resolution
+
+ISO timestamps added to `run_light_to_lark.sh` log emitter. Every `light_to_lark.log` line now prefixed `2026-05-23T06:32:01Z [STAGE] ...`. Backup: `run_light_to_lark.sh.bak_20260523_issue53`. Active from 2026-05-24 cron.
+
+---
+
+## Issue #52 — light_to_lark.log Appeared to Have No Recent Run Entries
+
+### Status
+✅ RESOLVED — 2026-05-23
+
+### Description
+
+Grepping `light_to_lark.log` for dates (e.g., "2026-05-22") returned zero results, giving the false impression that recent runs were absent from the log.
+
+### Root Cause
+
+Log lines had no timestamp prefixes — grep for dates returns zero by construction. Deliveries were not missing. Per-run sidecar logs (`phase5_run_YYYYMMDD_HHMMSS.log`) in `/root/openclaw_logs/` are the timestamped record.
+
+### Resolution
+
+Root cause logged as Issue #53. Fix deployed same session.
+
+---
+
+## Issue #51 — light_to_lark.log Gap (2026-05-22)
+
+### Status
+🟡 OPEN — VPS investigation required
+
+### Discovered
+2026-05-22 — session start VPS sync and post-run analysis
+
+### Description
+
+The 2026-05-22 06:32 cron run is absent from light_to_lark.log. The log file
+has exactly 1525 lines and ends with the 2026-05-21 degraded run. Pipeline
+completion is confirmed by three independent artifacts:
+- run_summary_china_monitor_001_20260522.json (run_date=2026-05-22, delivery_status=delivered)
+- validation_result_china_monitor_001.json (run_id: run_20260521T223002Z = 06:30 Shanghai)
+- final_output_scrubbed_china_monitor_001.txt (header: 2026-05-22 06:32)
+
+### Impact
+
+Post-run analysis for Delivery 2 relies on artifact files rather than the cron
+log. Resolver metrics (mapping_size, source_numbers_dropped) and scrubber metrics
+(unsupported_groups) are not available from logs for this run. All pipeline health
+indicators are confirmed from artifacts; no quality gap in the analysis for this
+run. Future runs: if log rotation continues, scp sync must be updated.
+
+### Resolution
+
+Resolved 2026-05-22 — Claude Code VPS audit confirmed:
+
+- Live log has 1559 lines, mtime 2026-05-22 06:32:11. No rotation, no
+  companion files. Single append-only file via crontab redirect.
+- 2026-05-22 run IS present at lines 1526–1559. Validator GREEN 25/25,
+  Brain Lite summary_write_completed confirmed at line 1559.
+- Root cause: scp sync was pulled mid-run (between cron launch at ~06:30
+  and run completion at ~06:32). The 1525-line snapshot was taken before
+  run_light_to_lark.sh finished appending. Not a log gap — a snapshot
+  timing artefact.
+- No logrotate configured for this file. /etc/logrotate.d/ contains no
+  openclaw entry. File will grow indefinitely; logrotate setup recommended
+  before file becomes unwieldy (minor, non-blocking).
+- Mitigation: run scp sync at least 5 minutes after cron fires (06:35+)
+  to ensure the run has fully completed before pulling the log.
+
+---
+
+## Issue #50 — Thin Retrieval Package (2026-05-21)
+
+### Status
+🟡 MONITORING — did not recur on 2026-05-22 Delivery 2
+
+### Discovered
+2026-05-21 — Phase D Delivery 1 post-run analysis
+
+### Description
+
+The 2026-05-21 06:31 cron run produced a retrieval package with only 7 mapped
+sources (mapping_size=7), compared to a recent norm of 14–15. Retrieval counts
+were within normal range (Brave=44, Baidu=54), indicating the problem is not a
+fetching failure but a collapse somewhere in the packaging or filtering step that
+builds retrieval_package_china_monitor_001.json from raw results.
+
+Downstream impact:
+- source_numbers_seen=20; source_numbers_resolved=8; source_numbers_dropped=12
+- out_of_range_numbers=12 (agent cited source numbers beyond mapping_size=7)
+- unsupported_groups=4; uncited_claims_removed=4
+- Delivered output: 2 ET + 2 AL bullets (4 of 8 bullets removed)
+- Phase D Delivery 1 arrived at client materially shorter than expected
+
+### Impact
+
+Material content degradation on the first Phase D client delivery. Client
+received a 4-bullet brief instead of the standard 8-bullet brief. Citation
+integrity is intact (8/8 matched, 0 failures), but volume and topic coverage
+are significantly reduced.
+
+### Resolution Required
+
+Read retrieval_package_china_monitor_001.json on VPS to determine how many
+sources are present and which filtering or deduplication step reduced 44+54
+raw results to 7 packaged sources. Diagnose before the 2026-05-22 cron run
+if possible.
+
+Path: /root/openclaw_phase5/data/retrieval_package_china_monitor_001.json
+
+---
+
+## Issue #48 — Delivery Relay Not Client-Namespaced
+
+### Status
+✅ RESOLVED — 2026-05-20
+
+### Discovered
+2026-05-20 — Step 9.7 manual test run
+
+### Description
+
+The delivery relay at `http://127.0.0.1:8787/push` is not client-aware. The curl
+call in `run_light_to_lark.sh` (line 283) posts to the relay with no `client_id`
+or webhook parameter. The relay delivers to a single hardcoded Lark channel
+regardless of which client triggered the run. `pilot_mode: true` in
+`client_config_test_client_002.yaml` has no effect — the delivery gate does not
+read `pilot_mode` from the client config.
+
+During the Step 9.7 test run, `test_client_002` content was delivered to the live
+china_monitor_001 Lark channel at 10:10 Shanghai. The content was real China
+Monitor content (not synthetic garbage) because `test_client_002` used
+`query_template_set: china_monitor_v1`, which ran live Brave/Baidu queries and
+retrieved current China news. The subscriber received an unscheduled second brief.
+
+### Impact
+
+Any manual test run on any non-default client will deliver to the live channel
+until resolved. This is a live client experience issue if real subscribers are
+present.
+
+### Phase C Gate Implication
+
+Namespace isolation at the delivery layer is not confirmed. Phase C gate requires
+operator decision: is delivery-layer namespacing in scope for Phase C, or does
+Phase C close on artifact-layer isolation only with delivery namespacing deferred?
+
+### Resolution
+
+Resolved 2026-05-20 — operator confirmed delivery namespacing in Phase C scope.
+Two patches applied to `run_light_to_lark.sh`:
+1. `export OPENCLAW_PILOT_MODE=$(grep '^OPENCLAW_PILOT_MODE=' "$LOADER_ENV_FILE" | cut -d= -f2)` added at line 21.
+2. Pilot mode delivery gate added at line 285: if `OPENCLAW_PILOT_MODE=true`, print `[SKIP]` and `exit 0` before curl call.
+Backup: `run_light_to_lark.sh.bak_20260520_pre_pilot_mode`.
+Confirmed: Step 9.7 re-run shows `[SKIP] pilot_mode=true — delivery blocked for client_id=test_client_002`. Live Lark channel not touched.
+
+---
+
+## Issue #49 — run_light_to_lark.sh Loader Variables Not Fully Exported
+
+### Status
+✅ RESOLVED — 2026-05-23
+
+### Discovered
+2026-05-20 — Claude Code side observation during Fix 1 investigation
+
+### Description
+
+`run_light_to_lark.sh` lines 19–22 read variables from `loader.env` (CLIENT_ID,
+ARTIFACT_NAMESPACE, PILOT_MODE, etc.) via grep/cut assignment. Only
+`OPENCLAW_ARTIFACT_NAMESPACE` and `OPENCLAW_PILOT_MODE` have been explicitly
+exported (patches applied 2026-05-20). Other variables (e.g. `OPENCLAW_CLIENT_ID`)
+are assigned as shell variables only and are not visible to child processes.
+Child subprocesses that need CLIENT_ID may fall back to hardcoded defaults
+rather than the loader.env value.
+
+### Impact
+
+Not currently blocking — confirmed test_client_002 run produced correct namespaced
+artifacts with current export set. Risk increases when additional clients and
+pipeline components are added in production.
+
+### Resolution
+
+Resolved 2026-05-23. Six missing `export` statements added to `run_light_to_lark.sh`:
+`OPENCLAW_CLIENT_ID`, `OPENCLAW_BRAIN_CONTEXT`, `OPENCLAW_DELIVERY_TYPE`,
+`OPENCLAW_CREDENTIALS_REF`, `OPENCLAW_QUERY_TEMPLATE`, `OPENCLAW_REPORT_TEMPLATE`.
+All 9 loader vars confirmed visible in subshell smoke test. Pre-production blocker cleared.
+
+---
+
+## Issue #46 — OPENCLAW_ARTIFACT_NAMESPACE Not Propagating to Scrubber Subprocess
+
+### Status
+✅ RESOLVED — 2026-05-20
+
+### Discovered
+2026-05-20 — Step 9.7 manual test run
+
+### Description
+
+During the Step 9.7 manual test run (`./run_light_to_lark.sh --client_id test_client_002`),
+the config loader correctly set `artifact_namespace=test_client_002` and the [CONFIG] log
+line confirmed `client_id=test_client_002 artifact_namespace=test_client_002`. However,
+the scrubber (`scrub_result_ids.py`) defaulted to `china_monitor_001`, writing its output
+to `final_output_scrubbed_china_monitor_001.txt` instead of `final_output_scrubbed_test_client_002.txt`.
+The subsequent `cp` in `run_light_to_lark.sh` failed with "cannot stat
+final_output_scrubbed_test_client_002.txt". The pipeline aborted before reaching delivery.
+
+### Impact
+
+`final_output_scrubbed_china_monitor_001.txt` was overwritten with degraded content
+(ids_removed=17 vs confirmed 0 from morning cron). Morning delivery was unaffected
+(completed at 06:31, three hours prior). Tomorrow's 06:30 cron will regenerate all
+artifacts from scratch — no live client impact.
+
+### Root Cause (working hypothesis)
+
+`OPENCLAW_ARTIFACT_NAMESPACE` is exported by `run_light_to_lark.sh` after sourcing
+`loader.env`, but is not being inherited by the `scrub_result_ids.py` subprocess.
+Python subprocess env inheritance or the source/export sequence in the shell script
+is the likely fault location. Requires VPS investigation.
+
+### Resolution
+
+Two bugs found and patched 2026-05-20:
+1. Line 20: `OPENCLAW_ARTIFACT_NAMESPACE` assigned but not exported — fixed with `export`.
+2. Line 191: typo `${OPENCLAW_ARTIFACT_NAMESPAC}` (missing `E`) — fixed via sed.
+Backup: `run_light_to_lark.sh.bak_20260520_pre_ns_export`.
+Re-run of Step 9.7 confirmed scrubber wrote to correct namespace (test_client_002).
+Note: lines 190 and 193 have a further typo `${OPENCLAW_ARTIFACTNAMESPACE}` (missing
+underscore) — did not block this run but requires a follow-up patch.
+
+---
+
+## Issue #47 — Intermediate Retrieval Artifacts Not Client-Namespaced
+
+### Status
+✅ RESOLVED 2026-06-09 — all 7 phase5 intermediate artifacts namespaced by OPENCLAW_ARTIFACT_NAMESPACE (query_bundle, baidu_raw, brave_raw, normalized_results, deduped_results, filtered_results, conflicts; retrieval_package was already namespaced). All 7 orchestrator scripts plus run_phase5_offline.sh and run_light_to_lark.sh updated. Legacy un-namespaced files in data/ remain pending cleanup (Phase 2 hygiene item).
+
+### Discovered
+2026-05-20 — Step 9.7 investigation
+
+### Description
+
+Intermediate retrieval artifacts (`brave_raw.json`, `baidu_raw.json`,
+`query_bundle.json`, `conflicts.json`, `normalized/`, `filtered_results.json`) are written to
+shared paths with no client_id suffix. Two concurrent client runs would overwrite
+each other's retrieval data silently. Confirmed during the Step 9.7 investigation:
+two sequential `test_client_002` runs both wrote to the same intermediate paths,
+producing a mixed artifact state in the data directory.
+
+### Impact
+
+Not a current operational risk — cron runs only one client (china_monitor_001) on
+a fixed schedule. Concurrent manual runs are the only exposure path, and those are
+operator-controlled. Becomes a real risk when a second client is added to cron or
+when parallel manual testing is conducted.
+
+### Scope Note
+
+The hardcoded-filename audit (2026-05-18) classified `build_agent_input.py` and
+`run_phase5_offline.sh` as NO (no namespacing required). The intermediate retrieval
+files were not explicitly classified in that audit. Phase C has now closed.
+Issue #47 does not gate Phase C retroactively.
+
+### Resolution Required
+
+Operator decision required on whether intermediate retrieval artifacts should be
+namespaced immediately or whether concurrency should remain prohibited until a
+later implementation step. Resolution required before onboarding a second real
+client, enabling concurrent client runs, or adding a second scheduled cron client.
+
+### Update — 2026-06-04 (ALJ investigation)
+
+ALJ (`alj_china_auto_001`) investigation confirmed the shared-buffer exposure
+concretely and added three related findings:
+
+- **`conflicts.json` added to the non-namespaced list.** `package_builder.py`
+  reads global `query_bundle.json` / `filtered_results.json` / `conflicts.json`
+  and only the *output* (`retrieval_package_{namespace}.json`) is namespaced.
+- **Per-client retrieval package is a point-in-time snapshot, not an isolated
+  fetch.** `retrieval_package_alj_china_auto_001.json` (run_id
+  run_20260603T102730Z) is a snapshot-wrapper of whatever was in the shared
+  global buffer at build time — not a reproducible ALJ-scoped retrieval. Live
+  proof: the global intermediates were later observed holding a different `us_r1`
+  (WS1 US-region) run with 45 results dated 2026-06-03/04, having overwritten
+  the ALJ state. `baidu_status: "ok"` in the package is only a presence flag
+  (any result tagged provider=Baidu), not a confirmed live ALJ call.
+- **`SERPAPI_KEY` not provisioned in ALJ `loader.env`.** ALJ's `loader.env`
+  carries only `OPENCLAW_RETRIEVAL_PROVIDERS=baidu` — no SerpAPI key.
+  `baidu_executor.get_api_key()` reads `os.environ`, so retrieval authenticates
+  off the ambient shell env. This works for operator-run manual triggers but is
+  not proper per-client key provisioning; an environment without the ambient key
+  set would hard-fail Baidu retrieval for ALJ.
+
+Severity unchanged: pre-production, non-blocking while ALJ is manual-trigger-only
+with `pilot_mode=true`. Operator decision still required before ALJ goes live or a
+second client onboards.
+
+---
+
+## Issue #65 — tv.cctv.com URL in ALJ Scrubbed Output
+
+### Status
+✅ CLOSED — 2026-06-04 — false alarm
+
+### Discovered
+2026-06-04 — ALJ Pilot Run 5 review
+
+### Description
+
+tv.cctv.com URL appeared in `final_output_scrubbed_alj_china_auto_001.txt`
+despite CP-025 exclusion being deployed. Investigation confirmed CP-025 is
+working correctly. Root cause: the scrubbed output file is written BEFORE
+`citation_sub.py` runs. The agent includes a hallucinated Section 8 appendix
+(with invented URLs) in its raw output, which is present in the scrubbed file.
+`citation_sub.py` strips the agent's Section 8 entirely and replaces it with
+deterministic pipeline-generated SOURCES before Lark delivery. The tv.cctv.com
+URL never reaches the client.
+
+### Resolution
+
+No code change required for the root cause. CP-025 confirmed working. Issue #62
+fix in `citation_sub.py` confirmed active. `run_phase5_offline.sh` patched with
+explicit `OPENCLAW_CLIENT_ID` export as a hardening measure (backup:
+`run_phase5_offline.sh.bak_20260604_issue65`).
+
+### Review workflow note
+
+The scrubbed file used for internal review will always show the agent's Section 8
+(with potentially hallucinated URLs). For review purposes, Section 8 of the
+scrubbed file should be disregarded — the SOURCES appendix in the Lark delivery
+is pipeline-generated and authoritative.
+
+---
+
+## Tracked Input T-01 — Freshness Signaling Not Distinguished in Output
+
+### Origin
+Advisory note 2026-05-08
+
+### Description
+
+The delivered report mixes precision-window (past 24 hours) and recall-window
+(past 7 days) material without distinguishing them. For a daily intelligence
+product, the Executive Take should privilege fresh material and clearly signal
+which bullets are based on same-day developments vs. continuing context.
+
+### Context
+
+The current dual-window query design (precision=pd, recall=pw) is intentional
+and correctly implemented per Phase 6.4. The gap is in how this material is
+presented to the end reader — not in retrieval behavior.
+
+### Scope
+
+Agent prompt or output format concern. Does not require retrieval changes.
+Phase 6.9–6.11 or Phase 7 territory.
+
+---
+
+## Tracked Input T-02 — Source Authority Classification Uncalibrated
+
+### Origin
+Advisory note 2026-05-08
+
+### Description
+
+Lower-authority platform/contributor content (e.g., `caifuhao.eastmoney.com`)
+is cited alongside tier-1 sources (Reuters, CCTV) without qualification. For a
+client-grade intelligence product, source authority should be visible or at
+minimum inform how claims are framed.
+
+### Recommended Classification Framework
+
+- **Higher-authority / official:** CCTV, Xinhua, official ministries/regulators,
+  state outlets
+- **Established financial/business press:** Sina Finance, Yicai, Caixin,
+  21st Century Business Herald, Securities Times, China Securities Journal
+- **Platform/contributor or lower-authority:** caifuhao.eastmoney.com and
+  similar creator/contributor pages
+
+### Scope
+
+Retrieval filtering/scoring or agent prompt guidance. Must not be addressed
+via source biasing in query templates (prohibited per current query rules).
+Phase 6.9–6.11 or Phase 7 territory.
+
+---
+
+## Tracked Input T-03 — Chinese-Source Diversity Not Yet Consistently Rich
+
+### Origin
+Advisory note 2026-05-08
+
+### Description
+
+Chinese-language sources are present and improving (confirmed in 2026-05-08
+delivery), but coverage is not yet consistently distributed across source
+categories. A mature China monitoring brief should draw from official/regulatory
+sources, state media, Chinese financial press, market-data/brokerage platforms,
+and credible sector-specific outlets.
+
+### Constraint
+
+Source diversity must not be addressed by hardcoding preferred publishers into
+query templates. Source selection belongs to retrieval/filtering/scoring.
+
+### Scope
+
+Expansion layer (Phase 6.9–6.11) or Phase 7 territory.
+
+---
+
+## Tracked Input T-04 — Advisory Language Calibration
+
+### Origin
+Advisory note 2026-05-08
+
+### Description
+
+Several phrases in the 2026-05-08 delivered output are stronger than the
+cited evidence directly supports: "must immediately re-evaluate," "urgently
+accelerate innovation," "unprecedented risks," "heightened and prolonged
+volatility." Client-grade advisory output should match claim strength to
+the evidence base.
+
+### Preferred Style Example
+
+> Companies should review whether current compliance frameworks account for
+> potentially conflicting U.S. and Chinese legal obligations.
+
+Rather than:
+
+> Companies must immediately re-evaluate compliance frameworks.
+
+### Scope
+
+Agent prompt guidance — advisory language calibration. Phase 7 editorial
+workstream.
+
+### Resolution
+
+Deployed 2026-05-13. Two additions made to
+/root/openclaw_phase5/orchestrator/build_agent_input_slim.py:
+
+1. ADVISORY LANGUAGE CALIBRATION block added to system_rules — prohibits
+   imperative constructions ("must", "must immediately", "urgently",
+   "immediately accelerate") and alarm-grade superlatives ("unprecedented",
+   "extreme", "crisis-level", "heightened and prolonged") unless that exact
+   framing appears in a cited retained source; mandates conditional advisory
+   framing with PREFERRED/NOT ALLOWED examples.
+
+2. Advisory language rules block added to output_format — explicit
+   per-section framing constraints; match advisory strength to evidential
+   strength; one implication per bullet.
+
+py_compile exit 0 — syntax valid. Validates on next cron run (2026-05-14).
+
+### Status
+✅ CLOSED — 2026-05-19. Validated across five consecutive cron runs
+(2026-05-14 through 2026-05-18). All 5 AL bullets confirmed conditional/
+hedged framing on each run. No imperative constructions or alarm-grade
+superlatives observed. Compliance confirmed by CoWork post-run analysis.
+
+---
+
+## Tracked Input T-05 — Middle East Content Drift
+
+### Origin
+Advisory note 2026-05-08
+
+### Description
+
+The Middle East section in the 2026-05-08 delivery included Shell profits,
+U.S. crude exports, Strait of Hormuz risk, and UAE capital projects without
+consistently anchoring these items to China exposure, Chinese company
+involvement, or multinational operating conditions tied to China-Middle East
+relations. Generic energy volatility without China linkage drifts from the
+product's core brief.
+
+### Scope
+
+Query intent or agent framing guidance. Middle East coverage should be
+anchored to: China energy demand, Chinese company operations, China-Middle
+East trade/payments/investment, or multinational conditions involving China.
+Phase 6.9–6.11 or Phase 7 territory.
+
+---
+
+## Tracked Input T-08 — Double [BRAIN_LITE] summary_write_started
+
+### Status
+✅ RESOLVED — 2026-05-11
+
+### Origin
+Brain Lite confirmation Run 1, 2026-05-11
+
+### Description
+
+First manual confirmation run of run_light_to_lark.sh produced two
+`[BRAIN_LITE] summary_write_started` markers per run. The shell script
+(run_light_to_lark.sh line 290) echoed `[BRAIN_LITE] summary_write_started`
+immediately before invoking write_run_summary.py, which also emitted the same
+marker via `log("summary_write_started")` at line 132. Both fired on every run.
+
+### Root Cause
+
+Implementation brief specified the shell script echo as a log tag, and
+write_run_summary.py was independently implemented to also emit summary_write_started
+at the top of main(). Duplicate not caught in Step 7 testing (test ran
+write_run_summary.py directly, not via run_light_to_lark.sh).
+
+### Resolution
+
+Removed `log("summary_write_started")` from write_run_summary.py line 132.
+Shell script retains the echo (owns started/failed markers). Python retains
+metrics_unavailable and summary_write_completed. Expected sequence after fix:
+`[BRAIN_LITE] summary_write_started` (shell) →
+`[BRAIN_LITE] metrics_unavailable` (python) →
+`[BRAIN_LITE] summary_write_completed` (python).
+
+Second confirmation run verified: correct single-marker sequence confirmed.
+
+---
+
+## Tracked Input T-06 — scrubber_report.json Not Found at Expected Path
+
+### Status
+✅ RESOLVED — 2026-05-11
+
+### Origin
+Log observation 2026-05-08
+
+### Root Cause Confirmed
+
+Claude Code audit of /root/openclaw_phase6/validation/scrub_result_ids.py
+(2026-05-11, Phase C pre-implementation hardcoded-filename audit):
+
+scrubber_report.json was never implemented. scrub_result_ids.py writes
+exactly two artifacts — final_output_scrubbed.txt (line 112) and
+conflict_log.json (line 119). No JSON scrubber report is produced or
+expected anywhere in the pipeline. Scrubber metrics (ids_seen, ids_kept,
+ids_removed, unsupported_groups) are emitted to stdout and captured by
+the cron log only.
+
+No pipeline gap — system functions correctly without a JSON scrubber
+report. No namespacing action required for Phase C implementation.
+
+### Secondary Finding
+
+scrub_result_ids.py lives at /root/openclaw_phase6/validation/, not
+/root/openclaw_phase5/data/ as previously assumed. Future audit scope
+should include /root/openclaw_phase6/validation/ alongside phase5/.
+
+---
+
+## Tracked Input T-09 — CoWork VPS Direct Access Not Implemented
+
+### Origin
+Execution Plan Sections 10.2 and 10.3 — gap identified 2026-05-13
+
+### Description
+
+The Phase 7 Execution Plan specifies that CoWork should have direct SSH
+access to the VPS as the openclaw_cowork non-root user, and should produce
+daily post-run reports automatically written to
+/root/openclaw_cowork/reports/run_review_YYYYMMDD.md after each 06:30 cron
+run.
+
+Current state: CoWork has no SSH connection to the VPS. All VPS interaction
+this session required the operator to run commands manually and paste output
+into chat. The daily post-run report has never been written. CoWork is
+operating in relay mode — not in the co-located model the plan specifies.
+
+### What Was Completed (Step 2B, 2026-05-09)
+- openclaw_cowork system user created (uid=999)
+- Filesystem permission boundary configured structurally
+
+### What Is Missing
+- SSH keypair not generated for openclaw_cowork user
+- CoWork has no credentials to authenticate to VPS as openclaw_cowork
+- Daily post-run report not operational
+- Section 10.3 safeguard completion status unclear:
+    1. SerpAPI key moved to secrets location outside CoWork read path — status unknown
+    2. Git pre-commit hook installed in openclaw_docs/ and openclaw_cowork/ — status unknown
+    3. Written access control model reviewed and signed off — status unknown
+
+### Why It Matters
+Section 7.1 of the Execution Plan lists "VPS Phase B active: CoWork
+co-located with read access to logs and validation outputs; daily post-run
+report operational" as a hard prerequisite for Phase D (controlled pilot).
+This gap must be closed before pilot begins.
+
+### Scope
+VPS configuration + CoWork SSH setup. Two parts:
+1. Verify/complete the three Section 10.3 safeguards (Claude Code)
+2. Generate SSH keypair for openclaw_cowork; configure CoWork access;
+   test connection and daily report write (Claude Code + one session)
+
+### Resolution
+
+Completed 2026-05-13 across two sessions:
+
+**Section 10.3 safeguards — all three complete:**
+1. SerpAPI key moved from hardcoded run_light_to_lark.sh to
+   /root/.secrets/openclaw.env (mode 600, root-owned); run_light_to_lark.sh
+   line 4 updated to `source /root/.secrets/openclaw.env`.
+2. Git pre-commit hooks installed in both /root/openclaw_docs/.git/hooks/
+   and /root/openclaw_cowork/.git/hooks/ — require commit messages before
+   applying to production.
+3. Access control model: openclaw_cowork (uid=999) permission boundary
+   enforced structurally per Step 2B. Shell changed from /usr/sbin/nologin
+   to /bin/bash to allow SSH.
+
+**SSH keypair:**
+- ed25519 keypair generated; public key installed in
+  /home/openclaw_cowork/.ssh/authorized_keys (chmod 600).
+- Private key saved to workspace at config/cowork_key; shredded from VPS.
+- pubkeyauthentication yes confirmed in sshd.
+
+**VPS sync pattern (replaces direct SSH from CoWork):**
+- CoWork bash sandbox is fully network-isolated — direct SSH not achievable.
+- Resolution: operator runs PowerShell scp block at session start to pull
+  VPS artifacts to config/vps_sync/ on local machine.
+- CoWork reads from config/vps_sync/ locally. No networking required from
+  CoWork side.
+- Pattern tested and confirmed 2026-05-13: light_to_lark.log (88KB),
+  validation_result.json (5.9KB), two run_summary JSONs all verified readable.
+- Protocol documented at config/VPS_SYNC_PROTOCOL.md.
+
+### Status
+✅ RESOLVED — 2026-05-13
+
+---
+
+## Tracked Input T-10 — Brain Lite metrics_unavailable
+
+### Origin
+Brain Lite confirmation Run 2 (2026-05-12), confirmed Run 3 (2026-05-13)
+
+### Status
+🔄 REOPENED — 2026-05-21
+
+Regression observed on 2026-05-21 cron run. [BRAIN_LITE] metrics_unavailable
+emitted; run_summary ids_seen/ids_kept/ids_removed=0; validator_status=UNKNOWN.
+
+Root cause confirmed (Claude Code audit 2026-05-21): write_run_summary.py
+get_validator_metrics() read from hardcoded non-namespaced path
+(/root/openclaw_phase6/validation/validation_result.json). After Step 9.4,
+validator.py writes to the namespaced path (validation_result_china_monitor_001.json).
+Non-namespaced file is stale — get_validator_metrics() found no valid summary
+block and returned (0, 0, 0). No scrubber WARN branch involved; the WARN path
+was a red herring — root cause is purely the path mismatch from Step 9.4.
+
+Patch deployed 2026-05-21 (OPENCLAW-D-CP-001, operator approved):
+- get_validator_metrics() now reads OPENCLAW_ARTIFACT_NAMESPACE env var
+  (default: "china_monitor_001") to construct the namespaced path
+- Lines 40–42 of write_run_summary.py: namespace + validator_path inserted;
+  load_json call updated to use validator_path
+- Backup: write_run_summary.py.bak_20260521_pre_ns_path
+- py_compile exit 0 confirmed
+
+CP-001 validation result (2026-05-22 06:32 cron run):
+- ids_seen=25, ids_kept=25, ids_removed=0 — metrics path fix CONFIRMED ✓
+- [BRAIN_LITE] metrics_unavailable: ABSENT ✓
+- validator_status="UNKNOWN" — severity field still not populated ✗
+- CP-005 raised and approved 2026-05-22 to add severity field read.
+  T-10 remains open pending CP-005 deployment and validation.
+
+### Description
+
+write_run_summary.py had metrics hardcoded to 0 (C1 condition — placeholder
+pending scrubber change). Fields ids_seen, ids_kept, ids_removed wrote as 0
+on every run. `[BRAIN_LITE] metrics_unavailable` emitted on every execution.
+
+Actual validator metrics were correct and available in validation_result.json
+and the cron log. The gap was exclusively in what Brain Lite wrote to the
+run_summary.
+
+### Evidence
+
+Run 2 (2026-05-12): `[BRAIN_LITE] metrics_unavailable` in cron log; run_summary
+ids_seen=0, ids_kept=0, ids_removed=0.
+Run 3 (2026-05-13): same pattern. validation_result.json confirmed actual
+values were 30/30/0.
+
+### Root Cause
+
+validation_result.json metrics are nested under `d["summary"]`. Original patch
+read from top-level `d`, where `"failures"` is an empty list `[]` — causing
+`int()` TypeError. Corrected to read from `d["summary"]` block.
+
+### Resolution
+
+Patch deployed 2026-05-13 to write_run_summary.py:
+- `get_validator_metrics()` function added — reads claims_checked,
+  sources_matched, failures from validation_result.json `summary` block
+- Mapping: claims_checked → ids_seen; sources_matched → ids_kept;
+  failures → ids_removed
+- `log("metrics_unavailable")` moved to fallback path only (file unreadable)
+- `log("summary_write_completed")` retained as success marker
+- Backup: write_run_summary.py.bak_20260513
+- py_compile: OK
+- Manual verification (2026-05-13): ids_seen=30 | ids_kept=30 | ids_removed=0
+
+Confirms on Run 4 (2026-05-14 cron). uncited_claims_removed remains 0 —
+scrubber does not emit this count to a readable file; separate workstream
+if required.
+
+---
+
+## Tracked Input T-07 — LinkedIn Draft Non-Refresh Across Consecutive Runs
+
+### Origin
+Content observation 2026-05-11 (two-run comparison)
+
+### Description
+
+The LinkedIn Draft section of the 2026-05-10 and 2026-05-11 delivered outputs
+is word-for-word identical, despite meaningfully different EXECUTIVE TAKE and
+ADVISORY LAYER bullet content across the two runs. The LinkedIn section did not
+update to reflect the specific sourced content of each run.
+
+### Context
+
+The LinkedIn Draft is generated by the agent as part of the same output pass
+as EXECUTIVE TAKE and ADVISORY LAYER. The non-refresh pattern suggests the
+agent is producing a generic synthesis for the LinkedIn section rather than a
+daily-refreshed summary grounded in the specific run's sourced bullets.
+
+This is related in nature to T-04 (advisory language calibration) and T-01
+(freshness signaling) — all are agent prompt behavior patterns affecting
+output quality rather than pipeline correctness.
+
+### Scope
+
+Agent prompt guidance — LinkedIn section grounding instructions. Phase 7
+editorial-quality workstream. Does not require retrieval or pipeline changes.
+
+---
+
+## Issue #34 — Citation System Instability
+
+### Status
+✅ RESOLVED
+
+---
+
+## Issue #35 — result_id Generation Drift Under Citation Padding
+
+### Description
+
+Recent agent outputs showed continued invalid result_id usage despite
+result_id-based citation architecture. The agent consistently used the
+expected result_id format, but added invalid IDs inside otherwise plausible
+citation groups through pattern-completion behavior.
+
+### Root Cause
+
+The agent was treating result_ids as generative text rather than controlled
+evidence identifiers. Without a constrained list of valid IDs in the prompt,
+the model learned the ID shape and generated similar-looking but fabricated
+values.
+
+### Resolution
+
+1. Lock agent output format ✔ COMPLETE
+2. Add VALID_RESULT_IDS to agent input (build_agent_input_slim.py) ✔ COMPLETE
+3. Require citation syntax:
+   - (result_id: ...) ✔ COMPLETE
+4. Prohibit repeated freeform result_id groups ✔ COMPLETE
+5. Scrubber updated to parse locked format ✔ COMPLETE (2026-05-02)
+6. Validator updated to parse locked format ✔ COMPLETE (2026-05-02)
+
+### Session Progress
+
+- 2026-05-01: VALID_RESULT_IDS injection implemented; offline tests confirmed
+  zero fabricated IDs; full scrubber + validator chain executed without errors
+- 2026-05-02: Scrubber and validator updated; GREEN PASS confirmed on live
+  cron; Delivery #1 achieved (08:26 Shanghai)
+- 2026-05-03: Delivery #2 confirmed (06:30 Shanghai); two consecutive
+  locked-format deliveries complete; Phase 6.3a exit criteria met
+
+### Status
+
+✅ RESOLVED — Two consecutive locked-format deliveries confirmed.
+Phase 6.3a exit criteria met as of 2026-05-03 06:30 Shanghai.
+Operator approved 2026-05-03.
+
+---
+
+## Issue #36 — Agent Format Non-Determinism in Live Cron Runs
+
+### Description
+
+The agent produced locked citation format consistently in offline test runs
+but produced old format citations in the live cron run at 08:01 Shanghai on
+2026-05-02 despite the same build_agent_input_slim.py being called by both
+paths.
+
+### Root Cause
+
+Not definitively confirmed. Non-determinism observed in one run only
+(2026-05-02 08:01 Shanghai). Subsequent live runs (2026-05-02 08:26 and
+2026-05-03 06:30) produced locked format consistently. Hypothesis: isolated
+LLM stochastic event under the specific retrieval context of that run
+(4 results vs. 8 in other runs).
+
+### Status
+
+✅ RESOLVED — Two consecutive locked-format live cron deliveries (2026-05-02
+08:26 and 2026-05-03 06:30) demonstrate consistent agent format behavior.
+Non-determinism not reproduced. Issue closed 2026-05-03.
+
+---
+
+## Issue #37 — Offline Script Missing Agent Output Save Step
+
+### Status
+✅ RESOLVED — 2026-05-05, operator authorized
+
+### Description
+
+run_phase5_offline.sh captures the agent's output into a shell variable and
+prints it to stdout, but does not write it to
+/root/openclaw_phase5/data/final_output.txt. The live cron script
+(run_light_to_lark.sh) performs this save step. As a result, manual offline
+runs cannot be passed through the scrubber and validator without a manual
+workaround.
+
+### Impact
+
+Manual testing of the locked format pipeline requires copying terminal output
+to final_output.txt by hand. Risk of human error in test data. Not a live
+pipeline risk.
+
+### Contributing Factor
+
+Issue #37 also means the pre-scrubber agent output is not saved on live runs,
+limiting post-run forensic analysis when issues like #41 occur.
+
+### Resolution
+
+Operator authorized 2026-05-05. `run_phase5_offline.sh` modified to pipe agent
+output through `tee /root/openclaw_phase5/data/final_output.txt` at end of
+docker exec block. `set -o pipefail` confirmed present — non-zero exit
+propagates correctly through pipe. Syntax check passed (`bash -n`).
+
+### Status
+✅ RESOLVED — 2026-05-05, operator authorized
+
+---
+
+## Issue #39 — Lark Delivery Uses Pre-Scrubber Content
+
+### Status
+✅ RESOLVED — 2026-05-04, operator approved
+
+### Description
+
+In `run_light_to_lark.sh`, the variable `$FINAL` is built from the raw agent
+output before the scrubber runs. After `scrub_result_ids.py` removes invalid
+citations and promotes `final_output_scrubbed.txt` to `final_output.txt`,
+`$FINAL` in memory is never reloaded from the updated file. The Lark push
+sends `$FINAL` — the pre-scrubber content — not the scrubbed output.
+
+### Root Cause
+
+`$FINAL` was assigned once from raw output and never refreshed after scrubbing.
+
+### Resolution
+
+Operator authorized fix on 2026-05-04. Single line inserted in
+`run_light_to_lark.sh` at line 168, immediately after the scrubber promotion
+step:
+
+```bash
+FINAL=$(cat /root/openclaw_phase5/data/final_output.txt)
+```
+
+Verified via grep — line 168 confirmed present.
+
+### Status
+✅ RESOLVED — 2026-05-04, operator approved
+
+---
+
+## Issue #40 — 3-Day Filter Threshold Creates Fragility in Off-Schedule Runs
+
+### Status
+✅ RESOLVED — 2026-05-04, operator authorized, live run verified
+
+### Description
+
+The filter requires results to be within 3 days old. On the 2026-05-04 09:30
+manual test run, Brave returned 60 results (50 after dedup), all from
+2026-04-24 to 2026-04-27 — 7 to 10 days old. The filter correctly dropped
+all 50 as stale.
+
+### Root Cause
+
+brave_executor.py passed no freshness or date parameters to the Brave API.
+Query text time windows ("today", "past week") had no mechanical enforcement.
+
+### Resolution
+
+Added `freshness` parameter to the Brave API call, keyed by `query_type`:
+- Precision queries: `"freshness": "pd"` — past 24 hours
+- Recall queries: `"freshness": "pw"` — past 7 days
+
+Live run verified 09:57 Shanghai 2026-05-04. Backup saved:
+brave_executor.py.bak_20260504.
+
+### Status
+✅ RESOLVED — 2026-05-04, operator authorized, live run verified
+
+### Identified
+2026-05-04
+
+---
+
+## Issue #41 — Scrubber Placeholder Text Delivered to Lark on Unsupported Citation Format
+
+### Status
+✅ RESOLVED — 2026-05-05, operator authorized
+
+### Description
+
+When the scrubber encounters a citation group in an unrecognized format, it
+replaces the group with the literal string `(UNSUPPORTED_RESULT_ID_REMOVED)`
+rather than silently removing it. This placeholder propagates into
+`final_output.txt`, passes the validator (which does not treat it as a
+citation), passes the delivery gate, and is delivered to Lark subscribers
+verbatim.
+
+### Observed
+
+2026-05-05 09:49 Shanghai run — `unsupported_groups=3`. Three bullets in the
+delivered output contained `(UNSUPPORTED_RESULT_ID_REMOVED)` in place of a
+citation group:
+
+- EXECUTIVE TAKE — China EV bullet
+- ADVISORY LAYER — European automotive bullet
+- ADVISORY LAYER — China UN Security Council/Middle East diplomacy bullet
+
+The claim text in each bullet is intact. The citation is absent. The
+placeholder string is visible to Lark subscribers.
+
+### Root Cause
+
+The scrubber's fallback behavior for unrecognized citation formats inserts a
+visible placeholder string instead of silently removing the group. The exact
+unrecognized format used by the agent on this run is unknown — the pre-scrubber
+agent output is not saved (Issue #37 gap). The agent produced a mixed citation
+format on this run: 5 groups in the correct `(result_id: ...)` format, 3 in an
+unrecognized format. LLM stochastic behavior.
+
+### Impact
+
+Client-facing Lark output contains visible `(UNSUPPORTED_RESULT_ID_REMOVED)`
+text on any run where the agent produces a mixed citation format. Frequency is
+unpredictable — depends on agent stochasticity. Confirmed once across four
+runs observed today. No delivery failure — enforcement chain is sound.
+Presentation quality is degraded.
+
+### Contributing Factor
+
+Issue #37 (offline script missing save step) means the pre-scrubber agent
+output is not available for post-run inspection on live runs. The exact
+unrecognized format cannot be confirmed retroactively.
+
+### Resolution
+
+Operator authorized 2026-05-05. `scrub_result_ids.py` line 35 changed:
+- Before: `return "(UNSUPPORTED_RESULT_ID_REMOVED)"`
+- After: `return ""`
+
+Behavior: when a citation group matches CITATION_RE but contains no valid
+result_ids after ID extraction and validation (Option A path), the group is
+now silently removed. Claim text is retained; citation group is dropped.
+
+### Status
+✅ RESOLVED — 2026-05-05, operator authorized
+
+---
+
+## Issue #42 — SerpAPI Key Invalid — Baidu Retrieval Failure
+
+### Status
+✅ RESOLVED — 2026-05-06, operator authorized
+
+### Description
+
+The 06:30 scheduled run on 2026-05-06 produced zero Baidu results.
+baidu_raw.json showed result_count=0, error_count=6 — all six queries returned
+401 Unauthorized: "Invalid API key." All regions failed (us_p1, us_r1, eu_p1,
+eu_r1, me_p1, me_r1). Pipeline delivered Brave-only; validator GREEN PASS;
+delivery proceeded without failure.
+
+### Root Cause
+
+`run_light_to_lark.sh` line 4 sets the key as:
+`export SERPAPI_KEY="${SERPAPI_KEY:-REDACTED_IF_UNSET}"`
+
+Cron does not source `.bashrc`, so `$SERPAPI_KEY` is unset at cron execution
+time. The fallback value `REDACTED_IF_UNSET` is used instead of the real key,
+producing a 401 on all SerpAPI calls. Same failure class as the pre-Phase-6.4
+outage but different root cause: the prior outage was an inactive SerpAPI
+account; this outage was an env var not loaded by cron.
+
+### Impact
+
+Baidu absent from 06:30 delivery. Chinese-perspective sourcing not represented.
+Brave-only run. Validator GREEN PASS — 8/8 citations matched. Clean delivery,
+no pipeline failure.
+
+### Diagnostic Note
+
+During investigation, `validation_result.json` was confirmed to write to
+`/root/openclaw_phase6/validation/` — not `/root/openclaw_phase5/data/` where
+other run artifacts live. Path discrepancy should be kept in mind for future
+diagnostics.
+
+### Resolution
+
+Operator authorized 2026-05-06. `run_light_to_lark.sh` line 4 updated to
+hardcode the active SerpAPI key directly, removing the env var fallback
+pattern. Manual test confirmed Baidu restored: result_count=46, error_count=1.
+Validator GREEN PASS, 9/9 citations matched, clean delivery.
+
+### Status
+✅ RESOLVED — 2026-05-06, operator authorized
+
+---
+
+## Issue #43 — Agent Result ID Fabrication Rate Elevated
+
+### Status
+✅ RESOLVED — 2026-05-07, operator approved
+
+### Description
+
+Despite VALID_RESULT_IDS injection (Phase 6.3a), the agent continued to
+fabricate result_ids at a significant rate. In the 2026-05-06 10:13 Shanghai
+run: ids_seen=21, ids_kept=11, ids_removed=10 — a 48% fabrication rate. The
+agent was generating ID-shaped strings rather than selecting exact codes from
+the approved list it was given.
+
+### Impact
+
+- Claims in EXECUTIVE TAKE and ADVISORY LAYER lost citations when fabricated
+  IDs were scrubbed, appearing in the delivered report without source attribution
+- Valid sources available in the retrieval package went uncited (see Issue #44)
+- Elevated ids_removed rate in every scrubber report
+
+### Root Cause
+
+Partial recurrence of Issue #35. VALID_RESULT_IDS injection reduced fabrication
+from ~100% to ~48%, but agent prompt instruction was insufficient to prevent
+approximate ID generation. The agent treated result_ids as generative text
+rather than exact strings to be copied.
+
+### Resolution
+
+Phase 6.8 — Numbered-Source Architecture. Three files modified/created:
+- `build_agent_input_slim.py`: results rendered as SOURCE 1..N blocks; agent
+  cites [source_numbers: N] / [based_on_sources: N]
+- `resolve_source_numbers.py` (new): deterministic source number → result_id
+  mapping; inserted before scrubber in pipeline
+- `run_light_to_lark.sh`: resolver call inserted between agent output and scrubber
+
+Test #1: source_numbers_resolved=16/16, ids_removed=0, validator PASS 16/16.
+Test #2: source_numbers_resolved=17/17, ids_removed=0, validator PASS 17/17.
+Fabrication rate: 0% across two consecutive runs.
+
+### Status
+✅ RESOLVED — 2026-05-07, operator approved (Phase 6.8)
+
+### Identified
+2026-05-06
+
+---
+
+## Issue #44 — Valid Sources Not Surfacing in Delivered Output
+
+### Status
+✅ RESOLVED — 2026-05-08, log-confirmed
+
+### Description
+
+In the 2026-05-06 10:13 Shanghai run, 6 Baidu sources were present in
+retrieval_package.json. Only 3 (all CCTV) were cited in the delivered output.
+The 3 Sina Finance sources were not cited and their content did not appear
+in any bullet point:
+
+- Sina Finance (2026-05-06): China blocking injunction — legal angle
+- Sina Finance (2026-05-03): US-China high-level diplomatic contacts surge
+- finance.sina.cn (2026-05-05): Chips, Strait of Hormuz, three-department
+  policy deployment
+
+### Root Cause
+
+Issue #43 (agent fabrication). The agent attempted to cite these sources using
+fabricated result_ids, which were then scrubbed. Confirmed by resolution
+pattern: Phase 6.8 fix brought fabrication rate to 0%, and Sina Finance /
+finance.sina.cn sources surfaced in the subsequent 2026-05-08 06:32 delivery.
+
+### Resolution Confirmation
+
+2026-05-08 06:32 cron run:
+- Sina Finance and finance.sina.cn cited in multiple bullets across both
+  EXECUTIVE TAKE and ADVISORY LAYER
+- validator 23/23 PASS, substitutions_made=23, missing_ids=0
+- Root cause (Issue #43) confirmed resolved; surface behavior confirmed resolved
+
+### Status
+✅ RESOLVED — 2026-05-08, log-confirmed
+Dependent resolution of Issue #43 (Phase 6.8, 2026-05-07).
+
+### Identified
+2026-05-06
+
+---
+
+## Issue #45 — 2026-05-19 Delivery Failure — Step 9.3/9.4 Deployment Sequence
+
+### Status
+✅ RESOLVED — 2026-05-19
+
+### Origin
+2026-05-19 06:30 cron run analysis
+
+### Description
+
+The 2026-05-19 06:30 cron run failed to deliver. The config loader executed
+successfully (client_id=china_monitor_001, artifact_namespace=china_monitor_001
+confirmed). The resolver and scrubber ran but wrote to non-namespaced artifact
+paths (Step 9.4 not yet deployed). run_light_to_lark.sh (Step 9.3) then
+attempted to cp final_output_scrubbed_china_monitor_001.txt — which did not
+exist because scrub_result_ids.py still wrote to the non-namespaced filename.
+The script aborted. Validator and delivery gate were not reached. Brain Lite
+run_summary was not written.
+
+### Root Cause
+
+Step 9.3 (shell script namespacing) was deployed on 2026-05-18 without Step
+9.4 (Python script namespacing). The shell script expected namespaced artifact
+filenames that the Python scripts were not yet producing. Partial deployment
+created a broken handoff at the scrubber output step.
+
+### Resolution
+
+Rollback executed same session: run_light_to_lark.sh restored from
+run_light_to_lark.sh.bak_20260518_pre_config_loader. Steps 9.3 and 9.4
+prepared as a combined patch set, reviewed by CoWork, operator-approved, and
+deployed as a single unit on 2026-05-19. All 7 files (6 Python scripts +
+shell script) verified: py_compile exit 0 / bash -n exit 0. Step 9.4
+confirmation run expected 2026-05-20 06:30.
+
+### Identified
+2026-05-19
+
+## RESOLVED 2026-06-16 — Claim-Source Grounding (the June 6 critical trust issue)
+The 'valid citation ID but source does not support the claim' failure (CEO Dashboard June 6, Delivery 17) is RESOLVED for WS1 via the evidence-first trust model: facts are extracted as verbatim source spans (guaranteed substrings of the source article) before synthesis, the writer may only use extracted evidence, and verification runs on numbers (language-robust). First evidence-first WS1 run 2026-06-16: 16 grounded / 1 partial / 0 ungrounded of 17 cited claims = SOURCE-VERIFIED. WS2/ALJ still uses the original alignment check (stronger on citation existence, weaker on grounding) — convergence onto evidence-first is the recommended forward item. Ref: OPENCLAW_AS_BUILT_STATE_2026-06-16.
+
+## 2026-06-24 — WS1 selection-layer rebuild (Issues #72–#76)
+The 2026-06-23 deep assessment of WS1 (`openclaw_ws2b/cbiz_crawler/cbiz_daily.py`) found that the
+crawler, fetch ladder, Lark delivery, and verbatim-Chinese grounding foundation were sound, but the
+**selection / ranking / verification layer** had silently deviated from the approved 2026-06-15
+redesign spec on three points — fabricated corroboration (#72), stale-story leakage from a date-blind
+crawl-time window (#73), and volume waste from hard candidate/source caps (#74) — plus a silent
+no-delivery crash class (#75) and numbers-only verification (#76).
+
+Root cause was an **execution gap, not a concept problem**: the original spec already specified
+measured corroboration × recency with synthesis from the whole cluster. The fix was therefore a
+mechanical selection-layer rebuild, not a product overhaul. Shipped live 2026-06-24:
+- **#72/#73/#74 RESOLVED** (commits e85b855, 890321f): real distinct-outlet corroboration
+  (`recount_outlets`), publish-time window + recency-aware ranking, deterministic clustering over the
+  full window, 3→6 source cap, honest TOP-N header, client-grade brief format (masthead, per-story
+  sources, confidence line, footer) and a daily mirror to the openclaw-docs `WS1/` folder.
+- WS1 model migrated `deepseek-chat` → `deepseek-v4-flash` ahead of the 2026-07-24 `deepseek-chat`
+  deprecation (single knob: `CBIZ_DS_MODEL`).
+- **Still OPEN:** #75 dedicated `ALERTS.log` no-delivery alerting (the `category` KeyError class is
+  guarded but a crashed run still does not alert) and #76 deeper qualitative-claim / per-cited-source
+  verification.
+
+Spec: `OPENCLAW_WS1_SELECTION_REDESIGN_SPEC_2026-06-23.md`. Validation brief:
+`WS1_VALIDATION_BRIEF_2026-06-23.md`.
+
+## 2026-07-13 — WS1/ALJ editorial and sourcing fixes (Issues #77–#81)
+
+Today's session audited both the WS1 (China Business Daily) and WS2/ALJ (Jameel Motors China Auto Weekly) runs, identified five issues, and resolved all five.
+
+- **#77 RESOLVED** (commit 9fa3381): ALJ Section 2 (Partner Brand Watch) was consistently blank. Root cause: the 20-source cap uses an authority-tier + full_text + recency sort, which systematically crowded out toyota_lexus/dealer/china_oem-tagged articles when high-authority general news dominated. Fix: `PARTNER_RESERVE=4` slots are reserved for partner-brand-tagged articles before the general Chinese quota fills, with a backfill from the remaining zh pool if fewer than 4 partner articles exist.
+- **#78 RESOLVED** (commit a1afe6a): WS1 `label_and_score` (DeepSeek scoring pass) was assigning low significance scores to GDP, PMI, CPI, and NBS releases because its prompt instructed it to reward "business developments over routine official policy." A MACRO DATA EXCEPTION paragraph now mandates a significance/relevance floor of ≥4/5 for all official national statistics releases. A matching SELECTION editorial rule was added to `cbiz_style.md` requiring At a Glance placement for GDP/macro anchors.
+- **#79 RESOLVED**: The `/root` git repo had no remote. A VPS failure would have destroyed all WS1 and ALJ pipeline code with no recovery path. The `philiplisio-arch/openclaw-pipeline` repo (private) was created on GitHub and wired as the `/root` remote. Standing push instructions were added to `/root/CLAUDE.md` and to the `/root` project memory so every future session picks them up automatically.
+- **#80 RESOLVED** (commit a1afe6a): Steve feedback (2026-07-12) flagged "northbound capital" appearing without explanation. The CLARITY rule in `cbiz_style.md` was updated with a concrete gloss example: *northbound capital (Hong Kong-to-mainland Stock Connect flows)*.
+- **#81 RESOLVED** (2026-07-12 optimizer auto-run): Steve feedback (2026-07-12) flagged stories about corporate dishonesty/fraud convictions appearing in the brief. The ws1_optimizer.py nightly self-improvement loop added an exclusion rule automatically overnight July 12–13. Confirmed effective on the July 13 brief: no such stories appeared.
+
+---
+
+## Issue #77 — ALJ Section 2 (Partner Brand Watch) Blank
+
+### Status
+✅ RESOLVED 2026-07-13 — commit 9fa3381 to `openclaw-pipeline`
+
+### Discovered
+2026-07-13 — post-run audit of ALJ brief
+
+### Description
+
+Section 2 (Partner Brand Watch) of the ALJ China Auto Weekly brief was consistently blank or near-blank across multiple recent runs. The 20-source cap in `build_agent_input_slim.py` selects sources by priority: authority tier → full_text presence → recency. Toyota/Lexus, dealer-network, and China-OEM stories (tagged `toyota_lexus`, `dealer`, `china_oem`) scored below high-authority general automotive and policy sources and were squeezed out of the 20-article window before the agent ever saw them.
+
+### Impact
+
+The Partner Brand Watch section is a core deliverable of the ALJ brief. A blank section reached the client without triggering any gate or alert.
+
+### Resolution
+
+Added partner-brand slot reservation to `build_agent_input_slim.py`. After splitting zh/en results, up to `PARTNER_RESERVE=4` partner-tagged zh articles are reserved before the general zh quota (`zh_quota = max(1, int(MAX_SOURCES * 0.75))`) fills. If fewer than 4 partner articles exist, the remaining zh slots fill from the general pool. If the partner reserve has not reached the quota, the remaining spots fill from zh_all (backfill). The 75%/25% zh/en split is maintained and the overall 20-source cap is unchanged.
+
+```
+_PARTNER_TAGS = {"toyota_lexus", "dealer", "china_oem"}
+PARTNER_RESERVE = 4
+partner_zh = [r for r in zh_all if _is_partner(r)]
+general_zh  = [r for r in zh_all if not _is_partner(r)]
+reserved        = partner_zh[:PARTNER_RESERVE]
+remaining_quota = max(0, zh_quota - len(reserved))
+picked_zh       = reserved + general_zh[:remaining_quota]
+```
+
+---
+
+## Issue #78 — WS1 GDP/Macro Data Underweighted in Editorial Scoring
+
+### Status
+✅ RESOLVED 2026-07-13 — commit a1afe6a to `openclaw-pipeline`
+
+### Discovered
+2026-07-13 — Steve feedback from July 12 brief; GDP H1 readout was the top macro event but did not lead At a Glance
+
+### Description
+
+`cbiz_daily.py`'s `label_and_score` function uses a DeepSeek LLM to score each story candidate 1–5 on significance, impact, novelty, and relevance. The scoring prompt instructed the model to prefer "concrete business developments, corporate actions, and market-moving events" over "routine official policy" — a heuristic intended to filter out low-value government announcements. GDP, PMI, CPI, and NBS releases were being scored as "routine data releases" (often 2–3 out of 5 on significance), dropping them below company earnings, product launches, and single-stock news. For the international CEO audience of China Business Daily, macro data is the baseline that all investment and operational decisions reference.
+
+### Resolution
+
+Added a MACRO DATA EXCEPTION paragraph to the `label_and_score` prompt in `cbiz_daily.py`:
+
+> MACRO DATA EXCEPTION: Official national statistics releases — GDP (including half-year or quarterly readouts), CPI, PMI, NBS industrial output, trade balance, or employment figures — are high-priority signals for any international CEO audience. ALWAYS score these at least 4/5 on significance AND relevance. They are the macro baseline that all investment and operational decisions reference. Do not penalize them for being 'routine' or 'data releases'; feature them at least as prominently as equivalent company or markets stories.
+
+A corresponding SELECTION rule was appended to `cbiz_style.md`:
+
+> SELECTION: China's official national data releases (GDP — including half-year or quarterly readouts — CPI, PMI, NBS industrial output, trade balance) are high-significance macro anchors that every international CEO tracks. Always feature them in At a Glance and rank them at least as prominently as equivalent company or markets stories; do not let earnings roundups or single-stock moves displace them.
+
+---
+
+## Issue #79 — Pipeline Code Had No GitHub Remote
+
+### Status
+✅ RESOLVED 2026-07-13
+
+### Discovered
+2026-07-13 — operator asked to push pipeline commits; `git remote -v` showed no remotes
+
+### Description
+
+The `/root` git repo containing all WS1 and WS2/ALJ pipeline code (`openclaw_ws2b/`, `openclaw_phase5/`, `openclaw_phase6/`, `openclaw_phase7/`) had been initialized locally but never wired to a remote. All commits were local-only. A VPS failure, disk corruption, or accidental `rm -rf` would have destroyed the entire pipeline with no recovery path.
+
+### Impact
+
+No incremental risk while the system was running, but zero backup coverage. Every pipeline improvement since project start would have been unrecoverable on VPS loss.
+
+### Resolution
+
+1. Created `philiplisio-arch/openclaw-pipeline` (private) on GitHub via API.
+2. Added as `origin` remote on `/root` git repo.
+3. Stored PAT in `/root/.git-credentials` via credential helper store (not embedded in URL).
+4. Pushed all existing commits to `origin main` successfully.
+5. Added standing push instructions to `/root/CLAUDE.md` (auto-loaded by all sessions starting in `/root`) and to the `/root` project memory (`pipeline-repo.md`).
+6. Updated `/root/.claude/projects/-root-openclaw/memory/ws1-ops-memory-location.md` to reference the new remote.
+
+Push command: `git -C /root push origin main`
+
+---
+
+## Issue #80 — WS1 Northbound Capital Term Unexplained at First Use
+
+### Status
+✅ RESOLVED 2026-07-13 — commit a1afe6a to `openclaw-pipeline`
+
+### Discovered
+Steve feedback 2026-07-12 (collected via steve_digest.py / Web3Forms email)
+
+### Description
+
+The term "northbound capital" appeared in the WS1 brief without explanation. For the international CEO readership, "northbound capital" (Hong Kong-to-mainland Stock Connect flows) is a China-specific market mechanism that requires a brief parenthetical to be actionable. The ws1_optimizer.py auto-added a general CLARITY rule overnight 2026-07-12–13, but the rule lacked a concrete example.
+
+### Resolution
+
+CLARITY rule in `cbiz_style.md` updated with a specific gloss example:
+
+> CLARITY: Define or explain any jargon, acronym, or China-specific concept at first mention — one short parenthetical is enough (e.g., 'northbound capital (Hong Kong-to-mainland Stock Connect flows)').
+
+---
+
+## Issue #81 — WS1 Regulatory Dishonesty/Fraud Conviction Stories Appearing in Brief
+
+### Status
+✅ RESOLVED 2026-07-12 (optimizer auto-run) — confirmed effective 2026-07-13
+
+### Discovered
+Steve feedback 2026-07-12 (collected via steve_digest.py / Web3Forms email)
+
+### Description
+
+Stories about corporate dishonesty lists, fraud convictions, and regulatory blacklists were appearing in the WS1 brief. These items are typically low-relevance for the international CEO audience of China Business Daily and represent regulatory compliance enforcement noise rather than material macro or market intelligence.
+
+### Resolution
+
+The ws1_optimizer.py nightly self-improvement loop (runs 21:00 Asia/Shanghai) processed Steve's feedback and appended an editorial exclusion rule to `cbiz_style.md` automatically on the July 12–13 overnight run. The July 13 brief contained no such stories, confirming the rule is effective. No manual code change was required.

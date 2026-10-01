@@ -1,0 +1,333 @@
+OPENCLAW — ARCHITECTURE PHILOSOPHY & LAYERING STRATEGY  
+(Search Layer vs. ChatGPT Layer)
+
+---
+
+## 🎯 PURPOSE OF THIS DOCUMENT
+
+This document explains:
+
+1. The architectural philosophy of OpenClaw  
+2. The separation between the **Search (Retrieval) Layer** and the **ChatGPT (Reasoning/Control) Layer**  
+3. Why the system is being built in this sequence  
+4. Why this approach is strategically superior for long-term scalability, reliability, and quality  
+
+This is intended for expert review and validation.
+
+---
+
+## 🧠 CORE ARCHITECTURAL PRINCIPLE
+
+> **Separate Retrieval from Reasoning**
+
+OpenClaw is built on a strict separation:
+
+- **Search Layer (Retrieval System)** → responsible for gathering, filtering, and structuring information  
+- **Agent Layer (LLM — currently Kimi, later also ChatGPT)** → responsible for interpreting and synthesizing information  
+- **Control Layer (future ChatGPT integration)** → responsible for orchestration, diagnostics, and system interaction  
+
+---
+
+## 🏗️ SYSTEM STRUCTURE (CURRENT)
+
+### Production Pipeline
+
+Trigger (cron / webhook)  
+→ Retrieval Orchestrator  
+→ Structured Data Package  
+→ Agent (Kimi)  
+→ Relay  
+→ Lark Output  
+
+---
+
+## 🔍 LAYER DEFINITIONS
+
+### 1. SEARCH LAYER (RETRIEVAL ENGINE)
+
+Owned by: Orchestrator
+
+Components:
+- Query Builder
+- Brave Executor
+- Baidu Executor (currently stub)
+- Normalization
+- Deduplication
+- Filtering
+- Conflict Detection
+- Package Builder
+
+Responsibilities:
+- Generate queries
+- Retrieve raw data
+- Clean and normalize data
+- Remove duplicates
+- Filter for relevance and quality
+- Output structured, validated information
+
+Constraints:
+- No interpretation
+- No narrative generation
+- No “thinking”
+
+---
+
+### 2. AGENT LAYER (LLM — CURRENTLY KIMI)
+
+Responsibilities:
+- Interpret structured data
+- Generate:
+  - Executive Take
+  - Advisory Layer
+  - LinkedIn Draft
+- Maintain strict evidence discipline
+
+Constraints:
+- No browsing
+- No retrieval
+- No hallucinated sourcing
+- No external context beyond input package
+
+---
+
+### 3. CONTROL LAYER (FUTURE — CHATGPT)
+
+Planned Responsibilities:
+- System orchestration
+- Diagnostics
+- Debugging assistance
+- Document updates
+- Operator interface
+- Possibly workflow automation
+
+Important:
+- ChatGPT will NOT own retrieval
+- ChatGPT will NOT replace the orchestrator
+- ChatGPT will sit **above** the system, not inside the retrieval loop
+
+---
+
+## 🧠 CURRENT SYSTEM STATE
+
+Completed:
+
+- Architecture design
+- Orchestrator build
+- Agent integration (offline)
+- Full production integration
+- Cron-based automation
+- Output delivery to Lark
+
+System is now:
+
+✔ Fully automated  
+✔ Deterministic  
+✔ Modular  
+✔ Retrieval-driven (not prompt-driven)
+
+Remaining (Phase 5.5):
+
+- Restore LinkedIn Draft
+- Output refinement
+- Baidu optimization (currently stub/partial)
+
+---
+
+## ⚖️ KEY DESIGN DECISION
+
+### Question:
+Should ChatGPT be integrated now to help improve the system (including Baidu)?
+
+### Answer:
+**No — ChatGPT should be integrated AFTER retrieval stabilization.**
+
+---
+
+## 🔥 RATIONALE FOR CURRENT SEQUENCING
+
+### 1. Retrieval Quality is the Foundation
+
+If retrieval is weak:
+- The agent produces weak output
+- No LLM (including ChatGPT) can fix missing or poor data
+
+Therefore:
+
+> Improve the **engine** before adding a **control layer**
+
+---
+
+### 2. Architectural Separation Enables Safe Iteration
+
+Because retrieval is isolated:
+
+- Baidu can be improved independently
+- Query logic can be refined without affecting agent behavior
+- Filtering can be tuned without touching output logic
+
+This dramatically reduces system risk.
+
+---
+
+### 3. Avoid Layer Contamination
+
+If ChatGPT is added too early:
+
+Risks:
+- Retrieval logic may drift into prompt engineering
+- Debugging becomes ambiguous (is it retrieval or ChatGPT?)
+- System loses determinism
+- Harder to isolate failures
+
+---
+
+### 4. Deterministic System First, Adaptive System Later
+
+Current system:
+
+- Deterministic
+- Traceable
+- Modular
+
+ChatGPT introduces:
+
+- flexibility
+- abstraction
+- non-determinism
+
+Correct order:
+
+1. Build deterministic system  
+2. Validate and stabilize  
+3. Add adaptive control layer  
+
+---
+
+### 5. Clean Debugging & Observability
+
+Without ChatGPT:
+
+- Each layer is inspectable
+- Failures are traceable
+- Data flow is transparent
+
+With ChatGPT added too early:
+
+- Debugging becomes indirect
+- Root cause analysis becomes harder
+- System behavior becomes less predictable
+
+---
+
+## 🔍 BAIDU CASE STUDY (WHY THIS APPROACH MATTERS)
+
+Current situation:
+
+- Baidu executor exists but is stub/partial
+- Baidu results are often not retained after filtering
+- Output is Brave-dominant
+
+Why this is correct:
+
+- The system enforces quality at the retrieval layer
+- Weak Baidu results are correctly discarded
+
+If ChatGPT were added now:
+
+- It could help suggest improvements
+- But it would NOT fix:
+  - weak queries
+  - poor normalization
+  - filtering losses
+
+Therefore:
+
+> Baidu must be fixed **at the retrieval layer**, not at the reasoning layer
+
+---
+
+## 📊 BENEFITS OF THIS ARCHITECTURE
+
+### 1. Modularity
+Each layer can evolve independently.
+
+### 2. Scalability
+New sources (Baidu, Sogou, etc.) can be added without rewriting the system.
+
+### 3. Reliability
+Failures are isolated and diagnosable.
+
+### 4. Quality Control
+Only validated data reaches the agent.
+
+### 5. Future Flexibility
+ChatGPT can later:
+- orchestrate
+- monitor
+- optimize
+
+without breaking the system.
+
+---
+
+## 🚀 FUTURE STATE (TARGET)
+
+### After Phase 5.5 (Near Term)
+
+- Stable output format
+- Baidu contributing meaningful results
+- Clean signal layer
+- Deterministic system behavior
+
+---
+
+### After ChatGPT Integration (Later Phase)
+
+System becomes:
+
+- Self-monitoring
+- Easier to operate
+- Faster to iterate
+- More user-friendly
+
+But still:
+
+- Retrieval remains external
+- Orchestrator remains authoritative
+
+---
+
+## 🧭 FINAL POSITION
+
+The current approach:
+
+- builds retrieval first  
+- stabilizes output  
+- then adds ChatGPT  
+
+is:
+
+✔ Architecturally correct  
+✔ Lower risk  
+✔ More scalable  
+✔ Easier to debug  
+✔ Better for long-term system quality  
+
+---
+
+## 🧠 SUMMARY
+
+> OpenClaw is intentionally designed as a **retrieval-first intelligence system**, not a prompt-driven system.
+
+ChatGPT is:
+
+- a future control layer  
+- not the core engine  
+
+And therefore:
+
+> The system must be stable and retrieval-accurate before ChatGPT is introduced.
+
+---
+
+END

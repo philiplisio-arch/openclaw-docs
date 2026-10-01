@@ -1,0 +1,24 @@
+Our recent conversation focused on how to substantially increase your Chinese media and social media inputs for OpenClaw while keeping costs near zero. You are looking for a way to make the "Signal Layer" more valuable without paying for expensive, gated enterprise APIs.
+
+The options we discussed fall into three categories:
+
+### 1. The "Open-Source Bridge" (RSSHub)
+This was the primary recommendation for a "high-ROI" upgrade.
+* **What it is:** RSSHub is an open-source generator that turns almost any Chinese site (WeChat Official Accounts, Weibo, Bilibili, Zhihu) into a standard data feed.
+* **How it helps you:** It bypasses the need for expensive official APIs. You can run it on your own VPS for **$0**, and it provides a steady stream of data from the exact accounts you want to monitor.
+* **Implementation:** We estimated a **1–3 hour setup time**. You can run it on the same VPS as OpenClaw using Docker, and use a browser extension (RSSHub Radar) to "discover" and add new Chinese sources in seconds.
+
+### 2. The "Discovery Hack" (DeepSeek + Specialized Actors)
+Instead of searching "blindly," we discussed using a cheaper, smarter "Discovery Layer."
+* **DeepSeek/Qwen for Strategy:** Because Chinese LLM APIs are currently in a price war (up to 90% cheaper than Western models), you can use them as a "Search Router." You ask the model what is trending on Weibo *first*, then have your system go fetch those specific URLs.
+* **Apify Actors:** For deep dives into platforms like **Xiaohongshu (Red)** or **Weibo**, we identified "Actors" (pre-built scrapers) that cost as little as $1 per 1,000 posts. This is significantly cheaper than a monthly SaaS subscription like Meltwater.
+
+### 3. Architectural "Feeding"
+We reviewed how this fits into your existing **Foundation Doc** and **Architecture Map**:
+* **The Moat:** By adding these sources, you are strengthening your competitive advantage: the ability to bridge the gap between Chinese-native insights and Western PR strategy.
+* **Stability First:** We agreed that while these new sources are valuable, they should be added only after you finish **Phase 5.6 (Execution Stabilization)** to ensure the system doesn't "choke" on the new volume of data.
+
+**Summary of Next Steps:**
+1.  **Host RSSHub** on your VPS (using the Docker config provided).
+2.  **Add a `sources.json`** to your Orchestrator to begin polling specific high-value WeChat/Weibo handles.
+3.  **Maintain Phase Discipline:** Ensure your "Agent Contract" still holds—the LLM should only see the *structured* output from these new sources, not the raw feeds.

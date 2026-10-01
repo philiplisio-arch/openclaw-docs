@@ -1,0 +1,113 @@
+OPENCLAW — FEEDBACK MEMO
+
+To:   Workflow Overhaul Memo — author
+From: Reviewer
+Date: 2026-06-06
+Re:   Suggested Workflow Overhaul — Feedback for Revision
+
+───────────────────────────────────────────────────────────
+
+The memo is strong. The five-layer framework is the right conceptual
+model, the diagnosis is correct, and the governance rules in Section 9
+are clear and actionable. The following six points should be addressed
+before the memo is finalized and used as the basis for implementation.
+
+───────────────────────────────────────────────────────────
+
+1. GATE STREAK — THE MOST CONSEQUENTIAL DECISION IS UNDERSPECIFIED
+
+Section 5A states that a delivery should count as clean only if the
+operator confirms claim support and usefulness — not merely because the
+validator passed. That is the right call. However, the memo does not
+say what happens to the current gate streak, which stands at 3 of 10.
+
+Before this memo is circulated, one of the following positions should
+be stated explicitly:
+
+  • The streak resets to zero and restarts under the new definition.
+  • The streak holds at 3 and continues under the new definition from
+    the next delivery forward.
+  • The streak is suspended pending review of D13–D15 against the new
+    standard.
+
+Leaving this implicit will create ambiguity when D18 is reviewed.
+
+───────────────────────────────────────────────────────────
+
+2. LAYER 4 IS ADV-015 — REFERENCE IT EXPLICITLY
+
+The Claim Support Check described in Layer 4 and Step 4 is the problem
+that ADV-015 was raised to address. Option D (manual spot-check) is
+already active. Option B (automated alignment check) spec is pending.
+
+The memo should reference ADV-015 so that readers understand this layer
+already has an advisory, an approved manual control, and an automation
+spec in progress. Without that reference, the memo implies the work is
+entirely new — risking re-derivation rather than completion of the
+existing spec.
+
+───────────────────────────────────────────────────────────
+
+3. LAYER 3 OVERLAPS WITH EXISTING DEPLOYED WORK — ACKNOWLEDGE IT
+
+The Source Quality Check in Layer 3 overlaps with two bodies of work
+already in place:
+
+  • ADV-014: domain exclusion and snippet quality floor — Layer 1
+    deployed; Layer 2 approved this session.
+  • CP-020: source taxonomy and freshness labels — deployed in
+    build_agent_input_slim.py.
+
+The memo should clarify that Layer 3 builds on this existing work
+rather than replacing it, and that the source category definitions
+proposed should be reconciled with the CP-020 taxonomy already in use.
+
+───────────────────────────────────────────────────────────
+
+4. SECTION 5C CHANGES THE BROWSER PHASE 1 OBJECTIVE — STATE THE CHANGE
+
+The memo redirects Full Article Retrieval from its original mandate
+(signal-widening research track, authorized 2026-05-20) to a trust
+verification support role. That is a sensible reorientation.
+
+However, the memo does not acknowledge that this changes the objective.
+The Days 8–11 scope — CCTV networkidle re-test, Reuters/Bloomberg
+stealth UA attempt — was designed for the signal-widening mandate. If
+the objective is now claim verification support, the remaining Phase 1
+work should be re-scoped accordingly. The memo should state this
+explicitly rather than leaving the scope change implicit.
+
+───────────────────────────────────────────────────────────
+
+5. DASHBOARD REDESIGN — CLARIFY SCOPE
+
+Section 6 proposes a dashboard reorganized around operator decisions.
+The Board Dashboard (OPENCLAW_Board_Dashboard.html) was created
+2026-06-02 and is the current live document.
+
+The memo should clarify whether Section 6 proposes an evolution of
+that document or a replacement. If a replacement, the new sections
+(Where We Stand, Today's Trust Status, Workstream Status, etc.) should
+be mapped to a change packet so Claude Code can implement them in a
+defined session.
+
+───────────────────────────────────────────────────────────
+
+6. THE MEMO NEEDS A DOCUMENT ID TO CARRY GOVERNING AUTHORITY
+
+The memo is directionally correct and CEO-level in scope, but it
+currently has no document ID. That means it sits outside the project's
+governing structure and could be bypassed in a technical session that
+references only advisories and change packets.
+
+Recommended: issue as ADV-016, or trigger an Operating Protocol update
+(v2.8) that incorporates the five-layer model and new clean-delivery
+definition as governing standards. Either path gives the memo binding
+authority over the workflow.
+
+───────────────────────────────────────────────────────────
+
+None of the above changes the core recommendation. Revise on these six
+points and issue with a document ID. Implementation can begin once the
+gate streak decision (Point 1) and the ADV-015/Layer 4 mapping
+(Point 2) are confirmed in the final version.

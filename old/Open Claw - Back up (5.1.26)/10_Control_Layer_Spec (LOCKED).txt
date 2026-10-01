@@ -1,0 +1,132 @@
+# OPENCLAW — CONTROL LAYER SPEC
+
+## PURPOSE
+
+Define how the system evaluates execution success vs output validity
+and determines whether output should be delivered.
+
+This layer sits BETWEEN:
+
+→ orchestrator execution
+→ delivery to Lark
+
+---
+
+## CORE PRINCIPLE
+
+Execution success ≠ Output validity
+
+The system must evaluate output independently of process exit code.
+
+---
+
+## INPUTS TO CONTROL LAYER
+
+1. orchestrator_exit_code
+2. output_files:
+
+   * agent_output.txt
+   * enrichment_output.txt
+3. structural_checks:
+
+   * required sections present
+   * non-empty content
+   * valid formatting
+
+---
+
+## STRUCTURAL COMPLETENESS RULE
+
+Output is considered structurally complete if:
+
+✔ EXECUTIVE TAKE exists
+✔ ADVISORY LAYER exists
+✔ content length exceeds minimum threshold
+✔ no truncation detected
+
+---
+
+## DECISION MATRIX
+
+### Case 1 — exit_code = 0 AND output complete
+
+→ status: SUCCESS
+→ action: deliver
+
+---
+
+### Case 2 — exit_code ≠ 0 AND output complete
+
+→ status: RECOVERABLE
+→ action: deliver with warning
+
+Log:
+
+* [WARN] recovered from non-zero exit
+
+---
+
+### Case 3 — exit_code = 0 AND output incomplete
+
+→ status: FAILURE
+→ action: DO NOT deliver
+
+---
+
+### Case 4 — exit_code ≠ 0 AND output incomplete
+
+→ status: FAILURE
+→ action: DO NOT deliver
+
+---
+
+## DELIVERY RULE
+
+Output is delivered ONLY if:
+
+→ structural completeness = true
+
+Exit code alone must NEVER block delivery.
+
+---
+
+## LOGGING REQUIREMENTS
+
+Each run must log:
+
+* orchestrator exit code
+* structural completeness result
+* recovery decision
+* delivery result (HTTP code)
+
+---
+
+## FAILURE VISIBILITY RULE
+
+If output is not delivered:
+
+→ reason must be logged explicitly
+
+No silent suppression allowed.
+
+---
+
+## RELATION TO PHASE 6
+
+This layer becomes input to:
+
+→ Validator Layer (6.1)
+→ Delivery Gate (6.2)
+
+Validator will extend this logic, not replace it.
+
+---
+
+## FINAL PRINCIPLE
+
+The system delivers truth when possible,
+and refuses delivery when truth cannot be established.
+
+---
+
+END
